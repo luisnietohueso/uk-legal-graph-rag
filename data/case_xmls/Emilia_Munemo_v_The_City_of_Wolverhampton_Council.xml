@@ -1,0 +1,1529 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcc/2025/4"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcc/2025/4"/>
+	  <FRBRdate date="2025-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewcc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="4"/>
+	  <FRBRname value="Emilia Munemo v The City of Wolverhampton Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/4"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/4"/>
+	  <FRBRdate date="2025-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewcc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/4/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/4/data.xml"/>
+	  <FRBRdate date="2025-01-31T09:59:14" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-01-31" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcc" href="https://www.judiciary.uk/courts-and-tribunals/county-court/" showAs="The County Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="emilia-munemo" href="" showAs="EMILIA MUNEMO"/>
+	<TLCPerson eId="the-city-of-wolverhampton-council" href="" showAs="THE CITY OF WOLVERHAMPTON COUNCIL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-grimshaw" href="/judge-his-honour-judge-grimshaw" showAs="HIS HONOUR JUDGE GRIMSHAW"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>4</uk:number>
+	<uk:cite>[2025] EWCC 4</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>11641ed721ab9fd15668fb515e10dac5b580e683b15f4e085fb5973ef26e94eb</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCC 4</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>L00WV567</docketNumber></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">IN THE COUNTY COURT AT WOLVERHAMPTON (SITTING AT WALSALL)</span></p>
+      <p class="CoverText">Walsall County and Family Court</p>
+      <p class="CoverText">Bridge House</p>
+      <p class="CoverText">Bridge Street</p>
+      <p class="CoverText">Walsall</p>
+      <p class="CoverText">WS1 1JQ</p>
+      <p class="CoverText">Date: <docDate date="2025-01-31" refersTo="#judgment">31/1/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-grimshaw">HIS HONOUR JUDGE GRIMSHAW</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#emilia-munemo" as="#appellant" style="font-weight:bold">EMILIA MUNEMO</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#the-city-of-wolverhampton-council" as="#respondent" style="font-weight:bold">THE CITY OF WOLVERHAMPTON COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">MR Z NABI </span>(instructed by<span style="font-weight:bold"> Community Law Partnership</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">MISS A CAFFERKEY</span> (instructed by <span style="font-weight:bold">Wolverhampton City Council Legal Services</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 21 &amp; 22 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.00am on 31 January 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HIS HONOUR JUDGE GRIMSHAW</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">His Honour Judge Grimshaw:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Can a person be deemed intentionally homeless when they have obtained a tenancy following misrepresentations made by them to a local housing authority (&#8220;LHA&#8221;) where the LHA subsequently evicts them as a result? That is the central issue in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal brought pursuant to s. 204 Housing Act 1996 (&#8220;the 1996 Act&#8221;).<span style="font-family:'Times New Roman'"> The Appellant appeals against the statutory Review Decision made by the Respondent dated 11 July 2024, which found that the Appellant is intentionally homeless from 87 Thompson Avenue, Parkside, Wolverhampton (&#8220;the Property&#8221;) and upheld the Respondent&#8217;s initial decision dated 15 September 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Counsel informed me during the hearing that this area of housing law is particularly complicated; I tend to agree</span> with that assessment. I heard nearly two days of legal argument, had detailed written submissions provided prior to the hearing and the parties felt it necessary to provide further written submissions to the court following the appeal hearing, despite the same not being requested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are essentially five points for me to consider:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Should the Appellant be permitted to raise a new point within this appeal that was not explicitly raised within correspondence sent on her behalf as part of the statutory review process?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Should the Respondent be permitted to rely on further evidence of the review officer in this appeal?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Was the Appellant intentionally homeless?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Was the review decision flawed as a result of either (a) failing to give appropriate consideration to the issue of whether the Appellant could legally be intentionally homeless and/or (b) failing to give adequate reasons within the review decision letter to address this issue?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">If the review decision was flawed, what is the appropriate remedy?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I will deal with these issues in turn but will first address the parts of the statutory framework concerning the provision of housing to those who are homeless, which the parties agree upon, before moving on to consider the factual background.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The statutory framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The current statutory scheme in England for assistance to be provided to the homeless by LHAs is contained in Part VII of the 1996 Act (as amended). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On an application for assistance under Part VII of the 1996 Act, a LHA is required to make inquiries to determine whether an applicant is &#8216;eligible&#8217; and then, if she is, next determine what duty (if any) is owed to her (s. 184(1)(b) of the 1996 Act).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What duty (if any) is owed to an applicant is identified by the LHA satisfying itself as to three statutory concepts, namely whether the applicant:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Is &#8216;homeless&#8217; or &#8216;threatened with homelessness&#8217; (s. 175 of the 1996 Act), </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Has a &#8216;priority need&#8217; (s. 189 of the 1996 Act); and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">&#8216;Became homeless intentionally&#8217; (s. 191 of the 1996 Act).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The definition of homelessness is set out at s. 175<span style="font-style:italic"> </span>of the 1996 Act as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">175 Homelessness and threatened homelessness.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person is homeless if he has no accommodation available for his occupation, in the United Kingdom or elsewhere, which he&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.12in;text-indent:0.38in">is entitled to occupy by virtue of an interest in it or by virtue      of an order of a court,</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.62in">has an express or implied licence to occupy, or</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.12in;text-indent:0.38in">occupies as a residence by virtue of any enactment or rule of law giving him the right to remain in occupation or restricting the right of another person to recover possession.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">[&#8230;]</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person shall not be treated as having accommodation unless it is accommodation which it would be reasonable for him to continue to occupy.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the exercise of functions relating to homelessness and prevention of homelessness, a LHA shall have regard to such guidance as may be given by the Secretary of State (s. 182 of the 1996 Act).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the LHA has reason to believe that an applicant may be homeless or threatened with homelessness, it is under a mandatory duty to <span style="color:#000000">immediately</span> commence inquiries to determine what duty, if any, it might owe to the applicant under Part VII (s. 184(1) of the 1996 Act). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On <span style="color:#000000">completing</span> their inquiries, the LHA is under a duty to notify the applicant of their decision in writing, provide reasons for the same and notify the applicant of the right to review (ss. 184(3), (5) and (6) of the 1996 Act). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When considering whether someone has become homeless intentionally, the definition of &#8216;intentionally&#8217; does not have its normal dictionary meaning in these contexts. It has a very tightly prescribed statutory meaning because, in the ordinary use of language, an applicant's homelessness is very often brought about not by an intentional act of the applicant, but rather by the intentional act of another party (such as a landlord, parent or court bailiff) who has deliberately ejected the applicant. As Lord Lowry stated in the decision of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Din v Wandsworth London Borough Council</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [1983] 1 AC 657, HL</span>, referring to an earlier Housing Act containing the same definition of &#8216;becoming homeless intentionally&#8217;:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;No one really becomes homeless or threatened with homelessness intentionally; the word is a convenient label to describe the result of acting or failing to act as described in [the Act]&#8221; (at 679).</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 191(1) of the 1996 Act states that a person becomes homeless intentionally if he deliberately does or fails to do anything in consequence of which she ceases to occupy accommodation which is available for him to continue to occupy.  For the purposes of s.191(1), an act or omission in good faith on the part of the person who was unaware of any relevant fact shall not be treated as deliberate (s. 191(2) of the 1996 Act).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue of intentionality is therefore an important one and, as might be expected, there is a considerable body of judicial authority dealing with the various aspects of the statutory regime, to which I will return below. As observed by Lord Reed JSC in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Haile v Waltham Forest LBC </span><span style="text-decoration-line:underline;text-decoration-style:solid">[2015] UKSC 34; [2015] HLR 24</span>:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;the requirement in section 193(1), and its statutory predecessors, that the authority must not be satisfied that the applicant became homeless intentionally has caused difficulties of interpretation, linked to difficulties in construing the meaning of &#8220;homelessness&#8221;. The purpose of the requirement is however not difficult to discern. As was explained by Lord Lowry in <span style="font-style:italic">Din</span> [1983] 1 AC 657, 679, and as counsel for the appellant emphasised in the present case, it is designed to prevent &#8220;queue jumping&#8221; by persons who, by intentionally rendering themselves homeless, would (in the absence of such a provision) obtain a priority in the provision of housing to which they would not otherwise be entitled&#8221; (at [22]).</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant was born in Zimbabwe and arrived in the UK in 2001 when she was aged 21. Her household consists of herself and her three children who are currently aged 19, 18 and 3 years of age. The Appellant alleges that she is the victim of serious domestic abuse. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As will be addressed further below, the Appellant applied for a tenancy with Birmingham City Council and, on or around 10 January 2011, she was granted a secure tenancy for Flat 5, Mapledene Road, Birmingham (&#8220;the Flat&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant history with regards to the Appellant&#8217;s application to the Respondent can be summarised as follows:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On or about 13 January 2020, the Appellant applied to the Respondent for accommodation as homeless. She stated that she had been asked to leave her partner&#8217;s property, an address in Hobgate Road, Wolverhampton, because it was too small for them and their respective children. The Appellant completed the Wolverhampton Homes Homeless Application Form that same day. She gave a five year address history which did not refer to the Flat, and said that she had never been a council tenant. She signed a declaration which stated that if she had provided incorrect information, Ground 5, Schedule 2 of the Housing Act 1985 would enable the Respondent to seek possession.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 9 March 2020 the Appellant was granted the introductory tenancy of the Property by the Respondent. The Appellant became a secure tenant after the expiry of the introductory period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In around March 2021, the Respondent became aware that the Appellant was holding two council tenancies.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 14 June 2021 the Respondent served the Appellant with a notice seeking possession of the Property, relying on Ground 5 of Schedule 2 to the Housing Act 1985 (tenancy obtained by false statement).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having confirmed that the tenancy for the Flat was continuing, on 26 October 2021, the Respondent issued possession proceedings against the Appellant, asserting that it had been induced to grant her the tenancy of the Property as a result of the Appellant making false statements and not disclosing that she was the council tenant of the Flat. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the possession proceedings, the Appellant denied that she had failed to disclose her tenancy of the Flat, and denied that her statement that she had never been a council tenant was false. Essentially, her case was that she had not knowingly misstated her position, she had not committed fraud, whether she had committed fraud or not she was genuinely homeless when she applied to the Respondent because she had nowhere else to live, and, in any event, it was not reasonable to order possession. In other words, the Appellant maintained her entitlement to the Property, and that it would be reasonable for her to continue to occupy the Property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The possession order was made at trial on 11 October 2022 by Deputy District Judge Sharp. The Appellant did not attend. The Judge found that Ground 5 was proved and that it was reasonable to make a possession order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By application dated 18 October 2022 the Appellant applied to set aside the possession order. On 4 January 2023 the Appellant&#8217;s application to set aside the possession order was dismissed by District Judge O&#8217;Hagan.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 20 March 2023 the Appellant&#8217;s application for eviction to be suspended was dismissed. She was evicted from the Property on 21 March 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant made a further homeless application to the Respondent on 20 March 2023. Temporary accommodation was provided by the Respondent at an address in Wednesfield.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By letter dated 15 September 2023, the Respondent notified the Appellant that it considered her to be intentionally homeless from the Property, because she had fraudulently obtained the tenancy of the Property from Wolverhampton Homes, whilst maintaining a council tenancy in Birmingham. The officer concluded that the Property had been reasonable for the Appellant to continue to occupy and that it was her last settled accommodation. Neither of these conclusions were challenged on review (or, indeed, in the two previous statutory appeals). The review representations focussed on the questions as to whether the Appellant&#8217;s conduct was deliberate and whether she had acted in good faith whilst unaware of a relevant fact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 October 2023, the Appellant requested a review of this decision. By letter dated 30 October 2023, the Respondent notified the Appellant that it had upheld its original intentionality decision on review.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant brought an appeal under s. 204 of the 1996 Act against the review decision of 30 October 2023. The Respondent conceded that appeal, withdrew the review decision and agreed (by way of the Order dated 8 February 2024) to notify a new review decision. Further detailed representations on review were submitted on the Appellant&#8217;s behalf on 26 February 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent sent a &#8216;minded to find&#8217; letter dated 10 April 2024. The Appellant submitted further representations on review in a letter dated 2 May 2024. On 13 May 2024, the Respondent wrote confirming that further lines of inquiry would be undertaken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A &#8216;default appeal&#8217; was issued against the original decision of 15 September 2023 on 19 June 2024 on the basis that the Respondent had not completed its review in time. The Grounds in that appeal were (i) inquiries, (ii) failure to consider relevant matters, (iii) misdirection as to law because the Respondent had not considered whether it was reasonable for the Appellant to continue the accommodation on the basis that this would lead to domestic violence, (iv) breach of the public sector equality duty and the Children Act 2004, (v) that the s.184 letter did not set out adequate reasons but was a template document, and (vi) irrationality.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent sent a further &#8216;minded to find&#8217; letter on 20 June 2024. On 4 July 2024, the Appellant&#8217;s solicitors submitted further representations in support of the review. New assertions were made that it was not the Appellant who had completed the Homelessness Application Form but a housing officer, and that there was nothing in the form which indicated that she had expressly given false information, and that the only wrong information had been provided by the housing officer. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent produced its Review Decision dated 11 July 2024. This led to the default appeal being rendered academic and the present appeal being issued. The Respondent produced a long and detailed Review Decision, amounting to some 30 pages, signed off by Anthony Walker, Head of Homelessness and Migration at the Respondent. For the purposes of this appeal, it is necessary only for me to deal with Mr Walker&#8217;s findings in relation to intentional homelessness. It is also worth noting that the Appellant does not challenge the factual findings on appeal. Mr Nabi was clear that his client did not necessarily accept the findings that had been made by Mr Walker, but conceded that the findings were not irrational or otherwise susceptible to appeal. Consequently, for the purposes of this appeal, I accept the factual findings made by the Respondent. Those factual findings can be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Appellant had deliberately provided false and inaccurate information when she made her homeless application in January 2020 in that she had stated that she had never held a council tenancy previously, and had failed to mention the Flat.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">This had led the Respondent to grant her a tenancy of the Property.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">As a result of her act/omission, which amounted to obtaining a tenancy by deception, the Appellant was subsequently evicted from the Property, which was available accommodation.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Property was reasonable for the Appellant&#8217;s continued occupation.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present appeal was issued on 31 July 2024. Initially nine Grounds of Appeal were raised. In the eighth Ground, under &#8220;Reasons&#8221;, it was said that the Respondent had failed to explain why the Property was the Appellant&#8217;s last settled accommodation, or why the loss of it was the effective cause of her homelessness where, on the Respondent&#8217;s case, she had never been &#8216;entitled&#8217; to occupy the property, and why it was reasonable for her to continue to occupy. The Amended Grounds of Appeal have largely abandoned all but one of the earlier Grounds and now focus on the issue as to whether it was reasonable for the Appellant to continue to occupy the Property and thus whether she is intentionally homeless.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issue 1: Should the Appellant be permitted to raise a new argument within this statutory appeal that was not raised during the review process</span></p>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Summary of the parties&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is the Respondent&#8217;s position that there has been a protracted review process in this case, including the Respondent sending two very detailed &#8216;minded to find&#8217; letters, and the Appellant has failed to raise the argument as to whether the Property was reasonable for her to continue to occupy until the present appeal. The Respondent argues that it is too late for that argument to be raised now and that there have been a number of Court of Appeal housing decisions over the years which have repeatedly made the point that the Court should not allow an appeal against the decision of a LHA on the basis of a point that was only raised in the appeal proceedings but not with the LHA during the review process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I was taken to the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp v Hastings BC; Phillips v Camden LBC </span><span style="text-decoration-line:underline;text-decoration-style:solid">[2005] HLR 48,</span> where Brooke LJ said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;As I have shown, the review procedure gives the applicant and/or another person on his behalf the opportunity of making representations about the elements of the original decision that dissatisfy them&#8230;In <span style="font-style:italic">Surdonja v Ealing LBC </span>[2002] 1 All ER 597, 607, Henry LJ described &#8220;review&#8221; as the appropriate word for the act of submitting for examination and revision an inquisitorial administrative decision affecting the applicant&#8217;s most basic rights. Given the full scale nature of the review a court whose powers are limited to considering points of law should now be even more hesitant [about intervening] than the High Court was encouraged to be at the time of <span style="font-style:italic">Ex p Bayani </span>if the appellant&#8217;s ground of appeal relates to a matter which the reviewing officer was never invited to consider, and which was not an obvious matter&#8230;&#8221; (at [14]).</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent highlights that the Homelessness (Suitability of Accommodation) Order 1996/3204 and The Homelessness (Suitability of Accommodation) (England) Order 2012 both specifically set out the matters to be taken into account when determining whether it would be, or would have been, reasonable for a person to continue to occupy accommodation. These Orders focus on financial, location and physical suitability considerations, rather than the legal consideration that has arisen in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent argues that there is no distinction to be drawn between issues of law and issues of fact; indeed, to have such a distinction would undermine the review process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I was also taken to the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge v Ealing LBC </span><span style="text-decoration-line:underline;text-decoration-style:solid">[2023] EWCA Civ 464; [2023] HLR 35</span>, which the Respondent relied upon to assert that the principle set out in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp</span> applied with particular force where an applicant is represented by solicitors, especially if they are experienced solicitors. It was also held that a review process had to be fair, not only for the applicant, but also for the LHA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It should be noted, however, that Snowden LJ stated at [27] in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span> that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Under section 204 of the Act, an applicant who has requested a review under section 202 and is dissatis&#64257;ed with the review decision may appeal to the County Court on <span style="font-weight:bold">any point of law arising from the review decision</span>.&#8221; (emphasis added)</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, the Respondent argues that the Court cannot sensibly permit the argument to be raised unless the Appellant admits the factual basis on which it is pursued. A review decision is not an exercise in theoretics; it is a decision on the basis of the case put forward by the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The thrust of the Appellant&#8217;s submissions went to the point that questions of law do not need to be raised by an applicant with the review process as the review process is inquisitorial in nature. The legal consequences that flow from findings of fact made by the LHA are a matter for the LHA. This is particularly so where the process is there to perform a review at the request of an applicant who may not be legally represented. The burden of making inquiries as to intentionality rests with LHA. It is not for the applicant to prove his or her case, and satisfy the LHA that he or she did not become homeless intentionally.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Nabi submitted that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp</span> addresses the situation where an applicant does not raise a <span style="font-style:italic">factual</span> matter, and the matter is not obvious, and thus one cannot criticise a LHA for not making inquiries into that matter. It can therefore, at least to a degree, be distinguished. In this regard, I note that Brooke LJ (at [3] of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp</span>) identified that the &#8220;<span style="font-style:italic">critical issue</span>&#8221; in the cases before the Court of Appeal &#8220;<span style="font-style:italic">turned on the sufficiency of the inquiries made by the local housing authorities both at the initial decision stage and at the review stage</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Nabi directed me to the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">O'Connor v Kensington and Chelsea Royal London Borough Council</span><span style="text-decoration-line:underline;text-decoration-style:solid">, [2004] EWCA Civ 394, [2004] HLR 37</span>, which he argued confirms that a LHA, when considering the question of whether the applicant had become homeless intentionally, should consider whether the applicant had been unaware of a relevant fact in good faith, regardless of whether this latter point had been raised by the applicant. Mr Nabi specifically relies on [35] of the judgment, where Sedley LJ stated that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;Mr McDougall&#8217;s decision letter, careful and moderate as it is, contains a broad judgment which does not address the serial questions posed by s.191(1) and (2). While the initial review letter from the O&#8217;Connors&#8217; solicitors to the council shared this approach, their follow-up letter, as Waller L.J. points out (though Mr Arden did not), raised precisely the statutory questions which needed to be but were not addressed. But my own respectful view is that the obligation on the council was the same regardless of this eventuality.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dealing first with the Respondent&#8217;s argument that the Appellant must admit the factual basis of the findings that the Respondent made before she can argue the particular legal point that she does in this appeal, I reject that submission. There is a difference between the Appellant admitting that the Respondent&#8217;s factual findings are correct on the one hand and accepting that the factual findings are not amenable to appeal within this s. 204 appeal process on the other. In circumstances where, as in the present case, the Appellant does not feel that she can challenge such factual findings on appeal, it does not mean that she is taken to admit those factual findings, nor does she have to. The Appellant can properly argue that, on the basis of the factual findings reached by the Respondent, which are not challenged on appeal, the Property was not reasonable for her to continue to occupy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Second, I agree with Mr Nabi that the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp</span> was focused on the issue as to the adequacy of the inquiries undertaken by the LHA, particularly in relation to medical matters, as can be seen from [57] and [58] of Brooke LJ&#8217;s judgment. The situation in the present case is different. The criticism made of Mr Walker&#8217;s decision in the present case is the failure to give proper consideration to the <span style="font-style:italic">legal</span> issue as to whether a person can reasonably continue to occupy accommodation in circumstances where an LHA has reached the conclusion that the person has obtained the tenancy by deception. This is not therefore a situation where the Appellant is seeking to suggest that further inquiries should have been made by the Respondent, or challenging the adequacy of the inquiries undertaken, it is a situation where a new legal argument is taken in the appeal that was not taken within the review process. This is, of course, in the context that the Respondent had to satisfy itself as to whether the Appellant was intentionally homeless as a matter of law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this regard, I note the wording of paragraph 9.5 of the Homelessness Code of Guidance, which states:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is for housing authorities to satisfy themselves in each individual case whether an applicant is homeless intentionally. Generally, it is not for applicants to &#8216;prove their case&#8217;.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present case is also somewhat different to the change of argument that occurred in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>. In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>, the appellant argued on appeal that inadequate searches were made. This, in one sense, was challenging the process undertaken by the LHA and how the LHA evidenced what steps it had taken to find appropriate accommodation for the appellant. In the present case, the challenge is to the Respondent&#8217;s legal analysis of intentional homelessness on the basis of the factual findings that it made. I was taken to nothing in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span> that suggested that I should refuse to hear an appeal on a legal point not taken by the Appellant in the review process. On the contrary, [27] of Snowdon LJ&#8217;s judgment supports that such a point can be taken at the appeal stage. An appeal court must, of course, remain wary about taking an overly nitpicking approach to consideration of a review decision, for the reasons set out in the judgment of Males LJ in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Cafferkey referred me to the relatively recent decision of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Kyle v Coventry City Council</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2023] EWCA Civ 1360; [2024] H.L.R. 7</span>, which did make me pause for considerable thought. The Respondent argues that this case reinforces the broad principle that no distinction should be drawn between the raising of factual as opposed to legal issues. In that case, the appellant challenged the decision of the review officer on the basis that they had not given due consideration to the restrictions placed upon the appellant at a hostel, namely a &#8216;no visitors&#8217; policy and restrictions on smoking within the hostel, and whether this meant that the accommodation was not reasonable for the appellant to continue to occupy. The Court of Appeal held that, whilst the appellant&#8217;s representatives had referred to the &#8216;no visitors&#8217; policy and the restrictions on smoking in the hostel, they had not suggested that those rules meant that it was not reasonable for the appellant to continue to occupy the hostel accommodation; those rules were raised in the context of whether the appellant should have been given further warnings prior to eviction. The Court of Appeal held that it was not incumbent on the review officer to address every potential sub-issue in her decision. The Court of Appeal also confirmed that &#8216;reasonableness&#8217; and &#8216;suitability&#8217; are distinct concepts. Accommodation can be &#8216;suitable&#8217; even though it would not be &#8216;reasonable for a person to continue to occupy&#8217; it (per Newey LJ at [36]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, this case is distinguishable, however, for similar reasons to the cases above. The issue in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Kyle</span> was really one of suitability for the specific appellant, i.e. whether the visitor and smoking rules rendered it &#8216;not reasonable&#8217; to continue to occupy that particular accommodation for that particular appellant. This is a mixed question of fact and law. It is different from the present case as the LHA in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Kyle</span> did not know that the appellant was raising issues about the suitability of the accommodation, for reasons specific to him, as those specific reasons had not been raised within the review process. The LHA did not have the knowledge of the issue, which was personal to him and his wants. In the present case, the issue is whether the Property was, as a matter of law, reasonable to continue to occupy where factual findings were made, and are not challenged (i.e. the suitability of the accommodation is not challenged <span style="font-style:italic">per se</span>). It is not a specific suitability issue raised by this Appellant that is only in the knowledge of the Appellant. To put matters another way, the Respondent did not need the Appellant to raise the present issue to be aware of it; the Respondent needed to consider the relevant legal position once it made the factual findings that it did; the Appellant does not raise any new fact in this appeal that the Respondent was not previously aware of, or indeed anything personal to her that the Respondent would not have already known about.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I was taken to the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Pieretti v Enfield London Borough Council</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2010] EWCA Civ 1104; [2011] PTSR 565</span>, which considered Brooke LJ&#8217;s dicta in light of the precursor provisions of what would now be the public sector equality duty and the need for LHAs to consider whether an applicant is disabled. It is said on behalf of the Respondent that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Pieretti</span> does not assist the Appellant because there is a statutory obligation to take steps to take account of disability, whereas no such statutory obligation exists to consider the intricacies of the law of intentional homelessness within the review process if matters are not raised by the applicant. <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Pieretti</span> is distinguishable on its facts. It was concerned with clarifying Brooke LJ&#8217;s dicta in the specific context of the extent to which inquiries were required in respect of any disabilities that the applicant may have, on the background of the statutory framework concerning disability that was in place at the time. It does not, to my mind, assist either party in their arguments in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect to the two statutory instruments that I was referred to that concern suitability of accommodation, whilst these set out statutory factors for LHAs to consider, they do not, in my judgment, provide an exhaustive list of considerations. These statutory instruments focus on factual matters of suitability, such as the physical condition and location of the accommodation, rather than the legal issues surrounding reasonableness of occupation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Similarly, I am not particularly assisted further by the decision of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R v Sedgemoor District Council ex parte McCarthy</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [1996] 28 HLR 607</span>, which Miss Cafferkey referred me to. This was a decision about the homelessness provisions that pre-dated the regime under the 1996 Act. It also concerned whether consideration as to the suitability of a property was given where the issue of suitability had not been raised by an appellant. For the reasons that I have set out in the preceding paragraphs of this judgment, it seems to me that there is a distinction to be drawn between cases where issues of fact or the need to undertake specific inquiries arise versus cases where issues of law are raised based upon the factual findings made by an LHA during the review process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst the Respondent may well feel that it is rather unfair that an appellant, who they have found has been deceitful, takes one line of argument within a review decision process and then seeks to adopt a different line of attack on the review decision at the appeal stage, with some hesitation, similar to that set out by Waller LJ at [54] of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">O&#8217;Connor</span>, I conclude that this should not act as a bar to the Appellant pursuing this line of argument in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I reach that conclusion on the basis that it must be permissible for an appellant to assert that certain factual determinations ought to be made by the review officer within the review process but then, the review officer having reached factual conclusions that the appellant does not agree with but cannot reasonably challenge, be able to raise a point of law on appeal arising from those factual determinations and the legal consequences of them. To put matters another way, it seems to me that it is incumbent on a review officer to consider the legal ramifications of their findings of fact within the review decision process. Once an appellant receives those factual findings and, in the absence of being able to challenge those factual findings on the grounds of irrationality or otherwise, the appellant must be able on appeal to challenge the legal analysis upon which the LHA bases their review decision following on from the factual findings that the LHA made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where it is alleged that an LHA has failed to make appropriate inquiries or consider specific issues of suitability personal to the individual appellant, one can see why there is reluctance to quash such review decisions where such matters have not been raised within the review process. Afterall, an LHA may not have sufficient knowledge of the issue to prompt the making of such inquiries. In other words, the LHA may not be in as good position as an appellant to know whether inquiries are required about a specific factual issue. However, once the factual basis of a decision is reached, and that is not challenged, the LHA does need to consider the legal implications of those findings. The LHA is in no different position to the appellant when considering those legal implications. There is, in my judgment, a distinction to be drawn between the necessity to raise factual issues (or the need for further inquiries) within the review process and raising issues of law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the present case, it seems that the review officer was cognisant of the need to consider whether the property was reasonable for the appellant to continue to occupy. As such, it was on the review officer&#8217;s &#8216;radar&#8217; that consideration needed to be given to the legal framework surrounding reasonableness of continued occupation. Whilst not explicitly previously raised by the Appellant in this case within the review decision process, the issue of whether an appellant&#8217;s conduct impacts upon whether a property is deemed reasonable to continue to occupy, or indeed whether that appellant is intentionally homeless in circumstances in which their own conduct has caused a local authority or other landlord to seek possession of a property, is a legal issue that requires consideration and is not so nuanced or obscure that it can be said it need not have been considered by the Respondent. On the contrary, it is a matter that ought to have been given consideration. If one takes a step back, it is an obvious (using the phraseology from <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp</span>) question to ask whether somebody who has been evicted against their will from a property, or has obtained a property that they were not entitled to, could reasonably continue to occupy that property. I therefore reject the Respondent&#8217;s argument that this was a nuanced or obscure point that the reviewing officer need not have considered until it was raised by the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst I have permitted the Appellant to run this argument on appeal, my observations above should not be taken to suggest that appellants should be encouraged to run new points on appeal that properly should or could have been raised within the review decision process. The Appellant in this case could (and probably should) have raised these legal points within the review decision process. The Appellant was represented by experienced housing law solicitors and the argument taken now on appeal could have been raised within the review decision process by the Appellant&#8217;s solicitors by simply stating that, &#8220;<span style="font-style:italic">if you find X then the legal argument is Y, but if you find A then the legal argument is B</span>&#8221;. That would have been the most helpful course to have been followed in this case, but that does not mean that the Appellant should be debarred from taking the legal point on appeal. I do not see anything in the authorities addressed above or that I have been referred to that dictates that I should refuse to hear what I consider to be a legitimate ground or argument on appeal just because it was not raised within the review decision process. As such, I do permit the Appellant to raise this issue within this appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issue 2: Application to rely on the witness statement of Anthony Walker</span></p>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Summary of the respective submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent&#8217;s submissions are simple. If the Appellant in this case is permitted to argue a legal point that was not raised within the review process, fairness dictates that the Respondent should be permitted to adduce additional evidence to deal with the newly raised point. The Respondent referred me to the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R v Westminster City Council, ex parte Ermakov</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [1996] 2 All ER 302</span>, arguing that this case falls squarely within the guidance given by the Court of Appeal in that case, in that Mr Walker is simply elucidating, rather than amending, his reasoning. The Respondent further relies on the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>, to which I have already referred. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant does not disagree as to the relevant legal tests that I should consider. Mr Nabi too relied upon the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>, imploring me to take a restrictive and cautious approach to permitting further evidence from Mr Walker, as elucidated in the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Ermakov</span> case. The thrust of his argument was that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span> concerned an issue of fact about whether an LHA could have accommodated the appellant closer to their borough, whereas the present case concerns an issue of law, namely whether the Appellant could be considered intentionally homeless based upon the factual findings made by the Respondent.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R v Westminster City Council, ex parte Ermakov</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [1996] 2 All ER 302</span>, Hutchinson LJ put the matter this way (at p. 315f):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The court can and, in appropriate cases, should admit evidence to elucidate or, exceptionally, correct or add to the reasons; but should, consistently with Steyn LJ&#8217;s observations in <span style="font-style:italic">Ex p Graham</span>, be very cautious about doing so.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have referred myself to Brooke LJ&#8217;s judgment in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cramp</span>, where he stated that (at [71]):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;judges in the County Court need to be astute to ensure that evidential material over and above the contents of the housing file and the reviewing officer&#8217;s decision is limited to that which is necessary to illuminate the points of law that should be relied upon in the appeal, or the issue of what, if any, relief ought to be granted. An undisciplined approach to the admission of new evidence may lead to the danger that the reviewing officer is found guilty of an error of law for not taking into account evidence that was never before her, notwithstanding the applicant opportunity to make representations about the original decision.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>, Snowden LJ, having set out a summary of the relevant principles as considered in the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Berezovsky v Terluk</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2011] EWCA Civ 1534</span>, addressed a situation akin to that before me in this appeal, where the LHA sought to rely on further evidence in circumstances where the appellant had sought to advance new arguments on appeal:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;107.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Ms Screeche-Powell&#8217;s answer to that point was that, as in <span style="font-style:italic">Abdikadir </span>[2022] PTSR 1455, no argument about non-compliance with section 208(1) of the Act had been made at the review stage, that the focus of the Court of Appeal is on whether the review decision was correct, and that, as Lewison LJ had indicated at para 41, if a challenge on appeal is based on a ground not advanced in the course of review, the authority must be entitled to defend itself against that challenge. In <span style="font-style:italic">Abdikadir</span>, that approach justi&#64257;ed the Court of Appeal admitting evidence of the Council&#8217;s TA Acquisitions Policy.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>108.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I agree with Ms Screeche-Powell on this point. Although it could be said that the Council should not be given two chances to get its tackle in order, one on appeal in the County Court and the second in this court, I am (just) persuaded that this would be unfair. Unlike the position in <span style="font-style:italic">Abdikadir </span>in which the applicant&#8217;s solicitors did ask the Council prior to the appeal proceedings what it had done to comply with section 208(1), in the instant case no such inquiries were made, and the focus of Ms Moge&#8217;s appeal to the County Court was very much on other points, including whether Ms Moge had in fact rejected the o&#64256;er of the Flat and whether she had wrongly been classi&#64257;ed as not qualifying for accommodation in Ealing itself. The issue of compliance with section 208(1) in relation to an out-of-borough placement was therefore not at the forefront of the appeal before the Judge in the same way as it is on the appeal in this court.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having permitted the Appellant to raise this new line of argument on the Review Decision within this appeal, it seems to be to be a matter of procedural fairness that the Respondent should be entitled to produce limited additional evidence by way of a witness statement dealing with the Review Decision and the rationale for a particular decision reached which addresses the new point taken within the appeal. In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Moge</span>, the Court of Appeal permitted the LHA to adduce further evidence in similar, albeit not identical, circumstances to the present case. Indeed, that was a second appeal, yet the LHA was still permitted to adduce further evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst there is some strength in Mr Nabi&#8217;s submission that the Court&#8217;s discretion should be exercised differently when new issues of law are raised as opposed to new factual issues, the authorities that I have been referred to do not prevent me from giving permission for such evidence in these circumstances. I do accept that the Court has to be cautious to prevent such evidence going further than elucidation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I therefore give permission for the Respondent to rely on the further statement from Mr Walker for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">First, <span style="font-style:italic">agreed</span> directions were put before Her Honour Judge Saira Singh which permitted the Respondent to serve further witness evidence if so advised. There was no restriction within those agreed directions as to what that witness evidence should or could address. In those circumstances, the Respondent is acting in accordance with the directions set by Her Honour Judge Saira Singh in serving the witness statement from Mr Walker. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Second, as I have already indicated, this appeal has now essentially focussed on one issue, which was not argued in this way previously. Whilst that does not mean that I debar the Appellant from arguing that point, it must in fairness mean that the Respondent can adduce evidence addressing it, for the reasons I set out in the foregoing paragraphs.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Third, the Appellant has been on notice of the further witness statement from Mr Walker from at least the time of the Respondent&#8217;s Notice. Mr Nabi has not identified any prejudice caused to the Appellant should I permit this witness statement to be relied upon, nor can I identify any prejudice to the Appellant from taking this step.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Finally, Mr Walker&#8217;s witness statement represents an elucidation of his views rather than adding a new line of reasoning or changing his previous position.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issue 3: Was the Appellant intentionally homeless from the Property?</span></p>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The law on intentional homelessness</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The authors of &#8216;<span style="font-style:italic">Housing Allocations and Homelessness (6</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> edition)</span>&#8217; suggest that the statutory formulation is most practically approached by treating it as having six elements and, to ensure that they are all in place, the LHA needs to address six questions in the course of its inquiries and decision-making. If the LHA&#8217;s answer to <span style="font-style:italic">each</span> of these six questions is &#8216;Yes&#8217;, then the applicant will have &#8216;become homeless intentionally&#8217;. If the answer to <span style="font-style:italic">any</span> of them is &#8216;No&#8217;, the applicant cannot, at the time of application or review, be regarded as having become homeless intentionally. Those six questions are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Was there a deliberate act or omission (which does not include an act or omission in good faith by a person unaware of a material fact)?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Was that a deliberate act or omission by the applicant?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Was it as a consequence of that deliberate act or omission that the applicant ceased to occupy accommodation?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Is the deliberate act (or omission), and the cessation of occupation it caused, an operative cause of the present homelessness?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Was that accommodation available for the applicant's occupation and for occupation by members of the applicant's family who normally resided with the applicant and by persons with whom the applicant might reasonably have been expected to reside? In this context, &#8216;available for occupation&#8217; means both the physical availability of the accommodation and the nature of the applicant&#8217;s right to occupy it, as per s. 175(1) of the 1996 Act.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Would it have been reasonable for the applicant to have continued to occupy the accommodation?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In one sense, it could be said that occupiers who leave or are evicted from a property as a result of a possession order cannot be said to have become homeless intentionally. They have been required to leave by a court, often against their wishes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Din</span>,<span style="font-style:italic"> </span>Lord Wilberforce said that the statutory provisions had be interpreted in the light of the heavy burden that they placed on local authorities, and were to be construed &#8220;<span style="font-style:italic">with liberality, having regard to the Act&#8217;s social purposes with recognition of the claims of others and the nature and the scale of the authorities&#8217; responsibilities</span>&#8221; (at p. 664).  Later, Lord Lowry explained that the concept of intentional homelessness is intended to prevent those who are responsible for their homelessness from having a foothold over those who are not. Or, rather, to ensure that those who are not responsible for their homelessness retain a foothold over those who are (at p.679D).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Din</span><span style="font-style:italic">, </span>the applicant had been living in accommodation with his family which, due to a change in his circumstances, he could not afford. He contacted the Housing Aid Centre in June who advised him to wait for a court order. Despite this, he and his family left in late August when no court proceedings had been commenced. They went to live with friends in accommodation that was overcrowded. In December they were asked to leave their temporary accommodation and applied to the Council for accommodation. The Council decided that they were intentionally homeless because they had become homeless in August when they left their accommodation which would have been reasonable for them to continue to occupy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was argued for Mr Din that the decision was wrong because he would have become homeless in any event because he would have been evicted at some point. This argument was rejected. It was held that the Court must look at what caused homelessness at the point that homelessness occurred, and that what might or might not have happened was irrelevant (per Lord Fraser, at p.671). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Wilberforce rejected the appellant&#8217;s argument that intentional homelessness could be decided by speculating as to what might have happened had things been different; that would require the local authority to investigate not only what had actually happened but also to inquire into hypotheses, an exercise that would put too great a burden on local authorities and would be fraught with uncertainty and ripe for challenge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There must be an unbroken causative link between the applicant&#8217;s conduct and their homelessness. The current homelessness has to have been caused by the applicant&#8217;s earlier conduct. The material question is &#8220;why did the applicant become homeless&#8221;, as per Lord Fraser in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Din</span>.  In relation to this question, hypotheses are irrelevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The central issue in this case is whether the Property was reasonable for the Appellant to continue to occupy in circumstances where the tenancy of that property was obtained by fraudulent misrepresentation. Consideration also needs to be given to questions (iii) and (iv) above as to the causative effects of the Appellant&#8217;s misrepresentation(s). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dealing with causation first, the Supreme Court in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Haile</span> held that, where a question arises as to whether an applicant has become homeless intentionally, a two-stage test should be applied when considering causation (per Lord Reed JSC, at [25]):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Whether the applicant &#8216;became homeless intentionally&#8217; within the meaning of s. 191(1) of the 1996 Act in that she deliberately did or failed to do something in consequence of which she ceased to occupy accommodation meeting the requirements of that provision.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">If so, whether the applicant's current homelessness was caused by that intentional conduct.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Reed JSC went on to set out the position as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;As counsel for the appellant submitted, the decision whether an applicant is intentionally homeless depends on the cause of the homelessness existing at the date of the decision. That has to be determined having regard to all relevant circumstances and bearing in mind the purposes of the legislation. As I have indicated, a later event constituting an involuntary cause of homelessness can be regarded as superseding the applicant&#8217;s earlier deliberate conduct, where in view of the later event it cannot reasonably be said that, but for the applicant&#8217;s deliberate conduct, he or she would not have become homeless. Where, however, the deliberate conduct remains a but for cause of the homelessness, and the question is whether the chain of causation should nevertheless be regarded as having been interrupted by some other event, the question will be whether the proximate cause of the homelessness is an event which is unconnected to the applicant&#8217;s own earlier conduct, and in the absence of which homelessness would probably not have occurred&#8221; (at [63]).</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R v Hackney London Borough Council ex p Ajayi</span><span style="text-decoration-line:underline;text-decoration-style:solid"> (1997) 30 HLR 473, QBD</span>, Dyson J (as he then was) addressed the difficulties involved in establishing the cause(s) of the loss of accommodation:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Questions of causation are notoriously difficult and, in my judgment, the Court should be slow to intervene to strike down the decisions of administrative bodies on such questions and should do so only in clear cases. I cannot accept that the effective cause should always be regarded in these cases as the chronologically immediate or proximate cause. In some cases, the cause closest in point of time will be regarded as the effective cause&#8230; In others, the cause closest in time will be not so regarded&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both parties referred me to the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba v Kensington &amp; Chelsea RLBC </span><span style="text-decoration-line:underline;text-decoration-style:solid">[2013] EWCA Civ 786; [2013] HLR 34</span>, with the Appellant contending that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> is on point with the present case, whereas the Respondent argues that it is distinguishable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span>, the applicant, a Namibian National, applied to the Council for accommodation using a counterfeit passport. The main housing duty was accepted. The Council, on the basis of the counterfeit passport, accepted that she was eligible for accommodation under Part VII of the 1996 Act and provided her with a non-secure tenancy of a one-bedroom flat.  The use of the counterfeit passport was subsequently discovered. The Council served a notice to quit, bringing the tenancy to an end, and thereafter obtained a possession order. The Appellant made a further homeless application following her having being granted leave to remain in the United Kingdom. The Council found that the Appellant was intentionally homeless as she had been evicted because of her use of a counterfeit passport and that the accommodation from which she had been evicted was reasonable for her continued occupation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was no dispute about the applicant&#8217;s lack of eligibility. Nor was it asserted that, leaving aside her deception, she would have been entitled to accommodation. All parties were agreed that she had was not eligible at the time she applied. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal held that the &#8220;<span style="font-style:italic">ultimate question</span>&#8221; is: &#8220;<span style="font-style:italic">what is the real or effective cause of the homelessness?</span>&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span>, the appellant&#8217;s use of a counterfeit passport had secured the property but the real and effective cause of her homelessness was her immigration status and her consequent ineligibility for the property that she had been granted, rather than the use of the counterfeit passport <span style="font-style:italic">per se</span>. At paragraph 10 of the decision, Lewison LJ stated as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;So one must ask: what act or omission on the part of Ms Chishimba caused her to cease to occupy 34B Chipperfield House? The deliberate acts on the part of Ms Chishimba were her acquisition of the counterfeit passport and her use of it to deceive the council into accepting her claim to be homeless back in 2009, but she argues the consequence of those deliberate acts was her acquisition of her accommodation in the first place not her subsequent loss of it. What caused her to lose the accommodation was the discovery by the UKBA and then the council of the initial deception and the council&#8217;s own decision to terminate her occupation. Underlying the council&#8217;s decision and hence the loss of 34B was the fact that Ms Chishimba was not eligible for assistance in the first place. If one wishes to travel back in time from the possession order via the discovery of the falsity of the passport, <span style="font-weight:bold">the real and effective cause of the loss of the accommodation was her ineligibility for the initial grant</span>.&#8221; (emphasis added)</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lewison LJ went on to apply that finding to the circumstances of Ms Chishimba&#8217;s case:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;15.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In our case Ms Chishimba never had the lawful right to occupy the flat. I agree, therefore, with Mr Luba that these cases do not support the council&#8217;s decision in this case. In essence I accept the argument for Ms Chishimba. The immediate and proximate cause of the loss of her home was the council&#8217;s discovery of her fraud and, if one travels back in time from that immediate cause, then one arrives at the conclusion that the effective cause of her no longer being able to occupy 34B Chipperfield House was that she was not entitled to it in the first place.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal held that a similar analysis applied to the question of whether it was reasonable for the appellant to continue to occupy; if she had never had a lawful right to occupy the accommodation, it could not plausibly be said that it was reasonable for her to continue to occupy:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;16.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A similar analysis underlies Ms Chishimba&#8217;s argument that it was not reasonable for her to continue to occupy 34B Chipperfield House. Because of her initial deception of the council she should not have been granted the tenancy in the first place. When the council discovered the deception they terminated the tenancy. How then can it be plausibly said that it would have been reasonable for her to continue to occupy a flat to which she never had any lawful right? The reviewing officer did not to my mind address this question at all. She simply asserted that it would have been reasonable for Ms Chishimba to have continued to occupy the flat.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> referred to the earlier decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R v Exeter City Council ex p Gliddon and Draper </span><span style="text-decoration-line:underline;text-decoration-style:solid">[1984] 14 HLR 103</span>. In that case, the applicants were a young couple and were expecting a baby. They rented a property on a short-term let from a Mr King. Subsequently, they fell into arrears. Mr King maintained that they had obtained the property by deception because they said that they were both employed and not in receipt of benefits, neither of which was true. The applicants did not dispute this and they surrendered the tenancy. In its place, Mr King granted them a licence for an &#8220;<span style="font-style:italic">extremely limited period</span>&#8221; and in due course he terminated it. The applicants did not vacate and a possession order was obtained. They applied as homeless. The LHA concluded that they were intentionally homeless. A key factor in deciding this was the LHA&#8217;s conclusion that the applicants had given Mr King false information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Woolf J (as he then was), at p. 110, concluded that the accommodation was not reasonable for the applicants to continue to occupy in circumstances where the landlord required them to surrender the tenancy:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Where you have a situation where a person has only obtained accommodation, on the findings of the Council, by deception, and the landlord on discovering that deception requires the person concerned to surrender their lease, the consequence must be that that person has no possible justification for refusing to do so. In my view, it is almost inevitable that if this is required by the landlord, it would be unreasonable for him to continue to occupy the accommodation against the wishes of the landlord. He would have no defence in law to a claim to possession by the landlord.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The consideration of &#8216;intentional homelessness&#8217; within the present Review Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Review Decision sought to address the pertinent issues that I have set out at paragraph 69 above. At paragraph 147 of the Review Decision, Mr Walker found that the Appellant had &#8220;<span style="font-style:italic">provided false and inaccurate information in the Wolverhampton Homes Homelessness Application she made in January 2020 and in the Pre-allocation checklist she completed on 2 March 2020</span>&#8221;. Mr Walker found that the acts and omissions were deliberate. Mr Walker then found that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;158.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is asserted that Ms Munemo did not declare that she had a tenancy in Birmingham because she believed, in good faith, that she had been removed from the tenancy. For the reasons set out above, we do not accept this assertion. There is nothing that could credibly support such an assertion. We consider her conduct to have been deliberate. There is nothing to indicate otherwise. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>159.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Given the very substantial inconsistencies in the different version of events Ms Munemo has put forward, at different times, our view is that her veracity is somewhat doubtful.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For ease of reference, I set out the relevant remaining parts of the Review Decision regarding the availability of the Property to the Appellant and whether it was reasonable for her to continue to occupy the Property:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;165.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">There is no doubt that Ms Munemo ceased to occupy [the Property] because of the false information that she gave to Wolverhampton Council in early 2020. </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">Was [the Property] available to Ms Munemo? </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>166.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This property, a 3-bedroom house, was available to Ms Munemo together with anyone residing with her or who might reasonably to have been expected to live with her. </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">Was [the Property] reasonable for Ms Munemo reasonable for her to continue to occupy?</span> [sic]</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>167.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It was reasonable for Ms Munemo to occupy and anyone who might reasonably be expected to reside with her. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>168.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">We consider that the property was affordable as this was a social housing tenancy which was fully occupied and therefore not subject to any underoccupancy penalties. We have taken into account the Homelessness (Suitability of Accommodation) Order 1996 SI 3204. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>169.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">[The Appellant&#8217;s solicitors] have asserted Ms Munemo did not intend to mislead in relation to &#8220;her occupancy of the property in Birmingham&#8221;, and that, even if she had, it would not have made any difference because she had not lived at [the Flat] for many years and it would not have been reasonable for her to continue to live there in any event because of domestic violence. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>170.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">As explained above, we accept the evidence which indicates clearly that your client continued to reside in [the Flat], and that she intentionally maintained this tenancy, at least until sometime after Wolverhampton served their Notice Seeking Possession.  We do not accept that she left this property in 2014, never to return.  In relation to domestic violence, the explanations that Ms Munemo provided to the health services are that her ex-husband moved out sometime in 2014. In her evidence to Birmingham she said he did not return until March 2020. We are of the view that the evidence indicates that he was not living at the property in the years running up to March 2020. Further, the evidence also supports the conclusion that [the Appellant&#8217;s ex-husband] lived in Gloucestershire. When asked to provide evidence of residence at [the Flat] earlier than May 2021 to support the joint-tenancy application he and Ms Munemo were unable to do so. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>171.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">We note that Ms Munemo, herself, described the violence as historical in the medical records. We do not consider that there is any evidence to suggest that [the Flat] was not reasonable for your client to occupy.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It will be noted from the above extract that there is no explicit consideration by the Respondent as to the issues raised in the cases of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span>, namely whether it is reasonable to occupy accommodation in circumstances where the tenancy has been obtained by deception and/or where the Respondent or other landlord has sought possession of that accommodation. There was no suggestion that, had the Appellant not deceived the Respondent, she would have been granted a tenancy by the Respondent; I will return to this point below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Insofar as reference is made to whether it was reasonable for the Appellant to continue to occupy the Flat, the Review Decision (and this appeal) proceeded on the basis of contesting whether the Appellant was intentionally homeless from the Property. The issue as to whether the Appellant was intentionally homeless from the Flat was not argued within this appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The witness statement of Anthony Walker, dated 28 October 2024</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have allowed the Respondent to rely on the witness statement of Mr Walker, I briefly address the contents of that statement. The salient parts of that statement are as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I consider that the Property was settled accommodation and reasonable for the Appellant to continue to occupy. It was a 3-bedroom property, which was initially granted as an introductory tenancy, but which subsequently became a secure tenancy a year later. Whilst it is not wholly determinative, I note that in her Defence in the possession proceedings Ms Munemo stated that the Property was her home which she and her children had come to love and appreciate. At the time Ms Munemo acquired the property it is apparent that she had settled in Wolverhampton, albeit whilst retaining the tenancy of [the Flat]. She described the Property in the Application Notice (dated 18 October 2022) as her family home. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>5.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In my view, the inaccurate information put forward by Ms Munemo rendered the accommodation susceptible to Ground 5. That the tenancy of 87 Thompson Avenue was susceptible to Ground 5, did not, in my view, render the Property unreasonable for the Appellant to continue to occupy for the purposes of s.191, Housing Act 1996. Ground 5 is a discretionary ground for possession, a possession order can only be made if the Court is satisfied that it is reasonable to make a possession order. There are many cases in which the Council proves &#8220;fraud&#8221; but the Court still declines to order possession, or makes a suspended order, in the light of the Defendant&#8217;s circumstances. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>6.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I note that in the original Grounds of Appeal it has been asserted that, in the light of my conclusions in the Review Decision, Ms Munemo &#8220;would never have been entitled to occupy that Property&#8221;.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In my view, whilst it may be possible to speculate, it cannot be finally decided with certainty that Ms Munemo had, <span style="font-style:italic">in fact</span>, &#8220;no entitlement&#8221; to 87 Thompson Avenue. For example, it could have/might have been that, had she provided an accurate address history together with an account of her life circumstances, her experience of domestic violence her other traumatic life experiences, the Homelessness Services Officer would have accepted the main housing duty. It cannot be said that it would have been a forgone conclusion that there was no entitlement.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I note also, that the application form stated that if false information were [sic] given, Ground 5 may enable the Council to take action to seek possession. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The information provided by Ms Munemo was as [sic] misrepresentation. If there had been no misrepresentation by Ms Munemo, and the information provided had been true, then it does not seem to me that she would have any basis on which to dispute the question of whether the property was her last settled accommodation and reasonable for her to continue to occupy.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Summary of the parties&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In short, the Appellant argues that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> is exactly &#8216;on point&#8217; with her case in that, on the Respondent&#8217;s findings, she obtained the tenancy of the property by deception and that, had she been open about the Flat, she would not have been granted the tenancy. Mr Nabi submitted that it matters not whether the tenancy was secure or not. Furthermore, Mr Nabi relies on <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> to argue that one cannot extrapolate that acts done or omissions before an agreement is entered into are the same as acts or omissions once the tenancy has started.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent sought to distinguish <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> in two central ways:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">First, the Respondent argued that the accommodation in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> was temporary accommodation which the LHA in that case had no power to provide under Part VII of the 1996 Act and thus different to the secure tenancy of the Property that the Appellant had in the present case. The significance of this, Ms Cafferkey argued, was that the tenancy in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> was unravelled by the fraud because a common law tenancy obtained by fraud is void, unlike a secure tenancy which continues and is not void by fraud. In this regard, Ms Cafferkey referred to the cases of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Islington LBC v Uckac </span><span style="text-decoration-line:underline;text-decoration-style:solid">[2006] EWCA Civ 340; [2006] HLR 35</span> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Birmingham City Council v Qasim</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2009] EWCA Civ 1080; [2010] HLR 19</span>, amongst others that I will return to.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Second, and flowing on from the first, the Respondent argues that, given the secure tenancy that the Appellant had in this case, it was not a mere formality that the Respondent could have obtained possession of the Property once the deception was identified; instead, the Respondent was required to show to a Court that it was entitled to possession of the Property and there was no guarantee or assumption that the Appellant would not have been found to be entitled to the Property or indeed that an order for possession would be made by the Court. Ms Chishimba had no legal right to accommodation given her immigration status, whereas the Appellant in this case <span style="font-style:italic">could</span> have been legally entitled to a property, subject to the findings made by the Respondent&#8217;s Homelessness Officer.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent contends that <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span> is &#8220;<span style="font-style:italic">obviously distinguishable</span>&#8221; on its facts in that Woolf J found that the applicant in that case had &#8220;<span style="font-style:italic">no possible justification</span>&#8221; for refusing to give up possession of the property, whereas in the present case, the Appellant was able to challenge the Respondent&#8217;s possession proceedings, as Ground 5 is a discretionary ground for possession and thus there were possible arguments for her to make to oppose the possession proceedings.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This Court is of course bound by the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span>. <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> itself built on the principle set out in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span>. I interpret <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> as laying down the following principle: Where an applicant obtains a tenancy of a property by deception, and was not eligible to that accommodation from the start, it cannot be said that the applicant has accommodation that it was reasonable for them to continue to occupy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> did not explicitly or impliedly restrict its decision to cases of non-secure tenancies and the Respondent has not sufficiently identified why, or indeed how, cases of secure tenancies differ from non-secure tenancies when it comes to the issue of the accommodation being reasonable for an applicant to continue to occupy when that tenancy has been obtained by fraud and where the applicant was not entitled to the accommodation <span style="font-style:italic">ab initio</span>. It is of note that the LHA in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> did in fact obtain a possession order against her. Whilst I accept the Respondent&#8217;s submission that there are differences between common law tenancies and secure tenancies in the sense of how a landlord can bring that tenancy to an end, it is a step further to assert that this means that the two classes of tenancy should be treated differently in terms of the consideration of whether the accommodation is reasonable to continue to occupy in the context of intentional homelessness. I am not satisfied that such a distinction can be drawn from the case law argued in this appeal. Furthermore, the Review Decision does not reference <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> or the principle in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> at all, whether to distinguish it in terms of its applicability to secure tenancies or otherwise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In both <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span>, the applicants were required to give up possession of the accommodation due to their deception and then the consequent decision on behalf of the landlord to terminate the applicants&#8217; occupation of the respective properties. As in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span>, the Respondent in this case had required the Appellant to give up possession of the Property upon discovering her deceit. When the Appellant failed to give up possession, possession proceedings were commenced and pursued by the Respondent and ultimately a warrant obtained to evict her, the Appellant opposing those steps. In those circumstances, it is difficult to see that this Court can reach a different decision to that in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span>, namely that it was not reasonable for the Appellant to continue to occupy the Property in the face of extensive efforts made by the Respondent to evict her from it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst Mr Walker seeks to argue within his most recent witness statement that Ground 5 is only a discretionary ground for possession, it was still an application that the Respondent made to assert its legal right to regain possession of the Property from the Appellant. I am not persuaded that Woolf J&#8217;s reasoning is limited to cases where the landlord has a mandatory ground for possession. I come to that view because Woolf J states that &#8220;<span style="font-style:italic">it is almost inevitable</span>&#8221; that if possession was sought from the landlord, it would be unreasonable for a person to continue to occupy the accommodation against the wishes of the landlord. This envisages that there may be limited circumstances where it would be reasonable to continue to occupy against the wishes of the landlord. Furthermore, the Respondent&#8217;s possession claim in this case was advanced on the basis that the Appellant should be found by the Court not to have a defence in law to the claim for possession.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst Mr Walker speculates as to what might have been had the Appellant been truthful about her circumstances, the Review Decision shows that the Respondent, having conducted extensive analysis of the factual information before it, decided that the Flat was reasonable for the Appellant to continue to occupy. It seems extremely unlikely that, with the pressure the Respondent was (and is) under to find housing for a list of individuals that are truly homeless, the Appellant would have met the criteria to be offered a Wolverhampton property or that she would have been considered homeless within the meaning of s. 175 of the 1996 Act had she been honest about her occupation of the Flat. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am augmented in that view when I consider the Particulars of Claim served by the Respondent in the possession proceedings, which assert that the Appellant was <span style="font-style:italic">not</span> entitled to the Property and would not have been granted a tenancy of the Property had she been honest about her circumstances. Paragraphs 10 and 21 of the Particulars of Claim state as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">On 2<span style="vertical-align:super;font-size:smaller">nd</span> March 2021 the Defendant completed a Pre-offer Checklist questionnaire in support of her application for the tenancy of the Property. In this document she did not declare her tenancy of [the Flat] as a previous residency address. In addition, the Defendant falsely stated she had never previously been a tenant with any other social landlord. Based on the information provided by the Defendant about her housing circumstances, she was offered the tenancy of the Property, a three-bedroom house at 87 Thompson Avenue on 20<span style="vertical-align:super;font-size:smaller">th</span> February 2021. <span style="font-weight:bold">Had she disclosed the tenancy at [the Flat], she would not have been offered a tenancy of the Property</span>.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">[&#8230;]</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>21.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Defendant not only fraudulently applied for and gained the tenancy of a three-bedroom house <span style="font-weight:bold">she was not entitled to</span>, but she also benefited from accommodation designed for homeless families in Wolverhampton for a period of nine weeks, resulting in significant cost to the [Respondent] and potentially preventing a family who were genuinely homeless from accessing that accommodation&#8221; (emphasis added).</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Those parts of the Particulars of Claim were also echoed in the witness statement of Elaine Morgan, the Respondent&#8217;s Senior Counter Fraud officer, where she variously stated that the Appellant was &#8220;<span style="font-style:italic">not eligible for housing in Wolverhampton</span>&#8221; and had &#8220;<span style="font-style:italic">fraudulently applied for and gained the tenancy of a three-bedroom house she was not entitled to</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent asserts that the Appellant in this case is seeking to extend the reach of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> so that it covers all types of tenancy and, as such, an applicant could <span style="font-style:italic">never</span> be considered to be intentionally homeless from such accommodation in circumstances where they have been evicted from it because of fraudulent misrepresentations made. I reject that submission as it goes too far. As has been recognised by a number of the cases cited in this appeal, each case must be determined on its own facts. There may be circumstances where a property is obtained following deceitful representations made by the applicant but where it does not affect their eligibility for assistance under the homelessness provisions, such as where the deceit relates to some collateral matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant&#8217;s situation is different from cases such as <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Denton v Southwark London Borough Council</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2008] HLR 161</span>, where an applicant&#8217;s antisocial behaviour triggered the loss of accommodation. However, the principle set out by Arden LJ (as she then was) at [25] is of application:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;reasonableness was to be determined by asking whether it would have been reasonable for the applicant to continue to occupy the accommodation at a point in time before the deliberate acts which led to the loss of the accommodation took place&#8230; In my judgment what the local housing authority has to do is to determine whether it is reasonable for the applicant to continue to occupy premises ignoring the acts or omissions for which the applicant himself or herself is responsible. If that is done in the present case, the misbehaviour has to be left out of the reckoning.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Denton</span>, an antisocial behaviour type case, where the applicant&#8217;s conduct was taken out of the equation, the accommodation was still reasonable for him to continue to occupy. If the Appellant&#8217;s deception in the present case is taken out of the equation she was, on the Respondent&#8217;s own pleaded position, not eligible for, or entitled to, a Wolverhampton property on the basis that the Respondent found that she held a tenancy of the Flat and it was reasonable for her to continue to occupy the Flat. Like in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span>, the Appellant was not entitled to the Property at all and, like <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span>, she was required to give up possession of the Property on the basis that she had obtained it by deception. If her conduct in deceiving the Respondent is taken out of the equation, she would not have been allocated the Property in the first place.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant was not intentionally homeless as it was not her conduct that caused her to cease to occupy the property (it was her ineligibility as it was in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span>) and it would not be reasonable for her to continue to occupy the Property where she had no entitlement to it and where the Respondent sought possession of the Property on that basis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present case is also different to the situation in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Din</span>, which Miss Cafferkey referred me to. That case concerned an argument about whether someone would have become homeless in any event after they had become intentionally homeless from their accommodation that was reasonable for them to continue to occupy. Whilst Lord Wilberforce rejected the contention that one could speculate as to what might have happened after the person had in fact become homeless, that relates to events occurring, or that might have occurred, after someone has become homeless. The present case concerns events at the initiation of the tenancy and the LHA&#8217;s findings as to whether someone is intentionally homeless or not, based upon the findings that they made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Cafferkey referred me to the aforementioned Court of Appeal decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Birmingham City Council v Qasim</span>, which dealt with the situation where a council officer had allocated tenancies to tenants who were not eligible as per the Council&#8217;s allocation scheme. Miss Cafferkey deployed this case to argue that, even if the Appellant in this case was not eligible for a tenancy of the Property, that did not mean that the tenancy itself was defective, or the grant of the tenancy was ineffective; the Appellant still had a legal right to the Property. This was a decision concerning Part VI of the 1996 Act and is distinguishable on its facts. There was no suggestion in the present case that the tenancy granted to the Appellant was necessarily void because of her deception, hence why an order for possession was sought by the Respondent because the Appellant did have a valid tenancy. Just because the tenancy was valid, it does not mean that the Respondent had anything other than very good prospects of obtaining possession pursuant to Ground 5 in this case, for the reasons suggested by Lord Neuberger MR (as he then was) at [35] of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Qasim</span>. I remain unclear as to how it is contended this undermines the principle from <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> or leads to a different conclusion in the present case, particularly in light of what is said at [42]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;or it may very well be that the reasoning in this judgment could be distinguished where the tenant is dishonestly involved in the inappropriate allocation. These are issues which would have to be considered as and when such a cases arises&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Miss Cafferkey raised concerns about the policy implications for the findings that I have made in terms of individuals such as the Appellant (who the Respondent argues are responsible for their own homelessness) obtaining a foothold over those who are not intentionally homeless. However, I am not satisfied that the suggestion that the findings that I have made above necessarily mean that individuals such as the Appellant would gain a foothold over those who are not intentionally homeless. On the Respondent&#8217;s own findings, the Appellant was not homeless at all as she had the tenancy of the Flat. She is therefore being put back into the position she was but for the deception. If she still has the Flat, and it continues to be reasonable for her to occupy the Flat, she is not homeless and therefore does not get a foothold over those persons unintentionally homeless on the Respondent&#8217;s homeless register. If she does not have the Flat, it is not reasonable for her to continue to occupy the Flat and/or she is not intentionally homeless from the Flat, she will legitimately join the homeless register. In other words, if the present Review Decision is quashed, it is still open to the Respondent to consider the Birmingham accommodation and decide whether that accommodation remained available for the Appellant&#8217;s occupation and, if not, whether she was intentionally homeless as a result of ceasing to occupy it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Consequently, not without significant hesitation given the forceful and persuasive submissions made by Miss Cafferkey regarding the policy implications for the Respondent and other LHAs faced with an applicant who has deceived them to obtain accommodation to which they were not entitled but yet, when found out, are treated not to be &#8216;intentionally homeless&#8217;, I am bound by the decisions in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span> and must follow them. I therefore find that the Property was not reasonable for the Appellant to continue to occupy on the basis that she was not entitled to a tenancy of the Property in the first place and was only granted a tenancy by the Respondent as a result of her deception.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issue 4: The Review Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have already indicated, this Court is exercising an appellate jurisdiction, akin to a judicial review of the Respondent&#8217;s Review Decision. In <span style="text-decoration-line:underline;text-decoration-style:solid">Begum</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid"> v LB Tower Hamlets</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2003] 2 AC 430, HL</span>, Lord Bingham of Cornhill held that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;7.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Although the county court&#8217;s jurisdiction is appellate, it is in substance the same as that of the High Court in judicial review: <span style="font-style:italic">Nipa Begum v Tower Hamlets London Borough Council [2000] 1 WLR 306</span>. Thus the court may not only quash the authority's decision under section 204(3) if it is held to be vitiated by legal misdirection or procedural impropriety or unfairness or bias or irrationality or bad faith but also if there is no evidence to support factual findings made or they are plainly untenable or (<span style="font-style:italic">Secretary of State for Education and Science v Tameside Metropolitan Borough Council [1977] AC 1014, 1030</span>, per Scarman LJ) if the decision-maker is shown to have misunderstood or been ignorant of an established and relevant fact. In the present context I would expect the county court judge to be alert to any indication that an applicant's case might not have been resolved by the authority in a fair, objective and even-handed way, conscious of the authority&#8217;s role as decision-maker and of the immense importance of its decision to an applicant. But I can see no warrant for applying in this context notions of &#8220;anxious scrutiny&#8221; (<span style="font-style:italic">R v Secretary of State for the Home Department, Ex p Bugdaycay [1987] AC 514, 531g</span>, per Lord Bridge of Harwich) or the enhanced approach to judicial review described by Lord Steyn in <span style="font-style:italic">R (Daly) v Secretary of State for the Home Department [2001] 2 AC 532 , 546-548</span>. I would also demur at the suggestion of Laws LJ in the Court of Appeal in the present case [2002] 1 WLR 2491, 2513, para 44 that the judge may subject the decision to &#8220;a close and rigorous analysis&#8221; if by that is meant an analysis closer or more rigorous that would ordinarily and properly be conducted by a careful and competent judge determining an application for judicial review.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court should not adopt an unfair or unrealistic approach when considering or interpreting such review decisions. I keep in mind Lord Neuberger&#8217;s decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Holmes-Moorhouse v Richmond upon Thames LBC</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2009] UKHL 7; [2009] 1 WLR 413</span>, at [47]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;a judge should not adopt an unfair or unrealistic approach when considering or interpreting such review decisions. Although they may often be checked by people with legal experience or qualifications before they are sent out, review decisions are prepared by housing officers, who occupy a post of considerable responsibility and who have substantial experience in the housing field, but they are not lawyers. It is not therefore appropriate to subject their decisions to the same sort of analysis as may be applied to a contract drafted by solicitors, to an Act of Parliament, or to a court&#8217;s judgment.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Within her written submissions filed after the appeal hearing, Miss Cafferkey referred me to the decision of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Rother DC v Freeman-Roach</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2018] EWCA Civ 368; [2018] HLR 22</span>. I accept the proposition that it is not for the reviewing officer to demonstrate positively that he has correctly understood the law. It is for the applicant to show that he has not. It is also worth noting that Lewison LJ also quoted the decision of Lord Brown in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">South Bucks DC v Porter (No.2) </span><span style="text-decoration-line:underline;text-decoration-style:solid">[2004] UKHL 33; [2004] 1 W.L.R. 1953</span>, wherein it was stated that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Reasons can be briefly stated, the degree of particularity required depending entirely on the nature of the issues falling for decision. The reasoning must not give rise to a substantial doubt as to whether the decision-maker erred in law, for example by misunderstanding some relevant policy or some other important matter or by failing to reach a rational decision on relevant grounds. But such adverse inference will not readily be drawn&#8230; Decision letters must be read in a straightforward manner, recognising that they are addressed to parties well aware of the issues involved and the arguments advanced.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num>115.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When considering whether a Review Decision is irrational, I note the decision in the case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">R (CB) v SSHD</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2023] 4 W.L.R. 28</span>, where Fordham J considered the scope of irrationality as follows, albeit in a judicial review context in a different type of case (at [87]):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The court is acting squarely within its supervisory jurisdiction when it examines whether an approach has a &#8220;logical basis&#8221; or lacks &#8220;logical force&#8221; (<span style="font-style:italic">Refugee Action</span>, para 140, <span style="font-style:italic">Ghulam</span>, para 45); whether there was a &#8220;rational explanation&#8221; for a gap (<span style="font-style:italic">Refugee Action</span>, para 141); whether there were &#8220;some rational criteria to quantify and justify&#8221; a discrepancy (<span style="font-style:italic">Refugee Action</span>, para 142); whether &#8220;the information used&#8221; was &#8220;simply insu&#64259;cient to reach a rational conclusion&#8221; to act as the SSHD did (<span style="font-style:italic">Refugee Action</span>, para 150); whether reasons given have &#8220;no logic or coherence&#8221; or are &#8220;rational and sensible&#8221; (<span style="font-style:italic">Ghulam</span>, para 167); whether there is a conclusion for which there was &#8220;no evidence that could rationally form the basis&#8221; (<span style="font-style:italic">AXG</span>, para 62); whether an approach taken lacks &#8220;any evidential support&#8221; (<span style="font-style:italic">AXG</span>, para 72). Logic and rationality are key to public law reasonableness. Courts have spoken of whether a reasoned decision &#8220;stacks up&#8221; or &#8220;stands up&#8221;. I interpose, going with the grain of all this, that in one recent case (<span style="font-style:italic">R (Wells) v Parole Board</span> [2019] EWHC 2710 (Admin); [2019] ACD 146 at [33]&#8211;[34]) the idea was expressed through asking whether there is &#8220;an unexplained evidential gap or leap in reasoning which fails to justify the conclusion&#8221;, bearing in mind that an &#8220;unreasonable decision&#8221; often &#8220;fails to provide reasons justifying the conclusion.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_116">
+	  <num>116.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear from paragraph 146 <span style="font-style:italic">et seq.</span> of the Review Decision that the Respondent was cognisant of the need to address the issue as to whether it would have been reasonable for the Appellant to continue to occupy the Property. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num>117.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons that I have set out above, it was not reasonable for the Appellant to continue to occupy the Property. The Review Decision did not explicitly consider the question of how, in light of Mr Walker&#8217;s findings about the Appellant&#8217;s circumstances and tenancy of the Flat, it would have been reasonable for her to continue to occupy the Property when she never had any eligibility to obtain the Property in the first place. Mr Nabi argued that there had been no sensible attempt to grapple with the principle set out in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> and, had Mr Walker considered the matter, he would not have concluded that it was reasonable for the Appellant to continue to occupy the Property. I accept that submission. Neither of the authorities of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> or <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span> were mentioned, nor is it apparent that this issue was given any consideration at all by Mr Walker. It may be said that the production of the witness statement by Mr Walker supports my finding in this regard, as it was identified that there was a gap in the Respondent&#8217;s reasoning within the Review Decision. To put matters another way, I am not satisfied that the Review Decision &#8220;stacks up&#8221; or &#8220;stands up&#8221; in light of the factual findings made about the Flat and the Appellant&#8217;s occupation of the same within the Review Decision and thus the Review Decision was reached without sufficient regard to those relevant factors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num>118.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Whilst Mr Walker did not have to demonstrate positively that he correctly understood the law, he did have to grapple with the relevant legal issue in light of the factual findings that he made. The reasoning within the Review Decision does give rise to a substantial doubt as to whether Mr Walker erred in law given the nature of the issues in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num>119.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I have already indicated, Mr Walker&#8217;s Review Decision was an impressive document, containing a detailed summary of the evidence that had been obtained and analysing why the factual conclusions reached were made. However, in light of the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Chishimba</span> and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Gliddon</span> authorities, the legal issue of whether the Property was reasonable to continue to occupy needed to be considered and addressed within the Review Decision and I am not satisfied that it was considered as sufficiently as was required. For the reasons that I set out above, the Appellant has established that this was an error of law. Even if I am wrong with my analysis that this was an error of law, insufficient reasons were given within the Review Decision and subsequently as to why it was reasonable for the Appellant to continue to occupy the Property when the Respondent actively sought to evict her from that accommodation under Ground 5 and on the basis of their own pleaded position as to her eligibility and entitlement to the Property had she been honest about her circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num>120.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons, with the considerable hesitation that I have already expressed, and even when pausing for thought to check that I am not being &#8220;<span style="font-style:italic">unfair or unrealistic</span>&#8221; in the above analysis, adopting the words of Lord Neuberger in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Holmes-Moorhouse</span>, I allow the Appellant&#8217;s appeal in that the Respondent misdirected itself in law as to whether it was reasonable for her to continue to occupy the Property in light of the findings made within the Review Decision and thus by finding that she was intentionally homeless. Insofar as the Respondent did take this into account, it provided inadequate reasons to justify the conclusion reached and, in those circumstances, Ground 3 of the Appellant&#8217;s appeal is allowed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num>121.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Appellant essentially abandoned Ground 2 during the course of oral submissions and, in light of my findings above, I need not consider it any further. As for Ground 4, given my findings above, this does not take matters any further forward.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issue 5: Remedy</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_122">
+	  <num>122.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Pursuant to s. 204(3) of the 1996 Act, on appeal the court may make an order either confirming, quashing or varying the decision as it thinks fit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num>123.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Nabi took me to the decision in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Ali v Newham LBC</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [2002] HLR 20, CA</span>, to rely on the principle that, unless the Court finds that despite any irregularities it was inevitable that the same decision would have been reached, the decision on review should be quashed and the appeal allowed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num>124.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given the findings that I have made above, and in particular that the Respondent should have considered whether it was reasonable or not for the Appellant to occupy the Property in circumstances where the Respondent made the factual findings that it did in relation to the Flat, that the tenancy of the Property was determined to have been obtained by deception and where possession of the Property was sought pursuant to Ground 5, the most appropriate order for me to make is to quash the Review Decision. I am not satisfied that the Respondent would have inevitably reached the same conclusions had it considered and analysed the legal position more fully. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num>125.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances of the findings that I have made above, the Respondent should be given the opportunity to review its decision further in light of the matters raised in this appeal, including its findings about the tenancy of the Flat and the circumstances in which the Appellant ceased to occupy the Flat, rather than this court varying the decision that was made.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="Quote" style="margin-left:0in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_126">
+	  <num>126.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I allow the Appellant&#8217;s appeal and quash the Review Decision for the reasons set out above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num>127.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court having been informed that the parties are unable to agree a draft Order that encapsulates the above judgment, directions will be given for written submissions to be filed addressing the areas of disagreement.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1076 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/248"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/248"/>
+	  <FRBRdate date="2025-02-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="248"/>
+	  <FRBRname value="Edward Johnson v Chief Constable of Bedfordshire Police"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/248"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/248"/>
+	  <FRBRdate date="2025-02-12" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/248/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/248/data.xml"/>
+	  <FRBRdate date="2025-02-12T10:35:42" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-richard-spearman-kc" href="/judge-richard-spearman-kc" showAs="RICHARD SPEARMAN K.C."/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>248</uk:number>
+	<uk:cite>[2025] EWHC 248 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>3b83573ef1806c9bfe648860abec497dab91a73a0f9da48c25ae30eb2545b4b1</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Style1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; color: #000000; }
+#judgment .ListParagraph { margin-left: 0.79in; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .Style3 { text-align: justify; margin-left: 0.55in; font-size: 12pt; color: #000000; }
+#judgment .Subtitle { font-style: italic; font-size: 12pt; color: #4472C4; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .paragraphgs { font-size: 12pt; }
+#judgment .paralevel10 { font-size: 12pt; }
+#judgment .elementtoproof { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .SourceCode { font-family: 'Courier New'; font-size: 10pt; color: #00000A; }
+#judgment .BodyText { text-align: justify; margin-left: 0.88in; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .TableParagraph { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .PartiesPB { text-align: center; font-weight: bold; font-family: Arial; font-size: 10pt; }
+#judgment .legtext { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Style1Char { font-size: 12pt; color: #000000; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .SubtitleChar { font-style: italic; font-size: 12pt; color: #4472C4; }
+#judgment .bluefont { }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .legds { }
+#judgment .VerbatimChar { font-family: 'Courier New'; color: #00000A; }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .legterm { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 248 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>QB-2020-002687</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MEDIA &amp; COMMUNICATIONS LIST</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-02-12" refersTo="#judgment">12 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-richard-spearman-kc">RICHARD SPEARMAN K.C.</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">(sitting as a Deputy Judge of the King&#8217;s Bench Division)</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0.64in"><span style="font-weight:bold">EDWARD JOHNSON</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold">THE CHIEF CONSTABLE OF BEDFORDSHIRE POLICE</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Defendant</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Beth Grossman </span>(instructed by <span style="font-weight:bold">Saunders Law</span>) for the Claimant</p>
+      <p style="text-align:center"><span style="font-weight:bold">Giles Bedloe </span>(instructed by <span style="font-weight:bold;font-size:11pt;color:#000000">Bedfordshire Police Legal Services Department</span>) for the Defendant</p>
+      <p style="text-align:center">Hearing date: 28 January 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 12 February 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p><span style="font-weight:bold">Richard Spearman KC</span></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">APPLICATION, CONTEXT, AND EVIDENCE</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">This is the hearing of the application of the Claimant by notice dated 20 November 2024 seeking an anonymity order, anonymisation of details contained in any papers already filed in these proceedings, restrictions relating to access to the Court file, and reporting restrictions. The application was cast in terms which sought determination by a Master either at a 30 minute hearing, or, if the Master considered this appropriate, without a hearing. However, by Order dated 27 November 2024, Master Thornett directed that it should be released to a Judge of the Media and Communications List, and gave directions to enable an effective hearing to take place on a date convenient to Counsel for both parties on the first available date after 20 January 2025. Before me, Ms Grossman appeared for the Claimant and Mr Bedloe appeared for the Defendant, and I am grateful to both of them for their clear and helpful submissions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Paragraph 5 of the application notice explains the grounds of the application as follows: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;The Claimant respectfully submits that it is necessary and appropriate to grant anonymity pursuant to CPR 39.3 (a), (c) and/or (g) given the nature of the Claim and the vulnerability of the Claimant (more fully set out in the witness statement) and given the Claimant&#8217;s rights under Articles 8 and 14 ECHR (the reasons for the Claimant&#8217;s vulnerability amounting to a disability).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">It appears that the reference to &#8220;CPR 39.3 (a), (c) and/or (g)&#8221; is a mistake, and that what was intended was reference to CPR 39.2(3) (a), (c) and/or (g). The latter provisions are relied upon by Ms Grossman in her Skeleton Argument. However, even if that was the intention, it is misguided. CPR 39.2(3) sets out the grounds upon which the Court may decide to hold a hearing in private, which include &#8220;(a) publicity would defeat the object of the hearing&#8221;, &#8220;(c) it involves confidential information (including information relating to personal financial matters) and publicity would damage that confidentiality&#8221;, and &#8220;(g) the court for any other reason considers this to be necessary to secure the proper administration of justice&#8221;. Although such factors may play a part in deciding whether to grant an anonymity order, whether or not the hearing is held in private is a separate matter from the grant of anonymity. Moreover, and notwithstanding that (1) the names of the parties were set out when the case was listed for the hearing before me, and (2) those names were also stated on the notice posted outside the courtroom, in the present case the Claimant made no application for the hearing to be held in private. Nor, indeed, did the Claimant apply for any other form of hearing protection, such as an order restricting or prohibiting the use of documents that were read to or by the court, or referred to, at this public hearing (see CPR 21.22).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The only immediate application made by Ms Grossman was one made at the end of the hearing, and concerned a request for a reporting restriction to be imposed in relation to one specific mental health matter. This was not resisted by Mr Bedloe, and I considered it right to accede to it. In doing so, I had well in mind the comprehensive survey of this area of the law by Nicklin J in his recent judgment in <span style="font-style:italic">PMC v A Healthcare Board</span> [2024] EWHC 2969 (KB) (<span style="font-style:italic">&#8220;PMC&#8221;</span>), and of his firm conclusion (see [51] and [124]) that a statutory jurisdiction is needed for the imposition of any reporting restriction, essentially because, as Lord Sumption explained in <span style="font-style:italic">Khuja v Times Newspapers Ltd </span>[2019] AC 161 at [18]: &#8220;The inherent power of the court at common law to sit in private or anonymise material deployed in open court has never extended to imposing reporting restrictions on what happens in open court. Any power to do that must be found in legislation&#8221;. I also had well in mind that in <span style="font-style:italic">Tickle &amp; Anor v The BBC &amp; Ors </span>[2025] EWCA Civ 42, Sir Geoffrey Vos MR said at [78]: &#8220;Courts operate on the basis of the law and the evidence, not on the basis of judicial speculation and anecdote, even if it is legitimate to take judicial notice of some matters&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In my opinion, however, the dividing line between the court&#8217;s general power to control its own proceedings, which it is accepted may result in some information not being available to be reported (see <span style="font-style:italic">Khuja </span>at [16]), and a restriction on reporting what has been seen and heard in open court, which adds the extra dimension of &#8220;press censorship&#8221; (see <span style="font-style:italic">ibid</span>), is not a sharp one when, as sometimes happens, a hearing is conducted in open court on the basis that there is no necessity for it, or any part of it, to be heard in private, provided that care is taken not to mention in open court particular information that is of notable sensitivity and that is of no or at best highly peripheral relevance to the issues in the case, and that information is nevertheless mentioned in open court. In such circumstances, real injustice could result if the Court was powerless to act, or declined to act, by preventing the information from being further disseminated, and, in my experience, judges have not hesitated to grant protection of that kind. In the present case, at least at this stage of the proceedings, this specific mental health information is not necessary for an understanding of the matters that are in issue, attracts as a starting point a high level of confidentiality, and is not of any legitimate interest for the media to report or for the public to be told. For these reasons, I do not consider that I was powerless, or wrong, to make the order sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Of more apparent relevance to the Claimant&#8217;s substantive application is CPR 39.2(4), which provides: &#8220;The court must order that the identity of any person shall not be disclosed if, and only if, it considers non-disclosure necessary to secure the proper administration of justice and in order to protect the interests of that person&#8221;. CPR 39.2(4), together with other provisions, was referred to in the draft Order accompanying the Claimant&#8217;s application notice. In <span style="font-style:italic">PMC, </span>Nicklin J observed at [69]: &#8220;The terms of this rule closely mirror the established bases on which the Court is justified in granting any derogation from open justice, as explained in the earlier parts of this judgment&#8221;. The reference to &#8220;earlier parts&#8221; of that judgment is a reference, in particular, to [34]-[37], in which Nicklin J said that the two principal grounds on which derogations from open justice could be justified as necessary were (1) maintenance of the administration of justice and (2) the protection of other legitimate interests. At the same time, Nicklin J held that anonymity orders fall into two classes, namely (i) those that involve the withholding of a name and (ii) those that prohibit publication of the withheld information or any other information that would be likely to identify the person the Court has directed should be anonymised (see [45]). Nicklin J further held that the power to make the first class of order is to be found in rules other than CPR 39.2(4) and in the general power of the Court to control its own proceedings, and that the power to make the second class of order is to be found in &#8220;the regime for reporting restrictions provided under various statutes&#8221; (see [73]). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In the present case, if the Claimant establishes that it is appropriate for the Court to make an order falling within the first class (which the Court clearly has jurisdiction to do, although in accordance with Nicklin J&#8217;s analysis not one that derives from CPR 39.2(4)), there would be no difficulty in establishing jurisdiction to make the second class of order, if appropriate. See section 11 of the Contempt of Court Act 1981:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;In any case where a court (having power to do so) allows a name or other matter to be withheld from the public in proceedings before the court, the court may give such directions prohibiting the publication of that name or matter in connection with the proceedings as appear to the court to be necessary for the purpose for which it was so withheld.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Turning back to paragraph 5 of the Claimant&#8217;s application notice, so far as concerns &#8220;the nature of the Claim&#8221;, paragraph 2 of the application notice states: &#8220;The underlying claims are under the Human Rights Act 1998 (breach of Article 8 ECHR) in misuse of private information, and for breach of the GDPR/Data Protection Act.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The proceedings were commenced by a Claim Form dated 31 July 2020, which has not been served on the Defendant, and which was not before the Court. The immediate reason for this (on the face of it, extraordinary) lack of progress is that a series of extensions of time were agreed between the Claimant and the Defendant. Before the last of those agreed extensions expired on 1 December 2024, however, the Defendant indicated that it would not agree a further extension. This prompted the issue of the Claimant&#8217;s application dated 20 November 2024. This originally sought, on an urgent basis, and in addition to various derogations from open justice, an extension of time for service of the Claim Form and Particulars of Claim, partly on the ground that the Claimant is funded by Legal Aid and it was necessary to obtain the approval of the Legal Aid Agency to a High Costs Case Plan before the claim could be progressed. Fortunately, however, that issue did not need to be resolved at the hearing before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The Claimant is named on the Claim Form. From what Ms Grossman told the Court, however, the Claimant&#8217;s legal advisers always had it in mind to seek an anonymity order at what they considered to be the appropriate time, namely at or before the time of service of the Claim Form. In their view, there was no need to seek such an order earlier, on the footing that the Claim Form would not become available for inspection by any non-party until after it had been served, and an acknowledgment of service had also been served. This explains the timing of the application dated 20 November 2024. The intention to seek such an order was not communicated to the Defendant until 12 November 2024. The Claimant&#8217;s legal advisers saw no need to do this earlier, and they are constrained by Legal Aid funding to limit their costs to what is necessary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The fuller explanation for the course which these proceedings have taken to date begins with the events giving rise to the claim. Those events are described as follows in [9] of the witness statement dated 20 November 2024 of the Claimant&#8217;s solicitor, Jagdeep Bahra, made in support of the Claimant&#8217;s application:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;The claim arises from the unauthorised filming of the Claimant by a camera crew sent by the Garden Productions Ltd for the purposes of the television programme &#8216;24 Hours in Police Custody&#8217;, which is commissioned/broadcast by Channel 4 Broadcasting Corporation. The filming took place during a police raid (by the Defendant&#8217;s officers) of the Claimant&#8217;s home on 7 August 2019. The Claimant&#8217;s father was arrested during that operation. His brother was also arrested in a separate operation which took place elsewhere. The Claimant himself was never of any interest to the police. Neither he nor his parents (in the house at the time) gave informed consent to the film crew filming. The Claimant was under the impression the film crew were police evidence gatherers, and only became aware that they were in fact filming for a television programme after the event.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Based on this version of events, the Claimant&#8217;s legal advisers identified the following causes of action as being available to the Claimant: (1) a claim under section 6(1) of the Human Rights Act 1998 (&#8220;HRA&#8221;) that the Defendant acted in a way which was incompatible with his rights guaranteed by Article 8 of the European Convention on Human Rights, (2) a claim for misuse of his private information, and (3) claims for breach of his rights as a data subject under the legislation relating to data protection. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">A claim that a public authority has acted in a way which is made unlawful by section 6(1) of the HRA must be brought within one year: see section 7(5) of the HRA. For this reason, the claim based on section 6(1) HRA needed to be commenced within one year beginning on 7 August 2019. At the same time, (i) a limitation period of six years applies to the claims for misuse of private information and infringement of data subject rights, (ii) the Claimant&#8217;s legal advisers apparently always had it in mind to make those claims against The Garden Productions Limited (&#8220;TGP&#8221;) and Channel 4 Television Corporation (&#8220;Channel 4&#8221;) as well as against the Defendant, to do so by applying to amend the Claim Form and to join them as further Defendants to the claim, and to progress all the Claimant&#8217;s claims against all parties to trial at the same time, and (iii) the Claimant&#8217;s legal advisers considered that there were a number of good reasons (upon the merits of which I pass no comment) why it made sense not to seek to progress the proceedings overall any further than they have been progressed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">For these reasons the proceedings have taken the course that they have taken to date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">One matter which the Claimant&#8217;s legal advisers took into account in deciding on the strategy outlined above concerns the progress of criminal proceedings against his father and his brother. The evidence before the Court (see [13] of Mr Bahra&#8217;s witness statement) is that these proceedings continue to be pursued by the Crown Prosecution Service but have yet to come to trial, partly as a result of a general backlog in the criminal courts, and partly because of the serious ill health of the Claimant&#8217;s father. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The witness statement dated 25 November 2024 of Kate Stephenson, the Head of Legal Service Department of the Defendant, which was served in opposition to the Claimant&#8217;s application, states at [28] that the Defendant was advised by the Claimant on 25 July 2024 that the criminal trial had been relisted for October 2024. Nevertheless, it appeared to be common ground before me that no trial has yet taken place. Further, no details were available as to whether and to what extent the criminal proceedings have been the subject of hearings in open court. However, I regard it as inconceivable that during the four or more years that they have been in existence they have not been the subject of a number of such hearings: matters such as bail, pleas, case management, directions, and adjournments have to be considered in every case, and all such matters are dealt with in open court unless exceptional reasons apply.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Another matter which the Claimant&#8217;s legal advisers took into account concerns the existence of an agreement which was first mentioned in a letter from the Legal Services Department of the Defendant dated 9 September 2022. That letter states: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;The Garden Productions are legally associated with Bedfordshire Police whereby they produce the Police programme &#8216;24 hours in Police Custody&#8217;. We confirm a Garden Productions camera crew were in attendance alongside Police Officers on the morning the male was arrested, however, upon being made aware that they were not welcome at the address they left the property. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">Bedfordshire Police confirm an active legally bound agreement is in place between the force and The Garden Productions whereby The Garden Productions accept any claim which arises from their presence of camera crews will be dealt with primarily by their legal department and not Bedfordshire Police.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The evidence of Mr Bahra (see [17(f)] of his witness statement) is that it was not until 21 October 2024 that a redacted version of this agreement was provided to the Claimant&#8217;s legal advisers, at which time it became apparent to them that it constituted nothing more than an agreement to indemnify the Defendant &#8220;with regards to all and any liability for damages and costs arising from claims made&#8230;against [the Defendant] arising from or connected with the filming, photographing and recording activities of TGP.&#8221; The meaning and effect of that agreement are not matters that fall for determination in the present hearing. It is only of relevance by way of background, in so far as it bears on the question of why the proceedings have taken the protracted course that they have. The position of the Claimant&#8217;s solicitors is that it was necessary to understand whether the agreement in some way operated as a barrier to the Claimant&#8217;s prospects of success as against the Defendant, because that was relevant to an assessment of how the claim should proceed. This required to be made as the costs to the Legal Aid Agency are now expected to exceed &#163;25,000, such that a High Costs Case Plan needed to be submitted to and agreed with the Legal Aid Agency.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Returning to paragraph 5 of the Claimant&#8217;s application notice, the &#8220;vulnerability of the Claimant&#8221; is dealt with in Mr Bahra&#8217;s witness statement and in a report of Dr Nuwan Galappathie, a Consultant Forensic Psychiatrist, dated 5 June 2023, which is based on an assessment of the Claimant conducted by video-call on 16 October 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In the opinion of Dr Galappathie, and in very brief summary: (i) the Claimant suffers from a number of mental health problems; (ii) in large part, these long pre-date the events complained of; (iii) at the same time, however, they have been exacerbated by, and in one instance the problem appears to have been precipitated by, those events. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The report contains, at [59], an account of the events complained of that was provided by the Claimant to Dr Galappathie, which includes the following: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:1in">&#8220;&#8230; he remembers being in shock&#8230; He remembers his dad knocking on his door &#8230; He put on his dressing gown and opened the door. He then saw a camera crew. He remembers being confused as to why they were there but then one of the police officers said the camera crew were taking evidence and not to worry. He then thought they were part of the police and were there to film the arrest. He was told he could go to his room and get changed as he was not under investigation &#8230; he could not leave the property until the police had searched his room. He stood there waiting. He was annoyed, shocked and angry at the situation given that police officers were in his family home. He would never have expected anything like this to happen to his family &#8230; He was then allowed to leave&#8230; He then received a call from his mother to tell him that the camera crew that were there was actually a Channel 4 camera crew for a TV documentary and not part of the police. He was shocked and went into a rage of emotions &#8230; He was very distressed that he had been filmed including in his dressing gown and this was going to be aired on the television &#8230; [He] was shocked, angry, and felt out of control that the production company had turned his life upside down and was distressed and fearful that he was going to be shown on the TV as part of the documentary.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">At the hearing, particular attention was paid to [88]-[93] of the report, the principal conclusions of which may be summarised as follows: (i) the Claimant was shocked, distressed and traumatised to learn from his mother that the film crew was actually from Channel 4, recording for a TV documentary about time in custody, and he was scared and fearful that footage of him would be shown to the nation on TV, (ii) at the time of Dr Galappathie&#8217;s assessment &#8220;[the Claimant] continues to remain anxious, distressed, and fearful that the footage of him (or which is capable of identifying him) will be shown on a Channel 4 documentary programme&#8221;; (iii) the Claimant has subsequently suffered a range of symptoms which are consistent with recognised forms of mental disorder; (iv) an incident such as that complained of would cause trauma and distress to most people, but in the Claimant&#8217;s case a lack of formal confirmation that footage capable of identifying him would not be shown on the television would also have been distressing and worsened his mental health; (v) as he was highly vulnerable due to his pre-existing mental health problems he would have found the events complained of highly distressing and traumatising and they would have worsened his pre-existing problems and caused him to suffer further problems. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In the above summary, I have deliberately omitted mention of other factors and reactions which appear from the account attributed to the Claimant in the report to have had a bearing on his distress, anxiety and mental health, and which seem to me at least arguably to be attributable to the presence of the police as opposed to the film crew. The extent to which, according to his own account as rehearsed in that report, the effects on him may not be attributable to any of the matters complained of in these proceedings may fall to be explored at trial, but is beyond the remit of this judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bahra deals with the topic of &#8220;Protection of the Claimant&#8217;s interests&#8221; at [35]-[42] of his witness statement, and makes the following points (all quotes are verbatim): </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">&#8220;The Claimant feels intense humiliation and embarrassment that he has been implicated in the police investigation into his father and brother. He is concerned that they have been charged with serious offences relating to organised crime (the Defendant states &#8220;It is the prosecution&#8217;s case that he is part of a larger organised crime group concerned in the widespread supply of class A drugs and the laundering of the proceeds thereof&#8221;). Whilst he believes they are not guilty of the charges, he quite understandably does not wish to be associated with these matters.&#8221; ([35])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">The Claimant&#8217;s brother is associated with a prominent far-right figure. &#8220;The Claimant objects to those right-wing beliefs, does not wish to be associated with anyone like this and fears that he would be repercussions for him if he was.&#8221; ([36])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">&#8220;The Claimant was never of any interest to the police investigation. He was never arrested, questioned, or charged with any offence. He found himself involved in the index incident merely because he was living at his parents&#8217; address at the relevant time. The filming of him was simply &#8216;collateral intrusion&#8217;.&#8221; ([37])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">The Claimant&#8217;s family have been subject to what he believes to be intimidation by a criminal gang linked to the allegations for which the arrests were made. He moved out of the address where the matters complained of took place as &#8220;he found living there too distressing, and did not want any association with the police investigation into his family. He also feared for his own safety.&#8221; ([38])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">&#8220;The Claimant shares his first name and surname with his father, and he fears being mis-identified as his father.&#8221; ([39])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">The assurances originally provided to the Claimant that no &#8220;undisguised&#8221; footage of him would be used without his permission still left him concerned that &#8220;disguised&#8221; footage might still identify him or enable him to be identified. As to the later assurance by Channel 4 (on behalf of itself and TGP) that it would not use any video or audio footage of the Claimant whatsoever (whether disguised or undisguised): &#8220;Whilst this has provided some reassurance to the Claimant he remains concerned that if he were to be named publicly as a result of the current legal proceedings, he would still be associated with the police investigation and the allegations laid against his father and brother. He remains fearful of reprisals, including from those who set the family&#8217;s car on fire.&#8221; ([40])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(7)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">&#8220;The Claimant sometimes undertakes voluntary work doing football coaching with children and is concerned that any publicity linking him to the criminal investigation might impair his ability to carry out activities like this.&#8221; ([41])</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">(8)</num>
+	    <content>
+	      <p class="Style1" style="margin-left:0.79in;text-indent:0.12in">The Claimant&#8217;s mental condition has led to him experiencing a more intense reaction to the matters complained of, and amounts to a disability for the purposes of the Equality Act 2010. His rights under Article 14 of the European Convention on Human Rights are also engaged. ([42])</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bahra made a second witness statement, dated 26 November 2024, dealing with issues concerning delay and Legal Aid which are not germane to the live part of the application before me. In that witness statement, he also addressed the position in relation to the possible broadcast of materials about which the Claimant has complaints or concerns, making the point (among others) that the Claimant had always been concerned that a promise not to make public footage that &#8220;identified&#8221; the Claimant might not cover making public footage that is &#8220;capable of identifying&#8221; him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bahra also made a third witness statement, dated 21 January 2025, which was prompted by the handing down of the judgment of Nicklin J in <span style="font-style:italic">PMC </span>on 22 November 2024. In <span style="font-style:italic">PMC</span>, Nicklin J refused to make an anonymity order (or to grant other relief which derogated from open justice) in relation to assessment of damages proceedings in a claim for clinical negligence brought on behalf of a child by his mother and litigation friend, in part in light of previous publicity that had identified the Claimant, the disabilities that he had faced since birth, and the prospect of subsequent litigation. Mr Bahra states, in short, and partly by reference to a number of Google searches, that there has been no extensive publicity about the Claimant or the present case. Mr Bahra mentions, however, that when the matter was listed before Master Thornett, and in spite of measures taken by Mr Bahra and indications given to him by the Master&#8217;s clerk, the names of the parties were given when the case was initially listed in the daily cause list. (This also occurred with regard to the present hearing, as set out above.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Stephenson&#8217;s witness statement, made on behalf of the Defendant, was largely concerned with setting out the Defendant&#8217;s case. For example, she states at [9]: &#8220;We believe the alleged psychological injuries reported by the Claimant would have resulted from the arrest of his father rather than the presence of the camera crew&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Stephenson explains the Defendant&#8217;s opposition to the application on, in essence, the following basis: (i) it is perverse for the Claimant to seek anonymity in these proceedings when (in circumstances where the police raid has not attracted publicity and where the media have provided assurances which Ms Stephenson interprets as meaning &#8220;not to broadcast anything which would or could lead to his identification&#8221;) it is the very instigation of the proceedings that gives rise to the risk of propelling the Claimant&#8217;s name, and other details that he wishes to keep private, into the public domain; (ii) there is &#8220;no substance or specificity as to why anonymity would be appropriate in this case&#8221;; and (iii) &#8220;the feared prejudice is fanciful rather than real&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Finally, before turning to the submissions of the parties, I should say something about the position of TGP and Channel 4. These organisations were notified of the hearing, but did not seek to take part in it. However, Channel 4 sent a letter to the Claimant&#8217;s solicitors dated 24 January 2025 which Channel 4 asked to be brought to the attention of the Court. That letter stated as follows: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;As you are aware, for the reasons set out in detail in our previous letters, it is not accepted that your client&#8217;s privacy was unjustifiably infringed or that your client&#8217;s data protection rights were breached as a result of any filming undertaken by TGP for the Programme. In any event, we have made very clear that no footage of your client will be featured in any potential future episode of the Programme, irrespective of the outcome of the Criminal Proceedings. There is no risk of any &#8220;prospective broadcast&#8221; of any footage of your client as part of the Programme. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">Turning to your client&#8217;s application for an anonymity order, we consider that the question as to whether the order should be granted is a matter for the Court. However, as you have requested that we set out our position, we confirm that we do not consent to the present application. Our position on the appropriateness of an anonymity order in respect of your client is strictly reserved pending any application to join Channel 4 or TGP to the proceedings or service of any claim form on Channel 4 or TGP. If an anonymity order is granted on the basis of evidence provided to the Court as part of the present application, it should be revisited at the point that an application (if any) is brought to join Channel 4 or TGP to the claim or on service of any claim form on Channel 4 or TGP. In such circumstances, Channel 4 may wish to make submissions on the appropriateness of any anonymity order taking into account the status and nature of the proceedings against it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">That letter had been preceded by (among other correspondence) a detailed letter dated 15 December 2023 sent on behalf of Channel 4 and TGP. This stated as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>1.2</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">As an overriding point, Channel 4 and TGP have acted entirely properly in respect of the Incident. It is not accepted that your client&#8217;s privacy was unjustifiably infringed by their entry into the Property or filming, which was warranted in the public interest as being part of the observational filming of the Police&#8217;s investigation into your client&#8217;s father. It is also not accepted that Channel 4 and TGP have breached your client&#8217;s data protection rights &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>1.3</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">Moreover, as explained further below, your client has been given repeated assurances on various occasions since 7 August 2019 that he will not be identified in any potential future episode of the Programme without his express consent. He has also been assured that no decision would be taken as to whether the Incident would be included in a future episode until the conclusion of the criminal trial of his father and brother (the &#8216;Criminal Proceedings&#8217;). We understand that that trial is scheduled for October 2024 and that your client is not the subject of those Criminal Proceedings. Accordingly, an editorial decision has now been taken that your client&#8217;s image or voice will not be featured at all, whether disguised or otherwise, in any potential future episode of the Programme, irrespective of the outcome of the Criminal Proceedings &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.2</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">The particular police investigation which forms the backdrop to your client&#8217;s complaint was a significant investigation by the Police&#8217;s Serious Organised Crime Unit into alleged drug trafficking and money laundering. Despite the delay in proceedings against your client&#8217;s father and brother, this investigation has led to a number of substantial prison sentences and the recovery of considerable amounts of Class A drugs and money seized. There is a significant public interest in filming the work of the police and particularly the Serious Organised Crime Unit, which deals with the most serious criminality, as they undertake such a complex investigation into alleged crimes which could have significant impact on the local community.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>2.4.1.</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">TGP was permitted by the Police to record several stages of the investigation into the case concerning your client&#8217;s father and brother. On 7 August 2019, a two-person TGP crew attended the Property with the Police in order to film the arrest of your client&#8217;s father and the subsequent search of the Property for evidence. These events formed crucial points in the investigation. It was therefore necessary and legitimate for TGP to record these events in the public interest in order to obtain footage which, if broadcast, would give a proper account to the public of the Police&#8217;s investigation into the case, and the nature and gravity of the crimes of which your client&#8217;s father is accused. TGP took care to film only those parts of the Property that were directly relevant to the investigation. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.4.2.</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">Upon entering the Property, the TGP crew focussed on filming the arrest of your client&#8217;s father. He was escorted from the Property approximately 12 minutes after the Police&#8217;s arrival &#8230; The TGP crew informed your client&#8217;s father at the earliest reasonable opportunity that filming was taking place for the purposes of the Programme, and he did not raise any concerns. After the arrest, the TGP crew turned their attention to filming the search of the Property for evidence. Again, at the earliest reasonable opportunity, the TGP crew provided information in respect of filming to your client&#8217;s mother, explaining that they were part of the Programme team and that they would be following the work of the police. Your client&#8217;s mother also did not raise any concerns with this. At no point did a member of the TGP crew state to your client&#8217;s mother that it was &#8216;part of the police team&#8217; &#8230; Rather, the TGP crew considered that they had made clear that the purpose of filming was for the Programme, and that this had been understood by both of your client&#8217;s parents; they had no intention to nor did they mislead anyone as to the reason for their presence.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>2.4.3.</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">Due to the fact that your client was in the Property at the time of his father&#8217;s arrest and the subsequent search of the Property, he was briefly filmed by TGP...</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>3.3.</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">We are confident that a Court would find that the Article 10 ECHR freedom of expression rights of Channel 4, TGP and the public as a whole outweigh any countervailing privacy rights which may be found to be engaged on the part of your client. See, for example, Ofcom&#8217;s ruling on 8 November 2021 that the privacy of a woman and her children had not been unwarrantably infringed by TGP&#8217;s filming inside and outside her home for a different episode of the<span style="color:initial"> </span>Programme which showed the Police&#8217;s investigation into an insurance fraud committed by the woman&#8217;s then husband. You will note in particular pages 15- 16 of the ruling, in which Ofcom found that Channel 4&#8217;s right to freedom of expression and the public interest in obtaining the footage of the complainant&#8217;s husband&#8217;s arrest outweighed any legitimate expectation of privacy in the circumstances.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.4</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">&#8230; A number of the alleged impacts referred to in your Letter therefore appear to us to flow from the conversation with his mother and/or the actions of the Police and the arrest of your client&#8217;s father and brother, rather than from any obtaining or retention of footage by TGP or Channel 4. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>3.5.</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">It is also not accepted that any concerns on the part of your client about the potential future broadcast of footage of him on the Programme were (or continue to be) reasonable concerns, or that there has been a continuing &#8216;threat of eventual broadcast&#8217; &#8230; in circumstances where he has been given repeated assurances &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in;text-indent:-0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">PARTIES&#8217; SUBMISSIONS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman submitted that the anonymity order and other derogations from open justice sought by the Claimant&#8217;s application were necessary having regard to (i) the risks of publicity in terms of defeating the object of the action, (ii) the proper administration of justice, and (iii) the balance between the Claimant&#8217;s Article 8 rights and the Article 10 rights of the public. She argued that any interference with the Claimant&#8217;s Article 8 rights is also likely to be discriminatory pursuant to Article 14, given his mental state and the effects on his mental health of the material events.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman submitted, in particular, that these derogations were necessary to enable the Claimant to vindicate his privacy rights without further loss of those rights or exacerbation of distress or psychological injury, and that (i) he had manifested &#8220;a profoundly adverse reaction to intrusion upon his privacy caused by the filming&#8221;, (ii) he was vulnerable by reason of his mental health disorders, and (iii) &#8220;there are concerns that publicity in relation to these proceedings would expose him to a further risk of harm&#8221;. These submissions were made in reliance on a number of passages in Dr Galappathie&#8217;s report and in Mr Bahra&#8217;s witness statement which detail the Claimant&#8217;s vulnerabilities. Ms Grossman accepted that those materials made no mention of point (iii) of those submissions, but she invited me to accept that this could be inferred from the evidence contained in those passages, including the adverse effects on the Claimant of the matters complained of in these proceedings. Ms Grossman further prayed in aid the fact that the Claimant had limited resources to seek further or clarifying psychiatric evidence because he was being funded by Legal Aid.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman further submitted as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;The Claimant is highly distressed and humiliated at the fact of having been indirectly involved in a criminal investigation and the prospect of being connected to his father and brother as a result of it. He is fearful of being connected to the criminal investigation in the minds of the public, particularly because of possible reprisals against him and his family, and because of the connection between his brother and a very widely known far right figure; he is also concerned that connection of any sort to the criminal investigation would interfere with his voluntary activities coaching children.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In this regard, Ms Grossman placed reliance on the proposition that &#8220;as a legitimate starting point, a person under criminal investigation has, prior to being charged, a reasonable expectation of privacy in respect of information relating to that investigation&#8221; (see <span style="font-style:italic">Bloomberg LP v ZXC </span>[2022] AC 1158, Lord Hamblen and Lord Stephens JJSC at [146]). She submitted that this must apply by extension to &#8220;family members or other third parties accidentally or incidentally &#8216;caught up&#8217; in the investigation&#8221;, and accordingly to the Claimant in the present case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman submitted that it is difficult to see how a trial of the present claim could take place which did not &#8220;name the programme, consider the relationship between the Police and the Media Defendants or the reasons why this criminal investigation was deemed worthy of filming and/or broadcast&#8221;. Ms Grossman suggested that, unless he was granted anonymity, this would involve disclosing &#8220;information said to be private to the Claimant&#8221;. She argued that in this regard the present case is analogous to <span style="font-style:italic">JIH v News Group Newspapers Ltd </span>[2011] 1 WLR 1645 (<span style="font-style:italic">&#8220;JIH&#8221;</span>). In <span style="font-style:italic">JIH</span>, in a claim for misuse of private information, and faced with a choice between, on the one hand, naming the Claimant and saying little or nothing about the nature of the claim, and, on the other hand, granting anonymity to the Claimant and saying more about the nature of the claim, Lord Neuberger MR speaking for the Court of Appeal said at [35]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;There is much in the point that the media will be generally better able to discover, and report on, what the courts are doing if they can publish (a) details of the type of case (for instance, as in this case, a sexual liaison between an unidentified well known sportsman, in an apparently monogamous relationship, and a third party) rather than (b) the name of the individual who is seeking to protect an unspecified aspect of his or her alleged private life by means of an injunction&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Allied to these submissions, Ms Grossman characterised the present application as an endeavour to &#8220;hold the ring&#8221;, accepting that the position as to anonymity could be reviewed at a later stage, possibly even following the outcome of the trial. She suggested that this holding stance was needed so that &#8220;the Claimant should not be effectively prevented from seeking to vindicate his rights&#8221;, and to avoid the hand of the Court being tied as to what might need to be protected from publication at trial or in a judgment; and that no harm would be done as there was no immediate compelling reason in the public interest to identify the Claimant as no broadcast was imminent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman submitted that the test to be applied is that articulated in <span style="font-style:italic">Campbell v MGN Ltd </span>[2004] 2 AC 457, Lord Hope at [92]: &#8220;There must be some interest of a private nature that the claimant wishes to protect &#8230; In some cases &#8230; the answer to the question whether the information is public or private will be obvious. Where it is not, the broad test is whether disclosure of the information about the individual (&#8220;A&#8221;) would give substantial offence to A, assuming that A was placed in similar circumstances and was a person of ordinary sensibilities&#8221;, and at [99]: &#8220;The question is what a reasonable person of ordinary sensibilities would feel if she was placed in the same position as the claimant and faced with the same publicity&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman further submitted that, once the Claimant&#8217;s Article 8 rights are engaged, the task of the Court is to balance those rights against the derogations from open justice sought by Claimant, applying the approach set out by Lord Steyn in&#160;<span style="font-style:italic">In re S</span><span style="font-style:italic;font-weight:bold"> </span>[2005] 1 AC 593 at [17] (emphasis in original):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;First, neither article has&#160;<span style="font-style:italic">as such</span>&#160;precedence over the other. Secondly, where the values under the two articles are in conflict, an intense focus on the comparative importance of the specific rights being claimed in the individual case is necessary. Thirdly, the justifications for interfering with or restricting each right must be taken into account. Finally, the&#160;proportionality test must be applied to each. For&#160;convenience I will call this the ultimate balancing test&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Particularly with regard to any matters that had or would become available to the public by reason of the criminal proceedings involving the Claimant&#8217;s father and brother, Ms Grossman also relied on the principle that in claims for misuse of private information, in contrast to claims for breach of confidence, disclosure even to the world at large does not destroy the cause of action, as further disclosure may give rise to further intrusion and additional harm. By way of example, Ms Grossman made reference to <span style="font-style:italic">Green Corns Ltd v Claverley Group Ltd </span>[2005] EMLR 748, in which Tugendhat J said at [78]-[79] that the question was not whether information was generally accessible, but rather whether an injunction would serve a useful purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Ms Grossman made no detailed submissions concerning Article 14. She submitted that the guarantee contained in Article 14 that the enjoyment of the rights and freedoms contained in (amongst others) Article 8 should be without discrimination on any ground relating to status extended to the Claimant in light of his vulnerabilities, but said that she had been unable to find any authority that was of assistance in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">On behalf of the Defendant, Mr Bedloe began his submissions by referring to CPR 39.2(3)(a), (c) and (g) because those provisions were relied on in the application notice, although he pointed out that they related to hearings in private and so were not germane to the application, and to CPR 39.2(4). He submitted that whichever way the matter was approached, the Claimant had not made out a case for an anonymity order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bedloe relied on <span style="font-style:italic">C v Secretary of State for Justice</span> [2016] UKSC 2; [2016] 1 WLR 444 for the proposition that one aspect of the principle of open justice is that as a general starting point &#8220;the names of the people whose cases are being decided, and others involved in the hearing, should be public knowledge&#8221; (Lady Hale JSC at [1]). He relied on <span style="font-style:italic">XXX v Camden LBC</span> [2020] EWCA Civ 1468 for the proposition that when confronted with an application for anonymity pursuant to CPR 39.2(4), the Court should have regard to the relevant principles set out in the authorities and carry out the balancing exercise of the relevant interests under CPR 39.2 to determine whether &#8220;non-disclosure is necessary to secure the proper administration of justice and in order to protect the interests of that party or witness&#8221; (McCombe LJ at [24]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bedloe adopted the following statement of the law in <span style="font-style:italic">TT v Essex County Council </span>[2023] EWHC 826 (Admin) (<span style="font-style:italic">&#8220;TT&#8221;</span>), Mostyn J at [76]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;I consider that these principles, which should be applied on any application for anonymity, whether by a party, a witness, a professional or a non-party, can be summarised as follows: </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:1.29in;text-indent:-0.5in">i)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:1.29in">The starting point is the common law principle of open justice. Open justice means not only that justice is administered in public but that everything said in court is reportable including the mention of names. These are weighty imperatives. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.29in;text-indent:-0.5in">ii)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:1.29in">An anonymity application if granted is a derogation from the common law principle. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.29in;text-indent:-0.5in">iii)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:1.29in">On such an application the judge must apply a test of necessity in an intensely focussed balancing exercise. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.29in;text-indent:-0.5in">iv)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:1.29in">The judge must be satisfied in that exercise by clear and cogent evidence adduced by the applicant that it is necessary and proportionate, in order to enable justice to be done, to grant anonymity. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.29in;text-indent:-0.5in">v)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:1.29in">The decision is not to be made on the basis of rival generalities but instead by a close examination of the weight to be given to the specific rights that are at stake on the facts of the case. Hence the need for clear and cogent evidence.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">That summary was derived from the fuller exposition in the judgment of Warby LJ in <span style="font-style:italic">R (MNL) v Westminster Magistrates&#8217; Court</span> [2023] EWHC 587 (Admin) at [43], which includes the following:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">The starting point is the common law principle of open justice, authoritatively expounded in <span style="font-style:italic">Scott v Scott</span> and subsequent authorities at the highest level &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">The general principles that (a) justice is administered in public and (b) everything said in court is reportable both encompass the mention of names. As a rule, "[t]he public has a right to know, not only what is going on in our courts, but also who the principal actors are": <span style="font-style:italic">R (C) v Secretary of State for Justice </span>[2016] UKSC 2, [2016] 1 WLR 444 [36] (Baroness Hale) &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">When considering the application for derogation in this case the judge was right to identify and apply a test of necessity. Under the common law as it existed prior to the entry into force of the Human Rights Act 1998, anonymity could only be justified where this was strictly necessary "in the interests of justice": see <span style="font-style:italic">Khuja</span> [14]. This was and remains an exception of narrow scope: see the tests cited in <span style="font-style:italic">Clifford v Millicom</span> at [31]- [32]&#8230; The claimant's case rests on the common law privacy right derived from Article 8, to which the Supreme Court referred in <span style="font-style:italic">Khuja</span>. But in that context too the applicant for anonymity has to show that this is necessary in pursuit of the legitimate aim on which he relies. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">The threshold question is whether the measure in question &#8211; here, allowing the disclosure of the claimant's name and consequent publicity - would amount to an interference with the claimant's right to respect for his private and family life. This requires proof that the effects would attain a "certain level of seriousness": <span style="font-style:italic">ZXC</span> (SC) [55], <span style="font-style:italic">Javadov</span> [39]. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">The next stage is the balancing exercise. Both the judge's decisions expressly turned on whether it was "necessary and proportionate" to grant anonymity. That language clearly reflects a Convention analysis and the balancing process which the judge was required to undertake. The question implicit in the judge's reasoning process is whether the consequences of disclosure would be so serious an interference with the claimant's rights that it was necessary and proportionate to interfere with the ordinary rule of open justice &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <intro>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">It is in that context that the judge rightly addressed the question of whether the claimant had adduced "clear and cogent evidence". He was considering whether it had been shown that the balance fell in favour of anonymity. The cases all show that this question is not to be answered on the basis of "rival generalities" but instead by a close examination of the weight to be given to the specific rights that are at stake on the facts of the case. That is why "clear and cogent evidence" is needed. This requirement reflects both the older common law authorities and the more modern cases. In <span style="font-style:italic">Scott v Scott</span> at p438 Viscount Haldane held that the court had no power to depart from open justice "unless it be strictly necessary"; the applicant "must make out his case strictly, and bring it up to the standard which the underlying principle requires". <span style="font-style:italic">Rai </span>(CA) is authority that the same is true of a case that relies on Article 8. The Practice Guidance is to the same effect and cites many modern authorities in support of that proposition. These include <span style="font-style:italic">JIH v News Group Newspapers Ltd</span> [2011] 1 WLR 1645 where, in an often-cited passage, Lord Neuberger of Abbotsbury said at [22]:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Style1" style="margin-left:1.18in">"Where, as here, the basis for any claimed restriction ultimately rests on a judicial assessment, it is therefore essential that (a) the judge is first satisfied that the facts and circumstances of the case are sufficiently strong to justify encroaching on the open justice rule &#8230;" </p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">In my opinion, the closing passage of the judgment under review reflects the conclusion arrived at by the judge after conducting the necessary balancing process. This was that, in the light of all the facts and circumstances that were apparent to him at that time, the derogation from open justice that anonymity would represent was no longer shown to be justified as both necessary for the protection of the claimant's Article 8 rights and proportionate to that aim.&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"> Mr Bedloe further relied on the following observations of Mostyn J in <span style="font-style:italic">TT </span>at [80]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;Most litigation is upsetting. Much litigation involves revelation of personal matters that people would generally not want bandied about publicly. These personal matters might extend to conduct by which, if revealed, the actors would be not merely embarrassed, but ashamed or humiliated. But if you are an adult, the full reportability of such material is, save in exceptional circumstances, the price you pay for bringing your case for public adjudication in the state&#8217;s courts.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bedloe also made reference to the decision of the Court of Appeal in <span style="font-style:italic">William Gardinala v Secretary of State for the Home Department</span> [2024] EWCA Civ 1410 (<span style="font-style:italic">&#8220;Gardinala&#8221;</span>). In that case, in giving the reasons of the Court of Appeal for the decision to refuse an application by the appellant seeking anonymity in order to protect the identities of his partner and his two young children, Whipple LJ said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;8.</num>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in;text-indent:0.21in">It is well-established that hearings should take place in public with the parties named unless there are cogent reasons why the court thinks it right to depart from that position: <span style="font-style:italic">Pink Floyd Music Ltd v EMI Records Ltd </span>[2010] EWCA Civ 1429; [2011] 1 WLR 770. This is the default position. The Civil Procedure Rules contain provision for mandatory anonymisation in certain circumstances, see CPR 39.2(4). General guidance on anonymising parties or witnesses is given at CPR 39.2.13, and guidance specific to the Court of Appeal is given at CPR 52.23.4. In addition, Practice Guidance dated 22 March 2022 explains the approach to anonymisation of parties to asylum and immigration cases in the Court of Appeal; it provides that the identity of a party is to be withheld only if the court considers it necessary to secure the proper administration of justice and in order to protect the interests of that party (reproduced in the White Book 2024 at CPR 52PG.2, see paragraph 3 in particular). All these rules and sources of guidance emphasise the default position. Determining the answer to an application for anonymity requires the weighing of competing interests of a party or their family members against the need for open justice.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>10.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">The grounds for seeking anonymity in this Court repeat two points raised in the UT: that by identifying the appellant, the identity of his partner and children will become known; and that sensitive information about the appellant&#8217;s partner should not be made public. We do not set out the grounds in any greater detail because that would risk the very intrusion which the appellant seeks to avoid. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">We accept that by naming the appellant, the identity of the appellant&#8217;s partner and children may become known: his two children bear his surname, and he is in a longterm relationship with his partner conducted openly and known to others. Further, we accept that there is a risk that publicity arising out of this case might lead to the appellant and his family attracting some unwanted attention or comment, alternatively might cause them embarrassment because details of the appellant&#8217;s criminal past will come out. But these are not sufficient reasons to depart from the default position. That risk of unwanted attention, comment or embarrassment is a predictable and accepted consequence of the open justice principle at work.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>13.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in">Anonymity cannot be justified because it would amount to a disproportionate interference with the principle of open justice.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The relevant Practice Guidance, to which Whipple LJ made reference in the passage cited above, is the Master of the Rolls&#8217;&#160;Practice Guidance (Interim Non-Disclosure Orders) [2012] 1 WLR 1003, which provides (among other things) as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;[9] Open justice is a fundamental principle. The general rule is that hearings are carried out in, and judgments and orders are, public: see article 6.1 of the Convention, CPR r 39.2 and&#160;<span style="font-style:italic">Scott -v- Scott</span><span>&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=http://www.commonlii.org/uk/cases/UKLawRpAC/1913/19.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[1913] AC 417</a>. This&#160;applies to applications for interim non-disclosure orders:&#160;<span style="font-style:italic">Micallef -v- Malta</span>&#160;(2009) 50&#160;EHRR 920&#160;[75];&#160;<span style="font-style:italic">Donald -v- Ntuli (Guardian News &amp; Media Ltd intervening)</span><span>&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/2010/1276.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2011] 1 WLR 294</a>&#160;[50].</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">[10] Derogations from the general principle can only be justified in exceptional circumstances, when they are strictly necessary as measures to secure the proper administration of justice. They are wholly exceptional:&#160;<span style="font-style:italic">R -v- Chief Registrar of Friendly Societies, ex&#160;parte New Cross Building Society</span>&#160;[1984] QB 227, 235;&#160;<span style="font-style:italic">Donald -v- Ntuli</span>&#160;[52]-[53]. Derogations should, where justified, be no more than strictly necessary to achieve their purpose.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">[11] The grant of derogations is not a question of discretion. It is a matter of obligation and the court is under a duty to either grant the derogation or refuse it when it has applied the relevant test:&#160;<span style="font-style:italic">M -v- W</span><span>&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWHC/QB/2010/2457.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2010] EWHC 2457 (QB)</a>&#160;[34].</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">[12] There is no general exception to open justice where privacy or confidentiality is in issue. Applications will only be heard in private if and to the extent that the court is satisfied that by nothing short of the exclusion of the public can justice be done. Exclusions must be no more than the minimum strictly necessary to ensure justice is done and parties are expected to consider before applying for such an exclusion whether something short of exclusion can meet their concerns, as will normally be the case:&#160;<span style="font-style:italic">Ambrosiadou -v- Coward&#160;</span>[2011] EMLR 419&#160;[50]-[54]. Anonymity will only be granted where it is strictly necessary, and then only to that extent.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">[13] The burden of establishing any derogation from the general principle lies on the person seeking it. It must be established by clear and cogent evidence:&#160;<span style="font-style:italic">Scott -v- Scott</span><span>&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=http://www.commonlii.org/uk/cases/UKLawRpAC/1913/19.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[1913] AC 417</a>, 438-439, 463, 477;&#160;<span style="font-style:italic">Lord Browne of Madingley -v- Associated Newspapers Ltd</span><span>&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/2007/295.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2008] QB 103</a>&#160;[2]-[3];&#160;<span style="font-style:italic">Secretary of State for the Home Department -v- AP (No.2)&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKSC/2010/26.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2010] 1 WLR 1652</a>&#160;[7];&#160;<span style="font-style:italic">Gray -v- W&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWHC/QB/2010/2367.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2010] EWHC 2367 (QB)</a>&#160;[6]-[8]; and&#160;<span style="font-style:italic">JIH -v- News Group Newspapers Ltd (Practice Note)</span><span>&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/2011/42.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2011] 1 WLR 1645</a>&#160;[21].</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">[14] When considering the imposition of any derogation from open justice, the court will have regard to the respective and sometimes competing Convention rights of the parties as well as the general public interest in open justice and in the public reporting of court proceedings. It will also adopt procedures which seek to ensure that any ultimate vindication of article 8 of the Convention, where that is engaged, is not undermined by the way in which the court has processed an interim application. On the other hand, the principle of open justice requires that any restrictions are the least that can be imposed consistent with the protection to which the party relying on their article 8 Convention right is entitled. The proper approach is set out in&#160;<span style="font-style:italic">JIH</span>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Finally, so far as concerns the law, Mr Bedloe cited <span style="font-style:italic">PMC </span>and <span style="font-style:italic">Tickle &amp; Anor v The BBC &amp; Ors </span>[2025] EWCA Civ 42 as recent instances where orders for anonymity had been refused. However, each case depends upon its own particular facts, and &#8220;The fact that the outcome [of an anonymity application] usually depends upon the assessment of the judge of the particular circumstances of a case explains why no consistent pattern can be identified by examining the cases where courts have made or declined to make an exception to the general rule&#8221; &#160;(<span style="font-style:italic;color:initial">R -v- Legal Aid Board, ex parte Kaim Todner (A Firm)</span><span style="color:initial">&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Civ/1998/958.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[1999] QB 966</a><span style="color:initial">, Lord Woolf MR 977). Accordingly, I consider that these cases are of limited assistance. That said, it is right to note than in </span><span style="font-style:italic">Tickle &amp; Anor v The BBC &amp; Ors </span>[2025] EWCA Civ 42, Sir Geoffrey Vos MR at [49] expressly approved the following passage from the judgment of Nicklin J in <span style="font-style:italic">PMC</span> at [41]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;Whilst, in a very broad sense, in assessing the engaged convention rights on any application for a derogation from open justice, the Court is carrying out a 'balance' between them, the scales do not start evenly balanced. The Court must start from the position that very substantial weight must be accorded to open justice. Any balance starts with a very clear presumption in favour of open justice unless and until that is displaced and outweighed by a sufficiently countervailing justification. That is not to give a presumptive priority to Article 10 (or open justice), it is simply a recognition of the context in which the&#160;<span style="font-style:italic">Re S&#160;</span>'balance' is being carried out.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Moving on from the law to submissions on the facts, Mr Bedloe pointed out that the psychiatric report of Dr Galappathie in the present case is based essentially on what the Claimant told Dr Galappathie, and, moreover, more than three years after the events complained of; that the report itself was made about 18 months ago; and that no application for anonymity was made until November 2024. He submitted that the Claimant had failed to adduce &#8220;clear and cogent evidence&#8221; that any of the derogations from open justice that he was seeking were truly necessary, as the case law required.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Mr Bedloe further submitted that the persons who would identify the Claimant, in the way that he claimed would amount to an unjustifiable interference with his Article 8 rights, could be divided into two classes: (i) those who know the Claimant, who would already and in any event know the matters that the Claimant was concerned that he would be associated with, and (ii) the wider public. Mr Bedloe suggested that the derogations from open justice sought by the Claimant could not be justified with regard to either class: as to class (i), because they would not provide any effective protection to the Claimant, and as to class (ii), because revealing those matters to the wider public, who did not know the Claimant, would have no material impact on him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">Finally, on the facts, Mr Bedloe submitted that the Claimant&#8217;s core anxiety and concern, as set out in the evidence adduced on his behalf, is that &#8220;he was going to be shown on the TV&#8221;, and that in light of the letters from Channel 4 referred to above, it is clear, and indeed it has been clear since December 2023, that this risk does not exist. He argued that the Claimant&#8217;s evidence was also not &#8220;clear and cogent&#8221; for this reason.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Style1" style="margin-left:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">DISCUSSION </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The authorities all speak with one voice as to the high importance of the principle of open justice, and in stating that derogations must be subjected to a test of necessity. In addition, it is clear that the naming of &#8220;principal actors&#8221; forms part of that principle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The significance of identifying a party (or other person, such as a witness) will vary from case to case. In this case, on the materials at present available, it appears that the principal issues are (i) whether or not the police and film crew acted lawfully on the occasion of the raid of the Claimant&#8217;s parents&#8217; house, (ii) whether and to what extent the filming of the Claimant on that occasion violated his privacy and data subject rights, and, if it did, the extent of the harm thereby occasioned to him, and (iii) whether and to what extent further actual or anticipated use of film footage of the Claimant has violated or would violate those rights, and, if so, what harm to him flows from that.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The first issue appears to have two aspects: (a) there is a factual issue as to whether the Claimants&#8217; parents gave informed consent for the filming; and (b) there is a mixed question of fact and law as to whether the filming engages, and attracts the protection of, the Article 10 rights of TGP, Channel 4 and the public on the basis asserted in the correspondence (namely, in short, that there is a public interest in filming the police fight against crime, and that this outweighs any privacy rights of a person incidentally caught up in, or captured by, such filming, even in or around their home). The first aspect of the second issue is the other side of the coin to point (b), and the second aspect of the second issue (compensation for any harm caused) is dependent on the first aspect being resolved in the Claimant&#8217;s favour. The third issue engages the same balance of rights, although it seems insubstantial in light of the assurances provided by Channel 4 (which could surely be ironed out without the need for the matter to be pursued through litigation if the promise that the Claimant&#8217;s &#8220;image or voice will not be featured at all, whether disguised or otherwise&#8221; is considered in some way unclear).   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In setting out the position of TGP and Channel 4, Channel 4 has made reference to an Ofcom ruling, but to no decided case. Further, (although a determination of the merits was not before the Court) no decided case involving similar facts was referred to at the hearing. As at present advised, therefore, it would seem that no such case exists.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In these circumstances, it appears to me that this case potentially raises issues of quite considerable public interest, revolving around the extent to which it is or is not lawful and appropriate for the police to allow their activities in detecting and preventing crime and apprehending suspected offenders to be filmed for broadcast on television. On that basis, media reporting of this case seems to me likely to be such as will &#8220;contribute to a debate of general interest&#8221; (see <span style="font-style:italic">Von Hannover v Germany&#160;</span>[2005] EHRR 1, at [63]). Accordingly, it is right to attach weight in this instance to the recognition that if a story is of less interest to the media and the public, it is less likely to be reported, or read or viewed by the public who are told about it. Further, the consequences of such filming being allowed for individuals who are not suspects but who are caught up in police investigations and activities is an important aspect of that debate. This is perhaps particularly so if they are vulnerable and thus more liable to suffer harm. Reporting on such consequences without identifying the individuals in question is likely to be difficult, and to lack impact (because it will appear disembodied) even if it can be done. This brings into play the considerations discussed<span style="color:initial"> in&#160;</span><span style="font-style:italic;color:initial">In re Guardian News and Media Ltd&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKSC/2010/1.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2010] 2 AC 697</a><span style="color:initial">, Lord Rodger at [63]-[64]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in">&#8220;[63] What's in a name? "A lot", the press would answer. This is because stories about particular individuals are simply much more attractive to readers than stories about unidentified people. It is just human nature&#8230; Writing stories which capture the attention of readers is a matter of reporting technique, and the European court holds that article 10 protects not only the substance of ideas and information but also the form in which they are conveyed:&#160;<span style="font-style:italic">News&#160;Verlags GmbH &amp; Co KG -v- Austria</span>&#160;31 EHRR 246&#160;[39]... More succinctly, Lord Hoffmann observed in&#160;<span style="font-style:italic">Campbell -v- MGN Ltd&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKHL/2004/22.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2004] 2 AC 457</a>&#160;[59], "judges are not newspaper editors". See&#160;also Lord Hope of Craighead in&#160;<span style="font-style:italic">In&#160;re BBC&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKHL/2009/34.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2010] 1 AC 145</a>&#160;[25]. This&#160;is not just a matter of deference to editorial independence. The judges are recognising that editors know best how to present material in a way that will interest the readers of their particular publication and so help them to absorb the information. A&#160;requirement to report it in some austere, abstract form, devoid of much of its human interest, could well mean that the report would not be read and the information would not be passed on. Ultimately, such an approach could threaten the viability of newspapers and magazines, which can only&#160;inform the public if they attract enough readers and make enough money to survive.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in">[64] Lord Steyn put the point succinctly in&#160;<span style="font-style:italic">In re S&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKHL/2004/47.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2005] 1 AC 593</a>&#160;[34], when he stressed the importance of bearing in mind that </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in">"from a newspaper's point of view a report of a sensational trial without revealing the identity of the defendant would be a very much disembodied trial. If the newspapers choose not to contest such an injunction, they are less likely to give prominence to reports of the trial. Certainly, readers will be less interested and editors will act accordingly. Informed debate about criminal justice will suffer."&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"><span style="color:initial">For these reasons, on the facts of this particular case, I consider that, as a starting point, the scales are further tipped in favour of open justice in the specific context of the importance of identifying the principal protagonist by considerations which would not apply, or not apply with such force, to many cases where a person seeks anonymity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"><span style="color:initial">Turning from the principle of open justice to the topic of derogations, there are cases in which the process of the Court would lead to injustice unless some derogation is ordered. </span><span style="font-style:italic;color:initial">JIH </span><span style="color:initial">is an example of such a case. If an individual is unable to ask the Court to prevent publication of a sexual liaison which the individual claims ought not to be made public without being required to reveal in the proceedings both the individual&#8217;s identity and the very liaison the individual is seeking to keep secret, then that would thwart the proper administration of justice. The present case is not such a case. The private information and data which the Claimant is seeking to protect in the present case consists of film footage. Refusal of the derogations he seeks will not have the effect of making that information and data public. If and to the extent that the footage features in the proceedings (eg by way of disclosure or as a result of being deployed at trial) the Court can take steps then, if appropriate, to prevent it from being repeated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"><span style="color:initial">Similarly, if refusal of the derogations that he is seeking would have the effect of deterring the Claimant from gaining access to the litigation process because publicising his involvement in these proceedings (i) would have an adverse impact on his health or (ii) would so upset him that he would be disinclined to proceed with an ostensibly viable claim, then justice might require that derogations are ordered. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"><span style="color:initial">However, neither of those consequences is made out on the evidence before the Court. The Claimant has not provided a witness statement himself, and although Mr Bahra has made three witness statements on his behalf and a lengthy psychiatric report has also been served on his behalf, none of that evidence alludes to such consequences. Whether or not the Claimant found the events complained of deeply distressing provides no reliable indication as to whether he would find the pursuit of these proceedings materially distressing in the absence of the derogations from open justice that he seeks. Even making due allowance for the costs constraints that he may face in light of the fact that his claim is being funded by Legal Aid, I am not prepared to draw an inference to that effect on the basis of the evidence that he has adduced, in light of the requirement for &#8220;clear and cogent evidence&#8221; that is spelled out in the cases.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"><span style="color:initial">Those conclusions would be sufficient to dispose of the present application if, as Mr Bedloe submitted, CPR 29.2(4) has the effect that the Court can only order </span>that the identity of any person should not be disclosed if it considers that non-disclosure is necessary not only (i) &#8220;to secure the proper administration of justice&#8221; but also (ii) &#8220;in order to protect the interests of that person&#8221;. In my view, however, although guidance is provided in the authorities by reference to the need to determine whether &#8220;non-disclosure is necessary to secure the proper administration of justice and in order to protect the interests of that party or witness&#8221;, the approach to the issues that is adopted in the cases does not reflect an acceptance that those requirements are cumulative. Further, as Nicklin J explained in <span style="font-style:italic">PMC </span>at [34]-[37], the long-standing jurisprudence demonstrates that derogations from open justice can be justified as necessary either to secure the proper administration of justice or to protect other legitimate interests. I therefore approach the present case on the basis, favourable to the Claimant, that it would be sufficient for him to establish either of the requirements in CPR 29.2(4).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in"><span style="color:initial">What will be made public if the derogations that the Claimant is seeking are refused is the fact that he is the individual who (i) was subject to the filming complained of, (ii) suffered the adverse effects he claims, (iii) has had to take steps to prevent the footage being broadcast, and (iv) has been occasioned anxiety and so forth by this. All of that involves some revelation of personal matters of a type which, in the words of Mostyn J, &#8220;people would generally not want bandied about publicly&#8221;. However, these matters constitute the very heart of the Claimant&#8217;s causes of action, and it is absolutely typical that such matters are revealed in cases relying on such causes of action. Indeed, without such matters being revealed claimants cannot obtain public vindication for the wrongs they claim to have suffered. Victims of phone hacking and people who complain about intrusive press photography (including children: see </span><span style="font-style:italic;color:initial">Murray v Express Newspapers plc </span><span style="color:initial">[2009] Ch 481) are among legion examples. In each case, the fact that the claimant has been subject to the invasion of privacy and loss of autonomy complained of is itself a private matter, but the revelation of that matter in litigation is minor in comparison to the intrusion occasioned by the wrongdoing complained of, for which the claimant is seeking relief (i.e. it is a small price to pay for obtaining redress), and moreover, speaking generally, even if it gives rise to a &#8220;risk of unwanted attention, comment or embarrassment&#8221; that is &#8220;a predictable and acceptable consequence of the open justice principle at work&#8221; (</span><span style="font-style:italic;color:initial">Gardinala</span><span style="color:initial">, Whipple LJ at [11]).   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">When considering whether the derogations the Claimant seeks are necessary to protect his Article 8 rights, it is appropriate to apply the two-stage test articulated by the Court of Appeal in <span style="font-style:italic">Murray </span>and endorsed by the Supreme Court in <span style="font-style:italic">Bloomberg LP v ZXC </span>[2022] AC 1158 (Lord Hamblen and Lord Stephens JJSC at [47]). At stage one, the question is whether the claimant has a reasonable expectation of privacy in the relevant information; if so, at stage two, the question is whether that expectation is outweighed by countervailing interests such as the media&#8217;s right to freedom of expression. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">With regard to the fact that he was filmed, and the consequences for him including distress, anxiety and the contest over use of the footage, there seems no reason to doubt that the Claimant has a reasonable expectation of privacy. It is far from clear that these matters are known even to his immediate circle of friends, let alone contacts made at work or while performing voluntary activities; but even if they were, exposure to the world at large such as would follow from the further progress of the present claim in the absence of the derogations he seeks would plainly give rise to further intrusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In my judgment, however, the suggestion that the Claimant may suffer reprisals as a result of being identified in these proceedings - in particular, in the words of Mr Bahra, from &#8220;a criminal gang linked to the allegations for which the arrests were made&#8221; - is without foundation. So far as that is concerned, I am unable to accept that anyone who may want to harm the Claimant due to his association with his father and brother will not already have done so over the five or more years since the police raid took place, or would be motivated to do so by learning that he is the claimant in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">However, much of the Claimant&#8217;s case before me concerning interference with his Article 8 rights (such as, in Mr Bahra&#8217;s words, the &#8220;intense humiliation and embarrassment that he has been implicated in the police investigation into his father and brother&#8221;) does not relate to publicity about the fact that he was filmed and the consequences that he says that filming and the fear of broadcast had for him. It relates instead to the concern that if he is identified as the individual who is making the complaints that form the subject of the present proceedings, the fact that he is the son and brother of two men who are the subject of criminal proceedings (and the brother of a man who has or who is associated with far right-wing views) will attract publicity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">With regard to this information, I consider there is much to be said for the view that if an adult finds that information concerning people who are close to them or with whom they are associated (whether through blood ties, friendship, business, or for whatever reason) and that does not reflect well on those people becomes public knowledge, and this has some adverse effect on the individual due to his or her connection with such people being or becoming known, that it is simply one of the ordinary incidents of living in a free community. In the words of the test that I was invited to apply by Ms Grossman, a reasonable person of ordinary sensibilities placed in the position of such an individual would not take substantial offence at such a connection being publicised. If that is right, a claim to protect this information would fail at stage one of the test.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">It seems, however, that this view is too robust, at least so far as concerns the revelation that family members are implicated in criminality. In <span style="font-style:italic">Re S</span><span style="font-style:italic;font-weight:bold"> </span>[2005] 1 AC 593, the House of Lords upheld the refusal of an application for an injunction restraining the publication by newspapers of the identity of a defendant in a murder trial which had been intended to protect the privacy of her son who was not involved in the criminal proceedings. But it did so not on the grounds that Article 8 was not engaged (see Lord Steyn at [24]: &#8220;On the evidence it can readily be accepted that Article 8 is engaged&#8221;, and at [32]: &#8220;The jurisdiction under the ECHR could equally be invoked by an adult non-party faced with possible damaging publicity as a result of a trial of a parent, child or spouse&#8221;) but instead on the basis that the balance between, on the hand, Article 10 and the principle of open justice, and, on the other hand, Article 8, came down in favour of the former. Further, the reasoning in <span style="font-style:italic">Gardinala </span>suggests that the Court of Appeal considered that the fact that if details of the appellant&#8217;s criminal past became known this might cause the appellant and his family embarrassment was a matter to be taken into account when carrying out the balancing exercise, but that this was not a &#8220;sufficient reason&#8221; to depart from the &#8220;default position&#8221; of open justice. Even so, those cases support the conclusion that a derogation from open justice is unlikely to be justifiable with regard to such information, applying part two of the two-stage test.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">In my judgment, even assuming that all the grounds on which the Claimant contends that disclosure of his name and consequent publicity would amount to an interference with his Article 8 rights are well founded, that interference would not be so serious as to make it necessary and proportionate to grant any of the derogations from open justice that he seeks. In particular, I consider that (1) the default position of open justice is materially strengthened or enhanced in this particular case because there is a genuine public interest in identifying the Claimant in light of the nature of the claims that he is bringing, the fact that his claims raise important issues that appear not to have been the subject of any previous decided case, and the serious consequences that he says the matters complained of had for him as a vulnerable individual, (2) some of the matters that the Claimant says he should not be required to be identified with comprise no or little more than the elements of his causes of action, there is nothing unusual or untoward about matters of that kind being made public, and if derogations from open justice were needed to protect a claimant&#8217;s Article 8 rights in respect of such matters then derogations would become the norm rather than the exception, (3) the Claimant says that other matters that he should not be required to be identified with will cause him humiliation and embarrassment (on Mr Bahra&#8217;s evidence) or distress (according to Ms Grossman&#8217;s submissions), but that is not a sufficient reason to derogate from open justice for the like considerations as applied in <span style="font-style:italic">Gardinala</span>, and (4) the Claimant&#8217;s reliance on Article 14 does not affect the balance that would otherwise be struck between open justice and Article 10 considerations on the one hand and Article 8 considerations on the other hand, as he has not established on the evidence that refusal of derogations would have any discriminatory effect on him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">That is not to say that the Claimant&#8217;s vulnerabilities will not be taken into account where appropriate. For example, in the event that the Claimant was to succeed in establishing liability, his vulnerabilities may have the effect of increasing the damages to which he might otherwise be entitled: see <span style="font-style:italic">Gulati v MGN Limited&#160;</span><a href="https://www.bailii.org/ew/cases/EWHC/Ch/2015/1482.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2015] EWHC 1482 (Ch)</a><span style="color:initial">,</span>&#160;Mann J at [229(viii)], approved by the Court of Appeal in <span style="font-style:italic">Representative Claimants v MGN Limited&#160;</span><a href="https://www.bailii.org/ew/cases/EWCA/Civ/2015/1291.html" class="Hyperlink" style="text-decoration-line:none;color:initial">[2015] EWCA Civ 1291</a>, Arden LJ at [74]: &#8220;The extent of the damage may be claimant-specific.&#160;A thinner-skinned individual may be caused more upset, and therefore receive more compensation, than a thicker-skinned individual who is the subject of the same intrusion&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">The fact that the ongoing criminal proceedings involving the Claimant&#8217;s father and brother have almost certainly resulted in a number of public hearings, as a result of which the fact that the Claimant is &#8220;associated&#8221; with people facing serious criminal charges is unlikely to be much of a secret, does not help his application. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">More importantly, although I have not based my decision on these considerations as it would seem unfortunate to have to reject the Claimant&#8217;s application on these grounds as I am mindful that his legal advisers have sought to protect his right to seek derogations by the way they have conducted the case, in <span style="font-style:italic">PMC</span> Nicklin J said at [63]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Style1" style="margin-left:0.79in">&#8220;It is therefore an essential pre-condition to the making of reporting restriction order under s.11, prohibiting the identification of a party or witness, that his/her name must have been withheld throughout the proceedings:<span style="color:initial">&#160;</span><span style="font-style:italic;color:initial">R&#160;(Press Association) -v- Cambridge Crown Court&#160;</span><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/ew/cases/EWCA/Crim/2012/2434.html" title="Link to BAILII version" class="Hyperlink" style="text-decoration-line:none;color:initial">[2013] 1 WLR 1979</a><span style="color:initial">&#160;[14]. If&#160;the name (or information) has not been withheld,&#160;</span><span style="font-style:italic;color:initial">a fortiori&#160;</span><span style="color:initial">if the name has been used in proceedings in open court or otherwise published by the Court (e.g. in Court lists or documents relating to the proceedings made available to non-parties under CPR 5.4C(1)), then there is no jurisdiction to make an order under s.11:&#160;</span><span style="font-style:italic;color:initial">R&#160;-v- Arundel Justices ex parte Westminster Press Ltd&#160;</span><span style="color:initial">[1985] 1&#160;WLR 708, 710H-711C.</span> In this respect, the terms of s.11 reflect the likely reality: if&#160;the name has not been withheld, it is usually too late to seek to impose any sort of anonymity by reporting restrictions; the impossibility of putting the genie back in the bottle.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in;text-indent:-0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">CONCLUSION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">For these reasons, I propose to dismiss this application in so far as it seeks derogations from open justice. If and in so far as any part of the remainder of the application remains in issue, that will need to be restored for determination on another occasion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="Style1" style="margin-left:0.5in">I ask Counsel to agree an order which reflects the above rulings. I will deal with submissions on any points which remain in dispute as to the form of the order, and on any other issues such as costs and permission to appeal, either when judgment is handed down, or on an adjourned hearing on some other convenient date.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

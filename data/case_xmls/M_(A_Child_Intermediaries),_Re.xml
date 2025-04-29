@@ -1,0 +1,1869 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/440"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/440"/>
+	  <FRBRdate date="2025-04-10" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="440"/>
+	  <FRBRname value="M (A Child: Intermediaries), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/440"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/440"/>
+	  <FRBRdate date="2025-04-10" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/440/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/440/data.xml"/>
+	  <FRBRdate date="2025-04-10T09:35:22" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-lady-justice-king" href="/judge-lady-justice-king" showAs="LADY JUSTICE KING"/>
+	<TLCPerson eId="judge-lord-justice-snowden" href="/judge-lord-justice-snowden" showAs="LORD JUSTICE SNOWDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>440</uk:number>
+	<uk:cite>[2025] EWCA Civ 440</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>4fc2ec2814b18665f8ba330acce08caef7517a18910680d338d01efddbdc5d85</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3 { font-size: 12pt; color: #1F3763; }
+#judgment .Heading8 { font-style: italic; font-size: 11pt; color: #272727; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .NoSpacing { text-align: justify; margin-left: 0.25in; font-size: 12pt; }
+#judgment .OrderStart { font-style: italic; font-weight: bold; text-transform: uppercase; font-family: Arial; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Body { font-size: 12pt; color: #000000; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3Char { font-size: 12pt; color: #1F3763; }
+#judgment .Strong { font-weight: bold; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Heading8Char { font-style: italic; font-size: 11pt; color: #272727; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 440</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2025-000120</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE FAMILY COURT AT MEDWAY</p>
+      <p class="CoverMain">HHJ Clive Thomas</p>
+      <p class="CoverMain">ME24C50093</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-10" refersTo="#judgment">10 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-king">LADY JUSTICE KING</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE PETER JACKSON <br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-snowden">LORD JUSTICE SNOWDEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">M (A Child: Intermediaries)</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Andrew Norton KC and Dr Maia Love</span> (instructed by <span style="font-weight:bold">Clarke Kiernan LLP</span>) for the <span style="font-weight:bold">Appellant Mother</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Darren Howe KC and Paul Froud </span>(instructed by<span style="font-weight:bold"> Invicta Law Ltd</span>) for the <span style="font-weight:bold">Respondent Local Authority</span></p>
+      <p style="text-align:center">The <span style="font-weight:bold">Respondent Father </span>and the <span style="font-weight:bold">Respondent Uncle </span>did not appear</p>
+      <p style="text-align:center"><span style="font-weight:bold">Gemma Farrington KC and Rachel Chan</span> (instructed by <span style="font-weight:bold">Child Law Partnership</span>) for the <span style="font-weight:bold">Respondent Child</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Tahmina Rahman</span> (instructed by <span style="font-weight:bold">Main Nickolls LLP</span>) <span style="font-weight:bold">pro bono </span>for the <span style="font-weight:bold">Respondent Grandmother</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Denise Gilling KC, Victoria Roberts and Lucy Bennett</span> (instructed by <span style="font-weight:bold">ITN Solicitors</span>) <span style="font-weight:bold">pro bono</span> for <span style="font-weight:bold">the Intervener, the Association of Lawyers for Children</span>, by written submissions only</p>
+      <p style="text-align:center"><span style="font-weight:bold">Lucy Reed KC and James Holmes </span>(instructed by <span style="font-weight:bold">Payne Hicks Beach LLP</span>) <span style="font-weight:bold">pro bono </span>for <span style="font-weight:bold">the Intervener</span>, <span style="font-weight:bold">the Family Law Bar Association</span>, by written submissions only</p>
+      <p style="text-align:center">Hearing date: 18 March 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 10 April 2025 by circulation</p>
+      <p style="text-align:center">to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Peter Jackson:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This appeal arises from the refusal of a mother&#8217;s application for intermediary assistance in care proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In January 2024, her baby suffered a skull fracture at the age of ten months.  He had been living in a household with both parents, his maternal grandmother and a teenage maternal uncle.  On discharge from hospital, he was placed with other family members and, as the injury was unexplained, care proceedings were started.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the time of the decision under appeal, an eight-day fact-finding hearing to determine how the child came by his injury was due to begin on 17 February 2025.  The hearing has since been adjourned to September 2025 for reasons unconnected to the appeal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We received submissions from counsel for the parties, including from Ms Tahmina Rahman, appearing pro bono for the grandmother.  We also had the benefit of written submissions on matters of principle from interveners, the Association of Lawyers for Children and the Family Law Bar Association, whose counsel and solicitors also acted pro bono.  We are grateful to them all for their helpful and comprehensive treatment of the issues.  On matters of principle, they spoke with one voice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appeal itself was supported by the respondent parties and, as the court was itself persuaded that the judge&#8217;s order could not stand and there was an imminent case management hearing, we informed the parties at the end of the hearing that the appeal would be allowed and that the mother&#8217;s application for intermediary assistance would be granted to the extent set out below.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I will set out the applicable principles, starting with a summary, and then address the appeal itself. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Summary</span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In deciding whether and, if so, for what purpose to approve the appointment of an intermediary:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The court will exercise its judgement within the framework of Part 3A of the Family Procedure Rules 2010 (&#8216;the FPR&#8217;) and Practice Direction 3AA.  These provisions are not complex, and they require very little elaboration.  Their relevant parts appear in the Annex below.  By following them, the court will steer a path between the evils of procedural unfairness to a vulnerable person on the one hand, and waste of public resources on the other.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The test for the appointment of an intermediary for any aspect of proceedings is that it is necessary to achieve a fair hearing.  Decisions are person-specific and task-specific, and the introduction of other tests upsets the balance struck by the FPR and may draw attention away from the circumstances of the individual case.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">Efficient case management will assist sound decision-making in this area.  There must be early identification of vulnerability where it exists.  Intermediaries are not experts, but applications for intermediary support should be approached with similar procedural discipline.  Different considerations may apply to different elements of the proceedings, and the court should normally require an application notice and/or a draft order that specifies the exact extent of the requested assistance.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(4)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">Correctly understood, the court&#8217;s powers are wide enough to permit it to authorise intermediary assistance for legal meetings outside the court building.  However, support that is necessary in the courtroom may be unnecessary in a less pressured setting. Accordingly, the court should give separate consideration to any application of that kind.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(5)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The Family Court is accustomed to using checklists when making procedural and substantive decisions.  The mandatory checklist in FPR rule 3A.7 is an essential reference point to ensure that the factors relevant both to the individual and to the proceedings are taken into account.  The weight to be given to them is a matter for the court, making a broad and practical assessment.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(6)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">An application for an intermediary must have an evidential basis.  This will commonly take the form of a cognitive report and, if authorised, an intermediary assessment.  Other evidence may come from the social worker or the Children&#8217;s Guardian.  The court can also take account of submissions on behalf of the vulnerable person, and from the other parties, as they may have their own perspectives on the overall fairness of the proceedings.  This reflects the collaborative nature of the task of identifying and making adjustments for vulnerability.  Whatever the evidence and submissions, it is for the court, and not others, to decide what is necessary to achieve a fair hearing in the individual case. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(7)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">When considering whether an intermediary is necessary, the court will consider other available participation directions.  In some cases they will be effective to secure fairness, so that an intermediary is unnecessary, or only necessary for a particular occasion, while in other cases they will not.  The court is entitled to expect specialist family lawyers to have a good level of understanding of the needs of vulnerable individuals in proceedings and an ability to adapt their communication style.  It will consider what can reasonably be expected of the advocates, and in particular of the vulnerable party&#8217;s advocate in the individual case, bearing in mind that professional continuity may not be guaranteed.  Intermediaries should clearly not be appointed on a &#8216;just in case&#8217; basis, or because it might make life easier for the court, but equally advocates should not be required to stray beyond their reasonable professional competence to make up for the absence of an intermediary where one is necessary.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(8)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The rules provide that the reasons for a decision to approve or refuse participation directions for a vulnerable person must be recorded in the order.  That can be done very briefly, and it is a further useful discipline.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(9)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The approach described should ensure that intermediaries are reliably appointed whenever they are necessary, but not otherwise.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I now address some of these matters in more detail. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Vulnerable persons in family proceedings</span></heading>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As a public authority, the court may not lawfully act in a way which is incompatible with a Convention right, including the right to a fair hearing, and it is under a duty to make reasonable adjustments for a person with a disability: Human Rights Act 1998 and Equality Act 2010.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The FPR have the overriding objective of enabling the court to deal with family proceedings justly, having regard to any welfare issues involved.  This entails, so far as practicable: dealing with cases expeditiously, fairly and proportionately to their nature, importance and complexity; ensuring that the parties are on an equal footing; saving expense and allotting an appropriate share of the court&#8217;s resources.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In some cases, these goals may pull in different directions and the court must seek to reconcile them.  They all matter to everyone involved in family proceedings, but some of them are of special significance for vulnerable individuals, who may find proceedings more stressful, and delay particularly difficult.  Chapter 2 of the Equal Treatment Bench Book (July 2024) contains valuable information about the court&#8217;s duties towards them. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As the present case illustrates, the Family Court is under pressure.  In care proceedings, the statutory framework provides that proceedings must be timetabled for disposal within 26 weeks, with time only being extended where that is necessary to enable the court to resolve the proceedings justly: Children Act 1989 sections 32(1) and (5).  The President of the Family Division, as Head of Family Justice, has approved a number of necessary initiatives to support the court in carrying out its obligations.  At the same time, there is a risk that pressure in any system is disproportionately felt by those least able to bear it.  Whatever may have been the situation in the past, it is now understood that the court must, so far as practicable, adapt its procedures to achieve fairness for vulnerable individuals, in particular by ensuring that all participants are on an equal footing in the light of the importance and complexity of the issues.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was this appreciation that led Parliament to introduce new provisions to the FPR on 27 November 2017.  They appear as <a href="https://www.justice.gov.uk/courts/procedure-rules/family/parts/part-3a-vulnerable-persons-participation-in-proceedings-and-giving-evidence" class="Hyperlink">Part 3A</a> and <a href="https://www.justice.gov.uk/courts/procedure-rules/family/practice_directions/practice-direction-3aa-vulnerable-persons-participation-in-proceedings-and-giving-evidence" class="Hyperlink">Practice Direction 3AA</a>.  They were further expanded in 2022 to reflect the Domestic Abuse Act 2021 in the case of victims of domestic abuse.  These provisions are a comprehensive code, designed to strike a fair balance between the rights of vulnerable individuals and the demands of the system.  They are of fundamental importance to the administration of family justice: <span style="font-style:italic">Re S (Vulnerable Party: Fairness of Proceedings) </span>[2022] EWCA Civ 8; [2022] 2 FLR 466; [2022] All ER (D) 55 (Jan), per Baker LJ at [38]; see also the foreword to the Family Justice Council <span style="font-style:italic">Guidance on Neurodiversity in the Family Justice System for Practitioners </span>of 30 January 2025, where Sir Andrew McFarlane P wrote that equal access to justice is fundamental to a functioning and fair system, and that the failure to recognise and accommodate neurodivergence leads to parties, witnesses and children not being able to participate fully within the family justice system.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Part 3A and Practice Direction 3AA provide the court with a framework.  That is an aid to, and not a substitute for, the court&#8217;s own judgement about whether a person is to be regarded as vulnerable and, if so, what measures may be needed to achieve procedural fairness.  Some aspects of the provisions concern children, victims of abuse, or protected parties who lack mental capacity.  On this appeal, we are not directly concerned with these classes of individual, but the underlying principles are the same.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The court&#8217;s duty to identify any party or witness who is a vulnerable person begins at the earliest possible stage of the proceedings and continues until their resolution &#8211; FPR rule 3A.9(1) and PD3AA paragraph 1.3.  All parties and their representatives must work with the court and each other to ensure that each vulnerable party and witness can participate in the proceedings and give evidence without being put in fear or distress: PD3AA paragraphs<span style="font-style:italic"> </span>1.4 and 3.1.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In a case where it is relevant, the court will ask itself these questions: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">Is a party or a witness a vulnerable person, having regard to the matters set out in FPR rule 3A.7 and the practice direction? &#8211; FPR rule 3A.3.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">If so, is the party&#8217;s participation in the proceedings (other than by way of giving evidence) likely to be diminished by reason of vulnerability and, if so, is it necessary in order to achieve a fair hearing to make one or more participation directions? &#8211; FPR rules 3A.4 and 3A.7 and PD3AA paragraph 1.2.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">Is it likely that the quality of evidence given by a party or witness will be diminished by reason of vulnerability and, if so, is it necessary in order to achieve a fair hearing to make one or more participation directions, as determined at a ground rules hearing? &#8211;  FPR rules 3A.5 and 3A.7 and PD3AA paragraphs 1.2 and 5.2.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A decision about whether a person is vulnerable calls for a broad evaluative assessment that takes account of the characteristics of the individual and of the proceedings.  If vulnerability exists, it is a gateway to the making of a participation direction, but there is a wide spectrum of vulnerability, and the court will carry forward its assessment of the nature and extent of vulnerability in the individual case into its assessment of whether participation in proceedings or the quality of evidence is likely to be diminished as a result.  At that stage, it considers the range of participation directions available to it and determines which ones may be necessary in the circumstances of the individual case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In proceedings involving a vulnerable person, the court order must set out the reasons why participation directions have been made or not made &#8211; FPR rule 3A.9.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These are case management directions that are firmly in the province of the judge.  A considered decision within the framework of FPR Part 3A is most unlikely to be disturbed on appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I turn to the provisions relating to intermediaries.  </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Intermediaries</span></heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Intermediaries are communication specialists.  In family proceedings, their function is to communicate and explain questions asked of vulnerable people or answers given by them &#8211; FPR rule 3A.1<span style="font-style:italic">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Where the court has found that a person is vulnerable and that their participation and/or quality of evidence is likely to be diminished as a result, it comes to what is likely to be the critical question, namely whether it is necessary to approve the appointment of an intermediary in order to achieve a fair hearing, as opposed to making some other form of participation direction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Intermediaries are not expert witnesses, and are not appointed under Part 25 of the FPR.  However, the decision about whether an individual should have an intermediary is an important matter, and the court should approach it with formality.  FPR rule 3A.10 supposes that an application will be made in the document that originates the proceedings or by a later Part 18 application.  The application must explain what measures are sought and why each of them would be likely to improve participation or the quality of evidence &#8211; FPR rule 3A.10 and PD3AA paragraph 6.  If the court exercises its power to dispense with the filing of a formal application, it should ensure that it has this information by other means. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If an intermediary assessment is granted, and the recommendation is for intermediary assistance, it should again be made clear what actual order is being sought.  In particular, there should be clarity about what hearings or parts of hearings an intermediary would attend, and whether it is suggested that an intermediary is required for other legal meetings inside or outside the court building.  The provision of a draft order will assist.  Breaking matters down in this way reduces the risk of unsound &#8216;all or nothing&#8217; orders being made.  The court will no doubt seek to avoid making repetitive orders, but may give directions that last for certain hearings only, and revisit and revise directions in the light of experience. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The rules and practice direction show that (as with other participation directions) the primary focus of an intermediary appointment is to assist with communication within the courtroom, and in particular to enable the vulnerable person to give their best evidence.  However, as seen from FPR rules 3A.1 and 3A.4, PD3AA paragraph 3.1, participation directions are not limited to these functions.  The last of these provisions requires that, when considering whether the participation of any party or witness in the case is likely to be diminished by reason of vulnerability, the court should consider the ability of the party or witness to </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">understand the proceedings, and their role in them, when in court;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">put their views to the court;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">instruct their representative/s before, during and after the hearing;  and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">attend the hearing without significant distress.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Moreover, a party&#8217;s &#8216;participation in proceedings&#8217; includes giving instructions and making written statements, a process that requires questions and answers.  The witness statement of a witness called to give oral evidence will stand as their evidence in chief unless the court directs otherwise &#8211; FPR rule 22.6(2).  Under FPR rule 3A.5, the court must consider whether the &#8216;quality of evidence&#8217; given by a party or witness is likely to be diminished by reason of vulnerability: this cannot sensibly be limited to oral evidence.  There may therefore be circumstances in which an order for intermediary assistance will be sought for a legal conference away from court, but this will call for a separate exercise of judgement.  The fact that participation in proceedings extends beyond the courtroom does not absolve the court from considering whether an intermediary is in fact necessary for that purpose in the individual case.  As noted above, the experience of a vulnerable person in a solicitor&#8217;s office, where matters can proceed at their own pace, is likely to be different from their experience of a more formal courtroom setting, and what is necessary in one setting may be unnecessary in the other.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In making its judgement about vulnerability and participation directions, the court must have regard in particular to the matters listed in FPR rule 3A.7 when deciding what is necessary in the case before it.  There will often be a cognitive assessment.  If it recommends the use of an intermediary, it must evidence why that is necessary and explain why alternative means are inadequate.  It would be helpful for the report to consider the party&#8217;s participation at case management hearings, legal conferences, and when giving evidence.  If the court then approves an intermediary assessment, the cognitive report should be supplied to the assessor.  The intermediary assessment itself will then form part of the evidential picture in relation to vulnerability and measures.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The court is also entitled to take account of the parties&#8217; submissions, to whatever extent it considers appropriate.  Advocates are expected to have the skill to identify and adapt to vulnerability, and their submissions on the measures needed to ensure a fair trial form part of the information on which the court can act.  The advocate representing a vulnerable person or seeking to call them as a witness may be well placed to assist the court from their own interactions with the vulnerable person, but it would be inappropriate to require evidence from them in the form of a witness statement.  As the process is a collaborative one &#8211; PD3AA paragraphs 1.4 and 3.1<span style="font-style:italic"> </span>&#8211; the court may also benefit from submissions made by other parties, who may also have their own interest in the decision.  The local authority and Children&#8217;s Guardian will wish to ensure that the proceedings rest on firm foundations and, depending on the case, individual parties may have their own perspectives.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Decision-making about intermediaries should not be protracted, and the court&#8217;s conclusions should be capable of being expressed quite shortly.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We did not hear detailed submissions about funding for intermediaries.  At page 15 of the <span style="font-style:italic">Family Justice Council Guidance</span> (above), it is said that HMCTS will fund the attendance of the intermediary, at least during attendance at court, and that the Legal Aid Agency, subject to merit and prior authority, may fund an intermediary to cover meetings between a party and their representative outside of court attendance.  That would broadly reflect the position in relation to interpreters, but fuller consideration of this issue is beyond the scope of this judgment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By applying the principles set out above, the Family Court will discharge its duty to ensure procedural fairness in cases involving vulnerable persons, and its duty to save expense.  Intermediaries will be appointed when and to the extent that they are necessary, and not otherwise.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic">Authorities and guidance on intermediaries in family proceedings </span></heading>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I will refer to four decisions of this court, three first instance decisions, and recent practice guidance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appeal in <span style="font-style:italic">Re M (A Child) </span>[2012] EWCA 1905; [2012] All ER (D) 272 (Nov) arose from care proceedings in which a father had been found responsible for injuring his young daughter.  Before the fact-finding hearing, a psychologist had advised that he required an intermediary on account of his very low IQ and limited abilities.  An application to adjourn the trial to allow for this was refused.  Thorpe LJ recorded that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The judge made the familiar point &#8220;well, we will all try, counsel and myself, to make it easy for the witness&#8221;, but in the end it is impossible to spell out anywhere in the transcript the judge giving a ruling on the application or saying much beyond that she was minded to, as it were, get on with the case, see how it went and possibly return to the issue at a later stage in the light of the father's performance.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This was &#8220;high risk judicial management&#8221;.  Indeed, the father&#8217;s ability to give evidence was so compromised that the Children&#8217;s Guardian had ended up trying to undertake the role of intermediary.  In allowing the appeal and ordering a retrial, Thorpe LJ expressed full appreciation for the position facing the judge in a case where an adjournment would bring months of delay, and accepted that it was easy to be critical with the benefit of hindsight.  However, he made these remarks, which are of general application:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;So I would wish to be in every way supportive of the judge&#8217;s general duty to manage all cases to achieve targets. I only observe that that general duty cannot in any circumstance override the duty to ensure that any litigant in her court receives a fair trial and is guaranteed what support is necessary to compensate for disability.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re N (A Child)</span> [2019] EWCA Civ 1997; [2019] 4 WLR 154; [2019] All ER (D) 135 (Nov), the evidence given by the mother at a fact-finding hearing caused the judge to be concerned about her cognitive functioning.  She nevertheless made findings of fact and gave directions for the welfare hearing.  These included a psychological assessment, which led to an intermediary assessment and a recommendation for an intermediary. That precipitated an application for the reopening of the fact-finding hearing, which the judge refused.  In allowing the appeal, King LJ reviewed the history leading to the 2017 amendments to the FPR at [40-43].  She summarised the new provisions, which she described at [48] as sitting side by side with Article 6 of the European Convention for the Protection of Human Rights and Fundamental Freedoms, and she concluded at [51] that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In my judgment, Part 3A and its accompanying Practice Direction provide a speci&#64257;c structure designed to give e&#64256;ective access to the court, and to ensure a fair trial for those people who fall into the category of vulnerable witness. A wholesale failure to apply the Part 3 procedure to a vulnerable witness must, in my mind, make it highly likely that the resulting trial will be judged to have been unfair.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Re S (Vulnerable Parent: Intermediary) </span>[2020] EWCA Civ 763; [2020] 4 WLR 97; [2020] All ER (D) 85 (Jun), concerned the refusal of an intermediary assessment for a mother with a learning disability at an upcoming final hearing that was due to take place in a hybrid form.  The judge had accepted that she was a vulnerable party and had made other participation directions.  In allowing the appeal, I summarised the effect of Part 3A and the practice direction and observed at [26] that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It is central to my consideration of this appeal that there is to be a hybrid hearing in this case. The hearing will involve quite complex information being considered through more than one medium of communication.  Professionals who are having to adapt to these demands have the advantage of repeated exposure to a range of possible formats.  Lay parties do not generally have that advantage, but it is to their needs that the court must adapt. Where a party or a witness has a learning disability, the adaptation needs to be sufficient to ensure that they are genuinely able to participate effectively in the hearing, both in and out of the witness box.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in"> At [29] I concluded that the judge&#8217;s decision might have been sustainable ahead of a conventional face-to-face hearing, but that she had not sufficiently addressed the additional factors to which a hybrid hearing would give rise:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It was, I think, necessary to step back from the detail of the rules and look carefully at the likely experience of this vulnerable parent, attending a hearing in what is for her a complex format with the prospect of the removal of her baby hanging over her.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, at [32]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;I would end by emphasising that the outcome of this appeal does not imply that all parties or witnesses with a similar profile to this mother will require an intermediary, or that intermediaries are likely to be required in all cases where a parent with a learning difficulty may be taking part in a remote or hybrid hearing.  All decisions of this kind are case-specific, and must be reached by applying the rules and guidance to the actual circumstances of the individual case.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Re S (Vulnerable Party: Fairness of Proceedings </span>(above) was an appeal arising from findings of fact in care proceedings about children in one family which were adverse to a parent of other children, who had given evidence as a witness.  Subsequently, proceedings were taken in respect of her children.  She was assessed as requiring an intermediary in the second set of proceedings and she appealed against the findings of fact in the first set of proceedings, advancing fresh evidence in the form of the cognitive and intermediary assessments. Baker LJ reviewed the provisions of Part 3A and the practice direction.   He referred to King LJ&#8217;s concluding remarks in <span style="font-style:italic">Re N</span>, and added at [42]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;It does not follow, however, that a failure to comply with these provisions, whether through oversight or inadvertence, will invariably lead to a successful appeal. The question on appeal in each case will be, first, whether there has been a serious procedural or other irregularity and, secondly, if so, whether as a result the decision was unjust.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In that case, the unusual sequence of events led to the appeal being allowed, and the proceedings were remitted for further consideration.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the three appeals about intermediaries that it has heard since Part 3A came into effect, this court has taken its provisions at face value.  Considering that the regulatory framework is recent, it is unpromising ground for a wider exercise in judicial interpretation.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is, however, what happened in <span style="font-style:italic">West Northamptonshire Council v KA (Intermediaries)</span> [2024] EWHC 79 (Fam); [2024] 4 WLR 23; [2024] All ER (D) 92 (Jan).  A five-day final hearing in care proceedings was due to take place.  The mother was profoundly deaf and also struggled with communication and complex language.  A deaf intermediary had been appointed, but did not attend the trial, which had to be adjourned.  The matter was transferred to Lieven J to determine whether a wasted costs order should be made against the intermediary and whether the order appointing the intermediary to assist the mother throughout the hearing should be varied.  It transpired that there had been no basis for seeking a wasted costs order and no party applied for one.  In relation to the order concerning the intermediary, no party suggested that it should be varied, and the judge confirmed the attendance of the intermediary for reasons briefly given at [48-49].  However, at [2], she said this:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;I have decided not to vary the order for the appointment of an intermediary. However, I will set out some guidance on the use of intermediaries in the Family Court, particularly given the apparent paucity of such guidance and the di&#64256;erences that seem to now arise between the practice in the Family Court and that in the criminal courts.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [41-47] the judge duly gave guidance, although the matters that had been referred to her for decision had been easily resolved and it does not appear that she had received any significant submissions in relation to matters of principle.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to the substance of the matter, the judge referred briefly to the definition of an intermediary in FPR rule 3A.1, observing that there is no further guidance on their appointment or role.  She made no further reference to Part 3A or to the practice direction, or the decisions of this court, no doubt because they had not been cited to her.  Instead, she cited extensively from a criminal case: <span style="font-style:italic">R v Thomas (Dean)</span> [2020] EWCA Crim 117; [2020] 4 WLR 66 at [36-42], observing that it was in her view applicable to the consideration of the same issues in the family justice system, albeit with close regard to the nature of the individual case.  She continued:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;45 The following principles can be extracted from this passage:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">It will be &#8220;exceptionally rare&#8221; for an order for an intermediary to be appointed for a whole trial. Intermediaries are not to be appointed on a &#8220;just in case&#8221; basis. <span style="font-style:italic">Thomas</span> para 36. This is notable because in the family justice system it appears to be common for intermediaries to be appointed for the whole trial. However, it is clear from this passage that a judge appointing an intermediary should consider very carefully whether a whole trial order is justi&#64257;ed, and not make such an order simply because they are asked to do so.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The judge must give careful consideration not merely to the circumstances of the individual but also to the facts and issues in the case, <span style="font-style:italic">Thomas</span> para 36;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Intermediaries should only be appointed if there are &#8220;compelling&#8221; reasons to do so, <span style="font-style:italic">Thomas</span> para 37. An intermediary should not be appointed simply because the process &#8220;would be improved&#8221;; <span style="font-style:italic">R v Cox</span> [2012] EWCA Crim 549; [2012] 2 Cr App R 6, para 29;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In determining whether to appoint an intermediary the judge must have regard to whether there are other adaptations which will su&#64259;ciently meet the need to ensure that the defendant can e&#64256;ectively participate in the trial, <span style="font-style:italic">Thomas</span> para 37;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The application must be considered carefully and with sensitivity, but the recommendation by an expert for an intermediary is not determinative. The decision is always one for the judge, <span style="font-style:italic">Thomas</span> para 38;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">If every e&#64256;ort has been made to identify an intermediary but none has been found, it would be unusual (indeed it is suggested very unusual) for a case to be adjourned because of the lack of an intermediary, <span style="font-style:italic">Cox</span> para 30;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(g)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">At para 21 in <span style="font-style:italic">Cox</span> the Court of Appeal set out some steps that can be taken to assist the individual to ensure e&#64256;ective participation where no intermediary is appointed. These include having breaks in the evidence, and importantly ensuring that &#8220;evidence is adduced in very shortly phrased questions&#8221; and witnesses are asked to give their &#8220;answers in short sentences&#8221;. This was emphasised by the Court of Appeal in <span style="font-style:italic">R v Rashid (Yahya)</span> [2017] EWCA Crim 2; [2017] 1 WLR 2449.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">46 All these points are directly applicable to the Family Court. Counsel submitted that there was a need for intermediaries because relevant parties often did not understand the proceedings and the language that was being used. However, the &#64257;rst and normal approach to this di&#64259;culty is for the judge and the lawyers to ensure that simple language is used and breaks taken to ensure that litigants understand what is happening. All advocates in cases involving vulnerable parties or witnesses should be familiar with the Advocates Gateway and the advice on how to help vulnerable parties understand and participate in the proceedings. I am reminded of the words of Hallett LJ in <span style="font-style:italic">R v Lubemba (Practice Note)</span> [2014] EWCA Crim 2064; [2015] 1 WLR 1579, para 45: &#8220;Advocates must adapt to the witness, not the other way round.&#8221; A critical aspect of this is for cross-examination to be in short focused questions without long and complicated preambles and the use of complex language. Equally, it is for the lawyers to explain the process to their clients outside court, in language that they are likely to understand.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">47 Finally, it is the role of the judge to consider whether the appointment of an intermediary is justi&#64257;ed. It may often be the case that all the parties support the appointment, because it will make the hearing easier, but that is not the test the judge needs to apply.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not consider the decision in <span style="font-style:italic">Thomas </span>to be an aid to the interpretation of Part 3A of the FPR.  Part 3A was the product of the Vulnerable Witness and Children Working Group, whose &#64257;nal report in February 2015 heralded a greater awareness of the needs of vulnerable persons in family proceedings.  The guidance in <span style="font-style:italic">Thomas</span> drew on the 2015 Criminal Practice Direction, which provided at 3F.13 that directions to appoint an intermediary for a defendant&#8217;s evidence will be rare and, for the entire trial, extremely rare.  These references did not appear in the Criminal Procedure Rules 2020, nor in the current 2023 Criminal Practice Direction, which addresses intermediaries at 6.2.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is in any event no warrant for overlaying the test of necessity with concepts of rarity or exceptionality.  Frequency is not a test, and nor is exceptionality.  Similarly, the introduction of tests of &#8220;compelling reasons&#8221;, or of adjournments for lack of an intermediary being &#8220;unusual&#8221; or &#8220;very unusual&#8221;, beckon the court to short-circuit its consideration of the evidence in the individual case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Re X and Y (Intermediary: Practice and Procedure)</span> [2024] EWHC 906 (Fam); [2025] 1 FLR 191, Williams J adjourned an application for an intermediary assessment, saying this at [5]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;I am delivering this judgment because this case seems to me to illustrate some of the issues which are emerging in the Family Courts in relation to the use of intermediaries. An intermediary can be an essential component in what the court provides to a party or witness to enable them to participate fairly in proceedings or in giving their best evidence and my own experience demonstrates their value in appropriate cases. The issue however is where is it appropriate to direct the use of an intermediary as they are not to be used as some sort of safety net or security blanket by lawyers or the courts but only where their use is necessary. Like other court funded resources (whether judicial or otherwise) they are a limited resource and a resource which comes with significant costs. Their use is governed by the procedural regime established in FPR 2010 Part 3A and PD3AA.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge then described the remit of an intermediary, as defined in FPR rule 3A.1, as being very narrow.  He reserved the question of whether it encompassed assisting a party during a hearing to understand the evidence given by others or assisting a party to read papers and to give instructions.   I have considered this above.  He noted the increase in HMCTS expenditure on his circuit and the importance of other measures, short of the appointment of an intermediary.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Williams J then referred to <span style="font-style:italic">Re N </span>and <span style="font-style:italic">Re S </span>(2022), and observed that (except for <span style="font-style:italic">West Northamptonshire</span>) there had been no guidance on the circumstances in which an intermediary must be appointed.  He went on to endorse the guidance in that case with one minor reservation.  He then made the same points in his own way at [19] and [21]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The spectrum of vulnerability will self-evidently be very wide. Only towards the far end of the spectrum will be the cases where an intermediary is necessary for the giving of evidence. Only at the very far end will be cases where an intermediary is required for the whole of a hearing and only in the very rarest cases is an intermediary likely to be necessary to enable the party to give instructions in advance of a hearing. Of course, every case will ultimately depend on the evidence before the court, and it is for the experienced family judges to determine what is required to make the process fair.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In rare cases an intermediary may be necessary to assist the party to understand the evidence of others. In very rare cases an intermediary may be necessary to enable the party to consider the written evidence and to give instructions.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These projections, including references to &#8220;very rare&#8221; or &#8220;rare&#8221; cases, are not a substitute for a straightforward application of the rules.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The last decision is <span style="font-style:italic">Oxfordshire County Council v A Mother and others (Intermediary Appointment Refused) </span>[2024] EWFC 161, another decision of Williams J.  Proceedings were adjourned to allow a local authority to issue an application for a placement order, which the mother did not oppose, but to which she could not consent.  The mother had been assessed by a psychologist who found her to be functioning at the low average range of adult cognitive capacity.  He identified features of borderline personality disorder, substance misuse and depression.  A direction had been given for an intermediary assessment and Communicourt provided a recommendation for an intermediary to be appointed to assist the mother for the duration of the proceedings, including at any conferences.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Williams J noted that the author of the assessment did not seem to have been aware of the psychological reports.   He stated, and I agree, that it will usually be critical that an intermediary is provided with an expert report which addresses the cognitive abilities of the party and any issues which bear upon their vulnerability.  On the information before him, Williams J concluded at [11]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In so far as participation directions may be required arising from vulnerability within the meaning of FPR3A.4 and 3A.5 are concerned I do not consider that the recommendation referred to at para 6 above in any sense gets close to establishing that an Intermediary is necessary to assist the mother to participate in the proceedings or to give evidence.  It may be that her participation may be improved by having a specialist in communication assist her but having regard to the limited range of issues in which the mother&#8217;s capacity is diminished I am more than satisfied that her solicitor and counsel would be able to ensure she was able to participate in the proceedings fairly by taking account of the intermediary advice as to avoiding the use of figurative language, complex vocabulary and sentences and otherwise. Those sorts of adaptations of language and approach are part and parcel of the skill-set of solicitors and advocates. Taking sufficient time to go through evidence, to explain more complex aspects of the expert evidence, taking time to establish that Mother understood the allegations and to take instructions are also part of the usual skills of lawyers; particularly those who have for instance undertaken the professional organisations training on working with vulnerable parties and witnesses. I am not even sure in this case that an Intermediary would be desirable still less necessary. The relationship of trust which is built between solicitor and client and counsel and client has an intrinsic value and the introduction of an intermediary may not always be a help unless it really is necessary.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This conclusion was reached by applying the unvarnished test of necessity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We were referred to the <span style="font-style:italic">Local Practice Note: Adhering to the Public Law Outline in London</span>, issued on 28 November 2024, which has these paragraphs under the heading &#8216;Controlling the use of Intermediaries&#8217;:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;36.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Intermediaries should only be appointed by the court where there is a compelling reason to do so and not simply because the process would be improved or made easier.  It will be exceptionally rare for the court to appoint an intermediary for the whole final hearing.  It is not appropriate for intermediaries to be appointed just in case they may be required.    </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>37.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In deciding whether to appoint an intermediary, the court will have regard to the facts and issues in the case, including factual complexity, legal and procedural difficulty, and length, and to whether there are other adaptions that will permit effective  participation  without the need  for  an  intermediary.  All advocates should be familiar with the Advocates&#8217; Gateway and the advice on how to help vulnerable parties and witnesses understand and participate in the proceedings.  An expert recommendation for an intermediary is not determinative. It will be unusual for the case to be adjourned for a lack of intermediary.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The first paragraph and the last sentence of the second paragraph are in line with the High Court decisions in <span style="font-style:italic">West Northamptonshire </span>and <span style="font-style:italic">Re X and Y</span>, and are subject to the same reservations as I have expressed above.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I finally turn to the <span style="font-style:italic">Practice Guidance: The Use of Intermediaries, Lay Advocates and Cognitive Assessments in the Family Court</span>, issued by the President of the Family Division on 23 January 2025, a week after the decision in the present case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paragraphs 16 and 17 contain valuable guidance about cognitive assessments, reflected at paragraph 26 above.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paragraphs 3 to 15 relate to the appointment of intermediaries.  Specific reference is made to the main High Court decisions considered above and the guidance follows those decisions.  The reservations that I have expressed above apply to paragraphs 10 and 12, which are framed with reference to rarity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Any perception on the part of the senior family judges that intermediaries are being appointed too freely must be treated seriously.  But as a matter of law the solution lies in the effective application of the necessity test found in the FPR, a test that the court has routinely applied to the appointment of experts in family proceedings since 2014.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic">The present case</span></heading>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Before the child was injured, there had been no previous local authority involvement with this family.  Proceedings were issued on 12 April 2024 on the basis that responsibility for the injury lay with one of the members of the household.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother is in her early 20s.  At school, she was diagnosed with attention deficit hyperactivity disorder, oppositional defiant disorder, and Asperger&#8217;s syndrome.  She also suffers from anxiety and depression and is prescribed an antidepressant by her GP. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the initial social work statement filed on 3 April 2024, the mother was described as presenting with cognitive difficulties.  The social worker expressed the view that she was likely to require significant support to participate in proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 23 April 2024, Deputy District Judge O&#8217;Leary made an interim care order and gave directions for paediatric and neuroradiology reports and for cognitive assessments of the parents.  The mother was represented by counsel, Dr Maia Love, who has appeared on her behalf throughout the proceedings, the strategy being for continuity to be provided by counsel, rather than by the mother&#8217;s solicitor.  The maternal grandmother attended the hearing to support the mother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 12 May 2024, Dr John Dowsett, consultant clinical psychologist, filed a cognitive assessment of the mother.  His report contains these passages: </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;I think she would find giving evidence very stressful given her general personality and cognitive processing issues. I am suggesting an intermediary assessment as being essential in this case.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;Psychometric testing established [she] does not have a general learning disability as there are some aspects of her cognitive functioning particularly her visual spatial processing, psycho-motor speed and her retention of visual information which appeared to be quite adequate. On the other hand, she is clearly more vulnerable in the areas of verbal comprehension and auditory working memory as discussed above. She has a very limited vocabulary and knowledge of words. Her limited auditory workspace means that she will quickly feel overwhelmed with too much verbal or numerical information given to her and may be prone to information being lost or to her becoming distracted, overwhelmed or disengaged.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;[She] is likely to find the idea of giving evidence to a court extremely anxiety-provoking both as a function of her personality but also her processing difficulties and her autistic spectrum diagnosis. I think there would need to be careful consideration by the court and an intermediary assessment to consider the best way forward in this area.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">If she is going to be questioned the court will need to be particularly sensitive to her level of anxiety, distractibility and fatigue. She should be questioned with longer breaks and for shorter periods of time. Care will need to be taken in terms of the vocabulary used with her and in using sentences that are not overly long and pose additional stresses on her auditory working memory.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">I think she should have an intermediary in court. Her mother is also very keen to support her.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 14 June 2024, Recorder Little granted the mother&#8217;s application for an intermediary assessment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 24 July 2024, Ms Georgina Bradley of Communicourt provided a thorough intermediary assessment.  For unexplained reasons, she did not have Dr Dowsett&#8217;s report.  She recommended that the mother be assisted by an intermediary throughout the proceedings, including at conferences.  She identified communication difficulties and wrote that:  </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;These difficulties are likely to significantly impact her effective participation in legal proceedings and, in my professional view, cannot be accommodated by adjustments which can be practically implemented by the court in lieu of an intermediary (such as those set out in Practice Direction 3AA, including use of techniques provided in The Advocate&#8217;s Gateway).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A further case management hearing took place before His Honour Judge Clive Thomas (&#8216;the judge&#8217;) on 14 August 2024.  The mother was assisted by an intermediary.  Although there was no formal application, the judge approved the attendance of the intermediary for that hearing and future hearings and said that the need for the attendance of the intermediary at the fact-finding hearing would be considered at a pre-trial review which could also act as a ground rules hearing.  At the same hearing, the grandmother was joined as a party.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother was also assisted by an intermediary at a further case management hearing before the judge on 28 October 2024.  On that occasion the previous intermediary direction was confirmed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 15 January 2025, the judge conducted the pre-trial review ahead of the fact-finding hearing that was then due to begin on 17 February.  The hearing, which began at 10 a.m. and lasted for an hour, formed part of a busy list.  Ms Bradley, the author of the intermediary assessment, attended as the mother&#8217;s intermediary.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The most pressing question for the court at that hearing was whether the proceedings could be kept on track.  The judge gave directions for: (1) a capacity and cognitive assessment of the teenage uncle, and for an intermediary assessment of him, and for a <span style="font-style:italic">Re W </span>assessment of him; (2) the treatment of a very large amount of outstanding police disclosure in the form of the family&#8217;s phone records; (3) further witness statements; and (4) a further pre-trial review on 10 February to determine whether the fact-finding hearing could be maintained in the light of those matters.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The resulting order contained two pages of detailed directions and a page of recitals, which included these references to the phone records:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;AND UPON the Court expressing concerns as to the forthcoming Fact-Finding Hearing in light of the outstanding information required to be provided, particularly arising from the forensic interrogations of the mobile telephones seized by the Police; in the circumstances the Court listed this matter for a further Pre-Trial Review to consider further whether the Fact-Finding Hearing can remain effective; </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">AND UPON the Court being assisted today by the attendance of DC [Name] from [Name] Police who informed that it had been possible to refine the mobile telephone download of the Mother&#8217;s mobile phone; and confirming that further enquiries would be made with the Digital Forensics Unit as to undertaking the same exercise with the Father and Maternal Grandmother&#8217;s mobile telephones; </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">AND UPON all advocates expressing concern about the quantity of data from the mobile telephone interrogations reportedly held by the Digital Forensics Unit (circa 130,000 pages) given the limited time before the fact-finding hearing in February;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">AND UPON the parties agreeing following the hearing that the provision of mobile telephone downloads shall be on an unredacted basis given the proximity of the Fact-Finding Hearing, it being confirmed that the Local Authority shall not be required to redact any third-party details from those downloads in the first instance;&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These matters were bound to place heavy demands on the lawyers in the run-up to the imminent hearing, both in absorbing the additional material and in taking instructions on it, as well as preparing for the medical witnesses and adjusting to any arrangements made for the uncle.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The mother&#8217;s application for an intermediary was just one matter for determination.  It is clear from the submissions we heard that the parties had not expected it to be controversial.  As it transpired, it took up just 10 minutes of the hearing.  Matters were not made easier by the fact that the intermediary assessment had by oversight not been placed in the hearing bundle.  When this was appreciated, a copy was provided to the judge mid-hearing.  No draft wording setting out the precise purposes for which an intermediary was needed was placed before the judge in order to focus the debate.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Dr Love, representing the mother for the fourth time, submitted that the mother continued to need an intermediary both for the fact-finding hearing and in relation to the preparation of her written evidence in order to understand the proceedings and to give her best evidence.  Continuity of representation had been important and the intermediary had been integral to the proceedings so far.  Despite the use of simple language, the mother had difficulty in understanding matters and retaining information.  The seriousness of the upcoming fact-finding hearing and the lifelong implications of the decision were noted.  At the end of submissions, counsel asked if she could be of further assistance and reminded the court of Ms Bradley&#8217;s presence.  The judge thanked her and said that he did not need further information.  He then moved directly to give his decision without inviting submissions from the other parties.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="NoSpacing"><span style="font-style:italic">The judge&#8217;s decision</span></heading>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge recalled that the purpose of an intermediary was to ensure full participation pursuant to Part 3A FPR and PD3AA.  He first asked himself whether the mother was a vulnerable individual, and said that he had no doubt that she was.  He then addressed the question of whether it was necessary for her to have an intermediary to enable her to participate fairly in the fact-finding hearing and to give her best evidence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge noted that an intermediary is just one of the many tools in a court&#8217;s armoury, and was mindful of the full extent of other possible participation directions, referring to FPR rule 3A.8 and PD3AA paragraphs 4 and 5.  The question was which participation measures would be necessary to ensure a fair hearing for the mother.  He then extracted these propositions from the decisions in <span style="font-style:italic">West Northamptonshire </span>and <span style="font-style:italic">Re X and Y</span>:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;An intermediary for the whole trial should be exceptionally rare.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;An intermediary to assist the party in understanding the evidence, in rare cases, may be necessary.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;An intermediary to enable a party to consider written evidence and give instructions&#8230; In very rare cases that may be permissible.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in">&#8220;Only towards the far end of the spectrum will there be cases where an intermediary is necessary for the giving of evidence.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The judge then gave his decision:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;17.</num>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in;text-indent:0.02in">The recommendation is that [the mother] is assisted by an intermediary throughout the proceedings including any conferences relating to the case. It is said that she will have difficulty following the thrust of proceedings and providing clear informed instructions. [The mother]&#8217;s difficulties are set out in a tabular form: It is said that she continually fidgets, is easily distracted, has difficulty sitting for long periods, did not advocate for herself when she needed a break, has auditory working memory difficulties, difficulties understanding the majority of low frequency vocabulary, difficulties with court specific terminology, difficulties answering complex questions, difficulties processing and retaining simple passages, interpreting nonliteral language, difficulties pronouncing certain multisyllabic words and finally she is not able to retain key information and suffers from anxiety.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>18.</num>
+		    <content>
+		      <p class="NoSpacing" style="margin-left:0.98in;margin-right:0.66in;text-indent:0.02in">As far as I am concerned an intermediary is not necessary for this trial. These matters that the intermediary assessor has set out are matters that are well within the capability of the Court to ensure that [the mother] is able to participate fully in the proceedings and give her best evidence. The Court can ensure, and will ensure, that questions are asked that are noncomplex, nonlegal and that [the mother] participates and understands. This Court is ever mindful of the vulnerabilities of those that appear before it and will strive at all times to ensure that they are given every opportunity to participate and it seems to me that an intermediary is not necessary in this case, bearing in mind the other directions that are available.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The order recorded that the application was refused, but did not contain reasons.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">The appeal</span></heading>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On behalf of the mother, Mr Norton KC and Dr Love contend that the decision was wrong, essentially for two reasons: the legal principles were not correctly applied, and the judge did not properly consider the available evidence about the mother&#8217;s vulnerability or the facts and issues in the case.  I granted permission to appeal on 6 February 2025.  As noted, the appeal was supported by the local authority, the Children&#8217;s Guardian and the grandmother.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I acknowledge the judge&#8217;s good intentions in relation to the fairness of the proceedings, and there has been no suggestion that he should not continue to conduct them.  I am also very conscious of the pressures upon him.  However, the conclusion that it was not necessary for the mother to have the assistance of an intermediary was in my view wrong.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the first place, the judge clearly had the provisions of Part 3A well in mind and more than once stated that the test was one of necessity.  However, he not unreasonably took account of the <span style="font-style:italic">obiter </span>statements of the High Court, which were to a different effect and focussed on the rarity of cases in which an intermediary should be ordered.  That placed him in a difficult position and it is inescapable that he was strongly influenced by the emphasis on the asserted rarity of the order he was being asked to make.  I have explained why that is an error of approach, but it is not one for which the judge can be criticised.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The consequence of the misdirection is that it led the judge to pay insufficient attention to the mother&#8217;s difficulties, considered in the context of the proceedings:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">He did not square the evidence about the mother&#8217;s functioning with her ability to participate meaningfully and without undue distress.  The reports of Dr Dowsett and Ms Bradley were diligent and undisputed, and they showed that the factors in rule 7(b)(i), (f) and (j) were engaged.  Their opinions did not in any way bind the judge, but they needed closer consideration and, if they were to be rejected, some explanation.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">As is often the case in care proceedings, counsel would be conducting the fact-finding hearing without the benefit of a representative from her instructing solicitors, meaning that she would have to assist the mother whilst calling and cross-examining witnesses.  That was something to which the judge should have had regard.  When seeking permission to appeal from this court, Dr Love submitted with some justification that the order had made her task in preparing for and conducting the trial &#8220;near impossible&#8221;.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The decision not to seek the views of the other parties was also unhelpful to the judge, as he would have found that each of them &#8211; for their own reasons &#8211; supported the mother&#8217;s application.  There had been two Guardians; the first had filed an early analysis noting that the mother struggled to verbally respond to basic greetings and simple questions about herself and her child without significant input and support from the grandmother, while the current Guardian had grave concerns as to the mother&#8217;s ability to manage in court without significant support.  The position of the grandmother, who knew the mother better than anyone, also deserved particular consideration when considering the overall fairness of the proceedings.  As one of the listed potential perpetrators, she was now unable to support either of her children within the litigation about her grandchild and she had a clear interest in knowing that they were being properly supported by others while she conducted her own case.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(4)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">It was also open to the judge to have checked any provisional view with the intermediary assessor, who was in court.  Following the decision, the assessor wrote to the mother&#8217;s solicitors, confirming the assessment report with the benefit of experience and explaining why lesser means of support would not be adequate for their client.  We did not admit the letter on appeal, but the information in it was available to the judge.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(5)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">In the same way, the judge did not take account of the nature and gravity of the proceedings for the mother under rule 7 (c), (d) and (e).  On the basis of complex and extensive evidence the court was being asked to attribute responsibility for her child&#8217;s injuries to her or to one of her close family members.  One of a range of distressing possibilities was that the court&#8217;s findings would prevent her having the care of this child or any future children.  The fact-finding process was emotionally charged and the proceedings were at a highly pressured stage.  The judge did not sufficiently consider the impact of these matters on the presentation of the mother&#8217;s case and on her likely experience of the proceedings.  He did not explain how it could be fair for her, or for her counsel, to be expected to manage without a key part of the support structure that had been provided at three case management hearings.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(6)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The intermediary assessment contained very limited evaluation of the mother&#8217;s needs in relation to preparatory stages of the proceedings that would not take place at court.  Even so, the judge ought to have considered whether it was necessary for the mother to have an intermediary in relation to the preparation of her written evidence.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(7)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">The judge had directed that the pre-trial review would be used as a ground rules hearing, but it did not in fact perform that function.  When refusing an intermediary for the whole fact-finding hearing, he did not put in place any alternative arrangements.  The possibility of intermediary support for some purposes, and in particular for the mother&#8217;s own evidence, was not considered, and other forms of adjustment were mentioned only in passing.  There was no determination of what such arrangements would be and why they would be sufficient. A general assurance that the court would &#8220;strive at all times to ensure that the mother participates and understands&#8221; was not adequate, in the same way as such a broad assurance fell short in <span style="font-style:italic">Re M </span>in 2012.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.39in">(8)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in">Finally, as the reasons for refusing the application were not given in the order, the discipline in decision-making that this requirement is designed to reinforce was also absent.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">We therefore allowed the appeal and substituted an order substantially granting the mother&#8217;s application.  The available information clearly established that this vulnerable parent needed an intermediary, at least for the court hearings until the end of the fact-finding process.  In allowing the appeal, we accordingly substituted an order in these terms:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">1.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">The appellant&#8217;s appeal from paragraph 2 of the Order dated 15 January 2025 (refusing the appointment of an intermediary), is allowed.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">2.</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.25in">An intermediary is hereby appointed for the appellant in these proceedings for:</p>
+		    </intro>
+		    <subparagraph>
+		      <num style="margin-left:1.58in;text-indent:-0.3in">(a)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.58in;margin-right:0.5in;text-indent:0.08in">Any further case management hearings before the fact-finding hearing;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="margin-left:1.58in;text-indent:-0.3in">(b)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.58in;margin-right:0.5in;text-indent:0.08in">The fact-finding hearing (including delivery of judgment); and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="margin-left:1.58in;text-indent:-0.3in">(c)</num>
+		      <content>
+			<p class="ParaLevel5" style="margin-left:1.58in;margin-right:0.5in;text-indent:0.08in">Legal conferences between the appellant and her legal advisors at court on the above occasions.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">3.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">The cost of the intermediary under paragraph 2 above shall be borne by HMCTS. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">4.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in">Any application for further intermediary assistance, whether for legal conferences other than those under paragraph 2(c) above or for assistance following the fact-finding hearing, shall be made to the judge at the hearing on 25 March 2025, or subsequently.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It will be for the judge himself to determine any application for intermediary support away from court for any significant conferences, and in respect of the position after fact-finding, when different considerations may arise.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lord Justice Snowden: </span></heading>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lady Justice King: </span></heading>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_1">
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center">_________________</p>
+	    </content>
+	  </level>
+	  <level eId="lvl_10_2">
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center"><span style="font-weight:bold">ANNEX: EXTRACTS FROM PART 3A AND PD3AA FPR</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_10_3">
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid">PART 3A &#8211; VULNERABLE PERSONS: PARTICIPATION IN PROCEEDINGS AND GIVING EVIDENCE</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Interpretation</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.1</span>. In this Part&#8212;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;intermediary&#8221; means a person whose function is to&#8212;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">communicate questions put to a witness or party;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">communicate to any person asking such questions the answers given by the witness or party in reply to them; and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">explain such questions or answers so far as is necessary to enable them to be understood by the witness or party or by the person asking such questions;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;participation direction&#8221; means&#8212;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">a general case management direction made for the purpose of assisting a witness or party to give evidence or participate in proceedings; or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">a direction that a witness or party should have the assistance of one or more of the measures in rule 3A.8; and references to &#8220;quality of evidence&#8221; are to its quality in terms of completeness, coherence and accuracy; and for this purpose &#8220;coherence&#8221; refers to a witness&#8217;s or a party&#8217;s ability in giving evidence to give answers which address the questions put to the witness or the party and which can be understood both individually and collectively.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Court&#8217;s duty to consider vulnerability of &#8230; parties or witnesses</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;..</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.3.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.28in">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.1in">When considering the vulnerability of a party or witness as mentioned in rule 3A.4 or 3A.5, the court must have regard in particular to the matters set out in paragraphs (a) to (j) and (m) of rule 3A.7.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.28in">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.1in">Practice Direction 3AA gives guidance about vulnerability.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Court&#8217;s duty to consider how a party can participate in the proceedings</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.4</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.28in">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.1in">The court must consider whether a party&#8217;s participation in the proceedings (other than by way of giving evidence) is likely to be diminished by reason of vulnerability and, if so, whether it is necessary to make one or more participation directions.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.28in">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.1in">Before making such participation directions, the court must consider any views expressed by the party about participating in the proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Court&#8217;s duty to consider how a party or a witness can give evidence</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.5</span>.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.28in">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.1in">The court must consider whether the quality of evidence given by a party or witness is likely to be diminished by reason of vulnerability and, if so, whether it is necessary to make one or more participation directions.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.28in">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.1in">Before making such participation directions, the court must consider any views expressed by the party or witness about giving evidence.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">What the court must have regard to</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.7</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">When deciding whether to make one or more participation directions the court must have regard in particular to&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the impact of any actual or perceived intimidation, including any behaviour towards the party or witness on the part of&#8212;</p>
+			<block name="embeddedStructure">
+                          <embeddedStructure>
+			    <paragraph>
+			      <num>(i)</num>
+			      <content>
+				<p class="Quote" style="margin-left:1.87in">any other party or other witness to the proceedings or members of the family or associates of that other party or other witness; or</p>
+			      </content>
+			    </paragraph>
+			    <paragraph>
+			      <num>(ii)</num>
+			      <content>
+				<p class="Quote" style="margin-left:1.87in">any members of the family of the party or witness;</p>
+			      </content>
+			    </paragraph>
+			  </embeddedStructure>
+                        </block>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">whether the party or witness&#8212;</p>
+			<block name="embeddedStructure">
+                          <embeddedStructure>
+			    <paragraph>
+			      <num>(i)</num>
+			      <content>
+				<p class="Quote" style="margin-left:1.87in">suffers from mental disorder or otherwise has a significant impairment of intelligence or social functioning;</p>
+			      </content>
+			    </paragraph>
+			    <paragraph>
+			      <num>(ii)</num>
+			      <content>
+				<p class="Quote" style="margin-left:1.87in">has a physical disability or suffers from a physical disorder; or</p>
+			      </content>
+			    </paragraph>
+			    <paragraph>
+			      <num>(iii)</num>
+			      <content>
+				<p class="Quote" style="margin-left:1.87in">is undergoing medical treatment;</p>
+			      </content>
+			    </paragraph>
+			  </embeddedStructure>
+                        </block>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(c)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the nature and extent of the information before the court;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(d)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the issues arising in the proceedings including (but not limited to) any concerns arising in relation to abuse;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(e)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">whether a matter is contentious;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(f)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the age, maturity and understanding of the party or witness;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(g)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the social and cultural background and ethnic origins of the party or witness;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(h)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the domestic circumstances and religious beliefs of the party or witness;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(i)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">any questions which the court is putting or causing to be put to a witness in accordance with section 31G(6) of the 1984 Act;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(j)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">any characteristic of the party or witness which is relevant to the participation direction which may be made;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(k)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">whether any measure is available to the court;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(l)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the costs of any available measure; and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(m)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">any other matter set out in Practice Direction 3AA.</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Measures</span></p>
+		    </wrapUp>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.8</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">(1)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.13in">The measures referred to in this Part are those which&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">prevent a party or witness from seeing another party or witness;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">allow a party or witness to participate in hearings and give evidence by live link;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(c)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">provide for a party or witness to use a device to help communicate;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(d)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">provide for a party or witness to participate in proceedings with the assistance of an intermediary;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(e)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">provide for a party or witness to be questioned in court with the assistance of an intermediary;  or</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(f)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">do anything else which is set out in Practice Direction 3AA.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.13in">If the family court makes a direction for a measure which is not available where the court is sitting, it may direct that the court will sit at the nearest or most convenient location where the family court sits and the measure is available</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">If the High Court makes a direction for a measure which is not available where the court is sitting, it may direct that the court will sit at the nearest or most convenient location where the High Court sits and the measure is available.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">(4)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">Nothing in these rules gives the court power to direct that public funding must be available to provide a measure.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">(5)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">If a direction for a measure is considered by the court to be necessary but the measure is not available to the court, the court must set out in its order the reasons why the measure is not available.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">When the duties of the court apply and recording reasons for decisions made under this Part</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.9</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.25in;text-indent:-0.25in">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">The court&#8217;s duties under rules 3A.3 to 3A.6 apply as soon as possible after the start of proceedings and continue until the resolution of the proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.28in;text-indent:-0.25in">(2)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1.28in;text-indent:0.13in">The court must set out its reasons on the court order for&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">making, or revoking directions referred to in this Part; or</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">deciding not to make, vary or revoke directions referred to in this Part, in proceedings that involve a vulnerable person or protected party.</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Application for directions under this Part</span></p>
+		    </wrapUp>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">3A.10</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:1.26in;text-indent:-0.26in">(1)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.26in;text-indent:0.12in">An application for directions under this Part may be made on the application form initiating the proceedings or during the proceedings by any person filing an application notice.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.26in;text-indent:-0.26in">(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.26in;text-indent:0.12in">The application form or application notice must contain the matters set out in Practice Direction 3AA.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.26in;text-indent:-0.26in">(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.26in;text-indent:0.12in">Subject to paragraph (2), the Part 18 procedure applies to an application for directions made during the proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="margin-left:1.26in;text-indent:-0.26in">(4)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.26in;text-indent:0.12in">This rule is subject to any direction of the court.<br/>Procedure where the court makes directions of its own initiative.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_10_4">
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center"><span style="text-decoration-line:underline;text-decoration-style:solid">PRACTICE DIRECTION 3AA &#8211; VULNERABLE PERSONS: PARTICIPATION IN PROCEEDINGS AND GIVING EVIDENCE</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-weight:bold;margin-left:1.25in;text-indent:-0.25in">1.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in"><span style="font-weight:bold">Preamble and interpretation</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-weight:bold">1.2</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">This Practice Direction sets out the procedure and practice to be followed to achieve a fair hearing by providing for appropriate measures to be put in place to ensure that the participation of parties and the quality of the evidence of the parties and other witnesses is not diminished by reason of their vulnerability.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">1.3</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is the duty of the court (under rules 1.1(2); 1.2 &amp; 1.4 and Part 3A FPR) and of all parties to the proceedings (rule 1.3 FPR) to identify any party or witness who is a vulnerable person at the earliest possible stage of any family proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">1.4</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">All parties and their representatives are required to work with the court and each other to ensure that each party or witness can participate in proceedings without the quality of their evidence being diminished and without being put in fear or distress by reason of their vulnerability as defined with reference to the circumstances of each person and to the nature of the proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">1.5</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In applying the provisions of Part 3A FPR and the provisions of this Practice Direction, the court and the parties must also have regard to all other relevant rules and Practice Directions and in particular those referred to in the Annex to this Practice Direction.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-weight:bold;margin-left:1.25in;text-indent:-0.25in">3.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in"><span style="font-weight:bold">Guidance about vulnerability: rule 3A.3(2) FPR</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">3.1</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Rule 3A.3 FPR requires the court to have regard in particular to the matters set out in paragraphs (a) to (j) and (m) of rule 3A.7 FPR when considering the vulnerability of a party or witness other than a protected party or victim of domestic abuse. The court should require the assistance of relevant parties in the case when considering whether these factors or any of them may mean that the participation of any party or witness in the case is likely to be diminished by reason of vulnerability. When addressing this question, the court should consider the ability of the party or witness to-</p>
+		    </intro>
+		    <subparagraph>
+		      <num>a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">understand the proceedings, and their role in them, when in court;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">put their views to the court;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>c)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in"><marker name="tab"/>instruct their representative/s before, during and after the hearing;  and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>d)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">attend the hearing without significant distress.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold;margin-left:1.25in;text-indent:-0.25in">4.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in"><span style="font-weight:bold">Participation directions: participation other than by way of giving evidence</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">4.1</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">This section of the Practice Direction applies where&#160;the assumption at rule 3A.2A FPR applies to a party, or where a court has concluded that a party&#8217;s participation in proceedings (other than by way of giving evidence) is likely to be diminished by reason of vulnerability, including cases where a party might be participating in proceedings by way of asking questions of a witness.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">4.2</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The court will consider whether it is necessary to make one or more participation directions, as required by rule 3A.4 and rule 3A.2A. The court may make such directions for the measures specified in rule 3A.8. In addition, the court may use its general case management powers as it considers appropriate to facilitate the party&#8217;s participation. For example, the court may decide to make directions in relation to matters such as the structure and the timing of the hearing, the formality of language to be used in the court and whether (if facilities allow for it) the parties should be enabled to enter the court building through different routes and use different waiting areas.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold;margin-left:1.25in;text-indent:-0.25in">5.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.25in"><span style="font-weight:bold">Participation directions: the giving of evidence by a vulnerable party, vulnerable witness or protected party</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">5.1</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">This section of the Practice Direction applies where a court has concluded that a vulnerable party, vulnerable witness or protected party&#160;(including those deemed vulnerable by virtue of the assumption at rule 3A.2A FPR) should give evidence.&#160;&#160;In reaching its conclusion as to whether a child should give evidence to the court, the court must apply the guidance from relevant caselaw and the guidance of the Family Justice Council in relation to children giving evidence in family proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Ground rules hearings</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-weight:bold">5.2</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">When the court has decided that a vulnerable party, vulnerable witness or protected party should give evidence there shall be a &#8220;ground rules hearing&#8221; prior to any hearing at which evidence is to be heard, at which any necessary participation directions will be given-</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">as to the conduct of the advocates and the parties in respect of the evidence of that person, including the need to address the matters referred to in paragraphs 5.3 to 5.7, and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">to put any necessary support in place for that person.<br/>The ground rules hearing does not need to be a separate hearing to any other hearing in the proceedings.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">5.3</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">If&#160;&#160;the court decides that a vulnerable party, vulnerable witness or protected party should give evidence to the court, consideration should be given to the form of such evidence, for example whether it should be oral or other physical evidence, such as through sign language or another form of direct physical communication.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">5.4</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The court must consider the best way in which the person should give evidence, including considering whether the person&#8217;s oral evidence should be given at a point before the hearing, recorded and, if the court so directs, transcribed, or given at the hearing with, if appropriate, participation directions being made.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">5.5</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In all cases in which it is proposed that a vulnerable party, vulnerable witness or protected party is to be cross-examined (whether before or during a hearing) the court must consider whether to make participation directions, including prescribing the manner in which the person is to be cross-examined. The court must consider whether to direct that &#8211;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">any questions that can be asked by one advocate should not be repeated by another without the permission of the court;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">questions or topics to be put in cross-examination should be agreed prior to the hearing;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>c)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">questions to be put in cross-examination should be put by one legal representative or advocate alone, or, if appropriate, by the judge; and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>d)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">the taking of evidence should be managed in any other way.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">5.6</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The court must also consider whether a vulnerable party, vulnerable witness or protected party has previously-</p>
+		    </intro>
+		    <subparagraph>
+		      <num>a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">given evidence, and been cross-examined, in criminal proceedings and whether that evidence and cross-examination has been pre-recorded (see sections 27 and 28 of the Youth Justice and Criminal Evidence Act 1999); or</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.58in">given an interview which was recorded but not used in previous criminal or family proceedings.</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in">If so, and if any such recordings are available, the court should consider their being used in the family proceedings.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">5.7</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">All advocates (including those who are litigants in person) are expected to be familiar with and to use the techniques employed by the toolkits and approach of the Advocacy Training Council. The toolkits are available at&#160;<a href="http://www.theadvocatesgateway.org/toolkits" class="Hyperlink">www.theadvocatesgateway.org/toolkits</a>. Further guidance for advocates is available from the Ministry of Justice at&#160;<a href="https://www.justice.gov.uk/guidance.htm" class="Hyperlink">http://www.justice.gov.uk/guidance.htm</a>.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">6.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold">Matters to be included in an application form for directions: rule 3A.10(2) FPR</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-weight:bold">6.1</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">An application for directions under Part 3A FPR should contain the following information, as applicable:</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">why the party or witness would benefit from assistance;</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">aa) whether the party or witness falls within the assumption at rule 3A.2A FPR </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the measure or measures that would be likely to maximise as far as practicable the quality of that evidence;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">why the measure or measures sought would be likely to improve the person&#8217;s ability to participate in the proceedings; and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">why the measure or measures sought would be likely to improve the quality of the person&#8217;s evidence.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Annex</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in">As noted at paragraph 1.5, in applying the provisions of Part 3A FPR and the provisions of this Practice Direction, the court and the parties must also have regard to all other relevant rules and Practice Directions and in particular-</p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 1 FPR (Overriding Objective);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 4 FPR (General Case Management Powers);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 12 FPR and Practice Direction 12J;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 15 FPR (Representation of Protected Parties) and Practice Direction 15B (Adults Who May Be Protected Parties and Children Who May Become Protected Parties in Family Proceedings);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 18 FPR (Procedure for Other Applications in Proceedings);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 22 FPR (Evidence);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 24 FPR (Witnesses, depositions generally and taking of evidence in Member States of the European Union);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 25 FPR (Experts) and the Experts Practice Directions;</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Rule 27.6 FPR and Practice Direction 27A (Court Bundles).&#160;Practice Direction 27C (Attendance of IDVAs and ISVAs);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.5in">Part 30 FPR (Appeals) and Practice Direction 30A (Appeals).</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="text-align:center">_______________</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

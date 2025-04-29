@@ -1,0 +1,1422 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2025/688"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2025/688"/>
+	  <FRBRdate date="2025-03-07" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="688"/>
+	  <FRBRname value="Elena Klein v Cripps Trust Corporation Limited &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2025/688"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2025/688"/>
+	  <FRBRdate date="2025-03-07" name="judgment"/>
+	  <FRBRauthor href="#ewhc-family"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2025/688/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2025/688/data.xml"/>
+	  <FRBRdate date="2025-03-20T13:59:10" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-07" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-family" href="https://www.gov.uk/courts-tribunals/family-division-of-the-high-court" showAs="The Family Division of the High Court" shortForm="The Family Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="elena-klein" href="" showAs="Elena Klein"/>
+	<TLCPerson eId="cripps-trust-corporation-limited" href="" showAs="Cripps Trust Corporation Limited"/>
+	<TLCPerson eId="cydlia-zara-adler" href="" showAs="Cydlia Zara Adler"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Family</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>688</uk:number>
+	<uk:cite>[2025] EWHC 688 (Fam)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>803b849a188ecf8ee57ad531c2f76195a659af7cf0ee3bac10ee7a294c953568</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText">Case No: <docketNumber>FD23F00023</docketNumber></p>
+      <p class="CoverMain"><neutralCitation style="font-weight:normal;font-family:Arial;font-size:9.5pt;color:#000000">[2025] EWHC 688 (Fam)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-family">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-family" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">FAMILY DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-07" refersTo="#judgment">07/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">WILLIAMS J</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.31in 4.11in 1.31in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#elena-klein" as="#claimant" style="font-weight:bold">Elena Klein</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant"> Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#cripps-trust-corporation-limited" as="#defendant" style="font-weight:bold">Cripps Trust Corporation Limited</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">1<span style="vertical-align:super;font-size:smaller">st</span> Defendant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p><span style="font-weight:bold">                                                              </span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#cydlia-zara-adler" as="#defendant" style="font-weight:bold">Cydlia Zara Adler</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">2<span style="vertical-align:super;font-size:smaller">nd</span> Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mark Baxter (instructed by Withers LLP) for the Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Amy Proferes (instructed by Cripps LLP) for the 1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Defendant</span></p>
+      <p style="text-align:center">Hearing dates: 26<span style="vertical-align:super;font-size:smaller">th</span>-27<span style="vertical-align:super;font-size:smaller">th</span> February 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on [07.03.25] by circulation to the parties or their representatives by e-mail.</p>
+      <p style="text-align:center">WILLIAMS J</p>
+      <p style="text-align:center">This judgment was delivered in public and may be published.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Williams J:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is my judgment on the claim made by Mrs Elena Klein pursuant to the Inheritance (Provision for Family and Dependants) Act 1975 for such financial provision as it would be reasonable for her to receive as the Will of Mr Alexander Klein did not make reasonable provision for her. The First Defendant is the Executor of the Will but also represents (by Order of Cusworth J of 31 January 2025) the interests of the charitable beneficiaries. The Second Defendant is Cydlia Adler the former executrix of the Will, the trustee of trusts &#8216;established&#8217; by the Will, a pecuniary beneficiary and a 10% residuary beneficiary under the Will. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant and the First Defendant have been represented by counsel and solicitors. The Second Defendant has not been present or represented. Her solicitors came off the record in the autumn of 2024. Ms Adler did not participate in a trial held in the Chancery Division in October 2024 in which her claim that she was in fact the beneficial owner of Alexander Klein&#8217;s shares in various companies was dismissed with indemnity costs. A letter was received from a person purporting to be a nephew of Ms Adler in response to and opposing the First Defendant&#8217;s claim to be registered as shareholder in various companies in place of Mr Klein. In that letter it was stated Ms Adler had been unwell in hospital and had only recently returned home. An &#8216;application&#8217; was made to Morgan J sitting in the Urgent Applications Court on 21 February 2025 by a &#8216;nephew&#8217; of Ms Adler seeking the adjournment of this hearing. Morgan J refused that application &#8211; the nephew having no apparent status to make it.  Neither Ms Adler, nor legal representatives or anyone else has attended this hearing. I am quite satisfied that Ms Adler has had notice of the hearing and that there has been more than adequate time for her to participate. Although the &#8216;nephew&#8217; makes some reference to seeking powers of attorney and there is some hinting at her capacity I am quite satisfied that in applying the over-riding objective it is just to undertake this hearing in the absence of Ms Adler. As will become apparent in the course of this judgment it is the actions and inactions of Ms Adler which have contributed in very substantial measure to this hearing only taking place in the run-up to the 5<span style="vertical-align:super;font-size:smaller">th</span> anniversary of Mr Klein&#8217;s death. Any further delay would be very seriously unfair to the Claimant &#8211; and to the Executors and other beneficiaries. The Claimant has lived a hand to mouth existence for nearly 5 years and had had possession proceedings (or the threat arising from an unpaid mortgage) hanging over her and Elliot for most of that period. None of the pecuniary beneficiaries have received a penny nor have any of the worthy charities. Progress to administering and distributing the Estate is imperative. Even now there seems to be a risk of it being &#8216;Jarndyced&#8217; and further delay with all the costs that would bring would only enhance that risk. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> On 25 March 2020 Alexander Klein died aged 87. He left behind his wife of 17 years Elena Klein (then aged 46) and a son Elliot, then aged 12. Although a wealthy man, in his Will which dated back to 5<span style="vertical-align:super;font-size:smaller">th</span> January 2011 he left his wife &#163;300,000  &#8220;<span style="font-style:italic">on the understanding that [C] will no make claim against my estate</span>&#8221; notwithstanding their long marriage and his son the sum of &#163;100,000 to be held on trust by his trustee to be distributed as to 1/3 on his 18<span style="vertical-align:super;font-size:smaller">th</span> birthday, 1/3 on his 21<span style="vertical-align:super;font-size:smaller">st</span> birthday and the remainder on his 25<span style="vertical-align:super;font-size:smaller">th</span> birthday. He made numerous other specific bequests including &#163;100,000 to be held on trust for his adult daughter,  &#163;200,000 to Cydlia Adler (the Second Defendant in this case) his long term secretary/business partner, &#163;100,000 to his trustee for charitable purposes and a further &#163;100,000 on discretionary trusts for his relatives, friends and others  and other bequests to relatives  totalling about &#163;179,000  and left the residue as to 10% to Ms Adler and 90% to be held on a discretionary charitable trust with suggested beneficiaries such as Yesodai Hatora School, Ponovitz Yeshiva and orphanages.  Mr Klein (hereafter the Deceased) appointed Ms Adler as his executrix and as his trustee. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Will made no provision for where his wife (hereafter the Claimant) and son would live or for their maintenance, other than the lump sum left to the Claimant. This came as something of a shock to the Claimant. Since his death the Estate has in the following 5 years made only 1 payment to the Claimant &#8211; the sum of &#163;7,500 &#8211; paid pursuant to an order for interim provision made by Moor J in these proceedings. Given the net value of the Estate on the most recent Distribution Account figures (which may be quite unreliable) was &#163;8.18m this seems something of a surprise. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the months following his death the Claimant and her solicitors entered into correspondence with Ms Adler in relation to the Estate and the provision it made for the Claimant and Elliot. Regrettably no progress was made and on 3 March 2021 the Claimant commenced an action for the removal of Ms Adler as the executrix of the Will. Ms Adler resisted this application but on 5 November 2021 Deputy Master Rhys replaced Ms Adler as Executrix with Cripps Trust Corporation Limited (the First Defendant in this case) . Ms Adler was ordered to pay 80% of the Claimant&#8217;s costs; that sum ultimately being assessed at &#163;132,411.20.  The 20% the Claimant was ordered to pay Ms Adler would seem likely to amount to some &#163;10,500. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the action for the removal of Ms Adler, her removal and the costs order might hint at, her approach to administration of the Estate and her obligations as a trustee has been woeful. Whether this is because of deliberate misfeasance, her being overwhelmed by the complexity of the Estate or because of her deteriorating health or a combination of those factors (and perhaps others) I am not in a position to determine and nor is it necessary for me to do so. However, the consequence has been that the administration of the Estate has become extraordinarily complex and protracted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not intend to go into the detail of the problems which have dogged the administration of the Estate but shall simply highlight a number of matters which illustrate the difficulties:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The documentation which has been provided to Cripps has been inadequate, incomplete and out of date.  Forensic Accountants, Frenkels prepared a report into the probable assets of the companies and their value. Only once this was available and liaison undertaken with HMRC could Cripps even apply for a Grant of Probate which they did on 11 April 2023: over 3 years after the Deceased&#8217;s death and nearly 18 months since the decision on the Removal application. A grant was received in August 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Apart from the matrimonial home the main &#8216;assets&#8217; in the Estate were properties which were held through about 18 limited companies. On the basis of the Frenkel report the value of the shares in those companies would have been in the region of &#163;8m or some 92% of the Estate's value. Initially it appeared 2 companies might also be included but these ultimately turned out to be owned 100% by Ms Adler.  Of the limited companies in the Estate the shareholdings held by the Estate varied from 100% to 50%. Ms Adler had appointed herself a director of some of them (wrongly) and was a director of others. As enquiries were made it appeared many had been struck off the Register for failure to comply with the lodging of returns etc, some purportedly owned properties which they did not, some held properties it was not known they had owned, some had charging orders against properties for unpaid liabilities, some had held hundreds of thousands of pounds in bank accounts but ascertaining what had happened to the funds was difficult to establish. It appears that Ms Adler may have withdrawn significant sums from companies apparently without authority. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Ms Adler did not pay the costs ordered against her and on 18 September 2024 an order for sale was made in respect of one of Ms Adler&#8217;s properties to satisfy the payment of &#163;177,302.81 being the total of costs awarded plus the costs of the order for sale proceedings. The sum was not paid and so the sale is proceeding.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On 20 November 2023 Ms Adler issued a claim in the Chancery division to be the true owner of the Deceased&#8217;s shares in 15 of the companies comprised in the Estate. For 3 companies the Deceased's registered share ownership was 95% of the shares, 1 was 10% and the other 11 were 50%. The hearing of this claim had been listed to take place in early 2024 and as a result of the issuing of Ms Adler&#8217;s claim in the Chancery Division that hearing had to be vacated. Had her claim succeeded the value of the estate would have been dramatically reduced. Ms Adler&#8217;s claim was heard by Chief Master Shuman on 30<span style="vertical-align:super;font-size:smaller">th</span> of October 2024. She declared that Ms Adler was absolutely entitled to the issued shares in Parygold Properties Limited and Brongard Limited but that the Deceased was the true beneficial owner of the shares in the other 15 companies claimed by her. She was ordered to pay the Claimant&#8217;s costs including a &#163;100,000 interim payment, and Cripps were authorised to pay these costs out of Ms Adler&#8217;s interests in the Estate. In the course of the judgment Chief Master Shuman noted that Ms Adler&#8217;s position was wholly inconsistent with her position in the Removal proceedings, in which she had filed a summary of the net estate which included all those shareholdings she now claimed and that she had serious doubts about her credibility. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The list of problems goes on and is tracked through the six statements of Constandinos Sikkel of Cripps concluding on that dated 10 February 2025.  On 23 January 2025 Deputy ICC Judge Frith had acceded to Cripps&#8217; application for Cripps to registered as shareholder in 10 of the companies (I think so they could take steps to appoint directors and proceed with liquidating the property holdings).  Ms Adler was directed in orders made in October and November 2024 to sign a letter of authority to enable Cripps to secure disclosure of bank statements from Barclays. She has not signed the letter of authority and an application has been made and granted under section 39 of the Senior Courts Act 1981 to enable that disclosure to be obtained.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given the problems with the administration of the Estate it was not until 14 March 2023 that the Claimant issued her 1975 Act claim. The application was case managed and evidence was filed by the Claimant and the Defendants. On 31 August 2023 Cripps were granted letters of administration. Matters went on pause then as a result of Ms Adler&#8217;s Chancery claim although on 24 November Moor J made an order for interim provision to the Claimant of &#163;7500 per month. Only one payment has been made in accordance with that interim order; and that was not until December 2024 when Westbridge was liquidated. The trial of the claim in early 2024 was vacated and following the disposal of Ms Adler&#8217;s Chancery claim further directions were given by Arbuthnot J for trial of the 1975 Act claim, resulting in this hearing.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">This Hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have been provided with four bundles for this hearing.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Preliminary documents</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">a core bundle of evidence</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">an exhibits bundle</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">a bundle of authorities</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Counsel for the Claimant and for Cripps provided me with an agreed chronology, an essential reading list, position statements and skeleton arguments. The Claimant gave evidence very briefly. I heard submissions from counsel for the Claimant and for Cripps in its representative capacity. I have considered the position of the Second Defendant Ms Adler via her written evidence, although she has not been represented and her evidence has not been tested. Given that fact, her conduct of the litigation and the inconsistent positions she has taken there are of course significant questions about her credibility. Her general position I think would be that the provision in the Will was reasonable, it was what the Deceased intended to provide as being reasonable and that no further provision should be made. However, the outcome to this case does not in my view depend on the credibility of the evidence Ms Adler gives nor does it depend to a great extent on the credibility of the evidence of the Claimant. Many of the key components are free-standing facts. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The positions of the Claimant and Cripps as they developed across the hearing broadly were as set out below. I have considered aspects of the arguments put in documents and submissions in more detail in my consideration of the evidence and the evaluation. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Claimant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She sought an equal division of the Estate between herself on the one hand and the other Will beneficiaries on the other. This was on the basis that</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">she was a relatively young widow of a long marriage to an older man on whom she was entirely naturally dependent,</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">that she had moved to England and given up her career and had been subject to a high degree of financial and emotional control. The &#8216;Agreements&#8217; she signed not to bring any financial claim should be given no weight. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">that she is the mother of his minor son</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">she has minimal capital of her own and a very limited earning capacity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">She was accustomed to a high standard of living which is reflected in an annual net budget of &#163;150,000-175,000.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.48in;text-indent:-0.49in">f)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1.48in">On divorce she would probably be entitled to share equally in the assets.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">This was subject to a minimum provision for her of &#163;3 million, her share to include the family home mortgage free. Given there is uncertainty expressed by Cripps as to the ultimate net distributable estate a lower limit of &#163;3 million should be set which would provide her with the matrimonial home mortgage free and a lump sum of circa &#163;2.1 million which would generate a lower income than that which she says is reasonable, in the region of &#163;100,000.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Given the issues over gathering in the Estate and distributing it, the court could make an order for a series of lump sums to be paid thereon in order to ensure ultimately the lump sum required to generate the future income was sufficient. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"> The net effect of this it was submitted was that on the current figures this would leave the Estate with around &#163;3.7m which would allow all the pecuniary legacies totalling &#163;379k to be paid and leave a residue of around &#163;3.32m for the residuary beneficiaries. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That Ms Adler be ordered to pay her costs of the claim with permission for Cripps to pay such costs not otherwise recovered from Ms Adler&#8217;s entitlement under the Will.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The First Defendant&#8217;s position was</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It was agreed that the Will does not make reasonable financial provision for the Claimant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It was agreed that the matrimonial home should be included in any award made to the Claimant</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The Claimant&#8217;s proposal that she receive 50% of the net estate (to include the matrimonial home) was not opposed, should the court consider this to be reasonable financial provision.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in"> Any award guaranteeing that the Claimant receive a minimum of &#163;3m including the matrimonial home was opposed. There is significant uncertainty as to the value of the net estate, and the Claimant had provided no basis for this sum being the minimum necessary to meet her needs.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 1 of the Inheritance (Provision for Family and Dependants) Act 1975 provides (in so far as it is relevant) as follows</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Where after the commencement of this Act a person dies domiciled in England and Wales and is survived by any of the following persons&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the spouse or civil partner of the deceased;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">that person may apply to the court for an order under section 2 of this Act on the ground that the disposition of the deceased's estate effected by his will &#8230;.is not such as to make reasonable financial provision for the applicant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">In this Act 'reasonable financial provision'&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">in the case of an application made by virtue of subsection (1)(a) above by the husband or wife of the deceased (except where the marriage with the deceased was the subject of a judicial separation order and at the date of death the order was in force and the separation was continuing), means </span><span style="font-style:italic;font-weight:bold">such financial provision as it would be reasonable in all the circumstances of the case for a husband or wife to receive, whether or not that provision is required for his or her maintenance</span><span style="font-weight:bold">; </span>(my added emphasis)</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 2 provides</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Subject to the provisions of this Act, where an application is made for an order under this section, the court may, if it is satisfied that the disposition of the deceased's estate effected by his will or the law relating to intestacy, or the combination of his will and that law, is not such as to make reasonable financial provision for the applicant, make any one or more of the following orders &#8211;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order for the making to the applicant out of the net estate of the deceased of such periodical payments and for such term as may be specified in the order;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order for the payment to the applicant out of that estate of a lump sum of such amount as may be so specified;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(c)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order for the transfer to the applicant of such property comprised in that estate as may be so specified;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(d)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order for the settlement for the benefit of the applicant of such property comprised in that estate as may be so specified;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(e)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order for the acquisition out of property comprised in that estate of such property as may be so specified and for the transfer of the property so acquired to the applicant or for the settlement thereof for his benefit;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(f)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order varying any ante-nuptial or post-nuptial settlement (including such a settlement made by will) made on the parties to a marriage to which the deceased was one of the parties, the variation being for the benefit of the surviving party to that marriage, or any child of that marriage, or any person who was treated by the deceased as a child of the family in relation to that marriage;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(g)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order varying any settlement made &#8211;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(i)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">during the subsistence of a civil partnership formed by the deceased, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(ii)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">in anticipation of the formation of a civil partnership by the deceased,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-style:italic">on the civil partners (including such a settlement made by will), the variation being for the benefit of the surviving civil partner, or any child of both the civil partners, or any person who was treated by the deceased as a child of the family in relation to that civil partnership.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(h)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">an order varying for the applicant's benefit the trusts on which the deceased's estate is held (whether arising under the will, or the law relating to intestacy, or both).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(4)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">An order under this section may contain such consequential and supplemental provisions as the court thinks necessary or expedient for the purpose of giving effect to the order or for the purpose of securing that the order operates fairly as between one beneficiary of the estate of the deceased and another and may, in particular, but without prejudice to the generality of this subsection &#8211;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">order any person who holds any property which forms part of the net estate of the deceased to make such payment or transfer such property as may be specified in the order;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">vary the disposition of the deceased's estate effected by the will or the law relating to intestacy, or by both the will and the law relating to intestacy, in such manner as the court thinks fair and reasonable having regard to the provisions of the order and all the circumstances of the case;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(c)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">confer on the trustees of any property which is the subject of an order under this section such powers as appear to the court to be necessary or expedient</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 3 provides</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">Where an application is made for an order under section 2 of this Act, the court shall, in determining whether the disposition of the deceased's estate effected by his will or the law relating to intestacy, or the combination of his will and that law, is such as to make reasonable financial provision for the applicant and, if the court considers that reasonable financial provision has not been made, in determining whether and in what manner it shall exercise its powers under that section, have regard to the following matters, that is to say&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the financial resources and financial needs which the applicant has or is likely to have in the foreseeable future;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the financial resources and financial needs which any other applicant for an order under section 2 of this Act has or is likely to have in the foreseeable future;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(c)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the financial resources and financial needs which any beneficiary of the estate of the deceased has or is likely to have in the foreseeable future;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(d)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">any obligations and responsibilities which the deceased had towards any applicant for an order under the said section 2 or towards any beneficiary of the estate of the deceased;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(e)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the size and nature of the net estate of the deceased;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(f)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">any physical or mental disability of any applicant for an order under the said section 2 or any beneficiary of the estate of the deceased;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(g)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">any other matter, including the conduct of the applicant or any other person, which in the circumstances of the case the court may consider relevant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">This subsection applies, without prejudice to the generality of paragraph (g) of subsection (1) above, where an application for an order under section 2 of this Act is made by virtue of section 1(1)(a) or (b) of this Act.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-style:italic">The court shall, in addition to the matters specifically mentioned in paragraphs (a) to (f) of that subsection, have regard to&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(a)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the age of the applicant and the duration of the marriage or civil partnership;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the contribution made by the applicant to the welfare of the family of the deceased, including any contribution made by looking after the home or caring for the family.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-style:italic">In the case of an application by the wife or husband of the deceased, the court shall also, unless at the date of death a judicial separation order was in force and the separation was continuing, have regard to the provision which the applicant might reasonably have expected to receive if on the day on which the deceased died the marriage, instead of being terminated by death, had been terminated by a divorce order; but nothing requires the court to treat such provision as setting an upper or lower limit on the provision which may be made by an order under section 2.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 7 provides</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">An order under section 2(1)(b) or 6(2)(b) of this Act for the payment of a lump sum may provide for the payment of that sum by instalments of such amount as may be specified in the order.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic">(2)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Where an order is made by virtue of subsection (1) above, and court shall have power, on an application made by the person to whom the lump sum is payable, by the personal representatives of the deceased or by the trustees of the property out of which the lump sum is payable, to vary that order by varying the number of instalments payable, the amount of any instalment and the date on which any instalment becomes payable.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In addressing the Section 3 factors there is no hierarchy between the factors, and each will be more or less relevant depending on the facts of the case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Deceased&#8217;s testamentary wishes &#8220;are part of the circumstances of the case and fall to be assessed in the round together with all other relevant factors&#8221;:<span style="font-style:italic"> </span><span style="font-style:italic;font-weight:bold">Ilott v The Blue Cross</span><span style="font-weight:bold"> [2018] AC 545, [47] </span><span style="font-style:italic;font-weight:bold">per</span><span style="font-weight:bold"> Lord Hughes JSC</span>. However, the fact a testator has given reasons for leaving his estate as he has does not mean the resultant provisions are reasonable &#8211; the court must interrogate those reasons, considering whether they are unjustified, unexplained, or a fig-leaf for the real reasons: <span style="font-style:italic;font-weight:bold">Re Nahajec decd </span><span style="font-weight:bold">[2017] WTLR 1071, [92]; </span><span style="font-style:italic;font-weight:bold">Thompson v Raggett</span><span style="font-weight:bold"> [2018] WTLR 1027, [28]</span>. In this case the reasons are not obviously apparent for some of the most significant dispositions. One might infer that the Deceased&#8217;s background as a refugee from a concentration camp, with two previous marriages behind him and an older disabled child, that what he left to the claimant, Elliot and Rebecca (his now deceased adult daughter) were what he considered reasonable for them bearing in mind Rebecca lived in a care home and he had given the Claimant a property of her own which was rented out.  Apart from some uncertainty as to the full nature of the relationship between the Deceased and Ms Adler down the decades, the reasons for the dispositions to her would likely to be linked to a long-standing loyalty to her. His dispositions to his family and friends need no explanation. The disposal of the residue to charitable causes is also in some sense for obvious reasons, albeit the disparity between the amount provided to the Claimant and his son and daughter and the amount which at face value would be distributed to charitable causes raises as many questions as it answers. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Reasonable financial provision within the meaning in the 1975 Act is an objective test rather than a subjective one dictated by what the Deceased considered reasonable. The effect of the Will, if implemented, would have required the Claimant and Elliot to move to Southend to take up occupation of a small flat with a consequent change of school for Elliot and a wholesale departure from the community and life that they had lived in London. The lump sum provided to the Claimant would have been a bar to them receiving means tested state benefits and would have been exhausted within 12 odd years even if expended at a very modest rate of &#163;30,000 per annum. Objectively this is not reasonable financial provision (assuming much larger sums are available) for a 12-year-old child and a wife of 17 odd years against a backdrop of relative affluence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The divorce crosscheck applies to ensure that a surviving spouse does not find herself &#8220;in a worse position than if the marriage had ended by divorce rather than by death&#8221;: <span style="font-style:italic;font-weight:bold">Ilott v The Blue Cross</span><span style="font-weight:bold"> [2018] AC 545, [13] </span><span style="font-style:italic;font-weight:bold">per</span><span style="font-weight:bold"> Lord Hughes JSC</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The divorce crosscheck is important in all cases but is likely to be highly relevant in a long-marriage cases. The High Court has considered the divorce cross check in cases such as <span style="font-style:italic;font-weight:bold">Lilleyman v Lilleyman</span><span style="font-weight:bold"> [2013] Ch 225, at [59-60] </span><span style="font-style:italic;font-weight:bold">per </span><span style="font-weight:bold">Briggs J</span> (as he then was) and Cobb J in <span style="font-style:italic;font-weight:bold">Kaur v Bolina </span><span style="font-weight:bold">[2022] WTLR 235</span>, <span style="font-weight:bold">at [31]</span>. Some of the points made in these cases include:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Marriage is an equal partnership and the division of property must be fair and non-discriminatory.  Equality of treatment need not lead to equality of outcome.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The three principles of financial needs, compensation, and sharing should be considered. These are applied in turn. Financial needs may exhaust the entirety of the property available. Compensation seeks to equalise economic disparity between the parties based on how they conducted their marriage. Sharing is applied if there is property still available after the first two requirements are addressed. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In principle sharing extends to all property, but where property is non-matrimonial this may be a reason to depart from it.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The circumstances in which property was acquired and its nature are relevant, but will carry little weight if the property is necessary to meet the Claimant&#8217;s financial needs; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The sharing principle applies to all property but is more likely to be departed from in the case of non-matrimonial property; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The correct approach is to apply the sharing principle to the matrimonial property and then consider whether this results in an appropriate disposal, or if non-matrimonial property needs to be transferred to achieve the correct result. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The relevance of property being pre-acquired will decline the longer a marriage lasts.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">e)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Treatment of pre-acquired property is highly fact-specific, and the court retains a broad discretion.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On a divorce, a &#8216;pre-nuptial agreement&#8217; will not carry any weight if it was entered into under undue pressure or if the parties were not in an equal bargaining position when entering into it or its terms are not fair: <span style="font-style:italic;font-weight:bold">Granatino v Radmacher</span><span style="font-weight:bold"> [2011] 1 AC 534, [71-73]</span>. In particular, the parties are unlikely to have intended that their agreement should result in one party being left in real need, which result would render it unfair to uphold the agreement: <span style="font-style:italic;font-family:'Times New Roman'">Granatino v Radmacher</span><span style="font-family:'Times New Roman'">, [81].  The Supreme Court stated that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8216;A court when considering the grant of ancillary relief is not obliged to give effect to nuptial agreements &#8211; whether they are ante-nuptial or post-nuptial. The parties cannot, by agreement, oust the jurisdiction of the court. The court must, however, give appropriate weight to such an agreement.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">&#8216;The court should give effect to a nuptial agreement that is freely entered into by each party with a full appreciation of its implications unless in the circumstances prevailing it would not be fair to hold the parties to their agreement.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have read the witness statements and cross referred to the exhibits where it further illuminated the statements. I do not intend to rehearse the evidence other than to refer to it in considering the issues which seems to me to be important to the determination of the claim. The fact that I do not mention a piece of evidence or a submission based around it should not be taken to mean that I have overlooked or ignored it, but ultimately this claim seems to me not to depend on a fine analysis of individual pieces of evidence but rather standing back and observing the broad panorama which appears before me and to reach conclusions on what is reasonable or fair in all the circumstances of this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence relating to the estate itself is extensive and central to the determination of what is reasonable provision, as it is reasonable provision from &#8216;that&#8217; estate which is referred to in Sections 1-3 of the Act. The other section 3 factors come into specific play but a starting point is to consider what the estate is. In many cases that will not be a difficult issue to wrestle with and the focus may be more intensely on the section 3 factors but in this case the s.3(e) factor of the size and nature of the estate has to be looked at in conjunction with the principle sections. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Value of the Estate.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to Mr Sikkel&#8217;s most recent statement and the most recent draft Estate accounts, the Estate has an estimated gross value of &#163;9.03m &#8211; including the value of the FMH at &#163;900,000 with the company shares making up the bulk of the other &#163;8m odd. However, as he makes clear this is an estimate and is subject to so many potential changes it is little more than an indicative possibility. Possession proceedings have been commenced by the mortgagee of the former matrimonial home and have been adjourned to April 2025 in order to enable Cripps to progress the liquidation of Westbridge which would provide some liquidity which could be put towards the mortgage debt. However as is clear from both the statement of Mr Sikkel and from the submissions made on behalf of Cripps during the course of the hearing, this is no more than an estimate of the gross value.  Cripps have identified a number of the companies where the asset values seem to be more than Frenkel&#8217;s valuation ( &#163;3-4m more possibly) , a number where they would appear to be less and a number where it is still currently hard to establish what their position is as properties appear to be have been sold with little knowledge of whether the proceeds were re-invested or what became of them. He says:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic">I should emphasise here that the value of the properties held by the Companies is not yet clear and cannot be relied upon as providing an indication of the value of each property, company or, indeed, the value of the estate&#8217;s shareholding in each company. We do not know the size and extent of other assets held, nor do we know of the costs, liabilities, debts or the size and extent of any claims the against each company. In addition, we do not know the extent to which costs and liabilities will </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic">need to be incurred to liquidate (or realise the value of) the assets owned by each company.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is quite a startling position to be in after more than 3  years as Executor and illustrates the challenges Cripps have faced, arising perhaps in part from how the Deceased left his affairs but also and more significantly by how Ms Adler has mismanaged matters.  One company, Westbridge, has been liquidated which resulted in &#163;387,741 being paid to Cripps along with an assignment of the debt of &#163;79,317 which Cripps believe Ms Adler wrongly withdrew from that company. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Sikkel&#8217;s statement identifies that at present the liabilities of the estate including costs stand at &#163;1.117m which includes currently unpaid costs of Cripps of &#163;353,587, the mortgage on the FMH of &#163;248,833 and &#163;292,228 IHT.  He says that the examples of the properties which have had interim charging orders made against them suggest there are &#8220;<span style="font-style:italic">likely</span> t<span style="font-style:italic">o be unresolved and outstanding issues relating to the properties which will likely have an impact on the value of the estate interest in the companies that own those properties&#8221; </span> Mr Sikkel has identified the immediate next steps in the administration with a focus on 3 companies which the Estate has a majority shareholding in and which are active. The  gross value noted in the Frenkels report of those companies is in the region of  &#163;5.1-5.4m but these are 3 of the companies where the asset values appear to have increased so they may be worth around &#163;6.5m. In another 7 active companies the Estate holds 50% of the shares and these are likely to be subject to applications for just and equitable winding up. Eight companies remain struck off and consideration is being given to whether to apply to restore, which will be informed by better information about asset values currently relevant to them.   Mr Sikkel states that at present the sum of a further &#163;400,000 is identified as a reserve required to meet the immediately forthcoming further costs related to dealing with the Active Majority, Active Non-Majority and Non-Active Limited companies. I asked whether Cripps were able to give even a range of the potential best and worst case scenarios in relation to the further costs of bringing in and distributing the Estate. They were unable to do so given their experience to date but when I said could it be 5 or even 10 times their current contingency they did not demur.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus the current estimated gross value of the Estate for probate stands as it stood when Frenkels reported at &#163;8.9m (after the liability of the mortgage capital sum was deducted). The administration account shows a gross value of &#163;9.1m with liabilities of &#163;409k. The liabilities of the Estate including the mortgage arrears and IHT reduce it to &#163;8.6m.  The current administration expenses due of &#163;423,619 reduce it to &#163;8.178m.  The expected further administration costs at their lowest are &#163;400,000 plus VAT but could be very considerably more; possibly &#163;2-4m &#8211; although I accept that is a wild guess. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus attributing a value to the net value of the Estate which will be available for distribution to meet this claim and to meet the specific pecuniary requests in the Will and to establish the discretionary charitable trusts is essentially not determinable in any reliable way. It seems more likely that there will be a significant distributable Estate in that the drift of Mr Sikkel&#8217;s evidence tends to point towards the likelihood that the Active Majority Companies will generate perhaps &#163;5-6m gross from the sale of properties and that the administration costs in securing that should not be disproportionately large. The initial costs are only estimated at &#163;90k (plus VAT) but to get to the position where the properties are sold and the money is in Cripps' hands the costs are not evidenced.  As for the Active Non-Majority Companies and the Inactive Companies there appears to be great uncertainty over what if any net contribution they will make to the Estate. It appears to me that the best estimate I can reach at the moment is that the Active Majority Companies will contribute &#163;5m net and that the Former Matrimonial Home with a value of &#163;1m makes the net distributable estate to be not likely less than &#163;6m with the potential for substantially more if the costs of bringing it in do not become disproportionate, and a possibility that the costs of bringing in the assets of the Active Non-Majority Companies and the Inactive companies could not only consume all the asset value held in them but could eat into the more easily obtained value from the Active Majority Companies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Pre-Nuptial Agreements of 2003 purport to exclude any claim at all, appear to have been &#8216;home-made&#8217; and prepared without any legal advice either by the Deceased or being obtained by the Claimant and under the Radmacher approach would carry little if any weight had the marriage ended in divorce and a financial remedy claim. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the time of the marriage on 18 September 2003 the Deceased was 70 years old. He would appear to have been working for many years and as the Claimant says in her witness statement [B46] his business was property holding and development. It would seem he must have been relatively wealthy at that point as he was able to pay the Claimant&#8217;s hotel expenses and rent for her flat in London as part of the incentive for her to move to London. The evidence about Ms Adler both from the Claimant and from Ms Adler herself would suggest that she had been involved for very many years in the Deceased&#8217;s property business. Although the evidence before me does not establish in any defined way how the Deceased&#8217;s wealth increased over the years I think it safe to infer that a very substantial proportion of his wealth had been generated by 2003 and thus that had the parties divorced that there would have been a strong argument for a departure from equality on the basis that the  assets available had been very significantly derived from assets he brought into the marriage. That would have been mitigated by the fact of the long marriage, that those assets had been deployed to maintain the family standard of living by generating an income and that they had converted in part into the former matrimonial home but this would clearly be a case where there would have been significant skirmishing around the extent to which the &#8216;husband&#8217; should get credit for premarital contributions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Much of the Claimant&#8217;s evidence as to the background and nature of their relationship and her relationship with Mrs Adler&#8217;s adds to overall panoramic landscape but it is her evidence in relation to her needs and resources and those of Elliot which needs more careful scrutiny.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s evidence suggests that over the years she has sought to create opportunities for herself through education and work including most recently by undertaking the Graduate Diploma in Law, undertaking a training contract and securing a practising certificate as a solicitor. It also seems likely that her account of the Deceased&#8217;s reluctance for her to undertake a demanding professional role has acted as a brake on her ability to progress. The last five years have clearly taken a toll as a result of the precarious position in relation to her home, the straitened financial circumstances she has found herself in and the strain of the litigation arising out of her husband&#8217;s death. At age 51 and with a limited CV, with a continuing (albeit reducing) obligation to Elliot, with depression and liver dysfunction and an elderly father now living with her, her prospects for entering the job market as a full-time solicitor seem negligible. Given her desire to work or to volunteer it seems more likely that she will find some modest roles in those fields but with a correspondingly modest and probably fluctuating earning capacity. She has applied for roles and been unsuccessful and it seems (without being too pessimistic from her point of view) it would be more chance than prediction that she should secure paid employment of anything other than the most modest form. Although her skills in Russian may find a new demand in the light of recent international developments this will not seems to me add very much to her earning capacity in the future. It thus seems to me that it is more probable than not that she will only undertake occasional paid work, more likely she will maintain and perhaps expand her volunteering work and thus her earning capacity should be taken at effectively zero. She will continue to derive a rental income from the Southend flat which comes in at &#163;10,000 per annum and she will have benefits of &#163;14,000 for a further year or so. What her benefit position will be thereafter is unknown as some at least may become directly payable to Elliot (the PIP).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> It is likely that she will receive a state pension in due course and the Duxbury calculation assumes she will. The limited evidence from the Chancery proceedings suggests that the Deceased&#8217;s tax affairs were attended to by an accountant and so one might expect he has made the necessary NIC contributions to make the Claimant eligible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Currently her assets are limited to the equity in the Southend flat of &#163;190,000 and that generates her income. Her other &#8216;assets&#8217; are essentially debts owed to her for costs which total some &#163;391,319. These are mirrored in her liabilities and given the order for sale of one of Ms Adler&#8217;s properties which seems likely to result in a significant capital sum being left and the orders made which permit Mrs Adler&#8217;s costs debts to be met from her entitlement under the Will it seems likely that these liabilities will fall away as the costs are recouped from Ms Adler.  Her Nest pension is likely to be of negligible value given the length of time it was accumulated over and the earnings it was based on.  She has some very modest sums in the bank. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Her liabilities other than the costs are around &#163;28,000, the bulk of this being owed to Robert Boyce who seems to be a builder. He has provided quotes for works to the FMH but he is described by the Claimant as a friend. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Deceased purchased the former matrimonial home at 52 Hendale Avenue in January 2004. Apart from short stays away during holidays or a short separation the Claimant has lived there since. Elliot has lived there his whole life. It is a detached four bedroom two bathroom house with off street parking and a significant garden close to Sunninghill Park [B56]. At times the family had a live-in au pair. Currently the Claimant Elliot and the Claimant&#8217;s father reside in the FMH. Although Elliot may go to university he will no doubt return at holidays and with property prices as they are and with only a modest capital sum from his father and the trend for children to live at home longer due to property prices there seems a strong probability that Elliot could be living at home for 10 more years or so. That being so the Claimant has a need both in practical terms but also in emotional terms for a family home that gives both continuity to her life but also allows her to house herself and her family comfortably. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She also has some identified capital needs:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A new car &#8211; replacing the 2007 Toyota with a Lexus hybrid for &#163;55,000 is not modernising the existing car but a very substantial upgrade. A replacement second hand 13 year old Toyota Yaris could be acquired for &#163;15,000-20,000. Allow &#163;17,500</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The house needs some maintenance works undertaken. The quotes provided are from Mr Boyce &#8211; the friendly lender totalled &#163;40,300 for some roof repairs, complete redecoration internally and externally and garden works and the Claimant says the doors, windows (&#163;17,500), window grilles (&#163;3,780) and kitchen need replacing now (no figure given or details why it is required).   I am afraid the quotes seem somewhat sketchy to my eye for such significant sums and the more recent figures for new doors etc are not evidenced. Rates from Facts and Figures 2024/25 would support a daily rate of &#163;500 for such work. The Claimant claims &#163;9,500 per annum for property maintenance which would suggest a worker being present for 3-4 weeks per year which seems excessive although materials would come on top. Doing the best I can with limited evidence I would allow &#163;6,000 per annum for property maintenance which assuming little was done in the year before the Deceased died would give a sum of &#163;36,000 needed now. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Her other capital costs for obtaining a dog and new phone were &#163;3,700. Allow &#163;2,000 &#8211; there are many dogs to be had from charities.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Elliot&#8217;s capital needs were put at &#163;2,000 for driving lessons plus a new car. Given he lives in London I doubt he needs a car. Allow &#163;2,000. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Payment of gas debt: &#163;3,639</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">R Boyce Loan &#163;22,000</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Total for one off capital: <span style="font-weight:bold">&#163;83,139</span>.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant produced a &#8216;budget&#8217; of her anticipated annual expenditure. It was not a budget of what she or the Deceased had historically spent. Some of that information would not have been available to her as the Deceased seems to have controlled expenditure such as housing related but other aspects such as holidays, clothes, food etc seems to have been dealt with by the Deceased giving the Claimant money. That has not been the subject of evidence.  The Claimant has clearly been living in fairly straightened financial circumstances over the past 5 years; the debt to her energy supplier alone would support that.  Although Ms Proferes did not cross examine the Claimant on her budget (sensibly given the state the Claimant appeared to be in having been coaxed by her team to attend court) I don&#8217;t doubt that it is open to Cripps to question whether the contents of the budget are reasonable.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The evidence suggests that the Kleins led a lifestyle commensurate with a prosperous but not very wealthy family. Regular trips abroad, regular outings to entertainment at the theatre or ballet and eating out appear to be supported. However there is no evidence that the lifestyle was extravagant in terms of expensive clothes, jewellery, accessories or even extending to private education for Elliot and allowing the house to fall into a degree of disrepair. The fact that even in 2020 the Deceased was running a 13-year old car suggests that whilst they enjoyed the good things in life he was not extravagant and kept his financial cards close to his chest. Whilst therefore I accept the Claimant&#8217;s evidence that they led a reasonably good standard of living I do not think it was extravagant. As the Claimant&#8217;s budget for herself originally came in at &#163;163,000 &#8211; a little below the equivalent gross of the salary of the Lady Chief Justice - that seems to be somewhat on the high side. A closer examination of the elements of the budget would support that conclusion. In the course of submissions Mr Baxter identified a number of elements which fell away.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Home: The sum of &#163;9,500 per annum for property maintenance and decoration seems excessive &#8211; a sum of &#163;6,000 would be reasonable. The sums of &#163;3,324 for repairs to furniture and maintenance of domestic appliances also seems excessive and I would allow &#163;1,500. The total for housing would be &#163;18,968</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Southend on Sea: the expenses to this come out as it is now rented: &#163;0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Housekeeping: the domestic help comes out and the sum of &#163;12,780 for 5 or 6 pets (which have not been a feature of family life to date is extraordinarily high) I would allow 1/3 of that sum so &#163;4250. The sums for food and alcohol also seem high for a family of 2 but not exorbitantly so. Total: &#163;21,500</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Car running costs: Allow &#163;6,113</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Employment expenses: Given the sums allowed for food and alcohol I don&#8217;t see the need for separate amounts for work lunches (particularly given how limited this is likely to be). Allow &#163;316</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Regular Investments and Financial Payments: Pension contributions will not be needed if a Duxbury sum is awarded. Whilst I accept some element of support of the Claimant's parents is justified given the Deceased&#8217;s previous support for them and noting that following the death of the Claimant&#8217;s mother and move of her father to London that flights to Belarus are not required, I would allow a total sum for support of &#163;3,000 per annum/ Total &#163;8,090</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Personal Expenditure. The sums given of &#163;14,450 for clothes, accessories and cosmetics are not evidenced by any reference to these sorts of sums being spent historically and seem unduly high given what I have said earlier about their standard of living.  Nor will sperm storage remain necessary. The total of &#163;21,529 can be reduced to &#163;15,000</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Recreational Costs. The total of &#163;27,593 includes holidays, outings and &#163;7,060 for golf related costs and &#163;3,140 for trips to Belarus which will no longer be necessary at that level as her father now lives here. A total of &#163;20,000 would seem reasonable.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The total for the Claimant&#8217;s costs therefore comes to an annual sum of &#163;89,987.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Less an income from the flat of &#163;10,000 per annum but no guarantee of benefits or other income gives an income need of &#163;79,987 (&#163;80k pa)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">This would amount to a lump sum in Duxbury terms <span style="font-weight:bold">of &#163;1.61m </span>[51 yo F,; 2090 (100k) -1490 (75k) = 1490 + 120]</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Elliot&#8217;s costs currently were assessed at &#163;42,888 per annum including</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">&#163;15,695 per annum for educational costs. This was whilst at school and does not incorporate the tuition fees or maintenance costs of Elliot going to university. </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">In the year approaching his A levels he is likely to make use of tutors and undertake school trips. So for 2025/26 allow <span style="font-weight:bold">&#163;15,000</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Personal Expenditure of &#163;6,420 including &#163;5,200 on clothes. This seems excessive and allow &#163;2,000. Total &#163;3,220</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Recreational costs of &#163;18,432 including restaurants and cinemas at &#163;3,640, holidays including trips to Belarus of &#163;10,690.  Allow a total of &#163;10,000</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Other: occupational therapy for ADHD: &#163;2340. Allow</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">As with her own expenses, these seem to be assessed as aspirational rather than reflecting what has been spent over the course of the last few years or even prior to the Deceased&#8217;s death. If Elliot does all the basketball, golf, gym, guitar (at a total cost of just under &#163;12,000 pa) and has trips, recreational outings and holidays to a value of &#163;17,530 he would be both very busy and exceptionally well provided for. Given he is coming up to his A level year and has ADHD I don&#8217;t accept costs at these levels are likely to be incurred or are reasonable by reference to his life over the last 5 years or before. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Total for 2025/26: &#163;15k + &#163;3,220+ &#163;10k + &#163;2340 = <span style="font-weight:bold">&#163;30,560</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">pro rata 2024/25 at 2/3 = <span style="font-weight:bold">&#163;20,390</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">At University ( 4 years): Tuition fees at &#163;9,250 + maintenance at &#163;10,227 (At a Glance, Section 11) say &#163;20,000 + expenses at home including holidays of &#163;10k = <span style="font-weight:bold">&#163;30,000 for 4 years</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Thereafter he is likely to be working and self-sufficient. His mother and father&#8217;s work ethic suggests he will follow suit.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Evaluation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The task for the court is to determine what is reasonable financial provision in all the circumstances of the case. As the authorities emphasise every case is fact specific and there are features of this case which are very specific. Turning to the factors which the 1975 Act requires the court to have regard to are as follows. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The financial resources and financial needs which the applicant has or is likely to have in the foreseeable future;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have addressed these above and incorporate my conclusions above into this evaluation. The Claimant has limited capital which is invested in a flat from which she draws a modest income. This flat was the product of a gift to her by the Deceased who wished to provide her with some basis to develop her own property business &#8211; as he had so successfully done. Although she has not been in a position to develop that business it seems appropriate it should be kept as an income generating asset.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Her ability to earn an income is limited and unpredictable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Her needs and those relating to Elliot and her father are evaluated above. Although the figures I have reached are substantially lower than those the Claimant sought, the nature of the evidence as to the family standard of living prior to the Deceased&#8217;s death, what has been spent (or rather not spent) over the last five years and the disparity between the anticipated expenditure and my sense of what went before (those high levels claimed not being evidenced) the overall net figure for income needs for the Claimant equates to the gross salary of a circuit judge and including Elliot&#8217;s to the gross salary of a High Court Judge.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span> </span><span style="text-decoration-line:underline;text-decoration-style:solid">The financial resources and financial needs which any other applicant for an order under section 2 of this Act has or is likely to have in the foreseeable future;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although a claim could have been brought on Elliot&#8217;s behalf it has not been and to the extent that I am incorporating his income and capital needs in this evaluation it takes account of the claim he might have made. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The financial resources and financial needs which any beneficiary of the Estate of the Deceased has or is likely to have in the foreseeable future;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The main individual beneficiary in terms of specific pecuniary bequests and the residue is Ms Adler. It is to be noted that Ms Adler has not opposed C&#8217;s claim on the basis of her own needs and resources: she has not adduced any evidence of these. In any event, the evidence suggests that she has valuable shareholdings in the Companies, including the Active Majority Companies, the Active Non-Majority Companies and the Inactive Companies. I am aware that one of her properties (185 Regents Park Road) is now being sold for &#163;1,044,000. After the satisfaction of the costs debt which led to the order for sale, the net sum will be in the region of &#163;0.8-0.9m.  Given she has other costs liabilities to the Claimant (&#163;225,000 odd in relation to the Chancery action and any costs ordered in relation to this action) they may substantially reduce that sum if enforcement is sought against it. Alternatively and as ordered by Chief Master Shuman her interest under the Will may be re-deployed to meet the costs liabilities she has incurred to the Claimant.  Given what she says in her own statements about her involvement in property investment it seems likely that she has extensive other financial resources available to her.  From what we know of her current health and age it seems probable that her needs are limited in length although none ascertainable in extent. She is in her 80s and has had serious illness leading to a three-week stay in hospital. The evidence supports the conclusion that she has the financial resources to meet her needs independently of any interest she might acquire from the Will.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Elliot has an interest and his resource is the &#163;100,000 bequest and his needs are considered above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Rebecca has sadly died and so her bequest and her needs have been overtaken by events. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The host of other beneficiaries within the Deceased's family and friends are a relative unknown although efforts have been made by Cripps to trace and contact them. Their bequests are modest .</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The beneficiaries of the discretionary charitable trusts constitute a wide group. Some such as Cancer Research UK are large and have significant other resources. Some of the smaller institutions are likely to be far less well funded. The Deceased clearly intended that the fruits of his success in business should be deployed to some extent to the benefit of those far less fortunate than he and it is important that both his wishes and the needs of those smaller charities are incorporated into the evaluation. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Any obligations and responsibilities which the Deceased had towards any applicant for an order under the said section 2 or towards any beneficiary of the Estate of the Deceased;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As his wife and the mother of his minor child, the Deceased owed the Claimant a significant obligation to provide for her financially both during his life and after his death: there is no higher obligation or responsibility owed by the Deceased otherwise. The Deceased seemingly acknowledged such an obligation during his lifetime: [B40] although his evaluation of what would amount to providing for them is very different to what an objective evaluation comes to. Whether he had intended after 2011 to effect a new will &#8211; there is some evidence he may have &#8211; and whether that would have provided more substantial and objectively reasonable provision cannot be known.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That already high obligation was compounded by the significant age gap between the Deceased and the Claimant such that she was always likely to have a long widowhood. When they married the Deceased was 70 and the Claimant 29. There is nothing in the evidence which suggests he expected her to be financially independent in her own right after his demise as the evidence rather points to him not supporting her becoming self-sufficient and so the consequence inevitably would be that she would be more or less wholly reliant on him and on his estate after his death</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given his wealth, the heavy obligation on the Deceased was to make financial provision for the Claimant enabling her and Elliot to continue to live after his death as they had during his lifetime. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The size and nature of the net estate of the deceased;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The size issues are rehearsed above as to some extent are the nature issues. The most significant factors are</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The value is hard to define but the most likely estimate seems in the region of &#163;6m. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The FMH is certain in its nature and in its use to date (subject to the mortgage being paid)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Although the majority of the asset value seems to be in property and thus superficially easy to liquidate the nature of the issues relating to the limited companies which hold the properties are such that liquidating their assets is complex and probably lengthy</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The liquidity of the Estate is currently variable and the timescale of bringing in the Estate and its liquidity over time is clearly likely to vary. The Estate will need sufficient liquidity or certainty of future liquidity to continue to bring in the Estate. Cripps have said that so far they do not consider they see themselves as being in a position where they cannot continue to administer the Estate. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is a real possibility that the value of the net estate ultimately may be significantly higher than the &#163;6m identified</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is a real possibility that the process of bringing in the Estate will be so protracted, complex and costly that the &#163;6m may not be supplemented but may actually be eaten into. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The timeframes for bringing in the Active Majority Company linked resources is not ascertained but seems likely to occur within the next 1-2 years.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Any physical or mental disability of any applicant for an order under the said section 2 or any beneficiary of the Estate of the Deceased;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant has some health issues. She has endured an extremely stressful period since the Deceased&#8217;s death and has both physical and mental health issues which need to be taken into account. Elliot has ADHD. Ms Adler has health issues considered above.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Any other matter, including the conduct of the applicant or any other person, which in the circumstances of the case the court may consider relevant.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant seeks to rely on the conduct of the Deceased in particular his financial control of her as being relevant to the reasonableness of the financial provision he provided. In particular Mr Baxter relies upon the agreements that the Deceased and the Claimant reached &#8211; at the behest of the Deceased.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Baxter relied on the fact that shortly before their marriage and shortly after the Claimant  had given up her life in Israel to move to London at his request the Deceased obtained the Claimant's signature to two documents which purported to deny the Claimant  (once they were married) any financial claim against him or his assets in any circumstances, taking advantage of his clearly dominant position in their relationship. Not only did C not receive legal advice but her English was insufficient for her to understand the documents in any event. Ms Adler disputes the level of the Claimant's knowledge of English and her understanding of the documents but in all the circumstances the &#8216;Agreements&#8217; do not in my view carry any weight in the determination of the claim. The Deceased had exited his 2nd marriage in divorce it would seem and perhaps that motivated his concern to protect his hard-earned assets. In any event he subsequently acted against those agreements by gifting the Claimant a property and by making provision for her in his Will. The fact that the parties decided to have a child and contemplated having more children by storing sperm in California all points to the conclusion that the agreements carry no weight</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Baxter also relied on the fact that when Claimant took Elliot on holiday or to visit his maternal grandparents, the Deceased required her to sign written &#8216;agreements&#8217; setting out detailed terms on which he was prepared to permit her to do so, down to departure and arrival dates, contact information, medical insurance, and reporting to the Deceased. Such agreements are in fact recommended in relation to the removal of children in order to address the possibility of nonreturn and applications under the 1980 Hague Convention although the level of detail in these is perhaps more indicative of the Deceased imposing his will rather than simply protecting his legal position.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It does not seem to me that it is possible to determine whether there was control within the meaning of that term in the domestic abuse context. The fact that the Deceased gifted the Claimant a property, was on her evidence fairly free in giving her money and on her evidence content for her to go on holiday frequently without him does not suggest that he was controlling in an abusive sense. However, the evidence makes clear that by dint of the fact that he was financially dominant that this gave him a significant level of de facto control.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Baxter submits that the Deceased&#8217;s testamentary wishes should be afforded little if any weight. Insofar as one can infer that he considered that the provision he made for the Claimant and Elliot in his Will was reasonable and insofar as his wish that she should receive &#163;300,000 and Elliot should receive the sum of &#163;100,000 on trust and that this would cater for their needs it is clear that those wishes are inconsistent with any objective evaluation of what reasonable financial provision would be. In respect of his other testamentary wishes in terms of making provision for friends and family, making provision for Ms Adler and making provision for charity I think more respect is potentially required. Although it is not capable of determination on the evidence before me I strongly suspect that the Deceased would be horrified that hundreds of thousands of pounds of his hard earned investments are being expended on legal fees rather than being deployed to support individuals he identified in his Will. However there may also be a possibility, albeit I think a remote one, that he would have supported a scorched earth policy orchestrated by Ms Adler to deny the Claimant and Elliot anything other than that provided for in the Will. It would be desperately sad if that were the case but of course experience tells us that fact is stranger than fiction and so I cannot rule out that possibility. However the existence of both of those possibilities does not materially influence the evaluation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Both the Claimant and Cripps rely on the conduct of Ms Adler in her attitude to the administration of the Estate and her conduct of these proceedings and the removal proceedings and the Chancery proceedings. She has withdrawn &#163;80,000 from Westbridge Investments which she appears to have had no right either as executor or as a director so to do. Her conduct has made the task of Cripps exceptionally difficult and extraordinarily expensive as a result of both her failure to provide proper documentation but also her failure to administer the companies appropriately in complying with their statutory responsibilities and in the day-to-day administration of their assets and liabilities. The evidence of Mr Sikkel abundantly demonstrates these failings, although the judgments in the Removal Proceedings, the Chancery Proceedings and the recent Companies Act proceedings would on their own illustrate those failings. Whether they are deliberate misfeasance, incompetence, lack of attention or health related (or a combination) they have occurred and as a result they have created huge costs, delay and stress. They each submit that she has wholly failed in the task that the Will set for her and inferentially in the Deceased&#8217;s expectation of her. She has certainly failed in the tasks one might have expected although whether in fact the Deceased would have expected a scorched earth approach to any challenge by the Claimant is moot. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The age of the applicant and the duration of the marriage or civil partnership;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant is 51 years old. She was 41 years younger than the Deceased (they were 70 and 29 respectively when they married).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the Deceased&#8217;s death, they had been married for 16.5 years. That is not only a long marriage on any footing but also the longest their marriage could reasonably have been expected to last, given the Deceased was 70 when they married and died at 87.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear there was a period &#8211; around 2010-2011 or so&#8211; when there were difficulties in the marriage (in connection with the Deceased&#8217;s mental health and Claimant&#8217;s parents) and both parties considered the possibility of divorce. However, neither party pursued this and the marriage improved again. Notably, the Deceased had divorced before but he chose not to divorce the Claimant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The contribution made by the applicant to the welfare of the family of the Deceased, including any contribution made by looking after the home or caring for the family</span>.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant adopted the traditional role of wife and mother allowing the Deceased to both continue to run his business but also to be cared for in his old age and failing health.  This is a contribution of as much &#8216;value&#8217; as the financial and other contributions of the Deceased. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">In the case of an application by the wife or husband of the Deceased, the court shall also, unless at the date of death a judicial separation order was in force and the separation was continuing, have regard to the provision which the applicant might reasonably have expected to receive if on the day on which the Deceased died the marriage, instead of being terminated by death, had been terminated by a divorce order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Baxter submits that the principles of needs, compensation, and sharing elucidated in the divorce cases all weigh in favour of a significant award to the Claimant had she and the Deceased divorced, which, given the Claimant's very limited assets in her own name, certainly would include the family home mortgage-free and would not be less than half of the net estate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Proferes submitted that </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Mrs Klein has not detailed precisely what would be necessary to meet her financial needs. It is not accepted that, given her age and employability, she would have been entitled to ancillary relief sufficient to keep her in the marital standard of living for the rest of her life without her working at all. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There will be some element of compensation given Mrs Klein&#8217;s role as a homemaker for most of the marriage. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Given the length and circumstances of the marriage, the &#8216;yardstick of equality&#8217; would appear broadly appropriate. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Although certain of the shareholdings may arguably have been non-matrimonial property, the relevance of what property was pre-acquired will have diminished given the length of the marriage. In any event it appears unlikely that Mrs Klein&#8217;s financial needs could be met without recourse to at least some property which is arguably non-matrimonial. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not need to  undertake a theoretical application of the s.25 MCA factors and undertake any other than a broad brush cross-check. Given the length of marriage, the presence of a minor child, the fact that the Claimant undertook a traditional home making and caring role whilst the Deceased continued to be the money earner would support a starting point of equality. However the fact that the Deceased had been working for circa half a century building up a property business which comprises the entirety of the assets at the commencement of the marriage and which had not substantially changed in form (or so the evidence would suggest) over the course of the 17 odd years of marriage would suggest that there would be a strong argument that there should be some departure from equality based on premarital contributions. What that departure might have been in practice is speculative. It is even more speculative in practice because in a financial remedy case we would not be in the territory of uncertainty that we are now. A far greater degree of certainty over the net value of the distributable assets would have been likely. That might have influenced the degree of departure. Where the net distributable assets &#163;6 million on the basis of the wife receiving the FMH and capital of around &#163;2m in order to meet her and Elliot&#8217;s reasonable needs there may have been relatively little departure. Had the net distributable assets been closer to &#163;10 million a departure from equality of anything between 40/60 or 1/3-2/3 may have been argued over.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Taking account of all of those matters I&#8217;m satisfied that the Will of the Deceased did not make reasonable financial provision for the Claimant and at reasonable financial provision of a minimum would be constituted by</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">the transfer to the Claimant of the former matrimonial home unencumbered with a value of &#163;1m.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A lump sum or sums which incorporate the sums identified above addressing immediate capital needs, capitalised income needs and the income needs of Elliot over the coming five odd years. </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Total for one off capital: <span style="font-weight:bold">&#163;83,139</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">amount to a lump sum in Duxbury terms <span style="font-weight:bold">of &#163;1.61m</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <intro>
+		<p class="ParaLevel3" style="margin-left:1.48in">Elliot</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.97in;text-indent:-0.49in">i)</num>
+		<content>
+		  <p class="ParaLevel4" style="margin-left:1.97in">2024/25: pro rata 2024/25 at 2/3 = <span style="font-weight:bold">&#163;20,390</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.97in;text-indent:-0.49in">ii)</num>
+		<content>
+		  <p class="ParaLevel4" style="margin-left:1.97in">2025/26 <span style="font-weight:bold">&#163;30,560</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.97in;text-indent:-0.49in">iii)</num>
+		<content>
+		  <p class="ParaLevel4" style="margin-left:1.97in;text-indent:0.01in">At University ( 4 years): Tuition fees at &#163;9,250 + maintenance at &#163;10,227 (At a Glance, Section 11) say &#163;20,000 + expenses at home including holidays of &#163;10k = &#163;30,000 for 4 years.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That amounts to a lump sum of &#163;1,864,089. It will need to be paid in instalments which the Estate will need to consider how it can realistically be achieved. The consequence of making payments to an IHT exempt beneficiary may reduce the current IHT estimate and allow more flexibility in relation to the funds currently held. Paying off the mortgage arrears and making some immediate payments to the Claimant in relation to her debts and current ongoing income needs should be a priority and if necessary the subject of orders. There will need to be detailed consideration of how the order should be framed in terms of instalment payments and interest. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I consider this to amount to reasonable financial provision based on an evaluation of the Claimant's basic needs it is the minimum that is required by reference to the minimum value of the realisable estate that I have considered. Were the minimum value to fall below &#163;6m I consider that these sums are the floor for reasonable financial provision. The Claimant and Elliot take priority over any of the other beneficiaries. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To the extent that this impacts on Ms Adler most that is fair given her conduct and her entitlements under the Will should take the first hit in so far as other beneficiaries are impacted by ensuring the Claimant and Elliot receive the minimum sums identified</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the happy event that Cripps bring in more than the net estate required to meet this minimum then my evaluation is that the Claimant should receive 40% of the overall net value of the Estate. This I think would accord with the divorce cross-check and would give due weight to the intention of the Deceased to also benefit some of his relatives, friends and most importantly charities. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If my calculation is correct that would mean that the Estate would begin to make payments to the Claimant in addition to the &#163;2,864,089 when the net estate exceeded &#163;7,160,222.  Over that sum she would receive 40% of the additional sums available for distribution.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Taking account of the conduct of Ms Adler in the conduct of the administration of the Estate, linked matters and this litigation I consider that she ought to bear the costs. A sensible approach pre-litigation ought to have been more than capable of avoiding any litigation at all. Costs will be on the indemnity basis and may be deducted from Ms Adler&#8217;s share of the Estate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is my judgment. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

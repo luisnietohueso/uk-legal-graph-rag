@@ -1,0 +1,1845 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/379"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/379"/>
+	  <FRBRdate date="2025-04-03" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="379"/>
+	  <FRBRname value="Phyllis Sullivan v Isle of Wight Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/379"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/379"/>
+	  <FRBRdate date="2025-04-03" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/379/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/379/data.xml"/>
+	  <FRBRdate date="2025-04-03T12:41:45" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-03" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="phyllis-sullivan" href="" showAs="PHYLLIS SULLIVAN"/>
+	<TLCPerson eId="isle-of-wight-council" href="" showAs="ISLE OF WIGHT COUNCIL"/>
+	<TLCPerson eId="department-for-business-and-trade" href="" showAs="DEPARTMENT FOR BUSINESS AND TRADE"/>
+	<TLCPerson eId="protect" href="" showAs="PROTECT"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-underhill" href="/judge-lord-justice-underhill" showAs="LORD JUSTICE UNDERHILL"/>
+	<TLCPerson eId="judge-lord-justice-holgate" href="/judge-lord-justice-holgate" showAs="LORD JUSTICE HOLGATE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>379</uk:number>
+	<uk:cite>[2025] EWCA Civ 379</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>2d17143b4fe73d088fd8197ee99b0dbaa974f7b5b0e6135e43e0297a2c09bb91</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading4 { font-weight: bold; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Heading4Char { font-weight: bold; font-size: 12pt; }
+#judgment .cofootnotenode { }
+#judgment .costarpage { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 379</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2024-000261</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE EMPLOYMENT APPEAL TRIBUNAL</p>
+      <p class="CoverMain">THE HONOURABLE MRS JUSTICE ELLENBOGEN DBE</p>
+      <p class="CoverMain"><neutralCitation>[2024] EAT 3</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-03" refersTo="#judgment">3 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-underhill">LORD JUSTICE UNDERHILL</judge></p>
+      <p class="CoverMain" style="text-align:center">(Vice-President of the Court of Appeal (Civil Division))</p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE LEWIS<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-holgate">LORD JUSTICE HOLGATE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#phyllis-sullivan" as="#appellant" style="font-weight:bold">PHYLLIS SULLIVAN</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Claimant/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#isle-of-wight-council" as="#respondent" style="font-weight:bold">ISLE OF WIGHT COUNCIL</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center;margin-left:0.25in"><party refersTo="#department-for-business-and-trade" as="#respondent" style="font-weight:bold">(1) DEPARTMENT FOR BUSINESS AND TRADE</party></p>
+	    <p style="text-align:center;margin-left:0.5in"><party refersTo="#protect" as="#respondent" style="font-weight:bold">(2) PROTECT</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Defendant/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p><span style="font-weight:bold">   </span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#intervener">Interveners</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - --</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Jeffrey Jupp KC and James Robottom </span>(instructed through <span style="font-weight:bold">Advocate)</span> for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Fergus McCombie and Louisa Simpson</span> (instructed by<span style="font-weight:bold"> the Isle of Wight Council Legal Department</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Robert Moretto</span> (instructed by <span style="font-weight:bold">the Treasury Solicitor</span>) for the <span style="font-weight:bold">First Intervener</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Claire Darwin KC and Nathan Roberts </span>(instructed by <span style="font-weight:bold">Farrer &amp; Co</span>) for the <span style="font-weight:bold">Second Intervener</span></p>
+      <p style="text-align:center">Hearing dates: 19 and 20 February 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 3 April 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LORD JUSTICE LEWIS:</span></p>
+	    <p><span style="font-weight:bold">INTRODUCTION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This appeal concerns provisions of the Employment Rights Act 1996 (&#8220;ERA&#8221;) which provide that workers have the right not to be subjected to any detriment if they make a protected disclosure, that is a disclosure of certain categories of information to their employer or other specified persons. Regulations may also be made pursuant to section 49B of ERA to confer protection on applicants for posts with National Health Service (&#8220;NHS&#8221;) employers who make protected disclosure. Applicants for other jobs do not have protection if they disclose such information. The issue is whether the legislation is compatible with Article 14, read with Article 10, of the Convention for the Protection of Human Rights and Fundamental Freedoms (&#8220;the Convention&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In brief, the appellant, Phyllis Sullivan, applied for posts with the respondent, the Isle of Wight Council. She was unsuccessful in her applications. She subsequently sent a letter to her Member of Parliament detailing certain things that she said had occurred at the interviews and complaining about the activities of a charitable trust (one of whose trustees was a member of the interviewing panel). She also made a complaint to the respondent. That complaint was investigated and found to be unsubstantiated. The respondent failed to arrange for the appellant to be given an opportunity for the matter to be referred to another officer for a further review in accordance with the respondent&#8217;s complaints policy. The appellant complained to an employment tribunal that she had been subjected to a detriment &#8211; the refusal to allow a further review of her complaint - because she had made a protected disclosure of information. She accepted that she had not been refused a post because of any disclosure of information as the disclosure occurred after the interviews had been conducted and after she had been told that she had been unsuccessful in her applications.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant was not a worker within the meaning of ERA. She was not an applicant for a post with an NHS employer. On the ordinary interpretation of ERA, therefore, she was not entitled to protection in relation to any protected disclosure she made. She contended, however, that the legislation was incompatible with Article 14, read with Article 10, of the Convention, in so far as it protected workers and applicants for NHS posts but not job applicants generally. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employment tribunal dismissed the claim. It held that the appellant was not in a materially analogous position to workers or applicants for NHS posts. It further held that treatment done on the ground that a person was an applicant for a job was not done on the ground of some &#8220;other status&#8221; for the purposes of Article 14 of the Convention. Finally, it held that any difference in treatment was objectively justifiable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On appeal, the Employment Appeal Tribunal (&#8220;EAT&#8221;) dismissed the appeal, holding that the appellant was not in a materially analogous position to workers or applicants for NHS posts, and that being an applicant for a job was not a status for the purposes of Article 14 of the Convention. The EAT observed, however, that if it had not dismissed the appeal for those reasons it would have remitted the question of whether the statutory provisions were objectively justifiable to the employment tribunal to enable it to receive evidence on the question of proportionality. The EAT also held that the appeal failed for a different reason. The complaint as presented to the employment tribunal did not concern any detriment imposed as a result of anything connected with the appellant&#8217;s application for employment with the respondent but concerned complaints about alleged financial activities in connection with a charitable trust (which was not connected with the respondent).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant appeals and, in light of her grounds of appeal, the following principal issues arise, namely:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;text-indent:0.12in">is the appellant in a materially analogous position to (a) workers or (b) applicants for posts with NHS employers?;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;text-indent:0.12in"> does being a job applicant amount to a status for the purpose of Article 14 of the Convention?;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;text-indent:0.12in">is the difference in treatment arising out of the relevant statutory provisions objectively justifiable?; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;text-indent:0.12in">was the disclosure related to the appellant&#8217;s application for employment?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">THE LEGAL FRAMEWORK</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold">Protected Disclosures by Workers</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The provisions governing the protection of workers who make what are described as protected disclosures of information were first introduced into ERA by the Public Interest Disclosure Act 1998 (&#8220;the 1998 Act&#8221;). They were further amended shortly afterwards by the Employment Relations Act 1999. &#8220;Worker&#8221; was given an extended meaning by section 43K of ERA which, as originally enacted, include those employed under a contract of employment or a contract do any work or perform services personally and certain other categories of worker such as agency workers. A disclosure is a qualifying disclosure if: (a) it involves the disclosure of information which falls within one or more categories of the information specified in section 43B and (b) where disclosure is made to the person or persons specified in sections 43C to 43H of the ERA. The 1998 Act amended other parts of ERA to provide that a worker has the right not to be subjected to any detriment by an employer on the ground that he has made a protected disclosure and to provide that any dismissal would be unfair if the reason, or principal reason, for the dismissal was that the employee had made a protected disclosure. Employment tribunals were given jurisdiction to hear complaints.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The material provisions of ERA at the present time are as follows. Section 43A of ERA provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In this Act a &#8220;protected disclosure&#8221; means a qualifying disclosure (as defined by section 43B) which is made by a worker in accordance with any of sections 43C to 43H.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 43B of ERA defines which disclosures of information may qualify for protection. It is in the following terms:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this Part a &#8220;qualifying disclosure&#8221;<span style="font-style:italic;color:#3D3D3D"> </span>means any disclosure of information which, in the reasonable belief of the worker making the disclosure, is made in the public interest and tends to show one or more of the following&#8212; </p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that a criminal offence has been committed, is being committed or is likely to be committed,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that a person has failed, is failing or is likely to fail to comply with any legal obligation to which he is subject,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that a miscarriage of justice has occurred, is occurring or is likely to occur,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that the health or safety of any individual has been, is being or is likely to be endangered,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that the environment has been, is being or is likely to be damaged, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that information tending to show any matter falling within any one of the preceding paragraphs has been, is being or is likely to be deliberately concealed.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of subsection (1), it is immaterial whether the relevant failure occurred, occurs or would occur in the United Kingdom or elsewhere, and whether the law applying to it is that of the United Kingdom or of any other country or territory.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A disclosure of information is not a qualifying disclosure if the person making the disclosure commits an offence by making it.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A disclosure of information in respect of which a claim to legal professional privilege (or, in Scotland, to confidentiality as between client and professional legal adviser) could be maintained in legal proceedings is not a qualifying disclosure if it is made by a person to whom the information had been disclosed in the course of obtaining legal advice.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this Part &#8220;the relevant failure&#8221;, in relation to a qualifying disclosure, means the matter falling within paragraphs (a) to (f) of subsection (1).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Sections 43C to 43H define to whom, and in what circumstances, a qualifying disclosure of information is a protected disclosure. Section 43C provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A qualifying disclosure is made in accordance with this section if the worker makes the disclosure &#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">to his employer, or</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">where the worker reasonably believes that the relevant failure relates solely or mainly to &#8212;</p>
+		      <block name="embeddedStructure">
+                        <embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <intro>
+			      <p class="Quote" style="margin-left:1.39in;text-indent:0.29in">the conduct of a person other than his employer, or</p>
+			    </intro>
+			    <subparagraph>
+			      <num>(ii)</num>
+			      <content>
+				<p class="Quote" style="margin-left:1.58in;text-indent:0.42in">any other matter for which a person other than his employer has legal responsibility,</p>
+			      </content>
+			    </subparagraph>
+			  </paragraph>
+			</embeddedStructure>
+                      </block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.18in">to that other person.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A worker who, in accordance with a procedure whose use by him is authorised by his employer, makes a qualifying disclosure to a person other than his employer, is to be treated for the purposes of this Part as making the qualifying disclosure to his employer.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are specific provisions governing disclosure to a legal adviser for the purpose of obtaining legal advice (section 43D) and to a Minister of the Crown where the person is appointed under any enactment (section 43E). There is provision for disclosure to a person prescribed by order of the Secretary of State (section 43F). That would enable, by way of example, the making of orders allowing for disclosure of information to prescribed statutory regulatory bodies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 43G of ERA provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">A qualifying disclosure is made in accordance with this section if&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8230;..</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the worker reasonably believes that the information disclosed, and any allegation contained in it, are substantially true, </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">he does not make the disclosure for purposes of personal gain,</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">any of the conditions in subsection (2) is met, and</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">in all the circumstances of the case, it is reasonable for<marker name="tab"/> him to make the disclosure.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The conditions referred to in subsection (1)(d) are&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that, at the time he makes the disclosure, the worker reasonably believes that he will be subjected to a detriment by his employer if he makes a disclosure to his employer or in accordance with section 43F,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that, in a case where no person is prescribed for the purposes of section 43F in relation to the relevant failure, the worker reasonably believes that it is likely that evidence relating to the relevant failure will be concealed or destroyed if he makes a disclosure to his employer, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that the worker has previously made a disclosure of substantially the same information&#8212;</p>
+		      <block name="embeddedStructure">
+                        <embeddedStructure>
+			  <paragraph>
+			    <num>(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:1.39in;text-indent:0.29in">to his employer, or</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure>
+                      </block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.21in;text-indent:0.65in">in accordance with section 43F.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In determining for the purposes of subsection (1)(e) whether it is reasonable for the worker to make the disclosure, regard shall be had, in particular, to&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the identity of the person to whom the disclosure is made,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the seriousness of the relevant failure,</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">whether the relevant failure is continuing or is likely to occur in the future,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">whether the disclosure is made in breach of a duty of confidentiality owed by the employer to any other person,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">in a case falling within subsection (2)(c)(i) or (ii), any action which the employer or the person to whom the previous disclosure in accordance with section 43F was made has taken or might reasonably be expected to have taken as a result of the previous disclosure, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">in a case falling within subsection (2)(c)(i), whether in<marker name="tab"/> making the disclosure to the employer the worker complied with any procedure whose use by him was authorised by the employer.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of this section a subsequent disclosure may be regarded as a disclosure of substantially the same information as that disclosed by a previous disclosure as mentioned in subsection (2)(c) even though the subsequent disclosure extends to information about action taken or not taken by any person as a result of the previous disclosure.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is also provision for disclosure of information to be made to other persons in the case of exceptionally serious failures as defined in section 43H of ERA. That provides so far as material that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A qualifying disclosure is made in accordance with this section if&#8212;<span class="cofootnotenode" style="font-family:'Source Sans Pro';color:#000000;background-color:#FFFFFF">...</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the worker reasonably believes that the information disclosed, and any allegation contained in it, are substantially true, </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">he does not make the disclosure for purposes of personal gain,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the relevant failure is of an exceptionally serious nature, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">in all the circumstances of the case, it is reasonable for him to make the disclosure.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In determining for the purposes of subsection (1)(e) whether it is reasonable for the worker to make the disclosure, regard shall be had, in particular, to the identity of the person to whom the disclosure is made.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 47B of ERA provides protection for a worker and says, so far as material for present purposes:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A worker has the right not to be subjected to any detriment by any act, or any deliberate failure to act, by his employer done on the ground that the worker has made a protected disclosure.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That subsection protects a worker only from detriments suffered in his employment, that is, broadly, a detriment as an employee or worker. It does not encompass detriments suffered in some other capacity. See, generally, <span style="font-style:italic">Tiplady v City of Bradford Metropolitan District Council</span> [2019] EWCA Civ 2180, [2020] ICR 965. Furthermore, a dismissal is automatically unfair for the purposes of Part IX of ERA where the reason, or principal reason, for the dismissal was that the employee had made a protected disclosure (see section 103A). Complaints that an employee have been subjected to a detriment or unfairly dismissed as a result of a protected disclosure may be presented to an employment tribunal (see sections 48 and 111 of ERA).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The extension of protection to applicants for NHS Posts</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Structure of the NHS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The provision of a national health service in England is now governed by the National Health Service Act 2006 (&#8220;the 2006 Act&#8221;). The Secretary of State has a duty to continue the promotion of a comprehensive health service in England (section 1 of the 2006 Act). At present, NHS England, which is a corporate body, also has a similar duty. Various bodies, such as NHS England, integrated care boards, NHS Trusts, and Special Health Authorities have been established and have functions to do with arranging for the provision of services for the purpose of the health service.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Background to the Legislation </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">By way of background, a review was established in response to concerns <marker name="tab"/>about the way that NHS organisations dealt with issues raised by staff about <marker name="tab"/>substandard and sometimes unsafe patient care. The review was conducted by <marker name="tab"/>Sir Robert Francis QC. He reported on 11 February 2015. His report is entitled <marker name="tab"/>&#8220;Freedom to Speak Up&#8221;. In a letter to the Secretary of State included as part<marker name="tab"/>of the report, Sir Robert said that he was satisfied that there was a &#8220;serious <marker name="tab"/>issue within the NHS. It requires urgent attention if staff are to play their part <marker name="tab"/>in maintaining a safe and effective service for patients&#8221;. In paragraph 1 of the <marker name="tab"/>executive summary, Sir Robert explained that &#8220;in recent years there have been<marker name="tab"/>exposures of substandard, and sometimes unsafe, patient care and treatment&#8221;. <marker name="tab"/>In many cases staff had been unable to speak up or had not been listened to <marker name="tab"/>when they did. In paragraph 8 of the executive summary, Sir Robert said that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;8.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The NHS is not alone in facing the challenge of how to encourage an open and honest reporting culture. It is however unique in a number of ways, It has a very high public and political profile. It is immensely regulated and, whilst the system consists of many theoretically autonomous decision-making units, the NHS as a whole can in effect act as a monopoly when it comes to excluding staff from employment. Further, the political significance of almost everything the system does means that there is often intense pressure to emphasise the positive achievements of the service, sometimes at the expense of admitting its problems.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The executive summary identified the principles that should be followed to bring about change. Principles 1 and 2 were concerned with the fostering of a culture of safety and a culture where those who raised honest concerns about safety should be encouraged to speak up. Principle 20 concerned the provision of enhanced legal protection. Two steps were identified. One was to make certain NHS bodies prescribed persons to whom disclosures could be made. The other was to extend the scope of the legislation governing those who make protected disclosures to include students working towards a career in health care. Sir Robert also said this at paragraph 95 of the executive summary to the report:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;95.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The legislation applies to all employers, not only those in the NHS, so it would not be appropriate to make recommendations for amendment which might impact on other sectors in ways that I am not aware of. However I am particularly concerned by one aspect of the legislation, which is that it does nothing to protect people who are seeking employment from discrimination on the grounds that they are known to be a whistleblower. This is an important omission which should be reviewed, at least in respect of the NHS. I invite the Government to review the legislation to extend protection to include discrimination by employers in the NHS, if not more widely, under the Employment Rights Act 1996 or the Equality Act 2010.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Chapter 9 of the report dealt with extending legal protection. Paragraphs 9.17 and 9.19 said this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;9.17</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Although the existing legislation is weak, I have not recommended a wholesale review of the 1996 Act for two reasons. First, I do not think legislative change can be implemented quickly enough to make a difference to those working in the NHS today. What is needed is a change in the culture and mindset of the NHS so that concerns are welcomed and handled correctly. If this can be achieved, fewer staff will need recourse to the law. Second, this Review is concerned only with the position of disclosures made within one part of the public sector, the NHS. The Act covers all forms of employment whether in the public or private sectors.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;..</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>9.19</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">There is one more general area where I think consideration needs to be given to strengthening. The evidence that I have seen during the course of the Review indicates that individuals are suffering, or are at risk of suffering, serious detriments in seeking re-employment in the health service after making a protected disclosure. I am convinced that this can cause serious injustice: they are effectively excluded from the ability to work again in their chosen field. With that in mind, I think that consideration does need to be given to extending discrimination laws to protect those who make a protected disclosure either in the Employment Rights Act 1996 or the Equality Act 2010 or to finding an alternative means to avoid discrimination on these grounds.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Legislation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against that background, the Small Business, Enterprise and Employment Act 2015 (&#8220;the 2015 Act&#8221;) inserted a provision into the ERA dealing with protection for applicants for employment in the health service. That provided a power for the Secretary of State to make regulations prohibiting an NHS employer from discriminating against an applicant because the applicant had made a protected disclosure. The material provisions (with certain amendments made by the 2006 Act) are as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;PART 5A PROTECTION FOR APPLICANTS FOR EMPLOYMENT ETC IN THE HEALTH SERVICE</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">49B Regulations prohibiting discrimination because of protected disclosure</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">The Secretary of State may make regulations prohibiting an NHS employer from discriminating against an applicant because it appears to the NHS employer that the applicant has made a protected disclosure.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">An </span>&#8220;applicant&#8221;<span style="color:#000000">, in relation to an NHS employer, means an individual who applies to the NHS employer for&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in"><span style="color:#000000">a contract of employment,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in"><span style="color:#000000">a contract to do work personally, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in"><span style="color:#000000">appointment to an office or post.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of subsection (1), an NHS employer discriminates against an applicant if the NHS employer refuses the applicant's application or in some other way treats the applicant less favourably than it treats or would treat other applicants in relation to the same contract, office or post.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in"><marker name="tab"/>      &#8230;..</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">&#8220;</span>NHS employer<span style="font-style:italic">&#8221; </span>means an NHS public body prescribed by regulations under this section.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">&#8220;</span>NHS public body<span style="font-style:italic">&#8221; </span>means&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the National Health Service Commissioning Board;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">an integrated care board;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">a Special Health Authority;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">an NHS trust;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">an NHS foundation trust;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(f)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the Care Quality Commission;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(g)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">Health Education England;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(h)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the Health Research Authority;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the Health and Social Care Information Centre;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(j)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">the National Institute for Health and Care Excellence;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(k)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">Monitor;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(l)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">a Local Health Board established under section 11 of the National Health Service (Wales) Act 2006;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(m)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the Common Services Agency for the Scottish Health Service;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(n)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">Healthcare Improvement Scotland;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(o)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">a Health Board constituted under section 2 of the National Health Service (Scotland) Act 1978;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(p)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.68in">a Special Health Board constituted under that section.</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.5in"><marker name="tab"/><marker name="tab"/>&#8230;..&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Additional bodies have been added to the list of NHS public bodies. The Employment Rights Act 1996 (NHS Recruitment &#8211; Protected Disclosure Regulations 2018/579) (&#8220;the Regulations&#8221;) have been made in pursuance of the powers conferred by section 49B. Regulation 2 prescribes the bodies listed in section 49B(7) and they are, therefore, NHS employers. Regulation 3 provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;3.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Prohibition on discrimination because of protected disclosure</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">An NHS employer must not discriminate against an applicant because it appears to the NHS employer that the applicant has made a protected disclosure.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Regulations provide for a complaint to be made to an employment tribunal which, if it finds there has been a contravention of regulation 3, must make a declaration to that effect and may order the NHS employer to pay compensation to the applicant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Proposed Amendments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">During the passage through Parliament of the Bill which became the 2015 Act, an amendment was proposed to section 43K which gives an extended meaning to &#8220;worker&#8221;. The amendment proposed inserting after the existing section 43K(1)(d) the following:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">is or has been a job applicant&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That amendment, had it been adopted, would have extended the scope of the protection for those who made protected disclosures to all applicants for jobs (not merely those applied for employment with an NHS employer). The proposed amendment was the subject of debate. It was subject to a vote and 231 voted against adopting the amendment and 174 voted in favour. As a result, the amendment was not made.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Further Legislation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Parliament has also enacted the Children and Social Work Act 2017 (&#8220;the 2017 Act&#8221;). Section 32 of the 2017 Act will, when it comes into force, amend Part IVA of ERA. It will provide a power for the Secretary of State to make regulations prohibiting a relevant employer from discriminating against a person who applies for a children&#8217;s social care position because the applicant has made a protected disclosure. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The HRA and the Convention</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue in this case concerns the question of whether the legislative provisions are compatible with Article 14, read with Article 10, of the Convention and, if not, whether it is possible to interpret the legislative provisions differently to ensure that they are interpreted in a way that is compatible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 14 of the Convention provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Prohibition on Discrimination</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The enjoyment of the rights and freedoms set forth in this Convention shall be secured without discrimination on any ground such as sex, race, colour, language, religion, political or other opinion, national or social origin, association with a national minority, property, birth or other status.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As appears from its terms, Article 14 can only be considered in conjunction with the enjoyment of one or more of the substantive rights or freedoms set out in the Convention. The relevant right here is that in Article 10(1) of the Convention which provides that everyone has the right to freedom of expression and that this right includes freedom &#8220;to receive and impart information and ideas without interference by public authority&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">In general terms, the approach to the question of whether differential treatment is contrary to Article 14 involves consideration of four broad issues, albeit that different cases express the issues in different language. As the issues in this case </span>concern the compatibility of provisions of primary legislation enacted by Parliament with Article 14, it is appropriate to use the form of words generally used in that context. The four issues or questions that arise in this case are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.18in;text-indent:0.32in">does the subject matter of the complaint fall within the ambit of one of the Convention rights?;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.18in;text-indent:0.32in">has the person making the claim been treated less favourably than other people who are in an analogous, or relevantly similar, situation?;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">is that difference in treatment based on an identifiable characteristic amounting to a status?; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">is the difference in treatment objectively justifiable? That in turn involves consideration of whether the measure giving rise to the differential treatment pursues a legitimate aim and whether there is a reasonable relationship of proportionality between the means employed and the aim sought to be realised. The burden is on those seeking to contend that the legislative measures are objectively justified to demonstrate that that is so.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Those correspond to the four issues identified in <span style="font-style:italic">Gilham v Ministry of Justice (Protect Intervening)</span> [2019] UKSC 44, [2019] 1 WLR 5905 at paragraph 28. It is common ground that the answer to the first question in this case is yes as the complaint falls within the ambit of the right of freedom of expression, which includes the right to impart information. The case concerns the second, third and fourth questions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 3 HRA provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">So far as it is possible to do so, primary legislation and subordinate legislation must be read and given effect to in a way which is compatible with Convention rights&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A court must first consider whether the legislative provisions would, applying recognised principles of statutory interpretation, give rise to a breach of a Convention right. If so, then the court should, in accordance with the duty under section 3, consider if it is possible to interpret the legislative provisions in a way which is compatible with a Convention right. If not, a court may make a declaration of incompatibility, that is a declaration that a legislative provision is incompatible with a Convention right (section 4 HRA). An employment tribunal has no power to grant a declaration of incompatibility. Nor can the EAT grant such a declaration.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE FACTS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The material facts for the purposes of this appeal are as follows. They are largely taken from the judgment of the employment tribunal. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Interviews</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 31 October 2019, the appellant attended an interview with the respondent for the position of accounts officer. The interview was conducted by Ms Martin, Mr Porter and Mr Philbrick. On 4 November 2019, the respondent e-mailed the appellant to inform her that she had been unsuccessful at interview and complimenting her on her academic achievements and gave advice for future interviews. The appellant replied that day thanking the respondent for the e-mail and stating that it had been nice to meet everyone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 5 December 2019, the appellant attended an interview with the respondent for the position of direct payment finance officer. The interview was conducted by Ms Martin, Mr Porter and Mr Higginson. On 10 December 2019, the respondent e-mailed the appellant to inform her that although she had been unsuccessful in her application, she had performed well at interview and thanked her for attending. The appellant replied thanking the respondent and stating that she had received news that day that meant that she had now completed a postgraduate diploma that she was undertaking.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 7 January 2020, the appellant filed an online crime report with the police alleging that she had been the subject of a verbal assault during an interview. She also referred to the activities of the Shanklin Chine Trust which she stated was dormant but had been taking revenues for many years. The appellant has stated that after the first interview she had started researching matters and had eventually found that Mr Porter (one of the members of the interview panel) had, in her words, &#8220;been submitting false and fraudulent accounts for several years&#8221;. She also filed a report on the respondent&#8217;s confidential safeguarding helpline in which she alleged that it had been repeatedly stated during the interviews on 31 October 2019 and 4 November 2019 that she was mentally insane. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Complaint to the Respondent</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 12 February 2020, the appellant emailed the chief executive of the respondent attaching the report she had sent to the police together with other documents relating to the Shanklin Chine Trust. The chief executive responded, indicating that he understood the e-mail to be a complaint about the way that the interviews had been conducted and this would be the subject of investigation. He stated that the respondent had no connection with the Shanklin Chine Trust and was unable to comment on those allegations.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Protected Disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 17 March 2020, the appellant wrote to her Member of Parliament. She complained that she had been repeatedly verbally abused at interview and told that she was apparently mentally insane. She expressed the view that the respondent was not using their interview scheme as a positive approach towards disabled candidates. She said that she was asthmatic but not mentally insane. She said that the references to her being mentally insane led her to believe candidates who did suffer from mental illness might be stigmatised. The appellant also said that she had detected irregularities with a charity, the Shanklin Chine Trust, and that the respondent&#8217;s service and finance manager, Mr Porter, had been associated with the charity for around five years or more. She said the charity had been taking significant public revenues annually but had continually (until recently) been submitting accounts as a dormant company. A copy of that letter was sent to the respondent&#8217;s chief executive and also Ms Shand, the officer investigating the appellant&#8217;s complaint. The document sent to the MP is the document relied upon by the appellant as containing her protected disclosure. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Consideration and Outcome of the Complaint</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 13 July 2020, the appellant sent what she said were reports of the interviews of 31 October 2019 and 5 December 2019 to Ms Shand and the chief executive. The appellant recorded in those reports that she had been subject to inappropriate or discriminatory comments by members of the interview panel, including that she was mentally insane and had ugly lumps on her face. The appellant recorded that one of the interviewing panel had asked her about an earlier employment tribunal involving allegations of physical assault on the appellant. The appellant also submitted a document recording alleged financial irregularities in the operation of the Shanklin Chine Trust and alleging that Mr Porter, one of the members of the interviewing panel, was a trustee. On 14 July 2020, the Appellant sent amended reports of the interview. The account of the interview on 31 October 2019 included allegations about observations and comments regarding the appellant&#8217;s bottom. The account for the interview on 5 December 2019 included allegations that another member of the interviewing panel had said that the appellant should get some contraception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Shand emailed the appellant on 18 September 2020 advising her of the outcome of the investigation into the complaint. In summary, it concluded, after detailed investigation, that there was no evidence of any wrongdoing by staff. The appellant&#8217;s complaint was therefore not upheld. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The e-mail also stated that if the appellant were dissatisfied with the outcome of the investigation she would normally have the right under the respondent&#8217;s complaints policy to refer the matter to what was called a stage 2 review which would be carried out by another senior officer. However, Ms Shand said that, having given the situation very careful consideration, she had concluded that this would not be an appropriate course of action in the circumstances of this case as a thorough investigation had been undertaken and the process had had a significant impact on the staff involved. Ms Shand considered that it was necessary to take measures to protect the respondent&#8217;s employees from further distress being caused. Accordingly, she said that she was disapplying the option of a stage 2 review in the exceptional circumstances of the case.  The fact that the appellant was not able to seek a further review of her complaint is the detriment to which she says she was subjected because she had made a protected disclosure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant also submitted complaints to the Local Government and Social Care Ombudsman and the Solicitors Regulatory Authority.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Claim to the Employment Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant presented a claim to the employment tribunal. She said that it was a claim for discrimination, victimisation and whistleblowing based on the fact that the refusal of a right of appeal (the second stage review under the respondent&#8217;s complaints policy) &#8220;was due to the Claimant raising a grievance in relation to detected accounting and taxation irregularities associated with Mr Mathew Porter&#8217;s &#8230; involvement with Shanklin Chine Trust&#8221;. There were other claims, not the subject of this appeal, to do with discrimination and victimisation under the Equality Act 2010. There was a section headed &#8220;For reference only&#8221; which set out the description of the respondent&#8217;s alleged conduct prior to the refusal of the grievance.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE JUDGMENTS IN THE EMPLOYMENT TRIBUNAL AND THE EAT</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">The Judgment of the Employment Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employment tribunal began its reasons by explaining that it had clarified the issues with the parties. In relation to protected disclosures, it recorded that the appellant accepted that she was not a worker who was entitled to protection under section 47B and 48 of ERA nor was she an applicant for the purposes of section 49B of ERA. Her claim in summary included a claim that sections 47B and 48 ought to be extended to include job applications in the light of, amongst other things, the HRA and Article 14, read with Article 10 of the Convention and having regard to the decision of the Supreme Court in <span style="font-style:italic">Gilham v Ministry of Justice</span> [2019] UKSC 44, [2019] 1 WLR 5905.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employment tribunal further clarified that the appellant&#8217;s position was as set out in paragraph 18 of its judgment. The only protected disclosure relied upon was the letter to the MP dated 17 March 2020. The conduct referred to in that letter mainly referred to conduct at the interviews but &#8220;also referred to alleged financial irregularities&#8221; and that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Claimant confirmed that it is her case that references to such matters in the letter dated 17 March 2020 constituted a qualifying disclosure for the purposes of section 43B(1)(a) and/or (b) of the Act. In summary the claimant says that she made a disclosure which in her reasonable belief was in the public interest and tended to show that a manager of the respondent (Mr Porter) had committed a criminal offence (fraud) and/or had breached his legal obligations relating to the financial operation of a charitable trust (the Shanklin Chine Trust) in respect of alleged financial irregularities/the failure to submit truthful accounts of trading revenues to companies House.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;..</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Following the clarification of the claimant&#8217;s alleged protected public interest disclosure (and the explanation by the Tribunal that the disclosure had to predate the alleged detrimental treatment) the claimant confirmed that the only alleged detriment upon which she relied was accordingly, the refusal by Ms Shand on 18 September 2020 to allow the claimant a right appeal against the rejection of her complaint pursuant to the respondent&#8217;s complaint procedure.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having considered the evidence, found the relevant facts and considered the parties&#8217; submissions, the employment tribunal concluded as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;79.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Having given careful consideration to all of the above, including that the tribunal is required pursuant to section 3 of the 1998 Act to read and give effect to legislation in a way which is compatible with Convention rights, the tribunal has reached the conclusions set out below. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;80.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The tribunal has for such purposes given careful consideration to the four questions identified at paragraph 28 of <span style="font-style:italic;color:#3D3D3D">Gilham</span> as follows:  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Do the facts fall within the ambit of one of the Convention rights&#8212;having for such purposes taken the claimant's case at its highest, the tribunal is satisfied that the facts may potentially fall within article 10 (freedom of expression) and article 14 (prohibition of discrimination&#8212;in respect of &#8216;other status&#8217;) namely, that the claimant was allegedly subjected to a detriment (the refusal of a right of appeal under the respondent's Complaints Policy) because she made an alleged protected public interest disclosure to her MP/the respondent on 17 March 2020 concerning the alleged conduct of Mr Porter in respect of the financial operation of the Shanklin Chine Trust as referred to above. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Has the claimant been treated less favourably than others in an analogous situation&#8212;the claimant compares herself with others who are afforded protection under the Act namely employees/workers generally and also job applicants applying to join an NHS employer/NHS body (as defined in section 49B of the Act ). Having given the matter careful consideration the tribunal is not satisfied on the facts of this case that the claimant has established that she was in an analogous situation to the above for the following reasons: (a) the tribunal is not satisfied that a job applicant is in an analogous situation to an employee or worker of an organisation who has, by way of contrast as a minimum, entered a contract of employment or other contract/office and has become a member of the workforce with associated rights and responsibilities. The position in this case is very different to that in <span style="font-style:italic;color:#3D3D3D">Gilham</span>. In <span style="font-style:italic;color:#3D3D3D">Gilham</span>, although the claimant was not a worker or employee, she was an officeholder who was integrated into and operated as part of the workforce and who held a substantive and highly responsible judicial role; (b) further the tribunal is not satisfied &#8230; a job applicant such as the claimant (who applied to a local authority for financial positions) is in an analogous situation to a job applicant who applied for a role with an NHS employer/body where staff, with specialist medical and associated skills, regularly transfer between such organisations and where patient safety is of paramount importance. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Is the reason for that less favourable treatment one of the listed grounds in article 14 of the Convention rights or some &#8216;other status&#8217;&#8212;the tribunal is not satisfied that a &#8216;job applicant&#8217; which is a very wide and generic grouping constitutes, particularly having regard to the matters previously referred to at para (ii) above, some &#8216;other status&#8217; for the purposes of article 14 of the Convention rights. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Is the difference without reasonable justification&#8212;the tribunal is, in any event, satisfied on the basis of the available information that there is reasonable justification for the difference in treatment between a generic and very wide-ranging group of job applicants, who otherwise have no relationship with the organisation (to which the claimant belongs), and the categories which Parliament has chosen to protect namely: (a) employees/workers who work or have worked for the organisation and (b) those that apply to NHS employers (as defined). The situation in this case is very different to that in <span style="font-style:italic;color:#3D3D3D">Gilham</span>. Moreover, the tribunal is strengthened in its view by the fact the EU, who considered the position of job applicants in 2019, chose to limit its protections to those job applicants who had gained &#8216;information of breaches&#8217; during the recruitment process.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>81.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the avoidance of doubt the tribunal is not satisfied that the claimant's reliance on the Enterprise and Regulatory Reform Act 2013 (which was the mechanism by which the meaning of the term worker was extended by the amendment of section 43K of the Act) adds anything to the above deliberations and this is therefore not separately addressed. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>82.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In all the circumstances, the tribunal is not satisfied that it has jurisdiction to entertain the claimant's complaint of detrimental treatment for making a protected public interest disclosure which complaint is therefore dismissed.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold">The Judgment of the EAT</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant appealed to the EAT against the decision to dismiss her claim. In summary, the EAT found that the appellant, as an applicant for a job, was not in a materially analogous position to a worker or an applicant for an NHS post for the purposes of Article 14 of the Convention. In relation to the latter, the EAT had regard to Parliamentary debates on the regulations made under section 49B of ERA. The EAT concluded at paragraph 38 of its judgment that the appellant as an:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;external applicant in a sector other than the NHS is not in circumstances analogous to one in the latter sector. S/he is not, even indirectly (that is, in a non-clinical capacity), concerned with patient safety, nor was a sound evidence base, indicative of the existence of issues of a similar nature and extent outside the NHS, provided to the tribunal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The EAT next considered whether the appellant, as an external applicant for a job, had some &#8220;other status&#8221; for the purpose of Article 14 of the Convention. It concluded that at paragraph 40 of its judgment that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;to define one's status by reference to the fact that, at one time, one has been an external job applicant is to define it by reference to the act of making the application, rather than by reference to a characteristic personal to the applicant (albeit one which is not necessarily innate or inherent), consistent with the nature of other grounds of discrimination outlawed by article 14 ECHR (though I do not thereby suggest that a strict ejusdem generis approach to the specified grounds, deprecated in <span style="font-style:italic;color:#3D3D3D">Stott </span><span style="color:#3D3D3D">[2020] AC 51, para 80</span>, should be followed).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The EAT therefore considered that the appeal should be dismissed for those reasons. The EAT also considered the question of whether the difference in treatment had been shown to be objectively justified. The EAT considered that, had it not dismissed the appeal for other reasons it would have remitted this question to the employment tribunal saying this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;43&#8230;..The position as there explained is to be contrasted with the position in this case, in which it is clear from the parliamentary debates with which I have been provided that the question of whether to extend the protection of Part IVA of the ERA to applicants outside the NHS was specifically considered. I am satisfied that it is appropriate to defer to the evidence-based opinion and choice then made by Parliament. I am further satisfied that the tribunal was entitled to discern the aims of the primary and secondary legislation from their terms and to find that those aims were legitimate. That it did so is apparent from its language, albeit contracted, at para 80(iv): </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.58in">&#8220;the tribunal is, in any event, satisfied on the basis of the available information that there is reasonable justification for the difference in treatment between a generic and very wide-ranging group of job applicants, who otherwise have no relationship with the organisation (to which the claimant belongs), and the categories which Parliament has chosen to protect namely: (a) employees/workers who work or have worked for the organisation and (b) those that apply to NHS employers (as defined).&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>44.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Problematic, however, was the tribunal's approach to the question of proportionality, in the absence of any evidence going to that matter and the structured approach to answering that question required by <span style="font-style:italic">Bank Mellat</span>. Had the answers to the first to third <span style="font-style:italic">Gilham </span>questions (and my conclusions set out below) been otherwise, I would have remitted the matter for fresh consideration of that particular question. Whilst having sympathy with Mr Jupp's submission that this particular respondent had made its bed in deciding not to adduce any evidence in that connection, the issue is of significance beyond this litigation and, had the matter been remitted, it would have been appropriate for the Secretary of State to have been invited to consider whether he would like the opportunity to adduce evidence and be heard on the point, as Mr Jupp's submissions in reply acknowledged.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The EAT also held that the appeal should be dismissed for another reason, unconnected with the question of Article 14 of the Convention. It considered that the relevant protected disclosure, as identified at paragraph 18(3) of the employment tribunal&#8217;s reasons, related to alleged financial irregularities at a charity, not matters that arose at interview. That had been the subject of a complaint made in accordance with the respondent&#8217;s general complaints procedure. The EAT concluded that, even if it were wrong about its analysis that the claim did not fall within Article 14 of the Convention, the claim would have been dismissed as the detriment was not suffered in connection with being a job applicant. The EAT said this at paragraph 42:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;42.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Even if I am wrong in my analysis thus far, per <span style="font-style:italic;color:#3D3D3D">Tiplady v City of Bradford Metropolitan District Council </span><span style="color:#3D3D3D">[2020] ICR 965</span> (in particular at para 45, per Underhill LJ) in order for the claimant to rely upon any less favourable treatment the latter would need to have been suffered by the claimant qua external applicant. In this case, as Mr McCombie submitted, it is clear that neither the alleged disclosure nor the treatment of which complaint was made (both of which the tribunal had been at pains to clarify at the outset of the hearing and to record in its reasons) related to the claimant in that capacity. Mr Jupp's reliance upon paras 76 and 77 of the tribunal's reasons is misplaced; both simply summarise the claimant's submissions. The absence of a cross-appeal does not remove the need for careful analysis of the factual premise of the claim and its relevance to the questions to be addressed in this appeal.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE APPEAL</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant&#8217;s amended grounds of appeal are that the EAT erred:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">in determining that the appellant, as an external applicant for a job, was not in an analogous situation to internal job applicants or applicants for jobs with NHS employers (paragraphs 1 to 3 of the amended grounds of appeal);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">in concluding that the appellant did not have some other status within the meaning of Article 14 of the Convention (paragraphs 4 to 6 of the amended grounds of appeal);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">in deciding that, if it had not dismissed the other grounds of appeal, it wold have remitted the matter to the employment tribunal to hear further evidence as to proportionality; as the respondent had chosen not to lead evidence as to proportionality, this was inappropriate (paragraph 7 of the amended grounds of appeal);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">in concluding that the protected disclosure related to matters unconnected with the appellant&#8217;s job applications and had been advanced under a complaints policy of which any member of the public was able to avail himself or herself (paragraphs 2 and 6 amended grounds of appeal).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The remedy the appellant seeks is for this Court to interpret section 43K of ERA so that it extends to applicants for jobs and she submits that the EAT erred in indicating that that would not have been appropriate. Alternatively, the appellant seeks a declaration that section 43K of ERA is incompatible with Article 14, read with Article 10, of the Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is convenient to consider the first three grounds of appeal together. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE FIRST THREE GROUNDS OF APPEAL &#8211; ARTICLE 14 OF THE CONVENTION</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Submissions were made by Mr Jupp KC and Mr Robottom for the appellant. It was submitted that the appellant&#8217;s case was that the relevant provisions of ERA must be read as including job applicants as otherwise the provisions would be incompatible with Article 14 of the Convention. The appellant was an external applicant for a post with the respondent. She was in a materially analogous position to an internal applicant, that is a person employed by the respondent who was applying for the same post. Both would put in applications for the post. Both would attend interviews if shortlisted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was also submitted that it was not correct to distinguish between workers and job applicants on the basis that the worker was embedded in the workplace and the job applicant was not. A worker had protection from the time that he entered into a contract of employment whether or not he had yet begun work. A former employee could bring a claim under the legislation against a former employer even after the employment relationship had ended and he was no longer in the workforce (see <span style="font-style:italic">Woodward v Abbey National plc (No 1)</span> [2006] EWCA Civ 822, [2006] ICR 143). A worker could also bring a claim against his current employer in respect of disclosures made whilst employed previously by a different employer (see <span style="font-style:italic">BP plc v Elstone </span>[2010] ICR 879). Those cases all indicated that being in the workplace was not a critical feature. Further, the purpose of the legislation was to protect people who made disclosures in the public interest and whether the person was or was not an employee was not material. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Alternatively, Mr Jupp and Mr Robottom submitted that the appellant as a job applicant was in the same position as an applicant for a job with an NHS employer. NHS job applicants would not necessarily be seeking a job which was concerned with patient safety; they may be seeking financial roles (as the appellant had been with the respondent). Further, persons who had never worked for an NHS employer but applied for a job were protected. Such persons were in a materially analogous position to applicants applying for jobs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was submitted for the appellant that being a job applicant was some other status within the meaning of Article 14 of the Convention. &#8216;Status&#8217; had been given a wide interpretation. It included characteristics arising from what a person has done or has had done to them. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to justification, it was  submitted for the appellant that it was for the respondent or the first intervener, the Department for Business and Trade, to establish that the legislation pursued a legitimate aim and to establish by evidence that the means adopted were a proportionate means of achieving that aim applying the approach in <span style="font-style:italic">Bank Mellat v HM Treasury (No 2) </span> [2013] UKSC 39, [2014] AC 700 at paragraph 77. The test for determining whether a difference in treatment was proportionate was not whether the legislation was manifestly without foundation, relying on the observations of Baroness Hale at paragraphs 33 to 34 of <span style="font-style:italic">Gilham</span>. The EAT accepted that the respondent had failed to adduce evidence to address the issue of proportionality. In those circumstances, the respondent had failed to demonstrate that the difference in treatment resulting from the legislation was objectively justified. It was wrong for the EAT to remit that matter to the employment tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, and in any event, it was submitted for the appellant that the difference in treatment was not objectively justified. The legitimate aim of the legislation, as appeared from its long title, was to protect individuals who make certain disclosures of information in the public interest. The suggestion that the aim was linked to workers raising concerns with their employer because they were aware of wrongdoing in their workplace was wrong as the legislation went further than that.  In addition, a less intrusive measure could have been adopted, that is one which protected those who made workplace disclosures without a blanket deprivation of protection for all job applicants (except those applying for jobs with NHS employers). In assessing proportionality, the importance of the issue, namely freedom of expression, was relevant. It would be contrary to the public interest not to provide a remedy for a person who suffered a detriment for making a protected disclosure. The legislation did not strike a fair balance and left job applicants open to detrimental treatment during the recruitment process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second intervener, Protect, was given permission to adduce evidence in the form of a witness statement of Ms Gardiner, and written and oral submissions. Ms Darwin KC, with Mr Roberts, made submissions on the proper interpretation of certain provisions of the ERA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr McCombie, for the respondent, submitted that the appellant was not in a materially analogous position to those protected by the legislation. The appellant was an applicant for a job and had no workplace relationship with the respondent. In the light of the observations of Baroness Hale in paragraph 32 of <span style="font-style:italic">Gilham, </span>the approach to status in this context was to have regard to whether a person had an occupational classification. It did not extend to something as generic as being a job applicant. The appellant was in reality a member of the public making a complaint and that was insufficient to amount to a status for the purpose of Article 14 of the Convention. In relation to objective justification, Parliament had specifically limited the protection to workers, including agency workers, and decided to extend it to applicants for posts with NHS employers but not to job applicants more generally. Given that Parliament had specifically made those legislative choices, it could not be said that the legislation had a disproportionate effect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Secretary of State for Business and Trade was given permission to intervene. Mr Moretto, for the Secretary of State, submitted that the aim of the legislation appeared from its wording. The aim was to protect the public. It did so by focussing on those who were in work, and likely to have access to information evidencing wrongdoing or a threat to health and safety or the environment, and who could bring that information to the attention of the employer (or the person responsible for the conduct). They could then investigate and act upon the information provided. Provided the worker made the disclosure in those circumstances, he would be protected. Further, the power to make regulations governing protected disclosure by those applying for posts in the NHS was intended to address a specific problem that had been identified in relation to those seeking work in the health service.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against that background, Mr Moretto submitted that job applicants were not in a materially or relevantly analogous position to workers. The legislation protected those in the workforce in order to enable them to raise concerns in a responsible way that was consistent with their duties to their employer. Applicants were in a different position. Similarly, job applicants generally were not in an analogous position to applicants for posts with NHS employers. The legislation was intended to ensure that concerns about patient safety were raised and reflected the structure of the NHS which was a national service albeit one where the employers within the service were often legally distinct entities. Further, the fact that a person had done something, such as applying for a job, did not amount to a status for the purpose of Article 14 of the Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to justification, Mr Moretto submitted that the correct approach to be taken was that in <span style="font-style:italic">R (SC) v Secretary of State for Work and Pensions and others</span> [2021] UKSC 26, [2022] AC 223. This case involved primary legislation enacted by Parliament, and amended from time to time, and where Parliament had made specific choices as to the extent of the protection to be provided. The legislation pursued a legitimate aim, namely protection of the public by giving workers who are aware of wrongdoing and raise concerns internally with their employer protection from being subjected to detrimental action by their employer. The legislation had been amended to apply to applicants for jobs with NHS employers in order to address a specific concern about ensuring patient safety. It was proportionate for the legislation to be drafted in that way.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold">Discussion </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue in the present case concerns differences in treatment arising out of the provisions of primary legislation enacted by Parliament. The legislation confers protection for certain groups of persons who make protected disclosures but not for others. In particular, the legislation as originally enacted protected workers who disclosed certain types of information in certain specified ways. Where a worker  makes a protected disclosure, he is not to be subjected to a detriment by his employer (or another worker of the employer). The legislation did not protect applicants for jobs, that is people who were not workers and did not have a contractual relationship such as a contract of employment or contract to provide work or services. The legislation was amended to extend the protection to one group, those applying for posts with NHS employers. The legislation did not extend the protection to applicants for jobs other than those in the NHS. The question is whether those differences in treatment are compatible with Article 14, read with Article 10, of the Convention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is agreed that the subject matter of this complaint falls within the scope of Article 14 of the Convention as it concerns the exercise of the right to freedom of expression and, in particular, the right to impart information.  The issues that arise in this case, therefore, concern the first three issues set out above at paragraph 50 above.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The First Issue &#8211; Materially Analogous Position</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first issue is whether the appellant is in a materially analogous or relevantly similar position with the two groups with which she seeks to compare herself namely: (1) workers as defined by the relevant provisions of the ERA and (2) applicants for work in the NHS. As Lord Reed observed in <span style="font-style:italic">SC </span>at paragraph 59:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230;not all differences in treatment are relevant for the purposes of Article 14. The difference is only relevant, for the purpose of assessing whether there has been discrimination, if the claimant is comparing himself with others who are in a relevantly similar situation. An assessment of whether situations are &#8220;relevantly&#8221; similar generally depends on whether there is a material difference between them as regard the aims of the measure in question.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Approaching the issue in that way, the appellant is not in a materially analogous or relevant similar position to the other groups. Dealing first with workers, the legislation aims to protect the public by ensuring that those in work who make disclosures of information about wrongdoing, or dangers to health and safety or the environment, to their employers (or, in defined circumstances, to others) are protected from dismissal or being subjected to any detriment in their employment as a result of having disclosed information in the prescribed way. The legislation is aimed at disclosures by those in work. Applicants for jobs are not in a relevantly similar or analogous position. They are not in work and are not in an employment relationship with the relevant employer. The position of someone seeking work is materially different from someone in work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Similarly the appellant is not in a materially analogous position to applicants for jobs with NHS employers. The amendments to ERA were aimed at dealing with what was seen as a specific and urgent problem, namely the need to ensure a culture where staff in the health service would be able to make protected disclosures about matters concerning patient safety and treatment. The NHS is a national service albeit one where different legal bodies or entities provide services. The aim was to ensure that persons would not be deterred from making protected disclosures because they may wish to move from one NHS body to another. It is true that the legislation, as a matter of interpretation, confers protection on persons who have never worked for an NHS body but who have made a protected disclosure and then applied for a post with an NHS employer. The thrust of the legislation, however, is to protect patient safety and care by ensuring that those in the health service who have access to information relevant to those issues, and who disclose information about such matters, are not then prevented from accessing other posts in the health service. Applicants for jobs in areas other than the health service are not in a materially or relevantly analogous position. The particular and urgent concern about the need to safeguard patient safety that arose in relation to the health service, and to ensure that those who disclose information relevant to those issues are not subsequently disadvantaged in the NHS recruitment process, does not apply to applicants for jobs in other sectors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If I were wrong about this issue, it would be necessary to consider whether the legislation was objectively justifiable. Issues concerning whether persons are in a materially analogous or relevantly similar position may overlap with the question of objective justification. This issue is dealt with below at paragraph 74 onwards.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The Second Issue - Status</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 14 of the Convention prohibits &#8220;discrimination on any ground such as&#8221; sex, race, or other specified grounds or &#8220;other status.&#8221; The issue here is whether, assuming that the appellant was treated differently from others on the ground that she was an applicant for a job not a worker or an applicant for a job with an NHS employer, that would be discrimination on the grounds of some other status.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The European Court of Human Rights has recognised that Article 14 applies to differences based &#8220;on identifiable, objective or personal characteristics by which persons or groups of persons are distinguishable one from another&#8221; (<span style="font-style:italic">Clift v United Kingdom</span>, application no 7205/07 judgment 22 November 2010). That includes, but is not limited to, characteristics which are innate or personal to an individual such as gender or race. It can also include other characteristics which differentiate between groups such as country of residence (as in <span style="font-style:italic">Carson v United Kingdom </span>(2010) 51 EHRR 3) or, as in <span style="font-style:italic">Clift</span>, being a person sentenced to 15 years&#8217; imprisonment or more, as a result of which different provisions governing release on licence applied. The Supreme Court adopted a similar approach in <span style="font-style:italic">R (Stott) v Secretary of State for Justice</span> [2018] UKSC 59, [2020] AC 51, where Lady Black, with whom Lord Hodge and Lord Mance agreed, said that a generous but not unlimited meaning ought to be given to &#8220;other status&#8221;, that the test of personal characteristics by which persons or groups were distinguishable from each other should be applied, that the personal characteristics need not be innate and the fact that a characteristic was a matter of personal choice did not rule it out as a possible &#8220;other status&#8221; (See paragraphs 56 and 63 and see also per Baroness Hale at paragraph 209).  In <span style="font-style:italic">R (A) v Criminal Injuries Compensation Authority and another (Anti Trafficking and Labour Exploitation Unit Intervening) </span>[2021] UKSC 27, [2021] 1 WLR 3746, Lord Lloyd-Jones, with whom the other members of the Court agreed, considered that being a victim of trafficking constituted a status. Although that was an acquired characteristic, resulting from something done to the person, as opposed to being inherent or innate, it was a &#8220;personal identifiable characteristic&#8221; (see paragraph 46).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would regard being an applicant for a job as capable of constituting some other status for the purpose of Article 14 of the Convention. It is a characteristic capable of distinguishing one group of persons from other groups. It is an acquired characteristic, resulting from something that an individual has chosen to do, i.e. apply for a job. If a person was subjected to treatment on the ground that the person was a job applicant, I would regard that as capable of being treatment on the ground of some other status.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_22">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">The Third Issue&#8211; Objective Justification</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Proper Approach to Objective Justification in the Present Case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue is whether the difference in treatment arising out of the provisions of the ERA dealing with protected disclosures is objectively justified. The provisions protect workers and applicants for posts with NHS employers who make protected disclosures but the provisions do not offer protection to applicants for other jobs. In this case, the appropriate approach to the question of justification is that set out by the Supreme Court in <span style="font-style:italic">SC</span>. That case concerned the provision of welfare benefits but the judgment of Lord Reed, with whom the other members of the Court agreed, makes it clear that the approach set out applies to &#8220;legislation in relation to general measures of economic and social strategy&#8221;. The approach to proportionality identified in <span style="font-style:italic">SC </span>gives appropriate weight, usually substantial weight, to the judgment of the legislature in fields including economic and social policy and matters relating to moral and ethical issues (see paragraph 161 of <span style="font-style:italic">SC</span>) whilst recognising that other factors may indicate the need for greater scrutiny. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present case involves matters of social policy in the employment field. It involves Parliament weighing up the interests of the public, workers and those seeking work, and employers. I note that in <span style="font-style:italic">Gilham</span> Baroness Hale indicated at paragraph 34 that the courts had not always adopted the approach of asking whether measures were manifestly without reasonably foundation in the area of social or employment policy. Since the decision in <span style="font-style:italic">Gilham, </span>the Supreme Court in <span style="font-style:italic">SC</span> has adopted a more nuanced approach to the question of justification rather than simply asking whether legislation was manifestly without foundation. The approach set out in <span style="font-style:italic">SC </span>gives substantial weight to the judgment of Parliament on social and economic policy but also identifies circumstances in which a greater degree of scrutiny is required (see paragraph 151). I have no doubt that the appropriate approach in this case is that set out in <span style="font-style:italic">SC.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The starting point is to identify the aim or purpose of the legislation. That is primarily to be ascertained from the language used in the legislation. It is also permissible to look at other materials in order to identify the &#8220;mischief&#8221;, that is, the problem which Parliament was seeking to address. That material may include background material such as explanatory notes to legislation, or government white papers or reports leading to the adoption of legislation. If relevant background information is provided by a minister or other member of either House in the course of debate in Parliament, that information may be taken into account in identifying the problem that Parliament was addressing. The courts must take considerable care, however, when considering statements made in Parliament for the reasons given by Lord Nicholls in <span style="font-style:italic">Wilson v First County Trust Ltd (No.2)</span> [2003] UKHL 40, [2004] 1 AC 816 at paragraphs 61 to 67, and by Lord Reed in <span style="font-style:italic">SC</span>, especially at paragraphs 32, 167 and 172 to 174. As Lord Nicholls observed, the use of statements made in Parliament in this context is as a source of background information. The &#8220;debates are not a proper matter for investigation or consideration by the courts&#8221; (per Lord Nicholls at paragraph 67 in <span style="font-style:italic">Wilson</span>). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant legislative provisions must also satisfy a proportionality test in that the courts must decide whether the means used by the legislature to achieve its policy aims were appropriate and not disproportionate. As indicated in <span style="font-style:italic">SC</span>, there are a number of potentially relevant factors to take into account when considering whether a difference in treatment arising from legislation enacted by Parliament is objectively justified. For present purposes, three factors may usefully be identified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, the courts distinguish between treatment on certain grounds, often referred to as &#8220;suspect&#8221; grounds, such as sex or race or ethnic origin, which are seen as especially serious and which call, in principle, for weighty reasons to justify differences in treatment on such grounds. There are, of course, exceptions or qualifications to that approach.<span style="font-family:'Source Sans Pro';color:#000000"> </span>At paragraph 100 of <span style="font-style:italic">SC</span>,  Lord Reed summarised the position in this way:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;100.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">One particularly important factor is the ground of the difference in treatment. In principle, and all other things being equal, the court usually applies a strict review to the reasons advanced in justification of a difference in treatment based on what it has sometimes called &#8220;suspect&#8221; grounds of discrimination. However, these grounds form a somewhat inexact category, which has developed in the case law over time, and is capable of further development by the European court. Furthermore, a much less intense review may be applied even in relation to some so-called suspect grounds where other factors are present which render a strict approach inappropriate, as some of the cases to be discussed will demonstrate.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, the courts have regard to whether Parliament has itself considered and formed a judgment on the balance between competing interests. Where it has done so, substantial weight will usually be given to the judgment of Parliament when deciding whether a difference in treatment resulting from the legislative provisions is objectively justifiable. As Lord Reed explained at paragraphs 180 to 181 of his judgment in <span style="font-style:italic">SC</span>:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;180.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">As Lord Bingham explained, the degree of respect which the courts should show to primary legislation in this context will depend on the circumstances. Among the relevant factors may be the subject-matter of the legislation, and whether it is relatively recent or dates from an age with different values from the present time. Another factor which may be relevant is whether Parliament can be taken to have made its own judgment of the issues which are relevant to the court's assessment. If so, the court will be more inclined to accept Parliament's decision, out of respect for democratic decision-making on questions of political controversy.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>181.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">In that regard, it is apparent from cases such as </span><span style="font-style:italic">Animal Defenders International v United Kingdom</span> (2013) 57 EHRR 21, para 108<span style="color:#000000">, and </span><span style="font-style:italic">Hirst v United Kingdom (No 2)</span> (2005) 42 EHRR 4, para 79<span style="color:#000000">, that the European court takes account of whether the legislature has considered the matters which are relevant to a measure's compatibility with the Convention, although that is by no means determinative of its decision. Since the European court is likely to take that into account, the objective of the Human Rights Act suggests that domestic courts should do likewise, in order to enable Convention rights to be properly enforced domestically and not only by recourse to Strasbourg.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Statements made in Parliament may be relevant to this issue. Again, however, care has to be taken and the courts should go no further than ascertaining whether matters relevant to compatibility were raised during the legislative process. As Lord Reed explained at paragraphs 182 to 184 of his judgment in <span style="font-style:italic">SC</span>;</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;182.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is of course true that the relevant question, when considering the compatibility of legislation with Convention rights, is not whether Parliament considered that issue before making the legislation in question, but whether the legislation actually results in a violation of Convention rights. In order to decide that question, however, the courts usually need to decide whether the legislation strikes a reasonable balance between competing interests, or, where the legislation is challenged as discriminatory, whether the difference in treatment has a reasonable justification. If it can be inferred that Parliament formed a judgment that the legislation was appropriate notwithstanding its potential impact upon interests protected by Convention rights, then that may be a relevant factor in the court's assessment, because of the respect which the court will accord to the view of the legislature. If, on the other hand, there is no indication that the issue was considered by Parliament, then that factor will be absent. That absence will not count against upholding the compatibility of the measure: the courts will simply have to consider the issue without that factor being present, but nevertheless paying appropriate respect to the will of Parliament as expressed in the legislation. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>183.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">However, it is important to add two caveats. First, the courts should go no further than ascertaining whether matters relevant to compatibility were raised during the legislative process, if they are to avoid assessing the adequacy or cogency of Parliament's consideration of them, contrary to Lord Nicholls&#8217; third principle (in my numbering: para 176 above). The distinction between determining whether, as a question of historical fact, an issue was before Parliament, on the one hand, and determining the cogency of Parliament's evaluation of that issue, on the other hand, is real and must be respected. Undertaking a critical assessment of Parliamentary debates would be contrary to both authority and statute. Furthermore, as I have explained at paras 167&#8211;171 above, it would mistake the nature of Parliamentary processes, and create a risk that the courts might undermine Parliament's effectiveness. Trawling through debates should not, therefore, be necessary, and is unlikely to be appropriate: a high level review of whether a topic was raised before Parliament, whether in debate or otherwise, should suffice.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>184.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Secondly, the courts must not treat the absence or poverty of debate in Parliament as a reason supporting a finding of incompatibility&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, it is important to bear mind that primary legislation necessarily involves differentiating between different groups of people on different grounds. In order to address the problem that Parliament seeks to remedy, Parliament will identify which groups of people, and in which circumstances, will have protection provided to them or rights or benefits conferred upon them.  That necessarily means that others not in those groups will not have those protections or will not enjoy those rights or benefits. It is inherent in the legislative process that such distinctions have to be drawn (see generally the discussion at paragraphs 161 to 162 in <span style="font-style:italic">SC</span>). It is also right to bear in mind that Parliament may legitimately consider that a particular problem, or a problem which affects one sector of society, needs to be addressed by way of legislation, possibly as a matter of urgency, even if other groups consider that they too are deserving of similar action. The fact that Parliament has chosen to legislate for one particular set of circumstances is unlikely, of itself, to demonstrate any lack of objective justification for the legislation that is adopted. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_23">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Application of those Principles in the Present Case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I deal first with the purpose of the provisions of Part IVA of ERA, and the related provisions dealing with remedies, as enacted by the 1998 Act. It is clear that the purpose was to protect the public interest by ensuring that information about wrongdoing, or threats to health and safety or the environment, could be disclosed. It did that by providing that those in work who disclosed such information in a responsible way would be protected from being subjected to detriments by their employers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That purpose is reflected in the wording and structure of the legislative provisions. Section 43B dealt with workers who make qualifying disclosures. These were defined as disclosures of information which the worker reasonably believed it was in the public interest to disclose and which tended to show wrongdoing of the sort defined in section 43B(1). Further, the legislation required that the protected disclosure be made in accordance with the provisions of ERA. That required the worker to disclose the information to the employer (or the person reasonably believed to be responsible for the conduct) or, subject to further strict requirements, to other persons. If those requirements were satisfied, the worker would be protected from being subjected to a detriment, or being dismissed (see sections 47B and 103A of ERA).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That view of the purpose of the legislative provisions is confirmed by consideration of the statements made in Parliament when the bill which became the 1998 Act was introduced. It is legitimate to use statements made in debate as a source of background material indicating the problem, or mischief, that Parliament was addressing. The bill was a private members bill, not a government measure. When introducing the bill into the upper House, Lord Borrie said this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The official reports in recent years into the Zeebrugge ferry disaster, the rail crash at Clapham Junction, the explosion on Piper Alpha and the scandals at BCCI, Maxwell, Barlow Clowes and Barings have all revealed that staff were well aware of the risk of serious physical or financial harm but that they were too scared to raise their concerns or did so in the wrong way or with the wrong person. This culture which encourages decent ordinary citizens to turn a blind eye when then suspect serious malpractice in their workplace, has not only cost lives and ruined livelihoods, but it has damaged public confidence in some of the very organisations on which we all depend.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I deal next with the purpose of the legislation which introduced Part 5A and provided a power for the Secretary of State to make regulations giving protection to applicants for jobs with NHS employers who had made protected disclosure. The background material, in particular the report of Sir Robert Francis QC, identifies the &#8220;mischief&#8221; or problem which Parliament was addressing. The problem was seen to be ensuring that those in the health service were able to express concerns about matters concerning patient safety and the quality of treatment within the health service. A particular feature of the health service is that it is a national service, but one where the bodies or entities providing services in different parts of England, or specialist services, are legally separate. Staff are employed by different bodies within the health service. Persons who had made disclosures to one NHS employer could have difficulty in transferring to another NHS employer in what the report described as a system where, whilst it &#8220;consists of many theoretically autonomous decision-making units, the NHS as a whole can in effect act as a monopoly when it comes to excluding staff from employment&#8221; (see paragraph 8 of the executive summary of the report cited in full above).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against that background, the purpose, or aim, of the relevant legislative provisions appears clearly from the wording of section 49B of ERA. It provides power to the Secretary of State to make regulations &#8220;prohibiting an NHS employer from discriminating against an applicant because it appears to the NHS employer that the applicant has made a protected disclosure&#8221;. A protected disclosure has the meaning given by section 43A (see section 235 of ERA). The section defines an applicant as a person applying to an NHS employer for a contract of employment, a contract to do work personally, or an appointment to an office or post. An NHS public body is defined in section 49B(7) and includes those bodies within the health service who provide, or arrange for the provision of, services. Section 49B(6) provides that an NHS employer is an NHS public body prescribed by regulations made under the section. In other words, the section is concerned with the protection of those applying for work or posts in the NHS as a whole who have made a protected disclosure, i.e. have previously disclosed information in a responsible way as provided for in the legislation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I turn next to whether any difference in treatment which results from those legislative provisions is objectively justifiable applying the approach in <span style="font-style:italic">SC</span>. First, the ground for the difference in treatment in the present case is not a suspect ground, that is, it is not one of the grounds which, in principle, require weighty reasons by way of justification. The difference in treatment here is based on whether a person is a worker, or an applicant for work or a post in the NHS, as compared with a person who is a job applicant more generally. Treatment based on whether a person is an applicant for work (other than in the health service) is not treatment on one of the &#8220;suspect&#8221; or core grounds with which Article 14 of the Convention is concerned. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, it is important to bear in mind that Parliament has expressly considered matters relevant to the issue of compatibility in the present case. It is implicit in the wording of the legislation enacted in 1998 that Parliament considered that the wider public interest justified giving a degree of protection, in certain circumstances, to workers but not to applicants for work. It is implicit in the legislation empowering the making of regulations to protect those seeking posts in the NHS that Parliament considered that there was a need to protect applicants seeking work in the national health service but not job applicants more generally.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The matter is put beyond doubt by the fact that, in 2015, Parliament did expressly consider a proposed amendment to section 43K of ERA which would have extended protection to a person who &#8220;is or has been a job applicant&#8221;. Parliament debated and rejected the proposed amendment. Parliament thereafter legislated to provide for the making of regulations in relation to job applicants in the NHS sector who had made a protected disclosure. Parliament has, therefore, weighed the competing interests of the wider community in encouraging disclosure of information, the interests of workers, applicants for posts in the NHS, and job applicants more widely. The courts are entitled to take into account the fact that Parliament has specifically debated a relevant issue. It is not appropriate to seek to analyse the cogency of Parliament&#8217;s consideration of the issue for the reasons explained by Lord Reed at paragraph 183 of his judgment in <span style="font-style:italic">SC</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As Lord Reed observed at paragraphs 180 of his judgment (set out above) among relevant factors in assessing proportionality are the subject-matter of the legislation, whether it is relatively recent or dates from an age with different values and whether Parliament can be taken to have made its own assessment on the issues which are relevant to the court&#8217;s assessment. Here, the subject matter is one concerning social policy. The legislation is recent, first enacted in 1998 and the specific amendment relating to job applicants was debated and voted on in 2015. It is clear that Parliament implicitly in 1998 and explicitly in 2015 considered whether the legislation should be extended to protect job applicants generally and decided that it should not. In those circumstances, the courts are likely to give substantial weight to the judgment made by Parliament. As Lord Reed put it at paragraph 180 in <span style="font-style:italic">SC</span> &#8220;the court will be more inclined to accept Parliament&#8217;s decision&#8221;. Or, as Baroness Hale recognised in paragraph 35 of her decision in <span style="font-style:italic">Gilham</span>, the &#8220;courts will always, of course, recognise that sometimes difficult choices have to be made between the rights of the individual and the needs of society and that they may have to defer to the considered opinion of the elected decision-maker&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, therefore, a reasonable relationship of proportionality has been demonstrated to exist between the purpose or aim of the relevant legislative provisions and the means adopted to achieve that aim. The purpose is to protect the public interest by ensuring that certain groups can disclose information about wrongdoing or threats to health or safety or the environment. The method of achieving that is to protect workers who make protected disclosures and those applying for work in the NHS. Legislation has also been enacted, but is not yet in force dealing with the protection of applicants for children&#8217;s social care positions. Parliament has not (or not yet) considered it appropriate to extend protection to other groups such as applicants for jobs more generally. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against that background, it is possible to consider the arguments of the appellant, and the second intervener, relatively briefly. Much of the focus in submissions was that, on a detailed consideration of the legislative provisions, it might be possible to find instances where people not in the workplace made a disclosure (because they had been employed but not yet taken up work or they had left the employer) or because it is theoretically possible that a worker could make a protected disclosure about things occurring otherwise than in his workplace, and still enjoy protection. In relation to the protection for job applicants seeking work from an NHS employer, it is said that this could extend to those seeking work in finance or accounting sectors of the NHS which would not necessarily be concerned with patient safety. Further, the protection could extend to someone who had never worked in the NHS, had made a protected disclosure and then sought to work in the NHS. It was said, therefore that it could not be objectively justified to exclude protection from others such as job applicants more generally.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That approach, however, does not assist. It fails to recognise the fact that legislation necessarily has to differentiate between groups of people. Legislation by its nature operates by identifying which groups, in which circumstances, are to enjoy protection. The fact that legislation could, in theory, extend to some cases which could be said to be on the periphery of, or fall outside, the core purpose of the legislation does not mean that the legislation lacks objective justification. Still less does it mean that the legislation must be made to extend to whole groups of people to whom Parliament does not intend the legislation to apply, in order for the legislation to avoid being stigmatised as incompatible with Article 14 of the Convention. In truth, such a form of reasoning discredits the important purpose underlying Article 14. That Article seeks to prohibit unjustified discrimination on certain grounds. In the case of some grounds, such as those specified in Article 14 like race or sex, courts will naturally and instinctively be concerned to ensure that there is a proper basis for distinguishing between people for such reasons. However, Article 14 and the concept of differential treatment on grounds of status has been applied to a far broader range of circumstances. Courts need to be equally astute to ensure that challenges to legislation do not become a means of arguing for a particular policy outcome under the guise of challenges to differences in treatment resulting from primary legislation adopted by a democratically elected legislature.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Similarly, the legislature may consider that a particular problem has been identified, or that a particular urgency exists. The fact that the legislature deals immediately with that problem, but does not address other problems that (some consider) may be analogous does not mean that the legislation lacks objective justification. That would be to force Parliament to legislate to achieve more than it considers necessary or appropriate. In the present case, for example, Parliament decided that there was a need to deal with the problem of disclosure of information in the health service which affected patient safety or treatment. An urgent need for action had been identified and the structure of the NHS as a national service operating through different legal entities called, in the judgment of Parliament, for legislation giving protection to applicants for work or posts in the NHS sector. To suggest that Parliament could not legislate to address that problem without simultaneously addressing the position of job applicants in other sectors would be to constrain the legislature. Parliament would be forced to do more than it considered it needed to do to address a problem &#8211; or it would have to leave the identified problem unresolved. The prohibition on unjustified differential treatment in Article 14 of the Convention was not intended to constrain or restrict the legislature in that way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For those reasons, it has been shown that there is a reasonable relationship of proportionality between the aims of the legislation and the means adopted to achieve those aims. That, in itself, is sufficient to lead to the conclusion that, applying the approach set out in <span style="font-style:italic">SC</span> to this case, any difference in treatment has been shown to be objectively justified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> It was submitted that the approach to proportionality set out in <span style="font-style:italic">Bank Mellat (No 2) </span>should be adopted, especially in the judgment of Lord Reed at para.72, which refers to whether: (1) the legislative objective is sufficiently important to justify limiting a fundamental right; (2) the measures designed to meet the legislative objective are rationally connected to it; and (3) the means used to impair the right or freedom no more than is necessary to accomplish the objective. In Article 14 cases, it is often said that there is a fourth requirement, namely whether the legislation strikes a fair balance between the interests of the wider community and of those affected.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is a real danger of seeking to overanalyse or over-refine the approach to determining whether it has been shown that a difference in treatment arising from the provisions of primary legislation is objectively justifiable. Words are useful in identifying or describing the approach that a court should adopt when considering a particular issue. The focus should not, however, be on words in isolation without regard to the function that the court is performing or what task the words are seeking to describe. Here, the question that the court is considering is whether provisions of primary legislation are incompatible with Article 14 of the Convention. It is difficult to believe that a different answer to that question should follow if the court uses one set of words rather than another set of words when considering that question. Nor would such a difference in result be rational. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, in the present case, the approach in <span style="font-style:italic">SC</span> is the one that should be adopted. There, the Supreme Court considered that the question of whether the legislation pursued a legitimate aim and the means adopted by the legislature to achieve its policy was appropriate and not disproportionate. That required the adoption of a nuanced approach involving consideration of a number of factors as explained above. For the reasons already given, I consider that the same approach applies in this case which deals with primary legislation in a matter of social policy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The way in which the Supreme Court in <span style="font-style:italic">SC</span> actually decided the issues in the case was as follows. It decided that legislation restricting the payment of welfare benefits in the form of tax credits to families with two children did amount to discrimination against women. The aims were to reduce public spending on welfare benefits and to address the unfairness arising from the system and the imposition of an unreasonable burden on those taxpayers paying for the scheme. Those aims were legitimate (see paragraphs 190 to 192 of <span style="font-style:italic;color:#3D3D3D">SC</span>). "Parliament had decided that the objectives being pursued by the measure justified its enactment, notwithstanding its greater impact on women" and in those circumstances, the Supreme Court saw no basis on which it could properly take a different view (see paragraph 199 of <span style="font-style:italic;color:#3D3D3D">SC</span>). Similarly, in relation to the claim that the legislation discriminated against children living in households with more than two children, the assessment of proportionality "ultimately resolves into the question of whether Parliament made the right judgment" and there was "was no basis, consistent with the separation of powers under our constitution, on which the courts could properly overturn Parliament's judgment that the measure was an appropriate means of achieving its aims" (see paragraphs 208 and 209 of <span style="font-style:italic;color:#3D3D3D">SC</span> ). The Supreme Court did not consider that it was necessary to go through the three- or four-stage analysis in <span style="font-style:italic">Bank Mellat</span> or other cases. In my judgment, it is appropriate to take the same approach in the present case. The legislation pursues a legitimate aim and the means adopted are an appropriate and not disproportionate means of achieving those aims. The difference in treatment that results is objectively justified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, and in any event, applying a staged process has the same result. The legislation does pursue a legitimate aim. The measures adopted to achieve that legislative objective are rationally connected with it. The means used are no more than is necessary to achieve that aim. In that regard, I reject the submission of the appellant that it was not necessary to adopt legislation which, as it was put, denied protection to job applicants. That is to distort the nature of the legislative measures adopted. Parliament decided to protect of workers and applicants for jobs or posts in the health service who make protected disclosures. It adopted legislation which was designed to achieve that end. What the appellant seeks to do is to extend protection for other groups. Finally, the legislation does strike a fair balance between the wider public interest, the interests of workers and those seeking work in the health service, those seeking work in other sectors, and employers. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In those circumstances, the employment tribunal was right to be satisfied that any difference in treatment was justified. The EAT was not correct in considering that the absence of evidence was problematic in the light of what it considered as the need to adopt the structured approach in <span style="font-style:italic">Bank Mellat (No 2)</span>. In the context of challenges to primary legislation, the issue generally involves an analysis of the provisions of the relevant legislation, together with any legitimate aid to statutory interpretation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The following further matters may arise. First, there was discussion as to who bore the burden of proving that the difference in treatment was objectively justified. In truth, questions of the burden and standard of proof are rarely, if ever, going to assist or be determinative of the question of whether primary legislation pursues a legitimate aim and whether the means adopted to achieve that aim are proportionate. Strictly, if the subject matter falls within the scope of Article 14 and if it is shown that legislation gives rise to differential treatment between persons in a materially analogous situation on one of the grounds set out in Article 14, then the person asserting that the difference in treatment is objectively justifiable bears the burden of proving that. In practical terms, if the question arises in an employment tribunal, it will often be the employer who will be seeking to rely on the legislation as justifying the differential treatment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, employment tribunals will usually be able to determine the compatibility of primary legislation with the Convention simply by consideration of the legislation and any permissible aid to statutory interpretation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, there may be cases where an employment tribunal considers that it does need further assistance. In theory, the employer could seek to rely on the legislation by reference to its terms and any relevant aid to interpretation.  In practice, however, the government department which sponsored the legislation (or, as here, is responsible for employment legislation generally) is likely to have the greatest interest in, and knowledge of, or ready access to, relevant aids to interpretation. An employment tribunal can invite the government department to intervene. That should not normally be necessary and government departments should not routinely be invited to take part in litigation in the employment tribunal where a claimant asserts that legislation gives rise to differential treatment contrary to Article 14 of the Convention read with some other article. Similarly, the EAT can invite the relevant government department to intervene.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Next, the issue arose as to whether the employment tribunal and the EAT were correct to conclude that the relevant provisions of ERA could not be read down so that they applied to applicants for jobs generally. It is not necessary to decide this as the relevant legislative provisions are compatible with the Convention. It is only necessary to consider section 3 of the HRA if, applying the recognised principles of interpretation, legislation would be incompatible with a Convention right. Only then does any question of interpreting the legislation differently arise. That is not the case here. For completeness, however, I note that in my view it would not be possible to interpret the provisions of Part IVA of ERA, and in particular sections 43K or 49B, differently. It is clear that Parliament has taken a considered decision to limit the scope of the protection available to workers and applicants for work or posts with an NHS employer. It would not be possible to interpret the relevant sections as applying to job applicants generally without cutting across a basic feature of the legislation. Were the provisions of section 43K or 49B to be incompatible with Article 14, read with Article 10 (which is not the case), then the appropriate remedy would have been to grant a declaration that the provision or provisions were incompatible with Article 14, read with Article 10, of the Convention pursuant to section 4 of the HRA.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_24">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant statutory provisions do not, on analysis, give rise to a difference in treatment between persons in materially analogous situations. Further, the legislative provisions seek to pursue a legitimate aim and the means adopted to achieve that aim are appropriate and proportionate. Any difference in treatment that does arise as a result of the legislative provisions has been shown to be objectively justifiable. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_25">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE FOURTH GROUND OF APPEAL &#8211;DOES THE DETRIMENT CONCERN THE APPELLANT&#8217;S APPLICATION FOR EMPLOYMENT?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue here is whether the detriment to which the appellant was subject related to her job application. The detriment itself was the refusal to allow the appellant&#8217;s complaint to proceed to the next stage of the complaints process for a further review.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Jupp submitted that the protected disclosure was concerned both with whether the respondent was complying with its legal obligations under legislation prohibiting discrimination on grounds of disability and the alleged financial irregularities at the Shanklin Chine Trust. He submitted that paragraph 18 of the employment tribunal should be read as expanding the scope of the claim to include not only the disclosures relating to alleged breaches of disability discrimination legislation but also the alleged financial irregularities. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr McCombie submitted that the case concerned the alleged financial irregularities at the Shanklin Chine Trust. That was not connected with the appellant&#8217;s job application or, indeed, with the respondent for that matter. It was made by the appellant as a member of the public and did not relate to her job application. The EAT was correct in applying the reasoning in <span style="font-style:italic">Tiplady</span> and finding that the claim did not relate to any employment related matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This matter can be dealt with shortly. It is not strictly necessary to deal with it as the appeal falls to be dismissed on other grounds. Given the matter formed part of the reasoning of the EAT, and has been fully argued, it is appropriate to give my conclusion and reasons briefly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The protected disclosure, which is the letter to the MP, did deal with questions of whether the respondent was properly dealing with those with disabilities at interview and also alleged irregularities in the Shanklin Chine Trust. The issue, however, is what is the scope of the claim presented to the employment tribunal. Reading the particulars of claim, it is clear that the appellant &#8220;asserts that the Respondent&#8217;s refusal of the Claimant&#8217;s right to a grievance appeal &#8230;.was due to the Claimant raising a grievance in relation to detected accounting and taxation irregularities&#8221; associated with the Shanklin Chine Trust. The particulars of claim do not contend that the appellant was subjected to a detriment because she complained about alleged breaches of legislation dealing with disability discrimination. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employment tribunal noted at paragraph 12 of its decision that it &#8220;clarified with the parties the issues for determination&#8221;. Paragraph 18 is the clarification. Paragraph 18(2) notes that the appellant&#8217;s letter to the MP dealt with the interview but &#8220;also referred to alleged financial irregularities&#8221;. Paragraph 18(3) makes it clear what the appellant&#8217;s case was. It was (as set out in her particulars of claim) that a manager of the respondent had allegedly committed a criminal offence (fraud) or had breached his legal obligations relating to the financial operation of a charitable trust (the Shanklin Chine Trust). The paragraph read fairly, and as a whole, does not, as Mr Jupp submitted, expand the claim to include both the alleged financial irregularities and alleged breaches of disability discrimination legislation. Rather, in my view, on a fair reading, it confirms the scope of the claim as set out in the particulars of claim. The claim was that the appellant had suffered a detriment by not being allowed to pursue her complaint because she had made a protected disclosure about alleged financial irregularities at a charitable trust. That was a complaint made as a member of the public. It is not made in connection with the fact that she had applied for a job with the applicant. The appellant&#8217;s claim to the employment tribunal was not a claim that she had been subjected to a detriment in her capacity as a job applicant, or in any way connected with putative employment with the respondent. The EAT was correct, therefore, to apply the reasoning in <span style="font-style:italic">Tiplady</span> and to conclude that the claim presented did not involve a detriment to which section 47B of ERA or the Regulations applied. I would have dismissed the appeal on this additional ground.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_26">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">CONCLUSION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would dismiss this appeal. The relevant legislation is compatible with Article 14, read with Article 10, of the Convention. The appellant, as an applicant for a job, is not in a materially analogous position to workers, or applicants for work or posts with NHS employers. The legislation pursues a legitimate aim and the means adopted to achieve that aim are appropriate and not disproportionate. Any difference in treatment which results from the provisions of the legislation is objectively justified. I would dismiss this appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_27">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LORD JUSTICE HOLGATE</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_28">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LORD JUSTICE UNDERHILL</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_115">
+	  <num>115.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree that this appeal should be dismissed.  As is so often the case in claims based on article 14 of the Convention, the issues of analogous position, status and objective justification overlap.  In this case I find it most helpful to focus on objective justification.  For the reasons given by Lewis LJ at paras. 74-101 of his judgment I believe that the differences of treatment between (to put it broadly) non-NHS applicants for employment on the one hand and workers and NHS applicants on the other do represent a proportionate means of achieving a legitimate end, even if they are to be treated as being in an analogous position.  I particularly agree with Lewis LJ&#8217;s emphasis on the need for the courts to respect the choices made by Parliament in the context of primary legislation of this kind.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num>116.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also respectfully agree with Lewis LJ&#8217;s observations in paras. 102-104 above.  As he says, it should usually be possible for the ET, and often the EAT, to deal with questions of the Convention-compatibility of legislation without inviting an intervention from the relevant Minister; but there will be rare cases (perhaps less rare in the case of secondary legislation) where that is an appropriate course.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

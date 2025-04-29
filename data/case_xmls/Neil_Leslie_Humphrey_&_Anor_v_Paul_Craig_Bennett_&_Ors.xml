@@ -1,0 +1,1170 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/448"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/448"/>
+	  <FRBRdate date="2025-02-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery-business"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="448"/>
+	  <FRBRname value="Neil Leslie Humphrey &amp; Anor v Paul Craig Bennett &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/448"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/448"/>
+	  <FRBRdate date="2025-02-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery-business"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/448/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/448/data.xml"/>
+	  <FRBRdate date="2025-02-28T10:35:36" name="transform"/>
+	  <FRBRdate date="2025-02-28T14:58:55" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-chancery-business" href="https://www.gov.uk/courts-tribunals/the-business-list" shortForm="The Business List" showAs="The Business and Property Courts (Business List)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="neil-leslie-humphrey" href="" showAs="NEIL LESLIE HUMPHREY"/>
+	<TLCPerson eId="fiona-mary-humphrey" href="" showAs="FIONA MARY HUMPHREY"/>
+	<TLCPerson eId="paul-craig-bennett" href="" showAs="PAUL CRAIG BENNETT"/>
+	<TLCPerson eId="the-estate-of-alison-murphy-deceased" href="" showAs="THE ESTATE OF ALISON MURPHY (DECEASED)"/>
+	<TLCPerson eId="esprit-land-limited" href="" showAs="ESPRIT LAND LIMITED"/>
+	<TLCPerson eId="esprit-homes-construction-limited" href="" showAs="ESPRIT HOMES CONSTRUCTION LIMITED"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-michael-green" href="/judge-the-honourable-mr-justice-michael-green" showAs="THE HONOURABLE MR JUSTICE MICHAEL GREEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Chancery-Business</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>448</uk:number>
+	<uk:cite>[2025] EWHC 448 (Ch)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>720a75adef1ea6b1096aa245e711b18c6d29ef3bca3fef6c9a12b85bb8d7af6c</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 11pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 11pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 11pt; color: #595959; }
+#judgment .Heading7 { font-size: 11pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 11pt; color: #272727; }
+#judgment .Heading9 { font-size: 11pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 11pt; color: #2F5496; }
+#judgment .CourtOneL1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .CourtOneL2 { text-align: justify; margin-left: 1in; font-size: 12pt; }
+#judgment .CourtOneL3 { text-align: justify; margin-left: 1.5in; font-size: 12pt; }
+#judgment .CourtOneL4 { text-align: justify; margin-left: 2in; font-size: 12pt; }
+#judgment .CourtOneL5 { text-align: justify; margin-left: 2.5in; font-size: 12pt; }
+#judgment .CourtOneL6 { text-align: justify; margin-left: 3in; font-size: 12pt; }
+#judgment .CourtOneL7 { text-align: justify; margin-left: 3.5in; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 11pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 11pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 11pt; color: #595959; }
+#judgment .Heading7Char { font-size: 11pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 11pt; color: #272727; }
+#judgment .Heading9Char { font-size: 11pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-size: 11pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .CourtOneL1Char { font-size: 12pt; }
+#judgment .ListParagraphChar { font-size: 11pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 448 (Ch)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>BL-2020-BHM-000040</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-chancery-business">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery-business" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS AND PROPERTY COURTS IN BIRMINGHAM</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery-business" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS LIST</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Birmingham Civil Justice Centre, </span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Priory Courts, 33 Bull Street, Birmingham, B4 6DS</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Date: </span><docDate date="2025-02-28" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid">28/02/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-michael-green" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">THE HONOURABLE MR JUSTICE MICHAEL GREEN</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#neil-leslie-humphrey" style="font-weight:bold">&#8194;(1) NEIL LESLIE HUMPHREY</party></p>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#fiona-mary-humphrey" style="font-weight:bold">(2) FIONA MARY HUMPHREY</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">&#8194;&#8194;&#8194;&#8194;</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><role refersTo="#claimant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"><span style="font-weight:bold">&#8194;</span></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#paul-craig-bennett" style="font-weight:bold">(1) PAUL CRAIG BENNETT</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#the-estate-of-alison-murphy-deceased" style="font-weight:bold">(2) THE ESTATE OF ALISON MURPHY (DECEASED)</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#esprit-land-limited" style="font-weight:bold">(3) ESPRIT LAND LIMITED</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#esprit-homes-construction-limited" style="font-weight:bold">(4) ESPRIT HOMES CONSTRUCTION LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><role refersTo="#defendant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ben Smiley </span>(instructed by<span style="font-weight:bold"> Newhall Solicitors LLP</span>) for the <span style="font-weight:bold">Claimants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">&#8194;Steven Reed and Harry Samuels</span> (instructed by <span style="font-weight:bold">Ansons Solicitors</span>) for the <span style="font-weight:bold">First and Fourth Defendants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Third Defendant was not represented</span></p>
+      <p style="text-align:center">Hearing date: 24 January 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 28 February 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mr Justice Michael Green</span><span style="font-weight:bold">:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">These proceedings are a derivative claim by the Claimants, Neil and Fiona Humphrey, brought with the permission of the Court on behalf of the Third Defendant, Esprit Land Limited (the &#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Company</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;) against the First and Second Defendants, Paul Bennett and the estate of Alison Murphy (she sadly died during the course of these proceedings) and their company, the Fourth Defendant, Esprit Homes Construction Limited (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">EHCL</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;). The proceedings began as long ago as 1 June 2020, and they have still not reached their first CCMC. (When referring to the &#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Defendants</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; in this judgment, that does not include the Company.)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 24 January 2025, I heard two applications in this matter:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">An application dated 17 June 2024 by the Claimants for permission to re-re-amend their Particulars of Claim. The principal proposed amendments are to introduce four new causes of action, based on the same facts already pleaded. These are claims in: (a) unjust enrichment/restitution; (b) dishonest assistance; (c) unlawful means conspiracy; and (d) relief under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss. 190</ref> and 195 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">Companies Act 2006</ref> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref></span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">An application dated 18 June 2024 by EHCL to strike out the claims against it contained in paragraphs 13 to 27 of the Re-Amended Particulars of Claim. The strike out application was made following the Supreme Court decision in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers v Saudi National Bank </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="#" uk:canonical="[2024] AC 1191" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] AC 1191</ref> (&#8220;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;) which held that for a claim in knowing receipt there had to be a continuing equitable interest in the relevant property. EHCL submitted that by the operation of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">Land Registration Act 2002</ref> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref></span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;) the Company could not have had any continuing interest in the relevant property and therefore the claim against EHCL is unsustainable.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the hearing, the applications were dealt with in that order. However, it seems to be the case that the Claimants sought to introduce the new causes of action because they were concerned about their existing cause of action in knowing receipt in the light of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt"> decision and EHCL&#8217;s threat of issuing the strike out application. So even though that application was issued the day after the Claimant&#8217;s permission to amend application, it is more logical to deal with the strike out first and that is what I propose to do. First however I will set out some of the background. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Ben Smiley appeared for the Claimants; and Mr Steven Reed and Mr Harry Samuels on behalf of Mr Bennett and EHCL. I am grateful to them all for their helpful written and oral submissions.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants, who are married, own and control a construction company. Over the years, they had become involved with various property development projects that Mr Bennett, together with his partner, Ms Murphy, had been carrying out through various companies including the Company. In 2015, Mr Bennett and Ms Murphy invited the Claimants to acquire a 49% shareholding in the Company, in exchange for an equity investment of &#163;500,000, and to join them as directors of it. Together with external finance arranged by Mr Bennett and Ms Murphy the plan was to acquire and develop sites using the Company and for the Claimants&#8217; construction company to provide production and building services.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">The first project that they embarked upon through the Company was in relation to sites in Donington le Heath and Rugby (the &#8220;<span style="font-weight:bold">Initial Developments</span>&#8221;). These were developed and have been sold off: the sales at the Rugby site took place from June 2016 to February 2017; the sales at the Donington le Heath site took place from May 2017 to 2019.  There is a dispute between the parties as to the profitability of the Initial Developments and the use of the funds received: it is part of the claim that the Claimants allege that Mr Bennett and Ms Murphy misappropriated and/or diverted the Company&#8217;s profits from the Initial Developments to themselves and/or their other companies, and/or that they have used them to pay for their own legal advice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">A further development opportunity arose at Ansty Road, Coventry. This comprised (1) land at 63-73 Ansty Road / Wyken Grange Road (the &#8220;<span style="font-weight:bold">Wyken Grange Land</span>&#8221;) which was (according to the Defendants) landlocked; and (2) land at 61Ansty Road (the &#8220;<span style="font-weight:bold">Ansty Road Land</span>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">In June 2018, the Company purchased the Wyken Grange Land for &#163;107,500, with a view to its development.  In late 2018, a planning application was made on behalf of the Company for a development of both the Wyken Grange Land and the Ansty Road Land (together called the &#8220;<span style="font-weight:bold">Ansty Road Project</span>&#8221;).  On 13 December 2018, the Council, having decided in principle that it should be accepted, referred the planning application for acceptance subject to conditions. Mr Bennett then negotiated with the owner of the Ansty Road Land for the Company to acquire it for &#163;450,000. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">In April 2019, a meeting took place between the Claimants, Mr Bennett and Ms Murphy at Carluccio&#8217;s Restaurant in Leamington Spa. This was about the proposed Ansty Road Project but the outcome of the discussions at that meeting and subsequently are at the heart of the present dispute. The Claimants say that additional investment should not have been necessary and continued to expect that the Company would acquire the Ansty Road Land and carry out the Ansty Road Project. According to the Defendants, Mr Bennett and Ms Murphy got the opposite impression, namely that the Claimants informed them that they did not wish to be involved in the Ansty Road Project. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="CourtOneL1" style="margin-left:0.5in">There is no dispute as to what then happened in 2020. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">On or around 21 January 2020, the Wyken Grange Land was transferred (without the Claimants&#8217; knowledge or consent) to EHCL for &#163;107,500.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">On 1 April 2020, Ms Murphy&#8217;s nephew, Jack Harding, purchased the Ansty Road Land for &#163;452,000 using loans provided by two of Mr Bennett and Ms Murphy&#8217;s other companies.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">Planning permission was formally granted to EHCL on 2 September 2020. Then on 7 January 2021, part of the Ansty Road Land was purchased by EHCL from Mr Harding. (Mr Bennett is the sole shareholder of EHCL and he and Ms Murphy were at the time its directors.) </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">EHCL has developed (the Claimants say profitably) the land in the Ansty Road Project with 12 houses constructed, and 11 sold as at 17 June 2024. The profits are held by the Defendants&#8217; former solicitors, Blythe Liggins LLP.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">In April 2020, the Claimants discovered what had happened and complained. Mr Bennett and Ms Murphy then unilaterally had the Claimants removed from being recorded as directors of the Company at Companies House (in May 2020), despite the fact that no proper steps had been taken to terminate their directorships under the Company&#8217;s articles of association.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="CourtOneL1" style="margin-left:0.5in">On 1 June 2020, the Claimants issued their Claim Form, which was initially against Mr Bennett and Ms Murphy as directors of the Company for alleged breaches of duty. The Claimants applied for permission under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/260" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.260</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> to continue their derivative claim on behalf of the Company. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="CourtOneL1" style="margin-left:0.5in"><span style="font-weight:bold">Procedural History</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="CourtOneL1" style="margin-left:0.5in">Before the proposed amendments the Claimants&#8217; claims are as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">Against Mr Bennett and Ms Murphy that they acted in breach of fiduciary, statutory and tortious duties to the Company, and are liable in respect of: (1) the Company&#8217;s misappropriated/diverted profits from the Initial Developments; (2) the profits from the Ansty Road Project (an opportunity which was improperly diverted away from the Company); and (3) Mr Bennett&#8217;s and Ms Murphy&#8217;s legal costs which were paid from Company funds.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">Against EHCL that it is liable in respect of: (1) the Ansty Road Project, having received the Wyken Grange Land from the Company as a result of Mr Bennett&#8217;s and Ms Murphy&#8217;s breaches of duty, and knowing of those breaches of duty; and (2) in respect of &#163;27,000 which its solicitors have admitted is held on trust for the Company from the Initial Developments.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">By an order dated 17 December 2020, HHJ Williams granted the Claimants permission to continue the derivative claim with the benefit of an indemnity from the Company in respect of their costs. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">On 5 February 2021, HHJ Williams granted a proprietary injunction in relation to the Wyken Grange Land and Ansty Road Land against EHCL and Mr Harding. There is currently an application to discharge or vary the proprietary injunction. On 1 June 2021, HHJ Rawlings granted a freezing injunction against Mr Bennett and Ms Murphy up to a value of &#163;2million.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">On 1 July 2021, the Claimants issued an application to strike out the Defence and/or grant summary judgment against Mr Bennett and Ms Murphy in relation to the Ansty Road Project. Nearly a year later, on 28 June 2022, HHJ Rawlings granted summary judgment against Mr Bennett on the basis that the sale of the Wyken Grange Land to EHCL was a breach of statutory/fiduciary duty by him with no real prospect of obtaining relief under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/1157" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1157</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref>. An account of profits was ordered. However on 5 October 2022, HHJ Rawlings refused to grant summary judgment against Ms Murphy and allowed her to amend her Defence to include a claim for relief under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/1157" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.1157</ref> CA 2006.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">On 16 November 2022, HHJ Rawlings gave permission to the Claimants to add EHCL as the Fourth Defendant and for the derivative claim to be continued against it. The Claimants amended their Particulars of Claim to include their claims against EHCL. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Following a hearing in the Court of Appeal on 12 to 13 July 2023, the Court of Appeal&#8217;s judgment was handed down on 29 November 2023 &#8211; see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Humphrey v Bennett </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1433" uk:canonical="[2023] EWCA Civ 1433" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 1433</ref>. Snowden LJ gave the main judgment in which he allowed Mr Bennett&#8217;s appeal against summary judgment and dismissed the Claimants&#8217; cross-appeal against the refusal of summary judgment in relation to Ms Murphy. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">While the appeals were pending, the proceedings were stayed. This accounts for quite a lot of the delay in getting on with the proceedings. There was due to be a CCMC in June 2024, but this was superseded by the applications before me. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">On 15 April 2024, HHJ Rawlings refused Mr Bennett&#8217;s application to vary or set aside the freezing order against him. On 31 October 2024, Zacaroli LJ refused permission to appeal that order to the Court of Appeal. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The Strike Out Application</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">EHCL applies to strike out paragraphs 13 to 27 of the Re-Amended Particulars of Claim insofar as those paragraphs include claims against it (there are also claims against Mr Bennett and Ms Murphy in those paragraphs). Even though it is not clearly pleaded, the thrust of the claim against EHCL is in knowing receipt in relation to the profits of the Ansty Road Project which are said to be held on constructive trust for the Company. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Reed, on behalf of EHCL, relied almost exclusively on the conclusive statement by the Supreme Court in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt"> as to the requirement for there to be a continuing equitable interest in in the property transferred in order to found a claim in knowing receipt. He argued that the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> was to extinguish any equitable interest in registered land and that this was recognised and accepted by the Supreme Court in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">. Accordingly, as the Wyken Grange Land and the Ansty Road Land were acquired by EHCL for valuable consideration, any equitable interest that the Company may have had in them would be overridden by the registered transfers to EHCL. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Smiley, on behalf of the Claimants, said that the high threshold for a strike out was not met in relation to this part of the case. Accepting, as he was bound to in the light of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">, that the Claimants would have to prove a continuing equitable interest in the Lands acquired by EHCL to establish their claim in knowing receipt, he relied on the following:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">The Company was in &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">actual occupation</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; of the Wyken Grange Land immediately prior to the transfer to EHCL and so its equitable interest was protected under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29(2)</ref>(a)(ii) and Paragraph 2 of Schedule 3 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">S.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> only operates to postpone, not extinguish, equitable interests and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt"> did not actually deal with the specific wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref>, as it was not concerned with a transfer of registered land;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">EHCL was not a purchaser in good faith and so cannot rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">In any event the strike out application was too broad and covered claims that were not in knowing receipt;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">As this is a developing area of law, it should be left to trial and decided on the actual facts. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">In my view, EHCL has not satisfied me that it is appropriate to strike out all of paragraphs 13 to 27 of the Re-Amended Particulars of Claim and the claims in knowing receipt should be allowed to proceed to trial. I have concluded this for the reasons set out below. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The principles in relation to the Court&#8217;s power to strike out a claim are well-known and do not need to be set out in detail. I would however emphasise the following:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">It may be appropriate to decide a &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">short point of law or construction</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; (see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Easyair Ltd v Opal Telecom Ltd</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2009/339" uk:canonical="[2009] EWHC 339 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 339 (Ch)</ref>, where Lewison J, as he then was, summarised the principles in relation to summary judgment under CPR 24.2, but which are equally applicable, it seems to me, for a strike out under CPR3.4(2));</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">However, it may not be appropriate to strike out a claim in an area of developing jurisprudence, since, in such areas, decisions as to novel points of law should be based on actual findings of fact (see <span style="font-style:italic">Farah v British Airways,</span> The Times, 26 January 2000, CA referring to <span style="font-style:italic">Barrett v Enfield BC</span> <ref href="#" uk:canonical="[2001] 2 AC 550" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 A.C. 550</ref>; <ref href="#" uk:canonical="[1989] 3 WLR 79" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] 3 W.L.R. 79</ref>, HL). Jonathan Parker LJ in <span style="font-style:italic">Hudson v HM Treasury</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1612" uk:canonical="[2003] EWCA Civ 1612" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1612</ref> at [66] cautioned about taking this principle too far because &#8220;<span style="font-style:italic">claims that are plainly and obviously bad should generally be struck out.</span>&#8221; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="CourtOneL2" style="margin-left:1in;text-indent:0.12in">Where a statement of case is found to be defective, the court should consider whether that defect might be cured by amendment and, if it might be, the court should refrain from striking it out without first giving the party concerned an opportunity to amend (see <span style="font-style:italic">Soo Kim v Youg</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2011/1781" uk:canonical="[2011] EWHC 1781 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 1781 (QB)</ref>). </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">As I have said, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers </span><span style="font-family:'Times New Roman';font-size:12pt">was not concerned with registered land; rather the Supreme Court was considering the transfer of shares and the effect of that under foreign law. As Saudi Arabian law governed the transfer and that law provided that any equitable proprietary interest in the shares would be extinguished or overridden by the transfer, that was fatal to the knowing receipt claim which required there to be a continuing equitable interest in the shares transferred. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Reed submitted that Lord Briggs, who gave one of two lead judgments, dealt with <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> and held that a transfer of registered land for valuable consideration within <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> would override any equitable interests in the land. He said that Lord Briggs considered <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> LRA 2002 in [86] to [91] of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt"> but I do not see that he did. In those paragraphs, Lord Briggs dealt with a Privy Council authority on a differently worded provision that had a proviso that does not appear in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> &#8211; </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Arthur v Attorney General of the Turks and Caicos Islands</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2012/30" uk:canonical="[2012] UKPC 30" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKPC 30</ref>. He then disapproved of a first instance authority of Henderson J, as he then was, in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Haque v Raja </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2016/1950" uk:canonical="[2016] EWHC 1950 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 1950 (Ch)</ref></span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"/><span style="font-family:'Times New Roman';font-size:12pt">where, based on a concession, that Judge appeared to hold, albeit obiter, that a claim in knowing receipt was not dependent on a continuing equitable interest. However there was no consideration of the wording in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Reed also said that Lord Briggs had endorsed Matthew Conaglen and Amy Goymour&#8217;s chapter on </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Knowing Receipt and Registered Land</span><span style="font-family:'Times New Roman';font-size:12pt"> in Charles Mitchell (Ed.), </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Constructive and Resulting Trusts</span><span style="font-family:'Times New Roman';font-size:12pt"> (2010) which examined the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> on claims in knowing receipt and concluded that if a transferee was within <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> LRA 2002 it would &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">with one strike&#8230;wipe[] out both the beneficiaries&#8217; property rights, and also the personal claim in knowing receipt, as the personal claim is parasitic upon that property right</span><span style="font-family:'Times New Roman';font-size:12pt">.&#8221; However, in [88] of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">, Lord Briggs referred to the chapter, without quoting from it, and said merely that it &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">powerfully supported</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; the conclusion reached by the Privy Council in the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Arthur</span><span style="font-family:'Times New Roman';font-size:12pt"> case, albeit that that conclusion was based on a concession. I do not see that Lord Briggs was thereby endorsing the whole of the chapter. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Indeed, I think that the Supreme Court in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt"> specifically refrained from interpreting the meaning and effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> as it was not in issue before them. At [174], Lord Burrows, who agreed in the dismissal of the appeal but by somewhat different reasoning to Lord Briggs, said: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in">&#8220;I have derived no assistance from considering <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/26" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 26</ref> and 29 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">Land Registration Act 2002</ref>. The question as to whether a knowing receipt claim can be brought where there has been registration of title under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">that Act</ref> ultimately turns on statutory interpretation of those particular provisions. Although our decision in this case will be of central relevance in answering that question, there is no need for us to go on to decide it in this case and, like the Court of Appeal &#8230; I therefore prefer to say nothing further about it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">It is important then to focus on the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>. It says as follows (emphasis added):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">If a registrable disposition of a registered estate is made for valuable consideration, completion of the disposition by registration <span style="text-decoration-line:underline;text-decoration-style:solid">has the effect of postponing to the interest under the disposition</span> any interest affecting the estate immediately before the disposition whose priority is not protected at the time of registration.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">For the purposes of subsection (1), the priority of an interest is protected&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">in any case, if the interest&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:1in">is a registered charge or the subject of a notice in the register,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(ii)</num>
+		  <intro>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:1in">falls within any of the paragraphs of Schedule 3, or</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(iii)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">appears from the register to be excepted from the effect of registration, and</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">in the case of a disposition of a leasehold estate, if the burden of the interest is incident to the estate.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">Subsection (2)(a)(ii) does not apply to an interest which has been the subject of a notice in the register at any time since the coming into force of this section.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The notion of &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">postponement</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; of an interest is new. It did not appear in the predecessors of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>. There are no authorities on its meaning and effect. To my mind it imports the sense of the interest remaining in existence but not having any priority over the interest acquired by the transferee of a registered disposition. It certainly does not look like an extinguishment of the interest. It is possible that that means that there is an insufficient proprietary interest such that it would cut off any claim in knowing receipt. But I do not think that it is appropriate to decide that question on an application to strike out, particularly where there has not been full argument on that point. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">, the premise was that the proprietary equitable interest in the shares had been &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">extinguished or overridden</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; (see for instance Lord Hodge at [1]). As I have said, it may be that &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">postponement</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; has the same effect as an interest being &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">overridden</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; but now is not the time for that to be determined. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The other potential arguments that the Claimants have in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>, namely that the Company was in &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">actual occupation</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; within the meaning of paragraph 2 of Schedule 3 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref> or that there is imported into <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.29</ref> a good faith requirement which EHCL might not satisfy, are further reasons why strike out would be inappropriate in this case. The Claimants adduced a witness statement from a Mr Dale Payne, the previous owner of 61 Ansty Road, and he gave evidence as to certain factors that might establish that the Company was in actual occupation of the Wyken Grange Land both before and after EHCL&#8217;s purchase of it in January 2020. I cannot determine those factual matters on this application. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">I will not therefore strike out the knowing receipt claim. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants drew my attention to the fact that within paragraphs 13 to 27 of the Re-Amended Particulars of Claim there were facts pleaded that went to support other claims against Mr Bennett and Ms Murphy and there was also an admitted claim against EHCL in relation to the &#163;27,000 held by its former solicitors on trust for the Company (paragraph 26 of the Re-Amended Particulars of Claim). On any view these paragraphs should not be struck out.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">I do however agree with Mr Reed that paragraphs 21 to 23 of the Re-Amended Particulars of Claim should not have been pleaded and should preferably be removed. They contain a summary of the decisions of HHJ Rawlings on the summary judgment application and criticism of the Court of Appeal judgment whereby he was overturned. These have no place in a pleading as they are submission rather than a summary of the facts upon which the Claimants rely to found their claims. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.09in"><span style="font-weight:bold">The application to re-re-amend the Particulars of Claim</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The objective of EHCL is to extricate itself from these proceedings. But because of my decision above in relation to the knowing receipt claim against EHCL which will now be going to trial, the inclusion of the proposed new causes of action against it, based on the same facts, will not add greatly to the burdens at trial. Of course, if they are bad in law and that can be determined at this stage, they should not be allowed to go ahead and be incorporated into the claim. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">There are some typographical and uncontentious amendments that I do not need to deal with. The focus of the argument was all around proposed new paragraphs 26A to 26D of the draft Re-Re-Amended Particulars of Claim, whereby the Claimants seek to insert additional and/or alternative causes of action in relation to the Ansty Road Project. This was because of a fear over the plight of their knowing receipt claims in the light of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">, and also as a result of the change in their counsel team.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">As to the test to be applied in relation to amendments, both parties referred me to the decision of Lambert J in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Pearce v East and North Hertfordshire NHS Trust</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2020/1504" uk:canonical="[2020] EWHC 1504 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1504 (QB)</ref> at [10] where she set out the now familiar distinctions between &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">late</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; and &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">very late</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; amendments, the latter threatening a trial date and perhaps being subject to different considerations under the overriding objective. Even though the Claim Form was issued over four years ago and this is the fourth iteration of the Claimants&#8217; case, there has still not been a CCMC and no one was suggesting that these proposed amendments should be considered &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">very late</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;. The Defendants will have every opportunity to deal with them should they be allowed to go forward.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The one area of slight dispute between the parties related to the extent to which the proposed amendments needed to be supported by some evidence to establish that the pleaded case has a credible factual basis. The Defendants referred to Popplewell LJ&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Kawasaki Kisen Kaisha Ltd v James Kemball Ltd</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/33" uk:canonical="[2021] EWCA Civ 33" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 33</ref> (&#8220;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">Kawasaki</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;) at [18] where he said as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is not enough that the claim is merely arguable; it must carry some degree of conviction: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">ED&amp;F Man Liquid Products Ltd v Patel</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/472" uk:canonical="[2003] EWCA Civ 472" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 472</ref> at paragraph 8; </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Global Asset Capital Inc v Aabar Block Sarl</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/37" uk:canonical="[2017] EWCA Civ 37" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 37</ref>; <ref href="#" uk:canonical="[2017] 4 WLR 163" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 4 WLR 163</ref> at paragraph 27(1).</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The pleading must be coherent and properly particularised: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Elite Property Holdings Ltd v Barclays Bank plc</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/204" uk:canonical="[2019] EWCA Civ 204" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 204</ref> at paragraph 42.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The pleading must be supported by evidence which establishes a factual basis which meets the merits test; it is not sufficient simply to plead allegations which if true would establish a claim; there must be evidential material which establishes a sufficiently arguable case that the allegations are correct: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Elite Property </span><span style="font-family:'Times New Roman';font-size:12pt">at paragraph 41.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Emphasis was placed on the last paragraph as the Defendants say that no such evidence has been adduced by the Claimants to support their proposed amendments.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants prefer to rely on what the Court of Appeal has since said in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">CNM Estates (Tolworth Tower) Ltd v Carvill-Biggs</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2023] 1 WLR 4335" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 1 WLR 4335</ref> (&#8220;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">CNM</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;). There the majority consisting of Sir Geoffrey Vos MR and Newey LJ held that while permission should not be granted if the proposed claim would have no real prospect of success (see [69]-[70]), the Court should not conduct a mini-trial or attempt to evaluate the weight of the evidence that would be considered at trial. Instead the focus should be on the pleaded case and factual averments should be accepted unless, exceptionally, they are demonstrably untrue or unsupportable (see [73], relying on </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Okpabi</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2021] 1 WLR 1294" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 1294</ref>). The general rule is that, save in respect of &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">very late</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; amendments, the perceived strength of the case is not normally a factor to be taken into account (see [74]-[77]). Males LJ, who dissented, did not disagree with these principles (see [48]-[49]). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Smiley said that it was significant that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Kawasaki</span><span style="font-family:'Times New Roman';font-size:12pt"> was not referred to in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">CNM,</span><span style="font-family:'Times New Roman';font-size:12pt"> indicating that it did not represent the current state of the law. However </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Elite Property</span><span style="font-family:'Times New Roman';font-size:12pt"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Holdings Ltd v Barclays Bank plc</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/204" uk:canonical="[2019] EWCA Civ 204" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 204</ref> at [42] was referred to with apparent approval in both </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Kawasaki </span><span style="font-family:'Times New Roman';font-size:12pt">and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">CNM, </span><span style="font-family:'Times New Roman';font-size:12pt">in particular where it said that an amended pleading must be coherent and contain the properly particularised elements of the cause of action relied upon.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">This does not strike me as a very fruitful debate. It is accepted that the proposed new causes of action must have a real prospect of success to be allowed to go forward. In some cases that may require an applicant to adduce evidence to show that factual averments have a credible basis. In this case however, the Claimants are essentially  using the existing facts pleaded in their current Re-Amended Particulars of Claim as the basis for their new causes of action. In those circumstances, it seems to me that it  is appropriate to accept that those facts are in play at the trial and the only question on this application is whether the new causes of action are adequately pleaded and have legal coherence. (The Defendants have not sought any further information in relation to the proposed amendments, probably because their case is that they are not sustainable as a matter of law.)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">There is one further general point that the Defendants rely on. That is that this is a derivative claim and that therefore permission is also required under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/263" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.263</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> in order to proceed with the new causes of action on behalf of the Company. That would therefore involve the question as to whether a person acting in accordance with their director&#8217;s duties under s.172 CA 2006 would seek to continue such a claim. If they would not, permission </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">must</span><span style="font-family:'Times New Roman';font-size:12pt"> be refused: <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/263/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s. 263(2)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref>.  However, it is unlikely, it seems to me, that if  a cause of action gets past the real prospect of success threshold, and there is permission already granted to take the existing claim to trial, that permission will not be granted under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/263" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.263</ref> CA 2006. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold">(1)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.09in;text-indent:0.91in"><marker name="tab"/><span style="font-weight:bold">Paragraph 26A &#8211; Restitution/unjust enrichment</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The proposed new paragraph 26A in the draft Re-Re-Amended Particulars of Claim reads as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;Further or alternatively, [EHCL] was unjustly enriched at the expense of the [Company]. The transfer of the legal title to 63-73 Ansty Road was void or voidable, for want of authority, as the said transfer was made in breach of fiduciary duty for the reasons pleaded at paragraph 19 above. The [Company] seeks and is entitled to restitution from [EHCL] of the benefits received from that transfer. Those benefits include the profits realised from the Ansty Road Project.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is no doubt that this is a compressed plea of unjust enrichment and that it lacks particularisation. It does refer back to paragraph 19 in which the Claimants&#8217; core factual case on the breach of fiduciary duties by Mr Bennett and Ms Murphy in relation to the Ansty Road Project is set out. Insofar as the Defendants are now complaining about a lack of particularisation, Mr Smiley said that they could have sought to engage further on the proposed amendments and requested further information, instead of just refusing to agree them and fighting this application. He further maintained that the requisite elements of an unjust enrichment claim &#8211; that: (a) EHCL was enriched; (b) at the expense of the Company; (c) the enrichment was unjust; and (d) there is no relevant defence &#8211; were adequately pleaded. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Samuels made submissions on this part of the application on behalf of the Defendants and he articulated the basis of their opposition to this plea of unjust enrichment. He divided his submissions into four issues:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt">Inadequate pleading;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt">Doubtful legal basis for the claim;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">Defences that will plainly defeat the claim; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt">Lack of evidence. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to the pleading itself, Mr Samuels said that there was a bare plea of enrichment that did not specify what the &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">benefits received from the transfer</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; are alleged to be. The Claimants seemed to be saying that those benefits included the profits from the Ansty Road Project but they do not plead unjust enrichment in relation to the Ansty Road Land which was an integral part of the development to produce those profits. Furthermore Mr Samuels said that there are no details as to the alleged enrichment being &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">at the expense of</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; the Company and that this is significant as EHCL apparently paid full market value for the Wyken Grange Land.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Samuels&#8217; submissions on the law of unjust enrichment concentrated on two aspects: (1) that a claim in unjust enrichment based on want of authority in the context of a disposition of registered land has been doubted in the authorities; and (2) that an account of profits is not a remedy for unjust enrichment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to want of authority, Mr Samuels referred to some doubts expressed in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Goff &amp; Jones: The Law of Unjust Enrichment (10</span><span style="font-style:italic;vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> Ed)</span><span style="font-family:'Times New Roman';font-size:12pt"> (&#8220;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">Goff &amp; Jones</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;) (see for instance paras. 8-47 and 8-48) as to whether a personal unjust enrichment claim based on want of authority would be available as against the transferee of a registered disposition of land. But even </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Goff &amp; Jones</span><span style="font-family:'Times New Roman';font-size:12pt"> accepted that this has yet to be tested and there are other passages referred to by Mr Smiley that acknowledge that this is a developing area of law &#8211; see for instance paragraphs 8-120 to 8-138 dealing with a strict liability personal claim in unjust enrichment against a recipient of misapplied trust assets. Unsurprisingly Mr Smiley pointed out that there was a whole chapter in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Goff &amp; Jones</span><span style="font-family:'Times New Roman';font-size:12pt"> on &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Lack of Consent and Want of Authority</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; indicating the unsuitability of resolving these complicated legal issues on a summary basis. Mr Smiley also referred to: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Relfo Ltd (In Liquidation) v Varsani </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2012/2168" uk:canonical="[2012] EWHC 2168 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 2168 (Ch)</ref>, Sales J as then was at [86] to [88]; and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Clegg v Pache</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/256" uk:canonical="[2017] EWCA Civ 256" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 256</ref> at [82]-[91], both of which built on what Lord Nicholls said in [4] of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Criterion Properties v Stratford UK Properties</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2004] 1 WLR 1846" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 WLR 1846</ref>. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers</span><span style="font-family:'Times New Roman';font-size:12pt">, Lord Burrows expressly left open the possibility of an unjust enrichment claim as an alternative to the knowing receipt claim (see [199]-[200]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Samuels argued that if an unjust enrichment claim is available in this situation, it would cut across the established principles of the knowing receipt fault-based liability cases and also the careful balance struck for registered land in the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/9" uk:canonical="2002 c. 9" uk:origin="TNA" uk:type="legislation">LRA 2002</ref>. Furthermore he said that it would disrespect the distinction drawn in the authorities between a misuse of power and acting in excess of power. The former might only render a transaction voidable &#8211; see for example, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Pitt v Holt</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2013] 2 AC 108" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 2 AC 108</ref> &#8211; and in this case that was all that was being alleged and it would therefore be insufficient to show &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">want of authority</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I do not think that the Defendants can show at this stage that the proposed unjust enrichment claim is unarguable as a matter of law. It is a somewhat untested and clearly developing area of law on which there has been much academic discussion. Mr Smiley commented that the in-depth analysis that Mr Samuels performed on this claim, while admirable, only went to show that it is wholly unsuitable for determination at this stage of the proceedings. It seems to me that any decision as to whether such a claim exists should be based on the actual facts as found at a trial. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As indicated above, Mr Samuels also questioned whether it is possible to claim profits on a restitutionary claim, but it seems to me that the prayer for relief includes &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">damages or equitable compensation or an indemnity</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; and that the appropriate and available remedy if the claim succeeds should be determined at or after the trial. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Paragraph 26A is thinly pleaded but the necessary elements of an unjust enrichment claim are there and what the Claimants are alleging is reasonably clear. Mr Bennett and Ms Murphy effectively transferred the Ansty Road Project from the Company to their own company EHCL, thus depriving the Company of the opportunity of pursuing the Ansty Road Project. That is hotly disputed on the facts but it seems to me that it is properly arguable that, on those facts, EHCL has been unjustly enriched at the expense of the Company, which has lost the possibility of making profits from exploiting the Ansty Road Project. If there are matters that the Defendants are unclear about, they can ask for further information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Plainly EHCL will raise defences to the claim and two have been identified at this stage: the impossibility of counter-restitution; and change of position. The former is a little difficult to understand as most of the development has been sold on to third parties and there can presumably be no question of the land itself being restored to the Company. As to the latter, EHCL will certainly be able to plead change of position by way of its Defence, but this will no doubt be met in due course by the Claimants&#8217; Reply containing their answer to this defence. It is clearly premature to determine anything in relation to that defence and it cannot be said that the Claimants have no real prospect of successfully overcoming such a defence.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The final matter concerns the lack of evidence in support of this claim. As I have said above, this relies on the existing factual averments pleaded in the Re-Amended Particulars of Claim, and given that it is accepted that those facts are sufficiently pleaded to be able to take them to trial, it would be odd to require the Claimants to provide any evidence in support of them for the purposes of pleading this claim. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Accordingly I am satisfied that there is a real prospect of the Claimants succeeding on their proposed unjust enrichment claim and that it is adequately pleaded. I give permission for them to amend in this respect. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Paragraph 26B &#8211; Dishonest Assistance</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The new cause of action in dishonest assistance is pleaded in proposed paragraph 26B. The claim is based on EHCL&#8217;s alleged dishonest assistance of Mr Bennett and Ms Murphy&#8217;s breaches of fiduciary duties owed to the Company. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants rely on certain other paragraphs of the Re-Amended Particulars of Claim in support of this claim, such as the breaches of fiduciary duties by Mr Bennett and Ms Murphy in paragraph 19 and the allegation of a diversion of the Company&#8217;s opportunity to develop the Ansty Road Project in paragraph 11. Particulars of EHCL&#8217;s alleged dishonesty are given in paragraph 26B(iii). This includes that Mr Bennett and Ms Murphy&#8217;s knowledge, which is attributable to EHCL, was that: (a) the Claimants had not consented to the transfer of the Wyken Grange Land; (b) that transfer was for below market value; (c) the transfer was not in the Company&#8217;s interests; and (d) the transfer was in their own interests (as shareholders of EHCL). Mr Smiley submitted that while those allegations may be disputed as a matter of fact, they can only be decided at a trial which is going to take place anyway. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Defendants&#8217; attack on this claim focussed on the adequacy of the pleading of dishonesty. More particularly, Mr Reed, on behalf of the Defendants, submitted that the allegation that the Claimants &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">had not consented</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; to the transfer of the Wyken Grange Land necessarily depends on an allegation that not only was the Claimants&#8217; consent required but also that EHCL knew that it was required and acted deliberately contrary to that requirement. He said that those other allegations had not been pleaded and therefore it was defective in some way. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In my view this is not a fatal objection to the pleading as it stands. It is at least implicit in the allegation of a lack of consent that such consent was required. Furthermore the allegation is that the transfer was effected &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">despite that knowledge of the Claimants&#8217; lack of consent</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; which carries with it the allegation that EHCL, through the attribution of Mr Bennett and Ms Murphy&#8217;s knowledge, knew that consent was required and yet it acted in the specific knowledge that such consent had not been given. I do not think that such a pleading is consistent with mere negligence, rather than dishonesty, on the part of EHCL.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Reed also submitted that the Claimants make no allegation in relation to the Ansty Road Land but they are claiming an account of the profits of the entire Ansty Road Project which could only have been achieved with the benefit of the Ansty Road Land that provided the access to the development site. However, as I said above, the Claimants do refer to the exploitation of the Ansty Road Project opportunity that they allege was owned by the Company &#8211; see paragraphs 11 and 26B(iii)(g) of the draft Re-Re-Amended Particulars of Claim. While, as I said during the hearing, this is a crisp pleading of dishonesty, in my view it is adequate at this stage as a matter of law and particularisation to be allowed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">One further point raised by Mr Reed is as to the remedy claimed by the Claimants for dishonest assistance. He said that the remedy for dishonest assistance is not a proprietary remedy or for any sort of constructive trust. I think this is accepted but I am not sure what he was driving at. If the Claimants succeed on this claim they may be entitled to an account of profits made by EHCL arising from its dishonest assistance or they could receive equitable compensation. I do not think that the Claimants are claiming a proprietary remedy. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I will therefore give permission to amend to include the dishonest assistance claim set out in paragraph 26B.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Paragraph 26C &#8211; Unlawful Means Conspiracy</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Like the previous two causes of action, paragraph 26C, which asserts a claim in unlawful means conspiracy, relies on the factual averments that have already been pleaded and which underpin all of the claims that are made. The further elements of unlawful means conspiracy are a combination or agreement between EHCL and one or more other parties to injure the Company together with an intention on their part to injure the Company. Mr Reed submitted that these elements are inadequately pleaded such that they should effectively be struck out. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to the alleged combination or agreement between the Defendants, Mr Reed said that this was pleaded in the most generalised way and that it was not supported by evidence. Similarly he said that the pleading of the Defendants&#8217; intention to injure the Company purely builds on the allegation of a combination or agreement to injure the Company and the unlawful means deployed, namely by the breaches of fiduciary duties by Mr Bennett and Ms Murphy in relation to the Ansty Road Project. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Even though the pleading is again rather thin, I think there is enough there to allow it to go forward. The case is reasonably clear and I do not think that the Defendants can fairly say that they do not understand the case they have to meet. The Claimants are saying that Mr Bennett and Ms Murphy conspired together with their company, EHCL, to injure the Company by transferring the Wyken Grange Land without seeking the consent of the Claimants, at an undervalue, and thereby depriving the Company of the opportunity of taking to fruition the development of the Ansty Road Project. I do not consider that any more evidence is required to be adduced by the Claimants in this regard at this stage. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Accordingly I give permission to the Claimants to amend in relation to the unlawful conspiracy claim. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Paragraph 26D &#8211; <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 190</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref></span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This claim is somewhat different to the others. It is based on <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.190</ref> and 195 <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">S.190</ref> CA 2006 is headed &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Substantial property transactions: requirement of members&#8217; approval</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;. It relevantly provides as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <intro>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">A company may not enter into an arrangement under which&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">a director of the company or of its holding company, or a person connected with such a director, acquires or is to acquire from the company (directly or indirectly) a substantial non-cash asset, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">the company acquires or is to acquire a substantial non-cash asset (directly or indirectly) from such a director or a person so connected,</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="CourtOneL1" style="margin-left:1.04in">unless the arrangement has been approved by a resolution of the members of the company or is conditional on such approval being obtained.&#160;For the meaning of&#160;&#8220;substantial non-cash asset&#8221;&#160;&#160;see&#160;<a href="https://uk.westlaw.com/Document/I5BFCAAC08B3311DBA1DB80994EEB92DE/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=43655ed54a0c49a8b0357ef92358e9b6&amp;contextData=(sc.DocLink)">section 191</a>.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">A &#8220;<span style="font-style:italic">substantial non-cash asset</span>&#8221; is defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/191" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.191</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> as one whose value exceeds 10% of the company&#8217;s asset base and is more than &#163;5,000, or exceeds &#163;100,000. There is no dispute that the Wyken Grange Land satisfies that definition. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">EHCL was a &#8220;<span style="font-style:italic">person connected with</span>&#8221; a director of the Company since Mr Bennett was at the material time the sole shareholder of EHCL. This satisfies the definition which is set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/254/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.254(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/192" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 192</ref> to 194 <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> set out certain exceptions to <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.190</ref>, but none are applicable in this case. Accordingly the transfer of the Wyken Grange Land from the Company to EHCL required the prior approval of the members of the Company. As this was not obtained, the transaction was effected in breach of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.190</ref> CA 2006. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <intro>
+	    <p class="CourtOneL1" style="margin-left:0.5in">The consequences of such a breach are provided for in <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">This section applies where a company enters into an arrangement in contravention of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 190</ref> (requirement of members&#8217; approval for substantial property transactions).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <intro>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">The arrangement, and any transaction entered into in pursuance of the arrangement (whether by the company or any other person) is voidable at the instance of the company, unless &#8211; </p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">restitution of any money or other asset that was the subject matter of the arrangement or transaction is no longer possible,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">the company has been indemnified in pursuance of this section by any other person for the loss or damage suffered by it, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">rights acquired in good faith, for value and without actual notice of the contravention by a person who is not a party to the arrangement or transaction would be affected by the avoidance.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <intro>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">Whether or not the arrangement or any such transaction has been avoided, each of the persons specified in subsection (4) is liable&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">to account to the company for any gain that he has made directly or indirectly by the arrangement or transaction, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">(jointly and severally with any other person so liable under this section) to indemnify the company for any loss or damage resulting from the arrangement or transaction.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <intro>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">The persons so liable are&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">any director of the company or of its holding company with whom the company entered into the arrangement in contravention of&#160;<a href="https://uk.westlaw.com/Document/I5BFBE7708B3311DBA1DB80994EEB92DE/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=6b58db05b2f241749346b167dc6d4e44&amp;contextData=(sc.DocLink)"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 190</ref></a>,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">any person with whom the company entered into the arrangement in contravention of that section who is connected with a director of the company or of its holding company,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">the director of the company or of its holding company with whom any such person is connected, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="CourtOneL1" style="margin-left:1.5in;text-indent:0.5in">any other director of the company who authorised the arrangement or any transaction entered into in pursuance of such an arrangement.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#191919">(5)</num>
+	    <intro>
+	      <p class="CourtOneL1" style="margin-left:0.5in;text-indent:1in"><span style="color:#191919">Subsections (3) and (4) are subject to the following two subsections.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#191919">(6)</num>
+	      <content>
+		<p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in"><span style="color:#191919">In the case of an arrangement entered into by a company in contravention of </span><ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 190</ref> <span style="color:#191919">with a person connected with a director of the company or of its holding company, that director is not liable by virtue of subsection (4)(c) if he shows that he took all reasonable steps to secure the company's compliance with that section.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#191919">(7)</num>
+	      <intro>
+		<p style="margin-left:0.64in;text-indent:0.72in"><span style="color:#191919">In any case&#8211;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="color:#191919">(a)</num>
+		<content>
+		  <p style="margin-left:1.5in;text-indent:0.5in"><span style="color:#191919">a person so connected is not liable by virtue of subsection (4)(b), and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="color:#191919">(b)</num>
+		<content>
+		  <p style="margin-left:1.5in;text-indent:0.5in"><span style="color:#191919">a director is not liable by virtue of subsection (4)(d),</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1in"><span style="color:#191919">if he shows that, at the time the arrangement was entered into, he did not know the relevant circumstances constituting the</span><span/><span style="color:#191919">contravention.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="color:#191919">(8)</num>
+		<content>
+		  <p style="margin-left:1in;text-indent:0.5in"><span style="color:#191919">Nothing in this section shall be read as excluding the operation of any other enactment or rule of law by virtue of which the arrangement or transaction may be called in question or any liability to the company may arise.</span>&#8221;</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">So this is what is pleaded in paragraph 26D of the draft Re-Re-Amended Particulars of Claim. The Claimants, on behalf of the Company, are seeking to hold the Defendants to account under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref> and (4) <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> &#8220;<span style="font-style:italic">for any gains made directly or indirectly by the transfer of the [Wyken Grange Land], which includes the profits resulting from the Ansty Road Project and&#8230;to indemnify the [Company] for any losses suffered</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <intro>
+	    <p class="CourtOneL1" style="margin-left:0.5in">The Defendants object to this claim but not on the grounds that it is inadequately pleaded. Instead Mr Reed argued as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="CourtOneL1" style="margin-left:1.25in;text-indent:0.12in">That a claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> cannot be brought by way of derivative action because it is not based on a breach of duty by the directors of the Company;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="CourtOneL1" style="margin-left:1.25in;text-indent:0.12in">That the transaction has in any event been affirmed by the members of the Company by a resolution purportedly passed on 8 January 2025; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.25in">(c)</num>
+	    <content>
+	      <p class="CourtOneL1" style="margin-left:1.25in;text-indent:0.12in">That the remedy being sought is wrong in law. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">Taking each in turn, Mr Reed relied on the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/260/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.260(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> for his proposition that this claim cannot be brought by way of derivative action. <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/260/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 260(3)</ref> CA 2006 states that a derivative claim may only be brought in respect of <span style="font-style:italic">&#8220;a cause of action arising from an actual or proposed act or omission involving negligence, default, breach of duty or breach of trust by a director of the company&#8221;</span>. He maintained that a claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> arises under statute because a company has entered into a transaction in breach of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.190</ref> CA 2006, and not because its directors have acted in breach of duty or are in default or have misconducted themselves. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">However I think it is at least arguable that <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/260/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.260(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> should be construed broadly. Indeed it specifically covers not only breaches of duty, but also any default by the directors. In failing to cause the Company to obtain the members&#8217; prior consent to the transaction, the directors involved in the transaction with a potential conflict in benefitting themselves at the expense of the Company are likely to be in breach of their duties or in default in putting the Company in breach of <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.190</ref> CA 2006. It also seems to me that <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref> CA 2006 contemplates the Company, or its liquidator or administrator, as the only claimant for such an account or indemnity. Where the allegedly wrongdoing Defendants are the majority of the members of the Company, such a claim can only be brought by way of derivative action, or possibly by way of an unfair prejudice petition under s.994 CA 2006. Furthermore, sub<ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 195(5)</ref>-(7) CA 2006 make liability on the directors fault-based, thus indicating that there has to have been some default or breach within <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/260/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.260(3)</ref> CA 2006.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">Therefore I cannot rule out this claim at this stage on the basis that there is no real prospect of the Claimants successfully arguing that a claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> can be brought by way of derivative action. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">Mr Reed&#8217;s second point was that the transaction had been affirmed by purported resolutions passed on 8 January 2025. There was a meeting on that day at which the Claimants were represented by their solicitor, Mr Michael Baxendale, who held a proxy for each of them. The first two resolutions were for the removal of the Claimants as directors of the Company. The fourth resolution was to approve the transfer by the Company of the Wyken Grange Land to EHCL that had taken place 5 years earlier on 23 January 2020. I queried whether these resolutions had even been validly passed as the voting was recorded to be on a show of hands, not a poll. Arguably there would then have been an equality of votes, 2 for and 2 against, and so no majority in favour of the resolution.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">In any event, I do not see that these resolutions can change anything and certainly not for the purposes of the application to amend. They are, of course, wholly self-serving and it is arguable that, with his conflict of interest, Mr Bennett should not have his vote counted at all. But specifically in relation to the claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.190</ref> and 195(3) <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/196" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.196</ref> CA 2006 becomes highly relevant. It states as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in">&#8220;Where a transaction or arrangement is entered into by a company in contravention of&#160;<a href="https://uk.westlaw.com/Document/I5BFBE7708B3311DBA1DB80994EEB92DE/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=fed30eefddac48cf98481fd018a1d843&amp;contextData=(sc.DocLink)"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 190</ref></a>&#160;(requirement of members' approval) but, within a reasonable period, it is affirmed&#8211;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in;text-indent:0.5in">in the case of a contravention of&#160;<a href="https://uk.westlaw.com/Document/I5BFBE7708B3311DBA1DB80994EEB92DE/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=fed30eefddac48cf98481fd018a1d843&amp;contextData=(sc.DocLink)">subsection (1)</a>&#160;of that section, by resolution of the members of the company, &#8230;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="CourtOneL1" style="margin-left:1in">the transaction or arrangement may no longer be avoided under&#160;<a href="https://uk.westlaw.com/Document/I5C0054408B3311DBA1DB80994EEB92DE/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=fed30eefddac48cf98481fd018a1d843&amp;contextData=(sc.DocLink)"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 195</ref></a>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">This then makes clear that, even if the resolution is valid, it would only prevent the Company from avoiding the transaction under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref>. On the face of it, such a resolution does not affect the remedies under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref> CA 2006. Furthermore, as Mr Smiley pointed out, it can only have any effect if it takes place within a reasonable period of time from the transaction, but in this case there has been a delay of several years. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">Accordingly I do not think that the 8 January 2025 resolutions can affect whether the claim ought to be allowed to proceed. It is also unnecessary to deal with the authorities I was taken to on whether certain conflicted members would be allowed to vote on such a resolution. I am not ruling out the Defendants&#8217; reliance on the resolutions at trial. But they have no significance to the issues I need to decide on this application. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="CourtOneL1" style="margin-left:0.5in">The final point is as to the remedy the Claimants are seeking. Mr Reed submitted that the remedy sought wrongly conflates <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref>(a) and (b) when they are quite different. He also said that it was wrong for the Claimants to be seeking an account of &#8220;<span style="font-style:italic">the profits from the Ansty Road Project</span>&#8221; as <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/195/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.195(3)</ref>(a) talks of &#8220;<span style="font-style:italic">any gain&#8230;made&#8230;by the transaction</span>&#8221; and the transaction relied on was the transfer of the Wyken Grange Land. But again, this can be argued at trial and is not such a fundamental objection to this claim that I should not allow it to go forward. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <intro>
+	    <p class="CourtOneL1" style="margin-left:0.5in">Accordingly I will allow the claim under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/190" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss.190</ref> and 195 <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46" uk:canonical="2006 c. 46" uk:origin="TNA" uk:type="legislation">CA 2006</ref> to go ahead and permit the relevant amendments to be made. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="CourtOneL1" style="margin-left:0.5in"><span style="font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">For the reasons I have set out above:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">I allow the Claimants&#8217; proposed amendments to the Re-Amended Particulars of Claim as pleaded in the draft Re-Re-Amended Particulars of Claim attached to the application notice; I also grant permission as necessary under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/46/section/263" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.263</ref> CA  2006 to continue those claims as derivative claims on behalf of the Company on the same terms as previously ordered by the Court;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt">I dismiss the Defendants&#8217; application to strike out paragraphs 13 to 27 of the Re-Amended Particulars of Claim. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.59in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">I would ask the parties to agree a suitable form of order to reflect the above disposition of the applications. If there are any consequential matters that cannot be agreed, I would suggest that these would best be dealt with in writing with short written submission.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

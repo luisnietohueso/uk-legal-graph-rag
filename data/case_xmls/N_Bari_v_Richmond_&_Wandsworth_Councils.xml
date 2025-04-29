@@ -1,0 +1,944 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/54"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/54"/>
+	  <FRBRdate date="2025-03-25" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="54"/>
+	  <FRBRname value="N Bari v Richmond &amp; Wandsworth Councils"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/54"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/54"/>
+	  <FRBRdate date="2025-03-25" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/54/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/54/data.xml"/>
+	  <FRBRdate date="2025-04-22T10:34:32" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-25" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-n-bari" href="" showAs="MR N BARI"/>
+	<TLCPerson eId="richmond-and-wandsworth-councils" href="" showAs="RICHMOND AND WANDSWORTH COUNCILS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>54</uk:number>
+	<uk:cite>[2025] EAT 54</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>c07be5ad2111e518034658a3573ccb60f4d516f64477295d6eb172075ab9b629</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.17in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .ListParagraph { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legtext { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention1 { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .legp1no { }
+#judgment .legds { }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:8pt;color:#000000">Judgment approved by the court</span><span style="color:#000000"> </span><marker name="tab"/><span style="font-size:6pt">Bari v Richmond &amp; Wandsworth Councils</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2025] EAT 54</neutralCitation></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">EA-2023-001379-NK</docketNumber></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">EA-2023-001384-NK</docketNumber></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Date: </span><docDate date="2025-03-25" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">25 March 2025</docDate></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;color:#000000">Before</span><span style="color:#000000">:</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="color:#000000">---------------------</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;color:#000000">Between:</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><party refersTo="#mr-n-bari" as="#appellant" style="font-weight:bold">MR N BARI</party></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant</role></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">- and -</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><party refersTo="#richmond-and-wandsworth-councils" as="#respondent" style="font-weight:bold">RICHMOND AND WANDSWORTH COUNCILS</party></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondents</role></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="color:#000000">---------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Emma Darlow Stearn</span><span style="font-weight:bold;color:#000000"> </span><span style="color:#000000">(instructed by the </span><span style="font-weight:bold;color:#000000">Free Representation Unit</span><span style="color:#000000">) for the </span><span style="font-weight:bold;color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;color:#000000">Shane Crawford </span><span style="color:#000000">(instructed by</span><span style="font-weight:bold;color:#000000"> </span><span style="font-weight:bold">South London Legal Partnership</span><span style="color:#000000">) for the </span><span style="font-weight:bold;color:#000000">Respondents</span></p>
+      <p style="text-align:center"><span style="color:#000000">Hearing date: 25 March 2025</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="color:#000000">---------------------</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;color:#000000">SUMMARY</span></p>
+	    <p><span style="font-weight:bold;color:#000000">PRACTICE AND PROCEDURE</span></p>
+	    <p><span style="color:#000000">This decision considers the power of the employment tribunal to order a party to provide information to another party in answer to their questions, and the principles which should guide the tribunal when considering such an application.</span></p>
+	    <p style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This matter is ongoing in the employment tribunal in London South.  I will refer to the parties as they are in the tribunal.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The respondents operate a shared staffing arrangement. The claimant is jointly employed by them as a duty manager at the Hampton Sports and Fitness Centre.  Pursuant to two claim forms, he brings multiple complaints under the <span style="font-weight:bold">Equality Act 2010</span>, relying on the protected characteristic of disability.  He is a litigant in person.  He seeks to appeal from a decision refusing an application by him for a case-management order. That decision was communicated, first, by a letter of 23 October 2023 and then again by a letter of 10 November 2023.  It appears that it was reissued, because its first version did not identify the judge who had made that decision, being EJ Wright.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As well as appealing, the claimant applied for what he called a reconsideration. That was not strictly the appropriate terminology, as this was a case-management decision and not a judgment.  But in any event a letter of 10<span style="vertical-align:super;font-size:smaller"> </span>January 2024 sent at the direction of EJ Wright stated that the claimant&#8217;s application had been considered afresh and was refused.  He thereupon sought what he again described as a reconsideration and that too was refused by EJ Wright in a further letter of 2 February 2024.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This is not an appeal against either of the reconsideration decisions.  But both counsel agreed, rightly, that the outcome ultimately turns on the first reconsideration decision, in which the tribunal gave what amounted to its final reasons for refusing the claimant&#8217;s application.  The final decision simply declined to revisit the matter again.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The judge who considered the appeal on paper considered it arguable that the tribunal erred because it misdirected itself and failed to apply the correct legal test when deciding the claimant&#8217;s application.  In her skeleton, Miss Darlow Stearn who appears for the claimant, breaks that down into two grounds, while recognising they are closely linked, being, first, misdirection as to the correct legal test and, secondly, failure to apply the correct legal test.  She also applies to add a third ground, being that the decision was not <span style="font-style:italic">Meek</span>-compliant.  Mr Crawford, for the respondents, opposed that application but also responded to that additional ground on its merits.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Application to Amend</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I will address the application to amend first.  The principles that guide the EAT are well-established.  They are set out in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Khudados v Leggate</span> [2005] ICR 1013 and further discussed in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Readman v Devon Primary Care Trust</span>, UKEAT/0016/11.  Miss Darlow Stearn notes that until she was instructed through the Free Representation Unit (FRU) in February 2025 the claimant had been a litigant in person.  The <span style="font-style:italic">Meek</span>-compliance ground is closely intertwined with the existing grounds.  She also says that there is no prejudice to the respondents by this ground being added, as they can respond to it and, indeed, have done so; and it will not take up significant extra time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Crawford noted that the application had not been made using the EAT&#8217;s application form.  He also submitted that the materials before the EAT show that the claimant was and is capable of marshalling and advancing articulate legal arguments.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I will permit this amendment, for the following reasons.  Firstly, whilst the claimant has been able to put forward articulate arguments that make references to legal rules and principles, nevertheless, whatever assistance he may have had, he has hitherto been acting as a litigant in person; and as result of FRU being involved, this is the first time that he is represented in these proceedings by a lawyer.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, this new ground closely overlaps with the existing ground or grounds, as a significant part of it asserts that the tribunal has not shown that it has applied the correct legal test, because of the paucity of its reasoning.  Thirdly, whilst this application was first raised only in the run-up to this hearing, Mr Crawford has been able to marshal his arguments.  There was no suggestion by him that, because of the late stage at which this ground was raised, the respondents have been prejudiced in their ability to respond to it.  Finally, whilst the application ought to have been made using the EAT&#8217;s application form, the substance of the ground, and the arguments in support of it, are all to be found in Miss Darlow Stearn&#8217;s skeleton argument.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Litigation History and the Tribunal&#8217;s Decision </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The claimant&#8217;s first claim form was presented on 17 January 2021.  Following responses there was an initial case management hearing in July 2021.  Thereafter, the claimant provided further particulars.  He presented his second claim on 22 September 2021.  Responses and, later, amended grounds of response, were served.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There was a further case management hearing before EJ Barker on 15 July 2022.  The judge directed both claims to be heard together at a full hearing listed for six days in May 2023, and gave directions for preparations for that hearing.  The hearing record noted that the claimant was employed on a casual contract from May 2017, but had been made a permanent member of staff from 10 February 2020.  It set out what it called a final list of issues.  That identified the complaints as being of direct discrimination, failure to make reasonable adjustments, harassment and victimisation.  The respondents accepted that the claimant is disabled by reason of psoriatic arthritis.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In relation to direct discrimination the issues included whether the respondent(s) &#8220;wants [the claimant] to leave by putting stress on him and his family&#8221;; and, specifically, &#8220;having agreed to a new part time contract as being Tuesdays, Thursdays and Sundays, being told that Thursdays was meant to be Friday&#8221; at a meeting on 14 January 2020.  The claimant relied upon a hypothetical comparator.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In relation to failure to comply with the duty of reasonable adjustment the PCP was described as &#8220;being asked to work Fridays after the issue with the text&#8221;.  The adjustment sought was described as &#8220;they should have given the claimant notice that he would be expected to work Fridays rather than asking him to take on Fridays that week&#8221;.  (I interpose that the reference to &#8220;the text&#8221; was to an issue that had arisen about texts the claimant sent to a colleague, to which she had objected, leading to an investigation.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In relation to victimisation, the protected act relied upon was a grievance pursued on 12 and 29 October 2020.  The treatment complained of was:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;Fail to implement the recommendations of the grievance outcome dated 18 February 2021, including relating to an apology, mediation, a review of shift patterns, including considering accommodating the claimant&#8217;s requested hours leading to ongoing awkwardness with his team and barriers to promotion due to his difficult relationship with his managers.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Amended grounds of resistance filed following that hearing included, at [13.4]: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;The claimant refers to &#8216;Having agreed to a new part time contract as being Tuesdays, Thursdays and Sundays, being told that Thursdays was meant to be a Friday at a meeting on 14</span><span style="font-weight:bold;vertical-align:super;font-size:11pt">th</span><span style="font-weight:bold;font-size:11pt"> January 2020.&#8217;  The Respondent understands that this allegation overlaps with the allegation responded to at paragraph 24 below. The reasons for the part time shift pattern were as explained in that paragraph. The action taken was for business/operational reasons and for these reasons only.  It is denied that any detrimental action was taken by the Respondent in this context because of the Claimant&#8217;s disability&#8221;.  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At [17] it was admitted that the claimant was asked to work on a Friday.  That was said to be for business or operational reasons in relation to the delivery of the service.  At [24] it was said that this was explained at a meeting on 14 January 2020:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;Mr Percy clearly explained, amongst other things, that whilst at that time the current need was work on Tuesdays, Thursdays and Sundays, the role was created with a view to covering Tuesday, Friday and Sunday shifts and that the expectation was that going forward Friday working would be required. The Claimant, therefore, had clear advance notification of Friday working and the expectations for the role prior to commencing the permanent part-time role&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">During the course of the hearing opening on 12 May 2023 the claimant applied to postpone on the basis that he was not fit to participate.  That application was granted.  However, the tribunal recorded that, having read into the matter, it considered that there were potential issues as to the strength of some of the complaints.  It had decided that it would not be appropriate to make a deposit order, having regard to the hearing being a full hearing, and one which the claimant had in the event not attended.  Nevertheless, it made some observations about what it considered to be potential weaknesses or gaps in some of the complaints.  The matter was relisted for a trial to take place in June 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 8 August 2023 the respondents&#8217; lawyer responded to an email from the claimant which had referred to another member of staff having been given reasonable adjustments.  He sought clarification as to the procedural basis of that request.  There was then an email from the claimant of 18 August which began:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;I have found out recently yet another reasonable adjustment that was made for a work colleague on the same working contract as myself.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">Their hours/days were adjusted to accommodate their reasonable adjustment request. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">Therefore, to assist the Employment Tribunal I am entitled to ask questions with honest straightforward answers being received from yourselves, other than it being left for the Employment Tribunal to decide and make their own inferences&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The claimant then set out eight numbered questions, as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;1.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Since November 2019 how many members of staff have been recruited (Leisure services) from their casual contract to &#8216;</span><span style="font-style:italic;font-weight:bold;font-size:11pt">The casual staff project for all casual workers</span><span style="font-weight:bold;font-size:11pt">&#8217; who worked for the Respondents in their Sports centres.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">From the above (1) how many had a known disability to the Council?  Please mention that I have been included or not in the stated figures.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Since November 2019 &#8211; How many from the above (2) have been given reasonable adjustments, and in what month, year and who their line mangers were at the time.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">4.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Did the reasonable adjustment from the above (3) include adjusting their hours/days of work?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">5.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">From all of the Leisure and Sports centres in the Richmond Council directorate (1) Pools on the Parks &#8211; Richmond (2) Teddington Pools and Fitness Centre (3) Sheen Sports and Fitness Centre (4) Whitton Sports and Fitness Centre (5) Teddington Sports and Fitness Centre (6) Hampton Sports and Fitness Centre.  How many since November 2019 from the above (set out as per the individual centre) have a member of staff with a known disability to the Council?  How many have asked for reasonable adjustments to be made?  How many reasonable adjustments have been fully granted?  Partly granted?  How many reasonable adjustments have had their working days adjusted?  Working hours adjusted to accommodate their reasonable adjustment requests?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">6.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Please include in answering (5) above staff members that have now left the organisation or have been promoted to elsewhere.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">7.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Please state how many employees were employed in the SSA Richmond/Wandsworth Councils in November 2019?  And how many had a known disability at the time?  Those with known disabilities &#8211; how many were given a reasonable adjustment in one form or another after requesting for this?  Howe many reasonable adjustment requests were (not) granted in their entity and the reasons for this?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">8.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Please state how many employees were employed in the SSA Richmond/Wandsworth Councils in May 2023?  And how many had a known disability to the SSA at the time?  Those with known disabilities &#8211; how any were given a reasonable adjustment in one form or another after requesting for this?  How nay reasonable adjustment requests were (not) granted in their entity and the reasons for this?  Please mention that I have been included or not in the stated figures.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In further exchanges the respondents&#8217; lawyer wrote:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;We know you have a claim relating to reasonable adjustments but would appreciate clarification as to how the information you have requested relates to the list of issues in the ET case&#8221;.  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Having said that, he wrote that he would be taking instructions about how best to respond.  In a reply of 28 August the claimant asserted that the information requested was easily obtainable, not complex or voluminous, and that his questions fell under direct disability discrimination, reasonable adjustment, harassment and victimisation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 31 August 2023 the claimant sent an email to the tribunal which he described as a request for further information to assist the employment tribunal.  He referred to the questions that he had asked the respondent on 18 August and attached that email.  He wrote that the questions would assist the tribunal decision and deal with the question of direct disability discrimination, disability discrimination reasonable adjustment and victimisation.  The questions were quantitative and did not need an explanation other than question 4 requiring a yes or no answer.  He submitted that the information was easily obtainable, and not complex or voluminous.  He concluded by asking for an order from the tribunal requesting the respondents to answer the questions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The respondents opposed the application stating that it was made late in the day, that the claimant had not clarified the procedural basis or relevance and had not explained how answering these questions would assist the tribunal.  They added that some of the information was not available in the form requested; for example, the respondents did not hold a central record of which employees had benefitted from reasonable adjustments and which managers were involved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In a further response of 22 September, sent after obtaining counsel&#8217;s advice, the respondents&#8217; lawyer asserted that there was no statutory or common law provision requiring a party to engage in a question and answer exchange outside the forum of a final hearing, the former questionnaire procedure in relation to <span style="font-weight:bold">Equality Act</span> claims having been abolished in 2013.  He noted also that that procedure had enabled prospective claimants to raise questions at an early stage in the litigation.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the alternative, he submitted that it would not be proportionate to require them to address the questions in advance of a final hearing.  The enquiries required were extensive and extended to private matters relating to the circumstances of other employees.  They were not relevant to the issues and they required the respondents to disclose information which was difficult to assimilate [<span style="font-style:italic">sic</span>].  He went on to refer to the observations that had been made by the tribunal panel, that had been assembled for the postponed hearing in May 2023, about difficulties with the claimant&#8217;s claims, which he said the claimant had failed to address when making these requests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 25 September 2023 the claimant sent an email to the tribunal and the respondents which he wrote was to be read with his email of 31 August and was a response to the respondents&#8217; reply of 22 September.  He wrote that he was seeking an order for specific disclosure or specific inspection.  The disclosure request did not expand the issues.  The questions would assist the tribunal decision and deal with direct disability discrimination, reasonable adjustment and victimisation.  He referred to points made in his witness statement.  He then wrote that the requested documents were considered relevant and necessary to the fair determination of the issues in the case.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further on the claimant asserted that the respondents had knowingly continued to give reasonable adjustments to his work colleagues while at the same time insisting to the tribunal that the conclusion reached was that the service would not be able to operate or open without his contracted hours being adhered to.   He also submitted that there was ample time to reply, given that the hearing was not until the following June and, in particular, that the first four questions were very straightforward.  He then reproduced the wording of the eight questions asked in his original email.  He concluded that he was asking for an order for specific disclosure or specific inspection.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 28 September 2023 the respondents&#8217; lawyer responded that the claimant had now presented the original request for information in the new and different guise of a specific disclosure request, but that appeared to be misconceived, as it made no reference to any particular document or documents or how such documents related to the defined list of issues.  The claimant replied on 1 October that he had indicated that his application in its most recent form was to be read with his original application and that he had tried to help by trying to be more specific.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Next came the tribunal&#8217;s letter of 23 October 2023, which read:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;Claimant&#8217;s application for specific disclosure is refused.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">In the first instance he should approach the respondent with a reasonable request.  Please note unreasonable behaviour may lead to cost consequences&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As I have noted, that letter was reissued on 10 November 2023 in the name of EJ Wright.  In the meantime, the claimant had emailed on 29 October 2023 what he described as a reconsideration application, asserting that he had first approached the respondents with a reasonable request on 18 August.  He referred also to his further email of 25 September 2023, which he said was to further assist the tribunal.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There followed a letter of 10 January 2024 on the instruction of EJ Wright:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8220;The Claimant&#8217;s request for specific disclosure has been considered afresh.  The Claimant&#8217;s application is refused.  It is not clear how the information he has requested will assist the tribunal.  The Claimant&#8217;s claim for reasonable adjustments relates to his particular situation and circumstances&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The claimant then made a further request for reconsideration on 21 January 2024 in the course of which he wrote: &#8220;The Claimant should be allowed to demonstrate comparators in general&#8221;.  The tribunal replied at the direction of EJ Wright on 2 February, that the request was refused as the application had already been considered.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The prevailing rules at the time were the <span style="font-weight:bold">Employment Tribunals Rules of Procedure 2013</span>.  Rules 2, 29 and 31 provided as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num class="legp1no" style="font-weight:bold;font-size:11pt;color:#1E1E1E">&#8220;2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">The overriding objective of these Rules is to enable Employment Tribunals to deal with cases fairly and justly. Dealing with a case fairly and justly includes, so far as practicable&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">ensuring that the parties are on an equal footing;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">dealing with cases in ways which are proportionate to the complexity and importance of the issues;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">avoiding unnecessary formality and seeking flexibility in the proceedings;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">avoiding delay, so far as compatible with proper consideration of the issues; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">(e)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">saving expense.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">A Tribunal shall seek to give effect to the overriding objective in interpreting, or exercising any power given to it by, these Rules. The parties and their representatives shall assist the Tribunal to further the overriding objective and in particular shall co-operate generally with each other and with the Tribunal.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">29.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">The Tribunal may at any stage of the proceedings, on its own initiative or on application, make a case management order. The particular powers identified in the following rules do not restrict that general power. A case management order may vary, suspend or set aside an earlier case management order where that is necessary in the interests of justice, and in particular where a party affected by the earlier order did not have a reasonable opportunity to make representations before it was made.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legp1no" style="font-weight:bold;font-size:11pt;color:#1E1E1E">31.</num>
+		  <content>
+		    <p class="legp1paratext" style="text-align:justify;margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt;color:#1E1E1E">The Tribunal may order any person in Great Britain to disclose documents or information to a party (by providing copies or otherwise) or to allow a party to inspect such material as might be ordered by a county court or, in Scotland, by a sheriff.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The test for disclosure has been considered in a number of recent authorities.  The following overview was given in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tesco Stores Ltd v Element</span><span style="font-style:italic">, </span>UKEAT/0228/20:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;22.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">It is clear from Rule 31 that the Tribunal's powers in respect of disclosure and information are coterminous with those of the County Court. That means that the power to order disclosure is the same as in Part 31 of the Civil Procedure Rules ("CPR") and the power to order the provision of information is the same as in Part 18, CPR.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.59in">23.</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt"> CPR 31.5 provides that an order to give disclosure is an order to give "standard disclosure". This is defined in CPR 31.6 as follows:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">"31.6</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">Standard disclosure&#8212;what documents are to be disclosed</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">Standard disclosure requires a party to disclose only&#8211;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">the documents on which he relies; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">the documents which &#8211;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">(i)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">adversely affect his own case;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">(ii)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">adversely affect another party's case; or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">(iii)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">support another party's case; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">the documents which he is required to disclose by a relevant practice direction."</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.59in">24.</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt"> The guiding principle for disclosure is not, therefore, mere relevance but whether the document is one on which a party relies, adversely affects his own or another party's case, or supports another party's case, as was made clear by Linden J recently in&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Santander UK PLC v Bharaj</span><span style="font-weight:bold;font-size:11pt">&#160;UKEAT/0075/20/LA:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">"18.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">As Lewison LJ said in relation to [the test in CPR 31.6] Shah v HSBC Private Bank (UK) Limited [2011] EWCA Civ 1154 at paragraph 25:</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">'It is notable that the word 'relevant' does not appear in the rule. Moreover the obligation to make standard disclosure is confined 'only' to the listed categories of document. While it may be convenient to use 'relevant' as a shorthand for documents that must be disclosed, in cases of dispute it is important to stick with the carefully chosen wording of the rule...'</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">19.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">Thus, the test under Rule 31.6 is not one of relevance, although documents which satisfy the Rule 31.6 test will by definition be relevant. Relevance is a more flexible and potentially broader concept and, obviously, there are degrees of relevance: see the discussion in HSBC Asia Holdings BV &amp; Anor v Gillespie [2011] ICR 192, particularly at paragraph 13(2). For this reason, I will use the term "disclosable" rather than "relevant" where I am referring to documents which the parties are required to disclose pursuant to their duty of disclosure."</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.59in">25.</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Linden J went on to consider CPR 31.12 (3), which provides for specific disclosure:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">"23.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">Rule 31.12(3) also provides for orders for specific inspection (see also Rule 31.19 which deals with claims to withhold disclosure or inspection). As I have said, Practice Directions 31A UKEAT/0075/20/LA and 31B contain helpful guidance as to how these powers should be exercised in relation to hard copy and electronic disclosure respectively. These Practice Directions emphasise the need for a proportionate approach and explain how the overriding objective should be applied in this context.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">24.</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">As is well known, in Canadian Imperial Bank of Commerce v Beck [2009] IRLR 740&#160;CA, Wall LJ said this at paragraph 22:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">"In our judgment, the law on disclosure of documents is very clear, and of universal application. The test is whether or not an order for discovery is 'necessary for fairly disposing of the proceedings'. Relevance is a factor, but is not, of itself, sufficient to warrant the making of an order. The document must be of such relevance that disclosure is necessary for the fair disposal of the proceedings. Equally, confidentiality is not, of itself, sufficient to warrant the refusal of an order and does not render documents immune from disclosure. 'Fishing expeditions' are impermissible."</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">25.</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">In applying this passage, ETs should bear in mind what was said by Mr Justice Eady in Flood v Times Newspapers Ltd [2009] EMLR 18 about the approach to applications for specific disclosure, correctly using the terminology of CPR Rule 31.6 rather than the potentially broader and less precise concept of relevance:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-weight:bold;font-size:11pt">"23.</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-weight:bold;font-size:11pt">The first requirement is that any documents sought must be shown to be likely to support or adversely affect the case of one or other party. Thus, the question to be asked in each case is whether they are likely to help one side or the other. The word "likely" in this context has been considered in the Court of Appeal and is taken to mean that the document or documents "may well" assist: see e.g. Three Rivers District Council v Governor and Company of the Bank of England (No 4) [2003] 1 WLR 210. </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-weight:bold;font-size:11pt">24.</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-weight:bold;font-size:11pt">Secondly, the hurdle must be overcome of demonstrating that disclosure of the documents sought is 'necessary' in order to dispose fairly of the claim or to save costs. This only arises for consideration if the first hurdle has been surmounted. Unless the documents are relevant in that sense, it is not necessary to address the test of necessity.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-weight:bold;font-size:11pt">25.</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-weight:bold;font-size:11pt">Thirdly, there is a residual discretion on the part of the court whether or not to make such an order - even if the first two hurdles have been overcome &#8230; It is at this third stage that broader considerations come into play, such as where the public interest lies and whether or not disclosure would infringe third party rights in relation, for example, to privacy or confidentiality. If so, the court must conduct a careful balancing exercise &#8230;"</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:11pt">26.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-weight:bold;font-size:11pt">I entirely agree and note that these passages were adopted by the Employment Appeal Tribunal at paragraph 24 of its decision in Birmingham City Council v Bagshaw and others [2017] ICR 263. &#8230; "</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.59in">26.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">I agree with Linden J's analysis of the authorities.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.59in">27.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">CPR Rule 31.5(1)(b) provides "the court may dispense with or limit standard disclosure" and CPR 31.12, as referred to in&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Santander</span><span style="font-weight:bold;font-size:11pt">, provides that "The court may make an order for specific disclosure or specific inspection". These powers introduce an element of judicial discretion into the disclosure process. That discretion must be exercised in accordance with the overriding objective. For Employment Tribunals that is set out in Rule 2 of the ET Rules:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in"><span style="font-weight:bold;font-size:11pt">&#8230; &#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.59in">28.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">The position as to the Tribunal's powers as to disclosure may be summarised as follows:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">the Tribunal's powers under Rule 31 of the ET Rules are coterminous with those of the Court under CPR 31;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">as such, the guiding principle is not relevance but whether the documents are relied on by a party, or are likely to support or be adverse to a party's case. A document falling within that description will be relevant;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">(c)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">if relevance in that sense is established, the test for making an order for disclosure is whether it is necessary for the fair disposal of the proceedings; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">(d)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.45in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">the Tribunal has a discretion as to whether to order disclosure. Such discretion must be exercised in accordance with the overriding objective.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I note that the core test is whether the disclosure sought is necessary for fairly disposing of the proceedings.  The test of relevance and the third strand are all facets of that overall test.  Whilst these authorities break down the test in to three elements, these are not necessarily rigid or compartmentalised sub-tests, and in the given case these different sub-strands may overlap or interact.  Relevance is, however, the logical place to start, because, if the tribunal concludes that the request is for disclosure of material that simply is not relevant to any issue in the case, then the application will be refused.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Two further points about the test of relevance that are discussed in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Santander UK Plc v Bharaj</span> [2021] ICR 580 are worth highlighting.  The first is the point made at [19], drawing on <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">HSBC Asia Holdings BV v Gillespie</span> [2011] ICR 192, that there are degrees of relevance.  The second, made at [20], is that the test is not whether the materials sought are <span style="font-style:italic">potentially</span> relevant, but whether they are relevant in the sense of being <span style="font-style:italic">likely </span>to assist or detract from either party&#8217;s case or an issue in the case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The interaction between the elements of the test may come about, for example, because, if something that is sought is considered to be relevant, but only marginally so, that may feed into the tribunal&#8217;s assessment of whether its disclosure is necessary for the fair disposal of the claim and/or whether it would be proportionate to order it, having regard to the overriding objective.  All of these features may together contribute to the conclusion as to whether the order sought is necessary for a fair disposal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sarnoff v YZ and Ors</span><span style="font-style:italic"> </span>[2021] EWCA Civ 26; [2021] ICR 545 the Court of Appeal held that the rule that governs applications for disclosure by another party is the general case management rule 29, rather than rule 31, which is concerned only with applications relating to non-parties.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">A request for information or answers to questions is conceptually distinct from a request for disclosure of documents.  The definition of a document in the CPR is anything which <span style="font-style:italic">contains</span> information.  So that may include not just hard copy documents, but electronically-stored documents or electronic communications.  Nevertheless a specific request for a document or documents must relate to a particular document or category of documents which is known or believed already to exist.  If what is sought is purely information, as such, rather than existing documents, so that the information would have to be compiled or collated in to a new document in order to be provided, that is a request for information and not for documents.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Does an employment tribunal have the power to order information to be provided or questions to be answered?  <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Carrington v Helix Lighting Ltd</span> [1990] ICR 125 held not.  Mr Crawford said that he did not submit that that is the current state of the law.  But in view of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Carrington</span>, and to lay the point to rest, I note the following.  Firstly, a number of more recent authorities proceed on the basis that there is such a power.  <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Essex County Council v Jarrett</span> [2015] UKEAT/0087/15 did so, and also held that the guidance in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Beck</span> applies to such requests.  <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Element</span> also did so, at [29] &#8211; [36], holding that the touchstone test is to be found in CPR 18, and that the principles to be applied are similar to those which apply to disclosure requests.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Carrington</span> was decided by reference to the 1985 Rules of Procedure.  Those set out exhaustive case management powers which did not include the power to order answers to questions or provision of information.  But all subsequent iterations of the Rules of Procedure up until the 2013 Rules included such a power in one form or another.  The 2013 Rules adopted instead the generic case management power in Rule 29.  Further, Rule 31 refers to provision of both documents and information; and although, as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sarnoff</span> holds, that Rule relates to non-parties, it cannot possibly have been intended that the case-management power relating to orders against parties in Rule 29 should be narrower and not also extend to provision of information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Both counsel before me submitted that a by-product of the reasoning in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sarnoff</span> is that employment tribunals are not strictly obliged to apply the CPR to such requests, although they may be drawn upon for guidance or insight.  Where they differed is that Mr Crawford submitted that the consequence of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sarnoff</span> was that what he described as the rigid or structured approach to applications for disclosure or replies to questions set out in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Beck</span><span style="font-style:italic">, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Santander</span><span style="font-style:italic"> </span>and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Element</span>, no longer should be seen as applying in the same way, and the tribunal&#8217;s powers should now be seen as more at large.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I do not agree.  <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sarnoff</span> was concerned with a very discrete issue.  It cannot be taken to have disturbed the general approach to such applications extensively outlined in the earlier authorities.  Nor did the observations in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sarnoff</span> at [23], that it is wrong to view the tribunal rules through the prism of the CPR, have that effect by a sidewind.  The tribunal still needs to approach such applications in a reasoned and principled way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I conclude, having regard to all the authorities, that the general test and principles are broadly the same whether the application is for disclosure or for information.  However, when it comes to the application of the test to a request for information there may be real practical differences.  If what is being sought is not an existing document or documents, but pure information, the task involved in complying with the order, if made, may be practically very different.  For example, it might require considerable work to find and collate the information or to ascertain if it even exists.  It may require analysis or processing of raw information in order to answer the specific questions asked.  Even if some answers might turn out to be found within existing documents, the substantive nature of the exercise may involve significantly different work.  Of course, what would be involved in the given case is case-sensitive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Next, a particular consideration when faced with a request for pure information, is that what the authorities call fishing expeditions are not permitted.  As is discussed in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Element</span> at [32] &#8211; [36] fishing involves seeking information about a matter that does not yet form part of a pleaded case.  That includes seeking further information to assist a party to plead a case of which they know something, but not as much as they would like, as well as a party seeking to discover a case of which they know nothing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I do not agree with Miss Darlow Stearn that this concept has no application to requests for information.  <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Element</span> confirms that it does. That said, in the context of a discrimination claim, the authorities recognise as a general proposition that aspects of the wider workplace landscape may sometimes be said to be relevant or probative.  In the context of discrimination claims, the old statutory questionnaire procedure formerly provided a formal means of seeking information.  However, it did not enable an order to be made compelling the recipient to reply, and only gave the tribunal the power to draw inferences from an unreasonably late, or incomplete, or evasive or equivocal reply.  A proportionate and more focused questionnaire was therefore generally more likely to yield results, whether from the recipient or from the tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The EAT must allow a considerable margin to tribunals in respect of case-management decisions, a point reiterated in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Beck</span> in relation to disclosure applications.  Miss Darlow Stearn nevertheless relied on observations in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Virgin Atlantic Airways v Loverseed</span> [2024] IRLR 651 at [48] that a decision of this sort involves an exercise of evaluative judgment, so that the room for a range of opinion is narrower.  However, that case was concerned with an issue of specific redactions made to specific documents.  A due margin of appreciation must be allowed to an employment tribunal in respect, for example, of its evaluation of the degree of relevance of particular documents or information sought, and of issues of proportionality.  Nevertheless, it is also well-established that, even in relation to case-management decisions, the EAT can and must intervene if the tribunal has made a principled error, for example, by not correctly applying the appropriate law; or if its decision is not <span style="font-style:italic">Meek</span>-compliant.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Discussion and Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In this case the claimant asked eight questions.  His questions were not predicated on the knowledge or belief that a document or documents, such as a spreadsheet, existed, which contained the answers.  He was seeking information.  His later email redescribing his request as being for disclosure did not alter the substance or nature of the request itself, which was still for information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The claimant asserted that the tribunal&#8217;s original decision overlooked that he had already tabled a reasonable request to the respondent.  I cannot be sure that the judge did not appreciate at that point that he had made a prior request to the respondent.  Even though the claimant&#8217;s first email to the tribunal attached a copy of it, the judge might not have seen it.  Alternatively, the judge may have seen it, but considered that it was not reasonable, perhaps because it was too extensive.  But certainly what that first decision did not do is give any other substantive reason for rejecting the request.  That came only in the 10 January 2024 response to the first reconsideration application.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Where a tribunal has stated the law correctly, they should be assumed to have also applied it correctly unless it is abundantly clear that they have not.  However, in this case the tribunal did not, in the 10 January letter, state the guiding principles in the language of the authorities.  It did not refer to whether disclosure was necessary for fairly disposing of the proceedings, nor to the sub-elements of the test.  What it said was that it was not clear how the information requested would assist the tribunal.  In using that expression the judge, intentionally or not, was echoing a phrase used by the claimant himself in his application and correspondence, although at other points the claimant did use the language used in the authorities.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In any event, Miss Darlow Stearn submits that whether the information will assist the tribunal is not the correct test.  Mr Crawford submits that on a natural reading one can infer that what the tribunal meant was that the claimant had not shown that any of the information sought was relevant to any of the issues in the case.  That could be inferred from the tribunal&#8217;s further remarks about the claim for reasonable adjustments relating to the claimant&#8217;s particular situation and circumstances.  Mr Crawford also submits that the claimant had repeatedly <span style="font-style:italic">asserted</span> that the information sought was relevant, but did not explain why.  There was a settled list of issues, as set out in the minute of the hearing before EJ Barker, but the application did not engage with it.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Crawford also relied on the fact that the request came after the case had been prepared for trial, the trial having then been postponed.  He noted also that the claimant had not engaged with the observations made by the tribunal at the postponed trial, about weaknesses or gaps in his case.  Further, what had apparently prompted the requests was the claimant having learned about one or two particular individuals who he now regarded as potential comparators. These requests, however, ranged far more widely, and included requests relating effectively to the entire work force.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, as the claimant had acknowledged, the answers to almost all of his questions would simply involve the provision of numbers.  It was not obvious how that information, or information about which line manager had allowed an adjustment to a colleague, or whether any such adjustment had to do with their hours or days of work, would cast any light on the issues in the case.  Collating the information would also pose logistical problems and significant work, if it was available at all.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Crawford submitted that these points were all apparent from the correspondence, and so it should be assumed that the tribunal had them in mind.  Tribunals are also not expected to explain case-management decisions in the same detail as decisions arising from substantive hearings.  In this context, it could also be inferred that it had considered the relevance of these requests not only to the reasonable-adjustment complaint but also to the direct discrimination and victimisation complaints.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Miss Darlow Stearn submitted that, in relation to the reasonable-adjustment complaint, it was not a sufficient answer for the tribunal to say that the claimant&#8217;s case turned on his particular situation and circumstances.  If it transpired that another disabled employee who had moved from a casual contract in leisure services to a permanent contract, had been granted an adjustment relating to their days or hours, that might cast light on the justification that had been put forward for saying that such an adjustment was not possible in the claimant&#8217;s own case.  That scenario, she observed, was the focus of the first four questions that he had asked.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Miss Darlow Stearn submitted that the various points that Mr Crawford said militated against the application being granted were points that it was open to the respondents to argue were relevant considerations, but none of them had in fact been relied upon in the tribunal&#8217;s decision.  She also submitted that this decision only addressed the position with respect to the claim for reasonable adjustments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Taking that last point first, I agree with it.  The reasonable adjustments claim is specifically mentioned, but only that claim. The tribunal may perhaps have approached the application that way because the information sought was itself all about reasonable adjustments sought by, or made for, others.  But, reading the claimant&#8217;s application and emails, it is clear that he was arguing that this information was also relevant to his complaints of direct discrimination and victimisation.  That was because he contended that, if adjustments had been granted to a colleague in similar circumstances, then that would cast light on the genuineness of the explanation that had been given, for not granting an adjustment in his case.  That would in turn be relevant to whether it might be inferred that the decision was in fact influenced by his disability or protected acts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I therefore agree with Miss Darlow Stearn that the tribunal needed to say something to address this application as it related to the direct discrimination and victimisation claims.  If the tribunal did in fact consider that aspect, it simply did not address it in its decision, and so the appeal must at least be allowed in that regard.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As to the decision as it related to the complaint of failure to comply with the duty of reasonable adjustment, I am inclined to think that Mr Crawford is right that it can be inferred from the tribunal&#8217;s observation about the subject matter of the claimant&#8217;s reasonable adjustment claim being his own particular situation and circumstances, that the judge considered that information about what adjustments may or may not have been granted to others was not relevant to the claimant&#8217;s claim.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I also see <span style="font-style:italic">some</span> force in Mr Crawford&#8217;s submission that the claimant himself had said little in substance, beyond assertion, about how the information <span style="font-style:italic">was</span> relevant.  However, I think it is sufficiently clear from the claimant&#8217;s communications that the case he was seeking to make was that, if a disabled colleague in sufficiently similar circumstances, particular one in leisure services who had moved from casual to permanent employment, had been granted adjustments to their days or hours, then that might cast light on the justification put forward as to why the claimant&#8217;s request was refused.  So it is not necessarily a complete answer simply to say that the claimant&#8217;s case turns on his own particular situation and circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">While a number of Mr Crawford&#8217;s arguments opposing the request, although not quite all of them, were made by the respondents&#8217; lawyer in the emails responding to the claimant&#8217;s application, it is not possible to infer or assume that the tribunal relied upon any or all of them.  Indeed, I am inclined to think that the natural reading of the 10 January 2024 email is that the tribunal considered that the point about the claimant&#8217;s claim for reasonable adjustments turning on his own particular circumstances amounted to a complete and decisive answer to his application, so that it was not necessary to consider any other arguments.  But, even if the tribunal did have in mind some or even all of the factors raised by the respondents in correspondence, it simply did not say so, and the decision was in that respect not <span style="font-style:italic">Meek</span>-compliant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I am mindful that this was a case-management decision.  As I have indicated, it may also be that the judge considered that in any event the claimant&#8217;s requests formulated in the eight questions were far too wide-ranging to be reasonable.  But although formulated as eight questions, they effectively fell into three groups.  Questions 1 to 4 were about those who had moved from casual to permanent employment in the Sports Centres since November 2019.  They were ultimately seeking to know how many such individuals were disabled and granted reasonable adjustments in relation to their hours and days of work, and by which line manager.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Questions 5 and 6 were more wide-ranging, because they related to all employees in the Sports Centres from November 2019 to date, not just those moved from casual to permanent employment.  Questions 7 and 8 were the most wide-ranging of all, because, although they only asked for snapshots as at November 2019 and May 2023, they related to all shared services employees, which is a much wider cohort. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I consider that a sufficiently reasoned decision should at least have indicated whether the application was granted or refused with respect to each of those three groups, and given some explanation of why; and it would have made clear that the tribunal had not confined its consideration of the request to its bearing only upon the complaint of failure to comply with the duty of reasonable adjustment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I therefore conclude that the appeal overall is allowed.  In argument this morning both counsel agreed that in that event I would not be in a position to substitute my own decision and so I must remit the matter to the employment tribunal to determine the application afresh.  Miss Darlow Stearn submitted that I should direct that such fresh decision not be taken by EJ Wright.  Mr Crawford stood neutral on that question.  I consider that it would be too big <span style="text-decoration-line:underline;text-decoration-style:solid">an</span> ask to expect EJ Wright, who has already considered the matter three times, to put her previous views entirely out of mind.  It would be better now for the fresh decision to be taken by a different judge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Having also had submissions from both counsel on this point against the contingency that I allowed the appeal, I also do not propose to give any further direction to the tribunal as to the approach it should take.  In particular I will leave it to the tribunal as to whether it will allow any further materials to be put before it before deciding the application afresh, and as to whether it will allow further or fresh submissions to be made by the parties, and whether on paper or at a hearing.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1" style="text-align:center"><span style="font-style:italic">- - - - - - - - - -</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

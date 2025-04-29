@@ -1,0 +1,316 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/34"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/34"/>
+	  <FRBRdate date="2025-03-19" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="34"/>
+	  <FRBRname value="F v J"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/34"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/34"/>
+	  <FRBRdate date="2025-03-19" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/34/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/34/data.xml"/>
+	  <FRBRdate date="2025-03-19T10:49:02" name="transform"/>
+	  <FRBRdate date="2025-03-19T11:36:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="f" href="" showAs="F"/>
+	<TLCPerson eId="j" href="" showAs="J"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-barklem" href="/judge-his-honour-judge-barklem" showAs="HIS HONOUR JUDGE BARKLEM"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>34</uk:number>
+	<uk:cite>[2025] EAT 34</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>c86b4858fdea4cb5edc846a661a60f30e7c6ad7229006dcba2ba58c13a682fbc</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for a hand down</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">F v J</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 34</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-001186-LA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-19" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">19 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-barklem" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE BARKLEM</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MISS NATALIE SWIFT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MR ANDREW HAMMOND</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#f"><span style="font-weight:bold;font-size:12pt">F</span></party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#j"><span style="font-weight:bold;font-size:12pt">J</span></party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">F, the appellant appeared in person</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">AKUA REINDORF </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by [</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Eversheds Sutherland</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">]) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 11 December 2024</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Claimant suffered from Aspergers Syndrome, a form of Autistic Spectrum Disorder. He had concealed the fact that he had this disability for his entire working life from both family and employers, although he had made it known to the employer against whom the present claim had been brought.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">He was concerned, both from personal experience, as well as widely available material including academic research, that, were knowledge of his disability to become public it would have a serious adverse effect on his employability. He had indicated that he would not proceed with his claim absent anonymity.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This was the second appeal from the ET from this tribunal. The EAT held that the ET had set too high a bar for the claimant and had focussed on medical evidence and the fact that he had obtained employment, without having considered whether the new employer had been aware of the disability. This amounted to an error of law. Having all relevant material before it the EAT decided that there was only one possible outcome, namely that anonymity for both parties was not contrary to the public interest.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE BARKLEM:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In this judgment, we will refer to the parties as they were below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This is an appeal against the decision of an employment tribunal sitting at Nottingham, Employment Judge McTigue sitting alone, to refuse the claimant&#8217;s application for anonymity made under rule 50 of schedule 1 to the Employment Tribunals (Constitution and Rules of Procedure) Regulations 2013.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The hearing before Employment Judge McTigue was in fact the second time that the application had been considered, an earlier decision to similar effect having been remitted to the employment tribunal HHJ Auerbach sitting in this tribunal in 2023. His judgment is cited as <ref href="https://caselaw.nationalarchives.gov.uk/eat/2023/92" uk:canonical="[2023] EAT 92" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EAT 92</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As that judgment sets out the factual background to the underlying claim and relevant legal principles in considerable detail, we see little purpose in rehearsing these in this judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Put shortly the claimant is an academic who was employed as a university lecturer. In July 2021 he brought a claim alleging multiple complaints of disability discrimination at which time he was still employed by the respondent. That employment has since ended. He has, throughout, acted as a litigant in person other than when in receipt of assistance under the ELAAS scheme at an earlier stage in this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is common ground between the parties that the claimant suffers from autism spectrum disorder, and, in particular Aspergers Syndrome, which is accepted to be a disability for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant believes his disability to be hidden, and does not wish it to be disclosed publicly. He says that even close family members are not aware of his diagnosis. He believes that, were his disability to be disclosed, his future employability would be considerably reduced and, in addition, were he to resume his former employment as a teacher, knowledge of his disability amongst pupils would result in considerable disorder. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Before the employment tribunal he produced a witness statement running to 10 pages with six annexes which, he said, supported the claims which he made in the statement. Following the employment tribunal&#8217;s decision, a report was produced by Sir Robert Buckland entitled &#8220;the Buckland Review of Autism in Employment&#8221;. The claimant has added that to his bundle and we have read parts of it. However, the employment tribunal cannot be faulted for not having read a document which at that stage had not been published.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This appeal was permitted to go forward to a full hearing following a hearing under rule 3(10) at which the claimant was represented by counsel appearing under the ELAAS scheme. In his order of 21 August 2021 HHJ Tayler allowed the following grounds to be advanced:</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Ground 1: </span><span style="font-family:'Times New Roman';font-size:12pt">The Tribunal erred by applying the wrong test in its consideration of whether the Claimant&#8217;s concerns about future professional harm justified a derogation from the principle of open justice in the interests of justice. The Tribunal failed to apply the tests set out in in Millicom Services UK Ltd v Clifford <ref href="#" uk:canonical="[2023] ICR 663" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] ICR 663</ref> in that:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_3">
+	  <num style="font-size:12pt">(i)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It erroneously required the Appellant to demonstrate that his fears were founded on objective evidence; instead the Tribunal ought to have asked whether there was a reasonable basis for the claim for protection by anonymity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-size:12pt">(ii)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> The Tribunal erroneously applied a test of whether the Appellant&#8217;s subjective concerns were well founded. Instead, the Tribunal ought to have asked itself whether the Appellant&#8217;s subjective concerns &#8211; even if not well founded &#8211; were such as would prejudice the administration of justice if the order sought was not made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-size:12pt">(iii)</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.62in"><span style="font-family:'Times New Roman';font-size:12pt"> The Tribunal erroneously required the Appellant to demonstrate evidence of a particular threat to his specific career prospects and in so doing erroneously required the Claimant to prove a probability of professional harm. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Ground 2</span><span style="font-family:'Times New Roman';font-size:12pt">: Further or alternatively, the Tribunal&#8217;s finding that there was no foundation for the Claimant&#8217;s concerns about professional harm was perverse.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Respondent was represented before us by Ms Reindorf KC. Her stance was, taken as a whole, to accept the genuineness of the claimant&#8217;s belief as to the consequences of his name being in the public domain. Beyond that she relied on the skeleton argument which had been submitted earlier, which mirrored her submissions before the tribunal. Broadly she sought to uphold the decision of the employment judge as being in accordance with the relevant case law, and in particular Millicom Services UK Limited v Clifford 2023 ICR 663, a decision of the court of appeal, given by Warby LJ. That case involved very different facts, and concerned a witness rather than a party, but the principles are of relevance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> It is necessary to cite para 18 of the judgment under appeal in which it was said:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:12pt">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">F&#8217;s evidence was that he believed he would not be able to find a job in any educational setting if his autism were made public. In his witness statement he stated that there are published statistics, both unemployment rates among autistic people and also on attitudes to hiring autistic staff. Under cross examination, F gave evidence that after having left the employee of the respondent, he was now working in the education sector. He also accepted that none of the documents that he had annexed to his witness statement supported his assertion that he would not be able to find a job in the education sector in future if his autism were made public.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Before us, the claimant said that this paragraph made no sense. The thrust of his argument has always been that, were his condition to be made public he would find it extremely difficult to find work in the education sector. He accepted that it was not possible to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">prove </span><span style="font-family:'Times New Roman';font-size:12pt">something in the future which had not yet happened, and that a concession to that effect may well have been misunderstood by the employment judge. He pointed out that he would hardly have gone to the trouble of collating all these academic papers and other reports if he did not genuinely believe that the stigma attached to autism, including Asperger&#8217;s syndrome ,and the low employment rate of people with autism are such that, with the likely publicity arising from an employment tribunal claim laying bare his disability, his employment prospects would be severely and adversely affected.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Between paragraphs 33 and 37 of the judgement, the tribunal summarised the submissions of the parties citing case law which was referred to it. At paragraph 35 the tribunal noted the respondent&#8217;s submission that his fears regarding career prospects were not well founded or supported by objective evidence, neither was the psychological or medical evidence to support his contention that further disclosure of his disability would cause him any harm or indeed negative outcome. We pause to ask the rhetorical question how either psychological or medical evidence could possibly deal with the issue whether his fears that the stigma of his accepted autism would affect his future employability were well grounded. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At paragraph 42 of the judgment the tribunal held as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:12pt">42.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">I also take into account the possible harm disclosure of F&#8217;s condition would cause and, conversely, the extent to which the order sought would compromise the open justice principal. As to that, F provided no medical evidence that he would suffer any harm if his condition were disclosed. There was also no compelling evidence to support his claim that he would suffer harm in respect of his personal life and that he would be unable to form future relationships. With regard to harm to his employment prospects, the evidence that he produced for no relevance to his specific circumstances. He accepted that the article by Ameri and others primarily concerned the employability of individuals within the United States of America, not the United Kingdom. The other document that he used did not demonstrate that he would suffer damage to </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">his </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">specific career prospects. It is clear to me that F Is a highly intelligent individual with an established track record of employment. He is educated to doctorate level and has found alternative employment in education since leaving the employee of the respondent. On the evidence before it, the tribunal is not satisfied that his professional life will be damaged if and anonymisation is not granted in his case&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The papers which were attached to his witness statement, in our judgment, plainly raise serious issues as to whether someone with autism who declares it will suffer adversely from such declaration. That is manifest from the Ameri et al paper (referred to paragraph 12.2 of the judgment) which demonstrated, by way of a live experiment,  that relatively experienced professionally qualified people who made clear that they had autism on a job application had a much lower take up from prospective employees than relatively inexperienced applicants who did not make such a declaration. The fact that this survey took place in America seems to us largely irrelevant. As F said to us, how can he ever </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">prove</span><span style="font-family:'Times New Roman';font-size:12pt"> what may happen in the future? Although the employment tribunal reported that F obtained alternative employment in the education sector after leaving the respondent&#8217;s employment it did not say whether the new employer was aware of F&#8217;s disability, which was the key point in issue. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At para 46 of Millcom Warby LJ said this </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">&#8220;The EJ&#8217;s decision was based on a passage in Kaim Todner (above) at page 978 para 9 (Lord Woolf MR), later relied on in Moss v Information Commissioner <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/580" uk:canonical="[2020] EWCA Civ 580" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 580</ref> [55] (Haddon-Cave LJ). The EJ accepted the submission of Mr Callus that the effect of those passages is that &#8220;a party insisting that it would not continue a claim if anonymity were not granted&#8221; should not &#8220;be a factor which has any purchase&#8221; in the decision whether to grant anonymity; &#8220;[t]he basis for any injunction must be made out objectively&#8221; (see [82] of the judgment). This is too stark a statement of the position.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">What Lord Woolf said in the passage cited is this:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">&#8220;Outside the well established cases where anonymity is provided the reasonableness of the claim for protection is important. Although the foundation of the exceptions is the need to avoid frustrating the ability of the courts to do justice a party cannot be allowed to achieve anonymity by insisting on it as a condition for being involved in the proceedings </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">irrespective of whether the</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">demand is reasonable.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"> There must be some </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">objective foundation</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"> for the claim which is being made. (the emphasis is mine). </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">As I read her judgment, the EJ proceeded on the basis that her</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(erroneous) finding that there was no &#8220;objective&#8221; evidence of the risk contended for meant that there was no &#8220;objective foundation&#8221; for Mr Frechette&#8217;s fears. Eady J reached a slightly different conclusion: that the EJ had applied the test of whether the alleged risk of harm was &#8220;objectively verified&#8221;. But I do agree with what Eady P said at [99] and [102]: the EJ applied &#8220;&#8230; a different test to that which the ET had to apply when considering whether the order sought was necessary in the interests of justice&#8221;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"> As Eady P went on to say at [102]:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">&#8220;&#8230; in considering whether it ought to make an order under rule 50 ET Rules in the interests of justice, the question for the ET was whether [Mr Frechette&#8217;s] subjective concerns &#8211; even if not well-founded (see In re Officer L) &#8211; were such as would prejudice the administration of justice if the order sought was not made.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Turning to the grounds of appeal, having read the judgment as a whole we are satisfied that the employment tribunal set out too high a test for the claimant to surmount. It is inherently impossible to prove what will happen in the future. Medical and psychological evidence could well demonstrate the extent of the claimant&#8217;s disability, but could not possibly address the issue whether autism carried with it the stigma that the claimant asserted, and which gave rise to the fears which grounded his application. Moreover, it is difficult to see how any report could focus specifically on the claimant&#8217;s fears for his future without making some sort of assessment as to employability across the entire secondary and tertiary education spectrum. Again we ask, rhetorically how that could practically be done other than by way of a piece of experimental research of the sort carried out by Ameri and others. What F had to prove was that he had a reasonable foundation for his belief. We consider that is a relatively low evidential threshold.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although its decision set out the relevant legal principles in considerable detail we are satisfied that the employment tribunal erred in law in setting the wrong test for F to satisfy. In requiring him to prove objectively that his fears were well grounded, it was setting the bar too high as too would have been requiring medical evidence which could not possibly meet the specific concern that the claimant had raised. The tribunal made much of the fact that the claimant had obtained work following the termination of his employment with the respondent but did not ask the question whether the new employer was aware of his disability. Had it not been, then that could have been of no relevance whatsoever to the issue before the tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having reached that conclusion we ask ourselves what the correct disposal of the case should be. We have the benefit of all of the material that was before the employment tribunal. We also have the Buckland review, but observe that this does little more (for our purposes) than re-emphasise what the other material does, namely that those with autism are at a considerable disadvantage in the labour market. We have concluded unanimously, based on all of the material that we have read, that F&#8217;s concerns are genuinely held by him, and whilst it is simply impossible to say whether what he fears will indeed eventuate, should his name be published in connection with these proceedings, we consider that they have, at the very least, an objective foundation. We would go further and say that the material we have seen suggests that the belief is reasonable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The remains the open justice principle. This is of course important but the reality is that all of the facts that underline this case will be set out in any judgment. It seems to us that the identity of the parties is not critical to public understanding of the case &#8211; the lay members, in particular, consider that the interference with the principle of open justice is relatively minor, and far outweighs the genuine and, on our findings, reasonably held fears that the claimant holds.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In our judgment, therefore, there is only one possible outcome to the question before the employment tribunal based on the evidence that was before it, and in accordance with well established principles in that situation we are entitled to substitute for the tribunal decision our own. That decision is that both parties will be anonymised throughout these proceedings. The reason for the respondent being anonymised is that the level of detail which is likely to emerge in the proceedings is such that it would be highly likely to identify the claimant, were the respondent not similarly anonymised.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

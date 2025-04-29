@@ -1,0 +1,775 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/29"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/29"/>
+	  <FRBRdate date="2025-03-10" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="29"/>
+	  <FRBRname value="Brian Gourlay v West Dunbartonshire Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/29"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/29"/>
+	  <FRBRdate date="2025-03-10" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/29/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/29/data.xml"/>
+	  <FRBRdate date="2025-03-10T12:16:29" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-brian-gourlay" href="" showAs="MR BRIAN GOURLAY"/>
+	<TLCPerson eId="west-dunbartonshire-council" href="" showAs="WEST DUNBARTONSHIRE COUNCIL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>29</uk:number>
+	<uk:cite>[2025] EAT 29</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>7da3ddf93feee04b84b6a36473608c142708c210556b44f716e3c83c169e8794</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .Heading2 { font-size: 16pt; color: #365F91; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .NormalWeb { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .paragraph { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .LegalDrafting { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.59in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ng-star-inserted { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .text { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .c01pointnumerotealtn { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Revision { }
+#judgment .lltsoc { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .tg2kqf { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ssparanum { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legclearfix { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .ssit { }
+#judgment .ssbf { }
+#judgment .sssmcaps { }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .tabchar { }
+#judgment .FootnoteTextChar { font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .sslistlabel { }
+#judgment .sslistitemcontent { }
+#judgment .LegalDraftingChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar1 { font-style: italic; color: #404040; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #800080; }
+#judgment .Heading2Char { font-size: 16pt; color: #365F91; }
+#judgment .uv3um { }
+#judgment .gxzfx { }
+#judgment .clox1e { }
+#judgment .Emphasis { font-style: italic; }
+#judgment .ListParagraphChar { }
+#judgment .legds { }
+#judgment .legsubstitution { }
+#judgment .legaddition { }
+#judgment .apple-converted-space { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the Court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';color:#010302"> </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Gourlay v. West Dunbartonshire Council</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 29</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case Nos: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2024-SCO-000018-JP</docketNumber></p>
+      <p style="text-align:right"><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2024-SCO-000019-JP</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">52 Melville Street, Edinburgh EH3 7HF</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-10" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">10 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HONOURABLE LORD FAIRLEY, PRESIDENT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p style="text-align:center"><party refersTo="#mr-brian-gourlay" as="#appellant" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR BRIAN GOURLAY</party></p>
+      <p style="margin-left:5in;text-indent:0.5in"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party refersTo="#west-dunbartonshire-council" as="#respondent" style="font-weight:bold;font-size:12pt">WEST DUNBARTONSHIRE COUNCIL</party></p>
+      <p style="margin-left:5in;text-indent:0.5in"><role refersTo="#respondent"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Simon John</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, of Counsel,</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by McGrade &amp; Co.) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Stephen Miller</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, Solicitor Advocate, (instructed by Clyde &amp; Co.) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 27 February 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Summary </span></p>
+	    <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Discrimination; compensation for financial loss; causation</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The employment tribunal upheld the appellant&#8217;s complaints of (i) disability discrimination by failure to make reasonable adjustments; and (ii) victimisation. At a subsequent remedy hearing, it accepted evidence that, as a result of the respondent&#8217;s discriminatory conduct, the appellant developed a severe depressive episode which had made him permanently unfit for work. </span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal made an assessment of past and future wage loss and pension loss to the date of retirement but reduced that figure by 80% to reflect its assessment of the possibility that the appellant would, in any event, have sought an obtained ill health retirement on grounds unrelated to his severe depressive episode or, alternatively, that </span><span style="font-size:12pt">his employment with the respondent would have terminated by 31 March 2017, either by dismissal by the respondent on the basis of an irretrievable breakdown in working relationships or by a mutually agreed termination of employment on agreed terms. </span></p>
+	    <p><span style="font-size:12pt">The appellant contended that the tribunal had erred in law in applying any reduction to what was, on the basis of the findings in fact, a career long loss. The respondent cross-appealed contending that the tribunal should have awarded loss only to the date on which it had concluded that the appellant would have been lawfully dismissed in any event. Alternatively, it should have apportioned loss on the basis of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">BAE Systems (Operations) Limited v. Konczak</span><span style="font-size:12pt;color:#010302"> [2017] IRLR 893.</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-size:12pt">Held: </span></heading>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-size:12pt">The appellant was correct to submit that the tribunal had erred in law in several material respects in reducing the award for past and future wage loss and pension loss. The principal appeal accordingly succeeded. The tribunal&#8217;s judgment on that issue was set aside and remitted to a differently constituted tribunal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-size:12pt">The respondent&#8217;s submission that financial loss inevitably ceased at the date when the appellant would have been lawfully dismissed was wrong. It was based upon the same error of law made by the tribunal. On the findings of fact made by the tribunal, there was also no basis on which to apportion harm.  The cross-appeal was therefore refused.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">The Hon. Lord Fairley (President)</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#000000">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">These two appeals were lodged on consecutive days and were ultimately heard together on 27 February 2025. The first is an appeal by Mr Brian Gourlay. The second is by the respondent, West Dunbartonshire Council. Both appeals relate to the same remedy judgment dated 30 January 2024 of a full tribunal sitting at Glasgow, chaired by Employment Judge Ian McPherson.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">For simplicity, I will refer to Mr Gourlay as &#8220;the appellant&#8221;, to West Dunbartonshire Council as &#8220;the respondent&#8221;, to Mr Gourlay&#8217;s appeal as &#8220;the principal appeal&#8221; and to the respondent&#8217;s appeal as &#8220;the cross-appeal&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The principal appeal and the cross-appeal each relate to the aspect of the tribunal&#8217;s remedy judgment in which it made an award for past and future wage and pension loss (referred to in together in the tribunal&#8217;s reasons as &#8220;economic loss&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#010302">Facts and issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The appellant was formerly employed by the respondent as a Corporate Health and Safety Officer. His employment commenced 28 April 2008 and ended on 15 September 2015 by summary dismissal for the stated reason of gross misconduct. He presented a claim form to the employment tribunal in which he made complaints of unfair dismissal, disability discrimination and victimisation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Following a very lengthy merits hearing in 2020 and 2021, the tribunal upheld the appellant&#8217;s complaints of unfair dismissal, victimisation and disability discrimination by failure to make reasonable adjustments. Certain other complaints did not succeed. The respondent&#8217;s liability for the reasonable adjustments complaint consisted of failures by the respondent to provide the appellant with items of office equipment which would have reduced the disadvantages experienced by him by reason of his condition of multiple sclerosis. The established acts of unlawful victimisation &#8211; which all occurred in 2015 &#8211; consisted of suspending the appellant, dismissing him, and thereafter refusing his appeal against dismissal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The remedy hearing took place over three days in early March 2023. Members&#8217; meetings were held in April and May of 2023, and January of 2024, and the judgment was finally issued to parties on 30 January 2024. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal&#8217;s reasons from the remedy hearing are very lengthy. As will be noted below, they are, at times, muddled. Determining what the tribunal decided and why it did so has proved challenging, but ultimately not impossible. I will refer to paragraphs of the tribunal&#8217;s reasons as &#8220;ET &#167;&#8221; with the relative paragraph number. Within ET &#167; 49, the tribunal made 100 findings in fact which I will refer to, as the tribunal did in brackets as sub-paragraphs of ET &#167; 49.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">An unusual feature of the reasons is the way that the tribunal made its findings of fact. At times this was simply by verbatim incorporation of lengthy documents including parts of the appellant&#8217;s witness statement, and most of the material elements of three expert reports. The tribunal stated that whilst it found the appellant to be, on occasions, pedantic, it considered his witness statement to be truthful. The tribunal seems also to have found the experts to be credible and reliable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It was common ground at the remedy hearing that by at least 15 September 2015, the appellant had developed a psychiatric illness &#8211; a severe depressive episode &#8211; as a result of which he was likely to be permanently unable to work. These matters were reflected in the tribunal&#8217;s findings in fact at ET &#167; 49(18), (71) and (92). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The disputed issues at the remedy hearing related to causation and quantum. The appellant&#8217;s position was that his psychiatric illness was caused by the respondent&#8217;s acts of discrimination. The respondent&#8217;s primary position was that the cause of the appellant&#8217;s psychiatric condition could not be identified with sufficient clarity as to justify any such conclusion. At ET &#167; 207, the respondent is also noted as having submitted, in the alternative, that even if the respondent&#8217;s discriminatory acts were a partial cause of his psychiatric illness, there was insufficient clarity in the evidence to allow the tribunal to apportion the loss in accordance with </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Thaine v. LSE</span><span style="font-size:12pt;color:#010302"> [2010] ICR 1422, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Olayemi v. Athena Medical Centre</span><span style="font-size:12pt;color:#010302"> [2016] ICR 1074, and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">BAE Systems (Operations) Limited v. Konczak</span><span style="font-size:12pt;color:#010302"> [2017] IRLR 893. Ultimately, however, that alternative position was not advanced in the cross-appeal. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#010302">The remedy hearing and the tribunal&#8217;s conclusions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Only two witnesses gave oral evidence at the remedy hearing. The appellant adopted his witness statement and gave supplementary oral evidence and in chief and cross. He also led evidence from a consultant psychiatrist, Dr Alisdair Kinniburgh who spoke to two psychiatric reports prepared by him.  The appellant also produced a pension report from Dr John Pollock, Fellow of the Institute and Faculty of Actuaries, but Dr Pollock did not give oral evidence. The tribunal notes in its reasons that it had before it a joint bundle of 29 documentary productions extending to 219 pages, to which it had regard.  The respondent led no evidence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">On the issue of causation, Dr Kinniburgh gave evidence (which the tribunal recorded as a finding in fact within ET &#167; 49(71) that:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;&#8230;the failure to make reasonable adjustments at work in response to [the appellant's] needs and requests has precipitated a significant depressive illness, which resulted in him being off work at various points from 2013 onwards. This depressive illness worsened over time, especially after his unfair dismissal and the rejection of his appeal. These events were extremely traumatic for [the appellant] and he continues to have trauma symptoms in the form of intrusive memories to the present day.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal also recorded &#8211; again as a finding in fact based upon Dr Kinniburgh&#8217;s second report (ET &#167; 49(74) &#8211; that the illness began as an adjustment disorder which then developed into a depressive episode in 2013. As Dr Kinniburgh explained:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;In summary, therefore, while at the very start of his illness Mr Gourley may have experienced an adjustment disorder, once his illness had lasted more than six months or so his condition would have been more accurately classified as a severe depressive episode. Unfortunately this condition has become chronic with evidence of ongoing symptoms to the present day.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">Mr Gourley's condition, as described above, is likely to have started and gradually worsened during 2013. The exact date of onset is not known, but we do know that his illness reached a degree of severity whereby Mr Gourley was no longer fit to work from August 2013.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal ultimately rejected the respondent&#8217;s submission that the evidence about causation was too uncertain to allow it to reach any conclusion. At ET &#167; 201, it stated:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;We have carefully considered the evidence that was presented to us. We were particularly influenced by Dr Kinniburgh&#8217;s evidence that the failure to make reasonable adjustments at work precipitated a significant depressive illness and that this worsened over time especially after the dismissal and appeal rejection, becoming a chronic condition.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Curiously, however, and having incorporated all of Dr Kinniburgh&#8217;s material conclusions into its findings of fact at ET &#167; 49(71) and (74)), the tribunal then made the following finding at ET &#167; 49(100):</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;On the evidence available to the Tribunal, at this Remedy Hearing, the Tribunal is satisfied that the claimant suffered a psychiatric injury as a result of his unlawful victimisation by the respondents, and that he has suffered injury to his feelings in respect of that victimisation, and in respect of the respondents&#8217; failure to make reasonable adjustments.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Why the tribunal expressed itself in that way is unclear. The observation at ET &#167; 201, and the tribunal&#8217;s acceptance of Dr Kinniburgh&#8217;s evidence does not explain why, at ET &#167; 49(100) it then limited its finding on causation of financial loss to the acts of victimisation in 2015. Dr Kinniburgh&#8217;s uncontradicted evidence was that that the initial onset of the illness was the result of the unlawful failure to make adjustments from 2013 onwards and that the illness was then made worse by the continuing failure to make adjustments and ultimately by the acts of victimisation in 2015. This anomaly in the tribunal&#8217;s reasons, whilst puzzling, may ultimately be of little relevance, as the failure to make adjustments and the victimisation were both unlawful acts of discrimination which, on the accepted evidence of Dr Kinniburgh, combined to cause the severe depressive condition which the appellant now has.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In particular, at ET &#167; 208 and 210, the tribunal stated:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">208</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">We considered whether there were factors (other than those found to be unlawful acts of the respondents) that could be responsible for the claimant&#8217;s adjustment disorder and subsequent depressive condition. However, there was no counter expert evidence presented on behalf of the respondents to displace Dr. Kinniburgh's expert opinion. It was put to Dr Kinniburgh in cross-examination that the natural course of MS could have caused the depressive disorder. Doctor Kinniburgh discounted that as he noted that the claimant was someone who was very work and study oriented and the trigger for depression and unfitness was what happened at work.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">210</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">We agree with [the claimant&#8217;s counsel] that the respondents have not been able to identify a credible alternative cause for the depressive condition nor have they caused us to doubt the evidence given by Dr Kinniburgh.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal then considered the relevant heads of compensation. At paragraphs 214 to 243 of its reasons, it considered past and future wage loss and pension loss. It began by noting that it was not disputed that the appellant was permanently incapacitated and had been so since at least the date of his dismissal in 2015. It also noted its acceptance of Dr Kinniburgh&#8217;s evidence on causation. At paragraphs 219-223, the tribunal then stated:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">219.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">However, the tribunal considered that the impact of the claimant&#8217;s combined health conditions meant that there was a significant chance that he would not have worked until normal retirement age. The claimant has MS. By the time of his dismissal it had become secondary progressive, and the claimant accepted in evidence that he had ongoing problems with his health although he considered good autonomy in his job was helpful in managing his MS. He had also been diagnosed with type 2 diabetes in May 2015. While everyone would hope that the progression of both diseases would be slow, the tribunal considered that it was unlikely that, setting aside the unlawful acts, the claimant would have remained fit for work to the age of 67.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">220</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">The tribunal was supported in this assessment by the fact that the respondents had been making inquiries about the possibility of ill health retirement prior to 2015. We note from our factual findings in our liability judgment (para 49) that, at a meeting on 14 January 2015, the claimant indicated that he would be interested in the possibility of ill health early retirement as he was mindful of the deterioration of his health. This was before the claimant was dismissed when his mental health significantly deteriorated.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">221</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">The tribunal considered it possible that this option could have been offered to the claimant and he could have applied for it at some point before retirement age. The tribunal also notes that the claimant himself said at paragraph 48 of the conjoined paper apart to ET1 that &#8220;</span><span style="font-style:italic;font-weight:bold;font-size:12pt">Had not the Claimant been suspended and dismissed for a disciplinary reason, he would almost certainly been retired on the grounds of ill health</span><span style="font-size:12pt">&#8221;. Although when that was put to the claimant he said that things had moved on, the tribunal considered that such a statement was an indication that ill health retirement was a likely outcome if the discriminatory dismissal had not happened. As such, the tribunal does not see how the claimant can argue now that he would have remained fit for work to the age of 67.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">222</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">While the claimant, in his evidence to the tribunal, stated that he held a belief that he would have been capable of continuing to work until his normal retirement age at age 67, the tribunal is not so satisfied that he would have so continued. The tribunal has preferred the expert psychiatric evidence from Dr Kinniburgh, in his supplementary report, that the claimant is &#8220;</span><span style="font-style:italic;font-weight:bold;font-size:12pt">now to all intents and purposes permanently unfit for work</span><span style="font-size:12pt">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">223</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">Further, the tribunal considers that the deterioration of the claimant&#8217;s relationship with his senior managers made it likely that, even if the claimant did not apply for early ill health retirement, his employment would have been lawfully terminated before his normal retirement age.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">224</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8230; [O]n the evidence available to us, we find that had the claimant not been dismissed by the respondents on 24 September 2015, or had his internal appeal been upheld&#8230; on 25 August 2016, and he had been reinstated to his post, then it is more likely than not that he that the claimant would not have continued in their employment after 31 March 2017.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">225</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">We find that, by no later than 31 March 2017, the claimant&#8217;s employment with the respondents would more likely than not have terminated, either by dismissal by the respondents on the basis of an irretrievable breakdown in working relationships between the claimant and the respondents, or by a mutually agreed termination of employment on agreed terms.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal rejected a submission for the respondent that it should make a finding in fact as to the date on which ill health retirement would have happened in any event. Based on its findings and conclusions at paragraphs 219-225, however, the tribunal stated (at paragraphs 232 and 233):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">232</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">We consider that a percentage reduction is a more appropriate and fair way to reflect what we consider to be a strong possibility that the claimant may have either retired early by way of ill health retirement or that his employment may have been lawfully terminated due to a breakdown in relationships. We accept this as inevitably a broad-brush assessment and may over or under compensate the claimant for economic loss but that is the nature of such determinations.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">233</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">The tribunal has assessed the chance that the claimant&#8217;s employment would have come to an end before the age of 67 (his normal retirement age) at </span><span style="font-weight:bold;font-size:12pt">80%</span><span style="font-size:12pt"> and so any award for loss of earnings or pension loss should be reduced by this amount. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal calculated 100% of the appellant&#8217;s financial loss to be &#163;624,803.18 (being past wage loss of &#163;205,659.49, future wage loss of &#163;221,713.69 and pension loss of &#163;197,430). It then applied an 80% reduction to that figure to give a final figure of &#163;124,960.64, which it awarded in paragraph 2 of its judgment.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#000000">Submissions in the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The appellant submitted that: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-size:12pt">The tribunal had failed to explain why it rejected expert medical evidence as to the likelihood of the appellant being able to continue in work to his retirement age (ground 1). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-size:12pt">It was an error of law and perverse for the tribunal to have reduced the award for wage and pension loss by 80%. In any event, it was an error for the tribunal not to have given credit for the loss of Tier 1 (ill health) retirement benefits (ground 2); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-size:12pt">On the findings of fact made by the tribunal it was an error of law for the tribunal not to have awarded full loss to retirement age (ground 3). </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The respondent&#8217;s primary position was not to seek to defend the approach taken by the tribunal to percentage reduction. Rather, and in similar terms to its first ground of cross-appeal the respondent submitted that the tribunal should have awarded no loss at all after 31 March 2017 having regard to its conclusion at ET &#167; 225. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Alternatively, the respondent submitted that there was, in any event, a proper basis in the evidence for the tribunal to have concluded that the appellant would have taken ill health retirement for reasons un-related to his psychiatric condition, and this justified the reduction made. The tribunal had given adequate reasons for that approach, which was not perverse. The respondent accepted, however, that the value of Tier 1 benefits had not been properly taken into account on this hypothesis. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#000000">Analysis</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-size:12pt">Principal appeal, ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The premise of the first ground of the principal appeal is that the tribunal rejected the evidence of Dr Kinniburgh. That, however, does not seem to be correct. Apart from the anomaly in the reasons to which I have made reference at paras. 15 and 16 above, the tribunal appears to have accepted the whole of Dr Kinniburgh&#8217;s evidence. That was reflected in its incorporation of the material elements of his two reports into its findings of fact in ET &#167; 49. As I have already noted, the evidence of Dr Kinniburgh was uncontradicted as the respondent led no contrary evidence. There is nothing in the tribunal&#8217;s reasons to suggest that it rejected Dr Kinniburgh&#8217;s evidence either on causation, or on the effect and likely duration of the appellant&#8217;s psychiatric illness. Dr Kinniburgh did not, however, give evidence about either of the two matters which caused the tribunal to reduce the award for financial loss. Those matters are the focus of grounds 2 and 3 in the principal appeal to which I now turn.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-size:12pt">Principal appeal, grounds 2 and 3</span></p>
+	    <p><span style="font-style:italic;font-size:12pt">Legal principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The starting point is section 124 of the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Equality Act 2010</span><span style="font-size:12pt;color:#010302"> which states:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">124 Remedies: general </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(1)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This section applies if an employment tribunal finds that there has been a contravention of a provision referred to in s 120(1). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(2)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;text-indent:1in"><span style="font-family:'Times New Roman'">The tribunal may&#8212; ... </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(b)</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;text-indent:1in"><span style="font-family:'Times New Roman'">order the respondent to pay compensation to the complainant; .... </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">(6)The amount of compensation which may be awarded under subsection (2)(b) corresponds to the amount which could be awarded by&#8230; the sheriff [court] ....&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Subject to the qualification that there is no requirement that the loss should have been reasonably foreseeable, compensation for discriminatory conduct should be assessed in the same way as damages for a statutory delict / tort (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Hurley v Mustoe (No 2)</span><span style="font-size:12pt;color:#010302"> [1983] ICR 422, EAT; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Essa v. Laing Limited</span><span style="font-size:12pt;color:#010302"> [2004] ICR 746). The task of a tribunal in assessing compensation for a respondent&#8217;s discriminatory acts and omissions is to put the claimant in the same position in which he would have been but for the unlawful conduct of the employer (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Ministry of Defence v. Cannock</span><span style="font-size:12pt;color:#010302"> [1994] ICR 918 at 936).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is necessary for the tribunal to consider and, if appropriate, take into account the chance that the employer might still have caused the same damage lawfully if it had not discriminated (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Livingstone v. Rawyards Coal Co.</span><span style="font-size:12pt;color:#010302"> (1880) 5 App Cas 25; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Abbey National plc v. Chagger</span><span style="font-size:12pt;color:#010302"> [2010] ICR 397). Part of that exercise may include considering whether the employee might in any event have been dismissed lawfully in any event. As was noted in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chagger</span><span style="font-size:12pt;color:#010302">, however (at para. [58]):</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;The justification for reducing compensation in that proportionate way is that, even if there had been no discrimination, Mr Chagger would have been at risk of being lawfully dismissed and, if he had been, </span><span style="font-style:italic;font-size:12pt">he would have been on the labour market in similar circumstances to those which actually occurred</span><span style="font-size:12pt">.&#8221; (emphasis added)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p><span style="font-size:12pt">Thus, at para. [69] of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Chagger</span><span style="font-size:12pt"> the court explained:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;The task is to put the employee in the position he would have been in had there been no discrimination; </span><span style="font-style:italic;font-size:12pt">that is not necessarily the same as asking what would have happened to the particular employment relationship had there been no discrimination</span><span style="font-size:12pt">.&#8221; (emphasis added)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">As the highlighted passages of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chagger</span><span style="font-size:12pt;color:#010302"> make clear, in assessing compensation for a discriminatory dismissal, the tribunal must look at any effect which such a dismissal has had upon the ability of the employee to find work elsewhere. It must compare the effect of the two scenarios of the discriminatory dismissal on the one hand and a non-discriminatory dismissal on the other. Only if a similar impediment would still have resulted from a lawful dismissal, will a reduction of compensation be appropriate. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-style:italic;font-size:12pt">The effect of a lawful dismissal &#8211; ET &#167; 223-228</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraphs 223-225, the tribunal considered the issue of whether the appellant&#8217;s employment with the respondent might have been terminated lawfully. In so doing, however, it failed to recognise that, on the findings it had already made, the respondent&#8217;s acts of discrimination had caused an ongoing psychiatric illness that rendered the appellant permanently incapable of working from at least September 2015. Applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chagger</span><span style="font-weight:bold;font-size:12pt;color:#010302"> </span><span style="font-size:12pt;color:#010302">at paragraphs [58] and [69], the correct question for the tribunal was whether it was possible that a lawful and non-discriminatory dismissal would have had that same effect. The tribunal did not consider that question. It considered only whether there would (or might) have been a lawful dismissal. It erred in failing to consider what the effect of a lawful dismissal may have been. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is not apparent that Dr Kinniburgh was ever asked about this point. Even, therefore, if the tribunal had identified and considered the correct question, it does not seem that it would have had before it any evidence that a non-discriminatory dismissal might have put the appellant on the labour market in a similar situation to that which actually occurred -  a career-long psychiatric illness which prevented him from working. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">These points alone lead inevitably to the conclusion that the tribunal&#8217;s decision to reduce the award for economic loss by 80% was based upon a material error of law. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic;font-size:12pt">The possibililty of ill health retirement &#8211; ET &#167; 219-222 and 229-231</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In considering the possible counter-factual scenario of ill-health retirement, the tribunal also erred in law. The first error made by it was to conflate the separate issues of (i) whether, but for the discriminatory acts, the appellant would have remained fit for work; and (ii) assuming such fitness, whether or not he would in fact have continued to work until normal retirement age. The former question was principally one for medical opinion, and was unrelated to the latter. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At ET &#167; 222, however, the tribunal expressed what seems to have been an important part of its reasoning. There, it concluded that Dr Kinniburgh&#8217;s evidence on the issue of psychiatric incapacity was at odds with appellant&#8217;s evidence that, had the respondent not made him psychiatrically unwell, he would have intended to work until the age of 67 and would have done so. That conclusion is obviously illogical and plainly wrong. Apart from the tribunal&#8217;s conflation of two different questions, its reasoning also illustrates a failure to appreciate that Dr Kinniburgh&#8217;s evidence on incapacity related exclusively to the psychiatric issues that were caused by the respondent&#8217;s unlawful discrimination. His evidence did not amount to an opinion about the appellant&#8217;s health prognosis more generally. Once that is appreciated, the tribunal&#8217;s observation at ET &#167; 222 that it &#8220;preferred the expert psychiatric evidence&#8221; to that of the appellant makes no sense. It is perverse, and demonstrates that the tribunal did not understand the issues it should have been considering.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">This same muddled reasoning is also evident in the tribunal&#8217;s comments (at ET &#167; 221) about the appellant&#8217;s pleaded case. Within the passage quoted by the tribunal from the ET1, the appellant was plainly describing an alternative potential outcome of ill health retirement </span><span style="font-style:italic;font-size:12pt;color:#010302">because of the psychiatric illness caused by the respondent</span><span style="font-size:12pt;color:#010302">. The context of the quoted averment in the ET1 &#8211; which is found in the section of the appellant&#8217;s pleadings on loss &#8211; was a suggestion that even the possibility of enhanced (Tier 1) ill health retirement had ultimately been closed off by the discriminatory dismissal. The quoted section of the ET1 was not, on any rational view of it, an averment that the appellant would have become unfit for work and sought ill health retirement for reasons unrelated to the respondent&#8217;s discrimination.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Paragraph 25 of the appellant&#8217;s witness statement, which was recorded uncritically by the tribunal at ET &#167; 49(90) as one of its findings in fact, stated:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;If my employer had done what had been asked of them and which was required of them, from as early as around August / September 2013, then I would have had no reason to have been interested in the possibility of ill health early retirement in January 2015. That is because I would have been fit enough to attend work. The only reason I explained in January 2015 that I was interested in the possibility of ill health early retirement (only after I was asked) is because attending work was making me ill, and that in turn was because of the failings on the part of my employer.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Again, therefore, the reasoning at ET &#167; 221 is perverse. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Within this same passage of its reasons, the tribunal also failed to recognise that that it had no evidential basis on which to conclude that the appellant&#8217;s conditions of multiple sclerosis and / or diabetes might, at some point, have advanced to a stage where they may have led to ill health retirement (cf </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Buxton v. Equinox Design Limited</span><span style="font-size:12pt;color:#010302"> [1999] ICR 269). It made no findings of fact about what degree of incapacity as a result of those conditions would have been required before the appellant would have become eligible for ill health retirement. More importantly, it did not hear from any skilled medical witness about the extent to which the non-psychiatric conditions might have affected the appellant had his employment continued after 2015. Dr Kinniburgh could not have expressed any opinion on that issue and, properly, he did not try to do so. The outer limit of his assistance to the tribunal on multiple sclerosis and diabetes was in considering a suggestion that either or both may have contributed to the appellant&#8217;s psychiatric ill health. That proposition was put to him in cross examination, and he rejected it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The findings of fact made by the tribunal accordingly reveal no proper basis for a conclusion that the appellant&#8217;s non-psychiatric health conditions might have led to ill health retirement in any event. The conclusions reached by the tribunal at ET &#167; 219 were based entirely upon speculation rather than upon evidence. Once again, they are perverse. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I also agree with the appellant that the tribunal failed, in any event, properly to apply </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Ministry of Defence v. Cannock</span><span style="font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chagge</span><span style="font-size:12pt;color:#010302">r to the ill health retirement hypothesis. Tier 1 retirement on ill health grounds was plainly something that would have had a value to the appellant. The tribunal recorded &#8211; again as a finding in fact &#8211; the appellant&#8217;s evidence that: </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;My understanding is that I am not able to claim Tier 1 ill-health early retirement benefits, and that is because I was not retired on ill-health grounds, and because of my dismissal I am no longer a member of the Local Government Pension Scheme.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Even if there had been an evidential basis to conclude that ill health retirement on other grounds was a possible counter-factual scenario, the measure of the loss caused by the discriminatory dismissal ought still to have given credit for the loss of enhanced Tier 1 retirement benefits (or the chance thereof), either to the normal retirement date or, arguably, on a lifelong multiplier, appropriately adjusted for contingencies. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The tribunal expressly declined the respondent&#8217;s invitation to fix a specific date on which ill health retirement would have occurred in any event. Some approximate assessment of that issue would still have been necessary, however, before the tribunal could have made any meaningful attempt at identifying an appropriate percentage reduction. The tribunal&#8217;s conclusion that the appellant might have retired on ill health grounds at some undefined point between 2015 and his normal retirement date in November 2029 was not such a basis. This was, again, an error of law.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-size:12pt">Summary of conclusions on the principal appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I therefore agree with the submissions made under ground of appeal 2, and that is sufficient to dispose of the merits of the appeal. The tribunal&#8217;s decision to reduce compensation by 80% was based upon perverse conclusions and material errors of law. The element of the tribunal&#8217;s judgment which related to past and future wage loss and pension loss (paragraph 2 of its judgment) must, therefore, be set aside.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I also agree in principle with ground 3 that, on the findings in fact it made, the tribunal should have regarded this as one of the rare class of cases where a career-long award for financial loss ought to have been made. I will return to the implications of this below when I consider disposal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The issue of disposal also depends upon the outcome of the cross-appeal, to which I now turn.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-weight:bold;font-size:12pt">The cross appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Although three grounds of cross-appeal were sifted to a full hearing, only two (grounds 1 and 2) were ultimately insisted upon.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="font-style:italic;font-size:12pt">Cross-appeal, ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The first point made by the respondent (ground 1) is that, having concluded that the appellant&#8217;s employment with the respondent would have come to an end lawfully by 31 March 2017 (ET &#167; 225), the tribunal erred in awarding any compensation for any period after that date. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It was contended that </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Software 2000 Limited v. Andrews</span><span style="font-size:12pt;color:#010302"> [2007] ICR 825 &#8211; a case on compensation for unfair dismissal &#8211; was also authority for a staged approach to considering compensation for financial loss in a discrimination case. Specifically, it was submitted that if a tribunal is able to conclude, on a balance of probability, that a fair dismissal would have occurred anyway at a particular date, it should stop there and award loss only to that date. Only if it is not able to conclude that a fair dismissal would, on balance of probability, have occurred by such a date should the tribunal look at the question of reduction of the award based upon a percentage chance.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Having regard to what was said by the Court of Appeal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chagger</span><span style="font-size:12pt;color:#010302"> at para. 78, I doubt that the respondent&#8217;s submission on this issue is correct. In the present case, however, it is not necessary to decide the point because this ground of the cross-appeal is based upon precisely the same error of law as was made by the tribunal. It asks the wrong question. As already noted, what the tribunal was considering, on its own findings, was discriminatory conduct which caused a career-long debilitating psychiatric condition. The date on which the appellant&#8217;s employment with the respondent would (or even might) have ended lawfully was not, of itself, relevant in the absence of further evidence as to the effect of such a lawful dismissal upon the appellant&#8217;s mental health. As noted above, the tribunal did not consider that question, and does not seem to have had any evidence about it. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-style:italic;font-size:12pt">Cross-appeal, ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Under ground 2, the respondent submits that the tribunal erred in concluding that it had no evidence to assess apportionment of the causes of the appellant&#8217;s psychiatric ill health and / or that it applied the wrong standard to judge that question. The tribunal, it is suggested, had other evidence of cause(s) of the appellant&#8217;s ill health which were not related to the respondent&#8217;s discriminatory acts. The tribunal&#8217;s focus on &#8220;cause&#8221; was unjustifiably narrow. It should have considered other material contributory factors. The tribunal did not &#8220;engage with relevant evidence&#8221; and thus &#8220;deprived the respondent of the opportunity to benefit from a conclusion that it was only partly responsible for the appellant&#8217;s psychiatric condition&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">As was noted in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">BAE Systems</span><span style="font-size:12pt;color:#010302">, the issue of apportionment of harm is concerned with the possible divisibility of such harm. The question is whether the tribunal can identify, however broadly, a particular part of the harm which is not due to the wrong. An example given in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">BAE Systems</span><span style="font-size:12pt;color:#010302"> was the situation of exacerbation of a pre-existing condition not itself caused by a wrongful act of the respondent. In a case of psychiatric harm, the tribunal should consider whether the evidence allows a rational conclusion to be drawn that some part of the illness was caused by the employer&#8217;s wrongful conduct and some part by another factor or factors. The answer to this will always depend upon the evidence, and the tribunal may conclude that there is no basis on which to apportion harm. Before harm can be apportioned, however, the tribunal has to be satisfied that there was more than one factor which caused or materially contributed to the harm. In principle, it would have been an error of law for the tribunal not to have considered the question.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is not apparent that the tribunal made any such error. The tribunal ultimately accepted the uncontradicted evidence of Dr Kinniburgh that there was only one cause of the psychiatric illness, and that was the respondent&#8217;s unlawful discrimination. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">On the findings of fact made by the tribunal there were no other contributory factors to that condition, and it is clear from the tribunal&#8217;s reference at ET &#167; 210 to having considered &#8220;contemporaneous medical documentary evidence&#8221; that it properly addressed its mind to that issue. Its acceptance of Dr Kinniburgh&#8217;s evidence that the respondent&#8217;s discriminatory acts cased the illness is a complete answer to this ground of the cross-appeal. That was an issue of fact which was an issue for the tribunal.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p><span style="font-weight:bold;font-size:12pt">Conclusions and disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">For these reasons, I will refuse the cross-appeal and, in terms of ground 2 of the principal appeal, I will set aside paragraph 2 of the tribunal&#8217;s judgment of 30 January 2024. As I have already noted, I also agree in principle with the point made in ground 3 of the principal appeal. It does not follow, however, that I am able simply to substitute an award the appellant invited me to do. There are two reasons for that. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">First, I was advised that the appellant currently receives some form of pension (albeit not Tier 1) and has been in receipt of such a pension since 2018. Arguably, that would require to be taken into account in any assessment of past and future loss. Whilst the original tribunal may already have done so in its calculations at ET &#167; 234 </span><span style="font-style:italic;font-size:12pt;color:#010302">ff</span><span style="font-size:12pt;color:#010302"> it does not seem to me that the point is sufficiently clear. The tribunal refers to having deducted &#8220;state benefits&#8221;, but I am not clear whether or not that is a reference to pension, and I do not consider that I have the necessary information to determine that issue. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Secondly, and regrettable as this may be, almost two years have now passed since the start of the remedy hearing. It is possible &#8211; I put it no higher &#8211; that the factual position on financial loss may have changed in that time. The sum at stake is significant, and the tribunal to which the case is remitted should not be put in the position of having to determine financial loss on a factual basis which is obviously no longer correct. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">I </span><span style="font-size:12pt;color:#010302">was advised by parties that the Employment Judge who chaired the tribunal at the remedy hearing has now retired. I will therefore remit the task of making an appropriate award for past and future wage loss and pension loss to a differently constituted tribunal nominated by the President of the Employment Tribunals in Scotland.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">If that tribunal is able to determine the issue remitted to it simply on the basis of the findings of fact made by the previous tribunal and the guidance given in this judgment, it should do so. It may, however, consider that it requires to hear further evidence on the updated factual position since 2023. It is at liberty to do so should it regard that as appropriate. Any application by either party to lead further evidence that should have been available at the remedy hearing in 2023 would, of course, still be subject to the principles set out in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Ladd v. Marshall</span><span style="font-size:12pt;color:#010302"> [1954] 1 WLR 1489. </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

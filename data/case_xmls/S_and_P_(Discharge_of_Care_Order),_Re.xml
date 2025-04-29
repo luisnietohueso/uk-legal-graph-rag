@@ -1,0 +1,1708 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/30"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/30"/>
+	  <FRBRdate date="2025-02-14" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="30"/>
+	  <FRBRname value="S and P (Discharge of Care Order), Re"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/30"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/30"/>
+	  <FRBRdate date="2025-02-14" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/30/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/30/data.xml"/>
+	  <FRBRdate date="2025-02-21T10:07:37" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-14" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-mother" href="" showAs="A MOTHER"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A LOCAL AUTHORITY"/>
+	<TLCPerson eId="a-father" href="" showAs="A FATHER"/>
+	<TLCPerson eId="s-a-child" href="" showAs="S (A CHILD)"/>
+	<TLCPerson eId="p-a-child-acting-by-his-guardian" href="" showAs="P (A CHILD ACTING BY HIS GUARDIAN)"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-sharpe" href="/judge-his-honour-judge-sharpe" showAs="His Honour Judge Sharpe"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>30</uk:number>
+	<uk:cite>[2025] EWFC 30 (B)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>007a5d6015920378ac7d020bb92445f9d3e5f2e6641a4d455435566a8f099eee</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Californian FB'; font-size: 11pt; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { margin-left: 0.25in; font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #467886; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .apple-converted-space { }
+#judgment .authorortitle { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-left:0in;text-indent:0in;border:0.5pt solid"><span style="font-weight:bold;color:#FF0000">This  judgment was delivered in private.  The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of any child or member of their family must be strictly preserved.  All persons, including representatives of the media, must ensure that this condition is strictly complied. Failure to do so will be a contempt of court.</span></p>
+      <p style="text-align:right;margin-left:0in;text-indent:0in"><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2025] EWFC 30</neutralCitation><span style="font-weight:bold"> B</span></p>
+      <p style="text-align:right;margin-left:0in;text-indent:0in"><span style="font-weight:bold">Case No. </span><docketNumber style="font-weight:bold">LV24C50426</docketNumber></p>
+      <p><courtType refersTo="#ewfc" style="font-weight:bold;font-family:'Times New Roman';color:#000000">IN THE FAMILY COURT</courtType></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">SITTING AT LIVERPOOL</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The Liverpool Civil &amp; Family Court</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">35 Vernon Street, Liverpool, L2 2 BX</span></p>
+      <p style="text-align:right"><docDate date="2025-02-14" refersTo="#judgment" style="font-weight:bold;font-family:'Times New Roman';color:#000000">14 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-sharpe" style="font-weight:bold;font-family:'Times New Roman';color:#000000">His Honour Judge Sharpe</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">---------------------------------------------------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">RE S AND P (DISCHARGE OF CARE ORDER)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">B E T W E E N:</span></p>
+      <p style="text-align:center"><party refersTo="#a-mother" as="#applicant" style="font-weight:bold;font-family:'Times New Roman'">A MOTHER</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">-and-</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Times New Roman'">(1)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#a-local-authority" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">A LOCAL AUTHORITY</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Times New Roman'">(2)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#a-father" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">A FATHER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Times New Roman'">(3)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#s-a-child" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">S (A CHILD)</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Times New Roman'">(4)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#p-a-child-acting-by-his-guardian" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">P (A CHILD ACTING BY HIS GUARDIAN)</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Respondents</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">--------------------------------------------------------------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">--------------------------------------------------------------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Applicant represented herself</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Local Authority was represented by Ms Hope Lappin (counsel)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The father was unrepresented and did not participate</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Child S was represented by Ms Jennifer Grehan (counsel)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Child P was represented by Mrs Patricia Pratt (counsel) </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">-----------------------------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Hearing dates: 27 January &#8211; 29 January 2025</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">-----------------------------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Approved Judgment</span></p>
+      <p style="text-indent:0in"><span style="font-style:italic">&#8220;Cecil Graham: </span><marker name="tab"/><span style="font-style:italic">What is a cynic?</span></p>
+      <p style="text-indent:0in"><span style="font-style:italic">Lord Darlington: </span><marker name="tab"/><span style="font-style:italic">A man who knows the price of everything, and the value of nothing.</span></p>
+      <p style="margin-left:1.5in;text-indent:-1.25in"><span style="font-style:italic">Cecil Graham: </span><marker name="tab"/><span style="font-style:italic">And a sentimentalist, my dear Darlington, is a man who sees an absurd value in everything and doesn&#8217;t know the market price of any single thing.&#8221;</span></p>
+      <p style="margin-left:3.75in;text-indent:0in">(<span style="font-style:italic">Oscar Wilde, Lady Windermere&#8217;s Fan, Act III</span>)</p>
+      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">Introduction</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="text-indent:-0.25in">1.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">This judgment is not about Oscar Wilde or his works but about an application to discharge a care order.  However just before the final hearing of that application a decision was taken by the Legal Aid Agency to withdraw public funding from the applicant, a decision which, in my judgement, created such difficulties for her as to amount to a real injustice.  Oscar Wilde was no stranger to injustice and the above quotation seemed to me to neatly encapsulate the problem when funding decisions focus upon the price of representation as measured by the likelihood of success rather than the more intangible but significantly more important value of representation as a means to ensuring a just process irrespective of outcome.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">Publication</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The application before me is brought by a mother to discharge the care orders made in respect of her two children and so enable them to return to live with her. I will refer to the mother as &#8216;the mother&#8217; throughout this judgment but the children will be known as Susan and Peter, which are not their real names, but are correctly gendered.  Susan is a teenager whereas as Peter is still of primary school age.  When I spoke with Susan during the course of the final hearing I told her that for reasons which I will deal with below I wanted to publish the judgment but that if I did I would protect her family&#8217;s privacy so neither she nor anyone else reading it would recognise the family from the information included here. Susan had no issue with publication on that basis.  I made the same offer to the mother, who also agreed.  I have not spoken with Peter as it would be inappropriate to do so by reason of his age as well as his particular circumstances but he is represented through a very experienced Guardian and no dissent has been raised from that quarter either.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In addition its publication the judgment will be made available to the Consulate of the country from which the family originate as they may be interested to know what has happened to this family and how one of their nationals fared in our legal system.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The care orders which the mother seeks to discharge were made four years ago and stemmed primarily from an abusive relationship between the mother and the children&#8217;s father.  Primarily but not completely.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Whereas the father had been shown to be a large part of the problem for his family he very quickly demonstrated by his actions that he had no wish to be any part of the solution and disengaged from the proceedings to the extent that he would not even be honest about which country he was in during some of the hearings.  By the time of the final hearing his only relevance was as to the risk of a return and the threat which that would represent to the mother&#8217;s physical safety and the children&#8217;s emotional destabilisation.  In the event in the years which followed those proceedings he has not featured in the life of this family and the mother, to her credit, has divorced him and given no intimation of seeking his return to that relationship.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The absence of the father did not resolve all problems within the family because what was equally clear was that the mother, despite her willingness to work with the Local Authority, was hampered in two significant respects.  Firstly, the family are all nationals of another country and despite having resided in this one for nearly a decade the mother has never achieved any command of English.  Following the conclusion of the original proceedings the mother enrolled on a course to learn English but she disengaged and continues to be monolingual with the result that the court proceedings and all the work undertaken by social work professionals relating to these proceedings have had to be undertaken through an interpreter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The lack of ability to absorb a new language was not a demonstration of any unwillingness on the mother&#8217;s part but rather a direct consequence of her second significant difficulty, her limited intellectual ability.  In her own childhood the mother had been brought up in the care of her grandparents whilst her own mother worked abroad.  According to the mother her formal education ended when she approximately 10 years old as she was withdrawn from school to care for her grandmother.  Whether by reason of how she was cared for, the environment in which she lived, the cultural norms in play in her country at that time or any inherent intellectual difficulties, the mother appears to have had very limited access to education as a child with the consequence that not only is she unable to read in any language but her abilities to understand, to conceptualise, to retain information, to assess, evaluate and project onto emerging scenarios are all limited.  During the first proceedings there was an assumption that any disconnect between what the mother was being told and what she understood were the result of either or both of not speaking England and having been in a long term abusive relationship in which she had been subjected to coercive and controlling behaviour from which she was only just beginning to emerge. The mother, initially at least, demonstrated sufficient progress to quell concerns over any lack of capacity as being a long term obstacle to meeting the children&#8217;s needs.  It was on that basis that it was assumed that engagement with support services would improve, that progress in caring for the children would be made and that the long term future for the family would be one of good enough parenting.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">That was an important assumption because it was clear at that time that the children&#8217;s care had not been good enough and that even without the recurring exposure to the abuse meted out to the mother by the father there were concerns about the development of the children and whether that their welfare needs were being properly met.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Susan at the time was regarded as being a young carer because too many responsibilities were falling onto her shoulders because of her mother&#8217;s inability to engage properly not only with all of the organisations with which the family connected (e.g. school, nursery, the NHS and the social services) but also in terms of managing aspects of daily life which required the reading of instructions and the following of specific steps in any process.  The child was also having to take responsibility for digital tasks such as banking, emails and internet shopping.  It was a heavy burden upon a pre-teen child and in her Final Analysis in those proceedings the Guardian described Susan as presenting &#8216;as a child who was sad and guarded about her home life.&#8217;  In addition, and possibly because of her father, Susan was exhibiting challenging behaviour within the home, in the form of aggressive and abusive behaviour towards the mother. The mother&#8217;s limited intellectual functioning together with her growing reliance upon her daughter was creating an absence of boundaries for the child as she began to run rings around the mother.  The combination of needing the child to access digital services with the child&#8217;s discovery of social media lead to predictable results in the form of Susan accessing online dating sites and exchanging information and more with unidentified males.  The road to being beyond parental control lay ahead.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Peter was very much younger but showing early signs of developmental delay.  However enabling a child to catch up on their peers requires not just informed and constructive engagement with the child but also with those agencies responsible for monitoring child development. This mother was hampered on all fronts.  In addition, the mother&#8217;s inability to understand information and her lowered capacity for risk evaluation meant that there were safety concerns for Peter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In contrast to the uncertainty over the mother&#8217;s capacity to develop her caring skills there was no doubt about the love which the mother and the children shared, it shone clearly for all to see.  The desire to remain together allied to the mother&#8217;s commitment to her children as well as the initial improvements in the emotional welfare of the children which followed reunification after an initial period of separation when the whereabouts of the father were unknown gave credence to the potential benefits to the children of living under parental care. In fact such was the apparent progress the mother appeared to be making that by the time of the final hearing in those proceedings the Local Authority was inviting the court to make a Supervision Order.  It was the Guardian who sought that a care order was in fact the necessary response to the developing situation, a recommendation formed in part in the knowledge that the Local Authority&#8217;s final view was formulated further up the chain of command than those on the ground who had favoured the longer term order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">I have the benefit of the Guardian&#8217;s Final Analysis as I write this judgment and it was clearly set out therein that the time-limited nature of the involvement offered by a supervision order was considered to be insufficient and the lack of parental responsibility likely to be a problem if implementation plans were not effective because they needed to be channelled through the mother.  The passage of time has proved this to have been an astute judgment by the Guardian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The result of the proceedings was that in late 2021 care orders were made for each child but with care plans that they should continue to live at home with the mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The period between 2021 and 2024 has been chronologised for these proceedings and, as is so often the case, the exercise reveals recurring patterns and trends.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In the first proceedings there were problems over missed health appointments for Peter, over creating enforceable boundaries for Susan, of over-reliance upon Susan to manage day-to-day living, of difficulties for mother in consistent engagement with support services and these all continued after the care orders were made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In addition to those familiar problems new ones began to appear.  The relationship between mother and daughter started to deteriorate when Susan informed social workers that her mother was sending large sums of money via the internet to a man in Syria which, to Susan at least, appeared to be an obvious scam.  Whether this episode inspired Susan or it was simply a natural follow-on from her unwillingness to be boundaried by her mother she thereafter proved herself adept at using multiple mobile phones with her mother&#8217;s credit card to make purchases over the internet.  Susan&#8217;s mobile phone misuse was not restricted to financial activity but strayed far into the territory of social media, of inappropriate messaging sites, of sending inappropriate self-portraits to males and of videoing fights, of drug use and even of self-harm.  The contents of one of the several mobile phones which Susan was using demonstrated the scope if not the quantity of her inappropriate and wholly unregulated behaviour. This virtual record of her behaviour was matched by Susan&#8217;s increasing insularity from and insolence to her mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Peter&#8217;s situation was equally concerning. The extent of Peter&#8217;s developmental delay was becoming clear and he required frequent and extended stimulation on a one to one basis.  In contrast to what he needed Peter appeared to be spending extended periods of time in an adapted high chair in which he could be secured.  There was a growing list of missed medical appointments and a failure to engage with services which involved sporadic as opposed to periodic appointments.  Information sent out by letter presented significant difficulties for the mother as it required Susan to read, understand and translate but the mother to then act upon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">By the second anniversary of the making of the care order in late 2023 problems were mounting. The police had been involved over Susan&#8217;s use of her mobile phone, the Health Visitor was noting gaps in immunisations for Peter and was having difficulties in persuading the mother of the value of continued engagement, Susan was noted to be out of the home whenever she wanted to be irrespective of the lateness of the hour and was paying scant regard to any semblance of what demonstration of maternal authority was being offered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Throughout this time the Local Authority had deployed a Family Support Worker (FSW) who spoke the mother&#8217;s language to engage with the family in order to continue the process, envisaged in the care plans, of supporting the mother to enable her to become capable of looking after the children without extensive support. By the beginning of 2024 the FSW was visiting most days and for long periods, measured in hours, on each visit.  Despite this matters had deteriorated with Susan such that a safety plan had been devised in an attempt to rein in her activities outside the house and when in the house but on her mobile phones but this was not being enforced by the mother. As a result a further parenting assessment was set in motion to identify exactly what progress had been made and where the deficiencies in the mother&#8217;s caring abilities still lay.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">A particular episode which occurred in early May 2024 highlights the real difficulties being experienced by the mother.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">On the Monday Susan took an excess of paracetamol.  It was not a classic deliberate drugs overdose but rather a response to toothache (possibly caused by an infrequency of dental visits and a long term lack of supervision about basic personal care) which was ill-informed and exaggerated because it was based upon what her friends had told her about safe dosages.  Susan relied her friends because having told her mother she received the response that it was nothing.  As a consequence of relying upon misinformation Susan took 16 tablets in the space of 6 hours.  When the FSW arrived on the Tuesday Susan had been vomiting and was feeling unwell.  The FSW tried to explain to Susan how dangerous this intake of medication was only for the mother to tell Susan that the proper intake was 8 tablets in that period.  The mother was advised either to make a GP appointment or to take Susan to the Walk-In Centre.  Neither was done but a dental appointment was made for the Wednesday, by the FSW.  The social worker then asked the mother to make a GP appointment to ensure that there were no problems stemming from the amount of medication Susan had taken but the mother could not because she had no credit on her phone and although she went to the local shop to top up her credit she was unable to do so because she could not read the instructions on her receipt and the FSW needed to do this for her.  Once the credit was finally secured the mother rang the GP Surgery but could not follow the instructions about the options she was being given and the correctly numbered button to press, was unable to confirm which borough the family lived in and finally when finally connected to a GP  informed them Susan had taken only 6 paracetamol rather than 16 and was, in any event, unable to give the correct date of birth for her daughter.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The upshot of that telephone call was that the mother was told to take Susan to A&amp;E.  Once there the situation then worsened once it became clear in the company of a social worker that Susan had accessed information via a mobile phone which, in accordance with the safety plan then in place, she was not supposed to have.  Susan herself told the social worker that she did have a mobile phone, that the mother had given it to her and that she was not prepared to give it to the social worker.  The mother arrived at the hospital for a meeting with the social worker and initially denied that Susan had her own phone but said that she had used the mother&#8217;s phone.  Once it was clear that Susan had access to her own phone the mother refused to take the phone from her daughter and instead started shouting at the social worker who left the room.  It was left to the FSW to attempt to reason with the mother who eventually took the phone from Susan.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">There were two further upshots from that episode.  The first was that after the phone had finally been removed the mother was told not to give Susan any mobile phone, including her own.  Despite the clarity of that requirement it was breached, the only thing unclear being how long it took because by the time of her removal from home Susan had obtained another phone for her personal use. The second was that because Susan had known exactly where to find the paracetamol the mother was provided with a locked box in which to hold all medication and into which the medication duly went.  The idea was that the box would be locked, which it was, and the key only available to the mother, which it was not, as the mother decided it was appropriate to place the key right by the box for ease of access.  In due course the mother was similarly advised to lock away any sharp kitchen knives because of Susan&#8217;s self-harming.  This was never done at all.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">Despite the problems which were being generated by or in respect of Susan the tipping point in terms of removal was what occurred to Peter in early September 2024. Peter had gone to school on 4<span style="vertical-align:super;font-size:smaller">th</span> September, the second day of the new school year, when the Local Authority received a referral concerning a burn to his upper leg.  Peter had not attended school on the first day of term and the school was concerned not just about the fact of the injury but also about how it appeared to have been treated due to the poor bandaging which was covering it.  During the preceding week the Local Authority had been unable to gain access to the family home, despite holding a care order, and no information had been forthcoming to either school, social services or NHS about Peter having a burn to his leg.  Peter was taken from school to hospital where he was examined and during this examination the mother explained that Peter had been sitting at the table and had pulled a cup of tea onto his leg.  It was an accident, as can happen in any household, but the subsequent failure to secure any form of health advice allied to the failure to inform the Local Authority and the apparent effort to conceal matters through school absence and bad bandaging was sufficient to cause the Local Authority to renew an earlier application to remove the children which had first been before the court in June when the mother had sought an injunction after the Local Authority had, in accordance with the procedure set out in <span style="font-style:italic">Re DE [2014] EWFC 6</span>, given notice to the mother of its intentions to remove then children at that juncture.  The injunction application and concomitant discharge application had been issued but the Local Authority had reflected and indicated to the court that it was not at that point seeking immediate removal and matters progressed on the basis that the children would remain in maternal care whilst further assessments were progressed and the Local Authority considered future care plans. As will be set out below the assessment undertaken began to throw light on the problems in the family but the burn, coming as it did despite now ongoing proceedings, was the last straw in terms of living at home and the children were both removed immediately thereafter.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">Discharging a care order &#8211; the law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The statutory basis for an application to discharge a care order is set out in s.39, Children Act 1989.  The application may only be brought by a parent with parental responsibility, the child or the Local Authority (s.39(1)).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">The principles to be considered when dealing with an application to discharge where reviewed by the Court of Appeal in <span style="font-style:italic">TT (Children) EWCA Civ 742</span> and can be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The welfare of the child is the paramount consideration when determining the application.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The welfare evaluation is undertaken on the basis of the current position, not as matters were at the time when the care order was made, but the facts upon which that order was based are relevant but the weight to be given to those facts in the discharge proceedings will vary according to the evidence in the case at the time of the discharge application.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">c.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.75in">The proportionality principle is applicable:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.25in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.25in">firstly through s.1(5) (the no order rule) of the Act.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.25in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.25in;text-indent:0.12in">Secondly via a cross-check of necessity and proportionality in terms of the impact of the interference with rights which the proposed outcome will have.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The applicant must demonstrate that the discharge of the care order would be a positive outcome for the child and so the evidential burden is upon them and not the party resisting the discharge of the care order.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The evidence in the proceedings</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <num style="font-style:italic;text-indent:-0.25in">A.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-style:italic">The professionals</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The ISW</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The Local Authority already held care orders in respect of the children and it was not therefore for them to reprove their case as to why there should not be a discharge but for the mother to make the case for the same.  However as part of the accumulation of evidence it was submitted on behalf of the Guardian that the most effective way of proceeding was for an independent social worker (ISW) to provide a risk assessment as to the suitability of a closely supervised parenting assessment (in effect a 24/7 assessment) and the Local Authority, to its credit, agreed to meet the cost of that scoping exercise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Ms Emily Allen was instructed and completed her initial assessment on 7 August 2024.  The conclusion was that what would work best for the mother was a detailed community-based assessment to include extended observations at home.  The process did not start well with the ISW and the social worker left standing outside the family home as the mother was not in, despite the date and time of the visit having been notified in advance.  A telephone, via an interpreter, enabled the mother to explain that she had taken Peter out for a haircut and would not be returning for another half an hour.  The two were at the point of departing when the mother appeared pushing the pram with Peter in it.  Access was granted and it then became clear that Susan had been in the house on her own.  As this was only an introductory visit it was a short one but the date and time of the next visit, scheduled for the next day, was given to the mother and she repeated it back to Ms Allen.  The following day at the scheduled time the ISW duly attended but there was no answer.  Thereafter visits did take place in accordance with the proposed schedule and Ms Allen noted the positives concerning the state of the property and the efforts the mother made to assist and support Peter.  However what was also noted were the absences of Susan from the daily life of the household, either by reason of being away from the property or simply sequestered in her bedroom for much of the time.  It was clear even on this initial scoping exercise that the children each presented with very different needs.  Susan had unmet emotional needs which were driving her behaviour and Peter had significant physical needs by reasons of his delayed development allied to a complex medical history involving autism spectrum disorder and epilepsy.  Each child required better than good enough parenting and it was clear even at this early stage that the mother would be unable to manage it alone but that support would be required.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Ms Allen filed an addendum to her report on 5 September 2024.  By this time not only had Peter been taken to hospital following the discovery at school of the burn to his leg but further concerns had been raised when the mother was observed with bruising to her face and neck.  This had been seen on 21 August when the social worker had undertaken a now daily welfare visit.  When questioned about the matter the mother had explained that she had accidentally fallen down the stairs, that no one else had been involved and that she was fine and refused all efforts to enable her to secure medical attention. When Susan was questioned about the matter she stated that she had been out at the time but was aware that her mother had fallen. The view of the Local Authority, shared by the ISW when she was informed, was that this was concerning due to the history of domestic abuse between the mother and the father and the current unknown whereabouts of the father.  Such concerns were not alleviated by the view of the police which was that the injuries appeared more akin to an assault than an accident.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">On 5 September Ms Allen met with the mother, aware also now of the burn injury sustained by Peter, and the mother explained about both her injuries and Peter&#8217;s.  In respect of Peter the mother explained how she had spoken with the GP and then taken Peter with her to a pharmacy where various medicines had been provided.  It is right to record that whilst the ISW could accept the occurrence of an accident with regard to Peter&#8217;s injury the explanation as to how and when medical assistance had been sought did not stack up, in her view.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The combination of the occurrence of the accident to Peter, the lack of clarity about how it was thereafter treated, the presence of injuries to the mother more akin to an assault and the deteriorating care and supervision being afforded to the children caused Ms Allen to conclude that her previous recommendation of a community assessment with extended observation was no longer in the children&#8217;s best interests and could not now stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">By the time of Ms Allen&#8217;s final report in November the children had been removed some two months earlier, initially under a Police Protection Order as a result of the injuries seen to Peter&#8217;s leg.  The removal was sanctioned at a court hearing on 6 September and the children were placed into foster care.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In a sensitive but thorough assessment report Ms Allen concluded that the mother, despite the efforts that she had made, was unable to meet the different needs of her children and that the level of support which would be required to make good the deficits the mother had demonstrated in her parenting would amount not to support of parental care but to its substitution by professional care.  The mother&#8217;s caring capacity was sufficient, in the view of the ISW, to meet only the needs of a child under the age of two.  Thereafter as the toddler moved into childhood and their needs required a degree of nuance, insight and the ability to adapt, often quickly, to changing situations this mother was incapable of meeting those challenges.  This was evidenced not only in Peter&#8217;s accident, a situation created, if not caused, by limited understanding of supervisory arrangements but then compounded by the failure neither to seek appropriate medical care nor to even inform people thereafter.  The necessity for professional (i.e. local authority) support followed from the lack of support the mother had within the community.  Largely isolated from family and apparently devoid of friendships she coped as best she could via her own abilities and with extensive reliance upon Susan who, as a consequence and possibly also as a result, was entering a stage of her adolescence where freedom, autonomy and an absence of responsibility were her primary goals rather than helping her mother care for her brother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The support needed would be long term because of the now clear picture of Peter&#8217;s developmental difficulties and also because the mother had been provided with extensive support prior, during and following the care proceedings with long periods of daily support appropriately attuned to her needs and yet nothing had enabled her to demonstrate sufficient progress as to allow for that support to be withdrawn confident that the family could cope.  If anything, matters only deteriorated as time passed as Susan moved to the point of being beyond parental control and Peter&#8217;s needs engulfed the mother&#8217;s limited abilities to care.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">All of the above was written with full acknowledgement and respect being accorded to the mother&#8217;s commitment to her children, her undoubted love for them and her desire to care for them.  A fact with which all professionals concurred.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The social worker</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The social worker was allocated only on 12 July 2024 and therefore brought to the case a fresh pair of eyes and a willingness to start fresh with the mother. This was undoubtedly helpful to the mother because, as detailed above, the history of matters post the making of the care order did not present a positive history.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The events of 21 August may have been this social worker&#8217;s first negative encounter with the mother but she had by then experienced the necessity for constant repetition of the need to do essential tasks such as safeguarding medicines and securing knives and observed for herself that repetition did not result in unprompted action.  To those experiences she then added the discovery of Peter&#8217;s burn and the clear lack of effective action between when it happened and when it was discovered and the picture was already becoming clear to her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Unlike the ISW the social worker&#8217;s focus was upon the needs of the children and it was clear in her final evidence that these needs were not being met in the care of the mother.  The removal of the children into foster care at the beginning of September had started a process of revelation as to the full extent of their different needs.  Both children had been placed in the same foster placement but it became apparent that each child had very different needs which required specific care and which militated against a joint placement.  In addition the bond between the two siblings did not appear to be strong with Susan opining that Peter was &#8216;annoying&#8217; due to his habit of messing up his room and keeping her awake at night.  Although the same could be said of many brothers and sisters at different stages of their childhood it was clear that the sibling bond, which needed to be supported, might actually be eroded by close proximity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Each child moved from their foster placement into specialist residential care.  Susan, given her safeguarding concerns, required focused intervention to support her emotional health and maintain her physical safety.  Peter needed stimulation for developmental progression, consistency in respect of appointments and other support services as well as being kept safe.  It was noteworthy in her evidence that the social worker commented that even with multiple carers operating in succession there is a view that Peter is an exhausting child to care for.  This was not said as a criticism of the child but rather meant as a compliment to the mother for managing for so long to try to meet his needs as a sole carer and also as a sole carer for his teenage sister.  The social worker&#8217;s evidence was clear: full-time care of both children in a way which is good enough for their heightened, specific needs was a full-time responsibility for a bank of professional carers and completely beyond even the most devoted of mothers, let alone one limited by her cognitive and linguistic disadvantages.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Support for this view was provided by the change observed in Peter post-removal.  With careful management Peter has learned about boundaries, about understanding what the word &#8216;no&#8217; means and as a result is calmer and his behaviour is reflective of this new understanding and the clarity which it gives him about what he can and cannot do.  The introduction of safety and stability as components of his daily routine is already having a beneficial effect upon him and his capacity to progress.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Susan&#8217;s needs are more complex and any progress is bound up with the strong desire she rightly has to be at home with her mother.  Post removal physical needs were finally starting to be met, for example the full extent of tooth decay - initially flagged up by the toothache she suffered in May which resulted in the excess of paracetamol - was revealed when up to five extractions of adult teeth are likely to be required. Extraction of teeth is an immediate remedy but the attainment of emotional stability takes longer and is more challenging, contrary to what Macbeth requested one cannot simply pluck from the memory a rooted sorrow, but is every bit as important.  Susan&#8217;s troubled emotional state was a cause of her rebellious and risky behaviour and her unwillingness to accept rules from a mother from whom she felt little attachment and less love.  The chaotic nature of home life, the lack of stability, the burden of responsibility and the absence of a feeling of belonging, of feeling that she had her own place in the family, have all contributed to her deteriorating emotional state.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The separation of the children had also highlighted but also mitigated a running theme for Susan of a maternal preference for her brother. During contact there have been multiple occasions when the mother&#8217;s full focus has been upon Peter to the near total exclusion of Susan, leaving that child effectively isolated and seen to be on the verge of tears.  Contact sessions may not always be a mirror reflecting an exact image of how a family functions but neither are they always so distorted that it is impossible to detect some themes or patterns of familial experience.  In this case the social worker was satisfied that what was being seen was probably fairly reflected in what had been happening for far longer at home.  A mother unable to meet the needs of both children and having to prioritise and opting to do so in favour of the child who needed the sort of care she was more capable of giving, thereby failing another child whose problems compounded.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="text-indent:-0.25in">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">The evidence of this social worker, both written and oral, was clear.  The children cannot return home because to do so would be to condemn them to sub-optimal care which would have to be remedied by a revolving door of carers who would effectively render the care plan to be one of care in the presence of the mother, not care by the mother supported where necessary.  This was her view despite the very clear statements expressed by Susan of her desire to return home and her willingness to sign up to any agreement regarding her own behaviour in order to do so, of which more below.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p><span style="font-style:italic">The Guardian</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In these proceedings I have had the benefit not only of a Guardian whom I know to be thoughtful, sensitive and highly experienced but who brought to her conclusions a depth of knowledge gained from having been the Guardian in the care proceedings and whose astute insights then now had the look of prescience.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">That continuity is of real benefit to these proceedings because in replicating the conclusions of the ISW and of the social worker in terms of the mismatch between maternal capability and the children&#8217;s needs the Guardian&#8217;s alignment with her fellow social work professionals served only to underline the accuracy and soundness of their own analyses.  Professional unanimity as to the necessary outcome of this application is evidence of individuals working properly rather than adopting an easy groupthink.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="text-indent:-0.25in">46.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In her own evidence the Guardian was clear as to the extent of the limitations this mother has in understanding the situation, even when explained to her in uncomplicated terms and in her own language.  On meeting the Guardian following the conclusion of the assessment and the filing of the Local Authority&#8217;s final evidence the mother still appeared to be uncertain as to the recommendations being made and was focused instead only upon the imminent final hearing and the importance of ensuring the children were returned to her care.  During that conversation the children being at home was not only the mother&#8217;s bottom line but also her default answer to most of the questions the Guardian was attempting to ask to ensure she could garner a complete view of the mother&#8217;s position.  I cannot improve upon the following quotation from the Guardian&#8217;s Final Analysis as a description of the mother, her situation and her outlook just prior to the final hearing:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">This is an extremely sad situation and there is no doubt that [the mother] is herself a vulnerable adult who is a victim of domestic abuse, is isolated with limited support, and is experiencing high levels of distress at separation from her children. [The mother] does not understand professional concern about her children and does not agree that anything needs to change. This is likely due to a combination of factors including [the mother&#8217;s] cognitive functioning and fear about the implications of acknowledging any concerns.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">Despite the negatives identified by the professionals all those involved in the welfare of the children, have rightly acknowledged and praised this mother&#8217;s commitment to her children, her conspicuous love for them, her desire to care for them and her steadfastness in pressing her case for their return.  Throughout their involvement all professionals have acted professionally, properly, with kindness, decency and humanity, as it should be.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in"><span style="font-style:italic">B</span><marker name="tab"/><span style="font-style:italic">The mother&#8217;s cognitive abilities</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">For most of these proceedings the mother was ably and effectively represented by a skilled and experienced solicitor who, like the Guardian, had also been involved in the care proceedings and therefore had had the opportunity to build up a relationship of trust and confidence with the mother.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">That relationship of trust and confidence between client and lawyer is always important, particularly when the issues at stake are as fundamental as whether a parent can look after their children.  But in this case that relationship took on an even greater importance because of the conclusions of the Clinical Psychologist who had been instructed to provide a cognitive assessment of the mother at the outset of the proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In the original care proceedings question marks had arisen about the mother&#8217;s ability to properly understand what was expected of her and therefore how best to respond and to demonstrate her ability to care for the children.  There was the obvious issue about the mother not understanding English but over which was laid the appreciation that she had been in an abusive relationship for an extended period of time and the process by which she was able to disengage from a position of reliance, and subservience through having her thoughts and responses framed by an external agency (her erstwhile husband) was never going to be quickly resolved or simply achieved.  Underlying both of those issues however was an uncertainty about the mother&#8217;s basic cognitive functioning and whether, even allowing for the above, she was suffering a difficulty or even a disability in the mother&#8217;s ability to absorb information, understand it, assimilate it with other information, evaluate it both singularly and as part of a whole and then use it to formulate a view upon which she could act, sure both of the options available to her and the consequences of her decision-making.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="text-indent:-0.25in">51.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">There was sufficient uncertainty in the care proceedings to give grounds for a capacity assessment to be made of the mother which concluded that the mother lacked the capacity to litigate. That particular report, however, had been prepared by an expert who required the assistance of an interpreter to engage with the mother and in the circumstances it was considered that someone who was both appropriately qualified and spoke the same language as the mother might offer a more nuanced view of this mother&#8217;s situation.  Accordingly a further report was prepared which concluded that:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">[the mother&#8217;s] difficulties could be better understood in the context of being vulnerable and caught up in a co-dependant relationship rather than these being attributable to a lack of capacity.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">When the mother issued her applications and started these proceedings her solicitor quite properly sought an update of the position, not least as three years had elapsed and it was hoped that the absence of the abusive father had had a positive impact upon the mother.  Accordingly a report was directed to be prepared by Dr Alexandra Antonesei, a Clinical Psychologist who spoke the mother&#8217;s language.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';text-indent:-0.25in">53.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">The report, dated 27 August 2024, offered the following conclusions:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">[The mother&#8217;s] overall intellectual score of 50 (confidence interval 47-55) places her in the extremely poor range of functioning and suggests very poor overall cognitive abilities&#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">her overall cognitive functioning, as per the Full-Scale IQ score of 50, can be considered to be extremely low&#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">She has a very limited understanding of major life areas, such as healthcare/mental care and children&#8217;s special needs, legal matters and care proceedings, accommodation, and probably banking and money management. I diagnosed her with mild to moderate learning disability,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">[she] presents with some other specific difficulties such as very short attention span, distractibility, going on a tangent, daydreaming, impatience/impulsivity, poor inhibition control. These issues are usually related to attention deficit and hyperactivity/impulsivity disorder (ADHD). She also has a very rigid thinking style and can become stubborn. Her speech is laconic, and she needs to be prompted to provide details even about day-to-day activities or significant life events. She needs to be asked specific questions, instead of open-ended questions in order to be able to provide an answer. These traits are usually associated with autism spectrum disorder.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">[She] has poor awareness and insight into her own difficulties and the needs of children. I believe this to be related to her extremely poor intellectual resources..</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">[the mother&#8217;s] level of retaining is extremely poor, and she scored below 99% of people of the same age taking this test. She found it difficult to remember some digits and relevant details from some very brief arithmetic problems that were part of the IQ test. She described that she would get distracted and think about something else while doing chores around the house. She said that she might misplace or forget some of her belongings and would have to look for them for a while. I believe that she would also have to write down information that is outside of her daily chores in order to understand it and to remember it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">I believe that [the mother] might benefit from being treated and addressed as someone who has a learning disability.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in"><span style="font-style:italic">The mother&#8217;s case</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">With the benefit of her solicitor the mother was able to give instructions and three statements were filed which no doubt faithfully reflected the mother&#8217;s instructions but, as is so often the case and to the mutual benefit of the client as well as the court, had been prepared with not only a knowledge of what was legally accurate but what was also more practically attainable in the context of the evidence of the Local Authority.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Individuals, particularly parents, frequently come to the court process with a clear idea of what they consider to be the only possible right and just outcome, which more often than not entirely corresponds to a view they have built up in their minds, often then seasoned by supportive family and friends, and it is the role of a careful and sensitive solicitor to enable the client to move on from the standpoint they are then at to somewhere which the solicitor knows is either the right place to be as a matter of law or, all too frequently, the place from where an effective case can be launched as opposed to the wholly unrealistic case initially advocated to them in the quiet of the office.  That process serves all concerned well.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In this case that process is best illustrated by the mother&#8217;s developing explanation for the injuries which had been seen on 21 August.  Initially the mother had provided the explanation of a fall down the stairs, an account which convinced no one of anything save that the mother may be hiding something worse.  She was but it was not what had been assumed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In her second statement the mother made clear that her neck injuries was a result of a habit she had of pinching herself and that this was a recurring trait similar to a nervous tic.  She offered photographic evidence from a later date taken in her solicitor&#8217;s office to support this assertion.  The injuries to her nose and eyes however were not as a result of a fall but as a result of an assault.  However the assault was not by the children&#8217;s father, of whom there has been no evidence of his presence or even a concern that he might be about to return, but by Susan.  The mother explained that during an argument over a phone charger Susan had thrown one of Peter&#8217;s cars at her mother and hit her on the nose leading to significant bleeding and later the bruising around the eyes which had then been seen by professionals.  The mother had not wished to create problems for Susan (or herself) and so had invented the fall story which Susan had then gone along with and in fact, if true, had lied about by claiming she was out at the time it occurred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">It was clear that the issue between mother and daughter was the latter&#8217;s use of a mobile phone.  This was prohibited under the agreement agreed between the social worker and the mother but the mother had thereafter relented, no doubt under intense pressure from the child for whom the unfettered use of a mobile phone was, as with so many teenagers, considered a right from which no derogation could be countenanced.  The mother may have intimated to Susan that the sharing of passwords and some general self-restraint on her phone use would be expected but any such promise had long turned to ether and unrestrained use was swiftly re-established as the norm by the child.  Removing the charger may have been seen as the best way to curb phone usage but was not something the child would contemplate and the subsequent argument developed into the accidental assault.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">In the same statement the mother had provided more detail in respect of Peter&#8217;s burn, indicating that it had happened the preceding Thursday (29 August) and that her explanation of attending a GP and following their apparent advice in going to see a pharmacist was untrue.  The mother had attended a pharmacy but not having first spoken to any GP and the child was not seen by a pharmacist at all.  The mother had merely tried to explain what she needed and purchased what products she thought were required.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">This statement had the effect of removing some of the concerns which were now loose in the case whilst offering a further indication of the depth of the problems the mother was encountering and the impact of her limitations upon the children.  However it provided some illumination and had the benefit of a degree of honesty from the mother.  In short form it helped her as much as it did not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The mother&#8217;s final statement was prepared following the conclusions reached by the ISW and the social worker and had caused her to shift her stance from seeking the return of both children to the return of Peter, on the basis that she believed that she could cope with just one child and that Susan would be more able to understand why the mother felt she had to choose between her children.  It was a position that the mother proffered with reluctance and sadness but, again no doubt with the benefit of advice, was made in an attempt to offer something slightly less unrealistic than immediate discharge and an unsupported return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">What was clear from the array of professional evidence now before the court as well as the mother&#8217;s statements was that there were real problems for the mother in caring for her children, that there was a real likelihood that her application to discharge the care orders was going to be unsuccessful and that the consequence for her would involve long term separation from her children and that, given their separate placements, the effective dismemberment of the family. For the mother and for the children the stakes could not have been higher.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="text-indent:-0.25in">63.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">At which point the Legal Aid Agency made their critical intervention.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The decision of the Legal Aid Agency</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="text-indent:-0.25in">64.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In the late afternoon of 23 January 2025 I received a letter from the solicitor for the mother informing me of the mother&#8217;s status as a litigant-in-person at the final hearing by reason of a decision by the Legal Aid Agency to refuse public funding for this mother to be represented at the final hearing commencing two working days later on 27 January.  The material parts of the letter set out the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">&#8230;the Legal Aid Agency have refused to extend the mother&#8217;s Legal Aid Certificate to cover a final hearing so the mother will be a litigant in person.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">As you are aware, the mother is extremely vulnerable as demonstrated in the report of </span><span style="font-family:'Times New Roman';color:#000000">Dr Antonesei </span><span style="font-family:'Times New Roman'">and in the report I submitted to the Legal Aid Agency, I stressed the mother&#8217;s vulnerability and difficulty in conducting her case as a litigant in person and the breach to her Article 6 and Article 8 Rights, but to no avail&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0in"><span style="font-family:'Times New Roman'">&#8230;it will not be possible for me to arrange for the mother to have the usual interpreter because these costs will not be met by the Legal Aid Agency, but hopefully the Court interpreter could assist.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="text-indent:-0.25in">65.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">To say that I was surprised to read the contents of the letter is an understatement but knowing the commitment which the solicitor for the mother brings to all her cases, not just this one, I had no doubt that every effort would have been made to convince the Legal Aid Agency of the merits of enabling this mother to be represented at her final hearing.  My immediate response was to reply in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0in"><span style="font-style:italic">Thank you for your letter and particularly for the efforts you have made and are making on behalf of the mother, notwithstanding the lack of public funding.&#160; It is, if I may say so, typical of both your professionalism as a solicitor and your innate decency and sense of fairness as an individual.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-style:italic">I am struggling to understand the basis of the Legal Aid Agency&#8217;s decision.&#160; I understand the importance of ensuring that public funds should be used appropriately and not squandered upon misconceived, hopeless and opportunistic causes but I also recognise the importance of upholding an individual&#8217;s rights under Article 6 and Article 8, not least because of the obvious inequality of an individual having to contend with seeking to uphold their rights as against the state, to say nothing of an individual whose first language is not English and who has been diagnosed as operating under difficulties.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0in"><span style="font-style:italic">It would be remiss of me not to give consideration on Monday morning to the fairness of the proceedings in the event that the mother is a Litigant in Person and whether decisions in relation to something as important as family life can properly be made in such circumstances.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In order to better understand the basis upon which the Legal Aid Agency had made their decision, not least whether this was a decision which could be appealed and whether proceeding without the benefit of having achieved finality on the question of professional representation would be prejudicial to the mother, I set about trying to understand how decisions pertaining to the granting or withholding of public funding in family cases are made.  It was far from straightforward.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The legal basis upon which public funding decisions are made</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">It is well understand by solicitors and even by the judiciary that applications pertaining to the making of a care order attract legal aid funding for those who are properly respondents to such applications irrespective of their individual means or the merits of their case.  The &#8216;non-means, non-merits&#8217; approach is rightly accepted as being necessary given the infringement to the rights of the parents (and the child) which results from state intervention. The making of an interim care which does not result in the immediate removal of a child still places the applicant local authority in a position of strength vis-&#224;-vis a parent by reason of the granting to it of parental responsibility and the possibility that thereafter the Local Authority may override the wishes of a parent and of a child in terms of their living arrangements, the opportunities to spend time with family members through contact and a myriad of other decisions which would normally fall to a parent but which now become the responsibility of the Local Authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">What was less familiar, certainly to this tribunal, was the detailed combination of law and regulations which needs to be navigated by anyone attempting to understand how decisions are made when automatic grants are not available because the application in question does not fall in the &#8216;non-means, non-merits&#8217; category.  What follows hereafter is not offered as a comprehensive guide through that particular labyrinth but is sufficient to set out the general contours of the landscape.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The governing statute is the Legal Aid, Sentencing and Punishment of Offenders Act 2012 (&#8216;the Act&#8217;) which came into effect in 2013 and sets out the general basis upon which civil legal aid, which includes that which is applicable to family proceedings, is made available.  Under the Act the responsibility for ensuring legal aid is available lies with the Lord Chancellor but by s.4 s/he appoints a Director of Legal Aid Casework who is responsible for the determination of individual decisions (in reality taken by the staff employed at the Legal Aid Agency) which according to s.11(1) must be in accordance with an individual&#8217;s financial resources (where applicable) and any criteria set out in regulations made for that purpose.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="text-indent:-0.25in">70.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In addition the criteria set out in regulations must take cognisance of those factors set out in s.11(3) of the Act which are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the likely cost of providing the services and the benefit which may be obtained by the services being provided,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the availability of resources to provide the services,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the appropriateness of applying those resources to provide the services, having regard to present and likely future demands for the provision of civil legal services under this Part,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(d)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the importance for the individual of the matters in relation to which the services would be provided,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(e)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the nature and seriousness of the act, omission, circumstances or other matter in relation to which the services are sought,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(f)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the availability to the individual of services provided other than under this Part and the likelihood of the individual being able to make use of such services,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(g)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">if the services are sought by the individual in relation to a dispute, the individual's prospects of success in the dispute,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(h)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the conduct of the individual in connection with services made available under this Part or an application for such services,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the conduct of the individual in connection with any legal proceedings or other proceedings for resolving disputes about legal rights or duties, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(j)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the public interest.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Moving from the general to the particular, the current regulations which set out the framework for decision-making with respect to public funding are the Civil Legal Aid (Merits Criteria) Regulations 2013 (&#8216;the Regulations&#8217;).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="text-indent:-0.25in">72.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">By these regulations the term &#8216;prospects of success&#8217; which appear in s.11(3)(g) are further detailed in regulation 4 as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.25in;text-indent:-0.25in">(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.25in;text-indent:0.12in">In these Regulations, &#8220;prospects of success&#8221; means the likelihood that an individual who has made an application for civil legal services will obtain a successful outcome at a trial or other final hearing in the proceedings to which the application relates, as assessed by the Director in accordance with regulation 5 (prospects of success test).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1.25in;text-indent:0in">&#8230;/</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p style="margin-left:1.25in">&#8220;Successful outcome&#8221; means the outcome a reasonable individual would intend to achieve in the proceedings in all the circumstances of the case.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="text-indent:-0.25in">73.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">Regulation 5 sets out the test to assess the prospects of success:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="margin-left:1.25in;text-indent:0.25in">Where the Director assesses, for the purposes of these Regulations, the prospects of success of a matter to which an application for civil legal services relates, the Director must classify the prospects of that matter as follows&#8212;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in">&#8220;very good&#8221;, which means an 80% or more chance of obtaining a successful outcome;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in">&#8220;good&#8221;, which means a 60% or more chance, but less than an 80% chance, of obtaining a successful outcome;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in">&#8220;moderate&#8221;, which means a 50% or more chance, but less than a 60% chance, of obtaining a successful outcome;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(d)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in">&#8220;borderline&#8221;, which means that the case is not &#8220;unclear&#8221; but that it is not possible, by reason of disputed law, fact or expert evidence, to:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in">decide that the chance of obtaining a successful outcome is 50% or more; or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.5in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in">classify the prospects as marginal or poor ...; </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:2in;text-indent:-0.75in">(da)<marker name="tab"/>&#8220;marginal&#8221;, which means a 45% or more chance, but less than a 50% chance, of obtaining a successful outcome;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.5in;text-indent:-0.25in">(e)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in">&#8220;poor&#8221;, which means less than a 45% chance of obtaining a successful outcome; or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(f)</num>
+	    <content>
+	      <p style="margin-left:1.25in;text-indent:0.25in">&#8220;unclear&#8221;, which has the meaning given in paragraph (2).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0.5in">&#8220;Unclear&#8221; means the Director cannot put the case into any of the categories in paragraph (1)(a) to (e) because, in all the circumstances of the case, there are identifiable investigations which could be carried out, after which it should be possible for the Director to make a reliable estimate of the prospects of success.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Also included within the regulations are two further tests: the &#8216;reasonable private paying individual test&#8217; and the &#8216;proportionality test&#8217;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="text-indent:-0.25in">75.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">At regulation 7 the reasonable private paying individual test is defined as:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0in"><span style="font-family:'Times New Roman'">the reasonable private paying individual test is met if the Director is satisfied that the potential benefit to be gained from the provision of civil legal services justifies the likely costs, such that a reasonable private paying individual would be prepared to start or continue the proceedings having regard to the prospects of success and all the other circumstances of the case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="text-indent:-0.25in">76.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">At regulation 8 the proportionality test is set out as meaning:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0in"><span style="font-family:'Times New Roman'">the proportionality test is met if the Director is satisfied that the likely benefits of the proceedings to the individual and others justify the likely costs, having regard to the prospects of success and all the other circumstances of the case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="text-indent:-0.25in">77.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">Part 4 of the Regulations refers to the General Merits Criteria and the relevant regulations are those set out at regulation 39, regulation 41 and regulation 42.</p>
+	  </intro>
+	  <subparagraph>
+	    <num>39.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">An individual may qualify for legal representation only if the Director is satisfied that the following criteria are met&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:2in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the individual does not have access to other potential sources of funding (other than a conditional fee agreement) from which it would be reasonable to fund the case;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:2in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the case is unsuitable for a conditional fee agreement;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:2in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-family:'Times New Roman'">except in proceedings which concern a relevant application falling within paragraph 31A(2)(a) of Part 1 of Schedule 1 to the Act, there is no person other than the individual, including a person who might benefit from the proceedings, who can reasonably be expected to bring the proceedings;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:2in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the individual has exhausted all reasonable alternatives to bringing proceedings including any complaints system, ombudsman scheme or other form of alternative dispute resolution;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:2in;text-indent:-0.25in">(e)</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-family:'Times New Roman'">there is a need for representation in all the circumstances of the case including:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman'">(i)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:2in;text-indent:1in"><span style="font-family:'Times New Roman'">the nature and complexity of the issues;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman'">(ii)</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:2in;text-indent:1in"><span style="font-family:'Times New Roman'">the existence of other proceedings; and</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.5in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the interests of other parties to the proceedings; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">41.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.75in"><span style="font-family:'Times New Roman'">An individual may qualify for full representation only if the Director is satisfied that the criteria in regulation 39 (standard criteria for determinations for legal representation) and the following criteria are met:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:1in"><span style="font-family:'Times New Roman'">the cost benefit criteria in regulation 42;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:1in"><span style="font-family:'Times New Roman'">the prospects of success criterion in regulation 43; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:1in"><span style="font-family:'Times New Roman'">[not relevant]</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">42.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:0.75in"><span style="font-family:'Times New Roman'">(1) The cost benefit criteria are as follows.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:0.75in"><span style="font-family:'Times New Roman'">[not relevant]</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(3)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:0.75in"><span style="font-family:'Times New Roman'">If the case is:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:1in"><span style="font-family:'Times New Roman'">not primarily a claim for damages or other sum of money; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(b)</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:1.5in;text-indent:1in"><span style="font-family:'Times New Roman'">not of significant wider public interest,</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="margin-left:2in;text-indent:0in"><span style="font-family:'Times New Roman'">the Director must be satisfied that the reasonable private paying individual test is met.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman'">(4)</num>
+	      <content>
+		<p style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">[Not relevant]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="text-indent:-0.25in">78.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">Finally regulation 66 of the regulations is relevant insofar as it makes specific reference to full representation in relation to public law children cases:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For the purposes of a determination for full representation in relation to a public law children case or a parental guardianship case</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the criteria in regulations 39(b) to (d) and (f) (standard criteria for determinations for legal representation) and 41 to 44 (criteria for determinations for full representation) do not apply;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the criteria in regulation 39(a) and (e) apply; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">paragraph (2) applies.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">An individual may qualify for full representation in a public law children case or a parental guardianship case only if the Director is satisfied that the criterion in paragraph (3) and, where applicable, paragraph (4) are met.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">It is reasonable for full representation to be provided, having regard to the importance of the case to the individual.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.5in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Times New Roman'">If the individual is making or supporting an appeal or application, the prospects of success of that appeal or application are very good, good, moderate, borderline or marginal.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="text-indent:-0.25in">79.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In this case given that the mother was the applicant in the proceedings any decision about the grant or refusal of public funding would appear to have based upon the following matters:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The absence of other potential sources of funding (Reg. 39(a)).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">Whether there was a need for representation in all the circumstances (Reg. 39(e)).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The reasonableness of the provision of full representation, having regard to the importance of the case to the individual (Reg. 66(2)).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The prospects of success being at least marginal or better (Reg. 66(4)).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">Whether a person paying privately would be prepared to apply their own money in the light of the prospects of success.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">It is important to note at this point that both the Act and the Regulations have been the subject of challenge in both the superior and appellate courts and the issue of compatibility with Convention rights has been upheld on successive occasions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="text-indent:-0.25in">81.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">The leading authority is <span style="font-style:italic">Gudanaviciene v Director of Legal Aid Casework and Lord Chancellor [2014] EWCA Civ 1622</span>, conjoined appeals brought by the Director of Legal Aid Casework against the granting of judicial review in the Administrative Court in respect of six specific cases where the issue of fairness in the decision not to grant public funding was specifically considered in the context of exceptional cases, a separate category for which discretionary funding may be made available. In a comprehensive judgment given by a Court of Appeal lead by the Master of the Rolls the Act and the issue of compatibility with Articles 6 and 8 of the Convention was squarely addressed and thereafter summarised in <span style="font-style:italic">Re K and H (Children) [2015] EWCA Civ 543</span> in paragraphs 48 &#8211; 50:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>48.</num>
+	    <content>
+	      <p style="margin-left:1.5in">The ECtHR has made it clear that the right to a fair trial under article 6 of the Convention does not generally require the provision of public funding for legal representation in civil proceedings. Specifically, it has affirmed that the application of a means test to public funding is compatible with article 6. In Steel and Morris v United Kingdom (2005) 41 EHRR 22, it said:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;62.</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:2in;text-indent:0.5in">The right of access to a court is not, however, absolute and may be subject to restrictions, provided that these pursue a legitimate aim and are proportionate (see Ashingdane v. the United Kingdom, judgment of 28 May 1985, Series A no. 93, pp. 24-25, &#167; 57). It may therefore be acceptable to impose conditions on the grant of legal aid based, inter alia, on the financial situation of the litigant or his or her prospects of success in the proceedings (see Munro, cited above). Moreover, it is not incumbent on the State to seek through the use of public funds to ensure total equality of arms between the assisted person and the opposing party, as long as each side is afforded a reasonable opportunity to present his or her case under conditions that do not place him or her at a substantial disadvantage vis-&#224;-vis the adversary (see De Haes and Gijsels, p. 238, &#167; 53, and also McVicar, &#167;&#167; 51 and 62, both cited above).&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in">The relevant Strasbourg jurisprudence on the general requirements of article 6 was summarised by this court in <span style="font-style:italic">Gudanaviciene v Director of Legal Aid Casework and Lord Chancellor [2014] EWCA Civ 1622</span> at para 46:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:2in;text-indent:0in">&#8220;The general principles established by the ECtHR are now clear. Inevitably, they are derived from cases in which the question was whether there was a breach of article 6(1) in proceedings which had already taken place. We accept the following summary of the relevant case-law given by Mr Drabble: (i) the Convention guarantees rights that are practical and effective, not theoretical and illusory in relation to the right of access to the courts (Airey para 24, Steel and Morris para 59); (ii) the question is whether the applicant's appearance before the court or tribunal in question without the assistance of a lawyer was effective, in the sense of whether he or she was able to present the case properly and satisfactorily (Airey para 24, McVicar para 48 and Steel and Morris para 59); (iii) it is relevant whether the proceedings taken as a whole were fair (McVicar para 50, P,C and S para 91); (iv) the importance of the appearance of fairness is also relevant: simply because an applicant can struggle through "in the teeth of all the difficulties" does not necessarily mean that the procedure was fair (P,C and S para 91); and (v) equality of arms must be guaranteed to the extent that each side is afforded a reasonable opportunity to present his or her case under conditions that do not place them at a substantial disadvantage vis-&#224;-vis their opponent (Steel and Morris para 62).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in">The position in relation to what is referred to as &#8220;the procedural aspect&#8221; of article 8 was summarised in <span style="font-style:italic">Gudanaviciene</span> at para 70.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:2in;text-indent:0in">&#8220;It is true that the test for article 8 as it is stated in the Strasbourg jurisprudence (whether those affected have been involved in the decision-making process, viewed as a whole, to a degree sufficient to provide them with the requisite protection of their interests) differs from the test for article 6(1) (whether there has been effective access to court). The article 8 test is broader than the article 6(1) test, but in practice we doubt whether there is any real difference between the two formulations in the context with which we are concerned. There is nothing in the Strasbourg jurisprudence to which our attention has been drawn which suggests that the ECtHR considers that there is any such difference. In practice, the ECtHR&#8217;s analysis of the facts in the case-law does not seem to differ as between article 6(1) and article 8(1). This is not surprising. The focus of article 6(1) is to ensure a fair determination of civil rights and obligations by an independent and impartial tribunal. Article 8 does not dictate the form of the decision-making process that the state must put in place. But the focus of the procedural aspect of article 8 is to ensure the effective protection of an individual&#8217;s article 8 rights. To summarise, in determining what constitutes sufficient involvement in a decision-making process (article 8), for the present purposes the standards are in practice the same&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">When first informed about the decision not to extend the mother&#8217;s public funding certificate to enable her to be professionally represented at the final hearing I considered whether it would assist to direct the attendance of an appropriate officer of the Legal Aid Agency to explain the basis upon which the decision was taken.  However having spent some time considering the Regulations it is clear to me that they have been applied in accordance with the scheme as set out and as such I saw neither purpose nor benefit in making such a direction.  I am also in no doubt that in making the decision that they did no member of the Legal Aid Agency could be said to have acted contrary to the legal framework, procedurally inappropriately or otherwise than in good faith and in accordance with the relevant regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Despite this I am equally clear that this mother was significantly disadvantaged to the point of having a real injustice visited upon her by reason of the absence of legal representation at the final hearing.  Having now both studied the legal framework and observed the consequence of its operation in court over three days I am driven to the conclusion that the current funding scheme with its focus upon the prospects of success and cost analysis is simultaneously not unlawful but entirely capable of utterly failing an individual in the position of this mother.  The three days of this final hearing over which I have presided will ineluctably root in my memory as three of the most depressing and miserable days I have known in my judicial career.  To have to sit and watch the pitiful sight of a party to proceedings struggling because she could barely understand what was happening in a court speaking a language she cannot learn was beyond depressing.  The mother had the benefit of an indefatigable interpreter who did her very best to ensure that the mother at least heard the words being spoken in her own language but with the greatest respect to the interpreter she was not able to assist the mother in terms of how she could best present her case, merely enable the mother to have the words she chose to use understood.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">I am familiar with the strictures of the Supreme Court&#8217;s guidance with regard to unrepresented individuals (<span style="font-style:italic">Barton v Wright Hassall LLP [2018] UKSC 12</span>) in the civil (i.e. not family) context and the importance given there to the need to ensure unrepresented parties are not treated so sympathetically that they are treated unequally and therefore unfairly in comparison to represented parties.  Here despite sensitivity demonstrated by all concerned, whether advocate or witness, this mother as a litigant-in-person was effectively alone in attempting to make her case despite the complexities of her situation and the importance of the issues to her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="text-indent:-0.25in">85.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In <span style="font-style:italic">Barton</span> the issue before the court was the importance of compliance with the Civil Procedure Rules 1998 as referenced in the Overriding Objective as the foundation of those Rules.  The Family Procedure Rules 2010 also contain an Overriding Objective which is set out in Part 1 of the 2010 Rules.  It is worthy of consideration here:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">These rules are a new procedural code with </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">the overriding objective of enabling the court to deal with cases justly</span><span style="font-family:'Times New Roman'">, having regard to any welfare issues involved.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Dealing with a case justly includes, so far as is practicable &#8211;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">ensuring that it is dealt with expeditiously and fairly;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">dealing with the case in ways which are proportionate to the nature, importance and complexity of the issues;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">ensuring that the parties are on an equal footing</span><span style="font-family:'Times New Roman'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(d)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">saving expense; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1in;text-indent:-0.25in">(e)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman'">allotting to it an appropriate share of the court's resources, while taking into account the need to allot resources to other cases.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:0.25in">(my emphasis by underlining)</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The Overriding Objective has been described as <span style="font-style:italic">&#8216;fundamental and the bedrock of the 2010 Rules&#8217;</span> (see the Notes to the Family Court Practice 2024).  Whilst accepting the distillation of jurisprudence pertaining to the proper scope of Articles 6 and 8 as referred to above and their application to the issue of legal representation (or the lack thereof) it is difficult to square that position with the <span style="font-style:italic">duty</span> of the court to ensure that the parties are on an equal footing.  When some parties have recourse to a combination of professional legal representation, a clear understanding of the issues, fluency in the language used by the court, support in court and experience of court whilst another party has none of the above it is very difficult to see how any court could ensure that that duty of equality is discharged.  The situation faced by this mother causes me to conclude that I am regrettably but entirely satisfied that insofar as it is the court&#8217;s duty to deal with cases justly and that an important aspect of that duty is to ensure that parties are on an equal footing then there has been a near total failure of that duty in this hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Legal aid should not be about affording representation to secure a specific outcome but about ensuring that a process of decision-making which results in an imposition of an outcome which demands compliance is fair, especially where that process concerns a matter as fundamental to a person as long term separation from their children.  The current system of funding provision appears to place little value upon the importance to a parent of knowing that they had their case professionally and therefore properly argued and so being able to accept an unwelcome outcome.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">When considering the Regulations what appears to be the paramount consideration for such decisions is an assessment of the likelihood of success measured as a percentage of the funded individual securing their outcome to the apparent exclusion of the value of the benefit of representation at a hearing at which a court will have to determine whether a parent is able to continue to have their child live with them.  It is all about the likelihood of achieving the &#8216;win&#8217; rather than avoiding the detriment of the procedural injustice which would flow from the absence of representation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">It is, of course, right and proper that public monies, being a limited resource, are never squandered and that criteria are in place which provide a transparent framework for their allocation in the face of excessive demand. It is difficult, however, to identify within the Regulations, in contrast to the statutory factors which do present a wider and deeper scope of what should be considered, any reflection of the value of procedural fairness in achieving a just outcome as opposed to the economic cost to the public purse of that representation.  It is a system which appears to aptly reflect Wilde&#8217;s definition of the cynic as articulated by Lord Darlington referred to at the start of this judgment.  The counterpoint, of course, is to be found in the retort offered by the character of Cecil Graham, which is why I have included the full quote and not simply the better known first part.  Those whose first duty is to the proper allocation of a scarce resource such as public funds would be quick to side with Graham and point out that even values have their price and that the cost of meeting that price must not be lost in the pursuit of those values.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">But sometimes it is better to appreciate the value of a matter than merely its price if in doing so a better analysis of the real costs can be achieved. A proper cost-benefit analysis of the economic cost of not funding the mother would almost certainly make the case for representation and not against it. Had this mother been professionally represented at the final hearing it would undoubtedly have taken less than the three days it did as the mother&#8217;s case could probably have been determined via submissions alone.  In addition, the proceedings did not simply take up three days of court time but also involved the presence of a Guardian, a social worker and three advocates, all of whose time could have been spent attending to other cases.  If only framed in economic terms any gain made in not paying for the mother&#8217;s solicitor to come to court was lost several times over by all the other costs which were incurred by the necessity of hearing the evidential case.  Even if the primary criterion is one of finance the case for representation is made out.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="text-indent:-0.25in">91.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">But the economic argument is only one part of a wider perspective in terms of the real costs involved. In my judgement a successful outcome in proceedings concerning a child is not measured by whether a parent achieves their goal but by whether the welfare of the child is properly met and the process by which that is achieved is one which has been fair to all concerned.  The less likely a parent is to achieve an aim of reunification with a child the more important it is to ensure that they can at the very least accept that the way in which that decision was taken was one in which they could effectively participate, where they could understand more than their own point of view, where there was demonstrably rational and child-centric reasoning underpinning the outcome and that even if they left the court disappointed they would be able to accept decision which had been made and so comply with the resulting order.  In these days of uncensored social media driven by furious keyboard warriors who require little encouragement to add to the reservoirs of discontent which daily flood the internet about the Family Court there is every incentive to visibly demonstrate fairness rather than bake in the appearance of unfairness.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">The involvement of Susan</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">The economic cost argument was further undermined by the late arrival of separate representation for Susan. Having been made aware of her Guardian&#8217;s view as to where Susan&#8217;s own welfare interests lay the child promptly detached herself from the Guardian and obtained separate representation.  I had no doubt as to Susan&#8217;s competence to instruct her own solicitor, not least as it was backed up by the clear professional opinion of a highly experienced family law solicitor specialising in the representation of children.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">This development, of course, only complicated the position further for the mother.  The Guardian remained the representative voice of Peter whilst Susan was now moving separately in the same proceedings.  The mother&#8217;s already difficult position was only made more complicated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">I met with Susan accompanied by her counsel on the second afternoon of the final hearing.  In accordance with the approved practice I explained to Susan that whilst she could ask me questions which I would do my best to answer I was unable to decide anything until I had heard everything.  She was also made aware that our discussion was not in confidence but that a general summary of our conversation would be made available to all parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">I found Susan to be a caring, thoughtful and considerate daughter.  She was very clear that insofar as there were problems she took responsibility for those actions rather than having any blame being attached to her Mum.  Susan told me that she knew her Mum to be a good parent, a responsible parent and someone who only wanted the best for both of her children.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Susan was very clear that she recognised the problems which surrounded her and acknowledged her own role in their existence.  She wanted only to return home and was prepared to abide by any rules, any agreement and any restrictions to make that happen.  Susan was also clear that she saw any period of compliance as being measured over a long period and not counted in days or even weeks.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">I was given no countervailing assurance that not getting what she wanted would not lead to attempts to return home or otherwise disrupt the work being done with her in her current placement but neither did she make any attempt to force the issue by indicating that non-compliance would inevitably follow.  In this she showed maturity and insight.  Threatening trouble unless you get what you want is hardly the ideal way of showing your maturity and ability to act responsibly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="text-indent:-0.25in">98.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in">In her conversation with me Susan was a credit to herself and reflected the depth of her commitment to her Mum, which in turn reflects her mother&#8217;s love for her.  It was a further example, if any were needed, of a family which above all simply wished to be reunified.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">Discussion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in">Earlier in this judgment I noted that the test for the discharge of a care order was one of welfare but with the clear view that an applicant needed to demonstrate positive benefits of a discharge of the order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="text-indent:-0.25in">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">There is of course one clear and undoubted benefit in discharging the order in that it would allow Susan to return home and her Mum to bring Peter back to her care.  This would undoubtedly make the children happy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="text-indent:-0.25in">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">But it would not help them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="text-indent:-0.25in">102.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">All of the professional evidence points inexorably in only direction, that the needs of the children outflank the ability of the mother to meet them.  This is not a criticism of this mother&#8217;s commitment to her children nor her love for them, which is clear to all, but just as there can be no doubt about that there is equally no doubt, in my judgement at least, that the children need more than the mother can give them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="text-indent:-0.25in">103.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">There have now been years during which the children have been in the sole care of their mother and a very clear picture has emerged over a long period of time which is one of longitudinal neglect and of inadequate care.  The consequences for each child, whilst very different in outcome, are real, damaging and incapable of being reversed without professional care.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="text-indent:-0.25in">104.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">Susan is a teenager with clear emotional difficulties, an inability to accept boundaries and an approach to risk which is dangerously self-damaging.  She is not merely a child beyond her years but a child who is becoming ensnared in an adult world of harmful social media, inappropriate encounters and a lack of boundaries designed not to reign her in but to give her a foundation upon which she can develop safely and so fulfil her potential.  The care order is what is needed now to generate the necessary levels of control, of parameters and of prohibitions which will keep her safe, enable her to recognise the harm of her previous actions and set her upon a road to better realisation of why untrammelled freedom is never a good pathway for a young teenager.  In short the care order with all its prohibitions and restrictions is a positive assist to her welfare and its absence would be a detriment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="text-indent:-0.25in">105.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">Peter is at the other end of the spectrum.  He needs his care order because he needs activity, stimulation, careful management all on a daily basis.  The absence of a care order would condemn him to long periods sitting in his chair and fewer interactions with individuals which are necessary to stimulate him and so enable him to progress.  Peter has been described as a changed child since his removal into care and the changes are only for the better.  Peter is calmer, safer and more stable in his current environment.  Whilst he undoubtedly misses his mother Peter is benefitting from consistency of routine, enhanced stimulation and secure arrangements.  For a child in Peter&#8217;s situation the importance of a settled, stimulating routine provided by available carers who are attuned to the needs of the child is invaluable and this is what this care order brings him.  The discharge of the care order would enable Peter to return to the care of his mother but it would be the care arrangement which the mother has shown she can offer and this is the same one in which he sustained an injury, which was untreated and which has failed to arrest his deteriorating developmental progress.  Although the discharge of the care order would enable Peter to feel the full effect of his mother&#8217;s love it would also expose him to her limited capacity to care and whilst the former is invaluable the latter must be avoided if his welfare is to be maximised.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="text-indent:-0.25in">106.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">I cannot discharge a care order, even in the face of a united front by those of the family who are able to make the case and in the knowledge that the continuation of the order flies in the face of their clear wishes and feelings if in so doing I create a situation where, looked at in terms of what the children clearly need, they would be worse off.  There is no positive benefit for the children in terms of their overall welfare in the discharge of this order and a real likelihood of a return to which has so clearly not worked for them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="text-indent:-0.25in">107.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">To address directly Susan&#8217;s view of being willing to abide by any restrictions to achieve a return home I say that to place her under such pressure would be wrong and to expect her to live a life without making a mistake or acting spontaneously would be wholly unrealistic.  To the chagrin of the adults around them teenagers continually push the boundaries placed upon them as they transition from dutiful children into adults with agency and an appreciation of the responsibilities of independence.  That process usually involves a considerable amount of friction in most homes as the teenager seeks to explore the world as it starts to open up before them on their terms and in their way.  It takes a good while for both sides to reach a new accommodation on the other side of maturity and emotional bruises acquired on the way (on both sides) are commonplace.  Susan would be denied that opportunity and in so doing would miss out on an important aspect of her development.  Left to her own devices whilst in the care of her mother she put many feet wrong. Any requirement to toe the line if returned to her mother&#8217;s care would either end in spectacular failure or simply stunt her emotional development and leave her as a young adult as needing to catch up on all that was not allowed to happen during those important years.  Either way Susan would lose out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="text-indent:-0.25in">108.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">At the end of this judgment is a short form of this judgment prepared specifically for the mother and Susan. Its purpose is to convey the essence of the judgment devoid of the excursion into the legal funding framework which has taken up so much of this longer version.  It has been provided directly to its intended recipients already.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0in"><span style="font-style:italic">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="text-indent:-0.25in">109.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">I have no doubt about the decision that I have made in this case. It is undoubtedly the right decision because it is entirely supported by the evidence and, despite the unhappiness it will cause to the mother and almost certainly to Susan too, it is the right decision for both children when looked at through the prism of their welfare needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="text-indent:-0.25in">110.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">However I am acutely conscious of how unhappy it will make this mother and that such unhappiness will only be compounded by the miserable and unequal process she was forced to endure.  To a deeply unhappy outcome will be added a feeling of injustice as to how such a decision was made.  It could and should have been very different.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="text-indent:-0.25in">111.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">There is no criticism to be made of any individual working for the Legal Aid Agency because the scheme as set up has been properly applied.  However in failing to give adequate weight to factors other than the likelihood of achieving a particular outcome the funding scheme can unintentionally lead to situations of such imbalance as to be incapable of enabling the court to apply its own procedural rules or, at best, to do so in a way which is superficial and skewed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="text-indent:-0.25in">112.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">Although the decision about whether to discharge the care order, which was the matter with which I was concerned, was not the most uncomplicated of determinations to make I consider that it would have been remiss of me to ignore the experience which this mother has gone through and regard it as no more than an unfortunate consequence of an otherwise proper funding decision.  Courts exist to provide not just an outcome to a dispute but a just outcome which reflects the importance of arriving at a fair, transparent and reasoned decision which respects individuals&#8217; rights through a process which itself is fair.  Access to justice should be about more than merely allowing a person to be in the courtroom and to have an opportunity to ask questions and speak directly to the judge.  Important principles of natural justice such as equality of arms and effective participation are not honoured merely by so doing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="text-indent:-0.25in">113.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">This is always important when people&#8217;s rights are involved because any decision which impacts upon rights is important but particularly so when dealing with matters as fundamental as whether a mother should be care for her children.  The distress of this mother on hearing my decision was visible.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="text-indent:-0.25in">114.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">I end this judgment with a further nod to Oscar Wilde.  After his own experience of incarceration Wilde wrote his famous poem <span style="font-style:italic">The Ballad of Reading Gaol </span>in which<span style="font-style:italic"> </span>he sought to articulate the despair and depression of incarceration.  In a memorable phrase he wrote about the slow passage of time for those imprisoned &#8216;&#8230;<span style="font-style:italic;color:#181818">each day is like a year</span><span class="apple-converted-space" style="font-style:italic;color:#181818">&#160;</span><span style="font-style:italic;color:#181818">A year whose days are long.&#8217;</span>  What Wilde described as being felt by those serving a criminal sentence might equally describe the feelings of a parent living with a separation from a child ordered by a Family Court.  It is not easy to see how our funding system might be altered so as to prioritise the value to the individual of representation in any particular case but our family justice system would be better served if it could.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="text-indent:-0.25in">115.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.12in">That is my judgment.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0in"><span style="font-style:italic">HHJ Sharpe</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0in"><span style="font-style:italic">14 February 2025</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0in">Annex A &#8211; Short Judgment</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SHORT JUDGMENT</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">This case is about a mother&#8217;s wish for her children to come home to live with her.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The mother is M and her children are Susan and Peter, these are not their real names. They are not living with M at the moment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In 2021 I made a care order because M needed help to care for the children properly.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Everyone knew that M had struggled to care for the children, particularly when the children&#8217;s father was living with them because he was not a good man.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Everyone hoped that when the father left life would get easier for M and that with help and support she would be able to meet the needs of each of her children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">So the Local Authority, the Guardian and the judge all wanted the children to live at home with M.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The children both stayed with M.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">It has not been easy for M to care for both of the children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The children are different ages, Susan is now a teenager but Peter is much younger and needs very different care.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Looking after both children has been very hard work for M.  She has struggled to give each child what they need.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">As a result both children have not had all of the care which they should have had.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Although M has struggled she has always done her best.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">M loves both her children deeply, she does not favour one of them over the other and she wants the very best for each of them.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The children are not living at home because the judge decided that even M&#8217;s best efforts were not enough to give the children the care that each of them need.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The children want to be at home. Not living at home and seeing their Mum every day is not what the children want.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Susan told the judge very clearly that she would do everything required of her if she could just live at home.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Peter is not able to say what he wants but the judge knows that he loves his Mum as much as she loves him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The family all want to be together.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">If children only needed love then Susan and Peter would be the best cared for children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">But children, whether they are teenagers or much younger children, need a lot more.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Children need to be safe, they need to be stimulated, they need to be allowed to grow up but they also need to be protected. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">It is very hard for M to do all these things all the time for Susan and Peter.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Doing all of these things all of the time is very hard for most parents.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">M struggles because she does not always know what to do. She struggles because she does not understand English and because she is not able to recognise problems and dangers sometimes.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Since the children have not lived with M they have been sad but they have also been properly cared for.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Susan has much to learn about growing up safely and M cannot teach her all that Susan needs to know.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Peter needs lots of help if he is to grow up to be the best person he can be and M cannot always give Peter all the help that he needs.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The children need help which M cannot give them.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">It will make all of them sad not to live together but it is important that the children get what they need to help them in the future.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">M will always be the children&#8217;s Mum.  She will always love them and they will always love her.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>31.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">Everyone understands just how hard M has tried to help her children.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The judge has listened to everyone, especially M and Susan. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">But the judge&#8217;s decision is that the children must have all the help they need and because M cannot give that to them the children must live where they can get that help every day.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">So the children will not live at home.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>35.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The children will see M every week because it is very important that they can see her as she is their Mum.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in;text-indent:0in">The judge is sorry that he cannot let the children go home to M at this time.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0in"><span style="font-weight:bold">HHJ Sharpe</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0in"><span style="font-weight:bold">14 February 2025</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

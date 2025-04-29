@@ -1,0 +1,2149 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/502"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/502"/>
+	  <FRBRdate date="2025-03-10" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery-propertytrustsprobate"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="502"/>
+	  <FRBRname value="June Ashimola &amp; Anor v Ruth Samuel &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/502"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/502"/>
+	  <FRBRdate date="2025-03-10" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery-propertytrustsprobate"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/502/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/502/data.xml"/>
+	  <FRBRdate date="2025-03-10T11:02:29" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-chancery-propertytrustsprobate" href="https://www.gov.uk/courts-tribunals/the-property-trusts-and-probate-list" showAs="The Business and Property Courts (Property, Trusts and Probate List)" shortForm="The Property, Trusts and Probate List"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="june-ashimola" href="" showAs="JUNE ASHIMOLA"/>
+	<TLCPerson eId="wasiu-shomotun" href="" showAs="WASIU SHOMOTUN"/>
+	<TLCPerson eId="ruth-samuel" href="" showAs="RUTH SAMUEL"/>
+	<TLCPerson eId="bakare-olatoye-lasisi" href="" showAs="BAKARE OLATOYE LASISI"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Chancery-PropertyTrustsProbate</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>502</uk:number>
+	<uk:cite>[2025] EWHC 502 (Ch)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>25ec15bdd3681c5485d1c407481976b5cb92bb42fa07e3ef42a2a394034eb3d3</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legds { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 502 (Ch)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>PT-2024-000169</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-chancery-propertytrustsprobate">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery-propertytrustsprobate" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS AND PROPERTY COURTS OF ENGLAND &amp; WALES</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery-propertytrustsprobate" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">PROPERTY, TRUSTS AND PROBATE LIST (ChD)</courtType></p>
+      <p class="CoverText">The Rolls Building</p>
+      <p class="CoverText">7 Rolls Buildings, </p>
+      <p class="CoverText">Fetter Lane London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-10" refersTo="#judgment">10/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center">DEPUTY MASTER LINWOOD</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#june-ashimola" as="#claimant" style="font-weight:bold">JUNE ASHIMOLA (1)</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#wasiu-shomotun" as="#claimant" style="font-weight:bold">WASIU SHOMOTUN (2)</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#ruth-samuel" as="#defendant" style="font-weight:bold">RUTH SAMUEL (1)</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#bakare-olatoye-lasisi" as="#defendant" style="font-weight:bold">BAKARE OLATOYE LASISI (2)</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">Dr Arun Kasi (</span>instructed by<span style="font-weight:bold"> HM &amp; Co Solicitors</span>) for the <span style="font-weight:bold">Claimants </span>(27<span style="vertical-align:super;font-size:smaller">th</span>-29<span style="vertical-align:super;font-size:smaller">th</span> November 2024 only). The Second Claimant appeared on behalf of himself on the 5th February 2025, when the First Claimant did not appear and was not represented.</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr O Aniere Ebuzoeme</span> (Solicitor-Advocate) of <span style="font-weight:bold">A. Vincent Solicitors Ltd</span> for the <span style="font-weight:bold">Defendants</span></p>
+      <p style="text-align:center">Hearing dates: 27<span style="vertical-align:super;font-size:smaller">th</span>, 28<span style="vertical-align:super;font-size:smaller">th</span> and 29<span style="vertical-align:super;font-size:smaller">th</span> November 2024 and 5<span style="vertical-align:super;font-size:smaller">th</span> February 2025.</p>
+      <p style="text-align:center">Claimants&#8217; Closing and further submissions: 6<span style="vertical-align:super;font-size:smaller">th</span> February and 5<span style="vertical-align:super;font-size:smaller">th</span> March 2025</p>
+      <p style="text-align:center">Defendants&#8217; Closing and further submissions: 7<span style="vertical-align:super;font-size:smaller">th</span> February and 5<span style="vertical-align:super;font-size:smaller">th</span> March 2025.</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">I direct that pursuant to CPR PD 39A para 6.1 no official shorthand note shall be taken of this Judgment and that copies of this version as handed down may be treated as authentic.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">DEPUTY MASTER LINWOOD</p>
+      <p class="CoverDesc"><span style="font-weight:normal;font-size:12pt">This judgment was handed down remotely by circulation to the parties&#8217; representatives by email and release to the National Archives at 11.00 am on 10</span><span style="font-weight:normal;vertical-align:super;font-size:12pt">th</span><span style="font-weight:normal;font-size:12pt"> March 2025.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Deputy Master Linwood:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This is an unusual probate claim in that the deceased says she is very much alive. In essence, D1, Ms Ruth Samuel, holds a probate power of attorney in Form PA12 for D2, Mr Bakare Olatoye Lasisi, who says he married C1, Ms June Ashimola, in 1993. They say Ms Ashimola died in Nigeria on 6<span style="vertical-align:super;font-size:smaller">th</span> February 2019, intestate. A grant of Letters of Administration (&#8220;the Grant&#8221;) to her Estate was issued to Ms Samuel as Mr Lasisi&#8217;s attorney, on 18<span style="vertical-align:super;font-size:smaller">th</span> October 2022, with a gross value stated at &#163;347,000 gross and &#163;172,000 net.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The only asset of the Estate appears to be a house at 3 Warland Road London SE18 2EX (&#8220;the Property&#8221;). This was purchased by Ms Ashimola in July 2003 and registered in her sole name. The root of this claim is a long running battle or campaign waged by a Mr Tony Ashikodi for control and/or ownership of the Property. Ms Ashimola left the UK for Nigeria in about October 2018 and has not returned since. This claim involves wide-ranging allegations of fraud, forgery, impersonation and intimidation, some of which have been established as I will turn to.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In this judgment I will refer to the parties who share a surname by prefixing their first names. References [  ] are to paragraph numbers in this judgment unless the context appears otherwise. As the evidence focused on various documents including photographs and identity documents I include where appropriate the trial bundle reference. Certain important images from the trial bundle are reproduced in the Annex to this judgment. When I refer to the parties&#8217; advocates jointly I use the term &#8220;Counsel&#8221;.  I set out below my criticisms of the way the trial was conducted, the issues, the law, the evidence of fact, my findings of fact, certain miscellaneous matters and my determination of the issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The majority of the key documents in this claim such as, for example, the marriage certificate of C1 and D2 are disputed as forgeries whether of the document itself or the signatures they bear or both. I have treated all such documents as suspect as the provenance is, in the main, uncertain and many were not proved before me in that originals were not produced at trial, their makers did not give oral evidence, nor were notices under the Civil Evidence Act 1972 served, nor Notices to Admit. Accordingly, I have had to draw adverse inferences as to certain documents, evidence and events involving the main protagonists.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">CONDUCT OF THE TRIAL</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I appreciate that preparation for and conduct of a trial especially in situations as obtain here is rarely easy or straightforward. Trials frequently create substantial workloads, often with unexpected points of law, evidence or procedure arising both immediately before or during the trial. Various matters may at times not prepared as best as they could or should be. But that is litigation. I usually endeavour, on the basis that the legal teams and litigants in person are doing their very best, not to take points of procedure, preparation or practice unless there is material prejudice or it affects my consideration of the evidence, the weight I should attach to it and my judgment. But what happened here was substantially beyond the norm and needs to be set out as the background to my assessment of the evidence and determination of the issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">My concerns include: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">During the evidence of one witness I noticed a person at the back of the court gesticulating to that witness during her evidence. I stopped the hearing and requested the person to identify and explain himself. He did so. Initially he denied making hand gestures but then accepted he had done so, his intention being to get the witness to answer the question. I explained that conduct was wholly unacceptable. His fulsome apology was sincere. I said I would take it no further but any future instances of interfering with evidence would be met by that person&#8217;s removal from the court and reporting of them to their regulatory body.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">The trial bundles. The electronic version consists of 4 separate PDFs as apparently the total (only some 650 pages) was over size for transmission. That is easily remedied using appropriate software or drop box. The hard copy has 4 separate sections with a different index and numbering for each. It is difficult to navigate and follow. A hard copy of the authorities bundle was directed by me but not provided until I received that of the Defendants in time for the last day of trial. Chief Master Shuman in her Additional Order of 16<span style="vertical-align:super;font-size:smaller">th</span> October 2024 (&#8220;the Additional Order&#8221;) required the parties to cross reference the numerous witness statements to the documents. That was only done for some, but not all, of the statements, and then in part only.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">At the start of the trial on Wednesday 27<span style="vertical-align:super;font-size:smaller">th</span> November 2024 I said to Mr Ebuzoeme that I could not follow his skeleton argument, despite spending considerable time trying to cross-refer, as his page references bore no resemblance to the trial bundle pages. I asked him to insert the proper references and refile, hopefully over lunch that day. That did not happen then nor during trial but eventually on Monday 2<span style="vertical-align:super;font-size:smaller">nd</span> December 2024 a revised skeleton was filed by, I noted, Mr Tony Ashikodi which is of some concern. That new version still has 4 incorrect references, one reference removed and 3 new ones added.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">On the first day when cross examining the claimant&#8217;s witnesses it became clear Mr Ebuzoeme could not point them to whatever document he was referring to as the pagination of his bundle was wholly different to that of the trial bundle. I did not permit cross examination without the witness being taken to the document as unfair to the witness and Dr Kasi. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">The parties were directed to agree so far as possible a List of Issues, Chronology, List of Legal Principles, List of Persons and a Reading List. None were capable of agreement so I had numerous versions of those documents. This flies in the face of the Overriding Objective and lengthened an already compressed timetable.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Mr Ebuzoeme in his skeleton argument complained that none of the witness statements served by the Claimants complied with PD57AC; they were &#8220;grossly non-compliant&#8221;. I pointed out to him that the like applied to the statements served by the Defendants, and that I was not going to review all parties&#8217; statements during trial to ascertain the position and, if necessary, apply an appropriate sanction as that would only extend the trial if not result in another adjournment (the original trial listed for October 2024 having been adjourned.) Further, there could be serious prejudice to a party if the evidence of that witness was ruled impermissible.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">He also, again rightly, in his statement of Applicable Legal Principles, submitted that the claimants had not served notice challenging the authenticity of certain documents pursuant to CPR 32.19. I responded that the same applied to his clients and again it would not assist the proper running of this trial, nor would it be proportionate nor accord with the Overriding Objective to pursue that breach by both parties. Further, the indices to the trial bundles in the main helpfully indicate which party has produced each document and whether the authenticity is disputed &#8211; therefore the parties here proceeded on a &#8220;shared assumption&#8221; &#8211; see the note at CPR 32.19.1 referring to the decision of Mr Richard Salter KC sitting as a Deputy Judge of the High Court <span style="font-style:italic">McGann v Bisping </span>[2017] EWHC 2951 (Comm).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(8)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">I have mentioned proportionality or rather lack of it. The equity in the Property according to the HMRC Schedule IHT421 filed by Ms Samuel is about &#163;172,000 but that is subject to at least one charge besides the mortgage the value of which is not known. Apparently the mortgage is not currently being paid and possession proceedings may have been or are about to be commenced, although there was no independent evidence of this before me. Both parties at my request filed current summaries of costs in Form N260. Those costs total approximately &#163;151,000 and so almost equal the remaining equity and may by now exceed it, so are disproportionate.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(9)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">When trial resumed there was no trial bundle for the last remaining witness, Mr Tony Ashikodi, to use. Mr Ebuzoeme was not able to source a copy quickly so I brought up the four PDFs on my laptop and provided that to the witness so the evidence could continue.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I have not set out all the matters in dispute and allegations by the parties against each other but only those I need to determine the Issues. I have considered carefully all the evidence, law and submissions but I do not need to deal with all of them. To do otherwise and explore and determine every contested document and issue of fact does not accord with the Overriding Objective at CPR 1(1)(2). It is neither proportionate nor necessary for determination of the Issues, and most importantly of all much of what I have considered does not go to the Issues to which I now turn.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">THE ISSUES</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">At the outset of the trial I said to Counsel that I wished them to agree the Issues for my determination. The Claimants&#8217; issues included all those below and in addition whether Mr Lasisi existed, was married to Ms Ashimola and whether the power of attorney he gave to Ms Ashimola was forged. Those of the Defendants included just 1 and 2 below. I said the latter was insufficient and suggested a revised list of issues which Dr Kasi agreed to and Mr Ebuzoeme did not object. Until I received the latter&#8217;s Closing Submissions (&#8220;Closings&#8221;) I considered the Issues subject to what I refer to below were agreed, and the trial proceeded on that basis. Those agreed issues are: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Is June Ashimola alive?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Is the person claiming to be June Ashimola her?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Did Mr Lasisi marry June Ashimola on or about 11<span style="vertical-align:super;font-size:smaller">th</span> November 1993?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Should the Court exercise its powers under s.121 of the Senior Courts Act 1981 (&#8220;the Act&#8221;) or otherwise revoke the Grant?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Dr Kasi wished to add 2 more issues:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Was the death certificate issued in Nigeria on 8<span style="vertical-align:super;font-size:smaller">th</span> February based on a false medical certificate?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Was the Power of Attorney made by D2 in favour of D1 forged?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme submitted in his Closings that Issue 3, namely whether Mr Lasisi married Ms Ashimola, was not pleaded by the Claimants and therefore cannot be advanced, citing <span style="font-style:italic">Jacobs v Chalcot Crescent Management Company Ltd </span>[2024] EWHC 259 (Ch) at [23]. He summarised his position thus: &#8220;The pleaded case of the claimant is that June Ashimola is alive; as such the letter of administration should be revoked.&#8221; (sic).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I agree but add (which Mr Ebuzoeme appears not to want determined as an Issue) that the Letters of Administration (&#8220;the Grant&#8221;) were granted to Ms Samuel as attorney for Mr Lasisi purely because he claimed to be married to Ms Ashimola and therefore was entitled to take the Grant. Therefore, the question of whether the marriage was real or not underpins not only the Grant but also the claim to the Property. I would also distinguish the position from that in <span style="font-style:italic">Jacobs </span>at [23] as here Ms Ashimola was direct and unequivocal in her witness statement; she had never heard of either of the Defendants until she saw the Grant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The Claim Form under &#8220;Relief asked for&#8221; states </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Claimants ask that the grant of letters of administration issued by the High Court of Justice, Brighton District Probate Registry to the First Defendant on 18 October 2022 vide Case Reference 1559120175460962 be revoked and declared null and void from the beginning (void ab initio) because the First Claimant is alive.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The Particulars of Claim are not as detailed as one would wish but repeat the claim for revocation, because Ms Ashimola is alive and the death certificate &#8220;&#8230;is false and fraudulent&#8221;. That was reflected in the Claimants&#8217; issue 7 namely whether the Grant was obtained fraudulently or improperly such that it should be revoked. Dr Kasi then introduced the reference to s.121 of the Act in his skeleton. The Particulars of Claim at [9] state Mr Lasisi &#8220;..was falsely and fraudulently staged as the personal representative of [Ms Ashimola] allegedly deceased&#8221; (sic) and at [10] that Ms Samuel &#8220;&#8230;fraudulently obtained the Grant.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Upon reflection, and after asking the parties for submissions shortly before handing down this judgment in draft, I felt the words &#8220;or otherwise revoke the Grant&#8221; should be added to Issue 4 above. Mr Ebuzoeme objected in his further written submissions, submitting that this was not pleaded or in evidence or in the skeleton arguments and that &#8220;&#8230;the court cannot unilaterally create an issue not pleaded nor as an extension of the Claimants&#8217; issue 3&#8230;the only reason the claimants want the Grant&#8230;to be revoked is that June Ashimola is alive and nothing more.&#8221; Mr Shomotun did not object.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">With respect to Mr Ebuzoeme, I think his objections are misfounded as my addition of the words &#8220;or otherwise revoke the Grant&#8221; are to cover exactly his point namely whether Ms Ashimola is alive. There is no new issue as that is as pleaded in the Claim Form and Particulars of Claim. What I think Mr Ebuzoeme is concerned over is the possibility of the Grant being revoked by me whether or not the Claimants succeed in proving on the balance of probabilities that Ms Ashimola is alive. I will deal with that in my determination of the Issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This Claim arose due to the Order of Judge Ewan Paton in the Property Chamber, Land Registration First-Tier Tribunal (&#8220;the FTT&#8221;) dated 10<span style="vertical-align:super;font-size:smaller">th</span> January 2024 in proceedings brought by Ms Samuel against Mr Shomotun. At [1] he ordered if the latter did not issue these proceedings for revocation he may have been disbarred in the FTT proceedings and Ms Samuel&#8217;s application for transfer of the Property to Mr Tony Ashikodi would proceed on the basis of no objections.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">THE LAW</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Dr Kasi and Mr Ebuzoeme both submitted written Applicable Legal Principles in accordance with the direction of Chief Master Shuman in the Additional Order. I refer to certain of the pertinent submissions below. Dr Kasi submitted as the Issues I am to determine are questions of fact and not law there is little to say as to the law. He emphasises the supervisory role the court plays in probate disputes including the application of s. 121 of the Act. He referred me to commentary in the White Book as to adverse inferences. In that respect I said I also had in mind <span style="font-style:italic">Re Mumtaz Properties </span>[2011] EWCA Civ 610 at [14] and <span style="font-style:italic">Wisniewski v Central Manchester Health Authority </span>1998 PIQR 324 at p340.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Dr Kasi also referred to CPR 33.2 - 3 and s.2 of the Civil Evidence Act 1995 (&#8220;the CEA 1995&#8221;) in view of various witness statements tendered by the defendants for individuals that were not going to attend trial. Mr Ebuzoeme as to probate claims and s.121 cited <span style="font-style:italic">Randall v Randall </span>[2016] EWCA Civ 494. He also cited, as to proof of fraud, <span style="font-style:italic">Bank St Petersburg PJSC v Vitaly Arkhangelsky &amp; Ors </span>[2020] EWCA 408 and <span style="font-style:italic">Fiona Trust v Privalov </span>[2010] EWHC 3199.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">He also addressed non-compliance with PD57AC and challenges to the authenticity of documents, including, with reference to CPR 32.19 (1), <span style="font-style:italic">McGann.</span> I referred counsel to the section entitled &#8220;How Judges Decide Cases&#8221; in the judgment of HHJ Paul Matthews sitting as a Deputy Judge of the High Court in <span style="font-style:italic">Wigglesworth v Beetson </span>[2024] EWHC 2886 (Ch) at [7-13].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">As to my approach to fact finding I mentioned the 13 axioms set out by Dexter Dias KC sitting as a Deputy Judge of the High Court in <span style="font-style:italic">Powell v University Hospitals Sussex NHS Foundation Trust </span>[2023] EWHC 736 at [25]. As to failing to challenge evidence, which I was concerned with here, I mentioned <span style="font-style:italic">TUI v Griffiths</span> [2023] UKSC especially at [70].</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE EVIDENCE OF FACT</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I now set out my view of the evidence of those who appeared, in the order in which I heard them. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Mr Wasiu Shomotun</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">One matter that both parties agreed upon was that Mr Shomotun was a nominal claimant, as attorney for Ms Ashimola. He has no material interest in these proceedings. Mr Shomotun said he had known Ms Ashimola after she came to the UK in about 1999. Then in about 2001 she moved into his family house. He was asked if he accepted she was dead, which he denied, saying he last saw her in Nigeria over June/July 2024 for about 2 weeks. He identified her from her Nigerian passport number A10266959, issued on 28<span style="vertical-align:super;font-size:smaller">th</span> February 2019, expiry date 27<span style="vertical-align:super;font-size:smaller">th</span> February 2024, at pages B/87-103 (&#8220;the Expired Passport&#8221;). Page B/87 is the first image in the Annex.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Shomotun said Ms Ashimola had told him of the difficulties she was having with Mr Tony Ashikodi who was trying to take the Property off her. He said he knew Mr Tony Ashikodi well as he is his brother-in-law, and that following a trial at Woolwich Crown Court in September 1996 Mr Tony Ashikodi was convicted of conspiring to and/or obtaining property by deception. He was sentenced to 3 years in prison. Mr Shomotun&#8217;s evidence was not challenged on this conviction and indeed Mr Ashikodi accepted he had served that prison sentence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">A Nigerian National Identity Card (&#8220;the Identity Card&#8221;) in the name of June Ashimola which appears at page B/7 was put to Mr Shomotun. This is the second image in the Annex. Like the Expired Passport the date of birth is stated to be 27<span style="vertical-align:super;font-size:smaller">th</span> June 1969. The photograph however is of a woman who looks very different to that at page B/87. There is no identifying number upon this Identity Card which struck me as unusual.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Shomotun was certain that the person who gave him the power of attorney he acted under was Ms June Ashimola and not, as Mr Ebuzoeme put to him, one Ms Mariam Adeyemo. He was asked when he was given the power of attorney but he could not remember. He did say that it was just before he attended at the Land Registry who wanted Ms Ashimola to attend with her identity documents but she was unable to as she was in Nigeria. Mr Ebuzoeme put to Mr Shomotun that his wife, Ms Justina Ashikodi, attended that meeting and pretended to be Ms Ashimola, which he denied, saying they produced at that meeting the power of attorney in his favour.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">A Power of Attorney (&#8220;the PoA&#8221;) at B/65-67 dated 12<span style="vertical-align:super;font-size:smaller">th</span> October 2018 by Ms Ashimola in his favour was put to him. On the first page it states that it was prepared by Ms Julliette Menge, who appears to have affixed to that front page her stamp of the Nigerian Bar Association, stated to be &#8220;Valid Till March 2018&#8221;. On page B/67 appears a signature, very similar to that of Ms Ashimola in the Expired Passport. The signature was affixed in the presence of, according to two stamps of his, one Chief Oluseyi Oyebolu, &#8220;Legal Practitioner &amp; Notary Public&#8221;, who also signed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme then asked Mr Shomotun why his signature was different on this document. I thought this a bizarre question as, as Mr Shomotun answered, &#8220;I didn&#8217;t sign it&#8221;. I can only presume Mr Ebuoeme was working off an incorrect page reference in his poor version of the trial bundle. Mr Shomotun was then asked about Ms Menge and her statement that she had not prepared this PoA. He, wholly understandably, answered he did not know who prepared it or signed it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Shomotun did not accept the Power of Attorney had been procured in an illegal way, nor that Ms Ashimola&#8217;s address in that document did not exist. He added that he knew it existed as he had been there. He confirmed that he, not him and his wife, collected the rent from the tenants at the Property for Ms Ashimola. Again Mr Ebuzoeme put to him that he hadn&#8217;t signed the PoA. Again he agreed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Shomotun said it had been sent by DHL by Ms Ashimola to him in London and that he thought he still had the envelope. When asked if he spoke to Ms Ashimola he confirmed he did but refused to produce copies of his telephone records saying they were personal. I think this was a misunderstanding as under re-examination he said he could disclose the logs of those calls, but that he did not have them with him. He was asked if he accepted he and his wife were the &#8220;&#8230;prime movers of this web of deceit&#8221; which he denied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Shomotun gave his evidence in a somewhat uncertain manner, possibly because for some matters his memory was poor. He also had a tendency to be argumentative. Having said that, on the crucial issues, he was certain and honest. I therefore accept his evidence.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Ms Justina Ashikodi</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Justina Ashikodi&#8217;s statement was short and direct; she said she met Ms Ashimola after she came to the UK. Then Ms Ashimola in 2001 came to live at her family house at 55 Glenalvon Way, Woolwich, and that she was familiar with her purchase of the Property. They stayed in touch until Ms Ashimola went back to Nigeria.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In her oral evidence she confirmed that Mr Tony Ashikodi was her elder brother. Mr Ebuzoeme put to her that she had signed a certificate of disclosure. She asked where it was. It then appeared he was referring to her solicitor&#8217;s certificate of compliance with PD57 AC. I intervened and said she could not answer questions as to that document. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Justina Ashikodi was then asked how she met Ms Ashimola and she said at a party in 1999. Mr Ebuzoeme put to her that she had called Fitzpatrick Solicitors pretending to be Ms Ashimola. She denied that but said she had spoken to them when her brother Mr Tony Ashikodi had been as she put it trying to get the Property off her and with everything going on she had to speak to Fitzpatrick at some point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme also put to her that she called and attended at the Land Registry pretending to be Ms Ashimola. She denied this but said she had been to see them with her husband when Ms Ashimola was asked to come in with evidence of her identity, adding that her brother Tony knew she was in Nigeria. She said her husband had a Power of Attorney for Ms Ashimola. She was adamant that the Land Registry recorded her attendance as Justina Ashikodi, that they looked at the Power of Attorney and handed it back after reviewing it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme asked which of B/8 and B/7 was Ms Ashimola? Ms Justina Ashikodi said B/8 was Ms Ashimola but the typed details to the right-hand side of that document were not her, and B/7 was not her. Mr Ebuzoeme asked how could she explain the NIN on B/8 namely 49999593430, if that was the wrong information, as it appeared as the NIN on Ms Ashimola&#8217;s current passport which had been produced on the first day of trial, now at page D/96?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Justina Ashikodi said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Tony Ashikodi is my brother. Over the years of this hoo haa he has brought in a lot of forged documents&#8230;Tony can forge anything from Nigeria. Tony can bring anything. So for me to answer &#8211; I don&#8217;t have all the answers. He can shed more light. I know what I know. June Ashimola is the owner of the house. I believe the question is is she dead or alive?&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Justina Ashikodi then said the identity card at B/7 was submitted to the FTT by her brother Tony. But the day after judgment was handed down, on 5<span style="vertical-align:super;font-size:smaller">th</span> February 2019, the death certificate of Ms Ashimola appeared. She was asked if her brother Tony forged documents which she said he did. She was asked to account for the same name on B/7 and D/96. She replied she did not know as she was not an immigration officer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Justina Ashikodi in answer to the question how many NINs did she have said &#8220;One. But you can get any document out of Nigeria. The system is different here&#8221;. She went on to say this was not the first time her brother Tony had taken property of another person and that it had taken a lot for her to come to court and give evidence against her elder brother Tony &#8220;who can manipulate a lot.&#8221; Ms Justina Ashikodi was later asked when she last time had seen Ms Ashimola. She said it was in Nigeria, two years ago, accompanied by her husband. When asked why Ms Ashimola was not here, she said she didn&#8217;t know, but that maybe she was hiding and fearing for her life.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In re-examination she was asked to explain that last remark further. She said that when in Nigeria she had received a couple of anonymous text messages saying watch your back you are in Nigeria now. She said as a result she was mindful as to how they travelled; she took the threats seriously. She did not know who sent them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Initially Ms Justina Ashikodi was a somewhat recalcitrant witness. However as time went on her evidence became direct and to the point. I found her to be an honest witness who did her best to assist the court, despite her concerns, which I accept as genuine, as to her personal position in giving evidence. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Mr Ndubuokwu Ashikodi</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">His statement could hardly have been briefer; he said he had known Ms Ashimola since 2001 as he met her during his regular visits to his sister. Mr Ebuzoeme asked him to prove his identity (as required in the Chief Master&#8217;s Additional Order at [18]) and he produced a UK passport to which there was no objection. He confirmed Mr Tony Ashikodi is his brother, and that he had been involved since his brother had &#8220;&#8230;decided to start making this fraud to take property off the lady &#8230;he had asked the lady as she was going to Nigeria if he could be the caretaker of it but she got angry and said no.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">It was put to Mr Ndubuokwu Ashikodi that he had not signed his statement which he denied. Then he was asked if he would recognise Ms Ashimola if he saw a picture of her. He confirmed he would and was then taken to the photographs at B/7 and B/8. He said the person he knew, June Ashimola, was in B8 but it was not her name &#8211; Mariam Adeyemo. Next he was asked to explain the passport of Ms Ashimola at D/96. Understandably, he asked how could he be expected to do so?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">He was then asked to explain how the NIN on B/8 was the same as that as on the passport at D/96? Mr Ndubuokwu Ashikodi said he could identify June Ashimola as being the person at D/96. He was asked about the purchase of the Ashikodi family house and he replied that his mother bought it when Mr Tony Ashikodi was in prison serving 4 years for property fraud. Upon being asked if he had proof of that he said he was in court for the sentencing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">He said he first met Ms Ashimola in 2001. Then he saw her again in 2003 or 2004 but had only met her 2 or 3 times in all. Mr Ndubuokwu Ashikodi was at times argumentative when giving evidence but gave so far as he could straight answers to questions. He was an honest witness who tried to assist the court.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Ms Ruth Samuel</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">There are 5 witness statements by Ms Samuel, who describes herself as a pensioner, in the trial bundle. These are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">At A/54-55, marked her 3<span style="vertical-align:super;font-size:smaller">rd</span>, dated 23<span style="vertical-align:super;font-size:smaller">rd </span>August 2024.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">At A/85-86 and marked her 4<span style="vertical-align:super;font-size:smaller">th</span>, dated 2<span style="vertical-align:super;font-size:smaller">nd</span> September 2024, to comply with the Order of Deputy Master Rhys dated 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024, concerning her attempts to obtain documents from the Probate Registry.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">At A/101-104, marked her 5<span style="vertical-align:super;font-size:smaller">th</span>, dated 20<span style="vertical-align:super;font-size:smaller">th</span> October 2024, to comply with the Order of the Chief Master dated 16<span style="vertical-align:super;font-size:smaller">th</span> October 2024.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">At C/82-90, in separate proceedings she brought as a litigant in person by way of a without notice application for an injunction, under Claim No. PT-2024-000123, against Mr Shomotun, to prevent him from using the Power of Attorney he held for Ms Ashimola. This statement is dated 15<span style="vertical-align:super;font-size:smaller">th</span> February 2024 and was initially listed before Leech J and then Adam Johnson J. However, in March 2024 she withdrew her application. Mr Tony Ashikodi also appears as a CE-file user on that Claim.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">At C/105-C117, dated 29<span style="vertical-align:super;font-size:smaller">th</span> February 2024.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">However, before she took the oath Mr Ebuzoeme said he would only put two of her statements namely 1) and 3) to her. Dr Kasi did not object. My view is that as the remainder are in the trial bundle she could be asked questions about the contents but that I would assess weight as she had not deposed to their correctness nor truth notwithstanding the statements of truth that each contain. In any event, she was cross examined about matters set out in certain of her other statements and no objection was raised by Mr Ebuzoeme.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme requested to ask some questions in chief and Dr Kasi did not object. He asked Ms Samuel to identify the person at B/7. She said that was June Ashimola. Then when asked to identify the person at B/8 she said that was the woman who came to her house in, she thought, 2023, when she was away on her annual trip to the Caribbean. Her son was concerned and sent her the video recording from their doorbell. But when asked to look at B/8 and C/35 and identify who came to her house in 2023 she said it was the woman in B/8. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The marriage certificate at C11 was then put to her and she was asked what it was. After some thought she said it was a long time since she had seen this, but it was the marriage certificate of June [Ashimola] and Lasisi [Bakare], the latter being &#8220;the husband of June Ashimola as I knew her&#8221;, who is the Second Defendant. Their marriage apparently took place on 11<span style="vertical-align:super;font-size:smaller">th</span> November 1993.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"> Ms Samuel was very careful when giving evidence and would spend some considerable time looking at documents before answering the questions put to her. However, her recollection at times was poor or simply wrong. For example, she was asked in cross examination about her knowledge of or relationship with Mr Lasisi (the parties agree he is also known as Mr Bakare). She said she first spoke to him in late 2019 but did not know him until after the death of Ms Ashimola. Dr Kasi asked how she became his attorney and she replied she knew June Ashimola very well <span style="text-decoration-line:underline;text-decoration-style:solid">before</span> she got married as they were socially friendly, in a group that went to each other&#8217;s homes, having BBQs and so on.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">But the evidence of Ms Ashimola, supported by the Ashikodis, is that she came to the UK in about September 1999, which was 6 years <span style="text-decoration-line:underline;text-decoration-style:solid">after</span> her supposed marriage in 1993. That part of Ms Samuel&#8217;s evidence must therefore be wrong, and there is no evidence of Ms Samuel being in Nigeria at the material or for that matter any time or Ms Ashimola being in the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Then Ms Samuel was asked how did she become attorney for Mr Lasisi whom she did not know? Her answer, which I found unconvincing, was that she assumed Ms Ashimola asked Mr Lasisi before she died, and she got a letter stating she should represent Ms Ashimola as she had passed and see to the closure of her property in England. When asked who told her this she tried to avoid the question by saying it was her feeling that it was what Ms Ashimola wanted. She was clearly uncomfortable giving this evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">She was then asked how Mr Tony Ashikodi came into the picture? She explained that as she was of West Indian origin she would call him, as a Nigerian, whenever she had a contact from Nigeria, and so she always involved him, and she had known him for many years. She also knew that he knew Ms Ashimola. Then when asked about the Property and whether she knew of Mr Tony Ashikodi&#8217;s involvement with it and two court or tribunal cases against Ms Ashimola she said she was not aware.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Dr Kasi pursued his cross examination in this respect by pressing Ms Samuel as to what she knew and what Mr Tony Ashikodi had told her about the Property. She was asked had she been through the documents in this claim which she confirmed she had. She was asked if she would agree there were two claims between them &#8211; her answer, to be repeated at regular intervals, was that she was &#8220;&#8230;not legally minded.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"> It was put to her that she was aware of the cases between Mr Tony Ashikodi and Ms Ashimola since she came into the picture, and that it was Mr Tony Ashikodi who asked her to become involved with these matters and assist him. She denied both allegations. Land Registry Assent Form AS1 was then put to her. She confirmed she signed this on 6<span style="vertical-align:super;font-size:smaller">th</span> January 2023 but when asked further about it she said again she could not say anything more as she was &#8220;&#8230;not legally minded.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Samuel also tried to avoid answering questions. For example, when asked why she signed it, she said as the form said it was a transfer. Asked again, she said it was what the Land Registry wanted. Asked for what purpose, she said she signed it as Mr Tony Ashikodi was acting on her behalf as she was always in the Caribbean, (in contradiction to her earlier evidence of her annual visits) so she signed it, so he could deal with all matters concerning the Property, such as paying the mortgage, so the tenants would be secure. I found this another to be another evasive answer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Next she was asked who asked her to sign it and who sent it to her. She said the forms just came to her in the post, from, she assumed, the Land Registry, and that she needed to sign to get matters moving. Dr Kasi put to her that Mr Tony Ashikodi gave her the forms and asked her to sign it. She said she didn&#8217;t sit down with him and sign forms together. I note that she did not deny the question outright. It was put to her that then the forms came from him, she signed and returned them to him. She answered &#8220;I wouldn&#8217;t say they came from him&#8221;. Again there was no outright denial. I do not accept her evidence in this respect. I find she was deliberately trying to avoid confirming Mr Tony Ashikodi&#8217;s direct involvement and direction of her in this claim as the holder of the probate power of attorney.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I also found her evidence misleading and contradictory. For example, she was then asked if she was aware that she had signed documents to give the Property to Mr Ashikodi. Her answer was &#8220;I don&#8217;t think that is what I&#8217;ve done, no&#8221;. Next she was asked if she had agreed to give power over the Property to Mr Tony Ashikodi, which she denied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">But: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">She had earlier said she believed she had given him power over the Property and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">In her witness statement in her without notice injunction application I refer to at [45(4)] above she said &#8220;The applicant [i.e. she] submitted an AS1 application and AP1 application to the land registry, both dated 06.01.2023 in favour of Mr Tony Ashikodi, attached hereto as exhibit RS2&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Further, she used exactly the same phrase as in 2) above in her statement in these proceedings dated some 6 weeks later, on 29<span style="vertical-align:super;font-size:smaller">th</span> February 2024.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I appreciate that as I have mentioned above these statements were not put to her when she took the oath. But she relied upon the first statement in a without notice application to prevent Mr Shomotun&#8217;s objections to the transfer of the Property to Mr Tony Ashikodi. That is an especially serious attempt to transfer the Property of which she was not just aware but she attempted to silence all objections to the transfer. Likewise the statement at [45(3)] above was served to further her and Mr Ashikodi&#8217;s interests in these proceedings. It would be wholly artificial to ignore those statements when her evidence is so contradictory.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">At B/63-64 is a Power of Attorney purportedly made by Ms Ashimola, in favour of &#8220;Ms Ruthleen Samuel&#8221;, giving her wide powers over the management, letting and sale of the Property. It is dated 12<span style="vertical-align:super;font-size:smaller">th</span> October 2018 and was apparently signed by Ms Ashimola before Chief D. O. Omirefa, in Lagos, who describes himself as a solicitor and notary public. Unsurprisingly the authenticity of this document is disputed by the Claimants. Ms Ashimola says this is a false document. I also note that Ms Samuel is only ever described as &#8220;Ruthleen&#8221; in her email address, and in no other documents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This document was put to Ms Samuel and she was asked if she had seen it before this hearing. After a long silence she eventually said &#8220;I don&#8217;t think so, no.&#8221; She was then asked had she received it from anyone to which her answer was no. This verges on the impossible in that it is a document introduced into the evidence by the Defendants and Ms Samuel&#8217;s Co-Defendant has played no part in these proceedings save for filing an acknowledgement of service and a &#8220;Statement of Case&#8221; which does not mention this document. Therefore she &#8211; or someone on her behalf &#8211; must have introduced it into the Defendants&#8217; evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The conclusions I draw from her evidence in this respect are that either Ms Samuel did hand it to her solicitors but has completely forgotten about it or that someone else has, and that person seeks to have control over the Property via Ms Samuel. The former is highly unlikely; the latter on the balance of probabilities likely in the context of this dispute.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I add that I am particularly concerned that someone, but it appears neither of the Defendants, has introduced this power of attorney, which I find must be a concocted document as Ms Samuel does not recognise it, into these proceedings without the knowledge of the Defendants.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">A key matter of fact is how did Ms Samuel apply for and obtain the Grant of Letters of Administration (&#8220;the Grant&#8221;) dated 18<span style="vertical-align:super;font-size:smaller">th</span> October 2022 in her favour, as lawful attorney for Mr Lasisi, as the Claimants seek to overturn the Grant. By Order of Deputy Master Jefferis dated 11<span style="vertical-align:super;font-size:smaller">th</span> July 2024:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"> &#8220;The Defendants should provide to the Claimants copies of the documents lodged to obtain the Letters of Administration and any correspondence relating to the application.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">That was not complied with, so Deputy Master Rhys on 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024 ordered the Defendants&#8217; solicitors to file and serve a witness statement setting out the enquiries made and steps taken to comply, by 4pm on 30<span style="vertical-align:super;font-size:smaller">th</span> August 2014. That was also not complied by that date but later, as I describe below. When all this was put to Ms Samuel her response was that as to the Order of 11<span style="vertical-align:super;font-size:smaller">th</span> July, she was aware of it. As to the second Order requiring production dated 23<span style="vertical-align:super;font-size:smaller">rd</span> August, she said she was not aware of it and was surprised it had not been complied with, as it should have been.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">But she had made a witness statement dated 2<span style="vertical-align:super;font-size:smaller">nd</span> September 2024 in which at [3] she said she had contacted the Probate Registry by telephone and email and was told the retention period for &#8220;&#8230;those documents submitted in 2019 was 2 years. That the probate registry can only give me certified copies of the letter of administration.&#8221; She continued by saying that the Gov.UK website had a document entitled &#8220;Retention Period for original will documents&#8221; which evidenced that 2-year period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I have no hesitation in finding that that latter document does no such thing. It prescribes the period for which originals will be held after digital copies are made. In other words, there is no limited retention period for the digital copies, and so Ms Samuel could, if she had wanted to, obtain copies of the documents she filed in support of her claim to the Grant. I find she deliberately tried not to disclose those documents and this was just one of her attempts to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Her email to the Probate Registry of 17<span style="vertical-align:super;font-size:smaller">th</span> July 2024 said </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Can you please send me a certified copy of the documents submitted in 2019 in the course of been issued the letter administration&#8217;s related to the about reference probate.&#8221; (sic).</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">She was asked if she was aware of this email. After looking at it for some time she said she was aware of it and would have written it. When asked if the facts were within her memory she replied that they were coming back and that she &#8220;&#8230;did remember writing emails but the language is legal and I think I would not have put it that way myself&#8230;[it] would have been a response to something and Tony Ashikodi and I would have read and talked about it on  the &#8216;phone and I would have sent it&#8230;&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">It was put to her she gave Mr Tony Ashikodi access to her emails and he could log in to her system. She denied this saying she would give him copies, and that if he did log in and use her email address she was unaware of that. Again, she carefully avoided an outright denial. Then Ms Samuel was asked why she wrote that email &#8211; what was the purpose of it?  She said today she did not know. When asked why she had requested certified copies of the documents as opposed to just copies her reply was she was not sure what the difference was. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Again I do not accept her evidence as it first is illogical and inherently improbable that she did not know the difference and secondly it contradicts her statement of 20<span style="vertical-align:super;font-size:smaller">th</span> October 2024 to which I refer at [74] below. The Probate Registry replied the same day to Ms Samuel&#8217;s email stating &#8220;We are unable to provide certified copies of an application&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The third Order requiring production of those documents, namely the Additional Order of 16<span style="vertical-align:super;font-size:smaller">th</span> October 2024, stated that if those documents were not provided by 4pm on 21<span style="vertical-align:super;font-size:smaller">st</span> October 2024 then each Defendant had to make and file a witness statement explaining the inability to comply by that date and time. Further, the Claimants were at liberty to comply for an Unless Order in the event of continued non-compliance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Samuel said she was not aware of the Additional Order and its requirements., but that she &#8220;&#8230;had representatives and they should have done this.&#8221; She later continued to blame her lawyers for non-compliance with those Orders but as there is no evidence to support her contention I do not accept it. Ms Samuel continued by saying she expected her lawyers to do what they&#8217;d been expected to do and they should have handed over the documents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">However Ms Samuel in her witness statement dated 20<span style="vertical-align:super;font-size:smaller">th</span> October 2024 in compliance with the Additional Order in addition to listing the documents that were submitted to obtain the Grant and confirming copies had been provided to the Claimants said she contacted the Probate Registry after the Order of 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024. They told her they could only provide certified copies of the Grant and no other certified copies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">She then deposed that &#8220;&#8230;the claimant has since said they will accept uncertified copies of those documents submitted to obtain [the Grant]&#8221;. There was no such statement by the Claimants; there was no need and certification is not mentioned in any of the Orders concerned. In fact, the Claimants&#8217; solicitor, Mr Michael Obebeduo, in his witness statement dated 7<span style="vertical-align:super;font-size:smaller">th</span> October 2024, almost 2 weeks before Ms Samuel made her statement, said he never asked for certified copies. I accept his statement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This was yet another attempt by Ms Samuel to avoid disclosing the documents she submitted to obtain the Grant. Further, Ms Samuel contradicts her oral evidence when she maintained she was unaware of any difference between certified and uncertified copies. But the crucial documents that the Claimants say they were wholly unaware of until provided to them on 14<span style="vertical-align:super;font-size:smaller">th</span> October 2024 within the documents submitted by Ms Samuel to obtain the Grant were the Marriage Certificate, purported death certificate of Ms Ashimola (the Death Certificate&#8221;) and the probate power of attorney in form PA12 (&#8220;the Probate PoA&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I have mentioned in [53-54] above that when confronted by a document she did not want to explain or answer questions about Ms Samuel would say &#8220;I&#8217;m not legally minded&#8221;. That does not sit well with the email she sent to the Claimants&#8217; solicitors dated 28<span style="vertical-align:super;font-size:smaller">th</span> May 2024 at B/245 during the latter&#8217;s pursuit of the Probate Registry documents, wherein she refers to matters such as the disclosure deadline, the burden of proof, the disclosure certificate, inspection of documents, a fishing expedition and CPR 31.15.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Towards the end of her cross-examination Dr Kasi put to Ms Samuel her witness statement in her without notice application for an injunction, dated 15<span style="vertical-align:super;font-size:smaller">th</span> January 2024. That witness statement contains detailed submissions on various legal matters. Ms Samuel was referred to [35] wherein she cited two Supreme Court of Nigeria decisions concerning Nigerian law as to powers of attorney. Dr Kasi said she must be legally minded to have made those submissions. Her reply was that she disagreed, but that she was good at researching &#8211; she had &#8220;Googled it&#8221;. I do not accept that. Her correspondence and witness statements show a considerable familiarity with the laws here and, it appears, in Nigeria. I consider her excuse that she was not legally minded was used by her when faced with something she could not or would not explain, or that someone else had drafted on her behalf many if not just about all the documents she had submitted. I find the latter the most likely explanation in all the circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In summary I can accept very little of Ms Samuel&#8217;s evidence, unless supported by independent third-party documents or oral evidence. At times, as I have set out above, she endeavoured to avoid questions, blamed her lawyers, dissembled, obfuscated and tried to mislead the court. In particular, she made every effort over months to avoid disclosing the documents she submitted to obtain the Grant, from which her attempted transfer of the Property arose. The threat of an Unless Order resulted in her disclosure, but even then she attempted to mislead the court in her evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">She accepted in cross-examination that she wrote and sent various documents and forms central to the Issues before me with the assistance of Mr Tony Ashikodi. I consider that downplays his role, as I will turn to. I note that she said she did not permit him access to her email account but when questioned further she said &#8220;&#8230;then if he does, but I&#8217;m not aware if he does.&#8221; I think that answer does not bear examination as if she was actively using her email she would have seen the sent emails, and even if they had been deleted it would be difficult to catch and delete all incoming emails before she saw them.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Mr Bakare Olatoye Lasisi</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ordinarily, as Mr Lasisi did not attend trial and give oral evidence, I would not refer to his evidence save to say I would attach little or no weight to it. However, in the unusual situation which obtains here, and in view of the manner, style and the way his evidence appeared it is necessary to do so. His address for service in the Claim Form was stated as &#8220;C/O Ruth Samuel.&#8221; There was no objection to jurisdiction and an Acknowledgement of Service and a document entitled &#8220;Statement of Case Olatoye Lasisi&#8221; were both filed on 4<span style="vertical-align:super;font-size:smaller">th</span> March 2024, albeit the latter has a statement of truth signed by Mr Lasisi referring to it as his witness statement. The former indicated that Mr Ebuzoeme&#8217;s firm would represent him. Both documents were actually CE-filed by Mr Tony Ashikodi.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The witness statement is of concern both in what it does and does not say for these reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">First, no address nor occupation is provided by him. In fact there are no personal details at all.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Secondly, he states he is &#8220;&#8230;a beneficiary of the estate of the late June Ashimola...&#8221; but does not provide any substantiation or explanation.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Thirdly, he does not anywhere refer to her as his wife, nor does he give any indication of having any relationship with her. However, he exhibits an email dated 25<span style="vertical-align:super;font-size:smaller">th</span> April 2019 he says he sent to &#8220;Report a Fraud&#8221; at HMLR, in which he refers to Ms Ashimola as his wife and that she had died of a heart attack the very day she had submitted an email and documents to HMLR. The contradiction between the statement and the exhibit borders on the bizarre as a matter of evidence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Also in that email he states he is awaiting the Grant of Letters of Administration to be issued to him and his wife&#8217;s sister. But supposedly one month earlier on 24<span style="vertical-align:super;font-size:smaller">th</span> March 2019 he had signed Probate Form PA1 A with Ms Samuel as co-applicant. No sister is referred to.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Likewise, he does not mention the occasion of their marriage on 11<span style="vertical-align:super;font-size:smaller">th</span> November 1993 when according to the certificate issued by the Marriage Registry, Ikeja, Nigeria, (&#8220;the Marriage Certificate&#8221;) they were both living in Lagos.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Nor does he mention the alleged birth of their child Michael, on 15<span style="vertical-align:super;font-size:smaller">th</span> November 1993, also in Ikeja.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">At [11] he says &#8220;I can confirm that June Ashimola is dead&#8230;&#8221; and at [13] &#8220;June Ashimola, passed away 6<span style="vertical-align:super;font-size:smaller">th</span> of February 2019.&#8221; But he does not say what she died from, where and in what circumstances. It is striking that he does not refer to her as his wife, nor what he did as a result of her death, nor that, according to Mr Tony Ashikodi&#8217;s evidence, he willingly gave the equity in the Property to Mr Tony Ashikodi.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">8)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The majority of his statement comprises of a detailed account of his correspondence with the Land Registry regarding the battle for control of the Property, plus his correspondence with the Solicitor&#8217;s Regulatory Authority accusing the solicitors acting for Ms Ashimola and Mr Shomotun of fraud. He exhibits various emails to and from him but never anything that indicates or evidences he is who he says he is. He has not submitted any identity document such as a passport. No evidence of identity is, so far as I am aware, necessary to set up a mailbox name different to the account holder. Therefore an email address in a person&#8217;s name is not of itself evidence that that person was the author/recipient of the emails nor the creator of the email address.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">9)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Substantial parts of the witness statement contain evidence of unnamed persons such as &#8220;&#8230;our private investigator&#8221; and &#8220;&#8230;surveillance observed...&#8221;, the latter concerning the attendance at the Land Registry by Mr Shomotun and Ms Justine Ashikodi, which included numerous pictures of them at the offices. He sets out how he considers Ms Justine Ashikodi has masqueraded as Ms Ashimola. His statement is consists more of submissions plus hearsay than direct evidence of fact.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">10)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">He appears to have no connection with the UK. In the Probate Application Form PA1A signed by him on 24<span style="vertical-align:super;font-size:smaller">th</span> March 2019 and the Probate Power of Attorney Form PA12 signed by him on 10<span style="vertical-align:super;font-size:smaller">th</span> October 2022 (and witnessed by Ms Juliette Menge) he states his address is in Lagos.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">11)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Most tellingly of all, nowhere is there any evidence of his identity.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">He purportedly filed a Certificate of Disclosure on 15<span style="vertical-align:super;font-size:smaller">th</span> July 2024 but the certifier is not him but Ms Samuel, albeit the signature is supposedly his. The documents disclosed all form part of Ms Samuel&#8217;s Disclosure. Since that filing (also by Mr Tony Ashikodi) he has played no part in this claim. No trial witness statement was submitted nor Civil Evidence Act Notice nor any other explanation given for his non-participation and non-attendance, notwithstanding if he was a genuine beneficiary it would be in his interests. He also would have to prove his identity if he attended at trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"> On the resumption of the trial on 5th February 2025 I asked Mr Ebuzoeme to explain in his Closings why Mr Lasisi had played no part in the claim. He submitted:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The court invites the defence to comment on D2 not given evidence. Firstly, the claimant did not give a trial witness statement, aside the financial constraints been faced, to be able to attend the trial in London. Couple with the fact that the United Kingdom, strict requirement on financial capability to obtaining the Visa to UK cannot be met, as well as the not stable internet connection where he resides. Furthermore, the evidence of the D2 cannot in away assist the claim of C1 and C2 as pleaded, that is to proof life of C1, neither would it had been adverse to both D1 and D2 defence.&#8221; (sic)</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">As I have said above in more ordinary circumstances I would place little or no weight upon his evidence. However here I am concerned that first Mr Lasisi may not exist (or if he does he may not be aware his name is being used in these proceedings) and secondly even if he does exist his part in all this has been manufactured as part of the battle to take control of the Property. His absence and the question if the Death and Marriage Certificates are forgeries are crucial. In addition, the Claimants submit they wished to cross examine him due his role at the centre of the Issues.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme submits none of this matters as all depends upon whether the Claimants can prove Ms Ashimola is alive. I disagree; I am to determine whether the Grant should be set aside. The Grant was obtained by Ms Samuel solely because Mr Lasisi is the closest relative, as husband, and then appointed her as his attorney. Therefore it is possible I could find insufficient evidence on the balance of probabilities that Ms Ashimola is alive but sufficient evidence to warrant the setting aside of the Grant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">It is also striking that no trial witness statement was tendered for Mr Lasisi. Mr Ebuzoeme attempts to justify this for two reasons; costs and lack of relevance. But the answer to the former would have been to apply for Mr Lasisi to give evidence by video link. No such application was made or even mentioned. I also disagree as to lack of relevance for the reason in [86] above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In summary I conclude that I will have little or no regard to his evidence. I do draw an adverse inference in all the above circumstances due to him not filing a trial witness statement nor appearing at the trial in circumstances where his evidence is crucial. Mr Ebuzoeme has made extensive submissions as to why I should not find adverse inferences I will return to that in my determination of the Miscellaneous Matters below.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Ms June Ashimola</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Numerous difficulties arose with the hearing of her evidence which I consider necessary to describe before I turn to the evidence itself. This was especially unfortunate given this dispute essentially concerns whether Ms Ashimola is dead and if not is C1 in this claim the Ms Ashimola that owns the Property? The key issue of identification exercised the Land Registry, who required her to attend before them with her identity documents, as I will come to. The Additional Order of the Chief Master was premised upon personal attendance of all the witnesses and the requirement that each witness should produce their passport before giving evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">On 26<span style="vertical-align:super;font-size:smaller">th</span> November 2024, the day before the start of trial, I received from the Claimants&#8217; solicitors, HM&amp;Co, a letter stating Ms Ashimola had encountered delays in obtaining her visa, notwithstanding an expedited application, and asked for arrangements to be made for her to give her evidence remotely. They said no further information was available, but they were hopeful that the visa would be issued in time. At that very late stage I thought that hope fanciful, as it unfortunately turned out to be, especially as the application was not filed in Lagos until 14<span style="vertical-align:super;font-size:smaller">th</span> November 2024, just 8 clear days before the start date, and exactly 4 weeks after the trial date was notified to the parties. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Dr Kasi told me that latter delay was due to the need to collate all the documents required for the visa. That is unacceptable, especially as the first trial was vacated on 11<span style="vertical-align:super;font-size:smaller">th</span> October 2024. None of these apparently unnecessary and unwarranted delays boded well for her evidence being heard let alone preferred. I referred the parties to the Chancery Guide at Appendix Z and PD 32, Annex 3, and asked if the Defendants objected.  Mr Ebuzoeme understandably objected to the request, emphasising that the Chief Master at the PTR on 16<span style="vertical-align:super;font-size:smaller">th</span> October 2024 said she expected the witnesses to appear in person, and that at all hearings Dr Kasi had assured the Court that Ms Ashimola would give evidence in person.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">As Ms Ashimola was still in Nigeria on the morning trial commenced with no prospect of a visa, I required the Claimants to make a formal application for her evidence to be given remotely, which they did. That evidence included correspondence with the agents of the UK Embassy. I heard their application when the Court sat after lunch. Mr Ebuzoeme emphasised in his submissions that this was totally unfair to the Defendants as it put them in a very difficult position, &#8220;Nigeria being what it is&#8230;not an ideal place&#8221;, and that now, for the first time, the Claimants were saying she needed an interpreter. In an <span style="font-style:italic">extempore </span>judgment I granted permission but expressed my concerns as to the need for the arrangements to be made speedily and comply with the rules.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">What was produced that day in Court by the Claimants was Ms Ashimola&#8217;s apparently original expired Nigerian passport, which was inspected by all concerned. The key page of this document is at B/87, the first picture in the Annex to this judgment. This was the only original source document produced by either party at this trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Also produced in court that day was what appears to be a certified colour copy of Ms Ashimola&#8217;s current passport &#8211; all 17 pages of it, which has been inserted in the trial bundle at D/96 onwards. That first page has been added to the Annex. As can be seen that page and indeed the whole copy was notarised and attested by Abel Alade Odetunde, Solicitor/Notary Public on 9<span style="vertical-align:super;font-size:smaller">th</span> October 2024. Each page has his embossed seal as well as stamp. These are all original.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">On resumption of the trial on the morning of Thursday, 28<span style="vertical-align:super;font-size:smaller">th</span> November 2024, I asked if all arrangements were in place for Ms Ashimola&#8217;s evidence scheduled for 2.00pm that day. I was told they were. A couple of hours later, as one witness had run short, I hoped to hear Ms Ashimola. However, Dr Kasi informed me there was a problem in that the printing of the bundles was not complete and Ms Ashimola could not use a laptop.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Eventually, the swearing in of the interpreter and Ms Ashimola commenced some time after 2.00pm. Then Ms Ashimola could not find her statement in the bundle and it became clear the bundle was in a complete mess. There was no alternative but to adjourn her evidence; I warned her that she must not discuss her evidence with anyone, but she could discuss the administrative arrangements for her evidence to continue the next day, Friday 29<span style="vertical-align:super;font-size:smaller">th</span> November 2024 with her solicitors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Ashimola&#8217;s evidence continued on Friday. She was taken to her statement and she confirmed that the contents were true. Mr Ebuzoeme commenced his cross examination. Ms Ashimola said she drafted her statement herself, in a mixture of English and Yoruba. Mr Ebuzoeme put to her that she did not need an interpreter. She replied she could speak English but read it better, and said sometimes she couldn&#8217;t understand everything said to her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme then put to Ms Ashimola she had entered the UK in September 1999 as a visitor and could she remember the weather? Unsurprisingly she said she could not. Mr Ebuzoeme later, in his Closings, said she could not remember the climate in September despite having spent 19 years in the UK. That was not the way I nor I consider Ms Ashimola understood his question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I have to say that not a lot was elicited in cross examination. At one point Mr Ebuzoeme while examining Ms Ashimola as to where Mr Shomotun and his family were living in London directed her to what he said was a tenancy agreement at page C29. I had to intervene to point out that page was an inheritance tax form. Unfortunately the audio and video connection to Lagos was unclear which did not assist Counsel nor I. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Ashimola regularly answered that she could not recall matters, especially concerning the financial arrangements for her purchase. She said that due to her sickness she forgot things. She confirmed that she was born on 27<span style="vertical-align:super;font-size:smaller">th</span> September 1969 and that the picture at B/87 is her. Mr Ebuzoeme suggested to her that that was not her picture and she looked different. He asked if she had surgery recently to which she said she had never had any surgery done. He pursued that line of questioning but Ms Ashimola was steadfast in saying she was the person in the picture.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Unfortunately, just as she was asked about her Nigerian Identity Number, and Mr Ebuzoeme put to her that she said that was her picture but the information was that of a different person, the connection was lost, after about 40 minutes. The video connection resumed almost 10 minutes later, but there was no audio. The connection then ended completely, despite attempts to restore it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I said to Counsel that with Ms Samuel&#8217;s evidence (Ms Ashimola had been interposed) still to conclude plus Mr Tony Ashikodi we would have to go part heard to a date in December or January, but that should give time for Ms Ashimola to obtain her visa on her second attempt. Both Counsel agreed. However, on the resumed trial, Ms Ashimola did not appear in person or remotely. Next I gave her solicitor permission to remove his firm from the court record. I was informed that Ms Ashimola was very ill and in hospital. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Overall, Ms Ashimola&#8217;s evidence was unsatisfactory due to: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Being part heard.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">The poor quality of the connection.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">She was extremely slow in answering questions and appeared somewhat reluctant, but that may well have been due to her illness.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Some questions had to be translated into Yoruba.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Her witness statement was non-compliant in that it should have been in Yoruba and translated to English.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">She was at times difficult to understand.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">She did not appear in person and it seemed that arrangements were too little, too late in her application to obtain a visa.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In addition, and of especial importance, is that Mr Ebuzoeme could not complete his cross examination, nor could Dr Kasi re-examine. The above concerns go to the weight I should attach to her evidence, which must be less than otherwise would be the case. In these circumstances I must particularly examine corroboration and consistency plus the totality of the evidence to make my findings of fact and do justice to the parties. Having said all that, she did appear, confirmed her statement was true, and was certain on the key points put to her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Also, her original expired passport was produced to the court, Mr Ebuzoeme taking no point on it, which I consider he could not have done without expert evidence. Overall I am persuaded on the balance of probabilities that when I consider her evidence in the context of the evidence of other witnesses and the extensive contested documentation that she was who she said she was and was telling the truth. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left"><span style="font-weight:bold">Mr Tony Ashikodi</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi in his witness statement explains his interest in these proceedings; he says he is a beneficial owner of the Property and that in December 2017 he became aware it was up for sale. The agents, Hunters, told him the vendor was Mr Shomotun together with a lady claiming to be June Ashimola. He therefore on 13<span style="vertical-align:super;font-size:smaller">th</span> February 2018 made an application to HMLR for a Form A restriction to be entered on the register. He says &#8220;&#8230;my equitable interest in the Property is held on trust for me by June Ashimola...&#8221;, and that a purported June Ashimola objected to the registration of his restriction. HMLR referred the dispute to the Property Chambers of the FTT where he raised the issue of identity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi is an intelligent, experienced litigant in person, who has conducted litigation in various divisions of the High Court, the County Court, the FTT and the Crown Court in this country and has produced extensive correspondence with the police in Nigeria showing his familiarity with criminal cases there. He was garrulous when giving evidence and expanded at length beyond what was asked, if he answered in a focused manner at all. He is familiar with conveyancing practice and procedure and property being held in beneficial as well as legal ownership. The width of his litigation experience in all courts is demonstrated below:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He issued a Statutory Demand against Ms Ashimola on 27<span style="vertical-align:super;font-size:smaller">th</span> December 2017.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He represented himself in the set aside proceedings brought by Ms Ashimola which resulted in the Statutory Demand being set aside by Order of the County Court at Croydon on 19<span style="vertical-align:super;font-size:smaller">th</span> January 2018.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He applied to HMLR to enter a Form A Restriction upon the Property in February 2018, claiming a beneficial interest in the Property.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He then instituted proceedings before the FTT under Case Number 2018/460 (&#8220;FTT 1&#8221;) which resulted in the above application being cancelled by Order of Judge Hargreaves dated 5<span style="vertical-align:super;font-size:smaller">th</span> February 2019 (&#8220;the Hargreaves Order&#8221;)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Next he applied for permission to appeal the Hargreaves Order and the costs decision made on 1<span style="vertical-align:super;font-size:smaller">st</span> March 20219. Mr Ashikodi made substantial  submissions at both stages on the procedural rules and the authorities, filing a skeleton argument. Permission to appeal was refused by Elizabeth Cooke, Deputy Judge of the Upper Tribunal, on 20<span style="vertical-align:super;font-size:smaller">th</span> May 2019.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">When Ms Ashimola applied to transfer the Property to Mr Shomotun he personally submitted grounds of objection.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Then he commenced a private prosecution of Mr Shomotun in the Crown Court at Woolwich, on the ground that his PoA was a false document with which he intended to pervert the course of justice. This was yet another attempt at stifling Mr Shomotun&#8217;s participation in these proceedings.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">8)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">It appears Ms Samuel as Personal Representative under the Grant made an Application to Change the Register to HMLR on Form API and then give an Assent of Whole to Mr Ashikodi on Form AS1 dated 6<span style="vertical-align:super;font-size:smaller">th</span> January 2023. But Mr Ashikodi has not established any beneficial nor any other interest in the estate or the Property. However, I have no doubt this was all orchestrated by Mr Ashikodi as it accords with his other actions and intentions. Ms Samuel appears to have gone along with this and other matters at his behest, as I will come to.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">9)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He applied on 15<span style="vertical-align:super;font-size:smaller">th</span> June 2023 to the County Court at Bromley for an Interim Possession Order (&#8220;IPO&#8221;) against the occupiers/tenants then in the Property. An IPO is somewhat unusual in the context of residential possession proceedings as possession is sought on the ground that those in occupation have no right to occupy. In his witness statement which contains a statement of truth dated 21<span style="vertical-align:super;font-size:smaller">st</span> June 2023 he stated &#8220;I became the legal and beneficial owner of [the Property] &#8230;[by] an assent by the High Court of Justice appointed administrator as the executor for the estate of June Ashimola&#8230;&#8221;. But that was untrue; he did not appear on the title register as the assent had not been registered due to the objections of the Claimants.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">10)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Also in the IPO proceedings it appears he issued witness summonses against Halifax Bank and Google which were struck out by Order of DDJ White on 19<span style="vertical-align:super;font-size:smaller">th</span> October 2023, who transferred the proceedings to the County Court at Central London under Claim No. L10CL065 where, I am told, they are currently stayed by Order of HHJ Evans-Gordon pending my decision. Mr Ebuzoeme has provided a copy of his draft order confirming same.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">11)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Ms Samuel then also issued proceedings against Mr Shomotun before the FTT under Case Number 2023/0571 (&#8220;FTT 2&#8221;) in 2023, seeking to enforce the Assent I mention in [107(8)] above. As I have set out above, these proceedings arose due to the Order of that tribunal. By letter dated 17<span style="vertical-align:super;font-size:smaller">th</span> September 2024 to the Claimants&#8217; former solicitors that tribunal referred to &#8220;Mr Ashikodi&#8217;s application for permission to appeal&#8221; in FTT 2 and referring to another application by him to appeal but to the Upper Tribunal. I consider that establishes who was driving those tribunal proceedings; they were brought in the name of Ms Samuel (as they had to be as estate administrator) but orchestrated, again, by Mr Ashikodi. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">12)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">At a hearing at the outset of these proceedings before Deputy Master Arkush on 26<span style="vertical-align:super;font-size:smaller">th</span> February 2024, the recital to the Order states Mr Ashikodi spoke on behalf of Ms Samuel. Mr Ebuzoeme also in an email to the Claimants&#8217; then solicitors regarding Ms Samuel stated &#8220;the client is entitled to <span style="text-decoration-line:underline;text-decoration-style:solid">his </span>view&#8221; (my emphasis).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">13)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Mr Ashikodi told me during his oral evidence that he had instituted proceedings against the London Borough of Greenwich concerning three properties in London of which he was the beneficial owner but were registered in his daughter&#8217;s name. I understand those were proceedings for judicial review.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">14)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">Further, Mr Ashikodi is a registered CE-file user. He has used his access to a) file evidence in Ms Samuel&#8217;s application for a without notice injunction against Mr Shomotun which I refer to at [47(4)] above, b) filed evidence in the proceedings for judicial review in [107(13)] above and c) especially in these proceedings &#8211; for example on 5<span style="vertical-align:super;font-size:smaller">th</span> February 2025 he filed first evidence, namely telephone call logs, and then an updated, revised version of Mr Ebuzoeme&#8217;s skeleton argument for this trial. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">15)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in;text-indent:0.12in">When I asked Mr Ashikodi at the end of his oral evidence about his involvement in filing documents that I would usually expect solicitors to file he denied doing so; he said he had given Ms Samuel his password and she had been filing documents. I do not believe him for reasons I set out at [117] below.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi&#8217;s evidence was delivered in a confident manner, to be expected of a serial litigant, but I have little confidence that much of what he said was the truth. Mr Ebuzoeme requested some time to examine him in chief, to which I somewhat reluctantly agreed. At one point Mr Ashikodi was asked about the Marriage Certificate and that one of the issues was if Ms Ashimola alive. His answer was that that document was filed with HMLR and they gave people copies of it, in 2019. This was meaningless.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme tried to take Mr Ashikodi through various telephone call records which he relied upon to evidence, he submitted, impersonation of Ms Ashimola by Ms Justina Ashikodi. But his copies did not have accurate numbering so he gave up with this line of questioning, which I was going to give little weight to anyway as those were not factual matters that Mr Ashikodi could give evidence of.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme then asked Mr Ashikodi about events on 3<span style="vertical-align:super;font-size:smaller">rd</span> January 2025. He replied that he had supported a petition by Ms Juliette Menge (a barrister in Nigeria) to the Department of State Security in Lagos (apparently the equivalent of MI5) concerning the impersonation of Ms Ashimola by Ms Mariam Adebayo. He then started to set out in detail her arrest and the evidence she gave by video to that Department. I stopped the questioning at this point, stating that as Mr Ashikodi was not there he could not give evidence about it nor the arrest and suchlike matters.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Ashimola&#8217;s expired passport at B/87 (and in the Annex) was then put to him. He said this was presented to him by Mr Shomotun at Woolwich Crown Court when he was privately prosecuting him.  He said the signature on it was different to that on the PoA in favour of Mr Shomotun, and the deeds of the Property. I agree; Ms Ashimola&#8217;s signature does vary from that on her expired passport and the other documents in the evidence. But I would add that all her signatures I have reviewed in all the evidence before me are different. In the absence of expert opinion I do not think the point can be taken further.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi was cross examined by Mr Shomotun. This did unfortunately often descend into an argument between them and so I had to intervene numerous times. Mr Ashikodi was asked about his criminal conviction and confirmed he served 18 months in prison. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi was deliberately vague in his evidence. For example, Mr Shomotun asked how Ms Samuel and Mr Lasisi were connected. He said he did not know, but that &#8220;she is the administrator and he is a beneficiary.&#8221; Mr Shomotun asked how Mr Lasisi could appoint someone he did not know as his attorney. Mr Ashikodi said he knew someone who appointed a solicitor as administrator so here Mr Lasisi appointed Ms Samuel. Ms Samuel in her evidence was similarly vague (and unconvincing) as to how she came to be appointed attorney for Mr Lasisi as I found in [51] above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The evidence of both Mr Ashikodi and Ms Samuel therefore is that they do not know how she was appointed to that crucial role. This does not bear examination; both of them in my judgment are trying to mislead the court. The connection must have been through Mr Ashikodi. Earlier when asked how he knew Mr Lasisi, he said &#8220;...in 2017 he was there &#8211; in photographs disclosed during the proceedings in the Crown Court to show him and June [Ms Ashimola] with him&#8221;. This answer was again deliberately vague, unhelpful and unspecific but does show he put forward some tenuous link. To do otherwise would stretch the bounds of credibility, whether or not he actually exists.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num>115.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Next he was asked about his relationship with Ms Samuel. He said he got to know her through her sister, Aarah Samuel, who lived rent-free in one of three properties he beneficially owned, 112 Gresham Precinct, Upper Norwood, in exchange for looking after his younger brother.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num>116.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi was asked about the Death Certificate. He said he had the original with him which he produced. This was examined by the parties and me. It does not appear to me to be an original but a colour photocopy upon which are original stamps and seals. I therefore do not accept it as an original document and attach little weight to it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num>117.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I asked Mr Ashikodi about his involvement with Ms Samuel in these proceedings and the emails she sent. He said he never sent emails from her account on his own. I asked if he drafted emails for her that she would send in his name. He said no, and that he did not discuss nor prepare documents or emails with her, adding he did not play any part in her correspondence. I find he did draft the majority of the documents and emails which apparently emanated from her that for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I prefer the evidence of Ms Samuel on the use of her email account and the way documents were created namely with his involvement.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">She clearly struggled with the meaning of certain documents and their effect; as I have set out above Mr Ashikodi is an experienced litigant who also has knowledge of property law. I do not think Ms Samuel does.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He is orchestrating these and all associated proceedings as he has the knowledge of the legal system and is the only one to benefit from the Assent that Ms Samuel submitted to HMLR.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">He is the only person who will benefit financially if this claim fails.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num>118.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">At [107(15)] above I said I would give my reasons as to why I do not accept his allegation that it was Ms Samuel who had filed all the documents to CE-file, not him, as she had his password. My reasons are: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Mr Ashikodi&#8217;s extensive knowledge of the court system.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">That he stands to benefit.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">This is another example of him orchestrating matters to take over the Property and as an integral part of that silence Mr Shomotun; he controls the evidence and the submissions of his lawyers.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num>119.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi has a cavalier disregard for the truth. He alleged that he had provided the deposit on the purchase of the Property in the sum of &#163;13,693.33, as shown by the completion statement. I will turn to this below but when I asked him why he was not claiming in these proceedings he said he would benefit as the beneficial owner. But I said Mr Lasisi was on the face of the Grant and in view of the marriage was due to benefit. Mr Ashikodi then said he was not helping him in any way. This, in view of what I have set out above, is nonsense.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num>120.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi continued by saying he had told Mr Lasisi the Property beneficially belonged to him, not Ms Ashimola. Mr Lasisi, he said, told him that was not an issue. That I cannot believe as why in the absence of anything thing else would Mr Lasisi give up the Property to Mr Ashikodi? Mr Ashikodi then volunteered that when he sold the Property he was going to give Ms Ashimola 50% of the equity as she had helped him with his children. That amounts to another contradiction; then surely that half of the equity was then due to Mr Lasisi.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num>121.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">There is no documentary evidence to support any of his evidence in [119-120]. The position is similar to that found by Judge Hargreaves in her Decision of 5<span style="vertical-align:super;font-size:smaller">th</span> February 2019 in FTT 1 when she directed the Chief Land Registrar to cancel Mr Ashikodi&#8217;s restriction on the Property. She made numerous references to a lack of documentary evidence to support Mr Ashikodi&#8217;s allegations. In other words, he failed to produce that evidence there and also here. Whilst I appreciate he is not named as a party that would not have prevented him introducing such evidence in view of his extensive involvement in these proceedings as I have outlined above, if he had such evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num>122.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">At [8] she records Mr Ashikodi complained vocally about Ms Ashimola&#8217;s failure to provide documents but that &#8220;&#8230;his own far outstrip hers. Not one document evidences his income or ability to pay or actual payment of any of the payments he alleges he made.&#8221; Then at [12] Judge Hargreaves records that when she asked Mr Ashikodi why did he &#8220;help&#8221; Ms Ashimola with her deposit &#8220;&#8230;he explained that his wife did not want his children from another marriage to live with them so [Ms Ashimola]&#8230;agreed to look after them and he agreed to buy a house for them to live in.&#8221; This was not accepted by Judge Hargreaves as it had just been raised for the first time and was &#8220;&#8230;without a full explanation and supporting documents.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num>123.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">At [15] Judge Hargreaves concluded by finding &#8220;The Applicant fails on his own case. The &#8220;evidence&#8221; he produced was neither coherent nor sufficient to support his claim and that entitles me to reject it.&#8221; It may well be that faced with that rejection Mr Ashikodi looked for a different route to the Property, via the Grant and an administrator, Ms Samuel, who would do his bidding.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num>124.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In summary I can accept little of Mr Ashikodi&#8217;s evidence. He said whatever he thought would assist him. He avoided answering certain questions directly, preferring to speak at some length about other matters. He had little regard for the truth and tried to mislead this court and the County Court in his IPO proceedings. He was the author of and created many of the documents submitted by Ms Samuel. But all that does not, of itself, mean the Claimants succeed as to proving Ms Ashimola is a) alive and that b) that the First Claimant is actually the person who purchased the Property.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">FINDINGS OF FACT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num>125.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I will concentrate on matters of fact that I consider are directly relevant to the Issues. That means there are certain highly contested factual matters and many documents and allegations that I need not determine and in certain respects cannot determine.  An example of the latter are the documents which have emanated from Nigeria, including those from the police there, copious amounts of which are submitted by both parties. I cannot in the absence of direct evidence from those involved test the veracity of certain of those results of investigations and suchlike. I also will not take a strictly chronological approach but set out matters as they developed. Numerous &#8220;statements&#8221; of witnesses in Nigeria and the UK are included in the trial bundle. As none of them gave evidence at the trial I disregard them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num>126.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Ashimola entered the UK in about 1999. She lived with Mr Shomotun and family for a while. She purchased the Property for &#163;167,000 on 15th August 2003 and it was registered in her name on 2<span style="vertical-align:super;font-size:smaller">nd</span> September 2003. She disclosed the expected correspondence with her solicitors, Addie &amp; Co, relating to the investigation of title, completion, registration and so on. The completion statement shows the balance due from her was &#163;11,154.58. It appears she was short of some &#163;1,820.00 which was required for stamping and registration. The correspondence is as I would expect in a straight forward purchase of a freehold.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num>127.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Also in the bundle (but I cannot locate these two documents as listed in either Defendants&#8217; list of documents and so I am unaware as to how they came to be produced) is a letter purportedly from Addie &amp; Co dated 20<span style="vertical-align:super;font-size:smaller">th</span> October 2003 referring to &#8220;&#8230;our completion statement for your attention.&#8221; The latter is a one-page document which sets out the total due made up as to the mortgage advance and &#8220;Amount received from Mr Tony Ashikodi&#8230;. &#163;13,693.33.&#8221; I find these two pages to be concocted documents for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">It was dated and sent after the purchase completed and the registration of title effected, which is pointless, illogical and unnecessary.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The type face used for the firm&#8217;s name and address differs from that in the correspondence disclosed by Ms Ashimola.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Mr Tony Ashikodi did not refer to this document in either of his witness statements.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">It is consistent with Mr Tony Ashikodi&#8217;s attempts to obtain possession of the Property.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">If Mr Ashikodi had paid that sum Addie &amp; Co would have alerted the mortgagors as it could affect their security, but no evidence of same was produced, which could have supported his allegation.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Mr Ashikodi told me that he was a &#8220;politically exposed person&#8221; due to standing as a politician in Nigeria and so could only be a beneficial owner. But that would have set in motion Money Laundering Obligations for Addie &amp; Co, which are unevidenced. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num>128.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In November 2017 Ms Ashimola instructed Messrs Fitzpatrick &amp; Co to act on her behalf on the sale of the Property. Mr Tony Ashikodi served a Statutory Demand upon her dated 27<span style="vertical-align:super;font-size:smaller">th</span> December 2017 claiming she owed him &#163;98,000 being &#8220;&#8230;equity benefit relating to [the Property]&#8230;incorporating advance towards mortgage deposit and payments, kitchen fittings, dinning table plus interest totallying &#163;98,000 plus interest &#8220; (sic). No documentary evidence has ever been produced by Mr Ashikodi in FTT1 nor FTT 2 nor these proceedings to support these amounts save as I have dismissed as concocted in [127] above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num>129.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Ashimola applied successfully to set it aside by Application Notice dated 11<span style="vertical-align:super;font-size:smaller">th</span> January 2018. In her witness statement of even date she states the Property was purchased with a mortgage loan and her personal savings, she paid all the expenses herself, and that Mr Tony Ashikodi did not provide any monies to anything as alleged. The Statutory Demand was set aside by Order of District Judge Bishop on 19<span style="vertical-align:super;font-size:smaller">th</span> January 2018 who stated that it &#8220;&#8230;contains no information upon which a bankruptcy order could be made.&#8221; An offer to purchase the Property was then accepted in the sum of &#163;327,000 on 30<span style="vertical-align:super;font-size:smaller">th</span> January 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num>130.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Tony Ashikodi then made an undated application for a restriction in Form A on the Property in February 2018, and matters proceeded as I have set out above, resulting in FTT 1 brought by Mr Tony Ashikodi against Ms Ashimola. Judge Hargreaves found Mr Ashikodi failed to prove his case. His application was therefore cancelled by Order dated 5<span style="vertical-align:super;font-size:smaller">th</span> February 2019, by which time Ms Ashimola had in October 2018 left for Nigeria, never to return to the UK.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num>131.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">On 12<span style="vertical-align:super;font-size:smaller">th</span> October 2018 Ms Ashimola, in Nigeria, granted the PoA restricted to the Property to Mr Shomotun, whose property she had lived in at one time, as I mention above. The PoA was prepared by Ms Juliette Menge, barrister. On the same day and in the same wording a Power of Attorney was allegedly given by Ms Ashimola to &#8220;Ms Ruthleen Samuel&#8221;, apparently prepared by one Olufemi Adebeite. I find this to be a concocted document for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">There is no such person as Ruthleen Samuel in this matter. Ruthleen is however used as part of the email address of Ms Samuel., so it could have been mistakenly presumed as her first name.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Ms Samuel in her oral evidence said she did not think she had seen it before it was out to her during the trial and she had not received it from anyone.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">There is no other evidential support for it. Its provenance is unknown. It is likely it was concocted by Mr Tony Ashikodi who had introduced it into the evidence as if he were a Defendant, but without their knowledge.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num>132.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The Defendants have however disputed the authenticity of the PoA on various grounds. In particular they have produced a statement by, they allege, Ms Menge who says she did not witness Ms Ashimola&#8217;s signature. During trial Mr Ebuzoeme said they would make an application for her to attend remotely and give evidence. I directed that any such application had to be issued by 24<span style="vertical-align:super;font-size:smaller">th</span> December 2024. No application was issued and so I disregard the Defendants allegations as I accept the evidence of Ms Ashimola and Mr Shomotun as to the PoA she gave him. That, I find, is the only valid and subsisting Power of Attorney in these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num>133.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The Defendants say on 6<span style="vertical-align:super;font-size:smaller">th</span> February 2019 Ms Ashimola died in Nigeria and rely upon a Certificate of Death issued by the National Population Commission of Nigeria. No original copy or version of this certificate was produced. On 28<span style="vertical-align:super;font-size:smaller">th</span> February 2019 a passport was issued to Ms Ashimola which appears in the Annex the original of which was produced at trial. I accept this passport as a document which is what it says it is, noting it was issued after her supposed death.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num>134.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">On 1<span style="vertical-align:super;font-size:smaller">st</span> March 2019 in FTT 1 an order for costs was made against Mr Ashikodi. His request for permission to appeal was refused on 15<span style="vertical-align:super;font-size:smaller">th</span> March 2019. On 24<span style="vertical-align:super;font-size:smaller">th</span> March 2019 Mr Lasisi purportedly signed a PA 1A Probate Application form enclosing the Marriage Certificate and stating that Ms Ashimola had died on 6<span style="vertical-align:super;font-size:smaller">th</span> February 2019. Ms Samuel signed the form on 1<span style="vertical-align:super;font-size:smaller">st</span> April 2019. I do not accept that this form was properly completed for the simple reason as set out above I do not consider Mr Lasisi signed it; he does not exist.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num>135.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ashikodi then applied to the Upper Tribunal to appeal the decision in FTT 1; this was refused on 20<span style="vertical-align:super;font-size:smaller">th</span> May 2019. On 29<span style="vertical-align:super;font-size:smaller">th</span> May 2019 HMLR wrote to Ms Ashimola&#8217;s solicitors stating that they had been informed of her death and that the register had been updated to reflect that. On 17<span style="vertical-align:super;font-size:smaller">th</span> June 2019 Ms Ashimola signed transfer form TR1 to transfer the Property to Mr Shomotun. Her signature was apparently witnessed by a Mr Idowu, of her solicitors. However this was supposedly signed by her as a deed in his presence; there is no indication he travelled to Nigeria and in the absence of any other evidence this transfer may be invalid.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num>136.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Lengthy correspondence with HMLR ensued for many months, culminating in HMLR cancelling the TR1 invoking concerns as to the identity of Ms Ashimola as transferor in February 2020 and confirming same by their letter of 21 May 2020 in response to further submissions by Ms Ashimola&#8217;s solicitors, Fitzpatrick &amp; Co. On 15<span style="vertical-align:super;font-size:smaller">th</span> September 2022 the Brighton District Probate Registry wrote to Ms Samuel regarding her application (with Mr Lasisi). They said that the surviving spouse was the only person who was entitled to apply for a grant but that Mr Lasisi could appoint her as his attorney; otherwise she was not entitled to apply.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num>137.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The Probate Power of Attorney form concerned, PA12, was supplied and completed, by Mr Lasisi, in favour of Ms Samuel, on 10<span style="vertical-align:super;font-size:smaller">th</span> October 2022, witnessed by Ms Juliette Menge. The Claimants dispute the authenticity of this Form PA12. They are right to do so; as I have found above Mr Lasisi did not exist and so could not have appointed Ms Samuel. The Grant was duly issued to Ms Samuel on 18<span style="vertical-align:super;font-size:smaller">th</span> October 2022 as &#8220;&#8230;the lawful attorney of Bakare Olatoye Lasisi&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num>138.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Next, on 6<span style="vertical-align:super;font-size:smaller">th</span> January 2023, Ms Samuel endeavoured to transfer the Property to Mr Tony Ashikodi, by lodging a completed HMLR form AP1 to change the register and form AS1, (&#8220;the Assent&#8221;) used for an assent of whole by a registered proprietor, by which she transferred the Property to Mr Tony Ashikodi. HMLR gave notice of this to Jeff Leonard Solicitors, who acted for Mr Shomotun, by letter dated 21<span style="vertical-align:super;font-size:smaller">st</span> April 2023. Mr Shomotun did object, by email dated 16<span style="vertical-align:super;font-size:smaller">th </span>May 2023, as attorney for Ms Ashimola, attaching a statement by her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_139">
+	  <num>139.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Then, as I set out above at [107(9)], Mr Tony Ashikodi issued proceedings for an IPO against the then occupiers of the Property. Mr Shomotun applied to be and was joined at his request as a third party.  In FTT 2, between Ms Samuel and Mr Shomotun, to determine the latter&#8217;s objections to the Assent, Judge Ewan Paton on 10<span style="vertical-align:super;font-size:smaller">th</span> January 2024 ordered a stay conditional upon this claim being issued. In his reasons he referred to the &#8220;extraordinary allegations and background matters&#8230;&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num>140.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Then, to obstruct these proceedings, Ms Samuel no doubt at Mr Tony Ashikodi&#8217;s behest on 21<span style="vertical-align:super;font-size:smaller">st</span> January 2024 applied for an <span style="font-style:italic">ex-parte</span> injunction against Mr Shomotun to prevent him from using the Power of Attorney he holds from Ms Ashimola, as I set out at [45(4)] above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num>141.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">These proceedings were then issued on 15<span style="vertical-align:super;font-size:smaller">th</span> February 2024. Of particular note as to the conduct of the Defendants and Mr Tony Ashikodi are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The attempts to avoid disclosure of the documents submitted to obtain the Grant, including the Marriage and Death Certificates. It was only when faced with an Unless Order did the Defendants comply. This was simply an attempt to avoid proper disclosure of documents in these proceedings that the Defendants knew they would have to prove. I also note that contrary to the Order of Deputy Master Rhys of 23<span style="vertical-align:super;font-size:smaller">rd</span> August 2024 the deponent of the required witness statement was not the solicitors but Ms Samuel.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">That is odd in circumstances where, as Mr Ebuzoeme submitted, the existence of the Marriage and Death Certificates had been referred to by Mr Lasisi as far back as April 2019 to HMLR who referred the death and marriage to the Claimants&#8217; then lawyers in early 2020. But the Claimants&#8217; current lawyers proceeded on the basis that those crucial documents had not been produced to them. They are correct in that, which in itself is of substantial concern.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I think the explanation is that the Claimants and their current lawyers were unaware of the Marriage and Death Certificates and hence Ms Amule did all she could (on behalf of Mr Tony Ashikodi) to avoid disclosure of these vital documents.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The introduction of certain documents into the Defendants&#8217; evidence which they themselves cannot explain, such as the supposed power of attorney by Ms Ashimola in favour of &#8220;Ruthleen Samuel&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The stand-alone applications by Ms Samuel and Mr Ashikodi to silence Mr Shomotun by attacking his PoA by first Mr Tony Ashikodi&#8217;s attempted private prosecution, secondly Ms Samuel&#8217;s <span style="font-style:italic">ex-parte</span> application in seperate proceedings before this court to injunct him and thirdly Ms Samuel&#8217;s application of 4<span style="vertical-align:super;font-size:smaller">th</span> March 2024 I refer to below.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_142">
+	  <num>142.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I find that Ms Ashimola was not married to Mr Lasisi and that the Marriage Certificate is a concocted or fraudulent document for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The original Marriage Certificate was never produced.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">There is no other evidence to support the marriage from Mr Lasisi nor anyone else. There is no evidence of the everyday realities of married life such as joint accounts, holidays, photographs, shopping trips and suchlike.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I accept Ms Ashimola&#8217;s evidence that she had never heard of Mr Lasisi.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I do not accept the evidence of Mr Lasisi and draw adverse inferences as explained above. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I do not accept Mr Lasisi exists or if he does is aware of his identity being used. I do not accept that emails supposedly from him were actually from him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I prefer the evidence of Ms Ashimola to that of Ms Samuel and Mr Tony Ashikodi for the reasons I have set out above.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num>143.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I find that the Probate Power of Attorney submitted supposedly by Mr Lasisi and Ms Samuel was a fraudulently produced or concocted document for these reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The wholly unconvincing evidence of and/or inability of Ms Samuel and Mr Tony Ashikodi to explain how Ms Samuel came to apply with Mr Lasisi for the Grant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I do not accept Mr Lasisi&#8217;s evidence and draw adverse inferences for the reasons I have given.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Likewise I do not accept the evidence of Ms Samuel that this was a proper application that she was entitled to make and accordingly be appointed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The application was based upon a premise that Ms Samuel and/or Mr Tony Ashikodi knew to be false and/or fraudulent namely that Ms Ashimola was alive and therefore the Death Certificate was forged and/or fraudulently obtained or produced or concocted, as I now turn to.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num>144.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I find Ms Ashimola is alive and that the Death Certificate was forged and/or fraudulently obtained or produced or concocted for these reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">I accept the evidence of Ms Ashimola herself. I have taken a most cautious approach to her evidence in view of the difficult circumstances in which I heard it, as set out above. Whilst remote evidence is far from ideal, I am satisfied it was her who appeared before me and that she did apply for a visa which was rejected. Unfortunately her oral evidence went no further in the sense of the adjourned hearing as her solicitors came off the court record. I do not think that resumed cross examination and re-examination would change my finding.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">Her alleged death was part of Mr Tony Ashikodi&#8217;s attempts to wrest control of the Property from her and/or Mr Shomotun. In other words, the surrounding circumstances are all attempts to mislead the FTT, the County Court and this Court that she had died.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">I do not believe Mr Lasisi exists, nor that was he married to her.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">The extreme reluctance of Ms Samuel to disclose to the Claimants the documents she produced to the Probate Registry to wrongly obtain the Grant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">The evidence of Mr Shomotun that he met with Ms Ashimola in Nigeria, most recently in June/July 2024 for some two weeks.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">The evidence of Mr Ndubuokwu Ashikodi that he met with Ms Ashimola in Nigeria in 2001, 2003 and 2004.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">The evidence of Ms Justina Ashikodi that she last met with Ms Ashimola in Nigeria in 2022.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">8)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">The fact that before me was her original expired passport, which was not challenged by Mr Ebuzoeme, and that her current passport is a continuation of the expired one.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">9)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in">The person who appeared before me and identified herself as Ms Ashimola was physically like her photographs in each passport.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.25in">10)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.79in;text-indent:0.12in"> The Death Certificate was not proven to the necessary standard in that only a copy was produced. The provenance was unknown. There was no evidence before me that it was a genuine document evidencing a real event. I find it was forged and/or fraudulently produced or concocted. The persons who relied upon it namely Mr Tony Ashikodi and Ms Samuel were either directly involved in its production or else knew it was false.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_145">
+	  <num>145.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I further find that the PoA given by Ms Ashimola in favour of Mr Shomotun on 12<span style="vertical-align:super;font-size:smaller">th</span> October 2018 is genuine and subsisting as I accept the evidence of Mr Shomotun and Ms Ashimola as to it. In addition, it is a document which was necessary in all the circumstances that I have set out above so as to enable Mr Shomotun to deal with the Property on Ms Ashimola&#8217;s behalf.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">MISCELLANEOUS MATTERS</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_146">
+	  <num>146.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Whilst as I have indicated I am not going to deal with every allegation and document of or submitted by the parties there are certain matters which especially arise from Mr Ebuzoeme&#8217;s Closing that I will refer to, although I do not consider I need to do so to determine the Issues.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Ms Mariam Adeyemo</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_147">
+	  <num>147.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The essence of the Defendants&#8217; case is that Ms Adeyemo masquerades as Ms Ashimola. Mr Ebuzoeme endeavours to add to the plethora of documents emanating from Nigerian police and prosecutors new evidence arising in between the start and end of this trial, including details of her bail, a video of her arrest and suchlike. As I have said above I will not delve into the position in Nigeria as a) I do not need to do so to determine the Issues and b) I cannot in the circumstances accept documents the provenance of which is far from certain which the authors of were not before me to prove.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">The call logs of Ms Justina Ashikodi</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_148">
+	  <num>148.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Much has been made by the Defendants of these call logs, of which there are dozens of pages. In his Closings Mr Ebuzoeme submits that &#8220;Justina has always been the one masquerading as June Ashimola&#8221;. That contradicts his submission regarding Ms Adeyemo, but I assume he is referring to actions in the UK. In any event, Ms Justina Ashikodi in her oral evidence denied she pretended to be Ms Ashimola. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_149">
+	  <num>149.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme also relies upon photographs and a video of Mr Shomotun and Ms Justina Ashikodi at HMLR offices, when the latter asked for Ms Ashimola to attend with her identity documents as evidence. Mr Ebuzoeme submits this is evidence of Ms Justina Ashikodi impersonating Ms Ashimola. I accept Mr Shomotun&#8217;s evidence he went with his wife to HMLR offices to deliver the Power of Attorney in his favour from Ms Ashimola. I think there is nothing more in this point, especially as it would be pointless Ms Justina Ashikodi impersonating Ms Ashimola when her husband with her at HMLR offices was there as Ms Ashimola&#8217;s attorney.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_150">
+	  <num>150.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The evidence of Ms Justina Ashikodi as to her telephone calls was not quite as Mr Ebuzoeme submits, as he said she conceded she made calls to Fitzpatrick Solicitors representing Ms Ashimola. What I recorded she said was that she called them during the time her &#8220;&#8230;brother was trying to get the Property off her and with everything going on I had to speak to them at some point.&#8221;</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Failure to plead denial of the marriage</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_151">
+	  <num>151.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme submits that as the marriage or rather denial of it was not pleaded it cannot be advanced. I disagree. The Grant was obtained based on a chronological sequence of events namely a) the alleged marriage, b) the death of Ms Ashimola and c) the Power of Attorney in form PA12 in favour of Ms Samuel. The Grant required all three elements to be proven.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_152">
+	  <num>152.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This claim was required by Order of the FTT in FTT 2 to determine if the Grant should be revoked. There was no ambush or surprise for the Defendants as those matters are the very basis of their application for and obtaining of the Grant. In other words, they cannot deny their own evidence to the Probate Registry and HMLR, especially as they contain various statements of truth.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Additional Issues?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_153">
+	  <num>153.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme submits in his Closings that I added two additional issues which were not pleaded or raised before trial, and after the evidence of the Defendants had concluded. I disagree. I asked for submissions on (from both him and Mr Shomotun), about eight matters in all, including: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Why had Mr Lasisi not given evidence since the &#8220;Defence&#8221; statement and why had he not appeared?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Did Mr Ebuzoeme rely on the evidence of Ms Menge? Why should I prefer the Defendants&#8217; account?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_154">
+	  <num>154.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The above two are objected to by Mr Ebuzoeme. I do not accept his objections. They are not issues that should or need to be pleaded. They are my queries for Counsel to address in their closing submissions upon the evidence I had and had not heard. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">CPR 32.19 and Adverse Inferences</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_155">
+	  <num>155.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Mr Ebuzoeme submitted that I should not draw any adverse inferences against either Defendant. I have explained above why I have in respect of Mr Lasisi. He further submitted, and repeated in his final written submissions, as he had in his opening, that the Claimants should not be permitted to allege fraud or forgery without pleading it and serving notice under CPR 32.19. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_156">
+	  <num>156.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">But the Particulars of Claim allege at [8] that the Death Certificate was &#8220;false and fraudulent&#8221; and at [10] that Ms Samuel fraudulently obtained the Grant. As to the latter, Dr Kasi submitted he and his instructing solicitors did not see any of the Marriage Certificate, the Death Certificate nor the Probate Power of Attorney and Application for the Grant until they and their associated documents, all filed by Ms Samuel with the Probate Registry, were finally obtained as late as October 2024, notwithstanding her sustained and deceitful attempts to avoid production. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_157">
+	  <num>157.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">It would be quite wrong in my judgment at such a late stage to permit his objections when they could and should have been made far earlier. Further, they apply to each party in that the Defendants submit the PoA in favour of Mr Shomotun by Ms Ashimola was forged. His submissions in this respect amount to trial by ambush, in circumstances where each party has made the same allegations and is equally in breach. Mr Ebuzoeme has not submitted prejudice to the Defendants in that they were unaware of the case they had to meet and I am in no doubt they have not been so prejudiced.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_158">
+	  <num>158.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">There was in my judgment equality of arms at this trial. No party was taken by surprise. The trial was fair to each party. It would be disproportionate in terms of costs of the parties, court time and the Issues to adjourn which certainly would prejudice the parties. The indices to the trial bundles helpfully indicate the provenance of each document and whether authenticity is disputed as I set out at [6(7)] above. The parties have proceeded on a &#8220;shared assumption&#8221;, as they were each aware at all times of the case of the other including what documents were disputed as forged or otherwise.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">The Defendants&#8217; application of 4</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> March 2024</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_159">
+	  <num>159.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This application was resubmitted to CE-file by Mr Tony Ashikodi on 4<span style="vertical-align:super;font-size:smaller">th</span> February 2025. In it Ms Samuel seeks an order striking out Mr Shomotun&#8217;s claim to be the attorney of Ms Ashimola as the Claim Form did not contain a statement of his interest in accordance with CPR 57.7(1). It is the last of the three attempts by Mr Tony Ashikodi and/or Ms Samuel to strike out or exclude Mr Shomotun from these proceedings. Mr Ebuzoeme submitted that it had not been judicially determined and needed to be. I said I would deal with it in my judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_160">
+	  <num>160.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This application was considered by Chief Master Shuman on 24<span style="vertical-align:super;font-size:smaller">th</span> May 2024 as it is mentioned in the recital to her Order of that date. No order was made on the application save the costs of that and other applications of Ms Samuel were reserved, to be determined immediately after the trial. Therefore it was  considered but no order resulted save costs reserved. I add that Mr Shomotun was required to be a Claimant as that was ordered by Judge Ewan Paton in his Order staying FTT 2 dated 10<span style="vertical-align:super;font-size:smaller">th</span> January 2024 which is a complete answer to all the applications to remove Mr Shomotun. Further, I have found in [145] above that the PoA by Ms Ashimola in favour of Mr Shomotun was genuine. To resolve any doubt, if this application had not already been disposed of, I would dismiss it.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold"> THE ISSUES</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Issue 1: Is June Ashimola alive?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_161">
+	  <num>161.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Yes, for the reasons I have set out at [144] above.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Issue 2: Is the person claiming to be June Ashimola her?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_162">
+	  <num>162.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I have no reason nor is there any evidence before me to find other than that the person who appeared before me was the June Ashimola, the First Claimant in this claim.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Issue 3: Did Mr Lasisi marry June Ashimola on or about 11</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> November 1993?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_163">
+	  <num>163.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">No, for the reasons I set out at [142] above.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Issue 4: Should the Court exercise its powers under s.121 of the Senior Courts Act 1981 (&#8220;the Act&#8221;) or otherwise revoke the Grant?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_164">
+	  <num>164.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">First, s.25(1) of the Act provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span class="legds" style="color:#1E1E1E">&#8220;Subject to the provisions of Part V, the High Court shall, in accordance with section 19(2), have the following probate jurisdiction, that is to say all such jurisdiction in relation to probates and letters of administration as it had immediately before the commencement of this Act, and in particular all such contentious and non-contentious jurisdiction as it then had in relation to&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num class="legds" style="color:#1E1E1E">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="color:#1E1E1E">testamentary causes or matters;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="color:#1E1E1E">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="color:#1E1E1E">the grant, amendment or revocation of probates and letters of administration; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="color:#1E1E1E">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="color:#1E1E1E">the real and personal estate of deceased persons.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_165">
+	  <num>165.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I therefore have jurisdiction under s.25(1)(b) to revoke the Grant, and I do so for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">As I have found above, I am satisfied on the balance of probabilities that Ms Ashimola is alive.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">In addition, or in the alternative, if I was not satisfied that Ms Ashimola was alive, the Grant was obtained by false, forged or concocted documents namely the Marriage Certificate, the Death Certificate and the Probate Power of Attorney.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_166">
+	  <num>166.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Secondly, Dr Kasi relies upon s.121(1) of the Act which provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Where it appears to the High Court that a grant either ought not to have been made or contains an error, the court may call in the grant and, if satisfied that it would be revoked at the instance of a party interested, may revoke it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_167">
+	  <num>167.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">This power can therefore be exercised by the court of its own motion. Here, in my judgment, the Grant ought not to have been made, so I revoke it for the same reasons in [165(1) and (2)] above. Likewise, I revoke the Grant under the inherent jurisdiction of the Court for the same reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_168">
+	  <num>168.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I do not think that it is necessary for there to be an &#8220;interested party&#8221; before me in these proceedings, for the purpose of s.121, as Mr Ebuzoeme appears to submit. What is necessary, and this is part of the court&#8217;s supervisory role in probate matters, is that an interested party would, if they were aware, want it revoked. If I am wrong as to that, Ms Ashimola is clearly an interested party. So is Mr Shomotun, as her attorney.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_169">
+	  <num>169.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">My conclusion in [168] is predicated upon my finding that Ms Ashimola is alive. But I also would revoke the Grant if I did not find she was alive for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I have found that Mr Lasisi is a fiction. He is the root of the Grant obtained by him and Ms Samuel, as without his alleged marriage to Ms Ashimola he would have no entitlement. As he does not exist, the Grant must be revoked.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">In addition, or in the alternative, Ms Samuel has, by herself or at the behest of or in co-operation with Mr Tony Ashimola, misled the Court as I have found above. I do not accept her evidence or that of Mr Tony Ashimola. Accordingly, on that basis alone, I revoke the Grant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Issue 5: Was the Death Certificate issued in Nigeria on 8</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> February 2019 based on a false medical certificate?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_170">
+	  <num>170.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The Death Certificate is a forgery. I heard insufficient evidence to satisfy me that the medical certificate was false.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Issue 6: Was the Power of Attorney made by Mr Lasisi in favour of Ms Samuel forged?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_171">
+	  <num>171.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">As I have found above Mr Lasisi does not exist. He cannot therefore have signed this Power of Attorney. The same applies to his and Ms Samuel&#8217;s application for the Grant. I also did not accept Ms Samuel&#8217;s evidence as to how this document came about. It is therefore a forged document.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">CONCLUSION</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_172">
+	  <num>172.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">Ms Ashimola is alive. The Grant is revoked. In the alternative, if I am wrong in finding she is alive, I revoke the Grant due to the actions of Ms Samuel and Mr Tony Ashikodi. Revocation on either basis is by s.25(1) and/or s.121 of the Act and/or the inherent jurisdiction of the Court.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">POSTSCRIPT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_173">
+	  <num>173.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I sent my draft of this judgment to the parties on the evening of Wednesday 5<span style="vertical-align:super;font-size:smaller">th</span> March 2025. I said in my covering email:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Please email me&#8230;any typographical and other corrections by 5.00pm on Friday 7<span style="vertical-align:super;font-size:smaller">th</span>&#160;March 2025 so that I may, if I accept them, include them in the final version of the judgment.&#160;Please note that this is not an opportunity to try and re-argue the case.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Also, this draft is as stated at the top of it confidential to the parties and their lawyers. It must not be circulated to any other persons. No action may be taken as a result of it. To do so may be a contempt of court.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The final version of the judgment will be [handed down] at 11.00 on Monday 10<span style="vertical-align:super;font-size:smaller">th</span>&#160;March 2025. That is not an attended hearing&#8230; a "costs and consequentials" hearing&#8230;is listed remotely for 11.00 on Wednesday 12<span style="vertical-align:super;font-size:smaller">th</span>&#160;March 2025.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_174">
+	  <num>174.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">On Thursday 6<span style="vertical-align:super;font-size:smaller">th</span> March I changed the date of the latter to Monday 17<span style="vertical-align:super;font-size:smaller">th</span> March to accommodate Mr Ebuzoeme. Then on Friday 7<span style="vertical-align:super;font-size:smaller">th</span> March I was alerted by my clerk to 10 new filings (&#8220;the New Filings&#8221;) supposedly by Mr Lasisi. The first is an application by him for a 6-hour hearing for an order staying these proceedings &#8220;&#8230;until the determination of this application and other applications and matters within the criminal justice system.&#8221; The other 9 filings consist of various draft summonses, including one before a criminal court, and evidence in support. The latter includes 3 videos which appear to have been taken in Nigeria.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_175">
+	  <num>175.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">I have considered the New Filings and the notes at CPR 40.2.3-9 inclusive, the authorities mentioned and PD40E. I consider the actions taken supposedly by Mr Lasisi (and I note his address is stated to be that of Mr Ebuzoeme&#8217;s firm, A. Vincent Solicitors, who are still on the court record as acting for him) may be in breach of the restrictions on draft judgments circulated to the parties. Be that as it may, I turn now to the substantive application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_176">
+	  <num>176.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The starting point at CPR 40.2.3 is that circulation of a draft is not an opportunity to advance further argument &#8211; <span style="font-style:italic">George v Cannell </span>[2022] EWCA Civ at [24]. However CPR 40.2.4 refers to<span style="font-style:italic"> ISTIL Group Inc v Zahoor</span> [2003] EWHC 165 (Ch) where Laurance Collins J (as he then was) gave permission for the Claimants to address him on his adverse findings concerning their conduct in his interlocutory judgment in view of their serious nature. The position here can be distinguished as this judgment followed a trial with oral evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_177">
+	  <num>177.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The emphasis is to minimise the possibility of an appeal with its attendant delay and expense. The note continues by stating that the question whether to exercise the jurisdiction to alter a draft judgment can only depend on the circumstances of the particular case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_178">
+	  <num>178.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">In summary I consider there must be exceptional and compelling reasons for me to permit further submissions and/or new evidence. I do not think in the circumstances which obtain here I should permit same. I therefore will not hear Mr Lasisi&#8217;s application and will dispose of it summarily now, for these reasons: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">The evidence closed with the conclusion of the trial on 6<span style="vertical-align:super;font-size:smaller">th</span> February 2025.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Mr Lasisi was represented throughout these proceedings from when A. Vincent Solicitors lodged an acknowledgment of service on his behalf on 3<span style="vertical-align:super;font-size:smaller">rd</span> March 2024. That firm is still on the court record for him. He has therefore had every opportunity over the last year or so to submit such evidence as he wished to and play a full part in these proceedings. He apparently, for the reasons I have found, decided not to.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">A considerable amount of the evidence and submissions he wishes to advance were before me during the trial. Repetition does not change my findings of fact and decisions on the Issues.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">There is nothing in the New Filings which gets near persuading me that there are exceptional and compelling reasons.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">I have not been told of any reason why this evidence in so far as it may be new could not have been submitted during the proceedings.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Likewise there is no explanation as to why Mr Lasisi did not participate in these proceedings after service of his Defence Statement. I refer to my findings as to his evidence at [81-83] above, and Mr Ebuzoeme&#8217;s response to my closing submissions query at [84]. In particular, Mr Ebuzoeme submitted that the evidence of Mr Lasisi would not assist the Claimants nor would it be adverse to the Defendants. He has therefore had his chance and decided not to tender his evidence. He cannot revisit that as it suits him.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">7)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">Chief Master Shuman in her Order of 24<span style="vertical-align:super;font-size:smaller">th</span> May 2024 at [7] stated that the parties were to exchange evidence of all witnesses of fact by 28<span style="vertical-align:super;font-size:smaller">th</span> August 2024. No statement was submitted for Mr Lasisi. It is too late for him to attempt to participate in this trial.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">8)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.75in">It would be contrary to the Overriding Objective and disproportionate (see [6(8)] above) in all the circumstances to stay hand down of my judgment and/or the costs and consequentials hearing, plus the Order upon conclusion of the trial, especially with the need for finality in litgation. It would be particularly prejudicial to the Claimants.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_179">
+	  <num>179.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">The application will therefore not be listed for hearing and is dismissed.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:left;margin-left:0.5in">DEPUTY MASTER LINWOOD                                 10th MARCH 2025</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

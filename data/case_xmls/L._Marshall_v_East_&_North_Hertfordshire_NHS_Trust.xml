@@ -1,0 +1,465 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/46"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/46"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="46"/>
+	  <FRBRname value="L. Marshall v East &amp; North Hertfordshire NHS Trust"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/46"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/46"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/46/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/46/data.xml"/>
+	  <FRBRdate date="2025-04-16T09:44:19" name="transform"/>
+	  <FRBRdate date="2025-04-16T13:41:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="l-marshall" href="" showAs="L. Marshall"/>
+	<TLCPerson eId="east-&amp;-north-hertfordshire-nhs-trust" href="" showAs="East &amp; North Hertfordshire NHS Trust"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>46</uk:number>
+	<uk:cite>[2025] EAT 46</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>b6b933954440d9739f24ce346504a3b05cec6029e0086d643b17b61fc6356459</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:8pt">Marshall v East &amp; North Hertfordshire NHS Trust</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">[2025] EAT 46</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">EA-2023-000141-AS</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Date: </span><docDate date="2025-04-16" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">16 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Before:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">THE HON. LORD FAIRLEY, PRESIDENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#l-marshall" style="font-weight:bold;font-family:'Times New Roman'">Mrs L. Marshall</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and &#8211;</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#east-&amp;-north-hertfordshire-nhs-trust" style="font-weight:bold;font-family:'Times New Roman'">East &amp; North Hertfordshire NHS Trust</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Mr Robert Lassey, </span><span style="font-family:'Times New Roman';color:#000000">of Counsel,</span><span/><span style="font-family:'Times New Roman';color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Ms Caroline Jennings</span><span style="font-family:'Times New Roman';color:#000000">, of Counsel</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000">(instructed by</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000"> Mills &amp; Reeve LLP</span><span style="font-family:'Times New Roman';color:#000000">)</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Hearing date: 26 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Disability discrimination; redundancy; suitable alternative employment</span></p>
+	    <p><span style="font-family:'Times New Roman'">In January 2021, the appellant was dismissed for the stated reason of redundancy. She subsequently made complaints of disability discrimination, harassment, victimisation, protected disclosure detriment, automatically unfair dismissal and ordinary unfair dismissal. The tribunal identified noted around 80 separate arising from those complaints.</span></p>
+	    <p><span style="font-family:'Times New Roman'">Following a hearing of evidence over 7 days in June 2022, and a further three days of tribunal deliberations in October 2022, the tribunal dismissed all of the complaints.</span></p>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">The appellant submitted that the tribunal had erred (i) by failing to consider one element of her complaints under section 15 of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Equality Act, 2010</span><span style="font-family:'Times New Roman'"> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">EqA</span><span style="font-family:'Times New Roman'">&#8221;); and (ii) in concluding that her dismissal by reason of redundancy was fair in circumstances where the respondent had failed to consider re-deployment into one of two specific roles which became available in June and August 2020.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Held:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_2">
+	  <num style="font-family:'Times New Roman'">(1)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Times New Roman'">Whilst acknowledging that the tribunal had required to consider a very large number of issues, the inescapable conclusion was that it did not consider or rule upon the single aspect of the section 15 </span><span style="font-weight:bold;font-family:'Times New Roman'">EqA</span><span style="font-family:'Times New Roman'"> complaint identified in the appeal. The appeal on that ground accordingly succeeded and the case would be remitted to the same tribunal to rule upon that aspect of the complaints;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-family:'Times New Roman'">(2)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Times New Roman'">The tribunal did not err in considering the fairness of the appellant&#8217;s dismissal for redundancy. The second ground of appeal was therefore dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">THE HON. LORD FAIRLEY, PRESIDENT:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman'">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This is an appeal from a reserved judgment dated 12 January 2023 of a tribunal at Watford, chaired by Employment Judge Palmer sitting with lay members. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Introduction and procedural history</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman'">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant&#8217;s employment with the respondent began in 1999. From 2014 she worked in the role of Surgical Site Surveillance Nurse. In January of 2021, she was dismissed for the stated reason of redundancy. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman'">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">She subsequently presented three separate claim forms (ET1) in which, cumulatively, she made complaints under the </span><span style="font-weight:bold;font-family:'Times New Roman'">Equality Act, 2010</span><span style="font-family:'Times New Roman'"> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">EqA</span><span style="font-family:'Times New Roman'">&#8221;) of disability discrimination (contrary to sections 13, 15, 20 and 21), harassment (section 26), and victimisation (section 27). She also made complaints of protected disclosure detriment and automatically unfair dismissal in terms of sections 47B and 103A of the </span><span style="font-weight:bold;font-family:'Times New Roman'">Employment Rights Act, 1996</span><span style="font-family:'Times New Roman'"> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">ERA</span><span style="font-family:'Times New Roman'">&#8221;) and a claim of unfair dismissal under sections 94, 98 and 111 </span><span style="font-weight:bold;font-family:'Times New Roman'">ERA</span><span style="font-family:'Times New Roman'">. Between ET &#167; 16 and 43, The tribunal identified around 80 separate issues arising from those complaints.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman'">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Following a hearing of evidence over 7 days in June 2022, and a further three days of tribunal deliberations in October 2022, the tribunal dismissed all of the complaints. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Grounds of Appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman'">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant advances two grounds of appeal. The first is that the tribunal erred by failing to consider one element of her complaints under section 15 of the </span><span style="font-weight:bold;font-family:'Times New Roman'">EqA</span><span style="font-family:'Times New Roman'"> (discrimination arising from disability) relating to an incident on 21 September 2019 when she was sent home by her manager, Mr McCabe and instructed to take sick leave. The second is that the tribunal erred in concluding that the appellant&#8217;s dismissal by reason of redundancy was fair in circumstances where the respondent neither moved her into one of two Infection Protection and Control (&#8220;IPC&#8221;) roles which became available in June and August 2020 or drew those vacancies to her attention. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Ground 1 </span></p>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">The tribunal&#8217;s reasons </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman'">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At ET &#167; 24 the tribunal set out the alleged detriments upon which the appellant founded for the purposes of her complaint under section 15 of the </span><span style="font-weight:bold;font-family:'Times New Roman'">EqA</span><span style="font-family:'Times New Roman'">. Twelve separate detriments were identified. Most of these were said to arise from the appellant&#8217;s sickness absence record, which was in turn said to relate to a disability of anxiety and depression. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman'">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">One of the twelve section 15 detriments was noted as:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">&#8220;24.5</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">The claimant was sent home and instructed to take sick leave by her manager, Ian McCabe, on 21 September 2019.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman'">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claimed relationship between this detriment and the appellant&#8217;s disability was different to the other alleged detriments. At ET &#167; 27, the tribunal noted that it was the appellant&#8217;s position that the reason she was sent home on 21 September 2019 was that she had allegedly raised her voice and engaged in erratic behaviour. She claimed that her behaviour on that day, if it happened in the way described, arose from her disability of anxiety and depression (ET &#167; 18).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman'">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At ET &#167; 162, the tribunal set out its findings and conclusions about what happened on 21 September 2019 in the following terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The claimant had become extremely agitated and upset and Mr McCabe, in the tribunal's view quite properly, sought the view of Human Resources who advised him that the respondents had a duty of care to the claimant to protect her in circumstances where she had become upset and overwrought in light of her medical conditions. They advised him that the claimant should go home for her own benefit and the preservation of her own mental health. Mr McCabe merely acceded to that advice and put it into practice. We find nothing in any of the evidence before us to suggest that his decision was based on the claimant&#8217;s sick leave.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">Appellant submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman'">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The short point made by the appellant is that, on the findings made at ET &#167; 162, the tribunal erred in failing to appreciate that it was the appellant&#8217;s position that the detriment on which she relied (being sent home and instructed to take sick leave) arose from her conduct (becoming extremely agitated and upset), and that the conduct arose from her disability of anxiety and depression.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman'">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Nowhere within its reasons did the tribunal engage with that position. It considered the section 15 </span><span style="font-weight:bold;font-family:'Times New Roman'">EqA </span><span style="font-family:'Times New Roman'">complaints at ET &#167; 70 to 74, but failed to mention this issue at all in relation to the detriment identified at ET &#167; 24.5. The reasonable inference was that the tribunal had simply overlooked it. In relation to this single allegation of detriment, rather than focussing upon sickness absence as the &#8220;something arising&#8221; from disability, the tribunal should have focussed upon the issue of the appellant&#8217;s conduct and asked itself (i) whether her behaviour on 21 September 2019 arose from her disability of anxiety and depression; (ii) whether the decision to send her home was because of that behaviour; (iii) whether that was unfavourable treatment; and (iv) if so, whether it was justified as a proportionate means of achieving a legitimate aim. The tribunal had, however, asked itself none of those questions. In the absence of any consideration of those issues, its decision to dismiss this aspect of the section 15 complaint was an error of law. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">Respondent submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman'">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was accepted that the tribunal had not directly addressed the issue of whether the appellant&#8217;s conduct on 21 September 2019 arose from her disability. That was understandable, however, because the focus of the respondent&#8217;s resistance to this element of the appellant&#8217;s complaints had ultimately been upon whether the actions of Mr McCabe were unfavourable treatment and, if they were, whether they were a proportionate means of achieving a legitimate aim. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman'">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was sufficiently clear from what the tribunal said at ET &#167; 162 either that it did not regard Mr McCabe&#8217;s conduct to have been unfavourable treatment or, alternatively, that it regarded his actions on that day to have been a proportionate means of achieving the legitimate aim of protecting the appellant&#8217;s mental health. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">Analysis and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman'">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The task which faced the tribunal in this case was challenging. It required to consider and rule upon a very large number of issues. Whilst acknowledging that, the inescapable conclusion is that it did not consider or rule upon the issue identified at ET &#167; 24.5 and 27 as to whether the appellant&#8217;s conduct on 21 September 2019 arose from her disability. Inevitably, therefore, to the extent that it may have been necessary for the tribunal to do so, it did not rule on the issues of whether the respondent&#8217;s reaction to that conduct was unfavourable and, if so, whether or not it was justified. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman'">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This ground of appeal accordingly succeeds. I will deal with the issue of disposal below. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Ground 2</span></p>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">The tribunal&#8217;s reasons</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman'">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant was placed at risk of redundancy on 13 October 2020, following a consultation process in August and September 2020 (ET &#167; 97 and 99).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman'">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In June and August 2020 respectively, two Infection Protection and Control Nurse roles had become available within the respondent&#8217;s organisation. The tribunal noted (ET &#167; 108 and 109) that it was the appellant&#8217;s position that these were suitable roles that should have been offered to her in the summer of 2020 as a means of avoiding her dismissal by reason of redundancy in early 2021.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman'">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At ET &#167; 57, the tribunal compared and identified various differences between the role which the appellant performed from 2014 onwards (Surgical Site Surveillance Nurse) and the role of IPC Nurse. It found that the role of a Surveillance Nurse was to review and audit information relating to infections for particular surgical procedures and to evaluate and interpret data and produce reports for feedback to relevant teams, committees, and national audit. The role of an IPC Nurse was pro-actively to prevent infections by providing ward-based support, expert advice, risk surveys, ward-based audits, outbreak management support, training and education, and the development of policies and guidance. The tribunal noted that the two roles were &#8220;entirely different&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman'">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At ET &#167; 111, the tribunal rejected the appellant&#8217;s contention that her role and that of an IPC Nurse were broadly similar, describing this as &#8220;a misapprehension which&#8230;is a theme running through the myriad of her claims before this tribunal&#8221;. It concluded:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Given the difference between the roles it was not incumbent upon the respondent to ringfence or otherwise slot the claimant into such a vacancy. The claimant&#8217;s role and the role of an IPC nurse were not broadly similar.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman'">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The tribunal also rejected the appellant&#8217;s suggestion that the two IPC Nurse vacancies in June and August 2020 had been deliberately kept secret from her by the respondent. At ET &#167; 110, it made a finding that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The roles were advertised just as previous IPC nursed (</span><span style="font-style:italic;font-family:'Times New Roman'">sic</span><span style="font-family:'Times New Roman'">) roles had been. The claimant did not apply for them. She accepted under cross examination that she was not looking at such vacancies.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman'">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The tribunal also considered the appellant&#8217;s general engagement with the process of trying to redeploy her. At ET &#167; 103 and 113, it stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">&#8220;103</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Evidence is abundant that the respondents did all that they could to assist the claimant in finding suitable alternative employment by redeployment but the claimant made it clear that she was simply not interested.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;text-indent:-0.5in"><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">113</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Looking at suitable alternative employment more broadly, as set out above, the claimant had plenty of opportunity to look at redeployment elsewhere but she studiously avoided doing so. She was provided with weekly meetings from mid-October 2020 but deliberately did not engage with those meetings and was uninterested in seeking alternative employment, a fact which she has admitted. She chose to disengage with the process in November 2020 and ignored the attempts to encourage her to continue.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman'">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">With particular reference to the IPC Nurse role, at ET &#167; 112, the tribunal noted:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">&#8220;112</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230; during the summer of 2020 when Covid was at its height, the IPC nurses were busier and more patient facing than ever. The claimant readily accepted under cross examination that she did not want to be a clinical nurse or on wards at the time. She was concerned that she might contract Covid 19. She accepts that this was the reason she had located to Wiltron House. Therefore it would have been of no practical value for her to have been offered one of those roles in any event. She accepted this in evidence.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman'">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Drawing these various findings together in its conclusions at ET &#167; 205 and 206, the tribunal stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">&#8220;205.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;We do not consider that it was necessary or appropriate for the claimant to be offered the IPC nurse roles that came up in June and August 2020. The roles were advertised and the claimant could have applied for them. There was no obligation upon the respondents to offer these roles to her. &#8230;[I]t would not have been practical in any event for her to have been offered one of those roles, a fact which she&#8230;accepted in cross examination.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">206</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;Adequate steps were taken to offer the claimant the opportunity of suitable alternative employment which she studiously avoided&#8230;&#8221;  </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">Appellant&#8217;s submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman'">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under reference to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Thomas and Betts Manufacturing Ltd v. Harding</span><span style="font-weight:bold;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1980] IRLR 255" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] IRLR 255</ref> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Williams v Compair Maxam Limited</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1982] ICR 156" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] ICR 156</ref>, counsel submitted that the tribunal had erred in failing to consider whether the IPC vacancies in June and August 2020 were suitable alternative roles for the appellant having regard to her skills, qualifications and experience.  In focussing only on a comparison of the job descriptions of the appellant&#8217;s existing role and that of an IPC nurse, the tribunal had lost sight of this point. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman'">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Whilst it was factually correct that the appellant had not applied for either of the IPC roles in June or August 2020, the tribunal had not made any clear finding that she had ever communicated her lack of interest in those positions to the respondent at the material time. That was a significant issue, as the reasonableness of the respondent&#8217;s actions in not offering either vacancy to her had to be judged by reference to what it knew at the time rather than by what it had learned subsequently or what the appellant had conceded during cross-examination at the hearing. Counter-factual evidence of what the appellant would (or might) have done could potentially be relevant to remedy in terms of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Polkey</span><span style="font-family:'Times New Roman'"> but was not relevant to reasonableness in terms of section 98(4) </span><span style="font-weight:bold;font-family:'Times New Roman'">ERA</span><span style="font-family:'Times New Roman'">.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">Respondent submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman'">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Counsel for the respondent submitted that the tribunal&#8217;s findings about concessions made by the appellant in cross-examination accurately reflected what she had communicated to the respondent prior to her dismissal rather than merely thought processes that were only expressed later. This was clear from the reference at ET &#167; 112 to the reason for her relocation to a different place of work, and in the tribunal&#8217;s express findings at ET &#167; 103 that the respondent had done all it could to redeploy her but she &#8220;made it clear that she was simply not interested&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman'">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Quite apart from the material differences in the nature and scope of an IPC Nurse position, therefore, the appellant&#8217;s evidence that she was not interested in an IPC role during the Covid pandemic was directly relevant to the tribunal&#8217;s assessment of whether or not it was reasonable for the respondent not to have offered her one of the two IPC vacancies in June and August 2020. This was an issue that bore upon reasonableness under section 98(4) </span><span style="font-weight:bold;font-family:'Times New Roman'">ERA</span><span style="font-family:'Times New Roman'">, and was not simply a matter going to remedy in terms of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Polkey v. AE Dayton Services Limited</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1988] ICR 142" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">[1988] ICR 142</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Times New Roman'">Analysis and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman'">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">When an issue of whether or not there was an unreasonable failure to offer suitable alternative employment arises in the context of an allegedly unfair redundancy exercise, the reasonableness test under section 98(4) of the </span><span style="font-weight:bold;font-family:'Times New Roman'">ERA </span><span style="font-family:'Times New Roman'">requires a tribunal to consider whether the employer's actions lay within range of responses open to a reasonable employer. That requires the tribunal to consider what the employer knew at the material time. If at that time, the employer had information which gave reasonable grounds to believe that offering a particular post would be futile because there was no chance of the employee accepting it, that can be a relevant factor in deciding whether a decision not to offer the position fell within the range of reasonable actions. If, on the other hand, such information only comes to light later on, after the dismissal, it will not be relevant to fairness but may be a factor to be taken into account in terms of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Polkey</span><span style="font-family:'Times New Roman'"> when the tribunal considers compensation (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Brown v Gavin Scott t/a Gavin Crawford</span><span style="font-family:'Times New Roman'"> EAT 149/87).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman'">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The tribunal here did not expressly refer to the issue of whether or not it was within the range of reasonable decisions for the respondent not to have offered the appellant employment in either of the IPC roles that became available in June and August of 2020. Its reasons would undoubtedly have been clearer had it done so. That said, it is implicit that it did indeed consider that issue.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman'">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In particular, it is sufficiently clear that the tribunal found as a fact that, during the summer of 2020 and by the time of her relocation to Wiltron House, the appellant had indicated to the respondent that she did not want a ward-based role due to the ongoing Covid  pandemic. This is apparent from ET &#167; 112, and is the context in which ET &#167; 103, 110, 113, 205 and 206 must also be read. I agree with the submissions made by counsel for the respondent that, within those paragraphs, the tribunal made factual findings as to what the appellant had communicated to the respondent prior to her dismissal rather than merely of her privately held thoughts that only emerged later under cross-examination. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman'">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The significance of this is that - as the tribunal found - the IPC roles involved a significant amount of ward-based activity and, in that respect, were very different from the role that the appellant had previously been performing. Whatever may have been her general aspirations towards an IPC role, the appellant communicated to the respondent that she did not want to take on a ward-based role during the pandemic. Even though the tribunal did not express itself in terms of the band of reasonable decisions, it is clear that it concluded that, in those circumstances, the decision not to offer the vacancies in June and August 2020 to the appellant was a reasonable one.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman'">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I do not, therefore, accept that the tribunal erred in its application of the section 98(4) </span><span style="font-weight:bold;font-family:'Times New Roman'">ERA</span><span style="font-family:'Times New Roman'"> test to the issue of suitable alternative employment in the context of her dismissal for redundancy. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Summary of decisions and disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman'">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The basis on which the first ground succeeds is that the tribunal simply overlooked issues that were before it and that it should have addressed. In light of the observations in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Sinclair Roche and Temperley v. Heard</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2004] IRLR 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 763</ref>, I see no reason why the same tribunal could not still determine those issues on a remit.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman'">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In sustaining the first ground of appeal, therefore, I will set aside that part of paragraph 2 of the tribunal&#8217;s judgment of 12 January 2023 in which it dismissed the appellant&#8217;s complaint in relation to the incident on 21 September 2019, and I will remit that single complaint to the same tribunal for it to consider and rule upon the issues referred to in paragraph 17 above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman'">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The second ground of appeal does not succeed and is dismissed.  </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

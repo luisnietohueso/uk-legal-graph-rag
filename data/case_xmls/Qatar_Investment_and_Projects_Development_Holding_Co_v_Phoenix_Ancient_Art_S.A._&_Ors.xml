@@ -1,0 +1,1027 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/898"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/898"/>
+	  <FRBRdate date="2025-04-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="898"/>
+	  <FRBRname value="Qatar Investment and Projects Development Holding Co v Phoenix Ancient Art S.A. &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/898"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/898"/>
+	  <FRBRdate date="2025-04-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/898/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/898/data.xml"/>
+	  <FRBRdate date="2025-04-11T09:32:48" name="transform"/>
+	  <FRBRdate date="2025-04-11T10:54:10" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" shortForm="The King's Bench Division" showAs="The King's Bench Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="qatar-investment-and-projects-development-holding-co" href="" showAs="QATAR INVESTMENT AND PROJECTS DEVELOPMENT HOLDING CO"/>
+	<TLCPerson eId="his-highness-sheikh-hamad-bin-abdullah-al-thani" href="" showAs="HIS HIGHNESS SHEIKH HAMAD BIN ABDULLAH AL THANI"/>
+	<TLCPerson eId="phoenix-ancient-art-sa" href="" showAs="PHOENIX ANCIENT ART S.A."/>
+	<TLCPerson eId="ali-aboutaam" href="" showAs="ALI ABOUTAAM"/>
+	<TLCPerson eId="hicham-aboutaam" href="" showAs="HICHAM ABOUTAAM"/>
+	<TLCPerson eId="roland-ansermet" href="" showAs="ROLAND ANSERMET"/>
+	<TLCPerson eId="petrarch-llc-d/b/a-electrum" href="" showAs="PETRARCH LLC d/b/a ELECTRUM"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-mr-justice-garnham" href="/judge-mr-justice-garnham" showAs="Mr Justice Garnham"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>898</uk:number>
+	<uk:cite>[2025] EWHC 898 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>5d059bc4fefc1790d577de15e11920bab07d2551c4a80c1f5b702588e6b4919f</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Heading1 { margin-left: 0.3in; font-weight: bold; font-variant: small-caps; font-size: 18pt; color: #000000; }
+#judgment .Heading2 { margin-left: 0.4in; font-weight: bold; font-variant: small-caps; font-size: 14pt; color: #000000; }
+#judgment .Heading3 { margin-left: 0.5in; font-weight: bold; color: #000000; }
+#judgment .Heading4 { margin-left: 0.6in; font-style: italic; font-weight: bold; color: #000000; }
+#judgment .Heading5 { margin-left: 0.7in; color: #323E4F; }
+#judgment .Heading6 { margin-left: 0.8in; font-style: italic; color: #323E4F; }
+#judgment .Heading7 { margin-left: 0.9in; font-style: italic; color: #404040; }
+#judgment .Heading8 { margin-left: 1in; font-size: 10pt; color: #404040; }
+#judgment .Heading9 { margin-left: 1.1in; font-style: italic; font-size: 10pt; color: #404040; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; }
+#judgment .ParaHeading { }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; }
+#judgment .ParaNoNumber { text-align: justify; }
+#judgment .Quote { margin-left: 0.5in; margin-right: 1in; font-style: italic; color: #000000; }
+#judgment .Header { font-family: Univers; }
+#judgment .Footer { font-family: Univers; }
+#judgment .Heading { }
+#judgment .Title { font-size: 28pt; color: #000000; }
+#judgment .eMailBlock { font-size: 13pt; color: #000000; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .Quote1 { text-align: justify; margin-left: 0.79in; margin-right: 0.36in; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .NormalWeb { }
+#judgment .Caption { font-style: italic; font-size: 9pt; color: #44546A; }
+#judgment .Subtitle { color: #5A5A5A; }
+#judgment .NoSpacing { }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.65in; margin-right: 0.65in; color: #000000; }
+#judgment .TOCHeading { margin-left: 0.3in; font-weight: bold; font-variant: small-caps; font-size: 18pt; color: #000000; }
+#judgment .Level1 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Level2 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Level3 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Level4 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Quote1Char { font-size: 12pt; }
+#judgment .Strong { font-weight: bold; color: #000000; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .Heading1Char { font-weight: bold; font-variant: small-caps; font-size: 18pt; color: #000000; }
+#judgment .Heading2Char { font-weight: bold; font-variant: small-caps; font-size: 14pt; color: #000000; }
+#judgment .Heading3Char { font-weight: bold; color: #000000; }
+#judgment .Heading4Char { font-style: italic; font-weight: bold; color: #000000; }
+#judgment .Heading5Char { color: #323E4F; }
+#judgment .Heading6Char { font-style: italic; color: #323E4F; }
+#judgment .Heading7Char { font-style: italic; color: #404040; }
+#judgment .Heading8Char { font-size: 10pt; color: #404040; }
+#judgment .Heading9Char { font-style: italic; font-size: 10pt; color: #404040; }
+#judgment .TitleChar { font-size: 28pt; color: #000000; }
+#judgment .SubtitleChar { color: #5A5A5A; }
+#judgment .Emphasis { font-style: italic; color: initial; }
+#judgment .QuoteChar { font-style: italic; color: #000000; }
+#judgment .IntenseQuoteChar { color: #000000; background-color: initial; }
+#judgment .SubtleEmphasis { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; font-weight: bold; text-transform: uppercase; }
+#judgment .SubtleReference { text-decoration-line: underline; text-decoration-style: solid; font-variant: small-caps; color: #404040; }
+#judgment .IntenseReference { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-variant: small-caps; }
+#judgment .BookTitle { font-weight: normal; font-variant: small-caps; }
+#judgment .Level1Char { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Level2Char { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left"><span style="font-family:'Times New Roman';font-size:12pt">Neutral Citation Number: </span><neutralCitation style="font-family:'Times New Roman';font-size:12pt">[2025] EWHC 898 (KB)</neutralCitation></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman';font-size:12pt">Case No: </span><docketNumber style="font-family:'Times New Roman';font-size:12pt">KB-2023-003712</docketNumber><span style="font-family:'Times New Roman';font-size:12pt"> and </span><docketNumber style="font-family:'Times New Roman';font-size:12pt">QB-2020-003721</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd" style="font-family:'Times New Roman';font-size:12pt">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">KING'S BENCH DIVISION</courtType></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman';font-size:12pt">Royal Courts of Justice</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman';font-size:12pt">Strand, London, WC2A 2LL</span></p>
+      <p class="CoverText"><span style="font-family:'Times New Roman';font-size:12pt">Date: </span><docDate date="2025-04-11" refersTo="#judgment" style="font-family:'Times New Roman';font-size:12pt">11/04/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Before</span><span style="font-family:'Times New Roman';font-size:12pt">:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-garnham" style="font-family:'Times New Roman';font-size:12pt">Mr Justice Garnham</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#qatar-investment-and-projects-development-holding-co" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">QATAR INVESTMENT AND PROJECTS DEVELOPMENT HOLDING CO</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#his-highness-sheikh-hamad-bin-abdullah-al-thani" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">HIS HIGHNESS SHEIKH HAMAD BIN ABDULLAH AL THANI</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant" style="font-family:'Times New Roman';font-size:12pt">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#phoenix-ancient-art-sa" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(1) PHOENIX ANCIENT ART S.A.</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#ali-aboutaam" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(2) ALI ABOUTAAM</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#hicham-aboutaam" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(3) HICHAM ABOUTAAM</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#roland-ansermet" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(4) ROLAND ANSERMET</party></p>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#petrarch-llc-d/b/a-electrum" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(5) PETRARCH LLC d/b/a ELECTRUM</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant" style="font-family:'Times New Roman';font-size:12pt">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Laurence Emmett KC </span><span style="font-family:'Times New Roman';font-size:12pt">(instructed by</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"> Pinsent Masons LLP</span><span style="font-family:'Times New Roman';font-size:12pt">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Claimants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Philip Jones</span><span style="font-family:'Times New Roman';font-size:12pt"> (instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Mackrell Solicitors</span><span style="font-family:'Times New Roman';font-size:12pt">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">First, Second and Third Defendants</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt">Hearing dates: 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> and 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> February 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc"><span style="font-family:'Times New Roman';font-size:12pt">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Mr Justice Garnham:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Times New Roman';font-size:12pt">1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants, Qatar Investment and Projects Development Holding Company (&#8220;QIPCO&#8221;) and His Highness Sheikh Hamad Bin Abdullah Al Thani, have brought two sets of proceedings, one in 2020 and the other in 2023, against the five Defendants. Those actions are being managed together. Both relate to purportedly ancient artefacts which the Claimants purchased from the First Defendant, Phoenix Ancient Art SA, some ten years ago.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Times New Roman';font-size:12pt">2.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is now before the court an application relating to both actions.  Pursuant to that application the Claimants seek the following orders in respect of the 2023 action: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1in;text-indent:-0.5in">i.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">An order debarring the First, Second and Third Defendants (for convenience referred to collectively as &#8220;The Phoenix Defendants&#8221;) from defending the 2023 proceedings and striking out their defences in that action on the basis that they have refused to give disclosure. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1in;text-indent:-0.5in">ii.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Summary judgment against the Phoenix Defendants and the Fourth Defendant, pursuant to CPR 24.3, on the grounds that none of those Defendants have real prospects of successfully defending the 2023 action and there is no other compelling reason why it should be disposed of at trial. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1in;text-indent:-0.5in">iii.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the alternative, orders: (a) requiring the Defendants to pay the monies claimed into court pursuant to PD24; (b) varying the Orders of Bright J of 8 October 2024, and </span><span style="font-family:'Times New Roman';font-size:12pt">Deputy Master Marzec dated 31 July 2024</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> and; (c) directing that the Phoenix Defendants are not entitled to rely on the fifth or seventh witness statements of the Third Defendant or the first witness statement of Fiorella Cottier-Angeli; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1in;text-indent:-0.5in">iv.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">insofar as is necessary, consequential variations to the present directions timetable including extensions of time for expert evidence.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Times New Roman';font-size:12pt">3.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to the 2020 action, the application seeks:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1in;text-indent:-0.5in">i.</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">Summary judgment against the Phoenix Defendants and the Fourth Defendant, pursuant to CPR 24.3, on the grounds that none of those Defendants have real prospect of successfully defending the 2023 action and there is no other compelling reason why it should be disposed of at trial; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1in;text-indent:-0.5in">ii.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the alternative, orders: (a) requiring the Defendants to pay the monies claimed into court pursuant to PD24; (b) varying the Orders of Bright J; and (c) directing that the Phoenix Defendants are not entitled to rely on the fifth or seventh witness statements of the Third Defendant or the first witness statement of Fiorella Cottier-Angeli.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Times New Roman';font-size:12pt">4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants also seek orders in respect of claims contained in schedules appended to the Re-Re-Amended particulars of claim in the 2020 action and the amended particulars of claim in the 2023 claim.  Those schedules seek anti-suit injunctions against the Phoenix Defendants and the Fifth Defendant.  The orders sought on this application in respect of those schedules are summary judgment in respect of the issues pleaded in the schedules; or in the alternative variations to the order of Deputy Master Marzec dated 31 July 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Times New Roman';font-size:12pt">5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I deal with each of those elements of the application in turn but, first, I set out my response to an application by the Defendants for the Court to sit in private for part of the hearing and second, in short summary, the factual background to these proceedings. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Open Court and Sitting in Private</span></heading>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Times New Roman';font-size:12pt">6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the start of the hearing, I heard an application on behalf of the Phoenix Defendants, for an order that I should sit in private to consider evidence as to their financial circumstances. Pursuant to CPR 39.2(3) I agreed to do so on the basis that the Defendant&#8217;s right to confidentiality in the details of their personal financial circumstances outweighed the public interest in open justice on that narrow issue. I gave an ex-tempore judgment to that effect at the hearing.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Times New Roman';font-size:12pt">7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The rest of the hearing was conducted in open court and, on an application by a journalist, I directed both parties to make available their skeleton argument to the press. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">The Background</span></heading>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Times New Roman';font-size:12pt">8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The factual background to these claims is complicated, but, save where indicated in the Discussion section of this judgment, is not significantly in dispute. For the purpose of deciding these applications, I can summarise it shortly. In doing so, I rely substantially on the parties&#8217; skeleton arguments, in particular the fuller summary provided by the Claimants.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The Parties</span></heading>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Times New Roman';font-size:12pt">9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The First Claimant, QIPCO, is a company incorporated in Qatar which maintains a collection of antiquities. The Claimants&#8217; case is that the First Claimant was the purchaser of all three artefacts. It is their case that any claim relating to those artefacts vests in the First Claimant. The Second Claimant, His Highness Sheikh Hamad Bin Abdullah Al Thani, was joined as a party to proceedings solely because, in correspondence, the First Defendant had indicated that they might contend that it was the Second, rather than the First, Claimant, who was the true purchaser of the artefacts. That was not an issue raised before me and I can refer to both Claimants collectively as &#8220;the Claimants&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Times New Roman';font-size:12pt">10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The First Defendant is a company incorporated in Switzerland and a dealer in antiquities. The Claimants say that it was the First Defendant who sold the First Claimant the items to which the present actions relate.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Times New Roman';font-size:12pt">11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Second and Third Defendants, Mr Ali Aboutaam and Mr Hicham Aboutaam are brothers. At least until sometime in 2023, the Second Defendant owned and controlled the First Defendant company. The First, Second and Third Defendants now claim that this is no longer the case. For convenience I refer to the first three Defendants as &#8220;The Phoenix Defendants&#8221;.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Times New Roman';font-size:12pt">12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Fourth Defendant, Roland Ansermet, is a retired antiques collector who resides in Neuchatel, Switzerland. According to the provenance documents which formed the basis of the sale, he sold two objects to an entity which is now known to have been controlled by the Second and/or Third Defendants. Although not a party to either action at the time, the Fourth Defendant made a witness statement in support of the First Defendant&#8217;s case in the 2020 action. By order of Bright J, dated 8 October 2024, he was debarred from defending these proceedings, having elected not to respond to them, despite having been served.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Times New Roman';font-size:12pt">13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Fifth Defendant is a company incorporated in New York which specialises in the purchase and sale of antiquities. It acts as an agent for the First Defendant and is owned and controlled by the Third Defendant.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The 2020 Action</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Times New Roman';font-size:12pt">14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The 2020 action (QB-2020-003721) concerns a small chalcedony statuette figure of the goddess Nike (hereafter &#8220;the Nike&#8221;), purportedly dated to the fourth century AD (or CE), which the Claimants purchased for US $2.2 million in 2013. The claim is essentially for that sum, by way of rescission of the contract of purchase and/or damages for misrepresentation and/or breach of contract. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Times New Roman';font-size:12pt">15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The original claim in the 2020 Nike Action was that the Nike is a modern forgery and the First Defendant did not have reasonable grounds for believing it to be authentic when it was sold. On that basis the Claimants make claims in contract, tort and statutory misrepresentation against the First Defendant. When the claim was issued, these were the only heads of claim and they are still maintained. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Times New Roman';font-size:12pt">16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Following exchange of disclosure and witness statements, the Claimants applied to re-amend the 2020 Nike Action to add the Second, Third and Fourth Defendants as parties; to plead that the provenance which the First Defendant claimed for the Nike was false; and that the First to Fourth Defendants, all of whom participated in supplying the provenance documents to the First Claimant, either knew it was false or had no honest belief in its truth. This followed the Claimants&#8217; discovery that the Second and Third Defendants had been prosecuted in Switzerland for, and pleaded guilty to, selling artefacts with falsified provenance; and that the Fourth Defendant had been identified as an accomplice in a report issued by the Swiss authorities dated 21 July 2020, (&#8220;the Swiss report&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Times New Roman';font-size:12pt">17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimant&#8217;s application to re-amend was contested but permission was granted on 20 July 2023 by order of Andrew Burns KC, sitting as a judge of this Court (see [2023] EWHC 1916 (KB)).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Times New Roman';font-size:12pt">18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As re-amended, the 2020 Nike Action is now advanced on the basis of overlapping claims in contract under the Sale and Purchase Agreement (&#8220;the SPA&#8221;); for repayment of the purchase price following rescission and/or in statutory misrepresentation; in tortious misrepresentation, including deceit; and in unlawful means conspiracy.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Times New Roman';font-size:12pt">19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the time of the July 2023 Order, the Claimants and the First Defendant had exchanged standard disclosure by list together with inspection on 16 February 2022. The Claimants&#8217; position was, and is, that the First Defendant&#8217;s disclosure in relation to the original issues was inadequate. The parties exchanged primary witness statements of fact on 25 January 2023. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Times New Roman';font-size:12pt">20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The July 2023 Order included directions for supplemental disclosure by the Phoenix Defendants in relation to the claim as now amended. The deadline was extended but the Phoenix Defendants did not comply. At a hearing before Butcher J in May 2024, they sought relief from sanctions which was granted on &#8220;unless&#8221; terms. Further extensions were granted but not complied with.  At a hearing before Bright J on 8 October 2024, it was confirmed that the &#8220;unless&#8221; provisions of Butcher J&#8217;s order took effect. In consequence, the Phoenix Defendants have no pleaded defence to the claims introduced by the re-amendment in 2023.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Times New Roman';font-size:12pt">21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Nonetheless, the Phoenix Defendants have served witness statements in the 2020 action. They were granted an extension of time to do so by paragraph 2 of the order of Bright J. Recently, the Phoenix Defendants have served four statements of opinion evidence which they describe as &#8220;expert reports&#8221; which refer to matters in issue in the 2020 action.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The 2023 Action </span></heading>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Times New Roman';font-size:12pt">22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The 2023 action relates to two artefacts, namely a marble object known as the Head of Alexander the Great as Herakles, purportedly dated to the first century AD (or CE), (&#8220;the Alexander&#8221;), and a small chalcedony cameo known as the Phalera with an Imperial Eagle (&#8220;the Phalera&#8221;). The First Claimants purchased the items from the First Defendant in 2014, pursuant to separate agreements, for US$ 3 million and US$ 262,705 respectively. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Times New Roman';font-size:12pt">23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Alexander was the subject of a previous claim issued on 22 January 2020. In that action, the Claimants&#8217; case was that the Alexander is a modern forgery and that the First Defendant did not have a reasonable basis for asserting that it was authentic at the time it was sold. However, that action was struck out because the claim form was not served within the 6 month period permitted by CPR 7.5.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Times New Roman';font-size:12pt">24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The 2023 Action was issued following consideration of the disclosure provided by the First Defendant in the 2020 Nike Action, and in particular after provision of the documents evidencing falsification of provenance records, including the Swiss report. The Claimants&#8217; case in that Action is that the contractual provenance of both the Alexander and the Phalera are false and that at the time they were sold the First Defendant (together with the Second, Third and Fourth Defendants) either knew they were false or had no honest belief in their truth. By Paragraph 20 of their Defence, the Phoenix Defendants asserted that the items are genuine. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Times New Roman';font-size:12pt">25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants served the 2023 proceedings on the Phoenix Defendants on 21 December 2023. On 20 February 2024, those Defendants applied to strike it out, claiming that it was an abuse of process, and/or that the Particulars disclosed no reasonable basis for bringing the claim, and/or that it was bound to fail as being time-barred. This application was rejected by Butcher J in his judgment dated 4 June 2024 ([2024] EWHC 1331 (KB)). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Times New Roman';font-size:12pt">26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Phoenix Defendants served their defence in the 2023 action on 23 July 2024. That was out of time but, retrospectively, they were granted an extension by Deputy Master Marzec, pursuant to paragraph 2.1 of her order of 31 July 2024. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Times New Roman';font-size:12pt">27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The date for disclosure in the 2023 action was extended on a number of occasions, most recently to 31 October 2024. At a hearing before Bright J on 8 October 2024, the Court was told that the Phoenix Defendants were confident of meeting the deadline. However, the Phoenix Defendants did not give standard disclosure in the 2023 action by the date required by paragraph 4 of Bright J&#8217;s order. Instead, on 6 November 2024, the Phoenix Defendants&#8217; solicitors wrote to the Claimants indicating that they would not be providing further disclosure at all. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Times New Roman';font-size:12pt">28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">By an order dated 8 October 2024, Bright J debarred the Fourth Defendant from defending the consolidated proceedings after his failure to respond to either action, whether by filing an Acknowledgement of Service or a defence, by the time required to do so.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The New York Proceedings</span></heading>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Times New Roman';font-size:12pt">29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 5 March 2024, the First and Fifth Defendants issued proceedings in New York (under civil docket number 24-CV-1699). They were served on the First Claimant in Qatar 15 April 2024. The Plaintiffs in those proceedings were the First and Fifth Defendant in the present proceedings. The claims they advanced were based on an alleged &#8220;exchange agreement&#8221;. That exchange agreement was said to have been reached by way of settlement of the present dispute and would have involved the exchange of the Nike and the Alexander for a number of other artefacts.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Times New Roman';font-size:12pt">30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 18 April 2024 the First Claimant applied for an interim injunction and permission to amend the claim forms and particulars in both actions in order to seek final injunctive relief and damages for breach of exclusive jurisdiction clauses.  The First Claimants&#8217; applications were granted by Butcher J on 4 June 2024. On 5 June 2024 the First and Fifth Defendants discontinued the New York proceedings in their entirety. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Times New Roman';font-size:12pt">31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">By the present application, the Claimant seeks final relief in relation to the New York proceedings in the form of a final injunction and damages. No defence to the damages claim has ever been pleaded.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Discussion</span></heading>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Times New Roman';font-size:12pt">32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is convenient to begin with the applications in respect of the 2023 action which were the primary focus of the oral submissions I heard.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The 2023 Action</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">The Applications for a strike out and a debarring order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';font-size:12pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I deal first with the application against the Phoenix Defendants for an order striking out their defence and debarring them from defending the proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';font-size:12pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The heart of the Claimants&#8217; argument on this application is the letter dated 6 November 2024 from the Phoenix Defendants&#8217; solicitors. It contained the following passage:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220;Before responding however, our clients confirm that they will not be providing disclosure in the 2023 Action. Having started the disclosure exercise, the costs incurred to date and to be incurred are of such a value that our clients prefer to utilise what resources they have towards cost orders, further directions or potential means of resolution and, in part, due to their belief that the relevant emails and documents have already been provided to the Claimants over the years, meaning that this very expensive exercise will be a waste of resources and time. Our clients do not have the means available to them to complete the disclosure exercise and provide disclosure to your clients at the same time as paying cost orders, the costs of the further steps in these claims and to explore settlement &#8230;.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="Quote1" style="margin-left:0in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The competing Contentions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';font-size:12pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants argue that the refusal to give disclosure makes a fair trial of the issues that arise in the 2023 action impossible. They say that the central issues in that action are whether the contractual provenance documentation which led to the SPA was false and whether the Phoenix Defendants knew it was false. They say that proper disclosure by the Phoenix Defendants is central to resolving that issue because the Phoenix Defendants&#8217; own documents are the principal, or even the only, direct documentary evidence going to the authenticity of the provenance documents and the Phoenix Defendants&#8217; belief in the same. They say that if the contractual provenance documents were genuine, there must be documents in the Phoenix Defendants&#8217; possession which provide contemporaneous support for that case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';font-size:12pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">They point, in particular, to the likelihood of there existing communication between the Phoenix Defendants and outsiders relating to the Alexander and the Phalera, including communication with sellers at the time the items were purchased, communication with external advisors consulted at the time of the purchase and other such communication. They say in addition that there must have been internal communication, such as discussions regarding the authenticity and provenance, at the time the items were purchased, discussions regarding valuation for insurance purposes, sale price, storage and shipping. They say that business records, such as inventories, bank statements and insurance records maintained by Phoenix Defendants must exist.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';font-size:12pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants argue that the court cannot possibly proceed simply on assertions from the Phoenix Defendants because, amongst other reasons, their evidence is inconsistent. So, for example, in the fifth statement of Hicham Aboutaam, the Third Defendant, it is asserted that the Second Defendant is not the owner, &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">guiding mind and will</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;, of the First Defendant nor the sole owner of two entities associated with the Phoenix Defendants&#8217; businesses, Tanis Antiquities Limited (&#8220;Tanis&#8221;) and Inanna Art Services SA (&#8220;Inanna&#8221;). By contrast, in the re-re-reamended defence in the 2020 action, the Phoenix Defendants have admitted that the Second Defendant is the owner &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">guiding mind and will</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; of the First Defendant, and the evidence of the Second Defendant in that action is that Tanis is &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">solely owned by me</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';font-size:12pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants say that the Phoenix Defendants&#8217; documents are also crucial to determining the authenticity of the items. If, as the Claimants contend, all three items were sold on the basis of provenance documents which were false and known to be false, it would follow that the Phoenix Defendants obtained the items from a source other than that which is claimed, or in circumstances other than those claimed. It would also follow that they are currently refusing to divulge the true position. That would be a crucial factor, argue the Claimants, to be taken into account when assessing authenticity. In those circumstances, the Claimants argue there can be no serious argument that the 2023 action can be resolved without proper disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';font-size:12pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Defendants argue in response that there has been no order of the court on an unless basis which specified any sanction for non-compliance (other than the sanction set out at CPR 31.21). They say that whether the Phoenix Defendants should be subjected to a sanction depends on the application of the overriding objective where the principles of proportionality, equality of arms and the need to enforce compliance with court orders are the most significant. They say that subjecting the Phoenix Defendants to a sanction by reason of their failure to take a step in the proceedings or failure to comply with an order of the court with which they cannot afford to comply, would be disproportionate and would reinforce the very significant inequality of arms between the parties in this case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';font-size:12pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Phoenix Defendants further argue that this is not a case where they are refusing to give disclosure because they wish to conceal relevant and damaging documents. They say they are willing to provide the Claimants with all potentially relevant documents, which number some 100,000. They say they have, in fact, taken some steps in relation to disclosure. In particular, disclosure was given by the First Defendant in the 2020 action prior to the amendments which introduced the fraud allegations. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';font-size:12pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">They say that they have spent some &#163;77,000 on disclosure in the 2023 action, although they acknowledge that this has not been sufficient to complete the process. They say that the crucial expense is that of reviewing the 100,000 potentially relevant documents after the pool had been reduced from approximately 1.5 million as a result of the application of a key word search. They say they simply cannot afford the cost of completing this task, an assertion which they say is true whether the cost is the &#163;1.5 million estimated by the Second Defendant or the &#163;206,000 estimate by the Claimants. They say that there is no doubt that the Claimants, &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">with the vast financial resources of a gulf state sovereign wealth fund</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;, could afford to undertake this review of the documentation. They say that to the extent that this imposes a cost on the Claimants that is justified on the ground of equality of arms, and, in the event that the Claimants succeed in the claim, they can recover the additional cost from the Defendants. They say that any problems as to fairness will be resolved by giving the Claimants unfettered access to the 100,000 documents they have identified. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';font-size:12pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to their financial means, the Defendants refer to the ninth witness statement of the Third Defendant.  He sets out the financial position of the First to Third and Fifth Defendants as he understands them to be.  He asserts that none of them have access to substantial amounts of &#8220;liquid cash&#8221;. He says that they are each in straitened financial circumstances without the ability to borrow the sums required to fund the disclosure exercise; that the funding of legal fees has been managed &#8220;on a hand to mouth basis&#8221;; that delays in payment of costs are consistent with an inability to pay rather than a deliberate decision not to pay.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';font-size:12pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Aboutaam says in his statement that the only assets of significance owned by the Defendants are the contents of a warehouse in Geneva in which artworks inherited by him from his parents in 1998 were stored.  Those works had been valued in 1998 at US$ 10 million. He says these have never been inventoried and have only been valued &#8220;on a very broad brush basis&#8221; by assuming a 10% increase in value compounded over the 20 years since.  But, he says, since 2018 &#8220;values have plummeted&#8221; and estimates that if they were liquidated today the collection might fetch something in the region of US $2 million to $3 million. He says that &#8220;selling the entire collection, carefully and responsibly, could only be achieved over a period of about two to three years&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';font-size:12pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">The rules relevant to these applications are those set out in CPR 3.1(2)(p), 3.4(2) and 31.6.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';font-size:12pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">CPR 3.1 (2) provides that, except where the Rules provide otherwise, the court may &#8230;</span><span style="font-family:'Times New Roman';font-size:12pt"> &#8220;</span><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">(p) take any other step or make any other order for the purpose of managing the case and furthering the overriding objective&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';font-size:12pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">CPR 3.4 (2) provides that the</span><span style="font-family:'Times New Roman';font-size:12pt"> court may strike out&#160;a statement of case if it appears to the court&#8230;&#8221;(c) that there has been a failure to comply with a rule, practice direction or court order&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';font-size:12pt">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">It is acknowledged that there has been a failure to comply with a rule of court namely CPR 31.6. </span><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt;color:#000000">CPR 31.6</span><span style="font-family:'Times New Roman';font-size:12pt">&#160;makes the following provisions in respect of standard disclosure.  Standard disclosure requires a party to disclose only (a) the documents on which he relies; and (b) the documents which (i) adversely affect his own case; (ii) adversely affect another party&#8217;s case; or (iii) support another party&#8217;s case; and (c) the documents which he is required to disclose by a relevant practice direction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';font-size:12pt">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="Strong" style="font-weight:normal;font-family:'Times New Roman';font-size:12pt;color:#000000">CPR 31.7(1) provides that w</span><span style="font-family:'Times New Roman';font-size:12pt">hen giving standard disclosure, a party is required to make a reasonable search for documents falling within rule 31.6(b) or (c). In deciding the reasonableness of a search the following is relevant (a) the number of documents involved; (b) the nature and complexity of the proceedings; (c) the ease and expense of retrieval of any particular document; and (d) the significance of any document which is likely to be located during the search.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';font-size:12pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">By 31.7 (3) where a party has not searched for a category or class of document on the grounds that to do so would be unreasonable, he must state this in his disclosure statement and identify the category or class of document.  The Phoenix Defendants have made no such statement in a disclosure statement but it is apparent that they take the view that, given the number of documents involved and the nature and complexity of the proceedings they believe it unreasonable to search for any further documentation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';font-size:12pt">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In addition to the obligation to give standard disclosure under the rules, the Defendants are also in breach of the order to give standard disclosure by 10 October 2024 in paragraph 3.2 of the order of Deputy Master Marzec dated 31 July 2024 (extended by agreement to 31 October).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';font-size:12pt">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">A party is </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">required</span><span style="font-family:'Times New Roman';font-size:12pt"> to disclose such documents.  That is a duty owed to the Court (PD 57AD at 3.1).  It has not been suggested by any Defendant that these proceedings can fairly be resolved without disclosure.  That is especially so in circumstances where it is highly likely that the Defendants, as dealers in antiquities, have documents relevant to how they obtained the objects and what they knew about their authenticity.  Instead, it is said that they cannot afford to conduct the disclosure process.  It is plain that this breach of the rules is deliberate; the Phoenix Defendants&#8217; solicitors admit as much in their letter of 6 November.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';font-size:12pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Disclosure is fundamental to the proper conduct of civil litigation.  The CPR imposes duties on each party to search for and disclose to the other side documents which adversely affect their own case or support their opponents&#8217; case.  If there is some reason why this cannot be done, then it is for the party in default to acknowledge and explain the deficiency to the other party and, if agreement cannot be reached, to the court.  It can never be appropriate for a party simply to refuse to give disclosure, as happened in this case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';font-size:12pt">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In my judgment, it is no answer to those requirements for a party to seek to unload (or, as Mr Emmett KC for the Claimants puts it , &#8220;to dump&#8221;) their entire database of potentially relevant documents on their opponents and tell them to conduct the search.  That is so not only because such a course of action does not comply with the rules; it is also because the evident intent behind CPR 31 is that the disclosing party should apply their mind to the exercise.  The disclosing party is presumed to know the strengths and weaknesses of their own case and so is likely to be in a better position than their opponents, at least initially, to identify documents which will be relevant to the issues in the case, as seen through the eyes of the disclosing party, and in particular to identify documents capable of undermining their own case.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';font-size:12pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">When I put that proposition to Mr Jones, he said it was unlikely that a defendant in a case where fraud is a central issue would search for and disclose documents that might assist in proving the fraud.  That, however, does not change the nature of the obligation.  Furthermore, whilst Mr Jones&#8217; assertion may be accurate, in litigation of any complexity or value the disclosing party is likely to have instructed solicitors, and any competent solicitor would not countenance such conduct.  So, in this case, where the Phoenix Defendants have instructed highly competent solicitors, the involvement of those solicitors in the disclosure exercise would greatly increase the likelihood of disclosure of relevant material even if it is adverse to their clients&#8217; interests, because the alternative is that the solicitors would refuse to continue acting for the party.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';font-size:12pt">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Phoenix Defendants made their position very clear by their solicitor&#8217;s letter of 6 November 2024; they were refusing to give disclosure.  This was part of a pattern of failing to comply with court orders in these proceedings. As explained in the 7th witness statement of Mr Oliver Tapper, a senior associate solicitor employed by the Claimants&#8217; solicitors, the Defendants have breached six court orders in the consolidated proceedings, namely breaches of four costs orders, delayed service of their defence in the 2023 action and breach of one earlier deadline for standard disclosure.  The Court has already granted three unless orders in response to breaches of court orders (see paragraph 5 of the order of Butcher J dated 6 June 2024, paragraph 1.1 of the order of Deputy Master Marzec dated 31 July 2024 and paragraph 3 of the order of Bright J dated 8 October 2024). Against that background, the court is bound to look with great care, and no little scepticism, at the reasons for refusing disclosure now.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';font-size:12pt">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Whatever their financial difficulties, it is surprising in the extreme, in my judgment, that the Defendants have not, at the very least, disclosed documentation that demonstrates that the allegations of fraud and misrepresentation are unjustified.  These are apparently expert and experienced dealers in ancient artefacts who must have known that the value of those artefacts depended on proof of provenance and known where to find the documents that established provenance without difficulty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';font-size:12pt">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In R</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> (Hysaj) v SSHD </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1633" uk:canonical="[2014] EWCA Civ 1633" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1633</ref>, a case where an applicant was seeking judicial review of the Secretary of State's decision to treat his naturalisation as a British citizen as void, Moore-Bick J said (at [43])</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220;In my view shortage of funds does not provide a good reason for delay. I can well understand that litigants would prefer to be legally represented and that some may be deterred by the prospect of having to act on their own behalf. Nonetheless, in the modern world the inability to pay for legal representation cannot be regarded as providing a good reason for delay. Unfortunately many litigants are now forced to act on their own behalf and the rules apply to them as well&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';font-size:12pt">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although a very different case on its facts, in my judgment the same principle applies to delay in providing proper disclosure or refusal to provide proper disclosure on facts such as the present.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';font-size:12pt">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In any event, in my judgment, the explanation provided by the Phoenix Defendants for refusing to give disclosure is wholly inadequate. The Defendants have not come to the Court with a sensible plan, pursuant to which they would provide some measure of disclosure, limited perhaps by rational criteria linked to the subject matter of the action.  They simply assert that they cannot afford to continue with the exercise and invite the Claimants to do their work for them.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Times New Roman';font-size:12pt">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The evidence that the Phoenix Defendants are so impecunious that they cannot provide disclosure is incomplete and unconvincing.  The 9</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> witness statement of Mr Tapper exposes the weaknesses in the explanation contained in the 9</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman'">th</span><span style="font-family:'Times New Roman';font-size:12pt"> statement of the Third Defendant. In particular, Mr Tapper explains that there is double counting in the calculation of the Phoenix Defendants&#8217; debt position; that they have not explained the use of substantial loans they have taken out; that the Phoenix Defendants have not properly disclosed how their stock is purchased and owned; that they have not properly explained the role of Tanis or Inanna and other companies owned and or controlled by them; and that they have failed to explain the origin of various cash injections into their business.  Surprisingly, the Claimants&#8217; case in this regard has gone wholly unanswered on the evidence and substantially unanswered in submissions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Times New Roman';font-size:12pt">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In my judgment, the most unsatisfactory element of the Phoenix Defendants&#8217; case on impecuniosity is that relating to the stock inherited by the Third Defendant on his father&#8217;s death.  As Mr Tapper puts it, it is surprising &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">that Mr Aboutaam sees little point in valuing his father's collection or indeed in understanding the inventory in circumstances where he practises in art dealing and finds himself in a heavily indebted position.</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;  I reject entirely the suggestion that the Phoenix Defendants can justify their refusal to give proper disclosure on the grounds of impecuniosity when they have been sitting for years on stock they formerly valued at US$90 million without a complete and transparent account of what they have done to realise the value of these objects.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Times New Roman';font-size:12pt">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It follows from that consideration of the facts that, in my judgment, the breach of the Phoenix Defendants&#8217; disclosure obligations is serious and culpable.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Times New Roman';font-size:12pt">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I bear in mind that the court should &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">guard itself against the temptation of allowing its indignation to lead to a miscarriage of justice</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221; (</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Logicrose Ltd v Southend</span><span style="font-family:'Times New Roman';font-size:12pt"> cited by Chadwick LJ in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Arrow Nominees v Blackledge</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2000/200" uk:canonical="[2000] EWCA Civ 200" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] EWCA Civ 200</ref>) and that the test is whether &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">there is a real risk that (the deplorable) conduct would render the further conduct of the proceedings unsatisfactory</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;.  Here it is not indignation, but a recognition of the real difficulties that refusal to provide disclosure would create, which is the motivating factor.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Times New Roman';font-size:12pt">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Global Torch Ltd v Apex Global Management Ltd (No 2) </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="#" uk:canonical="[2014] 1 WLR 4496" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 4496</ref> Lord Neuberger PSC identified the applicable principles in cases of non-compliance with the obligation to give disclosure. At [23] he said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220;The importance of litigants obeying orders of court is self-evident. Once a court order is disobeyed, the imposition of a sanction is almost always inevitable if court orders are to continue to enjoy the respect which they ought to have. And, if persistence in the disobedience would lead to an unfair trial, it seems, at least in the absence of special circumstances, hard to quarrel with a sanction which prevents the party in breach from, In the case of a defendant, resisting the claim.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Times New Roman';font-size:12pt">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">JSC BTA Bank v Granton Trade Ltd</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/564" uk:canonical="[2012] EWCA Civ 564" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 564</ref>, Tomlinson LJ said, when referring to the possibility of making an order striking out a claim for failure to give proper disclosure, that</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> &#8220;leaving aside instances of flagrant abuse of process, the touchstone for relief will usually be whether the conduct of the defaulting party has jeopardised a fair trial or prevented the court from doing justice</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;.  In my judgment, the breach here is flagrant and the Defendants&#8217; conduct does jeopardise a fair trial.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Times New Roman';font-size:12pt">66.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> The grounds for striking out a statement of case and making a debarring order were considered in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Byers v Samba Financial Group <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2020/853" uk:canonical="[2020] EWHC 853 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 853 (Ch)</ref>. </span><span style="font-family:'Times New Roman';font-size:12pt">In that case, Fancourt J refused to vary the disclosure obligations of the Defendant Saudi Arabian bank, finding that the bank was in serious and culpable breach of its disclosure obligations and that it should be debarred from defending the claim against it except in relation to issues that could fairly be tried without the bank's disclosure.  At [119] he asked whether the Bank's default is</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">so serious that the appropriate sanction is to strike out its Defence and debar it from defending the claim, or is such a sanction disproportionate to the culpability of the Bank and the harm caused by the breach? Would a debarring order result in an unjustified windfall for the Claimants, in being able to enter judgment for $318 million plus interest from 2009?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Times New Roman';font-size:12pt">67.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At [120], referring to </span><a class="Hyperlink" href="https://uk.westlaw.com/Document/I35895490C0BD11E18DD4D90D906258C6/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=94f31253b13e43c0bb95ea77610bba0a&amp;contextData=(sc.Search)" style="font-style:italic;text-decoration-line:none;font-family:'Times New Roman';font-size:12pt;color:initial">Summers v Fairclough Homes Ltd </a><span style="font-family:'Times New Roman';font-size:12pt">and </span><a class="Hyperlink" href="https://uk.westlaw.com/Document/I27D5E880DE3411DFB2A8D529BAA1D18C/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=94f31253b13e43c0bb95ea77610bba0a&amp;contextData=(sc.Search)" style="font-style:italic;text-decoration-line:none;font-family:'Times New Roman';font-size:12pt;color:initial">Aktas v Adepta <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1170" uk:canonical="[2010] EWCA Civ 1170" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 1170</ref></a><span style="font-family:'Times New Roman';font-size:12pt">  he held that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">An order striking out a defence and debarring a defendant from defending &#8230; is the ultimate sanction that the court can impose for a breach of its order that does not amount to a contempt of court. It therefore must be a sanction of last resort and is likely only to be imposed for a serious and deliberate breach. The sanction must be necessary and proportionate in the circumstances. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Times New Roman';font-size:12pt">68.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At [123]-[124]  he said:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The court must have regard to the circumstances of the individual case and do what is necessary and proportionate to mark the seriousness of the breach of its order in a way that is consistent with the interests of justice and the overriding objective. The seriousness of the breach, the extent if at all to which it is excusable and the consequences of the breach will be very important factors, but the overriding criterion is the requirement for the sanction to be proportionate and just.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The choice for the Court now is to strike out the Defence and debar the Bank entirely from defending the claim, or to strike out and debar save as regards those issues that can fairly be tried without disclosure by the Bank. It clearly would not be just to allow the Bank to defend any factual issue where it might have relevant documents that it should have disclosed. The risk of whether the Bank's documents might be relevant to such issues would clearly have to fall on the side of the Bank. In my judgment, the Court can properly except certain issues from a debarring order if it is satisfied, first, that such issues can fairly be tried without the Bank's disclosure; second, that such an exception would be in the interests of justice and fair to both parties; third that the conduct of the Bank is not so inexcusable that a full debarring order is deserved and is proportionate, and fourth that making exceptions from the debarring order in that way does not undermine the authority of the Court. There must clearly also be some sensible purpose served by having a trial of certain issues only.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Times New Roman';font-size:12pt">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In my view, on the facts of the present case, for the reasons set out above, the breach of the disclosure obligations was deliberate, serious, prolonged and inexcusable.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Times New Roman';font-size:12pt">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is necessary to mark that breach with an order that is consistent with the interests of justice.  The consequence of the breach is likely to be, in the absence of an order of the court, that the Claimants are deprived of the ability to establish the fraud they allege. They may well be able, on the material referred to in their pleadings, to establish a prima facie case but getting beyond that, to make good the claim in fraud, they require access to documentary material very likely to be held by the Defendant, or, alternatively, an acknowledgement that such material does not exist.   In those circumstances, it would not be right, to adopt Fancourt J&#8217;s words, to allow the Phoenix Defendants to defend any factual issues where they might have relevant documents that they should have disclosed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Times New Roman';font-size:12pt">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Summers v Fairclough Homes Ltd</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[2012] 1 WLR 2004" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 2004</ref> (SC) Lord Clarke JSC said that &#8220;&#8230;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The test in every case must be what is just and proportionate</span><span style="font-family:'Times New Roman';font-size:12pt">&#8230;&#8221;. I have considered whether particular issues could fairly be tried without the Phoenix Defendants&#8217; disclosure; and whether such an exception would be in the interests of justice and fair to both parties. In the previous claim in relation to the Alexander (QB/2020/000060) issued in January 2020 (which was struck out) the Claimants sought remedies under the SPA and in tort and statutory misrepresentation. In the present 2023 action, claims in fraud, deceit and unlawful means conspiracy have been added to the contractual and misrepresentation claims.  In my judgment, the pursuit of all the Claimants&#8217; causes of action, most particularly the claims based on fraud but not just those claims, are fundamentally undermined by the refusal of the Phoenix Defendants to give proper disclosure.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Times New Roman';font-size:12pt">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In those circumstances in my judgment the appropriate remedy is to strike out the whole of the Phoenix Defendants&#8217; defence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Times New Roman';font-size:12pt">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Jones argued that if I concluded, against him, that his clients&#8217; failure to give disclosure warranted an order striking out his defence, they should not be debarred from taking any steps in the proceedings.  He argued that, even with their defence struck out, the Phoenix Defendants should be able to test the evidence advanced by the Claimants.  He pointed to cases such as </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Thevarajah v Riordan </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/41" uk:canonical="[2015] EWCA Civ 41" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 41</ref> and</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> Times Travel (UK) Ltd v Pakistan International Airlines Corp </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2019/3732" uk:canonical="[2019] EWHC 3732 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 3732 (Ch)</ref> as examples of cases where the court accepts that a defence continues to have some existence and effect even after it has been struck out. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Times New Roman';font-size:12pt">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I accept the proposition that a struck out defence may continue to operate to define the ambit of dispute, and that admissions in such defences continue to operate as admissions.   But the extent and ambit of any debarring order depends on the facts of the particular case and the nature and effect of the default.  Here it seems to me that the refusal to give proper disclosure must be met not just by a strike out order, but also by an order debarring the Phoenix Defendants from taking any substantive part in the proceedings.  In particular, it must debar them from advancing a positive case, cross-examining the Claimants&#8217; witnesses, or making submissions.  The reason why so comprehensive an order is appropriate is that it is impossible to see how it would be fair, or in the interests of justice, to permit the Defendants to take any such step when they have refused or failed to provide proper disclosure.  To do otherwise would mean that the court would be considering challenges to the Claimants&#8217; case without being able to ascertain whether the challenge was soundly based.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Times New Roman';font-size:12pt">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">For those reasons, I have no hesitation in concluding that the breach of CPR 31.7, and of the specific order of Deputy Master Marzec, is deliberate and contumelious, that granting the Claimants&#8217; first application - for an order striking out the defences of the First, Second and Third Defendants in the 2023 action - is necessary and proportionate.    Further, I conclude for the reasons set out that it would be necessary and proportionate to debar the Phoenix Defendants from taking any part in the proceedings, whether by advancing any positive case, cross-examining witnesses or making submissions, up to the point of judgment in the 2023 action.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Summary Judgment in the 2023 Action</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Times New Roman';font-size:12pt">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">CPR 24.2 provides that &#8220;the court may give summary judgment against a claimant or defendant on the whole of the claim or on an issue if (a) it considers that the party has no real prospect of succeeding on the claim, defence or issue; and (b) there is no other compelling reason why the case or issue should be disposed of at a trial.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Times New Roman';font-size:12pt">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The relevant principles applicable to applications for summary judgment by a defendant were formulated by Lewison J in the well-known decision of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Easyair Ltd v Opal Telecom Ltd</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2009/339" uk:canonical="[2009] EWHC 339 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 339 (Ch)</ref> at [15]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8220;i)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The court must consider whether the claimant has a &#8220;realistic&#8221; as opposed to a &#8220;fanciful&#8221; prospect of success: Swain v Hillman <ref href="#" uk:canonical="[2001] 2 All ER 91" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 All ER 91</ref>;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">ii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">A &#8220;realistic&#8221; claim is one that carries some degree of conviction. This means a claim that is more than merely arguable: ED &amp; F Man Liquid Products v Patel <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/472" uk:canonical="[2003] EWCA Civ 472" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 472</ref> at [8];</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">iii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">In reaching its conclusion the court must not conduct a &#8220;mini-trial&#8221;: Swain v Hillman;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">iv)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">This does not mean that the court must take at face value and without analysis everything that a claimant says in his statements before the court. In some cases it may be clear that there is no real substance in factual assertions made, particularly if contradicted by contemporaneous documents: ED &amp; F Man Liquid Products v Patel at [10];</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">v)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">However, in reaching its conclusion the court must take into account not only the evidence actually placed before it on the application for summary judgment, but also the evidence that can reasonably be expected to be available at trial: Royal Brompton Hospital NHS Trust v Hammond (No 5) <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/550" uk:canonical="[2001] EWCA Civ 550" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 550</ref>;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">vi)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Although a case may turn out at trial not to be really complicated, it does not follow that it should be decided without the fuller investigation into the facts at trial than is possible or permissible on summary judgment. Thus the court should hesitate about making a final decision without a trial, even where there is no obvious conflict of fact at the time of the application, where reasonable grounds exist for</span><span style="font-family:'Times New Roman';font-size:12pt"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">believing that a fuller investigation into the facts of the case would add to or alter the evidence available to a trial judge and so affect the outcome of the case: Doncaster Pharmaceuticals Group Ltd v Bolton Pharmaceutical Co 100 Ltd <ref href="#" uk:canonical="[2007] FSR 63" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] FSR 63</ref>;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman';font-size:12pt">vii)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">&#8230;if the court is satisfied that it has before it all the evidence necessary for the proper determination of the question and that the parties have had an adequate opportunity to address it in argument, it should grasp the nettle and decide it. &#8230;. If it is possible to show by evidence that although material in the form of documents or oral evidence that would put the documents in another light is not currently before the court, such material is likely to exist and can be expected to be available at trial, it would be wrong to give summary judgment because there would be a real, as opposed to a fanciful, prospect of success. However, it is not enough simply to argue that the case should be allowed to go to trial because something may turn up which would have a bearing on the question of construction: ICI Chemicals &amp; Polymers Ltd v TTE Training Ltd <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/725" uk:canonical="[2007] EWCA Civ 725" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 725</ref>.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Times New Roman';font-size:12pt">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The same approach applies to an application for summary judgment by a Claimant.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">The competing arguments on summary judgment in the 2023 Action</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Times New Roman';font-size:12pt">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants, however, do not base their claim for summary judgment against the Phoenix Defendants in the 2023 action on the detailed application of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">EasyAir</span><span style="font-family:'Times New Roman';font-size:12pt"> principles. They do not argue that this is a case which, on the evidence, ought to be determined summarily without a trial.  Instead, they argue that if, as I have indicated will happen, the defence is struck out, then there is no defence to the claim.  Referring to CPR 16.5, they argue that a defendant who fails to deal with an allegation is to be taken to admit that allegation, that as a result of the defence having been struck out, there is no defence dealing with the allegations made in the particulars of claim and so these Defendants must be taken to admit them.  In those circumstances, say the Claimants, the Phoenix Defendants now have no real prospect of resisting the claim and so summary judgment should now be entered.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Times New Roman';font-size:12pt">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In response, the Defendants remind me that that although there is no prohibition on entering summary judgment on a fraud claim, the court should exercise caution and bear in mind the cogency of the evidence required to justify a finding of fraud (see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">King v Stiefel</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2021/1045" uk:canonical="[2021] EWHC 1045 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 1045 (Comm)</ref>). They say that the Claimants are wrong to suggest that the potential fairness of the trial, in the absence of proper discovery, is a relevant matter under CPR 24.  They say the sole question is whether on the evidence the Phoenix Defendants have a real chance of success, not whether there is a risk that the Claimant&#8217;s claim might be impeded through unfairness at trial.  Relying on the fifth of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">EasyAir</span><span style="font-family:'Times New Roman';font-size:12pt"> principles, they say that their willingness to turn over to the Claimants the entirety of the potentially relevant documents in their control means that there is at least a reasonable prospect that the material necessary to ensure the fairness of the trial will be available.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Times New Roman';font-size:12pt">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In my judgment, the Defendants&#8217; response proceeds on a fundamental misconception. It assumes the Defendants can avoid their obligation to give proper disclosure by making available to the Claimants the unsorted material they hold. But, first, as is inherent in their argument, that only goes to the fairness of the proceedings and, as they correctly point out, the fairness of the trial is not an issue under CPR 24.2. Second, the defences of the Phoenix Defendants are going to be struck out for the reasons set out above. There will then, as the Claimants submit, be no pleaded defence from those three Defendants. The Phoenix Defendants will then be in the same position as a defendant who fails to deal with an allegations made in the Particulars of Claim; pursuant to CPR 16.5 (5), they will be taken to admit them. The qualifications to CPR 16.5(5) do not apply here; on this premise the Defendants have not set out the nature of their case; and this is not a money claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Times New Roman';font-size:12pt">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">That being so, in my judgment, the Claimant are entitled to summary judgment on the 2023 claim against the Phoenix Defendants. Those Defendants have no real prospect of succeeding on their defence given that they are debarred from defending, and there is no other compelling reasons why the case should be disposed of at trial.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Times New Roman';font-size:12pt">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As is the case with other elements of the application, I received little or no submissions as to the order which is appropriate following that decision.  Accordingly, I will invite further submissions, initially in writing, as to the precise terms of the order I should make in the light of the findings I make. However, my present view, in that there are no obvious grounds for debarring the Phoenix Defendants from making submissions on consequential orders, including costs, after judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Times New Roman';font-size:12pt">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In the light of those conclusions there is no need for me to address the alternative submissions in relation to the 2023 action.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The 2020 Action</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Summary judgment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Times New Roman';font-size:12pt">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants contend that the starting point for the application for summary judgment against the Phoenix Defendants in the 2020 action is that all paragraphs of the Re-Re-Amended defence responding to the allegations of fraud in relation to the provenance documentation have been struck out by order of Bright J.  Thereafter they say that the analysis set out and accepted above, as to the application of CPR 16.5, applies here.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Times New Roman';font-size:12pt">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Phoenix Defendants argue that although their defence to the fraud claims were struck out that is not the same as debarring them from defending.  They are prevented from advancing any positive defence to the fraud claims but, they say, the Claimants are still required to prove their claims through evidence and the Phoenix Defendants would be entitled to test that evidence at trial.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Times New Roman';font-size:12pt">87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I agree with the Claimants that insofar as the amended Particulars of Claim advance claims based on fraud, dishonesty and fraudulent misrepresentation (paragraphs 24F, 24G, 25B and 29A-29C), the defences to which have been struck out, the Claimants are entitled to judgment against all the Defendants. The substance of the allegations of fraud are deemed to be admitted.  The analysis set out above as to failure to give proper disclosure applies and the inferences to be drawn from that failure are sufficient to justify judgment on those issues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Times New Roman';font-size:12pt">88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">But as to the remainder of the claims in the 2020 action, the defences stand and the Claimants must prove their case.  I cannot conclude, on the basis of the arguments I have heard to date, that the Defendants have no real prospect of succeeding on their defence on those issues as matters currently stand.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">The Claims against the Fourth Defendant</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Times New Roman';font-size:12pt">89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Permission had been granted to serve the Fourth Defendant, Mr Ansermet, by alternative service in respect of both actions.  He has failed to respond; he has served neither an Acknowledgment of Service nor a defence.  He has been debarred from defending both the actions by the order of Bright J on 8 October 2024. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Times New Roman';font-size:12pt">90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants submit that he has no real prospect of defending either claim. They argue that he has failed to provide any documentation, other than a 2011 invoice which the Claimant&#8217;s claim is a forgery, which evidences his purchase, ownership or possession of the Nike between 1982 and the alleged sale to Tanis, the payment from the Phoenix Defendants and/or from Tanis to him in 2011, the alleged storage of the Nike before it was sold or any communication between him and the Phoenix Defendants relating to the alleged sale of the Nike from him to Tanis. In the absence of any response from the Fourth Defendant, and in the face of these assertions, say the Claimants, it is a proper inference to draw that the Nike was never in fact owned by the Fourth Defendant and that no legitimate transaction took place.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Times New Roman';font-size:12pt">91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I agree with the Claimants that in order for the Fourth Defendant successfully to defend the claims in both actions he would need to engage with the proceedings or alternatively to challenge the jurisdiction of the court.  He would need to provide a statement of case setting out his defence and provide standard disclosure. He has done none of these things. The Fourth Defendant instructed counsel to conduct some correspondence on his behalf shortly before the hearing before Butcher J; that demonstrates that he was aware of the proceedings and is capable of instructing English lawyers. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Times New Roman';font-size:12pt">92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Against that background, I see no prospect of the Fourth Defendant succeeding on his defence and I award summary judgment against him.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">The ASI Claim</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Times New Roman';font-size:12pt">93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The background to the ASI claim is set out at [29] &#8211; [31] above.  The claim is for an injunction against the prosecution of proceedings by which the same issues as are raised in the present English proceedings are litigated in the Courts of New York, and damages for breach of the SPA, &#8220;such damages to be the subject of an inquiry&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Times New Roman';font-size:12pt">94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimants point out that the Phoenix Defendants have pleaded no defence to the ASI claim and that Butcher J concluded in his judgment of 4 June 2024 that there is a &#8220;high degree of probability&#8221; that the subject-matter of the New York proceedings was covered by an exclusive jurisdiction clause: see [2024] EWHC 1331 (KB) at [75]. They argue that if the Defendants were to plead a response, it is hard to see how they could have a reasonable prospect of defending the claim. They say that a permanent injunction will be necessary not only to ensure the Claimants have the benefit of the jurisdiction clause on which Butcher J&#8217;s decision rested, but also to protect the integrity of judgments entered in their favour by the English court.  They say that the damages claimed consist entirely of US attorneys&#8217; fees, which are a matter of record. There can be no substantive basis for saying that the fees were not incurred, and no reason to incur them other than to defend the claim which the Phoenix Defendants brought in breach of an exclusive jurisdiction clause.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Times New Roman';font-size:12pt">95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In response, the Phoenix Defendants point out that the New York proceedings have been discontinued.  They say that permanent injunctive relief was not sought by the Claimants and argue that, in any event, there is now no requirement for permanent injunctive relief.  I reject those latter contentions.  An injunction was claimed in paragraph S8 of the Schedule, which was incorporated by reference into the amended particulars of claim in both actions. In my judgment, injunctive relief is necessary, as the Claimant contends, to protect the integrity of the judgments that will be entered as a result of this judgment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Times New Roman';font-size:12pt">96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">However, the SPAs were made between the First Claimant and the First and Fifth Defendants.  That being so it is only the First Claimant who can claim the benefit of the ASI and the only possible defendants are the First and Fifth Defendants.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Times New Roman';font-size:12pt">97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Phoenix Defendants contend that summary judgment on the claim under the Jurisdiction Agreement ought to be refused, there being a defence with at least real prospects of success.  I reject that argument. For the reasons given by Butcher J, the subject-matter of the New York proceedings was covered by an exclusive jurisdiction clause and the Defendants have pleaded no defence in response.  I see no defence with any real prospects of success.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Times New Roman';font-size:12pt">98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was an argument towards the very end of the hearing before me as to the proper approach to the calculation of damages.  I am not at present in a position to resolve that issue.  Accordingly, I will invite further submissions on that issue.  For the present it is sufficient if I direct that there be judgment for the First Claimant against the First and Fifth Defendants on the ASI claim, the relief being the injunction sought and damages representing the First Claimant&#8217;s reasonable costs, assessed on an indemnity basis.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Times New Roman';font-size:12pt">99.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">For the reason set out above, I make the following order in respect of the 2023 action: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1.58in;text-indent:-0.69in">(i)</num>
+	    <content>
+	      <p class="ParaLevel6" style="margin-left:1.58in"><span style="font-family:'Times New Roman';font-size:12pt">An order debarring the First, Second and Third Defendants from defending the 2023 proceedings and striking out their defences. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1.58in;text-indent:-0.69in">(ii)</num>
+	    <content>
+	      <p class="ParaLevel6" style="margin-left:1.58in"><span style="font-family:'Times New Roman';font-size:12pt">Summary judgment against the First, Second, Third and Fourth Defendants, pursuant to CPR 24.3</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Times New Roman';font-size:12pt">100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In respect of the 2020 action, pursuant to CPR 24.3 I give summary judgment against the First, Second, Third and Fourth Defendants as regards the claims based on fraud, dishonesty and fraudulent misrepresentation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Times New Roman';font-size:12pt">101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to the ASI, I give summary judgment for the First Claimant against the First and Fifth Defendants, the relief being the injunction sought and damages representing the First Claimant&#8217;s reasonable costs, assessed on an indemnity basis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Times New Roman';font-size:12pt">102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I invite further submissions on the appropriate terms of the order.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

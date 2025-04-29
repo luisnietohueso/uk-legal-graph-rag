@@ -1,0 +1,789 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/185"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/185"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="185"/>
+	  <FRBRname value="Nicole Moustache v Chelsea and Westminster Hospital NHS Foundation Trust"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/185"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/185"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/185/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/185/data.xml"/>
+	  <FRBRdate date="2025-03-07T12:58:57" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="nicole-moustache" href="" showAs="NICOLE MOUSTACHE"/>
+	<TLCPerson eId="chelsea-and-westminster-hospital-nhs-foundation-trust" href="" showAs="CHELSEA AND WESTMINSTER HOSPITAL NHS FOUNDATION TRUST"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-justice-dingemans" href="/judge-lord-justice-dingemans" showAs="LORD JUSTICE DINGEMANS"/>
+	<TLCPerson eId="judge-lord-justice-warby" href="/judge-lord-justice-warby" showAs="LORD JUSTICE WARBY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>185</uk:number>
+	<uk:cite>[2025] EWCA Civ 185</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>dd0f4cc9d3184d18c3293a5c142b2dbd46dca52318aff62f8dcb8b155a4995a2</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-style: italic; font-weight: bold; font-family: 'Calibri Light'; font-size: 14pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Aptos; font-size: 11pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .Heading2Char { font-style: italic; font-weight: bold; font-family: 'Calibri Light'; font-size: 14pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 185</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023001303</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE EMPLOYMENT APPEAL TRIBUNAL</p>
+      <p class="CoverMain">Her Honour Judge Katherine Tucker</p>
+      <p class="CoverMain"><neutralCitation>[2022] EAT 204</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-02-27" refersTo="#judgment">27/02/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-dingemans">LORD JUSTICE DINGEMANS</judge></p>
+      <p class="CoverMain" style="text-align:center">LADY JUSTICE ELISABETH LAING <br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-warby">LORD JUSTICE WARBY</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#nicole-moustache" as="#respondent" style="font-weight:bold">NICOLE MOUSTACHE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#chelsea-and-westminster-hospital-nhs-foundation-trust" as="#appellant" style="font-weight:bold">CHELSEA AND WESTMINSTER HOSPITAL NHS FOUNDATION TRUST</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant"><span style="text-decoration-line:none">    </span>Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Nadia Motraghi KC and Jack Mitchell</span> (instructed by <span style="font-weight:bold">Capsticks LLP</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Karon Monaghan KC and Robin Pickard </span>(instructed by<span style="font-weight:bold"> We Are Advocate Org</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 28 January 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 27 February 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LORD JUSTICE WARBY :</span></p>
+	    <p><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this employment case the parties agreed a written list of the issues for resolution at the final hearing of the employee&#8217;s claims. The Employment Tribunal (ET) addressed and decided those issues. It dismissed all the listed claims.  The Employment Appeal Tribunal (EAT) held that the ET should have identified and determined a further claim which was not on the agreed list. The employer now appeals.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The main issues on the appeal are the circumstances in which the ET comes under a duty to identify and determine a claim which is not in an agreed list of issues, and whether the EAT was wrong to conclude that the ET had failed to discharge that duty in the present case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I set out and explain below my conclusions as to the circumstances in which a tribunal comes under such a duty. In the light of those conclusions, and for the further reasons given below, I have concluded that the appeal should be allowed. In summary, the agreed list of issues included all the claims that, on an objective analysis, the employee had put forward in her statements of case. The ET was entitled to proceed on the basis that there was no other claim for it to consider. There was nothing in the employee&#8217;s statements of case nor was there any other circumstance that placed it under a duty to do otherwise. There was therefore no breach of duty. The EAT&#8217;s decision should be set aside and the ET&#8217;s final order should be reinstated. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The employment relationship</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employee, Nicole Moustache, began working for the NHS in 1991. From 2001 to 2019 she worked for the appellant employer, an NHS Foundation Trust. Initially, she was a senior administrator. Following hip replacement operations in 2012 and 2015 she suffered from a physical disability within the meaning of section 6 of the Equality Act 2010. There were consequent changes to her job functions. In 2017, the employee lodged grievances about the way she had been treated by her line manager. At a facilitation meeting in August 2017 the grievances were resolved on the basis that certain specified actions would be taken. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In April 2018, the employee raised fresh grievances about the handling of her 2017 grievance and two other matters. In May 2018 she began a period of absence from work which was to continue until her dismissal some 13 months later. On 31 July 2018 the employer decided not to uphold the 2018 grievances.  On 6 November 2018 the employee&#8217;s appeal against that decision was rejected. On 10 December 2018, she filed an ET1 claim form with the ET (the First Claim).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In January 2019, the employer sought advice from its Occupational Health department (OH). OH reported that the employee might be fit to return to work with some support but that she had decided that she would not return whatever adjustments were put in place. Absence review meetings with the employee followed on 1 March and 31 May 2019.  On 13 June 2019, the employer dismissed her on grounds of capability. On 16 June 2019 the employee stated to the employer by email that she would not be appealing the decision to dismiss her. On 1 September 2019 the employee filed a further ET1 claim form (the Second Claim).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The ET proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the ET proceedings the employee was self-represented with some assistance from her daughter and the West London Equality Centre (WLEC). She completed the ET1 claim forms herself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Form ET1 is designed to be completed by someone who lacks legal training. Section 8 is headed &#8220;Type and details of claim&#8221;. Section 8.1 asks the claimant to &#8220;please indicate the type of claim you are making by ticking one or more of the boxes below&#8221;. Section 8.2 asks the claimant to &#8220;please set out the background and details of your claim in the space below&#8221;. This is a free-text box. Section 9 of the form asks &#8220;What do you want if your claim is successful?&#8221;.  Section 9.1 is a tick-box section which asks the claimant to &#8220;say what you want if your claim is successful&#8221;. Four options are offered. The first two involve getting  a job (&#8220;your old job back &#8230; (reinstatement)&#8221; or &#8220;another job with the same employer or associated employer &#8230;(re-engagement)&#8221;) and compensation. The third is &#8220;compensation only&#8221; and the fourth is &#8220;if claiming discrimination, a recommendation&#8221;. Section 9.2 is a free text box which asks a claimant who is claiming financial compensation to give details.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her ET1 in the First Claim the employee ticked the boxes in section 8.1 to make a claim that &#8220;I was discriminated against on the grounds of ... age [and] disability&#8221;. She also ticked the box to state &#8220;I am making another type of claim which the Employment Tribunal can deal with&#8221;, identifying &#8220;bullying, harassment and victimization&#8221;. In section 8.2 the employee gave a narrative of events between June 2017 and 12 October 2018 which focused on her grievances and the way they were dealt with by the employer. She mentioned a panic attack and being signed off sick with work-related stress for 2 weeks in 2017. But it was not clear on what grounds she was claiming discrimination nor what disability she was alleging. In section 9 of the form the employee, still in the respondent&#8217;s employment at the time, ticked the boxes to claim compensation only and a recommendation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employer&#8217;s response and Grounds of Resistance maintained that any complaints about events before 10 August 2018 were out of time and denied all the claims. It sought Further and Better Particulars (FBPs) of the allegations of discrimination. One of the questions was what &#8220;physical and/or mental conditions&#8221; were relied on as a disability within the meaning of section 6 of the Equality Act 2010 (EqA). FBPs were ordered and provided by the employee. These stated that she &#8220;had a second hip replacement in March 2015 and I had difficulty walking unaided. I often had to use a stick. The [employer] was aware of my disability. I believe I am disabled in terms of the [EqA]&#8221;. She went on to detail ways in which this physical disability had affected her work and, on her account, led to adverse treatment by the employer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A case management hearing in the First Claim was fixed before Employment Judge Balogun (the EJ) on 18 June 2019. On 6 June 2019 the employer&#8217;s solicitors sent the employee a draft list of issues and asked her to confirm various matters &#8220;in order for the [employer] and Tribunal to understand the nature of your claims&#8221;. On 13 June 2019 the employee asked for more time as she was &#8220;still awaiting some professional advice on the Draft List of Issues&#8221;. At the case management hearing the EJ directed the employer to &#8220;update the draft list of issues&#8221; and to send a copy to the employee. That was done on 24 June 2019. The draft identified the issue as to the employee&#8217;s &#8220;disability status&#8221; in these terms: &#8220;was [the employee] a disabled person within the meaning of section 6 [EqA] by reason of a mobility issue?&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In section 8.1 of her ET1 in the Second Claim, filed on 1 September 2019, the employee ticked the box to record that she was making a claim for being &#8220;unfairly dismissed (including constructive dismissal)&#8221;. She did not tick any of the boxes to make a discrimination claim nor any other box in that section. In section 8.2 she recorded her dismissal and stated, &#8220;I believe I was unfairly dismissed from my employment due to having been on long term sickness since May 2018.&#8221; The narrative that followed stated that the employee had been dismissed when &#8220;still signed off sick with work related stress&#8221;. It went on to state that her employment had been terminated &#8220;on the grounds of capability due to ill health&#8221;. She did not believe this was a &#8220;satisfactory reason in this case&#8221;. She said &#8220;I would have been capable of doing my job&#8221; but had repeatedly been told that if she returned to work she &#8220;would be placed under the management of the same line manager&#8221; against whom she had filed grievances. She was suffering with worsened anxiety at the thought of doing this. Section 8.2 concluded by bringing to the ET&#8217;s attention the employee&#8217;s &#8220;ongoing Age and Disability Discrimination Case against the same employer&#8221; under a different reference number.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employer&#8217;s response and Grounds of Resistance addressed the claim for unfair dismissal by asserting that the dismissal was on the grounds of capability, a potentially fair reason; that the procedure adopted was fair and reasonable; and that the decision was reasonable in all the circumstances. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By case management directions of 4 June 2020 the EJ consolidated the First and Second Claims and set dates for exchange of witness statements and a final hearing in October 2020. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In September 2020, after exchange of witness statements, the employer&#8217;s solicitors sent the employee for review and agreement a document entitled &#8220;LIST OF ISSUES AS REVISED &#8230; FOLLOWING RECEIPT OF CLAIM 2/CONSOLIDATION OF CLAIMS&#8221;. This was a version of the document dated 24 June 2019 which had been amended (in track changes) to reflect subsequent developments. The final draft recorded the employer&#8217;s admission that the employee had the disability alleged in the First Claim and included &#8220;the legal questions for the Tribunal to determine in the unfair dismissal claim&#8221;. These were the three issues that had been raised by the employer.  On 1 October 2020 the employee replied by email &#8220;to confirm that I accept the final list of issues which you have updated&#8221;. The solicitors sent the list to the ET the following day.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is unnecessary to set out the full text of the final agreed list of issues. It is enough to note the following. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The listed discrimination issues were whether the employer had &#8220;treated the [employee] less favourably because of her disability and/or age&#8221; in any of seven ways that had been identified by the employee in Further and Better Particulars of her claim dated 30 April 2018. The seven matters were then listed under sub paragraphs (a) to (g). They all related to conduct on and between 3 May 2017 and 12 October 2018. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The jurisdiction issue was whether any and if so which of the discrimination claims were out of time. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The unfair dismissal section identified three issues namely &#8220;11. Did the [employer] have a potentially fair reason for dismissing the [employee] &#8230;?&#8221;, &#8220;12. Did the [employer] act reasonably in treating that as a sufficient reason for dismissing the [employee], taking into account&#8221; the employer&#8217;s circumstances &#8220;and the equity and substantive merits of the case&#8221;? and &#8220;13. Did the [employer] follow a fair procedure in dismissing the [employee]?&#8221; These of course are the conventional questions in an unfair dismissal claim.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The final hearing of the claims took place before the EJ and two lay panel members on 6 to 9 October 2020. The hearing was remote due to the Covid pandemic. The employee represented herself with help from her daughter. The employer was represented by a solicitor.  At the start of the hearing there was some discussion about the List of Issues. The bundle contained a copy of the original version from June 2019. The EJ referred to that list and asked the parties whether anything had changed. The employer&#8217;s advocate told the Tribunal about the agreed updated and revised List of Issues and provided copies. The hearing was then suspended for the panel members to read the papers before hearing the employee&#8217;s evidence. The ET heard three days of evidence and argument, took one day for deliberation, and reserved its decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET&#8217;s reserved decision dated 6 January 2021 was sent to the parties on 22 February 2021. The decision was that &#8220;all claims fail and are dismissed&#8221;. The accompanying Reasons began by identifying the complaints advanced in the two claim forms as &#8220;disability discrimination, age discrimination and unfair dismissal&#8221;. Paragraph [3] identified the issues to be determined as those &#8220;contained in an updated List of Issues document&#8221; and stated that they were &#8220;referred to more specifically in our conclusions&#8221;. Paragraphs [4] to [13] of the Reasons set out the law and the burden of proof. Paragraphs [14] to [53] set out the ET&#8217;s findings of fact. Paragraph [54] referred to the parties&#8217; closing submissions. The final section of the Reasons was headed &#8220;Conclusions&#8221;.  Paragraph [55] stated that the ET had &#8220;reached the following conclusions on the agreed issues&#8221;. These were, in summary, that the disability discrimination claims failed because five of them were out of time and none of them were made out on the evidence; and the unfair dismissal claim failed because the employer acted reasonably in dismissing the employee.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Addressing the claim for unfair dismissal the ET found that the employer had consulted the employee. At four absence review meetings it had enquired as to the reasons for her continued absence and sought her views on the likelihood of return and any reasonable adjustments which might exist. She had indicated that she was unfit to resume work in any capacity and that this would not be altered by any adjustments the employer could make. By referring the employee to OH the employer had taken appropriate steps to establish the medical position. It had asked appropriate and relevant questions as to whether the point of dismissal had been reached. By the date of the final review meeting the employee had been absent for 13 months with no foreseeable return date. The need to cover her work in her absence had caused pressure on the running of the service and an additional cost burden. In the light of all these findings the dismissal was in all the circumstances fair. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The EAT appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employee obtained professional representation via the Free Representation Unit. After a Rule 3(10) hearing the employee was permitted to pursue an appeal to the EAT on the grounds that the ET had erred in law by (1) &#8220;failing to identify and determine [the employee&#8217;s] claim of disability discrimination arising out of her dismissal and/or failed to give adequate reasons for dismissing this complaint&#8221;; (2) &#8220;failing to have regard or adequate regard to [the employee&#8217;s] claim of disability discrimination (mental impairment) in determining whether her dismissal was fair or unfair.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the appeal hearing before HHJ Katherine Tucker (the judge) on 22 November 2022, The Appellant was represented by Counsel and the Respondent was represented by a FRU representative (Mr Pickard).  It was submitted on behalf of the employer that the authorities established the following principles (among others) in respect of cases in which a list of issues is agreed: (i) as a general rule, the issues at the substantive hearing will be limited to those in the list; (ii) it is difficult to see how that could ever be the proper subject of an appeal on a question of law; (iii) at the start of a substantive hearing at which any party is unrepresented the tribunal should consider whether the list properly reflects the significant issues in dispute and if not consider whether an amendment is necessary in the interests of justice. It was submitted that the ET could not be criticised in the present case as the employee had agreed the list of issues without having set out any claim of disability discrimination arising out of dismissal and had only sought to widen her claim later. It was further submitted that if the point had been raised at the final hearing it would not have been appropriate to allow an amendment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 15 June 2023 the judge handed down judgment allowing the appeal and directing that the case be remitted for re-hearing in the ET.  The Summary at the start of the judgment encapsulates the main points.</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Claimant, who represented herself, contended that the Tribunal had failed to adjudicate upon a claim of disability discrimination contrary to s.15 of the EqA 2010. That claim was not identified in the List of Issues which she had agreed to shortly before the hearing of her consolidated claims. That document was not considered by the Tribunal before the final hearing took place by remote means.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The claim should have been evident to both the Respondent and the Tribunal from the information supplied by the Claimant. Appeal allowed. Observations about the use of Lists of Issues and Remote Hearings.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The narrative section of the substantive judgment recorded at [12] the content of Section 8.2 of the ET1 in the Second Claim and summarised the sequence of events leading to the agreed list of issues.  At [14] the judge recorded and accepted a submission in the skeleton argument for the employee, that she had received &#8220;ad hoc assistance&#8221; from the WLEC but was unrepresented at all material times and did not have legal assistance in respect of the drafting of the ET1, preparing the agreed list of issues, or preparing and presenting her legal submissions. At [19] the judge noted that the agreed list of issues &#8220;did not include ... reference to a mental impairment or any claim under s 15 of the EqA 2010 regarding dismissal&#8221; and said that &#8220;[n]o one raised or queried anything about the content of the [employee&#8217;s] claim form at paragraph 8.2 of the Second Claim ...&#8221; At [20] the judge referred to the employee&#8217;s witness statement. She found that the employee had &#8220;stated that the deterioration in her mental health amounted to a disability&#8221; and that &#8220;the relevance of this was not queried or clarified with the [employee].&#8221;  At [22] the judge noted that the EJ had initiated a discussion about the list of issues at the start of the hearing but observed that it was &#8220;not clear that there was any discussion about the passages in paragraph 8.2 of the Second Claim form, or the relevance of the passage ... in the [employee&#8217;s] witness statement.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At [24]-[31] the judge identified the relevant legal framework. She began by citing rule 2 (overriding objective) and rule 29 (case management) of Schedule 1 to the <span style="font-style:italic">Employment Tribunal (Constitution and Rules of Procedure) Regulations</span> 2013 (the ET Rules) and section 15 of the EqA (disability discrimination). She then cited from three cases concerning the use of a list of issues: <span style="font-style:italic">Parekh v Brent London Borough Council</span><span style="font-weight:bold"> </span>[2012] EWCA Civ 1630 [31] (Mummery LJ); <span style="font-style:italic">McLeary v One Housing Group Ltd </span>UKEAT/0124/18 (HHJ Auerbach) [88]; and <span style="font-style:italic">Mervyn v BW Controls Ltd</span> [2020] EWCA Civ 393, [2020] ICR 1364 [15], [38], [42]-[45] (Bean LJ).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At [32]-[40] the judge set out her analysis and conclusions. She observed that judges in the ET are used to self-represented parties who are not generally expected &#8220;to label their cases with the correct legal language&#8221;. She held that the correct approach is &#8220;undoubtedly&#8221; for the judge to &#8220;identify the issues which the tribunal will be required to consider and determine&#8221; by asking litigants to explain the substance and factual basis of their claim and &#8220;through discussion, clarification, and a clear and straightforward explanation of the different, relevant legal concepts.&#8221; A list of issues was not a pleading but a case management tool. Such a document could be &#8220;exceptionally useful&#8221; but judges should not allow &#8220;slavish adherence&#8221; to a list of issues to &#8220;preclude a fair and just trial of the real issues in the case&#8221;. Judges should also be &#8220;astute to ensure that advantage is not unfairly afforded to one party through their use.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge declined to endorse the employer&#8217;s submissions as to the principles established by the authorities. She accepted that these &#8220;<span style="font-style:italic">may </span>be relevant where both parties are legally represented and the proposed list of issues has been prepared and agreed by those representatives&#8221;. She did not however consider it would be helpful to endorse the employer&#8217;s submissions as it &#8220;runs the risk of encouraging the development of a culture that lists of issues are akin to a pleading&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge&#8217;s central conclusions on the facts of the present case were set out at [35]-[40]. She said that &#8220;standing back, it was or should have been clear to the Tribunal, and to the Respondent, that the Claimant was seeking to assert that there was a connection between a potential disability (stress and mental health problems), the impact of those conditions upon her, and her dismissal&#8221;. The judge referred to passages in section 8.2 of the ET1 form and went on: &#8220;I also consider that this issue of discrimination became increasingly obvious in the Claimant&#8217;s witness statement (dated July 2020) in which she stated that the deterioration in her mental health amounted to a disability.&#8221; She continued, &#8220;Those details should, in my judgment, have given the Tribunal and Respondent, an obvious indication that the dismissal concerned an asserted disability and so may have been discriminatory.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge observed that there had been no consideration of the draft List of Issues by the Tribunal between the consolidation of the claims and the final hearing. She said, &#8220;it may have been appropriate, on the facts of this case, for the Respondent to have alerted the tribunal to the possibility of this claim ...&#8221;. In any event &#8220;what was required&#8221; was for the Tribunal to revisit the list of issues at the outset of the hearing and achieve &#8220;clarification of what was set out in the documents provided by the claimant.&#8221; If that had been done &#8220;significant time and expense could have been saved.&#8221; Further, the judge referred to a passage in the employee&#8217;s closing submissions and held that &#8220;the issue should have been raised then, if not before&#8221;. The judge added that the hearing had been entirely remote, which &#8220;impacts upon communication between the parties and the Tribunal and may have done in this case&#8221;. In conclusion, the judge said that the employee had &#8220;set out sufficient information to have alerted the Tribunal to her claim that her dismissal was an act of unlawful discrimination&#8221;. The failure to clarify the position was an error.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The appeal to this Court</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This appeal is brought by permission of Elisabeth Laing LJ on four grounds. It is alleged that the EAT erred in: (a) the way it received important evidence on an issue of fact, namely what legal advice the employee had received; (b) substituting its own judgment as to the issues to be determined when no such application to amend or vary that list was made to the ET; (c) applying the wrong test; and (d) going behind an agreed list of issues, regarding a claim that did not include a claim of disability discrimination dismissal, determining that this claim should have been determined, contrary to that agreed list and the representations (or absence of them) of the parties at trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The EAT&#8217;s jurisdiction is limited to reviewing decisions of the ET for legal error. Accordingly, the first step must be to identify the nature and scope of the ET&#8217;s duty to identify and determine issues in the proceedings, where the parties have agreed a list of issues.  It will then be possible to consider whether the EAT was correct to find an error of law in this case, or whether the judge erred by applying the wrong test (ground (c)) overstepping the boundaries of its appellate competence (grounds (b) and (d)) or taking account of inadmissible matters (ground (a)).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In considering these issues we have had the advantage of argument from Leading Counsel on both sides &#8211; Ms Motraghi KC and Ms Monaghan KC  &#8211; and more extensive citation of authority than the EAT enjoyed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The first issue: what is the nature and scope of the ET&#8217;s duty to identify and determine issues in the proceedings, where the parties have agreed a list of issues?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I think it helpful to approach this question with four general points in mind.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">First, proceedings in the ET are adversarial.  The range of claims that may be brought and the range of substantive or procedural answers that may be raised to those claims are defined by law, principally by statute. In any given case the primary onus lies on the parties to identify, within those ranges, which claims they wish to bring and which answers they wish to advance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Secondly, the issues raised by the parties are those which emerge clearly from an objective analysis of their statements of case. Identification of the issues does not involve reference to other documents which do not have the status of pleadings and come later. Nor should the process be a complex or difficult one. As Eady, P said in <span style="font-style:italic">X v Y</span> [2024] EAT 63 [49] &#8220;That pleadings matter, including in Employment Tribunals, is not a novel or controversial point&#8221;.  The EJ should not be expected to analyse a party&#8217;s case by reference to documents which come after the pleadings and do not have the same status, such as a witness statement, or by reference to submissions. As Langstaff, P explained in <span style="font-style:italic">Chandhok v Tirkey </span>UKEAT/190/14<span style="font-style:italic"> </span>[2015] ICR 527 [16]-[17]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">... such an approach too easily forgets why there is a formal claim, which must be set out in an ET1. The claim, as set out in the ET1, is not something just to set the ball rolling, as an initial document necessary to comply with time limits but which is otherwise free to be augmented by whatever the parties choose to add or subtract merely on their say so. Instead, it serves not only a useful but a necessary function. It sets out the essential case. It is that to which a respondent is required to respond. A respondent is not required to answer a witness statement, nor a document, but the claims made - meaning, under the [ET Rules], the claim as set out in the ET1.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">... the starting point is that the parties must set out the essence of their respective cases on paper in respectively the ET1 and the answer to it. If it were not so, then there would be no obvious principle by which reference to any further document (witness statement, or the like) could be restricted. ... Such an approach defeats the purpose of permitting or denying amendments; it allows issues to be based on shifting sands; it ultimately denies that which clear-headed justice most needs, which is focus. It is an enemy of identifying, and in the light of the identification resolving, the central issues in dispute.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Of course, the contents of a statement of case must be analysed in their proper context but this does not require the ET to engage in an elaborate or complex interpretative exercise. I would adopt the words of Elisabeth Laing J (as she then was) in <span style="font-style:italic">Adebowale v ISBAN UK Ltd </span>UKEAT/0068/15 at [16]: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">... the construction of an ET1 is influenced by two factors: the readers for whom the ET1 is produced, and whether the drafter is legally qualified or not. The ET1, whether it is drafted by a legal representative, or by a lay person, must be readily understood, at its first reading, by the other party to the proceedings (who may or may not be legally represented) and by the EJ. The EJ is, of course, an expert but ... should not be burdened by, or expected by the parties to engage in, a disproportionately complex exercise of interpretation ...</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thirdly, where a party seeks the ET&#8217;s ruling on an issue that emerges from an objective analysis of the statements of case (and falls within its jurisdiction) the ET has a duty to address that issue.  This is the core function of the tribunal. That does not mean that the ET has to resolve every issue that is raised in a case.  Sometimes a party will not press all the claims that have been pleaded; the ET is not obliged to address those which are raised but later abandoned: see <span style="font-style:italic">Mensah v East Hertfordshire NHS Trust </span>[1998] IRLR 531. And the ET needs only decide enough to reach a conclusion on the claims that have been pressed.  Subject to these points, however, I would accept the broad submission of Ms Monaghan KC, that the ET does not have a discretion not to consider and determine a claim that has been brought before it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Fourthly, however, the ET&#8217;s role is arbitral not inquisitorial or investigative. It must perform its functions impartially, fairly and justly, in accordance with the overriding objective, the law, and the evidence in the case. It may consider it appropriate to explore the scope of a party&#8217;s case by way of clarification. That may, in particular, be considered appropriate in the case of an unrepresented party.  Whether to do so is however a matter of judgment and discretion which will rarely qualify as an error of law such that the EAT can interfere. The ET has no general duty to take pro-active steps to prompt some expansion or modification of the case advanced by a party where that might be to their advantage. These propositions emerge clearly from a series of decisions of this court and the EAT.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">We have been referred to the decisions of this court in <span style="font-style:italic">Mensah </span>(above) at [28] and [36] and <span style="font-style:italic">Muschett v HM Prison Service </span>[2010] EWCA Civ 25, [2010] IRLR 451 [31].  I do not consider it necessary to review those two cases in further detail. That was done in <span style="font-style:italic">Drysdale v Department of Transport </span>[2014] EWCA Civ 1083, [2014] IRLR 892 where the court subjected the relevant authorities to a detailed analysis from which Barling J (with whom Arden and Christopher Clarke LJJ agreed) derived the following general principles:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">It is a long-established and obviously desirable practice of courts generally, and employment tribunals in particular, that they will provide such assistance to litigants as may be appropriate in the formulation and presentation of their case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in"><span style="color:#000000">What level of </span>assistance<span style="color:#000000"> or intervention is &#8220;appropriate&#8221; depends upon the circumstances of each particular case.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in"><span style="color:#000000">Such circumstances are </span>too<span style="color:#000000"> numerous to list exhaustively, but are likely to include: whether the litigant is representing himself or is represented; if represented, whether the representative is legally qualified or not; and in any case, the apparent level of </span>competence<span style="color:#000000"> and understanding of the litigant and/or his representative.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in"><span style="color:#000000">The appropriate level of assistance or intervention is constrained by the overriding requirement that </span>the<span style="color:#000000"> tribunal must at all times be, and be </span>seen<span style="color:#000000"> to be, impartial as between the parties, and that injustice to either side must be avoided.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">The determination of the appropriate level of assistance or intervention is properly a matter for the judgment of the tribunal hearing the case, and the creation of rigid obligations or rules of law in this regard is to be avoided, as much will depend on the tribunal&#8217;s assessment and &#8220;feel&#8221; for what is fair in all the circumstances of the specific case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.12in">There is, therefore, a wide margin of appreciation available to a tribunal in assessing such matters, and an appeal court will not normally interfere with the tribunal&#8217;s exercise of its judgment in the absence of an act or omission on the part of the tribunal which no reasonable tribunal, properly directing itself on the basis of the overriding objective, would have  done/omitted to do, and which amounts to unfair treatment of a litigant.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The following analysis seems to me correct in principle and consistent with the case law. The starting point is to consider what claims emerge from an objective analysis of the statements of case. A failure by the tribunal to identify and address those claims is liable to amount to a breach of its core duty and hence an error of law. A failure to identify and determine a claim that does not emerge from such an analysis can amount to an error of law but only in rare or exceptional circumstances of the kind outlined in <span style="font-style:italic">Drysdale</span>.   It is in this overall context that the role of an agreed list of issues falls for consideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A list of issues is not a pleading but a case management tool. The main purpose of such a document is to summarise the existing pleadings not to amend them. On the other hand, as <span style="font-style:italic">Mensah </span>shows, a party may conduct itself in such a way as to lose the right to have the ET decide a pleaded issue, thereby reducing the scope of the tribunal&#8217;s corresponding duty. An agreed list of issues is one way in which that could in principle be done. Such a list is, after all, an express agreement that the tribunal should conduct the proceedings in a particular way, and an invitation to the tribunal to do so.  A tribunal will usually be entitled to confine its attention to the issues on the list. By way of exception, however, it may be necessary in the interests of justice to depart from even an agreed list. There are at least two distinct categories of situation in which that may be so. The first is where a pleaded claim has been omitted from the list in circumstances that do not amount to abandonment of the claim. The second is where the claim has not been pleaded but the fundamental duty of fairness makes it necessary (that is to say, essential) that it should be raised and considered. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Parekh v Brent London Borough Council</span> [2012] EWCA Civ 1630 the employee, who had represented himself before the ET, complained that one issue had been omitted from a list of issues arrived at through discussion at the Pre-Hearing Review and recorded in the judge&#8217;s written reasons for the directions he then gave. The Court of Appeal dismissed the appeal on the basis that it was not a challenge to the tribunal&#8217;s order but to its reasons and there was no error of law. Mummery LJ explained:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>31.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">A list of issues is a useful case management tool developed by the tribunal to bring some semblance of order, structure and clarity to proceedings in which the requirements of formal pleadings are minimal. The list is usually the agreed outcome of discussions between the parties or their representatives and the employment judge. If the list of issues is agreed, then that will as a general rule limit the issues at the substantive hearing to those in the list.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>32.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">&#8230; if a list of issues is agreed, it is difficult to see how it could ever be the proper subject of an appeal on a question of law&#8230;. </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the other hand, as Mummery LJ observed at [31]:-</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">As the ET that conducts the hearing is bound to ensure that the case is clearly and efficiently presented, it is not required to stick slavishly to the list (&#8230;) of issues where to do so would impair the discharge of its core duty to hear and determine the case in accordance with the law and the evidence. &#8230; case management decisions are not final decisions. They can therefore be revisited and reconsidered, for example if there is a material change of circumstances. The power to do that may not be often exercised, but it is a necessary power in the interests of effectiveness.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">McLeary v One Housing Group Ltd </span>UKEAT/0124/18 the EAT held that the ET had erred in law by overlooking a claim that discrimination during employment had contributed to the employee&#8217;s constructive dismissal. At [63] HHJ Auerbach identified as his starting point the question of &#8220;whether the claim form, read or not with other relevant documents, should have been treated as advancing a claim of constructive dismissal pursuant to section 39 EqA.&#8221;  He found that although such a claim was not expressly identified it was &#8220;plainly being asserted&#8221; and &#8220;shouted out&#8221; from the particulars of claim which &#8220;should have been treated as including&#8221; such a claim.  In my view the ratio decidendi of the case is that on an objective reading of the statements of case in their proper context the employee was claiming that her constructive dismissal flowed from acts of discrimination. The judge did say, further and alternatively, that the issue &#8220;should at least have been raised and clarified by the tribunal at the initial case management hearing&#8221;.  In reaching that conclusion the judge referred to <span style="font-style:italic">Drysdale</span> and made clear that he regarded his conclusions as consistent with the principles there identified. I therefore read this alternative ground of decision as a finding that if (contrary to the judge&#8217;s primary conclusion) the discrimination claim was not clearly pleaded then, on the facts of the case, the claim was so obvious that it was perverse of the tribunal not to identify it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Scicluna v Zippy Stitch Ltd </span>[2020] EWCA Civ 1320, both parties retained professional advocates in the ET. They agreed a list of issues and provided it to the employment judge on the morning of the hearing. The judge decided the issues in the list.  The Court of Appeal concluded that the appellant employer had no basis for complaining that the ET had erred in law by failing to determine additional issues. Longmore LJ referred to a list of issues as &#8220; [14] the road map by which the judge is to navigate his or her way to a just determination of the case&#8221;. He held that the employment judge had been &#8220; [17] entitled to proceed on the basis that the only issue in relation to the claim for unauthorised deduction from wages and breach of contract was whether there was an agreement that the claimant be paid a salary&#8221;. She decided that issue. She made no error in not addressing other grounds for concluding that there was no valid contract claim. &#8220;[22] These issues were never said to be issues which the judge needed to decide.&#8221;  Underhill LJ, agreeing, said that &#8220;There may be exceptional cases where it may be legitimate for a tribunal not to be bound by the precise terms of an agreed list of issues but this is not one of them.&#8221; Peter Jackson LJ agreed with both judgments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Mervyn v BW Controls Ltd </span>UKEAT/0140/18 the employee&#8217;s pleaded claim was that &#8220;I was unfairly dismissed (including constructive dismissal)&#8221;. The particulars contained indications of a constructive dismissal claim, including the following &#8220;I was forced to leave my workplace due [to] the build up of stress making me ill.&#8221; The employer&#8217;s ET3 response was that the employee had resigned but it was denied that the employer&#8217;s actions had caused her to do so. The employee did not accept that her behaviour was properly categorised as &#8220;resignation&#8221;. After a case management hearing an agreed list of issues was drawn up. This included &#8220;ordinary&#8221; unfair dismissal but no issue as to constructive dismissal. At the final hearing the ET found as a fact that the employee had resigned and rejected her claim. Her appeal to the EAT was dismissed. At [84] Elisabeth Laing J stated the legal position in this way: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">&#8230; the ET &#8230; [has] a duty, if it is obvious from the ET1 that a litigant in person is relying on facts that could support a legal claim, to ensure that the litigant in person does understand the nature of that claim. </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Elisabeth Laing J was not persuaded that Ms Mervyn&#8217;s case met that test. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal allowed an appeal: [2020] EWCA Civ 393, [2020] ICR 1364. The lead judgment was given by Bean LJ. Adopting the language of HHJ Auerbach in <span style="font-style:italic">McLeary</span>, he concluded at [42] that &#8220;it &#8216;shouted out&#8217; from the contents of the claimant&#8217;s particulars of claim that, on a proper analysis, she was alleging that she had been constructively dismissed&#8221;.  As for the agreed list of issues Bean LJ, having considered Rule 29 of the ET Rules, <span style="font-style:italic">Mensah, Muskett, Parekh, McLeary </span>and <span style="font-style:italic">Scicluna</span>, held (at [38], [43]-[47]) that an ET should consider at the substantive hearing whether any list of issues previously drawn up &#8220;properly reflects the significant issues in dispute&#8221;; if it is clear that it does not or that it may not do so the tribunal should consider whether an amendment to the list of issues is &#8220;necessary in the interests of justice&#8221; within the meaning of Rule 29; that will depend on a number of factors, including the stage at which the issue arises, whether the list was agreed between legal representatives, and whether an amendment would delay or disrupt the hearing; on the facts of <span style="font-style:italic">Mervyn</span> it was necessary in the interests of justice for the list to be amended so that the tribunal could consider constructive unfair dismissal. Singh LJ agreed with the judgment of Bean LJ. Asplin LJ gave a short concurring judgment, agreeing that &#8220;Just as in <span style="font-style:italic">McLeary &#8230; </span>the contents of the ET1 and ET3 shouted out that constructive unfair dismissal was being claimed in the alternative.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My reading of <span style="font-style:italic">Mervyn </span>is that the court concluded that the employee had sufficiently pleaded a claim for constructive dismissal. In all the circumstances she ought not to be held to have waived or abandoned that claim by agreeing the list of issues and it was necessary in the interests of justice for that list to be amended so as to correspond with the pleaded case. For those reasons the case was within the &#8220;exceptional&#8221; category referred to in <span style="font-style:italic">Scicluna</span>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, I refer to the most recent decision cited to us, that of Eady P in <span style="font-style:italic">Z v Y</span>. The facts differed from those of the cases I have been considering in that this employee&#8217;s ET1 expressly pleaded a claim of discriminatory constructive dismissal. A list of issues was drawn up and agreed thereafter. The ET concluded that discriminatory constructive dismissal was not an issue before it because it did not feature in the agreed list. In the EAT the employee argued that this conclusion was &#8220;perverse&#8221; because (among other things) a claim for discriminatory constructive dismissal was sufficiently pleaded and/or the ET was not required to &#8220;stick slavishly to the list of issues agreed where to do so would impair the discharge of its core duty ...&#8221; Eady P allowed the appeal.  The essentials of her reasoning appear from the summary at the head of the judgment and paragraphs [54]-[55].</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">Summary</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">The ET erred in failing to determine the claim of discriminatory constructive dismissal which was part of the pleaded case before it; the list of issues had not replaced the pleaded claim and the ET had been wrong to slavishly stick to that list (<span style="font-style:italic">Parekh</span> &#8230; applied)</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>54.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in;text-indent:0.25in">&#8230; it is helpful to start with what is not in dispute. First, as part of her pleaded case, the claimant had made clear that her claims of disability discrimination under the EqA included a complaint of discriminatory constructive dismissal &#8230;Fourth &#8230; at no stage was she asked whether she had withdrawn that claim, which had been made plain (one might say, <span style="font-style:italic">per </span>Mervyn and McLeary &#8216;shouted out&#8217;) from the case she had originally pleaded.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1.25in">55 &#8230; As the Court of Appeal made plain in <span style="font-style:italic">Parekh</span> an ET should not stick slavishly to the agreed list of issues where to do so would impair its core duty to hear and determine the case before it. In the present proceedings that case had included a claim of discriminatory constructive dismissal, which had never been withdrawn &#8230; Whether the ET&#8217;s failure to recognise that this was an issue in the case is characterised as perverse or as a straightforward error of law in failing to address a claim that it was required to determine, I am satisfied that it was wrong in law for the ET to decline to determine the claim of constructive discriminatory dismissal that was before it. </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This reasoning reflects the analysis I have set out at [38]-[39] above.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The second issue: was the EAT wrong to find that the ET had failed to discharge its duty in this case? </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The EAT did not clearly identify the legal basis for its finding that the ET was in breach of duty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Monaghan KC invited us to uphold that finding on the basis that the ET was duty bound to consider and decide whether the employee&#8217;s dismissal was an act of disability discrimination because such a claim was sufficiently pleaded in the ET1 and never withdrawn. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am not sure this is how the employee&#8217;s case was put in the EAT.  Nor do I think this was the EAT&#8217;s conclusion.  The employee&#8217;s argument was summarised in paragraph [29] of the judgment. It included a concession that the employee had &#8220;failed to articulate that the dismissal itself was the product of discrimination&#8221;. The submission was that this was &#8220;a mistake made by a litigant in person&#8221; and the ET should have clarified the position.  The EAT&#8217;s judgment was on similar lines. The judge did not say that the ET1 was a sufficient pleading of the case. She said that it contained features that gave an &#8220;<span style="font-style:italic">indication</span>&#8221; that the dismissal &#8220;concerned an asserted disability&#8221; and so &#8220;<span style="font-style:italic">may</span> have been discriminatory&#8221; (the emphasis is mine). The judge then referred to &#8220;the possibility of&#8221; a discrimination claim and the need for &#8220;clarification&#8221; of what the employee had said. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event my conclusion, applying the interpretative approach identified above, is that the employee did not plead a claim that her dismissal was an act of disability discrimination. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Monaghan&#8217;s argument was that it was not incumbent on the employee to assign the correct legal label to her claim. It was sufficient if the ET1 in the Second Claim set out the necessary facts. It did, she submitted, contain enough by way of factual assertions to show that (1) the employee was relying on a  disability as defined in the EqA (2) it was a mental impairment and (3) there was a causal link between her absence in consequence of that impairment and the less favourable treatment of dismissal. Skilfully though this argument was deployed, I have not been persuaded.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first and obvious point is that the employee did not tick the box in section 8.1 of the ET1 to signify a claim that her dismissal was an act of disability discrimination.  On this point Ms Monaghan relied on the observation of HHJ Auerbach in <span style="font-style:italic">Pranczk v Hampshire County Council </span>UKEAT/0272/19 [55] that such a failure is not of itself fatal to an argument that such a claim has been pleaded; the claim form must be read as a whole and &#8220;this omission would not matter if the elements of a claim under the 2010 Act were all clearly asserted elsewhere.&#8221;  Maybe so. But the contents of the claim form must also be read in their proper context. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This was a claim by an articulate professional woman who had recently demonstrated an understanding of the concepts of discrimination and disability. She had deployed both in her First Claim. She had shown an ability to use form ET1 in an appropriate way to express her intention to advance a claim for disability discrimination. At the time she did that she was, on her own account, suffering from stress and anxiety. In the months immediately preceding her second ET1 the precise nature of the disability relied on in the First Claim had been under active discussion. In that process she had not intimated that she was suffering from any mental health disability. If, at the time she completed the second ET1, she had considered her mental state to be a disability and her dismissal to be a further act of disability discrimination by her employer it would have been the simplest matter to tick the same boxes for a second time. Her failure to do so is a matter of considerable weight.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept, either, that the ET1 in the Second Claim &#8220;clearly asserted&#8221; all the essential elements of a disability discrimination claim. The ingredients of disability discrimination are identified in section 15(1) of the EqA. A claimant has to prove three things: that she is a &#8220;disabled person&#8221;, that she has been treated unfavourably by the respondent, and that this is &#8220;because of something arising in consequence of [her] disability&#8221;.  If those things are established the claim will succeed unless the respondent can show &#8220;that the treatment is a proportionate means of achieving a legitimate aim&#8221;. Section 6(2) of the EqA tells us that a reference to &#8220;a disabled person&#8221; is a reference to &#8220;a person who has a disability&#8221;. Section 6(1) provides that &#8220;A person (P) has a disability if (a) P has a physical or mental impairment, and (b) the impairment has a substantial and long-term adverse effect on P&#8217;s ability to carry out normal day-to-day activities&#8221;. Schedule 1 Part 1 contains provision as to the determination of disability. Paragraph 2 tells us among other things that &#8220;the effect of an impairment is long-term if (among other things) (a) it has lasted for at least 12 months&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The short answer to Ms Monaghan&#8217;s argument is that the concession made in the EAT was rightly made. Although the ET1 referred to the employee being signed off sick from work &#8220;due to anxiety stress and panic attacks due to my work situation&#8221; it did not clearly assert that this was the reason for her dismissal or even a reason. I would go further. I do not consider that the ET1 &#8220;shouted out&#8221; or made any clear assertion to the effect that the employee&#8217;s mental state amounted to a disability. She conspicuously did not use the words &#8220;disabled&#8221; or &#8220;disability&#8221;, other than to describe the allegations made in the First Claim. On the face of it she was presenting these as two related but different kinds of claim. Nor did the employee assert that the matters that led to her being signed off work impaired her ability to carry out &#8220;normal day to day activities&#8221;. The nub of the case she presented in the ET1 was that it was unfair to dismiss her for incapacity because she <span style="font-style:italic">was</span><span> </span><span style="font-style:italic">capable</span> of doing her job; the only impediment to her doing so was the employer&#8217;s insistence that she would have to work with the line manager to whose behaviour she had objected. That insistence was causing the stress and anxiety to which she referred. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment therefore the revised and updated list of issues contained a complete and accurate account of the issues raised by the statements of case.  This is not a case in which, as in <span style="font-style:italic">Mervyn</span>, the ET had to grapple with a mismatch between the pleaded case and the list of issues and determine whether it was in the interests of justice to amend the latter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That being so, the only basis on which the EAT could properly have allowed the employee&#8217;s appeal was that this was one of those exceptional cases in which, by proceeding on the basis of the agreed list of issues, the tribunal acted in breach of its fundamental duty of procedural fairness.  Put another way, the only remaining question was whether the ET&#8217;s conclusion that the issues for determination were those identified in the agreed list of issues and no others was a perverse conclusion which no reasonable tribunal could have reached.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The EAT did not make any finding of perversity. The judge did not approach the matter in the ways I have just identified.  The substance of her reasoning was quite different. She held that &#8220;it was or should have been clear to the Tribunal and the Respondent&#8221; that there were indications of a possible claim for disability discrimination in the ET1 in the Second Claim, the employee&#8217;s witness statement and her closing submissions; that it may have been the responsibility of the employer and in any event it was the ET&#8217;s obligation to discern those indications and to act on them by engaging in a process of clarification; and that such a process would inevitably have led to a discretionary or evaluative conclusion that it was necessary in the interests of justice to add such a claim by amendment to the list issues.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Monaghan has not sought to uphold this way of dealing with the matter, which seems to me to be flawed in several ways.  First, and perhaps least important, the language is distinctly unfortunate. To say that &#8220;it was &#8230; clear&#8221; to the tribunal and respondent that there were indications of such an additional claim appears to imply a finding of actual knowledge. I do not think that is what the judge meant. There was no evidence to this effect. On the contrary, it seems plain to me that the respondent and the tribunal acted in good faith. Secondly, I do not accept that the possibility of a claim for discriminatory dismissal &#8220;should have been clear&#8221;.  I have largely dealt with this already, but I would add that Ms Monaghan&#8217;s attempt to tease out the ingredients of such a claim from the language of the ET1 illustrated just how much legal and interpretative creativity that exercise requires.  Thirdly, it follows from the authorities that it will usually be wrong to try to define or interpret the issues by reference to documents that are not statements of case. Fourthly, I do not consider that either the employee&#8217;s witness statement or her closing argument in the ET provided any real support for an inference that she was seeking to advance a claim that her dismissal was an act of disability discrimination. Rather the contrary. The final submission did not assert that the dismissal was because of the disability but complained instead that the employer &#8220;<span style="font-style:italic">did not take into consideration</span> the extent of my mental health disability.&#8221; (I do not think this deficiency is or can be made good by the post-judgment evidence submitted to the EAT, and note that the EAT did not rely on that evidence.)  In reality, the ET could only have elicited a disability discrimination claim by entering the adversarial arena, adopting an inquisitorial approach, and prompting an application to amend the claim. So far from being under a duty to do this the ET&#8217;s duty of impartiality obliged it not to embark on any such process. The test the judge applied was fundamentally mistaken in law.  It was a further legal error to treat the employee&#8217;s agreement to the list of issues as a factor of no weight or at best neutral.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Monaghan has not sought to uphold the EAT&#8217;s decision on the alternative basis that the ET&#8217;s conduct was perverse or fundamentally unfair in the sense identified in <span style="font-style:italic">Drysdale</span>. Strictly, therefore, the issue does not arise. However, I should make clear that I consider the ET&#8217;s conduct was not arguably perverse but clearly legitimate.  Besides the points already made about what was or was not evident from the claim form I would add the following.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The employee was a litigant in person but she was a senior administrator. She was not just literate but manifestly skilled and experienced in the use of words. She had some experience of litigation in the ET, and she had received legal advice in that context, even if she did not have it at the time she agreed the final list of issues. Her agreement to that list was given expressly, in writing, and unequivocally. There was no reason to doubt that this was a free and informed decision. There was nothing in the circumstances that suggested any element of oppression or unfairness on the part of the employer&#8217;s solicitors. There was no evidence nor any suggestion that they had used the list of issues to gain &#8220;advantage&#8221;, to use the judge&#8217;s word. The ET behaved fairly. It took steps at the outset of the hearing to check what the issues were. They were identified by reference to the agreed list, without demur from the employee. The hearing proceeded over several days thereafter on that basis. The employee did not suggest that the agreed list was incomplete at any time until after the ET&#8217;s decision. The hearing was remote but, with respect to the judge&#8217;s general observations about that matter, there is no evidence that this employee was thereby disadvantaged. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Disposal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have given I would allow the appeal on each of grounds (b) to (d). It is unnecessary to decide the procedural issue raised under ground (a).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold">Other matters</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would make these brief comments on three other points that have arisen in the course of this appeal. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The judge suggested that it &#8220;may have been appropriate&#8221; for the employer to alert the ET to the possibility that the employee might have a claim for discriminatory dismissal. I would take a good deal of persuading that a litigant owes a duty to assist its adversary or the tribunal in this way.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">I very much doubt the judge was right to say that, if &#8220;clarification&#8221; had been sought &#8220;significant time and expense could have been saved.&#8221;  The reasoning seems to miss out several important steps.  On the judge&#8217;s own analysis this would have been a new and unpleaded claim. The ET would first have had to ascertain whether the employee wished to pursue it. If so, the new claim would have required formulation. A decision would then have been required on whether to allow it to be added by amendment. As part of that process it would have been necessary to consider matters such as the lateness of any amendment (including whether the claim was out of time); the degree to which the new claim would materially benefit the claimant; whether, as seems very likely, such an amendment would require an adjournment to allow the parties to prepare further evidence and submissions; and whether any resulting prejudice to the employer could be compensated. It is not obvious to me that the outcome would have been the grant of permission to amend. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In the light of the ET&#8217;s ultimate findings of fact a claim for disability discrimination by dismissal might have been hard to sustain. Of course, the question of whether a dismissal amounts to disability discrimination contrary to s 15 EqA is analytically distinct from the question of whether it is fair. Before the EAT the employer conceded that for this reason the case should be remitted if the appeal was successful. Even so, the difficulties the employee would have faced are clear from a few illustrative points. The ET found that (1) the allegedly problematic line manager, EC, was absent on maternity leave from June 2018 to May 2019; (2) the employee &#8220;never at any point raised EC&#8217;s continued line management as a barrier to her return&#8221;; (3) in February 2019 the employee told OH that she would not return to work irrespective of whatever adjustments were put in place; and (4) in March 2019 the employee told her temporary line manager that there was nothing she could do to support the employee&#8217;s return to work.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LADY JUSTICE ELISABETH LAING :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LORD JUSTICE DINGEMANS :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

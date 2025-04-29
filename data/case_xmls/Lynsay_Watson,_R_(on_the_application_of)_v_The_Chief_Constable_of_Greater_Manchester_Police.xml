@@ -1,0 +1,1102 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/954"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/954"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="954"/>
+	  <FRBRname value="Lynsay Watson, R (on the application of) v The Chief Constable of Greater Manchester Police"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/954"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/954"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/954/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/954/data.xml"/>
+	  <FRBRdate date="2025-04-17T08:19:41" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)" shortForm="The Administrative Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="the-king" href="" showAs="THE KING"/>
+	<TLCPerson eId="lynsay-watson" href="" showAs="LYNSAY WATSON"/>
+	<TLCPerson eId="the-chief-constable-of-greater-manchester-police" href="" showAs="THE CHIEF CONSTABLE OF GREATER MANCHESTER POLICE"/>
+	<TLCPerson eId="stuart-campbell" href="" showAs="STUART CAMPBELL"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+	<TLCPerson eId="judge-mrs-justice-hill-dbe" href="/judge-mrs-justice-hill-dbe" showAs="MRS JUSTICE HILL DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>954</uk:number>
+	<uk:cite>[2025] EWHC 954 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>9e723c86480d2c568df931d16d61d57eca1e11281b2e39a1959f61aac3d25ade</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 0in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .eop { }
+#judgment .normaltextrun { }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentTextChar { }
+#judgment .CommentReference { font-size: 8pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 954 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-MAN-000136</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING&#8217;S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SITTING IN MANCHESTER</span></p>
+      <p class="CoverText">Manchester Civil Justice Centre</p>
+      <p class="CoverText">1 Bridge Street West</p>
+      <p class="CoverText">Manchester</p>
+      <p class="CoverText">M60 9DJ</p>
+      <p class="CoverText">Date: <docDate date="2025-04-16" refersTo="#judgment">16/04/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-hill-dbe">MRS JUSTICE HILL DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#the-king" as="#claimant" style="font-weight:bold">THE KING </party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(on the application of) </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#lynsay-watson" as="#claimant" style="font-weight:bold">LYNSAY WATSON</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#the-chief-constable-of-greater-manchester-police" as="#defendant" style="font-weight:bold">THE CHIEF CONSTABLE OF GREATER MANCHESTER POLICE</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#stuart-campbell" as="#interested-party" style="font-weight:bold">STUART CAMPBELL</party></p>
+	    <p style="text-align:center"/>
+	    <p class="ListParagraph" style="margin-left:0.5in"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right;margin-left:-0.35in"><role refersTo="#interested-party">Interested Party</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">The <span style="font-weight:bold">Claimant </span>appeared in person</p>
+      <p style="text-align:center"><span style="font-weight:bold">Beatrice Collier</span> (instructed by <span style="font-weight:bold">Greater Manchester Police Legal Services</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Roddy Dunlop KC </span>(instructed by <span style="font-weight:bold">Branch Austin McCormick LLP</span>) for the <span style="font-weight:bold">Interested Party</span></p>
+      <p style="text-align:center">Hearing dates: 6 February 2025</p>
+      <p style="text-align:center">Further submissions: 24, 25, 26, 28 and 31 March 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 16<span style="vertical-align:super;font-size:smaller">th</span> April 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE HILL</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Mrs Justice Hill:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By a claim issued on 10 April 2024, the Claimant challenges the decision of the Defendant&#8217;s Inspector Paul Mason dated 25 November 2023 to take no further action in response to a complaint she had made on or around 18 February 2023. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s complaint related to certain social media posts from the then Twitter account @WingsScotland between 13 and 17 February 2023. The Claimant&#8217;s case is that the author had committed a range of criminal offences through those posts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendant defends the claim on the basis that the decision was entirely lawful, and consistent with the law relating to the potential offences in question and the right to freedom of expression as protected by Article 10 of the European Convention on Human Rights (&#8220;the ECHR&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At an oral hearing on 14 August 2024, HHJ Bird, sitting as a Judge of the High Court, granted the Claimant an extension of time and permission to proceed with one ground of judicial review, to the effect that the Defendant&#8217;s officers had incorrectly applied the law.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claim was argued at a hearing before me on 6 February 2025. On 17 February 2025, for the reasons given in <span style="font-style:italic">R (Watson) v Chief Constable of Greater Manchester Police </span>[2025] EWHC 332 (Admin) <span style="font-style:italic">(&#8220;Watson No. 1</span>&#8221;), I ordered that the author of the posts in question be added an Interested Party to the claim<span style="font-style:italic">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As indicated in <span style="font-style:italic">Watson No. 1</span> at [40], this procedural development has inevitably led to some delay in judgment being given on the substantive claim, not least because a transcript of the 6 February 2025 hearing was required.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Interested Party has now been served with all the relevant material including the necessary transcript. The Interested Party has made written submissions, adopting the Defendant&#8217;s position and making certain further points. The other parties have been given the opportunity to respond. All parties are content for the claim to be determined without a further hearing. Accordingly, this is my judgment on the merits of the claim.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The factual background</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic">The parties</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant is a trans woman. In 2023 she was using the social media platform Twitter (now known as X), with the username &#8216;@Peppercorn&#8217;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Interested Party is a political commentator and blogger with the username @Wings Over Scotland. He is referred to by his counsel as &#8220;what some would describe as &#8220;gender critical&#8221;, or a &#8220;biological realist&#8221;, in that he believes that sex is biological, immutable, and binary, and considers that concepts of gender identity and gender self-identification are inherently oppressive constructs&#8221;. He accepts that his style of writing is &#8220;abrasive&#8221;. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The relevant posts </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s complaint to the police related to 15 posts by the Interested Party between 13 and 17 February 2023. The Claimant had not sought the posts out, but they were &#8220;trending&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The posts related to the murder of Brianna Ghey, a 16 year old transgender girl, on 11 February 2023. They formed part of a highly charged conversation between the Interested Party and other Twitter users, including, towards the end of the chronology, the Claimant. The conversation is replicated in full in an Appendix to the claim form but the summary which follows contains the salient points. Three key themes emerge from the posts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">First</span>, the Interested Party posted about the reaction of other people to Brianna&#8217;s murder. He noted that it had been suggested at an early stage that the murder was hate-related; and commented as follows: &#8220;These disgusting ghouls are SO excited that a trans person has finally been murdered in the UK, so they can use it to attack [JK] Rowling and &#8220;TERFs&#8221;<authorialNote class="footnote" marker="1">
+		<p class="ParaLevel1"><span style="font-size:11pt"> </span><span style="font-size:11pt;color:#000000">An acronym for &#8220;trans-exclusionary radical feminist&#8221;, a term used to describe &#8220;feminists who express ideas that other feminists consider transphobic, such as the claim that trans women are not women, opposition to transgender rights and exclusion of trans women from women's spaces and organisations&#8221;, which can be pejorative</span><span style="font-size:11pt;color:#000000">: </span><span style="font-style:italic;font-size:11pt">R (Miller) v College of Policing</span><span style="font-size:11pt"> [2020] EWHC 225 (Admin), [2020] 4 All ER 31at [245]. </span></p>
+	      </authorialNote>, that they can&#8217;t bring themselves to wait even a day for the facts&#8221;. The post was accompanied by a quotation from the police stating that they were not, at that point in time, treating the murder as a hate crime.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Interested Party later tweeted an image of a post by Jeremy Corbyn MP which stated: &#8220;Brianna Ghey was an incredible young woman who spread joy, love and laughter to those around her. My thoughts are with Brianna&#8217;s family and the trans community fighting for safety, dignity and liberation&#8221;. The Interested Party commented on the post &#8220;How the fuck would you know, you ghoul?&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Second</span>, throughout the conversation the Interested Party referred to Brianna as male, &#8220;correcting&#8221; other Twitter users who did not. For example, the Interested Party wrote &#8220;He was a trans-identifying boy&#8221;; &#8220;Human beings can&#8217;t change sex. Being murdered doesn&#8217;t alter that. I never knowingly refer to anyone with anything other than the pronouns of their birth sex&#8221;; and &#8220;He was a boy. Human beings can&#8217;t change sex&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One Twitter user replied: &#8220;Stu, with regards to intentionally misgendering Brianna Ghey so publicly, so repeatedly, it has clearly affected a lot of people very deeply.  What would you say, to those who say what you are doing amounts to Harassment of transgender people and their allies?&#8221; To this, the Interested Pary responded: &#8220;I would say this: fuck off&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Third</span>, there was debate about Brianna&#8217;s death certificate. The Interested Party quoted a post by the journalist Owen Jones, saying &#8220;<span style="color:#000000">We don&#8217;t yet know the circumstances surrounding young trans girl Brianna </span>Ghey&#8217;s murder.  We do know that - without the gender recognition laws countries from Ireland to Argentina have - her death certificate will class her as a boy&#8221;. The Interested Party commented &#8220;<span style="color:#000000">Why the fuck does it even matter what&#8217;s on the death certificate? Who cares? If their parents want to bury their child under their trans name and put it on the headstone, nobody is going to stop them. Jones is just desperate to weaponise it&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">One Twitter user responded: &#8220;Then I&#8217;ll say it. She was a CHILD. She was 16 years old &amp; she was MURDERED &amp; you&#8217;re trying to say that the bullying she endured leading up to this wasn&#8217;t a fire fed by the anti trans rhetoric pushed by the media &amp; certain celebrities!? Get fucked Terfs - Her blood is over your hands&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Another replied: &#8220;SHE CARED you utter cretin. Because of the Tory stance on self ID, weaponised by people like you, she&#8217;ll be deadnamed and misgendered on her death certificate. She can&#8217;t even die as herself and that&#8217;s on hateful trolls like yourself that gave the Tories the power to do it&#8221;. The Interested Party replied &#8220;Aye mate, I&#8217;m sure that&#8217;s what the poor kid was thinking as some monstrous shitbag was stabbing him to death - &#8220;Oh no! What will it say on my death certificate?&#8221; Fuck all the fucking way off, fuckhole&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant then became involved, saying &#8220;Her family care.  Her friends care.  I care.  You have hurt a lot of people here.  Do not misgender that girl ever again&#8221;. The Interested Party replied: &#8220;Or you&#8217;ll do fucking what, mate?&#8221;; to which the Claimant replied &#8220;I&#8217;m not your mate. Do not misgender her ever again.  Her name is Brianna Ghey, she was a young trans girl, which was plainly obvious, and you need to learn to show some respect&#8221;. The Interested Party replied, &#8220;I&#8217;ll call him what I fucking well like, mate&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant described her reaction to the posts in her statement of facts and grounds (&#8220;SFG&#8221;) at [61] thus:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.36in">&#8220;This repeated course of action by Campbell affected me, profoundly.&#160; Deeply.&#160; I experienced shock, extreme distress and disbelief that Campbell could be so cruel and had specifically set out to harass the trans community this way, given that Brianna&#8217;s body was barely cold. I was physically shaking, with a flurry of emotions around fear, shock, disbelief, and deep sadness that Campbell used the death of a trans child this way&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The Defendant&#8217;s investigation and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18 February 2023 the Claimant complained about the posts to the Defendant, and in particular, the fact that when challenged about his language, including by her, the Interested Party had replied &#8220;Fuck you&#8221;, &#8220;Or you&#8217;ll do fucking what mate&#8221; and &#8220;I&#8217;ll call him what I fucking well like&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 February 2023 a police constable opened a crime report. The Defendant&#8217;s officers proceeded to consider whether any criminal offences had been committed and whether to refer the matter to the Crown Prosecution Service (&#8220;the CPS&#8221;). Their decision making was recorded in an Actions and and Review Document (&#8220;ARD&#8221;). Their primary focus was whether an offence of sending an electronic communication with intent to cause distress or anxiety, contrary to the Malicious Communications Act 1988, s.1 (see [32] below) had been committed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On or around 6 June 2023, PS Smirthwaite and Inspector Bailey concluded that this was not the case and decided to close the investigation. An email was sent informing the Claimant of the decision but it appears from an entry on p.5 of the crime report that she did not receive it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 27 August 2023 the Claimant contacted the Defendant to query what was happening with her complaint. She highlighted that the 6-month time limit for commencing a prosecution for a summary only offence had passed. She said that @WingsScotland was &#8220;still engaged in pretty much a full-time course of conduct of harassment&#8221; but asked the officer to focus on the complaint she had already submitted. On 29 August 2023 she was asked to re-submit the screenshots of the posts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 29 September 2023 PC Littlewood informed the Claimant that it had been decided that there would be no further investigation; and that the Defendant considered that the posts &#8220;come under the realms of hate incidents and not crimes&#8221;. The Claimant was unhappy with the decision and there was further correspondence between her and PC Littlewood. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 4 October 2003, PC Littlewood emailed the Claimant confirming that a written rationale for the decision from the inspector was awaited. In the meantime, the sergeant&#8217;s rationale was provided as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.46in">&#8220;The MO on this crime report, whilst distressing does not reach the threshold of the offence reported. Further, it would not meet the threshold of any other reportable offence. The information provided is not sufficient to identify a suspect, and should a suspect be identified otherwise, there would not be enough in this report to present a charging rationale sufficient to proceed to a charge through CPS. For this reason, the report will be closed, victim aware via VM as neither phone number provided picks up after repeated attempts. Ins 8488 Bailey aware and authorises closure&#8230;.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.46in">For a crime for malicious communication to take place the content of the communication has to be grossly offensive. Although the content is unacceptable the comments do not read as wildly offensive and in any case, within the realms of free speech and articles 9,10, 11 ECHR, comments can be made to others which shock and disturb without constituting a crime. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.46in">There is a stated case regarding use of social media and free speech and this is R v SCOTTOW. Scottow was charged and convicted under malicious communications act. The circumstances were that she entered into an argument online wand referred to trans women as male, racist and a pig in a wig. The court of appeal overturned the conviction, rationale from Lord Justice Bean and Justice Warby is that within free speech there is &#8220;right to offend&#8221;. Her comments are obviously wildly unacceptable but this will have impact on decisions managing crimes around social media moving forward. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.46in">The onus is on the social media companies to police the platform. Given the level of crime, the [cost] incurred to GMP would outweigh any chance of conviction and thus an investigation would not be appropriate. The sergeant and Defendant both reviewed this and agreed that the crime should be filed for closure as such there will be no investigation&#8221;. </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 23 November 2023 the Claimant emailed PC Littlewood asking for a full written rationale for the inspector&#8217;s decision as she intended to bring claim for a judicial review.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 25 November 2023, PC Littlewood emailed the Claimant setting out the inspector&#8217;s rationale, as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">&#8220;I am Inspector 13495 Mason, based at Rochdale Police station. This is a crime finalisation review and rationale, which I have been requested to make an assessment on based on a write up by an officer on my response team.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">I have read the ARD and the circumstances of this case and have read the rationale and write up for closure by the officer.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">I agree with the officer that there is insufficient evidence&#8230;to do anything else with this crime and it can be closed. The crime of [malicious communications] has to be [indecent] or grossly offensive. I also note the comments [weren&#8217;t] directed at a person, but [were] the suspects [opinion]. While I will agree these comments would be upsetting and can [be] perceived as hate for me this would be a hate incident and not crime. I note the stated case, where the conviction was overturned. This was a case of free speech and a [right] to offend. Social media has [mechanisms] for comments to be removed and should monitor [their] own platforms should it breach their policies. It is not for the Police to investigate every comment made on social media. as such I [authorise] closure of this crime.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">The procedural history</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 10 April 2024 the claim was issued. On 7 June 2024, permission was refused on the papers. The Claimant renewed the application for permission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 14 August 2024, at an oral hearing, HHJ Bird observed that the decision was &#8220;finely balanced&#8221; but granted the Claimant permission with respect to one ground. He suggested that the Defendant consider reviewing its decision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendant conducted a review. On 1 November 2024 Detective Inspector Sam Taylor upheld the earlier decision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Malicious Communications Act 1988 (&#8220;the MCA 1988&#8221;), provides as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in"><span style="font-weight:bold">Offence of sending letters etc. with intent to cause distress or anxiety</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">Any person who sends to another person&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">a letter, electronic communication or article of any description which conveys - </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">a message which is indecent or grossly offensive; [or]</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">any article or electronic communication which is, in whole or part, of an indecent or grossly offensive nature, </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in">is guilty of an offence if his purpose, or one of his purposes, in sending it is that it should, so far as falling within paragraph (a) or (b) above, cause distress or anxiety to the recipient or to any other person to whom he intends that it or its contents or nature should be communicated.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Communications Act 2003 (&#8220;the CA 2003&#8221;), s.127 provides as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;127.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in"><span style="font-weight:bold">Improper use of public electronic communications network</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">A person is guilty of an offence if he &#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">sends by means of a public electronic communications network a message or other matter that is grossly offensive or of an indecent, obscene of menacing character; or&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">A person is guilty of an offence if, for the purpose of causing annoyance, inconvenience or needless anxiety to another, he &#8211; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">persistently makes use of a public electronic communications network&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 10 provides that: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.45in;text-indent:0.5in">Everyone has the right to freedom of expression. This right shall include the freedom to hold opinions and to receive and impart information and ideas without interference by public authority and regardless of frontiers&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.45in;text-indent:0.5in">The exercise of these freedoms, since it carries with it duties and responsibilities, may be subject to such formalities, conditions, restrictions or penalties as are prescribed by law and are necessary in a democratic society, in the interests of national security, territorial disorder or crime, for the protections of health or maras, for the protection of the reputation or rights of others, for preventing the disclosure of information received in confidence or for maintaining the authority and impartiality of the judiciary.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Handyside v UK</span> (1976) 1 EHRR 737 at [49] the European Court of Human Rights set out the fundamental, and now well established, principle that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.36in">&#8220;Freedom of expression constitutes one of the essential foundations of [a democratic] society, one of the basic conditions for its progress and for the development of every man. Subject to paragraph 2 of Article 10&#8230;it is applicable not only to &#8220;information&#8221; or &#8220;ideas&#8221; that are favourably received or regarded as inoffensive or as a matter of indifference, but also to those that <span style="text-decoration-line:underline;text-decoration-style:solid">offend, shock or disturb the State or any sector of the population</span>. Such are the demands of that pluralism, tolerance and broadmindedness without which there is no &#8220;democratic society&#8221; [emphasis added].</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Case-law on &#8220;grossly offensive&#8221; communications</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to commit an offence contrary to the MCA 1988, s.1 or the CA 2003, s.127 it is insufficient if the message or other communication is offensive: it must be &#8220;grossly offensive&#8221;. It is insufficient if the message was in bad taste or even shockingly bad taste: <span style="font-style:italic">DPP v Kingsley Smith</span> [2017] EWHC 359 (Admin) (unreported) at [34] and <span style="font-style:italic">DPP v Bussetti</span> [2021] EWHC 2140 (Admin)) at [35]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Messages held to be grossly offensive applying this test include telephone calls made by a man to his MP in which he ranted about &#8220;wogs&#8221;, &#8220;Pakis&#8221;, &#8220;black bastards&#8221; and &#8220;niggers&#8221; and photographs of aborted foetuses sent to three pharmacists who sold the morning after pill: see, respectively, <span style="font-style:italic">DPP v Collins </span>[2006] UKHL 40; [2006] 1 WLR 2223 and <span style="font-style:italic">Connolly v Director of Public Prosecutions</span> [2007] EWHC 237 (Admin), [2008] 1 WLR 276.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Connolly </span>at [18], the Divisional Court held that the MCA, s.1 could and should be interpreted compatibly with Article 10:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in">&#8220;&#8230;by giving a heightened meaning to the words &#8216;grossly offensive&#8217; and &#8216;indecent&#8217; or by reading into section 1 a provision to the effect that the section will not apply where to create an offence would be a breach of a person&#8217;s Convention rights, i.e. a breach of article 10(1), not justified under article 10(2).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Scottow</span><span> </span><span style="font-style:italic">v CPS</span> [2020] EWHC 3421 (Admin) the appellant, describing herself as a radical feminist, appealed by way of case stated against her conviction for an offence contrary to the CA 2003, s.127(2)(c). She had posted seven messages online about the complainant, a transgender woman with a public profile as an activist and advocate on transgender rights, to the effect that the complainant was racist, xenophobic, bullying, dishonest and fraudulent. After the district judge refused her application for the charge to be dismissed she appealed by way of case stated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Divisional Court (Bean LJ and Warby J, as he then was) allowed the appeal. In so doing the court confirmed that the approach to a prosecution under the MCA 1988, s.1 described in <span style="font-style:italic">Connolly</span> was likewise applicable to a prosecution under the CA 2003, s.127:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in">&#8220;33&#8230;a Court asked to convict a person of an offence under s 127 of the 2003 Act on the basis of the content of something they have said or written is obliged to have in mind the right to freedom of expression, guaranteed by Article 10 , and the requirement of s.3 of the HRA, that &#8220;so far as it is possible to do so, primary legislation &#8230; must be read and given effect in a way which is compatible with the Convention rights&#8221;&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>42.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">A prosecution under s.127(2)(c) for online speech is plainly an interference by the state with the defendant&#8217;s right to freedom of expression. This case is no different in principle from that of <span style="font-style:italic">Connolly</span>&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">R v Casserly (Thomas)</span> [2024] EWCA Crim 25, <span style="color:#000000">[2024] WLR 2760, the appellant appealed his conviction for an offence </span>contrary to the MCA, 1988, s.1. He had sent an email to a town councillor in which he challenged her ability to perform her public role in light of her disabilities. Carr LCJ reviewed the authorities on the interplay between the MCA 1988, s.1 and Article 10 and gave the following guidance:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;47.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">What could be achieved on the facts here, and what was required, was a Convention-compliant interpretation and application of the language of s 1 to the facts of the case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>48.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">Drawing on the authorities referred to above, and in this context, we would identify the following considerations:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">Whether a message is &#8220;grossly offensive&#8221; is a question of fact to be answered objectively by reference to its contents and context, not its actual effect (see in particular <span style="font-style:italic">Collins</span> at [8]);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">The question is whether the message goes beyond the limits of what is tolerable in our society (see in particular <span style="font-style:italic">Collins</span> at [12]);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">The answer must reflect society&#8217;s fundamental values (see in particular <span style="font-style:italic">Collins</span> at [9]). Those values include the great weight to be given to free speech, the need for tolerance of statements and opinions that some might find offensive or upsetting, and the special need for tolerance on the part of those in public positions (see in particular <span style="font-style:italic">Redmond-Bate</span> at [12] and <span style="font-style:italic">Calver</span> at [55] and [58]);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">The context of the speech must be considered. In a democratic society political speech is to be given particular weight (see in particular <span style="font-style:italic">Connolly</span> at [14]). The Strasbourg jurisprudence identifies a hierarchy of speech, with political speech at its apex. The greater the value of the speech in question, the weightier must be the justification for interference. The proportionality assessment must include some evaluation of the kind of speech under consideration;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">Accordingly, where freedom of speech in a political context is engaged, and there is a case to answer, it is essential that the offence be defined in terms which reflect the enhanced meaning of &#8220;grossly offensive&#8221; (see in particular <span style="font-style:italic">Connolly</span> at [18] (approved in <span style="font-style:italic">The Colston Statue Case</span> at [51]));</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>vi)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">In order to establish that at least one of the defendant&#8217;s purposes was to cause distress or anxiety, it is not enough for the prosecution to prove that the message was likely to have that effect and that the defendant knew or foresaw this, or that he gave no thought to the matter; the prosecution must prove that at least one of the defendant&#8217;s objectives was to bring about that consequence. The offence is committed only if causing distress or anxiety is at least one of the defendant&#8217;s &#8220;purposes&#8221;. In the context of s 1, &#8220;purpose&#8221; is not to be treated as synonymous (and interchangeable) with &#8220;intention&#8221;. The 1985 Law Commission Report of 1985 (Com No 147) explained (at paragraph 4.31) that the word &#8220;purpose&#8221; was deliberately chosen instead of &#8220;intention&#8221; to ensure a &#8220;sufficiently restricted interpretation&#8221; and to convey &#8220;what is appropriate in this context, namely, a desire and intention that the specified consequence &#8211; in this case distress and anxiety &#8211; should come about&#8221; (emphasis added). Criminal liability was not intended to arise in &#8220;situations where it is necessary to communicate to others information which is shocking or even menacing and, as the sender knows, will inevitably cause distress&#8221; (see paragraph 4.23). In our judgment the word &#8220;purpose&#8221; connotes something that is a motivating objective - a restrictive approach which gives further effect to the interpretative duty imposed by s 3 of the HRA.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>49.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.46in;text-indent:0.5in">These considerations may lead to the conclusion that a prosecution cannot be justified. As the CPS Guidelines<authorialNote class="footnote" marker="2">
+			<p style="text-align:justify;margin-right:-0.04in"><span style="font-size:11pt"> Namely the Director of Public Prosecution&#8217;s </span><span style="font-style:italic;font-size:11pt">Guidance on Prosecuting Communications Offences</span><span style="font-size:11pt">. This is a comprehensive document, which </span><span style="font-size:11pt;color:#000000">refers to the offences under the MCA 1988, s.1 and the CA 2004, s.127 and Article 10; and cites </span><span style="font-size:11pt">the relevant case-law including </span><span style="font-style:italic;font-size:11pt">Collins</span><span style="font-size:11pt"> and </span><span style="font-style:italic;font-size:11pt">Connolly</span><span style="font-size:11pt">.</span></p>
+		      </authorialNote> state, &#8220;prosecutors should only proceed with cases under section 1 [of the 1988 Act]&#8230;where the interference with freedom of expression is necessary and is proportionate.&#8221; There must be sufficient evidence that the communication in question, in its particular context, is &#8220;more than offensive, shocking or disturbing&#8221; and goes &#8220;beyond the pale of what is tolerable in society&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">R (Miller) v College of Policing and another </span>[2020] EWHC 225 (Admin), [2020] 4 All ER 31</p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant in <span style="font-style:italic">Miller </span>brought judicial review proceedings challenging the actions that Humberside Police had taken against him in relation to 31 of his tweets, that had been reported to the police as &#8220;transphobic&#8221;. Julian Knowles J upheld his claim against the police force (albeit not his challenge to the relevant policy issued by the College of Policing, which enabled the tweets to be recorded by the police as a &#8220;non-crime hate incident&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant was a gender critical man who believed that &#8220;trans women are men who have chosen to identify as women&#8221;; and that &#8220;conflating sex (a biological classification) with self-identified gender (a social construct) poses a risk to women&#8217;s sex based rights&#8221;: [20].   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">His tweets related to the issue of gender recognition. For example, he asked whether Trans Day of Remembrance was &#8220;a thing, then? Like, an actual one&#8221;; wrote &#8220;If we asked Holly and Jessica who murdered them, I imagine they wouldn&#8217;t say &#8216;A Woman called Nicola&#8217;. #IanHuntleyIsAMan&#8221; (a reference to reports that the Soham murderer was identifying as a woman called Nicola); &#8220;I was assigned Mammal at Birth, but my orientation is Fish. Don&#8217;t mis species me, Fuckers&#8221; (to make the point, he said, that if a biological male can become a biological female, &#8216;then what boundary exists to separate fish from mammals?&#8217;); and above a picture of a transgender woman, wrote &#8220;Grow a beard, Hon&#8230;s&#8217;all the rage with the transwomen appaz&#8221;: [23]-[57].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="normaltextrun">In considering the legality of the police force&#8217;s conduct, the judge reiterated the principle that &#8220;</span>in law, context is everything&#8221;. He held that the c<span class="normaltextrun">ontext in which the claimant was tweeting, namely the gender recognition issue, was &#8220;an ongoing debate that is complex and multi-faceted&#8221;. He summarised the evidence from Professor Kathleen Stock, Professor of Philosophy at Sussex University and Jodie Ginsberg, CEO of the Index on Censorship as to the &#8220;contours&#8221; of the debate and as to concerns that legitimate debate about gender criticism issues was being stifled:</span> [240]-[249]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge drew the following points from this evidence:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;250.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.56in;text-indent:0.02in">First, there is a vigorous ongoing debate about trans rights. Professor Stock&#8217;s evidence shows that some involved in the debate are readily willing to label those with different viewpoints as &#8216;transphobic&#8217; or as displaying &#8216;hatred&#8217; when they are not. It is clear that there are those on one side of the debate who simply will not tolerate different views, even when they are expressed by legitimate scholars whose views are not grounded in hatred, bigotry, prejudice or hostility, but are based on legitimately different value judgments, reasoning and analysis, and form part of mainstream academic research&#8221;. </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge was clear that the tweets were protected by the claimant&#8217;s Article 10(1) rights to freedom of expression:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;251.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.56in;text-indent:0.02in">The Claimant&#8217;s tweets were, for the most part, either opaque, profane, or unsophisticated. That does not rob them of the protection of Article 10(1). I am quite clear that they were expressions of opinion on a topic of current controversy, namely gender recognition. Unsubtle though they were, the Claimant expressed views which are congruent with the views of a number of respected academics who hold gender-critical views and do so for profound socio-philosophical reasons. This conclusion is reinforced by Ms Ginsberg&#8217;s evidence, which shows that many other people hold concerns similar to those held by the Claimant.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.56in">252&#8230;this contextual evidence&#8230;is relevant because in the Article 10 context, special protection is afforded to political speech and debate on questions of public interest: see eg&#160;<span style="font-style:italic">Vajnai v Hungary</span>&#160;(No. 33629/06, judgment of 8 July 2008), [47], where the Court emphasised that that there is: &#8220;little scope under Article 10(2) of the Convention for restrictions on political speech or on the debate of questions of public interest&#8221;&#8230;&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge concluded <span class="normaltextrun">that the police&#8217;s treatment of the claimant had disproportionately interfered with his Article 10(1) rights: [256], [259]-[261], [264], [268], [274], [283]-[287] and [289]. </span>The judge dismissed the claimant&#8217;s policy challenge, but the Court of Appeal (Sharp P, with whom Simler LJ and Haddon-Cave LJ agreed) allowed his appeal on this point: [2021] EWCA Civ 1926, [2022] 1 WLR 4987. In so doing, the Court of Appeal approved the judge&#8217;s finding that the police action had unjustifiably interfered with the claimant&#8217;s freedom of expression, in this way:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;70.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.46in;text-indent:0.02in">The&#8230;judge was right to say as he did, that comparatively little official action is needed to constitute an interference for the purposes of Article 10(1) [255]; and was thus able to find that what the police had done (going to his place of work, warning Mr Miller that he would be at risk of criminal prosecution if he continued to tweet etc.) constituted an interference with Mr Miller&#8217;s Article 10(1) rights, even though he was not made subject to any formal sanction. The judge went on to say that the police&#8217;s submissions impermissibly minimised what occurred and did not properly reflect the value of free speech in a democracy; there was not a shred of evidence that Mr Miller was at risk of committing a criminal offence [259]. It was nothing to the point that Mr Miller continued to tweet afterwards; warning him that in unspecified circumstances he might find himself being prosecuted for exercising his right to freedom of expression on Twitter had the capacity to impede and deter him from expressing himself on transgender issues. It had a chilling effect on his right to freedom of expression [260-1]&#8221;.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Interested Party&#8217;s application for an order striking out the claim</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic">Submissions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his submissions dated 24 March 2025 the Interested Party expressed understandable concern at the late stage in the proceedings at which he had become involved. He highlighted that this claim relates to a complaint made by the Claimant to the police in February 2023; the decision complained of was made in November 2023; and the claim form was issued in April 2024. However, the Interested Party only became aware of any of these events on 17 February 2025, almost two years after the initial complaint, when this court drew his attention to the judgment in <span style="font-style:italic">Watson No. 1</span>, adding him as Interested Party to the claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Dunlop KC rightly noted that CPR 54.6(1)(a) and 54.7(b) are mandatory provisions, requiring a Claimant seeking judicial review to state the name and address of any person considered to be an Interested Party on the claim form, and to serve the claim form on them. The claim form itself at section 2 specifically directs claimants to consider this issue. He acknowledged that the Claimant is a litigant in person, but emphasised that the rules apply equally to such litigants: <span style="font-style:italic">Barton v Wright Hassall</span> [2018] 1 WLR 1119 at [18].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He argued that the Claimant&#8217;s failure to comply with these mandatory provisions engaged the court&#8217;s power to strike out the claim under CPR 3.4(2)(c), by which the court can strike out a claim on the basis that there has been a &#8220;failure to comply with a rule, practice direction or court order&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Dunlop KC submitted that this was not merely a technical error, as the Interested Party had suffered clear prejudice. The failure to include him in the claim as an Interested Party from the outset precluded him from making submissions in writing or at the oral hearing on the question of whether time should be extended for the Claimant to bring her claim. For that reason, his position was directly comparable to the scenario considered in <span style="font-style:italic">Barton</span> at [18] in that he had been &#8220;retrospectively&#8230;deprived of a limitation defence&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As well as the limitation issue, he had been deprived of the right to make submissions on the question of whether permission should be granted; nor had he been heard at the substantive hearing. This process was wholly contrary to basic principles of natural justice and the right to be heard: see, for example, <span style="font-style:italic">Principal Reporter v K</span> [2011] 1 WLR 18 at [14], reiterating that the right to be heard is &#8220;one of the fundamental rules of natural justice&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Dunlop KC argued that had he been able to make submissions earlier, he would have highlighted what he described as the Claimant&#8217;s &#8220;well documented track record&#8221; of harassing those whose views she disagrees with: he referred, in particular, to allegations that she had directly harassed the Claimant in the case of <span style="font-style:italic">Miller</span>, considered at [42]-[48] above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons, he contended that the court should exercise the power to strike out the statement of case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant disputed Mr Dunlop&#8217;s characterisation of her actions and contended that whether she had harassed anyone remained a contested issue to be determined in other court proceedings. She made a series of submissions about Mr Dunlop&#8217;s own views on the gender debate and those of his instructing solicitor. She sent some of these submissions directly to Mr Dunlop instead of using the established circulation list including all parties and my clerk.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Analysis and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept that it is appropriate to strike out the claim. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is regrettable that the Interested Party was not joined to the proceedings earlier. However, as I highlighted in <span style="font-style:italic">Watson No. 1</span> at [9], Defendants as well as Claimants bear a responsibility in this regard: under CPR 54.8(4)(iii) Defendants should identify Interested Parties in the acknowledgment of service, section 2 of which form also directs Defendants to the issue. All of these requirements are made clear in the Administrative Court Guide, at paragraph 3.3.4. The court could also have directed that the Interested Party be joined as such at an earlier stage. The failure to join the Interested Party to the proceedings earlier was, accordingly, not entirely the Claimant&#8217;s fault.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Moreover, extensive steps have been taken to ensure that the Interested Party could participate as fully as possible after he was so joined. He has been provided with all of the relevant material and a full transcript of the substantive hearing and been afforded the opportunity to make submissions. He was offered the opportunity to make submissions at a further oral hearing but has confirmed that he does not consider the same is necessary. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, the points he has made about the Claimant&#8217;s delay in bringing the claim, and her motives for it, could, if the claim was upheld, be taken into account by the court in deciding whether to exercise its discretion to grant any relief. For these reasons the prejudice that he has suffered by not being joined to the claim earlier has been mitigated as far as possible; and it has still been possible to determine this claim fairly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is well recognised that a strike out order is draconian order of last resort: see, for example, the White Book 2025 at paragraph 3.4.17. Given the various measures described in the preceding paragraphs that threshold is not met here.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event, as will become apparent, I have dismissed the claim on its merits, such that the application for a strike out has been rendered academic.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The merits</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic">Submissions and analysis on the central issue </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SFG is drafted in an unconventional way that does not comply with CPR PD 54, paragraph 4.2. Several grounds of judicial review are advanced as sub-paragraphs of [73]. What follows are a series of submissions under different headings. I recognise that the Claimant drafted the SFG herself, but the effect of presenting the case in this way is that it has not always been easy to identify which submissions relate to which ground. This is significant because HHJ Bird only granted the Claimant permission in relation to one of the grounds advanced, to the effect that the Defendant had &#8220;incorrectly applied the law&#8221;: SFG at [73](a).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Matters are complicated by the very generic nature of the wording of ground [73](a), which does not, on its face, specify how it is said the Defendant incorrectly applied the law. The claim has nevertheless proceeded on a broadly shared understanding of the central issue, namely:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">Did the Defendant incorrectly apply the law in concluding that the posts were not &#8220;grossly offensive&#8221;, such that charging the Interested Party or referring the case to the CPS to consider doing so would be an unjustified interference with the Interested Party&#8217;s Article 10 rights?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In approaching this issue, in order to apply the principles summarised in <span style="font-style:italic">Casserly </span>at [48]i)-v) above, it is necessary to consider the context and contents of the Interested Party&#8217;s posts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The immediate context was plainly a highly sensitive one, namely the murder of a transgender child. To engage in the sort of debate reflected in the Twitter conversation at that time could, as Ms Collier, conceded, be regarded as in &#8220;shockingly bad taste&#8221;. However, that does not render the comments grossly offensive: see<span class="normaltextrun" style="color:#000000"> [35] above. Moreover, the wider context was the same as that in </span><span class="normaltextrun" style="font-style:italic;color:#000000">Miller</span><span class="normaltextrun" style="color:#000000">, namely the ongoing &#8220;</span><span style="color:#000000">complex and multi-faceted&#8221; debate about gender recognition.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="normaltextrun" style="color:#000000">In my judgment the content of the posts illustrates that the Interested Party was doing two things.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span class="normaltextrun" style="font-style:italic;color:#000000">First</span><span class="normaltextrun" style="color:#000000">, he</span> was condemning the fact that, as he saw it, the tragic murder of Brianna was being &#8220;weaponised&#8221; by activists in order to attack JK Rowling and other campaigners. This was a valid opinion that cannot conceivably be said to meet the &#8220;grossly offensive&#8221; threshold set out in the case-law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Second</span>, he was expressing the opinion that gender is biologically determined and cannot be changed, such that it is appropriate to refer to someone by pronouns which match their biological sex, including on their death certificate. This is a controversial matter of public interest in which many people share the view underlying the Interested Party&#8217;s tweets. It has been specifically recognised that the Interested Party&#8217;s opinion about gender is one that should be tolerated in a democratic society: as well as <span style="font-style:italic">Miller</span>, see <span style="font-style:italic">Forstater v CGD Europe</span> [2022] ICR 1 and <span style="font-style:italic">Higgs v Farmor&#8217;s School</span> [2025] EWCA Civ 109 at [175](4). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Interested Party&#8217;s posts in this category were not substantively different to those in issue in <span style="font-style:italic">Miller</span>: compare [12]-[19] and [44] above. In <span style="font-style:italic">Miller</span>, Julian Knowles J found that the posts &#8220;did not come close&#8221; to the threshold for either an offence under the MCA 1988, s.1 or one under the CA 2003, s.127: [271] and [273]. Like him, I conclude that no reasonable person could have regarded the posts in this case as grossly offensive, within the meaning attributed to that phrase in the case-law, and, to quote <span style="font-style:italic">Miller</span>, &#8220;certainly not having regard to the context in which they were sent, namely, as part of a debate on a matter of current controversy&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant argued that Article 10 was inapplicable here, because the effect of the ECHR, Article 17 is that hate speech which negates the fundamental values of the Convention falls outside Article 10. There was no suggestion that Article 17 applied to the posts in <span style="font-style:italic">Miller </span>(see [120]-[122] thereof) and the same applies here. The legal framework set out at [38], [40] and [41] above makes clear that Article 10 does apply to speech of this kind.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s overarching position was that the Interested Party&#8217;s posts were such that they contravened the basic standards of our society; went beyond the pale of what is tolerable in our society; and were grossly offensive to those to whom they related. I cannot accept this submission for the reasons given at [65]-[70] above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For all these reasons the Defendant was entitled, and correct, to conclude that the posts did not cross the threshold to be considered objectively &#8220;grossly offensive&#8221;, as interpreted by the case-law, by reference to the context of the posts and their content (irrespective of the Interested Party&#8217;s state of mind). The Defendant&#8217;s conclusion properly reflected society&#8217;s fundamental values of free speech, including the need for tolerance of statements and opinions that some might find offensive or upsetting.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is clear that prosecutors (and by extension police officers) should only proceed with cases under s.1 MCA 1988 and s127 CA 2003 where the interference with freedom of expression that a prosecution would entail is necessary and proportionate: <span style="font-style:italic">Casserly</span>&#160;at [49]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Here, the Defendant was justified, and right, in concluding that to proceed further with the investigation was not appropriate: to have done otherwise would have been an unjustified interference with the Interested Party&#8217;s freedom of expression. In <span style="font-style:italic">Miller</span>, the interference was much less intrusive than a decision to charge him with any criminal offence, and yet was unlawful. The outcome in <span style="font-style:italic">Scottow</span>, specifically cited in the decision, adds support to this analysis.<authorialNote class="footnote" marker="3">
+		<p class="FootnoteText" style="text-align:justify"><span style="font-family:'Times New Roman';font-size:11pt"> </span><span style="font-family:'Times New Roman';font-size:11pt">The Claimant appeared to suggest that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">Scottow </span><span style="font-family:'Times New Roman';font-size:11pt">had failed to address </span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">Collins </span><span style="font-family:'Times New Roman';font-size:11pt">such that the latter remained the correct authority. I confess I could not follow this submission: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">Collins </span><span style="font-family:'Times New Roman';font-size:11pt">was specifically referenced and applied positively in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">Scottow </span><span style="font-family:'Times New Roman';font-size:11pt">at [30]-[32].</span></p>
+	      </authorialNote></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant argued that by taking the position that the Interested Party&#8217;s actions constituted lawful free speech the Defendant reduced the dignity and lived experience of the transgender section of the public to such a degree that it subjected transgender people to a form of psychological punishment, which amounted to degrading treatment contrary to the ECHR, Article 3; and/or a breach of their rights to privacy and family life under Article 8 and their rights to enjoyment of Convention Rights without discrimination under Article 14. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I cannot accept these arguments. It is simply not realistic to assert that by failing to investigate the Interested Party further the Defendant has subjected anyone to psychological punishment in breach of Article 3, bearing in mind the high threshold imported by that article. Any interference with the rights under Article 8 and/or Article 8 and 14 read together that flowed from the Defendant&#8217;s decision (and I cannot immediately see that there would be such an interference) would be justified by the requirements to respect the rights of the Interested Party under Article 10.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For all these reasons the Defendant did not incorrectly apply the law in the manner set out in the central issue.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.5in;text-indent:-0.5in"><span style="font-style:italic">Further submissions made by the Claimant</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s submissions in writing and orally ranged over a series of further issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">First</span>, she contended that the Defendant had also incorrectly applied the law by concluding that no other reportable offences were disclosed by the Interested Party&#8217;s conduct. She cited as possibilities the offence of harassment contrary to the Protection from Harassment Act 1997, s.2 and/or the harassment, alarm and distress offences set out in the Public Order Act 1986, ss.4A and 5. However, even if the constituent elements of any of these offences were made out by the Interested Party&#8217;s conduct, any further investigation of him for these offences would also amount to an unjustified interference with his Article 10 rights for the reason set out above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Second</span>, the Claimant argued that the Defendant had also incorrectly applied the law by relying on the fact that the posts were not directed at a specific person. There was some force in this argument, because neither the <span style="font-style:italic">actus reus</span> nor the <span style="font-style:italic">mens rea </span>for an offence contrary to the CA 2003, s.127 focus on the recipient of the message<authorialNote class="footnote" marker="4">
+		<p class="FootnoteText" style="text-align:justify"><span style="font-family:'Times New Roman';font-size:11pt"> Rather, what is relevant is the use of the public electronic communications network and whether the sender intended to insult those to whom the message related: see [</span><span style="font-family:'Times New Roman';font-size:11pt">33</span><span style="font-family:'Times New Roman';font-size:11pt">] above</span><span style="font-family:'Times New Roman';font-size:11pt"> and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">Cobban v DPP </span><span style="font-family:'Times New Roman';font-size:11pt">[2024] EWHC 1908</span><span style="font-family:'Times New Roman';font-size:11pt">.</span></p>
+	      </authorialNote>; and because there has been at least one conviction for using threatening, abusive or insulting words with intent to cause harassment, alarm or distress to the general group of &#8220;users of the Twitter Internet Messaging Service&#8221;<authorialNote class="footnote" marker="5">
+		<p class="FootnoteText"><span style="font-family:'Times New Roman';font-size:11pt"> </span><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">R v Liam Stacey </span><span style="font-family:'Times New Roman';font-size:11pt">(Unreported, Swansea Crown Court, 30 March 2012)</span></p>
+	      </authorialNote>. However, even if the Defendant erred in considering either of these statutory regimes, the Article 10 arguments considered above would still apply to justify taking no further action against the Interested Party.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Third</span>, the Claimant argued that the Defendant had erred in finding that the information provided was &#8220;not sufficient to identify a suspect&#8221; and that the &#8220;&#8230;the [cost] incurred to GMP would outweigh any chance of conviction and thus an investigation would not be appropriate&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I doubt that either of these submissions fall within the grant of permission because they do not obviously involve an incorrect application of the law; and because in her SFG and skeleton argument, the Claimant deployed these points in support of her grounds contending that the Defendant was institutionally transphobic, on which permission was not granted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event, the first of these observations was immediately followed by the sergeant saying &#8220;and should a suspect be identified&#8221; before explaining the legal principles that justified taking no further action (ie. whether a specific suspect was in mind or not). It is therefore clear that the decision was not made on the basis that a suspect could not be identified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also note that both these observations were made by the sergeant and were not specifically adopted by the inspectors: see [26] and [28] above. Accordingly, they do not appear to have been material considerations in the final decision, which was based on a correct application of the legal principles for the reasons given above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Fourth</span>, the Claimant challenged the observations by the sergeant and the inspector respectively that &#8220;[t]he onus is on the social media companies to police the platform&#8221; and &#8220;[i]t is not for the Police to investigate every comment made on social media&#8221;. She contended that some social media platforms do not adequately protect users from abuse; and that the second of these observations was a &#8220;highly unprofessional, churlish and arrogant&#8221; remark, intended to have a &#8220;chilling effect&#8221; and to discourage her from reporting any further crimes to the Defendant. She argued that it illustrated the Defendant&#8217;s &#8220;disdain&#8221; for dealing with complaints from LGBTQ individuals. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I doubt that these arguments fall within the grant of permission as again they do not involve any obvious application of the law. However, even if they do, I do not consider that they rendered the Defendant&#8217;s decision unlawful. I accept Ms Collier&#8217;s submission that these were &#8220;passing&#8221; comments which were not the reason why no further action was taken against the Interested Party: rather, that was a decision based on application of the relevant legal principles. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Moreover, the officers were entitled to allude to other remedies open to the Claimant by virtue of the role of social media organisations. The latter of the two observations was entirely accurate: it is not, as a matter of fact, the role of the police to investigate every comment on social media. Rather, it is their role to investigate only those comments which might involve the commission of criminal offences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Fifth</span>, the Claimant advanced submissions in her skeleton argument for the hearing to the effect at the Defendant had breached the obligations arising from the public sector equality duty in the Equality Act 2010, s.149. However, the Claimant had not been granted permission in relation to this ground.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Therefore, none of these further submissions have changed my conclusion on the central issue.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, for all these reasons, the Claimant&#8217;s claim is dismissed. The Defendant&#8217;s decision to take no further action against the Interested Party was both lawful and correct.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

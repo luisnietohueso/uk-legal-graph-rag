@@ -1,0 +1,885 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/13"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/13"/>
+	  <FRBRdate date="2025-04-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="13"/>
+	  <FRBRname value="Glasgow City Council v X (Scotland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/13"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/13"/>
+	  <FRBRdate date="2025-04-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/13/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/13/data.xml"/>
+	  <FRBRdate date="2025-04-09T10:20:52" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="glasgow-city-council" href="" showAs="Glasgow City Council"/>
+	<TLCPerson eId="x" href="" showAs="X"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lady-simler" href="/judge-lady-simler" showAs="Lady Simler"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>13</uk:number>
+	<uk:cite>[2025] UKSC 13</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>fb3134627cd4de18a9e6ca76bdb3b2a1336cf68085dee8659426cc6233327624</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading1 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.87in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { text-align: justify; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: AdvP459842; font-size: 12pt; color: #000000; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences" style="text-align:left"><span style="color:#FF0000">THE COURT ORDERED that no one shall publish or reveal the name or address of the Appellant or reveal any information which would be likely to lead to the identification of the Appellant or of any member her family in connection with these proceedings.</span></p>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2025] UKSC 13</neutralCitation><br/><span style="font-style:italic">On appeal from: [2023] CSIH 7</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentJudges"><party refersTo="#glasgow-city-council" as="#respondent" style="font-size:20pt">Glasgow City Council</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"> </span><party refersTo="#x" as="#appellant" style="font-size:20pt">X</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">) (Scotland)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-hodge-deputy-president">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lady-simler">Lady Simler</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2025-04-09" refersTo="#judgment">9 April 2025</docDate><br/><br/>Heard on 14 January 2025</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Roddy Dunlop KC<br/>Mike Dailly<br/>(Instructed by Drummond Miller LLP (Edinburgh))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>David Johnston KC<br/>Graham R Middleton<br/>(Instructed by Harper Macleod LLP (Edinburgh))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="JudgmentAppRespInt"><span style="font-style:italic">Intervener (written submissions only)</span><br/>Adrian Stalker<br/>Zia Nabi<br/>(Instructed by Balfour + Manson LLP (Edinburgh))</p>
+	    <p class="NewSpeech">Lady Simler <span style="text-transform:none">(with whom Lord Reed, Lord Hodge, Lord Sales and Lord Hamblen agree)</span>: </p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;font-size:13pt">1.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Introduction</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This appeal concerns the scope of the interim duty imposed on local authorities in Scotland by section 29(1) of the Housing (Scotland) Act 1987 (&#8220;the 1987 Act&#8221;) and article 4(b) of the Homeless Persons (Unsuitable Accommodation) (Scotland) Order 2014 (SSI 2014/243) (&#8220;the 2014 Order&#8221;). It is not in doubt that section 29(1) imposes a mandatory duty on local authorities to secure accommodation on an interim basis that is not unsuitable within the meaning of the 2014 Order. The question is whether such accommodation will be unsuitable within the meaning of the 2014 Order unless it meets all the needs of the applicant and each member of the applicant&#8217;s household. The answer to that question depends on the meaning and effect of the phrase &#8220;taking into account the needs of the household&#8221; as it appears in article 4(b) of the 2014 Order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant and her husband were entitled to be housed as homeless by the respondent local authority with effect from 4 February 2020. Their household also comprises four children, three daughters and a son, who has an autism diagnosis and special needs accordingly. A four-apartment property (three bedrooms and a living room) was secured by the respondent for them on an interim basis in February 2021. Their permanent accommodation needs were assessed in a report dated 21 July 2021 as a &#8220;five-apartment property in order to accommodate their son&#8217;s additional support needs &#8230;&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant challenged the four-apartment accommodation provided by the respondent as unsuitable and contends that the respondent acted unlawfully in securing it on her behalf. She succeeded in her claim for judicial review in the Outer House of the Court of Session before the Lord Ordinary, Lord Ericht who held at para 31 that &#8220;the respondent is under an absolute duty to provide temporary accommodation to the petitioner which is suitable for occupation by the petitioner&#8217;s household, taking into account the additional support needs of the petitioner&#8217;s son. To put it in another way, the respondent is under an absolute duty to provide a five-apartment property.&#8221; ([2022] CSOH 35; 2022 SLT 554). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The decision was overturned on appeal by the Second Division of the Inner House of the Court of Session (the Lord Justice Clerk, Lord Malcolm and Lord Tyre) in a judgment dated 31 January 2023 ([2023] CSIH 7; 2023 SC 153). The Inner House held that, on a true construction of section 29 and article 4(b), the &#8220;test of &#8216;suitability&#8217; may be met even where the<span style="color:#000000"> temporary accommodation does not meet any special needs of individual members in all respects, so long as account is taken of the general needs of the household and the decision of the local authority in that regard is a reasonable one&#8221; (para 43). It reached that conclusion having regard to the &#8220;striking differences in the wording&#8221; of the statutory provisions which impose a duty to meet particular needs in relation to permanent accommodation, and those that relate to the suitability of temporary </span><span style="font-family:'Times New Roman';color:#000000">accommodation (para 38); the absurdity which results from the construction of article 4(b) advanced by the appellant (para 40); and the incompatibility of the appellant&#8217;s position with the practical operation of the statutory scheme (para 41).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant appeals from that decision, leave to appeal having been granted by the Supreme Court. The arguments are in essence as follows. Roddy Dunlop KC contends on the appellant&#8217;s behalf that, properly interpreted, section 29 and the 2014 Order together mean that the local authority&#8217;s interim duty is to secure accommodation which meets all the homeless applicant&#8217;s needs as well as the needs of the members of the applicant&#8217;s household residing with her. There is no distinction between general and special needs in this regard. Failure to meet all needs renders the accommodation unsuitable within the meaning of article 4(b) of the 2014 Order. The Inner House was therefore wrong to reverse the decision of the Lord Ordinary on this basis and was wrong to conclude that the four-apartment property secured for the appellant was suitable for her and her family accordingly. For the respondent, David Johnston KC contends that the interim duty in section 29 simply requires the local authority to consider the needs of a homeless applicant and all members of her household when securing suitable accommodation but does not extend to requiring the authority to secure accommodation which meets all the needs of each member of the household; that was the respondent&#8217;s approach here and it cannot be impugned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The court has also had the benefit of written submissions from the charity, Shelter, The National Campaign for Homeless People Ltd (&#8220;Shelter&#8221;), which supports the appellant&#8217;s case and submits that the effect of the decision of the Inner House is to sanction an approach by local authorities where the needs of homeless applicants and their households are not properly assessed or taken into account; and that no proper analysis had been conducted of the basis on which the respondent decided that the accommodation provided to the appellant was not unsuitable for her household.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The court is grateful for the excellent arguments it received, both written and oral, on both sides. The submissions were characterised by brevity and concision which added significantly to their persuasiveness and clarity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;font-size:13pt">2.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The legislative framework</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Part II of the 1987 Act imposes statutory duties on Scottish local authorities in respect of those who are homeless or threatened with homelessness. Section 24(2) provides that a person is treated as having no accommodation in the United Kingdom or elsewhere (and is therefore homeless under section 24(1)) if there is no accommodation which he, together with any other person who normally resides with him as a member of his family, is entitled to occupy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If a person, the applicant, applies to a local authority for accommodation or assistance in obtaining accommodation, the authority must make such inquiries as are necessary to satisfy themselves as to whether the applicant is homeless or threatened with homelessness and may also inquire into whether or not he or she became homeless or threatened with homelessness intentionally: section 28(1) and (2). There is no dispute in this case, that the appellant was an unintentionally homeless applicant within the meaning of Part II of the 1987 Act and that an interim duty to secure accommodation was owed to her by the respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There are two separate duties imposed on local authorities: an interim duty to secure accommodation imposed by section 29 and a duty to secure permanent accommodation imposed by section 31.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 29 of the 1987 Act provides as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;29.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Interim duty to accommodate.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If the local authority have reason to believe that an applicant may be homeless they shall secure that accommodation is made available for his occupation &#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">pending any decision which they may make as a result of their inquiries under section 28.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">where the applicant has, under section 35A, requested a review of a decision of the authority, until they have notified him in accordance with section 35B of the decision reached on review.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">where, by virtue of a decision referred to in paragraph (a) or (b), the authority have a duty under section 31 to secure that accommodation of a particular description becomes available for the applicant&#8217;s occupation, until such accommodation becomes available.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In subsection (1), &#8220;accommodation&#8221;, in the first place where the expression occurs, does not include accommodation of such description as the Scottish Ministers may, by order made by statutory instrument, specify. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Such an order may &#8212; (a) specify any description of accommodation subject to conditions or exceptions, (b) make different provision for different purposes and different areas.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The duty under section 31 arises once the applicant has been found to be homeless by the local authority. So far as material section 31 provides: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;31.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Duties to persons found to be homeless</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This section applies where a local authority are satisfied that an applicant is homeless.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where they are not satisfied that he became homeless intentionally, they shall, unless they notify another local authority in accordance with section 33 (referral of application on ground of local connection) secure that permanent accommodation becomes available for his occupation.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For the purposes of subsection (2), &#8216;permanent accommodation&#8217; includes accommodation&#8212; (a) secured by a Scottish secure tenancy, (b) &#8230; (c) where paragraph 1<span style="font-weight:bold">, </span>2 or 2A<span style="font-weight:bold"> </span>of schedule 6 to the Housing (Scotland) Act 2001 (asp10) is satisfied in relation to the applicant, secured by a short Scottish secure tenancy. (d) secured by a private residential tenancy.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In other words, permanent accommodation means a secure tenancy: see section 31(5). However, section 32(5) makes further provision as to what is meant by accommodation for these purposes, including as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In section 31 and in this section, &#8220;accommodation&#8221; does not include accommodation </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-weight:bold"/>that is overcrowded within the meaning of section 135 or which may endanger the health of the occupants. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">that does not meet any special needs of the applicant and any other person referred to in section 24(2), or </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">that it is not reasonable for the applicant to occupy.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The critical provision in this case is article 4(b) of the 2014 Order (as amended). The 2014 Order was originally made by the Scottish Ministers pursuant to section 29(3) and (4) of the 1987 Act. Article 3 makes clear that the 2014 Order applies to accommodation provided to an applicant under section 29. Article 2 defines &#8220;household&#8221; as meaning &#8220;the applicant and any person who resides, or might reasonably be expected to reside, with the applicant&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 4 sets out what is &#8220;unsuitable&#8221; accommodation in all circumstances, and therefore accommodation that cannot be provided pursuant to the interim duty in section 29(1). The 2014 Order has been amended twice. As originally enacted, article 4 provided that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In all circumstances, accommodation is unsuitable if it is&#8212; </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not wind and watertight; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not suitable for occupation by children.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">With effect from 6 May 2020, the 2014 Order was amended by the Homeless Persons (Unsuitable Accommodation) (Scotland) Amendment Order 2020 (SSI 2020/139) so that article 4 read:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In all circumstances, accommodation is unsuitable if it is: </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not wind and watertight;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not suitable for occupation by a homeless household; or </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not meeting minimum accommodation safety standards.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The 2014 Order was again amended by the Homeless Persons (Unsuitable Accommodation) (Scotland) Amendment (No 2) Order 2020<span style="font-family:PalatinoLinotype-Roman"> </span>(SSI 2020/419) with effect from 31 January 2021. The explanatory notes which accompanied SSI 2020/419 say, &#8220;Article 2(3) amends article 4(b) of the 2014 Order so that the needs of a household are considered in determining whether accommodation is suitable for occupation by them.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In its current, as amended form, and as applicable to the present case, the 2014 Order provides so far as material:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;3.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This Order applies to accommodation provided to an applicant under section 29 of the 1987 Act (interim duty to accommodate an applicant who may be homeless).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In all circumstances, accommodation is unsuitable if it is&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not wind and watertight;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not suitable for occupation by a homeless household, taking into account the needs of the household; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">not meeting minimum accommodation safety standards.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">5.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Unless any of the circumstances in article 6 apply, accommodation is also unsuitable if it&#8212;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">is not in the locality of facilities and services for the purposes of health and education which are being used, or might reasonably be expected to be used, by members of the household, unless those facilities are reasonably accessible from the accommodation, taking into account the distance of travel by public transport or transport provided by a local authority;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">lacks within the accommodation adequate toilet and personal washing facilities for the exclusive use of the household which meet the accessibility needs of the household</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">lacks adequate and accessible bedrooms for the exclusive use of the household;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">is accommodation within which the household does not have the use of adequate and accessible cooking facilities and the use of a living room;  &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(g)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">is not in the locality of the place of employment of a member of the household, taking into account the distance of travel by public transport or transport provided by a local authority; &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">While article 4 applies in all circumstances where the interim duty arises, the suitability disqualifications in article 5 are disapplied by article 6 in certain specified circumstances, including where the local authority believes that the homelessness has resulted from an emergency such as flood, fire or other disaster (article 6(a)).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 7 permits a local authority to provide accommodation that does not meet the requirements of article 5 for a maximum period of seven days where the applicant seeks accommodation outside normal business hours or where the local authority has no accommodation suitable for a homeless applicant. Finally, as regards a household which does not include children or a pregnant woman, article 7A permits a local authority to provide accommodation in the form of &#8220;community hosting&#8221; which would otherwise be unsuitable in terms of article 5 because it lacks adequate exclusive toilet and personal washing facilities or is not usable by the household for 24 hours a day.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold;font-size:13pt">3.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Policy statements and guidance</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A Policy Note accompanied the amendments made by SSI 2020/419 and was laid before the Scottish Parliament so that the Parliament was able to consider it as part of the process of making the order. The function of a Policy Note (like Executive Notes before them) is to explain the purpose and policy objective of the delegated legislation in question. The Policy Note explained that the purpose of the 2014 Order was to rectify issues identified in the drafting of the 2020/139 amendment and to provide &#8220;clarity on the terms used in the Order to support local authorities in their duty to provide temporary accommodation&#8221; (para 5). Paragraph 11 explained that the amendment includes: &#8220;adding wording to ensure that the physical accessibility and suitability needs of vulnerable people are met&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 7 November 2019 the Scottish Ministers published a code of guidance for local authorities. Annex A contains advisory standards for temporary accommodation. One of the specified physical standards is that the accommodation should &#8220;be accessible and able to meet the needs of any disabled person within the household&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Further (non-statutory) guidance was published in January 2021 by the Scottish Ministers, relating specifically to the 2014 Order (headed &#8220;Guidance for the Homeless Persons (Unsuitable Accommodation) (Scotland) Order 2014 (as amended)&#8221;). The expressed objective of the guidance is to help local authorities &#8220;in their duties to assist people who are threatened with or who are experiencing homelessness&#8221; and it states that it &#8220;aims to explain the changes that have been created by the new legislation as well as providing clarity on the definitions and exemptions to help local authorities with the implementation of the Unsuitable Accommodation Order extension&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Policy Note and the 2021 guidance are together relied on by Mr Dunlop as persuasive in relation to the meaning to be given to the legislative provisions in issue for which the appellant contends, as well as the purpose of the controversial provisions. Mr Dunlop submitted that both documents provide strong pointers away from the conclusion of the Second Division that &#8220;needs&#8221;, in article 4(b) of the 2014 Order as amended, mean &#8220;general&#8221; needs only, so that &#8220;special&#8221; needs are to be ignored; and that &#8220;the article 4 test of &#8216;suitability&#8217; may be met even where the temporary accommodation does not meet any special needs for individual members in all respects, so long as account is taken of the general needs of the household and the decision of the local authority in that regard is a reasonable one&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Dunlop emphasised the following statements in the 2021 guidance as supporting the appellant&#8217;s case on construction:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">&#8220;Local authorities need to undertake a robust risk assessment process as part of their housing support service that takes into consideration all the needs, including assessing any support needs and vulnerabilities, of the homeless household to ensure that the accommodation being offered meets the specific circumstances of the household&#8221; (para 1.7).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">&#8220;SSI 2020/139 amends [article] 4(b) of the 2014 Order to reflect that in all circumstances, accommodation is unsuitable if it is not suitable for occupation by a homeless household&#8221; (para 2.6).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.62in">&#8220;However, as mentioned at section 2.2 above, the SSI at Annex B has been enhanced to ensure that the needs of vulnerable people are met&#8221; (para 2.7).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">&#8220;To support local authorities in meeting the needs of vulnerable households, they could explore options for taking forward personal housing plans, as referenced in the Ending Homelessness Together action plan. This will help to assess the needs of differing homeless household groups and ensure that a person centred approach is applied&#8221; (para 2.8).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(v)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">&#8220;In assessing whether accommodation is unsuitable for a homeless household, a local authority must take account of the needs of each member of the household, including any protected characteristics, equality considerations or vulnerabilities around psychological informed service delivery and childhood trauma&#8221; (para 3.4).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 37 of the 1987 Act requires a relevant authority (including a local authority) to have regard, in the exercise of their functions in relation to homeless persons, to such guidance as may from time to time be given by the Secretary of State. Mr Dunlop pointed out that the 2021 guidance (referred to in para 23 above) states at para 1.3 that &#8220;Section 37(1) requires local authorities to have regard to Guidance issued by Scottish Ministers &#8230;&#8221; (The same point is made by the Inner House in their judgment at para 13). On either basis (whether given by the Secretary of State or the Scottish Ministers) Mr Dunlop submits that the guidance has &#8220;to be taken seriously into account when it deals with the factual matters which are relevant to the application of the legal tests&#8221;: <span style="font-style:italic">Boyle v SCA Packaging Ltd </span>[2009] ICR 1056, per<span style="font-style:italic"> </span>Lady Hale at para 67.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-weight:bold;font-size:13pt">4.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The facts</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant and her family arrived in the United Kingdom in 2013. They later claimed asylum here. On 4 February 2020 the appellant and her husband were notified by the Home Office that they had been granted asylum and refugee status, with leave to remain for five years. Prior to that point, they had been living in accommodation provided by the Home Office. The effect of the grant of refugee status was that they were no longer entitled to Home Office accommodation. Accordingly, they became homeless persons and the obligation to house them passed to the respondent as the relevant local authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In February 2021 the respondent secured temporary accommodation for the family in accordance with the interim duty imposed on it by section 29. That accommodation was in a four-apartment property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Meanwhile, the respondent investigated the housing needs of the appellant and her family. An assessment was conducted by Jacci Bickerstaff, an occupational therapist, on behalf of the respondent. Her report dated 21 July 2021, headed &#8220;Homeless Occupational Therapy Service Housing Needs Recommendations&#8221;, included the following finding: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;This family need a 5 apartment property in order to accommodate their son&#8217;s additional support needs and a garden would also be beneficial with regard to this.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Despite that assessment the respondent continued to house the family in a four-apartment property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 10 August 2021, the appellant&#8217;s solicitor wrote to the respondent requesting an urgent review of the suitability of the current accommodation and an outline plan for moving the family to alternative housing as a matter of urgency. The respondent&#8217;s response, also dated 10 August 2021, explained the significant pressures on housing resources available to the respondent and the difficulty securing an offer of settled housing for the family due to their requirement for a 5/6 apartment property because of the &#8220;very limited supply and turnover of larger properties in the Housing Association sector in Glasgow&#8221; which in turn meant that larger households had to wait substantially longer for an offer of settled housing than other households.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The respondent&#8217;s caseworker assigned to the appellant was William Fulton who provided an affidavit dated 6 January 2022, in response to the application for judicial review. As the Lord Ordinary observed, it is clear from the affidavit that Mr Fulton was not unsympathetic to the appellant and her family and had been doing his best to assist them. However, as Mr Fulton explained:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Glasgow City Council does not have its own housing stock. Glasgow City Council transferred all its housing stock as part of a stock transfer process on 3 March 2003. The stock was transferred to Glasgow Housing Association and since that time some of it has been transferred to other registered social landlords. This means that Glasgow City Council gets the houses it uses for interim accommodation from registered social landlords. It also means that the offers of permanent accommodation are offers secured from registered social landlords. Registered social landlords will usually cooperate with Glasgow City Council in making both interim and permanent accommodation available. However, what Glasgow City Council receives is dependent on what registered social landlords have available.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Fulton&#8217;s witness affidavit continued as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;13.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This a five-apartment case. That means that the permanent accommodation that is eventually secured must be a five-apartment house: four bedrooms and a living room. It is a five-apartment case due to the size and makeup of the family. It is also a five-apartment case because registered social landlords have policies stating that living rooms should not be used as sleeping accommodation. In this case we have a couple and four children who are ten years of age or over. Three of the children are girls and one a boy. The children are of an age where a maximum of two persons may share a room. The boy is of an age where it is considered inappropriate for him to share a room with a sister. Accordingly, there is a need for four rooms to be used as sleeping accommodation: one for [the appellant] and husband; one for two of the daughters; one for one daughter; and one for the son.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">14.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">By the strict letter of the law a four-apartment house would do for [the appellant&#8217;s] family. The rules on overcrowding can be found at section 135 and 136 of the Housing (Scotland) Act 1987. In these sections the definition of sleeping accommodation includes the living room. However, no registered social landlord will grant a tenancy on a permanent basis if it means the living room must regularly be used as sleeping accommodation. This is a policy decision by the RSLs. To my knowledge this policy has never been challenged by Glasgow City Council. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">15.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The difficulty with a five-apartment case is the scarcity of five apartment accommodation. Five apartment accommodation is generally occupied by permanent tenants and becomes available when someone passes away or moves. It can take a very long time to get an offer of five apartment accommodation, even longer if a person will not consider offers outwith specified areas. In respect of [the appellant&#8217;s] application, no five apartment houses have become available during the time of her application. I check this at intervals. Even if one did become available, it is by no means certain that it would be offered to [the appellant] as there will be families in similar circumstances who have earlier homelessness application dates. There are larger families who would need a five apartment as interim accommodation while waiting for an even scarcer six apartment. All this means that it could be many months or more than a year before a five-apartment house becomes available to [the appellant] and her family.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">26.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">On 29 July 2021 I received a report from Jacci Bickerstaff, an Occupational Therapist. This report had been requested to help identify any specific needs the family may have due to disability. &#8230; The main requirement appears to be a room for the [the appellant&#8217;s son] due to his condition. I gather this means there will be times when he needs to be in a room by himself. This confirms that we should be looking for a five-apartment house as permanent accommodation. In respect of the current accommodation it is possible for him to be allocated his own room within four apartment accommodation if the living room is used by others as sleeping accommodation. Again, this is not ideal but there is no<span style="font-family:Arial"> </span>five-apartment accommodation currently available.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">27.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">... There is certainly no five apartment interim accommodation within the preferred areas and there is unlikely to be any soon. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 26 March 2024 the respondent offered the appellant and her household alternative temporary accommodation in the form of a five-apartment property. They took up occupation of that alternative temporary accommodation on 1 May 2024 and it is understood that this accommodation meets the needs of the appellant and her household, including the needs of her son. The appellant has since then accepted the accommodation as permanent and a Scottish secure tenancy was entered into with effect from 13 January 2025,  discharging the respondent&#8217;s duty under section 31 of the 1987 Act.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold;font-size:13pt">5.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The approach to statutory interpretation</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The general approach to statutory interpretation is well-established and not in dispute. In <span style="font-style:italic">R (Project for the Registration of Children as British Citizens) v Secretary of State for the Home Department</span> [2022] UKSC 3; [2023] AC 255 Lord Hodge DPSC, giving the leading judgment, stated:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;29.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The courts in conducting statutory interpretation are &#8216;seeking the meaning of the words which Parliament used&#8217;: <span style="font-style:italic">Black-Clawson International Ltd v Papierwerke Waldhof-Aschaffenburg AG </span>[1975] AC 591, 613 per Lord Reid. More recently, Lord Nicholls of Birkenhead stated: &#8216;Statutory interpretation is an exercise which requires the court to identify the meaning borne by the words in question in the particular context&#8217; (<span style="font-style:italic">R v Secretary of State for the Environment, Transport and the Regions, Ex p Spath Holme Ltd </span>[2001] 2 AC 349, 396.) Words and passages in a statute derive their meaning from their context. A phrase or passage must be read in the context of the section as a whole and in the wider context of a relevant group of sections. Other provisions in a statute and the statute as a whole may provide the relevant context. They are the words which Parliament has chosen to enact as an expression of the purpose of the legislation and are therefore the primary source by which meaning is ascertained. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As Lord Hodge went on to explain at paras 30 and 31, external aids to construction are secondary. Explanatory notes (and the like) may cast light on the meaning of particular statutory provisions. However, external aids cannot displace the meaning conveyed by the words of a statute that are clear, unambiguous and do not produce absurdity. The court&#8217;s task is to make <span style="color:#000000">an objective assessment of the meaning intended to be conveyed by a reasonable legislature in using the statutory words. The controversial provisions should therefore be read in the context of the section as a whole and in the wider context of a relevant group of sections. Other provisions in a statute and the statute as a whole may provide the relevant context. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold;font-size:13pt">6.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The proper interpretation of section 29 and article 4(b)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The starting point must be the words of article 4(b) read with section 29 of the 1987 Act, understood in the context of the 2014 Order and having regard to the purpose underlying Part II of the 1987 Act, and the different duties imposed by sections 29 and 31 of the 1987 Act. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Part II of the 1987 Act deals with the imposition of duties on local authorities to persons who face the immediate problem of homelessness. There are two main duties: an interim duty to secure temporary accommodation (provided for by section 29) and a duty to secure permanent accommodation (provided for by section 31). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The scheme of the 1987 Act is that it distinguishes between the two duties to secure suitable accommodation which arise at different stages of the local authority&#8217;s process of addressing a homelessness application. The first stage involves the interim duty to provide temporary accommodation under section 29 and the second, the duty to provide permanent accommodation under section 31. The duty imposed on local authorities is a duty to secure that accommodation is available for occupation by the homeless person and at each stage, that accommodation must be suitable. But what is suitable to be secured pursuant to the interim duty is not necessarily the same as for the more open-ended permanent duty that arises under section 31.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The legislation makes clear that the accommodation to be provided at the interim and permanent stages may be different. It is separately and differently defined. The accommodation provided pursuant to section 29(1) is provided at a time when the local authority has reason to believe an applicant is homeless but has not yet decided that question; it is provided pending conclusion of the local authority&#8217;s inquiries under section 28 and if those inquiries result in a decision that the applicant is not intentionally homeless, until &#8220;permanent&#8221; accommodation becomes available: see section 29(1)(a) and (c). Section 31 then provides the definition of what is required by way of permanent accommodation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The interim duty in section 29 is a duty to &#8220;secure&#8221; that accommodation (which is necessarily temporary) is available pending the next stage of the process. Secure in this context means that the local authority is responsible for ensuring that accommodation is available for occupation by the homeless applicant. Section 29(3) requires that the accommodation secured at this stage does not include accommodation described in the 2014 Order, in other words, accommodation that is unsuitable in the various respects identified by that Order. Article 4 applies &#8220;in all circumstances&#8221; where the interim duty applies. It describes accommodation that is, in all circumstances, unsuitable. Critically, for the purposes of this appeal, accommodation is unsuitable if the accommodation is not suitable for occupation by a homeless household, &#8220;taking into account the needs of the household&#8221;: see article 4(b). The assessment of suitability must therefore involve consideration of the needs of the homeless household, defined by article 2 as meaning &#8220;the applicant and any person who resides, or might reasonably be expected to reside, with the applicant&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The concept of the &#8220;needs of the household&#8221; (that is of the applicant and each member living with the applicant) is relevant at both the interim duty stage and at the section 31 (permanent) stage. The &#8220;needs&#8221; referred to in both cases are their needs as regards accommodation. These may be special or particular (for example, resulting from a protected characteristic such as disability or other medical or physical needs or vulnerability that affects a person&#8217;s ability to access the accommodation or the nature of the accommodation that will be suitable for them); or the needs may be general (for example, resulting from the number of members of the household or their ages). There is no warrant for any gloss on the word needs or the phrase the &#8220;needs of the household&#8221;. To the extent that the judgment of the Inner House has been read or understood as drawing a distinction between special, particular or general needs (whether of the household or of individuals living with the applicant), then that is wrong. Needs in this context means all relevant needs as regards accommodation, whether special or particular, general, medical or otherwise. This is not contested by Mr Johnston on behalf of the respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, while the word &#8220;needs&#8221; means the same thing in each case, the concept of the &#8220;needs&#8221; of the household plays a different role in determining whether accommodation is suitable for the purposes of the statutory rules applying to (a) interim accommodation and (b) permanent accommodation. By section 29(3), interim accommodation cannot be provided if it is &#8220;not suitable&#8221; in terms of article 4(b) of the 2014 Order which requires that the assessment of suitability is done &#8220;taking into account&#8221; the needs of the household. By contrast, by sections 31 and 32(5), to be suitable permanent accommodation must &#8220;meet any special needs&#8221; of the applicant and the homeless household.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold;font-size:13pt">7.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The fundamental distinction drawn by the legislation between &#8220;meeting&#8221; and &#8220;taking into account&#8221; needs</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is, accordingly, a fundamental distinction drawn by the legislation between the duty to <span style="font-style:italic">meet needs</span> imposed in relation to permanent accommodation and the duty to <span style="font-style:italic">take account of needs</span> imposed in relation to interim accommodation. The first is a results or outcome driven duty and the second is a process duty requiring needs to be considered but not requiring them to be met. The distinction is one that is well recognised in other legislative schemes (see for example the duty to have &#8220;due regard&#8221; in section 149 of the Equality Act 2010 which does not dictate a particular outcome or result but is a duty on public bodies to consider &#8211; or have due regard for &#8211; the impact of certain equality considerations when exercising their functions). Where the legislation requires needs to be &#8220;taken into account&#8221; it does not introduce a requirement that must be met for the accommodation to be suitable. Rather, article 4(b) (and the other provisions of the 2014 Order referred to above) introduce a factor which must be taken into consideration when deciding whether or not the accommodation is suitable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The distinction is unsurprising given that the statutory scheme plainly envisages that a local authority will come under a duty to secure temporary accommodation under section 29 before a full needs assessment can take place (as happened here): see for example, <span style="font-style:italic">Dafaalla v City of Edinburgh Council </span>[2022] CSIH 30; [2022] SLT 807, paras 27 and 28. It is understandable in these circumstances <span style="color:#000000">that no obligation to achieve a particular outcome (by providing accommodation that meets needs) is imposed at the interim duty stage. On the other hand, the strikingly different language in sections 31 and 32(5) reflects the fact that, as might be expected, the obligation to secure permanent accommodation is more stringent and demanding: it must both </span><span style="font-style:italic">meet </span>any special needs of the homeless applicant or her household (section 32(5)(b)), and be &#8220;reasonable for the applicant to occupy&#8221; (section 32(5)(c)). <span style="color:#000000">If the appellant&#8217;s case were right the duties under sections 29 and 31would be co-extensive and the distinction drawn by the legislation would not be necessary. Moreover, it is precisely because the section 31 duty is more demanding that the local authority can notify another authority to perform the duty at the permanent stage &#8211; see sections 31(2) and 33 which allow for the section 31 duty to be referred to another local authority with which the homeless applicant has greater local connections </span>&#8211;<span style="color:#000000"> whereas the section 29 interim duty &#8220;arises irrespective of any local connection which an applicant may have with the district of another local authority&#8221; (section 29(2)) and cannot be so referred. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The difference between these duties is important. It is unsurprising that the legislation should draw a distinction that has real substantive force in the context of local authority housing duties given the well-recognised background of constraints on housing and the scarcity of housing resources. Each of these two duties must be seen in the light of what can be done in the performance of the other. Accommodation provided under section 29 is a staging post along the way to permanent accommodation under section 31. Accordingly, as a matter of practical reality, there are likely to be cases where what is suitable for a homeless person to occupy on an interim basis while the authority completes its inquiries or looks for permanent accommodation, will be different to what is suitable in the longer term (see to similar effect in the context of housing duties owed to the homeless in Part VII of the Housing Act 1996 for England and Wales, <span style="font-style:italic">R (Aweys) v Birmingham City Council </span>[2009] UKHL 36; [2009] 1 WLR 1506 at para 47). In approaching a scheme of this kind, the court must have regard to the practicalities of the situation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-weight:bold;font-size:13pt">8.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The wider statutory context and practical operation of the scheme</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The distinction between meeting needs and taking such needs into account is borne out by the language in other provisions of the 2014 Order. First, article 4 itself sets out certain irreducible minimum requirements that must always be met for accommodation to be suitable. In doing so, it uses different language to that used in article 4(b): see the requirement to <span style="font-style:italic">be</span> wind and watertight in article 4(a) and the requirement to <span style="font-style:italic">meet</span> minimum safety standards in article 4(c). Secondly, article 5 specifies certain additional suitability factors and by article 6, these can be derogated from in an emergency or other specified circumstances. The language used in the different subparagraphs of article 5 is significant. Article 5(c) is a requirement that must be met. By contrast, the requirements in articles 5(b) and 5(g) are both factors that must be taken into account, or considered, rather than met in order for suitability to be established. In other words, where the legislature intends the 2014 Order to provide that accommodation will be unsuitable unless it meets a certain requirement or need, it says so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This is also consistent with the practical operation of the scheme. Whereas the requirements of article 5 can be disapplied if the applicant has become homeless because of an emergency (such as a flood, fire or other disaster) and the local authority can then discharge its duty under section 29 by securing accommodation that does not meet the requirements of article 5 (see article 6(a)), article 4 cannot be disapplied. The result on the appellant&#8217;s case would produce incoherence: on her case, if an applicant is made homeless by emergency flooding, the local authority could secure temporary accommodation which did not provide adequate toilet and personal washing facilities for the exclusive use of the household which met the accessibility needs of the household (article 5(c) having been disapplied by article 6(a)), but would nonetheless be required to secure accommodation that met all needs of the applicant and members of her household. Properly interpreted, to discharge its duty under section 29 a local authority must secure accommodation that meets the needs so specified in article 4(a), (c) and those in article 5 (for example, accessible toilet and washing facilities) assuming the requirements in article 5 have not been disapplied. As regards all other needs of members of the homeless household, the local authority&#8217;s obligation is to take them into account when deciding whether accommodation is suitable on a temporary basis. This analysis produces a coherent workable scheme.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For these reasons, I reject the appellant&#8217;s submission that the amendment to article 4(b) of the 2014 Order in 2020 (with effect from 31 January 2021) was intended to improve the rights of homeless persons by bringing the requirements of temporary accommodation closer to those applicable to permanent accommodation as contained in the 1987 Act. Nor is there anything in the appellant&#8217;s argument that the scope of the duty under section 29 of the 1987 Act changes once the local authority has carried out an assessment of the homeless applicant&#8217;s permanent accommodation needs. There is nothing in the legislative provisions to support this and I agree with the respondent that it would, in any event, undermine the duty imposed on the local authority if its scope were determined by the actions (or inactions) of the person on whom the duty falls.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_10">
+	  <num style="font-weight:bold;font-size:13pt">9.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The appellant&#8217;s arguments about the Policy Note and guidance</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my view the language of the statutory scheme is clear and unambiguous. It is capable of being interpreted without any need to refer to the Policy Note or guidance. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In any event, I am not persuaded that these documents do support a different interpretation. Thus for example, although the guidance contains general statements about supporting local authorities in &#8220;meeting the needs of vulnerable households&#8221; and ensuring that &#8220;a person centred approach is applied&#8221; (see for example, para 2.8), para 3.4 is very clear that in &#8220;assessing whether accommodation is unsuitable for a homeless household, a local authority must take account of the needs of each member of the household, including any protected characteristics, equality considerations or vulnerabilities around psychological informed service delivery and childhood trauma&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Moreover, as the respondent submits and I agree, there are various ways in which the intention reflected in the guidance can be achieved. It can be done by placing a statutory duty on the local authority to take into account the needs of the household as a factor relevant to whether temporary accommodation is suitable; or by placing a statutory duty on the local authority to provide temporary accommodation that meets the needs of the household. Both are equally compatible with the policy intention. Accordingly, neither the guidance nor the Policy Note sheds any light on the particular question that is in dispute between the parties in this case. These materials cannot determine the proper interpretation of the legislation &#8211; that is for the courts to do. The Inner House was amply entitled to prefer its own interpretation of the legislation in these circumstances and correct to focus (as it did) on the statutory provisions identifying the extent of the local authority&#8217;s accommodation duty at different stages of the developing process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At the interim duty stage, in assessing suitability, some of the household&#8217;s needs may not be met, but they must be &#8220;taken into account&#8221; (in other words, considered) in deciding whether the accommodation is suitable. Thus, for example, if a homeless household has a member with a known phobia of heights, a consequent need for ground floor accommodation would have to be taken into account in deciding whether accommodation on the upper floors of a high-rise building is suitable. Likewise, in identifying suitable accommodation for a household, the fact that it is comprised of, say, two adults and four teenage children (two boys and two girls with different needs) must be considered in assessing how many bedrooms are required. It is for the local authority, with its in-house expertise and experience, to assess the needs of the household in each case, whatever they might be. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-weight:bold;font-size:13pt">10.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Rationality as the control</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The assessment of suitability under section 29 and article 4(b) is, of course, subject to the supervisory jurisdiction of the court. The control is rationality. Provided the local authority reaches a decision that is within the range of reasonable decisions available, it will not be open to challenge because some needs have not been met. No doubt, it would be irrational to conclude that accommodation on the upper floors is suitable for the household in the first example, and irrational to consider that a small one-apartment property is suitable in the second example. If the decision maker were to leave out of account a relevant matter (material to the accommodation needs of the household) or reach an irrational decision, the applicant would have a remedy on judicial review. It is also the case that when the needs of the household are taken into account, temporary accommodation may be suitable for occupation by that household for a short period, but the point may come beyond which that accommodation ceases to be so and becomes unsuitable: see for example, <span style="font-style:italic">R (Imam) v Croydon London Borough Council </span>[2023] UKSC 45; [2025] AC 335 at para 38.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-weight:bold;font-size:13pt">11.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Application to the facts of the present case</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is no doubt that the accommodation secured for the applicant by the respondent authority did not <span style="font-style:italic">meet</span> the needs of this household as permanent accommodation would have to do. However, at the interim stage, it was not required to do so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In offering the four-apartment flat, the respondent&#8217;s evidence demonstrates that it took into account the needs of the appellant&#8217;s household in deciding what accommodation would be suitable. Critically, the respondent took into account the need for sleeping accommodation in four rooms, so that the appellant&#8217;s son could have his own room (see paras 13, 19 and 26 of Mr Fulton&#8217;s affidavit); and the fact that the needs assessment by the occupational therapist, Ms Bickerstaff, in July 2021 recommended provision of five-apartment accommodation as permanent accommodation for the appellant&#8217;s family. As Mr Fulton explained, that recommendation confirmed his earlier view that permanent accommodation for this household would require five apartments, but in the absence of such a property being available immediately, four-apartment accommodation was the next best thing and was not unsuitable. A four-apartment flat has three bedrooms and a living room. Although this would not be possible on a permanent basis, the living room could be used on a temporary basis for the dual purpose of a living room by day and a bedroom by night, and this enabled the appellant&#8217;s son to have his own space and bedroom. This also met the requirement to provide a living room in article 5. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The decision had proper regard for articles 4 and 5 of the 2014 Order. It was well within the range of reasonable decisions open to the respondent and was a lawful decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_13">
+	  <num style="font-weight:bold;font-size:13pt">12.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Conclusion</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Accordingly, the respondent&#8217;s decision took account of the needs of the appellant and of her household, including any special needs of her family members living with her, in discharging its interim duty under section 29 of the 1987 Act. The interim accommodation provided by the respondent satisfied the requirements of article 4 of the 2014 Order because the respondent took those needs into account in securing accommodation that was suitable for them. The need for a five-apartment property had to be considered but did not have to be met at the interim stage. The respondent duly fulfilled its duty under section 29 of the 1987 Act in these circumstances. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For all these reasons I would dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

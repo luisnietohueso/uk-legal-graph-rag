@@ -1,0 +1,603 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/44"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/44"/>
+	  <FRBRdate date="2025-04-08" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="44"/>
+	  <FRBRname value="T Duncan v Fujitsu Services Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/44"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/44"/>
+	  <FRBRdate date="2025-04-08" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/44/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/44/data.xml"/>
+	  <FRBRdate date="2025-04-08T09:34:17" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="t-duncan" href="" showAs="T Duncan"/>
+	<TLCPerson eId="fujitsu-services-ltd" href="" showAs="Fujitsu Services Ltd"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-tariq-sadiq" href="/judge-his-honour-judge-tariq-sadiq" showAs="HIS HONOUR JUDGE TARIQ SADIQ"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>44</uk:number>
+	<uk:cite>[2025] EAT 44</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>1205fa147d21e2660be2a79ed1c61a7f2079aa25d21cb5174a2042cf59fe7144</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; }
+#judgment .NormalWeb { font-size: 10pt; }
+#judgment .ListParagraph { font-family: 'Times New Roman'; }
+#judgment .legclearfix { font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; }
+#judgment .Footer { font-family: 'Times New Roman'; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .legds { }
+#judgment .legterm { }
+#judgment .HeaderChar { font-family: 'Times New Roman'; }
+#judgment .FooterChar { font-family: 'Times New Roman'; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-size:7pt">Mr T Duncan v Fujitsu Services Ltd</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 44</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-000945-LA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-04-08" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">8 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-tariq-sadiq" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE TARIQ SADIQ</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">MRS RACHAEL WHEELDON </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">DR GILLIAN SMITH MBE</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p style="text-align:center"><party refersTo="#t-duncan" as="#appellant" style="font-weight:bold;font-size:12pt">Mr T Duncan</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party refersTo="#fujitsu-services-ltd" as="#respondent" style="font-weight:bold;font-size:12pt">Fujitsu Services Ltd</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr T Duncan </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">appeared</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> In Person</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr P Michell </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Pinsent Masons LLP</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">)</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 18 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#000000">SUMMARY</span></p>
+      <p style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+      <p style="text-align:justify"><span style="font-size:12pt;color:#000000">The Claimant was dismissed for inappropriate and offensive messages on the employer&#8217;s method of communicating with employees (&#8220;Slack communications&#8221;). The Employment Tribunal (&#8220;ET&#8221;) found applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#000000">Risby</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302"> v London Borough of Waltham Forest</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0318/15/DM </span><span style="font-size:12pt;color:#000000">that although some of the comments were something arising from the Claimant&#8217;s disability, the dismissal was a proportionate response to certain of the Respondent&#8217;s legitimate aims under section 15(1)(b) of the Equality Act 2010. The Claimant appealed on the basis that the ET had (1) not considered whether the use of the language itself arose directly from his disability and (2) insufficiently analysed whether the dismissal was a proportionate means of achieving a legitimate aim. </span></p>
+      <p style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span style="font-size:12pt;color:#000000">Held: </span><span style="font-style:italic;font-size:12pt;color:#000000">dismissing the appeal</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="lvl_1">
+	  <num style="font-size:12pt">(1)</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-size:12pt;color:#000000">The ET had properly considered the case advanced by the Claimant that his comments were an indirect consequence of his disability, applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#000000">Risby</span><span style="font-size:12pt;color:#000000">; (2) the ET went onto to consider the section 15(1)(b) defence properly, had carried out the necessary balancing exercise required and permissibly decided that dismissal was proportionate including considering alternatives to dismissal. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE TARIQ SADIQ:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt;color:#010302">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This is an appeal against the Judgment of the Watford Employment Tribunal (&#8220;the ET&#8221;) sent to the parties on 29 June 2023 who, following a hybrid hearing lasting 18 days allowed 5 out of over 80 pre-dismissal complaints of disability discrimination arising from claims one and two and dismissed all claims of unfair dismissal and disability discrimination arising from claim three. The parties will be referred to as the Claimant and the Respondent as they were before the ET.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt;color:#010302">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By a Preliminary Hearing decision on 8 January 2025, His Honour Judge Tayler allowed Ground 1 of the Amended Grounds of Appeal to proceed regarding the section 15 claim for discrimination because of something arising from disability. The Claimant was dismissed for using inappropriate and abusive language in Slack communications. The two limbs to the Amended Grounds of Appeal are that the ET:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.76in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.76in;margin-right:-0.12in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">    should have considered whether the use of the language itself arose directly from the Claimant&#8217;s disability. The Claimant asserted that he raised the issue of &#8220;involuntary loss of control of emotion&#8221; and asserted that he &#8220;does not understand social rules.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.76in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.76in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">    insufficiently analysed the issue whether the dismissal was a proportionate means of achieving a legitimate aim. For example, the ET does not appear to have considered whether there were options short of dismissal that would reduce the discriminatory impact on the Claimant and provide the Respondent with sufficient assurances that the outburst would not be repeated.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt;color:#010302">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">     The representation at the ET was the same as before the Employment Appeal Tribunal (&#8220;EAT&#8221;). The Claimant appeared in person and Mr Paul Michell of Counsel appeared for the Respondent. We are grateful for their assistance. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt;color:#010302">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant was employed from September 2017 by the Respondent as a Graduate Trainee and then a Software Developer until April 2021 when he was dismissed for gross misconduct. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt;color:#010302">5.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He brought three grievances during his employment, which were all dismissed. The third grievance was dismissed on 8 January 2021 and there was no appeal against the outcome. In the third grievance, the Claimant disclosed &#8220;chat logs&#8221;, namely messages between the Claimant and two other work colleagues, Mr Welek and Miss Skelton, which contained inappropriate and offensive language referred to as &#8220;Slack communications&#8221;. The ET made a finding at paragraph 423 of the Judgment that the Slack communication method was used by employees using a licence purchased by the Respondent. Some of the Slack conversations occurred in work time and all used the Respondent&#8217;s systems. The Claimant was suspended on 8 January 2021 whilst still off sick pending a disciplinary investigation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt;color:#010302">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The 15 January 2021 letter, inviting the Claimant to a disciplinary hearing, attached a five page summary of comments allegedly amounting to inappropriate and offensive language. As regards the other employees involved in using inappropriate and offensive language in the Slack communications, Mr Welek was dismissed without notice and Miss Shelton received a final written warning. Both appealed but their appeals were unsuccessful.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt;color:#010302">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Emma Walton replaced the previous disciplinary hearing manager who was allocated to deal with the Claimant&#8217;s case and invited the Claimant to a disciplinary hearing on 1 March 2021. On 24 February 2021, the Claimant emailed saying that he was not attending the disciplinary hearing, but implied that the hearing should proceed in his absence. The ET made a finding at paragraph 433 that this was not a postponement request and that the email as a whole acknowledged that the hearing should proceed on 1 March 2021. On 24 February 2021, the Claimant sent some detailed information including 17 headings in the category &#8220;my mitigating circumstances are as follows.&#8221; On 1 March 2021, Miss Walton emailed the Claimant acknowledging that he was not attending the disciplinary hearing, that she would take into account the documents he had mentioned and the points raised in his email 24 February 2021 and the Occupational Health report. The ET dealt with the Occupational Health report dated 22 February 2018 at paragraphs 105 to 106 of the Judgment. She asked the Claimant to supply any further information by 5 March 2021. By email the same day, the Claimant replied saying he wanted the matter to be over and had no other documents to add. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt;color:#010302">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 3 March 2021 Miss Walton emailed 12 questions to the Claimant. He replied the same day adding &#8220;I would appreciate no further questions my disabilities.&#8221; On 10 March 2021 Miss Walton repeated her request to see the Claimant&#8217;s Occupational Psychologist, and the Claimant agreed. The reply from the Occupational Psychologist on 17 March 2021 was that she did not consider it appropriate to speak to Miss Walton but the Claimant could share a copy of her report which had already been issued to the Claimant &#8211; see paragraph 440. The Claimant did not disclose a copy of the Occupational Psychologist&#8217;s report to the Respondent and/or for the ET hearing. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt;color:#010302">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">16 April 2021 was the date of the dismissal outcome letter which dismissed the Claimant without notice. Miss Walton found that the allegations of inappropriate and offensive language had been found proven and dealt with the Claimant&#8217;s 17 mitigation points. At paragraph 446, the ET record that the dismissal letter stated:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;I have taken account of your statement that there is a link between your disabilities and the offensive behaviour. I had hoped to explore this particular point in more detail with your Occupational Psychologist, but she was not willing to discuss this with me. Given this issue and the wider context (including the fact that you disclose the chat logs in connection with your own grievance) I considered whether a different sanction, such as a final written warning, may be appropriate. However, on balance I consider that the on-line chat content shows deliberate repeated hateful verbal abuse directed at colleagues, and dismissal is appropriate in the circumstances&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt;color:#010302">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 447, the ET found that Miss Walton dismissed the Claimant for having done the things referred to in the letter, that she generally did take into account a lesser sanction and the mitigation points raised by the Claimant, but honestly believed that dismissal was the appropriate sanction. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt;color:#010302">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant appealed but informed the appeals officer that he could not meet him. At paragraph 449, the ET found that the Claimant replied to the appeals officer that he had spoken to the union who had confirmed that they would not be representing the Claimant in his absence and that he had spoken to various healthcare professionals and been advised to disengage with the process and to focus on his mental health. The hearing proceeded in the Claimant&#8217;s absence and the appeal was dismissed. The ET made a finding at paragraph 450 that Mr Marsden, the appeals officer, did so after considering all of the material presented to him. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The ET&#8217;s decision and reasons</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt;color:#010302">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The three claims were determined by a full ET panel chaired by Employment Judge Quill at an 18-day hearing between October to December 2022. The ET reserved its judgement and deliberated over 8 days between February to April 2023. By decision sent to the parties on 29 June 2023, the ET rejected all but 5 of the complaints of pre-dismissal discrimination and rejected all of the complaints in the third claim that the Claimant&#8217;s dismissal was unfair and/or discriminatory. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt;color:#010302">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET set out its findings of fact at paragraphs 79 to 450 of the Judgment. The facts found by the ET which are relevant to Amended Ground 1 of the appeal are set out under the &#8220;Background&#8221; section of this Judgment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt;color:#010302">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 92, the ET recorded the concession by the Respondent that the Claimant was disabled by virtue of Attention Deficit Hyperactivity Disorder (&#8220;ADHD&#8221;) and Autistic Spectrum Disorder (&#8220;ASD&#8221;), and that the Respondent had knowledge of the Claimant&#8217;s disability from the start of his employment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt;color:#010302">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET dealt with the law at paragraphs 451 to 528 and in particular regarding section 15 of the Equality Act at paragraph 495 to 503. The ET set out section 15 correctly and summarised properly what the Claimant needed to prove regarding the section 15 claim. At paragraph 498, the ET referred to the case of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Risby v London Borough of Waltham Forest</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0318/15/DM accurately summarising that decision.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraphs 500 to 502, the ET correctly summarised the law regarding the employer&#8217;s justification defence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt;color:#010302">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET reached its conclusions at paragraphs 329 to 1163. The ET&#8217;s relevant conclusions regarding the section 15 claim are at paragraphs 1140 to 1163. At paragraph 1140, the ET set out the Claimant&#8217;s section 15 complaint as follows: </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;For the section 15 complaint, the Claimant alleges that the comments are something arising from his disability. He argues that quite apart from communication difficulties being a feature of his disability, in addition, many of the comments are borne out of frustration of the Respondent&#8217;s failures (as he sees it) to make reasonable adjustments and the Respondent&#8217;s disability related harassment and/or discrimination and/or victimisation.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt;color:#010302">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 1141 the ET accepted that, in principle, if causation was made out, this was potentially enough for section 15 to be proven, but said that it was insufficient to simply assert that the comments arose (directly or indirectly) in consequence of the Claimant&#8217;s disability; that assertion had to be factually accurate &#8211; see paragraph 1142.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt;color:#010302">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then at paragraph 1143, in bold and underline, the ET said:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;We highlight for the Claimant&#8217;s benefit that we are about to discuss some of the comments and the contents in the remainder of these reasons.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt;color:#010302">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraphs 1144 to 1147, the ET found that the comments &#8220;stab, stab, stab&#8221;, &#8220;imma fuckin kill you&#8221; and &#8220;I just can&#8217;t believe how much of a cunt he is&#8221; and the &#8220;room had been full of business cunts&#8221; the Claimant crossing out the word &#8220;business&#8221; with &#8220;cunts&#8221;. At paragraph 1149, for some of the comments at least the ET said it was not satisfied that they were something arising from the Claimant&#8217;s disability. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt;color:#010302">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Paragraph 1148, the ET found that the comment &#8220;he is a cunt though&#8221; was slightly connected to the disability issues and that the &#8220;nail him to the cross&#8221; comment was also part of the same discussion. At paragraph 1150 the ET found that &#8220;some others&#8221;, which can only be a reference to these comments, were more closely related to the Claimants&#8217; disputes with the Respondent (about his disability and the lack of willingness to adjust for it) and the ET therefore stated that they would consider the Respondent&#8217;s legitimate aims.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt;color:#010302">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Regarding the employer&#8217;s justification defence, at paragraph 1150 the ET set out the Respondent&#8217;s 7 legitimate aims relied upon including, insofar as is relevant, legitimate aims 2 &#8220;Prevent the use of used threatening language about managers and colleagues&#8221;; 6 &#8220;To prevent harassment another behaviour that leads to a hostile environment&#8221; and 7 &#8220;To prevent threats of violence against colleagues (expressed to other colleagues but directed repeatedly and forcefully at colleagues and managers) in any work-related context&#8221;. The ET accepted that all 7 aims amounted to legitimate aims.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt;color:#010302">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then at paragraph 1152, the ET said:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;On the hypothesis that the words used (for some of the examples) was something arising from disability, we have to consider whether the discriminatory effect on the Claimant of dismissing him is a proportionate means of achieving a legitimate aim.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt;color:#010302">23.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET went on to take account of the following factors in favour of the Claimant regarding proportionality of dismissal, namely impact of dismissal generally having major consequences for the dismissed employees finances and their emotional well-being, and specifically on the Claimant having very far reaching effects on his future career prospects &#8211; see paragraph 1152; agreed that the following factors were relevant factors, namely the claimant&#8217;s assertion that he was (i) joking and (ii) was not making the so-called threats (and other comments) directly to the person concerned, or with the intention that they would find out about it - see paragraphs 1154 and 1156.1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt;color:#010302">24.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, at paragraph 1155, the ET found:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Our overall assessment (for the purposes of considering proportionality) is that the words used are very strong examples of foul language and abusiveness towards colleagues, and a profound lack of respect for the employer.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt;color:#010302">25.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET also considered that the comments had been made in work time and the Claimant ought to have been aware of the possibility that they might come to the Respondent&#8217;s attention &#8211; see paragraph 1157; the Claimant was aware that the Respondent might regard the comments as misconduct, and that is why he chose to supply edited versions because he knew at the time that &#8220;the Respondent might regard the comments as grounds for disciplinary action&#8221; &#8211; paragraph 1158, and the Claimant had sought in his submissions to Miss Walton on 24 February 2021 to justify the remarks and to claim that they were not abusive and not threatening - paragraph 1159.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt;color:#010302">26.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then at paragraph 1160, the ET found:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Overall, our decision is that it is [typo as] proportionate to dismiss an employee for making these remarks in order to pursue the legitimate aims 2, 6 and 7 above, notwithstanding the fact that some of the remarks arose in consequence of disability. The legitimate aims 1, 3, 4 and 5, while important, would not in themselves justify dismissal without further attempt at warning and persuasion.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt;color:#010302">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On that basis, the ET found at paragraph 1161 that the section 15 claim failed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt;color:#010302">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Section 15 of the Equality Act 2010 (&#8220;EqA&#8221;) provides as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">15</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Discrimination arising from disability</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302;margin-left:0.75in;text-indent:-0.25in">(1)</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A person (A) discriminates against a disabled person (B) if &#8211;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:12pt;color:#010302;margin-left:1in;text-indent:-0.25in">(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">  A treats B unfavourably because of something arising in consequence of B&#8217;s disability, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;color:#010302;margin-left:1in;text-indent:-0.25in">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">  A cannot show that the treatment is a proportionate means of achieving a legitimate aim.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302;margin-left:0.75in;text-indent:-0.25in">(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Subsection (1) does not apply if A shows that A did not know, and could not reasonably have been expected to know, that B had the disability.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt;color:#010302">29.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The correct approach regarding section 15 was considered by the Court of Appeal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">City of York Council v Grosset</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">[2018] ICR 1492 where Sales LJ provided the following guidance:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">&#8220;36.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On its proper construction, section 15(1)(a) requires an investigation of two distinct causative issues: (i) did A treat to B unfavourably because of an (identified) &#8220;something&#8221;? and (ii) did that &#8220;something&#8221; arise in consequence of B&#8217;s disability?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">37.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The first issue involves an examination of A&#8217;s state of mind, to establish whether the unfavourable treatment which is in issue occurred by reason of A&#8217;s attitude to the relevant &#8220;something&#8221;&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">38.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second issue is an objective matter, whether there is a causal link between B&#8217;s disability and the relevant &#8220;something&#8221;&#8230;&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt;color:#010302">30.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">If objectively speaking, the relevant &#8220;something&#8221; arose in consequence of the Claimant&#8217;s disability, he has the requisite protection under section 15 subject to the issue of justification under subsection 15(1)(b). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt;color:#010302">31.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Hall v Chief Constable of West Yorkshire Police</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2015] IRLR 893, EAT Laing J held that section 15 was enacted to restore the approach taken in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Clark v Novacold</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [1999] ICR 951 and reverse the effect of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Lewisham London Borough Council v Malcolm</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2008] UKHL 43, and loosen the causal connection required between disability and unfavourable treatment - see paragraph 15. At paragraph 42, Laing J held that it was sufficient for disability to be &#8220;a significant influence&#8230; or a cause which is not the main or sole cause, but is nonetheless an effective cause of the unfavourable treatment.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt;color:#010302">32.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The approach in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Hall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> was followed by Mitting J in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Risby v London Borough of Waltham Forest</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0318/15. That was a case in which a disabled, wheelchair using employee was dismissed for using offensive and racist language. He was angry about a training course having been arranged at a venue that was not accessible to him and shouted at junior colleagues, including saying that &#8220;the council wouldn&#8217;t get away with it if they said no fucking niggers were allowed to attend.&#8221; The ET dismissed the claimant&#8217;s claims of unfair dismissal and disability discrimination. The ET concluded that the claimant&#8217;s short temper was a personality trait and there was no logical connection between the claimant&#8217;s behaviour and his disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt;color:#010302">33.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mitting J held at paragraph 15 that if the claimant had not been disabled, he would not have been outraged by the decision to use a venue without suitable disabled access. His misconduct arose from the indignation caused by that decision:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;His disability was an effective cause of that indignation and so of his conduct, as was, of course, his personality trait or characteristic of shortness of temper, which did not arise out of his disability. On the Employment Tribunal&#8217;s own analysis of the facts, this was a case in which there were two causes of conduct that gave rise to the dismissal, one of which arose out of his disability. In concluding otherwise, the Employment Tribunal erred in law. In consequence, it did not go on to answer the question whether the Respondent had shown that the unfavourable treatment to which the Claimant had been subjected, dismissal, was a proportionate means of achieving the legitimate aim&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt;color:#010302">34.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal was allowed and remitted to a different ET to consider.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt;color:#010302">35.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Section 15(1)(b) of the EqA provides:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">&#8220;(b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">and A cannot show that the treatment is a proportionate means of achieving a legitimate aim.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt;color:#010302">36.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The correct approach to justification requires consideration whether (i) a legitimate aim(s) pursued by the employer and (ii) whether the treatment, here dismissal, was a proportionate means of achieving the legitimate aim. The test of justification is an objective one and the ET must balance the needs of the business with the discriminatory impact on the disabled employee - see paragraph 32 of the decision of the Court of Appeal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Hardys and Hansons Plc v Lax</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2005] ICR 1565. At paragraph 32 Pill LJ said:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;I accept that the word &#8220;necessary&#8221;&#8230;is to be qualified by the word &#8220;reasonably&#8221;. That qualification does not, however, permit the margin of discretion or range of reasonable responses for which the appellants contend. The presence of the word &#8220;reasonably&#8221; reflects the presence and applicability of the principle of proportionality. The employer does not have to demonstrate that no other proposal is possible. The employer has to show that the proposal, in this case for a full-time appointment, is justified objectively notwithstanding its discriminatory effect. The principle of proportionality requires the tribunal to take into account the reasonable needs of the business. But it has to make its own judgement, upon a fair and detailed analysis of the working practices and business considerations involved, as to whether the proposal is reasonably necessary. I reject the appellant&#8217;s submission (apparently accepted by the EAT) that, when reaching its conclusion, the employment tribunal needs to consider only whether or not it is satisfied that the employer&#8217;s views are within the range of views reasonable in the particular circumstances.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt;color:#010302">37.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly, proportionality is not the same as when considering unfair dismissal. In particular, it is not confined to asking whether the decision was within the range of views reasonable in the particular circumstances. The exercise is to be performed objectively by the ET itself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt;color:#010302">38.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 33, Pill LJ made following important statement:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;As this court has recognised.., a critical evaluation is required and is required to be demonstrated in the reasoning of the tribunal. In considering whether the employment tribunal has adequately performed its duty, appellate courts must keep in mind&#8230; the respect due to the conclusions of the fact-finding tribunal and the importance of not overturning a sound decision because there are imperfections in presentation.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Grounds of Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt;color:#010302">39.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There are two limbs to Amended Ground 1. Limb (1) is that the ET should have considered whether the use of the language itself arose directly from the claimant&#8217;s disability. In granting permission, the Claimant argued that he had raised the issue of &#8220;involuntary loss of control of emotion&#8221; and that he &#8220;doesn&#8217;t understand social rules&#8221; before the ET. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt;color:#010302">40.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The question is whether the Claimant advanced his case before the ET of a direct link namely the language itself was because of his disability. We find that he did not. At paragraph 1141 of the Judgment, the ET dealt with the Claimant&#8217;s section 15 case as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;For the section 15 complaint, the Claimant alleges that the comments are something arising from his disability. He argues that quite apart from communication difficulties being a feature of his disability, in addition, many of the comments are borne out of frustration of the Respondent&#8217;s failures (as he sees it) to make reasonable adjustments and the Respondent&#8217;s disability related harassment and/or discrimination and/or victimisation.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt;color:#010302">41.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is clear from paragraph 1141, that the Claimant&#8217;s case before the ET was one of an indirect link between the abusive language and his disability, namely a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Risby</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> type of case of indignation caused by treatment regarding reasonable adjustments. If it had been the Claimant&#8217;s case of a direct link</span><span class="CommentReference" style="font-size:12pt">,</span><span class="CommentReference"> </span><span class="CommentReference" style="font-family:'Times New Roman';font-size:12pt">n</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">amely the language itself was directly because of his disability, the ET would have dealt with that issue. They heard evidence over 18 days and gave a long and detailed Judgment. The Claimant had not raised this issue in his pleadings which had been prepared with the benefit of legal advice. It was not suggested that he had raised the direct link in his witness statement, nor did he submit that the language itself was directly because of his disability in his written closing submissions for the ET hearing. Although the Claimant had been taken ill at the time of completing his written submissions on 13 December 2022, the matter had been adjourned for two months before oral submissions were heard finally by the ET on 13 January 2023. Further, the Claimant raised nothing about the direct link in his reconsideration application to the ET on 13 July 2023. Although the Claimant had mentioned his alleged Coprolalia condition in support of a direct link within a document headed &#8220;Rejection and Correction of Misleading Response via ET3&#8221;, this document had not been included in the bundle for the ET and the Claimant had not asked for it to be included.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt;color:#010302">42.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was very little evidence in support of a direct link, namely that the language itself was because of the Claimant&#8217;s disability. There was no medical evidence before the ET in support of a direct link. The abusive language was only raised in the Slack communications, not outside and in face-to-face meetings with the Respondent in stressful situations including when reasonable adjustments had been raised. See, for example, the Claimant&#8217;s communications with the Respondent on 5 October 2018 at paragraph 155 of the Judgment; 24 October 2018 at paragraph 174; 3 April 2020 at paragraph 293 and 10 June 2020 at paragraph 301. Further, the Claimant had edited the offensive messages when disclosing them to the Respondent and the ET made a finding that the Claimant was aware that the Respondent might regard the comments as misconduct and that is why he had chosen to supply edited versions &#8211; see paragraph 1158. The ET also made findings that the Claimant had not engaged with the disciplinary process including his appeal regarding his explanations for his inappropriate language.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt;color:#010302">43.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For these reasons, we find that limb (1) of Amended Ground 1 is not upheld.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt;color:#010302">44.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Limb (2) of Amended Ground 1 is that the ET insufficiently analysed whether the dismissal was a proportionate means of achieving a legitimate aim. For example, the ET does not appear to have considered options short of dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt;color:#010302">45.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraphs 500 to 502, the ET properly directed itself regarding the law in respect of the justification defence including that it was an objective test, referred to proportionality and less discriminatory means, which would include sanctions less than dismissal, and that the ET should carry out the necessary balancing exercise. The ET correctly identified the seven legitimate aims of the Respondent and accepted at paragraph 1151 that the Respondent did have them. At paragraph 1160, the ET found that dismissal was proportionate in pursuit of legitimate aims 2, 6 and 7 but was not justified in pursuit of legitimate aims 1, 3, 4 and 5 &#8220;without further attempt at warning and persuasion&#8221;. Accordingly, it is clear that the ET did consider options short of dismissal. At paragraph 1155, the ET&#8217;s overall assessment regarding proportionality was that the words used were very strong examples of foul language and abusive towards colleagues. The ET was unarguably correct in finding that this engaged legitimate aims 2, 6 and 7. The ET acknowledged at paragraphs 1154 and 1156.1 that the comments had not been made directly face-to-face to work colleagues, but that dismissal was nonetheless proportionate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt;color:#010302">46.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET found at paragraph 1155 that the comments had been &#8220;very strong examples of foul language and abusiveness towards colleagues&#8221;; they had been made in work time and the Claimant should have been aware of the possibility that they might come to the Respondent&#8217;s attention &#8211; see paragraph 1157; the Claimant was aware that the Respondent might regard comments as misconduct, and that is why he had supplied edited versions because he was aware that &#8220;the Respondent might regard the comments as grounds for disciplinary action&#8221; &#8211; see paragraph 1158. Significantly, at paragraph 1159 the ET found that the Claimant had tried to justify his remarks and suggest that they were not abusive and threatening in his submissions to Miss Walton, the dismissal officer. There is no evidence that the Claimant provided any assurance to the Respondent that his offensive remarks would not be repeated. At paragraph 1160, the ET&#8217;s overall assessment was that it was proportionate to dismiss the Claimant for these remarks, notwithstanding some (the ET expressly found two) arose in consequence of his disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt;color:#010302">47.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to proportionality, the ET made its own assessment, on the evidence it had heard, and was entitled to find that dismissal was justified applying the objective test under section 15(1)(b). This decision discloses no error of law. Accordingly, limb (2) of Amended Ground 1 fails.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt;color:#010302">48.</num>
+	  <content>
+	    <p style="text-align:justify;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For the reasons given above, the appeal is dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

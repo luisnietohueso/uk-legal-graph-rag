@@ -1,0 +1,939 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/26"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/26"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="26"/>
+	  <FRBRname value="Tesco Stores Limited v  K Element &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/26"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/26"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/26/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/26/data.xml"/>
+	  <FRBRdate date="2025-02-27T10:35:22" name="transform"/>
+	  <FRBRdate date="2025-02-27T11:33:28" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="tesco-stores-limited" href="" showAs="Tesco Stores Limited"/>
+	<TLCPerson eId="ms-k-element-&amp;-others" href="" showAs="Ms K Element &amp; Others"/>
+	<TLCPerson eId="all-claimants-represented-by-leigh-day-and-harcus-parker" href="" showAs="(All Claimants represented by Leigh Day and Harcus Parker)"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-james-tayler" href="/judge-his-honour-judge-james-tayler" showAs="HIS HONOUR JUDGE JAMES TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>26</uk:number>
+	<uk:cite>[2025] EAT 26</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>486ed6e52ae8cd331c0bf5ba5282c71c27d63229cc8accc2d3e0205a01290d60</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the Court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:8pt">Tesco v Element &amp; Ors</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 26</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2025-000025-AT</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-02-27" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">27 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-james-tayler" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#tesco-stores-limited" style="font-weight:bold;font-size:12pt">Tesco Stores Limited</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#ms-k-element-&amp;-others" style="font-weight:bold;font-size:12pt">Ms K Element &amp; Others</party></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#all-claimants-represented-by-leigh-day-and-harcus-parker" style="font-weight:bold;font-size:12pt">(All Claimants represented by Leigh Day and Harcus Parker)</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondents</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Tom Coghlin KC</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"> and Mark Greaves</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">instructed by Freshfields LLP for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Sean Jones KC, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Andrew Blake and Rachel Barrett</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">instructed by Leigh Day Solicitors for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondents </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">who are Leigh Day claimants</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Keith Bryant KC and Stephen Butler</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">instructed by Harcus Sinclair (UK) Limited for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Respondents</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> who are Harcus claimants</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 14 February 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#000000">His Honour Judge James Tayler</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-size:12pt;color:#000000">The Issue</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The issue in this appeal is whether the Employment Tribunal erred in law in refusing permission to Tesco to adduce expert evidence in relation to its material factor defence in this long running equal value litigation.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-size:12pt;color:#000000">The Parties</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I will refer to the appellant as Tesco and the respondents to the appeal as the Leigh Day claimants and the Harcus claimants or,  when it is not necessary to differentiate, the claimants.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">The Litigation</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Tesco state that there are now more than 50,000 claimants in this litigation. Some of the claims were brought as early as 2018. In my judgment after a Preliminary Hearing on 27 November 2024 I noted that none of the claims have been determined, which is extremely troubling, especially because questions such as whether the work of someone working in a shop is of equal value to that of someone working in a warehouse is not conceptually highly complicated and should be capable of resolution within a reasonable period, even though the claims are potentially of a very high total value. I also stated that the potential high total value of the claims is no justification for a war of attrition but a reason for the parties to apply their resources wisely to clarify and simplify the dispute. The overriding objective applies to proceedings both large and small.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-size:12pt;color:#010302">The judgment appealed </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">This is an appeal against the judgment of Employment Judge Hyams, sitting alone, after a hearing held on 9 December 2024. The judgment was sent to the parties on 23 December 2024.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-size:12pt;color:#010302">Sample pleadings </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The sample ET1 claim form for some of the Harcus claimants was received by the Employment Tribunal on 10 January 2020 and that of the Leigh Day claimants was received by the Employment Tribunal on 28 February 2020. Tesco&#8217;s responses, served on 16 March 2020 and 7 April 2020, both pleaded that there were material factors for the difference in pay between the claimants and their comparators:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">28.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">Further or alternatively, any differences in pay or other terms (if any) relied upon by the claimants have not resulted from any sex discrimination or from any sex discrimination by the respondent or for which it is legally responsible but has or may have resulted from other material factors (whether demographic, sociological, economic, historical or otherwise, and as to which the respondent reserves the right to adduce evidence) including but not limited to:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">Differences in the arrangements for determining pay as between stores and DCs, including different collective bargaining agreements and the fact that the dates on which these were implemented vary;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">Differences in the conditions of supply and demand in the relevant markets for labour,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">iii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">Differences in the market price of the various types of labour in the relevant markets, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">iv.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">The need for the respondent to keep its retail and its distribution labour costs within efficient levels, for the purposes of recruitment and retention and to enable it to compete effectively in the markets in which it operates and has from time to time operated.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">From 2020 at the latest (I expect that there must be earlier responses raising these matters) Tesco have relied on material factors relating to labour markets and the consequences for its competitiveness it is asserted would arise from pay equalisation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">That said, for much of the history of the litigation the plan was that the question of whether the claimants and their comparators were engaged in work of equal value would be determined first, after which the material factor defence would be considered if necessary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The lengthy delays in the proceedings, including the time that it is likely to take to resolve outstanding appeals and for the independent experts to report, resulted in a change of approach. A Preliminary Hearing was fixed for 13 March 2024 to consider whether the material factor defence should be listed before the stage 3 equal value hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In its skeleton argument for the Preliminary Hearing, Tesco stated that it would seek to &#8220;adduce detailed evidence from experts in the field of economics&#8221; and possibly also &#8220;other, related expert evidence.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At the Preliminary Hearing held on 13 March 2024, a hearing was fixed to consider the material factor defence. The hearing is listed for 8 weeks commencing on 1 September 2025. The decision to list the material factor hearing was unsuccessfully appealed by Tesco.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The respondent served particulars of its material factor defence on 7 June 2024. The particulars run to 64 pages. Tesco relies on 9 material factors that break down those in the original defence and add some more:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 1: Recruitment and retention</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 2: Competition, stability, sustainability and performance </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 3: Different methods of determining pay and different packages of terms </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 4: Avoiding disruption to the Respondent&#8217;s distribution network,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">workplace stability and good industrial relations  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 5: TUPE </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 6: Productivity </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 7: Attendance </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 8: Encouraging working at night, at weekends and on Bank Holidays </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">MFD 9: Flexibility and common terms</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimants served lengthy responses on 5 July 2024 that challenge the factors Tesco seek to rely upon and contend that, despite the length of Tesco&#8217;s pleading, it remains insufficiently particularised in key respects, such as the specific labour markets asserted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">There was a further Preliminary Hearing on 30 September 2024 at which it was agreed that the question of whether Tesco should be permitted to rely on expert evidence and any consequential orders (including whether the claimants could call expert evidence) would be determined at a further Preliminary Hearing fixed for 9 December 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">On 29 November 2024, Tesco made an application pursuant to Rule 30 </span><span style="font-weight:bold;font-size:12pt;color:#010302">ET Rules 2013</span><span style="font-size:12pt;color:#010302"> (now Rule 31 </span><span style="font-weight:bold;font-size:12pt;color:#010302">ET Rules 2024</span><span style="font-size:12pt;color:#010302">) for permission to rely on expert evidence in a letter sent by its solicitors. So far as is relevant to this appeal the issues on which permission for expert evidence was sought were:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">Issue 1: The relevant labour markets for Stores colleagues and DC colleagues, the market  prices and the competitiveness within those markets (&#8220;the Markets Issue&#8221;).   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">These are live issues which arise on the face of the parties&#8217; pleaded cases and which  go to the heart of a number of the Respondent&#8217;s MFDs, its legitimate aims and  proportionality. Although factual evidence will be led on these matters, they involve  complex issues that are essentially matters of economics which are appropriate for  expert evidence, and frequently are the subject of expert evidence. ...  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">Issue 2: The consequences of the Respondent paying Stores colleagues more than it did  (&#8220;the Consequences Issue&#8221;). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">This is an issue which goes primarily to the question of objective justification. In  particular, it goes to the question of whether paying Stores colleagues at the rate the  Respondent did (which it says was in line with the prevailing market rate), and not  above that rate, was in furtherance of a real business need. Both parties have pleaded  cases as to what would have happened had the Respondent paid more. This goes to  the  linked  questions  of  the  legitimacy  of  the  Respondent&#8217;s  aims  and  the  proportionality of the means adopted. While, again, factual evidence will be led by  the Respondent, questions as to the consequences of paying more than the market  rate raise matters of assessment and opinion. This necessitates consideration not  only of the Respondent&#8217;s position but also the positions of rival businesses, set within  the wider contexts of the relevant labour and product markets. These matters are,  again, appropriate for expert evidence. ...  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302"> Tesco stated that the expert evidence concerned &#8220;economics&#8221;. Tesco did not identify a proposed economist, state with more specificity the particular economic expertise of the expert or state the likely cost of obtaining such evidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Tesco set out the questions it proposes be asked of the expert on the Markets Issue and the Consequences Issue:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">13.1.What were the market rates for Store colleagues and DC colleagues before and  during the Relevant Period?  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">13.2.To what extent were the relevant labour markets for Store colleagues and DC  colleagues competitive before and during the Relevant Period? &#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">22.1.What would have been the impact on the Respondent&#8217;s business and more  generally if the Respondent had increased pay for Stores colleagues, including  the impact assessed by reference to </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">the Respondent&#8217;s ability to maintain  competitiveness  in  the  retail  market,  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">the  Respondent&#8217;s  ability  to  run  a  stable,  sustainable  and  profitable  business,  and  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">the  Respondent&#8217;s  colleagues, customers, suppliers, shareholders and other stakeholders?  </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The parties provided detailed written submissions in advance of the Preliminary Hearing.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-size:12pt;color:#010302">The relevant legal principles</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The parties made similar submissions about the legal principles that apply to an application to adduce expert evidence in the Employment Tribunal. There was little between them in their submissions to the Employment Tribunal and in this appeal. The principles relevant to this appeal can be summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">There are no specific provisions in the </span><span style="font-weight:bold;font-size:12pt;color:#010302">ET Rules</span><span style="font-size:12pt;color:#010302"> that apply to determining an application to adduce expert evidence.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.2.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">However, the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Equal Value Rules</span><span style="font-size:12pt;color:#010302"> provide the statutory test that was applicable in this application:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-size:12pt;color:#010302">10.&#8212;(1)  The Tribunal must restrict expert evidence to that which it considers is reasonably required to resolve the proceedings.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">An application to adduce expert evidence should be determined in accordance with the overriding objective.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">The Employment Tribunal may be assisted by consideration of the provisions of the CPR that deal with expert evidence (having regard to the different nature of proceedings in the Employment Tribunal and the Courts, including the costs regime): </span><span style="font-weight:bold;font-size:12pt;color:#010302">De Keyser Ltd v Wilson </span><span style="font-size:12pt;color:#010302"><ref href="#" uk:canonical="[2001] IRLR 324" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] IRLR 324</ref> (at paragraph 36) and </span><span style="font-weight:bold;font-size:12pt;color:#010302">Morgan v Abertawe Bro Morgannwyg University</span><span style="font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2020] ICR 1043" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] ICR 1043</ref> (at paragraph 19).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.5.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">The overarching principle (which Rule 10 of the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Equal Value Rules</span><span style="font-size:12pt;color:#010302"> adopts) is set out in CPR 35.1:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">35.1</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;text-indent:0.42in"><span style="font-size:12pt;color:#010302">Duty to restrict expert evidence</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-size:12pt;color:#010302">Expert evidence </span><span style="font-weight:bold;font-size:12pt;color:#010302">shall</span><span style="font-size:12pt;color:#010302"> be </span><span style="font-weight:bold;font-size:12pt;color:#010302">restricted to that which is reasonably required to resolve the proceedings</span><span style="font-size:12pt;color:#010302">.</span><span/><span style="font-size:12pt;color:#010302">[emphasis added]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.6.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">The CPR further provides:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-size:12pt;color:#010302">35.4&#8212; Court's power to restrict expert evidence</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(1)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;text-indent:0.42in"><span style="font-size:12pt;color:#010302">No party may call an expert or put in evidence an expert's report without the court's permission.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(2)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;text-indent:0.42in"><span style="font-size:12pt;color:#010302">When parties apply for permission they </span><span style="font-weight:bold;font-size:12pt;color:#010302">must provide an estimate of the costs</span><span style="font-size:12pt;color:#010302"> of the proposed expert evidence and </span><span style="font-weight:bold;font-size:12pt;color:#010302">identify</span><span style="font-size:12pt;color:#010302">&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:12pt;color:#010302">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-weight:bold;font-size:12pt;color:#010302">the field</span><span style="font-size:12pt;color:#010302"> in which expert evidence is required and </span><span style="font-weight:bold;font-size:12pt;color:#010302">the issues which the expert evidence will address</span><span style="font-size:12pt;color:#010302">; and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:12pt;color:#010302">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-weight:bold;font-size:12pt;color:#010302">where practicable</span><span style="font-size:12pt;color:#010302">, the </span><span style="font-weight:bold;font-size:12pt;color:#010302">name</span><span style="font-size:12pt;color:#010302"> of the proposed expert.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(3)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.58in;text-indent:0.42in"><span style="font-size:12pt;color:#010302">If permission is granted it shall be in relation only to the expert named or the field identified under paragraph (2).  The order granting permission may specify the issues which the expert evidence should address [emphasis added]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.7.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-size:12pt;color:#010302">British Airways Plc v Spencer &amp; Ors</span><span style="font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2015/2477" uk:canonical="[2015] EWHC 2477 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 2477 (Ch)</ref>, [2015] Pens. L.R. 51 Warren J held that in determining whether expert evidence is reasonably required to resolve the proceedings the court must ask itself the following questions:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-size:12pt;color:#010302">The first question is whether, looking at each issue, it is necessary for there to be expert evidence before that issue can be resolved. </span><span style="font-weight:bold;font-size:12pt;color:#010302">If it is necessary, rather than merely helpful, it seems to me that it must be admitted</span><span style="font-size:12pt;color:#010302">.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.97in;text-indent:0.03in"><span style="font-weight:bold;font-size:12pt;color:#010302">If the evidence is not necessary</span><span style="font-size:12pt;color:#010302">, the second question is whether it would be of assistance to the court in resolving that issue. If it would be of assistance, but not necessary, then the court would be able to determine the issue without it (just as in Mitchell the court would have been able to resolve even the central issue without the expert evidence).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-size:12pt;color:#010302">Since, under the scenario in (b) above, the court will be able to resolve the issue without the evidence, the third question is whether, in the context of the proceedings as a whole, expert evidence on that issue is reasonably required to resolve the proceedings. In that case, the sort of questions I have identified in paragraph 63 above will fall to be taken into account. In addition, in the present case, there is the complication that a particular piece of expert evidence may go to more than one pleaded issue, or evidence necessary for one issue may need only slight expansion to cover another issue where it would be of assistance but not necessary. [emphasis added]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.8.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">If expert evidence would be helpful in determining an issue, but is not necessary, a balancing exercise must be conducted. Warren J referred to some of the potentially relevant factors at paragraph 63 of his judgment:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-size:12pt;color:#010302">In striking that balance, the court should, in my judgment, be prepared to take into account disparate factors including the value of the claim, the effect of a judgment either way on the parties, who is to pay for the commissioning of the evidence on each side and the delay, if any, which the production of such evidence would entail (particularly delay which might result in the vacating of a trial date).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.9.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-size:12pt;color:#010302">JP Morgan Chase v Springwell</span><span style="font-size:12pt;color:#010302"> [2006] EWHC 2755 Aikens J warned against the introduction of expert evidence in commercial disputes merely because they concern &#8220;a very large sum of money&#8221; or require the consideration of &#8220;a huge amount of documents&#8221;, noting that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-size:12pt;color:#010302">The result is that, all too often, the judge is submerged in expert reports which are long, complicated and which stray far outside the particular issue that may be relevant to the case. Production of such expert reports is expensive, time-consuming and may ultimately be counter-productive. That is precisely why CPR Pt 35.1 exists. In my view it is the duty of parties, particularly those involved in large scale commercial litigation, to ensure that they adhere to both the letter and spirit of that Rule. And it is the duty of the court, even if only for its own protection, to reject firmly all expert evidence that is not reasonably required to resolve the proceedings.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.10.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-size:12pt;color:#010302">Kennedy v Cordia (Services) LLP</span><span style="font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/6" uk:canonical="[2016] UKSC 6" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 6</ref>; <ref href="#" uk:canonical="[2016] 1 WLR 597" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 597</ref> Lord Reed and Lord Hodge stated that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-size:12pt;color:#010302">There are in our view four considerations which govern the admissibility of skilled evidence:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:12pt;color:#010302">(i)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-size:12pt;color:#010302">whether the proposed skilled evidence will assist the court in its task;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:12pt;color:#010302">(ii)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-size:12pt;color:#010302">whether the witness has the necessary knowledge and experience;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:12pt;color:#010302">(iii)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-size:12pt;color:#010302">whether the witness is impartial in his or her presentation and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-size:12pt;color:#010302">assessment of the evidence; and </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:12pt;color:#010302">(iv)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in;text-indent:0.03in"><span style="font-size:12pt;color:#010302">whether there is a reliable body of knowledge or experience to underpin the expert&#8217;s evidence.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">However, it is not always necessary that the proposed expert be identified, provided that the nature of the evidence that is to be adduced is sufficiently clear.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.12.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">The Harcus claimants contend that </span><span style="font-weight:bold;font-size:12pt;color:#010302">Kennedy</span><span style="font-size:12pt;color:#010302"> establishes that where expert evidence is opinion evidence it can only be admitted if it is necessary because Lord Reed and Lord Hodge stated:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.58in"><span style="font-size:12pt;color:#010302">All four considerations apply to opinion evidence, although, as we state below, when the first consideration is applied to opinion evidence the threshold is the necessity of such evidence.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in"><span style="font-weight:bold;font-size:12pt;color:#010302">Kennedy</span><span style="font-size:12pt;color:#010302"> is a Scottish case so is not binding on the courts of England and Wales. CPR 35.1 sets the relevant statutory test of whether expert evidence is reasonably required to resolve the proceedings and so sets a test short of necessity. The approach set out in </span><span style="font-weight:bold;font-size:12pt;color:#010302">British Airways</span><span style="font-size:12pt;color:#010302"> has been adopted in reported cases and is relied on in the </span><span style="font-weight:bold;font-size:12pt;color:#010302">White Book</span><span style="font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;font-size:12pt;color:#010302">Phipson</span><span style="font-size:12pt;color:#010302"/><span style="font-weight:bold;font-size:12pt;color:#010302">on Evidence</span><span style="font-size:12pt;color:#010302">. I accept that the approach in </span><span style="font-weight:bold;font-size:12pt;color:#010302">British Airways</span><span style="font-size:12pt;color:#010302"> should be applied in Employment Tribunals in England and Wales. That said Lord Reed and Lord Hodge adopted a relatively broad approach to the term necessity so that there may be relatively little, if any, significant difference in approach. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">It is not necessarily an error of law not to refer to the guidance given in case law such as </span><span style="font-weight:bold;font-size:12pt;color:#010302">British Airways</span><span style="font-size:12pt;color:#010302"> but to rely on the statutory test provided it is clear that the correct analysis has been undertaken.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">18.14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-size:12pt;color:#010302">The onus rests on a party that seeks to adduce expert evidence to establish that it is reasonably required to resolve the proceedings: </span><span style="font-weight:bold;font-size:12pt;color:#010302">Clarke v Marlborough Fine Art (London) Ltd</span><span style="font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2002/11" uk:canonical="[2002] EWHC 11 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWHC 11 (Ch)</ref>; [2003] C.P. Rep. 30, Ch D (Patten J. Paragraph 5).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-weight:bold;font-size:12pt;color:#010302">The Decision of the Employment Tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Employment Judge Hyams stated in his introduction:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">On 9 December 2024, I heard submissions from the respondent and on behalf of the Leigh Day claimants and the Harcus claimants on the question whether the respondent should have permission to adduce expert evidence from an economist. There was time only for me to hear submissions by the end of the hearing day, but in any event </span><span style="font-weight:bold;font-size:12pt;color:#010302">I concluded after hearing the submissions that I needed to carry out some careful research into what the case law relating to justification</span><span style="font-size:12pt;color:#010302">, that is to say whether what an employer relied on as a justification was a proportionate means of achieving a legitimate aim, showed might be taken into account by an employment tribunal applying <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/69" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 69</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">EqA 2010</ref>&#8221;). [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I view this passage with concern. I appreciate that this is extremely challenging litigation in which the Employment Tribunal is having to contend with a barrage of information; but carrying out independent legal research after a hearing is likely to result in error and/or unfairness if the parties are not given an opportunity to make submissions on any fruits of that research.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraph 2 Employment Judge Hyams directed himself correctly by reference to CPR Part 35 and Rule 10(1) </span><span style="font-weight:bold;font-size:12pt;color:#010302">Equal Value Rules</span><span style="font-size:12pt;color:#010302"> specifically noting the requirement on the Employment Tribunal to &#8220;restrict expert evidence to that which it considers is reasonably required to resolve the proceedings&#8221;. He noted at paragraphs 5 and 6 that it may be necessary to consider evidence about market forces.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraph 7 Employment Judge Hyams noted:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">In paragraph 35.0.5 of the White Book 2024, this is said.</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-size:12pt;color:#010302">&#8220;It is self evident that expert evidence must be relevant to the issues to be decided by the court, please see e.g. </span><span style="font-style:italic;font-size:12pt;color:#010302">Edwards v Hugh James Ford Simey (A Firm)</span><span style="font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/54" uk:canonical="[2019] UKSC 54" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 54</ref>.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">This introduced the issue of &#8220;relevance&#8221;. This was not a point that had been raised in any of the written submissions of the parties. The brief passage in the White Book is perhaps slightly misleading. In </span><span style="font-weight:bold;font-size:12pt;color:#010302">Edwards</span><span style="font-size:12pt;color:#010302"> the claimant brought proceedings for professional negligence against legal advisors whom he claimed had given negligent advice as a result of which he did not apply for a higher level of compensation under a scheme for those who had suffered vibration white finger. Medical evidence had been admitted that established that the extent of the claimant&#8217;s condition was mild. If the application had been made under the statutory scheme it was highly unlikely that the claimant would have been medically examined and so he had lost the chance of receiving the higher payment on the application of the rough and ready assessment under the scheme. I consider that on a proper analysis the point was not that the medical evidence was not relevant to determining the extent of the claimant&#8217;s vibration white finger but that the issue of the extent of the claimant&#8217;s vibration white finger was not relevant to determining the claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The question of whether an issue is relevant to the determination of a complaint is different to that of whether expert evidence is reasonably required to determine the issue. If the issue is irrelevant to the determination of the complaint there is no need to determine it. A contention that a pleaded issue is irrelevant to the determination of a complaint is generally a matter for a strike out application or consideration at a final hearing rather than at a hearing to determine whether expert evidence should be admitted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimants had not asserted that Employment Judge Hyams should determine as part of the decision whether to admit expert evidence whether the material factors raised by the respondent were irrelevant to determination of the claims, in that the respondent was seeking to rely on impermissible material factors.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-size:12pt;color:#010302">British Airways</span><span style="font-size:12pt;color:#010302"> it was asserted that the issue to which the expert evidence went was not relevant to determining the claim. Warren J stated at paragraph 68 before setting out the key questions referred to above:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">&#8230; that is not the correct approach to the admissibility of the evidence. Instead, it is necessary to look at the pleaded issues and, unless and until a particular issue is excluded from consideration under CPR 3.1(2)(k) the court must ask itself the following important questions &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraph 8 Employment Judge Hyams specifically referred to CPR 35.4 and noted the respondent had not provided an estimate of the cost of instructing the expert until he had asked:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">Mr Coghlin said on instructions that it would be some hundreds of thousands of pounds. He later revised that upwards to a high number of hundreds of thousands of pounds.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Employment Judge Hyams noted that in a similar equal value claim, </span><span style="font-weight:bold;font-size:12pt;color:#010302">Thandi v Next Retail Ltd, Next Distribution Ltd</span><span style="font-size:12pt;color:#010302"> (Case No.1302019/18), the Employment Tribunal said in its judgment of 22 August 2024 that the expert evidence was &#8220;of some, but limited, assistance&#8221;. He stated that the claimants contended that the expert evidence would not be of &#8220;material value&#8221; and that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">13 I therefore, as I said to the parties I would, carried out my own research into case law concerning justification for what would otherwise be indirect discrimination.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">From paragraph 13 to paragraph 20 Employment Judge Hyams set out extensive quotations from </span><span style="font-weight:bold;font-size:12pt;color:#010302">Harvey on Industrial Relations and Employment Law</span><span style="font-size:12pt;color:#010302"> that considered what might constitute a material factor, particularly if it related to cost. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Employment Judge Hyams then set out extracts from the respondent&#8217;s pleaded case and the parties&#8217; submissions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Employment Judge Hyams set out his conclusions from paragraph 34 under the heading &#8220;a discussion&#8221;. It is clear reading the judgment as a whole that the fundamental basis of the decision was that expert evidence was not relevant to the primary material factor he thought Tesco was advancing, that a judgment against Tesco would result in increased prices contrary to the public interest:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.79in">34</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.25in"><span style="font-size:12pt;color:#010302">Having at first been inclined to accept the respondent&#8217;s very attractively-presented arguments relating to </span><span style="font-weight:bold;font-size:12pt;color:#010302">the relevance of expert evidence from an economist</span><span style="font-size:12pt;color:#010302">, </span><span style="font-weight:bold;font-size:12pt;color:#010302">having carried out the above analysis</span><span style="font-size:12pt;color:#010302">, I found myself being </span><span style="font-weight:bold;font-size:12pt;color:#010302">distinctly dubious about such relevance</span><span style="font-size:12pt;color:#010302">. That was for the following reasons.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">35 </span><span style="font-weight:bold;font-size:12pt;color:#010302">The case law to which I refer above as far as I can see contains no indication that the wider public interest, such as what a judgment in favour of claimants would mean for the cost of living</span><span style="font-size:12pt;color:#010302"> for everyone else, could be taken into account in deciding whether or not there was objective justification for something which in the absence of a finding of objective justification would be indirectly discriminatory. The passage which I have set out in paragraph 14.7 above was probably the closest to an analysis in the authorities (including Harvey in that description for this purpose) of </span><span style="font-weight:bold;font-size:12pt;color:#010302">the relevance of the wider impact of a decision in favour of claimants of that sort</span><span style="font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The respondent did not rely on &#8220;the wider public interest, such as what a judgment in favour of the claimants would mean for the cost of living&#8221; but raised the impact of having equalised pay in the period in respect of which the claims are brought.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraph 36 Employment Judge Hyams returned to the question of relevance referring back to a section of the respondent&#8217;s pleading in which it asserted that raising the pay of shop staff would have distorted competition with other retailers which would be detrimental to the public interest:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-size:12pt;color:#010302">the assertion by the respondent in paragraph 199 of its pleaded case on MFDs, which I have set out in paragraph 26 above, did not in my view justify the conclusion that expert evidence on the impact on the public of the respondent having to pay its store staff more than its distribution centre staff </span><span style="font-weight:bold;font-size:12pt;color:#010302">was relevant in any way</span><span style="font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In effect, Employment Judge Hyams concluded that the impact on the public of the respondent having to increase prices was irrelevant to any material factor defence &#8211; a matter that was yet to be determined &#8211; rather than holding that such expert evidence was not relevant in the sense that it could not assist in determining the material factor issues that were disputed by the parties in their pleaded cases.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At paragraph 37 Employment Judge Hyams stated that the &#8220;claimants asserted vigorously that such evidence would not be relevant at all&#8221;. I cannot find any such assertions in their written submissions. Nor was it suggested that oral submissions to that effect were made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraphs 38 and 39 Employment Judge Hyams stated that he considered that evidence about &#8220;the effect on the respondent of the need to pay more to its stores staff as a result of a judgment in favour of the claimants&#8221; was something about which senior staff of the respondent would be able to give evidence. Where witnesses of fact will be able to deal with matters about which it is proposed to call an expert that is clearly a material consideration. That said the issue was not about the consequences of a judgment in the claimants&#8217; favour but whether there was a material factor that justified the pay differential in the time period covered by the claims. Holding that Tesco&#8217;s witnesses could give evidence on the issue is not consistent with the assertion that the issue is irrelevant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">From paragraph 40 Employment Judge Hyams again considered the extent to which the respondent could rely on what he thought was part of its asserted material factor defence:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">40</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">A further factor, to which I referred on 9 December 2024 (when, as I said, I was thinking aloud) was that </span><span style="font-weight:bold;font-size:12pt;color:#010302">the impact on the public of a finding in favour of the claimants here if that finding led to the respondent and other retailers increasing their prices, sounded like something which only the legislature could take into account.</span><span style="font-size:12pt;color:#010302"> In other words, it would not be something which a court or tribunal could take into account when considering whether a prima facie indirectly discriminatory practice was challenged, except and to the extent that the existing case law permitted that.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">41</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">Having said that, there is nothing in the words of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/69" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 69</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">EqA 2010</ref> which would preclude taking into account the impact on the public (through a rise in the cost of goods sold by the respondent and, probably, other retailers, or alternatively through a significant diminution in the extent of the respondent&#8217;s operations and therefore the size of its business) of a finding in favour of the claimants here. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">43</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">Nevertheless, </span><span style="font-weight:bold;font-size:12pt;color:#010302">the case law to which I refer above, and the words of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/69/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 69(1)</ref>, pointed to my mind towards the conclusion that a &#8220;legitimate aim&#8221; within the meaning of that subsection will be an aim of the employer: not of the public. That indicated that expert evidence on the impact on the public of the response of the employer to a finding in favour of claimants in for example an equal pay case, would be irrelevant</span><span style="font-size:12pt;color:#010302">.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">This again emphasises Employment Judge Hyams&#8217; reasoning that Tesco&#8217;s pleaded case raised a matter that could not in law establish a &#8220;legitimate aim&#8221;, rather than that expert evidence could not assist in determining the issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At paragraph 44 Employment Judge Hyams stated that he did not consider that Tesco being put to proof on its material factor defence justified the instruction of an expert.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Employment Judge Hyams then held that it was not necessary to consider the cost of instructing an expert:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">45</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">While the cost of the expert evidence would have been a material factor if such evidence might have been relevant, </span><span style="font-weight:bold;font-size:12pt;color:#010302">if such evidence was not reasonably required to resolve the proceedings, then it simply could not lawfully be permitted to be adduced, and the cost of permitting the parties to adduce expert evidence was irrelevant</span><span style="font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Employment Judge Hyams stated:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">46</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-size:12pt;color:#010302">In all of the circumstances, </span><span style="font-weight:bold;font-size:12pt;color:#010302">I came to the clear conclusion that expert evidence was not reasonably required to resolve the proceedings</span><span style="font-size:12pt;color:#010302">. Given rule 10(1) of the Employment Tribunals (Equal Value) Rules of Procedure 2013, I was therefore precluded from granting the respondent&#8217;s application to adduce it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">47</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-size:12pt;color:#010302">If, however, I had had any doubt in that regard, and I had concluded that expert evidence from an economist might reasonably have been thought to be required to resolve the proceedings, then I would have concluded that its weight would not be sufficient to justify permitting its admission</span><span style="font-size:12pt;color:#010302">. That was because of the factors to which I refer in paragraphs 35 and (especially) 38 above, taken together with</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">47.1</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">the extra costs which would result from giving permission to adduce expert evidence from an economist: the costs which both parties would incur in considering such evidence before, and dealing with such evidence at, the hearing which is listed to take place in September and October 2025, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">47.2</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-size:12pt;color:#010302">the additional time which that hearing would take, which would adversely affect the interests of justice in that the cases of other litigants would as a result not be heard at that time.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In paragraphs 45 and 47 Employment Judge Hyams referred to the correct test of whether expert evidence was reasonably required to resolve the proceedings.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-size:12pt;color:#010302">The correct approach to considering an appeal against a case management decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Appellate Courts and Tribunals should be slow to interfere in and will uphold robust case management. However, case management decisions are not immune from consideration on appeal if an error of law is established. Where an Employment Tribunal properly directs itself as to the legal test to be applied an appellate court should be slow to conclude that the Employment Tribunal has not correctly applied that correct self-direction: </span><span style="font-weight:bold;font-size:12pt;color:#010302">DPP Law Ltd v Greenberg</span><span style="font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2021] IRLR 1016" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] IRLR 1016</ref>.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-size:12pt;color:#010302">The appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Ground 4 asserts that the Employment Tribunal fundamentally misunderstood the case that was put on the Consequences Issue because Employment Judge Hyams thought that Tesco relied on the consequences that would result from a judgment against it. The transcript of the hearing shows that was the initial view of Employment Judge Hyams but that in the face of the concerted and agreed submissions of all parties that the material factor defence related to the period covered by the claims he appeared to accept that point. However, I can only conclude that Employment Judge Hyams went back to his original position because in the judgment he repeatedly refers to matters such as &#8220;what a judgment in favour of claimants would mean for the cost of living&#8221;. I can only conclude that the Employment Judge did misunderstand the Consequences Issue when determining the application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Ground 2 asserts that the Employment Tribunal failed to apply the correct legal test to the question of whether expert evidence is reasonably required to determine the proceedings. The fundamental assessment of the Employment Tribunal was that the Consequences Issue was not relevant to determining the dispute. The claimants contend the term relevance was used as a short hand for the question of whether expert evidence was reasonably required to resolve the issue. I do not accept that is the case. Employment Judge Hyams introduced the concept of relevance having conducted research into the extent to which issues related to cost could amount to a material factor. He concluded that the consequences of a judgment against Tesco could not provide justification.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimants contend that, notwithstanding what is said about relevance, paragraphs 38 and 44 demonstrate that Employment Judge Hyams concluded that there was nothing that expert evidence could add to what  witnesses of fact called by Tesco could say about the Consequences Issue and the Markets Issue. The claimants contend that demonstrates that the Employment Judge concluded, without expressly stating it, that the expert evidence was neither necessary nor of possible assistance in determining the issues. I consider that this was the strongest point the claimants raised in support of the judgment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The reasoning in paragraph 38 goes to the Consequences Issue. However, it is specifically predicated on the Consequences Issue being about &#8220;the effect on the respondent of the need to pay more to its stores staff as a result of a judgment in favour of the claimants&#8221;. That looked to the future rather than the past. The Employment Tribunal should have been considering evidence that might go to the period relevant to the claims. It might well be more difficult for Tesco to put forward witnesses that could deal with the Consequences Issue in the relevant period. I also consider that this brief passage has to be seen in the context of a judgment that predominantly focussed on the wrong issue, relevance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The reasoning in paragraph 44 goes to the Markets Issue but only to market rates and not to other components of that issue, such as the alleged distortion of those markets. The reasoning is extremely brief and does not address all of the components of the Markets Issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The Markets Issue and the Consequences Issue are in dispute between the parties. There has been no application to strike out any part of Tesco&#8217;s pleadings. While it is open to the claimants to assert that there is a lack of clarity in the identification of these issues that is relevant to the question of whether expert evidence is reasonably required to resolve the proceedings, that does not mean that the issue is not in dispute between the parties. Employment Judge Hyams erred in law in finding against Tesco on the basis that the Consequences Issue was irrelevant to determining the claims.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Employment Judge Hyams referred to the correct overarching test in CPR 35.1 and Rule 10 of the </span><span style="font-weight:bold;font-size:12pt">Equal Value Rules</span><span style="font-size:12pt"> at the beginning of his judgment and in his conclusion. There is no absolute requirement to refer to statutory guidance provided it is clear that the correct test has been applied. I appreciate the warning in </span><span style="font-weight:bold;font-size:12pt">Greenberg</span><span style="font-size:12pt"> that one should be slow to conclude that a legal principle correctly identified has not been applied. All parties referred Employment Judge Hyams to the test in  </span><span style="font-weight:bold;font-size:12pt">British Airways</span><span style="font-size:12pt">. Rather than apply that test he focussed incorrectly on relevance. Employment Judge Hyams should have first considered whether expert evidence was necessary to resolve the proceedings. If so, it should have been permitted. If expert evidence was not considered necessary to resolve the proceedings he should have then considered whether the expert evidence would be of assistance in resolving the issues. If so, the balance was to be assessed by consideration of all relevant factors including those set out at paragraph 63 of </span><span style="font-weight:bold;font-size:12pt">British Airways</span><span style="font-size:12pt">. Even if  Employment Judge Hyams did give some consideration to the correct test under CPR 35.1 he did not go through the assessment that the parties agreed was appropriate to determine the overarching question of whether the expert evidence was reasonably required to resolve the proceedings. While he referred to two factors, cost and possible delay, he did not consider other relevant factors. Ground 2 is made out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">I have concluded that relevance was not the appropriate test and do not consider it is necessary to go on to consider Ground 1 that asserts that the finding of irrelevance was not reasonably open to the tribunal and/or perverse save that the finding is set aside.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Ground 3 asserts a failure to address Tesco&#8217;s arguments on competition and collusion on the Markets Issue</span><span/><span style="font-size:12pt">and to apply the law correctly. The Employment Tribunal did not consider the issue of collusion. But as I have concluded that the application must be considered afresh I do not consider it is necessary to consider this ground further .</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">I also do not consider it necessary to consider Ground 5,</span><span/><span style="font-size:12pt">failure to take account of relevant considerations, and Ground 6, erroneous approach to questions of public interest in respect of the Consequences Issue as the application to adduce expert evidence will have to be determined afresh, assessing and taking account of all of the relevant factors.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-size:12pt;color:#010302">Outcome and disposal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I suggested to the parties that I could determine the application as encouraged in </span><span style="font-weight:bold;font-size:12pt;color:#010302">Kuznetsov v Royal Bank of Scotland</span><span style="font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2017] IRLR 350" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] IRLR 350</ref>. Tesco were content for me to do so, but the claimants contended that I should only do so if I concluded that the only possible decision was that the expert evidence was necessary or was not necessary. If a discretionary decision was required it should be remitted to the Employment Tribunal. I can only determine issues if the parties agree or there is only one possible answer. The parties do not agree to my determining the issue and I do not consider that there is only one possible answer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimants have raised numerous factors that they contend should result in a determination in their favour. I do not consider it would assist to discuss those matters further because they will be for consideration afresh on remission.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Tesco contend that the remission should be to a new Employment Tribunal because the judgment was fundamentally flawed and there is a risk of a second bite of the cherry. The claimants contend that the remission should be to the same Employment Tribunal because the determination was not totally flawed, Employment Judge Hyams has been managing these hugely complex proceedings for a number of years and is familiar with them and remission could only be to an Employment Judge who is ticketed to conduct Equal Pay proceedings. I have considered the principles set out in </span><span style="font-weight:bold;font-size:12pt;color:#010302">Sinclair Roche &amp; Temperley v Heard</span><span style="font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2004] IRLR 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 763</ref>. While I consider that the errors of law were unfortunate and serious, I consider that the judgment falls short of being totally flawed. I also consider it has to be seen in the context of the enormous burden of judging such litigation when large legal teams produce vast amounts of material. While the judge lost sight of the correct test to be applied to determining whether to admit expert evidence I consider that he can be trusted now to focus on the correct test and to apply it properly without attempting a second bite of the cherry. I have confidence in his professionalism and that on an application of the correct test and consideration of all of the relevant factors he will allow the application if he concludes that is the correct decision or refuse it if that is the correct decision. I have sought to avoid giving any hint of what I might have decided had the parties agreed that I retake the decision and nothing in this judgment should be seen as giving a steer. I would only add that all parties are represented by leading and junior Counsel with great expertise and experience in equal pay litigation. Particularly where they agree the correct approach to the law, very great care should be taken before deciding that they are all wrong and that a different test is to be applied.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It will be a matter for the Employment Tribunal to consider whether any further written or oral submissions are required before the application is determined.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

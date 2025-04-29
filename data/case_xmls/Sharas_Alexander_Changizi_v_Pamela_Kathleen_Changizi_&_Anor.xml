@@ -1,0 +1,702 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/735"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/735"/>
+	  <FRBRdate date="2025-04-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery-appeals"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="735"/>
+	  <FRBRname value="Sharas Alexander Changizi v Pamela Kathleen Changizi &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/735"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/735"/>
+	  <FRBRdate date="2025-04-02" name="judgment"/>
+	  <FRBRauthor href="#ewhc-chancery-appeals"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/735/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/735/data.xml"/>
+	  <FRBRdate date="2025-04-02T10:19:34" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-02" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-chancery-appeals" href="https://www.gov.uk/courts-tribunals/chancery-division-of-the-high-court" showAs="The Business and Property Courts (Chancery Appeals)" shortForm="Chancery Appeals"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sharas-alexander-changizi" href="" showAs="SHARAS ALEXANDER CHANGIZI"/>
+	<TLCPerson eId="pamela-kathleen-changizi" href="" showAs="PAMELA KATHLEEN CHANGIZI"/>
+	<TLCPerson eId="robin-donald-mayes" href="" showAs="ROBIN DONALD MAYES"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-jarman-kc" href="/judge-his-honour-judge-jarman-kc" showAs="HIS HONOUR JUDGE JARMAN KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-Chancery-Appeals</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>735</uk:number>
+	<uk:cite>[2025] EWHC 735 (Ch)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>6430797da182f9247c0369678552ca3a961da63969bfbb70a2612e82abc3d41d</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 735 (Ch)</neutralCitation></p>
+      <p class="CoverText">Appeal ref: CH-2024-000021</p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-chancery-appeals">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery-appeals" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</courtType></p>
+      <p><courtType refersTo="#ewhc-chancery-appeals" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CHANCERY APPEALS (ChD)</courtType></p>
+      <p><span style="font-weight:bold">ON APPEAL FROM THE ORDER OF MASTER MARSH (SITTING IN RETIREMENT) DATED 8 JANUARY 2023</span></p>
+      <p><span style="font-weight:bold">(REF: PT-2023-0002860)</span></p>
+      <p class="CoverText">Royal Courts of Justice, Rolls Building</p>
+      <p class="CoverText">Fetter Lane, London, EC4A 1NL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-02" refersTo="#judgment">2 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-jarman-kc">HIS HONOUR JUDGE JARMAN KC</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">Sitting as a judge of the High Court</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#sharas-alexander-changizi" as="#appellant" style="font-weight:bold">SHARAS ALEXANDER CHANGIZI</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party refersTo="#pamela-kathleen-changizi" as="#respondent" style="font-weight:bold">PAMELA KATHLEEN CHANGIZI</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party refersTo="#robin-donald-mayes" as="#respondent" style="font-weight:bold">ROBIN DONALD MAYES</party></p>
+	    </blockContainer>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">The Appellant </span>in person</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Lina Mattsson</span> (instructed by <span style="font-weight:bold">Berry &amp; Lambert Solicitors</span>) for the <span style="font-weight:bold">respondents</span></p>
+      <p style="text-align:center">Hearing dates: 20 March 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 2 April 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HIS HONOUR JUDGE JARMAN KC</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">HH JUDGE JARMAN KC</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Introduction</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant, with the permission of Michel Green J, appeals the order of Master Marsh (the judge) dated 8 January 2024 who granted the respondent&#8217;s application to stay the appellant&#8217;s claim until he has paid nearly &#163;116,000 costs awarded to them against him in previous related proceedings and the costs of their application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present Part 8 claim dated 2023 is for disclosure of documents and information against the respondents as the executors of the will dated 1985 of the appellant&#8217;s late father who died domiciled in Spain as long ago as 2010 leaving property within the Spanish jurisdiction and in that of England and Wales. The claim is supported by a witness statement of the appellant, and he has filed three more in the course of the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since 2010 there have been numerous disputes between the appellant on the one hand and his mother, the second respondent, and his three siblings, on the other, as to the distribution of the estate, in respect of which the distribution account of the estate in England and Wales stood at just under &#163;2 million. The costs orders against the appellant have been awarded in those disputes which were determined by the courts. These include a failed attempt by the appellant to challenge the validity of the will.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The bottom line of the appellant&#8217;s appeal, as he put it in his submissions to me, is that the costs are not owing, because in the estate accounts those costs have been deducted from the appellant&#8217;s share, as indeed they have. Ms Mattsson, for the respondents, replies that in reality the costs have not been paid, because the estate is showing a deficit from the appellant, when inheritance tax is taken into account under the Inheritance Act 1984, of some &#163;102,000. The reason for that, the appellant counters, is that the estate accounts wrongly place inheritance tax on his share rather on the estate, where the tax should fall under the 1984 Act. Ms Mattsson submits that this is the right treatment under the law of England and Wales, because the only other beneficiary, after a deed of variation, is the first respondent, and she is entitled to an exemption to such tax as her late husband&#8217;s spouse under section 18 of the 1984 Act..</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">The respondents&#8217; calculations</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant&#8217;s witness statement in support of his claim was responded to by a witness statement dated 13 June 2023 of the respondents&#8217; solicitor, Darren Forrester, in which he dealt with the estate accounts and the financial position of the appellant in relation thereto. This also referred to a payment to the appellant from his father in 2009 of &#163;300,000, which he says was for consideration, namely to avoid a claim in respect of a sale of his property by his father, and so was a potentially exempt transfer for inheritance tax purposes. However, this was not accepted by HMRC. The respondents&#8217; case was set out by Mr Forrester as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;54.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">According to the most recent set of estate accounts for the English estate approved by the Executors (but not by the Claimant), as at 14 December 2021 the Claimant&#8217;s share of the English estate was calculated to be &#163;300,390.59. However, when his liability to the estate for Inheritance Tax plus interest on the failed potentially exempt transfers to him (&#163;281,994.04), and the Court-ordered costs mentioned above (total &#163;115,959.22, without the inclusion of interest) is deducted from his share, his total liability to the estate as at 14 December 2021 was &#163;397,953.26. When set off against his share of the estate, the Claimant owed &#163;97,562.67 to the English estate as at 14 December 2021. If interest on the total of the Court-ordered costs was included, his liability to the estate would increase to &#163;145,128.95 at that date. Since the last accounts, the estate has paid further administration costs (some of which have been brought about by the Claimant&#8217;s correspondence and actions), so reducing his share of the English estate and thereby increasing his net liability to the estate. The current estimate of the Claimant&#8217;s share of the English estate is &#163;295,584.85. Deducting the Inheritance Tax plus interest, and the Court-ordered costs (without interest) would leave the Claimant indebted to the estate in the sum of &#163;102,368.41.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In that witness statement, Mr Forrester stated that some 30,000 documents relating to the administration of the estate and to the court proceedings had been identified which he estimated would take 150-200 hours to collate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant filed a second witness statement in response. On 7 August 2023 the respondents filed the application to stay the Part 8 claim until the appellant had paid the outstanding costs. That application was supported by a second witness statement of their solicitor, which included the following, with the original emphasis:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Claimant has also not paid his Inheritance Tax which the Estate has therefore had to pay on his behalf which together with interest charged to the Estate by HMRC totalling &#163;281,994.04. For clarity, paragraph 54 of my First Witness statement should say the Claimant&#8217;s &#8220;liability to the estate for Inheritance Tax plus interest on the failed potentially exempt transfers to him <span style="font-style:italic">and the Inheritance Tax plus interest on the estate</span> (&#163;281,994.04)&#8221;&#8230;I attach a spreadsheet showing the calculation.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The spreadsheet is subtitled &#8220;UK Inheritance Tax paid re (a) estate and (b) failed PETs to Sharas Alexander Changizi.&#8221; Under a further subheading &#8220;Estate&#8221; the total shown as paid is &#163;138,975.55. The next subheading is &#8220;Gifts&#8221; which refers to two gifts to the appellant on which the tax paid is shown as &#163;436.89 and &#163;142,581.60 respectively, thus giving the total tax paid as &#163;281,994.04.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the same time, the respondents made an open offer to the appellant to give him access to the documents he requested provided they were not privileged and provided he paid the costs. That offer has not been accepted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 23 August 2023, the appellant filed his own application for distribution of what he said was owing to him from the estate, and supported by a third witness statement, in which he maintained that inheritance tax on the potentially exempt transfer should not be deducted from his share of the estate. He disputed the respondent&#8217;s figures, but for the purpose only of his application for distribution was prepared to proceed on the basis of those figures. He referred to movables under the Spanish law of succession and set out tables on various scenarios. Even on the respondent&#8217;s figures, he argued that he was due &#163;283,139.50 including interest but excluding movables, inheritance tax and the potential exempt transfer. However, if these latter matters were taken into account, he argued he is owed &#163;357,837.26.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">The will</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The will, so far as material, has several relevant provisions. The will predates the coming into force of the 1984 Act and so refers to inheritance tax by its former name of capital transfer tax. Nothing turns on that change of nomenclature in the present case.  By clause 3, certain jewellery was given to trustees in trust for the benefit of all four children equally. By clause 4 all other property situated in England was bequeathed to the trustees for sale and conversion. From the proceeds, the trustees were required by clause 5(i) to pay all debts in England and funeral and testamentary expenses, if in England, and all capital transfer tax in respect of the estate and legacy situated in England. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">After such payments, clause 5 (ii) directed the trustees to invest the residue in income bearing assets. Clause 5 (iii) required the trustees to divide the residue into three equal shares, and, in the events which happened, to hold two such equal shares in trust for the four children equally with the remaining such equal share held in trust for their mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 17 July 2012 the appellant&#8217;s siblings, but not he, executed a deed to vary the will so that all their shares in the jewellery and residue of their late father&#8217;s estate should be held for their mother absolutely. Accordingly, the remaining beneficiaries of the estate are the appellant and his mother as to shares of 1/6 and 5/6 respectively.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Probate of the will was granted to the respondents on 30 July 2014. They filed with HMRC an IHT 400 form dated 24 November 2015 in which reference was made to the deed of variation and to the spouse&#8217;s exemption of the first respondent&#8217;s 5/6 share.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Forrester in his first witness statement exhibited sixth interim accounts as at 14 December 2021, which indicated that inheritance tax clearance by HMRC was given on 31 July 2017, but that the administration of the estate had not ended for income tax and capital gains tax and so clearance in those respects was awaited. The fourth note to those accounts says this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In accordance with clause 5(i) of the late Mr Changizi&#8217;s will, all expenses (including inheritance tax, formally capital transfer tax) are payable out of residue. Following the deed of variation, the residuary beneficiaries are Mrs Changizi as to 5/6 and Sharas Alexander Changizi as to 1/6. The share of residue due to Mrs Changizi as surviving spouse is exempt from inheritance tax but the share due to Mr Changizi is not. The will is silent on the question of how the inheritance tax attributable to the estate (as opposed to the secondary liability for the failed potentially exempt lifetime transfers) should be divided between the residuary beneficiaries. Section 41 Inheritance Tax Act 1984 has the effect that no inheritance tax should be borne by an exempt beneficiary. The case of <span style="font-style:italic">Re Ratcliffe, Homles v McMullen</span> [1999] STC 262 indicates that in the circumstances of this will, the burden falls on the non-exempt residuary beneficiary, namely Mr Changizi, and is therefore due from his share of residue.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The fifth note says:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The movable assets (bank accounts, chattels and loan) are shown as passing to the Spanish estate, as such assets pass under the law of the late Mr Changizi&#8217;s domicile, not the English Will. They will be divided accordingly subject to the order of the relevant Spanish court this includes the jewellery referred to in clause 3 of the Will.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">The judge&#8217;s judgment</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge set out his approach to the applications before him as follows, referring to the appellant as Sharas:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;39.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">I propose to approach the disposal of the defendants&#8217; application in three principal stages:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">What is Sharas&#8217; share of the English estate? It is necessary to answer this question first because by orders made in both the Probate claim and the derivative claim the executors were permitted to deduct the costs Sharas was ordered to pay from his share of the estate. In order to answer this first question the court may have regard to the estate accounts but there are two additional matters which need to be considered:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>a.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">Under English law do the proceeds of sale of English properties forming part the estate constitute movable or immovable assets under English Law; do they retain their status as immovable assets within the English estate or do they become movable assets which pass under the law of Spain?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>b.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">Was Sharas liable to HMRC for Inheritance Tax and interest on a potentially exempt transfer made by Mr Changizi from a UK sterling bank to Sharas within 7 years of his death and, if so, is Sharas liable to the estate for the tax and interest paid to HMRC as a party having secondary liability after the tax had been unpaid for 12 months?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">Would the grant of an order staying the claim and/or striking out the claim stifle his ability to pursue the proceedings? Another way of putting this question is has Sharas made a decision not to pay the costs rather than not paying because he is not in a position to pay?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Would it be unjust and unfair to the Defendants to undertake the cost of defending these proceedings without Sharas meeting the unpaid costs orders?&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following on from there, the judgment continues:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in">&#8220;Stage 1a</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>40.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The position shown in the latest estate accounts is that Sharas owes the estate &#163;102,368.41. In his first witness statement made on behalf of the defendants Mr Forrester says...&#8221;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">then paragraph 54 as cited above follows.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the following paragraphs, the judge continued:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;41.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">He provided a correction to this paragraph in his second statement:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;margin-right:0.5in">&#8220;For clarity, paragraph 54 of my First Witness statement should say the Claimant&#8217;s liability to the estate for Inheritance Tax plus interest on the failed potentially exempt transfers to him and the Inheritance Tax plus interest on the estate (&#163;281,994.04)&#8230;&#8221;.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>42.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">These figures can be taken to be accurate subject to answers being provided to the two subsidiary questions. The deficit is at least &#163;102,368.41 plus judgment interest on the costs that Sharas has been ordered to pay.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In paragraphs 43-70, the judge then dealt with the issue of whether land in England on being sold became movable property subject to Spanish law. He concluded:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The fact that immovable property subsequently, in fact, became movable property in the form of cash upon sale does not lead to the application of Spanish law because the decisive moment is the date of death and for these purposes there is one and only one decisive moment.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant sought to appeal this conclusion, but permission was refused by Michael Green J and subsequently on renewal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 71 to 76, the judge went on to deal with what he called stage 1b as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in">&#8220;Stage 1b</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>71.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">This stage is rather simpler to deal with than stage 1a. On 9 June 2009 Mr Changizi made a cash transfer of &#163;300,000 from an English bank account to an English bank account held by Sharas. The executors have treated the payment as a Potentially Exempt Transfer pursuant to section 199(1)(b) of the Inheritance Tax Act 1984 upon which Sharas is primarily liable to pay Inheritance Tax. He failed to pay the tax which created a secondary liability on the part of the executors pursuant to section 199(2) and section 204(8) of the 1984 Act. When the executors were in a position to do so they paid the tax for which Sharas had primary liability together with accrued interest.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>72.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">Sharas has changed his position about the transfer made by his father. Over a number of years he consistently referred to the transfer as a gift from his father. Examples of this taken from his emails are dated 20 January, 18 February, in March and on 22 November 2011, 3 September 2013 and on 12 May 2016.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>73.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">At one stage he maintained he was not liable to pay Inheritance Tax because his father was domiciled in Spain. However, that argument does not assist him because the transfer was made from an account in England to him in England and is therefore not excluded from Inheritance Tax.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>74.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">More recently, in January 2018, he has said that the transfer was not a gift from his father but rather was payment by his father of a debt due to him relating to another property, 160 Wricklemarsh Road. This version of events emerged after Sharas had taken advice about how to avoid a liability to Inheritance Tax. The only particulars he has given on this alleged debt are contained in his third witness statement where he said Mr Changizi made the payment as a settlement payment:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;margin-right:0.5in">&#8220;&#8230; to avoid a claim against him during his lifetime, and on his demise against his estate, the Claimant agreed with the Settlor to a payment of &#163;300,000.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>75.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in">No further particulars have been given. In any event, this version of events is inconsistent with Sharas&#8217; threats to bring a claim against the executors in 2014 and 2015 arising from his father&#8217;s failure to pay him in respect of Wricklemarsh Road.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>76.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Sharas&#8217; evidence has not been tested at a trial. It is, however, unnecessary to make any findings about Sharas&#8217; various assertions because the executors paid the tax and interest on the basis of Sharas&#8217; repeated assertions that the payment by his father was a gift to him. They were obliged to do so on the basis of the information they had at the time and no criticism can be made of them for doing so. For the purposes of this application, it is right to treat the payment of tax and interest by the executors as properly made. It follows that Sharas is liable to the estate for the sum it has paid to HMRC namely Inheritance Tax of &#163;129,476.40 and interest of &#163;9,499.15.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge then went onto consider whether in his discretion he should stay the claim, whether a stay would stifle the claim and whether he should exercise his inherent jurisdiction to stay.  As to the stifling of the claim, the judge made these findings on the evidence:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;79.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is clear that Sharas has not provided a complete picture of his finances. He has not said, for example, what happened to the &#163;300,000 he received from his father, he has not provided unredacted bank statements, he has not explained how he funds day to day living expenses and he has not explained in evidence where he lives and what interests in property he has. He has not explained how he was able to offer buy 105 Barkston Gardens for over &#163;1 million in 2019. Most importantly he has not provided any detail about his share of the Spanish estate, when a distribution may be made (and any distributions already made) and his ability to raise funds from family or other third parties.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to his inherent jurisdiction, the judge at [82] set out a number of factors which he found weighed in favour of a stay, including that some of the claims of the appellant against the estate were abusive or hopeless and were frustrating the attempts of the executors to complete the long outstanding administration of the estate, that the unpaid costs were substantial and directly impacted upon the appellant&#8217;s mother as beneficiary.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Grounds of appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ground on which permission to appeal was given by Michael Green J is a narrow one. He referred to paragraphs 40-42 of the judge&#8217;s judgment and to the deficit of &#163;102,368.40 and then went on to say this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;But in para.76 of the judgment, the judge concluded that the Appellant&#8217;s liability in respect of Inheritance Tax on the potentially exempt transfers was only &#163;129,476.40 plus interest of &#163;9,499.15. If this figure - &#163;138,975.55 &#8211; were used instead of the total amount of Inheritance Tax paid by the estate - &#163;281,994,04 - the Appellant has calculated that this would leave a balance in favour of the Appellant from the estate of &#163;41,412.88. If that is right, it means that the estate will have effectively been paid the costs orders by deduction from the Appellant&#8217;s share and he owes nothing further to the estate. The conclusion that the costs orders are outstanding and therefore these proceedings are an abuse could be therefore undermined. In my view the Appellant has a real prospect of success on this part of the appeal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before me, the appellant raised a further point, that the wording of the will is such that his mother&#8217;s share of the estate is not exempt from tax, a point which he accepts he did not take before the judge. As this involves a point of law, however, it seems to me that I can consider it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the appellant is liable to the estate for all inheritance tax paid, not just in relation to his failed PETs, but also in relation to tax payable by the estate. This is because only he and his mother are beneficially entitled to the estate, and if his mother&#8217;s share is exempt from tax, the tax must be paid by the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, it is to the issue of the spouse exemption which I now turn. Section 41 of the 1984 Act provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;41 Burden of tax.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Notwithstanding the terms of any disposition&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">none of the tax on the value transferred shall fall on any specific gift if or to the extent that the transfer is exempt with respect to the gift, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">none of the tax attributable to the value of the property comprised in residue shall fall on any gift of a share of residue if or to the extent that the transfer is exempt with respect to the gift.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 41 was considered by Blackburne J in Re Ratcliff <span style="font-style:italic">Holmes v McMullen</span> [1999] STC 262, as referred to in the notes to the sixth interim accounts. That concerned gifts of half of the residue in equal shares to non-charitable beneficiaries (which were not exempt under the 1984 Act) and gifts of the other half in equal shares to named charitable charities (which were so exempt). The question was whether the residue was to be calculated after the incidents of inheritance tax on the gift to non-charity beneficiaries, or whether that tax should be borne by that share. Blackburne J said this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In my view, therefore, the gross division approach is correct. An equal division of disposable residue between the [non-charity beneficiaries] and the four charities inevitably means that the inheritance tax attributable to the [non-charity beneficiaries&#8217;] half share must be borne by that share: to subject the charities' half share to any part of that burden is prohibited by <a href="https://uk.westlaw.com/Document/I6E7364E0E44A11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=dda3472ad72541e68bd7d4c1a00c36dc&amp;contextData=(sc.Search)" class="Hyperlink" style="color:initial">section 41 (b)</a>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Blackburne J referred to a previous case Re Benham's Will Trusts , <span style="font-style:italic">Lockhart v Harker, Read and the Royal National Lifeboat Institution </span>[1995] STC 21, a decision of Robert Gray QC (sitting as a deputy judge of the High Court) who held that the effect of the words of the clause in that case was to divide the residue into two funds with the ratio given relating to the two funds and not to the individual beneficiaries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Blackburne J then said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;After setting out <a href="https://uk.westlaw.com/Document/I6E7364E0E44A11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=dda3472ad72541e68bd7d4c1a00c36dc&amp;contextData=(sc.Search)" class="Hyperlink" style="color:initial">section 41</a> of the 1984 Act, the deputy judge said this: </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;There seem to me to be three possibilities: (1) that the non-charitable beneficiaries receive their respective share, subject to inheritance tax, which would mean that they would receive less than the charitable beneficiaries; (2) that the non-charitable beneficiaries are entitled to have their respective shares &#8220;grossed up&#8221; so that the net result is that equality is achieved between charitable and non-charitable beneficiaries; (3) that the executors pay the inheritance tax as part of the testamentary expenses under clause 3(A) of the will and distribute the balance equally between the exempt and non-exempt beneficiaries.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">After quoting various passages from McCutcheon on Inheritance Tax (3rd Edition 1988) he accepted a submission that the possibility at (3) was precluded by <a href="https://uk.westlaw.com/Document/I6E7364E0E44A11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=dda3472ad72541e68bd7d4c1a00c36dc&amp;contextData=(sc.Search)" class="Hyperlink" style="color:initial">section 41</a>.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The deputy judge applied the second option. Of that decision, Blackburne J said this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The difficulty that I feel about that decision is that, with all due respect to the deputy judge who decided it, it is not at all clear why he came to the conclusion that the testatrix's plain intention was that &#8220; at the end of the day each beneficiary, whether charitable or non-charitable, should receive the same as the other beneficiaries in the relevant list &#8221; (my emphasis)&#8230; If I had thought that Re Benham's Will Trusts laid down some principle, then, unless convinced that it was wrong, I would have felt that I should follow it. I am not able to find that it does and, accordingly, I do not feel bound to follow it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant now seeks to rely on Re Benham, a point which he accepts he did not take before the judge. As the appellant submits, these authorities differ from the present case, in that they were considering whether inheritance tax should fall only on the non-exempt gifts, so that in effect they became unequal notwithstanding the clear wording of the gifts. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Here, the will provides expressly by clause 5(i) that [inheritance] tax should be paid and then by clause 5(iii) that the residue should be divided into equal shares. I respectfully agree that Re Benham lays down no principle, and that I should follow Re Ratcliffe. That is what is directed by the clear wording of section 41. The statutory provision means that none of the tax attributable to the value of the residue shall fall on the exempt share of the appellant&#8217;s mother.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The editors of Williams, Mortimer and Sunnucks Executors, Administrators and Probate 22nd Ed at 41-44, put the position in this way:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In a standard case, therefore, grossing up will not apply. Re Benham was a special case on its facts. There is, however, no reason why the testator cannot include an express Benham clause, to the effect that the shares of the beneficiaries not qualifying for exemption are deemed to be of an amount which after payment of tax is equal to that of the shares of beneficiaries qualifying for exemption. Conversely, the testator could include an express Ratcliffe clause to the effect that the share of a beneficiary not qualifying for exemption shall bear its own tax. Such express provision will remove any doubt as to the incidence of tax.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">No such express clause was included in the will in this case. In my judgment section 41 prevents the incidence of inheritance tax on the exempt share of the appellant&#8217;s mother.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the judge was entitled to proceed on the basis of the respondents&#8217; calculations and on the basis that the appellant&#8217;s mother share in the estate is exempt from inheritance tax so that the burden of all such tax in relation to the estate and the failed PET falls upon the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Mattsson submits that if the appellant&#8217;s case is that the &#163;300,000 he received from his late father on 9 June 2009 does not attract any tax liability, it is  open to him to provide evidence so that the respondents may ask HMRC to amend their figures and obtain a refund. The appellant has not done this and given his witness statement in 2012 and the various statements he has made that the &#163;300,000 was a gift, the respondents have been in no position to make such a request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, the decision to stay the claim was well within the judge&#8217;s discretion, for the reasons he gave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that the appeal must be dismissed. I direct the parties within 14 days of hand down of this judgment to file a draft order agreed as far as possible with written submissions on any consequential matters which cannot be agreed. These then will be determined on the basis of the written submissions.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

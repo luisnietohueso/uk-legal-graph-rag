@@ -1,0 +1,1366 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/606"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/606"/>
+	  <FRBRdate date="2025-03-14" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="606"/>
+	  <FRBRname value="Catarina Oliveira da Silva &amp; Ors v Brazil Iron Limited &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/606"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/606"/>
+	  <FRBRdate date="2025-03-14" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/606/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/606/data.xml"/>
+	  <FRBRdate date="2025-03-17T16:54:18" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-14" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="catarina-oliveira-da-silva-and-others" href="" showAs="CATARINA OLIVEIRA DA SILVA AND OTHERS"/>
+	<TLCPerson eId="brazil-iron-limited-and-another" href="" showAs="BRAZIL IRON LIMITED AND ANOTHER"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>606</uk:number>
+	<uk:cite>[2025] EWHC 606 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>d25f4d548570f27b088b3c943f428547473f5899d0a778331e164cfeae84d713</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Constantia; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: Constantia; font-size: 12pt; color: #2F5496; }
+#judgment .CommentText { font-family: Constantia; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: Constantia; font-size: 10pt; }
+#judgment .Revision { font-family: Constantia; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: Constantia; font-size: 12pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: Constantia; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: Constantia; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 606 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>KB-2023-003740</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-14" refersTo="#judgment">14/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center">HON. MR JUSTICE BOURNE</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#catarina-oliveira-da-silva-and-others" as="#claimant" style="font-weight:bold">CATARINA OLIVEIRA DA SILVA AND OTHERS</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#brazil-iron-limited-and-another" as="#defendant" style="font-weight:bold">BRAZIL IRON LIMITED AND ANOTHER</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">RICHARD LORD KC and ALISTAIR MACKENZIE </span>(instructed by<span style="font-weight:bold"> LEIGH DAY</span>) for the <span style="font-weight:bold">CLAIMANTS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">STEPHEN AULD KC and OGNJEN MILETIC</span> (instructed by <span style="font-weight:bold">WEDLAKE BELL</span>) for the <span style="font-weight:bold">DEFENDANTS</span></p>
+      <p style="text-align:center">Hearing dates: 17 AND 18 DECEMBER</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down in Court 19 on 14<span style="vertical-align:super;font-size:smaller">th</span> March 2025 at 15:30pm and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HON. MR JUSTICE BOURNE</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Before The Hon. Mr Justice Bourne:</span></p>
+	    <p><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">This is an application by the Defendants under CPR Part 11(1)(b) for an order declaring that this Court should not exercise its jurisdiction to try the claims against the Defendants and for a stay of proceedings and an order for costs, on the ground that Brazil, rather than England and Wales, is the proper place in which the claims should be tried. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">There is also a cross-application by the Claimants for an order declaring inadmissible some of the evidence on which the Defendants rely in support of their application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I take the following summary of the background principally from the Claim Form to explain the nature of the proceedings. In this summary I am not making findings as to any of the facts alleged, many of which may be disputed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The 103 Claimants are or were residents of the communities of Moc&#243; and Bocaina in the municipality of Piat&#227;, Bahia State, Brazil. These are, or include, indigenous communities of &#8220;Quilombola&#8221; people who enjoy certain protections under Brazilian law. The evidence explains that Quilombolas are descendants of enslaved Africans trafficked to Brazil, who fled slavery and took refuge in the forests, establishing autonomous communities as a form of resistance to slave oppression whilst preserving their cultures and traditions. Self-declaration of Quilombola status earns an individual certain rights under Brazilian law, in particular as to property rights which may be relevant to their standing to make their claims. Quilombola status may also be relevant to the assessment of damages, because damages may take account not only of economic impact but also of the social and cultural impact of any damage to property.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The First Defendant (&#8220;BIL&#8221;) and the Second Defendant (&#8220;BITL&#8221;) are companies registered and domiciled in England and Wales. BIL holds 100% of the shares in BITL and in an Isle of Man company, Oakmont Finance Ltd (&#8220;Oakmont&#8221;). BITL and Oakmont hold all of the shares in the Brazilian company Brazil Iron Minera&#231;&#227;o Ltda (&#8220;BIML&#8221;), which operates the Fazenda Moc&#243; iron ore mine in Moc&#243; (&#8220;the Mine&#8221;). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimants allege that BIML operated the Mine under the control and direction of the Defendants. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimants claim that as a result of continuous and unlawful pollution from the Mine between August 2013 and 2022, they have suffered environmental damage to their land, crops and water sources, physical damage to their properties, disturbance from dust and noise pollution. They also claim to have been subjected to the invasion of their land, harassment and intimidation by the Defendants&#8217; and BIML&#8217;s representatives in Brazil, and to have suffered financial loss and personal injuries, both physical and psychological. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The claim is brought under Brazilian law (specifically, Brazilian federal law and Bahia State law), which applies by virtue of the Rome II Regulation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">It is alleged that the Defendants controlled the operation of the Mine, giving rise to (1) strict liability as indirect polluters, (2) fault-based liability by virtue of having control over BIML, being aware of the potential risks to the environment and neighbouring occupiers and disregarding notifications given by Brazilian regulatory bodies and (3) fault-based liability of a controlling shareholder under Brazilian law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimants claim damages to be quantified (including aggravated and exemplary damages) in respect of the losses and detriments. The Claim Form indicates that total loss is expected to exceed &#163;200,000. In evidence at an early stage it was estimated that each Claimant on average could recover a sum in the region of &#163;11,200 though there have since been other estimates and none are agreed. They also claim interest under section 35A of the Senior Courts Act 1981 and/or under Brazilian law, and legal costs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">They have also sought injunctive relief for the immediate cessation of alleged harassment and intimidation of the Claimants by representatives of the Defendants in Brazil, and to restrain the Defendants from causing or permitting further contact with or harassment or intimidation of the Claimants by their representatives. They claim that the conduct which they seek to restrain constitutes a tort under Brazilian law and contempt of the English court. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">There are already some relevant proceedings in Brazil, but not against these Defendants. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A Civil Public Action (&#8220;CPA&#8221;) was commenced on 3 October 2022 against BIML, for environmental damage, and against the National Mining Agency for its authorisation of the mining operations and supervision failures, on behalf of one of the Quilombola communities. The expert witnesses agree that the Defendants to the present claim cannot be included in the CPA in respect of any liabilities of their own, and might become liable in those proceedings only in the event of BIML&#8217;s insolvency. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">An ordinary civil claim containing similar types of complaint has been issued against BIML in Brazil in the District of Piat&#227; by Mr Joaquim Ribeiro Neto and Ms Izabel &#194;ngela de Jesus Ribeiro (the &#8220;Ribeiro Proceedings&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-weight:bold">Legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The principles to be applied on an application such as this were established by the decision of the House of Lords in </span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada Maritime v Cansulex</span><span style="font-family:'Times New Roman'"> [1987] AC 460. They have been discussed in many cases since then, including by the Supreme Court in </span><span style="font-style:italic;font-family:'Times New Roman'">Lungowe v Vedanta Resources Plc</span><span style="font-family:'Times New Roman'">&#160;</span><a href="https://uk.westlaw.com/Document/IBCA63D205B8511E985BAE03360F83F42/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=305cf2ad4fae410baa2e6bc98994993e&amp;contextData=(sc.Search)&amp;comp=wluk" style="font-family:'Times New Roman'">[2019] UKSC 20, [2020] AC 1045</a><span style="font-family:'Times New Roman'">. They were most recently rehearsed by the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Limbu and others v Dyson Technology Ltd and others</span><span style="font-family:'Times New Roman'"> [2024] EWCA Civ 1564. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In a case such as this, where service has been validly effected in this jurisdiction, the burden is on the defendant to show that there is another available forum which is clearly and distinctly more appropriate, meaning that the case may be tried more suitably there for the interests of all the parties and the ends of justice (</span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada </span><span style="font-family:'Times New Roman'">page 476). The burden reflects the fact that in such a case the claimant has served the defendant as of right, which is an advantage that will not lightly be disturbed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">As Popplewell LJ said in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson </span><span style="font-family:'Times New Roman'">at [22-23]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;22.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman'">&#8230; In determining the appropriateness of the forum, the court looks at connecting factors to determine with which forum the action has the most real and substantial connection (</span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada</span><span style="font-family:'Times New Roman'">&#160;at p. 478A). These include not only factors affecting convenience or expense, but also other factors such as governing law, the place where the parties reside or carry on business, and where the wrongful acts and harm occurred (</span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada</span><span style="font-family:'Times New Roman'">&#160;p. 478A-B,&#160;</span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'">&#160;at [66]). The risk of multiplicity of proceedings giving rise to a risk of inconsistent judgments is only one factor, although a very important one (</span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'">&#160;at [69]). In applying these connecting factors to cases involving multiple defendants, their relative status and importance in the case should be taken into account, such that greater weight is given to the claims against those who may be described as a principal or major party or chief protagonist:&#160;</span><a href="https://uk.westlaw.com/Document/I5E4D3350DBDC11DFABF4DABF82CFA74B/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=305cf2ad4fae410baa2e6bc98994993e&amp;contextData=(sc.Search)"><span style="font-style:italic;font-family:'Times New Roman'">JSC BTA Bank v Granton Trade Limited</span><span style="font-family:'Times New Roman'"> [2010] EWHC 2577 (Comm)</span></a><span style="font-family:'Times New Roman'">&#160;per Christopher Clarke J at [28].</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>23.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman'">&#8230; if the court concludes that the foreign court is more appropriate by reference to connecting factors, applying the relevant burden of proof, the court will nevertheless retain jurisdiction if the claimant can show by cogent evidence that there is a real risk that it will not be able to obtain substantial justice in the appropriate foreign jurisdiction (</span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'">&#160;at [88]). Cogent evidence does not mean unchallenged evidence (</span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'">&#160;at [96]). This is often conveniently treated as a second stage in the analysis because it usually calls for an assessment of different evidence, but it does not involve a different question: if there is a real risk of denial of justice in a particular forum it is unlikely to be an appropriate one in which the case can most suitably be tried in the interests of the parties and for the ends of justice:&#160;</span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'">&#160;at [88]. &#8230; second stage factors may also be relevant to the first stage in what is juridically a single holistic exercise in seeking to identify where the case can most suitably be tried in the interests of the parties and for the ends of justice.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I return to the case law in my discussion of the issues below, identifying passages which I have found significant there rather than recording all the references to case law made by each counsel, helpful as those were. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">Expert evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Each side relies on the expert evidence of a Brazilian lawyer experienced in environmental litigation. The Defendants instructed Flavio Andrade de Carvalho Britto, who is also a former Attorney of the Municipal Chamber of Rio de Janeiro. The Claimants instructed Marlon Jacinto Reis, who served as a judge in the state of Maranh&#227;o for nearly 20 years and who practises as a solicitor before Brazilian courts. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I now focus on the joint statement of the experts dated 28 November 2024 (professionally translated version), supplemented where necessary by the voluminous expert reports on each side. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The following significant propositions can be extracted from the expert evidence:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">A large number of environmental claims are filed in the courts of Brazil (though Mr Reis points to procedural or structural difficulties which they may face). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Brazilian law provides for multiple claims to be joined where there is a sufficient connection between them, though Mr Reis emphasizes that the effectiveness of this course depends on the homogeneity of the damages suffered. Mr Britto considers that the present claims would be joined, but Mr Reis considers that the diversity of the ways in which the alleged victims were affected means that joinder would not be practical or efficient. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">There is provision under Brazilian law for claims by persons aged over 60 to be processed with greater priority, though the experts differ on whether this would make a difference in the present case. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">The Bahia CPA is based on the same &#8220;harmful fact&#8221; as this litigation but the CPA could not be directed against the English Defendants. Individual and collective material damages and collective &#8220;moral&#8221; damages will be recoverable if the CPA succeeds. The experts differ as to whether the claimants could recover individual moral damages. The experts differ on whether the Office of the Federal Public Defendant has sufficient resources to complete the CPA effectively. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Ordinary civil claims for the same cause of action can be brought in Brazil despite the existence of the CPA. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Under Article 4 of the Environmental Crimes Law, if the Claimants sue BIML and are awarded damages, and BIML cannot financially bear the loss, they could enforce their judgment against the Defendants. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Brazilian law provides for &#8220;free legal assistance&#8221; under Article 5, LXXIV of the Federal Constitution, where a litigating individual cannot bear the costs of hiring a lawyer. Such individuals have a right to representation by the Public Defender&#8217;s Office. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">There is also &#8220;free legal aid&#8221; under Law 1.060/1950 and Article 98 of the Civil Procedure Code, which exempts a litigant from paying &#8220;procedural fees or costs, such as fees of lawyers (losing party fees), experts, accountants or translators, possible indemnities to witnesses, costs such as DNA tests and others necessary for the case, deposits for filing appeals or other procedural acts, expenses for sending documents and publications, and other expenses provided for in &#167;1 of Art. 98 of the CPC&#8221;. Mr Reis adds that many expenses are not covered by free legal aid, such as per diem expenses of the parties&#8217; witnesses and the cost of &#8220;expert assistants&#8221; (see the next paragraph). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Mr Reis also states that except in exceptional cases, a party must advance payment to their expert and then recover it from the State. Also, the costs which are not covered include &#8220;the payment of expert assistants appointed by the parties&#8221;, whereas defendant companies can always pay their expert assistants. It was explained to me that in Brazil&#8217;s inquisitorial system, the Court appoints an expert to report to the Court whilst individual parties typically appoint expert or &#8220;technical assistants&#8221; to put forward expert evidence on their behalf. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Brazilian lawyers are permitted to enter into a contingency fee agreement (&#8220;CFA&#8221;). These can provide for success fees of up to 30% of the damages recovered, though market practice varies between ceilings of 10% and 20%. The Civil Procedure Code provides, in addition, for the losing party to pay costs in the same or a similar range.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">k.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">There are examples of Brazilian lawyers who have agreed to represent clients in environmental claims based on such CFAs. Mr Britto believes such cases are quite common. Mr Reis believes they are exceptional and that lawyers work in this way &#8220;where there is clear evidence of environmental damage and a high probability of success in litigation&#8221;.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">l.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">In respect of the present cases and having regard to an estimate of the damages which each claimant could recover and the costs of bringing the claims, Mr Reis calculates that the claimant&#8217;s law firm would sustain a significant loss overall. Mr Britto disagrees. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">m.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Mr Britto considers it highly likely that the claimants would find lawyers to represent them in this case. Mr Reis believes that the case is not capable of generating interest from any lawyer. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">n.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Mr Britto believes that the Office of the Public Defender has sufficient resources to provide effective assistance to the Claimants in individual cases. Mr Reis believes that an insufficiency in the number of federal public defenders means that a significant number of regions have insufficient assistance and that the state of Bahia is among the most affected. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">o.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Pro bono representation exists in Brazil. Mr Britto believes that lawyers could agree to fund these claims in that way. Mr Reis believes it would be unfeasible in this case because of the high operating costs arising from the number of claimants, the likely duration of the case and the need for complex analysis of environmental damages and the use of paid experts. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">The Defendants&#8217; evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A significant body of evidence has been filed on both sides. I confine my summary to those parts which are directly relevant to the issues which are determinative of the applications before me. I therefore do not provide details here of, for example, evidence going to certain issues of liability in the claim such as whether the Defendants controlled BIML. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A witness statement dated 6 June 2024 by Gordon Toll, a director of both Defendants, sets out some undertakings proffered on their behalf to which I return below. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Rafael Genu, the head of licensing and environmental affairs at BIML, provided a witness statement dated 5 June 2024. He describes the operations at the Mine. He sets out details of the regulatory framework whereby those operations are overseen by various federal, state and municipal agencies in Brazil. He notes the issue about Quilombola status, states that the registration of relevant land as Quilombola territory is in dispute and describes this as a complex legal issue. He sets out the background to the dispute which gives rise to this litigation, describes four civil enquiries which have been launched by the Bahia State Public Prosecutor&#8217;s Office to examine alleged environmental damage from the Mine and gives some details about the CPA and the Ribeiro proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In a further statement dated 8 November 2024 Mr Genu confirms BIML&#8217;s willingness to cover the reasonable cost of &#8220;technical assistants&#8221; for the Claimants (of up to BRL 5,000 &#8211; about &#163;650 &#8211; for each question required to be answered by the Brazilian court) if they cannot bear those fees and are not granted &#8220;judicial assistance&#8221; covering them. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A witness statement dated 7 June 2024 by Guy Saxton, President of BIL, explains the corporate structure. He describes BIL as a corporate vehicle which is used as a shareholding entity to seek investment and funding for projects including the Brazil Iron Ore Project which is managed by BIML. He takes issue with the allegation that the Defendants controlled BIML&#8217;s operations, and describes the management of the Mine by a Portuguese-speaking team in Brazil. He states that all logistical aspects of the mining operation were managed and contracted in Brazil. He referred to the Defendants&#8217; solicitors&#8217; estimate of the possible value of the claims and to their view that legal costs in the UK would run into millions of pounds. He asserts that BIML would be able to satisfy a judgment against it in Brazil but states that BIL would be prepared to undertake to guarantee BIML&#8217;s obligations if the litigation proceeds in Brazil, and would also submit to Brazilian jurisdiction. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In a second statement dated 12 November 2024 Mr Saxton sets out in more detail the further undertakings which the Defendants would be willing to give. I return to these at [69] below. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Edward Starling, a partner of the Defendants&#8217; solicitors Wedlake Bell LLP, provided witness statements dated 7 June and 13 November 2024. He sets out the reasoning behind the Defendants&#8217; application, emphasizing the close connection of these proceedings with Brazil and giving some details of possible logistical burdens associated with continuing them in this country. Parts of both statements are more in the nature of argument and/or summarise evidence given by other witnesses, but Mr Starling also gives a helpful chronology of the proceedings to date. He lists the individuals who might be witnesses and organisations or groups which could become involved, and lists 18 possible categories of expert evidence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Henrique Santana Carballal provided a witness statement dated 1 November 2024. He is the President of a company, controlled and partially owned by the State of Bahia, which is involved with conducting research, prospecting and economic exploration of minerals there. He signed a letter which was sent to the High Court (addressed to Lavender J and Ritchie J) on 21 October 2024. The letter seeks to dissuade the Court from accepting jurisdiction over these claims, suggesting that it could discourage foreign investment in Bahia. The local judiciary, it says, is perfectly able to offer a solution, and suggestions of corruption and delay are based on erroneous and outdated information. It points out that a decision by an English court could conflict with decisions in the various proceedings in Brazil and suggests that &#8220;the sovereignty of the State of Bahia and Brazil is at risk&#8221;, and that &#8220;an English judge cannot decide on the title of Brazilian lands or the status of a community as Quilombola without violating the Bahia and Brazilian sovereignty&#8221;. It also suggests that the operation of a foreign law firm in Brazil, specifically &#8220;Leigh Day&#8217;s meddling in Brazilian matters&#8221; may be illegal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Both parties filed witness statements from a number of Brazilian lawyers in addition to the expert witnesses to whom I have already referred. As I will explain below, I have attached particular weight to the evidence of the experts, qualified as it was by their expert declarations under the CPR. But I have not found it necessary to disregard factual evidence about the Brazilian legal system given by the other witnesses. In summarising their evidence I have tried, where possible, not to repeat propositions which are already established by the expert evidence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Ricardo Loretti, a partner in a Brazilian litigation law firm, provided a witness statement dated 7 June 2024. He describes how a firm might assess the viability of a claim such as the present one. He says that &#8220;no win no fee&#8221; arrangements are well accepted in Brazil although it is more usual to charge a retainer fee plus a success fee. He describes how a lawyer would look into the Quilombola issue, which could be very important for the Claimants&#8217; claim for diminution in value of their land. He notes that Article 113 of the Civil Procedure Code enables multiple claimants to be joined if their claims are sufficiently connected, though the number of claimants in a single action may be limited by the judge. He provides more information about the CPA and confirms that its existence does not prevent the making of individual claims. He explains how a claimant in Brazil would go about establishing the liability of an indirect polluter and, in view of the need to establish a causal link between environmental damage and an act or omission of the parent companies and the bureaucratic hurdles of serving proceedings on foreign companies, says that he would recommend that a claimant should not sue the parent companies. If judgment were obtained against BIML and its assets proved insufficient to meet the liability, it could be enforced against the parent companies. Mr Loretti said that if his firm were not conflicted and the claim were shown to have a good chance of success, he would be willing to represent the claimants in Brazil and to investigate the possibility of a &#8220;no win no fee&#8221; arrangement. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Fernando Moreira Drummond Teixeira is a Brazilian attorney with 19 years&#8217; experience of litigation and arbitrations and is a partner in a law firm. His statement dated 8 November 2024 describes how his firm dealt with repair, recovery and compensation measures on behalf of a non-profit body, Fundacao Renova, following the rupture of the Fund&#227;o Dam in Mariana, Minas Gerais, including some 3,500 lawsuits. He also worked for a company, Cervejaria Backer, defending a public civil action against it arising from a serious contamination incident. He says that his experience confirms that the Brazilian judiciary has full competence to deal with such claims and that underprivileged people benefit from free legal services. Distance, he says, is no obstacle, thanks to the widespread use of electronic systems in Brazil. He states that the Public Defender&#8217;s Office in Bahia has &#8220;hundreds of defenders&#8221; who can act for, for example, Quilombola communities. Where these are unavailable, parties can be represented by court-appointed lawyers paid for by the State. Nevertheless, in the Fundacao Renova matters, 99% of the parties used a combination of legal aid and private counsel. He does not believe that there is any significant problem of delay in the Brazilian judicial system. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Sandro Rafael Bonatto provided a statement dated 8 November 2024. He is an attorney with 29 years of professional experience including experience of environmental lawsuits in the State of Bahia involving underprivileged people including those of Quilombola ancestry. He is a partner in a firm which has worked on cases arising from four major environmental accidents (three in 2009 and one in 2013) which affected thousands of fishermen, many from indigenous populations. He emphasizes the effect of the reversal of the burden of proof in environmental cases, meaning that expert evidence on the existence, causation and impact of damage is paid for by defendants. He views delay in the system as a greater problem than access to justice. He describes how he assesses the feasibility of claims, having regard to matters including the number of people affected. He sets success fees in the order of 20% to 30%. The cost of the work of lawyers is diluted by their working on several cases rather than being exclusively devoted to one matter. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Gabriel Seijo Leal de Figueiredo provided a statement dated 8 November 2024. He is a Brazilian attorney, law professor, and a partner at a law firm which typically represents large companies in litigation, including mining companies. He describes how he would assess the viability of a lawsuit in Brazil and provides evidence broadly consistent with that already summarised about procedural matters such as joinder and electronic process, and about legal aid, though his experience is that typically, &#8220;an economically insufficient citizen would seek the help of the Public Defender&#8217;s Office&#8221;. His firm is representing a mining company in three lawsuits against indigenous communities who are represented by private attorneys. He feels that it would not be difficult to find private attorneys interested in representing claimants, and notes that he is representing a mining company in a suit filed by an association representing over 100 fishermen in Bahia seeking indemnity for environmental damage, and the association is represented by three private law firms. He emphasizes that a case may be more attractive to claimant lawyers because of the prospect of recovering &#8220;loss of suit fees&#8221; from the other side of 10-20% of the value of the claim. He added that he has also acted in cases where the Public Defender represented the other side. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Fredie Dider Jr provided a statement dated 2 November 2024. He has worked as a lawyer in Brazil since 1999, is a partner at a law firm and is a law professor. He confirmed what was said by other witnesses about access to justice, legal aid and costs recovery. He states that the Public Defender&#8217;s Office of the State of Bahia has more than 400 defenders and has an office some 149 km away from Piat&#227;. He has represented a defendant in a claim filed by the Public Defender&#8217;s Office of the State of Bahia. He considers that firms similar to his would have an interest in taking on claims such as those in the present case. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">The Claimants&#8217; evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Gen&#233;sio Felipe de Natividade provided a witness statement dated 16 September 2024. He has been a Brazilian lawyer for over 30 years and founded a law firm in 1997. He has extensive experience in environmental law and his firm has an &#8220;area focused on vulnerable communities affected by socio-environmental damage and human rights abuses&#8221;. He emphasizes the remoteness of places in which claims such as the present claims may arise and the logistical difficulties which this can cause. When his firm is contacted by a community wishing to bring a claim, it will analyse the legal issues and assess the costs. In his experience, collective claims such as CPAs are more common than individual lawsuits. He estimates that for the present claims, a law firm would have to invest about &#163;94,000 per year during the lifetime of the case for items which are not covered by legal aid, and that burdens of this kind often make it unfeasible for a firm to act. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Paulo Rosa Torres provided a witness statement dated 16 September 2024. He is a law professor and self-employed lawyer who has represented many land occupiers and traditional communities in complex litigation over many years. He particularly complained of long delays in the resolution of such cases. He said that he would not take on the present claims because of difficulties caused by distance, because not all the claimants would necessarily have access to legal aid and because enforcement of liability against the English holding companies would be a long and complicated process, with a greater risk that a lawyer depending on a success fee or on loss-of-suit fees would never be paid. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Danilo Gon&#231;alves Novaes provided a witness statement dated 18 September 2024. He is a lawyer who since 2011 has practised in civil law and who was approached in relation to the present claims. He recommended &#8220;a collective or even individual action for homogeneous rights&#8221; on behalf of the community. The distance between his office and Piat&#227; ruled out &#8220;pro bono work or a risk contract with payment at the end of the case&#8221; because of the level of overheads in an environmental damage case. He quoted initial fees but the case could not be taken any further because the Claimants could not afford them. He also felt that the judiciary in Bahia might favour the economic benefits of mining over a claim for environmental damage, and that the CPA will take years or decades and will probably end in BIML being held &#8220;minimally responsible&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Natiele Santos provided a witness statement dated 18 September 2024. She is a lawyer working for the AATR, the Association of Rural Workers&#8217; Lawyers in Bahia. Local residents sought the AATR&#8217;s support to address the impacts of the activity at the Mine. The AATR assisted in various ways but could not represent the residents in individual lawsuits because of their large numbers and the demands of other traditional communities which they already assist. She comments that the CPA has so far been slow and ineffective, as have other CPAs in Bahia. In her experience there are few professionals with expertise who are willing to take on this type of claim, and lawyers working on a contingency fee basis could not afford to take on the legal costs. The availability of public defenders, she said, is very limited. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Catarina Oliveira Da Silva is one of the Claimants, and provided a witness statement dated 18 September 2024. She describes the making of complaints about the Mine from 2019 onwards. After a demonstration in 2020 she and others spoke to a lawyer in Piata who gave some practical advice but who declined to represent the Claimants pro bono or on a success fee basis. She could not afford to hire a private lawyer to bring a claim in Brazil. She was advised to consult lawyers in England, where the holding companies are domiciled, by a university professor, and she approached Leigh Day in mid-2022. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Vanusia Souza dos Santos, another Claimant, provided a witness statement dated 19 September 2024. She gave evidence about the background from 2020 onwards. She described how the CPA began, following contact with a Dr Correia who worked for the Federal Public Defender for Bahia and how, in short, there has been little progress since. In May 2024 Ms dos Santos was told that a Dr Erik Boson would take over the case, but on 20 May he resigned from the Federal Public Defender&#8217;s office, complaining of &#8220;a complete lack of human and material structure in the Regional Human Rights Ombudsman&#8217;s Office in Bahia and the complete inattention of the Federal Public Defender&#8217;s Office to this fact&#8221;. She has not heard of any development since then. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A letter dated 5 September 2024 from Gabriel Cesar Dos Santos of the Federal Public Defender&#8217;s Office states that the CPA is (still) in its initial phase. He explains that when it is concluded, the &#8220;settlement phase&#8221; must be completed. Each member will need to file an action to prove and quantify their damage. They could be assisted by the Public Defender&#8217;s Office but there would be a means check and a time limit, and the distance between Piat&#227; and the nearest Defender&#8217;s Office could cause difficulty. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Richard Meeran, a partner at Leigh Day, provided a witness statement dated 27 September 2024. Essentially it advances the opposite views to those of Mr Starling. Mr Meeran sets out the history of the proceedings to date, including a grant of an injunction restraining any harassment and intimidation of the Claimants in Brazil. He provides more information about the progress of the CPA to date and issues of resources affecting the Public Defender. He pulls together the strands of the Claimants&#8217; evidence on the difficulty of obtaining access to justice in Brazil.  He draws attention to some factual differences between the Claimants&#8217; claims and the Ribeiro proceedings. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">The cross-application</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On 29 November 2024 the Claimants applied for an order that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">a second witness statement of Mr de Natividade and a further witness statement of Mr Meeran are admitted in opposition to the Defendants&#8217; application; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the witness statement of Mr Dider and paragraphs 33-39, 85-90 and 105-108 of the witness statement of Mr de Figueiredo are declared inadmissible in respect of the Defendants&#8217; application. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By way of background, an earlier application by the Claimants to exclude the witness statement of Mr Loretti on the ground that it contained expert opinion was dismissed by Ritchie J on 30 July 2024. Ritchie J distinguished (a) expert evidence about the Brazilian legal system from (b) factual evidence by a Brazilian lawyer about &#8220;how the system works in his experience&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Then, on 13 November 2024 the Defendants served their reply evidence which included the evidence which the Claimants now seek to exclude. The Claimants contend that Mr Dider&#8217;s statement and the relevant parts of Mr de Figueiredo&#8217;s statement fall into Ritchie J&#8217;s category (a) rather than category (b). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Although there was no direction for any further evidence, the Claimants served the second statement of Mr de Natividade and the seventh statement of Mr Meeran on 25 and 29 November 2024. They seek permission to rely on those, on the basis that the Defendants&#8217; statements contained new evidence going beyond the scope of a reply, to which they needed to respond.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The second statement of Mr de Natividade describes how communities seek help when environmental damage occurs. Lawyers may not be motivated to help because cases may go on for many years (he gives two examples). In his experience the Public Defender&#8217;s Office has limited capacity. State-paid lawyers who may be appointed to act in certain cases do not necessarily have specialist expertise relating to the cases and cannot provide equality of arms against corporations with specialist legal representation. Mr de Natividade considers that face-to-face contact with clients remains necessary in work of this kind. Although there is a reversed burden of proof in environmental degradation claims, victims still have to prove individual damage. He maintains his opinions about the investment needed to conduct a claim and about the joinder issue, distinguishing this case from those on which the Defendants&#8217; witnesses commented. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The seventh statement of Mr Meeran responds to various comments by the Defendants&#8217; witnesses, providing more information in response to some of them. He comments on his own practice in environmental claims against multinational companies and explains his view that it would not be financially viable to run the present claims on a damages-based contingency fee agreement which is the model used in Brazil, essentially because the level of damages would not provide a sufficient return. He also responds to the comments about Leigh Day made by Mr Carballal, summarised above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The application is opposed and was argued at the hearing before me. It was agreed that I would read the disputed material &#8220;de bene esse&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">It seems to me that this procedural part of the dispute has arisen primarily because, inevitably, the factual matrix of the Part 11 issue concerns questions about how the Brazilian legal system works in practice. It is important to draw a line, where possible, between expert opinion and witness evidence of fact. But a discussion about how these claims would fare in Brazil will inevitably involve a mixture of factual reference to the reality of legal practice and opinions about the advantages and disadvantages of the Brazilian legal system.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The answer, in my judgment, is for me to focus on what I can properly take from each witness. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The parties have placed express reliance on the expert evidence of Mr Britto and Mr Reis respectively and, pursuant to the Court&#8217;s direction, a joint statement has been produced. That evidence, it seems to me, should provide the basis for any conclusions which I draw about what would happen if these claims proceeded in Brazil, and in particular about the availability of funding, joinder of multiple claims and delay. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The witnesses of fact on both sides can nevertheless give me some assistance on the question of whether the Claimants would obtain representation if they proceeded in Brazil. In deriving that assistance, I will follow the method suggested by Ritchie J of &#8220;filleting out&#8221; fact from opinion, save where the opinion evidence is necessary to understand the factual evidence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I will therefore not exclude the impugned parts of the Defendants&#8217; evidence, but I will admit them only for the limited purpose which I have described. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I will also admit the further evidence on the Claimants&#8217; side although, so far as Mr de Natividade is concerned, I have in the end gained fairly little from the prolonged exchanges between the witnesses about how the claims might fare in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold">The Defendants&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Defendants were represented by Stephen Auld KC and Ognjen Miletic of counsel. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">At the first stage of the </span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada </span><span style="font-family:'Times New Roman'">analysis, Mr Auld submits that the action plainly has the most real and substantial connection with Brazil and not with England and Wales. The alleged wrongdoing occurred at the Mine, which is in Brazil. The primary cause of action alleged against the Defendants is one of strict liability based on their being an &#8220;indirect polluter&#8221;, and the alleged pollution occurred in Brazil. All of the Claimants live there. So do any witnesses who can be expected to give evidence about the mining operation, regulation and licensing of the Mine and the impact of the mining. Their attendance in England cannot be compelled and/or may give rise to logistical challenges. Most of the witnesses will only speak Portuguese. Most of the documentary evidence is likely to be located in Brazil and to be in Portuguese. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Conversely, although it is alleged that the mining operation was controlled by the English companies, it does not follow that any management acts took place in England. Mr Auld points out that Mr Toll and Mr Saxton have both given addresses overseas. And in any event, he characterised the control issue as detached from the real subject of the case, namely the alleged environmental damage caused by operations of the Mine. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In addition, Mr Auld relies on the existence of the two pre-existing sets of Brazilian proceedings to which I have referred, and a public inquiry in Brazil, all of which have an overlap with issues which would arise in the present litigation, creating a significant risk of irreconcilable judgments. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">There is also, he submits, the unusual factor that some of the Claimants claim to be part of a &#8220;Quilombola&#8221; community. Mr Auld submits that a Brazilian court will be far better placed than an English court to determine sensitive social and cultural issues of this kind. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">More generally, Mr Auld submits that this is a case in which a local Brazilian court would obviously benefit from knowledge of the region and its environment as well as the culture and customs of its population, knowledge which an English judge would obviously lack. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Auld also emphasizes a fact which distinguishes this from some of the reported cases, namely that Brazil has a civil law system which is very different from the common law system with which English judges are familiar. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Turning to the second </span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada </span><span style="font-family:'Times New Roman'">stage, Mr Auld contends that the Claimants come nowhere near discharging the burden of proving a real risk that they would not be able to obtain substantial justice in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">They have the option of awaiting the outcome of the Bahia CPA and, if it is favourable, commencing &#8220;individual liquidation lawsuits which should be quick and present minimal risk for any lawyer seeking to represent them&#8221;. The evidence overall is quite clear about how a CPA operates. Whilst it could be lengthy, there is no evidence to suggest that the CPA in the present case should take longer than any other. The existence of that type of proceedings is evidence of the seriousness with which environmental claims are treated in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The CPA, however, is only relied on as a fallback. Mr Auld&#8217;s primary submission on access to justice is that Brazil is a large and wealthy country with a sophisticated and fair legal system in which the Claimants can bring civil proceedings and that they can and will be able to fund such claims and have proper representation. He points out that this is not a case where anyone seriously suggests that the overseas legal system is unfit for purpose. Although the Claimants made submissions about delay, these were half-hearted. The debate about access to justice is really all about funding.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By reference to the voluminous evidence filed by both sides, Mr Auld submits that there are many examples of both individuals and groups bringing environmental claims in Brazil despite being unable to pay for legal representation. There are many law firms who take on environmental claims of this kind. CFAs are widespread in Brazil. Pro bono representation is also available. The evidence shows that there is also a legal aid scheme which would discharge some of their outgoings, and a separate scheme which may provide &#8220;free legal assistance&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Conversely, he submits, the Claimants have made only cursory attempts to secure representation. It is clear that they have never located a suitable and experienced specialist lawyer and explored what the funding options might be. The evidence of Danilo Gon&#231;alves Novaes is the high water mark of any efforts by the Claimants to find a lawyer, but there is no evidence that he has the necessary specialist expertise, and his fairly brief statement contains no real discussion of options such as a conditional fee agreement or legal aid. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Nevertheless, the Defendants have also made a number of practical concessions or proposals to address any residual concerns about the ability of the Claimants to have effective access to justice in Brazil:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">They will agree to the continuation of the injunction obtained by the Claimants in October 2023 against BIL/BITL to prevent alleged harassment, until the conclusion of proceedings brought by the Claimants in Brazil. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Defendants will comply with any order from the Brazilian court for production of documents. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">BIML, BIL and BITL would agree, if required, not to oppose any legal aid application filed by the Claimants in individual claims (Ordinary Proceedings) brought against BIML (and BIL/BITL) in Brazil.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">BIML and, to the extent that they are parties to proceedings in Brazil, BIL and BITL, would agree to meet the Claimants' costs for the work of expert technical assistants (on each issue that the Brazilian Court determines are necessary to determine the case, up to a specific cap) if the Claimants do not receive legal aid to cover these fees. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">BIL and BITL agree to grant BIML (or their lawyers in Brazil) and BIML agrees to enter, a power of attorney or other document to authorise BIML to accept judicial service of process (in Brazil) on behalf of BIL and BITL, eliminating any need for a letter rogatory, and/or to accept service by email to streamline the process. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Defendants agree that, if they are lawfully served in Brazil, they will accept documents in Portuguese and arrange for any translations at their own cost.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">BIL would give an undertaking, enforceable under English law, to submit to the Brazilian jurisdiction and to pay any damages ordered by a Brazilian Court against BIL and/or BITL directly upon the conclusion of proceedings in Brazil. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Auld invites me to distinguish this case from </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'">, where the Court of Appeal held that undertakings by defendants to fund disbursements for the claimants were not a solution because they involved a conflict of interest, could give rise to disputes and delays and would require privilege to be waived if the reasonableness or necessity of a disbursement was challenged. Also it could not be predicted with certainty what disbursements would be required, either for the claims as pleaded or in light of any future unpredictable developments. Mr Auld argues that whilst the undertakings in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'"> were a principal part of the justice which the claimants were seeking, in the present case they are more in the nature of a backup. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">For this Court to accept the Claimants&#8217; attempt to litigate the case in this country would, Mr Auld submits, be contrary to requirements of judicial comity and would be an exercise of judicial colonialism. In that regard he referred to </span><span style="font-style:italic;font-family:'Times New Roman'">Altimo Holdings v Kyrgyz Mobil Tel Ltd</span><span style="font-family:'Times New Roman'"> [2012] 1 WLR 1804 PC, where Lord Collins said at [97]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;Comity requires that the court be extremely cautious before deciding that there is a risk that justice will not be done in the foreign country by the foreign court, and that is why cogent evidence is required.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">He also relied on </span><span style="font-style:italic;font-family:'Times New Roman'">Al-Aggad v Al-Aggad </span><span style="font-family:'Times New Roman'">[2024] 4 WLR 35 where Cockerill J said at [26]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;&#8230; where there is a &#8216;divergence of opinion&#8217; between the experts on a question of foreign law or practice at Stage 2, such that the &#8216;answer is not clear&#8217; to the court, &#8216;considerations of comity and caution&#8217; preclude the court from concluding that the foreign forum would not deliver justice to the claimant: </span><span style="font-style:italic;font-family:'Times New Roman'">Al Assam v Tsouvelekakis</span><span style="font-family:'Times New Roman'"> [2022] EWHC 451 (Ch) at [67]. As it was put in submissions: a score draw is not enough. Instead, &#8216;the court will start with the working assumption, for which comity calls, that courts in other judicial systems will seek to do justice in accordance with applicable laws, and will be free from improper interference or restriction&#8217;: </span><span style="font-style:italic;font-family:'Times New Roman'">Cherney v Deripaska (No 2)</span><span style="font-family:'Times New Roman'"> [2008] EWHC 1530 (Comm); [2009] 1 All ER (Comm) 333, para 238 (upheld in [2009] EWCA Civ 849; [2010] 2 All ER (Comm) 456).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On the comity point, Mr Auld also suggested that the witness statement of Mr Carballal emphasizes the sensitivity of a potential decision by this Court to accept jurisdiction. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Miletic also addressed me on the evidence of the lawyer witnesses. He submitted that the best source of information for the Court is evidence from lawyers who deal with environmental litigation involving CFAs. The Defendants rely on Mr Bonatto, who has represented clients in that way, and on Mr Teixeira and Mr de Figueiredo who have defended claims brought by indigenous communities. By contrast, he submits, the Claimants rely only on lawyers like Mr de Natividade and Mr Torres who have done some relevant pro bono work. There is no statement on their behalf from any lawyer who (1) regularly represents claimants in environmental claims on a conditional fee basis and (2) gives reasons why they would not take on these claims. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">From the expert evidence, the Defendants invite me to conclude that legal aid would be granted in this case. There is the further option of &#8220;free legal assistance&#8221; though the weight of the evidence indicates that in environmental claims, a mixture of legal aid and a conditional fee agreement is the more usual solution. Legal aid would cover many disbursements. The Claimants&#8217; own lawyers would be paid by a mixture of a success fee and the other side&#8217;s loss of suit (or &#8220;succumbence&#8221;) payment, both based on a percentage of damages. Thanks to the availability of those solutions, Mr Auld submits, equality of arms would be assured if the case proceeded in Brazil, making this case different from others such as </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'">. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-weight:bold">The Claimants&#8217; submissions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimants were represented by Richard Lord KC and Alistair Mackenzie of counsel. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lord emphasizes that the Claimants have chosen, and were entitled to choose, to sue the Defendants rather than BIML, and that this claim is concerned with the conduct and liability of companies domiciled in England who have been validly served there. The authorities show that that fact should be given considerable importance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A central issue, he submits, is the manner in which the Defendants are said to have exercised control over BIML. This is relevant to whether the Defendants are to be considered &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">indirect polluters</span><span style="font-family:'Times New Roman'">&#8221; on the strict liability claims and to the claims in respect of &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">unlawful acts</span><span style="font-family:'Times New Roman'">&#8221; and under the Limited Liability Company Law. The Defendants&#8217; exercise of any such control and its formulation of policies and application or non-application of them will have been done by their staff, in England. Those activities, the Claimants claim, included making decisions about the Mine&#8217;s approach to environmental issues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The control issue is likely to depend on documents created by and/or internal to the Defendants, which can be expected to be located in England and to be in English. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Accordingly, Mr Lord submits, that issue is manifestly more suited for trial in England.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">More generally, Mr Lord takes issue with the Defendants&#8217; assertion that most of the relevant documents will be based in Brazil and are likely to be in Portuguese. He notes that the list of categories of documents which are predicted to be relevant in the witness statement of Edward Starling does not include any categories of the Defendants&#8217; internal communications or their communications with each other or with BIML. Nor does Mr Starling provide any information, or refer to any inquiries, about what if any English language documents or translations already exist. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lord also relies on the fact that, wherever the case proceeds, the Defendants&#8217; defence will be co-ordinated from their offices in London (a factor recognised as relevant in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'"> at [69]). Their supporting evidence states that they have no employees, directors or agents present in Brazil who would be in a position to coordinate their defence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In response to the Defendants&#8217; contentions, Mr Lord takes issue with their prediction of 36 different categories of factual witness, suggesting that the Court would not need, or countenance, anything of the kind. He also questions the Defendants&#8217; assertions as to the types of expert witness needed and, if and to the extent that they are needed, questions whether any of them need to be Brazilian. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">He submits that the place of commission of the tort in this case either is a factor supporting the Claimants&#8217; case, or at worst is a neutral factor, on the basis that any acts or omissions by the Defendants which could have led to liability as an &#8220;indirect polluter&#8221; took place in England. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Whilst it is agreed that the applicable law is Brazilian law, Mr Lord points to the absence of any material dispute as to the law and contends (comparing this case with </span><span style="font-style:italic;font-family:'Times New Roman'">VTB v Nutritek </span><span style="font-family:'Times New Roman'">[2013] 2 AC 337) that the real issues in the case are factual. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">He also contends that the importance of Quilombola status, for present purposes, has been overblown. He relies on Mr Meeran&#8217;s evidence that individuals have already been certified as Quilombola, so that would not be in issue. Meanwhile the process of demarcating their land is slow and not yet complete. However, both expert witnesses have said that the right to bring a property-based damages claim is founded in possession of the property in question, which is a familiar approach that would pose no difficulty for an English court. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lord submits that there is no risk of irreconcilable judgments on the same issues between the same parties. At worst there is a risk that different views will be taken of the same or similar issues in cases between different parties. None of the Claimants is party to the CPA and the Defendants cannot be party to it. None of the parties to this case is a party to the Ribeiro proceedings. There is no evidence that there will be any other relevant claims in Brazil. And no Brazilian claim will touch on the control issue which is central to the present claims. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">For all of those reasons Mr Lord resists the conclusion that Brazil is &#8220;clearly or distinctly&#8221; a more appropriate forum. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">As to the second stage, Mr Lord emphasizes that this is a separate and distinct question from the first stage. The question is whether there is a &#8220;real risk&#8221; that they will be denied substantial justice if the case proceeds in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Deripaska v Cherney </span><span style="font-family:'Times New Roman'">[2009] EWCA Civ 849, Waller LJ explained at [27-28] that, because of the nature of a contention that justice will not be achieved in a particular forum, it must be proved by &#8220;cogent evidence&#8221; as Lord Goff said in </span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada </span><span style="font-family:'Times New Roman'">(above) but it does not follow that there is a requirement for &#8220;cogent&#8221; or any particular kind of evidence to establish all factors which may be relevant at stage 2, though the claimant must &#8220;clearly establish&#8221; that England is the appropriate forum. He continued, at [29], that when a judge applies the relevant test:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the judge is not conducting a trial. It is not a situation in which he has to be satisfied on the balance of probabilities that facts have been established. He is in many instances seeking to assess risks of what might occur in the future. In so doing he must have evidence that the risk exists, but it is not and cannot be a requirement that he should find on the balance of probabilities that the risks will eventuate, e.g. as in this case that assassination will occur. He has only statements and experts&#8217; reports on which he is not going to hear cross examination. He is able, of course, to take a view as to the cogency of the evidence at that stage. But then he has to make an evaluation taking account of all factors as to whether the claimant &#8230; has discharged the burden of showing that England is &#8216;clearly the proper forum&#8217;.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lord notes that the Defendants now base their case squarely on the proposition that the claims could be pursued by civil action in Brazil by lawyers acting on a CFA. He points to the fact that none of the Brazilian lawyers who have given evidence for the Defendants say that they would be willing to take on these claims. The closest is Mr Loretti, but his evidence ultimately says only that, if the merits were satisfactory, he would be open to a discussion about funding options, and that would be for a claim against BIML, not a claim against the Defendants. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The evidence shows that the Claimants have been seeking justice for some years and have approached various organisations for help. If lawyers exist who could take on their claims on a CFA basis, it is surprising that the Claimants have not yet been signposted to them. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lord also relied on the Defendants&#8217; conduct as a relevant factor. He says that the fact that the Claimants had to obtain injunctive relief to restrain harassment and intimidation suggests that, in any litigation in Brazil, the Defendants would make themselves at least as difficult as is permissible. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Meanwhile, pursuing these cases will require expensive expert evidence on complex technical issues relating to the Mine&#8217;s operations and to the claimed loss and damage. The parties will need to instruct technical assistants. For the reasons identified in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'">, undertakings by the Defendants to pay for expert evidence are not a solution to the problem of funding. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lord did not rely on delay as a reason why there is a real risk that substantial justice will not be obtained in the Brazilian judicial system. However, he relies on the evidence of the time typically taken to litigate a complex claim in Brazil for the proposition that any lawyers in the case will be involved for a long time and therefore will have to make a significant investment in time and costs. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Claimants also rely on Mr Reis&#8217;s evidence estimating the likely value of their claims and attempting the cost-benefit analysis which a lawyer would need to carry out. Mr Reis generated several tables showing the profit or loss which lawyers might make from the litigation based on a range of assumptions. In the course of the hearing it became apparent that, regrettably, he had made some errors which were then corrected in new versions of the tables. On a number of assumptions broadly favourable to the Defendants in the litigation (damages per Claimant at a &#8220;mid-point&#8221; of &#163;20,750, litigation disbursements per claim at a &#8220;low&#8221; sum of &#163;12,336.49 based on a grant of &#8220;expenses legal aid&#8221; and a return for solicitors (success fee plus succumbence) of 50% of the damages), the solicitors would make a loss of &#163;205,123.47. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I will return, below, to that evidence and the Defendants&#8217; response to it, but Mr Lord submitted that the response from Mr Britto and the evidence of the Defendants&#8217; lawyer witnesses did not really undermine Mr Reis&#8217;s analysis or the conclusion that the litigation would not be viable on that basis. He invited me to reject comparisons with different types of case, such as Mr Bonatto&#8217;s fishing cases involving much larger numbers of claimants and cases which were simpler to litigate because all claimants suffered broadly the same loss. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Overall, he submitted, the evidence does not show that the Claimants could fight their claims to a conclusion and have all expenses met by the State. The Defendants&#8217; witnesses do not go that far. Mr Teixeira&#8217;s evidence &#8211; that in the Fundacao Renova matters, 99% of the parties used a combination of legal aid and private counsel &#8211; is, he suggested, revealing. Why would they incur the expense of private counsel if there were a realistic free alternative?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Mackenzie also made oral submissions about the undertakings offered by the Defendants. In short, these were to the effect that the undertakings do not mitigate the real risk that the Claimants will not obtain substantial justice in Brazil. He submitted that the undertaking to pay expert expenses would lead to the same problems identified in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'">, and that the other proposed undertakings are not enforceable or do not address the real barriers to justice. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold">Discussion </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_100">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">In my judgment, an examination of &#8220;connecting factors&#8221; leads to the conclusion that Brazil is the forum with which this action has the more real and substantial connection, although there are factors leaning in both directions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Against my conclusion, it is significant that the Defendants are domiciled in this jurisdiction and are served here as of right. Also, control of BIML is an issue which will be important in the proceedings and, although the Defendants&#8217; directors may not live in the UK, it would be a logical assumption that a significant amount of evidence about the control issue may emanate from England and be in English. I also accept that the case cannot be tried in England without some risk of inconsistency with the outcome of Brazilian proceedings such as the CPA or the Ribeiro proceedings, and that factor was said in </span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'"> to be very important. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">102.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Nevertheless, I am persuaded to my conclusion by a combination of several other factors. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">103.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">First and foremost, it seems to me that the most important issues in the case are likely to concern (1) the operation and regulation of the Mine and (2) its impact on the Claimants. That does not mean that control will not be an important issue, but ultimately the claims concern environmental damage and the relevant environment is in Brazil. Those matters obviously occurred in Brazil and will be the subject of witness evidence and documentary evidence in that country.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">104.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Second, it is agreed that Brazilian law applies to the dispute. The relevant regulatory framework also is that of Brazil, or Bahia State. It therefore appears highly likely that there will be expert witnesses from Brazil, whether or not there are also experts from any other country. I do not overlook the fact that the English courts are well accustomed to applying foreign law. Nevertheless, there may be significant differences between the applicable systems of law &#8211; civil law and common law &#8211; and that favours the jurisdiction of the Brazilian courts. There may also be issues about Quilombola status and although I do not place much emphasis on that fact, it would be a theme with which the English courts would be wholly unfamiliar. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">105.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Third, there are factors &#8220;affecting convenience or expense&#8221; (see </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'"> at [22]) which favour Brazil as a forum. Whilst the Claimants, and any witnesses associated with the operation of the Mine in Brazil, could be transported to England to give evidence, and evidence (oral or written) in Portuguese could be translated into English, it would plainly be easier and cheaper for that evidence to be received in Brazil, in Portuguese. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">106.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">However, I have also concluded that there is a real risk that the Claimants will not be able to obtain substantial justice in Brazil. That means that Brazil, despite its closer connection with the case, is not the appropriate forum in which it can most suitably be tried in the interests of the parties and for the ends of justice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">107.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The reason, in brief summary, is that the evidence reveals a real risk that the Claimants will not be able to fund, or obtain funding for, legal representation of the kind necessary to litigate these claims to a proper conclusion. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">108.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">I should say immediately that this is not a criticism of the Brazilian legal system. Brazil is a large and wealthy country with a sophisticated legal system. I have not been persuaded that there is any lack of integrity in its court system to which I should have regard. Nor am I persuaded that delay is a factor of particular importance in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">109.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Instead, I have concluded that there are specific features of these claims which, in combination, create particular difficulty. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">110.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">First and foremost, their relatively small size. I approach the valuation of the claims with considerable caution because the evidence about it is tentative at best. Nevertheless, there is some measure of agreement that individual Claimants are not likely to recover very large sums. Mr Reis has proceeded on the basis that the value of each claim could fall somewhere in a range from about &#163;10,000 to about &#163;30,000. His figures are not accepted, but nor are they strongly contested. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">111.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Second, there are presently 103 Claimants. On the one hand, that is a significant number of individuals with whom legal representatives will have to interact. On the other hand, it is a small number when compared with some cases which have arisen, in Brazil and elsewhere, from environmental disasters. In a case of the latter kind, the overall value is far higher because of the large numbers involved. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">112.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Third, the Claimants are people of very limited means. They also live in a remote area, making legal consultations more difficult and expensive. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">113.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Fourth, it has not been disputed that these will be claims of some complexity. Overall liability is disputed. So is the control issue. Expert evidence will be needed, probably in several disciplines. Loss may have to be assessed on both a community level and an individual level. Loss and damage may vary significantly between individual Claimants. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">114.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Fifth, the complexity will affect the time taken to deal with these claims. Without criticising the Brazilian legal system for delay, there is evidence that claims of this kind typically take some years, and sometimes many years, to resolve. That is relevant to the demands which fighting these cases will place on the Claimants&#8217; representatives. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">115.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The evidence before me is that in England, the claims can and will be taken forward on the basis of CFAs. They can and will go to trial, if necessary, even though the Claimants do not have the means to pay for their own legal costs and disbursements. The arrangement is one of &#8220;no win, no fee&#8221;. Leigh Day believe that if the claims succeed, they will recover from the Defendants a sufficient amount in costs for their own remuneration. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">116.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">I have therefore asked myself whether there is a real risk, proven by cogent evidence, that sufficient funding for the claims will not be available in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">117.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Three important matters are clear from the evidence. First, the Claimants cannot fund the claims themselves. Second, from the clear and largely unchallenged factual evidence of the First and Second Claimants, they have not succeeded in finding representation over a prolonged period. Third, although CFAs exist in Brazil, the conditional fee model of the kind used in this country does not. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">118.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">I work on the assumption that the Claimants could obtain legal aid in Brazil which would pay for many of their overheads including, notably, the fees of expert witnesses (but not &#8220;technical assistants&#8221;). Whilst a grant of legal aid cannot be said to be a certainty, no witness has sought to persuade me that it would not be likely in this case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">119.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">However, this type of legal aid does not pay the fees of a claimant&#8217;s lawyers. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">120.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The conditional fee agreements contemplated by the Brazilian expert witnesses and lawyer witnesses of fact are damages-based agreements. The successful claimant lawyer ultimately is paid from two sources. First, a success fee is paid by the client, amounting to a maximum of 30% (but more usually between 10% and 20%) of the damages recovered. Second, a &#8220;succumbence&#8221; or &#8220;loss of suit fee&#8221; is recovered from the losing party, again somewhere in the range of 10% to 20% of the damages. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">121.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">It follows that the costs recoverable by the successful claimant lawyer under this type of agreement in Brazil are capped at a certain percentage of the size of the damages claim. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">122.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">That is why the relatively small size of the claims (and number of Claimants) in this case is of such significance. If it turns out that there are around 100 successful claims, averaging &#163;20,000, and the recovery of costs via success fees and loss of suit fees totals 40%, the lawyers representing the 100 clients will recover a maximum of &#163;800,000. From that will be deducted their disbursements and overheads before they can show a pre-tax profit figure. These figures are of course very approximate, but they illustrate the point of an effective cap on recovery. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">123.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">As I said, Mr Reis produced various versions of his tables showing possible returns for the Claimant&#8217;s lawyers. Mr Miletic put forward comments on these on behalf of the Defendants. At the end of the hearing I asked the parties to submit a joint letter identifying any agreement or disagreement with what Mr Miletic had produced. The parties agreed that the arithmetic was reliable but disagreed about the premises or assumptions underlying the calculations. Essentially, it is possible to take either lower or higher figures, for value of claims and lawyers&#8217; return rate, than those which I have floated in the previous paragraph. The same is true for estimates of the costs which could be incurred. Mr Reis in his calculation also relied on an important assumption that the 103 Claimants would be joined into 51 distinct claims, each of which would give rise to certain overheads. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">124.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">There is evidence that significant overheads would be incurred during the running of this litigation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">125.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The size of these could depend to some degree on whether, and to what extent, the Claimants&#8217; claims would be joined together. As I noted at paragraph 21b above, the experts disagree about the likelihood or effectiveness of joinder. Mr Reis considers that a lack of homogeneity of the damage suffered by individual claimants would be a barrier to joinder, or that it would limit the ability of the Judiciary to manage the litigation. His evidence is that in one of Mr Bonatto&#8217;s cases involving 3,000 fishermen bringing small and homogeneous claims, the litigation was organised into 25 claims, each with between 5 and 327 claimants. I conclude that even if the courts in Brazil are open to the idea of group claims, there may yet be a significant number of claims rather than just one claim involving all the claimants. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">126.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The only category of overheads about which I was addressed in any detail was the cost of the technical assistants referred to at paragraph 21 i above. The Defendants could be expected to have experts working on their side and assisting in their interaction with a court-appointed expert witness. Equality of arms would require the Claimants to be able to do the same. The evidence is that &#8220;free legal aid&#8221; would not cover that cost. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">127.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">As I have said, the Defendants have offered an undertaking to pay the cost of technical assistants if it is not covered by legal aid, up to a defined cap. In my judgment, however, that would not be a satisfactory solution to this problem. That is essentially for the reasons identified by Popplewell LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson</span><span style="font-family:'Times New Roman'"> at [49]-[58] i.e. (1) performing such undertakings would involve a conflict of interest for the Defendants, (2) the instruction of technical assistants could be delayed, to the Claimants&#8217; disadvantage, by disputes about whether the costs were reasonable and necessary (in the present case, disputes about what questions should be the subject of the expert evidence), (3) resolving any such issues of reasonableness and necessity could require the Claimants to waive legal professional privilege, (4) there is a lack of a satisfactory mechanism for resolving such issues, (5) the disbursements identified in any undertakings may not cover those which become necessary at a later stage of the proceedings (and in the present case it also cannot be assumed that the cap proposed by the Defendants will be sufficient) and (6) undertakings based on the claims as drafted may not cover future amendments (though that last factor may have less relevance to the present case). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">128.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">More generally, the discussion in </span><span style="font-style:italic;font-family:'Times New Roman'">Dyson </span><span style="font-family:'Times New Roman'">leads to the unsurprising conclusion that it is not fair for a Defendant to have any degree of control over a Claimant&#8217;s expert evidence, whether by paying for it or otherwise. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">129.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Mr Reis put forward a figure of &#163;12,366.49 as the lower end of a suggested range for overheads in each claim. On his assumptions, that figure would be multiplied by 51. The figure is not agreed and, on the evidence as it stands, any figure would have to be regarded as speculative. But anything like that figure would make a very substantial inroad into the costs recovery figure. If the figures floated by me at [122] above proved to be accurate, overheads at the level predicted by Mr Reis would leave little return for the lawyers after what might be several years&#8217; work, even if the claims succeeded. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">130.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The experts and the factual lawyer witnesses broadly agree that lawyers contemplating a CFA in this sort of case would conduct a cost-benefit analysis in order to decide whether to take on the case. The potential returns would have to be balanced against the amount of work and investment involved and the risk that the claims would fail, leaving the lawyers substantially out of pocket. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">131.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">I have not adopted either of the rival positions of the expert witnesses summarised at paragraph 21m above, by concluding either that it is &#8220;highly likely&#8221; that representation will be found or that the case is &#8220;not capable of generating interest&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">132.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">But, bearing both those opinions in mind, I consider it clear that there is a real risk that representation will not be found. That is, of course, not a finding that the risk will necessarily eventuate: see the reference to </span><span style="font-style:italic;font-family:'Times New Roman'">Cherney </span><span style="font-family:'Times New Roman'">at [90] above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">133.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">In reaching my conclusion I have not disregarded the requirement for &#8220;cogent&#8221; evidence, though I have borne in mind that cogent evidence does not mean unchallenged evidence (see [17] above). Although I do not have precise evidence of the value of the claims, I do have cogent evidence that, considered overall, this is not a large claim, and there is cogent evidence of the way in which CFAs work in Brazil. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">134.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">It does not seem to me that considerations of judicial comity stand in the way of my conclusion. As I have said, it is not premised on any criticism of the legal system in Brazil. Instead, it is founded on the fact that the economics of litigating this claim in the two jurisdictions are significantly different. I bear in mind the observations on this topic of Lord Briggs in </span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta </span><span style="font-family:'Times New Roman'">at [96-97]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">135.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">I can deal more quickly with the other ways in which it was suggested that these claims might be funded. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">136.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The evidence states that there is a scheme in Brazil of &#8220;free legal assistance&#8221; whereby impecunious claimants can be represented by lawyers from the office of the Public Defender. But in the end, Mr Auld did not pin his colours to that alternative mast. There is evidence from Mr Reis and from factual witnesses that this scheme is subject to serious resourcing issues. The evidence about the slow progress of the CPA appears to confirm the existence of resourcing issues in the Public Defender&#8217;s office in Bahia State. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">137.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Mr Auld accepted that on the evidence before me, the use of a CFA in conjunction with &#8220;free legal aid&#8221; is the most prominent way in which environmental claims like these are brought in Brazil. That would be surprising, if there were a realistic alternative of free legal representation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">138.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The joint expert evidence on this subject is not entirely easy to follow. At relevant points in the joint statement, such as questions 22-24, the terms &#8220;legal aid&#8221; and &#8220;legal assistance&#8221; appear to be used interchangeably despite their different meanings which are set out in the answer to question 18. The answer to question 24 leaves open the possibility that a recipient of &#8220;free legal assistance&#8221; will nevertheless have to cover overheads of the kind discussed in relation to &#8220;legal aid&#8221; above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_139">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">139.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Meanwhile, even the Defendants&#8217; expert evidence is not categorical about the likelihood of obtaining &#8220;free legal assistance&#8221;. In his report Mr Britto, after explaining the nature of free legal assistance, concluded:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;9.11</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman'">Considering, therefore, the cases mentioned, as well as the role of the Defender in the defence of individual and collective rights, human rights and rights of vulnerable groups, it is to be concluded that, in the case of environmental damage claims similar to the case of the CPA, whose impact is collective, possible service by the Public Defender is conceivable.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">140.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">If the availability of representation of that kind is merely &#8220;conceivable&#8221;, there must be a real risk that it will not be available in practice. Mr Britto&#8217;s supplementary report of 11 November 2024, replying to the evidence of Mr Reis, does not advance a more categorical view, instead choosing to comment on the possibility that the Public Defender&#8217;s office could assist in the settlement phase of the CPA. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">141.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Pro bono representation exists in Brazil, as does representation funded by NGOs,  but it was obvious from the evidence that the availability of such funding cannot be relied on, especially in a complex case like this. I do not find that the Claimants definitely would not obtain pro bono representation, but there is plainly a real risk that they would not. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_142">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">142.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">It is reasonably clear from the evidence, including the Public Defender&#8217;s letter of 5 September 2024, that the CPA is not a substitute for the individual claims which the Claimants seek to bring. It could resolve some of the issues in the case but, on the evidence, it will not relieve the Claimants of the need to prove their individual cases, especially as regards loss and damage, and it cannot necessarily be relied upon to provide an efficient route, within a reasonable timescale, to individually calculated damages. In addition, the CPA is brought against BIML, not the Defendants, though it seems that enforcement against the Defendants could be attempted in the event of BIML&#8217;s insolvency. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">143.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">No doubt for all of those reasons, no great effort ultimately was made to persuade me that the CPA will provide the Claimants with substantial justice in Brazil.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">144.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The existence of the Ribeiro proceedings does not alter my conclusion. As Mr Meeran explained in his evidence, the scope of that claim is not the same as the scope of the Claimants&#8217; claims. It is not a potential group claim by over 100 victims. And, the Ribeiros have instructed private lawyers and, to date, have paid their fees although they have made a request for legal aid. They therefore appear to have means which are not available to the Claimants. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_145">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">145.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Finally, the other undertakings offered by the Defendants, listed at [69] above, have not dissuaded me from my conclusion. Continuation of the injunction, compliance with disclosure orders and acceptance of service of proceedings in Brazil have little if any relevance to the risk that the Claimants will not obtain proper representation in Brazil. The experts do not consider that the Defendants&#8217; co-operation with a legal aid application would be material, and in any event I have made a working assumption that legal aid would be granted. For the Defendants to deal with any translation requirements would presumably reduce the costs/overheads of the claims to a degree, but not to such a degree as to solve the problem of the claims&#8217; economic viability in Brazil. An undertaking to submit to the Brazilian jurisdiction and to make prompt payment of any damages ordered by a Brazilian Court would remove one or two layers of uncertainty in the cost-benefit analysis which a prospective lawyer would conduct, but again would not remove the real risk that no suitable lawyer in Brazil would consider the case economically viable. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_146">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">146.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">Case law shows that the risk of a lack of representation in a particular forum may persuade the Court that that forum is not one in which the case can most suitably be tried in the interests of the parties and for the ends of justice. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_147">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">147.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">The case of </span><span style="font-style:italic;font-family:'Times New Roman'">Connelly v RTZ Corp Plc</span><span style="font-family:'Times New Roman'"> [1998] AC 854 concerned the operation of a mine in Namibia. The claimant had worked at the mine and alleged that he had suffered personal injuries because of an unsafe system of work. He sued two English companies on the basis that they had a relevant degree of control over the operations of the mine owner, which was a subsidiary company based in Namibia. He was represented by Leigh Day who were willing to enter into a CFA for the litigation in this country. In argument it was agreed that the natural forum was Namibia and therefore all depended on stage 2 of the </span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada </span><span style="font-family:'Times New Roman'">exercise. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_148">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">148.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">At page 873E Lord Goff noted that in general, a stay would not be refused simply because a claimant had shown that financial assistance was available to him in England but not in the appropriate forum, bearing in mind that &#8220;financial assistance for litigation is not necessarily regarded as essential, even in sophisticated legal systems&#8221;. He continued at 873H:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;Even so, the availability of financial assistance in this country, coupled with its non-availability in the appropriate forum, may exceptionally be a relevant factor in this context. The question, however, remains whether the plaintiff can establish that substantial justice will not in the particular circumstances of the case be done if the plaintiff has to proceed in the appropriate forum where no financial assistance is available.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_149">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">149.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">On the facts of </span><span style="font-style:italic;font-family:'Times New Roman'">Connelly</span><span style="font-family:'Times New Roman'"> it was found that the case could not be tried without the assistance of professional lawyers and expert witnesses for whom funding would not be available in Namibia, and therefore &#8220;substantial justice&#8221; could be done here but could not be done there. Lord Goff added at 874D:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;If the position had been, for example, that the plaintiff was seeking to take advantage of financial assistance available here to obtain a Rolls Royce presentation of his case, as opposed to a more rudimentary presentation in the appropriate forum, it might well have been necessary to take a different view. But this is not the present case. There is every reason to believe that this case calls for highly professional representation, by both lawyers and scientific experts, for the achievement of substantial justice, and that such representation cannot be achieved in Namibia.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_150">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">150.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-style:italic;font-family:'Times New Roman'">Lubbe v Cape Plc </span><span style="font-family:'Times New Roman'">[2000] 1 WLR 1545 was another case in which miners sued the English holding company of the foreign operators of mines for personal injuries for negligence in their operation of the mines, this time in South Africa. At a late stage in the process, about 3,000 new claims were issued. The House of Lords ruled that South Africa was the natural forum at </span><span style="font-style:italic;font-family:'Times New Roman'">Spiliada </span><span style="font-family:'Times New Roman'">stage 1, but at stage 2 found that the action as now constituted could only proceed effectively in the form of group litigation. Like </span><span style="font-style:italic;font-family:'Times New Roman'">Connelly</span><span style="font-family:'Times New Roman'">, it required the involvement of professional lawyers and experts. On the evidence, legal aid would not be available in South Africa and no South African firm would take on the case on a CFA. Although the Court would not compare the merits of rival jurisdictions&#8217; procedures, such as group action procedures, the case probably could not proceed in South Africa and this would be a denial of justice (per Lord Bingham at 1559F). The stay was therefore refused. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_151">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">151.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">A third example is found in </span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta</span><span style="font-family:'Times New Roman'">. This was a claim by Zambian citizens of very limited means complaining of damage caused by discharges from a copper mine in Zambia. The second defendant was the Zambian operator of the mine and the first was its English parent company. At first instance, the judge decided at stage 1 that England was the proper place in which to bring the claim, but at stage 2, after consideration of disputed evidence, that there was a real risk (in that case, a probability) that the claimants would not obtain substantial justice in Zambia because there was neither legal aid nor the possibility of CFA representation in Zambia, and that any lawyers in Zambia who would take on the case would lack the necessarily expertise to pursue specialised and complex environmental litigation. The Supreme Court disagreed with the judge&#8217;s conclusion on stage 1, ruling that Zambia was the more natural forum, but agreed with his conclusion on stage 2. That was notwithstanding &#8220;some evidence of group environmental litigation of a similar kind being conducted before the Zambian courts&#8221; (&#167;91) and evidence of &#8220;the possibility of funding cases of this kind, or the necessary underlying research, by contribution from locally based NGOs&#8221; (&#167;93). In paragraph 93, Lord Briggs rejected a submission that the judge at first instance had overlooked the warnings in </span><span style="font-style:italic;font-family:'Times New Roman'">Connelly </span><span style="font-family:'Times New Roman'">and </span><span style="font-style:italic;font-family:'Times New Roman'">Lubbe </span><span style="font-family:'Times New Roman'">that cases of this kind will be exceptional. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_152">
+	  <num style="margin-left:0.69in;text-indent:-0.39in">152.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">For the reasons I have explained, this is another case of that exceptional kind, where there is not merely a difference in the availability of funding in the two jurisdictions but a real risk that substantial justice will not be obtained in the foreign jurisdiction.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_153">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">153.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.12in">The Defendants&#8217; application will therefore be dismissed.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

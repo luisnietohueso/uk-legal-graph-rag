@@ -1,0 +1,981 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/448"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/448"/>
+	  <FRBRdate date="2025-04-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="448"/>
+	  <FRBRname value="Steven Laidley v Metropolitan Housing Trust Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/448"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/448"/>
+	  <FRBRdate date="2025-04-11" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/448/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/448/data.xml"/>
+	  <FRBRdate date="2025-04-11T11:39:45" name="transform"/>
+	  <FRBRdate date="2025-04-11T14:34:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" shortForm="Court of Appeal Criminal Division" showAs="The Court of Appeal of England and Wales (Civil Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="metropolitan-housing-trust-limited" href="" showAs="METROPOLITAN HOUSING TRUST LIMITED"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lady-justice-king" href="/judge-lady-justice-king" showAs="LADY JUSTICE KING"/>
+	<TLCPerson eId="judge-lord-justice-nugee" href="/judge-lord-justice-nugee" showAs="LORD JUSTICE NUGEE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>448</uk:number>
+	<uk:cite>[2025] EWCA Civ 448</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>13100f9686caa146a110fabfe28934b5daa0488510a01c3c6ffeff51ea2c862c</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 448</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2024-001780</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS</p>
+      <p class="CoverMain">OF ENGLAND AND WALES</p>
+      <p class="CoverMain">CHANCERY APPEALS (ChD)</p>
+      <p class="CoverMain">Mrs Justice Bacon</p>
+      <p class="CoverMain"><neutralCitation>[2024] EWHC 2611 (Ch)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-11" refersTo="#judgment">11 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-king">LADY JUSTICE KING</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE STUART-SMITH<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-nugee">LORD JUSTICE NUGEE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">STEVEN LAIDLEY</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">(by his Litigation Friend, the Official Solicitor)</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#metropolitan-housing-trust-limited" style="font-weight:bold">METROPOLITAN HOUSING TRUST LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Toby Vanhegan </span>and <span style="font-weight:bold">Stephanie Smith</span> (instructed by <span style="font-weight:bold">GT Stewart Solicitors</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Nicholas Grundy KC </span>and<span style="font-weight:bold"> Catherine Rowlands </span>(instructed by<span style="font-weight:bold"> Metropolitan Housing Trust Ltd</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 1 April 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 11 April 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Stuart-Smith:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Respondent [&#8220;MHT&#8221;] is a social landlord.  By an agreement dated 3 August 2009 MHT granted the Appellant, Mr Laidley, an assured tenancy of a ground floor flat [&#8220;the Flat&#8221;] in a purpose-built block of flats at 57 Yeats Close, London NW10 0BW.  In and from 2018, one of his neighbours complained of persistent banging coming from the Flat.  In 2020 MHT brought proceedings for possession of the Flat relying on grounds 12 and 14 in Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/50" uk:canonical="1988 c. 50" uk:origin="TNA" uk:type="legislation">Housing Act 1988</ref> [&#8220;HA88&#8221;] because of the banging.  Mr Laidley defended the proceedings and brought a counterclaim for disability discrimination.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Though he does not accept that he is mentally ill, Mr Laidley lacks capacity and is disabled for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> [&#8220;EA10&#8221;] because of a delusional disorder.  This has had three consequences for the proceedings.  First, by order of the Court the Official Solicitor has acted on Mr Laidley&#8217;s behalf as his Litigation Friend.  Second, his disability gave rise to considerations of proportionality and potential discrimination that fell to be addressed at trial.  Third, and flowing from the second, Ms Jill Tombs was appointed, at the request of those representing Mr Laidley, to sit with the Judge and act as an assessor pursuant to the terms of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">County Courts Act 1984</ref> [&#8220;CCA84&#8221;] and EA10.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Trial Judge, HHJ Jan Luba KC, heard evidence over four days from the neighbour and other witnesses, representatives of MHT and a senior officer of the LB Brent, which is the local social services authority.  He also received medical evidence from two expert witnesses who essentially concurred in their diagnosis, one having examined Mr Laidley and the other having conducted a paper-based review.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At the opening of the trial, Mr Vanhegan, who acts for Mr Laidley on the instructions of the Official Solicitor, had submitted that the Court should ensure transparency by disclosing to the parties the advice given to the Court by the assessor.  The Trial Judge rejected that submission and, at the conclusion of the trial, made an order for possession.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Laidley raised two appeals to the High Court that are relevant for this judgment.  By the first, he challenged the Trial Judge&#8217;s ruling on the disclosure of the expert assessor&#8217;s advice, in the following terms: &#8220;the Judge was wrong to refuse to provide disclosure of the assessor&#8217;s evidence.  This was a breach of common law procedural fairness and article 6 of the European Convention on Human Rights. &#8230; The appellant has both an Equality Act defence and counterclaim and therefore the Equality Act issues, and therefore the advice of the assessor, are very important to the determination of a large part of the case.&#8221;  By the second, Mr Laidley alleged that: &#8220;the Judge wrongly used the assessor.  He asked for advice on issues that were not within her competency, and did not seek her advice on the issues that were within her expertise and knowledge.&#8221;  The gist of the complaint was that Ms Tombs did not have expertise and knowledge on the issues of proportionality and legitimate expectation; alternatively, these were questions for the Judge and the assessor&#8217;s role did not include provision of advice about proportionality and legitimate expectation.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appeal was heard by Bacon J who dismissed both grounds of appeal.  In briefest outline, she drew a distinction between (a) a case where the assessor provides what amounts to expert (or other) evidence; and (b) a case where the assessor assists the Court in the evaluation of the evidence in the case.  Broadly speaking, she held that the first category of case could give rise to an obligation to make disclosure to the parties but that the second did not; and she concluded that the present case falls within the latter category, not the former.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Laidley now appeals against Bacon J&#8217;s order.  This second appeal is founded on two grounds, which I shall consider in greater detail later.  In outline, ground 1 asserts that Bacon J was wrong to dismiss the appeal against the Trial Judge&#8217;s refusal to provide disclosure of the assessor&#8217;s evidence.  Ground 2 challenges Bacon J&#8217;s dismissal of Mr Laidley&#8217;s appeal insofar as it challenged the Judge&#8217;s use of the assessor.  The arguments advanced by Mr Laidley on these appeals largely replicate the arguments previously made to and rejected by Bacon J.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before turning to the factual and procedural background, two preliminary points may be made.  First, although it was pleaded on Mr Laidley&#8217;s behalf that the factual requirements for making an order for possession alleged by MHT were not established, Mr Laidley himself provided no evidence; nor was any factual (or other) evidence called on his behalf.  Unsurprisingly, therefore, there is no challenge to any of the primary facts found by the Trial Judge in his detailed and closely reasoned assessment of the facts.   Second, it is not submitted that the Trial Judge&#8217;s judgment discloses any error of law in the assessment of the claim and counterclaim.  The appeal is firmly and only based on what is alleged to have been &#8220;fundamental unfairness&#8221; in the proceedings before the Trial Judge.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The factual and procedural background in greater detail</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Factual findings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Between October 2021 and trial MHT had conducted three Equality and Proportionality Assessments.  The history and findings set out at [18]-[51] of the Trial Judge&#8217;s judgment show MHT attempting virtually any and every conceivable avenue in its efforts to resolve issues in a manner that was suitably supportive of Mr Laidley.  Those avenues included trying to motivate the Local Authority to take responsibility for finding appropriate housing for him, attempts to persuade the local NHS Mental Health and social care service providers to become involved to support him, and repeated attempts to communicate with Mr Laidley himself; all of which avenues proved to be dead-ends until part way through the trial when the senior officer of the LB Brent gave a glimmer of hope that something might be done.  That glimmer provoked an adjournment of the trial part-heard from April to December 2023 by which time the glimmer had not progressed to action on the part of the LB Brent.  The one potentially positive step by LB Brent came in February 2023 when it agreed to allocate a Mental Health Social Worker to Mr Laidley and to carry out a Care Act assessment.  But, as the Judge put it, &#8220;that initiative, sadly, ran entirely into the sand because, as before, Mr Laidley declined to co-operate.&#8221;</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The pleaded case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Particulars of Claim pleaded terms of the tenancy including a prohibition on causing anti-social behaviour and nuisance to others. The Re-amended Defence put in issue whether the banging was loud or amounted to a nuisance or annoyance.  It alleged that the problem was inadequate sound insulation.  It averred that Mr Laidley is disabled within the meaning of section 6 of EA10, suffers from delusional disorder and lacks capacity.  By [12] it alleged that MHT was in breach of section 35 of EA10 because it was discriminating against Mr Laidley in the management of the property by serving the notice, bringing the proceedings and seeking to evict the defendant from the Flat.  By [13] it alleged that MHT was in breach of section 15 of EA10 and that the conduct complained of arose in consequence of Mr Laidley&#8217;s disability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By [14] the Re-amended Defence alleged that MHT&#8217;s actions were indirect discrimination under section 19 of EA10 because, inter alia, MHT could not show that its actions were a proportionate means of achieving a legitimate aim.  Mr Laidley&#8217;s pleaded case on proportionality was that MHT should have fitted proper sound insulation, moved Mr Laidley or his neighbour to alternative accommodation and/or helped Mr Laidley to move to supported accommodation and/or contacted social services and the Community Mental Health Team to enable this to happen.  It is convenient to note at this point that there was no factual substance in these pleaded allegations: the judge found (there being no evidence to the contrary) that MHT had investigated the sound insulation and that there was no evidence of any defects in the sound proofing at the Flat; and the other allegations also failed on the facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By [15] the Re-amended Defence acknowledged that MHT had carried out an Equality Act and Public Sector Equality Duty [&#8220;PSED&#8221;] assessment but alleged that it was in breach of the PSED because: (i) the assessment did not take account of the defendant&#8217;s lack of capacity; (ii) the assessment did not take account of the fact that the conduct complained of arose as a consequence of the defendant&#8217;s disability; (iii) the assessment did not take account of the inadequate sound insulation; and (iv) the assessment did not consider moving or helping the defendant to move to suitable alternative accommodation or contacting social services and the CMHT to enable this to happen.  Once again, it is convenient to note at this point that these allegations failed on the facts found by the Trial Judge and there is no challenge to his findings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By [17] the Re-amended Defence averred that the making of a possession order would not be reasonable or proportionate; alternatively only a suspended possession order would be reasonable; or alternatively it would only be reasonable to order possession conditional on the provision of suitable alternative accommodation, either supported or general needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By the Counterclaim, it was alleged that there had been a contravention of section 35, which is in Part 4 of EA10.  On that basis [24] of the Counterclaim alleged that pursuant to section 114(7) of the EA10, the court should exercise its power under section 63(1) of CCA84 to appoint an assessor to assist the court to decide whether there has been a breach of Part 4 and the amount of damages to be awarded under section 119 of the EA10, and whether there has been a breach of the PSED.  By its Reply and Defence to Counterclaim, MHT agreed that an assessor should be appointed.  It is not necessary otherwise to refer to that pleading.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Appointment of the assessor</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 25 August 2022 HHJ Luba KC directed that the Court would hear the trial &#8220;with an Assessor appointed in accordance with section 114 of [EA10]&#8221;.  The Court was to notify the parties of the name and relevant qualifications of the proposed assessor by 14 February 2023.  The parties would then be entitled to object to the proposed assessor within 7 days.  On 19 December 2022 the Judge varied his order so that the Court was to notify the parties by 11 January 2023 of the identity of the proposed assessor and that the assessor should be someone &#8220;specialising in disability, and particularly issues of mental health.&#8221;  On 25 January 2023 the Court gave notice to the parties that the Judge had considered the matter and had appointed Ms Tombs to sit as an assessor to assist him in trying the action.  Ms Tombs&#8217; CV was attached.  Neither party objected to her appointment; nor has it been suggested then or since that she was not in general terms suitably qualified to sit as an assessor and to assist the Trial Judge in trying this case.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The assessor application</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trial was listed for 3 days commencing on 17 April 2023.  Mr Vanhegan provided a Skeleton Argument dated 17 April 2023.  In it he dealt with the role of the assessor as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;24.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The role of the assessor has been described in CPR 35.15(3) and in <span style="font-style:italic">Owners of the Bow Spring v. Owners of the Manzanillo II</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/1007" uk:canonical="[2004] EWCA Civ 1007" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 1007</ref>, <ref href="#" uk:canonical="[2005] 1 WLR 144" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 WLR 144</ref> at [58] to [60], following and applying <span style="font-style:italic">Global Mariner v. Atlantic Crusader</span> <ref href="https://caselaw.nationalarchives.gov.uk/admlty/ch/2005/380" uk:canonical="[2005] EWHC 380 (Admlty)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWHC 380 (Admlty)</ref> at [14] to [17] of the judgment.&#8221;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>25.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is submitted that the assessor should perform the role described therein.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I shall explain in greater detail below, those two authorities address the procedure to be adopted where a nautical assessor provides expert evidence, usually to the exclusion of any other expert evidence being called on behalf of the parties in the case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">According to a contemporaneous note of proceedings, at the start of the trial, and relying on the two authorities cited in his Skeleton Argument, Mr Vanhegan made an oral application without prior notice to those representing MHT.  The note records that he relied upon [14] of <span style="font-style:italic">Global Mariner</span> and [61] of <span style="font-style:italic">Bow Spring</span>.   Mr Vanhegan submitted that the court would be receiving advice from the assessor and would be bound to follow that advice and that the parties should know what that advice was.  He outlined the issues that he proposed should be dealt with &#8220;so as to define the role of the assessor prior to the start of the trial.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a short judgment, the Judge summarised Mr Vanhegan&#8217;s submission as being that the Court should &#8220;define the role of the Assessor in the trial. Mr Vanhegan submits that the process of identifying the advice which the Assessor gives to the Court should be transparent. That, he contends, is required by the effect of the judgment of the Court of Appeal in a maritime case: <span style="font-style:italic">Owners of Bow Spring v Owners of the Manzanillo II</span> <ref href="#" uk:canonical="[2005] 1 WLR 144" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 WLR 144</ref>.&#8221;  The Judge drew attention to the fact that <span style="font-style:italic">Manzanillo II</span> and <span style="font-style:italic">Global Mariner </span>were dealing with the procedure to be adopted in relation to the expert evidence of a nautical expert witness or expert assessor, whose role was different from that of an EA10 assessor.  He regarded the reasons for those differences to be &#8220;perhaps too obvious to recount in this judgment.&#8221;  He concluded that the authorities relied upon by Mr Vanhegan did not have any application in the present case.  He therefore rejected the submission that the practice adopted in those authorities should be adopted in the present case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When the order was drawn up, the Defendant&#8217;s oral application was characterised as &#8220;that there be a direction as to the role to be played at the trial by the Assessor including provision for the advice of the Assessor on the issues listed for trial to be given in open court.&#8221;  That reflects the broad scope of the application as it was presaged in Mr Vanhegan&#8217;s Skeleton Argument for trial and developed (as recorded in the contemporaneous note and the Judge&#8217;s ruling), namely that the procedure outlined in <span style="font-style:italic">Manzanillo II</span> and <span style="font-style:italic">Global Mariner</span> should be adopted in a case such as the present.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The trial then proceeded to eventual judgment.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The judgment of HHJ Luba KC</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Trial Judge gave judgment ex tempore at the end of the second day of the adjourned hearing, the fourth day overall.  The judgment is 22 pages long, well-structured, thorough and a model of clarity.  In his introduction he explained the role of the assessor as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;10 For the trial itself, I have been sitting with an Assessor, appointed pursuant to the requirements of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/114" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 114</ref>.    My Assessor, Ms Jill Tombs, is a long serving lay member of the Employment Tribunals.  In that capacity she has considerable experience determining disputes which involve allegations of discrimination.  I am grateful to her for the insight and experience she has provided on those matters within her specialist expertise, and which arise under the Equality Act 2010 in this particular case.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">11 In the event, because the Trust accepts now that Mr Laidley is disabled, and that any relevant adverse conduct by him is related, at least in some way, to his disability, the focus of the Assessor&#8217;s contribution (on both the claim and counterclaim) has been on the issue of whether his treatment by the Trust has been in proportionate pursuit of a legitimate aim.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Under the heading &#8220;The Statutory Schemes&#8221;, after identifying that Grounds 12 and 14 are discretionary grounds and therefore subject to the additional requirement that it is reasonable to order possession, he continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;15 Consideration of reasonableness embraces the concept of proportionality which would otherwise arise by operation of Article 8 of the First Schedule to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> because the State is being invited, through the medium of these proceedings, to deprive an occupier of their home.  Reasonableness not only embraces a consideration of proportionality in that sense, but also deals with wider matters.  The Court is required to consider all relevant circumstances including, for example in this case, matters such as the medical condition of the defendant and whether the claimant Trust has, as a public body, complied with relevant policies and procedures.  But something more than simple reasonableness and human rights proportionality is required where the context is one of a protected characteristic, protected by the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>.  That &#8220;something more&#8221; is so required is made plain by the decision of the United Kingdom Supreme Court in <span style="font-style:italic">Akerman-Livingstone v Aster Communities Limited</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/15" uk:canonical="[2015] UKSC 15" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 15</ref>.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">16 I have been taken to the relevant provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>. The relevant protected characteristic in this case is the characteristic of disability.  <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 6</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref> defines disability as applying where a person has a physical or mental impairment and the impairment has a substantial and long-term adverse effect on that person&#8217;s ability to carry out normal day to day activities.  Where a person has that characteristic there is special protection from discrimination provided by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref>.  That provides that a person discriminates against a disabled person if they treat the disabled person unfavourably because of something arising in consequence of the disabled person&#8217;s disability, and they cannot show that such treatment is a proportionate means of achieving a legitimate aim.  A person with the protected characteristic of disability is also entitled to advance a contention that they have been the victim of other forms of discrimination, including indirect discrimination defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref>.  I need not read the full terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> into this judgment.  Suffice it to say that Mr Laidley in this case contends that he is a victim of the indirect discrimination there defined.  The prohibition on the discrimination defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref> applies to those who manage premises by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the Act</ref>, and <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/35/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35(1)</ref>(b) expressly provides that managers of premises must not discriminate against individuals by evicting them or taking steps for the purposes of their eviction.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">17 The last provision of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> that I should mention at this point is section 149, which casts on public bodies such as the claimant Trust, a public sector equality duty.  Again, I need not read the full terms of the provision into this judgment, but it is a duty cast to ensure, amongst other things, the elimination of discrimination and the advancement of equality of opportunity in particular in respect of those with protected characteristics such as disability.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have said that there is no challenge to the Trial Judge&#8217;s approach to the law or his findings of facts.  I would go further and say that this summary of the statutory schemes is a model of its kind and on its own demonstrates that the Judge was steeped in this area of law with a high degree of specialist knowledge and expertise.  That assessment is reinforced by the quality of the rest of the judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge then dealt with &#8220;The Essential Facts&#8221; from which I have taken my brief summary at [9] above.  Then, having held that the requisite notice had been served so that the Court had jurisdiction, the Judge dealt in turn with sections entitled (a) &#8220;Are the Grounds Made Out?&#8221; ([54]-[68]); (b) &#8220;Reasonableness&#8221; [69]-[73]; (c) &#8220;Proportionality&#8221; [74]-[83]; (d) &#8220;The Counterclaim&#8221; [84]-[86]; and (e) &#8220;Outcome&#8221; [87].  In terms of structure it need only be noted that, consistently with his summary of principle at [15] of the Judgment (which I have set out at [23] above), he considered not only whether it would be reasonable to order possession if it were an &#8220;ordinary&#8221; case but also (under the heading of proportionality) to consider whether MHT had shown the necessary &#8220;something more&#8221;.  In doing so, he considered Mr Laidley&#8217;s case that MHT had not followed and applied the PSED set out in section 149 of EA10, concluding that MHT had engaged with and complied with the PSED and, if he were wrong about that, any shortcomings in its compliance with the PSED would not affect the ultimate outcome.  He then considered whether making a possession order would be proportionate and in pursuit of a legitimate aim, concluding that it would.  Turning to the Counterclaim, he assumed that all steps under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 15</ref> and 19 up to the last were satisfied and, in relation to the last (namely whether MHT could show that the treatment was a proportionate means of achieving a legitimate aim), for reasons given, concluded that they had done so.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Turning from the structure of the judgment to the substance, it is not necessary to rehearse the evidence and findings in great detail.  That is because it is recognised that all findings of fact were supported by the evidence adduced by the parties and were findings that the Judge was entitled to make; and there were no material issues left unaddressed.  I would go further and say that his conclusions on the various issues that he addressed, clearly and thoroughly set out as they were, flowed inexorably from the findings of primary fact that he had made, which were themselves based on compelling and uncontradicted evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At trial, MHT had accepted that Mr Laidley had a disability, diagnosed as a delusional disorder, and that his disability was the cause of his anti-social behaviour.  The Trial Judge was &#8220;amply satisfied&#8221; (at [68]) that the banging on the wall was to such extent and with such frequency that it amounted to conduct which breached the tenancy agreement and was also a nuisance within the terms of Ground 14.  In response to Mr Vanhegan&#8217;s submission that, even if he had made a finding of nuisance, nevertheless it was not a nuisance of such a quality as to make the granting of a possession order reasonable, the Trial Judge described the anti-social behaviour (at [69]) as &#8220;regular, consistent, disruptive noise, taking place in the early hours of the morning, at night and throughout the day.  This is certainly not insignificant.  I consider it would amply justify the making of a possession order in a context where, unless a possession order is granted, the noise is not going to stop.&#8221;  However, before reaching his concluded view, he had regard to other case-specific features including (a) that the neighbour victim was already elderly and ill; (b) an alleged absence or inadequacy of MHT&#8217;s published policies; (c) the factually incorrect allegation that MHT had not investigated or resolved an issue of sound insulation; (d) a suggestion that MHT should have considered transferring Mr Laidley, which he rejected because, on the evidence, MHT had considered transferring him but Mr Laidley had not engaged; and (e) a suggestion that MHT had not contacted the relevant statutory support agencies which, on his findings, was &#8220;wholly unfounded.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having concluded that, if it were an &#8220;ordinary&#8221; case it would be reasonable to order possession, the Trial Judge addressed the issue of proportionality because of Mr Laidley&#8217;s disability.  The passage from [74]-[83], where he considered whether the grant of a possession order would be a proportionate outcome to the pursuit of a legitimate aim and concluded that it would be, was a closely reasoned section that was humanely sympathetic to Mr Laidley, as was the Judgment as a whole.  As with his other findings, there is no challenge to his conclusion.  He set out and answered each of the submissions made on Mr Laidley&#8217;s behalf.  The judgment is characterised throughout by thorough understanding and analysis suitably informed and balanced by a clear appreciation of Mr Laidley&#8217;s difficulties.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The appeal to Bacon J</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The main thrust of Ground 1 as it was presented to Bacon J in Mr Vanhegan&#8217;s Skeleton Argument for the appeal was that (a) &#8220;nautical assessors&#8221; are assessors just as &#8220;Equality Act assessors&#8221; are assessors; and that (b) the same procedure should be adopted in a case such as this as should be adopted in cases involving &#8220;nautical assessors&#8221;; and that (c) &#8220;the Judge refused to provide disclosure of the assessor&#8217;s evidence to him which &#8230; is a breach of common law natural justice and article 6 of the convention.&#8221;  It will immediately be noticed that this formulation involved at least a linguistic shift from the submissions made to the Trial Judge which had been made on the basis that the assessor in the present case would provide &#8220;advice&#8221; and that the process of identifying the advice which the assessor gave to the Court should be transparent.  Now the focus was on &#8220;evidence&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Bacon J&#8217;s judgment was clear and cogent: see <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2024/2611" uk:canonical="[2024] EWHC 2611 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWHC 2611 (Ch)</ref>.  On Ground 1 she reviewed the authorities upon which the parties relied, to which I will refer in more detail later.  She correctly identified that there was no universal rule as to the nature of the assistance that an assessor will provide to the Court and the extent to which disclosure of their advice and evidence might be required.  That said, she drew a distinction between cases where the assessor performs &#8220;an evidential function&#8221; in the proceedings (in respect of which disclosure would be the normal rule) and cases where the assessor&#8217;s contribution would simply be to assist the judge in understanding or evaluating the evidence provided by the parties (in respect of which disclosure would not normally be required unless fairness required it in the particular circumstances).  In the present case it was common ground that Mr Laidley was disabled and that the conduct complained of was caused at least in part by his disability.  Accordingly:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;45.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; The role of the assessor was therefore not to give evidence as to matters of fact regarding Mr Laidley&#8217;s disability and its consequences. Rather, her role was to assist the judge in the evaluation and assessment of the evidence in order to determine whether the Trust&#8217;s claim was a proportionate pursuit of a legitimate aim. That is a paradigm example of a case where no general obligation of disclosure arises.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge continued: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;46.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Nevertheless, it is apparent from &#167;&#167;10&#8211;11 of the trial judgment that the issues remaining in dispute by the time of the trial were not ones of fact relating to Mr Laidley&#8217;s disability, but rather concerned the weight to be given to the facts as set out by the factual and expert witnesses. That was why the assessor&#8217;s role was, as the judge recorded, limited to assisting the judge in that evaluative exercise. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>47.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Mr Vanhegan submitted that because the assessor&#8217;s advice was not disclosed to the court, it could not be said with certainty that the assessor limited her advice to matters of weight and evaluation, rather than straying beyond that into providing factual or expert evidence which should then have been disclosed. Mr Vanhegan did not, however, identify anything in the judgment which suggested that the judge had taken account of anything other than the evidence provided by the parties during the trial.  </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>48.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Speculation that the assessor might, contrary to what is recorded in the judgment, have provided evidence which was not referred to by the judge but which influenced the judge&#8217;s conclusions, cannot form a basis for a requirement for the assessor&#8217;s advice to be disclosed to the parties. Indeed, if it were otherwise, it would be impossible for an assessor ever to provide advice to a judge that was not disclosed to the parties.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appeal under Ground 1 was therefore dismissed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On Ground 2, it was submitted that the Trial Judge had not relied upon the assessor in relation to whether Mr Laidley was disabled or whether he had suffered a particular disadvantage because those matters were admitted by MHT but that he had asked her about proportionality and legitimate aim, which were legal questions and that it was no part of the assessor&#8217;s role to give evidence on those issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her judgment on Ground 2 Bacon J said that it had not been suggested to the Trial Judge that MHT was doing anything other than pursuing a legitimate aim.  The central disputed question at trial was the proportionality of MHT&#8217;s actions in relation to Mr Laidley.  That question was relevant, in particular, to Mr Laidley&#8217;s Defence and Counterclaim alleging discrimination contrary to various provisions of EA10.  She also recorded Mr Vanhegan&#8217;s acceptance that the assessment of proportionality by the judge was a mixed question of fact and law, which involved weighing up the facts and evidence before the court.  That was an exercise which this assessor was well-qualified to assist, as a long-serving member of the Employment Tribunals, with experience of handling disputes involving discrimination allegations.  The Judge made the pertinent observation that neither side had taken any issue with the suitability of the assessor at the time.  Pointing out that the judge had a wide discretion regarding the use to which an Equality Assessor is put, the Judge held that there was no procedural unfairness whether the Trial Judge had or had not relied upon assistance from the assessor when considering and determining proportionality issues in relation to MHT&#8217;s PSED.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons I have just attempted to summarise, the appeal under Ground 2 was also dismissed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The legal framework and relevant authorities</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">The framework for appointing assessors</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The County Court&#8217;s power to appoint an assessor is given by section 63 CCA84, which provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;63 Assessors</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In any proceedings [in the county court a judge of the court] may, if he thinks fit . . ., summon to his assistance, in such manner as may be prescribed, one or more persons of skill and experience in the matter to which the proceedings relate who may be willing to sit with the judge and act as assessors.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The role of the assessor is not rigidly defined and, as Bacon J rightly observed, the Judge who has summoned the assessor to their assistance has a broad discretion about precisely what assistance they ask the assessor to provide: see <span style="font-style:italic">Ahmed v University of Oxford</span> <ref href="#" uk:canonical="[2003] 1 WLR 995" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 WLR 995</ref> at [19], [22].  This derives from CPR 35.15(1)-(4), which provide: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Assessors</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">35.15&#8212;(1) This rule applies where the court appoints one or more persons under &#8230; <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/63" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 63</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">County Courts Act 1984</ref> as an assessor.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An assessor will assist the court in dealing with a matter in which the assessor has skill and experience.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">An assessor will take such part in the proceedings as the court may direct and in particular the court may direct an assessor to&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">prepare a report for the court on any matter at issue in the proceedings; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">attend the whole or any part of the trial to advise the court on any such matter.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">If an assessor prepares a report for the court before the trial has begun&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the court will send a copy to each of the parties; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">the parties may use it at trial.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">EA10 makes provision for the appointment of assessors in discrimination cases.  Of direct relevance to the present proceedings, <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/35/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35(1)</ref>, which falls within Part 4 of EA10, provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;35 Management</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person (A) who manages premises must not discriminate against a person (B) who occupies the premises&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">in the way in which A allows B, or by not allowing B, to make use of a benefit or facility;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">by evicting B (or taking steps for the purpose of securing B&#8217;s eviction);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">by subjecting B to any other detriment.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">And <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/114/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 114(7)</ref> provides that, in a case relating to a contravention of Part 4:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220; &#8230; the power under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/63/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 63(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28" uk:canonical="1984 c. 28" uk:origin="TNA" uk:type="legislation">County Courts Act 1984</ref> (appointment of assessors) must be exercised unless the judge is satisfied that there are good reasons for not doing so.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although these provisions do not seek to define the role to be taken by an assessor in any given case, Practice Direction 35PD10 requires the court to notify each party in writing of the name of the proposed assessor, of the matter in respect of which the assistance of the assessor will be sought and of the qualifications of the assessor to give that assistance. Any party may then object to that person either personally or in respect of that person&#8217;s qualification.  That process was followed in the present case: see [14] and [15] above.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The assistance to be given by an assessor will typically involve bringing their expertise to bear in assisting the Judge with the evaluation of the evidence as it applies to particular issues.  But it need not be limited to that; and, as we shall see in a moment, the role of an assessor in certain contexts has long been recognised as going beyond evaluation of the evidence adduced by the parties, to the extent of the assessor being regarded as a Court-appointed expert.  The fact that in some well-recognised contexts an assessor will be required to give evidence supports the proposition that the discretion of the court under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/63" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 63</ref> of CCA84 and CPR35.15(3) can extend to asking the assessor to provide evidence in addition to the evidence adduced by the parties.  But, without more, there is no basis for assuming or even speculating that an assessor in a case such as this will be or has been asked to provide evidence or has done so without being asked. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The nature of this appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At intervals during his submissions, Mr Vanhegan described this appeal as involving a public law challenge.  It does not.  It is a private law challenge to the order of Bacon J which, by virtue of it being a second appeal, requires close scrutiny of the decision of the Trial Judge.  As such it falls within CPR 52.21(3), which provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The appeal court will allow an appeal where the decision of the lower court was &#8211;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">wrong; or </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">unjust because of a serious procedural or other irregularity in the proceedings of the lower court.&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that the Appellant must satisfy the Court not only that there has been a procedural or other irregularity in the lower court but also that the irregularity has rendered the decision of the lower court unjust: see <span style="font-style:italic">Hayes v Transco PLC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1261" uk:canonical="[2003] EWCA Civ 1261" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1261</ref> at [14]; and see <span style="font-style:italic">Bow Spring </span>at [65].</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">The authorities</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guiding principle is not in doubt and does not require citation of authority.  It is a fundamental principle of natural justice and fairness that the parties in adversarial litigation must be entitled to know the case that they have to meet and must be given a fair opportunity to respond to that case.  Knowing the case that they have to meet is not limited to the nature of the case being alleged but extends to knowing the evidence that is relied upon by the other party or, by natural extension, by the Court: see, for example, <span style="font-style:italic">Al Rawi v Security Service</span> <ref href="#" uk:canonical="[2012] 1 AC 531" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 AC 531</ref>, <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/34" uk:canonical="[2011] UKSC 34" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 34</ref> at [12] per Lord Dyson JSC.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is convenient to deal with the cases relied upon by Mr Vanhegan before the Trial Judge first.  <span style="font-style:italic">Bow Spring </span>and <span style="font-style:italic">Global Mariner </span>were both cases involving &#8220;nautical assessors&#8221;.  Nautical assessors are a well-recognised and long-standing special category of assessors who fulfil the role of Court-appointed experts.  Their role as providers of expert evidence is highlighted by the fact that where the Court sits with one or more nautical assessors, the parties will not be permitted to call expert witnesses unless the Court orders otherwise, the default position being that the nautical assessor is the only provider of expert evidence in the case: see CPR 61.13.  <span style="font-style:italic">Bow Spring</span> and <span style="font-style:italic">Global Mariner</span> must be read in that light.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Bow Spring </span>the nautical assessor was asked questions that had been formulated with the assistance of counsel but the assessor&#8217;s answers were not disclosed to the parties.  In a postscript to the main judgment Christopher Clarke LJ gave guidance for the future which was based on the uncontroversial proposition that &#8220;[b]oth the common law and the Convention regard fairness as including the need for the court to know, before it reaches a conclusion, what the parties have to say about the issues and the evidence which goes to them&#8221;: see [58].  In support of that proposition he continued:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;As the Strasbourg court put it in <span style="font-style:italic">Krcm&#225;r v Czech Republic</span> (No. 35376/97) <ref href="#" uk:canonical="(2000) 31 EHRR 41" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">(2000) 31 EHRR 41</ref>, para 40:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;The concept of a fair hearing &#8230; implies the right to adversarial proceedings, according to which the parties must have the opportunity not only to make known any evidence needed for their claims to succeed, but also to have knowledge of, and comment on, all evidence adduced or observations filed with a view to influencing the court&#8217;s decision.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>59.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where the court has evidence from an expert who has not been called as a witness by either party &#8211; and CPR 61.12 makes it clear that nautical assessors are such experts &#8211; the principle needs to be adapted to the procedure.  Its effect is that any consultations between the assessors and the court should take place openly as part of the assembling of evidence. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At [61] Christopher Clarke outlined that the modern practice should be for questions to be put to the nautical assessor after consultation with counsel and that the nautical assessor&#8217;s answer should be disclosed to counsel in order that appropriate submissions could be made as to whether the judge should accept their advice.  That had not been done, but the appellant was unable to demonstrate any consequent prejudice incapable of being remedied on the appeal; so the issue did not advance the appellant&#8217;s case or affect the Court of Appeal&#8217;s determination of the appeal: see [65].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Global Mariner</span> was another maritime collision case in which Gross J sat with nautical assessors.  It was a case where the parties also adduced expert evidence: see [10(iii)].  At [14] the Judge set out the procedure that had been adopted in the light of the decision of the Court of Appeal in <span style="font-style:italic">Bow Spring </span>with a view to giving guidance for the future.  The guidance was specific to collision cases where nautical assessors were involved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To my mind, <span style="font-style:italic">Bow Spring</span> and <span style="font-style:italic">Global Mariner</span> are only of tangential relevance to the present case.  They are authority for the proposition that, where an assessor gives expert evidence, that must be transparently disclosed to the parties.  But that proposition is so fundamental that no authority is really needed for it.  Subject to one reservation, I would not accept that Christopher Clarke LJ&#8217;s reference to &#8220;observations filed with a view to influencing the court&#8217;s decision&#8221; either said or meant that whenever an assessor assists the Court in its evaluation of the evidence provided by the parties the content of that evaluative process needs to be disclosed to the parties.  The one reservation that I would add is that if the contribution of the assessor leads the Court into an area or argument that would affect its decision and of which the parties have not had notice in any event, the fundamental principle of fairness may require that contribution to be disclosed so that the parties may meet the case as now being considered.  This reservation is in accordance with what I understand to be the proper approach if a Court (however constituted) comes up with a new line of potentially influential argument after closing submissions have concluded.  In such circumstances I consider it to be axiomatic that the parties should be given a proportionate opportunity to consider the new line of argument and to make submissions if so advised.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For similar reasons, I endorse the dictum of the Court of Appeal in <span style="font-style:italic">Ahmed </span>at [29] that the observations of Viscount Simon LC in <span style="font-style:italic">Richardson v Redpath Brown &amp; Co Ltd </span><ref href="#" uk:canonical="[1944] AC 62" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1944">[1944] AC 62</ref>, 70 will generally have little bearing on the role of an assessor under CPR 35.15 (or for that matter an assessor under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74" uk:canonical="1976 c. 74" uk:origin="TNA" uk:type="legislation">Race Relations Act 1976</ref> [&#8220;RRA76&#8221;]) because <span style="font-style:italic">Richardson </span>was a very different type of case.  A medical assessor intimated a wish to assess a Workmen&#8217;s Compensation Act claimant and, having carried out a medical examination in private out of court, communicated his views based on his examination to the Judge who based his decision on that expert evidence without informing the parties of its content.  The decision was set aside on the basis that the Judge should have informed the parties of the advice he had received.  So far as relevant to this case, it is an example of an assessor who goes beyond providing evaluative assistance and provides expert evidence that is material to the outcome.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic">Ahmed</span> concerned the role of assessors appointed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> of RRA76.  The Court of Appeal held that such assessors formed a distinct category of their own and that the terms of CPR 35.15 were not appropriate for the role of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> assessors.  There are, however, close parallels between the reasons for appointing assessors under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> and for appointing persons with suitable expertise to act as assessors pursuant to CPR 35.15 and, in particular, in the light of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/114/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 114(7)</ref> of EA10.  <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 67(4)</ref> assessors were to be persons appearing to the Secretary of State &#8220;to have special knowledge and experience of problems connected with relations between persons of different racial groups&#8221;.  That may be compared with the requirement under CPR 35.15(2) that the assessor appointed under that provision will have skill and experience in the matter on which they assist the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In its discussion of the role of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> assessors, the Court of Appeal in <span style="font-style:italic">Ahmed</span> also reviewed the role of CPR 35.15 assessors:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;22.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; in relation to the role assessors are to play, CPR 35.15 provides that the part to be taken is &#8216;as the court may direct.&#8217; That leaves a wide discretion to the court as to the role to be played. Under CPR 35.15 the court may direct a report to be prepared, and if it does so that report must be sent to the parties and the parties may use it at trial. The court may also direct that the assessor &#8216;attend the whole or any part of the trial to advise the court on any such matter.&#8217; The absence of any suggestion that any advice must be revealed to the parties in contrast to the position where a report is directed, would indicate that even in the CPR 35.15 context, it is not envisaged, at any rate as a matter of course, that advice will be revealed in order to allow the parties to make submissions on it. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>25.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">So the use that a judge makes of assessors is very much within his discretion. It will depend on the type of case. It will depend on how far assessors are fulfilling an evidential role and how far simply assisting in the decision making process, and of course a judge will have in mind at all times what fairness to the parties requires. </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230; </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>30.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The reality is that it is impossible to lay down strict rules of general application as to the way in which assessors may be used. Where assessors are appointed under CPR 35.15, the court has a broad discretion on how to use the same and the type of assistance they give may vary widely, dependent upon the character of the litigation. They may have an evidential function (in which event disclosure to the parties will be the normal rule) and a function which is more involved in assisting the evaluation of evidence (in which event disclosure to the parties will not be the normal rule and only occur if fairness demands it).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At [33] the Court addressed the question to what extent the judge should disclose during the case and before final submissions the advice he is getting from the assessors.  The question was framed by reference to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> assessors but the answers given reflect the fundamental principles to which I have already referred and are of general application:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Mr. Allen submitted that as a matter of natural justice the parties were entitled to know the advice that the judge was getting so that they could deal with it.  He referred us to <span style="font-style:italic">Mahlikilili Dhalamini v The King</span> <ref href="#" uk:canonical="[1942] AC 583" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1942">[1942] AC 583</ref>, <span style="font-style:italic">Bharat v The Queen</span> <ref href="#" uk:canonical="[1959] AC 533" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1959">[1959] AC 533</ref>, <span style="font-style:italic">Nwabueze v General Medical Council</span> <ref href="#" uk:canonical="[2000] 1 WLR 1760" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 1760</ref>, <span style="font-style:italic">Roylance v General Medical Council</span> (No 2) <ref href="#" uk:canonical="[2000] 1 AC 311" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 AC 311</ref> and <span style="font-style:italic">R v Deputy Industrial Injuries Comr, Ex p Jones</span> <ref href="#" uk:canonical="[1962] 2 QB 677" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1962">[1962] 2 QB 677</ref>.  Advice can of course cover a range of matters, and in our view as a general proposition Mr Allen&#8217;s formulation is too wide.  <span style="text-decoration-line:underline;text-decoration-style:solid">We suggest that the principles one gets from those authorities are these: (1) if a fact finding tribunal or assessors involved in the findings of fact are to be directed on the law, that direction should normally be given in open court and the direction should be accurate (for the importance of open court see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Mahlikilil&#8217;</span><span style="text-decoration-line:underline;text-decoration-style:solid">s</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid"/><span style="text-decoration-line:underline;text-decoration-style:solid">case <ref href="#" uk:canonical="[1942] AC 583" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1942">[1942] AC 583</ref>; for the importance of the direction being accurate see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bharat</span><span style="text-decoration-line:underline;text-decoration-style:solid">&#8217;s case <ref href="#" uk:canonical="[1959] AC 533" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1959">[1959] AC 533</ref>); (2) if the advice is in the nature of expert evidence to which the parties should be entitled to respond, disclosure will normally be required (see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Mahlikilili</span><span style="text-decoration-line:underline;text-decoration-style:solid">&#8217;s case <ref href="#" uk:canonical="[1942] AC 583" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1942">[1942] AC 583</ref>); (3) where a corporate judicial decision has to be made the detail of the discussion and the manner in which the conclusion was reached should normally remain confidential: see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Roylance</span><span style="text-decoration-line:underline;text-decoration-style:solid">&#8217;s case <ref href="#" uk:canonical="[2000] 1 AC 311" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 AC 311</ref></span>.&#8221;  [Emphasis added]</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court then considered the implications of the primary role of <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> assessors being in &#8220;the decision making process&#8221; where &#8220;they are not the final decision makers &#8230; but their role is in assisting of the evaluation of the evidence&#8221;.  The Court said at [34]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;That militates against any general obligation of disclosure prior to judgment. Of course there may be circumstances where disclosure will be necessary. For example, where a point arises as a result of the assistance of the assessors which the parties clearly did not have in mind and which they should be entitled to address, disclosure should be made. Furthermore assessors, despite their primary role, may provide a piece of information akin to expert evidence, and here, once again disclosure should be made. But overall parties should appreciate that the assessors under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> are using their experience to help the judge decide the facts, and should be prepared to address the judge and assessors on the issues of fact without disclosure of the assistance that the assessors are giving the judge in evaluating the evidence.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is obvious that this approach was framed by reference to the fundamental principles to which I have referred rather than to any quirk of a <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> assessor&#8217;s role.  I take it as clear guidance of general application when considering those fundamental principles.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As he had done before Bacon J, Mr Vanhegan relied upon <span style="font-style:italic">Halliburton Energy Services Inc v Smith International (North Sea) Ltd and others</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/1599" uk:canonical="[2006] EWCA Civ 1599" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWCA Civ 1599</ref>.  <span style="font-style:italic">Halliburton </span>concerned the role of a scientific adviser to an appellate court whose primary role was to assist the appellate court in understanding the technical evidence but might go further to the point of expressing opinions on factual matters at issue between the parties.  The Court drew the distinction between assisting the Judge in understanding technical evidence, where disclosure may not be required, and venturing an opinion (i.e. adding to the corpus of evidence) on matters in dispute between the parties, where the overriding requirement of fairness would require disclosure and a right of response sufficient to comply with the requirements of modern justice: see [20].  That is, to my mind, consistent with the application of fundamental principles as outlined in <span style="font-style:italic">Ahmed</span>, albeit in the different context of scientific advisers to an appellate court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Vanhegan also relied upon the decision of Burnton J in <span style="font-style:italic">Watson v GMC </span>[2005] EWHC 1896.  The factual basis for that decision was that the medical advisers whose role was to advise the GMC&#8217;s health committee had gone outside their proper role by expressing personal views to the committee in private as to the appellant&#8217;s attitude to her condition.  Burnton J held that those who advised a tribunal on issues of fact, whether as experts or assessors, should do so openly, in the presence of the parties: see [60].  That had not been done and so the determination of the committee was set aside.  <span style="font-style:italic">Watson </span>is therefore an example of a case where the assessors added to the body of evidence being considered by the committee without the appellant being given a fair opportunity to consider and address the evidential case that she had to meet. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 1: discussion and resolution</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As set out in the Grounds of Appeal, Ground 1 is that Bacon J was wrong to dismiss the appeal insofar as it was against the refusal to provide disclosure of the assessor&#8217;s evidence.  The appellant submits that &#8220;the Judge was wrong to conclude that the role of the assessor in this case was limited to advice which did not need to be disclosed to the defendant. This was especially the case here because the Judge at first instance had refused the appellant&#8217;s counsel&#8217;s request to define the role of the assessor.&#8221;  It is also submitted that the Judge was wrong to decide that evidence given by an assessor should be the subject of disclosure, but not advice given by the assessor to help the Judge to evaluate the evidence. It is submitted that this legalistic distinction is very difficult in practice, and is therefore not a workable solution.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant&#8217;s Skeleton Argument adopts a more extreme position, namely that Bacon J was wrong to dismiss the appeal &#8220;insofar as it was against the refusal to provide disclosure <span style="font-style:italic">of the assessor&#8217;s comments to the judge</span>&#8221;; and that she was wrong to decide that the assessor&#8217;s role was to assist the judge in the evaluation and assessment of the evidence and that, accordingly, there was no duty of disclosure.  It will be noticed that this formulation involves another linguistic shift from &#8220;advice&#8221; (before the Trial Judge) to &#8220;evidence&#8221; (before Bacon J) to &#8220;comments&#8221; (before us).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">MHT responds by identifying Bacon J&#8217;s reasons for dismissing the appeal before her on Ground 1 and submitting that she was right in her reasons and the result.  Those reasons were:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She held that it was not possible to set out a universal rule as to the nature of assistance that assessors provide to the court and the extent to which disclosure of their evidence and advice is required;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She distinguished between experts and scientific assessors on one hand and assessors, whose role is to assist in the evaluation of evidence, on the other;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">She held that the role of the assessor in this case, appointed pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/114/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 114(7)</ref> of the EA10, <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/63/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 63(1)</ref> of the CCA84, and CPR 35.15, was to assist the judge in the evaluation and assessment of the evidence in his determination of whether MHT&#8217;s conduct in pursuit of its legitimate aim was proportionate.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would accept MHT&#8217;s submissions and dismiss the appeal on Ground 1 essentially for the reasons given by Bacon J.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Trial Judge was correct to reject the application that was made to him.  Specifically, he was right to hold that the guidance in the nautical assessor cases had no application to the present case: they were concerned with the nautical assessors&#8217; giving of expert evidence and should not be cross-applied so as to require disclosure in the present case.  It is implicit in his rejection of the nautical assessor cases that he did not consider the role of the assessor in the present case to involve the giving of evidence.  That implicit finding that the assessor in the present case was not giving evidence was made explicit by [10]-[11] of his trial judgment, which I have set out at [21] above.  Bacon J was therefore right to conclude (at [45] of her judgment) that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the role of the assessor was therefore not to give evidence as to matters of fact regarding Mr Laidley&#8217;s disability and its consequences. Rather, her role was to assist the judge in the evaluation and assessment of the evidence in order to determine whether the Trust&#8217;s claim was a proportionate pursuit of a legitimate aim.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At [41] above, I have referred to the fundamental principle of fairness that governs the court&#8217;s procedural approach, not just in cases such as the present but in all cases.  It is not suggested that the Trial Judge was not or would not have been aware of that fundamental principle; nor is there any material before us that could support such a suggestion.  I have referred already to the quality of the Trial Judge&#8217;s judgment and to the fact that he was a Judge steeped in this area of the law.  His experience and distinction is explicitly recognised by the appellant in his Skeleton Argument.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">How then should the fundamental principle of fairness be applied in a case such as this and, more specifically, in this case?  In my judgment, the answer is to be found in <span style="font-style:italic">Ahmed</span>, which was not cited before the Trial Judge but which Bacon J adopted as the basis for her approach.  Making all due allowance for the fact that, at the time, assessors appointed under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> of RRA formed a distinct category of their own, the basic reasons (based on fairness) for appointing assessors under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/67/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 67(4)</ref> and under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/28/section/63" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 63</ref> of CCA84 are the same: to supply the experience and expertise that the Court may otherwise lack in its evaluation of the case in hand.  As such, I consider <span style="font-style:italic">Ahmed </span>to be a case of general application that cannot sensibly be distinguished and I would follow the guidance it gives.  I would therefore adopt the passages from <span style="font-style:italic">Ahmed </span>that I have set out above as being applicable <span style="font-style:italic">mutatis mutandis</span> to assessors appointed in a case such as this; and I would endorse the approach and decision of Bacon J on this ground, as I have set out at [29]-[30] above.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before the Trial Judge, it was submitted that the role of the assessor should be defined before the start of the trial.  The Judge rejected that submission and, in my judgment, he was right to do so.  The initial impetus for the appointment of the assessor came from Mr Laidley&#8217;s Counterclaim, was agreed by MHT, and was implemented by the Court as set out above.  That provided sufficient &#8220;definition&#8221; both of the original reasons for appointing an assessor and of the chosen assessor&#8217;s experience and expertise.  Given that the primary role of an assessor in a case such as this is to provide assistance in the evaluation of the evidence, no further definition was necessary; and attempting to define the relevant issues more closely would run the risk of constraining the scope and limiting the usefulness of the role that the assessor could undertake.  It was then for the Judge to be astute to recognise if the assessor strayed outside the proper limits of her involvement either by purporting to assist on areas where she had no relevant experience or expertise, or by giving evidence, or by acting in such a way as to open a new line of enquiry of which the parties had not had proper notice and a fair opportunity to respond.  There is no sign that any of these possible mishaps happened in the present case and no reason to speculate that they either did or might have done.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept Mr Vanhegan&#8217;s submission that there will be difficulty in practice in identifying when an assessor has gone beyond their normal evaluative function.  Even if that line may not be clear to a lay assessor, it should be clear to the Judge, guided always by the fundamental principles of fairness to which I have referred.  And, if the Judge is in doubt as to the requirements of fairness, they can and should lean towards disclosure so that no risk of unfairness remains.  I also note Mr Vanhegan&#8217;s concession that an assessor should seldom if ever be treated as having given evidence simply because they refer to their experience in the course of discussions.  I consider that concession to have been correctly made. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In summary:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The role of the assessor in this case was suitably and sufficiently defined;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Where an assessor&#8217;s contribution is to the evaluation of the evidence in the case, no obligation of disclosure would normally be required; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Where an assessor goes beyond contributing to the evaluation of the evidence and either (a) provides additional evidence or (b) otherwise gives rise to a new line of enquiry of which the parties had not had proper notice and a fair opportunity to respond, disclosure is required;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The principles set out in (ii) and (iii) represent the normal position, which may need to be adjusted in a particular case if there is a compelling reason to do so;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no reason to go behind the Judge&#8217;s decision on Mr Laidley&#8217;s application for disclosure or his explanation in [10]-[11] of his trial judgment; and there is no basis for any speculation that the assessor in the present case either gave evidence or otherwise gave rise to a new line of enquiry.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I return to the terms of CPR 52.21(3).  The appellant has not shown on the basis of Ground 1 that the decision of the Trial Judge was wrong.  To the contrary, as I have already indicated, there is no challenge to the Trial Judge&#8217;s findings of fact or his application of the relevant legal principles to those facts and, in my judgment, his findings of fact and the proper application of the relevant legal principles led inexorably to the decision to order possession in this case.  Nor, in my judgment, has the appellant shown any procedural irregularity, let alone one that renders the decision of the Trial Judge unjust.  I would therefore dismiss the appeal on Ground 1.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 2: discussion and resolution</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ground 2 asserts that the trial judge &#8220;asked the assessor about proportionality and legitimate aim&#8221; and that these were matters upon which the assessor could not assist the Judge as she was &#8220;not at all placed to weigh the competing interests of the disabled person with those of the housing association.&#8221;  It also asserts that the Trial Judge decided the defence based on the PSED &#8220;apparently without any reference to the assessor.&#8221;  In support of this latter proposition it is submitted that &#8220;the PSED is not about proportionality&#8221; so that the Trial Judge&#8217;s statement that the assessor assisted on the issue of proportionality does not mean that she had any input on the issues that arose under the PSED.  It is said that the effect of these actions was that the appellant did not know the case he had to meet.   It is also asserted that there is no certainty that the assessor did not stray beyond &#8220;pure advice to help the judge evaluate the evidence.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Oral submissions for the appellant on this ground were made tenaciously by Ms Smith.  Despite her efforts, I am not persuaded that there is any substance in Ground 2.  Although, as I have said, there is no basis for speculating that the assessor strayed beyond the primary role of assisting in the evaluation of evidence, we do not (and should not) know precisely what the extent of that assistance was.  All that can be said is that the Judge had a broad discretion to decide precisely what assistance he needed or wanted.  Given the considerable experience of Ms Tombs as revealed by her CV and the fact that no objection was taken to her appointment at the time, I can see no basis for assuming or speculating that she contributed to the evaluation of the case inappropriately or strayed beyond her proper areas of experience and expertise.  Specifically, nothing in [10]-[11] of the Trial Judge&#8217;s judgment demonstrates that the assistance provided by the assessor was inappropriate. Although the PSED defence raised separate issues, Bacon J was correct to say that the central disputed question was the proportionality of MHT&#8217;s actions in relation to Mr Laidley and that the question was relevant to his Defence and Counterclaim alleging discrimination contrary to various provisions of EA10.  Turning to the PSED, the Trial Judge was entitled to take the view that the PSED assessments raised proportionality issues.  I can see no reason to conclude that the assessor was not able to contribute to issues of proportionality.  At the same time, whether and the extent to which she was asked to contribute was a matter for the Judge.  It would, in my judgment, be unjustifiably over-prescriptive to hold that the Judge was either obliged to seek her assistance or obliged not to.  This case is a paradigm example of one where the assistance required and sought by the judge is for the judge to determine; and it will be for the judge to decide whether the contribution of the assessor is helpful or not.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I return again to the terms of CPR 52.21(3).  The appellant&#8217;s submissions on Ground 2 do not demonstrate that the substantive decision of the Trial Judge was wrong; nor do they disclose any procedural irregularity, let alone one that renders the Trial Judge&#8217;s decision unjust.  I would therefore dismiss the appeal on Ground 2.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would dismiss this appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Lord Justice Nugee</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_14">
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_15">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lady Justice King</span></heading>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

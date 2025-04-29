@@ -1,0 +1,653 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/58"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/58"/>
+	  <FRBRdate date="2025-04-08" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="58"/>
+	  <FRBRname value="L Barbosa Dethling v Metropolitan Police Service"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/58"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/58"/>
+	  <FRBRdate date="2025-04-08" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/58/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/58/data.xml"/>
+	  <FRBRdate date="2025-04-22T15:19:54" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>58</uk:number>
+	<uk:cite>[2025] EAT 58</uk:cite>
+	<uk:parser>0.26.20</uk:parser>
+	<uk:hash>3e53fd1093c03b9695590f16248bfb2c61cf2ed5924ffbe9d68b9a2972c70540</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Quote { margin-left: 1.18in; margin-right: 0.6in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .text { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Dethling v Metropolitan Police Service</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 58</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2024-000027-JOJ</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-04-08" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">8 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">MS L BARBOSA DETHLING</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-size:12pt">THE METROPOLITAN POLICE SERVICE</span><marker name="tab"/><span style="font-size:12pt">                   </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Patricia Leonard </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Free Representation Unit</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Martina Murphy </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Gowling WLG (UK) LLP</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 8 April 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">PRACTICE AND PROCEDURE &#8211; amendment</span></p>
+      <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The employment tribunal erred in refusing permission to the claimant to amend her existing claim to add a new complaint relating to alleged post-dismissal victimisation.</span></p>
+      <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This decision considers the principles which apply when, on the date when the application to add a new complaint is made, a new claim raising the same complaint would have been in time.</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Kumari v Greater Manchester Mental Health NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> [2022] EAT 132 and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Gillett v Bridge 86 Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> UKEAT/0051/17 applied.</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Patka v British Broadcasting Corporation</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> UKEAT/0190/17 considered.</span></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This matter is ongoing in the Reading employment tribunal.  I will refer to the parties as they are in the tribunal.  The claimant seeks to appeal the reserved decision of Employment Judge Anstis, arising from a hearing on 20 November 2023, refusing an application by her to amend her claim.  The claimant is a litigant in person.  In the EAT she initially drafted her own grounds of appeal.  However, at a preliminary hearing she was represented under the ELAAS scheme by Jeffrey Jupp KC, and draft amended grounds of appeal prepared by him were permitted to proceed to a full appeal hearing in substitution for the original grounds.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The relevant background is this.  The claimant was a police constable serving with the Metropolitan Police from 30 June 2020.  As such, the respondent fell to be treated as her deemed employer for the purposes of her later tribunal complaints.  Following her giving notice in November 2022, her service ended on 31 December 2022.  On 18&#160;February 2023 the claimant began her tribunal claim, which included complaints of disability, race and sex discrimination, including complaints predicated on her having been constructively dismissed.  A response with attached grounds of resistance defending the claims, was put in by solicitors, Gowling WLG (UK) LLP.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 11 June 2023 the claimant emailed the tribunal, copying in the respondent&#8217;s solicitors, applying to amend her claim.  She sought to add further complaints concerning her alleged treatment during the course of her service and its termination.  She sought also to add a complaint of post-termination victimisation against the respondent.  This related to two emails, concerning the return of her warrant card, sent by Gowling on 11 April and 11 May 2023.  She also sought to have Gowling &#8211; the firm itself &#8211; added as a respondent in connection with that same proposed complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In a response of 3 July 2023 Gowling indicated that the respondent neither objected nor consented to the application to amend to add a complaint of victimisation against the respondent himself; but that he wished to seek a deposit order on the grounds that the proposed additional complaint had little reasonable prospect of success.  The other applications to amend were opposed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The applications to amend were then considered at a preliminary hearing.  In a reserved decision all of them were refused.  This appeal, Ms Leonard confirmed, relates solely to the refusal of the application to add a complaint of post-termination victimisation against the existing respondent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The background to that proposed new complaint was that, in November 2022, prior to the end of her service, the claimant had travelled to Brazil, where she has family.  On 22 December she sent a WhatsApp to Sergeant Harrison, with whom she had been in regular contact in recent months, indicating that she had decided not to return to the UK and would mail her warrant card back to London.  Sergeant Harrison was concerned about the security risk of doing that, and indicated that return of the warrant card could await her return to the UK.  However, following further exchanges in the New Year, on 31 January 2023, the claimant offered to send the card by DHL or FedEx.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 10 February Sergeant Harrison replied that her colleagues had come back to her, asking if the claimant could indeed still send the warrant card in that way.  On 1 March Sergeant Harrison messaged again, checking that the claimant had received that earlier message.  The claimant replied that she had, and that she would confirm when the card had been sent.  On 23 March Sergeant Harrison messaged again, seeking an update, as she herself was being chased again by colleagues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The next communication on the subject, in either direction, was an email from Gowling to the claimant of 11 April 2023.  After referring to matters to do with the litigation, they wrote:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold">&#8220;Our client has also asked us to raise a related issue with you which we understand they have contacted you directly about but not heard back from you about.  They have advised us that your warrant card, which was due to be returned by 31 December 2022, has not been returned.  We understand that if they do not hear from you, the next step is to put in a theft report for the outstanding property.  Please can you therefore confirm when you can return the warrant card so that we can share this information with our client.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In her reply the claimant referred to this as a &#8220;threat from the respondent of a theft report&#8221;.  She observed that she had liaised with the respondent regarding the return of the warrant card on multiple occasions and had not at any point refused to cooperate.  She said, a little further on:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold">&#8220;I feel this threat to file a theft report to be an intimidation tactic from the Respondent, as I have been cooperating with them in relation to this at all times and have kept a record of all messages exchanged with them in relation to this matter.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant referred in that email to her limited financial circumstances.  In a reply of 11&#160;May 2023 Gowling noted that the claimant had referred to that also in her reply to their defence to her claim.  A little further on they wrote:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold">&#8220;Our client will need to file a theft report for the missing property for &#8216;security reasons&#8217;, but can hold off taking the matter further whilst you liaise with PS Evans as soon as possible to confirm when you will be able to return the warrant card.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant, in a reply, referred to her financial situation having changed since the earlier exchanges about using DHL or FedEx.  She observed:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold">&#8220;I maintain that your client cannot legally file a theft report for security reasons and make me have a criminal record, knowing that theft has not and will not be committed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">All of these communications were, in one form or another, all before the tribunal.  In its decision, the tribunal noted that the applications to amend were described in a number of documents tabled by the claimant, including a draft list of issues that she had prepared.  It noted that, in that list of issues, this particular proposed complaint was framed in the following way:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.69in"><span style="font-weight:bold">&#8220;Whether the respondent instructed Gowling to email the claimant threatening to file a crime report against her, knowing this allegation to be false/fraudulent and further victimising the claimant post-employment.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal also set out in its decision the material passages from the two emails from Gowling in April and May to which this proposed complaint related.  Its reasoning in relation to this particular application appears in the following passage, although parts of it also concern the application to add Gowling as a respondent in respect of the same matter:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;27.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The effect of these is described by the claimant in vivid terms. She took them to be an accusation of theft. It seems to me that the respondent (or its solicitors) have been careful to talk of &#8220;filing a theft report&#8221;, rather than an outright accusation of theft. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">28.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The claimant was a police officer. Her warrant card was an important piece of equipment or record, being the written authority she would rely on in exercising her powers as a police officer. It cannot be in dispute that the respondent is entitled to be concerned about the whereabouts of a particular warrant card, given the potential for misuse if it were to fall into the wrong hands. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">29.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">I understand it to be the claimant&#8217;s position that she took the warrant card with her when travelling to Brazil and was, on the face of it, entitled to do so as she remained an officer at that stage. Her service expired shortly after her arrival in Brazil and she agrees that her warrant card needed to be returned to the respondent. She says she has always been willing to return the card but its return was delayed due to delays and mixed messages from the respondent as to the best way to securely return it. Her position is that any allegation of theft is baseless as she had always intended to return the card and been willing to do so. She says the allegations have been very damaging to her. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">30.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">It is the claimant&#8217;s case that the solicitors sent these emails on the instructions of the respondent. She draws a distinction between the motives of the respondent and its solicitors in sending this. Her amendment is the effect that the respondents &#8220;instructed Gowling to email &#8230; knowing this allegation to be false/fraudulent&#8221;, whereas for Gowling it is (from her agenda) that &#8220;they acted Recklessly on behalf of their client without due regard to the harm such a threat would cause me in my circumstances, having full knowledge of my disabilities at the time it occurred. Intention is not a key element in the claims I wish to bring against them. Recklessness is.&#8221; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">31.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">So far as the respondent is concerned, this is said by the claimant to be an act of post-employment victimisation. In principle s108 of the Equality Act permits such a claim. The application to amend was brought within the normal time limit which applied to such a claim. If the claimant had submitted a fresh claim in respect of this the tribunal would have accepted it and the respondent could not object on time grounds. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">32.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Mr Isaac&#8217;s primary objection to this for the respondent is that &#8220;the email was honest and reasonable&#8221; and fell within the proper course of litigation as described in Chief Constable of West Yorkshire v Khan [2001] UKHL 48. He says that the return of the warrant card was necessary and appropriately dealt with by the respondent. Such a measured approach cannot lead to a detriment. The claimant had, at most, an &#8220;unjustified sense of grievance&#8221;, with there being &#8220;absolutely no evidence that R &#8230; were motivated to write to C in a particular way because C had brought proceedings&#8221;. He says it is an attack on legal professional privilege. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">33.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">An &#8220;honest and reasonable&#8221; email may well fall within the Khan case, but it is the claimant&#8217;s case that the respondent&#8217;s actions were &#8220;false/fraudulent&#8221;. If she can prove this then it seems to me that this could amount to victimisation in the conduct of litigation. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">34.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">What seems to me to cause the most substantial difficulty for the claimant is a combination of the second and third points. Although the claimant objects to the approach, it seems to me that it is less extreme than it could have been. The respondent had every right to recover the warrant card and every right to be concerned about its whereabouts. Mention of a &#8220;theft report&#8221; is not quite the same as the outright accusation of theft the claimant took it to be, and does not lend itself to the detailed analysis of the law relating to theft that the claimant has undertaken. How is the claimant going to show (or, more correctly, provide material from which the tribunal could conclude) that this approach was motivated by the claimant having brought legal proceedings, as opposed to a simple desire to recover a warrant card from a former officer? The claimant has put forward no actual comparators, nor is there anything to suggest how any other officer has been treated in these circumstances. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">35.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">I had wondered whether this amendment should be allowed on the basis that the claimant would then have the opportunity to attempt to produce or discover this material, but it seems to me that the difficulties in the way of such a claim are too great for me to allow this amendment. In order to succeed the claimant is going to have to show that someone in the respondent instructed Gowling WLG to write to the claimant threatening submission of a theft report, knowing that there had been no question of theft, and she must provide material from which the tribunal could conclude that they did so because she had brought a discrimination claim, not because they wished to recover the warrant card. The application to add this claim is refused because the weak merits of the claim mean that the balance of prejudice in refusing the application favours the respondent rather than the claimant. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">36.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">I will not allow this amendment, and having not allowed it against the respondent there are all the more reasons to not allow it against Gowling WLG, and not to add them as a respondent. I do not see how the claimant&#8217;s allegation that they were &#8220;reckless&#8221; can amount to the only allegation that would be within the jurisdiction of the tribunal: that they have committed an act of victimisation. Beyond that, I would be very reluctant to allow an amendment to add in the solicitors as a respondent for the final reason given by Mr Isaacs &#8211; it would involve difficult questions of legal professional privilege and may well require separate representation for the two respondents. This would unnecessarily complicate the conduct of the claim and take away from the core issues, which are the allegations of discrimination that arise during the claimant&#8217;s employment by the respondent.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The amended grounds of appeal are as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;All grounds are concerned with the Tribunal&#8217;s refusal to permit the Appellant to bring a claim for post-employment victimisation arising out of correspondence written to the Appellant by the Respondent&#8217;s solicitors on 11 April 2023 and 11 May 2023. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">In determining that the Appellant had not suffered a detriment the Tribunal: a. Failed to apply the low threshold for determining whether or not the Appellant had suffered a detriment as required by </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Shamoon v Chief Constable of the Royal Ulster Constabulary</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> [2003] ICR 1458 and </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">St Helens Borough Council v Derbyshire</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> [2007] ICR 1694. b. Reached a perverse decision because informing the Appellant, a former police officer and person of good character that the next step would be to make a theft report was something that was likely to result in an entirely justified sense of grievance. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The Tribunal erred in law in determining that the Claimant did not have sufficient information to establish a prima facie case that, the reason for the reference to a theft 27 report in the correspondence of the 11 April 2023 and 11 May 2023, was the bringing of discrimination proceedings on 18 February 2023 because the Tribunal: </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Failed to have regard to the period of amicable negotiations between the Respondent and the Appellant from December 2022 regarding the method by which the warrant card could be safely returned. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The marked change in tone in the correspondence of 11 April 2023 which included the conditional threat to make a theft report. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">c.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Whilst entitled to observe there was an absence of comparator evidence, failed to consider that at the date of the application limited information was available to the Appellant as there had been no disclosure. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">d.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Applied too exacting a standard to this issue having regard to the fact that this was an in-time amendment application on a fact sensitive issue in relation to which there had been no disclosure. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(3)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">For the reasons set out in Grounds (1) and (2) the Tribunal failed to properly apply the </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Selkent</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> balancing exercise, as explained in </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Vaughan v Modality Partners</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> [2021] ICR 535 or reached a perverse conclusion.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The decision on an application to amend is a case-management decision which involves the exercise of a discretion and an overall balancing exercise between the prejudice or hardship to the applying party of refusing the application and the prejudice or hardship to the other party of granting it.  Such a decision can only be successfully appealed if the high threshold for a perversity challenge is met or the tribunal has made a principled error of law, failed to take into account a relevant consideration or taken account of an irrelevant consideration.  I do not need to repeat here the familiar guidance in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent v Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [1996] ICR 836, recently reviewed and restated in authorities such as </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Abercrombie v AGA Rangemaster Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2014] ICR 209, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Vaughan v Modality Partnership</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2021] ICR 535 and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Cox v Adecco UK Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2023] EAT 105, to which I cannot usefully add.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Murphy emphasised the point she took particularly from </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Abercrombie</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, that each such decision requires a careful consideration of the particular implications of either granting or refusing the amendment in the circumstances of that particular case.  So, she argued, the EAT should beware of laying down multiple principles that would unduly fetter the exercise of the discretion in each case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I agree.  Nevertheless, there are some basic guiding principles in the authorities concerning certain particular scenarios that regularly arise.  The authorities indicate, unsurprisingly, that where the tribunal properly concludes that the complaint sought to be added by amendment would clearly have no reasonable prospect of success, the application may be properly refused, as it would serve no purpose to allow a complaint to be added, that would then be susceptible to being immediately struck out.  However, in this case, it was not contended for the respondent that the tribunal had found that this proposed amended complaint fell into that category, nor that it would have been entitled to do so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Beyond that, there is no absolute rule against the tribunal weighing its assessment of the merits of the proposed new complaint into the balance, provided that it approaches that exercise with due caution.  This point was discussed in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Kumari v Greater Manchester Mental Health NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2022] EAT 132, where, after a review of the authorities, the EAT said at [88]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in;margin-right:0.59in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Our conclusion, then, is that no prior authority requires us to hold that it is, as a matter of law, necessarily wrong to do so.&#160; Once again, we do say that the employment tribunal should proceed with care and caution and, if it is relying on its general view of the strength of a proposed complaint as a point against granting the amendment, then it must identify a reasoned basis for doing so on which it is properly entitled to rely, bearing in mind that it does not have before it the full evidence that the tribunal would have at a full hearing, and the need to avoid becoming drawn in to conducting a mini-trial.&#160; But, if it reaches that view properly, then questions of weight and balance are then for it to decide, and the EAT can only intervene on grounds of perversity.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Kumari</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">was, however, a case where the complaint sought to be added by amendment would have been out of time, had it, when the amendment was sought, instead been raised in a fresh tribunal claim.  What is the position where, on the date when the application to amend a claim is made, a new claim raising that same complaint, had it been presented on the same date, would have been in time and would have had better than no reasonable prospect of success?  That scenario was considered by Soole J in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Gillet v Bridge 86 Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0051/17, during the course of the following passage, </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;25.</num>
+		  <content>
+		    <p class="text" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt;color:#000000">Whilst keeping that appellate restraint firmly in mind, I have concluded that in this case the discretion was exercised wrongly and that the amendment should have been allowed.&#160; In reaching this conclusion I do not accept Mr Gillie&#8217;s submission that the proposed amendment was a mere relabelling exercise.&#160; Whilst it included a claim of the same type (unfair dismissal) as had been withdrawn, it depended on critical new facts as to the statements (disclosures) made by Miss Gillett on 5 and 7 September 2015.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">26.</num>
+		  <content>
+		    <p class="text" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt;color:#000000">In addition, those statements were not already referred to at paragraph 15 of the existing ET3.&#160; Nor do I accept his submission that an Employment Judge considering an application to amend can only take account of the merits if she considers that the proposed new claim is bound to fail as a matter of law.&#160; Whether at the initial paper stage or at a hearing with representation from the parties, I consider that the Employment Tribunal must be entitled to consider whether the proposed claim has reasonable prospects of success.&#160; If a presented claim could be struck out on that basis, it would be inconsistent and anomalous if an application to amend could not be refused on the same basis.&#160; Nor do I accept that as a matter of principle the Employment Tribunal must never take account of its assessment of the merits of the claim.&#160;&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt;color:#000000">Selkent</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#160;refers to &#8220;</span><span style="font-style:italic;font-weight:bold;font-size:11pt;color:#000000">all the circumstances</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#8221;, and&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt;color:#000000">Olayemi</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#160;is an example where the prospects of success &#8220;</span><span style="font-style:italic;font-weight:bold;font-size:11pt;color:#000000">did not appear good</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#8221; and were taken into account.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">27.</num>
+		  <content>
+		    <p class="text" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt;color:#000000">Furthermore, and consistent with the Employment Tribunal&#8217;s powers under Rule 39, I can see no reason why the Tribunal could not require a Deposit Order as a condition of permission to add a claim that it considers to have &#8220;little reasonable prospects of success&#8221;.&#160; If and to the extent that HHJ McMullen QC&#8217;s observations in&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt;color:#000000">Woodhouse</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#160;support a bar against the consideration of merits, save where the proposed new claim is &#8220;obviously hopeless&#8221;, I respectfully disagree.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">28.</num>
+		  <content>
+		    <p class="text" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt;color:#000000">All that said, I find it difficult to concede a case where a pessimistic view on merits falling short of &#8220;no reasonable prospects of success&#8221; could provide support for the refusal of an amendment application that has been brought in time, for if the Claimant had taken the alternative course of issuing a fresh claim within the relevant time limit the Employment Tribunal would not be entitled to strike out the claim.&#160; At most there could be a Deposit Order under Rule 39.&#160; If the practice on amendment were otherwise, a Claimant would have to take the alternative course - inconvenient and costly for the parties and the Tribunal - of issuing a fresh claim and applying to have it managed and heard with the existing claim.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">29.</num>
+		  <content>
+		    <p class="text" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt;color:#000000">This leads to the weight to be given to the fact that an application to amend is made in time.&#160; I accept of course that factor may not be decisive.&#160; However, it must be a factor of considerable weight, as Employment Judge Wallis acknowledged when identifying it as an &#8220;</span><span style="font-style:italic;font-weight:bold;font-size:11pt;color:#000000">important factor</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#8221;.&#160; This factor is relevant to the&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt;color:#000000">Selkent</span><span style="font-weight:bold;font-size:11pt;color:#000000">&#160;balance of hardship and injustice.&#160; The Judge concluded that the Respondent would suffer some hardship and injustice if required to deal with the new claim.&#160; However, the Respondent would have been in just the same position if the Appellant had taken the alternative course on 18 July 2016 of issuing a fresh claim.&#160; Once again, the logic of this conclusion would require a Claimant to take that course rather than to make a timely application to amend.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I note two particular points.  First, Soole J did not go so far as to say that when the complaint would, as a freestanding claim, be in time, it is impermissible for the tribunal ever to have regard to the merits short of no reasonable prospect of success as counting against the applicant; although he found it hard to conceive of a case where that aspect could support the refusal of the amendment.  Ms Leonard invited me to go further and to hold that in a case where the application to amend is made at a time when a freestanding complaint would have been in time, and relates to a proposed complaint that is not considered to have no reasonable prospect of success, then it would always be an error to have </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">any</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> regard to its merits in carrying out the balancing exercise.  Ms Murphy contended that this argument went beyond the scope of the grounds of the appeal and was, in any event, wrong.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not think the point is beyond the scope of the grounds of the appeal, as it could be seen as falling under the umbrella of ground 2(d), which contends that the tribunal imposed too exacting a standard.  But my reaction to the point is essentially the same as that of Soole J.  I am inclined to think that this is one of those instances where the appellate court&#8217;s stance should be, &#8220;Never say never&#8221;.  But, in any event, as will become apparent, the outcome of this particular appeal does not turn on this point, so I do not have to come to a decided view.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A distinct point alluded to in that passage from </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Gillet v Bridge</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is that it might be thought practically unattractive to compel a claimant, in effect, to have to bring a fresh claim rather than apply to amend, in respect of a timely and ostensibly arguable additional complaint, particularly bearing in mind that, although the amendment application might be made within the limitation period, a claimant cannot control when it is adjudicated, which may well occur only after limitation has expired.  Nevertheless, there may be cases where the tribunal may properly conclude that, because, for example, the application has been made at a very late stage of the existing claim&#8217;s progress to trial, the impact of adding the new complaint to the existing claim would be so disruptive to its efficient and expeditious resolution, that this justifies refusing the amendment application.  (See, for an example of this, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Patka v British Broadcasting Corporation</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">UKEAT/0190/17/DM at [39].)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I turn then to the particular grounds of appeal.  Considering each of the elements of a complaint of victimisation in section 27 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Equality Act 2010</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, there was and is no dispute that, in presenting her employment tribunal claim on 18 February 2023, the claimant did a protected act.  What the grounds of appeal challenge at their heart is the tribunal&#8217;s approach to the assessment of the merits of her proposed victimisation complaint, with respect to the question of whether the two emails at issue amounted to subjecting her to a detriment, and the question of whether, if so, that was in the requisite sense because she had done that protected act.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1(a) contends that the tribunal made an error of law in its approach to the legal concept of subjecting a person to a detriment as a component of a complaint of victimisation.  The legally correct approach to this concept is well established and generally taken from </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Shamoon v Chief Constable of the Royal Ulster Constabulary</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2003] ICR 337 HL at [35]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold">&#8220;Is the treatment of such a kind that a reasonable worker would or might take the view that in all the circumstances it was to his detriment?&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This is what may be described as a mixed subjective and objective test.  It:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold">&#8220;... must be applied by considering the issue from the point of view of the victim.  If the victim&#8217;s opinion that the treatment was to his or her detriment is a reasonable one to hold, that ought, in my opinion to suffice.&#8221; (</span><span style="font-style:italic;font-weight:bold">per</span><span style="font-weight:bold"> Lord Scott in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Shamoon</span><span style="font-weight:bold"> at [105])</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Warburton v Chief Constable of Northamptonshire Police</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2022] EAT 42, Griffiths J emphasised that the test is therefore framed by reference to what a reasonable worker would or might think, regardless of whether other views might reasonably be held; and, consequently, that the threshold is a low one.  See [49] to [51], where the point is also made that it is not necessary to establish any physical or economic consequence of the treatment to show detriment.  </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah v The Medical Research Council</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">[2022] EAT 45 emphasises that if the tribunal accepts that the claimant&#8217;s subjective stated view and reaction was genuinely and reasonably held, that will be sufficient; there is no need for it to be corroborated, for example by medical evidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Chief Constable of the West Yorkshire Police v Khan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2001] UKHL 48; [2001] ICR 1065 the House of Lords contemplated that there might be a defence to a victimisation claim, that the respondent had taken honest and reasonable steps in the conduct of litigation.  In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">St Helens Borough Council v Derbyshire</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2007] UKHL 16; [2017] ICR 1694, the House of Lords clarified that there is no such defence, as such, but that where a respondent could be said to have taken reasonable steps of that kind in that context, that would be pertinent to the question of whether the claimant could have reasonably considered such conduct to amount to a detriment.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Murphy submitted that in the present case the tribunal did not actually decide that the claimant had not suffered what amounted to a detriment.  Rather, while recognising that the proposed new complaint had been raised at a time when it would have been in time as a separate claim, as it was still entitled to do, it evaluated the merits of it and properly concluded that these were weak.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have indicated, I proceed, following </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Gillett</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, on the basis that the timeliness of the complaint did not entirely preclude the tribunal from considering the merits.  I agree with Ms Murphy that it did not determine definitively that the conduct complained of did not amount to the subjection of the claimant to a detriment.  But in weighing the merits of that issue the tribunal was required to use as its yardstick a correct underlying approach to the law.  I note in this regard that there was no citation of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Shamoon</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> or any other relevant authority, nor did the tribunal set out what it understood to be the relevant test.  That would not matter if its reasoning nevertheless demonstrated that the correct approach had been taken.  In considering that, I bear in mind that the concept of detriment in this context is mainstream legal territory for tribunals; and the EAT should not be over-exacting when considering the tribunal&#8217;s language.  However, in this case, the following concerns arise. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, while the tribunal referred, at [27], to how the claimant reacted to the content of the emails as amounting to an accusation of theft, it then stated the tribunal&#8217;s own view of their content.  In her original application to amend, the claimant had referred to the emails as &#8220;intimidation&#8221; and to the effect that this had on her mental health and to the fear that she experienced of a false theft report being issued, in terms of the impact on her reputation, given her record as a law-abiding person.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal does not suggest that it considered that there was any reason to doubt that this was how she viewed and reacted to these emails; but it did not consider or evaluate her case that that was a view that was reasonably open to her.  Similarly, at [28] and [29], the tribunal stated that the respondent was entitled to be concerned about the warrant card&#8217;s whereabouts and to get it back, and referred to the claimant&#8217;s position being that the allegations had been damaging to her; but, again, it does not appear to have evaluated her case that this view on her part was reasonably held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further on, the tribunal did refer to whether the claimant had &#8220;an unjustified sense of grievance&#8221; which I would infer was a reference to the way that authorities such as </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Shamoon</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> discuss the test.  However, the tribunal was, at that point, in paragraph [32], discussing how counsel who appeared for the respondent at that hearing put the case for it.  The tribunal&#8217;s response at paragraph [33] was that an honest and reasonable email might well fall within </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Khan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, but that it was the claimant&#8217;s case that the respondent&#8217;s actions were &#8220;false/fraudulent&#8221;; and that if she could prove </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">that</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, then that could amount to victimisation in the conduct of the litigation.  Ms Murphy submitted that this was indeed the language in which the claimant had expressed her amendment application. But it would not, I think, be right to say that she would have to secure a finding that the respondent&#8217;s actions were fraudulent, in order to succeed in a complaint that these emails were reasonably perceived as subjecting her to a detriment, nor indeed that they were because of her protected act.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ultimately, reading these passages together, fairly and as a whole, it appears to me that the tribunal&#8217;s conclusion on this aspect rested on its own views, particularly as expressed at [34], that the respondent had the right to be concerned about recovering the warrant card, and that the mention of a theft report was not the same as an accusation of theft.  What it does not appear to have considered was the strength of the claimant&#8217;s case that she reasonably found these emails, which, however couched, raised for the first time the possibility of a theft report, to be alarming and distressing.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have reflected on whether I am being over-analytical or over-harsh in my reading of these passages; but in the absence of a specific and correct self-direction as to the underlying law, these passages together lead me to the conclusion that the tribunal did take the wrong approach in assessing the prospects of success of the claimant&#8217;s case on detriment, because it focused too much on its own assessment of the content of the emails, and the respondent&#8217;s legitimate concerns, rather than the claimant&#8217;s case that her subjective perception was reasonably held.  The tribunal therefore made a principled error of law when evaluating the merits of the proposed new complaint on the question of detrimental treatment.  Ground 1 therefore succeeds.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2 concerns the tribunal&#8217;s approach to the prospects of success on the issue &#8211; referred to as the causation issue &#8211; of whether the emails at issue were because of her protected act.  Again, the legal test is well established.  It is sufficient if a protected act, consciously or unconsciously, materially influenced the conduct in question.  The issue in this case is whether the tribunal erred in assessing the merits of the proposed complaint on this point, by making a principled error with respect to the underlying test or failing to take into account relevant considerations.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Once again, the tribunal does not refer anywhere in its decision to the underlying legal test.  Once again, that does not, by itself, mean that it erred in its substantive reasoning, and I bear in mind that this is, again, mainstream and well-established law.  However, it is of concern that the tribunal, at [34], referred to the issue as being whether the conduct that the claimant sought to complain of was motivated by her having brought legal proceedings &#8220;as opposed to&#8221; a simple desire to recover the warrant card.  That tends to suggest that the tribunal approached the matter as giving rise to a binary issue &#8211; that either it was one or it was the other &#8211; rather than considering the merits of the contention that these emails represented an escalation of the respondent&#8217;s efforts to get the warrant card back, which escalation was materially influenced by the claimant having brought her tribunal claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Again, the tribunal, at [35], formulated the issue, in binary terms, as being whether, at a trial, the tribunal would be able to conclude that these emails were sent because she had brought a discrimination claim &#8220;not because&#8221; they wished to recover the warrant card.  Given both of those passages, and in the absence of a specific and correct self-direction as to the law, I am left with a concern that the tribunal took the wrong approach to the underlying test.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Against that background, I turn to the particular aspects raised by this ground.  The first two form a pair.  It is contended that the tribunal failed to have regard, first, to the fact that there had been amicable exchanges in which the claimant had indicated her willingness to return the warrant card and the issue was simply how, practically, that was to be done; and, secondly to the consideration that the emails of 11 April and 11 May 2023 reflected a marked change of tone, by raising, for the first time, the prospect of a theft report.  Ms Leonard argued that the tribunal failed to consider whether, having regard also to the timing of the emails, relative to the presentation of the tribunal claim, this change of tone could be said at least to have called for some explanation from the respondent.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Murphy contended that the tribunal plainly had considered all of this material.  Further, the fact that there had been prior communications about the return of the warrant card could potentially be seen as supporting either side&#8217;s case, having regard, for example, to the claimant&#8217;s unresponsiveness to Sgt Harrison&#8217;s WhatsApp message in late March.  She submitted that the tribunal had specifically considered the tone of the emails at paragraph [27].  She submitted that what weight to attach to these features was a matter for the tribunal, and the EAT could not and should not interfere.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, in addition to the passages in which the tribunal appeared to treat the causation question as involving a binary, mutually exclusive, choice, I am troubled also by the emphatic nature of the tribunal&#8217;s own reading of the raising of the theft report scenario as essentially innocuous.  On any real world view, it is difficult not to see the raising of the possibility of a theft report in the 11 April email, and the repetition of that scenario in the 11 May email, however carefully worded, as representing an escalation on the part of the respondent.  It seems to me that the real issue at trial, if the amendment were allowed, would not be whether that was an escalation, but </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">why </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">that escalation happened and whether the issuing of the tribunal claim had at least materially influenced it.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Plainly, the respondent&#8217;s case was that this escalation was simply a response to the claimant&#8217;s inaction following the most recent WhatsApp message, and Sgt Harrison&#8217;s colleagues not being content to let the matter continue to drift.  But if it was to enter into the delicate territory of weighing the potential merits of the proposed complaint, the tribunal needed to consider and weigh also the claimant&#8217;s case, having regard to the timing and nature of this development, that it had been at least materially influenced by her starting her claim.  The tribunal does not appear to have done so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The third strand of this ground relates to the tribunal&#8217;s observation that there was a lack of comparator evidence.  The definition of victimisation does not require an actual or hypothetical comparator, but the ground does not contend that the tribunal erred by supposing that it did, nor do I take that view.  Rather, it appears to me that the tribunal&#8217;s point was that the claimant was not seeking to rely upon what might be called an evidential comparator, and that, if she had been able to point to one, that would have made her case potentially stronger.  Ms Leonard argued that it was nevertheless wrong to attach weight to the absence of that, when disclosure had yet to take place.  But I do not think it was an error of law, as such, simply to point out the absence of that feature, as matters stood.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The fourth strand of this ground contends that the tribunal applied too exacting a standard, given that this was an in-time application and disclosure had yet to take place.  Ms Murphy submits that the tribunal plainly would have appreciated that there had been no general disclosure as yet, and plainly there could have been none yet, of any material that might need to be disclosed, relating to these particular post-termination emails if they did become part of the claim by amendment.  The tribunal, she suggested, also alluded to the point about disclosure in the course of [35].  I agree with those points.  However, I consider that this strand of the ground has more force on the point of the tribunal having applied too exacting a legal standard, in particular, for reasons I have already discussed, at [35] in the way that it characterised what would have to be shown by the claimant for the complaint to succeed, or to shift the burden to the respondent to explain this conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Murphy also relied on paragraph [36] in which the tribunal referred at the end to allowing an amendment unnecessarily complicating the conduct of the claim and taking away from the core issues.  She acknowledged Ms Leonard&#8217;s point that [36] was largely about the further application to add Gowling as a respondent.  But she submitted that these closing observations were directed more generally to the proposed new complaint against the respondent itself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not agree with that reading.  The whole of [36], after the opening words indicating that the tribunal would allow the amendment that is the subject of this appeal, was concerned with the further application to add Gowling as a respondent.  It is in relation to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">that</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> proposed amendment that the tribunal stated that there were &#8220;all the more reasons&#8221; not to allow it; and it was following observations about the difficult questions of legal professional privilege and the potential need for separate representation, that allowing </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">that</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> amendment would cause, that the tribunal stated that this would unnecessarily complicate the conduct of the claim.  It is those features &#8211; separate representation and privilege issues &#8211; to which I read the tribunal as referring in that final sentence, which were peculiar to that particular proposed amendment relating to Gowling.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I cannot see any sign that the tribunal considered that the amendment at issue in this appeal would give rise to other significant complicating features, or might derail or upset the efficient progress and resolution of the existing claim, were it to be allowed.  That is perhaps not surprising, given the relatively early stage in the litigation at which the amendment was being considered, which was, essentially, not much further on than close of pleadings.  Ms Murphy told me that at the same hearing the tribunal did set a trial date, but she understood that that was September 2025.  In all events here is no sign that the present tribunal viewed this as being a destabilising late-stage application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Standing back, applying the approach in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Gillett v Bridge</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, having regard to the passages in which the tribunal appeared to approach causation as a binary issue, and the firmness of its own expressions of view, I conclude that the tribunal did apply too exacting a legal test to the causation question and made a principled error of law in that regard.  For this reason, ground 2 succeeds. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Although Ms Leonard sought to advance some further arguments under its umbrella, ground 3 adds nothing of substance to grounds 1 and 2.  But because grounds 1 and 2 have succeeded, the appeal also succeeds.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ListParagraph" style="text-align:center"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">After Further Argument</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have heard further submissions from counsel as to what specific order I should make.  It is common ground that I must quash the tribunal&#8217;s decision refusing the amendment, and that decision falls to be taken again.  The issue is whether it can or should be retaken by me.  The guidance in the authorities, in particular </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Jafri v Lincoln College</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2014] EWCA Civ 449; [2014] ICR 920, is clear.  The EAT cannot substitute its own decision unless it has all the material available to it to enable it to decide.  Even then, it can only do so either if it can say that, on a correct application of the law, only one right answer is possible, or if the parties consent to its taking the decision afresh in the tribunal&#8217;s shoes, exercising its power under section 35(1) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Employment Tribunals Act 1996</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That said, Underhill LJ in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Jafri</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">observed that, on the question of whether more than one answer is realistically possible, there are plenty of examples of a robust view being taken.  I was also referred to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#000000">Kuznetsov v The Royal Bank of Scotland Plc</span><span style="font-style:italic;font-size:12pt;color:#000000"> </span><span style="font-size:12pt;color:#000000">[2017] EWCA Civ 43, in which Elias LJ (Lewison LJ concurring), observed that the difficulty of the EAT not having all the material it needs is not normally an issue in a case where what has been appealed is a case management order.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">  Ms Murphy did not contend that this was a case where I was not in a position to take the decision, but she did not accept that only one right answer was possible; and she was without any instruction that would have enabled her to consent on her client&#8217;s behalf to my re-taking the decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I consider that, on all the material which was available to the tribunal, and is available also to me, there is, taking a correct approach to the law, only one right answer, which is to allow this application to amend.  I say that having regard to the features that: this was a timely application; it was not, and could not be, said to be a proposed complaint that had no reasonable prospect of success; in line with that, the claimant has a plainly arguable case that this conduct was reasonably perceived by her as detrimental treatment; she also has an at least arguable case on the causation point, having regard to the timing of the emails relative to the commencement of her claim and the raising for the first time of the possibility of her being reported for theft.  It also does not appear that adding this complaint will significantly disrupt the progress of the claim.  It seems to me that the additional disclosure and obtaining any additional witness evidence on this relatively narrow issue should be able to be addressed in time for a trial in September 2025.  The contrary was not suggested to me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Having regard to all of that, I conclude that the balance is overwhelmingly in favour of the amendment being granted, and so I take that decision, standing in the shoes of the tribunal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As both counsel agreed, the respondent will still be entitled, if it wishes, when the matter returns to the tribunal, to pursue its application for a deposit on the basis that this new complaint has little reasonable prospect of success, which is something on which I have not had to take a view.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

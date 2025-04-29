@@ -1,0 +1,931 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2025/68"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2025/68"/>
+	  <FRBRdate date="2025-02-15" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="68"/>
+	  <FRBRname value="Cardiff Council v X &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/68"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/68"/>
+	  <FRBRdate date="2025-02-15" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/68/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/68/data.xml"/>
+	  <FRBRdate date="2025-03-17T14:09:15" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-15" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-aac" href="https://www.gov.uk/courts-tribunals/upper-tribunal-administrative-appeals-chamber" showAs="United Kingdom Upper Tribunal (Administrative Appeals Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-AAC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>68</uk:number>
+	<uk:cite>[2025] UKUT 68 (AAC)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>398ea998db2a7ff11aaf400f78df02146a39f616aba986f538ab58a5076e82b1</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-size: 12pt; }
+#judgment .Heading2 { text-align: center; font-weight: bold; font-size: 12pt; }
+#judgment .Level1 { text-align: justify; margin-left: 0.49in; font-family: Arial; font-size: 10.5pt; }
+#judgment .Level2 { text-align: justify; margin-left: 0.49in; font-family: Arial; font-size: 10.5pt; }
+#judgment .Level3 { text-align: justify; margin-left: 0.98in; font-family: Arial; font-size: 10.5pt; }
+#judgment .Level4 { text-align: justify; margin-left: 1.48in; font-family: Arial; font-size: 10.5pt; }
+#judgment .Level5 { text-align: justify; margin-left: 1.97in; font-family: Arial; font-size: 10.5pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legdslegrhslegp3text { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .legrepeal { }
+#judgment .legchangedelimiter { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .legsubstitution { }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="Heading1"><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p class="Heading1"><span style="font-family:Arial">IN THE UPPER TRIBUNAL                       Appeal No UA-2024-001734-HSW</span></p>
+      <p class="Heading1"><span style="font-family:Arial">ADMINISTRATIVE APPEALS CHAMBER               </span><neutralCitation style="font-family:Arial">[2025] UKUT 068 (AAC)</neutralCitation></p>
+      <p class="Heading1"><span style="font-family:Arial">ON APPEAL FROM THE EDUCATION TRIBUNAL FOR WALES</span></p>
+      <p class="Heading1"><span style="font-family:Arial">Dated: 15 February 2025</span></p>
+      <p class="Heading1"><span style="font-family:Arial">Before:</span></p>
+      <p class="Heading1"><span style="font-family:Arial">The Rt Hon Sir Gary Hickinbottom </span><marker name="tab"/><span style="font-family:Arial">Judge of the Upper Tribunal</span></p>
+      <p style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;font-family:Arial">Appellant:</span><marker name="tab"/><span style="font-family:Arial">Cardiff Council</span></p>
+      <p style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;font-family:Arial">Respondent</span><span style="font-family:Arial">s:</span><marker name="tab"/><span style="font-family:Arial">Mr &amp; Mrs X (Parents of X)</span></p>
+      <p><span style="font-weight:bold;font-family:Arial">Heard at:</span><marker name="tab"/><span style="font-family:Arial">Cardiff (Cardiff Civil Justice Centre)</span></p>
+      <p><span style="font-weight:bold;font-family:Arial">Attendance</span></p>
+      <p><span style="font-weight:bold;font-family:Arial">For the Appellant:</span><marker name="tab"/><span style="font-family:Arial">Laura Shepherd of Counsel</span></p>
+      <p><span style="font-weight:bold;font-family:Arial">For the Respondents: </span><span style="font-family:Arial">John Friel and Matthew Wyard of Counsel </span></p>
+      <p><span style="font-weight:bold;font-family:Arial">Date of hearing</span><span style="font-family:Arial">:</span><marker name="tab"/><span style="font-family:Arial">7 February 2025</span></p>
+      <p><span style="font-weight:bold;font-family:Arial">Date of decision:</span><marker name="tab"/><span style="font-family:Arial">15 February 2025</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial">DECISION OF THE ADMINISTRATIVE APPEALS CHAMBER </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial">OF THE UPPER TRIBUNAL</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:Arial">On Ground 1:</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:Arial">(i)</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">the appeal is allowed;</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:Arial">(ii)</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:Arial">the Decision of the Education Tribunal for Wales dated 10 October 2024 is quashed</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> </span><span class="legrepeal" style="font-weight:bold;font-family:Arial;color:#1E1E1E">insofar as School A is named in Section 2D of the Individual Development Plan, otherwise that Decision shall stand; </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:Arial;color:#1E1E1E">(iii)</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.23in"><span style="font-weight:bold;font-family:Arial">the case shall be remitted to the Education Tribunal for Wales for </span><span class="legrepeal" style="font-weight:bold;font-family:Arial;color:#1E1E1E">reconsideration and determination by a differently constituted panel of the issue of whether Section 2D of X&#8217;s Individual Development Plan should name a maintained school for the purpose of securing X&#8217;s admission to that school because the conditions set out in section 48 of the Additional Learning Needs and Education Tribunal (Wales) Act 2018 have been met; and, if so, which school should be named; and</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:Arial;color:#1E1E1E">(iv)</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span class="legrepeal" style="font-weight:bold;font-family:Arial;color:#1E1E1E">this case shall immediately be referred to the President of the ETW with a request that she gives directions so that the re-hearing of Mr &amp; Mrs X&#8217;s appeal on this issue can be expedited.  </span></p>
+      </blockContainer>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:Arial">On Ground 2, permission to appeal is refused.</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Subject Matter</span></p>
+      <p style="text-align:justify"><span style="font-family:Arial">Parental choice of school for a child with Additional Learning Needs in Wales &#8211; the proper approach to specifying a school in an Individual Development Plan under section 48 of the Additional Learning Needs and Education Tribunal (Wales) Act 2018, and the extent to which that approach is informed by section 9 of the Education Act 1996.</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Cases referred to</span></p>
+      <p style="text-align:justify"><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Watt v Kesteven County Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [1955] 1 QB 408</span></p>
+      <p style="text-align:justify"><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Richardson v Solihull Metropolitan Borough Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [1998] ELR 319</span></p>
+      <p style="text-align:justify"><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">C v Buckinghamshire County Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [1998] ELR 463 (QBD) and [1999] ELR 179 (CA)</span></p>
+      <p style="text-align:justify"><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM v London Borough of Croydon</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [2010] UKUT 205 (AAC)</span></p>
+      <p style="text-align:justify"><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Dudley Metropolitan Borough Council v Shurvinton</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [2012] EWCA Civ 346; [2012] PTSR 1393</span></p>
+      <p style="text-align:justify"><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Haining v Warrington Borough Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [2014] EWCA Civ 398: [2024] PTSR 811</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:Arial">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">To ensure the rights and interests of X are protected, this Decision has been anonymised; and no report of this case shall be made that, directly or indirectly, may lead to the identification of X.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:Arial">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">This is an appeal from the decision of the Education Tribunal for Wales (&#8220;the ETW&#8221;) (Judge Kelly Byrne, Specialist Member Catrin Lewis and Specialist Member Rhys Parri, &#8220;the ETW Panel&#8221;) dated 10 September 2024 allowing the appeal of the Respondents (Mr &amp; Mrs X, the parents of X) against the decision of the Appellant local authority (&#8220;the Council&#8221;) to issue an Individual Development Plan (&#8220;IDP&#8221;) in relation to X&#8217;s Additional Learning Needs (&#8220;ALN&#8221;) in the terms that it did.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:Arial">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">In particular, the Council seeks to appeal against the decision of the ETW Panel (i) to name School A in Section 2D of the IDP to secure X&#8217;s admission to that school (Ground 1), and (ii) to determine that X&#8217;s ALN required 27.5 hours of one-to-one Teaching Assistant (&#8220;TA&#8221;) support per week and specify that requirement in Section 2B of the IDP (Ground 2).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:Arial">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">On 26 November 2024, the President of the ETW gave permission to appeal in respect of Ground 1, but refused permission in respect of Ground 2 (and other grounds, no longer pursued).  The Council renewed its application for permission to appeal in respect of Ground 2; and, on 30 December 2024, I directed that that application (and, if granted, the subsequent appeal on that ground) be heard at the same time as the appeal in respect of Ground 1.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:Arial">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">At the hearing, Laura Shepherd of Counsel appeared for the Council, and John Friel and Matthew Wyard, both of Counsel, appeared for Mr &amp; Mrs X.  I thank them all for their assistance.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Relevant Legislation: Background</span></heading>
+	  <paragraph eId="para_6">
+	    <num style="font-family:Arial">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">References in this Decision to statutory provisions are to the Additional Learning Needs and Education Tribunal (Wales) Act 2018 (&#8220;the 2018 Act&#8221;), unless otherwise appears. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:Arial">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Although some provisions of the Education Act 1996 (&#8220;the 1996 Act&#8221;) remain in place, since 23 August 2022, the regime governing the identification of, and provision for, children with ALN in Wales is primarily set out in the 2018 Act and the Additional Learning Needs Code for Wales 2021 (&#8220;the ALN Code&#8221;) made by the Welsh Ministers under section 4(1).  When exercising functions under the 2018 Act, local authorities must have regard to the ALN Code (section 4(3)(a)).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:Arial">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Under the 2018 Act, a person has ALN &#8220;if he or she has a learning difficulty or disability (whether the learning difficulty or disability arises from a medical condition or not) which calls for additional learning provision&#8221; (section 2(1)); and a child of school age has &#8220;a learning difficulty or disability if he or she either (a) has a significantly greater difficulty in learning than the majority of others of the same age, or (b) has a disability for the purposes of the Equality Act 2010 which prevents or hinders him or her from making use of facilities for education&#8230; of a kind generally provided for others of the same age in mainstream maintained schools&#8230;&#8221; (section 2(2)).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:Arial">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">A local authority must decide if a child has ALN where it comes to its attention or appears to it that that child may do so (section 13).  If it decides that the child does have ALN, then it must prepare and maintain an IDP for that child (section 14(1)(a) and (2)(a)), which is a document which must include (i) a description of the child&#8217;s ALN, and (ii) a description of the additional learning provision which the child&#8217;s learning difficulty or disability calls for (section 10(a) and (b)).  &#8220;Additional learning provision&#8221; (&#8220;ALP&#8221;) means &#8220;&#8230; educational&#8230; provision that is additional to, or different from, that made generally for others of the same age in&#8230; mainstream maintained schools in Wales&#8230;&#8221; (section 3(1)(a)).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:Arial">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Paragraph 23.5 of the ALN Code requires an IDP to be in the standard form at Annex A of the Code, which has ten parts.  The material sections for the purposes of this appeal are in Part 2, namely Section 2B (description and delivery of the child&#8217;s ALP) and Section 2D (places at a named school/institution or board/lodging).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Relevant Legislation: Places at a Named School</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:Arial">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Before looking at the 2018 Act in respect of places at a named school, it is necessary to consider provisions in the 1996 Act, some of which have been repealed but others remain in force in Wales.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:Arial">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Section 9 of the 1996 Act (which materially replicated its predecessor, section 76 of the Education Act 1944, and which remains in force in Wales) provides (so far as relevant):</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span style="font-family:Arial">&#8220;In exercising or performing all their respective powers and duties under the Education Acts,&#8230; local authorities shall have regard to the general principle that pupils are to be educated in accordance with the wishes of their parents, so far as that is compatible with the provision of efficient instruction and training and the avoidance of unreasonable public expenditure.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">References in this Decision to &#8220;section 9&#8221; are to section 9 of the 1996 Act, unless otherwise appears.  I shall refer to the proviso in section 9, &#8220;so far as that is compatible with the provision of efficient instruction and training and the avoidance of unreasonable public expenditure&#8221;, as &#8220;the section 9 proviso&#8221;.  For the purposes of section 9, the 2018 Act is an &#8220;Education Act&#8221; (section 578 of the 1996 Act as amended by section 101(2) of the 2018 Act).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:Arial">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Effect is given to this principle generally through section 86 of the School Standards and Framework Act 1998, headed &#8220;Parental preferences&#8221;, which also continues to apply in Wales.  That provides (so far as relevant):</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-family:Arial">&#8220;(1)</num>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-family:Arial">A local authority shall make arrangements for enabling the parent of a child in the area of the authority &#8211; </span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Arial">(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-family:Arial">to express a preference as to the school at which he wishes education to be provided for his child in the exercise of the authority&#8217;s functions, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Arial">(b)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-family:Arial">to give reasons for his preference.</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span style="font-family:Arial">&#8230;</span></p>
+		    </wrapUp>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:Arial">(2)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-family:Arial">Subject to subsection (3)&#8230;, the admission authority for a maintained school shall comply with any preference expressed in accordance with arrangements made under subsection (1).</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span style="font-family:Arial">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:Arial">(3)</num>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-family:Arial">The duty imposed by subsection (2) does not apply &#8211; </span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Arial">(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-family:Arial">if compliance with the preference would prejudice the provision of efficient education or the efficient use of resources;&#8230;</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span style="font-family:Arial">&#8230;</span></p>
+		    </wrapUp>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:Arial">(5)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-family:Arial">No prejudice shall be taken to arise for the purposes of subsection (3)(a) from the admission to a maintained school in a school year of a number of pupils in a relevant age group which does not exceed the number determined under section 88C or 89 as the number of pupils in that age group that it is intended to admit to the school in that year&#8230;&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:Arial">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Section 88C concerns admission arrangements in England, and is not relevant to this appeal.  Section 89, under the heading &#8220;Admission arrangements: Wales&#8221;, requires each local admission authority for a maintained school in Wales, before each school year and after prescribed consultation, to determine the admission arrangements for that year.  The Council is such an authority, and it publishes a policy document each year, which sets out both the procedure for applying to schools (including how parental preferences can be expressed) and the way in which the local authority will deal with such applications (&#8220;the Admissions Process&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:Arial">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Turning to particular educational needs, how these are dealt with under the 2018 Act is very different from the 1996 Act.  For the purposes of this appeal, it is unnecessary to consider all the differences between the schemes.  The focus can be firmly on the provisions for identifying and specifying a school to which a child who has particular educational needs must then be admitted.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:Arial">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Under the 1996 Act, following an assessment, a local authority is required to produce, and implement, a statement of special educational needs (&#8220;an SEN Statement&#8221;) which sets out both the needs and the special educational provision to be made for the purpose of meeting those needs (section 324 of the 1996 Act).  The differences between &#8220;special educational needs&#8221; under the 1996 Act and &#8220;additional learning needs&#8221; under the 2018 Act are not relevant for the purposes of this appeal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:Arial">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">Section 324(4)(a) of the 1996 Act requires a statement to </span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">specify the </span><span class="legrepeal" style="font-style:italic;font-family:Arial;color:#1E1E1E">type</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> of school the local</span><span class="legsubstitution" style="font-family:Arial;color:#1E1E1E"> authority</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#160;considered would be appropriate for the child.  As for the specification of a </span><span class="legrepeal" style="font-style:italic;font-family:Arial;color:#1E1E1E">particular</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> school, although a local authority has no absolute duty to name a school in a statement (</span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Richardson v Solihull Metropolitan Borough Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [1998] ELR 319 at page 327), the general rule is that parental choice of school will be determinative.  This is expressed in paragraph 3 of Schedule 27 to the 1996 Act, headed </span><span style="font-family:Arial">&#8220;Making and maintenance of Statements under Section 324&#8221;, which provides:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-family:Arial">&#8220;(1)</num>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-family:Arial">Every local authority shall make arrangements for enabling a parent &#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Arial;margin-left:1.18in">(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.38in"><span style="font-family:Arial">on whom a copy of a proposed statement has been served&#8230;.</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span style="font-family:Arial">&#8230; to express a preference as to the maintained school at which he wishes education to be provided for his child and to give reasons for his preference.</span></p>
+		    </wrapUp>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span style="font-family:Arial">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:Arial">(3)</num>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span style="font-family:Arial">Where a local authority make a statement in a case where the parent of the child concerned has expressed a preference in pursuance of such arrangements as the school at which he wishes education to be provided for his child, they shall specify the name of that school in the statement unless &#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Arial">(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-family:Arial">the school is unsuitable to the child&#8217;s age, ability or aptitude or to his special educational needs, or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Arial">(b)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span style="font-family:Arial">the attendance of the child at the school would be incompatible with the provision of efficient education for the children with whom he would be educated or the efficient use of resources.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">References in this Decision to &#8220;Schedule 27 paragraph 3&#8221; are to paragraph 3 of Schedule 27 to the 1996 Act.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:Arial">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In relation to putting into effect the principle set out in section 9, this provision is more specific than </span><span style="font-family:Arial">those deriving from the School Standards and Framework Act 1998 (see paragraph 12 above).  It provides </span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">a presumption that an authority will name a school in line with identified parental preference, unless one of the two exceptions, (a) or (b), apply.  The school named in an SEN Statement is required to admit the child (section 324(5)(b) of the 1996 Act).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:Arial">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The relationship between section 9 and Schedule 27 paragraph 3 has been considered in several cases to which I was referred.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:Arial">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Watt v Kesteven County Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [1955] 1 QB 408, it was contended that, by virtue of section 76 of the Education Act 1944 (the predecessor of section 9, and in similar terms), if a parent&#8217;s wishes are not incompatible with the matters set out in the section 9 proviso, then effect has to be given to those wishes.  That submission was, Parker LJ said (at page 429), &#8220;plainly wrong&#8221;.  Denning LJ, with whom Birkett LJ agreed, put it this way (at page 424):</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#8220;&#8230; I do not think that section 76 means that every parent has a right to choose any [school] he likes.  Section 76 does not say that pupils must in all cases be educated in accordance with the wishes of their parents.  It only lays down a general principle to which the county council must have regard.  This leaves it open to the county council to have regard to other things as well, and also to make exceptions to the general principle if it thinks fit to do so.  It cannot therefore be said that a county council is at fault simply because it does not see fit to comply with a parent&#8217;s wishes&#8230;&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:Arial">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">That passage has been quoted with approval in later cases (see, e.g., </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Haining v Warrington Borough Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [2014] EWCA Civ 398; [2014] PTSR 811 at [31]); and, in other cases, the same substantive formulation has been expressed in different words.  So, in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Dudley Metropolitan Borough Council v Shurvinton</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [2012] EWCA Civ 346; [2012] PTSR 1393 (&#8220;</span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Shurvinton</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#8221;) at [14], Davis LJ (with whom Lord Neuberger MR and Richards LJ agreed) said this of section 9:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#8220;</span><span style="font-family:Arial;color:#1E1E1E">It may be noted that although the section is headed &#8216;Pupils to be educated in accordance with parents&#8217; wishes&#8217; what the section actually provides, of course, is that the Secretary of State and local authorities are to &#8216;have regard to&#8217; the general principle there set out, so far as compatible with the matters there set out.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:Arial">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Section 9 is therefore conceptually quite different from Schedule 27 paragraph 3.  As succinctly put by Laws J in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">C v Buckinghamshire County Council</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [1998] ELR 463 at page 469 (expressly approved by the Court of Appeal on appeal: [1999] ELR 179 at page 186):</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.26in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#8220;The former [i.e. section 9] requires the local education authority only to have regard to the principle of parental choice.  But paragraph 3 of Schedule 27 requires the local education authority to give effect to parental choice, subject of course, to the important qualifications there stated.  The difference is very important.  Paragraph 3 of Schedule 27&#8230; has teeth which section 9 lacks.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Or, as Davis LJ said in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Shurvinton</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> (at [46]): &#8220;&#8230; The general principle set out in section 9 of the 1996 Act does not have primacy, as it were, over the specific provisions of paragraph 3 of Schedule 27&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:Arial">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Therefore, as the wording of the two provisions &#8211; confirmed in these authorities &#8211; makes clear, the difference between section 9 and Schedule 27 paragraph 3 is not simply one of specificity or rank: they have entirely different functions.  Section 9 requires a local authority to have regard to the general principle of parental choice: it concerns taking the general principle of parental choice into account as a part of </span><span class="legrepeal" style="font-style:italic;font-family:Arial;color:#1E1E1E">process</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">.  Schedule 27 paragraph 3, which puts the principle into practice, requires a local authority in a statement to specify the school of parental choice, unless the circumstances fall within the section 9 caveat: it therefore goes to, not process, but </span><span class="legrepeal" style="font-style:italic;font-family:Arial;color:#1E1E1E">outcome</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:Arial">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Following the implementation of the 2018 Act, section 9 was retained in Wales and, in terms of process, it is supported at high level by section 6 of the 2018 Act (</span><span style="font-family:Arial">which requires those exercising functions under Part 2 of that Act to have regard to, amongst other things, (i) the views, wishes and feelings of the child and the child&#8217;s parents, and (ii) the importance of the child and the child&#8217;s parents participating as fully as possible in decisions relating to the exercise of the function concerned) and sections 7 and 8 (which impose an express duty to have regard to the United Nations Convention on the Rights of the Child (&#8220;the UNCRC&#8221;) and the United Nations Convention on the Rights of Persons with Disabilities).  I was specifically referred to Articles 3(1) and 5 of the UNCRC, which require the best interests of the child to be a primary consideration in all actions concerning children, and an obligation on the state to respect the responsibilities, right and duties of parents and other persons legally responsible for a child.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:Arial">25.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">However, Schedule 27 </span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">paragraph 3, requiring an SEN Statement to name the school of parental preference except in two defined circumstances, was not retained in the 2018 Act scheme.  Generally, under the new scheme, schools cannot be named in an IDP.  The ALN Code identifies only two &#8220;specific circumstances&#8221; under the 2018 Act in which a school may be named in Section 2D of an IDP, namely:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">where the local authority is exercising its power under section 48 of the 2018 Act to name a maintained school for the purposes of securing the admission of the child to that school (paragraph 23.54-23.59 of the ALN Code); or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">if, pursuant to section 14(6) or 19(4) of the 2018 Act, the reasonable needs of a child cannot be met unless a local authority also secures provision for board and lodging and/or at a particular school or other institution (paragraphs 23.60-23.73 of the ALN Code).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Where neither circumstance exists, a school need not &#8211; indeed, cannot &#8211; be named in Section 2D of an IDP, and that section should be marked &#8220;not applicable&#8221; with the reason why (paragraph 23.53 of the ALN Code).  </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:Arial">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">It is common ground that (ii) does not apply in this case.  This case is concerned only with (i), i.e. section 48.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:Arial">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In Annex 3 to the Explanatory Memorandum to the 2018 Act, section 48 is noted as the equivalent of, but a &#8220;substantive change&#8221; to, Schedule 27 paragraph 3(3).  Section 48 provides (so far as relevant)</span><span class="legrepeal" style="font-family:Arial">:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#8220;(1)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Subsection (2) applies if a maintained school in Wales is named in an [IDP] prepared or maintained by a local authority for the purpose of securing admission of the child to the school.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(2)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The governing body of the school must admit the child.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(3)</num>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Before naming a school under this section, the local authority must consult &#8211; </span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">the governing body of the school, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">in the case of a maintained school where neither the local authority nor its governing body is the admissions authority for the school, the local authority for the area in which the school is located.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(4)</num>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.45in;text-indent:0.21in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">A local authority may only name a maintained school in an [IDP] for the purpose of securing admission of a child if &#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">the authority is satisfied that the child&#8217;s interest requires the [ALP] identified in his or her plan to be made at the school, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in;text-indent:0.32in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">it is appropriate for the child to be provided with education&#8230; at the school&#8230;&#8221;.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Arial">References in this Decision to &#8220;section 48&#8221; are to section 48 of the 2018 Act.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:Arial">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Paragraph 23.59 of the ALN Code sets out a non-exhaustive list of considerations which are said to be &#8220;likely to be relevant when considering whether to name a school&#8221; under section 48, namely:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial">&#8220;(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial">whether specific characteristics of the school make it especially good at securing the required ALP &#8211; this might include a variety of different matters, including the school&#8217;s physical characteristics;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial">whether the school has members of staff with specialist expertise or training;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial">(c)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial">whether the school has the required specialism in a low incidence provision, such as visual or hearing impairment; </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legrepeal" style="font-family:Arial">(d)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial">it would be unreasonable for a more local school to provide the child&#8217;s ALP&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ListParagraph" style="text-align:justify;margin-left:0in"><span class="legrepeal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">The Facts</span></heading>
+	  <paragraph eId="para_29">
+	    <num style="font-family:Arial">29.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">X has been diagnosed with dyslexia, dysgraphia and dyscalculia, with significant difficulties with working memory, processing speed and expressive language.  He has been identified by the Council as having ALN.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:Arial">30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">He is of an age at which he was due to transition into year 7 (i.e. from his primary school into a secondary school) in September 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:Arial">31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Various draft IDPs were produced in early 2023.  On 19 October 2023, Mr &amp; Mrs X, who did not agree with the IDP then proposed, requested the Council to reconsider it under section 27 of the 2018 Act.  They confirmed their parental preference for X to be educated at School C, an independent school in Cardiff, and they asked for this school to be named in Section 2D of the IDP.  Relying on a report of Patricia Kershaw, an Educational Psychologist, they also asked for Section 2B of the IDP to be changed to specify 27.5 hours of TA time per week.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:Arial">32.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Under the Council&#8217;s Admissions Process, the deadline for an application for a place for year 7 in September 2024 was 21 November 2023.  As Mr &amp; Mrs X had sought a reconsideration of the IDP, the Council&#8217;s Achievement Leader for Inclusion (Ms Cath Keegan-Smith) telephoned Mrs X to explain the reconsideration process (and how long it might take), and asked whether an application through the Admissions Process had been made in respect of X.  Mrs X said that she had not made, and would not be making, an application through that Process; and she would not be sending X to a &#8220;Cardiff school&#8221;, or any maintained school, as her two older children had been to School A and she was not happy with that experience.  In the event, Mr &amp; Mrs X did not make any application in that Admissions Process at that time.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:Arial">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">The final IDP was issued on 9 February 2024, in which the Council confirmed that, in its view, X&#8217;s ALP could be secured and delivered at any mainstream school in Cardiff and so it had not named any particular school in the IDP.  Nor did the IDP specify 27.5 hours of TA time.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:Arial">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Mr &amp; Mrs X appealed to the ETW in respect of Section 2B of the IDP (they appealed the failure to specify 27.5 hours of TA time per week) and Section 2D (they initially appealed the failure to name School C, an independent school, as the specified school: but, because Mr &amp; Mrs X had not secured a place at School C, they later amended their Case Statement so that School A, a maintained school, rather than School C was expressed to be the parental preference).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:Arial">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">The hearing of that appeal was fixed for 10 July 2024.  However, the hearing date was eventually vacated at the request of Mr &amp; Mrs X (i) to allow consultation with School C to take place, and (ii) because Ms Kershaw was unavailable on 10 July.  The hearing was refixed for 9 and then 10 September 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:Arial">36.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">In the meantime, on 17 May 2024, Mr &amp; Mrs X made an application for a place at a maintained school through the Council&#8217;s Admissions Team and under the Admissions Process, naming School A (6.1 miles from the home address) and School D (3.7 miles away) as their two parental preferences.  In a letter dated 12 June 2024, the Admissions Team confirmed that it was unable to offer X a place at either school.  Each was full, with a substantial waiting list.  It advised that there were available places at six secondary schools, the closest of those schools to X&#8217;s home being School B (1.9 miles, and therefore within walking distance).  School B confirmed that it had the facilities to meet X&#8217;s identified ALP.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:Arial">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">That 12 June 2024 letter enclosed details of how to appeal to the Independent School Admission Appeals Panel, with a deadline for an appeal of 26 June 2024.  On 20 June, and again on 27 June 2024, the Admissions Team emailed Mrs X with details of schools with places in year 7 for September 2024.  Mr &amp; Mrs X made no appeal, nor have they made any further application for a place at any maintained school.  Consequently, X did not obtain a place through the Admissions Process, nor was he placed on any waiting list for any school.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:Arial">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">On 6 September 2024, as a result of the consultation that had taken place, School C confirmed that it could not provide for X&#8217;s ALN.  Mr &amp; Mrs X therefore reverted their parental preference to School A and, as part of the appeal, asked for that school to be named in Section 2D of the IDP.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:Arial">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Following the hearing, on 10 October 2024, the ETW Panel issued a Decision allowing the appeal, and (i) requiring School A to be named in Section 2D of the IDP, and (ii) requiring Section 2B of the IDP to specify 27.5 hours of TA time per week.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:Arial">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Despite several applications to the ETW and this tribunal for a stay of that Decision pending appeal having been refused, the Council has not secured a place for X at School A.  Mr &amp; Mrs X have refused to accept the Council&#8217;s offer to place X in School B (or another school in Cardiff with places).  The unhappy result has been that X has been out of school since he left primary school in July 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:Arial">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">I now turn to the Council&#8217;s grounds of appeal.  It is convenient to deal with Ground 2 first.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ListParagraph" style="text-align:justify;margin-left:0in"><span class="legrepeal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">The Grounds of Appeal: Ground 2</span></heading>
+	  <paragraph eId="para_42">
+	    <num style="font-family:Arial">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">As her Ground 2, Ms Shepherd submitted that the ETW Panel erred in concluding that X requires 27.5 hours of TA support per week.  The Council requires permission to appeal on this ground, if it is to pursue it.  Permission will be granted only if the Council can show that the ETW Panel&#8217;s Decision arguably involved the making of an error on a point of law, i.e. that the ground of appeal is based on an error of law and has a realistic prospect of success.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:Arial">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The evidence upon which Mr &amp; Mrs X relied in relation to TA support was from an educational psychologist, Ms Patricia Kershaw.  In paragraph 13 of her Report dated 23 September 2023, she gave her opinion that 27.5 hours of TA time was required as part of X&#8217;s ALP, and she set out at some length the role of TAs she proposed.  In paragraphs 48-51 of her Report of 25 July 2024, she explained that that time was made up of 5.5 hours per day, which she considered appropriate and required by X in a mainstream classroom with a class size of 23.  She said that, in her opinion, if X were educated in a smaller secondary school environment with smaller class sizes, she &#8220;anticipated that a reduction in the suggested 27.5 hours [TA] time to 5 hours per week would be possible&#8221; (paragraph 51).  Ms Kershaw did not, in the event, give oral evidence and was therefore not cross-examined on her opinion.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:Arial">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The Council responded to her evidence in paragraph 33 of its Case Statement dated 15 May 2024 and paragraphs 9-12 of its Case Statement dated 19 June 2024.  The Council also called a specialist teacher to give evidence to the effect that she did not consider X required full-time one-to-one support as Ms Kershaw thought.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:Arial">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In her Ground 2, Ms Shepherd submitted that the ETW Panel placed too much weight on the (untested) evidence of Ms Kershaw and insufficient weight on the (tested) evidence of the specialist teacher &#8211; in particular, Ms Kershaw had failed to explain why the Council&#8217;s proposed model would not meet X&#8217;s ALN or specifically how 27.5 hours of one-to-one support would help X &#8220;access the curriculum&#8221;; and the Panel gave inadequate reasons for preferring the former to the latter.  It is also submitted that the ETW Panel wrongly proceeded on the basis that X was &#8220;not currently in education&#8221;, when he had been in education until the end of the 2023-24 school year and the 2024-25 school year had only started on 2 September 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:Arial">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The ETW Panel dealt with this issue, in some detail, in paragraphs 63-79 of their Decision.  They set out the relevant evidence, as they considered it to be, including that of Ms Kershaw and (albeit briefly) that of the specialist teacher.  The Panel said that the Council had not produced &#8220;equivalent expert evidence to challenge [the opinion of Ms Kershaw]&#8221;; which, without diminishing the experience and expertise of the specialist teacher, appears to have been a fair comment.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:Arial">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Following assessment findings from X&#8217;s primary school, Ms Kershaw set out in her evidence what functions she saw TAs performing and, in her professional opinion, as part of his ALP, that he required 27.5 hours of TA support.  It would no doubt have been better if Ms Kershaw had given oral evidence and had been open to cross-examination, but the weight given to evidence is quintessentially a matter for the Panel who no doubt took into account the fact that they only had Ms Kershaw&#8217;s written evidence.  Although I understand the Council does not agree with it, the weight the Panel gave to Ms Kershaw&#8217;s evidence and te specialist teacher&#8217;s evidence respectively was not arguably wrong in law.  The reasons given by the Panel were unarguably adequate: they preferred the evidence of Ms Kershaw (to which they referred) to the evidence (including that of the specialist teacher) which suggested a lower figure for TA support was required.  Nothing further, in terms of reasons, was needed.  The reference to X being out of school in September 2024 was true, albeit it had been, by that stage, only short in duration.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:Arial">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">This ground of appeal amounts to no more than a disagreement with the ETW Panel on a finding of fact which they could properly make on the evidence before them.  The contrary is unarguable.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:Arial">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">I refuse permission to appeal on this ground.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ListParagraph" style="text-align:justify;margin-left:0in"><span class="legrepeal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">The Grounds of Appeal: Ground 1</span></heading>
+	  <paragraph eId="para_50">
+	    <num style="font-family:Arial">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Although the sub-grounds address the issue from different angles (e.g. the ETW Panel misunderstood the Council&#8217;s case in respect of section 9, it failed to engage with the Council&#8217;s arguments and it gave inadequate reasons), the Council essentially relies on a single overarching basis of challenge in relation to Ground 1: the ETW Panel failed properly to construe and apply section 48. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:Arial">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The ETW Panel appear to have adopted the approach to the 2018 Act regime in Wales put forward by Mr Friel.  Whilst Mr Friel accepts that section 9 does not impose an absolute duty on an authority to specify in an IDP the school which is the parental preference, he submits that section 9 and parental preference is the starting point for, and focus of, the analysis under the 2018 Act.  Section 9 must be considered before section 48 is applied.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:Arial">52.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In support of that proposition, he relied on the following submissions.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Because the 2018 Act is an &#8220;Education Act&#8221; for the purposes of section 9 of the 1996 Act (see paragraph 12 above), local authorities must have regard to the general parental preference under section 9 when exercising any of its powers and duties.  In order to have regard to parental preference, the Council (and, on appeal, the ETW) must determine whether either of the exceptions to the general principle under section 9 applies before turning to the exercise of its powers under section 48.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Section 9 cannot be read in isolation: it must now be read with section 6 of the 2018 Act, which requires local authorities to have regard to the views, wishes and feelings of the child and the child&#8217;s parents; and, notably, the parental wishes in relation to the school in which the child&#8217;s education is to take place (see paragraph 24 above).  Because there is no express duty on a local authority to consider parental preference elsewhere, unless section 9 is considered first, parents have no opportunity to put forward their preference of school for the authority to consider.  In other words, contrary to the statutory requirements, parental choice is excluded from the section 48 analysis.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">If the 2018 Act is interpreted to restrict a parent&#8217;s ability to put forward a preference of school placement for their child, then it would fall foul of, not just the requirements of section 9 and section 6 of the 2018 Act, but also Article 5 of the UNCRC (again, see paragraph 24 above), and Article 2 Protocol 1 of the ECHR read with section 6 of the Human Rights Act 1998.  It must be construed so as to be consistent with those obligations on the state, i.e. in a way respecting parental choice of school.  The only way of doing that is to consider section 9 first, and then to perform the analysis required by section 48, through the prism of section 9, as the ETW Panel did.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(iv)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In considering section 9 in this context, the approach set out by this tribunal in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM v London Borough of Croydon</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> [2010] UKUT 205 (AAC) is well-established and correct.  In that Decision, Upper Tribunal Judge Levenson held that, where parents and a local authority disagree as to which school a child with special educational needs should go, three questions should be addressed by the authority or, in its shoes, the tribunal:</span></p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <paragraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">&#8220;(a)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Are both schools appropriate to meet the need?  A school that is not appropriate cannot be named.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">If they are both appropriate, which is the school preferred by the parents?  Unless (c) applies that school must be named.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(c)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.45in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Would naming the school preferred by the  parents be incompatible with the provision of efficient instruction and training or the avoidance of unreasonable public expenditure?  If so the school suggested by the local authority must be named.&#8221;</span></p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure>
+                </block>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">It is to be noted that, where there is at least one school appropriate to meet the relevant educational needs, this analysis always results in the naming of a school.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(v)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In this case, the ETW Panel expressly adopted that three-stage approach (in [131]-[144] of their Decision) &#8211; as Mr Friel submitted they were right to do &#8211; concluding that (i) the Council accepted that School A and School B were each appropriate to meet X&#8217;s ALN; (ii) the school of parental preference was School A; and (iii) School A would not fall within the section 9 proviso, i.e. it was not suggested that it was incompatible with the provision of efficient instruction and training, and, whilst School A would involve additional public expenditure, given the parental preference, the additional public expenditure would not be unreasonable.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(vi)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In the light of those findings, the ETW Panel then proceeded to consider section 48.  Mr Friel submitted that the ETW Panel properly performed the balancing act that section 48 requires through the prism of section 9; and the Panel were entitled to conclude, on the basis of that analysis, that X&#8217;s interests required the ALP identified in the IDP to be made at School A.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:Arial">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In the circumstances, Mr Friel submitted, this tribunal cannot properly interfere with that conclusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:Arial">54.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">However, I am unable to accept that that is the correct approach to section 48, for the following reasons.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">As described above, section 9 provides that, when exercising their functions under the Education Acts, </span><span style="font-family:Arial">relevant decision makers (including local authorities) must have regard</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> to the general principle </span><span style="font-family:Arial">that pupils are to be educated in accordance with the wishes of their parents.  The provision does not require an authority to comply with the wishes of the parents of every child so far as school choice is concerned &#8211; which, because of capacity issues alone, would be impossible &#8211; but the process by which places at maintained schools are allocated by a local authority must have built into it means by which parents can make their wishes in this regard known to the authority, and a mechanism by which those wishes are taken into account by the authority.  Similarly, the process must respect the views of the child and the child&#8217;s parents under section 6 of the 2018 Act, Articles 3 and 5 of the UNCRC, and Article 2 Protocol 1 of the ECHR.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">So far as children with special educational needs are concerned, the mechanism under the 1996 Act is &#8211; or, at least, includes &#8211; Schedule 27 paragraph 3.  That requires a local authority to place a pupil with special education needs in the school of their parents&#8217; expressed preference unless the case falls within the two prescribed exceptions.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.23in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The ETW Panel appear to have misunderstood the Council&#8217;s submissions in relation to section 9, suggesting that the Council submitted that &#8220;section 9 does not apply in this appeal as the duty previously under the Education Act 1996 Schedule 27 paragraph 3(3) to name a parents choice of school unless exception could be relied upon are just not persuasive&#8221;.  It was not the Council&#8217;s case that section 9 did not continue to apply in Wales; but, rather, that effect was not given to the general principle of parental preference through Schedule 27 paragraph 3.  Effect is given to section 9 by a combination of section 48 and the Admission Process made to satisfy the requirements of the School Standards and Framework Act 1998.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(iv)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Section 48 is narrower than Schedule 27 paragraph 3, in the sense that it positively proscribes the specification of a particular school in an IDP except where the two criteria set out in that section ((i) the authority is satisfied that the child&#8217;s interest requires the [ALP] identified in his or her plan to be made at the school, and</span><span class="legrepeal" style="font-family:Arial"> </span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">(ii) it is appropriate for the child to be provided with education at the school) are satisfied.  So, if there is a presumption under Schedule 27 paragraph 3 that a child with special educational needs would be admitted to a school of parental choice, then there is certainly no such presumption under section 48.  The default position under section 48 is that no school is specified in an IDP.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(v)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">However, section 48 is not the only way in which, under the regime in Wales of which the 2018 Act is a part, effect is given to the principles set out in section 9 and the other relevant provisions concerning the engagement with, and wishes/preferences of, a child and their parents in the context of selection and assignment of school places.  There remain in place the arrangements for school admissions generally resulting from </span><span style="font-family:Arial">sections 86 and 89 of the School Standards and Framework Act 1998, and an authority&#8217;s School Admissions Policy/Process produced under those provisions.  Under them, generally (and not simply in the context of children with ALN), an authority is required to obtain and then reflect parental schooling preferences in a systematic way which, having been the subject of widespread consultation, is considered appropriate and fair to all relevant children (and their parents).  These arrangements allow parents to express school preferences, and require the authority to take such preferences into account in an open and transparent way. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(vi)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">There is no suggestion in this case that the policies and procedures set out in the Council&#8217;s Admissions Process are unlawful, unfair or unclear: and the Council made it clear to Mr &amp; Mrs X that, apart from section 48, parental preference in schooling could and would be considered through the Admissions Process.  Mr &amp; Mrs X were made aware of the need to make an application through that Process in case, for whatever reason, they were unsuccessful in having a school named in the IDP.  In November 2023, before the deadline for applications for admission schools for year 7 in September 2024, Ms Keegan-Smith said that she contacted Mrs X by phone and explained, not only the IDP reconsideration process, but also the Admissions Process including the opportunity within that process for a parent to express a preference for particular maintained schools and the need to make an application in that process by 21 November 2023.  Mr &amp; Mrs X chose not to make an application, but rather only pursue an application (and then an appeal to the ETW) to have an independent school (School C) specified in the IDP.  An application was not made through the Admissions Process until Mr &amp; Mrs X made a second round application in May 2024, by when their two preferred schools had no spaces available.  Mr &amp; Mr X did not appeal that decision, as they could have done through the Admissions Process.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(vii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.23in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In support of his submission, Mr Friel relied heavily on </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> &#8211; as did the ETW Panel in its Decision.  However, such reliance is misplaced.  It was, of course, a case under the 1996 Act; and Judge Levenson expressly stated that the requirement for the three identified questions to be addressed arose from, not just section 9, but also section 324(4) of the 1996 Act.  The questions are based on the presumption, inherent in the 1996 Act scheme, that a school should be named in a statement.  Therefore, if competing schools are each appropriate, the three questions result in the naming of one of the schools.  To the contrary, the 2018 Act has no such presumption, and not only specifically contemplates no school being named in an IDP but sets that as the default position.  The questions posed in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> in relation to specifying a school are not questions that arise out of simply section 9 but rather questions which arise out of the 1996 Act scheme as a whole.  It is wrong to assume that the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> analysis will be equally applicable to the (very different) 2018 Act scheme.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(viii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.36in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">That the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> analysis and questions are inapplicable to the 2018 Act scheme is apparent from the face of the ETW Panel Decision itself.  Having been persuaded by Mr Friel to answer the three questions posed in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E"> first, the Panel answered those questions as follows: (i) School B and School A were both appropriate schools (paragraph 133), (ii) the parental choice was School A (paragraph 134), and (iii) School A was not incompatible with the provision of efficient instruction and training, and parental preference outweighed the additional public expenditure or any additional public expenditure was rendered reasonable in all the circumstances (including, of course, parental preference) (paragraph 135-144).  Having given those answers, under </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">, the Panel were bound to name School A (&#8220;&#8230; that school must be named&#8230;&#8221;).  Those questions necessarily answer the ultimate question of which school must be named, and so the school in which the child must be placed.  Although the ETW Panel in fact went on to discuss section 48 (albeit in only in a very limited way), there would be no room for any such discussion under </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">IM</span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">.  On the basis of Mr Friel&#8217;s contentions, section 48 would be effectively redundant.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;color:#1E1E1E;margin-left:0.79in;text-indent:-0.39in">(ix)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">However, under the 2018 Act regime, section 48 is clearly key.  The 2018 Act scheme requires, under section 48, consideration of whether the two conditions that not only allow but require a school to be named in the IDP have been satisfied, i.e. &#8220;(a) the authority is satisfied that the child&#8217;s interest requires the [ALP] identified in his or her plan to be made at the school, and</span><span class="legrepeal" style="font-family:Arial"> </span><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">(b) it is appropriate for the child to be provided with education&#8230; at the school&#8230;&#8221;.  This requires consideration of all relevant considerations, including those set out in paragraph 23.59 of the ALN Code.  In considering condition (a), the following are worthy of note.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">The focus of condition (a) is upon the child&#8217;s ALP, and whether the child&#8217;s interest requires that provision to be made at a particular school.  Whilst the matters listed in paragraph 23.59 as considerations</span><span class="legrepeal" style="font-family:Arial"> &#8220;likely to be relevant when considering whether to name a school&#8221; is expressly non-exhaustive (see paragraph 28 above), it is informative that each of the matters is focused on the child&#8217;s ALP and how it might best be made.  Whilst other matters (such as general educational standards within the school, as reflected by (e.g.) general examination grades) may in some circumstances be relevant, they are unlikely to be given substantial weight when compared with the weight that must be given to the ALP focused considerations.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legrepeal" style="font-family:Arial">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span class="legrepeal" style="font-family:Arial">I accept that parental preference in relation to a school may possibly be a relevant matter when a child&#8217;s interest is being considered; but, given the formulation of condition (a), it is unlikely that a mere expressed preference will be afforded much, if any, weight.  What is likely to be of greater weight are the reasons for that preference, particularly when those reasons relate to the child&#8217;s ALP.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(c)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">It is also telling that condition (a) is in terms of whether &#8220;the authority is satisfied&#8221; that the child&#8217;s interest requires the ALP to be made at an identified school.  That formulation clearly allows the authority some latitude in its assessment on that issue.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:Arial">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Despite Mr Friel&#8217;s submissions, I am in no doubt that, regrettably, the ETW Panel&#8217;s approach to this issue was wrong in law.  The Panel were wrong to start their analysis with section 9 as reflected in the three questions posed in </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial">.  The focus of the analysis must be section 48, and whether the conditions set out in that section (which trigger the exception to the general rule that no school is named in an IDP) had been satisfied.  Whilst Mr Friel denied that it was suggested to the ETW Panel (or that the ETW Panel proceeded on the basis) that Schedule 27 paragraph 3 continued to apply in Wales, the approach the Panel adopted meant that, in substance, they did treat Schedule 27 paragraph 3 as still applying and they asked the same questions as would be asked under the 1996 Act scheme.  In that, they erred.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:Arial">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">The Panel&#8217;s subsequent consideration of section 48 was also inadequate because (i) for the reasons I have already given, the response to the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial"> questions inevitably led to School A being named in the IDP, so the section 48 analysis was empty; and (ii) having considered the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial"> questions first, the Panel&#8217;s mind could not have been properly open when they considered section 48.  Unsurprisingly, the Panel failed to have proper regard to considerations which militated against the conclusion they reached on the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial"> analysis, such as the positives advanced by the Council in relation to School B (e.g. the Accelerate class, smaller class sizes and the fact that it is X&#8217;s nearest school).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:Arial">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">The Panel&#8217;s concern about the possibility of bullying at School B appears to have derived from paragraph 4.25 of the Report of Phoebe Woods (a Speech and Therapy Therapist) dated 2 July 2024, but that appears to derive from reportage from Mrs X (paragraph 4.17) which appears to derive from the fact that the school has a page on its website covering bullying and the policy it adopts towards bullying (paragraph 99 of the ETW Panel Decision).  If that is so, that does not appear to be a logical train of analysis.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:Arial">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">Unsurprisingly, and reflecting the 1996 Act scheme and the Panel&#8217;s approach to </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial">, the clinching criterion in their analysis of section 48 appears to have been parental preference.  Thus, the Panel stated as the reason why the section 48 test for naming a school was made out: &#8220;For the reasons listed above [i.e. the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial"> analysis, and the answers to the </span><span class="legrepeal" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">IM</span><span class="legrepeal" style="font-family:Arial"> questions] having regard to parental choice, we are&#8230; satisfied that &#8230; X&#8217;s interest requires his ALP within his IDP to be made at School A&#8221;.  Their earlier (erroneous) analysis inevitably led to that conclusion, which was also consequently tainted.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:Arial">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">Those errors in law are substantial, and fatal to the ETW Panel&#8217;s Decision to name School A in Section 2D of the IDP.  </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ListParagraph" style="text-align:justify;margin-left:0in"><span class="legrepeal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Conclusion</span></heading>
+	  <paragraph eId="para_60">
+	    <num style="font-family:Arial">60.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In respect of Ground 1, the ETW Panel having made a substantial error of law in its Decision by naming School A in Section 2D of the IDP:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">I quash that Decision insofar as School A is named in Section 2D of the IDP.  Otherwise, the Decision shall stand.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In her oral submissions, Ms Shepherd conceded that, if that were the case, then I would be bound to remit the matter to the ETW for redetermination of the issue of whether the conditions in section 48 are met requires an exercise balancing relevant considerations upon which I had not heard full submissions and which the ETW was uniquely placed to do.  With some considerable regret, because of the length of time this matter has taken to resolve and X&#8217;s continuing absence from school, I accept that.  I shall remit the matter to the ETW for reconsideration and redetermination of the issue of whether Section 2D of X&#8217;s IDP should name a maintained school for the purpose of securing X&#8217;s admission to that school because the conditions set out in section 48 have been met.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legrepeal" style="font-family:Arial;color:#1E1E1E">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">This case shall immediately be referred to the President of the ETW with a request that she gives directions on that issue so that the re-hearing of Mr &amp; Mrs X&#8217;s appeal on this issue can be expedited.  That re-hearing should take place before a differently constituted panel.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:Arial">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial;color:#1E1E1E">In respect of Ground 2, for the reasons given above, I refuse permission to appeal.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ListParagraph" style="text-align:justify;margin-left:0in"><span class="legrepeal" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#1E1E1E">Coda</span></heading>
+	  <paragraph eId="para_62">
+	    <num style="font-family:Arial">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">I understand that this is the first case to have been brought under the new 2018 Act regime for ALP in Wales.  I have considerable sympathy for the ETW Panel, who were the first to grapple with the challenges of the new scheme.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:Arial">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span class="legrepeal" style="font-family:Arial">The case illustrates the need, when dealing with legislation of the Senedd, to avoid assumptions that the devolved scheme reflects, in any particular way, an earlier scheme found in Westminster legislation.  The policy drivers may be different &#8211; sometimes, very different &#8211; and considerable scrutiny of the words used by the Senedd, without any preconceptions based on what went before, may be required to ascertain the true construction of the legislation and thus the intention of the legislature.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_1">
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:-0.39in"><img src="image2.jpeg" style="width:234.75pt;height:76.4pt"/></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-weight:bold;font-family:Arial">The Rt Hon Sir Gary Hickinbottom</span></p>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-weight:bold;font-family:Arial">President of Welsh Tribunals </span></p>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-weight:bold;font-family:Arial">Sitting as a Judge of the Upper Tribunal </span></p>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-weight:bold;font-family:Arial">Authorised for issue on </span><docDate date="2025-02-15" refersTo="#decision" style="font-weight:bold;font-family:Arial">15 February 2025</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

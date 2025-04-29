@@ -1,0 +1,1145 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/108"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/108"/>
+	  <FRBRdate date="2025-02-12" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="108"/>
+	  <FRBRname value="Hulley Enterprises Limited &amp; Ors v The Russian Federation"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/108"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/108"/>
+	  <FRBRdate date="2025-02-12" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/108/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/108/data.xml"/>
+	  <FRBRdate date="2025-02-12T10:32:26" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="hulley-enterprises-limited-a-company-incorporated-in-the-isle-of-man" href="" showAs="HULLEY ENTERPRISES LIMITED (a company incorporated in the Isle of Man)"/>
+	<TLCPerson eId="yukos-universal-limited-a-company-incorporated-in-the-isle-of-man" href="" showAs="YUKOS UNIVERSAL LIMITED (a company incorporated in the Isle of Man)"/>
+	<TLCPerson eId="veteran-petroleum-limited-a-company-incorporated-in-the-isle-of-man" href="" showAs="VETERAN PETROLEUM LIMITED (a company incorporated in the Isle of Man)"/>
+	<TLCPerson eId="the-russian-federation" href="" showAs="THE RUSSIAN FEDERATION"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-justice-lewison" href="/judge-lord-justice-lewison" showAs="LORD JUSTICE LEWISON"/>
+	<TLCPerson eId="judge-lord-justice-zacaroli" href="/judge-lord-justice-zacaroli" showAs="LORD JUSTICE ZACAROLI"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>108</uk:number>
+	<uk:cite>[2025] EWCA Civ 108</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>9d34879ac5c53cb6c7cccf3d99a37d19f74e4c8382ebe10d355035f708a30672</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-style: italic; font-weight: bold; font-family: 'Calibri Light'; font-size: 14pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Heading2Char { font-style: italic; font-weight: bold; font-family: 'Calibri Light'; font-size: 14pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 108</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023-002278</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</p>
+      <p class="CoverMain">KING&#8217;S BENCH DIVISION</p>
+      <p class="CoverMain">COMMERCIAL COURT</p>
+      <p class="CoverMain">Mrs Justice Cockerill</p>
+      <p class="CoverMain"><neutralCitation>[2023] EWHC 2704 (Comm)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-02-12" refersTo="#judgment">12/02/2025</docDate></p>
+      <p class="CoverText" style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-lewison">LORD JUSTICE LEWISON</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE MALES<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-zacaroli">LORD JUSTICE ZACAROLI</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">1)</num>
+	      <p style="text-align:center;margin-left:0.5in"><party refersTo="#hulley-enterprises-limited-a-company-incorporated-in-the-isle-of-man" as="#respondent" style="font-weight:bold"> HULLEY ENTERPRISES LIMITED (a company incorporated in the Isle of Man)</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">2)</num>
+	      <p style="text-align:center;margin-left:0.5in"><party refersTo="#yukos-universal-limited-a-company-incorporated-in-the-isle-of-man" as="#respondent" style="font-weight:bold"> YUKOS UNIVERSAL LIMITED (a company incorporated in the Isle of Man)</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">3)</num>
+	      <p style="text-align:center;margin-left:0.5in"><party refersTo="#veteran-petroleum-limited-a-company-incorporated-in-the-isle-of-man" as="#respondent" style="font-weight:bold"> VETERAN PETROLEUM LIMITED (a company incorporated in the Isle of Man)</party></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center;margin-left:-0.11in;text-indent:0.11in"><role refersTo="#respondent">Claimants/Respondents</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#the-russian-federation" as="#appellant" style="font-weight:bold">THE RUSSIAN FEDERATION</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Defendant/Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Vernon Flynn KC, Mark Wassouf, Cameron Miles &amp; Maud Mullan </span>(instructed by<span style="font-weight:bold"> Pinna Goldberg</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Jonathan Crow CVO KC, David Peters KC &amp; Naomi Hart</span> (instructed by <span style="font-weight:bold">Stephenson Harwood LLP</span>) for the <span style="font-weight:bold">Respondents</span></p>
+      <p style="text-align:center">Hearing date: 15 January 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 12 February 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LORD JUSTICE MALES:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The issue on this appeal is whether the principle of issue estoppel applies to the determination by an English court whether one of the exceptions to state immunity set out in sections 2 to 11 of the State Immunity Act 1978 applies. Specifically, when a foreign court has decided that a state has agreed in writing to submit a dispute to arbitration, and the usual conditions for the application of issue estoppel are satisfied, can the English court treat that decision as giving rise to an issue estoppel or must it determine the issue for itself without regard to the decision of the foreign court?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs Justice Cockerill held that there was an issue estoppel precluding the Russian Federation (&#8216;Russia&#8217;) from re-arguing the question whether it had agreed to submit the dispute to arbitration, with the consequence that Russia&#8217;s challenge to the jurisdiction of the English court on the ground of state immunity should be dismissed. Russia challenges that conclusion, contending that issue estoppel has no application in these circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have concluded that the appeal should be dismissed. In short, I accept the submission of Mr Jonathan Crow CVO KC for the respondent claimants that although the State Immunity Act 1978 sets out comprehensively the exceptions to state immunity, it does not prescribe how the court should decide whether any of the exceptions applies in any given case. That question must be decided applying the ordinary principles of English law, both substantive and procedural, and those principles include the principle of issue estoppel.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although this dispute has a long and complex history, the facts relevant to this appeal can be stated relatively shortly. I can take them from the judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18<span style="vertical-align:super;font-size:smaller">th</span> July 2014 an arbitral tribunal (comprised of L. Yves Fortier CC QC, Dr Charles Poncet and Judge Stephen Schwebel) issued three materially identical awards declaring that Russia had breached its obligations under Article 13(1) of the Energy Charter Treaty and ordering it to pay damages exceeding a total of US $50 billion plus interest to the claimants (the respondents to this appeal), who are the former majority shareholders in OAO Yukos Oil Company.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 10<span style="vertical-align:super;font-size:smaller">th</span> November 2014 Russia commenced proceedings to set aside the awards in the courts of the Netherlands, the arbitral seat. It did so on various grounds, including challenges relating to the jurisdiction of the tribunal and the conduct of the arbitration. One such challenge was that the tribunal did not have jurisdiction because there was no binding arbitration agreement between the claimants and Russia (&#8216;the no agreement issue&#8217;). Another was that the awards were vitiated by fraud as a result of the claimants having effectively bribed a witness to give evidence in their favour and failed to disclose key documents (&#8216;the procedural fraud issue&#8217;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 30<span style="vertical-align:super;font-size:smaller">th</span> January 2015 the claimants issued proceedings in England seeking the recognition and enforcement of the awards pursuant to section 101 of the Arbitration Act 1996 which gives effect in this jurisdiction to the New York Convention. Russia challenged the jurisdiction of the English court by an application filed on 25<span style="vertical-align:super;font-size:smaller">th</span> September 2015. It contended that it was immune from such jurisdiction pursuant to section 1 of the State Immunity Act 1978.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 20<span style="vertical-align:super;font-size:smaller">th</span> April 2016 the awards were set aside by the District Court of the Hague. The claimants appealed from that decision to the Hague Court of Appeal. While the appeal was pending, on 8<span style="vertical-align:super;font-size:smaller">th</span> June 2016, the English enforcement proceedings were stayed by consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In February 2020 the Hague Court of Appeal allowed the claimants&#8217; appeal and reinstated the awards. Among other things, it rejected Russia&#8217;s challenge to the awards on the basis that there was no binding arbitration agreement between the claimants and Russia, holding there was such an agreement. This is the decision which is said by the claimants and was found by the judge to give rise to an issue estoppel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Russia challenged the decision of the Hague Court of Appeal to reinstate the awards by a cassation appeal to the Dutch Supreme Court. While this challenge was pending, on 6<span style="vertical-align:super;font-size:smaller">th</span> July 2020, the claimants applied to lift the stay of the English enforcement proceedings. Russia resisted that application, including (ironically in view of its present stance) on the basis that its arguments in the cassation appeal overlapped substantially with its challenge to the English jurisdiction, which was inefficient and created a risk of inconsistent judgments on the same issues. The application to lift the stay was rejected by Mr Justice Henshaw by a judgment dated 14<span style="vertical-align:super;font-size:smaller">th</span> April 2021 ([2021] EWHC 894 (Comm)).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judgment of the Dutch Supreme Court was delivered on 5<span style="vertical-align:super;font-size:smaller">th</span> November 2021. The court found that the Hague Court of Appeal&#8217;s rulings on Russia&#8217;s challenges to the jurisdiction of the arbitral tribunal did not result in cassation (i.e. the decision of the Court of Appeal on these issues, including whether there was a binding arbitration agreement, was upheld), but that the Court of Appeal had erred on the issue of procedural fraud. Accordingly, the Supreme Court quashed the Court of Appeal&#8217;s judgments and referred the case to the Amsterdam Court of Appeal for further consideration and decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the handing down of the Dutch Supreme Court judgment, the claimants applied again to lift the stay of the English enforcement proceedings. In October 2022, Mr Justice Butcher acceded to that application in part, lifting the stay &#8216;solely for the purpose and to the extent necessary for the resolution of the Defendant&#8217;s Jurisdiction Application&#8217;, and giving directions for the determination of two preliminary issues:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;<span style="font-weight:bold">Issue 1</span>: Whether and to what extent [Russia] is, by reason of certain judgments of the Dutch courts, precluded from rearguing the question of whether it has agreed in writing to submit to arbitration the disputes that are the subject of the Awards; and </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold">Issue 2</span>: Whether, if the answer to Issue is that [Russia] is so precluded from rearguing the relevant question, the Jurisdiction Application ought to be dismissed forthwith.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Justice Butcher granted permission for expert Dutch law evidence on the following issue: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;whether and to what extent the determinations in the Dutch Judgments are final and/or conclusive as a matter of Dutch law as between the Claimants and the Defendant.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Those preliminary issues came before Mrs Justice Cockerill. On 1<span style="vertical-align:super;font-size:smaller">st</span> November 2023 she handed down the judgment which is the subject of this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Since her judgment, there have been further developments in the Dutch proceedings. The Amsterdam Court of Appeal has rejected Russia&#8217;s case on procedural fraud and has declined to make a reference to the CJEU. There is, however, a further appeal by Russia from that decision on cassation grounds to the Dutch Supreme Court, which is still pending.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">State immunity</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The general rule, set out in section 1 of the State Immunity Act 1978, is that a state is immune from the jurisdiction of United Kingdom courts and that effect must be given to this immunity even if the state does not appear to claim it:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;<span style="font-weight:bold">General immunity from jurisdiction</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A State is immune from the jurisdiction of the courts of the United Kingdom except as provided in the following provisions of this Part of this Act.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A court shall give effect to the immunity conferred by this section even though the State does not appear in the proceedings in question.&#8217;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, as section 1(1) itself makes clear, this general rule is subject to a series of exceptions, which are set out in sections 2 to 11. If none of those provisions apply, the court lacks adjudicative jurisdiction over the state.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The burden of proving that the claim falls within one of the exceptions to the general immunity provided by section 1 lies on the claimant. This must be established on the balance of probabilities as a preliminary issue: <span style="font-style:italic">JH Rayner (Mincing Lane) Ltd v Department of Trade and Industry</span> [1989] Ch 72, 193-194 (Lord Justice Kerr) and 252 (Lord Justice Ralph Gibson); <span style="font-style:italic">Shehabi v Kingdom of Bahrain</span> [2024] EWCA Civ 1158 at [8]. As Lady Justice Simler put it in <span style="font-style:italic">Zu Sayn-Wittgenstein-Sayn v His Majesty Juan Carlos de Borb&#243;n y Borb&#243;n</span> [2022] EWCA Civ 1595, [2023] 1 WLR 1162 at [21], &#8216;it is for a claimant to establish, to the civil standard, an exemption to that immunity &#8230;.&#8217; This results in a final, and not merely interlocutory, decision whether the state is immune: <span style="font-style:italic">The Prestige (Nos. 3 &amp; 4)</span> [2022] EWCA Civ 1589, [2022] 1 WLR 3434 at [54].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is sometimes said that the court must &#8216;satisfy itself&#8217; that one of the exceptions applies. Thus in <span style="font-style:italic">Fang v Attorney General</span> [2023] UKPC 21, 26 ITELR 273 at [170] the Privy Council said that &#8216;an English court is bound to refuse to entertain any proceedings against a state unless it is satisfied that the state concerned is not immune because it falls within one of the exceptions set out in ss 2 to 11 of the Act.&#8217; However, that is simply another way of saying that this must be proved on the balance of probabilities. Generally speaking, a civil court in England and Wales is only satisfied that a fact occurred, or that a state of affairs exists, when that is proved on the balance of probabilities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although section 1 contains the general rule, to which the provisions of sections 2 to 11 are exceptions, that does not mean that they should be interpreted restrictively, in the way that (for example) a contractual exceptions clause would be interpreted: <span style="font-style:italic">Shehabi</span> at [24] and [25].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The 1978 Act has often been described as &#8216;comprehensive&#8217;. For example, in <span style="font-style:italic">Alcom Ltd v Republic of Colombia</span> [1984] 1 AC 580, 600 Lord Diplock said that it &#8216;purports in Part I to deal comprehensively with the jurisdiction of courts of law in the United Kingdom both (1) to adjudicate upon claims against foreign states (&#8220;adjudicative jurisdiction&#8221;); and (2) to enforce by legal process (&#8220;enforcement jurisdiction&#8221;) judgments pronounced and orders made in the exercise of their adjudicative jurisdiction&#8217;. Similarly, the Act was described by the Supreme Court in <span style="font-style:italic">Argentum Exploration Ltd v Republic of South Africa</span> [2024] UKSC 16, [2024] 2 WLR 1259 at [25] as &#8216;a new statutory scheme providing detailed and comprehensive rules governing both adjudicative and enforcement jurisdiction in cases involving foreign and Commonwealth states&#8217; and by Lady Justice Simler in <span style="font-style:italic">Zu Sayn-Wittgenstein-Sayn</span> at [13] as &#8216;a complete code&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, the limit of what is meant by &#8216;comprehensive&#8217; in this context must be recognised. The Act is comprehensive in that it sets out the only circumstances in which a state may lose immunity from the adjudicative and enforcement jurisdiction of United Kingdom courts. However, it says nothing about the legal principles by which it is to be determined whether one of the exceptions to immunity applies. Those principles must be found elsewhere. For example, as I have explained, the standard of proof which must be satisfied if an exception is to be found to apply is the balance of probabilities, that is to say that it is more likely than not that the exception applies. That is the ordinary civil standard of proof, which is a creature of the common law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nor does the Act deal with the recognition or enforcement of judgments of foreign courts given against states, a topic which is dealt with in section 31 of the Civil Jurisdiction and Judgments Act 1982, which provides a self-contained scheme for dealing with state immunity in proceedings for the recognition and enforcement of foreign judgments against states (<span style="font-style:italic">NML Capital Ltd v Republic of Argentina</span> [2011] UKSC 31, [2011] 2 AC 495). This section provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8216;(1) A judgment given by a court of an overseas country against a state other than the United Kingdom or the state to which that court belongs shall be recognised and enforced in the United Kingdom if, and only if&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">it would be so recognised and enforced if it had not been given against a state; and </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">that court would have had jurisdiction in the matter if it had applied rules corresponding to those applicable to such matters in the United Kingdom in accordance with sections 2 to 11 of the State Immunity Act 1978.  </p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Sections 12, 13 and 14(3) and (4) of the State Immunity Act 1978 (service of process and procedural privileges) shall apply to proceedings for the recognition or enforcement in the United Kingdom of a judgment given by a court of an overseas country (whether or not that judgment is within subsection (1) of this section) as they apply to other proceedings. &#8230;&#8217;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although the State Immunity Act 1978 is a domestic statute, state immunity is a general rule of customary international law. All states have an international law obligation to give effect to such immunity in accordance with that general rule. As the International Court of Justice explained in <span style="font-style:italic">Jurisdictional Immunities of the State (Germany v Italy)</span> [2012] ICJ Rep 99:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;56. Although there has been much debate regarding the origins of State immunity and the identification of the principles underlying that immunity in the past, the International Law Commission concluded in 1980 that the rule of State immunity had been &#8220;adopted as a general rule of customary international law solidly rooted in the current practice of States&#8221; (<span style="font-style:italic">Yearbook of the International Law Commission</span>, 1980, Vol II (2), p. 147, para 26). That conclusion was based upon an extensive survey of State practice and, in the opinion of the Court, is confirmed by the record of national legislation, judicial decisions, assertions of a right to immunity and the comments of States on what became the United Nations Convention. That practice shows that, whether in claiming immunity for themselves or according it to others, States generally proceed on the basis that there is a right to immunity under international law, together with a corresponding obligation on the part of other States to respect and give effect to that immunity.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> The ICJ went on to explain at [57] that the rule of state immunity derives from the principle of the sovereign equality of states, one of the fundamental principles of the international legal order, so that exceptions to such immunity represent a departure from that principle. Nevertheless international law recognises the existence of such exceptions, as shown for example by the development of the restrictive theory of immunity which distinguishes between &#8216;<span style="font-style:italic">acta jure imperii</span>&#8217; and &#8216;<span style="font-style:italic">acta jure gestionis</span>&#8217; (see <span style="font-style:italic">Argentum</span> at [17] to [22]) and by the United Nations Convention to which the ICJ referred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The fact that states have an obligation to give effect to state immunity in accordance with international law does not identify the exceptions to that immunity which international law recognises. For that the English courts must look to sections 2 to 11 of the State Immunity Act 1978, although I note that the United Nations Convention contains broadly similar exceptions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The exception on which the claimants rely in this case is section 9 of the Act, which provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;<span style="font-weight:bold">Arbitrations</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where a State has agreed in writing to submit a dispute which has arisen, or may arise, to arbitration, the State is not immune as respects proceedings in the courts of the United Kingdom which relate to the arbitration. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This section has effect subject to any contrary provision in the arbitration agreement and does not apply to any arbitration agreement between States.&#8217;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is therefore necessary for a claimant relying on this exception to prove on the balance of probabilities that (1) the state has agreed in writing to submit the dispute in question to arbitration, (2) the proceedings in the United Kingdom relate to the arbitration, (3) there is no contrary provision in the arbitration agreement, and (4) the arbitration agreement is not between states. In the present case there is no dispute about the second, third and fourth of these points. The issue is whether the state, Russia, has agreed in writing to submit the dispute to arbitration, which I have called &#8216;the no agreement issue&#8217;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Issue estoppel</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The term &#8216;issue estoppel&#8217; appears to have originated in the Australian case of <span style="font-style:italic">Hoysted v Federal Commissioner of Taxation</span> (1921) 29 CLR 537, 561 and was adopted by Lord Justice Diplock in <span style="font-style:italic">Thoday v Thoday</span> [1964] P 181, although the concept is considerably older: <span style="font-style:italic">Duchess of Kingston&#8217;s Case</span> (1776) 20 State Tr 355.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Referring to the concept of estoppel generally, Lord Justice Diplock explained that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;&#8220;Estoppel&#8221; merely means that, under the rules of the adversarial system of procedure upon which the common law of England is based, a party is not allowed, in certain circumstances, to prove in litigation particular factual matters which, if proved, would assist him to succeed as plaintiff or defendant in an action.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, he went on to say that issue estoppel, as a species of estoppel <span style="font-style:italic">per rem judicatam</span>, was something different:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;I do not think that any estoppel in its common law concept arises in the present case. The particular type of estoppel relied upon by the husband is estoppel <span style="font-style:italic">per rem judicatam</span>. This is a generic term which in modern law includes two species. The first species, which I will call &#8220;cause of action estoppel&#8221;, is that which prevents a party to an action from asserting or denying as against the other party, the existence of a particular cause of action, the non-existence of or existence of which has been determined by a court of competent jurisdiction in previous litigation between the same parties. If the cause of action was determined to exist, i.e. judgment was given upon it, it is said to be merged in the judgment, or, for those who prefer Latin, <span style="font-style:italic">transit in rem judicatam</span>. If it was determined not to exist, the unsuccessful plaintiff can no longer assert that it does; he is estopped <span style="font-style:italic">per rem judicatam</span>. This is simply an application of the rule of public policy expressed in the Latin maxim &#8220;<span style="font-style:italic">Nemo debet bis vexari pro una et eadem causa</span>&#8221;. In this application of the maxim &#8220;<span style="font-style:italic">causa</span>&#8221; bears its literal Latin meaning. The second species, which I will call &#8220;issue estoppel&#8221;, is an extension of the same rule of public policy. There are many causes of action which can only be established by proving that two or more different conditions are fulfilled. Such causes of action involve as many separate issues between the parties as there are conditions to be fulfilled by the plaintiff in order to establish his cause of action; and there may be cases where the fulfilment of an identical condition is a requirement common to 2 or more different causes of action. If in litigation upon one such cause of action any of such separate issues as to whether a particular condition has been fulfilled is determined by a court of competent jurisdiction, either upon evidence or upon admission by a party to the litigation, neither party can, in subsequent litigation between one another upon any cause of action which depends upon the fulfilment of the identical condition, assert that the condition was fulfilled if the court has in the first litigation determined that it was not, or deny that it was fulfilled if the court in the first litigation determined that it was.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Justice Diplock explained the concept of issue estoppel further in <span style="font-style:italic">Mills v Cooper</span> [1967] 2 QB 459, 468-9:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;That doctrine, so far as it affects civil proceedings, may be stated thus: a party to civil proceedings is not entitled to make, as against the other party, an assertion, whether of fact or of the legal consequences of facts, the correctness of which is an essential element in his cause of action or defence, if the same assertion was an essential element in his previous cause of action or defence in previous civil proceedings between the same parties or their predecessors in title and was found by a court of competent jurisdiction in such previous civil proceedings to be incorrect, unless further material which is relevant to the correctness or incorrectness of the assertion and could not by reasonable diligence have been adduced by that party in the previous proceedings has since become available to him. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Whatever may be said of other rules of law to which the label of &#8220;estoppel&#8221; is attached, &#8220;issue estoppel&#8221; is not a rule of evidence. True, subject to the qualification I have stated, it has the effect of preventing the parties &#8220;estopped&#8221; from calling evidence to show that the assertion which is the subject of the &#8220;issue estoppel&#8221; is incorrect, but that is because the existence of the &#8220;issue estoppel&#8221; results in there being no issue in the subsequent civil proceedings to which such evidence would be relevant. Issue estoppel is a particular application of the general rule of public policy that there should be finality in litigation.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Pausing here, I would note two points. First, Lord Justice Diplock distinguished issue estoppel from &#8216;other rules of law to which the label of &#8220;estoppel&#8221; is attached&#8217;. Second, when issue estoppel applies, that does not mean that there is no issue for the court to decide, but only that the issue estoppel means, as a matter of law, that there is no issue to which evidence contradicting the prior decision would be relevant &#8211; although I would add that when the issue estoppel arises from the judgment of a foreign court there will still need to be some evidence, for example to show what the foreign court decided and that its decision was final and conclusive on the issue in question. Issue estoppel is therefore a principle which enables the court to decide the issue in question, not a principle which prevents it from making any decision on the point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Issue estoppel in English law is an enforceable substantive right, as explained by the Privy Council in <span style="font-style:italic">Associated Electric &amp; Gas Insurance Services Ltd v European Reinsurance Co of Zurich</span> [2003] UKPC 11, [2003] 1 WLR 1041. The issue in that case was whether a previous arbitration award between the parties had given rise to an issue estoppel and, if so, whether reliance on that issue estoppel was a form of enforcement of the award. The Privy Council held that it was. Lord Hobhouse explained:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;15. Their Lordships consider that, on the stated hypothesis [i.e. that the plea of issue estoppel was sound], the argument of European Re is correct. The Boyd award has conferred upon them a right which is enforceable by later pleading an issue estoppel. It is a species of the enforcement of the rights given by the award just as much as would be a cause of action estoppel. It is true that estoppels can be described as rules of evidence or as rules of public policy to stop the abuse of process by relitigation. But that is to look at how estoppels are given effect to not at what is the nature of the private law right which the estoppel recognises and protects. For example, a party who has attorned to another is estopped from denying that he holds the relevant goods for that other; the attornment has created a legal relationship and legal rights which the attorning party must recognise. The same applies to where arbitrators have, pursuant to the submission of a dispute to them, decided an issue; that decision then binds the parties and neither party can thereafter dispute that decision. &#8230;&#8217;   </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To similar effect, issue estoppel was described by Mr Justice Foxton in <span style="font-style:italic">PJSC National Bank Trust v Mints</span> [2022] EWHC 871 (Comm), [2022] 1 WLR 3099 at [23(i)] as a rule of substantive law applied by the second tribunal as to the legal effect of the determination by the first tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The requirements for an issue estoppel to apply were summarised by Lord Justice Clarke in <span style="font-style:italic">The Good Challenger</span> [2003] EWCA Civ 1668, [2004] 1 Lloyd&#8217;s Rep 67:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;50. The authorities show that in order to establish an issue estoppel four conditions must be satisfied, namely (1) that the judgment must be given by a foreign court of competent jurisdiction; (2) that the judgment must be final and conclusive and on the merits; (3) that there must be identity of parties; and (4) that there must be identity of subject matter, which means that the issue decided by the foreign court must be the same as that arising in the English proceedings: see, in particular <span style="font-style:italic">Carl Zeiss Stiftung v Rayner C Keeler Ltd (No 2) </span>[1967] 1 AC 853 (&#8220;the <span style="font-style:italic">Carl Zeiss&#8221;</span> case), <span style="font-style:italic">The Sennar (No 2) </span>[1985] 1 WLR 490, especially per Lord Brandon at p 499, and <span style="font-style:italic">Desert Sun Loan Corporation v Hill</span> [1996] 2 All ER 847.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Justice Clarke continued, with particular reference to the position where, as in that case and in the present case, the issue estoppel is said to arise from the decision of a foreign court:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8216;54. The authorities establish that there must be &#8220;a full contestation and a clear decision&#8221; on the issue in question.  That is made clear in the speech of Lord Wilberforce in the <span style="font-style:italic">Carl Zeiss</span> case and (as the judge observed in paragraph 36) was echoed by Lord Brandon in <span style="font-style:italic">The Sennar (No 2</span>). The cases also underline four further important features of the approach of the courts to issue estoppel, which I will consider in turn.  They are as follows:</p>
+		  </intro>
+		  <subparagraph>
+		    <num>i)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">It is irrelevant that the English court may form the view that the decision of the foreign court was wrong either on the facts or as a matter of English law.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>ii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">The courts must be cautious before concluding that the foreign court made a clear decision on the relevant issue because the procedures of the court may be different and it may not be easy to determine the precise identity of the issues being determined.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>iii)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">The decision of the court must be necessary for its decision. </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>iv)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">The application of the principles of issue estoppel is subject to the overriding consideration that it must work justice and not injustice.&#8217;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although Lord Justice Clarke said that it was irrelevant that the English court may form the view that the decision of the foreign court was wrong, it is worth pointing out that the result of giving effect to an issue estoppel may be that the English court will never reach the stage of deciding what it would have decided on the issue in question in the absence of the foreign court&#8217;s decision. Issue estoppel, when it applies, renders this legally irrelevant. That will be the position in the present case if the plea of issue estoppel is upheld. One reason for ordering a preliminary issue in this case was that, if issue estoppel does apply, the delay and expense of a lengthy hearing to decide the no agreement issue will be avoided.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The reason why the English court must be cautious before treating a foreign judgment as giving rise to an issue estoppel was discussed by the Privy Council in <span style="font-style:italic">Gol Linhas Aereas SA v MatlinPatterson Global Opportunities Partners (Cayman) II LLP</span> [2022] UKPC 21, [2023] Bus LR 1305:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8216;38. The point has been made that there may be a need for caution before finding an issue estoppel based on a foreign judgment: see <span style="font-style:italic">Carl Zeiss</span> at p 918 (Lord Reid) and p 967 (Lord Wilberforce); <span style="font-style:italic">The Good Challenger</span>, para 54(ii). The main potential reason for such caution, in the words of Lord Reid in <span style="font-style:italic">Carl Zeiss</span> at p 918, is that: </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;we are not familiar with modes of procedure in many foreign countries, and it may not be easy to be sure that a particular issue has been decided or that its decision was a basis of the foreign judgment and not merely collateral &#8230;&#8221; </p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">This should not, however, be regarded as a reason to decline to treat a foreign judgment as conclusive where the domestic court is able to reach a clear view on those matters. As observed in <span style="font-style:italic">Yukos Capital Sarl (JSC) v Rosneft Oil </span>Co (No 2) [2011] EWHC 1461 (Comm); [2012] 1 All ER (Comm) 479, para 49: </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;&#8230; the [need] for caution &#8230; is most likely to be relevant when considering the precise identity of the issue determined, whether it was necessary for the decision and whether there has been a decision &#8216;on the merits&#8217;. Where differences in procedure make these issues difficult to determine then the court needs to exercise caution. However, if these matters are clear then the need for caution does not arise&#8221;.&#8217;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus caution is necessary because it may be unclear precisely what the foreign court has decided or what the effect of its decision is. That may well be the position if the procedure of the foreign court is unfamiliar and the law which it applied is very different from English law. But there is no particular need for caution if the English court, assisted if necessary by the evidence of foreign law experts, is able to reach clear conclusions about these matters, and if the law applied by the foreign court corresponds to English law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A qualification must be added to the conditions identified in <span style="font-style:italic">The Good Challenger</span>, which is that issue estoppel will not apply if &#8216;special circumstances&#8217; are established (<span style="font-style:italic">Arnold v National Westminster Bank Plc</span> [1991] AC 93), although this may be simply another way of saying that issue estoppel must work justice and not injustice, a point also made by Lord Upjohn in the <span style="font-style:italic">Carl Zeiss</span> case at p.947:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;As my noble and learned friend, Lord Reid, has already pointed out there may be many reasons why a litigant in the earlier litigation has not pressed or may even for good reason have abandoned a particular issue. It may be most unjust to hold him precluded from raising that issue in subsequent litigation and see Lord Maugham&#8217;s observations in the <span style="font-style:italic">New Brunswick</span> case [<span style="font-style:italic">New Brunswick Railway Co v British and French Trust Corporation Ltd</span> [1939] AC 1, 21]. All estoppels are not odious but must be applied so as to work justice and not injustice and I think the principle of issue estoppel must be applied to the circumstances of the subsequent case with this overriding consideration in mind.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As Mr Justice Foxton observed in <span style="font-style:italic">Czech Republic v Diag Human SE</span> [2024] EWHC 2102 (Comm) at [224], this exception has generally been invoked when new evidence not discoverable by due diligence becomes available, but is not limited to such circumstances. Indeed, <span style="font-style:italic">Arnold</span> was not such a case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold"> The judgment of Mrs Justice Cockerill</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs Justice Cockerill acknowledged that there is no direct authority on the question whether the decision of a foreign court can give rise to an issue estoppel when the English court is deciding whether one of the exceptions to state immunity applies. She considered that there is nothing in the State Immunity Act 1978 itself to disapply substantive or procedural rules of English law, including issue estoppel, when the application of the exceptions has to be decided. She held that, in order for an issue estoppel to arise, the foreign judgment must satisfy the requirements for recognition contained in section 31 of the Civil Jurisdiction and Judgments Act 1982 but that, if they are satisfied, there is no reason in principle why there cannot be an issue estoppel. Here, those requirements were satisfied because Russia had submitted to the jurisdiction of the Dutch court by initiating the proceedings in the Netherlands. Accordingly, if the Dutch court had applied rules corresponding to those contained in sections 2 to 11 of the State Immunity Act 1978, as required by section 31(1)(b) of the 1982 Act, it would have had jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge then had to decide whether the requirements for issue estoppel were satisfied. As to this, there were two issues. The first was whether the issue decided by the Dutch court was the same issue (i.e. the no agreement issue) as the English court had to decide. After bearing in mind the need for caution, she held that it was.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second issue was whether the Dutch court had finally and conclusively decided the no agreement issue. Russia argued that they had not: (1) because the Dutch decisions lacked <span style="font-style:italic">res judicata</span> effect as a matter of Dutch law; (2) because the procedural fraud issue remained live before the Dutch courts; and (3) because of the possibility of a reference by the Dutch court to the CJEU on an issue of interpretation of the Energy Charter Treaty. All of these matters were the subject of expert evidence. The judge considered that evidence in detail and concluded that the Dutch decisions did have <span style="font-style:italic">res judicata</span> effect as a matter of Dutch law; that this was so notwithstanding that the procedural fraud issue remained live before the Dutch courts; and that there was no relevant issue of interpretation capable of being referred by the Dutch court to the CJEU.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As a result, the judge concluded that the conditions required to be satisfied for the finding of an issue estoppel were met. Subject only to the question of special circumstances, that conclusion is not challenged on this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It appears that the issue of special circumstances was raised somewhat obliquely before the judge. She held, however, that there was no valid basis to invoke this exception and that the recognition of an issue estoppel in the present case would not work injustice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The result was that by reason of the Dutch court judgments, Russia was precluded from re-arguing the no agreement issue, with the consequence that the present case fell within the exception to state immunity in section 9 of the State Immunity Act 1978: the question was whether Russia had agreed in writing to submit to arbitration the disputes which were the subject of the awards and that question was answered by the final and conclusive decision of the Dutch courts. Accordingly Russia&#8217;s challenge to jurisdiction based on state immunity was dismissed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Russia advances five grounds of appeal, as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Issue estoppel is not applicable in respect of a foreign judgment against a state, not least on an issue of state immunity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">There is no scope for issue estoppel to apply when determining whether state immunity is available under the State Immunity Act 1978.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Section 31 of the Civil Jurisdiction and Judgments Act 1982 is not available as an &#8216;overlay&#8217; for a common law issue estoppel determination.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Special circumstances militate against the application of issue estoppel in any event because of (i) the extant fraud challenge wherein the awards are liable to be set aside; (ii) the existence of a potential CJEU reference and determination that there was no jurisdictional basis for the awards; and (iii) the primacy which ought to be given to the exceptional nature of state immunity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The requirement for an English court to identify the true and proper construction of a treaty itself militates against the application of issue estoppel on such a matter.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his skeleton argument in support of the appeal, Mr Vernon Flynn KC summarised his arguments on grounds one to three as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The central question in this appeal is the scope of an English court&#8217;s obligation under section 1(2) of the State Immunity Act 1978 (&#8216;SIA&#8217;). That question goes to the heart of [Russia&#8217;s] grounds 1-3. The short answer to it starts with the statutory text: the court is obliged to &#8216;give effect to the immunity conferred&#8217;. This court has recently confirmed that this provision requires: (a) that the English court must &#8216;determine, on a final and not merely interlocutory basis, whether the ground for immunity/loss of immunity exists&#8217; (<span style="font-style:italic">The Prestige (Nos. 3 &amp; 4)</span>); and (b) that this &#8216;determination&#8217; must establish &#8216;to the civil standard, [whether there is] an exemption to that immunity&#8217; (<span style="font-style:italic">Zu Sayn-Wittgenstein-Sayn</span>). [Russia&#8217;s] central submission in this appeal is that it must follow that, by section 1 SIA, an English court is under an obligation to consider all arguments for and against state immunity, weigh up the evidence underpinning them, and determine issues for itself. In other words, the English court must determine [the] question of the state&#8217;s immunity <span style="font-style:italic">de novo</span>, without deference to any purported issue estoppel.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">That conclusion may be tested by reference to the nature of issue estoppel. Issue estoppel operates as a bar to <span style="font-style:italic">parties</span> raising issues which have previously been determined against them (<span style="font-style:italic">Associated Electric &amp; Gas v European Re</span> at [13] to [15]). Where it applies, it does not result in the re-determination of an issue; indeed, per Lord Justice Diplock in <span style="font-style:italic">Mills v Cooper</span>, it &#8220;results in there being no issue&#8221; for determination <span style="font-style:italic">at all</span>. That being the case, a conclusion reached on the basis of an issue estoppel can neither be a determination, nor one reached on a balance of probabilities in accordance with the court&#8217;s obligation under section 1(2) SIA. Seen in that context, the judge&#8217;s observation that there is no English authority in support of the conclusion that issue estoppel applies in respect of a foreign judgment against a foreign state on an issue of state immunity is unsurprising.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">It follows that issue estoppel cannot be taken into account in the exercise undertaken by the court under section 1(2) SIA. Contrary to the position taken by the respondents, that approach is consistent with principle. State immunity and issue estoppel are both important questions of public policy in England. Where an English court is faced with an irreconcilable tension between the two, proper consideration of state immunity must be given priority over issue estoppel. That is properly conceived as a threshold matter: where state immunity arises, the English court does not consider whether issue estoppel arises. Alternatively, state immunity may be considered as a &#8216;special circumstance&#8217; militating against the application of issue estoppel. Either way, the conclusion is the same: questions of state immunity must be determined without reference to issue estoppel.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In oral submissions, however, Mr Flynn narrowed the scope of these submissions. He accepted that issue estoppel could arise against a state other than on an issue of state immunity. He accepted also that issue estoppel could arise against a state on an issue of state immunity where the previous judgment was the judgment of an English (or perhaps United Kingdom) court as distinct from a foreign court. Accordingly the question of principle for decision is not whether the decision of a foreign court can create an issue estoppel against a state, but the narrower question whether the decision of a foreign court can create an issue estoppel to which effect will be given when the English court is deciding whether a state is immune from its jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly Mr Flynn now accepts that in principle an issue estoppel can arise against a state from the decision of a foreign court, and he does not challenge the judge&#8217;s conclusion that the requirements for an issue estoppel are satisfied in this case, in particular that the Dutch courts have finally and conclusively decided the no agreement issue adversely to Russia. Russia&#8217;s case, therefore, is that there is something in the nature of the decision which the court has to make when deciding whether one of the exceptions to immunity applies under sections 2 to 11 of the State Immunity Act 1978 which rules out the application of issue estoppel in that particular context.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Can an English court base its decision as to the existence of state immunity on an issue estoppel arising from the decision of a foreign court?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The essential foundation for Mr Flynn&#8217;s argument was that the English court has an obligation contained in section 1 of the State Immunity Act 1978 to give effect to a state&#8217;s immunity from jurisdiction unless it determines that one of the exceptions in sections 2 to 11 applies, and that (as he submitted) a conclusion based on an issue estoppel arising from a foreign judgment is not a determination at all. I would accept that the English court has such an obligation. That is what the Act says. In giving effect to such immunity, where it arises, the English court as an organ of the state is giving effect to the United Kingdom&#8217;s obligations in international law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, I do not accept that when the English court gives effect to an issue estoppel, whether arising from an English or a foreign judgment, it is not making a determination at all. Mr Flynn&#8217;s submission that there is no determination at all in such a case was derived from Lord Justice Diplock&#8217;s statement in <span style="font-style:italic">Mills v Cooper</span> that &#8216;the existence of the &#8220;issue estoppel&#8221; results in there being no issue in the subsequent civil proceedings&#8217;. However, this is a partial and, as a result, misleading quotation. What Lord Justice Diplock actually said (for the full passage see [32] above) was this:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;True, subject to the qualification I have stated, it has the effect of preventing the parties &#8220;estopped&#8221; from calling evidence to show that the assertion which is the subject of the &#8220;issue estoppel&#8221; is incorrect, but that is because the existence of the &#8220;issue estoppel&#8221; results in there being no issue in the subsequent civil proceedings to which such evidence would be relevant.&#8217; </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The point is not that the court declines to make a decision, but that because of the issue estoppel, evidence to contradict the previous judgment is not relevant. This is no more than an application of the ordinary principle that the substantive law will determine what evidence is relevant to decide an issue &#8211; just as, for example, when deciding an issue about the meaning of a contract, evidence of the parties&#8217; subjective beliefs about its meaning will be irrelevant and inadmissible because the substantive law says that the meaning must be determined objectively.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So here, in deciding that Russia is not immune, Mrs Justice Cockerill did not decline to determine whether Russia had agreed in writing to submit the dispute in question to arbitration. On the contrary, she determined that it had so agreed, applying the substantive principle of English law that when the requirements for an issue estoppel are satisfied, as they were in this case, the previous decision of a court of competent jurisdiction is conclusive on the issue in question. As explained in <span style="font-style:italic">Associated Electric &amp; Gas v European Re</span>, an issue estoppel creates a substantive right which is recognised and protected in English law. There is nothing in the State Immunity Act 1978 which is capable of depriving a party of that right.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Equally, there is nothing in the Act which prescribes how the court is to determine whether an exception applies. The fact that the question has to be decided on a final basis at an early stage, as held by <span style="font-style:italic">JH Rayner</span> and <span style="font-style:italic">The Prestige (Nos. 3 &amp; 4)</span>, tells us nothing about the legal principles which apply to the determination of that question. That being so, the court must simply apply English law to that question, and that law includes the law relating to issue estoppel. There is no basis in the Act to support a conclusion that the question whether an exception applies has to be determined according to English law but excluding the English law principle of issue estoppel. In fact<span style="font-style:italic"> The Prestige (Nos. 3 &amp; 4)</span> is an example of the English court applying a principle of English law, in that case the principle of conditional benefit, to decide whether a state had agreed to submit to arbitration for the purpose of section 9 of the State Immunity Act 1978. Moreover, as the question whether an exception applies falls to be determined as a matter of English law, it is irrelevant that some other systems of law may not recognise the concept of issue estoppel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some support for this approach can be seen in the decisions of Mrs Justice Cockerill and of this court in <span style="font-style:italic">Zhongshan Fucheng Investment Co Ltd v Federal Republic of Nigeria</span> [2023] EWCA Civ 867. In that case Nigeria challenged an arbitration award in favour of Zhongshan pursuant to section 67 of the Arbitration Act 1996, contending that the arbitrators did not have jurisdiction. However, when Zhongshan applied for security for costs and security for the award under section 70 of the Act, Nigeria discontinued its challenge. Zhongshan then issued an application to enforce the award under section 66 of the Act. The application was made without notice in accordance with CPR 62.18, but Zhongshan&#8217;s evidence drew attention to potential arguments which Nigeria might raise, including that it might rely on state immunity. The evidence explained why, in the deponent&#8217;s view, those arguments should not succeed. Mrs Justice Cockerill made the order for enforcement, but gave directions for Nigeria to apply to set it aside on the ground of state immunity if so advised. Nigeria failed to apply within the time specified, and then sought relief from sanction and an extension of time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs Justice Cockerill rejected Nigeria&#8217;s submission that the <span style="font-style:italic">Denton</span> principles (<span style="font-style:italic">Denton v T.H. White Ltd </span>[2014] EWCA Civ 906, [2014] 1 WLR 3926) did not apply to Nigeria&#8217;s application because the court was required to determine an issue of state immunity under section 1(2) of the State Immunity Act 1978 even if the state did not appear. She held, applying the <span style="font-style:italic">Denton</span> principles, that it would be unjust to grant Nigeria relief from sanctions, which meant that Nigeria was unable to pursue its claim to state immunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nigeria sought to appeal, contending that where any issue of state immunity arises, the court is obliged to make a determination whether or not, on a balance of probabilities, state immunity is established. It relied on cases such as <span style="font-style:italic">JH Rayner</span> and <span style="font-style:italic">Zu Sayn-Wittgenstein-Sayn</span>. This court rejected that submission and refused permission to appeal. Sir Julian Flaux C explained that, although Nigeria was entitled to challenge jurisdiction on the ground of state immunity, it had to comply with the English court&#8217;s procedural rules appropriate for and applicable to that application:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;32. In other words, when the judge made the enforcement order, she made a determination that, on the evidence before the Court, she was satisfied that the award should be enforced and that there was no arguable case for state immunity. There is nothing surprising in that conclusion given that Nigeria had raised issues of state immunity in the section 67 application which it had abandoned and to seek to raise the same issues again would arguably be an abuse of process. Of course, it was open to Nigeria, given that the order was made <span style="font-style:italic">ex parte</span>, to make an application to set aside the order on grounds of state immunity or any other grounds, but if it wished to do so, it had to comply with the procedural timetable laid down by the Court, which in fact gave a generous period of 74 days for such an application to be made. </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>33.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The suggestion that it was somehow open to Nigeria to fail to comply with or disregard that timetable, but that the Court would still have to make a determination as to state immunity, is as startling as it is misconceived. Although, if state immunity is established, the Court has no jurisdiction over the state in respect of the substantive dispute, in relation to the prior determination of whether state immunity arises at all, the Court does have jurisdiction, as Lord Sumption said in <span style="font-style:italic">Benkharbouche v Embassy of the Republic of Sudan</span> [2017] UKSC 62; [2019] AC 777 at [19]: </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">&#8220;Proceedings brought against a state entitled to immunity are not a nullity. But the court's jurisdiction to entertain the proceedings is limited to examining the basis on which immunity is asserted and determining whether it applies.&#8221; </p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>34.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">That jurisdiction must encompass the imposition of whatever procedural rules are appropriate for that determination. This is clear from what Kerr LJ said in <span style="font-style:italic">JH Rayner</span> where he spoke of the issue of state immunity being determined &#8220;in whatever form and by whatever procedure the court may consider appropriate&#8221;. In the present case, Nigeria was given two months and fourteen days under the CPR to make an application to set aside the enforcement order and raise state immunity if so advised. If Nigeria needed more time to make an application, it was incumbent upon it to make an application in time under CPR 3.1(2)(a) for an extension of time. If such an application was not made in time (as in the present case) then Nigeria would need to seek relief from sanctions as the notes in the White Book make clear and, if it could not satisfy the <span style="font-style:italic">Denton</span> criteria (as the judge found here), then the sanction of not obtaining an extension of time would follow, so that Nigeria could not raise state immunity because it was too late. There is nothing in the CPR or the authorities which suggests that these normal procedural consequences do not follow merely because the defendant is a state.&#8217;<authorialNote class="footnote" marker="1">
+			<p class="FootnoteText"><span> </span>Although this is a decision on permission to appeal, which it would not normally be permissible to cite, Lord Justice Underhill recorded in his judgment at [41] that he had directed an oral hearing because of (among other reasons) the importance of state immunity. In my judgment, therefore, the judgment is citable.</p>
+		      </authorialNote></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus the English court will apply its own procedural rules in deciding whether an exception to state immunity applies. To that extent, therefore, the obligation to give effect to state immunity contained in section 1 of the State Immunity Act 1978 is not unqualified. Mr Flynn accepted this, but sought to distinguish <span style="font-style:italic">Zhongshan</span> on the basis that issue estoppel is a rule of substantive law. I recognise, of course, that the issue arising in <span style="font-style:italic">Zhongshan</span> was not the same as the issue before us because it was concerned with procedural rather than substantive law. Nevertheless the case illustrates that the 1978 Act does not prescribe the way in which a question of state immunity must be decided.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Flynn relied on the principle that an estoppel cannot enlarge the jurisdiction of the court. He cited employment tribunal cases such as <span style="font-style:italic">Secretary of State for Employment v Globe Elastic Thread Co Ltd</span> [1980] AC 506, 519 for the proposition that an estoppel, whatever force it might have as between employer and employee, could not confer upon the tribunal jurisdiction beyond that given by the Act which established it. He relied also on <span style="font-style:italic">Republic of Yemen v Aziz</span> [2005] EWCA Civ 745, [2005] ICR 1391, in which the question arose whether an official had authority to instruct solicitors to enter a notice of appearance on behalf of the defendant state and thereby to submit to the jurisdiction of the employment tribunal for the purposes of section 2 of the State Immunity Act 1978. Section 2 provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;<span style="font-weight:bold">Submission to jurisdiction </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A State is not immune as respects proceedings in respect of which it has submitted to the jurisdiction of the courts of the United Kingdom. &#8230; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A State is deemed to have submitted&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">if it has instituted the proceedings; or </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">subject to subsections (4) and (5) below, if it has intervened or taken any step in the proceedings. &#8230; </p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The head of a State&#8217;s diplomatic mission in the United Kingdom, or the person for the time being performing his functions, shall be deemed to have authority to submit on behalf of the State in respect of any proceedings; and any person who has entered into a contract on behalf of and with the authority of a State shall be deemed to have authority to submit on its behalf in respect of proceedings arising out of the contract.&#8217;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant sought to sidestep the question whether the official had actual authority to instruct the solicitors to enter a notice of appearance by relying on ostensible authority. This court held, however, that ostensible authority has no place in deciding whether there had been a submission for the purpose of section 2. Lord Justice Pill at [53] approved the statement in <span style="font-style:italic">Dickinson, Lindsay &amp; Loonam&#8217;s State Immunity: Selected Materials and Commentary</span> (2004), para 4.024:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;This deeming provision appears to have been intended to resolve doubt as to whether the persons listed have authority to submit. In other cases, the authority of the state&#8217;s representatives must be established by evidence, if challenged. In such cases, there can be no question of ostensible authority, this being a species of estoppel and incapable therefore of extending the court&#8217;s jurisdiction.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Justice Pill emphasised the express terms of subsection (7), which demonstrated that the head of mission had deemed authority to submit on behalf of the state and, therefore, that nobody else had such deemed authority. He concluded, at [58], that the doctrine of ostensible authority did not apply, either to the solicitors or to the official, adding that jurisdiction could not be created by an estoppel. It would therefore be necessary to investigate the factual position whether the official had been acting with the actual authority of the ambassador as the head of mission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would accept that, in general, an estoppel cannot enlarge a jurisdiction created by statute and cannot create jurisdiction in circumstances where statute provides that the court does not have such jurisdiction. Ostensible authority, which is a form of deemed authority where no actual authority exists, is a good example of that principle. However, issue estoppel, despite the presence of the word &#8216;estoppel&#8217;, is different. It is simply a convenient label for the legal principle that a previous decision of a court of competent jurisdiction creates an enforceable legal right in English law, which principle is based on the important public policy of finality in litigation. In this regard I have already drawn attention to the fact that Lord Justice Diplock in <span style="font-style:italic">Mills v Cooper</span> distinguished issue estoppel from other traditional forms of estoppel. In my judgment, therefore, to apply the principle of issue estoppel in deciding whether a state has agreed in writing to submit a dispute to arbitration does not offend against the rule that the court&#8217;s jurisdiction cannot be enlarged or created by an estoppel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Flynn&#8217;s final submission on this issue was that both state immunity and issue estoppel are principles of public policy, and that the principle of issue estoppel should give way to state immunity because the latter is of a higher order of importance, being concerned as it is with the United Kingdom&#8217;s international obligations. This was said to lead to the conclusion that issue estoppel does not apply when the court is considering whether an exception to immunity applies, so that the court must consider this question without regard to the decision of the foreign court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept this submission. The public policy of the United Kingdom so far as state immunity is concerned is reflected in the provisions of the State Immunity Act 1978. When a question of state immunity arises, the court is obliged to give effect to those provisions, no more and no less. That means that it will need to decide whether an exception to immunity applies, applying the ordinary rules of English law. Although issue estoppel is founded on the principle of public policy that there should be finality in litigation, it is (as I have explained) a rule of substantive law. When a court decides that an exception to immunity applies as a result of an issue estoppel arising from a decision of a foreign court, it is simply applying that rule as part of English law. There is no question of making a choice between competing public policies. In any event, even if such a choice arose, it is difficult to see how giving effect to a foreign judgment against a state which satisfies the requirements for recognition and enforcement contained in section 31 of the Civil Jurisdiction and Judgments Act 1982 (which I consider further below) could offend against public policy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For completeness on this issue I should record that the question whether a court can base its decision as to the existence of state immunity on an issue estoppel arising from the decision of a foreign court could have arisen for decision in the Singapore case of <span style="font-style:italic">Republic of India v Deutsche Telekom AG</span> [2023] SGCA(I) 10. That case involved an application by Deutsche Telekom to enforce in Singapore a foreign arbitral award made against the Republic of India. The seat of the arbitration was Switzerland, where an application by the Republic of India to set aside the award on the basis that the tribunal did not have jurisdiction had been dismissed. The issue for decision in Singapore raised the question of how an enforcement court should treat an earlier decision of the seat court as to the validity of the award. The Singapore Court of Appeal held that the decision of the seat court gave rise to an issue estoppel. Chief Justice Sundaresh Menon gave the principal judgment, with which the other members of the court (including a former Deputy President of the United Kingdom Supreme Court and a former Chief Justice of the High Court of Australia) agreed. He said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;4. In our judgment, as a matter of Singapore law, transnational issue estoppel does apply in the context of international commercial arbitration and its effect is to prevent the parties to a prior decision of the seat court, in certain circumstances, from re-litigating points that were previously raised and determined. &#8230;&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court&#8217;s reasoning was set out later in the judgment as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;97. It should be noted that when dealing with the question of the enforcement of a foreign arbitral award, the New York Convention does not operate in isolation because the domestic law of the enforcement court also comes into play (<span style="font-style:italic">UNCITRAL Secretariat Guide on the Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York, 1958)</span> (United Nations, 2016) at pp 2-3). The latter includes its conflict of laws rules and how it treats judgments that are relevant and rendered by other jurisdictions. Singapore&#8217;s conflict of laws rules include the principle of transnational issue estoppel that were laid down in <span style="font-style:italic">Merck Sharpe</span> [<span style="font-style:italic">Merck Sharp &amp; Dohme Corp v Merck KGaA</span> [2021] 1 SLR 1102]. It follows that the doctrine of transnational issue estoppel will apply in the arbitral context as &#8220;part of the residual domestic law applicable in setting aside or enforcement proceedings&#8221; (see <span style="font-style:italic">BAZ v BBA</span> [2020] 5 SLR 266 at [37]). This is especially so because the IAA [International Arbitration Act] is silent on this issue, and what is not governed by it must necessarily be governed by the other rules of domestic law (see <span style="font-style:italic">Report of the United Nations Commission on International Trade Law on the Work of its 18</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> Session </span>(UN Doc A/40/17/ 3-21 June 1985) at para 61).&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although the Republic of India&#8217;s starting point was a challenge to the jurisdiction of the Singapore court on the ground of state immunity, the Singapore State Immunity Act 1979 being in material respects to the same effect as the United Kingdom Act, and although the issue was whether India had agreed in writing to submit the dispute to arbitration, Mr Flynn was correct to point out that India did not suggest that issue estoppel based on the decision of a foreign court (i.e. what the court described as &#8216;transnational issue estoppel&#8217;) could not apply specifically on the issue of state immunity. He was therefore correct to submit that the argument which he advances in the present case was not raised, and was not decided, by the Singapore Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nevertheless, the decision arose on materially the same facts as those of the present case, with a legal framework materially the same as in England. The case confirms that on matters not expressly governed by the applicable statute the court will apply its domestic law, which (in the case of both Singapore and England) includes issue estoppel. It confirms also that there is no reason why the decision of a foreign court whether a state has agreed in writing to submit a dispute to arbitration should not give rise to an issue estoppel. Mr Flynn therefore has to submit, as he does, that the fact that the point arises on a claim for state immunity makes all the difference, and that the argument which he advances in the present case was missed not only by counsel, but by the distinguished members of the Singapore Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Section 31 of the Civil Jurisdiction and Judgments Act 1982</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As well as supporting the judge&#8217;s reasoning, Mr Crow submitted that section 31 of the Civil Jurisdiction and Judgments Act 1982 provides an alternative route to the same outcome. He submitted that the Dutch judgment would be recognised and enforced if it had not been given against a state, so that the condition in subsection (1)(a) was satisfied; and that the Dutch court would have had jurisdiction if it had applied rules corresponding to those contained in sections 2 to 11 of the State Immunity Act 1978 because Russia had initiated the Dutch court proceedings and had therefore submitted to the jurisdiction of the Dutch court, so that the condition in subsection (1)(b) was satisfied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">While I agree that the requirements of section 31 are satisfied, I do not accept this submission. I agree with the judge, and with Mr Flynn, that section 31 is not directly applicable in the present case. These are not proceedings for recognition or enforcement of a judgment given by a foreign court. Rather, they are proceedings for recognition and enforcement of a Dutch arbitration award in which the claimants invoke an issue estoppel arising from Dutch court proceedings. The requirements for recognition or enforcement of a foreign judgment set out in section 31 are relevant because no issue estoppel will arise out of a foreign court judgment against a state unless that judgment would be entitled to recognition and enforcement here. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ordinary rule that for issue estoppel to arise as a result of a foreign judgment, the foreign judgment must be entitled to recognition here, was explained by the Privy Council in <span style="font-style:italic">Gol Linhas v MatlinPatterson</span>:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;36. In <span style="font-style:italic">Carl Zeiss Stiftung v Rayner &amp; Keeler Ltd (No 2)</span> [1967] 1 AC 853 the House of Lords held that issue estoppel can be based on a foreign judgment. To give rise to such an issue estoppel, three requirements must be satisfied: see <span style="font-style:italic">DSV Silo-und Verwaltungsgesellschaft mbH v Owners of The Sennar (The Sennar) (No 2)</span> [1985] 1 WLR 490, 499 (Lord Brandon); <span style="font-style:italic">Good Challenger Navegante SA v Metalexportimport SA (The &#8220;Good Challenger&#8221;)</span> [2003] EWCA Civ 1668; [2004] 1 Lloyd&#8217;s Rep 67, para 50. First, the judgment must be entitled to recognition in accordance with the domestic rules on the recognition of foreign judgments. At common law, these rules require the judgment to be (a) given by a court of a foreign country with jurisdiction to give it and (b) final and conclusive on the merits. Second, the parties in the two actions must be the same. Third, the issue decided by the foreign court must be the same as the issue in the domestic proceedings.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 31 sets out the additional requirements for recognition and enforcement of a foreign court judgment against a state, which must therefore be satisfied if it is sought to invoke such a judgment as giving rise to an issue estoppel against that state.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Crow that the requirements in section 31(1) are satisfied in the present case. However, this does not provide a shortcut for the claimants. Rather it is an additional requirement which they must satisfy, and do satisfy, in order for an issue estoppel to arise from the decision of the Dutch court. The section does show, however, that the United Kingdom is not opposed to the recognition and enforcement of judgments against states by foreign courts in cases where the requirements of section 31(1) are satisfied.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Special circumstances</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Subject to the issue of special circumstances, which I consider next, I would therefore hold that the decision of the Dutch court that Russia had agreed in writing to submit the dispute to arbitration created an issue estoppel enforceable by the claimants and that the judge was right to give effect to this issue estoppel when deciding whether the exception to state immunity contained in section 9 of the State Immunity Act 1978 applied in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As an alternative to his primary case, Mr Flynn submitted that issue estoppel resulting from the decision of a foreign court ought not to apply to the determination whether an exception to state immunity applies because the exceptional nature of state immunity amounts to &#8216;special circumstances&#8217;. I would reject that submission. It amounts to saying that issue estoppel will never apply to an issue of state immunity, so that the exception for special circumstances would swallow the general rule.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I can see no justification for such an approach. Once it is determined, as in this case, that an issue has been finally and conclusively decided by a foreign court of competent jurisdiction, after a fair hearing in proceedings initiated by the state in which the point was fully contested, and that the judgment of the foreign court would be entitled to recognition under section 31 of the Civil Jurisdiction and Judgments Act 1982, I see no reason why effect should not be given to the issue estoppel arising from that judgment. That applies with particular force in the arbitration context when the judgment of the foreign court is given in the arbitration seat, as in this case. To give effect to the issue estoppel arising from that judgment, rather than putting the award creditor to the trouble and expense of litigating the issue all over again, seems to me to be in accordance with the demands of justice. It is also in accordance with another important public policy, recognised internationally in the New York Convention, which is that awards, even against states, should be honoured without delay and without the kind of trench warfare seen in the present case. To apply the &#8216;overriding consideration&#8217; referred to in <span style="font-style:italic">Carl Zeiss</span> and <span style="font-style:italic">The Good Challenger</span>, the application of issue estoppel in this case will work justice and not injustice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is nothing in the further matters raised as amounting to special circumstances, namely the fact that the issue of procedural fraud remains live in the Dutch proceedings and that there may be some possibility of a reference by the Dutch courts to the CJEU of an issue of interpretation of the Energy Charter Treaty. At the time when the judge dealt with these issues, the Dutch Supreme Court had remitted them to the Amsterdam Court of Appeal. As it happens, the Amsterdam Court of Appeal has now rejected Russia&#8217;s submissions on these issues. In circumstances where the only remaining issue in the Dutch proceedings is an issue of procedural fraud in the conduct of the arbitration, it is very hard to see how any issue of interpretation needing a reference to the CJEU could arise. Mr Flynn was unable to explain how it might. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event, whatever surviving possibility there may be that the Dutch Supreme Court will now reverse the decision of the Court of Appeal, or that there may be such a reference, these issues have nothing to do with the question whether Russia agreed in writing to submit the dispute to arbitration. That issue has been finally and conclusively determined by the Dutch courts, as the judge found, and that is not challenged by Russia on this appeal. In those circumstances the matters now relied on cannot provide a reason not to give effect to that determination by way of issue estoppel in deciding Russia&#8217;s challenge to the jurisdiction of the English court. Whether they may be relevant at any later stage of these proceedings is not a matter which we need to consider now.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">While I have concluded, in agreement with the judge, that there are no special circumstances in this case which would provide a reason not to give effect to the decision of the Dutch courts, it is relevant to note that the fact that the question of special circumstances needs to be considered demonstrates that the English court does not blindly follow the decision of the foreign court which is said to give rise to the issue estoppel. Instead it makes up its own mind whether special circumstances apply or, in other words, it considers for itself the overriding question whether the application of issue estoppel in any given case will work justice or injustice. As Mr Crow put it, the English court does not abdicate its responsibility to decide whether state immunity applies.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Treaty interpretation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Flynn submitted, with respect somewhat faintly, that issues of interpretation of the Energy Charter Treaty arise in this case, and that this is a reason why the English court should decide for itself whether Russia has agreed to submit the dispute to arbitration, without regard to the decision of the Dutch courts. Ultimately, however, he accepted that this did not provide any reason in principle why issue estoppel should not apply if his primary submissions fail, but was merely a further reason why the English court should be cautious before giving effect to an issue estoppel.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the judge adopted all appropriate caution and there is nothing in this makeweight point. That is all the more so as Mr Flynn omitted to identify the issues of interpretation of Article 45 of the Treaty which he said would need to be resolved.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge was right to decide, applying the principle of issue estoppel, that Russia had agreed in writing to submit the dispute to arbitration; that the exception to immunity in section 9 of the State Immunity Act 1978 therefore applied; that Russia is therefore not immune from the adjudicative jurisdiction  of the English court; and that its challenge to the jurisdiction of the English court must be dismissed. I would dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LORD JUSTICE ZACAROLI</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LORD JUSTICE LEWISON</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

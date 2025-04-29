@@ -1,0 +1,487 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/220"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/220"/>
+	  <FRBRdate date="2025-02-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="220"/>
+	  <FRBRname value="Peter Stead v Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/220"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/220"/>
+	  <FRBRdate date="2025-02-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/220/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/220/data.xml"/>
+	  <FRBRdate date="2025-02-24T13:04:06" name="transform"/>
+	  <FRBRdate date="2025-02-24T13:38:15" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-17" refersTo="#decision" source="#"/>
+	<eventRef date="2025-02-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="peter-stead" href="" showAs="PETER STEAD"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>220</uk:number>
+	<uk:cite>[2025] UKFTT 220 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>3cdc0c90f19a01a61fa334235f06a4ecaefa8c236fe748d1cdb77bc4a1bc3e56</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:Arial;font-size:11pt;color:#000000">Neutral citation number: </span><neutralCitation style="font-family:Arial;font-size:11pt;color:#000000">[2025] UKFTT 00220 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:Arial;font-size:11pt"> Case Reference: FT/EA/2024/0266</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial;font-size:11pt">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial;font-size:11pt">General Regulatory Chamber</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:Arial;font-size:11pt">Information Rights </docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decision given on: </span><docDate date="2025-02-24" refersTo="#decision" style="font-weight:bold;font-family:Arial;font-size:11pt">24 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">JUDGE HAZEL OLIVER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">MEMBER MARION SAUNDERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">MEMBER STEPHEN SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#peter-stead" style="font-weight:bold;text-transform:uppercase;font-family:Arial;font-size:11pt">PETER STEAD</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:Arial;font-size:11pt">INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decision: </span><span style="font-family:Arial;font-size:11pt">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Background to Appeal</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:Arial;font-size:11pt">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">This appeal is against a decision of the Information Commissioner (the &#8220;Commissioner&#8221;) dated 11 July 2024 (IC-295360-G0T7, the &#8220;Decision Notice&#8221;).  The appeal relates to the application of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;).  It concerns information about diversity data for all applicants to three funding programmes and for employment requested from the British Film Institute (&#8220;BFI&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:Arial;font-size:11pt">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The parties opted for paper determination of the appeal. The Tribunal is satisfied that it can properly determine the issues without a hearing within rule 32(1)(b) of The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 (as amended). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:Arial;font-size:11pt">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">On 19 January 2024, the Appellant wrote to BFI and requested the following information (the &#8220;Request&#8221;): </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.39in;text-indent:-0.39in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;Please send to me the diversity data for all the applicants, for all that which is listed on the below webpage. Please use the same headings and categories the webpage uses. Please list by year and use numerical percentages, but input into an excel or .csv spreadsheet.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p style="text-align:justify"><span style="font-family:Arial;font-size:11pt">This referred to BFI&#8217;s diversity and inclusion page on its website.  This page links to diversity and inclusion data for employment for 2018 to 2023, which relates to the people they actually employ.  The page also links to diversity and inclusion data for three types of funding from 2018 onwards, relating to successful applicants for each type of funding. The page does not provide data for all applicants (which is what the Appellant has asked for).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:Arial;font-size:11pt">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">BFI responded on 16 February 2024.  The response provided some data on applicants for funding, but explained that the full information requested could not be provided as it would exceed the cost limit in section 12(1) FOIA.  They explained that equality monitoring forms are kept separate from actual applications, and so would need to be collated with each application.  The response did not specifically address the employment data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:Arial;font-size:11pt">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The Appellant requested an internal review.  BFI maintained that they could not provide the information due to cost, confirmed that a manual process of matching diversity monitoring data with applications would be needed, and provided an explanation of how long it would take to provide the information for a small sample of 210 applications.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:Arial;font-size:11pt">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The Appellant complained to the Commissioner on 16 March 2024.  The Commissioner decided that the cost of compliance would exceed the limit for information about the funding applications, based on the information provided by BFI about how it would need to do the exercise.  The Decision Notice did not address the employment data.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:Arial;font-size:11pt">The Appeal and Responses</span></heading>
+	  <paragraph eId="para_7">
+	    <num style="font-family:Arial;font-size:11pt">7.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The Appellant appealed on 12 July 2024.  His grounds of appeal raise four main points:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">BFI could respond to the Request without needing to match the diversity data on monitoring forms against actual applicants &#8211; they would just need to collate the diversity forms themselves by fund and year.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_2_1">
+	    <num style="font-family:Arial;font-size:11pt;text-indent:0.39in">b.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.89in"><span style="font-family:Arial;font-size:11pt">The webpage includes employment data and this has been ignored in the response.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">BFI have referred to monitoring &#8220;reach&#8221;, in which case why do they not already have these figures?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">d.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">If BFI only know the diversity profile of applicants once they are successful, how do they work to the diversity targets they mention?</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:Arial;font-size:11pt">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The Commissioner&#8217;s response maintains that the Decision Notice was correct.  The Commissioner says that he asked for some additional information from BFI during the appeal process, and submits that the Appellant&#8217;s proposed method to correlate the data would not yield the specific information that has been requested.   The Commissioner agrees that the request for employment data had been overlooked, but says this would simply increase the cost.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:Arial;font-size:11pt">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The Appellant submitted a reply which maintains that it is not necessary for BFI to match equality monitoring forms with the actual applications in order to provide a response.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:Arial;font-size:11pt">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">BFI was ordered to provide information and a witness statement by Directions of Judge Buckley on 16 September 2024.  BFI&#8217;s written submissions and evidence are discussed below.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Applicable law</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:Arial;font-size:11pt">11.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The relevant provisions of FOIA are as follows.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">1</span><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">General right of access to information held by public authorities.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_1">
+	    <num style="font-style:italic;font-family:Arial;font-size:11pt">(1)</num>
+	    <intro>
+	      <p style="text-align:justify;text-indent:0.89in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:Arial;font-size:11pt">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_2">
+	    <num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+	    <intro>
+	      <p style="text-align:justify;text-indent:0.89in"><span style="font-style:italic;font-family:Arial;font-size:11pt">if that is the case, to have that information communicated to him.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_3">
+	    <num style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">2</num>
+	    <intro>
+	      <p style="text-align:justify;text-indent:0.89in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Effect of the exemptions in Part II.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(2)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:Arial;font-size:11pt">In respect of any information which is exempt information by virtue of any provision of Part II, section 1(1)(b) does not apply if or to the extent that&#8212;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the information is exempt information by virtue of a provision conferring absolute exemption, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:Arial;font-size:11pt">in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;..</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">12</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt;color:#000000">Exemption where cost of compliance exceeds appropriate limit.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(1)</num>
+	      <intro>
+		<p style="margin-left:0.79in"><span style="font-style:italic;font-family:Arial;font-size:11pt;color:#000000">Section 1(1) does not oblige a public authority to comply with a request for information if the authority estimates that the cost of complying with the request would exceed the appropriate limit.</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">58</span><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Determination of appeals</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(1)</num>
+		<content>
+		  <p style="text-align:justify;text-indent:0.5in"><span style="font-style:italic;font-family:Arial;font-size:11pt">If on an appeal under section 57 the Tribunal considers&#8212;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_4">
+	    <num style="font-style:italic;font-family:Arial;font-size:11pt">(a)</num>
+	    <intro>
+	      <p style="text-align:justify;text-indent:0.89in"><span style="font-style:italic;font-family:Arial;font-size:11pt">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:Arial;font-size:11pt">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:Arial;font-size:11pt">(2)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:Arial;font-size:11pt">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:Arial;font-size:11pt">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The &#8220;appropriate limit&#8221; under section 12(1) is &#163;600 for central government and &#163;450 for any other public authority (regulations 3(2) and 3(3) of the Freedom of Information and Data Protection (Appropriate Limits and Fees) Regulations 2004).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:Arial;font-size:11pt">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">Costs are estimated at a rate of &#163;25 per person per hour (Regulation 4(4)).  This means that the limit for a public authority (which is not central government) is exceeded after 18 hours of work.  The costs which a public authority can take into account are set out in Regulation 4(3) as follows: (a) determining whether it holds the information; (b) locating the information, or a document which may contain the information; (c) retrieving the information, or a document which may contain the information; and (d) extracting the information from a document containing it.  Requests from the same person can be aggregated for the purposes of assessing costs if they relate to the same or similar information and are received within 60 consecutive working days (Regulation 5).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:Arial;font-size:11pt">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">A public authority does not have to provide a precise calculation of the cost of complying with a request, only an estimate is required. However, it must be a reasonable estimate. </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">McInerney v Information Commissioner and the Department for Education</span><span style="font-family:Arial;font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2015/0047" uk:canonical="[2015] UKUT 0047 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 0047 (AAC)</ref> para 40 states, </span><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;[s12(1)]&#8230;depends on an estimate and&#8230;the issue for the Commissioner is whether the estimate is reasonable. If the public authority relies on the section before the Tribunal it will take the same approach as the Commissioner would</span><span style="font-family:Arial;font-size:11pt">.&#8221;  As stated by the Upper Tribunal in </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Kirkham v Information Commissioner</span><span style="font-style:italic;font-family:Arial;font-size:11pt"/><span style="font-family:Arial;font-size:11pt"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/126" uk:canonical="[2018] UKUT 126 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 126 (AAC)</ref>, paragraph 24, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">An estimate involves the application of a method to give an indication of a result. In the case of FOIA, the result is whether the cost of compliance would exceed the appropriate limit (regulation 4(1)). It follows that the method employed must be capable of producing a result with the precision required by the legislation in the circumstances of the case. The issue is whether or not the appropriate limit would be reached. The estimate need only be made with that level of precision. If it appears from a quick calculation that the result will be clearly above or below the limit, the public authority need not go further to show exactly how far above or below the threshold the case falls</span><span style="font-family:Arial;font-size:11pt">.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:Arial;font-size:11pt">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The appropriate limit is assessed on the basis of the information storage and retrieval systems that a public authority actually has - not the ideal systems, or the systems that an appellant thinks a public authority ought to have (</span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Commissioner of Police for the Metropolis v Information Commissioner and Mackenzie</span><span style="font-family:Arial;font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2014/0479" uk:canonical="[2014] UKUT 0479 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 0479 (AAC)</ref>).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Issues and evidence</span></heading>
+	  <paragraph eId="para_16">
+	    <num style="font-family:Arial;font-size:11pt">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The issue is whether the cost of complying with the Request would exceed the limit of 18 hours of work, meaning that BFI can rely on the exemption in section 12(1) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:Arial;font-size:11pt">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">By way of evidence and submissions we had the following, all of which we have taken into account in making our decision:</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_1">
+	    <num style="font-family:Arial;font-size:11pt;text-indent:0.39in">a.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.89in"><span style="font-family:Arial;font-size:11pt">An agreed bundle of open documents.  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">Written submissions from BFI dated 14 October 2024 and some example monitoring forms.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">A witness statement from Stephanie Franklin-Burns</span><span style="font-family:LiberationSerif">, </span><span style="font-family:Arial;font-size:11pt">Operations Manager in the Operations, Partnerships and Projects team at BFI.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Witness Evidence</span></heading>
+	  <paragraph eId="para_18">
+	    <num style="font-family:Arial;font-size:11pt">18.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The witness statement from Ms Franklin-Burns covers the following key points:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">She is the Operations Manager and solely responsible for providing certain reporting on BFI awards. She is the main point of contact for all equality monitoring forms (EMFs) that are used to collect sensitive personal data.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">EMFs are held in two locations &#8211; Blackbaud Grantmaking (BBGM) and JotForm. BBGM was used to collect EMFs from 2017. It is not possible to filter all EMFs by the fund their associated project was submitted to because the form did not initially collect this information. Later BBGM EMFs are grouped by fund or strand. JotForm EMFs have been used since a funds relaunch in 2023/24, they are grouped by fund and so more easily filtered.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">Even where EMFs are grouped by fund, it is not possible to confidently group submissions by year. Project teams can change resulting in a new EMF which is relevant to a previous year, but redundant EMFs are not removed and they do not have the resources to maintain thousands of forms in this way. Project teams also often submit EMFs days or weeks after the main application, which can cause them to fall into a different year. EMFs can be grouped by year, but there is no confident way to determine the data is accurate.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">d.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in"><span style="font-family:Arial;font-size:11pt">As requested in the Tribunal&#8217;s directions, she also explains the steps to match an EMF to a successful application and produce statistics on these applications. There is no digital connection point between the application and its associated EMF. The process is done via a combination of matching up the name of the project, the organisation name (or name of lead contact/producer), the date the EMF was submitted and the fund that it was submitted under. A visual check is needed to ensure the correct form is being used. The content needs to be verified and standardised, as not every submission may use the same terminology. There are also differences between BBGM and JotForm exports which require manual checking to ensure the same data sits in the same excel columns. Each column of data reported against must be tallied and manually verified within an excel spreadsheet that collates the EMF submission answers together. A further table is created from this tallied data which also must be verified (to check formulas are working). The statement provides time estimates which give a total of 7 to 8 hours of work for around 200 projects.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Discussion and Conclusions</span></heading>
+	  <paragraph eId="lvl_6_1">
+	    <num style="font-family:Arial;font-size:11pt">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">In accordance with section 58 of FOIA, our role is to consider whether the Commissioner&#8217;s Decision Notice was in accordance with the law.  As set out in section 58(2), we may review any finding of fact on which the Decision Notice was based.  This means that we can review all of the evidence provided to us and make our own decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_6_2">
+	    <num style="font-family:Arial;font-size:11pt">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We start with the data relating to funding. The Appellant&#8217;s main argument is that a matching exercise is not necessary. He says that BFI could simply collate the information he has requested from the diversity forms.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_6_3">
+	    <num style="font-family:Arial;font-size:11pt">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We have considered the information provided in the witness statement and written submissions from BFI. For the time period requested by the Appellant, it seems that EMFs were held in BBGM (as JotForm was not used until 2023/4). The earlier EMFs in BBGM did not specify the fund at all. Even where they did specify the fund, they might be duplicates or relate to a different year due to the way they were provided to and completed by the applicants. BFI&#8217;s submissions explain that applicants generally do not fill in the EMF until they have submitted the main application, often there are delays as up to six individuals may be attached to a project, and the process is repeated if team members change. The witness evidence explains further why there may be duplicate forms which are not removed from the system, and why EMFs may be provided in a different year from the application.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_6_4">
+	    <num style="font-family:Arial;font-size:11pt">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We are satisfied from the evidence and submissions provided to us by BFI that it is not possible to produce accurate data for all applicants through an automated process, and manual checks are necessary. It is also not possible to collate this data from the EMFs without matching them to the actual applications, which are held separately and not linked &#8211; not least because some of the EMFs held in BBGM do not even name the relevant project. The Appellant has argued that the information he has requested could be provided by looking at the content of each EMF, its name and where it is stored. However, we find that this is not possible because of the way in which the information is collected and stored.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_6_5">
+	    <num style="font-family:Arial;font-size:11pt">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We have considered the information in the witness statement about the steps involved in matching EMFs with successful applications and producing statistics on these successful applications. We accept that these are the steps that Ms Franklin-Burns would have followed to produce the statistics that are shown on BFI&#8217;s website, relating to successful applications only. We also accept that the total of 7 to 8 hours for around 200 applications is a reasonable estimate, based on her explanations. There are a number of stages to the manual checks, but these are necessary to ensure that the data is accurate. This may seem unnecessarily time consuming to the Appellant, but public authorities are required to provide accurate information in response to a FOIA request, and this is what is needed to ensure accuracy. The Appellant may feel that BFI should have had a more efficient system than BBGM, but the costs calculation is based on the systems that the public authority actually has.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:Arial;font-size:11pt">19.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We find that the same steps would have been needed to produce the information requested by the Appellant for all applications (whether successful or not) broken down over a number of years. We accept that this would involve thousands of applications. Based on the 7 to 8 hours of work for 200 applications, it is clear that the costs limit of 18 hours of work would be exceeded.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:Arial;font-size:11pt">20.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">Turning to the employment data, the Appellant also requested the same information about all applicants for the employment data that is shown on the BFI website. He is correct that this was not dealt with in BFI&#8217;s response or in the Decision Notice. It is part of the Request, and should have been dealt with. We can address this issue in our decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:Arial;font-size:11pt">21.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">The BFI&#8217;s website gives diversity statistics for actual employees only. BFI&#8217;s written submissions confirm that they do not have any further statistics on BFI employees. It is therefore unclear whether they even hold the requested information about unsuccessful applicants. In any case, we have found that the costs limit would already be exceeded in relation to the information about funding. Collation of further information about applicants for employment would only add to the costs burden.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:Arial;font-size:11pt">22.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We have also considered the other points of appeal. The Appellant has questioned why BFI do not already have the requested information about applicants for funding if they monitor &#8220;reach&#8221;. BFI&#8217;s written submissions state, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">We do not monitor reach at the application stage only of successful applicants</span><span style="font-family:Arial;font-size:11pt">&#8221;. Based on this confirmation, we accept that BFI do not produce equality monitoring statistics relating to unsuccessful applicants. The Appellant also asks how BFI works to the diversity targets they mention if they only know the diversity profile of applicants once they are successful. BFI&#8217;s written submissions state, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">Inclusion targets relate to successful applicants only</span><span style="font-family:Arial;font-size:11pt">&#8221;. Again, we accept that this means BFI do not produce equality monitoring statistics relating to unsuccessful applicants. The Appellant might feel that BFI should be producing these statistics in order to monitor reach and targets, but that is not relevant to the issues the Tribunal has to decide. We are satisfied that BFI does not already hold the information sought by the Appellant.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:Arial;font-size:11pt">23.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">In his reply to the Commissioner&#8217;s response, the Appellant suggests a &#8220;way forward&#8221;. He says that BFI has already provided correct applicant figures by fund and year, and could do the same exercise for employment figures. He could then be sent the equality monitoring forms and create a spreadsheet himself. This is not an option that the Tribunal can consider ordering, as it would be a new request for information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:Arial;font-size:11pt">24.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:Arial;font-size:11pt">We therefore find that the cost of complying with the Request would exceed the limit of 18 hours of work, meaning that BFI can rely on the exemption in section 12(1) FOIA. We dismiss the appeal.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:Arial;font-size:11pt">Signed</span><marker name="tab"/><span style="font-family:Arial;font-size:11pt">Judge Hazel Oliver</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:Arial;font-size:11pt">Date:  </span><docDate date="2025-02-17" refersTo="#decision" style="font-family:Arial;font-size:11pt">17 February 2025</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1092 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/19"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/19"/>
+	  <FRBRdate date="2025-02-04" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="19"/>
+	  <FRBRname value="Dr K Sharma v University of Portsmouth"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/19"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/19"/>
+	  <FRBRdate date="2025-02-04" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/19/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/19/data.xml"/>
+	  <FRBRdate date="2025-03-03T10:57:59" name="transform"/>
+	  <FRBRdate date="2025-03-03T14:21:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-mr-justice-linden" href="/judge-mr-justice-linden" showAs="MR JUSTICE LINDEN"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>19</uk:number>
+	<uk:cite>[2025] EAT 19</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>23a88dd9f4bf9325319d2f6ae679e08a30d1525da62d43439904d28623e22455</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { text-align: justify; margin-left: 1.18in; margin-right: 0.6in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .NormalWeb { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .BodyTextChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Sharma v University of Portsmouth</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 19</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2024-000271-RS</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-02-04" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">4 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-linden" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MR JUSTICE LINDEN</judge></p>
+      <p><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DR K SHARMA</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">- and -</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">UNIVERSITY OF PORTSMOUTH</span></p>
+      <p><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR RAD KOHANZAD, Counsel </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Direct Access</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR NICHOLAS SMITH </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Guildhall Chambers</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 4 February 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Direct race discrimination; calculation of compensation.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This was an appeal against the ET&#8217;s award of compensation for direct race discrimination. The criticisms of the decision were essentially that the ET failed to take into account certain relevant considerations and erred in its approach to the ACAS uplift. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Held</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">: appeal allowed in respect of certain grounds but not others. Remission to the same ET to consider, afresh, the points on which it erred.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR JUSTICE LINDEN:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal from a judgment of the Southampton Employment Tribunal (&#8220;the ET) - Employment Judge Rayner sitting with Ms A Sinclair and Ms C Date - after a remedies hearing which was held on 23 to 25 October 2023 (&#8220;the Remedy Judgment&#8221;).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In a judgment on liability, which was sent to the parties on 29 November 2024 (&#8220;the Liability Judgment&#8221;), the ET had upheld a number of complaints of direct race discrimination contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> which the appellant, Dr Sharma, had brought against the respondent (&#8220;the University&#8221;).  It also upheld one of her complaints of victimisation contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> but dismissed the others. Following two reconsiderations, the total sum awarded to Dr Sharma by the ET was &#163;286,702.80 for general and special damages, with damages for loss of pension to be determined in due course. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 29 April 2024, Mr John Bowers KC, sitting as a Deputy High Court Judge, gave permission to appeal on six of Dr Sharma&#8217;s eight Grounds of Appeal which he found were reasonably arguable provided they reflected Dr Sharma&#8217;s arguments at the remedy hearing, which she would need to demonstrate.  Permission was refused on Grounds 6 and 7.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Sharma was not legally represented in the proceedings before the ET but is represented in the appeal by Mr Rad Kohanzad.  Mr Nicholas Smith represented the University before the ET and in this appeal.  Both counsel presented their submissions in writing and orally in a clear, realistic, and helpful manner.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given the nature and scope of the grounds of appeal, it is not necessary for me to give more than a very broad overview of the background.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dr Sharma was employed by the University from January 2010, initially as a lecturer and then as a senior lecturer from June 2013, which is a Grade 8 post.  In 2015, she was appointed to the role of Associate Head of Subject Group in Organisational Studies and Human Resources Management.  This was a five-year secondment from 1 January 2016 to 31 December 2020.  In October 2020, in anticipation of the end of the five-year term, this post was advertised and Dr Sharma and two others applied.  Her application was unsuccessful and a Ms Collier got the job.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 11 March 2021, Dr Sharma issued proceedings in the Employment Tribunal alleging a number of acts of direct race discrimination and victimisation.  The allegations of race discrimination were based on her Indian heritage and they comprised various complaints about how she had been treated, in the main by her head of department Professor Gary Rees.  In a detailed 67-page judgment, the ET upheld all of Dr Sharma&#8217;s complaints of direct race discrimination, principally on the basis that Professor Rees had been significantly influenced by race in the treatment of her of which she complained.  The claims which were upheld were set out at the beginning of the ET&#8217;s Liability Judgment as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;1.1.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">on or around 8 January 2016 the respondent required the claimant to report on various work-related items before allowing her to travel to India upon the death of her father;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">1.2.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">on 14 January 2016 Gary Rees contacted the claimant regarding work-related matters during a period of bereavement leave;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">1.3.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">in or around January 2016 the respondent failed generally to respect the claimant&#8217;s bereavement leave;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">1.4.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">in or around February 2017, and during the critical illness of her infant son the respondent failed to provide the claimant with support she requested;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">1.5.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">In or around September 2018 Mr Rees declined to discuss the interview of Karen Harman with the claimant, who was chair of the interview panel and instead discussed such matters with another member of the panel;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">1.6.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold">In 2018/2019 Mr Rees discouraged the claimant from undertaking the Senior Fellow of Higher Education Academy Qualification</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">1.7.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold">The respondent failed to notify or otherwise bring to the claimant&#8217;s attention the internal advertisement for the role of Associate Head of Subject Group in Organisational Studies and Human Resource Management (the role);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">1.8.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold">the respondent did not reappoint the claimant to the role;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">1.9.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold">the respondent appointed Kerry Collier to the role</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">1.10.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">the respondent failed satisfactorily or at all to provide the claimant with feedback on her unsuccessful application for the role&#8221; (emphasis added)</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The important findings of discrimination for the purposes of the appeal are the findings at paragraphs 1.6 to 1.9.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET went on to determine remedy in a detailed judgment which runs to 76 pages.  That judgment was then subject to two reconsiderations, as a result of which relatively minor changes were made.  Much of the Remedy Judgment is not criticised by Mr Kohanzad on behalf of Dr Sharma but there are, as I have said, six specific aspects of the ET&#8217;s findings which he challenges.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The nature of the grounds of appeal is such that it is not necessary to say a great deal about the legal framework which is, in any event, very well-established.  Dr Sharma&#8217;s appeal does not challenge the ET&#8217;s self-directions of law.  Rather, the essential nature of the grounds is that the ET failed to take into account relevant considerations and/or reached certain findings on the basis of flawed reasoning.  Counsel&#8217;s skeleton arguments therefore make barely any reference to the law applicable to the calculation of compensation for discrimination. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Suffice it to say, then, that drawing on the decision of the Court of Appeal in <span style="font-style:italic">Chagger v Abbey National PLC</span> <ref href="#" uk:canonical="[2010] IRLR 4" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] IRLR 4</ref>:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The ET was empowered to order the payment of compensation calculated on a tortious basis.  There was also a power to make an award for injury to feelings (see <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/124/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 124(2)</ref>(b) and (6) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> read with <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/119/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 119(2)</ref> and (4));</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The burden was on Dr Sharma to prove her case on loss and injury;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(c)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The task of the ET was, as best it could, to put her in the position in which she would have been but for the discrimination which it had found to have taken place;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(d)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The ET was therefore required to envisage a hypothetical world in which the discrimination which it had identified had not taken place and ask what would have happened, and in relation to the claim for loss of earnings, what Dr Sharma would have earned, before comparing this with what she was now likely to earn as a result of the acts of discrimination which had taken place;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(e)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">What the ET could award was not constrained by reasonable foreseeability.  It was required to compensate her for the losses which flowed directly and naturally from the University&#8217;s tortious acts;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(f)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">However, the ET was also required to consider the chances that Dr Sharma&#8217;s losses would have been sustained in any event, or as a result of lawful conduct by the University, or would not ultimately have been sustained, and to make percentage deductions accordingly; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.89in;text-indent:-0.39in">(g)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The ET&#8217;s task of assessing future loss therefore necessarily involved a degree of speculation, doing the best it could, on the basis of the evidence which it had.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground One</span></p>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Overview</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ground 1 contends that the ET failed to take into account, and award compensation which reflected, key findings of liability for race discrimination which the ET itself had made.  These are its findings at paragraph 1.6 of the Liability Judgment that, for reasons which were significantly influenced by race, Professor Rees discouraged Dr Sharma from undertaking the Senior Fellow of Higher Education Academy Qualification (&#8220;SFHEAQ&#8221;); and, at paragraph 1.7, its finding that because of her race, the University failed to notify, or otherwise bring to Dr Sharma&#8217;s attention, the internal advertisement for the role of Associate Head of Subject Group which she had been performing for the last five years.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Finding at Paragraph 1.7 of the Liability Judgment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As far as the finding at paragraph 1.7 is concerned, the position on the facts is that the vacancy was advertised on 6 October 2020.  Dr Sharma did not see it and it was not drawn to her attention.  No one applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 October 2020, which was the closing date for applications, the University therefore sent out an email to all faculty staff which drew their attention to the vacancy and extended the deadline for any applications to 23 October 2020.  Three members of staff, including Dr Sharma and Ms Collier, then applied.  The three candidates were interviewed by a three-person panel, which included Professor Rees, and Dr Sharma was not selected. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET was highly critical of Professor Rees&#8217;s failure to draw the advertisement for the post to Dr Sharma&#8217;s attention.  It found that this was &#8220;extraordinary&#8221; given that Dr Sharma had been performing the role for five years without any significant criticism and given that Professor Rees knew that she was planning to reapply at the end of the fixed term.  The ET rejected Professor Rees&#8217;s explanation that he thought that it would be unfair to the other potential candidates to do this.  It found that, consciously or subconsciously, he did not tell Dr Sharma that the post was being advertised because he was hoping that she would not apply, and that his decision not to do so was significantly influenced by race.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad draws attention to the fact that, at paragraphs 170 to 172 of the Liability Judgment, the ET made the following findings:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;170.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We started by considering the advertisement. No one replied to the first advert for the role of associate head of OSHM. The claimant did not see the advert and was not prompted by anyone that it was there. Had she seen it and applied first time, she would have been the only applicant and would not have had to face a competitive selection exercise.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">171.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">It was only when all staff were told that there was an advert and no applicants, that the three applications were received.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">172.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">All three candidates were shortlisted and invited for an interview. The interviews took place over video link, and Professor Rees was chair of the panel and the other panel members were Caroline Strevens, Charles Barker. Sally Walpole was the trained interviewer but attended as a note taker. She did not take any part in the interviews.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">His submission is that the logic of these findings is that, but for the race discrimination which the ET found, Professor Rees would have drawn Dr Sharma&#8217;s attention to the fact that the post was being advertised.  She would then have been the only applicant and she would have had a 100 per cent chance of being appointed given that there was no question that she was a good candidate, and given the statistical evidence before the ET that, in the past, the incumbent had almost invariably been reappointed if they applied to remain in their existing role.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad points out that in the Remedy Judgment, the ET did not address its own finding at paragraph 1.7 of the Liability Judgment or the consequences of this finding in terms of the losses sustained by Dr Sharma.  Instead, it went straight to its finding that there had been discrimination in the interview and selection process applicable to the three candidates who applied, and evaluated the chances of Dr Sharma being appointed if there had not been direct discrimination against her in the course of that process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As a consequence, the ET&#8217;s finding was that there was a 50 per cent chance that she would have been appointed had it not been for the discrimination by Professor Rees in the course of the selection process.  Mr Kohanzad argues that, therefore, the appeal should be allowed on Ground 1 and I should substitute a finding that it was 100 per cent likely that Dr Sharma would have been appointed had she not been discriminated against by Professor Rees in the respect identified at paragraph 1.7 of the Liability Judgment, or at least that compensation should be calculated on the basis that she would have been reappointed.  There is no need to remit the matter, submits Mr Kohanzad, given the clarity of the ET&#8217;s findings at paragraphs 170 to 172 of the Liability Judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Smith submits that paragraphs 170 to 172 should be read in the context of the ET&#8217;s findings as a whole.  Approaching the matter in this way, argues Mr Smith, it is clear that the ET cannot have been finding that the appointment of Dr Sharma would have been inevitable if Professor Rees had flagged up the advertisement to her.  It is clear that the ET had no issue with the post being advertised or with all staff being notified of the vacancy by email.  The ET directed itself correctly and had all of the relevant points in mind.  These included the statistical evidence as to the likelihood of an incumbent being reappointed, but the ET&#8217;s clear view was that this was not a case in which Dr Sharma was guaranteed reappointment and the ET&#8217;s calculations of her loss of earnings proceeded accordingly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Smith submits that the ET clearly had it very much in mind that it is inherent that a holder of a fixed term contract may have to compete for reappointment on its expiry and that success was not a forgone conclusion.  The ET looked at the matter in the round, as he submitted I should, and reached a permissible conclusion on the evidence that the chances of Dr Sharma being reappointed were 50 per cent. That finding, submits Mr Smith, is one of fact and is unimpeachable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I largely agree with Mr Kohanzad on Ground 1, but not entirely.  In my judgment, the ET erred in that it did not address the question of Dr Sharma&#8217;s loss of earnings flowing from the failure of Professor Rees, in particular, to let Dr Sharma know that the vacancy was being and/or had been advertised when it was first advertised.  On the face of paragraphs 170 to 172 of the Liability Judgment, there also appears to be a powerful argument that the logic of the ET&#8217;s own position was that Dr Sharma would inevitably have been appointed had she not been discriminated against in the manner found by the ET at paragraph 1.7 given that she would have been the only candidate and there was no reason why she would not be appointed.  Rather, there was good reason to appoint her given her experience and performance in the job. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my view, Mr Smith&#8217;s arguments all proceed on the basis that the ET addressed this point, found that there would have been a competitive process in any event, and moved on to evaluate the chances of Dr Sharma being appointed in that process. But it did not.  The ET did not address this issue at all in the Remedy Judgment and the findings of the ET in the Liability and Remedy Judgments on which Mr Smith relies were all made on the assumption, without any reasoning, that there would have been a competitive process in any event.  It is not apparent from the ET&#8217;s reasons that it was aware that it was making this assumption, and why this should be assumed is not explained.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET erred to this extent. But where I disagree with Mr Kohanzad is that I do not consider that it would be appropriate for me to substitute a finding that Dr Sharma would inevitably have been reappointed to her seconded role.  I see the force of the argument that this is the logic of paragraphs 170 to 172 of the Liability Judgment but I note that these paragraphs appear in a section of the Liability Judgment which deals with those of Dr Sharma&#8217;s complaints which found favour at paragraphs 1.8 to 1.10 rather than 1.7.  As Mr Kohanzad himself points out, the ET did not specifically address the consequences at paragraph 1.7.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also note that, as Mr Smith points out, the ET&#8217;s findings make clear that it had no issue with the advertising of the post or with what it found was the University&#8217;s usual practice of notifying all staff of vacancies by email.  As I read paragraph 120 of the Liability Judgment, that did not happen in this case until the deadline for applications expired and no one had applied.  It is not my function to make a finding on this but, on the face of the ET&#8217;s findings, it appears possible that if the University&#8217;s general practice had been followed, an email would have been sent when the post was first advertised and there would have been three applicants in any event whether or not Professor Rees had specifically spoken to Dr Sharma about the advertisement. I do not say that this is the answer which the ET gave or that it necessarily is the answer which the ET would give, particularly when the findings at paragraphs 170 to 172 of the Liability Judgment are taken into account. But I have concluded that this is not a case in which, on the face of the ET&#8217;s reasons, there is only one answer, such that I am in a position to substitute my own view.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad submitted that in adopting this approach, I would be, as he put it, &#8220;overstepping the counterfactual&#8221;.  By this he meant that all that it was permissible to do, based on well-established principles, is simply to take the discrimination out of the equation.  It would not be necessary for the ET to posit a fair, as opposed to a non-discriminatory, process. I do not agree that in adopting the approach which I have taken, I am &#8220;overstepping the counterfactual&#8221; or reaching conclusions which are inconsistent with established principle.  The effect of my conclusion is no more than that the outcome, had Professor Rees spoken to Dr Sharma about the advertisement when it was about to be published or shortly after it had been published, is unclear on the ET&#8217;s findings.  That being so, in my view, the question should be remitted to the ET when it can consider submissions of the nature that Mr Kohanzad made as to the correct legal approach, and the consequences if that approach is applied to the evidence in the present case.  That will be the role of the ET as the factfinder. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I therefore propose to remit this issue so that the ET can consider what losses, if any, flowed from the act of discrimination which it upheld at paragraph 1.7 of its Liability Judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Finding at Paragraph 1.6 of the Liability Judgment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As far as the finding at paragraph 1.6 is concerned, at paragraphs 86-118 of the Liability Judgment, the ET made detailed findings that, in summary, Dr Sharma had discussed applying for the SFHEAQ during her 2019 professional development review with Professor Rees.  He had been unsupportive of this idea, as he had been on previous occasions when she raised it.  The ET found that this was in contrast to his treatment of a white colleague to whom he had been unhesitatingly supportive and encouraging, and whose application form he had signed off without even reading it.  The ET found that the difference in the way in which Professor Rees treated Dr Sharma and her comparator was significantly influenced by the difference in race.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad submits that this finding is not addressed at all in the Remedy Judgment whereas the evidence before the ET was that the SFHEAQ was a relatively rare one and prized amongst senior academics.  Dr Sharma had argued that, had she gained this qualification, her career progress would have been enhanced, but this aspect of her case was not addressed either.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Smith does not disagree that the ET did not specifically address this successful claim but he argues that Dr Sharma did not provide specific evidence as to the impact which this act of discrimination would have had on her career progression or her remuneration.  She referred to this complaint, he says, as part of her claim for damages for injury to feelings. Nor was there any specific reference to the point in her skeleton argument.  Her focus in relation to the loss of earnings was on the failure to reappoint her, rather than the impact of her having the SFHEAQ.  Mr Smith submitted that the ET took what he called a &#8220;rounded and holistic&#8221; approach to the assessment of injury to feelings and that there is nothing in this limb of Ground 1.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Kohanzad that the impact of the finding of race discrimination at paragraph 1.6 of the Liability Judgment is not specifically addressed by the ET in its remedy decision.  I agree with Mr Smith that that feature of the case was relied on by Dr Sharma in relation to her claim for injury to feelings but, disagreeing with Mr Smith, it is clear from the documents which I have seen that this feature of the case was also relied on as part of Dr Sharma&#8217;s argument in relation to future loss of earnings and, in particular, as to her likely career trajectory. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad submitted that this issue affected Dr Sharma&#8217;s prospects of reappointment.  I am not convinced that this is a particularly compelling feature in relation to that issue but he also submitted that the finding at paragraph 1.6 of the Liability Judgment was relevant to the question which the ET had to decide as to Dr Sharma&#8217;s future career trajectory.  I accept that point and note that future career trajectory is also an issue raised under Ground 4.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So, for these reasons, I propose also to remit the question as to what losses, if any, flowed from the ET&#8217;s finding of direct race discrimination at paragraph 1.6 of its Liability Judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Grounds 2 and 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Grounds 2 and 3 are both concerned with the ET&#8217;s finding that there was a 50 per cent chance that Dr Sharma would have been reappointed assuming that there had been no discrimination by Professor Rees in the course of the selection and interview process which, in fact, took place.  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in">Ground 2 alleges that the ET ignored the statistical evidence as to the likelihood that an incumbent in a particular job will be reappointed in the event that they apply for reappointment.  This, of course, was Dr Sharma&#8217;s position.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in">Ground 3 complains that the ET wrongly failed to draw inferences about the strength of the candidates from the University&#8217;s failure to disclose the application forms of the two other candidates in the selection process.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad&#8217;s position was that Grounds 2 and 3 fall away if he was right on Ground 1: in other words, if he succeeded in persuading me to substitute a finding that Dr Sharma would have been reappointed to her existing position.  However, as I have not accepted the whole of Mr Kohanzad&#8217;s argument on Ground 1, his position, and indeed that of Mr Smith, was that I should address Grounds 2 and 3.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The principal statistical evidence on which Dr Sharma relied was that in the 18 months prior to the liability hearing, eleven out of twelve, or 92 percent, of the incumbents had been reappointed to their jobs when they reapplied.  By the time of the remedy hearing, there had been a restructure in which all six Associate Heads had been required to reapply for their jobs.  All six had been reappointed, I am told, after a competitive process.  The overall likelihood of an incumbent being reappointed, at least on the basis of the raw statistics, was therefore 94 per cent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad accepted that the ET was entitled to take into account the relative strengths of the candidates who were competing for the post in this case in assessing Dr Sharma&#8217;s chances of being appointed, but he submitted that to ignore wholesale the statistics, as he alleged the ET did, was what he called &#8220;a base rate fallacy&#8221;.  He referred me to an explanation of this concept on Wikipedia and an article in the <span style="font-style:italic">International Journal of Evidence and Proof</span> (2024, volume 28, at page 45) which explains this concept further.  Here he submitted that the ET, when it came to the remedy decision, simply ignored the statistical likelihood of Dr Sharma, as the incumbent, being reappointed in favour of the case-specific information which was simply that there were effectively two candidates for the post.  He argued that the ET&#8217;s Reasons show that the ET thought that because there were two candidates, there was a 50 per cent chance that Dr Sharma would have been appointed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his oral submissions, Mr Kohanzad drew attention to paragraphs 372 and 373 of the Liability Judgment where the ET found as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;372.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The fact that the majority of academics who had applied for their own posts in similar positions had always been reappointed does not necessarily mean that the claimant would have been reappointed in this case. Two members of the panel about whom we have made no findings or unconscious bias at all had different views about who should be selected. The third member of the panel would therefore have a deciding vote.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">373.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We think that this must mean that the claimant had at least a 50% chance of being a successful candidate and, since statistically there is a high percentage chance of the incumbent being reappointed we think her chances must realistically have been higher than 50%. This will be a matter for discussion at a remedies hearing.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad noted that, at paragraph 373, the ET appeared, at least provisionally, to be accepting that the effect of these statistical evidence was that Dr Sharma&#8217;s prospects of reappointment were likely to be higher than 50 per cent.  He said that this view was the result of the correct application by the ET of the statistical evidence: in other words, the ET avoided the base rate fallacy.  Mr Kohanzad contrasted paragraphs 372 and 373 with what the ET said at paragraphs 291 to 303 of the Remedy Judgment:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;291.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The starting point for this is whether or not, absent discrimination, the claimant would have been reappointed to the seconded post.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">292.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We have borne in mind that the evidence before us at the full merits hearing indicated that in all cases where an individual had reapplied for an extension of a secondment it had been granted except in the claimant&#8217;s case. The claimant says that this must mean that she had 100% chance of being reappointed to the post absent discrimination.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">293.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The respondent&#8217;s evidence before us in respect of the reappointment of the secondment posts is sparse.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">294.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We have no evidence before us about the circumstances of the other extended secondments. We do not know for example, whether or not anybody else applied for the posts, whether there was a competitive interview process, and if so whether the individuals were appointed following such a process for reasons of merit alone.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">295.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We accept that the nature of the fixed term contract must mean that it was at least anticipated by everybody that there was the possibility of a competitive interview situation, and an appointment of somebody different at the end of that fixed term. The fact that it had not, on the evidence before us, happened previously does not mean that it would never happen. Further we find that although the statistics were helpful to us in respect of assessment of the shifting burden of proof in this case, they were a relatively small sample, and not determinative of discrimination.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">296.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We did not find that the decision to interview and have an open competition was its self discriminatory. It was not, on our findings discriminatory to advertise the opportunity at the end of the five years. Nor on their being applications from other individuals was it discriminatory to hold a competitive process.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">297.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">In this case we have made findings of fact that the reason why the claimant was not appointed was because Mr Rees, who held what was in effect the casting vote, made decisions which was discriminatory on grounds of race.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">298.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The reason why the outcome was one which was tainted with race discrimination was because one person on the panel found racially discriminated against the claimant.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">299.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We agree with the Claimant that the statistics of what had happened in the past, suggest that there might be a high probability that she would have been re-appointed. However, the statistics of the past are not necessarily predictive of the future. Just because it had not happened before, did not been it could not happen at all. Of itself, it does not tell us what might happen, absent discrimination.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">300.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">In this case, all the evidence before us in was that there was another strong candidate applying.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">301.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The two panel members against whom we make no finding of discrimination did not agree who should be appointed. One of them favoured the claimant and one of them favoured the other job applicant. There was, absent discrimination, a chance that the claimant would not be reappointed.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">302.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We have therefore considered the impact of a non-discriminatory third person having a casting vote.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">303.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">On the evidence we have before us the most that we can say is there was a 50/50 chance that the third person would prefer the claimant. We conclude therefore that the claimant had a 50% chance of being reappointed to the grade 9 post following a fair and non discriminatory interview.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad acknowledged, in effect, that the statistical evidence was only part of the evidence on this point as the ET said.  I note in addition to this that, as the ET said, the sample was a small one.  Mr Kohanzad showed me data in relation to six particular individuals in the appeal bundle and he told me the position, as I have said, in relation to six others. But he accepted that the ET did not have a complete set of data as to, for example, the question in how many of the cases relied on by Dr Sharma had there been an unopposed rather than an opposed application for reappointment.  In other words, in how many cases had there been a competition?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also understand that there was no expert analysis before the ET as to the significance or otherwise of the statistical result and, of course, there were other limitations to the cogency of these statistics which the ET identified at paragraph 294.  No reference, I gather, was made to the base rate fallacy or to other academic statistical material as Mr Kohanzad did for the purposes of the appeal, although I accept his point that, ultimately, the argument resolved itself into the proposition that statistical data as to the likelihood of a particular event is relevant evidence in assessing (alongside the case specific data) the likelihood of that event taking place. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, however, the key point in relation to this particular Ground is that I do not accept that the ET did ignore the statistical evidence.  On the contrary, in my judgment it expressly took it into account as part of the evidence which was relevant to the issue which it had to decide.  It made detailed findings in relation to that data in both the Liability and the Remedy Judgment.  Moreover, the ET was entitled to take into account the evidence about the strength of Dr Sharma&#8217;s application, including her performance in interview, in comparison with the strength or otherwise of the applications of the other candidates.  Again, it made detailed findings about these matters in both the Liability and the Remedy Judgments.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Adopting this approach, the ET accepted that one of the candidates was not as strong as Dr Sharma and the successful candidate, Ms Collier.  However, the evidence indicated, the ET found, that Ms Collier&#8217;s application was at least a strong as Dr Sharma&#8217;s as was reflected, for example, by the fact that (leaving out Professor Rees), there was a fifty/fifty division of opinion on the panel as to who was the better candidate.  The assessments of the two other members of the panel, as the ET noted, were not tainted by discrimination.  There is, in my judgment, therefore nothing surprising about the ET&#8217;s decision that there was a 50 per cent chance that the casting vote would have gone in favour of the other candidate absent discrimination by Professor Rees.  Moreover, and importantly, that finding was expressly based &#8220;on the evidence which we have before us&#8221; (see paragraph 303 of the Remedy Judgment) rather than being based simply on reasoning from the fact that there were two front runners. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to Mr Kohanzad&#8217;s argument based on paragraph 373 of the Liability Judgment ultimately, in my view, that point is against him.  It shows that the ET very much had in mind the potential importance of the statistical evidence to this particular issue.  The two judgments of the ET should be read together and not on the basis that the ET may have forgotten its earlier findings.  When the two judgments are read together, it seems to me clear that whilst the ET&#8217;s initial provisional view was as set out in paragraph 373 of its Liability Judgment, that view was expressly a provisional view and one to which the ET said it would return at the date of the remedy decision.  That it did, and it received further argument from the parties.  It was, in my judgment, entirely consistent with that approach for the ET ultimately to come to the conclusion which it reached.  In my judgment, the ET&#8217;s treatment of these statistical evidence in coming to that conclusion was not such as to enable or to cause me to allow the appeal on Ground 2.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad says that Dr Sharma asked for disclosure of the job application forms for the two other candidates who were shortlisted but these were not disclosed, notwithstanding that they would shed light on the strength of these candidates.  He notes various passages from the Liability Judgment, including the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.79in;text-indent:-0.3in">(a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.08in">Paragraphs to 202 to 214, where the ET criticised the quality of the notes and records of the interviews of the candidates and of the decision which was taken.  There was also criticism in some instances of the lack of documents which the ET would have expected to be created, such as scoring sheets;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.79in;text-indent:-0.3in">(b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.08in">Paragraphs 224 to 225, where the ET criticised the University&#8217;s failure promptly or satisfactorily to provide feedback to Dr Sharma when she requested it in relation to the decision not to reappoint her;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.79in;text-indent:-0.3in">(c)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.08in">Paragraphs 231 to 239, where there were further criticisms by the ET of the quality and completeness of the documents which had been provided by the University on disclosure, and to Dr Sharma when she asked for an explanation for the decision not to appoint her.  These included the following findings:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:12pt">&#8220;233.</num>
+		    <content>
+		      <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The Claimant was entitled to received complete documents as part of disclosure, and these were of direct relevance to her claim. This is not the only example of the Respondent failing to provide the Claimant and the Tribunal with relevant documentation.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:12pt">234.</num>
+		    <content>
+		      <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We find that the failure to provide the documents the appropriate times is indicative of a reluctance on the part of the respondents from the point of her initial complaint to provide her with any of the information she needed to challenge the decision made. We have asked whether or not this was due to incompetence but find that it was not.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The criticisms which Mr Kohanzad highlighted formed part of the ET&#8217;s reasons for finding that there had been direct discrimination in the manner alleged by Dr Sharma. He makes no complaint in this regard but he says that if the ET was to say, as it did, that the statistics did not reliably predict the outcome of the selection process and that it was necessary to consider the evidence about the strengths of the candidates, these documentary failings should have been taken into account as the basis for inferences when considering the likelihood that Ms Collier would have been appointed, rather than Dr Sharma.  In particular, the ET should have found that the University had deliberately withheld disclosure of the application forms of the two other candidates so that it would not be apparent to the ET that Dr Sharma was the strongest candidate and, in particular, a stronger candidate than Ms Collier.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Smith argues that the failings in relation to documents identified by the ET in the Liability Judgment did not include findings that there had been a failure to disclose the application forms of the two other candidates.  There is no finding in favour of Dr Sharma in this regard and, if this was a failing on the part of the ET, there ought to have been a challenge to the Liability Judgment on the basis that it was not <span style="font-style:italic">Meek</span> compliant.  Moreover, there was no finding by the ET that Ms Collier was not appointable, or did not have the necessary competencies to perform the role.  On the contrary, the ET found that she was a strong candidate.  The University&#8217;s case was based on her performing better in the interview.  Disclosure of the application forms therefore would have made little or no difference to the ET&#8217;s analysis and nor could any inference be drawn from a failure to disclose these forms.  The ET had its criticisms of the selection process well in mind when it reached its conclusions and the Appeal Tribunal should not interfere with what was essentially a question of fact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ultimately, I am persuaded that the ET erred in failing to address Dr Sharma&#8217;s complaint that she had sought disclosure of the application forms of the two other candidates in the selection process but these documents had been refused.  That complaint was made at at least two points in the documents which she submitted in support of her case for the purposes of the remedy hearing.  Mr Smith&#8217;s suggestion that Dr Sharma should have challenged the ET&#8217;s findings on liability is, with respect to him, unreal given that she won on all of the relevant points.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In relation to the question whether Dr Sharma had asked for disclosure of the application forms and this had been refused, Mr Smith did not challenge this claim in the Respondent&#8217;s Answer or in his skeleton argument.  In his oral submissions, having taken instructions, he told me that Dr Sharma had made a freedom of information request for these documents and that the University had refused to provide them on the grounds that it considered that it was constrained by data protection principles to withhold sensitive personal data about the other candidates.  He told me that his understanding was that there was no further request for the documents by Dr Sharma. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given that Mr Smith told me this on the basis of instructions taken in the course of the hearing, whilst not in any way doubting what he tells me about his instructions, I do not consider that it would be appropriate for me to place reliance on that information as a basis for dismissing the appeal.  The matter can be investigated further at the remitted hearing which will take place in any event. Provided the University makes good its explanation for the nondisclosure of those forms, no doubt the Tribunal will refrain from drawing any inference.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The point remains, however, that Dr Sharma&#8217;s argument that inferences should be drawn from the failure to disclose the application forms was not addressed by the ET. Nor, more generally, does the ET appear to place any reliance at the remedy stage on the findings in the Liability Judgment in relation to documentation and its criticisms in relation to feedback provided to Dr Sharma as to why she was selected. If, as the ET found, the candidates were closely matched, it would have been open to the Tribunal to consider whether the panel might have decided to look beyond their performance in interview and to consider their application forms.  Moreover, it would have been open to the Tribunal to consider the question whether the reasons why Professor Rees, in particular, was apparently reluctant to create or provide documentation in relation to the decision that was taken included a desire not to disclose, for example, that the two other candidates were significantly weaker on paper than Dr Sharma.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Again, I do not say for a moment that those are my findings or that that is the position. Factfinding is for the ET. The short point for the purposes of the appeal is that a clear argument was put forward by Dr Sharma as to why an inference should be drawn about the strength of the successful candidate. That argument was not addressed and I cannot say, on the information available to me at least, that that argument had no real prospect of succeeding such that it would be pointless to ask the Tribunal to consider it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So, for all of these reasons, I propose to allow the appeal on Ground 3 and to remit to the ET the question of the chances of Dr Sharma being reappointed to her existing position had there been the selection exercise which took place but one which was not tainted by discrimination, as the ET put it.  That reconsideration or the reconsideration of that issue, I make clear, should be a reconsideration.  In other words, the ET should consider the question afresh taking into account all of the evidence which it received, including statistical evidence and considering whether any inferences should be drawn from the ET&#8217;s findings and Dr Sharma&#8217;s arguments about the disclosure or otherwise of relevant documentation.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 4</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ground 4 is concerned with what the future might have held for Dr Sharma had she not been subjected to race discrimination in the manner found by the ET.  The ET found that Dr Sharma would have been employed in Grade 9 post had she been reappointed but the question was whether, and if so when, she might have been promoted to a Grade 10 or a Grade 11 role in the future, with the associated increase in her pay.  The ET found that she had a 5 per cent chance of being promoted to Grade 10 and Mr Kohanzad&#8217;s contention is that, in doing so, the ET erred in failing to take into account the strength of Dr Sharma&#8217;s candidacy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The relevant passage from the ET&#8217;s Remedy Judgment, at least for the purposes of this particular Ground, are as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;308.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">Mr Sharma asserts on behalf of his wife that it can be assumed that Dr Sharma would have progressed at least two grades in her career of 26.67 remaining years before retirement. Doctor Sharma progressed two grades from lecturer to senior lecturer and then associate head in her six years from 2010 to 2016.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">309.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We accept her evidence that her career trajectory until the events involving Professor Reese had been impressive. The question we must answer is what would have happened to the claimant given a non discriminatory set of circumstances once she obtained a permanent grade 9 post, as we find she would have done, in 2023. Would she have progressed further to a grade 10 post in the following years before 2035?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">310.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">Put another way, what is the chance that she would have gained a grade 10 or a grade 11 post by 2035?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">311.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We accept that the claimant was ambitious and capable and we accept that her career trajectory had, up until the point of her illness, been impressive</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">312.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We accept the evidence of the respondent that grade 10 posts are highly sought after, not so common and that there is strong competition for them and therefore a lower probability that the claimant would have attained one of them. The probability of achieving a grade 11 is further decreased for the same reasons.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">313.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">Mr Sharma pointed to the way that some of the claimant&#8217;s colleagues, with less experience than her, and different qualifications had risen to grade 11 posts. We do not have any evidence of how many grade 9 staff applied and were failed to get grade 10 posts.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">314.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The Respondent says that the grade 8/9 is the career average for most academics. We accept that this is probably right. However, we also note that there are outliers who rise quickly, and that the reasons for doing so is likely to be a combination of ability, qualifications; experiences but also support and mentoring from appropriate staff. The claimant was very ambitious, we have no doubt that she would have applied for any and every opportunity.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">315.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We conclude that she would have remained in grade 9 for 5 years, and that she would have started to apply for any available advertised grade 10 post after a 5 year period, that is from about 2026.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">316.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We have no evidence before us of how many posts might have been advertised, or when or if they may become available, but on evidence of academic structure within the relevant respondent department in this case, we concluded that there were likely to be very few, if any, such posts advertised between 2025 and 2035. We were told of a handful in the claimant&#8217;s faculty area.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">317.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We also find that the reason why posts would have become available were likely to be because of people retiring or other people moving upwards into other positions either at the respondents or at alternative universities or as a result perhaps of restructuring. Taking all the evidence we have before us, we find that it is reasonable to have expected a relevant and appropriate opportunity to have arisen only every two years.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">318.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">Would the claimant have succeeded in obtaining one of those Positions?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">319.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The claimant would have applied for such opportunities and would have competed on a level playing field with others they were also well qualified.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">320.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">If there were 20 applications, and if we assume an equality between candidates then the claimant could reasonably be said to have had a one in 20 chance of being successful within 10 years of obtaining grade 10 post.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">321.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">We therefore calculate the loss of this chance as being 5% of the difference in salary between grade 9 and grade 10 for the 5 year period.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">322.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The claimant had aspirations to rise beyond grade 10 to Grade 11 and she may have done so. We recognise that she is ambitious and would have wanted to progress further. We all think that she would have made every effort to do so, and we all very much hope that she will recover sufficiently to be able to do so in the future.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">323.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The tribunal must decide cases on the basis of evidence before us and in this case it is not possible for us to speculate on the likelihood that the claimant would have achieved a grade 11 post. We cannot find that there was any real chance of the claimant achieving such a position. This is not any indication about our view of the claimant&#8217;s ability. But we cannot speculate on what the percentage chance is of the claimant identifying a relevant post, being willing to apply for it and being successful.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">324.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">The tribunal cannot award damages for future loss of earnings on the basis of such a speculative exercise and we do not do so in this case.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad submits that the ET simply carried out an arithmetical calculation on the basis of percentage probabilities rather than taking into account the fact that Dr Sharma would be a strong candidate for promotion.  He does not, in his pleaded case, criticise the arithmetic at paragraph 320 of the ET&#8217;s Reasons itself.  His argument is that the ET failed to address Dr Sharma&#8217;s argument that she was a stronger candidate than average and therefore more likely to move up to Grade 10 or 11 than most.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Smith submits that the task of assessing what the future would hold in terms of Dr Sharma&#8217;s prospects of promotion is necessarily speculative.  The ET heard all of the evidence and its reasoning in coming to what is a finding a fact was adequate.  The Appeal Tribunal should not interfere with this finding.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> I agree with Mr Smith on Ground 4.  Moreover, it is not the case that the ET failed to take account of Dr Sharma&#8217;s ambition and her strengths as a candidate.  The ET specifically referred to these matters in its Liability Judgment and, indeed, it referred to these matters at paragraphs 309, 311, 314, and 322 of the Remedy Judgment (cited above).  However, the ET permissibly decided that it could not assume that Dr Sharma&#8216;s future competitors for promotion would be weaker candidates than her.  It did not even know who they would be. It therefore took the only sensible course which was open to it on the evidence, or at least an approach which was permissible, which was to assume that other candidates would be equally well qualified, that is, to approach the matter on an all things being equal basis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would not, therefore, have allowed the appeal on Ground 4 on a standalone basis.  However, having allowed the appeal in relation to the finding of discrimination at paragraph 1.6 of the Liability Judgment, it seems to me that the appropriate course is to remit to the ET for further consideration the question of Dr Sharma&#8217;s prospects of promotion.  That question should be considered by the ET in the light of its finding of discrimination at paragraph 1.6 of the Liability Judgment and the other evidence available to it.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 5</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ground 5 raises an issue as to the ET&#8217;s predictions in relation to Dr Sharma&#8217;s ability to return to remunerative work in the light of the injury to feelings and the psychiatric injury which he suffered as a result of the discrimination which occurred.  Mr Kohanzad challenges the ET&#8217;s finding that, provided she received appropriate treatment, there was a 50 per cent chance that Dr Sharma would be able to return to a Grade 9 role by 2035.  He makes clear that he does not suggest that this finding was not open to the ET on the evidence.  His contention is that having said, for example, at paragraph 245 of the Remedy Judgment, that &#8220;where the two experts were in agreement, we have, as indicated earlier, accepted their conclusions&#8221;, the ET came to a finding which was, at least by inference, inconsistent with the agreed position of the experts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The position was that there was evidence from three medical evidence experts.  Dr Gupta, and Dr Mallett, who was instructed on behalf of the University. Both are consultant psychiatrists.  There was also evidence in the form of medical notes from Dr Chowla, Dr Sharma&#8217;s treating psychiatrist.  Dr Mallett, who was generally more optimistic as to Dr Sharma&#8217;s future prospects than Dr Gupta, had said in his report that she would be able to return to a lecturer or senior lecturer level, albeit with a different university.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraphs 4.52 and 4.53 of his report, he said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;4.5.2.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">On the balance of probability, Dr Sharma should recover to the point where she will be able to return to some form of academic post in tertiary education. I do not think it would be realistic to expect her to be able to return to what she describes as her previous upward trajectory, but she should be able to return to a lecturer or senior lecturer level.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">4.5.3.</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in;text-indent:0.32in">I do not think it is realistic to expect Dr Sharma to be able to return to employment with the Respondent. This would not constitute an adequate fresh start event for her, but I see no reason why she should not be able to return to the equivalent level at an alternative institution within six months of resolution of the legal case and the initiation of the treatment outlined above.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraph 5 of the experts&#8217; joint report said that Dr Sharma would be able to return to an &#8220;academic post&#8221;.  As a senior lecturer is a Grade 8 post, Mr Kohanzad submitted that the joint expert&#8217;s opinion could only have meant that Dr Sharma might return to a Grade 8 post or lower.  He submitted that the ET&#8217;s conclusion that she would return to a Grade 9 role at some point in the future was therefore inconsistent with the ET&#8217;s self-imposed approach to the evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my view, the answer to Mr Kohanzad&#8217;s point is that, in reality, the ET considered the evidence for itself and made findings as to what the future held. It did not simply accept the joint position of Dr Gupta and Dr Mallett, or, indeed, the position of either of them in full.  The ET found on the evidence that with appropriate treatment over a two-year period, by the end of 2025 Dr Sharma would be able to start looking for work with a different employer, albeit not at her previous academic level.  She would then need to work part-time for at least 18 months and it would then be likely that she could return to the workplace in a post equivalent to a Grade 8 post.  That would be by the end of 2027.  That conclusion, in my judgment, was entirely consistent with the interpretation of the joint experts&#8217; report suggested by Mr Kohanzad.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET then went on to consider the likelihood that Dr Sharma would then progress to a Grade 9 post and found that, on the evidence, there was a 50 per cent chance that she would return to working full-time in a Grade 9 post by 2035. I take Mr Kohanzad&#8217;s point that Dr Mallett had said that Dr Sharma would not return to &#8220;what she describes as her previous upward trajectory&#8221; but the ET&#8217;s findings were not describing the trajectory which Dr Sharma would have been on had there being no discrimination, or, indeed, her previous upward trajectory.  They were describing a trajectory which was significantly different as a result of the discrimination to which she had been subjected.  In my judgment, then, the ET&#8217;s findings on this issue were entirely consistent with the joint experts&#8217; report and the position of Dr Mallett who did not, in terms, rule out any further progress for Dr Sharma once she was in a Grade 8 job.  On its face, his position was that this was the level to which she was likely to return and that is what the ET found.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In any event, I agree with Mr Smith that there was no sign that the ET which, both parties agreed, considered the case carefully, had in any way misunderstood the evidence given by the experts, or the evidence about the grades for the different levels in the academic hierarchy.  The ET made a permissible finding of fact on this point on the basis of all of the evidence which it received in the proceedings and having seen the witnesses.  In my view, it would be quite wrong to interfere with that finding on the basis of a suggested interpretation of parts of the expert evidence in the case.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was for the ET as the fact-finding body to interpret the expert evidence in the light of all of the evidence which it received.  It would not be right for the Employment Appeal Tribunal to interfere with its conclusions on that point.  Ground 5 is therefore dismissed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 8</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ground 8 is a challenge to the ET&#8217;s decision as to the extent of the uplift which should be applied to the compensation awarded to Dr Sharma, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1992/52/section/207" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 207</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/52" uk:canonical="1992 c. 52" uk:origin="TNA" uk:type="legislation">Trade Union and Labour Relations (Consolidation) Act 1992</ref>.  This section provides, so far as material, as follows at subsection (2):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;(2)</num>
+		  <intro>
+		    <p class="BodyText" style="margin-left:1.58in">If, in the case of proceedings to which this section applies, it appears to the employment tribunal that&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:12pt">(a)</num>
+		    <content>
+		      <p class="BodyText" style="margin-left:1.87in">the claim to which the proceedings relate concerns a matter to which a relevant Code of Practice applies,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt">(b)</num>
+		    <content>
+		      <p class="BodyText" style="margin-left:1.87in">the employer has failed to comply with that Code in relation to that matter, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt">(c)</num>
+		    <content>
+		      <p class="BodyText" style="margin-left:1.87in">that failure was unreasonable,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="BodyText" style="margin-left:1.58in;text-indent:-0.39in"><marker name="tab"/>the employment tribunal may, if it considers it just and equitable in all the circumstances to do so, increase any award it makes to the employee by no more than 25%.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1992/52/section/207/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 207(4)</ref> provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;(4)</num>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.58in">In subsections (2) and (3), &#8216;relevant Code of Practice&#8217; means a Code of Practice issued under this Chapter which relates exclusively or primarily to procedure for the resolution of disputes.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no dispute that, in this case, the relevant code is the ACAS Code of Practice on Disciplinary and Grievance Procedures.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad&#8217;s essential point is this.  In her pleaded case before the ET, Dr Sharma made a number of claims of discrimination based on criticisms of the University&#8217;s handling of her grievance which she had raised in relation to her treatment.  These claims included complaints about delays and failures to process the grievance in the timescales indicated in the University&#8217;s grievance procedure.  There were also claims based on failure to provide Dr Sharma with notes of the selection process and with notes requested of the selection panel.  In the course of the liability hearing, Dr Sharma said that she did not consider these claims in relation to the grievance process to be complaints of race discrimination, although she said that they were complaints about the University&#8217;s treatment of her.  She indicated that the only complaint which was pursued as a claim was a claim for victimisation in respect of the refusal to provide her with the notes of the selection process.  The other claims were therefore dismissed upon withdrawal.  The remaining complaint of victimisation was ultimately upheld by the ET.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">When it came to the remedy hearing, Dr Sharma contended that the ACAS uplift should be 25 per cent and she raised a number of detailed criticisms of the grievance process which the University had conducted.  These were set out at paragraphs 40 and 41 of her witness statement.  There were ten particulars of unreasonable delays and other failures of the grievance process, and there was an overarching complaint that this was a sham investigation which breached Dr Sharma&#8217;s right to receive reasonable and prompt redress for her grievances.  However, Mr Smith submitted, and at paragraph 54 of the Remedy Judgment the ET accepted, that the only issue in relation to the ACAS uplift was as to the impact of the ET&#8217;s finding of victimisation in relation to the grievance.  Whilst Dr Sharma had brought a number of other claims in relation to the grievance process, they had been dismissed upon withdrawal.  The ET went on to award an uplift of 10 per cent which was to be applied to 25 per cent of its awards for injury to feelings and psychiatric injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad relies on various statements in the ACAS Code that grievances should be raised and dealt with promptly and should not be unreasonably delayed (see, for example, paragraphs 32, 34, 40, 41, and 42).  He submits that, therefore, the ET could not simply ignore the criticisms of the process which were made by Dr Sharma at the remedy stage and it erred in doing so.  Mr Smith does not contest the point that Dr Sharma&#8217;s complaints about delay were potentially relevant but he said, at least in writing, that the submission which he had made to the ET was correct and that the ET was right, or at least entitled, to accept it.  The relevant claims had been dismissed on withdrawal and were therefore no longer live.  They could not be resurrected at the remedy stage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my view, it is plain that the ET proceeded on the basis that in deciding the extent and application of the ACAS uplift, it could only take into account criticisms of the grievance process which it had found to be acts of discrimination or victimisation.  With respect, this was an error of law.  Whilst it could only award compensation for claims which it upheld, the question of the ACAS uplift to such compensation includes consideration of any failures to comply with the ACAS Code whether or not those failures (whether individually or collectively) amounted to freestanding acts of discrimination of victimisation.  As <ref href="http://www.legislation.gov.uk/id/ukpga/1992/52/section/207" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 207</ref>A makes clear, all that is required is that the failures are unreasonable.  The fact that Dr Sharma had said that she was not pursuing her criticisms of the grievance process as claims for breach of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> did not mean that she could not rely on them for the purposes of the ACAS uplift.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that the ET erred in law in failing to consider the whole of Dr Sharma&#8217;s case as to unreasonable breaches of the ACAS Code.  This issue will therefore also be remitted. I emphasise that at the remitted hearing, the ET should consider afresh the whole of the question of the ACAS uplift.  That is, the extent of any uplift and the damages to which it should be applied, as well as the other relevant matters that require to be considered, including the result when the uplift is applied to the compensation which the ET ultimately decides should be awarded.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Remission to the Same or a Different ET?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad referred me to the familiar passages from the guidance in <span style="font-style:italic">Sinclair Roche &amp; Temperley (a firm) v Heard &amp; Anor</span> <ref href="#" uk:canonical="[2004] IRLR 673" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 673</ref> at [46] in particular.  Quite properly, he made clear that he was not alleging that the ET in the present case was in any way biased against Dr Sharma.  He also acknowledged, that the ET in the present case had done, as he put it, a good job subject, of course, to the criticisms of the remedy decision made in the appeal.  However, he submitted that in this case the ET had made and reached important conclusions in terms of the building blocks to the calculation of Dr Sharma&#8217;s compensation: in particular, as to the chances of her being reappointed to her existing job, as to her chances of promotion to a higher grade had she not been discriminated against, and as to what is now likely in terms of her career trajectory as a result of the discrimination which she suffered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He reminded me of paragraph 46.5 of <span style="font-style:italic">Sinclair Roche &amp; Temperley</span> where Employment Appeal Tribunal said that the Appeal Tribunal should give very careful consideration to the risks connected with giving an Employment Tribunal a second bite at the cherry:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="BodyText" style="margin-left:1.18in">&#8220;If the tribunal has already made up its mind, on the face of it, in relation to all the matters before it, it may well be a difficult if not impossible task to change it, and, in any event, there must be a very real risk of an appearance of pre-judgment or bias if that is what the Tribunal is asked to do.  There must be a very real and very human desire to attempt to reach the same result if only on the basis of a natural wish to say &#8216;I told you so&#8217;.  Once again, the appellate tribunal would only send the matter back if it had confidence that, with guidance, the Tribunal, because there were matters which it had not, would not yet consider at a time it apparently reached a conclusion would be prepared to look fully at such further matters and thus be willing or unable to come to a different conclusion if so advised.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Kohanzad submitted, in effect, that this was a case in which the Employment Tribunal would not be able to approach matters with an open mind and the risk identified at paragraph 46.5 of <span style="font-style:italic">Sinclair Roche &amp; Temperley </span>was therefore very real.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Smith, on the other hand, submitted that any issues which were to be remitted should be remitted to the same ET.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:12pt">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Smith.  The ET, as currently constituted, has been seised of this matter since October 2022 at the latest, when it conducted the liability hearing, and has produced two detailed judgments, the second of which it has reconsidered twice.  It is therefore very familiar with the case.  The ET&#8217;s findings on liability are unchallenged, as are the bulk of its findings on remedy.  The points on which Dr Sharma has succeeded in this appeal are largely points which the ET overlooked in determining remedy rather than points which it specifically and directly addressed and on which it reached conclusions to which it is likely to be wedded.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:12pt">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Even on the ACAS uplift point, it does not appear that the ET considered and rejected a reasoned argument that it could take into account matters which it had not upheld as claims.  Moreover, looking at the tone of the two judgments overall, it is clear that the ET is highly sympathetic to Dr Sharma&#8217;s position.  It made the relevant findings in terms of this particular appeal recognising that there was a significant degree of uncertainty rather than emphatically stating that its conclusions must be the case.  I have every confidence that the ET will conscientiously consider with an open mind the additional points which I propose to remit to it and how they affect the relevant conclusions which led to its overall decision, if at all.  I also take into account that it is generally desirable that the Tribunal which decides liability should decide remedy, and the likely increase in costs if I were to remit the matter to a differently constituted tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:12pt">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">All of the circumstances, then, have led me to conclude that the remitted points should go back to be considered by the same Employment Tribunal afresh.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

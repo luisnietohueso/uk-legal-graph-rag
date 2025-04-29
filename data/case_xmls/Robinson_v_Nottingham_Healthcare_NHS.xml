@@ -1,0 +1,616 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/39"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/39"/>
+	  <FRBRdate date="2025-03-11" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="39"/>
+	  <FRBRname value="Robinson v Nottingham Healthcare NHS"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/39"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/39"/>
+	  <FRBRdate date="2025-03-11" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/39/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/39/data.xml"/>
+	  <FRBRdate date="2025-03-31T14:47:22" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ms-a-robinson" href="" showAs="MS A. ROBINSON"/>
+	<TLCPerson eId="nottingham-healthcare-nhs" href="" showAs="NOTTINGHAM HEALTHCARE NHS"/>
+	<TLCPerson eId="foundation-trust" href="" showAs="FOUNDATION TRUST"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-tayler" href="/judge-his-honour-judge-tayler" showAs="HIS HONOUR JUDGE TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>39</uk:number>
+	<uk:cite>[2025] EAT 39</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>ff9947deb35678b6c5e8f823ddf0239e6b46fe7b8a48ba83cf28d6c73992dede</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Robinson v Nottingham Healthcare NHS</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 39</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2024-000115-BA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-11" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">11 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-tayler" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE TAYLER</judge></p>
+      <p><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p style="text-align:center"><party refersTo="#ms-a-robinson" as="#appellant" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MS A. ROBINSON</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">- and -</span></p>
+      <p style="text-align:center"><party refersTo="#nottingham-healthcare-nhs" as="#respondent" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">NOTTINGHAM HEALTHCARE NHS</party></p>
+      <p style="text-align:center"><party refersTo="#foundation-trust" as="#respondent" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">FOUNDATION TRUST</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">WARREN FITT </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed through </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Advocate</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">GARETH PRICE </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mills &amp; Reeve</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 11 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+      <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Employment Tribunal erred in law in its analysis of whether the claimant was a disabled person at the relevant times.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This is an appeal against the judgment of Employment Judge Shore, after a hearing on 19 September 2023. Employment Judge Shore held that the claimant was not a disabled person at the relevant times and, therefore, dismissed her claims of disability discrimination. The judgment was sent to the parties on 12 January 2024.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant was employed by the respondent as a temporary staffing administrator from 7 September 2020 until she resigned on 16 June 2022. During the course of her employment, the claimant raised issues because she felt unable to wear a mask. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant brought complaints of disability discrimination, relying on the condition of generalised anxiety and panic disorder. The claimant issued her claim on 6 July 2022. The effective date of termination of her employment was 15 July 2022. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claim went through relatively extensive case management. As has become increasingly common, an order was made by Employment Judge Ahmed on 5 September 2022, directing that the claimant answer a number of questions about her condition and its effects on her day-to-day activities, designed to provide evidence that might establish whether the claimant was a disabled person at the relevant time. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Because the information was requested from the claimant it is not surprising that she expected that the material provided in answer to the questions would constitute relevant evidence that the tribunal would be likely to rely on when considering the question of disability. At question 3, the claimant was asked whether there was any medical or other evidence that she wished to rely upon. The document did not stress that medical evidence was likely to be necessary, nor did it suggest that a claimant should ensure that they had other evidence that corroborates the answers given.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant provided a detailed response to the questions asked and provided some medical evidence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The impairment had first been diagnosed on 1 March 2018, so had lasted more than 12 months. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">After the claimant had replied to the direction of Employment Judge Ahmed, a further case management hearing was conducted before Employment Judge Heap on 2 November 2022. Employment Judge Heap noted that it would be for the claimant to establish that she was disabled at the material times. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In response, the claimant obtained a letter from her general practitioner, who referred to generalised anxiety and panic disorder, stating that the symptoms included low mood, lack of motivation, poor sleep pattern, headaches, nausea, panic attacks and severe anxiety.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There were two further case management hearings dealing with questions about adjustments that might be made for the claimant at a Preliminary Hearing fixed to determine the issue of disability.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the Preliminary Hearing Employment Judge Shore concluded that the claimant was not a disabled person at the relevant times. Her complaints were dismissed because she did not have the protected characteristic of disability. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant appealed against that decision.  The appeal was received by the Employment Appeal Tribunal on 30 January 2024. The original grounds of appeal were drafted by the claimant acting in person and were in a broad and discursive form. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The matter was considered pursuant to the sift by Andrew Burns KC, Deputy Judge of the High Court. Judge Burns concluded that the essential ground of appeal was that the Employment Tribunal&#8217;s assessment of disability was wrong and unfair. Judge Burns went on to tease out various components of the analysis that were arguably in error. While it might be said that some of those grounds went rather beyond what was in the grounds of appeal, the respondent adopted the pragmatic approach of accepting the grounds as set out by Judge Burns. Generally, I consider it is good practice, where further grounds have been identified, for them to be the subject of an amendment to the grounds of appeal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant was able to obtain </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">pro bono</span><span style="font-family:'Times New Roman';font-size:12pt"> representation for this hearing and has been assisted both by solicitors acting </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">pro bono</span><span style="font-family:'Times New Roman';font-size:12pt"> and counsel acting under the Advocate Scheme. When Mr Fitt produced his skeleton argument, he clarified and slightly extended upon the grounds of appeal. In response to an inquiry from me as to whether the grounds fully matched those either in the original grounds of appeal or in the grounds permitted to proceed by Judge Burns, a formal application to amend was made. I granted the application in respect of grounds 1 to 6, but refused to add ground 7, for reasons that I gave this morning. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In broad outline, the grounds of appeal are that the Employment Tribunal erred in law:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">by applying an overly strict test in determining whether there was a substantial adverse effect on the claimant&#8217;s normal day-to-day activities;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">by requiring the claimant&#8217;s oral evidence to be corroborated; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">taking an irrational approach to medical evidence in respect of CBT scores; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">in its approach to the effect that the claimant contended her condition had on her sleep; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(v)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">in its approach to the effect that the claimant contended her condition had on her ability to drive; and </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">failing to appreciate that the claimant&#8217;s contention that she was unable to wear a face mask during the pandemic raised an issue of whether wearing a face mask was itself a normal day-to-day activity, at that time.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There was no significant dispute between the parties about the legal definition of &#8220;disability.&#8221; Nor was there any significant criticism of the Employment Tribunal&#8217;s successful self-direction as to the law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Section 6 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Equality Act 2010</span><span style="font-family:'Times New Roman';font-size:12pt"> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">EQA</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;) provides:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman'">6 Disability</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman'">A person (P) has a disability if&#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman'">P has a physical or mental impairment, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.48in;text-indent:0.02in"><span style="font-family:'Times New Roman'">the impairment has a substantial and long&#8211;term adverse effect on P&#8217;s ability to carry out normal day&#8211;to&#8211;day activities.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Goodwin v Patent Office</span><span style="font-family:'Times New Roman';font-size:12pt"> [1999] ICR 302, Morison J considered the predecessor provision and suggested that it will often be helpful to consider four elements of the definition:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt">the impairment condition, that the claimant has an impairment (either mental or physical); </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt">the adverse condition, that the impairment affects the claimant&#8217;s ability to carry out normal day to day activities; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt">the substantial condition; that the adverse effect is more than minor or trivial; and, finally</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt">the long-term condition; that the adverse effect is long term.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Morison J stressed it is not an error of law not to split the analysis into these components, particularly as there may be significant overlap between them. But, generally it is a helpful approach for an Employment Tribunal to adopt to ensure that each element of the test has been considered. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Where a mental impairment is asserted, it has long been accepted that it is not necessary to establish a medical diagnosis of the cause of the impairment:  see Appendix 1, para.7 of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Equality Act Statutory Code of Practice</span><span style="font-family:'Times New Roman';font-size:12pt">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Paragraph 14 of Appendix&#160;1 describes normal day-to-day activities as &#8220;activities which are carried out by most men or women on a fairly regular and frequent basis.&#8221; Day-to-day activities can include work activities. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">An effect is &#8220;substantial&#8221; if it is more than minor or trivial: s.212(1) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">EQA</span><span style="font-family:'Times New Roman';font-size:12pt">. The Code of Practice suggests that the tribunal may consider it helpful to consider the time taken to carry out an activity; the way in which an activity is carried out; cumulative effects of an impairment; effects of behaviour; and effects of the environment. The focus should be on what a disabled person is not able to do as opposed to what they are able to do.  The comparison should be between the position of the disabled person in comparison to how they would have been absent the disability.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Measures that are taken to correct an impairment&#8217;s substantial adverse effect on the ability of a person to carry out normal day-to-day activities are to be ignored, which can include medical treatment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The &#8220;long-term adverse effect&#8221; condition requires that the impairment has lasted for 12 months, is likely to last for 12 months, or is likely to last for the life of the person. Where a substantial adverse effect on ability to carry out normal day-to-day activities ceases, it is to be treated as continuing if the effect is likely to recur. The word &#8220;likely&#8221; means that it could well happen: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Boyle v SCA Packaging Limited</span><span style="font-family:'Times New Roman';font-size:12pt"> [2009] UKHL 37. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">All of these factors have to be assessed at the time of the alleged discrimination. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It was accepted by both parties that the burden of proving disability rests on a claimant who asserts she is a disabled person.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Generally, Employment Tribunals should be able to make findings of fact that do not rest on either the burden or standard of proof. An Employment Tribunal should assess the relevant evidence and reach clear findings of fact. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The burden of proof describes who it is that is required to establish any particular fact. The standard of proof is the extent of proof required.  In civil proceedings, the standard of proof is the balance of probabilities. The person upon whom the burden of proof lies to prove a matter must establish that it is more likely than not.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Sometimes evidence may be corroborated by other evidence. However, there is no requirement for evidence to be corroborated for it to be accepted: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Peart v Dixons Store Group Retail Limited</span><span style="font-family:'Times New Roman';font-size:12pt"> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">(2004)</span><span style="font-family:'Times New Roman';font-size:12pt"> UKEAT/0630/04:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">Likewise there is no legal requirement in the Employment Tribunal for corroboration of any kind of evidence. Such a requirement has now been abolished even in the criminal courts. It is therefore not a conclusive argument for a party or the Tribunal, to say that the evidence for a fact is not corroborated. A Tribunal is of course entitled to say after it has assessed the evidence in the case that it finds the evidence of a particular witness so unsatisfactory or unreliable that it is not prepared to act on it unless there is other evidence to support it. A Tribunal which takes such an approach is simply exercising common sense and judgment, not imposing a legal requirement that there be corroboration.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">36.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">Likewise the Tribunal&#8217;s references to the corroboration are unsatisfactory. They refer to the absence of corroboration for certain allegations and say that they are &#8220;therefore&#8221; (paragraph 11) or &#8220;for this reason&#8221; (paragraph 14) unable to make findings. The Tribunal might have concluded after an assessment of the evidence that Miss Peart&#8217;s evidence unreliable and untrustworthy, and that it could not be accepted in the absence of corroboration. But this is not what the Tribunal say. There is no assessment in the reasons of the extent to why they did or did not accept her evidence.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The approach that the EAT should adopt on appeal has been considered repeatedly by the higher appellate courts, in particular in the recent well-known decision of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">DPP Law Ltd v Greenberg [</span><span style="font-family:'Times New Roman';font-size:12pt">2021] EWCA Civ 672, [2021] IRLR 1016. The EAT has been warned against too quickly concluding, where there has been a correct self-direction as to the law, that the tribunal has not applied that self-direction. Notwithstanding that warning, there are circumstances in which the EAT is drawn to the conclusion that a correct self-direction has not been followed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal gave itself a detailed and careful direction as to the relevant law that has not been subject to any substantial criticism. At para.51, the Employment Tribunal referred to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Goodwin</span><span style="font-family:'Times New Roman';font-size:12pt"> and set out the suggested analysis. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal accepted that the claimant had a mental impairment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal stated that it was necessary to consider whether there was an adverse effect; if so, whether the effect was substantial; if so, whether it was long-term. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal correctly noted that the burden of proof was on the claimant to show that she satisfied the statutory definition of &#8220;disability.&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The analysis of the Employment Tribunal was set out under the heading &#8220;Evidence and Findings.&#8221; There was a subheading &#8220;Adverse Effects&#8221; that leads the reader to expect that there would be a section in which the Employment Tribunal identified what, if any, adverse effects on day-to-day activities had been established by the claimant, after which the Employment Tribunal would consider whether those adverse effects (taken together) were &#8220;substantial&#8221; in the sense of being more than minor or trivial; and then consider whether they were &#8220;long-term.&#8221; In fact, there were no further subheadings &#8220;substantial&#8221; or &#8220;long-term.&#8221;  The Tribunal did not consider the long-term question at all. The Tribunal did consider the &#8220;substantial&#8221; question in respect of some of adverse effects, but not others. It is possible that in the sections in which the Employment Tribunal did not refer to the &#8220;substantial&#8221; issue it had concluded that there were no adverse effects, and in latter sections that such adverse effects as were established were not &#8220;substantial.&#8221; However, that is far from clear when reading the judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal considered the asserted adverse effects in the order that the claimant had set them out in her disability impact statement. The asserted adverse effects were in respect of: being accompanied to appointments; food shopping; household tasks; sleep; driving; and communication. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">While I accept that the Tribunal, at a later stage, referred to having considered the totality of the effects: para.77, the &#8220;Analysis&#8221; section appears to consider the adverse effects one by one rather than cumulatively.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal first dealt with the assertion that the claimant needed to be accompanied to appointments with medical practitioners. This was dealt with at paras.54 to 57 of the judgment: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant&#8217;s Impact Statement (IS) [76&#8211;79] was in the format of answers to the standard questions asked in the order dated 5 September 2022 made by Employment Judge Ahmed [72&#8211;73]. In her IS, the claimant listed the effects of her impairment on her ability to carry out normal day&#8211;to&#8211;day activities, which included the following:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;Where possible I ensure that I am accompanied places, this ranges from but is not limited to food shopping, doctor appointments, hospital appointments and dentist appointments; this is to avoid the feeling of anxiousness.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">I find that the evidence regarding doctor appointments was limited to the claimant&#8217;s assertion. She accepted that she was never accompanied into appointments. Her partner or her mother would accompany her to the surgery. The claimant said she cannot drive. I find that claimant has not shown on balance of probabilities that the effect was related to her impairment and not related to her family giving her a lift.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">There was no evidence regarding hospital appointments other than the claimant&#8217;s assertion, so I make the same finding as for the doctor appointments.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">I find that the claimant&#8217;s evidence regarding dental appointments did not meet the standard of proof required. The claimant accepted that the documentary evidence that she had not been to the dentist for 8 years between the ages of 18 and 26 was largely accurate. At the date of period covered by her employment, the claimant was 25 or 26 years old. She said she had been to the emergency dentist once and had been accompanied. I do not find this to be credible to the required standard of proof.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal rejected the evidence about appointments because it was mere &#8220;assertion&#8221; by the claimant. The Employment Tribunal held that she had not met the necessary standard of proof. The Employment Tribunal referred to the claimant&#8217;s mere assertion (paras.55-56), and referred to the standard of proof required (para.57). The term &#8220;assertion&#8221; effectively meant that the claimant had given evidence about the matter in her impact statement. I can only conclude that the Employment Tribunal decided that, absent corroboration, the claimant&#8217;s evidence was insufficient for it to make a finding in her favour. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal failed to undertake the straightforward task of considering the claimant&#8217;s evidence, any challenges to that evidence, and reaching clear findings of fact as to whether what she said was correct. The Tribunal could potentially have concluded that her evidence was untruthful. It might have concluded that, though she genuinely believed what she was saying, her evidence was unreliable and what she asserted was factually incorrect. Instead, what the Employment Tribunal did was to state that she had not met the standard of proof.  This was done without reaching any conclusion as to her credibility or stating why her evidence should not be accepted. This is clear when dealing with doctors&#8217; appointments (para.55) where the Employment Tribunal said that the material was limited to the claimant&#8217;s assertion and that she had not shown on balance of probabilities that she was not escorted to doctors&#8217; appointments simply because she required a lift. At para.56, the Employment Tribunal said there was no evidence other than the claimant&#8217;s assertion and, therefore, her evidence was rejected. The Employment Tribunal concluded that, in the absence of some supporting evidence, the claimant&#8217;s evidence was insufficient for it to make a finding of fact in her favour. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In respect of dental appointments, the Employment Tribunal stated that the claimant&#8217;s evidence did not meet the standard of proof. There is some suggestion that, during the period in which the claimant had been in employment, she had not gone to the dentist. She appears to have accepted that was the case, but said that she went to the emergency dentist once. The Tribunal held: &#8220;I do not find this to be credible to the required standard of proof.&#8221; It would have been open to the Employment Tribunal to find as a fact that the claimant had not visited the emergency dentist, but it did not do so. The claimant had given evidence that she had visited the emergency dentist and there was no direct evidence to contradict it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt">Accordingly, in respect of being accompanied I consider that ground 2 is made out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt">The Tribunal went on to consider food shopping:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">I find that the corroborative evidence regarding food shopping was limited to a CBT therapist recommending she visited a retail park. In line with my other findings about the credibility of the claimant&#8217;s evidence, I find that she does not meet the threshold of the standard of proof required.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal rejected the evidence of difficulty in food shopping because of a lack of corroboration. The Employment Tribunal suggested that the claimant&#8217;s evidence was not credible, but there is no explanation of why it was not credible. The Employment Tribunal then stated that the claimant had not met the threshold of the standard of proof required. Again, this was a simple issue in respect of which the Employment Tribunal should either have concluded that the claimant did or did not have difficulties in food shopping as a result of her medical condition. If she did, the Employment Tribunal should have gone on to decide whether, when considered with any other adverse effects, the adverse effects including her ability to shop for food were more than minor or trivial; and, whether the effects met the long-term criteria.  In respect of food shopping, ground 2 is made out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal then went on to deal with household tasks. From paras.59-62, the Employment Tribunal recorded that the claimant stated that she could feel anxious and display physical symptoms that affected her ability to complete household tasks. The Employment Tribunal held that the assertion had not been proven on balance of probabilities. This determination was based on scoring that the claimant had given during CBT sessions between August 2021 and February 2022 when she had been asked to state on a regular basis how she considered she was limited in carrying out specific activities. The scores varied. The Employment Tribunal averaged the scores over a period rather than considering the most significant. The approach adopted to the scores is challenged by ground 3:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">Taking an irrational approach to the medical evidence of Miss Robinson&#8217;s CBT scores (which reflected the impact of anxiety upon her life) by averaging those scores out over a period of more than half a year and, as a result, wrongly concluding that this evidence was inconsistent with Miss Robinson&#8217;s oral evidence;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal required corroboration.  Accordingly, ground 2 is made out in respect of household tasks. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I also accept that the Employment Tribunal adopted an irrational approach to the CBT scoring. I cannot see a rational basis upon which an average of her scores was used to demonstrate that there was no substantial adverse effect on day-to-day activities. The scores were the claimant&#8217;s self-description of her condition. They fluctuated considerably. I appreciate that the Employment Tribunal might have concluded that those self-descriptions were incorrect, but it did not do so. Because there were periods during which the adverse effects had been greater than others, the Employment Tribunal should have considered whether, during the periods that the effects were at their most severe, they were more than minor or trivial, and then concluded whether such effects met the long-term criteria, including consideration of the possibility of them recurring. Ground 3 is made out in respect of household tasks.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At paras.63-65, the Employment Tribunal considered sleep. The claimant contended that she had difficulty with sleep. This is subject of a specific ground of appeal (ground 4). The Employment Tribunal rejected the claimant&#8217;s evidence on the basis that she had not established on the balance of probabilities that her sleep was adversely affected. In doing so, the Tribunal specifically referred to lack of corroboration. Accordingly, I consider that ground 2 is made out in respect of the issue of sleep. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Furthermore, despite stating that sleeplessness was not corroborated by the medical notes, there were multiple examples in the medical notes in which the claimant had referred to difficulty in sleeping, as set out in Annex 1 to the skeleton argument of the claimant. Furthermore, the claimant referred to not having been able to attend work on two occasions because of lack of sleep.  That, on the face of it, was clearly more than minor or trivial and would have raised the question, as it was a sporadic occurrence, whether it was likely to recur. The Employment Tribunal rejected the claimant&#8217;s evidence because it came out during cross-examination and that, therefore, there was an inequality of footing because the respondent could not have known that they were to meet this issue. There is no rule that a party cannot rely on evidence that results from cross-examination. It is the very nature of cross-examination that it will occasionally elicit further evidence that may support the case of a party being challenged. Accordingly, ground 4 is also made out in relation to sleep. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal went on to deal with driving at para.66: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">66.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">I find that the claimant has not proven to the required standard that her anxiety had a substantial adverse effect on her ability to drive. She accepted that she took lessons and took a driving test. I find it unlikely that if she experienced the symptoms she described that she would have carried on taking lessons to the point that she was able to take a driving test.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Again, the Tribunal rejected the claimant&#8217;s evidence on the basis of her not having proven to the required standard that anxiety had a substantial adverse effect on her ability to drive.  The Tribunal should have considered, as a matter of fact: was the claimant&#8217;s ability to drive adversely affected; if so, was that adverse effect substantial; and if so, was it long-term?  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The issue of driving also is the subject of ground 5 of the amended grounds of appeal:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.59in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt">(i) failing to consider the effect of Miss Robinson&#8217;s anxiety on her ability to drive merely because she had been able to take driving lessons and a driving test in the past; and (ii) failing to consider the other medical evidence, identified in paragraph 48 of the Skeleton Argument, which supported her oral evidence of the effect anxiety had upon her ability to drive;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I accept that there is a lack of logic in concluding that because a person at one stage has been able to take driving lessons and pass a driving test, they may not later be affected in their ability to drive such that the effect is more than minor or trivial.  Accordingly, in respect of driving, grounds 2 and 5 are made out. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Employment Tribunal then dealt with communication (para.67). Rather than making findings of fact as to whether there was an adverse effect, and if so, whether it was substantial, the Employment Tribunal rejected the claimant&#8217;s assertions on the basis that she had not established them on the balance of probabilities. The Employment Tribunal also relied on CBT scores, averaging them in a manner that I consider was irrational. The real question, was whether there was a substantial adverse effect on day-to-day activities when the symptoms were at their most severe, at which stage consideration should have been given to the long-term condition. Accordingly, in respect of communication, ground 2 and ground 3 are made out. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Having regard to my other conclusions, it is not necessary to determine ground 1. Whatever approach was taken to the term &#8220;substantial&#8221;, there were significant errors of law in respect of the requirement for corroboration, the approach taken to the CBT scores, and the specific grounds relating to sleep and ability to drive. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The final ground of appeal asserts that the Employment Tribunal erred in law in failing to consider whether the wearing of a face mask during the pandemic was a normal day-to-day activity. This was not a day-to-day activity relied upon by the claimant.  The claimant set out her case in her impact statement. I do not consider that this could be said to be one of those situations in which it was so obvious that wearing a face mask was asserted to be a day-to-day activity that the Employment Tribunal was required to consider it: see the recent Court of Appeal decision in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Moustache v Chelsea and Westminster Hospital NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt"> [2025] EWCA Civ 185. Accordingly, I reject ground 7. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The overall decision is that the appeal is allowed.  The matter will be remitted for re-determination.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The parties agreed that remission should be to a new Employment Tribunal. While their agreement is not determinative, I agree that it is best that the matter be remitted to a new Employment Tribunal.  The issue of disability will have to be considered entirely afresh.  There would be no real saving of time by remitting to the same Employment Tribunal. If anything, it would be likely to cause delay by requiring that the same Employment Judge is available. I also consider that there might be some concern on the part of the claimant as to a second bite of the cherry.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

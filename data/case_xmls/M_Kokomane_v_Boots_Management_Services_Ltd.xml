@@ -1,0 +1,450 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/38"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/38"/>
+	  <FRBRdate date="2025-03-11" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="38"/>
+	  <FRBRname value="M Kokomane v Boots Management Services Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/38"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/38"/>
+	  <FRBRdate date="2025-03-11" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/38/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/38/data.xml"/>
+	  <FRBRdate date="2025-04-17T10:59:01" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ms-m-kokomane" href="" showAs="MS M KOKOMANE"/>
+	<TLCPerson eId="boots-management-services-ltd" href="" showAs="BOOTS MANAGEMENT SERVICES LTD"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-beard" href="/judge-his-honour-judge-beard" showAs="HIS HONOUR JUDGE BEARD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>38</uk:number>
+	<uk:cite>[2025] EAT 38</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>6d26b235aee255cb41119148a58ffb8490eadcdea37e88120f1a88380ee7efd6</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Quote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #404040; }
+#judgment .legclearfix { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .legds { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Kokomane v Boots Management Services Ltd</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 38</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-001410-AT</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-11" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">11 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-beard" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE BEARD</judge></p>
+      <p><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p style="text-align:center"><party refersTo="#ms-m-kokomane" as="#appellant" style="font-weight:bold;font-size:12pt">MS M KOKOMANE</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party refersTo="#boots-management-services-ltd" as="#respondent" style="font-weight:bold;font-size:12pt">BOOTS MANAGEMENT SERVICES LTD</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">ESTHER GODWINS </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Broad Street Solicitors</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">ALEX LEONHARDT </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Shoosmiths</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 11 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">RACE DISCRIMINATION</span></p>
+      <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET used too narrow a definition of what could amount to a protected act and did not analyse in sufficient detail the context in which the complaint relied upon as a protected act was made. In particular, part of the context is the way in which the respondent would have understood the complaint. Here, where the employer would know that the claimant was the only black employee and the complaint was specifically about difference in treatment, those were matters that should form part of the evidential consideration. It was not clear that in dealing with the claimant&#8217;s grievance and appeal hearings the ET approached that evidence with that contextual approach in mind. </span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE BEARD:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I shall refer to the parties as &#8220;Claimant&#8221; and &#8220;Respondent&#8221; as they were before the Employment Tribunal.  The claimant is represented by Ms Godwins a consultant, and the respondent by Mr Leonhardt, counsel.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The sole ground of appeal contends that the Employment Tribunal (ET) erred in law in its decision that the claimant&#8217;s grievances and grievance hearing did not amount to protected acts, the claimant relying on paragraphs 58, 87, 124-128 and 182-187 of the ET judgment.  It is contended that the ET appeared to misunderstand the law as explained in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Fullah v Medical Research Council </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">UKEAT 0586/12 and applied a test of a complaint made under the Equality Act too narrowly.  In addition, it is contended that the decision that there was no allegation of race discrimination was perverse in the circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At the so-called sift stage, Deputy High Court Judge Coppell KC considered that in paragraph 186 the finding that the Employment Tribunal did not consider that the claimant had alleged a breach of the Equality Act 2010 at the grievous meeting was, although a finding of fact, potentially in conflict with the Employment Tribunal&#8217;s reasoning about the same incident in paragraph 175 because there was an express reference in meeting notes to a racial trope.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant relied on two protected acts, a written grievance from April and October 2020 and a grievance hearing on 11 March 2021.  In the first grievance letter, the ET1 at paragraph 19 refers to a complaint of being treated differently to the rest of the staff; the second letter referring to a complaint of nothing being done in respect of the grievance and the bullying complaint.  The claimant had set out earlier in the ET1 that she was the only black employee and that she had been bullied where others had not been.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal judgment found that in January 2001 the claimant began employment with the respondent.  She was considered a good employee and had transferred from a store at Charing Cross to the Sheerness store in January 2018.  The claimant was the only non-white member of staff employed at the respondent store on full-time basis, with the only other non-white employee being a relief pharmacist.  The relief pharmacist stood in when Ms Suteu, the pharmacist about whom the claimant complains, was carrying out clinics.  The claimant&#8217;s performance in 2018 and 2019 was sufficient for her to be nominated for an award in that latter year.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A key element of the claimant&#8217;s complaint was that she had been accused by Ms Suteu of shouting.  This has been referred to as the Control Drugs keys incident, and it is clear that from the outset in her first grievance the claimant had raised this as an issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Important elements of the Tribunal&#8217;s judgment I set out now.  In paragraph 58, the Employment Tribunal said:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:left;margin-left:0.98in;margin-right:0in"><span style="font-style:normal;font-size:12pt">&#8220;On 5 April 2020, the claimant raised a grievance (the second grievance).  In that grievance, she referred to suffering bullying, harassment and victimisation from Ms Suto.  She expressly referred to Ms Suto treating her differently to any of the rest of the staff.  She did not, however, suggest at any point within the grievance letter that she was being discriminated against because of her race, nor did she suggest that she attributed Ms Suto&#8217;s treatment to her race.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Paragraph 87:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:left;margin-left:0.98in;margin-right:0in"><span style="font-style:normal;font-size:12pt">&#8220;On 11 March 2021, Jeanette Campbell met the claimant to discuss the second grievance.  The notes record her as saying this, &#8216;I asked CD key Corolla, I knew to do things fast.  CD illegible.  By doing this always are handed over quick.  I called out for CD and Corolla responded &#8220;Stop shouting, not aloud.&#8221;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That is spelt with an &#8220;o-u-d&#8221; followed with (sic) description indicating that they considered it spelt wrongly.</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:left;margin-left:0.98in;margin-right:0in"><span style="font-style:normal;font-size:12pt">&#8220;Black girl woman, we are known to be loud but that she said I am aloud, no problem.  Again, CD key &#8216;Please stop shouting.&#8217;  </span><span style="font-style:normal;font-family:'Times New Roman';font-size:12pt;color:#010302">When the claimant was asked about those words in the course of cross-examination, her evidence was that she could not remember saying that in the grievance meeting.  The claimant did not suggest in her witness statement that this was an allegation of discrimination.  Her witness statement did not assert that she made an allegation of discrimination in the meeting on 11 March 2021.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Paragraph 175:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:left;margin-left:0.98in;margin-right:0in"><span style="font-style:normal;font-size:12pt">&#8220;The claimant&#8217;s case was that she was rebuked about the CD key incident because of a trope about black women being particularly &#8220;shouty&#8221;.  In respect of the CD key incident, we have found that the reason Ms Suteu spoke to the claimant in the way that she did was not primarily because she perceived the claimant to be shouting. Rather, it was because the claimant knowingly interrupted her conversation. In our judgment, that did not suggest there was any preconception about the claimant based on her race.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In dealing with the law at paragraph 127 of its judgment, the Employment Tribunal set out the following in relation to the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> case.</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;&#8230;that a complaint saying that the claimant had been &#8220;physically, verbally and psychologically bullied and harassed, discriminated and victimised both directly and indirectly; and I was at a loss to understand why&#8221; was not a protected act, as the claimant did not mention race.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Godwins&#8217; submissions on behalf of the claimant began with her conveying to me the claimant&#8217;s concerns that I should know that she loved her job at Boots and, in consequence, was always careful in relaying her concerns to her employer.  Referring to the Employment Tribunal judgment at paragraphs 126 and 127, she made the point that the section does not require an express allegation of race discrimination. Paragraph 126 seems to point out that making a complaint which does not mention race is not sufficient.  That, read with paragraph 127, seems to narrow the approach of the ET, particularly in the way that it had quoted from </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Ms Godwins argued that the ET should have considered the broader position. As is set out in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the context in which a complaint is made is of specific importance. Ms Godwin, referencing </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Durrani</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (which I refer to below) argues that the ET ought to consider whether the claimant has set out facts which could amount to discrimination.  It is not necessary to use the words &#8220;race&#8221; or &#8220;discrimination.&#8221;  She argued that the suggestion in paragraph 127, that the complaint that was made in the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> case did not amount to a protected act, seems to indicate that the ET approached the law on the basis that if the claimant did not mention race or discrimination then she could not prove a protected act.  Ms Godwins submitted that case law sets out that the ET is required to consider the context in which complaints are made when assessing whether there is a protected act. It is argued that this approach is particularly important in circumstances where there is no express reference to the protected characteristic. Because no express reference is required the context in which a complaint is made must be properly understood.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was submitted that the ET did not consider context in this case and appeared to apply consideration of the claimant&#8217;s grievance as it described at paragraph 127.  It was argued that there was a context, the claimant was the only black employee, and she had set out clearly that she was being treated differently.  It was argued that the Employment Tribunal&#8217;s error was to rule out that a race discrimination complaint had been made without taking the step of examining that context and what would be understood.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant contends that the findings at paragraphs 175 and those at 184-186 directly contradict one another.  The stereotyping of black women as loud, which was what the claimant had said in the grievance meeting, was akin to what was put before the ET.  By focusing on the claimant not using the words &#8220;race&#8221; or &#8220;discrimination&#8221; the ET failed to approach the complaint as it should have and, thereby, clouded what it should have seen.  The starting point was the grievance itself where the claimant complaining that she was told to &#8220;stop shouting&#8221; and that &#8220;I can see she is treating me differently to other staff&#8221;. It is this that sets out the context, and paragraph 13 of the Employment Tribunal judgment shows that factually the Tribunal were aware of that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Paragraph 43 of the ET&#8217;s judgment is clear, the claimant had told the ET (they did not appear to reject this evidence) that the claimant had spoken in the same tone as other colleagues when calling across. That should have alerted the Tribunal as to a question as to why there was a difference in treatment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was clear from the ET1 in paragraphs 6, 10, 14 and 17 that the claimant was setting out these matters and that the claimant&#8217;s case was that these differences should be understood against the backdrop.  She was complaining about harassment and linking that, even obliquely, to a difference in race.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The argument was that the Employment Tribunal made a finding that there was no Equality Act complaint because the claimant did not mention race or discrimination at the grievance hearing.  The notes are not verbatim but a reflection of what the claimant says, and they are no different from what was being argued and what was set out at paragraph 175.  The accusation was one stereotyping. The claimant stating that she could not remember specifically what was said at the grievance meeting, given that there were notes which supported her overall position, should not have prevented the Tribunal reaching a conclusion in the context.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent&#8217;s submissions begin by making the point that the claimant has made no express reference to discrimination or race in either of the written grievances.  It is argued that it is not sufficient to provide facts for discrimination if there is no reference to any other characteristic. It is argued in addition that the ET, in its description of what was set out in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> was simply summarising the case. On that basis the limited reference cannot be taken as an indication that the ET did not correctly understand the legal principles which it was expected to apply. The respondent argued that it was not possible to draw an inference from that quotation that there was a narrowed approach taken nor, particularly that there was a failure by the ET to consider context.  The ET is not required to assume that any allegations of difference in treatment is about race solely because the claimant is the only black employee. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Leonhardt contended that there was no inconsistency between paragraphs 175 and paragraph 176.  He argued that paragraph 175 is simply a summary of the claimant&#8217;s case as to why the Control Drugs key incident happened. There is no inconsistency between the ET reciting the claimant&#8217;s case and it not accepting that the claimant had made that allegation during a meeting when the incident was discussed.  Mr Leondhart submitted that the ET&#8217;s interpretation of what was described as the racial trope needs to be perverse in order to be overturned.  The claimant gave no evidence of what was said at the meeting. The interpretation of the notes was considered in the context of the nature of the notes, which were fragmentary, unclear and ambiguous.  Mr Leondhart argued that there could be a number of interpretations of these notes. If the ET reached an interpretation that was permissible then that interpretation could not be considered perverse in the circumstances. The cases to be considered are </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Durrani</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">  There is nothing to suggest when the ET applied </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> that they are doing anything other than summarising it as a case with including only some of the factual elements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The arguments in this case, it appeared to me, was mainly related to the interpretation to be given to paragraph 127 of the ET judgment.  Section 27 of the Equality Act, victimisation, provides so far as relevant:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.89in;text-indent:-0.25in">(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A person (A) victimises another person (B) if A subject B to a detriment because&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.39in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">B does a protected act, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.39in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A believes that B has done, or may do, a protected act.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.89in;text-indent:-0.25in">(2)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Each of the following is a protected act&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.39in;text-indent:-0.25in">d)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">making an allegation (whether or not express) that A or another person has contravened this Act.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters v Commissioner of Police of the Metropolis </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">[1997] IRLR 589 there is reference to a submission that, in dealing with sex discrimination, Parliament must have intended that protection should arise from the making of the complaint and that should not depend on the terms on which the complaint is articulated.  Lord Justice Waite at paragraph 86 states this about that submission:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;That submission fails, in my judgment, for this reason. True it is that the legislation must be construed in a sense favourable to its important public purpose. But there is another principle involved - also essential to that same purpose. Charges of race or sex discrimination are hurtful and damaging and not always easy to refute. In justice, therefore, to those against whom they are brought, it is vital that discrimination, including victimisation, should be defined in a language sufficiently precise to enable people to know where they stand before the law.  Precision of language is also necessary to prevent the valuable purpose of combating discrimination from becoming frustrated or brought into disrepute through the use of language which encourages unscrupulous or vexatious recourse to the machinery provided by the discrimination Acts.  The interpretation proposed by Mr Allen would involve an imprecision of language leaving employers in a state of uncertainty as to how they should respond to a particular complaint and would place the machinery of the Act at serious risk of abuse. It is better, and safer, to give the words of the subsection their clear and literal meaning. The allegation relied on need not state explicitly that an act of discrimination has occurred - that is clear from the words in brackets in section 4(1)(d) that refers to an earlier Act. All that is required is that the allegation relied on should have asserted facts capable of mounting in law to an act of discrimination by an employer within the terms of section 6(2)(b). The facts alleged by the complaint in this case were incapable in law of amounting to an act of discrimination by the commissioner because they were not done by him, and they cannot (because the alleged perpetrator was not acting in the course of his employment) be treated as done by him for the purposes of section 41..&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Durrani v London Borough of Ealing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0454/2012/RN the then EAT President, Langstaff J, sets out:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;..the Claimant at no time during the extensive history on which he relied had raised racial discrimination as a complaint. If that finding of fact is justified then there could be no victimisation under section 27 of the Equality Act - each of the protected acts referred to in section 27(2) is made referable to this Act. The complaint must be of conduct which interferes with a characteristic protected by the Act, such as race, not to a matter not protected by the Act, such as public interest disclosure. The only relevant protected characteristic asserted here was the Claimant&#8217;s race.  Similarly, insofar as the claim alleged acts to which the Race Relations Act 1976 applied, victimisation under section 2 is defined entirely by reference to the 1976 Act.  I would accept that it is not necessary that the complaint referred to race using that very word. But there must be something sufficient about the complaint to show that it is a complaint to which at least potentially the Act applies.  As Mr Davies points out, the tribunal found as a fact the Claimant did not attribute any treatment (at the time) to the fact that he is British of Pakistani origin. That finding of fact alone means there is no evidence that an employer, seeking to cause detriment to the Claimant as a result of making the complaints he did, could have been victimising him for a complaint made by reference to, under, or associated with the relevant Act.  At his appeal in respect of the final written warning in September 2010 it was not disputed that when the Claimant said, as he did, that he had he had been discriminated against, the chief executive who was chairing the meeting asked him on what grounds he had been discriminated against.  His response was that it was because another manager believed he had committed the offence even after he was acquitted.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He went on to say this:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;This case should not be taken as any general endorsement for the view that where an employee complains of &#8220;discrimination&#8221; he has not yet said enough to bring himself within the scope of section 27 of the Equality Act. All is likely to depend on circumstances, which may make it plain that although he does not use the word &#8220;race&#8221; or identify any other relevant protected characteristic, he has not made a complaint in respect of which he can be victimised. It may, and perhaps usually will, be a complaint made on such a ground. However, here, the tribunal was entitled to reach the decision it did, since the Claimant on unchallenged evidence had been invited to say that he was alleging discrimination on the grounds of race. Instead of accepting that invitation he had stated, in effect, that his complaint was rather of unfair treatment generally.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah, </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">along with the path that was referred to by the ET in paragraph 127, HHJ McMullen QC said this:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;In our judgment, the approach to the documents in this case would tend to support the Claimant's submission, that is that he is black, he is making complaints against his white supervisor and that in the minds of the supervisor and the HR people there may be a possibility of an Employment Tribunal claim based on race. However, the judges of this are the Employment Tribunal, who were enjoined to look not just at the documentation but at the context, in particular, the context in which the Claimant made explicit claims a year later of race discrimination, a claim made by an articulate, well-educated person knowing clearly what the language is. There is no basis in either of the two emanations that he puts forward for a complaint of race discrimination. An employer is entitled to more notice than is given by a simple contention that there is victimisation and discrimination.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then going on to say:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;We accept, of course, that the word 'race' does not have to appear but the context of the complaint made by a Complainant does.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There is always a need in these cases to return to the statutory formulation. In order for a complaint to be a protected act it must meet the statutory form required by the Equality Act, in other words a complaint about something which, if proven, would be a contravention of the Act. That means a complaint in this case must be about race discrimination: which could be direct race discrimination or race harassment in the circumstances and, in meeting that definition, the protected act must be considered in the factual context in which it was made.  Considering the context, it appears to me that what is set out, for instance, by Waite LJ in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, is that the allegation relied on need not state explicitly that an act of discrimination has occurred.  All that is required are that facts should be asserted which are capable in law of amounting to an act of discrimination. Whilst that is a decision which related to earlier legislation it seems to me that the decision in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Durrani</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> where Langstaff J indicates that in context the circumstances may make it plain the way in which a protected characteristic is being relied upon, supports the earlier approach. Although it will usually be the case that that the Equality Act element is made explicit it is not necessary that it should. An ET would be entitled to reach a decision based on context that the word &#8220;race&#8221; is unnecessary where it is held that the factual matters that are relied upon meet the defiinition. In the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> case, it seems to me that it is important to recognise that the reference made by the EAT was to the specific form of words that were used. That was rejected in that case as amounting to a protected act in circumstances where the context made it clear that they were not protected acts.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> It appears to me the law could be summed up in this way: what is necessary is that the ET should take account of all of the factors that are provided in the information given by the employee to the employer. In addition the ET needs to consider that information on the basis of how it would be understood by the employer in context. It would be understood by the employer, in part, because of the general facts about the employee and the place of work, which the employer would know of in any event.  In terms, that the employee&#8217;s complaint should be considered by the ET by examining the way that it would be understood by the employer. When the employee makes the complaint explicit that will be an easy task. When the complaint is oblique the context becomes important. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET set out the whole of section 27 Equality Act and then went on to refer to case law. However, the recitation of the case law is quite limited.  Mr Leonhardt in his argument referred to this as a summary of the law which should not be taken as the ET limiting itself to that summary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In paragraph 126 the Employment Tribunal states that it is not necessary that a complaint expressly mentions the Equality Act.  However, the ET then goes on to state that merely making a reference to a grievance without suggesting that it was in some sense an allegation of a contravention of that Act is not sufficient. That might be a fair way of beginning an explanation of the law. However, what is then set out at paragraph 127 appears to be the ET stating that the phrasing of a complaint, which has some similarities to with that of the claimant&#8217;s complaints, was not a protected act.  That appears to be the ET, in its application of the law, indicating that it considers the narrowness of the complaint made by the claimant sets the limitations of the complaint. It appears this is what the ET is exploring when it looks at its similarity to the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Fullah </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">complaint and not any broader context. It appears to consider the phrase but not the context in which the phrase was made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The law clearly requires the ET to consider context. The ET found facts which demonstrate the context.  What is not clear, in my judgment, is that they have analysed those facts as part of the context in which the claimant&#8217;s complaints would have been understood by the respondent.  Paragraph 58 of the judgment is concerning in this respect.  It appears to be the ET concentrating on the fact the claimant failed to mention race or discrimination.  The ET had found that the claimant was accused of shouting. It had some evidence that this was connected to race in the notes of the grievance meeting.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant&#8217;s lack of recollection of what she said at the meeting was relied upon by the respondent in its argument before me. This along with the claimant not raising in her initial appeal letter the issue of discrimination as a complaint that had not been dealt with at the grievance stage, were said to be factual matters which the ET had in mind in concluding there was no protected act.  However, the way in which the law is expressed by the ET makes these arguments less forceful than they otherwise would be as it is not clear that the context was part of the ET reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Similarly, the apparent contradiction between paragraph 175 and paragraph 186.  Whilst, in my judgment, this does not reach the level of perversity, it does call into question the ET&#8217;s approach to the context evidence. There is clearly, within paragraph 175, an acceptance that there had been an accusation of shouting. However, at paragraph 186 there is no reference to what the ET found was said by the claimant at the meeting. The ET finding in broad terms only that the claimant did not allege &#8220;a breach of the Equality Act.&#8221;  It seems to me that the ET is not dealing with the facts that it had found at that stage but was instead considering only broader labels. When consideration is given to what the ET sets out at paragraph 58, the way it describes the law in paragraph 127, and those difficulties between paragraph 175 and paragraph 186, it appears to me that it is an indication that the ET not only described the law in paragraphs 126 and 127 in too narrow a way but applied the law in that narrow manner.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In dealing with the question of whether the claimant raised the issue of race, it would not be sufficient for the claimant to point out that she was a different race to others.  However, when the following is considered: that the claimant was the only black employee; she had pointed out that she was being treated differently as part of a grievance; where the ET found as fact that she was accused of shouting (relied upon as part of her original grievance); that the grievance meeting notes at a very minimum raised as an issue that shouting may be connected to black women in a negative way and where  this was an issue that was reinforced on appeal. These facts provide a broad context which the ET was required to consider and, more importantly, analyse when coming to conclusions.  It is not apparent, in my judgment, that the ET saw that as a requirement given its description of the law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET should have been taking account of all these factors and asking the question what would the respondent have understood from the complaint or would have understood the complaint to mean from the information provided by the claimant as part of her complaint.  That understanding would include the factors which were known to the respondent.  Those factors would include the racial makeup of its workforce, it would include what is in the grievance letter about a difference in treatment. It would also include the discussions at grievance meetings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have given consideration to whether, even if this description by the ET of the law is incorrect or incorrectly applied, on the facts found nonetheless the claimant could not succeed.  The ET found that not raising the matter in the appeal pointed to the claimant not having raised the issue earlier.  However, in my judgment, that depends on the ET&#8217;s view as to what raising the issue means.  In the broader context, if, as appears from the description of the law, the ET is confining a complaint to raising specifically race or discrimination in the grievance complaint, then its understanding of what the claimant was raising at the grievance meeting and the appeal meeting would be limited. That limited view would exist because of its narrow view of what could amount to a complaint.  On that basis, the ET would not be exploring the factual matters to the extent necessary. Further to this, the ET have apparently not considered race discrimination raised by the claimant in the appeal.  This could have been, of course, that the claimant was raising a new issue which she had not mentioned before.  Equally, however, it could have been evidence that the claimant had raised this as an issue in the grievance and used it as support for a conclusion that race has been raised.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In my conclusion therefore, I do not consider that I could resolve these matters on the currently recorded facts.  It is on that basis that I would uphold the claimant&#8217;s appeal in this case.  I will take submissions at this stage as to what the next step ought to be.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">FOLLOWING SUBMISSIONS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I will order remittal, because </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Sinclair Roche and Temperley</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> should be applied. That requires that the case should be before the same Tribunal as there is no indication that the panel was anything other than professional in dealing with this case</span>. The panel<span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> found in favour of the claimant on a number of points, and the fault that has been found is the approach that it took to the law, as opposed to having any particular view of the claimant. However, if that proves impracticable, then the regional employment judge may appoint a different panel to consider the remitted case so that the matter can be heard with due alacrity. It seems to me that that is the best way of approaching matters.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

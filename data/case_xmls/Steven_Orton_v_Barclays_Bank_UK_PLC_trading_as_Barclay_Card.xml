@@ -1,0 +1,1019 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewcc/2025/12"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewcc/2025/12"/>
+	  <FRBRdate date="2025-03-27" name="judgment"/>
+	  <FRBRauthor href="#ewcc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="12"/>
+	  <FRBRname value="Steven Orton v Barclays Bank UK PLC trading as Barclay Card"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/12"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/12"/>
+	  <FRBRdate date="2025-03-27" name="judgment"/>
+	  <FRBRauthor href="#ewcc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/12/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewcc/2025/12/data.xml"/>
+	  <FRBRdate date="2025-03-27T10:42:59" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewcc" href="https://www.judiciary.uk/courts-and-tribunals/county-court/" showAs="The County Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="steven-orton" href="" showAs="STEVEN ORTON"/>
+	<TLCPerson eId="barclays-bank-uk-plc-trading-as-barclay-card" href="" showAs="BARCLAYS BANK UK PLC TRADING AS BARCLAY CARD"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-robinson-bem" href="/judge-his-honour-judge-robinson-bem" showAs="His Honour Judge Robinson BEM"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>12</uk:number>
+	<uk:cite>[2025] EWCC 12</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>18c87131b5530ebb85f1ac306b91514a7e3ad662ee408a648931e3e21b8d1a6d</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Garamond; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .BodyTextIndent2 { text-align: justify; margin-left: 0.75in; font-family: 'Times New Roman'; }
+#judgment .Judgmentparas { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BodyTextIndent2Char { font-family: 'Times New Roman'; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">Neutral Citation Number: </span><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2025] EWCC 12</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Claim No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">K00MB484</docketNumber></p>
+      <p><courtType refersTo="#ewcc" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">IN THE COUNTY COURT AT MIDDLESBROUGH</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Teesside Combined Court Centre</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Centre Square</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Middlesbrough</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">TS1 2AE</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Date: </span><docDate date="2025-03-27" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">27 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Before</span><span style="font-family:'Times New Roman'"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-robinson-bem" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;text-transform:uppercase;font-family:'Times New Roman'">His Honour Judge Robinson BEM</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Between :</span></p>
+      <table uk:widths="1.18in 3.92in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-left:-0.08in"><party refersTo="#steven-orton" as="#appellant" style="font-weight:bold;font-family:'Times New Roman'">STEVEN ORTON</party></p>
+	    <p style="text-align:center;margin-left:-0.08in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Claimant/</role></p>
+	    <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center;margin-left:-0.08in"><party refersTo="#barclays-bank-uk-plc-trading-as-barclay-card" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">BARCLAYS BANK UK PLC TRADING AS BARCLAY CARD</party></p>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"/>
+	    <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Defendant/</role></p>
+	    <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Ms Robson</span><span style="font-family:'Times New Roman'">, Counsel, instructed by Consumer Rights Solicitors on behalf of the Claimant/Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Mr. Nash</span><span style="font-family:'Times New Roman'">, Counsel, instruct by Simmons &amp; Simmons LLP on behalf of the Defendant/Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Hearing date: 26 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:20pt">JUDGMENT</span></p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.00 am on 27 March 2025.</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="lvl_1">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">A.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">BACKGROUND</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Before me is an appeal brought by the claimant in respect of the judgment of District Judge Lindsay (&#8220;the District Judge&#8221;) sitting in the county court at Middlesbrough on 16 July 2024 in a clam allocated to the small claims track of the county court in relation to her award of costs against the claimant pursuant to Civil Procedure Rule (&#8220;CPR&#8221;) 27.14(2)(g), which states:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;The court may not order a party to pay a sum to another party in respect of that other party&#8217;s costs, fees and expenses, including those relating to an appeal, except &#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">(g)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">such further costs as the court may assess by the summary procedure and order to be paid by a party who has behaved unreasonably&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">For ease to the reader, I will refer to the parties by reference to their status before the District Judge as opposed to being &#8216;appellant&#8217; and &#8216;respondent&#8217; in this appeal. Whilst providing this as a written judgment I issue a caveat that it is done so on the day following hearing submissions and therefore it will not have the same gloss one would perhaps expect from a written judgment, but that does undermine the substance and reasoning below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">By way of background, the claimant issued a claim for damages valued between &#163;1,500 and &#163;3,000 on 10 July 2023 arising from what it claimed was an unfair relationship in accordance with the meaning of section 140A of the Consumer Credit Act 1974. The provisional quantum assessment detailed within the claim form was &#163;2,750.78. The case was listed for a hearing to consider directions by order dated 10 July 2023, such an order also allocating the claim to the small claims track of the county court. Such a hearing then came before the District Judge on 9 August 2023 and it was recorded that the claim form and particulars of claim were not signed, and directions were made to remedy the same.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">A further hearing took place on 16 October 2023 before Deputy District Judge Wood who listed the matter to a final hearing on 31 January 2024 with consequential directions given. On 11 January 2024 I, then sitting as a District Judge, adjourned the trial until 19 April 2024 following the claimant&#8217;s request due to a change of his legal representation. On 13 February 2024, Deputy District Judge Gibson approved the claimant&#8217;s subsequent application for a stay because of the said change of legal representation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The matter was subsequently listed for a trial on 19 June 2024 by a notice of hearing dated 21 March 2024. On 4 June 2024, the claimant&#8217;s solicitors forwarded a trial bundle to the court and then on 7 June 2024 the claimant&#8217;s solicitors forwarded a notice of discontinuance in respect of the whole claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Following correspondence received from the defendant&#8217;s solicitors, District Judge Cook ordered that a hearing listed was to remain to consider the question of costs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Having heard from the parties&#8217; legal representatives at a hearing on 16 July 2024, the District Judge determined that the claimant had behaved unreasonably pursuant to CPR 27.14(2)(g) and ordered the claimant to pay the defendant&#8217;s costs, and summarily assessed them. Leave to appeal was refused.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The claimant filed an appellant&#8217;s notice and by my order dated 23 September 2024 I refused permission to appeal on the papers, with the provision which enabled the claimant to seek an appointment to make oral representations. The claimant duly did so, and attended before me on 20 January 2025 where I granted permission to appeal, and which has led to the matter being before me yesterday. In granting permission to appeal, I set out in my extempore judgment as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="BodyTextIndent2" style="text-align:left;margin-left:0.75in">&#8220;The conduct complained about is that the failure to respond to the drop hands offer, and I note what is submitted that that does not amount to an offer, but it is that, and then further, to the timing that the discontinuance was made and the reason for the discontinuance.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="BodyTextIndent2" style="text-align:left;margin-left:0.75in">In the DJ having set out that the failure to accept the previous offers does not amount to unreasonable behaviour and the rejection of offers does not amount to unreasonable behaviour, it would appear that the finding of unreasonable behaviour had been tipped by the timing at which the notice of discontinuance was made and was influenced by the reason it was made, namely that the Claimant considered it was not economically viable to proceed. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="BodyTextIndent2" style="text-align:left;margin-left:0.75in">There was no requirement for the Claimant to set out a reason of discontinuance. The test in <span style="font-style:italic">Ridehalgh</span> is to ensure as to whether the conduct complained of permits reasonable explanation. The conduct, as I have just set out, is the act of discontinuance and the act of not responding and accepting the late drop hands offer.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="BodyTextIndent2" style="text-align:left;margin-left:0.75in">The test of unreasonable behaviour is not a low bar and in view of the matters set out I find that there is a real prospect of success to the submission that the DJ was wrong to find unreasonable behaviour in the circumstances, notably on that specific point that I have just set out, about the reason for discontinuance, and therefore I grant permission to appeal. I do, however, note this is by far a straightforward appeal, as noted by my refusal on paper indicates&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">B.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">EVIDENCE</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I have heard no oral evidence at yesterday&#8217;s appeal hearing. The bundle before me helpfully includes, in chronological order, the correspondence which passed between the parties. I find it is useful to set out that correspondence (although if I have inadvertently omitted a particular letter or email this appeal does not turn upon it, and I provide this summary to provide a degree of context only):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">30 August 2023</span><span style="font-family:'Times New Roman'">: The defendant&#8217;s solicitors wrote to the then claimant&#8217;s solicitors inviting discontinuance setting out the claim was statute barred. It further set out:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;&#8230; your client was charged total premiums in the sum of &#163;2,525.76 and associated contractual interest in the total sum of &#163;677.08, totalling &#163;3,202.84.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">On 29 October 2010, your client&#8217;s outstanding balance of &#163;6,371.66 was charged off and referred to our client&#8217;s Collections and Recoveries department. As at 26 August 2021, the outstanding debt owed was &#163;4,440.17 and no further repayments have been made since that date.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">It is our client&#8217;s position that your client&#8217;s claim for return of sums allegedly paid (where the evidence clearly shows that the debt has not been paid) is unsustainable and the claim should be discontinued immediately&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman'">The letter went on to say:</span></p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;&#8230; should your client elect not to discontinue their claim, and our client is forced to incur further unnecessary costs, our client reserves its right to apply for summary judgment or strike out of your client&#8217;s claim and for a cost order in our client&#8217;s favour, without further reference to you&#8221;.</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure>
+                </block>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">27 September 2023</span><span style="font-family:'Times New Roman'">: The defendant&#8217;s solicitors emailed the then claimant&#8217;s solicitors repeating the invitation of discontinuance on a &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">drop hands</span><span style="font-family:'Times New Roman'">&#8221; basis.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">11 December 2023</span><span style="font-family:'Times New Roman'">: The defendant&#8217;s solicitors sent a 6-page letter with its analysis of the claim to the then claimant&#8217;s solicitors and stated:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Your client&#8217;s Claim has no prospect of success and ought to be discontinued as soon as possible to avoid further costs being incurred unnecessarily. Please confirm and file and serve a notice of discontinuance by no later than 4pm, 18 December 2023 with the resultant costs consequences &#8230;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">We continue to reserve all of our client&#8217;s rights in relation to costs including reserving the right to draw this and earlier correspondence inviting your client to discontinue the Claim to the attention of the Court should they fail to do so&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">22 March 2024</span><span style="font-family:'Times New Roman'">: The claimant&#8217;s new (and current) solicitors emailed the defendant&#8217;s solicitors. Such an email did not address the previous correspondence of the defendant&#8217;s solicitors as set out above, but made an offer of settlement of &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">&#163;3,250 inclusive of costs</span><span style="font-family:'Times New Roman'">&#8221; and stated:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Our client is confident in their case. Due to the non-disclosure of commission by your client, we have no doubt that there will be a finding that there is an unfair relationship given the favourable case law from our clients&#8217; perspective. Our clients believe that they have suffered loss as a result of unfairness, yet your client has still made a substantial profit&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">1 May 2024</span><span style="font-family:'Times New Roman'">: The claimant&#8217;s solicitors emailed the defendant&#8217;s solicitors and repeated its previous offer as set out immediately above.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">7 May 2024</span><span style="font-family:'Times New Roman'">: The defendant&#8217;s solicitors emailed the claimant&#8217;s solicitors and rejected the claimant&#8217;s offer, and referenced its previous correspondence of 11 December 2023, and then repeated its invitation of discontinuance on a &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">drop hands</span><span style="font-family:'Times New Roman'">&#8221; basis.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">7 May 2024</span><span style="font-family:'Times New Roman'">: The claimant&#8217;s solicitors emailed the defendant&#8217;s solicitors and made a further offer, reducing the amount of that offer to </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;&#163;1,990.00 inclusive of costs&#8221;</span><span style="font-family:'Times New Roman'">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">20 May 2024</span><span style="font-family:'Times New Roman'">: The claimant&#8217;s solicitors emailed the defendant&#8217;s solicitors and made a further offer, reducing the amount of that offer to </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;&#163;1,690.00 inclusive of costs&#8221;</span><span style="font-family:'Times New Roman'">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">20 May 2024</span><span style="font-family:'Times New Roman'">: The claimant&#8217;s solicitors emailed the defendant&#8217;s solicitors seeking further information pertaining to the claimant&#8217;s alleged outstanding debt.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">j.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">22 May 2024</span><span style="font-family:'Times New Roman'">: The defendant&#8217;s solicitors emailed the claimant&#8217;s solicitors and provided further information as to the claimant&#8217;s alleged outstanding debt. Within that email the defendant&#8217;s solicitors sought the following:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;We take this opportunity to remind you that this is your client&#8217;s case. Your client is claiming for repayment of sums paid. As such, please provide us with the legal basis for claiming sums that your client has not paid&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman'">The email from the defendant&#8217;s solicitors said further:</span></p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;In the event that your client chooses not to discontinue the claim by the deadline and proceeds to trial, we put you on notice that we will be making submissions to the Court at trial that your client&#8217;s/your firm&#8217;s behaviour is unreasonable and will be seeking a costs order against your firm/your client. If the claim is unilaterally discontinued after on 12pm on 31 May 2024, our client will also be seeking a costs order against your firm/your client&#8221;.</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure>
+                </block>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">k.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">7 June 2024</span><span style="font-family:'Times New Roman'">: The claimant&#8217;s solicitors filed and served a notice of discontinuance.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">What then followed was correspondence relating to the hearing listed which took place before the District Judge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I do note that on 8 July 2024 the claimant&#8217;s solicitors emailed the defendant&#8217;s solicitors and stated:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">&#8220;Our client&#8217;s claim had merit. The claim was discontinued for commercial reasons only. Your client unreasonably refused to enter into meaningful settlement negotiations by insisting only that our client discontinue despite our client&#8217;s claim having merit. The consequence of this was that our client needed to incur a significant fee to instruct Counsel to attend the final hearing. Such a fee for Counsel would have severely restricted what our client would receive even if his claim was successful.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">You will also note that the claim was also discontinued only 3 days after your client filed its documents and our client had an opportunity to fully review those documents.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman'">Your client requested the claim be allocated to the small claims track and was therefore content for the claim to proceed under small claims track costs rules. In light of this, your client&#8217;s complaint about now incurring costs seems to be opportunistic at best and hypocritical&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr. Hussain of the claimant&#8217;s solicitors has provided a statement dated 15 July 2024 in which he states as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">&#8220;20.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Claimant&#8217;s claim had merit for the same reasons set out in Plevin v Paragon Personal Finance Ltd [2014] UKSC 61. The Claimant would not have purchase the PPI if he had known about the high levels of commission.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">21.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">The Claimant made a series of offers to the Claimant [sic] &#8230; The Defendant made no meaningful offer in response other than to insist on the Claimant discontinuing the claim.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">21.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">After reviewing the evidence served only a few days earlier and the relatively low value of the claim, the Claimant came to the conclusion that there was little benefit in him proceeding to trial because the Claimant would need to instruct Counsel to attend&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">C.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">SUBMISSIONS</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I express my thanks to Ms Robson, on behalf of the claimant, and Mr. Nash, on behalf of the defendant, for their assistance during yesterday&#8217;s hearing, and for their skeleton arguments. I will provide a summary of their submissions below, but the absence of me referencing a particular aspect of a submission does not mean I have not considered it, but rather I do not intend to repeat verbatim the detailed and helpful submissions which were made. I have carefully considered everything which has been said, along with the bundles before me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was also helpful that both parties, through their respective counsel, agreed that this appeal is not concerned with the merits or otherwise of the substantive claim, and therefore I will not address that issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On behalf of the claimant, it is submitted that the appeal is against the reasons which the District Judge made in her judgment, and the ground on which it is brought is that the District Judge was wrong (that being the basis on which permission has been granted). It was observed that there has been no respondent&#8217;s notice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was noted that from the District Judge&#8217;s judgment that the District Judge correctly identified that the fact of discontinuance cannot of itself give rise to a finding of unreasonable conduct. It was submitted that what is left before the Court is the timing of the discontinuance and whether that tips the matter into unreasonable conduct. It was submitted that the District Judge failed to take into account that as cases progress to trial, minds tend to focus and cases settle. It was submitted that it is therefore perfectly reasonable to run cases in the knowledge that they might settle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was further submitted that the District Judge failed to correctly apply </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann v Lanyon Bowder LLP</span><span style="font-family:'Times New Roman'"> [2017] EWCA Civ 269, notably that even running a hopeless case to trial does not amount to unreasonable behaviour. It was submitted that this was a matter which was specifically put to the District Judge, yet it was not specifically addressed in her judgment. It was submitted further that if running a hopeless case to trial cannot amount to unreasonable conduct then stopping a case a number of weeks before trial can equally not amount to unreasonable conduct, noting that court time was saved and it has furthered the overriding objective of the CPR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">When considering </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann, </span><span style="font-family:'Times New Roman'">it was further submitted that the high bar of unreasonable conduct was set out to avoid individuals being deterred from pursuing claims on the small claims track for fear of a costs order against them. It was submitted that the parties are in asymmetrical positions, with defendants in cases such as these having resources to instruct magic circle law firms and to rigorously defend such litigation, and it was submitted to amount to bullying by larger and more resourced organisations. It was said that the overriding objective requires the court to give an equality of arms to the parties.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">By comparison to the fixed costs regime, I was taken to table 12 in CPR 45.44 as to the costs for trial advocacy fees, and noting that there are no such fees payable for cases which settle on the fast track more than 2 days before trial (and the same position was highlighted for claims allocated to the intermediate track).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I was therefore invited to allow the appeal, quash the finding of unreasonable conduct and to make no order as to costs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">On behalf of defendant it was submitted that the key to understanding the District Judge&#8217;s rationale is by reading paragraphs 28 and 29 of her judgment together. It was said that the defendant&#8217;s position has always been that it is not the mere fact of a discontinuance, as that would be contrary to the established law, but that it is nuanced relating to the factual context of the discontinuance on 7 June 2024 and concerns its timing and the particular circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was submitted that the question is whether it was reasonable for the claimant to discontinue the claim due to commercial unviability and in the context of the offers and invitations which had been made by the defendant, and by the claimant discontinuing on 7 June 2024 against that backdrop. The fact that the claimant says that the claim was meritorious is submitted on behalf of the defendant to intensify the scrutiny required in this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was further submitted that the &#8220;drop hands&#8221; offers made by the defendant, submitted to be some 5 offers, set out in detail an analysis of the claim and was unwavering in the position advanced. It was submitted that it would have been abundantly clear to the claimant that the defendant would not have been making any offer of settlement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As to the value of the claim, it was submitted that it was known from the outset of the claim. The only other relevant financial figure to be added into the mix was the cost of proceeding to trial, which is submitted was a figure that the claimant&#8217;s solicitors would have known given their litigation experience, and that the commercial viability assessment should have been completed prior to 31 May 2024. It was further submitted that the claimant&#8217;s evidence is deafeningly silent as to why that assessment was not completed before this date.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was submitted that this is a case of the exercise of judicial discretion, and that such discretion should not be interfered with given the evidence from the claimant and given then absence of explanation from the claimant as to why its commercial decision was not taken before its notice of discontinuance on 7 June 2024 given the facts of this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It was finally submitted that the decision of the District Judge will not deter litigants on the small claims track given the factual context. Conversely, it was said if the appeal is allowed, it would have the potential impact of encouraging unreasonable conduct in similar circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I was invited on behalf of the defendant to dismiss the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">D.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">PROCEDURAL FRAMEWORK (COSTS ON THE SMALL CLAIMS TRACK)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As with any analysis, it is useful to return to basics. As this is a case which involves the filing of a notice of discontinuance which is governed by CPR 38, I will turn there first.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">CPR 38.2 provides:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;At any time, a claimant may discontinue all or part of a claim against one or more defendants&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">A liability for costs arising from the filing of discontinuance is set out in CPR 38.6(1):</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;Unless the court orders otherwise, a claimant who discontinues is liable for the costs which a defendant against whom the claimant discontinues incurred on or before the date on which notice of discontinuance was served on the defendant&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">However, such a liability for costs is expressly excluded from claims which proceed in the small claims track pursuant to CPR 38.6(3).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Pausing there for a moment, there can be no doubt that the claimant had the ability to discontinue all of his claim (providing compliance with the formalities pursuant to CPR 38.3, and in these proceedings there is no suggestion that those formalities were not complied with and therefore I need not be troubled by them). Furthermore, such an ability to discontinue all (or indeed part of) his claim is permitted to be exercised </span><span style="font-style:italic;font-family:'Times New Roman'">&#8220;[a]t any time&#8221;</span><span style="font-family:'Times New Roman'">, and owing to the proceedings being conducted on the small claims track of the county court there is no cost liability that therefore arises under Part 38 of the CPR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The preceding paragraphs are not controversial between the parties, but it is an important stage in understanding the arguments which are before me.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The next matter for consideration, and the essence of this appeal, is a consideration of CPR 27.14(2)(g) in relation to costs which may be awarded to claims allocated on the small claims track, which as I set out at the outset of this judgment states:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;The court may not order a party to pay a sum to another party in respect of that other party&#8217;s costs, fees and expenses, including those relating to an appeal, except &#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">(g)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">such further costs as the court may assess by the summary procedure and order to be paid by a party who has behaved unreasonably&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Equally, that matter is not controversial, that being the defendant&#8217;s original mechanism by which it sought its costs. Where there is divergence between the parties, and the very heart of this appeal, is whether the District Judge was correct in finding that the claimant had behaved unreasonably.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Before I move on to consider that very matter, I reference CPR 27.14(3) which provides assistance to determining this matter, as it states:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;A party&#8217;s rejection of an offer in settlement will not of itself constitute unreasonable behaviour under paragraph (2)(g) but the court may take it into consideration when it is applying the unreasonableness test&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">E.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">THE UNREASONABLE TEST</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">It is worth noting that there is limited guidance as to what amounts to unreasonable behaviour in respect of CPR 27.14(2)(g). The District Judge referenced the guidance in the White Book which, given its relative brevity, I repeat in full here:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8220;Rule 27.14(2)(g): Costs where a party has behaved unreasonably</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">There is no specific definition of unreasonable behaviour in the rules. In </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann v Lanyon Bowder LLP</span><span style="font-family:'Times New Roman'"> [2017] EWCA Civ 269 the Court of Appeal doubted whether useful general guidance could be given to assist courts deciding whether a party had behaved unreasonably, as all cases are fact sensitive. However, the court did suggest that the acid test from the wasted costs jurisdiction (r.46.8) and the case of </span><span style="font-style:italic;font-family:'Times New Roman'">Ridehalgh v Horsefield</span><span style="font-family:'Times New Roman'"> [1994] Ch. 205 at 232F should provide sufficient guidance to judges dealing with small claims. In other words courts should consider whether the conduct complained of &#8220;permits of reasonable explanation&#8221;. This guidance came with a warning that litigants should not be too easily deterred from using the small claims track by risk of an adverse costs order based on unreasonable behaviour. The Court of Appeal also concluded that the failure to accept an offer might be supportive of a finding of unreasonable behaviour, but was not, on its own, sufficient to satisfy the test.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Under PD 27B para.1.13(b), when a compensator is required under the RTA Small Claims Protocol to arrange a further medical report when requested by the claimant and justified under para.1.12(2) of PD 27B and either fails to do so in time or at all or raises an objection to doing so which is not reasonable, the court is likely to consider that such conduct amounts to unreasonable behaviour and to order payment of any legal costs incurred by the claimant as a result&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The District Judge considered </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann</span><span style="font-family:'Times New Roman'">, and I turn to that first. The part of the judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann</span><span style="font-family:'Times New Roman'"> which deals with the matter in hand is relatively short, and I include it in its entirety:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="font-family:'Times New Roman';color:#000000">&#8230; it is necessary to refer to the invitation made by Vos LJ, when granting permission to appeal, to consider the proper meaning of CPR Part 27.14 (2)(g). We doubt if we can usefully give general guidance in relation to the circumstances in which it will be appropriate for a court to decide whether a party "has behaved unreasonably" since all such cases must be highly fact-sensitive. In the somewhat different context of the jurisdiction to order a party&#8217;s legal (or other) representative to meet what are called "wasted costs"&#160;</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">...</span><span style="font-family:'Times New Roman';color:#000000">defined as costs incurred "as a result of any improper, unreasonable or negligent act or omission" of such representative</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">)</span><span style="font-family:'Times New Roman';color:#000000">, the court speaking through Sir Thomas Bingham MR said:-</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.75in"><span style="font-family:'Times New Roman';color:#000000">&#8220;&#8230; conduct cannot be described as unreasonable simply because it leads in the event to an unsuccessful result or because other more cautious legal representatives would have acted differently. The acid test is whether the conduct permits of a reasonable explanation. If so, the course adopted may be regarded as optimistic and as reflecting in a practitioner's judgment, but it is not unreasonable,&#8221; see&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ridehalgh v Horsefield</span><span style="font-family:'Times New Roman';color:#000000">&#160;</span><a href="https://www.bailii.org/ew/cases/EWCA/Civ/1994/40.html" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#0000FF">[1994] Ch 205</a><span style="font-family:'Times New Roman';color:#000000">, 232F.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="font-family:'Times New Roman';color:#000000">While we would not wish to incorporate all the learning about wasted costs orders into decisions under CPR Part 27.14 (2)(g), we think that the above dictum should give sufficient guidance on the word "unreasonably" to district judges and circuit judges dealing with cases allocated to the Small Claims Track.&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ridehalgh</span><span style="font-family:'Times New Roman';color:#000000">&#160;was, of course, dealing with acts or omissions of legal representatives but the meaning of "unreasonably" cannot be different when applied to litigants in person in Small Claims cases. Litigants in person should not be in a better position than legal representatives but neither should they be in any worse position than such representatives.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="font-family:'Times New Roman';color:#000000">The only other thing we can usefully add is that it would be unfortunate if litigants were too easily deterred from using the Small Claims Track by the risk of being held to have behaved unreasonably and thus rendering themselves liable for costs. The rules could have provided that on appeal the normal rules as to costs should prevail, but Part 27.14(2) applies in terms to costs relating to an appeal; an appellate court should therefore be wary of ordering costs on appeal to be paid if they were not ordered below, unless circumstances on appeal are truly different.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As well as the cited paragraph above from </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ridehalgh</span><span style="font-family:'Times New Roman';color:#000000">, other passages I find relevant from </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ridehalgh</span><span style="font-family:'Times New Roman';color:#000000"> are as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">&#8220;A legal representative is not to be held to have acted improperly, unreasonably or negligently simply because he acts for a party who pursues a claim or a defence which is plainly doomed to fail</span><span style="font-family:'Times New Roman';color:#000000">&#160;&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">It is, however, one thing for a legal representative to present, on instructions, a case which he regards as bound to fail; it is quite another to lend his assistance to proceedings which are an abuse of the process of the court. Whether instructed or not, a legal representative is not entitled to use litigious procedures for purposes for which they were not intended, as by issuing or pursuing proceedings for reasons unconnected with success in the litigation &#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">the court has jurisdiction to make a wasted costs order only where the improper, unreasonable or negligent conduct complained of has caused a waste of costs and only to the extent of such wasted costs.&#160;Demonstration of a causal link is essential&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';margin-left:0.49in;text-indent:-0.3in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';color:#000000">I will weave these matters into my analysis in a moment, but before I do so I extrapolate out from </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Ridehalgh </span><span style="font-family:'Times New Roman';color:#000000">the test for wasted costs and which has been applied more recently in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Jovicic &amp; Ors v The Serbian Orthodox Church-Serbian Patriarchy</span><span style="font-family:'Times New Roman';color:#000000"> [2020] EWHC 2229 (QB) (and which has since been set out in the notes to the White Book as referenced in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Jovicic</span><span style="font-family:'Times New Roman';color:#000000">):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">Had the legal representative of whom complaint is made acted improperly unreasonably or negligently?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">If so did such conduct cause the application to incur unnecessary costs?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">If so, was it, in all the circumstances, just to order the legal representative to compensate the applicant for the whole or part of the relevant costs?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';margin-left:0.49in;text-indent:-0.3in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';color:#000000">It also important to remember, as per </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Harrison v Harrison </span><span style="font-family:'Times New Roman';color:#000000">[2009] EWHC 428 QB, that an order for wasted costs is compensatory in nature as opposed to being punitive, such that the complaining party must show that the unreasonable conduct alleged has caused loss.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">F.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">ANALYSIS</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I remind myself at the outset that the role of the appeal court is to review the decision of the District Judge, as per CPR 52.21(1).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The question of whether the claimant&#8217;s conduct has been unreasonable is fact specific. What is alleged by the defendant in this case is that the unreasonableness arose from the claimant&#8217;s discontinuance on 7 June 2024 against the specific facts of the case, and specifically the content of the defendant&#8217;s solicitors&#8217; email of 22 May 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In reviewing the decision of the District Judge I start by considering </span><span style="font-style:italic;font-family:'Times New Roman'">Dammerman</span><span style="font-family:'Times New Roman'"> and whether the claimant&#8217;s conduct permits reasonable explanation, and the District Judge&#8217;s analysis of this. There is no specific guidance beyond what I have set out above for approaching the test as to what permits a reasonable explanation. It is ultimately for each judge to assess on a case-by-case basis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">When reviewing the decision, the correspondence as set out above speaks for itself in the clearest of terms, and it forms the factual matrix which was before the District Judge and which is before this court on appeal. When considering that correspondence in greater detail, the substance of the defendant&#8217;s solicitors&#8217; correspondence on 30 August 2023, 27 September 2023 and 11 December 2023 all went unanswered. I do note that the current claimant&#8217;s solicitors only commenced acting for the claimant on 19 December 2023, but of course on assuming conduct it would be necessary and reasonably expected for the claimant&#8217;s solicitors to review the claimant&#8217;s file.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Furthermore, the claimant&#8217;s solicitors&#8217; email dated 22 March 2024 also failed to reference the defendant&#8217;s solicitors&#8217; previous correspondence and instead made general assertions about their confidence of success in the proceedings. Such an email failed to include anything readily identifiable as specific to the claimant&#8217;s claim, and indeed had the hallmarks of being generic correspondence as noted by the duplication of the first line of the email and by the different size fonts used in the body of the email, albeit I make no specific finding and place no specific weight on that latter comment on the apparent hallmarks of the email; it is rather what was not included within it which is more pertinent, namely any specific analysis of the claim or response to the matters previously raised by the defendants&#8217; solicitors.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">What followed were further reducing offers made by the claimant&#8217;s solicitors, but again with no response to the detail of the defendant&#8217;s solicitors&#8217; previous correspondence, even when reminded of the same by the defendant&#8217;s solicitors.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">For the first time, on 20 May 2024, the claimant&#8217;s solicitors emailed the defendant&#8217;s solicitors seeking clarity in relation to the substantive matters the defendant&#8217;s solicitors&#8217; had first raised on 30 August 2023 and repeated since then. The defendant&#8217;s solicitors duly responded to those enquiries by email dated 22 May 2024 and further set out that in the absence of the claimant discontinuing the claim by 31 May 2024 then they would be proceeding with the instruction of counsel for the listed trial. There was no ambiguity in the words used, the position was crystal clear.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The failure of the claimant&#8217;s solicitor to grasp the nettle and respond in any meaningful way to the issues raised by the defendant&#8217;s solicitors in open correspondence prior to 22 May 2024 is not the unreasonable conduct found, but in reading the District Judge&#8217;s judgment I find that she had that factual background in mind when considering all the circumstances of the proceedings before her, and it was a factor which she was entitled to weigh in the balance in the exercise of her discretion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">There is no reason offered as to the failure by the claimant&#8217;s solicitors to engage meaningfully with the defendant&#8217;s solicitors. I do note that it was only on 19 December 2023 when they entered the court record for the claimant, but that does not mitigate against the subsequent failure to engage and respond to the matters raised. The District Judge recognised the effect lack of engagement on the issues in her judgment when assessing matters and held (at para 28):</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Taking all of the matters into account that I have been through here, not just the fact that the Claimant discontinued, not just the fact that the Claimant rejected the offers, in the circumstances of this case, in my judgment, taking into account all those facts and the test, I do find that the Claimant was unreasonable in failing to accept, at the very least, the Defendant&#8217;s final drop hands offer on 22 May. They ignored that offer and did not respond to it&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Whilst referring to an &#8220;offer&#8221; or &#8220;offers&#8221;, it must reasonably relate to the context of the letters in which the offers were included within, such a context setting out an analysis of the claim. It was not as simple as the defendant&#8217;s solicitors stating &#8220;we invite you to discontinue&#8221;, but rather it had repeatedly set out its assessment as to matters. The claimant recognised this point by indicating that the offers were not offers at all, but invitations to discontinue. Failing to engage with that final correspondence on 22 May 2024, in the context of the factual matrix of previous non-engagement of the substantive issues, is serious and significant, and it runs contrary to the overriding objective of the CPR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">As to the reason offered pertaining to the claimant discontinuing on 7 June 2024, the claimant&#8217;s solicitors state it was for &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">commercial reasons</span><span style="font-family:'Times New Roman'">&#8221;. The District Judge addresses this at paragraph 29 of her judgment:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;They waited far too long essentially to take what I am told is the commercial decision that they have now taken to discontinue the case. In discontinuing as late as they did, this has meant that the Defendant, (as well as the Claimant &#8211; but this is a matter for them), have incurred further costs, which could and should have been saved by discontinuing at an earlier stage&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In this regard I find, in reviewing the decision on appeal, that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman'">The claimant&#8217;s solicitors knew on assuming conduct of the claimant&#8217;s case the financial value of the claim given that it was set out within the claim form as drafted by the claimant&#8217;s previous solicitors.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman'">The claimant&#8217;s solicitors also knew on assuming conduct that from the order of Deputy District Judge Wood on 16 October 2023 all the procedural steps up to and including the listing of the trial had been outlined (including its location at the county court at Middlesbrough and the time estimate of 3 hours).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman'">The claimant&#8217;s solicitors would also have been aware at the time of assuming conduct the likely costs (in the broadest of terms) of representation at such a trial. As a firm of solicitors, they would have known the typical fees to be charged for counsel to be instructed, solicitors&#8217; agents to be instructed or for the claimant&#8217;s solicitors themselves attending.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In submissions yesterday it was accepted on behalf of the claimant that the subsequent disclosure 3 days prior to the filing of the notice of discontinuance did not make any difference, and this was added to on behalf of the defendant in confirming that the defendant had disclosed the material documents at the earlier early neutral evaluation hearing in any event.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The claimant&#8217;s solicitors were under no illusion as to the defendant&#8217;s position in relation to the proceedings, and there was nothing more of substance which had been disclosed after 22 May 2024. The value of the claimant&#8217;s claim had not moved, and I find that the general fees for counsel, solicitors&#8217; agents or solicitors attending trial would also have been static.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The claimant&#8217;s solicitors&#8217; explanation for discontinuing on 7 June 2024 for &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">commercial reasons</span><span style="font-family:'Times New Roman'">&#8221; is a commercial decision which could, and indeed should, have been taken significantly earlier, and the claimant&#8217;s solicitors were repeatedly invited to do so. A further opportunity was provided by the defendant&#8217;s solicitors&#8217; email of 22 May 2024, which was in the clearest of terms. Failing to take heed of the position at any point between 22 May 2024 and 31 May 2024 against the factual backdrop has no reasonable explanation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Such a commercial decision effectively rules out progressing to trial, and which is therefore tantamount to an abuse of process given that there was no material change in the factual makeup of the claim since the claimant&#8217;s solicitors assumed conduct (i.e. proceeding with a claim for which there is no reasonable intention to progress to trial in line with the directions provided). That is plainly unreasonable when all the facts of this claim are brought together. I do issue a caveat that the position would be different from a party who elects to discontinue because of a change in circumstances, or because the party has decided that he or she can no longer bear the burden and stress of litigation, or perhaps for a whole host of other reasons and for which it is not necessary or helpful for me to provide a prescriptive list. However, in this case, the claimant&#8217;s position is that the arithmetic did not add up, arithmetic readily available from the outset, and in the context of its decision of commercial unviability it reflects that it was not going to proceed to trial. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Even leaving aside the issue of it being an abuse of process and assuming for the moment it is not (noting it is a matter which the District Judge did not explore expressly and I have considered only in the detailed review undertaken on appeal), I nevertheless find it was open to the District Judge to find unreasonable conduct on the facts of this case on the basis of the claimant&#8217;s solicitors discontinuing on 7 June 2024 against the factual background set out within her judgment, and her finding that there was no reasonable explanation for such conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I do not accept any argument that had the claimant&#8217;s solicitors progressed this to trial and lost it would then not be subject to a costs order. If the claimant had lost at trial, it would have still been open to the defendant&#8217;s solicitors to have made the same application at the conclusion of any such trial on the basis of the conduct set out above. The holistic conduct of the claimant&#8217;s solicitors, that being the factual background set out above, as opposed to the act of discontinuance per se, is what has been a key factor in the District Judge&#8217;s decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Finally, I move on to consider the wider circumstances of the case. I do consider there is a need for parties to be able to discontinue their cases brought on the small claims track without there being a too readily immediate risk of a costs order. There is real concern that if costs, save for court fees, are awarded too freely on the small claims track it runs contrary to the intention of Part 27 of the CPR and may have a deterrent effect to bringing claims, which in turn would impact on access to justice. However, when considering the circumstances of this case, the claimant&#8217;s solicitor failed to respond to matters raised by the defendant&#8217;s solicitors for over 8 months. Critically to the decision in this case, the claimant&#8217;s solicitors then failed to respond in a period of 9 days set out by the defendant&#8217;s solicitors in their correspondence on 22 May 2024 knowing that thereafter the defendant&#8217;s solicitors would proceed to instructing counsel. Furthermore, on its own explanation the claimant&#8217;s solicitors have indicated that the claim was discontinued for &#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">commercial reasons</span><span style="font-family:'Times New Roman'">&#8221;, but with an absence as to why such a commercial decision was not taken earlier save for a generic suggestion that minds become more focussed in closer proximity to a trial date. There is nothing further within the circumstances of the case which causes a reasonable explanation to emerge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In my review of the District Judge&#8217;s decision, in having found that there is unreasonable conduct without explanation for the same, I move on to consider whether it has caused the defendant to incur a loss. The District Judge found that it quite patently did. There had been the cost of counsel being instructed for the hearing on 19 June 2024, and the preparatory work. The District Judge&#8217;s assessment in that regard is clear and there is no error with it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Finally, again following the dicta from the wasted costs regime, in the circumstances of what has been found, it is entirely just in such circumstances for there to be an order of costs because there has been a direct loss to the defendant in terms of the additional costs which the defendant has had to pay, and which could have been avoided but for the unreasonable conduct of the defendant. It would be manifestly unfair to the defendant in these circumstances if it was to be faced with absorbing all those costs caused by such unreasonable behaviour. I do not consider the reference to the tables for fixed costs for claims on the small claims track or intermediate track under CPR 44 is particularly helpful, as CPR 27.14(2)(g) is a separate mechanism for the recovery of costs following a finding of unreasonable behaviour.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">The grounds of appeal before me do not seek to challenge the assessment process undertaken by the District Judge, and she assessed costs to be payable in the sum of &#163;2,132.88. It appears to me to have been a proper summary assessment and I do not interfere with it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In returning to the decision of the District Judge, she undertook the same exercise as I have done and found unreasonable conduct. She applied the case law and considered the individual facts of this claim. Whilst the District Judge has not specifically addressed that even hopeless cases can be pursued to trial and that it is not unreasonable to do so, I find that is not overly relevant given that the issue in this appeal is the defendant&#8217;s solicitors&#8217; conduct in the context of the facts and the timing of its notice of discontinuance. As I have repeated above, it is fact specific.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">In the analysis which I have undertaken in reviewing the decision of the District Judge, it is clear for all the reasons outlined above that the District Judge was not wrong and nor was the decision unjust because of any procedural irregularity in the proceedings before the District Judge.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I do not consider the decision of the District Judge, and therefore this decision on appeal, will cause cases to be progressed to trial which would otherwise be discontinued earlier. Conversely, I would hope that the decision will encourage parties to apply their minds early to the substantive issues in dispute, respond to correspondence and to fully promote the overriding objective of the CPR, which would thus afford a degree of protection to any suggestion of unreasonable conduct. If parties apply their minds to the key issues in cases early in proceedings, and indeed even before the issue of proceedings, it will almost certainly reduce costs, avoid delay and likely relieve the pressures and stresses that litigation places on individuals who find themselves in civil litigation before the court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">G.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">CONCLUSION</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">For all the reasons set out above, I dismiss the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">Should there be any consequential matters, namely costs arising out of the appeal itself which are unable to be agreed, parties may email the Court and seek a remote hearing within 7 days.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold;font-family:'Times New Roman'">H.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Times New Roman'">OBITER</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I do add by way of obiter, and it does not impact the decision which I have taken above, whilst the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann </span><span style="font-family:'Times New Roman'">doubted any general guidance being given, that was at a time before the reforms now introduced which have expanded the scope of the small claims track, and with it an increase in the nature and likely number of claims being allocated to such a track. With that in mind, it is perhaps useful for me to set out an approach which may assist parties in similar situations. It is an approach which has echoes, to some extent, of the test for applications for relief from sanction, but with modification to the particular circumstances. Such a test is well understood by practitioners and injects a practical approach. However, parties and the court must not fall into a trap of considering there is any such breach from the outset, as that would be to put the cart before the horse, and hence the need for modification of the test. A perhaps useful framework might be to proceed to consider a 4-stage approach following on from, and still applying, </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann</span><span style="font-family:'Times New Roman'">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman'">Stage 1: Is the alleged conduct proven on the balance of probabilities?</span><span style="font-family:'Times New Roman'"> This is a question of fact. The court must know just what conduct it is that that is to be assessed, and where there is a dispute it must be proven on the balance of probabilities. It is insufficient for the allegation to be based on one party&#8217;s generic perception alone as to the conduct. Specificity to the conduct alleged is required.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman'">Stage 2: Is the proven conduct sufficiently serious or significant to warrant further explanation?</span><span style="font-family:'Times New Roman'"> If the allegations of unreasonable conduct are trivial or minor in nature, then the threshold for seeking further explanation is unwarranted and would, I find, run contrary to the overriding objective of dealing with cases justly and at proportionate cost. Proceeding to consider trivial or minor allegations would also seek to go behind the very essence of the cost regime on the small claims track which in turn may seek to deter litigants bringing claims. Conversely, if the conduct is sufficiently serious or significant, then assessment must move on to consider the next stage. There can be no defined list as to what amounts to serious or significant, but it would, I find, likely include breaches of court orders, clear failures in furthering the overriding objective of the CPR, repeated failures to respond to correspondence, repeated minor poor conduct and breaches in professional conduct or ethics.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman'">Stage 3: If the proven conduct is sufficiently serious or significant, was there a good reason which explains the said conduct?</span><span style="font-family:'Times New Roman'"> What is a good reason will be a matter of fact in each case, and definitive guidance cannot be provided (which may arguably bring matters full circle to the Court of Appeal&#8217;s decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Dammermann,</span><span style="font-family:'Times New Roman'"> albeit this 4 stage test may provide some further level of detail to the approach). If there was a good reason, then that would meet the threshold for providing a reasonable explanation and no further analysis would be required. If there was no such good reason provided, then I find it is necessary to have a final check and balance contained in the final stage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:0.75in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman'">Stage 4: In considering all the circumstances of the case, does any other reasonable explanation emerge for the conduct? </span><span style="font-family:'Times New Roman'">This ensures that there is a holistic approach taken to the matters which are before the Court. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman'">I emphasise that is only a perspective from having gone through matters in this case, and it is not definitive guidance to approaching what amounts to a reasonable explanation, albeit it may provide some assistance in the future to parties and the court.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:right"><span style="font-family:'Times New Roman'">HHJ Robinson BEM</span></p>
+	    <p style="text-align:right"><span style="font-family:'Times New Roman'">27 March 2025</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

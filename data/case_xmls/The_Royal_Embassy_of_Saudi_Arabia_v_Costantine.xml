@@ -1,0 +1,1118 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/9"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/9"/>
+	  <FRBRdate date="2025-03-06" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="9"/>
+	  <FRBRname value="The Royal Embassy of Saudi Arabia v Costantine"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/9"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/9"/>
+	  <FRBRdate date="2025-03-06" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/9/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/9/data.xml"/>
+	  <FRBRdate date="2025-03-06T10:38:23" name="transform"/>
+	  <FRBRdate date="2025-03-06T11:05:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="the-royal-embassy-of-saudi-arabia" href="" showAs="The Royal Embassy of Saudi Arabia"/>
+	<TLCPerson eId="costantine" href="" showAs="Costantine"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-lloyd-jones" href="/judge-lord-lloyd-jones" showAs="Lord Lloyd-Jones"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lord-burnett" href="/judge-lord-burnett" showAs="Lord Burnett"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>9</uk:number>
+	<uk:cite>[2025] UKSC 9</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>468c9e080ebcd0237d4c8211db8b53060b5e2a5413a118dabcbeb4722135e40b</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading1 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.87in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { text-align: justify; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: Times-Roman; font-size: 9pt; color: #000000; }
+#judgment .fontstyle21 { font-style: normal; font-weight: normal; font-family: Times-Roman; font-size: 13pt; color: #000000; }
+#judgment .fontstyle31 { font-style: normal; font-weight: normal; font-family: CIDFont+F2; font-size: 12pt; color: #000000; }
+#judgment .fontstyle41 { font-style: normal; font-weight: normal; font-family: CIDFont+F5; font-size: 10pt; color: #000000; }
+#judgment .fontstyle51 { font-style: normal; font-weight: normal; font-family: CIDFont+F1; font-size: 12pt; color: #000000; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation style="font-weight:bold">[2025] UKSC 9</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/332" style="font-style:italic" uk:canonical="[2024] EWCA Civ 332" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2024] EWCA Civ 332</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#the-royal-embassy-of-saudi-arabia" style="font-size:20pt">The Royal Embassy of Saudi Arabia</party><span style="font-size:20pt"> (Cultural Bureau) (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#costantine" style="font-size:20pt">Costantine</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-lloyd-jones">Lord Lloyd-Jones</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge><br/><judge refersTo="#judge-lord-burnett">Lord Burnett</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2025-03-06" refersTo="#judgment">6 March 2025</docDate><br/><br/>Heard on 6 November 2024</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Mohinderpal Sethi KC<br/>Joel Wallace<br/>Bl<span style="font-family:'Times New Roman'">&#225;thnaid Breslin</span><br/>(Instructed by Reynolds Porter Chamberlain LLP (London))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Sarah Fraser Butlin KC<br/>Tamar Burton<br/>(Instructed <span style="font-family:'Times New Roman'">by Zimmers Solicitors Rechtsanw&#228;lte (London)</span>)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord Lloyd-Jones<span style="text-transform:none"> (with whom Lord Briggs, Lord Hamblen, Lord Leggatt and Lord Burnett agree): </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This appeal concerns the scope of the immunity enjoyed by a foreign State in respect of claims relating to the employment of a member of the administrative and technical staff at its Embassy in the United Kingdom. It also raises an issue as to the duty of courts in this jurisdiction to give effect to the immunity of a foreign State in circumstances where the State does not attend at the hearing of its appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Paraheading2">Factual background</p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In these proceedings before the Employment Tribunal, Employment Judge Brown found that the Royal Embassy of Saudi Arabia (Cultural Bureau) (&#8220;the appellant&#8221;) is part of the Ministry of Education of Saudi Arabia and forms part of the Royal Embassy of Saudi Arabia in the United Kingdom. The Embassy has no legal identity separate from that of the Kingdom of Saudi Arabia. Mrs Antoinette Costantine (&#8220;the respondent&#8221;) is a former employee of the Embassy. She has both Lebanese and British nationality. She is a Catholic Christian.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The respondent was initially employed from 18 January 2010 to 6 June 2016 as a Post Room Clerk based in the Administrative Affairs Department. From 1 February 2012, she was given the job title of &#8220;student coordinator for health affairs&#8221; with job number 187. This continued until the termination of her employment. This job title, however, was not an accurate description of her work. She was given this title as it attracted a higher salary. Despite this title, she continued to work as a Post Room Clerk until June 2016, when she was transferred to the role of Secretary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">From 6 June 2016 to September 2017 she worked as Secretary to Dr Nassir, the Head of the Cultural Affairs Department and a diplomat. With effect from 26 September 2017, she was transferred to the Administrative Affairs Department as a Post Room Clerk. She was given notice of the termination of her employment on 16 October 2017 (according to the liability judgment of the Employment Tribunal referred to in paragraph 28 below). Her employment ended on 17 January 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Embassy&#8217;s function during the respondent&#8217;s employment included looking after the arrangements for Saudi students while they were studying in the United Kingdom and protecting their interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The written terms of her employment at the time that she commenced work for the Embassy, ie as of 18 January 2010, were in Arabic. Article 1 provided that she was employed to work as an &#8220;administration affairs officer &#8211; No 157&#8221;. The written terms provided that her post included the following duties:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">[To] Work as an administration affairs officer or as needed.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">To comply with the conditions notified of prior to signing the contract.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">[To] Obey supervisors and perform work duties accurately, honestly and in the best possible way. Preserve the time, documents, papers, tools, machines, equipments, and properties of the Mission.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Following the appointment of a new cultural attach&#233;, she undertook little or no work from her return to the post room in September 2017 until her employment ended in 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Employment Tribunal Judge found that her role included the following functions:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Post Room Clerk role</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">While the respondent might have been able to access wide-ranging confidential information such as medical records of Saudi students, including children of Royal family members or government officials, using her username on the electronic record system called &#8220;Rasel&#8221;, she was unaware that she could do so. Her job roles did not require her to access this information and she never in fact did so.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">Although she worked in the post room, she did not open mail nor did she read or stamp correspondence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(3)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">She did not register all mail going in and out of the Cultural Bureau.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(4)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">She only dealt with UK university invoices and cross-referenced details from those invoices.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(5)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">The Employment Tribunal concluded that this was in essence a data entry job, which did not involve consideration or analysis of those documents. She was not required to access confidential information in this role, nor did she do so. She simply looked up the student&#8217;s name, number and university. She was unaware that she had access to the wide-ranging information available.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(6)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">She genuinely believed that the Cultural Bureau looked after the arrangements of Saudi students in the United Kingdom and did not handle confidential government information. She repeatedly described her role in the post room and her knowledge of the function of the Cultural Bureau in this way.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(7)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">She was involved in the organisation of the Embassy&#8217;s Career Day and Graduation Ceremony between 2012 and 2015 which may well have given her access to the names, contact details, Saudi ID numbers and passport details of Saudi students, their families, Saudi ministers, Saudi officials including Royal attendees, non-Saudi guests and VIPs. She liaised with Saudi officials and/or their staff to make arrangements for their attendance and this would involve their contact details. She only had access to this information for the purpose of arranging their attendance at the Career Day event. She did not analyse these details, nor make governmental decisions in relation to them. She was not a member of any committee responsible for the Embassy&#8217;s Career Day or Graduation Ceremony.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Secretary role</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(8)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">The respondent undertook basic secretarial functions: answering the telephone, booking rooms, inviting people to meetings with Dr Nassir, arranging for caterers to provide refreshments at events and dealing with email communications regarding universities and students. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(9)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">She did not have access to Dr Nassir&#8217;s diary. She made appointments as instructed and passed contact details to Dr Nassir.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(10)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">She did not attend any meetings with Dr Nassir, nor did she take notes of any meetings. She was not aware of the details of the people who attended meetings, nor of the content of the meetings and she did not go into Dr Nassir&#8217;s office except to take tea or coffee.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(11)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">Her email correspondence in her secretarial role was confined to email correspondence concerning students and their universities.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(12)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.5in;text-indent:0.5in">It was logical that she may have dealt with the children of government officials, or members of the Royal family, in this role. However, her role was a purely administrative one, making arrangements for study and payment to universities.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Paraheading3"><span style="font-weight:normal">Procedural history</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 19 March 2018, the respondent presented a claim form to the Employment Tribunal complaining of (i) direct discrimination on grounds of religious belief as defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 10</ref> and 13 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> and prohibited by Part 5 of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">that Act</ref>, and (ii) harassment related to religious belief as defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/10" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 10</ref> and 26 of the Equality Act 2010 and prohibited by Part 5 of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">that Act</ref>. The claim form also included claims for breach of contract, unlawful deduction from wages and unfair dismissal under the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref>, but these further claims were withdrawn by the respondent&#8217;s email to the Employment Tribunal dated 30 April 2019.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On or around 15 February 2019, the Embassy filed its response form and Grounds of Resistance which pleaded immunity under the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">State Immunity Act 1978</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref>&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 9 April 2019, the Embassy&#8217;s former solicitor emailed the Employment Tribunal stating, inter alia, that the Embassy &#8220;does not consider it necessary to amend the Grounds of Resistance but accepts the tribunal has jurisdiction over claims which are derived from EU law.&#8221; The respondent maintains that this amounts to an express waiver of immunity. The Embassy disputes this. This issue was not determined by Employment Judge Brown at the preliminary hearing on immunity and does not feature in the decision of the Employment Tribunal which is the subject of this appeal. Waiver of immunity is therefore not an issue in this appeal. However, the Court was informed that the respondent will ask that the issue be remitted to the Employment Tribunal in the event that the Embassy&#8217;s appeal is successful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 29 June 2021, Employment Judge Brown sat at an open preliminary hearing to determine the issue of immunity. By a decision sent to the parties on 30 June 2021, she made the findings set out at para 8 above. She held that the respondent&#8217;s employment was not an exercise of sovereign authority and that State immunity did not apply because: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The respondent was not required to access confidential information in her role as Post Room Clerk, nor did she do so. She simply looked up the student&#8217;s name, number and university. She was unaware that she had access to the wide-ranging information available on the system.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The respondent&#8217;s access to confidential personal contact and ID details of government and royal attendees when (i) organising the Embassy&#8217;s Career Day and Graduation Ceremony between 2012 and 2015, and (ii) making arrangements for their children&#8217;s study did not mean that her role was close to the governmental functions of the mission. She did not analyse these details, nor did she make governmental decisions in relation to them.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The respondent&#8217;s secretarial role for Dr Nassir involved low level non-governmental functions. Her email correspondence concerning students and their universities was not a governmental matter but involved making practical arrangements for Saudi citizens studying abroad and making arrangements for study and payment to universities for students, including the children of government officials or members of the Royal family. Her role was a purely administrative one.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The respondent&#8217;s role throughout her employment was ancillary and supportive. It was not governmental. She did not support the governmental functions of the mission, but its administrative functions.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 11 August 2021, the Embassy appealed to the Employment Appeal Tribunal (&#8220;EAT&#8221;). On 9 February 2022, the appeal was rejected on the sift by Mr Mathew Gullick KC, sitting as a Deputy High Court Judge, under rule 3(7) of the Employment Appeal Tribunal Rules 1993 (SI 1993/2854) (as amended) (the &#8220;EAT Rules&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Embassy expressed its dissatisfaction with the reasons given by Mr Gullick, pursuant to rule 3(10) of the EAT Rules. On 15 November 2022, Judge Barklem heard the Embassy&#8217;s application under rule 3(10) of the EAT Rules and, on 23 November 2022, handed down his judgment dismissing the application. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 20 December 2022, the Embassy filed a notice seeking permission to appeal against Judge Barklem&#8217;s order to the Court of Appeal. On 8 August 2023, Bean LJ granted permission to appeal, noting that, although it might prove that the claim of immunity was rightly rejected, the general importance of the issue raised was a compelling reason to grant permission to appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 23 August 2023, the Embassy filed an updated skeleton argument with the Court of Appeal. On 25 August 2023, the Court of Appeal notified the parties that the appeal would be heard at a one-day hearing listed for 13 March 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> On 20 February 2024, Reynolds Porter Chamberlain LLP (&#8220;RPC&#8221;), the Embassy&#8217;s solicitors, made an application to the Court of Appeal under rule 42.3 of the Civil Procedure Rules for an order declaring that they had ceased to act for the Embassy as a result of prolonged non-payment of their bills. On 6 March 2024 the Court of Appeal made the order sought.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 6 March 2024, Master Bancroft-Rimmer of the Civil Appeals Office wrote to Professor Amal Fatani, the person at the Embassy responsible for conduct of the litigation, notifying her of RPC&#8217;s withdrawal and of the Embassy&#8217;s obligation to provide an address for service of communications in relation to the litigation. The Civil Appeals Office also wrote to Professor Fatani that day about filing bundles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 8 March 2024, Professor Fatani responded to both emails from the Civil Appeals Office and sought an adjournment of the appeal hearing until RPC resumed representation or the legal team in the Ministry of Education understood the case and its requirements. On 11 March 2024, the respondent&#8217;s solicitors wrote to the Court of Appeal opposing the application. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 11 March 2024 the Civil Appeals Office wrote to Professor Fatani on behalf of Underhill LJ, Vice-President of the Court of Appeal (Civil Division), explaining that the Court of Appeal was not minded to delay the appeal hearing and that an application for an adjournment of the hearing should be made formally and supported by a witness statement giving full evidence. It added that the Court would consider any such application at the start of the hearing on 13 March 2024 and the Embassy was strongly advised to be represented at that hearing. If the application was refused the Court would proceed to hear the appeal that day. If the Embassy or its representatives were not in a position to present its case, the Court would be entitled to dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Professor Fatani replied on 11 March 2024 once again requesting an adjournment until the Embassy had persuaded RPC to continue to represent it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Embassy was not represented at and did not attend the appeal hearing on 13 March 2024. The Court of Appeal made enquiries on the morning of the hearing and, at 11.01 am, in response to those enquiries, Professor Fatani emailed the Court as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I have tried again today and yesterday for RPC to attend, unfortunately, I did not succeed. I will not be able to attend as I have no expertise in this matter. I request respectfully that you take into consideration the information sent, and if possible delay or set another follow-up meeting to hear from us, to be fair to both sides, as I am not specialised to represent this matter and working hard to have representation from experts as soon as possible.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 13 March 2024, the Court of Appeal dismissed the Embassy&#8217;s appeal. Underhill LJ delivered the leading judgment: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/332" uk:canonical="[2024] EWCA Civ 332" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 332</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As the non-appearance was intentional rather than as a result of any accident or misunderstanding the Court of Appeal dismissed the appeal for non-appearance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By 8 April 2024, the Embassy had reinstructed RPC and it made an application to the Court of Appeal for permission to appeal to the Supreme Court. On 11 April 2024 the Court of Appeal refused the application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 19 April 2024, the Embassy applied to the Supreme Court for permission to appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 22 April 2024, the Employment Tribunal (Employment Judge Akhtar sitting with members) convened to hear the substantive claims. At the start of the hearing, the Embassy&#8217;s legal representatives appeared and applied for a stay of proceedings on the basis that an application for permission to appeal to the Supreme Court was pending, the issue of State immunity was still alive and contested, and that the Embassy could not participate to defend itself against the substantive claim lest it compromise its claim to immunity. The Employment Tribunal dismissed the stay application. The Embassy&#8217;s representatives withdrew from the hearing and the hearing continued in their absence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In its judgment sent to the parties on 29 May 2024 and its reasons dated 2 August 2024 the Employment Tribunal upheld a number of the complaints made by the respondent. The Embassy has appealed the Employment Tribunal&#8217;s decision to hear the claim and dismiss its application for a stay. A rule 3(10) hearing is expected to take place in 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 1 July 2024, the Supreme Court granted permission to appeal. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Paraheading2">Legislative provisions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At all material times prior to 23 February 2023, the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> included the following provisions:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) A State is immune from the jurisdiction of the courts of the United Kingdom except as provided in the following provisions of this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">this Act</ref>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A court shall give effect to the immunity conferred by this section even though the State does not appear in the proceedings in question.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">4.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) A State is not immune as respects proceedings relating to a contract of employment between the State and an individual where the contract was made in the United Kingdom or the work is to be wholly or partly performed there.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to subsections (3) and (4) below, this section does not apply if&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">at the time when the proceedings are brought the individual is a national of the State concerned; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">at the time when the contract was made the individual was neither a national of the United Kingdom nor habitually resident there; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the parties to the contract have otherwise agreed in writing.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where the work is for an office, agency or establishment maintained by the State in the United Kingdom for commercial purposes, subsection (2)(a) and (b) above do not exclude the application of this section unless the individual was, at the time when the contract was made, habitually resident in that State.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsection (2)(c) above does not exclude the application of this section where the law of the United Kingdom requires the proceedings to be brought before a court of the United Kingdom.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">16.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) This Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">this Act</ref> does not affect any immunity or privilege conferred by the&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1964/81" uk:canonical="1964 c. 81" uk:origin="TNA" uk:type="legislation">Diplomatic Privileges Act 1964</ref> or the&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1968/18" uk:canonical="1968 c. 18" uk:origin="TNA" uk:type="legislation">Consular Relations Act 1968</ref>; and&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">section 4 above does not apply to proceedings concerning the employment of the members of a mission within the meaning of the Convention scheduled to the said Act of 1964 or of the members of a consular post within the meaning of the Convention scheduled to the said Act of 1968;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">22.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) In <ref href="http://www.legislation.gov.uk/id/ukpga/1968/18" uk:canonical="1968 c. 18" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8216;court&#8217; includes any tribunal or body exercising judicial functions; and references to the courts or law of the United Kingdom include references to the courts or law of any part of the United Kingdom.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 6, European Convention for the Protection of Human Rights and Fundamental Freedoms (&#8220;ECHR&#8221;) provides in relevant part:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the determination of his civil rights and obligations or of any criminal charge against him, everyone is entitled to a fair and public hearing within a reasonable time by an independent and impartial tribunal established by law. Judgment shall be pronounced publicly but the press and public may be excluded from all or part of the trial in the interests of morals, public order or national security in a democratic society, where the interests of juveniles or the protection of the private life of the parties so require, or to the extent strictly necessary in the opinion of the court in special circumstances where publicity would prejudice the interests of justice.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 47, Charter of Fundamental Rights of the European Union (&#8220;the EU Charter&#8221;) provides in relevant part:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<span class="QuoteChar" style="font-family:'Times New Roman'">Everyone whose rights and freedoms guaranteed by the law of the Union are violated has the right to an effective remedy before a tribunal in compliance with the conditions laid down in this Article.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Benkharbouche v Embassy of the Republic of Sudan (Secretary of State for Foreign and Commonwealth Affairs and others intervening)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/62" uk:canonical="[2017] UKSC 62" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 62</ref>; <ref href="#" uk:canonical="[2019] AC 777" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] AC 777</ref> (&#8220;<span style="font-style:italic">Benkharbouche</span>&#8221;), the Supreme Court held that the immunity conferred on a foreign State by section 4(2)(b) and <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> exceeded in certain respects the immunity required by customary international law. In particular, it held that <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref>, which extended State immunity to the claims of any employee of the diplomatic mission, irrespective of the sovereign character of the employment or the acts of the State complained of, could not be justified by reference to any rule of customary international law. This, it considered, led to an infringement of the right of access to a court under article 6 ECHR and the right to an effective remedy before a tribunal under article 47 of the EU Charter. As a result, it granted a declaration of incompatibility under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> (&#8220;the HRA&#8221;) and disapplied the two provisions for inconsistency with EU law in so far as they applied to any claims derived from EU law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In response to the declaration of incompatibility, on 2 February 2023 the Secretary of State made the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">State Immunity Act 1978</ref> (Remedial) Order (SI 2023/112) (&#8220;the Remedial Order&#8221;), article 5 of which substitutes for <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref>(a) the following paragraph:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;16.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) This Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">this Act</ref> does not affect any immunity or privilege conferred by the&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1964/81" uk:canonical="1964 c. 81" uk:origin="TNA" uk:type="legislation">Diplomatic Privileges Act 1964</ref> or the&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1968/18" uk:canonical="1968 c. 18" uk:origin="TNA" uk:type="legislation">Consular Relations Act 1968</ref>; and&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">section 4 above does not apply to proceedings relating to a contract of employment between a State and an individual if the individual is or was employed under the contract as a diplomatic agent or consular officer;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(aa) section 4 above does not apply to proceedings relating to a contract of employment between a State and an individual if the individual is or was employed under the contract as a member of a diplomatic mission (other than a diplomatic agent) or as a member of a consular post (other than a consular officer) and either&#8212;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the State entered into the contract in the exercise of sovereign authority; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the State engaged in the conduct complained of in the exercise of sovereign authority;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issues to be determined by the Supreme Court are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Was the Court of Appeal under a duty to consider whether State immunity applied in circumstances where the appellant did not attend the appeal? If so, did it comply with that duty?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Did the Employment Tribunal apply the correct test for the application of State immunity to the facts of this case?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">What is the impact of the Remedial Order on the applicable test?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Paraheading2">Issue 1: Was the Court of Appeal under a duty to consider whether State immunity applied in circumstances where the appellant did not attend the appeal? If so, did it comply with that duty?</p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">State immunity is a general rule of customary international law established by the practice of States. In its judgment on <span style="font-style:italic">Jurisdictional Immunities of the State (Germany v Italy; Greece intervening)</span> [2012] ICJ Rep 99, the International Court of Justice (&#8220;ICJ&#8221;) concluded (at paras 56, 57) that State practice shows that, &#8220;whether in claiming immunity for themselves or according it to others, States generally proceed on the basis that there is a right to immunity under international law, together with a corresponding obligation on the part of other States to respect and give effect to that immunity&#8221;. The ICJ considered that the rule of State immunity derives from the principle of sovereign equality of States which is one of the fundamental principles of the international legal order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Benkharbouche </span>Lord Sumption, with whose judgment the other members of the Supreme Court agreed, held (at para 17) that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;State immunity is a mandatory rule of customary international law which defines the limits of a domestic court&#8217;s jurisdiction &#8230; It derives from the sovereign equality of states. Par in parem non habet imperium.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In <span style="font-style:italic">Jones v Ministry of the Interior of Saudi Arabia</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/26" uk:canonical="[2006] UKHL 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 26</ref>; <ref href="#" uk:canonical="[2007] 1 AC 270" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 AC 270</ref> Lord Bingham observed (at para 24):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Where state immunity is applicable, the national court has no jurisdiction to exercise.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These statements demonstrate the importance of compliance by domestic courts with international law rules on State immunity. If a court exercises jurisdiction over a foreign State which is entitled to State immunity, there is a breach of international law. To require a foreign State entitled to immunity to appear before a court and to enquire into its conduct of sovereign affairs would be a violation of the foreign State&#8217;s sovereignty. This also explains why it was necessary to include in the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> a provision which requires a court to give effect to State immunity even if the State does not appear in the proceedings and does not take the point itself. A provision such as section 1(2) of the SIA 1978 is necessary in order to ensure that domestic courts do not exercise jurisdiction in breach of a foreign State&#8217;s right to immunity. (See, generally, Bielby and Sanger [2024] CLJ 397, 400.) As the matter relates to jurisdiction, there must be a duty on a domestic court to take the point of its own motion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic">Fox and Webb</span>, <span style="font-style:italic">The Law of State Immunity</span>, revised 3<span style="vertical-align:super;font-size:smaller">rd</span> ed (2015), p 176 (&#8220;<span style="font-style:italic">Fox and Webb</span>&#8221;), states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Immunity is thus not made dependent on a foreign State&#8217;s claim thereto, although it may of course be lost by waiver. Foreign States are not always prepared immediately to appear in the English court on receipt of notice of proceedings and this rule and the procedure laid down in section 12 [on service of process and judgments in default of appearance] &#8230; provide a useful safeguard to ensure adequate notice to the foreign State and opportunity for action through diplomatic channels.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The rule, now contained in section 1(2), reflects that which previously applied at common law. In <span style="font-style:italic">Mighell v Sultan of Johore</span> <ref href="#" uk:canonical="[1894] 1 QB 149" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1894">[1894] 1 QB 149</ref> (&#8220;<span style="font-style:italic">Mighell</span>&#8221;) Kay LJ stated (at pp 162-163):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Supposing, by way of illustration, that some well-known potentate, such as one of the great European emperors, were to be sued in a Court of this country, and took no kind of notice of the proceeding; it would be the duty of the Court to recognise his position, and to say at once that the person cited was an independent foreign sovereign over whom it had no jurisdiction. Therefore it is not right to say that such a sovereign must come forward and assert his right. I do not think that he need. I think that the Court itself would be bound to take notice of the fact that it had no jurisdiction.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-style:italic">Mighell</span> was cited with approval on this point by Lord Phillips PSC in <span style="font-style:italic">NML Capital Ltd v Republic of Argentina</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/31" uk:canonical="[2011] UKSC 31" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 31</ref>; <ref href="#" uk:canonical="[2011] 2 AC 495" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 AC 495</ref> (at para 9):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;If the sovereign ignored the issue of the writ, the court was under a duty of its own motion to recognise his immunity from suit.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A rule similar to <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> is contained in the European Convention on State Immunity 1972, 1495 UNTS 182 (&#8220;ECSI&#8221;) to which the United Kingdom is a party. Article 15 provides that a State shall be entitled to immunity from the jurisdiction of the courts of another Contracting State if the proceedings do not fall within the exceptions recognised by the ECSI and that &#8220;the court shall decline to entertain such proceedings even if the State does not appear.&#8221; Similarly, the United Nations Convention on Jurisdictional Immunities of States and their Property 2004, 44 ILM 801 (&#8220;UNCSI&#8221;) provides in article 6 that the State is obligated to give effect to State immunity and &#8220;ensure that its courts determine on their own initiative that the immunity of that other State under article 5 is respected&#8221;. The United Kingdom has signed but not ratified the UNCSI, which is not yet in force. We have also been referred to a number of decisions of foreign courts applying legislation to similar effect. (<span style="font-style:italic">Kuwait Airways Corpn v Iraq </span>2010 SCC 40; [2010] 2 SCR 571 (Supreme Court of Canada); <span style="font-style:italic">Arsalani v Islamic Republic of Iran</span> 2020 ONSC 6843 (Superior Court of Justice of Ontario); <span style="font-style:italic">Josias van Zyl v Kingdom of Lesotho</span> [2017] SGHC 104 (Singapore High Court); <span style="font-style:italic">Pan v Bo</span> [2008] NSWSC 961; <ref href="#" uk:canonical="(2008) 220 FLR 271" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">(2008) 220 FLR 271</ref> (New South Wales Supreme Court).)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> expressly applies notwithstanding that the foreign State does not appear in the proceedings. In order to determine whether a defendant is entitled to immunity under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> of the SIA 1978 and, if so, in order to give effect to that immunity in compliance with <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref>, a court will therefore be required to inform itself of the relevant circumstances of the case including the status of the defendant and the nature of the proceedings. <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(2)</ref> clearly imposes an obligation of inquiry. The matter was stated as follows by Pill LJ in <span style="font-style:italic">Republic of Yemen v Aziz</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/745" uk:canonical="[2005] EWCA Civ 745" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 745</ref>; <ref href="#" uk:canonical="[2005] ICR 1391" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] ICR 1391</ref> (at paras 55, 60):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">the 1978 Act</ref> demonstrates the importance which the law attaches to the principle of state immunity from jurisdiction &#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">I would add that the duty of the courts under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">the 1978 Act</ref> to inquire is not confined to whether, under section 2, the state has submitted to the jurisdiction of the courts. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> effect must be given to the immunity conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> even though the state does not appear in the proceedings. It follows that where a party to proceedings may be a state, within the meaning of the statute, inquiry is necessary into whether the entity party to the proceedings, though not present, has that status.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On behalf of the respondent, Mrs Sarah Fraser Butlin KC submits that the duty imposed by <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> does not extend to the Court of Appeal. I am unable to accept this submission. First, the statutory provisions in their natural meaning are clear. <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(2)</ref> is expressed in general terms. It uses mandatory language to impose a duty on &#8220;a court&#8221;. &#8220;Court&#8221; is defined generously by <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/22/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> as including &#8220;any tribunal or body exercising judicial functions&#8221;. Nothing on the face of the statute excludes an appellate court from the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> duty. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I can see no sound justification in principle for a general exclusion of appellate courts from the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> duty. On the contrary, to do so would be liable to defeat the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref>, namely to prevent a court from exercising jurisdiction over an absent defendant State without giving proper consideration to whether the defendant State is entitled to immunity and thereby acting in breach of international law. Consider, for example, a case in which a defendant State does not appear at the hearing before the court of first instance which considers the question of immunity but, on grounds which are clearly erroneous, denies immunity. If the matter subsequently comes before an appellate court, the appellate court should certainly be under a duty to consider of its own motion whether the State was entitled to immunity and whether the decision below was correct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In this jurisdiction <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> has been consistently held to apply to appellate courts. In <span style="font-style:italic">United Arab Emirates v Abdelghafar</span> <ref href="#" uk:canonical="[1995] ICR 65" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] ICR 65</ref> (EAT) Mummery J held that <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> imposed a positive duty on a court or tribunal to satisfy itself that effect had been given to the immunity conferred by the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> and, if the tribunal which had heard the original proceedings had not given effect to the immunity, it was the duty of the appeal tribunal to do so by correcting the error. Since the employers had shown a reasonably arguable case that the tribunal of first instance had failed to apply the law of State immunity correctly, time for appealing would be extended, notwithstanding that no acceptable excuse had been put forward by the employers for their failure to comply with the time limit. Referring to <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> Mummery J observed (at pp 73-74):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The decision of this appeal tribunal in <span style="font-style:italic">Sengupta v Republic of India</span> <ref href="#" uk:canonical="[1983] ICR 221" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] ICR 221</ref> illustrates how seriously the court regards this obligation. In that case the foreign state did not appear to take the point on jurisdiction. The court asked for the appointment of an amicus to assist it. If the court has a duty under statute to give effect to the immunity conferred, even though the state does not appear to claim it, that duty may be all the greater in a case where the foreign state has, as here, expressly taken the point of immunity.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The overriding duty of the court, of its own motion, is to satisfy itself that effect has been given to the immunity conferred by the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">State Immunity Act 1978</ref>. That duty binds all tribunals and courts, not just the court or tribunal which heard the original proceedings. If the tribunal in the original proceedings has not given effect to the immunity conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">the Act</ref>, then it must be the duty of the appeal tribunal to give effect to it by correcting the error.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">(See also <span style="font-style:italic">Republic of Yemen v Aziz</span>, per Pill LJ at para 59; <span style="font-style:italic">Caramba-Coker v Military Affairs Office of the Embassy of Kuwait</span> (EAT, unreported, Keith J, 10 April 2003); <span style="font-style:italic">Fox and Webb</span>, p 176.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Similarly, in <span style="font-style:italic">Arab Republic of Egypt v Gamal-Eldin</span> <ref href="#" uk:canonical="[1996] 2 All ER 237" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 2 All ER 237</ref> the EAT permitted the defendant State to rely on new evidence which had not been before the tribunal below. The State&#8217;s arguments on immunity were upheld, notwithstanding that it had failed to appear before the tribunal below. Mummery J held (at p 243C):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;If the industrial tribunal fails to give effect to an immunity in fact enjoyed by the Arab Republic of Egypt as a result of not having all the relevant evidence, it is, in our view, the duty of the appeal tribunal to correct this error and give effect to this immunity, even if that means departing from the rules which normally apply to the admission of new evidence on appeal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I am not persuaded by Mrs Fraser Butlin&#8217;s submissions to the contrary. First, she submits that a foreign State should not be allowed a second bite of the cherry if it has breached the relevant procedural rules. She points to <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 12</ref> and 13 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> which modify certain procedural rules in their application to States. She submits that it must have been intended that all other domestic procedural rules should apply to foreign States. There is, however, in <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> a clear direction to all courts and tribunals that effect should be given to immunity and this must be capable of overriding procedural rules. In any event, although the appellant in the present case failed to attend the hearing before the Court of Appeal, this failure was not a breach of any procedural rule.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, she submits that there is no international consensus as to the duty on appellate courts to give effect to State immunity of their own motion. However, the failure of a domestic appellate court to take a point on State immunity of its own motion may well result in an exercise of jurisdiction in breach of international law. Furthermore, none of the evidence of State practice to which we have been directed, including ECSI, UNCSI and the decisions of national courts and tribunals, supports the view that the duty does not extend to appellate courts and tribunals. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Thirdly, the respondent is not assisted in this regard by her reliance on <span style="font-style:italic">Mauritius Tourism Promotion Authority v Min</span> (EAT, 24 November 2008, Elias J, unreported) (&#8220;<span style="font-style:italic">Min</span>&#8221;) or <span style="font-style:italic">Zhongshan Fucheng Industrial Investment Co Ltd v Federal Republic of Nigeria</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2022/3286" uk:canonical="[2022] EWHC 3286 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 3286 (Comm)</ref>, Cockerill J; <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/867" uk:canonical="[2023] EWCA Civ 867" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 867</ref>, Court of Appeal (&#8220;<span style="font-style:italic">Zhongshan</span>&#8221;). These were both cases involving prolonged, serious procedural defaults on the part of the State entity concerned, which is not the case here. Furthermore, in both cases the State entity had been afforded every opportunity to put before the court or tribunal its case and evidence on State immunity, which would have enabled that issue to be further considered, but it had chosen not to do so. In those particular circumstances, there was no continuing obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> to consider whether there was an entitlement to immunity. (See <span style="font-style:italic">Min</span> at paras 50-53 and <span style="font-style:italic">Zhongshan</span>, Court of Appeal at paras 35-37, 40.) In any event, these decisions do not support a general limitation of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> duty to courts of first instance for which the respondent contends.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The failure of the appellant to appear at the hearing of its appeal before the Court of Appeal on 13 March 2024 was regrettable and resulted in a waste of that court&#8217;s time. Nevertheless, in the circumstances of this case the Court of Appeal was not entitled simply to dismiss the appeal, as it did, without first considering of its own motion whether the appellant was entitled to State immunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal was properly seised of the issue of immunity. The Embassy had filed on 20 December 2022 an appellant&#8217;s notice seeking permission to appeal against the order of Judge Barklem in the EAT. Permission to appeal to the Court of Appeal had been granted on 8 August 2023 by Bean LJ who had identified the importance of the issue. On 23 August 2023, the appellant filed an updated skeleton argument with the Court of Appeal. That court was, therefore, aware of the precise issues of State immunity raised by the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The decision to refuse an adjournment and to dismiss the appeal would, in other circumstances, have been entirely understandable and uncontroversial. The Court of Appeal was clearly influenced by the prejudice an adjournment would cause to the respondent and by the fact that there was no excuse for the appellant&#8217;s predicament. However, in the circumstances of this case the Court of Appeal failed to take account of its duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref>. The Court of Appeal was under a duty to consider whether it was obliged to give effect to the claimed immunity notwithstanding the failure of the appellant to attend the hearing. It should have addressed the issue itself, as best it could in the circumstances. If it considered it necessary, in order fairly to decide that issue, it should have granted an adjournment so that the matter could be fully argued, if necessary with the assistance of an advocate to the court.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Paraheading2">Issue 2: Did the Employment Tribunal apply the correct test for the application of State immunity to the facts of this case?</p>
+	    <p class="Paraheading2">Issue 3: What is the impact of the Remedial Order on the applicable test?</p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These issues may conveniently be considered together.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Paraheading2">The Supreme Court decision in <span style="font-style:italic">Benkharbouche</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claimants in the two linked appeals reported as <span style="font-style:italic">Benkharbouche </span>were Moroccan nationals recruited overseas to work as domestic staff at the London embassies of Sudan and Libya respectively. They brought separate claims in the Employment Tribunal against their employers including claims for unfair dismissal, failure to pay the minimum wage and breach of the Working Time Regulations 1998 (SI 1998/1833). The defendants asserted immunity under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref>. In his judgment in the Supreme Court, with which the other members of the Supreme Court agreed, Lord Sumption concluded that, in determining whether sections 4(2)(b) and 16 of the SIA 1978 were compatible with article 6 ECHR and with article 47 of the EU Charter, the test was whether the sections were consistent with a rule of customary international law which denied the English courts jurisdiction in such cases. In the absence of such a rule of customary international law, the grant of immunity would be an unjustified infringement of the right of access to the court under article 6 ECHR and of the right to an effective remedy before a tribunal under article 47 of the EU Charter. Lord Sumption examined the history of State immunity and concluded that the true basis of the doctrine was the equality of sovereigns and that it never had warranted immunity extending beyond what sovereigns did in their capacity as such (para 52). Immunity was limited to acts by a State in the exercise of sovereign authority as opposed to acts of a private law character.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">He then turned his attention to how this distinction should be drawn in individual cases. He cited Lord Wilberforce in <span style="font-style:italic">Owners of Cargo lately laden on board the Playa Larga v I Congreso del Partido </span><ref href="#" uk:canonical="[1983] 1 AC 244" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 AC 244</ref> at p 267:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The conclusion which emerges is that in considering, under the &#8216;restrictive&#8217; theory whether state immunity should be granted or not, the court must consider the whole context in which the claim against the state is made, with a view to deciding whether the relevant act(s) upon which the claim is based, should, in that context, be considered as fairly within an area of activity, trading or commercial, or otherwise of a private law character, in which the state has chosen to engage, or whether the relevant act(s) should be considered as having been done outside that area, and within the sphere of governmental or sovereign activity.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Sumption then addressed employment cases specifically:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;54.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the great majority of cases arising from contract, including employment cases, the categorisation will depend on the nature of the relationship between the parties to which the contract gives rise. This will in turn depend on the functions which the employee is employed to perform.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">55.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Vienna Convention on Diplomatic Relations divides the staff of a diplomatic mission into three broad categories: (i) diplomatic agents, i e the head of mission and the diplomatic staff; (ii) administrative and technical staff; and (iii) staff in the domestic service of the mission. Diplomatic agents participate in the functions of a diplomatic mission defined in article 3, principally representing the sending state, protecting the interests of the sending state and its nationals, negotiating with the government of the receiving state, ascertaining and reporting on developments in the receiving state and promoting friendly relations with the receiving state. These functions are inherently governmental. They are exercises of sovereign authority. Every aspect of the employment of a diplomatic agent is therefore likely to be an exercise of sovereign authority. <span style="text-decoration-line:underline;text-decoration-style:solid">The role of technical and administrative staff is by comparison essentially ancillary and supportive. It may well be that the employment of some of them might also be exercises of sovereign authority if their functions are sufficiently close to the governmental functions of the mission. Cypher clerks might arguably be an example. Certain confidential secretarial staff might be another: see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Governor of Pitcairn v Sutton</span><span style="text-decoration-line:underline;text-decoration-style:solid"> [1995] 1 NZLR 426 (New Zealand Court of Appeal).</span> However, I find it difficult to conceive of cases where the employment of purely domestic staff of a diplomatic mission could be anything other than an act jure gestionis. The employment of such staff is not inherently governmental. It is an act of a private law character such as anyone with the necessary resources might do.&#8221; (Emphasis added.)</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Sumption went on, however, to enter two qualifications, guarding against the suggestion that the character of the employment is always and necessarily decisive.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;58.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The first is that a state&#8217;s immunity under the restrictive doctrine may extend to some aspects of its treatment of its employees or potential employees which engage the state&#8217;s sovereign interests, even if the contract of employment itself was not entered into in the exercise of sovereign authority. Examples include claims arising out of an employee&#8217;s dismissal for reasons of state security. They may also include claims arising out of a state&#8217;s recruitment policy for civil servants or diplomatic or military employees, or claims for specific reinstatement after a dismissal, which in the nature of things impinge on the state's recruitment policy. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In this regard I would also draw attention to a further passage in <span style="font-style:italic">Benkharbouche</span> in response to a submission concerning article 7 of the Vienna Convention on Diplomatic Relations 1961, 500 UNTS 95 (&#8220;VCDR&#8221;) which provides that a sending State may &#8220;freely appoint&#8221; members of the staff of a diplomatic mission. It was submitted that a freedom to appoint must imply a freedom to dismiss. Lord Sumption observed (at para 70):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;I would accept that the right freely to appoint embassy staff means that a court of the forum state may not make an order which determines who is to be employed by the diplomatic mission of a foreign state. Therefore, it may not specifically enforce a contract of employment with a foreign embassy or make a reinstatement order in favour of an employee who has been dismissed. But a claim for damages for wrongful dismissal does not require the foreign state to employ any one. It merely adjusts the financial consequences of dismissal. No right of the foreign state under the Vienna Convention is infringed by the assertion of jurisdiction in the forum state to carry out that adjustment. Therefore, no right under the Vienna Convention would be prejudiced by the refusal of the forum state to recognise the immunity of the foreign state as regards a claim for damages.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The second qualification entered by Lord Sumption was that the whole subject of the territorial connections of a non-State contracting party with the foreign State or the forum State raises questions of exceptional sensitivity in the context of employment disputes. This need not be considered further here.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Having reached the conclusion that the employment of purely domestic staff of a diplomatic mission was not a sovereign act but an act of a private law character, Lord Sumption further concluded that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/4/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(2)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref>, which extended immunity to a situation where, at the time the employment contract between an individual and a State was made, the individual was neither a national of the United Kingdom nor habitually resident there; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref>, which extended immunity to the claims of any employee of a diplomatic mission, irrespective of the sovereign character of the employment or the acts of the State complained of;</p>
+	    </content>
+	  </subparagraph>
+	  <wrapUp>
+	    <p class="ParaNoNumber">were not justified by any binding principle of international law (at paras 67, 69). Since no principle of international law deprived the employment tribunal of jurisdiction in these cases, the United Kingdom had jurisdiction over Libya and Sudan as a matter of international law and article 6 ECHR and article 47 of the EU Charter were breached by its refusal to exercise it. In the result, the relevant statutory provisions were made the subject of a declaration of incompatibility under the HRA and were disapplied for inconsistency with EU law in so far as they applied to any claims derived from EU law.</p>
+	  </wrapUp>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the course of his submissions, Mr Mohinderpal Sethi KC on behalf of the appellant relied on the decision of the EAT in <span style="font-style:italic">Sengupta v Republic of India</span> <ref href="#" uk:canonical="[1983] ICR 221" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] ICR 221</ref> (&#8220;<span style="font-style:italic">Sengupta</span>&#8221;), a case decided under the common law, where the applicant had been employed as a clerk &#8220;at the lowest clerical level&#8221; (p 223 B-C). Mr Sethi relied in particular on the observation of Browne-Wilkinson J, delivering the judgment of the EAT (at p 228 F-G), that </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; when one looks to see what is involved in the performance of the applicant&#8217;s contract, it is clear that the performance of the contract is part of the discharge by the foreign state of its sovereign functions in which the applicant himself, at however lowly a level, is under the terms of his contract of employment necessarily engaged. One of the classic forms of sovereign acts by a foreign state is the representation of that state in a receiving state.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">However, the decision in <span style="font-style:italic">Sengupta</span> was expressly disapproved in <span style="font-style:italic">Benkharbouche</span> on the ground that it took an over-expansive view of the range of acts relating to an embassy employee which could be described as an exercise of sovereign authority. Lord Sumption observed (at para 73) that <span style="font-style:italic">Sengupta</span> was decided at an early stage of the development of the law and that the test applied was far too wide. He also agreed with the statement in what is now <span style="font-style:italic">Fox and Webb</span> p 202, footnote 177, that the decision appeared to have had more regard to the purpose than the commercial nature of the clerical work involved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The approach to immunity stated at paras 54 and 55 of <span style="font-style:italic">Benkharbouche</span> accurately reflects the position in customary international law. (See the extensive citation of foreign authority in <span style="font-style:italic">Benkharbouche</span> at para 56.) I would draw attention in particular to a line of authority in the European Court of Human Rights, all cases concerning the administrative and technical staff of diplomatic missions and cited with approval in <span style="font-style:italic">Benkharbouche</span>, where the test applied by the Strasbourg court was whether the functions for which the applicant was employed called for a personal involvement in the diplomatic or political operations of the mission, or only in such activities as might be carried on by private persons (<span style="font-style:italic">Cudak v Lithuania</span> <ref href="#" uk:canonical="(2010) 51 EHRR 15" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">(2010) 51 EHRR 15</ref>; <span style="font-style:italic">Sabeh El Leil v France</span> <ref href="#" uk:canonical="(2011) 54 EHRR 14" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">(2011) 54 EHRR 14</ref>; <span style="font-style:italic">Wallishauser v Austria</span> CE:EHRR:2012:0717JUD000015604; <span style="font-style:italic">Radunovi&#263; v Montenegro</span> <ref href="#" uk:canonical="(2016) 66 EHRR 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">(2016) 66 EHRR 19</ref>; see also <span style="font-style:italic">Naku v Lithuania and Sweden</span>, Application No 26126/07, 8 November 2016 (ECtHR); <span style="font-style:italic">Mahamdia v People&#8217;s Democratic Republic of Algeria</span> (<ref href="#" uk:canonical="Case C-154/11" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-154/11</ref>) <ref href="#" uk:canonical="[2013] ICR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] ICR 1</ref> (Court of Justice of the European Union); <span style="font-style:italic">United States Embassy Employee case</span> (2019) 200 ILR 334 (Austrian Supreme Court)).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Paraheading2">The Remedial Order</p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Following the decision of the Supreme Court in <span style="font-style:italic">Benkharbouche</span>, on 2 February 2023 the Secretary of State made the Remedial Order in response to the declaration of incompatibility. The Preamble to the Remedial Order states, in relevant part:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">&#8220;The immunity of a state in proceedings relating to a contract of employment between a state and a person who at the time of the contract is neither a national of the United Kingdom nor resident here, as well as in proceedings concerning the employment of members of a diplomatic mission (including its administrative, technical and domestic staff) has been declared under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> to be incompatible with a Convention right.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">The Remedial Order was accordingly made pursuant to the powers conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/10/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 10(2)</ref> of and Schedule 2 to the HRA.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The text of <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> as amended is set out at para 34 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Remedial Order was clearly intended to reflect the effect of the decision in <span style="font-style:italic">Benkharbouche </span>which in turn reflects customary international law. The language of article 5, which amends <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref>, reflects that of Lord Sumption&#8217;s judgment. The Remedial Order came into force on 23 February 2023 and applies to proceedings in respect of causes of action arising on or after 18 October 2017, the date of the Supreme Court&#8217;s decision in <span style="font-style:italic">Benkharbouche </span>(article 1(3)). In these circumstances, the Remedial Order should be interpreted against the background of and in conformity with principles of international law on State immunity, to the extent that that is possible. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As the Remedial Order applies to proceedings &#8220;in respect of a cause of action that arose on or after 18 October 2017 (whether those proceedings were initiated before, on or after the day on which this Order is made)&#8221; (article 1(3) of the Remedial Order), some of the respondent&#8217;s claims in the present proceedings are likely to have accrued before this change in the law and others after it. We did not hear argument on the point, but it appears that many of the acts pleaded in the Details of Complaint as alleged acts of harassment or discrimination occurred before 18 October 2017. It is likely that a cause of action will have arisen at the date each act of harassment or discrimination occurred. On the other hand, notice of termination of the respondent&#8217;s employment was given on 16 October 2017 (according to the liability judgment of the Employment Tribunal referred to in paragraph 28 above) but did not take effect until 17 January 2018. The respondent maintains that her dismissal was an act of direct discrimination or harassment which falls within the ambit of the Remedial Order because the cause of action crystallised on the date of termination of her employment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This complication is, however, unlikely to make a significant difference to the outcome of these proceedings for the following reasons. As we have seen, the amended rules introduced by the Remedial Order were intended to reflect principles of international law as explained by Lord Sumption in <span style="font-style:italic">Benkharbouche</span>. To the extent that the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> as originally enacted granted a wider immunity than was required by binding rules of international law they not only contravened article 6 ECHR and the HRA, resulting in a declaration of incompatibility under the HRA, but they also contravened article 47 of the EU Charter. The Supreme Court held that the resulting conflict between EU law and English domestic law had to be resolved in favour of the former and the latter disapplied to that extent in respect of claims derived from EU law for discrimination, harassment and breach of the Working Time Regulations 1998 (<span style="font-style:italic">Benkharbouche</span> at para 79).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At the hearing of the present appeal the Court was informed by the parties that they agreed that, notwithstanding the legislative changes in connection with the withdrawal of the United Kingdom from the European Union, the respondent remains entitled to rely on article 47 of the EU Charter in this way. In particular, <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16/section/5/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 5(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">European Union (Withdrawal) Act 2018</ref> (&#8220;the Withdrawal Act&#8221;) (which provides that the EU Charter is not part of domestic law on or after Implementation Period completion day (&#8220;IP completion day&#8221;) (as  defined in  <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref>A(6) of the Withdrawal Act, ie 11pm on 31 December 2020)) and Schedule 1, para 3 of the Withdrawal Act (which provides that no court or tribunal may, on or after IP completion day, disapply any enactment because it is incompatible with any of the general principles of EU law) do not apply in relation to any proceedings begun, but not finally decided, before a court or tribunal in the United Kingdom before IP completion day (Schedule 8, para 39(3) of the Withdrawal Act). While Schedule 1, para 3 of the Withdrawal Act has now been repealed by <ref href="http://www.legislation.gov.uk/id/ukpga/2023/28/section/4/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(6)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2023/28" uk:canonical="2023 c. 28" uk:origin="TNA" uk:type="legislation">Retained EU Law (Revocation and Reform) Act 2023</ref> (&#8220;the REUL Act&#8221;), and Schedule 8, para 39(3) of the Withdrawal Act has been amended accordingly by <ref href="http://www.legislation.gov.uk/id/ukpga/2023/28/section/4/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(7)</ref>(c) of the REUL Act, these changes do not apply in relation to anything occurring before the end of 2023 (<ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/22/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22(5)</ref> of the REUL Act). The present proceedings were commenced by a claim form presented to the Employment Tribunal on 19 March 2018. The Court has heard no argument on the point, but I am content to proceed on this basis.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the result, therefore, the present proceedings fall to be decided by the application of the principles stated by the Supreme Court in <span style="font-style:italic">Benkharbouche</span> and by the rules stated in the Remedial Order, which are to the same effect.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Paraheading2">The present appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_70">
+	  <num style="font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">While <span style="font-style:italic">Benkharbouche</span> concerned the employment of domestic staff of a diplomatic mission, the respondent in the present case was a member of the administrative staff of the mission. In order to determine whether the employment of technical and administrative staff of a diplomatic mission is a sovereign activity requiring immunity in international law, <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref>(aa) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> as amended and the principles stated in <span style="font-style:italic">Benkharbouche </span>apply. First, it is necessary to consider whether the State entered into the contract of employment in the exercise of sovereign authority. This will require an examination of the nature of the relationship between the parties to the contract of employment and the functions which the employee is employed to perform. While the role of technical and administrative staff is, by comparison with diplomatic agents, essentially ancillary and supportive, this is not determinative. It may be that the ancillary and supportive functions of some employees are sufficiently closely connected to the governmental functions of the mission to make their employment an exercise of sovereign authority. The examples given by Lord Sumption in <span style="font-style:italic">Benkharbouche</span> include cypher clerks or certain confidential secretaries. The outcome will depend on the proximity of each employee&#8217;s role to the governmental functions of the mission. Secondly, however, even if the contract of employment itself was not entered into in the exercise of sovereign authority, immunity may be required because the State engaged in the conduct complained of in the exercise of sovereign authority. Under this head the State&#8217;s sovereign interests may be engaged by the proceedings because of the treatment accorded to the employee by the State. Examples of cases within this second head given in <span style="font-style:italic">Benkharbouche</span> include dismissal for reasons of State security or challenges to the State&#8217;s recruitment policy. It also seems clear that a claim for reinstatement would be defeated by immunity because it would be an intrusion into the internal affairs of the mission to require reinstatement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">So far as the first head is concerned, the Employment Tribunal heard evidence of the conflicting accounts of the parties as to the nature of the respondent&#8217;s employment. Witnesses were cross-examined. In her very thorough judgment, Employment Judge Brown made detailed findings of fact in relation to the employment of the respondent which are summarised at paras 3-8 above. There has been no attempt to challenge any of these findings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Employment Judge Brown directed herself correctly as to the applicable law. In particular she referred to the decision of the Supreme Court in <span style="font-style:italic">Benkharbouche</span> and set out in her judgment para 55 of <span style="font-style:italic">Benkharbouche</span>, cited above at para 56 above, in which this first limb of the test is stated. Contrary to the submission of Mr Sethi on behalf of the appellant, there was no failure to appreciate the significance of article 3 of the VCDR, which defines the functions of a diplomatic mission, and which is referred to in para 55 of <span style="font-style:italic">Benkharbouche</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:13pt">73.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Furthermore, on a fair reading of the judgment of the Employment Tribunal, I am unable to detect any error of law in the judge&#8217;s application of the law to the facts as she found them. Here I gratefully acknowledge the very helpful submissions of Ms Tamar Burton, junior counsel for the respondent. In particular, I would draw attention to the following matters:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">I am satisfied that Employment Judge Brown recognised that the promotion of culture and education is capable of being a governmental function within the Embassy. In describing the respondent&#8217;s job roles, she explained that the &#8220;Cultural Bureau is part of the Ministry of Education of the Kingdom of Saudi Arabia and falls under the umbrella of the Royal Embassy of Saudi Arabia in the UK&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">While a finding that the respondent&#8217;s duties were ancillary and supportive cannot of itself be determinative of the issue of immunity, it is apparent that Judge Brown had in mind that the proximity of the respondent to governmental functions was crucial. This is apparent from her conclusion that the respondent&#8217;s duties &#8220;were truly ancillary and supportive as described by Lord Sumption in <span style="font-style:italic">Benkharbouche</span> at para 55&#8221;. This is a reference to Lord Sumption&#8217;s statement that while the role of technical and administrative staff is essentially ancillary and supportive, &#8220;[i]t may well be that the employment of <span style="text-decoration-line:underline;text-decoration-style:solid">some</span> of them might also be exercises of sovereign authority if their functions are sufficiently close to the governmental functions of the mission&#8221; (emphasis added). The judge was simply stating that this case did not go beyond the norm. This is also apparent from her careful examination of the respondent&#8217;s role.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(3)</num>
+	    <intro>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The judge examined each of the three phases of the respondent&#8217;s employment. I would draw attention to the following matters.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:13pt;margin-left:1in">(a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">It was established that the respondent&#8217;s initial role in the post room was &#8220;in essence, a data entry job, which did not involve consideration, or analysis, of those documents&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:13pt;margin-left:1in">(b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The judge found that, while the respondent was secretary to Dr Nassir, the Head of the Cultural Affairs Department, her functions were confined to answering the telephone, booking rooms, inviting people to meetings with Dr Nassir, arranging for caterers to provide refreshments at events, and dealing with email communications regarding universities and students. She found that the respondent dealt only with routine correspondence about the arrangements for Saudi students to study in the United Kingdom. The respondent&#8217;s role in organising the Career Day and Graduation Ceremony on three occasions over eight years was, in any event, de minimis in my view.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:13pt;margin-left:1in">(c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The third phase involved in theory a return to the post room. The judge found that this role was no different from that in the first phase but that, in fact, the respondent did little work of any kind.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Contrary to the submission of Mr Sethi, the judge did not fail to give proper weight to the context of the respondent&#8217;s employment. Judge Brown comprehensively analysed the relationship between the respondent&#8217;s duties and the governmental function of the Embassy and was clearly entitled to come to her conclusions.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(5)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The finding that the respondent&#8217;s role did not involve any government decision-making was simply one factor which the judge was entitled to take into account in addressing the proximity of the respondent&#8217;s role to governmental functions. It was not suggested that this could be determinative.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(6)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The judge fairly considered the evidence of access to confidential information. She found that while the respondent might have been able to access wide-ranging confidential information using her username on the computer system, she was unaware that she could do so, her job roles did not require her to do so and she never in fact did so. (See in this regard <span style="font-style:italic">Cudak v Lithuania</span> <ref href="#" uk:canonical="(2010) 51 EHRR 15" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">(2010) 51 EHRR 15</ref> at para 72.) The judge found that the respondent genuinely believed that the Cultural Bureau looked after the arrangements of Saudi students in the United Kingdom and did not handle confidential government information. Judge Brown accepted evidence that the respondent may well have had access to the names, contact details, ID and passport details of invitees to Career Days and Graduation Ceremonies between 2012 and 2015 for the purpose of inviting them to the event. Judge Brown considered that the respondent might have had access to some confidential personal contacts and ID details of government and Royal attendees. However, she decided that this did not mean that the respondent&#8217;s role was close to the governmental function of the mission. In my view, she was clearly entitled to come to this conclusion. There is nothing in this evidence on access to confidential information to support the required proximity of the respondent&#8217;s role to governmental functions.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:13pt">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For these reasons I would dismiss the appeal under this first head.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On the hearing of the appeal Mr Sethi, on behalf of the appellant, sought to raise an argument under the second head, contending that the appellant engaged in the conduct complained of in the exercise of sovereign authority. This point had not been raised below. Mrs Fraser Butlin, on behalf of the respondent, objected to this point being taken now for the first time. Having regard to the policy considerations underlying <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref>, the court decided to hear these further submissions on behalf of the appellant. (See <span style="font-style:italic">Arab Republic of Egypt v Gamal-Eldin, </span>para 46 above). However, they do not assist the appellant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant submits that the respondent&#8217;s complaints concern and would require investigation into sovereign decisions of the mission as to what work would be done, when and by whom. In particular, it is said that it would require investigation into why the respondent was not given any further work from May 2017 following the appointment of a new cultural attach&#233;, the decision to transfer her back to the Administrative Affairs Department in the last week of September 2017 and the reasons for the decision to terminate her employment. These further submissions lack any substance. First, the respondent seeks compensation and a declaration. She does not seek reinstatement. The appellant&#8217;s right to decide who is employed at the mission is not restricted in any way by the claim. Secondly, the appellant has produced no evidence to support the suggestion that the treatment of the respondent engaged the State&#8217;s sovereign interests. There has been no accusation of wrongdoing on the part of the respondent. There has been no disciplinary investigation against her. There has been no suggestion that her dismissal was connected in any way with sovereign matters such as State security. If the appellant were entitled to immunity in these circumstances, there would be such an entitlement in every case of dismissal of a member of the administrative staff of a mission.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Paraheading2">Conclusion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For these reasons I consider that in the circumstances of this case the Court of Appeal was under a duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">SIA 1978</ref> to consider whether it was obliged to give effect to the State immunity claimed by the appellant notwithstanding the failure of the appellant to attend the hearing. That court&#8217;s failure to give proper consideration to this issue was an error of law. However, if it had addressed this issue it would necessarily have concluded that the appellant was not entitled to immunity. I would accordingly dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

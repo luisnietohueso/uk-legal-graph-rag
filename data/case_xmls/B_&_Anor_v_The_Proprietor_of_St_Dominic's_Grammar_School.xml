@@ -1,0 +1,1134 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2025/48"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2025/48"/>
+	  <FRBRdate date="2025-02-07" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="48"/>
+	  <FRBRname value="B &amp; Anor v The Proprietor of St Dominic's Grammar School"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/48"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/48"/>
+	  <FRBRdate date="2025-02-07" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/48/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/48/data.xml"/>
+	  <FRBRdate date="2025-03-04T09:48:43" name="transform"/>
+	  <FRBRdate date="2025-03-04T11:12:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-04" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-02-07" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-aac" href="https://www.gov.uk/courts-tribunals/upper-tribunal-administrative-appeals-chamber" showAs="United Kingdom Upper Tribunal (Administrative Appeals Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="mr-and-mrs-b" href="" showAs="MR AND MRS B"/>
+	<TLCPerson eId="the-proprietor-of-st-dominics-grammar-school" href="" showAs="THE PROPRIETOR OF ST DOMINIC&#8217;S GRAMMAR SCHOOL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-AAC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>48</uk:number>
+	<uk:cite>[2025] UKUT 48 (AAC)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>e53cd9176c91f161951614447307e631551922bc2be8fa0ce177f3814a2452b9</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Arial; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Heading1 { text-align: justify; font-weight: bold; font-size: 12pt; }
+#judgment .Heading2 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Heading3 { text-align: justify; margin-left: 0in; font-style: italic; font-family: Arial; font-size: 12pt; }
+#judgment .Heading4 { text-align: justify; font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { text-align: justify; font-size: 12pt; color: #2F5496; }
+#judgment .Header { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .numbered0 { text-align: justify; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .Numbered { text-align: justify; margin-left: 0in; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .NormalNumber { text-align: justify; margin-left: 0.39in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyTextIndent2 { text-align: justify; margin-left: 1in; font-size: 11pt; }
+#judgment .ListParagraph { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.39in; font-size: 12pt; color: #404040; }
+#judgment .Sub-Heading { text-align: justify; margin-left: 0.39in; font-style: italic; font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .TOC1 { text-align: left; margin-left: 0.79in; font-weight: bold; font-size: 11pt; }
+#judgment .TOC2 { text-align: left; margin-left: 0.98in; font-size: 11pt; }
+#judgment .TOC3 { text-align: left; margin-left: 1.18in; font-style: italic; font-size: 11pt; }
+#judgment .TOC4 { text-align: left; margin-left: 0.5in; font-size: 10pt; }
+#judgment .TOC5 { text-align: left; margin-left: 0.67in; font-size: 10pt; }
+#judgment .TOC6 { text-align: left; margin-left: 0.83in; font-size: 10pt; }
+#judgment .TOC7 { text-align: left; margin-left: 1in; font-size: 10pt; }
+#judgment .TOC8 { text-align: left; margin-left: 1.17in; font-size: 10pt; }
+#judgment .TOC9 { text-align: left; margin-left: 1.33in; font-size: 10pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .legdslegrhslegp3text { }
+#judgment .normaltextrun { }
+#judgment .BodyTextIndent2Char { font-family: Arial; font-size: 11pt; }
+#judgment .legaddition5 { }
+#judgment .eop { }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .QuoteChar { font-family: Arial; font-size: 12pt; color: #404040; }
+#judgment .NumberedChar { font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Heading3Char { font-style: italic; font-family: Arial; font-size: 12pt; }
+#judgment .Sub-HeadingChar { font-style: italic; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 12pt; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header" style="text-align:center"><img src="image1.png" style="width:81.95pt;height:72pt"/></p>
+    </coverPage>
+    <header>
+      <p style="text-align:right"><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2025] UKUT 048 (AAC)</neutralCitation><span style="font-weight:bold"/></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Appeal No. UA-2024-000876-HS</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">RULE 14 Order:</span><span style="font-weight:bold"> Pursuant to rule 14(1) of the Tribunal Procedure (Upper Tribunal) Rules 2008, it is prohibited for any person to disclose or publish any matter likely to lead members of the public to identify the persons referred to as B and Mr and Mrs B in these proceedings. This order does not apply to any person exercising statutory (including judicial) functions where knowledge of the matter is reasonably necessary for the proper exercise of the functions.</span></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-aac" style="font-weight:bold">IN THE UPPER TRIBUNAL </courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-aac" style="font-weight:bold">ADMINISTRATIVE APPEALS CHAMBER</courtType></p>
+      <p><span style="font-weight:bold">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#mr-and-mrs-b" style="font-weight:bold">MR AND MRS B</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">- v -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-proprietor-of-st-dominics-grammar-school" style="font-weight:bold">THE PROPRIETOR OF ST DOMINIC&#8217;S GRAMMAR SCHOOL</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondent</role></p>
+      <p><span style="font-weight:bold">Before: Upper Tribunal Judge Stout</span></p>
+      <p><span style="font-weight:bold">Hearing date: </span><marker name="tab"/><docDate date="2025-02-04" refersTo="#hearing">4 February 2025</docDate></p>
+      <p><span style="font-weight:bold">Mode of hearing: </span><marker name="tab"/>By video (CVP)</p>
+      <p><span style="font-weight:bold">Representation:</span></p>
+      <p><span style="font-weight:bold">Appellant:</span><marker name="tab"/><marker name="tab"/>Denis Edwards (counsel)</p>
+      <p><span style="font-weight:bold">Respondent:</span><marker name="tab"/>Russell Holland (counsel)</p>
+      <p><span style="font-style:italic">On appeal from:</span></p>
+      <p style="margin-left:1.5in;text-indent:-1.5in">Tribunal:<marker name="tab"/>First-Tier Tribunal (Health Education and Social Care) (Special Educational Needs and Disability)</p>
+      <p>Tribunal Case No:<marker name="tab"/>EH860/23/00057</p>
+      <p>Tribunal Venue:<marker name="tab"/>By video</p>
+      <p>Decision Date:<marker name="tab"/>12 December 2023</p>
+      <p style="text-align:left"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY OF DECISION</span></p>
+      <p><span style="font-weight:bold">DISABILITY DISCRIMINATION IN SCHOOLS (89) </span></p>
+      <p>This appeal concerned the school&#8217;s decision to exclude the appellants&#8217; five-year-old daughter (B) from after school club and also to impose a fixed-term exclusion for physical behaviour towards others that the appellants contended was related to her disabilities (a physical impairment of dyspraxia and a mental impairment of social emotional and mental health difficulties (SEMH)). The First-tier Tribunal dismissed their claim that the school had discriminated against B contrary to section 15 of the Equality Act 2010 (EA 2010) on the basis that it was not satisfied that they had shown on the balance of probabilities that there was a causal connection between B&#8217;s behaviour (for which she was excluded) and her disabilities. </p>
+      <p>The Upper Tribunal holds that the First-tier Tribunal erred in law, in particular by: (i) failing to take account of expert evidence to the effect that B&#8217;s SEMH could manifest in her lashing out at children, being easily aroused and becoming dysregulated; (ii) failing to decide for itself, objectively, whether there was a causal relationship between the behaviour for which she was excluded and the disabilities; (iii) perversely treating witnesses who gave evidence about factually what happened in each incident (including B herself) as giving evidence as to whether there was a causal relationship with disability; and, (iv), failing to direct itself to, and properly apply, the shifting burden of proof in section 136 of the EA 2010.</p>
+      <p><span style="font-style:italic;font-weight:bold;font-size:10pt">Please note the Summary of Decision is included for the convenience of readers. It does not form part of the decision. The Decision and Reasons of the judge follow.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">The decision of the Upper Tribunal is that the decision of the First-tier Tribunal involved an error of law.</span></p>
+	    <p><span style="font-weight:bold">The decision of the First-tier Tribunal is set aside.</span></p>
+	    <p><span style="font-weight:bold">The case is remitted for re-hearing before a new panel of the First-tier Tribunal.</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">REASONS FOR DECISION</span></p>
+	    <p class="Heading1">Introduction</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Mr and Mrs B (&#8220;the appellants&#8221;) appeal against the decision of the First-tier Tribunal issued on 12 December 2023. Permission to appeal was refused by the First-tier Tribunal in a decision dated 3 June 2024, but granted by me following an oral hearing on 30 September 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appeal challenges the First-tier Tribunal&#8217;s decisions that: (i) a fixed-term exclusion that the responsible body of the respondent school (&#8220;the RB&#8221;) imposed on the appellants&#8217; child (who I will refer to as &#8220;B&#8221;) in the autumn term of 2022; and (ii) an exclusion from the school&#8217;s After School Club (ASC) were not acts of unlawful discrimination because of something arising in consequence of B&#8217;s disability contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 15</ref> and 85(2) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The grounds on which I granted permission to appeal were as follows:-</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Ground 1 &#8211; The First-tier Tribunal perversely concluded and/or failed to take into account relevant evidence in concluding and/or provided inadequate reasons for concluding that the behaviour for which B was excluded was not &#8216;something arising in consequence of her disability&#8217; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Ground 2 &#8211; The First-tier Tribunal erred in law by failing properly to apply the shifting burden of proof in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The parties have been represented before the Upper Tribunal by the same counsel as represented them before the First-tier Tribunal. Both counsel provided skeleton arguments and made helpful oral submissions, for which I am grateful.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The structure of this decision is as follows:-</span></p>
+	    <toc>
+	      <tocItem class="TOC1" href="#" level="0" style="margin-left:0.79in"><a href="#lvl_1"><span class="Hyperlink">Introduction</span><marker name="tab"/><inline name="page">2</inline></a></tocItem>
+	      <tocItem class="TOC1" href="#" level="0" style="margin-left:0.79in"><a href="#lvl_2"><span class="Hyperlink">Factual background and the First-tier Tribunal&#8217;s decision</span><marker name="tab"/><inline name="page">3</inline></a></tocItem>
+	      <tocItem class="TOC1" href="#" level="0" style="margin-left:0.79in"><a href="#lvl_3"><span class="Hyperlink">The law</span><marker name="tab"/><inline name="page">8</inline></a></tocItem>
+	      <tocItem class="TOC3" href="#" level="0" style="margin-left:1.18in"><a href="#lvl_3"><span class="Hyperlink">Section 15 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref></span><marker name="tab"/><inline name="page">8</inline></a></tocItem>
+	      <tocItem class="TOC3" href="#" level="0" style="margin-left:1.18in"><a href="#lvl_4"><span class="Hyperlink">Burden of proof</span><marker name="tab"/><inline name="page">10</inline></a></tocItem>
+	      <tocItem class="TOC3" href="#" level="0" style="margin-left:1.18in"><a href="#lvl_5"><span class="Hyperlink">The Upper Tribunal&#8217;s approach on appeal</span><marker name="tab"/><inline name="page">15</inline></a></tocItem>
+	      <tocItem class="TOC1" href="#" level="0" style="margin-left:0.79in"><a href="#lvl_6"><span class="Hyperlink">The grounds of appeal</span><marker name="tab"/><inline name="page">16</inline></a></tocItem>
+	      <tocItem class="TOC2" href="#" level="0" style="margin-left:0.98in"><a href="#lvl_6"><span class="Hyperlink">Ground 1</span><marker name="tab"/><inline name="page">16</inline></a></tocItem>
+	      <tocItem class="TOC2" href="#" level="0" style="margin-left:0.98in"><a href="#lvl_7"><span class="Hyperlink">Ground 2</span><marker name="tab"/><inline name="page">21</inline></a></tocItem>
+	      <tocItem class="TOC1" href="#" level="0" style="margin-left:0.79in"><a href="#lvl_8"><span class="Hyperlink">Disposal</span><marker name="tab"/><inline name="page">22</inline></a></tocItem>
+	      <tocItem class="TOC1" href="#" level="0" style="margin-left:0.79in"><a href="#lvl_9"><span class="Hyperlink">Rule 14 Order</span><marker name="tab"/><inline name="page">23</inline></a></tocItem>
+	    </toc>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Heading1">Factual background and the First-tier Tribunal&#8217;s decision</p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appellants brought claims to the First-tier Tribunal of disability discrimination by the RB against their daughter B in September and October 2022 when B was aged 5 years old and in Year 1 at the school. So far as relevant to this appeal, the appellants&#8217; made two claims that the Tribunal classified as claims of unfavourable treatment because of something arising in consequence of disability contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">s 15</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>):</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">1 day fixed term exclusion (FTE) on 9 September 2022;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Exclusion from the school&#8217;s after school club (ASC) between 9 September 2022 and 31 October 2022.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appellants also made two claims of failure to make reasonable adjustments contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/20" uk:canonical="" uk:origin="TNA" uk:type="legislation">ss 20</ref> and 21 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Failing to provide adult support for B during a missed breaktime; and,</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">By failing to provide adult support to enable her to attend the ASC.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The RB did not admit disability or knowledge of disability so the First-tier Tribunal had to make findings on these points. The First-tier Tribunal concluded that B was disabled and that the RB had the requisite knowledge of disability. The First-tier Tribunal found at [17] that B was disabled by reason of difficulties with:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Physical difficulties, specifically &#8220;coordination, proprioception, understanding of force and fine motor skills&#8221;; and,</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Social, emotional and mental health (SEMH) difficulties, specifically &#8220;understanding and expressing her own emotions and those of others, requiring help with social skills&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal&#8217;s conclusions in this regard were based in large part on the evidence of two expert reports obtained by the appellants, that of Ms Dunn (Educational Psychologist) and Ms Roscoe (Occupational Therapist).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal summarised the report of Ms Dunn as follows at [11] of its decision:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#404040">11.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Ms Dunn took information from the school who identified that [B] had the following difficulties: </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">a.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">proprioception: bumping into things, being off-balance, limited coordination, having difficulty judging force, hugging tightly, and having pain when writing; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">b.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">communication and interaction: expressing feelings, needing help with social skills, having a poor understanding of social cues and the emotions of others; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">c.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">social, emotional and mental health: lashing out at children, being easily aroused and becoming dysregulated.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">I note that Ms Dunn&#8217;s report also included the following:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">The infant brain is highly reactive to stress, in particular in the first five years of life. In [B&#8217;s] profile this stress is presenting in an underdeveloped nervous system and she doesn&#8217;t ever really [know] how to manage the input from her senses and she sees the world as an unpredictable and sometimes seemingly unsafe place &#8230; sensory experiences and emotions are very closely tied. &#8230; If a child does not fully learn to manage the intense emotions and feels they experience, then the alarm systems in the part of the brain that control larger emotions become overactive and emotional outbursts/withdrawals are seen. Work needs to be done to help [B] regulate her emotions and to understand the social world alongside this. [B] can be hypervigilant of her environment where she is detecting threat in social environments and this leads to uncertainty and anxiety. This can happen when she meets changes too in the environment. [B] can sometimes try to control interaction and this can be seen in control over others which can be physical &#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">[B] is heavy handed and she does not know the level of force on play equipment or when touching others&#8230;.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">B&#8217;s autonomic nervous system is underdeveloped. The sympathetic branch of this system is overactive and the calm branch, the parasympathetic is underactive. This leads to an overly emotional response and a flight-freeze-fight response where [B] may be at risk of getting disproportionately distressed/withdrawn/shutdown or having a &#8217;meltdown&#8217; when the world overwhelms her.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">Staff views &#8230; [B] needs help in social skills. [B] does not pay attention to what is in her way sometimes causing harm to her peers&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">Staff report that [B] has been known to lash out at school pushing or hitting another child. This seems to be when [B] does not understand her level of force or she has not interpreted the social situation.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal summarised the report of Ms Roscoe as follows at [12]-[13] of the decision:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#404040">12.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Roz Roscoe, Occupational Therapist, provided a report dated 12 January 2023. She identified that [B] had difficulties in the following areas: </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">a.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">bilateral integration; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">b.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">postural stability; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">c.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">visual perception. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">13.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Ms Roscoe said that such findings help to explain why [B]: </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">a.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">finds self-care activities challenging; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">b.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">has concentration difficulties; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">c.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">requires considerable effort to follow instructions and learn new skills; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">d.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">often bumps into objects or people and find setting her work out on the page hard to master; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">e.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">is often unable to express her knowledge in legible written form or </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">fasten her buttons in the correct sequence. </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="color:#404040">14.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Ms Roscoe suggested that dyspraxia would be the best description of [B&#8217;s] presentation.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal considered first the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claim in respect of the FTE. It identified the reasons for the FTE as being the five incidents mentioned in the FTE letter, i.e. that B had:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Kicked another child at the school on the leg on 7 September 2022;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Scratched a child&#8217;s face on 7 September 2022;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Stopped and grabbed a child by the dress, swinging the child around, on 8 September 2022;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Slapped another child on the arm on 8 September 2022; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Pulled a chair out from under a child, hurting their back on 8 September 2022.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">There was no dispute that the FTE was unfavourable treatment. The Tribunal considered whether any of this behaviour had arisen in consequence of B&#8217;s disability, but concluded in relation to each incident that it had not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The First-tier Tribunal dealt with the <span style="font-style:italic">Kicking another child on the leg </span>incident at<span style="font-style:italic"/>[23]-[26]. The First-tier Tribunal noted that &#8220;B was said to be unable to provide an explanation for the incidents and that they were unprovoked&#8221;, but that later she admitted to her parents having kicked another child in the leg when lined up and not during an interaction with that child. The First-tier Tribunal recorded Mr B&#8217;s explanation that the incident occurred when another child &#8220;kicked of her shoe which had hurt [B]&#8221; and that in his view &#8220;the actions of his daughter arose from frustration, were retaliatory and not an unprovoked or random act&#8221;. The Tribunal noted that B &#8220;did not give this explanation to Mrs Parker-McMahon at the time. [B] is described as an honest girl who will cry and complain if she feels that she has been treated badly, but will go quiet if she believes she has done something wrong&#8221;. The Tribunal then concluded as follows at [26]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">The tribunal can identify nothing to link this behaviour to [B&#8217;s] disability. It is not her physical disability, because she acknowledges that she deliberately kicked the girl, rather than inadvertently doing so as a result of poor balance or proprioception. There is no evidence to show that her actions arose from her social difficulties. She knew what she was doing, and said so. She admitted doing it when asked about it by a teacher. It is unclear if there was in fact any link with any earlier actions of the other girl, but if it was, on [B&#8217;s] own evidence to her father, it was retaliation. These things do occur, but there is insufficient evidence to show on the balance of probabilities that it is linked to [B&#8217;s] social impairment. </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal dealt with <span style="font-style:italic">Scratching a child&#8217;s face </span>at [27]-[29]. The Tribunal noted that B was unable to provide an explanation for her actions and that there was &#8220;no evidence that, at the time of the incident, she said that it was an accident, that she did not mean to, nor did she cry and/or complain that she was being wrongly treated&#8221;. Mr B&#8217;s explanation was that another child had been teasing B about a paper cut he had which had drawn blood, that she had repeatedly asked him to stop and that when he did not do so, she attempted to push his hand away, accidentally pushing in the face and causing him a small scratch. Mr B speculated this was due to her dyspraxia. However, the Tribunal did not accept Mr B&#8217;s explanation because there was &#8220;a conflict between [B&#8217;s] failure to explain her actions when asked at school ([despite being] giving the opportunity to explain her actions and to reflect upon them) and the explanation given at some later date&#8221;. The Tribunal concluded:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">Had she said so at the time  and there had been some consistency, the tribunal might have found that the incident occurred accidentally, but there is insufficient evidence to overturn the conclusions of the Responsible Body reached at the time on the evidence available to it, or indeed find on the balance of probabilities that the incident occurred as a result of [B&#8217;s] physical disability.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal dealt with <span style="font-style:italic">Swinging a child by the dress </span>at [30]-[33]. It noted that the RB&#8217;s evidence was that this incident was unprovoked and B was unable to explain the reasons for her actions when asked to reflect. It recorded that Mr B&#8217;s explanation was that she grabbed another child but did not mean to hurt them. The Tribunal accepted the evidence of a member of staff who witnessed the incident that B&#8217;s actions were &#8220;unprovoked&#8221; and not as a result of &#8220;skipping too fast&#8221; or &#8220;losing her balance&#8221;. The Tribunal concluded there was insufficient evidence that [B&#8217;s] behaviour arose from her dyspraxia. It made no findings about causal link to her social impairment on the basis that this had not been alleged by the appellants in relation to this incident.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal dealt with <span style="font-style:italic">Slapping a child on the arm and the chair incidents </span>at [34]-[40]. Again, it noted that B had been unable to explain why she had done those things at the time. Mr B&#8217;s evidence based on what B had said to him was that B was reacting to a child kicking her under the table, although the RB&#8217;s evidence that the child who B slapped was not the same as the child from whom she pulled away the chair. The Tribunal continued: &#8220;Had [B] been upset &#8230; this might have indicated that [B] felt she was being treated badly, but there is no such evidence. She had the opportunity to ask for help, but did not do so. It should be noted that if the problem arose from the actions of one child, [B] had three opportunities to speak to a member of staff after the slapping incident, and the two opportunities to do so after the chair incident&#8221;. Because B&#8217;s explanations to her father Mr B were given five or more days after the events, the Tribunal gave these explanations &#8220;less weight than the responses given at the time and the observations of adult staff and others&#8221;. The Tribunal concluded: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#404040">40.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">For these reasons, the tribunal finds that there is insufficient evidence to show on the balance of probabilities that the actions of [B] either in relation to the slap or the pulling away of the chair arose in consequence of her disability. There is no suggestion that her physical disability came into play here, and nothing to specifically link it to her social impairment rather than the sort of bad behaviour that any child might present with. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">41.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In reaching this decision, the tribunal takes into account the lack of any evidence of behaviour to such an extent in the previous year. The only evidence available to the tribunal is that [B&#8217;s] presentation in Reception was at a much lower level, and that the behaviour in the first week of the autumn term of 2002 was not characteristic of [B] normal behaviour. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">42.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Consequently, the tribunal finds that Mr and Mrs B&#8217;s claim that the RB unlawfully discriminated against [B] by excluding her for 1 day on 9 September 2022 fails because they are unable to show the link between the actions of the Responsible Body and [B&#8217;s] disability. </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The claim accordingly failed. The Tribunal did not go on to consider whether, if it was wrong there was no link to B&#8217;s disability, the FTE had been justified for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(1)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As to the exclusion from the ASC, the First-tier Tribunal noted that the RB had admitted that it had excluded B in part because of her behaviour and because it considered &#8220;it was unfair to put her in a situation where she could potentially hurt others&#8221; ([44]-[46]). The Tribunal concluded at [46] that &#8220;There is no further evidence to show that the unfavourable treatment of the RB arose because of something in consequence of [B&#8217;s] disability. The evidence is that it was [B&#8217;s] behaviour as we have already set out which resulted in the exclusion from the [ASC]. There is nothing to link that behaviour with her disability, and therefore this aspect of the claim also fails.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The claim in relation to B being outside the Headteacher&#8217;s office without a member of staff failed because the Tribunal concluded that it had only been for a few minutes and was not a punishment so that it was not unfavourable treatment for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref> (the Tribunal having treated it as a <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claim despite it being identified previously in case management directions as only a reasonable adjustments claim: see p 39 First-tier Tribunal Bundle). The Tribunal also found that it was not a provision, criterion or practice for the purposes of a reasonable adjustments claim, and nor was there a practice of not providing Teaching Assistant support for the after-school club. The reasonable adjustments claims accordingly failed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Heading1">The law</p>
+	    <p class="Heading3"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 15</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 15</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in"><span style="font-weight:bold">15 Discrimination arising from disability</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="color:#404040">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A person (A) discriminates against a disabled person (B) if&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A treats B unfavourably because of something arising in consequence of B's disability, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A cannot show that the treatment is a proportionate means of achieving a legitimate aim.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Subsection (1) does not apply if A shows that A did not know, and could not reasonably have been expected to know, that B had the disability.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 15</ref> is relevant to discrimination in all fields covered by the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>, including employment. It is common ground (see <span style="font-style:italic">McAuley Catholic High School v C and ors </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2003/3045" uk:canonical="[2003] EWHC 3045 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWHC 3045 (Admin)</ref>) that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">the Act</ref> is to be interpreted in the same way in education cases as in employment cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In <span style="font-style:italic">Pnaiser v NHS England and Coventry City Council </span><ref href="#" uk:canonical="[2016] IRLR 170" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] IRLR 170</ref>, Simler J (as she then was) held at [31] that the proper approach to be taken to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claims is as follows:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#404040">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A Tribunal must first identify whether there was unfavourable treatment and by whom: in other words, it must ask whether A treated B unfavourably in the respects relied on by B. No question of comparison arises.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The Tribunal must determine what caused the impugned treatment, or what was the reason for it. The focus at this stage is on the reason in the mind of A. An examination of the conscious or unconscious thought processes of A is likely to be required, just as it is in a direct discrimination case. Again, just as there may be more than one reason or cause for impugned treatment in a direct discrimination context, so too, there may be more than one reason in a&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section15</ref>&#160;case. The &#8216;something&#8217; that causes the unfavourable treatment need not be the main or sole reason, but must have at least a significant (or more than trivial) influence on the unfavourable treatment, and so amount to an effective reason for or cause of it.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Motives are irrelevant. The focus of this part of the enquiry is on the reason or cause of the impugned treatment and A's motive in acting as he or she did is simply irrelevant: see&#160;<span style="font-style:italic">Nagarajan v London Regional Transport </span><ref href="#" uk:canonical="[1999] IRLR 572" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] IRLR 572</ref>. A discriminatory motive is emphatically not (and never has been) a core consideration before any prima facie case of discrimination arises, contrary to Miss Jeram's submission (for example at paragraph 17 of her Skeleton).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The Tribunal must determine whether the reason/cause (or, if more than one), a reason or cause, is &#8220;something arising in consequence of B's disability&#8221;. That expression &#8216;arising in consequence of&#8217; could describe a range of causal links. Having regard to the legislative history of&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref>&#160;of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">the Act</ref> (described comprehensively by Elisabeth Laing J in <span style="font-style:italic">Hall</span>), the statutory purpose which appears from the wording of&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref>, namely to provide protection in cases where the consequence or effects of a disability lead to unfavourable treatment, and the availability of a justification defence, the causal link between the something that causes unfavourable treatment and the disability may include more than one link. In other words, more than one relevant consequence of the disability may require consideration, and it will be a question of fact assessed robustly in each case whether something can properly be said to arise in consequence of disability.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">For example, in <span style="font-style:italic">Land Registry v Houghton</span> UKEAT/0149/14 a bonus payment was refused by A because B had a warning. The warning was given for absence by a different manager. The absence arose from disability. The Tribunal and HHJ Clark in the EAT had no difficulty in concluding that the statutory test was met. However, the more links in the chain there are between the disability and the reason for the impugned treatment, the harder it is likely to be to establish the requisite connection as a matter of fact.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(f)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This stage of the causation test involves an objective question and does not depend on the thought processes of the alleged discriminator.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(g)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Miss Jeram argued that &#8220;a subjective approach infects the whole of&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref>&#160;&#8221; by virtue of the requirement of knowledge in&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(2)</ref>&#160;so that there must be, as she put it, &#8216;discriminatory motivation&#8217; and the alleged discriminator must know that the &#8216;something&#8217; that causes the treatment arises in consequence of disability. She relied on paragraphs 26 to 34 of <span style="font-style:italic">Weerasinghe</span> as supporting this approach, but in my judgment those paragraphs read properly do not support her submission, and indeed paragraph 34 highlights the difference between the two stages &#8212; the &#8216;because of&#8217; stage involving A's explanation for the treatment (and conscious or unconscious reasons for it) and the &#8216;something arising in consequence&#8217; stage involving consideration of whether (as a matter of fact rather than belief) the &#8216;something&#8217; was a consequence of the disability.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(h)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Moreover, the statutory language of&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(2)</ref>&#160;makes clear (as Miss Jeram accepts) that the knowledge required is of the disability only, and does not extend to a requirement of knowledge that the &#8216;something&#8217; leading to the unfavourable treatment is a consequence of the disability. Had this been required the statute would have said so. Moreover, the effect of&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref>&#160;would be substantially restricted on Miss Jeram's construction, and there would be little or no difference between a direct disability discrimination claim under&#160;section 13&#160;and a discrimination arising from disability claim under&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">As Langstaff P held in <span style="font-style:italic">Weerasinghe</span>, it does not matter precisely in which order these questions are addressed. Depending on the facts, a Tribunal might ask why A treated the claimant in the unfavourable way alleged in order to answer the question whether it was because of &#8220;something arising in consequence of the claimant's disability&#8221;. Alternatively, it might ask whether the disability has a particular consequence for a claimant that leads to &#8216;something&#8217; that caused the unfavourable treatment.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Heading3">Burden of proof</p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 136</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref> provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in"><span style="font-weight:bold">136 Burden of proof</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="color:#404040">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This section applies to any proceedings relating to a contravention of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">If there are facts from which the court could decide, in the absence of any other explanation, that a person (A) contravened the provision concerned, the court must hold that the contravention occurred.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">But subsection (2) does not apply if A shows that A did not contravene the provision.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The reference to a contravention of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref> includes a reference to a breach of an equality clause or rule.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This section does not apply to proceedings for an offence under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">this Act</ref>.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A reference to the court includes a reference to&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">an employment tribunal;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the Asylum and Immigration Tribunal;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the Special Immigration Appeals Commission;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the First-tier Tribunal;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the&#160;Education Tribunal for Wales;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">(f)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the First-tier Tribunal for Scotland Health and Education Chamber.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 136</ref> thus creates a shifting burden of proof. In <span style="font-style:italic">Efobi v Royal Mail Group Ltd </span>the Supreme Court confirmed that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> did not change the law on the burden of proof in discrimination cases as it had developed under the predecessor legislation to the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>. As Lord Hodge explained in that case at [14]-[15], the rationale for the introduction of the shifting burden of proof is because of the well-recognised difficulty in direct discrimination cases of proving a discriminatory motive. As Lord Hodge put it at [15]: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">The rationale for placing the burden on the employer at the second stage is that the relevant information about the reasons for treating the claimant less favourably than a comparator is, in its nature, in the employer's hands. A claimant can seek to draw inferences from outward conduct but cannot give any direct evidence about the employer's subjective motivation&#8212;not least since, as Lord Browne-Wilkinson observed in&#160;<span style="font-style:italic">Glasgow City Council v Zafar <ref href="#" uk:canonical="[1997] 1 WLR 1659" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 1 WLR 1659</ref>, 1664</span>&#160;: &#8220;those who discriminate &#8230; do not in general advertise their prejudices: indeed they may not even be aware of them.&#8221; On the other hand, it would be unduly onerous to require an employer to disprove a mere assertion of discrimination.&#160; The aim of the old provisions was accordingly to strike a fair balance by requiring proof of primary facts from which, in the absence of explanation, an inference of discrimination could be drawn; but then, if that hurdle is surmounted, requiring the employer to prove that there has been no contravention of the law.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Supreme Court in <span style="font-style:italic">Efobi</span> confirmed that the burden on the claimant is:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;that the claimant has the burden of proving, balance of probabilities, those matters which he or she wishes the tribunal to find as facts from which the inference could properly be drawn (in the absence of any other explanation) that an unlawful act was committed. This is not the whole picture since, as discussed, along with those facts which the claimant proves, the tribunal must also take account of any facts proved by the respondent which would prevent the necessary inference from being drawn. But that does not alter the position that, under&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/136/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>&#160;just as under the old&#160;provisions, the initial burden of proof is on the claimant to prove facts which are sufficient to shift the burden of proof to the respondent.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The shifting burden of proof does not only apply in direct discrimination cases, and nor does it only apply to the issue of the reason for the treatment complained of. On the face of the statute, it applies to all forms of discrimination claim and all elements of the claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The application of the burden of proof to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> was specifically addressed in <span style="font-style:italic">South Warwickshire NHS Foundation Trust v Lee and ors </span>(UKEAT/0287/17/DA), a decision of Eady J:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#404040">28.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Allowing for the possibility that there will be mixed motivations for the unfavourable treatment in issue, Simler J opined: &#8220;31. &#8230; (b) &#8230; just as there may be more than one reason or cause for impugned treatment in a direct discrimination context, so too, there may be more than one reason in a <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.15</ref> case. The &#8216;something&#8217; that causes the unfavourable treatment need not be the main or sole reason, but must have at least a significant (or more than trivial) influence on the unfavourable treatment, and so amount to an effective reason for or cause of it. (c) Motives are irrelevant. The focus of this part of the enquiry is on the reason or cause of the impugned treatment &#8230;&#8221; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">29.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In determining whether the reason for the unfavourable treatment was &#8220;the something&#8221; for <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> purposes, the ET is bound to approach the burden of proof as provided by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> EqA, as follows: &#8220;(2) If there are facts from which the court could decide, in the absence of any other explanation, that a person (A) contravened the provision concerned, the court must hold that the contravention occurred. (3) But subsection (2) does not apply if A shows that A did not contravene the provision.&#8221; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">30.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">As has been made clear in the authorities (see, for example, in the guideline case of <span style="font-style:italic">Madarassy v Nomura</span> <ref href="#" uk:canonical="[2007] ICR 867" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] ICR 867</ref> CA and also in <span style="font-style:italic">Pnaiser</span> itself, see paragraph 38), although it can be helpful in some cases for the ET to go through the two stages allowed by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> - so, determining first whether the Claimant has established a prima facie case such as to shift the burden to the Respondent, and only then going on to consider whether that burden has been discharged - it is not necessarily an error of law not to do so and in many cases moving straight to the second stage will be the appropriate course. Where an ET is satisfied that the burden has shifted for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> EqA, it will be for the Respondent to prove, on the balance of probabilities, that the treatment was in no sense whatsoever because of the relevant protected characteristic (and see Igen Ltd v Wong <ref href="#" uk:canonical="[2005] ICR 931" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] ICR 931</ref> CA).</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="color:#404040">49.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Concision in an ET&#8217;s Judgment can be good, but the reasoning does have to show a practical application of the relevant legal test. In the present case, it should thus be possible to see that the ET had identified the relevant decision-taker (Ms Martin), enquired into the reason why she had decided on the unfavourable treatment (the withdrawal of the conditional offer) - determining this exercise as it would when determining the reason for conduct complained of in a direct discrimination claim - and determined - applying an objective test - whether there was a connection between the Claimant&#8217;s disability and &#8220;the something&#8221; which provided the reason for the treatment in issue (see the guidance provided in Pnaiser). </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">50.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Allowing for the shifting burden of proof, if the ET was satisfied that there were facts from which it could decide (absent any other explanation) that South Warwickshire had treated the Claimant unfavourably because of something arising in consequence of her disability, then the burden would shift so that it would be for South Warwickshire to demonstrate that its decision to withdraw the conditional offer had, in fact, nothing whatsoever to do with &#8220;the something&#8221; in issue (here, the Claimant&#8217;s absence record).</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As can be seen, Eady J thus directs the Tribunal to apply the shifting burden of proof both to the question of what the reason was for the unfavourable treatment and to the question of whether that reason was objectively causally connected to the claimant&#8217;s disability. If there are facts from which a Tribunal could decide what the reason was, and that there was a causal connection to the disability, then (applying the old approach from the case of <span style="font-style:italic">Igen v Wong </span><ref href="#" uk:canonical="[2005] ICR 931" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] ICR 931</ref><span style="font-style:italic"/>that Eady J paraphrases in [50]), the burden shifts to the respondent prove that in fact the treatment had &#8220;nothing whatsoever&#8221; to do with the disability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Having re-read Eady J&#8217;s decision in the <span style="font-style:italic">South Warwickshire </span>case in the course of writing up this decision, it did strike me that the last part of [50] of her judgment where she says that the burden passes to the respondent to demonstrate that its decision to withdraw the conditional offer had nothing whatsoever to do with the &#8220;something&#8221; could be read as suggesting that the shifting burden of proof applies only to that element and not also to the causal connection between &#8220;the something&#8221; and the claimant&#8217;s disability. However, that is not what she says at the start of the paragraph, and it seems to me that she only focuses on the &#8220;something&#8221; at this point because that is what was in issue in that case. Neither party in this appeal has sought to argue that the burden of proof should be applied differently to these two liability elements in a <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claim and, as I have noted, on the face of the statute, <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> applies to both elements. Further, I observe that it is implicit in the Supreme Court&#8217;s decision in <span style="font-style:italic">Essop and ors v Home Office </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/27" uk:canonical="[2017] UKSC 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 27</ref>, <ref href="#" uk:canonical="[2017] ICR 640" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] ICR 640</ref>, that the shifting burden of proof also applies to the causation requirement in indirect discrimination claims as the Supreme Court in <span style="font-style:italic">Essop </span>held at [32] that, in a case where a <span style="font-style:italic">prima facie</span> causal link had been established between the provision, criterion or practice and the disadvantage, it would nonetheless be open to the respondent to show that the there was no causal link between the two in a particular individual&#8217;s case. I therefore proceed, as the parties did, on the basis that the shifting burden of proof applies to all the elements necessary to establish liability under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Although the shifting burden of proof formally creates a two-stage test, as HHJ Tayler in <span style="font-style:italic">Field v Pye and Co </span><ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/68" uk:canonical="[2022] EAT 68" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 68</ref> noted at [33], the case of <span style="font-style:italic">Hewage v Grampian Health Board </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/37" uk:canonical="[2012] UKSC 37" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKSC 37</ref>, <ref href="#" uk:canonical="[2012] ICR 1054" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] ICR 1054</ref> &#8220;is often cited as authority for the proposition that in many cases the burden of proof has little to offer, and an employment tribunal may legitimately go straight to the &#8220;reason why&#8221; question. The employment tribunal may legitimately find as fact that the respondent had a non-discriminatory reason for the impugned treatment.&#8221; In <span style="font-style:italic">Pye</span>, HHJ Tayler said, &#8220;That is correct, but the issue is more nuanced&#8221;. Having reviewed the authorities, he explained why in some cases a Tribunal risks erring in law if it proceeds straight to the second stage and focuses only on the reasons for the treatment:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#404040">37.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In some cases there may be no evidence to suggest the possibility of discrimination, in which case the burden of proof may have nothing to add. However, if there is evidence that discrimination may have occurred it cannot be ignored. The burden of proof can be an important tool in determining such claims. These propositions are clear from the following well established authorities.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="color:#404040">41.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">It is important that employment tribunals do not only focus on the proposition that the burden of proof provisions have nothing to offer if the employment tribunal is in a position to make positive findings on the evidence one way or the other. If there is evidence that could realistically suggest that there was discrimination it is not appropriate to just add that evidence into the balance and then conduct an overall assessment, on the balance of probabilities, and make a positive finding that there was a non-discriminatory reason for the treatment. To do so ignores the prior sentence in <span style="font-style:italic">Hewage</span> that the burden of proof requires careful consideration if there is room for doubt. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">42.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Where there is significant evidence that could establish that there has been discrimination it cannot be ignored. In such a case, if the employment tribunal moves directly to the reason why question, it should generally explain why it has done so and why the evidence that was suggestive of discrimination was not considered at the first stage in an <span style="font-style:italic">Igen</span> analysis. Where there is evidence that suggests there could have been discrimination, should an employment tribunal move straight to the reason why question it could only do so on the basis that it assumed that the claimant had passed the stage one <span style="font-style:italic">Igen</span> threshold so that in answering the reason why question the respondent would have to prove that the treatment was in no sense whatsoever discriminatory, which would generally require cogent evidence. In such a case the employment tribunal would, in effect, be moving directly to</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">paragraphs 10-13 of the <span style="font-style:italic">Igen</span> guidelines. </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="color:#404040">43.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Although it is legitimate to move straight to the second stage, there is something to be said for an employment tribunal considering why it is choosing that option. If at the end of the hearing, having considered all of the evidence, the tribunal concludes that there is nothing that could suggest that discrimination has occurred and the employer has established a non-discriminatory reason for the impugned treatment, there would be no error of law in just answering the &#8220;reason why&#8221; question, but it is hard to see what would be gained by doing so, when the tribunal has already concluded that there is no evidence that could establish discrimination, which would result in the claim failing at the first stage . There is much to be said for making that finding and then going on to say that, in addition, the respondent&#8217;s non-discriminatory reason for the treatment was accepted. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">44.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">If having heard all of the evidence, the tribunal concludes that there is some evidence that could indicate discrimination but, nonetheless, is fully convinced that the impugned treatment was in no sense whatsoever because of the protected characteristic, it is permissible for the employment tribunal to reach its conclusion at the second stage only. But again it is hard to see what the advantage is. Where there is evidence that could indicate discrimination there is much to be said for properly grappling with the evidence and deciding whether it is, or is not, sufficient to switch the burden of proof. That will avoid a claimant feeling that the evidence has been swept under the carpet. It is hard to see the disadvantage of stating that there was evidence that was sufficient to shift the burden of proof but that, despite the burden having been shifted, a non-discriminatory reason for the treatment has been made out. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">45.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Particular care should be taken if the reason for moving to the second stage is to avoid the effort of analysing evidence that could be relevant to whether the burden of proof should have shifted at the first stage. This could involve treating the two stages as if hermetically sealed from each other, whereas evidence is not generally like that. It also runs the risk that a claimant will feel that their claim that they have been subject to unlawful discrimination has not received the attention that it merits. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#404040">46.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Where a claimant contends that there is evidence that should result in a shift in the burden of proof they should state concisely what that evidence is in closing submissions, particularly when represented, as Mr Brown did in this case.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Heading3">The Upper Tribunal&#8217;s approach on appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Upper Tribunal&#8217;s jurisdiction under <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">Tribunals, Courts and Enforcement Act 2007</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">TCEA 2007</ref>) is limited to considering whether there are any points of law arising from a decision made by the First-tier Tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Errors of law include misunderstanding or misapplying the law, taking into account irrelevant factors or failing to take into account relevant factors. An error of fact is not an error of law unless the First-tier Tribunal&#8217;s conclusion on the facts is perverse. That is a high threshold: it means that the conclusion must be irrational or wholly unsupported by the evidence. An appeal to the Upper Tribunal is not an opportunity to re-argue the case on its merits. These principles are set out in many cases, including <span style="font-style:italic">R (Iran) v SSHD </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/982" uk:canonical="[2005] EWCA Civ 982" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 982</ref> at [9]-[13].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">A failure to give adequate reasons for a decision is itself an error of law. A Tribunal does not need to set out every step in their reasoning or even to deal with every point raised by the parties, but reasons will not be adequate if they do not deal with the substantial points in the case or are insufficient to enable the parties to understand why they have won or lost and any appellate tribunal to see there has been no error of law: see, eg. <span style="font-style:italic">R</span><span/><span style="font-style:italic">(Jones) v First-tier Tribunal (Social Entitlement Chamber)</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/19" uk:canonical="[2013] UKSC 19" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 19</ref>, <ref href="#" uk:canonical="[2013] 2 AC 48" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 2 AC 48</ref> <span style="font-style:italic">per </span>Lord Hope at [25] and <span style="font-style:italic">R (Iran) v SSHD</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/982" uk:canonical="[2005] EWCA Civ 982" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 982</ref> at [13]-[16] <span style="font-style:italic">per </span>Brooke LJ).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In scrutinising the judgment of a First-tier Tribunal, the Upper Tribunal is required to read the judgment fairly and as a whole, remembering that the First-tier Tribunal is not required to express every step of its reasoning or to refer to all the evidence, but only to set out sufficient reasons to enable the parties to see why they have lost or won and that no error of law has been made: cf <span style="font-style:italic">DPP Law Ltd v Greenberg</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/672" uk:canonical="[2021] EWCA Civ 672" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 672</ref> at [57]. That case also makes the point (at [58]) that where the First-tier Tribunal has correctly stated the law, the Upper Tribunal should be slow to conclude that it has misapplied it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">So far as expert evidence is concerned, provided the First-tier Tribunal properly directs itself in law as to the applicable legal principles, and gives adequate reasons for its decision, it is in general entitled to prefer the opinion of one expert over the other (see <span style="font-style:italic">Hampshire County Council v JP </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2009/239" uk:canonical="[2009] UKUT 239 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKUT 239 (AAC)</ref> at [37]-[39]) or even to reject expert evidence and reach its own view using its own expertise (see <span style="font-style:italic">D v SENDIST </span>[2005] EWHC 2722, [2006] ELR 370). </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Heading1">The grounds of appeal</p>
+	    <p class="Heading2">Ground 1</p>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">The First-tier Tribunal perversely concluded and/or failed to take into account relevant evidence in concluding and/or provided inadequate reasons for concluding that the behaviour for which B was excluded was not &#8216;something arising in consequence of her disability&#8217; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In granting permission to appeal on this ground, I drew together a number of the appellants&#8217; arguments and identified four specific respects (a., b., c. and d.) in which I considered it arguable that the Tribunal had erred in law. The parties have duly focused their arguments on those points, but in reaching my decision I have found it convenient to deal compendiously with points a. and c., and as a result points b. and d. have to an extent fallen away.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Point a. concerned the Tribunal&#8217;s approach to the expert evidence as regards the question of whether the behaviour for which B was subject to the FTE and excluded from the ASC arose in consequence of her disability or not. Point c. concerned whether the Tribunal had wrongly taken account of the views of five-year-old B and other witnesses about the motivation for B&#8217;s conduct in deciding whether it was causally related to her disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As is clear from the judgment of Simler J (as she then was) in </span><span style="font-style:italic;font-family:Arial">Pnaiser </span><span style="font-family:Arial">above, and as the parties agree, the question of whether or not B&#8217;s behaviour was &#8216;something arising in consequence of her disability&#8217; was an objective question of whether there was a causal connection between the two. It is not concerned with reasons or motive. The question that the Tribunal should have asked itself, in relation to each of the behaviours relied on by the school, was whether B&#8217;s behaviour was causally related to her disability. Thus, for example, for the first incident, the question was whether B kicking another child at the school on the leg on 7 September 2002 was causally connected either to her physical or mental impairments (or both). Those impairments were identified by the Tribunal at [17] of the decision as impairments that cause her difficulties with coordination, proprioception, understanding of force and fine motor skills and understanding and expressing her own emotions and those of others and requiring help with social skills. In accordance with </span><span style="font-style:italic;font-family:Arial">Pnaiser</span><span style="font-family:Arial">, the Tribunal needed to apply an objective test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellants argue that this was a question on which the expert evidence of Ms Dunn and Ms Roscoe was highly relevant, but that the Tribunal failed to take this evidence into account and/or perversely and/or for inadequate reasons disagreed with the only expert evidence it had when it reached the conclusion that the challenging behaviour for which B was subject to the FTE and excluded from the ASC was not &#8216;something arising in consequence of disability&#8217;. The appellants argue that the Tribunal&#8217;s focus on the opinions of B herself and the school witnesses as to the reasons and motivations for her behaviour demonstrates that the Tribunal had in truth failed to apply the objective test required in relation to this issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The respondent submits that it is for the First-tier Tribunal as an expert tribunal to determine what weight it gives to expert evidence in the context of any claim. The respondent submits that expert evidence about a child&#8217;s needs is not the same as expert evidence about causation of a specific incident when there is a dispute about what happened in relation to that incident. The respondent submits that the First-tier Tribunal was entitled to prefer the evidence of the RB and use its own expertise. The respondent further submits that although the opinions of B and the school witnesses as to the reasons for her behaviour were not determinative of the issue, they were relevant and the Tribunal was entitled to take them into account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">On this issue, I prefer the submissions of the appellant and I consider that the First-tier Tribunal has erred in law. The question of whether there was a causal connection between B&#8217;s behaviour and her disabilities was a question in respect of which expert evidence was likely to assist. Indeed, in the ordinary courts, expert evidence might be considered to be reasonably required on such an issue because understanding the nature and effects of many disabilities (especially, perhaps, those arising from mental impairments) will be something where &#8220;knowledge, skill, experience, training or education&#8221; in relation to the disability in question may be needed (cf the Supreme Court&#8217;s guidance on the admissibility of expert evidence in </span><span style="font-style:italic;font-family:Arial">Kennedy v Cordia (Services) LLP </span><span style="font-family:Arial"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/6" uk:canonical="[2016] UKSC 6" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 6</ref>, <ref href="#" uk:canonical="[2016] 1 WLR 597" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 597</ref></span><span style="font-style:italic;font-family:Arial"/><span style="font-family:Arial">at [46]-[47]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Subjective opinions as to someone&#8217;s motivation for their behaviour do not take you very far in answering the question that the Tribunal needed to answer. A person&#8217;s disability may manifest in many different ways, including both in ways that the person in question will experience as apparently conscious decision-making and in ways that are unconscious. For example, a child with autism spectrum disorder may find themselves overwhelmed in a social situation, unable to articulate their emotions and thus respond by quite deliberately (or, at least, apparently quite deliberately) taking out their frustrations physically on a person or object. The fact that the physical behaviour is conscious, deliberate and/or retaliatory does not of itself mean that it is not causally connected to the disability. Whether it is or not is a question on which expert evidence about the nature of the disability in question is likely to assist. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The First-tier Tribunal, of course, is an expert Tribunal and sits with at least one specialist member with &#8220;substantial experience of special educational needs and/or disability (Senior President&#8217;s </span><span style="font-style:italic;font-family:Arial">Practice Direction: Panel composition in the First-tier Tribunal, Health, Education and Social Care (HESC) Chamber</span><span style="font-family:Arial">, 30 December 2024). As such, it is equipped, if need be, to make decisions of this sort without expert evidence, but if it has expert evidence before it on such an issue, that will be relevant evidence that it must take into account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">It is striking in this case that in the paragraphs of its decision dealing with the question of the causal connection between the behaviours and B&#8217;s disabilities ([23]-[42]) the Tribunal does not allude to the expert evidence once. Although all five incidents apparently involved B lashing out at other children, and the Tribunal had before it expert evidence which it summarised as being that B had social emotional and mental health difficulties that led to her &#8220;lashing out at children, being easily aroused and becoming dysregulated&#8221;, the Tribunal does not even mention it. While it is hard to believe that the Tribunal really had let this evidence slip its mind given that this was not a document-heavy case, the fact that at [26] and [40] and [46] it said that there was &#8220;no evidence&#8221; to link B&#8217;s behaviour with her disability makes it clear that the Tribunal did fail to take into account this evidence. That is an error of law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Alternatively, if (despite appearances) the Tribunal did have this evidence in mind, then its failure to include any reasoning explaining why it disagreed with it, or did not consider it to be of assistance, would also be an error of law because it is impossible to understand why the Tribunal did not consider this evidence had a bearing on the issue it had to decide and why the appellants lost their case on this issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Further, the Tribunal&#8217;s almost exclusive focus on establishing why B thought she acted as she did and why the RB or B&#8217;s parents thought she acted as she did leads me to the conclusion that the Tribunal had misdirected itself in law as to the question it needed to decide. The Tribunal&#8217;s approach is the sort of approach that would need to have been taken if there was an issue as to why the RB took the action it did, i.e. whether it was because of B&#8217;s behaviour, or because of antagonism towards her parents or some other reason. If that had been the question, then it would have been correct for the Tribunal to focus on the reasons the relevant staff member(s) had for acting as they did. The answer to that question would still have been a matter for the Tribunal to determine, by drawing inferences from all the circumstances as to what the RB&#8217;s true reason for acting was, but the evidence of witnesses as to what they thought they were doing would have been highly relevant. However, this was not a case in which there was any issue as to why the RB did what it did. It was agreed that the RB took action because of B&#8217;s behaviour. The task for the Tribunal was to determine objectively whether B&#8217;s behaviour was causally connected to her disability. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">I do accept the respondent&#8217;s submission that it would be wrong for me to go so far as to say that it was irrelevant to the causation question what B thought she was doing or what her parents thought she was doing or what the RB thought she was doing, or whether the conduct was &#8216;deliberate&#8217; or not. I accept that these are in principle relevant matters to take into account. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">However, the Tribunal has erred in law in this case in its approach to that evidence. Where it says there is &#8220;no evidence&#8221; of a link to her social disability, it apparently says that because either B has not said it was because of her disability and/or because the RB&#8217;s witnesses considered her conduct to be deliberate and not because of her disability. Insofar as the Tribunal regarded the views of five-year-old B as actually being evidence that bore directly on the question of whether her behaviour was related to her social impairment, that was in my judgment irrational. Likewise the school&#8217;s witnesses were witnesses of fact, they do not appear to have expressed opinions about causal relationship to B&#8217;s disability, their evidence (as it appears in the Tribunal&#8217;s decision) was just about what happened and whether B&#8217;s conduct appeared to be deliberate or not. While I can see that it was in principle relevant to the question of whether the conduct was related to B&#8217;s physical impairment of dyspraxia whether it was deliberate or not (although, even then, the dyspraxia may have been relevant to the amount of damage/hurt B caused when lashing out deliberately), witness evidence on whether the conduct appeared to be deliberate or not could shed only the most limited light on whether the behaviour was related to B&#8217;s social impairment. As such, it was perverse for the Tribunal to regard the fact that the school&#8217;s witnesses did not say they thought B&#8217;s conduct was related to her disability and/or the fact that the conduct appeared deliberate as meaning there was &#8220;no evidence&#8221; of such a causal relationship.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The above is sufficient to dispose of this appeal, but I need to say something further about points b. and d. in the grant of permission to appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Point b. concerned what the Tribunal said at [33] about the swinging the child by the dress incident. The Tribunal noted &#8220;The claimant does not allege in this case that it arose from [B&#8217;s] social impairment&#8221;. It is understandable why the Tribunal said this, and indeed why much of its decision seems to focus on the question of whether there was a link between the behaviour and B&#8217;s dyspraxia. That is because this was the appellants&#8217; primary case in relation to this and some of the other incidents. Their belief was that at least some of the behaviours were accidental, with harm resulting from B&#8217;s &#8216;clumsiness&#8217; as a result of her dyspraxia. However, the parties are agreed that the case as set out in the original claim form, identified at case management stage, and advanced at the hearing, formally included both B&#8217;s disabilities. Mr Edwards before the Upper Tribunal has made clear that if he had been asked if the appellants were also relying as a &#8216;fallback&#8217; on B&#8217;s social impairment in relation to these elements of the claim, he would have said &#8216;yes&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Proceedings in disability discrimination cases before the First-tier Tribunal are adversarial and inquisitorial, but, as I observed in </span><span style="font-style:italic;font-family:Arial">KTS v Governing Body of a Community Primary School </span><span style="font-family:Arial"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2024/139" uk:canonical="[2024] UKUT 139 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 139 (AAC)</ref>, the Tribunal is nonetheless required to further overriding objective and to ensure that each party has a fair opportunity to advance their case. In this case, when granting permission, I caused the respondent some consternation by referring to the Tribunal&#8217;s responsibility of active case management as being the exercise of an &#8216;inquisitorial&#8217; jurisdiction. It is sometimes referred to as such, but I agree with the respondent that it is better not to use that term in this context. However, the point remains that it is incumbent on the Tribunal to ensure that it has identified with the parties what the issues in the case are that it has to decide, and that includes any alternative case that a party is running in the event that their primary case is rejected. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In this case, even if the claim had been specifically and solely advanced on the basis that only B&#8217;s physical impairment was the cause of some part of her behaviour, if the Tribunal applying the objective test concluded that there was no causal relationship with the physical impairment, but there was on the facts a causal relationship with the social impairment, then fairness would probably also require that the appellants be given an opportunity to consider whether they wished to amend their claim. See, in this regard, the Court of Appeal&#8217;s decision in </span><span style="font-style:italic;font-family:Arial">Mervyn v BW Controls Ltd </span><span style="font-family:Arial"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/393" uk:canonical="[2020] EWCA Civ 393" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 393</ref>, <ref href="#" uk:canonical="[2020] ICR 1364" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] ICR 1364</ref> where the Court held that the Tribunal should have specifically asked the claimant whether, if (contrary to her case) it found she had resigned rather than been dismissed, she wished the Tribunal to consider whether she had been constructively unfairly dismissed or not. That case involved a litigant in person, but as is clear from [49(3)] of the Court of Appeal&#8217;s well-known guidance in </span><span style="font-style:italic;font-family:Arial">Drysdale v The Department of Transport (Maritime and Coastguard Agency) </span><span style="font-family:Arial"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1083" uk:canonical="[2014] EWCA Civ 1083" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1083</ref>, <ref href="#" uk:canonical="[2014] IRLR 892" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] IRLR 892</ref> the fact that a party is legally represented does not mean that the court should never provide assistance of this sort.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">I do not, however, need to decide whether the Tribunal&#8217;s failure in this case to raise the question of &#8216;fallback&#8217; positions with the parties was itself an error of law or not. On remission, though, the next Tribunal will need to take care properly to identify the issues in dispute.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As to point d. in the grant of permission, this was my observation that it did not appear from the respondent&#8217;s original response to this claim that it was actually disputing the causal link between the behaviour and the claimed disabilities. It did dispute that B&#8217;s difficulties amounted to disabilities, and that it had knowledge of that, and it also advanced in the alternative a case that if there was less favourable treatment for a reason relating to disability, that treatment was justified. If these were proceedings to which the Civil Procedure Rules applied (cf CPR 16.5(3) and (5)), this might have created a difficulty for the respondent and represented a further potential error in the Tribunal&#8217;s decision in this case. However, &#8220;pleadings points&#8221; such as this do not have the same implications in this jurisdiction. What matters is fairness and that the parties and the Tribunal understand the issues that are in dispute and the parties have a fair opportunity to deal with them. In the light of the respondent&#8217;s clarification in response to the appeal, it is clear that the respondent did actively dispute the causal link at the hearing before the First-tier Tribunal and that the appellants were not under any misapprehension as to the respondent&#8217;s position. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Heading2">Ground 2</p>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">The First-tier Tribunal erred in law by failing properly to apply the shifting burden of proof in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appellants submit that the Tribunal erred in law because it failed to direct itself as to the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> and the effect of the shifting burden of proof. Further, the appellants submit that this was a case in which, given the expert evidence, it would have been perverse for the Tribunal to have reached any conclusion other than that the appellants had satisfied the primary burden of proof on them so that the burden of proof in fact shifted to the respondent to prove that there was no causal connection to B&#8217;s disability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The respondent submits that the Tribunal did not need to consider the shifting burden of proof because the Tribunal had concluded on the evidence that the respondent did not treat B less favourably because of something arising in consequence of her disability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In my judgment, the Tribunal erred in law as to the burden of proof. Its first error was that it misdirected itself as to the law because it failed to direct itself to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/136" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 136</ref> and the shifting burden of proof. In this respect, I note that the Tribunal will have &#8216;taken its cue&#8217; from the issues that were identified in the case management order by a different judge some months in advance of the hearing, which also did not make reference to the shifting burden of proof. However, it was the obligation of the panel at the hearing to get the law right, whatever the contents of the previous case management order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Contrary to the respondent&#8217;s submission, this is not a case in which the burden of proof became immaterial because the Tribunal was able to make positive factual findings one way or the other. The Tribunal three times in its decision noted some doubt or lacuna about the evidence, but apparently relied on the burden of proof to resolve that doubt against the appellants: see [26], [40] and [42]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Further, the Tribunal&#8217;s errors in Ground 1 in leaving out of account the expert evidence also place this case firmly in the category of case identified by HHJ Tayler in <span style="font-style:italic">Field v Pye </span>where &#8220;there is significant evidence that could establish that there has been discrimination&#8221; that &#8220;cannot be ignored&#8221;. As HHJ Tayler explained in <span style="font-style:italic">Field v Pye</span>, if there is such significant evidence, then if the Tribunal wishes to proceed straight to the second stage of the analysis, it will either need to place the burden of proof on the respondent or it will need to explain why it does not consider the significant evidence was in fact sufficient to discharge the primary burden of proof. This Tribunal has done neither of those things.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">While it is true that in some cases the burden of proof has little role to play, in cases where an element of liability is in issue that is not readily proved by direct evidence, the burden of proof assumes greater importance. The rationale for introducing the shifting burden of proof in discrimination claims was, as the case law I have set out above explains, because of the well-recognised difficulty for a claimant in proving that a person&#8217;s actions were materially, but probably unconsciously, influenced by a protected characteristic. In <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claims the difficulty in proving something of which there may not be direct evidence may also arise at the stage of having to identify what the &#8216;something&#8217; was that was the real reason for the treatment, but it also often arises at the stage of considering whether there is a causal connection between the &#8216;something&#8217; and the disability. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In cases such as this, therefore, the burden of proof may be important. If the claimant adduces evidence from which it could be concluded (on the balance of probabilities) that there was a causal link between the disability and the &#8216;something&#8217; (as is likely to be the case if, as here, there is expert evidence that the particular disability often manifests itself in the type of behaviour in question), then the burden of proof shifts to the respondent to prove that there was no such connection in the particular circumstances of the case. Or, to put it in <span style="font-style:italic">Igen v Wong </span>terms, the burden passes to the respondent to show that the treatment was &#8220;in no sense whatsoever&#8221; because of the protected characteristic as there, despite initial appearances, no material causal connection in the particular case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Heading1">Disposal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">For the reasons set out above, I am therefore satisfied that the decision of the First-tier Tribunal involved material errors of law and I set it aside. Mr Edwards for the appellants invited me to re-make the decision myself. However, it is not appropriate for me to do so for two reasons:-</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">First, while the errors I have identified in the Tribunal&#8217;s decision may appear to point towards there being only one permissible conclusion in relation to the question of whether B&#8217;s behaviour was causally related to her disabilities, that is not necessarily the case. While I find it difficult to see how any Tribunal could properly conclude that the burden of proof had not shifted on this issue in this case, it remains possible that a Tribunal, properly directing itself on the law, and taking account of all the relevant evidence, might nonetheless conclude that there was not in fact a causal link in relation to at least some elements of the behaviour. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Secondly, the RB in this case has always had a defence of justification that it wishes to run. That will require further findings of fact as to the aims the RB was seeking to achieve, how effective the exclusions were at achieving those aims, and the impact of the exclusions on B and then the balancing of those factors in a proportionality assessment. All of that evidence was (or should have been) before the First-tier Tribunal at the hearing, the Tribunal did not deal with the question of justification in its decision, although it would have been open to it do so as an &#8216;in the alternative&#8217; finding notwithstanding its conclusion on the causation issue. This is unfortunate because, as I observed in </span><span style="font-style:italic;font-family:Arial">London Borough of Islington v A Parent </span><span style="font-family:Arial"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2024/252" uk:canonical="[2024] UKUT 252 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 252 (AAC)</ref> at [88], &#8220;where a First-tier Tribunal has heard evidence on a point of substance, it should normally make findings on that evidence so that in the event of an appeal such as this time cost and public resources do not need to be wasted in an unnecessary rehearing&#8221;. In this case, if the Tribunal had gone on to consider justification, and found the treatment justified then (provided that conclusion was not &#8216;infected&#8217; by the prior errors in relation to causation), permission to appeal would probably have been refused on the basis that any prior error could make no material difference to the outcome.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Heading1">Rule 14 Order</p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">Neither of the parties sought a Rule 14 Order in this case. However, I have on further reflection since the hearing felt it necessary to make a Rule 14 Order of my own motion in order to protect B&#8217;s personal information. That necessitates anonymising her parents, but I do not consider that it requires the school to be anonymised. B is too young to understand this case at present, but I am mindful that this decision contains personal information about her that will, as a result of the publication of this judgment, potentially remain in the public domain indefinitely and which could have a significant impact on her in later life. It is not fair on B for this information to be publicly available indefinitely. Although it is important to public justice that parties are named, the public interest is nearly as well served in this case by the publication of this judgment without identifying B (or her parents). Anonymising B (and of necessity also her parents) strikes the right balance in this case between B&#8217;s private rights and the public interest. If either party, or any member of the public, objects to this order, they may apply to the Upper Tribunal and any application will be considered on notice to the parties.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:right"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">Holly Stout</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:right"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">Judge of the Upper Tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:right"><span style="font-family:Arial">Authorised by the Judge for issue on </span><docDate date="2025-02-07" refersTo="#decision" style="font-family:Arial">7 February 2025</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

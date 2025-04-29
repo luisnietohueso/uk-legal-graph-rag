@@ -1,0 +1,923 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/134"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/134"/>
+	  <FRBRdate date="2025-02-19" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="134"/>
+	  <FRBRname value="General Dynamics United Kingdom Limited v The State of Libya"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/134"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/134"/>
+	  <FRBRdate date="2025-02-19" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/134/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/134/data.xml"/>
+	  <FRBRdate date="2025-02-19T14:29:15" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="general-dynamics-united-kingdom-limited" href="" showAs="GENERAL DYNAMICS UNITED KINGDOM LIMITED"/>
+	<TLCPerson eId="the-state-of-libya" href="" showAs="THE STATE OF LIBYA"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-justice-lewison" href="/judge-lord-justice-lewison" showAs="LORD JUSTICE LEWISON"/>
+	<TLCPerson eId="judge-lord-justice-zacaroli" href="/judge-lord-justice-zacaroli" showAs="LORD JUSTICE ZACAROLI"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>134</uk:number>
+	<uk:cite>[2025] EWCA Civ 134</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>ac113f2cfacc6a28da31cb49618669d714cb5c927b8ef9732ad0b63043635ebf</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .QuoteChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 134</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2024-000810</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</p>
+      <p class="CoverMain">COMMERCIAL COURT (KING&#8217;S BENCH DIVISION)</p>
+      <p class="CoverMain">His Honour Judge Pelling KC (Sitting as a Judge of The High Court)</p>
+      <p class="CoverMain"><neutralCitation>[2024] EWHC 472 (Comm)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-02-19" refersTo="#judgment">19 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-lewison">LORD JUSTICE LEWISON</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE PHILLIPS<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-zacaroli">LORD JUSTICE ZACAROLI</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#general-dynamics-united-kingdom-limited" as="#respondent" style="font-weight:bold">GENERAL DYNAMICS UNITED KINGDOM LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Claimant/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#the-state-of-libya" as="#appellant" style="font-weight:bold">THE STATE OF LIBYA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Defendant/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Joe Smouha KC </span>and<span style="font-weight:bold"> James Ruddell</span> (instructed by <span style="font-weight:bold">Freshfields Bruckhaus Deringer LLP</span>) for the <span style="font-weight:bold">Claimant/Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Richard Lissack KC </span>and<span style="font-weight:bold"> Jacob Turner </span>(instructed by<span style="font-weight:bold"> Squire Patton Boggs (UK) LLP</span>) </p>
+      <p style="text-align:center">for the <span style="font-weight:bold">Defendant/Appellant</span></p>
+      <p style="text-align:center">Hearing date: 13 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center"><span style="font-size:10pt">This judgment was handed down remotely at 2 pm on Wednesday 19 February 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives</span></p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Phillips:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By a written agreement dated 5 May 2008 the respondent (&#8220;GDUK&#8221;) agreed to supply a Tactical Communications and Information System to the appellant (&#8220;Libya&#8221;) for the price of &#163;84m (&#8220;the Contract&#8221;). The Contract was governed by the law of Switzerland. Clause 32 provided for arbitration of any dispute under the Rules of Arbitration of the International Chamber of Commerce (&#8220;the ICC&#8221;), further providing that the decision of the arbitration panel &#8220;shall be final, binding and wholly enforceable&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is common ground that clause 32 constituted a written agreement by Libya to submit disputes under the Contract to arbitration within the meaning of section 9 of the State Immunity Act 1978 (&#8220;the SIA&#8221;), so that Libya is not immune as to the adjudicative jurisdiction of the courts of the United Kingdom in relation to that arbitration. The issue on this appeal is whether Libya thereby also consented, within the meaning of section 13(3) of the SIA, to the execution against its property of any ICC arbitration award made against it.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On 22 March 2024 His Honour Judge Pelling KC (&#8220;the Judge&#8221;) determined that the words of clause 32 did amount to such consent, so that Libya could not rely on state immunity to resist execution against its property of an ICC award for &#163;16,114,120.62 (&#8220;the Award&#8221;) arising from a dispute under the Contract. The Award had been published on 5 January 2016 and was recognised in this jurisdiction under section 101 of the Arbitration Act 1996, with leave to enforce the Award as though it was a judgment of the court, by order of Teare J dated 18 July 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge therefore made a final charging order in favour of GDUK over property owned by Libya at 7 Winnington Close, London N2 0UA. He correspondingly dismissed Libya&#8217;s application to discharge an interim charging order that the Judge had made on a without notice basis in respect of that property on 24 February 2023. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya appeals that decision with permission granted by the Judge. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">The key provisions</span></heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The full text of clause 32 of the Contract is as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;<span style="font-weight:bold">Disputes/Arbitration</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">The Parties will attempt to resolve any differences or disagreements by mutual agreement. All disputes in which mutual agreement cannot be reached arising out of or in connection with the present Contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one (1) or three (3) arbitrators. The award will be final and binding upon the Parties. The seat or legal place of arbitration shall be Geneva, Switzerland. The language to be used in the arbitral proceedings shall be English. The arbitrators shall have no authority to award aggravated or punitive damages and shall be bound by any limits on the PURCHASER's and SELLER's liability as set out in this Contract. The Parties undertake to keep confidential all awards and orders as well as all materials submitted by another party in the framework of the arbitral proceedings not otherwise in the public domain, save and to the extent that a disclosure may be required of a party by a legal duty, to protect or pursue a legal right. Both parties agree that the decision of the arbitration panel shall be final, binding and wholly enforceable.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Article 28(6) of the 1998 ICC Arbitration Rules (now article 35(6) in the 2021 Arbitration Rules) reads:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;Every award shall be binding on the parties. By submitting the dispute to arbitration under the Rules, the parties undertake to carry out any award without delay and shall be deemed to have waived their right to any form of recourse insofar as such waiver can be validly made.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Article 35 of the 1998 ICC Arbitration Rules (now article 42 in the 2021 Rules) provides as follows: </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;In all matters not expressly provided for in these Rules, the [ICC] Court and the Arbitral Tribunal shall act in the spirit of these Rules and shall make every effort to make sure that the Award is enforceable at law&#8221;. </p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Section 13 of the SIA provides, so far as relevant, as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(2)</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">Subject to subsections (3) and (4) below&#8212; </p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.2in">&#8230; </p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.18in;margin-right:0.59in;text-indent:0.32in">the property of a State shall not be subject to any process for the enforcement of a judgment or arbitration award or, in an action in rem, for its arrest, detention or sale.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">Subsections (2) and 2(A) above do not prevent the giving of any relief or the issue of any process with the written consent of the State concerned; and any such consent (which may be contained in a prior agreement) may be expressed so as to apply to a limited extent or generally; but a provision merely submitting to the jurisdiction of the courts is not to be regarded as a consent for the purposes of this subsection.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The judgment </span></heading>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge summarised the applicable English law principles in relation to state immunity at [5] as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;The SIA is a complete code and now the sole source of the English law of state immunity. The scheme of the SIA is to create a general immunity conferred by <span style="text-decoration-line:underline;text-decoration-style:solid">SIA, s.1(1)</span> for the governmental acts of states, subject to the express exceptions set out in later sections of the SIA &#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">Benkharbouche v Embassy of the Republic of Sudan</span> [2019] AC 777, per Lord Sumption at paragraph 39. The SIA draws a clear distinction between a court&#8217;s adjudicative jurisdiction (which is the subject of <span style="text-decoration-line:underline;text-decoration-style:solid">SIA, ss.2-11</span>) and its enforcement jurisdiction (which is the subject of <span style="text-decoration-line:underline;text-decoration-style:solid">SIA, ss.13(2)-(6)</span> and <span style="text-decoration-line:underline;text-decoration-style:solid">14(3)-(4)</span>) &#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">Alcom Ltd. V. Republic of Colombia</span> [1984] AC 580 per Lord Diplock at 600F-H, where the point is also made that voluntary submission to the court&#8217;s adjudicative jurisdiction does not of itself imply any submission to its enforcement jurisdiction; and <span style="text-decoration-line:underline;text-decoration-style:solid">General Dynamics United Kingdom Ltd v State of Libya</span> [2021] UKSC 22; [2022] AC 318 per Lord Lloyd-Jones at paragraph 30. This distinction means, in relation to arbitral awards, that <span style="text-decoration-line:underline;text-decoration-style:solid">SIA s.9</span> applies to applications under [Arbitration Act 1996] <span style="text-decoration-line:underline;text-decoration-style:solid">s.101(2)</span> because &#8220; <span style="font-style:italic">&#8230; leave to enforce an award as a judgment is, as subsection (1) recognises, one aspect of its recognition and as such is the final stage in rendering the arbitral procedure effective. Enforcement by execution on property belonging to the state is another matter, as section 13 makes clear</span>&#8221; &#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">Svenska Petroleum Exploration v Lithuania</span> [2007] QB 886 per Moore-Bick LJ at [117].&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [8] the Judge cited the following dictum of Saville J in <span style="font-style:italic">A Co. Ltd v Republic of X </span>[1990] 2 Lloyd&#8217;s Rep 520 at 523 in support of the proposition that contractual provisions that are said to fall within the scope of section 13 of the SIA should not be construed restrictively:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;The present case is concerned with an ordinary commercial transaction and I can see no good reason why the clause in question should not be construed in like manner to the rest of the contract in accordance with the ordinary principles of construction for commercial contracts, by looking at the bargain as a whole in its context and giving the words used, if capable of bearing them, a construction which accords with commercial common sense.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although not referred to by the Judge, that approach was cited with approval in <span style="font-style:italic">Sabah Shipyard (Pakistan) Ltd v Republic of Pakistan </span>[2004] 1 CLC 149, [2002] EWCA 1643, Waller LJ noting that Saville J, by his reasoning, had &#8220;rejected an argument that in some way a restrictive operation should be adopted to clauses dealing with waiver of immunity since one of the parties is a State&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge pointed out at [9] that the above formulation was in the context of a contract governed by English law (rather than Swiss law as in the present case) and that, further, the clause in <span style="font-style:italic">A Co. Ltd v Republic of X </span>was more explicit than clause 32, providing that the state waived &#8220;whatever defence it may have of sovereign immunity for itself or its property&#8230;&#8221;. Nevertheless, the Judge accepted that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;at any rate in the context of an agreement such as the Contract, no special or particular words are required in order to satisfy the requirement of <span style="text-decoration-line:underline;text-decoration-style:solid">SIA, s.13(3)</span> that the state concerned should have provided its written consent.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [10] the Judge held that <span style="font-style:italic">Pearl Petroleum Co Ltd v Kurdistan Regional Government of Iraq</span> [2016] 4 WLR 2, [2015] EWHC 3361 (Comm) was not authority for any narrower proposition. That case did not concern immunity from execution, the comment that a waiver must be construed &#8220;strictly and sensibly&#8221; was <span style="font-style:italic">obiter</span>, and Burton J in any event distinguished the case from <span style="font-style:italic">A Co. Ltd v Republic of X </span>on the basis that the latter case was a commercial bargain between the parties. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge then turned to the construction of the Contract, noting that the task was to construe the words used by the parties in accordance with the applicable principles of Swiss law. At [11] the Judge set out GDUK&#8217;s evidence as to the relevant principles, stating that Libya accepted that it reflected accurately the current status of the law in Switzerland:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(a)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">As a starting point, the interpretation must first be based on the wording of the language that is in question. Swiss law will apply the general and ordinary usage of the words as a matter of language. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">In addition to the wording, the entire circumstances of the particular language must be taken into account, this includes: (i) pre-contract negotiations of the parties; (ii) the surrounding circumstances at the time of the conclusion of the contract; (iii) the purpose of the contract; and (iv) the conduct of the parties after conclusion of the contract. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">In light of the above, a Swiss Court will perform a subjective interpretation, based on the evidence, as to what the true and common intention of the parties was. If that is conclusive, that interpretation will be binding. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">If that subjective interpretation is not conclusive, the principle of good faith will be invoked, and the Swiss Court will then perform an objective interpretation as to what meaning the parties could and should have given, in good faith, to their mutual expressions of intent in light of all the circumstances.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">In addition, there is no principle of Swiss law that requires commercial contracts with a state to be construed differently from any other commercial agreement.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [12] the Judge rejected the contention that Swiss substantive law was relevant to determining whether a contractual term waived state immunity, holding that the role of Swiss law was to provide the rules by which the meaning of the Contract is to be ascertained. Once that exercise has been completed it was a question of English law whether the Contract takes effect in England and Wales as such a waiver.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to the application of the Swiss law principles, the Judge recorded at [13] that it was common ground that there was no evidence from which conclusions could be reached concerning the subjective intentions of the parties when adopting clause 32 or any other aspect of the Contract. It followed, the Judge held, that clause 32 must be construed by giving the words used the meaning the parties in good faith could and should have given to their agreement in the light of all the circumstances. The Judge concluded that this required him to decide what the parties meant by asking what a reasonable person with the knowledge of the parties would in the circumstances conclude was intended by the language used by them. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the meaning and effect of clause 32, the Judge started at [15] with the &#8220;obvious point that, from first to last, the Contract was a commercial agreement between the parties&#8221;. Applying the applicable Swiss law principles, the Judge stated that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;a reasonable person with all the relevant knowledge of the parties and applying the good faith principle would conclude that the intention of the parties was that each should be able to enforce its obligations against the other in accordance with the terms of their agreement and that included obligations resulting from an award by arbitrators appointed to resolve any differences between the parties under the arbitration agreement contained in clause 32 of the Contract.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge then recorded at [16] Libya&#8217;s contention that the final sentence of clause 32 means simply that any award is wholly enforceable to the extent permitted by the law of the jurisdiction in which it was being enforced and thus in England enforcement is subject to the immunity provided by section 13(2)(b) of the SIA. The Judge rejected that reasoning as being circular and adding nothing to the agreement in the third sentence of clause 32 that an award would be final and binding. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [17]-[18] the Judge further rejected Libya&#8217;s contention that the phrase &#8220;wholly enforceable&#8221; can apply only to adjudicative immunity, holding that that reading would again add nothing to the phrase &#8220;final and binding&#8221;, and that in any event in England the question of adjudicative immunity is covered by section 9 of the SIA. The wording, the Judge held &#8220;must apply to something else&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge saw no relevance in the fact that section 13 of the SIA was not mentioned in the Contract [19], but by the same token did not consider that it was relevant that section 13 used the word &#8220;enforcement&#8221; (the same word as used by the parties in clause 32) when referring to execution against property [18].  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge then identified at [21] that the key consideration is that the distinction between adjudicative and enforcement immunity is one that is generally drawn as a matter of public international law, and was thus a distinction that is likely to have informed the terms of the parties&#8217; agreement. In that context, the Judge stated at [22] as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;In my judgment the use of the word &#8220;wholly&#8221; emphasises an intention on the part of the parties that the word &#8220;enforceable&#8221; was not to be regarded as limited in effect, particularly given the inclusion of the words final and binding that precede it, which in my judgment were included as words of emphasis rather than merely to repeat needlessly what had gone before. Using the word &#8220;wholly&#8221; is obviously inapposite if the intention was to confine the meaning of enforceable in the way contended for by [Libya]. Indeed, in my view to attempt to construe the clause in the manner adopted by [Libya] is likely to defeat what is required by a good faith approach to the true meaning and effect of the agreement when the alternative &#8211; that the sentence is concerned with waiving adjudicative immunity alone &#8211; makes little sense given (a) what the third sentence of clause 32 appears to achieve and (b) that in any event an Award made by a tribunal sitting in Switzerland applying Swiss law would be and it is reasonably to be inferred would be known to the parties and their advisors to be adjudicatively enforceable in most states by reference to the United Nations Convention on the Recognition and Enforcement of Foreign Arbitral Awards (&#8220;New York Convention&#8221;).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge further rejected Libya&#8217;s argument that &#8220;clear words&#8221; were required before a court would hold that the state has waived the valuable right of state immunity against enforcement against its assets [24]. The Judge pointed out that Libya accepted that no single form of wording was necessary to amount to written consent and that the words in fact used had to be read in their correct legal and factual context and, in this case, applying Swiss principles of construction. The Judge concluded that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;&#8230;the parties&#8217; intention was to enable an award made pursuant to the parties&#8217; arbitration agreement contained in the Contract to be enforceable in the same way as such an award could be enforced in any commercial agreement between non-state actors. No other meaning has been identified for the final sentence of clause 32 other than that it applies only to adjudicative immunity. However that is a meaning to be rejected for the reasons set out earlier.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The grounds of appeal</span></heading>
+	  <paragraph eId="lvl_4_1">
+	    <num style="text-decoration-line:underline;text-decoration-style:solid">(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The proper interpretation of section 13(3) of the SIA</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya&#8217;s first ground of appeal is that the Judge erred in holding that &#8220;clear words&#8221; are not required for a state to consent to execution against its property within the meaning of section 13(3) of the SIA. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">On its face, that is a challenge to the Judge&#8217;s finding at [24], in the context of construing the Contract, that the English law presumption that parties do not intend to abandon valuable rights they would have had at common law or pursuant to statute (and that clear express words must be used to rebut that presumption), does not assist in the circumstances of the present case, not least because the applicable principles are those of Swiss law. Indeed, that was the way the challenge was put in Libya&#8217;s original skeleton argument for this appeal by counsel then instructed, relying on the English law presumption as explained in <span style="font-style:italic">Modern Engineering (Bristol) Ltd v Gilbert Ash (Northern) Ltd </span>[1974] AC 689 per Lord Diplock  at p. 717H and <span style="font-style:italic">Triple Point Technology Inc v PTT Public Co Ltd </span>[2021] AC 1148, [2021] UKSC 29 per Lord Leggat JSC at [106]-[110].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In Libya&#8217;s replacement skeleton argument, Mr Lissack KC and Mr Turner re-framed its challenge as being to the Judge&#8217;s statutory interpretation of section 13(3) of the SIA (a matter of English law) contending that the Judge erred in his analysis at [8]-[10] of his judgment. As GDUK points out, however, the Judge there held that there was no requirement for &#8220;special or particular words&#8221; to satisfy section 13(3); he did not consider, because it was not argued, whether &#8220;clear words&#8221; were required. Nevertheless, as the issue has now been raised and fully argued and is a pure point of statutory interpretation of the provision in issue, it is appropriate to consider it. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya contends that there are two relevant &#8220;principles&#8221; to consider. The first is that the purpose and context of the SIA support a requirement that only &#8220;express&#8221; words would be sufficient to waive immunity against execution pursuant to section 13(3). The second is that the SIA should be taken to incorporate the pre-existing common law principle, referred to above, that the more valuable a right which is said to be waived, the more emphatic the language of the waiver must be to effect it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In relation to the purpose and context of the SIA, Libya refers to Lord Lloyd-Jones JSC&#8217;s exposition in the Supreme Court at an earlier stage of these proceedings<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span> </span>[2022] AC 318</p>
+		</authorialNote>, when determining that the arbitration claim form and the enforcement order of Teare J had to be served in accordance with the requirements of section 12(1) of the SIA:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;58&#8230;.[C]onsiderations of international law and comity are in play here and they support the wider reading of section 12(1) SIA. The SIA is primarily concerned with relations between sovereign states and, as a result, its provisions fall to be considered against the background of established principles of international law (<span style="font-style:italic">Alcom Ltd v Republic of Colombia</span> [1984] AC 580, p 597G-H per Lord Diplock). </p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>59.</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">The sovereign equality of States is a fundamental principle of the international legal order. This is reflected in the rules of international law governing State immunity from the jurisdiction of the courts of other States. Although the immunity of States is not absolute this is nevertheless an area of considerable sensitivity. In <span style="font-style:italic">Jurisdictional Immunities of the State (Germany v Italy; Greece intervening)</span> the International Court of Justice observed: </p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.1in;margin-right:0.71in">&#8220;The court considers that the rule of state immunity occupies an important place in international law and international relations. It derives from the principle of sovereign equality of States, which, as article 2, paragraph 1, of the Charter of the United Nations makes clear, is one of the fundamental principles of the international legal order. This principle has to be viewed together with the principle that each State possesses sovereignty over its own territory and that there flows from that sovereignty the jurisdiction of the State over events and persons within that territory. Exceptions to the immunity of the State represent a departure from the principle of sovereign equality. Immunity may represent a departure from the principle of territorial sovereignty and the jurisdiction which flows from it.&#8221; (at para 57) </p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">These observations apply to both immunity from a State&#8217;s adjudicative jurisdiction and immunity from a State&#8217;s enforcement jurisdiction. Indeed, the latter may give rise to even greater sensitivities in view of the fact that the power of the forum state may be enlisted to seize assets of the defendant state.&#8221;</p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">More specifically, and building on the recognition that considerations of international law and comity are at play in the interpretation of the SIA, Libya relies on the 1972 European Convention on State immunity (&#8220;the ECSI&#8221;), and in particular Article 23, which provides:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;No measure of execution or preventive measures against the property of a Contracting State may be taken in the territory of another Contracting State except where and to the extent that the State has expressly consented thereto in writing in any particular case.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya stresses that one of the main reasons the SIA was enacted was to enable the UK to ratify the ECSI and, further, that there is a common law presumption that domestic implementing legislation gives effect to the UK&#8217;s international obligations fully and conscientiously: see <span style="font-style:italic">Assange v Swedish Prosecution Authority (Nos 1 and 2) </span>[2012] 2 AC 471, [2012] UKSC 22 per Lord Phillips PSC at [201].  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Given that immunity from enforcement gives rise to &#8220;even greater sensitivities&#8221;, and given that the ECSI required express consent to waive that immunity, Libya contends that section 13(3) should therefore be interpreted as also requiring express consent. This, Libya argues, was consistent with the second principle, pre-existing at the time of the SIA and therefore assumed to have been intended by Parliament to apply, that clear express words must be used in order to rebut the presumption that neither party to a contract intended to give up valuable rights or remedies: see <span style="font-style:italic">Gilbert Ash </span>per Lord Diplock at 717 and <span style="font-style:italic">Triple Point </span>per Lord Leggatt JSC at [108]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgment, however, there is no justification for putting any gloss on the words of section 13(3). The sub-section requires the written consent of the state concerned, such consent being &#8220;expressed so as to apply to a limited extent or generally&#8221; by the words used. The task of the court is therefore to determine whether and to what extent the state gave (that is, expressed) its consent by construing the words used according to the law applicable to that exercise, in the present case, Swiss law. Once the court has determined that the state&#8217;s consent for the giving of the relief in question was expressed by the written words, section 13(3) is satisfied. As it is common ground that there is no need to use the word &#8220;consent&#8221; or any other specific wording, it is unclear what would be required, beyond that the words used express consent, for that consent to be regarded as &#8220;express&#8221;. Further, given that words will not be construed as giving consent if they express an intention which is unclear or equivocal, there appears to be no scope for an additional requirement for &#8220;clear words&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A similar argument was advanced in <span style="font-style:italic">Infrastructure Services Luxembourg S.A.R.L and another v Spain </span>and <span style="font-style:italic">Border Timbers and another v Zimbabwe</span> [2024] EWCA Civ 1257 in relation to submission by a state to the adjudicative jurisdiction of the United Kingdom by &#8220;prior written agreement&#8221; pursuant to section 2(2) of the SIA. Spain and Zimbabwe relied on Lord Goff of Chieveley&#8217;s speech in <span style="font-style:italic">R v Bow Street Metropolitan Stipendiary Magistrate; Ex parte Pinochet Ugarte (No 3) </span>[1999] UKHL 17, [2000] 1 AC 147 at 216H to 217D for the proposition that a waiver of immunity in international agreements must be express, arguing that the provision in question in those cases (article 54 of the ICSID Convention<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span> </span>The 1965 Convention on the Settlement of Investment Disputes between States and Nationals of Other States. <span> </span></p>
+		</authorialNote>) did not contain an express waiver by them, referring to neither submission nor waiver. This Court rejected the argument that article 54 did not amount to a submission by prior written agreement, being a mutual agreement between the Contracting States that each would recognise ICSID awards (including, necessarily, those against other States). At [89] I quoted from the judgment of the High Court of Australia in <span style="font-style:italic">Spain v Infrastructure Services Luxembourg S.A.R.L and another </span>[2023] HCA 11, considering the very same argument between certain of the same parties, in relation to the similarly worded provision in the Foreign States Immunities Act 1985:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;23.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">There is some ambiguity about what these numerous statements mean by their insistence that a waiver of immunity in a treaty be "express". Part of the difficulty is a lack of clarity in legal discourse generally about what is meant by "express" meaning. Properly understood, express meaning can include implications, which constitute the unexpressed content of a statement or term and which are identified by inference.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>24.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">An express term of an agreement involves words that are "openly uttered" either orally or in writing. The meaning of an express term is derived primarily from the content of the words expressed. It contrasts with an implied term, the meaning of which is derived primarily by inference from the conduct of the parties to the agreement and the circumstances in light of the express terms. There can sometimes be difficulty in distinguishing between the two types of terms, because often the imprecision of language means that inferences are required to understand an express term. Even the words of the most carefully drafted international instrument are built upon a foundation of presuppositions and necessary implicatures and explicatures. The international authorities that insist upon express waiver of immunity in a treaty should not be understood as denying the ordinary and natural role of implications in elucidating the meaning of the express words of the treaty.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>25.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">The insistence that the waiver be "express" should be understood as requiring only that the expression of waiver be derived from the express words of the international agreement, whether as an express term or as a term implied for reasons including necessity. For instance, Lord Goff's statement in <span style="font-style:italic">Pinochet [No 3]</span> that consent must be "express" was based on his acceptance of the submissions of Dr Collins, including that "[a] term can only be [recognised as] implied [in] a treaty for necessity, not to give the treaty maximum effect"&#8230; </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>26.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in">In this sense, the insistence by international authority that a waiver of immunity in an international agreement must be "express" is an insistence that any inference of a waiver of immunity must be drawn with great care when interpreting the express words of that agreement in context. It does not deny that implications are almost invariably contained in any (expressed) words of a treaty. As senior counsel for Spain rightly put the point in oral submissions: "[T]here must be implications that surround every textual passage. The question is: what are those implications, and what level of clarity about the implication is required?" Accordingly, if an international agreement does not expressly use the word "waiver", the inference that an express term involves a waiver of immunity will only be drawn if the implication is clear from the words used and the context. In words quoted by Lord Goff in <span style="font-style:italic">Pinochet [No 3]</span> from the International Law Commission's commentary upon (what were then) the draft articles on jurisdictional immunities of States and their property, there is "no room" to recognise an implication of "consent of an unwilling state which has not expressed its consent in a clear and recognisable manner". And as Rehnquist CJ said, delivering the opinion of the Supreme Court of the <span style="font-style:italic">United States in Argentine Republic v Amerada Hess Shipping Corp</span>, a foreign State will not waive its immunity merely "by signing an international agreement that contains no mention of a waiver of immunity to suit in United States courts or even the availability of a cause of action in the United States". This reflects the "political principle that those who are independent and autonomous cannot, except by consent, exercise authority over, or establish an external source of authority over, others of independent and autonomous status".&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [92] I expressed the view, with which Sir Julian Flaux C and Newey LJ agreed, that the High Court of Australia&#8217;s elucidation of what &#8220;express&#8221; agreement means is entirely consistent with the English law distinction between an express agreement and one which is merely implied. Following that approach, I went on to say that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in"> &#8220;If the express words used amount, on their proper construction, to an unequivocal agreement by the state to submit to the jurisdiction, that is sufficient to satisfy section 2(2) of the SIA, even if the words &#8220;submit&#8221; and &#8220;waiver&#8221; are not used.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The same analysis is applicable in relation to section 13(3) of the SIA. It follows that I see nothing in the purpose or context of the SIA, nor in the ECSI, that requires section 13(3) to be read as imposing any obligation other than to construe the written words used to determine whether the state gave (or expressed) the consent in question.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Under this ground of appeal, Libya also criticised the Judge for taking as his starting point that the Contract was a commercial agreement, rather than starting from the point of view that it was an agreement with a state which has <span style="font-style:italic">prima facie</span> immunity from execution which must be displaced. The immediate answer is that that is a criticism of the Judge&#8217;s approach to construction of the Contract rather than his interpretation of section 13(3) of the SIA. But in any event, it is clear that the Judge was addressing the question of whether Libya, a state with <span style="font-style:italic">prima facie</span> immunity, had waived that immunity by agreement, noting that the agreement was commercial from first to last. That approach is entirely unobjectionable and was approved by this court in <span style="font-style:italic">Sabah</span>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I therefore see no merit in ground 1, even as re-framed. </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="text-decoration-line:underline;text-decoration-style:solid">(ii)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The proper construction of clause 32 of the Contract</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya&#8217;s second ground of appeal is that the Judge erred in holding that, as a matter of construction of clause 32 of the Contract, Libya had provided written consent for the purposes of section 13(3) of the SIA. Libya argues this ground both in the light of and independently of ground 1. Libya&#8217;s over-arching argument is that an agreement that an award is &#8220;wholly enforceable&#8221; is insufficient on its own to amount to a state&#8217;s consent to execution against its property. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya&#8217;s starting point, recognised by the Judge as &#8220;a key consideration&#8221;, is the clear distinction between adjudicative immunity and immunity against execution. It is well established that a state can submit to the jurisdiction of another state to determine issues of liability and enter judgment (including recognising an arbitration award and giving it the status of a judgment), but without consenting to execution of such judgment or award against the state&#8217;s property: that is precisely the effect of article 54 and 55 of the ICSID Convention (as interpreted in <span style="font-style:italic">Infrastructure</span>), given effect in this jurisdiction by the Arbitration (International Investments Disputes) Act 1966, recognising that the Contracting States are willing to submit to the jurisdiction of other Contracting States, but not to execution against their property.  This reflects the &#8220;greater sensitivities&#8221; surrounding execution against a state&#8217;s property, as recognised by Lord Lloyd-Jones in the Supreme Court in these proceedings. The distinction was also emphasised in <span style="font-style:italic">Svenska Petroleum Exploration v Lithuania </span>[2007] QB 886, [2006] EWCA Civ 1529, where the court (Sir Anthony Clarke MR, Scott Baker and Moore-Bick LJJ) stated at [117] as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;The [SIA] itself draws a distinction between proceedings which relate to the arbitration (section 9) and process in respect of property for the enforcement of an award (section 13). In our view an application under section 101(2) of the Arbitration Act 1996 for leave to enforce an award as a judgment is, as subsection (1) recognises, one aspect of its recognition and as such is the final state in rendering the arbitral procedure effective. Enforcement by execution on property belonging to the state is another matter.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for what is required to waive both forms of immunity, Libya relied on a passage from the judgment of Steyn J in <span style="font-style:italic">Arab Banking Corporation v International Tin Council </span>[1986] 77 In LR 1. The case concerned waiver of immunity under the International Organisations Act 1968, not under the SIA, but Steyn J addressed waiver from execution more generally at pp6-7 as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8220;Immunity from jurisdiction therefore only refers to the adjudicative process. If it had been intended in Clause 8 of the facility letter to stipulate for a waiver in respect of both immunity from suit and immunity from execution, one would expect more explicit wording than a mere submission to jurisdiction. This is why one commonly finds in international loan agreements to which a State is party express waivers of both immunity from suit and immunity from execution.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In that context, Libya contends that the phrase &#8220;wholly enforceable&#8221; is referable to a waiver of adjudicative immunity (or submission to the jurisdiction for the purposes of section 2 of the SIA), but cannot be read as performing the additional task of waiving execution immunity (or consent to enforcement for the purposes of section 13(3)). Libya emphasises that standard form (or &#8220;boilerplate&#8221;) waivers of state immunity, catering for both adjudicative and execution waiver, are far more extensive and deal separately and expressly with each form of immunity and its waiver, making reference to assets and/or property in relation to the waiver of execution immunity. Further, there is no example in the cases of a single reference to enforceability being construed as waiving both forms of immunity: as set out at [13] above, the term construed commercially as a waiver of execution immunity in <span style="font-style:italic">A Co. Ltd v Republic of X</span> referred to waiving immunity &#8220;for itself or its property&#8221;, clearly identifying both types of waiver.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If clause 32 fell to be construed on its own, there would be considerable force in Libya&#8217;s argument. The Judge rejected Libya&#8217;s contention that &#8220;wholly enforceable&#8221; was a waiver of adjudicative immunity, holding that that was achieved by the words &#8220;final and binding upon the parties&#8221; in the third sentence of clause 32 and also by virtue of section 9 of the SIA, the parties having agreed to submit their disputes to arbitration. The Judge concluded that the phrase &#8220;wholly enforceable&#8221; must apply to something else, which justified his conclusion that it was a waiver of execution immunity. I do not agree with that analysis for the following reasons:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">The phrase &#8220;final and binding&#8221; is commonplace wording to indicate that an award is not merely advisory, interim or provisional, but conclusively determines the issues between the parties (subject to challenge, review or appeal under the relevant rules). It does not indicate waiver of adjudicative immunity, and I did not understand GDUK to suggest that it did.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in">Many states (and all Contracting States who are parties to the New York Convention) regard submission to arbitration as submission to the adjudicative jurisdiction in respect of that arbitration, as enacted in the UK by section 9 of the SIA. But that does not render otiose a contractual submission to the adjudicative jurisdiction, not least in relation to states which do not have an equivalent of section 9, and it does not justify reading such a waiver of adjudicative immunity as being, instead, a waiver of execution immunity.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It follows that, if the case as to consent to execution was based solely on the words &#8220;final, binding and wholly enforceable&#8221;, I would have been inclined to the view that they were insufficient for that purpose, notwithstanding that the word &#8220;wholly&#8221; supports the wider reading for which GDUK contends. But clause 32 also provides that disputes will be settled under the ICC Rules of Arbitration, including article 28(2) of the 1998 Rules set out in [7] above. The predecessor of that rule (article 24(2) of the 1988 Rules) was held to constitute a waiver of immunity from execution in France in <span style="font-style:italic">Creighton Ltd v Qatar,</span><span style="font-weight:bold"> </span>Cour de Cassation 6 July 2000 and a similar finding was made in relation to article 28(2) of the 1998 rules in <span style="font-style:italic">Walker International Holdings Ltd v The Republic of Congo, </span>United States Court of Appeals (5<span style="vertical-align:super;font-size:smaller">th</span> Circuit), 22 December 2004, Circuit Judge Garza stating at pp6-7:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;<span style="font-style:italic">In addition, the ROC agreed to abide by the Rules of the ICC which precludes the ROC from asserting a sovereign immunity defense. Rule 28(6) states &#8230; </span>[he then recites it]<span style="font-style:italic">. Therefore we hold that the ROC explicitly waived its sovereign immunity. Accordingly we need not address a potential implicit waiver.</span>&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Orascom Telecom Holding SAE v Chad </span>[2009] 1 All ER (Comm) 315, [2008] EWHC 1841 Burton J considered the above French and US authorities, but at [49] was &#8220;reluctant to conclude that, without more, interpretation by the French and/or US courts of the effect of Article 28(6) (or the old 24(2)) in a situation where there is no statutory framework such as the 1978 Act, should be imported into this jurisdiction&#8230;&#8221;.  As a result Burton J did not decide the issue, and GDUK, although referring to the ICC Rules and authorities, did not invite us to do so on this appeal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nevertheless, Libya agreed to rules by which it undertook &#8220;to carry out any award without delay&#8221;, which has been interpreted in at least two major jurisdictions as amounting to a waiver of execution immunity. Construed in that context, Libya&#8217;s agreement in clause 32 that an award would be &#8220;wholly enforceable&#8221; can readily be seen to encompass any and all waivers necessary for the Award to be carried out, that is to say, not only enforced but also executed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Libya also criticises the Judge for recording that the parties had agreed the relevant principles of Swiss law, notwithstanding that Libya had reserved its position in certain respects and had adduced a decision<authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText"><span> </span><span style="font-style:italic">Moscow Centre </span><span style="font-style:italic">for Automated Air Traffic Control v Court for Debt Enforcement and General Insolvency</span><span style="font-style:italic"> </span>(reference 7B.2/2007)</p>
+		</authorialNote> of the Swiss Supreme Court (Second Civil Law Division) on state immunity, to which the Judge did not refer in his judgment. However, the Judge did explain that substantive Swiss law as to what was required to waive immunity in Switzerland was not relevant, and I agree. The question at issue is whether immunity was waived in this jurisdiction, which is not a matter of Swiss law and not addressed in the authority cited. But in any event, the proposition for which Libya relied on the authority was that waivers need to be &#8220;express&#8221; and &#8220;sufficiently clear and explicit&#8221;. For the reasons set out above, such formulations add nothing to the exercise of construction required by section 13(3) of the SIA. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span> </span><span style="font-weight:bold">Conclusion</span></heading>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I would dismiss the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-weight:bold">Lord Justice Zacaroli</span></heading>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">I agree that this appeal should be dismissed, and I agree with Phillips LJ&#8217;s reasons for doing so, save only that I am content to rest the conclusion that Libya has given its written consent to the enforcement of the arbitration award, within the meaning of s.13(3) of the SIA, on the express agreement in clause 32 that the award is &#8220;wholly enforceable&#8221;. The only alternative meaning suggested for those words is that Libya consented to the whole of the award being recognised. Where, as that argument implies, the parties must be taken to appreciate the distinction between recognition of an award and its enforcement, the fact that they have not separately addressed those two concepts, but have instead referred simply to the award being &#8220;wholly&#8221; enforceable, suggests to me the plain conclusion that they consented to the whole process of enforcement of the award, including its recognition in any jurisdiction where it is sought to be enforced. The fact that, as Phillips LJ points out, the parties have agreed (by agreeing that disputes will be settled under the ICC Arbitration Rules) to carry out any award without delay, serves to reinforce that conclusion.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaHeading"><span style="font-weight:bold">Lord Justice Lewison</span></heading>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree with Phillips and Zacaroli LJJ that the appeal should be dismissed. I agree with Phillips LJ on ground 1; but my reasoning on ground 2 is closer to that of Zacaroli LJ. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Section 13 of the State Immunity Act 1978 relevantly provides:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to subsections (3) and (4) below&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">relief shall not be given against a State by way of injunction or order for specific performance or for the recovery of land or other property; and</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">the property of a State shall not be subject to any process for the enforcement of a judgment or arbitration award or, in an action in rem, for its arrest, detention or sale.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsections (2) and (2A) above do not prevent the giving of any relief or the issue of any process with the written consent of the State concerned; and any such consent (which may be contained in a prior agreement) may be expressed so as to apply to a limited extent or generally; but a provision merely submitting to the jurisdiction of the courts is not to be regarded as a consent for the purposes of this subsection.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The question on this appeal is whether Libya has given written consent to the issue of any process for the enforcement of an arbitration award.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The relevant clause which is said to amount to written consent is clause 32 of the contract, which relevantly provides:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230;All disputes in which mutual agreement cannot be reached arising out of or in connection with the present Contract shall be finally settled under the Rules of Arbitration of the International Chamber of Commerce by one (1) or three (3) arbitrators. The award will be final and binding upon the parties. The seat or legal place of arbitration shall be Geneva, Switzerland. The language to be used in the arbitral proceedings shall be English. The arbitrators shall have no authority to award aggravated or punitive damages and shall be bound by any limits on the purchaser's and seller's liability as set out in this Contract. &#8230;Both parties agree that the decision of the arbitration panel shall be final, binding and wholly enforceable.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Although written in English, the contract is governed by Swiss law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As Lord Diplock explained in <span style="font-style:italic">Alcom Ltd v Republic of Columbia</span> [1984] AC 580, 600:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The State Immunity Act 1978, whose long title states as its first purpose to make new provision with respect to proceedings in the United Kingdom by or against other states, purports in Part I to deal comprehensively with the jurisdiction of courts of law in the United Kingdom both (1) to adjudicate upon claims against foreign states (&#8220;adjudicative jurisdiction&#8221;); and (2) to enforce by legal process (&#8220;enforcement jurisdiction&#8221;) judgments pronounced and orders made in the exercise of their adjudicative jurisdiction. But, although comprehensive, the Act in its approach to these two aspects of the jurisdiction exercised by courts of law does not adopt the straightforward dichotomy between <span style="font-style:italic">acta jure imperii</span> and <span style="font-style:italic">acta jure gestionis</span> that had become familiar doctrine in public international law, except that it comes close to doing so in section 14(2) in relation to the immunity conferred upon &#8220;separate entities that are emanations of the state&#8221;. Instead, as respects foreign states themselves the Act starts by restating in statutory form in section 1(1) the general principle of absolute sovereign immunity, but makes the principle subject to wide-ranging exceptions for which the subsequent sections in Part I of the Act (sections 2 to 17) provide.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Thus Lord Diplock differentiated between adjudicative jurisdiction on the one hand and enforcement jurisdiction on the other. Lord Lloyd-Jones drew a similar distinction in <span style="font-style:italic">General Dynamics United Kingdom Ltd v State of Libya</span> [2021] UKSC 22, [2022] AC 318 at [30]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The long title of the SIA states that it makes new provision with respect to proceedings in the United Kingdom by or against other states. Part I is entitled &#8220;Proceedings in United Kingdom by or against other states&#8221;. Section 1(1) confers on a state a general immunity from the jurisdiction of the courts of the United Kingdom except as provided in the following provisions of Part I. That immunity extends to both the adjudicative and enforcement jurisdiction of the courts. Sections 2 to 11 set out exceptions to the immunity from adjudicative jurisdiction, including in section 9 an exception in the case of certain proceedings which relate to arbitrations. Sections 13(2) to (6) and 14(3) and (4) address and establish exceptions to the immunity from enforcement jurisdiction.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">&#8220;Enforcement&#8221; is, of course, the word that the statute itself uses in section 13(2)(b).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The requirement of section 13(3) is that the state in question has given &#8220;written consent&#8221;. I accept that the consent must be express consent. But if, properly interpreted in accordance with its governing law, a written contract does give consent, then in my judgment the sub-section is satisfied. The contract, as properly interpreted, will amount to an express consent. Mr Lissack KC submitted that &#8220;clear words&#8221; are necessary before a state can be said to have given consent. That submission was based on principles applicable to the interpretation of contracts under English law. There is no evidence that a similar principle applies in Swiss law. Section 13(3) does not impose any higher standard.  One consequence of Mr Lissack&#8217;s submission (as he acknowledged) was that a contract which, according to Swiss law, amounted to an express consent, might not amount to written consent for the purpose of section 13(3). That would, in my view, be an incoherent result. I reject that submission. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clause 32 of the contract is an arbitration agreement. Section 9 of the 1978 Act provides:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Where a State has agreed in writing to submit a dispute which has arisen, or may arise, to arbitration, the State is not immune as respects proceedings in the courts of the United Kingdom which relate to the arbitration.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Clearly, therefore, as is common ground, Libya is not immune from the adjudicative jurisdiction of the courts of the United Kingdom which relate to the arbitration.  That result is achieved by the mere fact of submission of the dispute to arbitration. For good measure, however, clause 32 goes on to provide that &#8220;the award will be final and binding upon the parties&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is the final sentence of clause 32 on which this appeal turns. That states that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Both parties agree that the decision of the arbitration panel shall be final, binding and wholly enforceable.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I consider that a straightforward reading of that sentence is that the parties have agreed that the award may be enforced. In other words they have not only consented to the court&#8217;s adjudicative jurisdiction but also to its enforcement jurisdiction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I find it very difficult to understand what else that sentence could mean. Before the judge, Libya contended that&#160;the final sentence of clause 32 meant simply that any award is wholly enforceable to the extent permitted by the law of the jurisdiction in which it is being enforced and thus in England enforcement was subject to the immunity from enforcement set out in&#160;section 13(2)(b).&#160;That argument overlooked the fact that English law permits enforcement of a judgment against a state if the state has consented in writing. I also agree with the judge that the first part of clause 32, by which the parties agreed that the award would be final and binding itself achieves the result for which Libya contended.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Before us, Mr Lissack suggested a different interpretation. He submitted that what the clause meant was that the whole of the award (as opposed to part of it) would be recognised as such by courts and tribunals around the world as <span style="font-style:italic">res judicata</span> between the parties. It did not permit GDUK to take steps in execution against specific assets. This suffers from the same defect as the interpretation advanced before the judge. The result for which Libya contends is already achieved by the parties&#8217; agreement that &#8220;the award will be final and binding upon the parties&#8221;. That can only mean the whole award as opposed to only part of it. In addition, as Mr Smouha KC pointed out, the effect of the suggested interpretation is that the final sentence of clause 32 achieves nothing at all. The idea that the parties wished to guard against the possibility that only part of the award might be recognised as <span style="font-style:italic">res judicata</span> is, in my view, entirely fanciful.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In addition, the award is a New York Convention award. Article III of the Convention provides that each contracting state must &#8220;recognize arbitration awards as binding and enforce them in accordance with the rules of procedure of the territory where the award is relied on&#8221;. Accordingly, recognition of the award was already achieved without the need of the final sentence of clause 32. The distinction between recognition and enforcement is also reflected in section 101 of the Arbitration Act 1996.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the judge arrived at the right answer for the right reasons. I would dismiss the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
