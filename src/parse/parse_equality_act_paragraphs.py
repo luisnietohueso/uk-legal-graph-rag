@@ -28,50 +28,42 @@ def clean_text(text):
 
 def parse_to_paragraph_chunks(root):
     ns = get_namespace(root)
-    parts_data = []
+    chunks = []
 
     print("🔎 Parsing XML using <P1group>, <P1>, <P2>...")
 
-    # Loop through all P1group elements (treated like sections)
     for group in root.findall(".//leg:P1group", ns):
         group_id = group.get("id", "unknown")
 
-        # Try to find the parent Part/Chapter/Title from the ancestors
-        parent = group.find("./..")
-        part_heading = ""
-        chapter_heading = ""
-
-        # Pull all P1 paragraphs
         for p1 in group.findall("leg:P1", ns):
-            p1_text = clean_text(extract_all_text(p1))
-            if p1_text:
-                parts_data.append({
+            label = p1.findtext("leg:Label", default="", namespaces=ns)
+            text = clean_text(extract_all_text(p1))
+            if text:
+                chunks.append({
                     "Group ID": group_id,
                     "Level": "P1",
-                    "Label": "",  # Add label detection if needed
-                    "Text": p1_text
+                    "Label": label,
+                    "Text": text
                 })
 
-        # Pull all nested P2 paragraphs
         for p2 in group.findall("leg:P2", ns):
-            p2_text = clean_text(extract_all_text(p2))
-            if p2_text:
-                parts_data.append({
+            label = p2.findtext("leg:Label", default="", namespaces=ns)
+            text = clean_text(extract_all_text(p2))
+            if text:
+                chunks.append({
                     "Group ID": group_id,
                     "Level": "P2",
-                    "Label": "",  # Add label detection if needed
-                    "Text": p2_text
+                    "Label": label,
+                    "Text": text
                 })
 
-    print(f"✅ Extracted {len(parts_data)} paragraphs")
-    return parts_data
-
-
+    print(f"✅ Extracted {len(chunks)} paragraphs")
+    return chunks
 
 def save_to_json(data, filename):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-        
+
 def save_to_csv(data, filename):
     if not data:
         print("⚠️ No data to save in CSV.")
@@ -82,17 +74,14 @@ def save_to_csv(data, filename):
         writer.writeheader()
         writer.writerows(data)
 
-
 def save_to_html(data, filename):
     html = "<html><body>"
     for item in data:
         html += f"<h3>Group ID: {item['Group ID']}</h3>"
-        html += f"<p><b>{item['Level']}</b> {item['Text']}</p>"
+        html += f"<p><b>{item['Level']}</b> ({item['Label']}) {item['Text']}</p>"
     html += "</body></html>"
-
     with open(filename, "w", encoding="utf-8") as f:
         f.write(html)
-
 
 if __name__ == "__main__":
     xml_path = "data/equality_act_body.xml"

@@ -1,17 +1,19 @@
-# Python
+# virtual env
+venv/
+
+# env vars
+.env
+
+# cache
 __pycache__/
 *.pyc
 
-# Virtual Environment
-venv/
+# data files
+*.json
+*.csv
+*.idx
+*.xml
 
-# VS Code
+# IDE junk
 .vscode/
-
-# Data
-data/*.csv
-data/*.json
-data/*.xml
-
-# Notebooks
-*.ipynb_checkpoints/
+.idea/
