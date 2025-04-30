@@ -1,0 +1,1975 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/200"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/200"/>
+	  <FRBRdate date="2025-03-04" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="200"/>
+	  <FRBRname value="TZA, R (on the application of) v A Secondary School"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/200"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/200"/>
+	  <FRBRdate date="2025-03-04" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/200/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/200/data.xml"/>
+	  <FRBRdate date="2025-03-04T14:03:58" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="tza" href="" showAs="TZA"/>
+	<TLCPerson eId="a-secondary-school" href="" showAs="A SECONDARY SCHOOL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-justice-underhill" href="/judge-lord-justice-underhill" showAs="LORD JUSTICE UNDERHILL"/>
+	<TLCPerson eId="judge-lord-justice-warby" href="/judge-lord-justice-warby" showAs="LORD JUSTICE WARBY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>200</uk:number>
+	<uk:cite>[2025] EWCA Civ 200</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>e1cfde0e1f55067cdcf1a25410dce82bb3f7967b39cc759f3605d1ba2ec508ff</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .paralevel10 { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .legp1no { }
+#judgment .legchangedelimiter { }
+#judgment .legaddition { }
+#judgment .legds { }
+#judgment .legterm { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .wordhighlighted { }
+#judgment .sb8d990e2 { }
+#judgment .cosearchterm { }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.1pt;height:75.4pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 200</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023-002294</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">KING&#8217;S BENCH DIVISION</p>
+      <p class="CoverMain">ADMINISTRATIVE COURT </p>
+      <p class="CoverMain">Upper Tribunal Judge Church (sitting as a High Court Judge)</p>
+      <p class="CoverMain"><neutralCitation>[2023] EWHC 1722 (Admin)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-04" refersTo="#judgment">04/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-underhill">LORD JUSTICE UNDERHILL</judge></p>
+      <p class="CoverMain" style="text-align:center">(Vice-President of the Court of Appeal (Civil Division))</p>
+      <p class="CoverMain" style="text-align:center">LADY JUSTICE KING<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-warby">LORD JUSTICE WARBY</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#tza" as="#appellant" style="font-weight:bold">THE KING (on the application of TZA)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Claimant/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#a-secondary-school" as="#respondent" style="font-weight:bold">A SECONDARY SCHOOL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain"><role refersTo="#respondent">Defendant/Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Stephanie Harrison KC, Ollie Persey</span> and <span style="font-weight:bold">Nadia O&#8217;Mara </span>(instructed by <span style="font-weight:bold">Coram Children&#8217;s Legal Centre</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Tom Cross </span>(instructed by<span style="font-weight:bold"> Russell Cooke LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 9 October 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc" style="margin-right:-0.16in;text-indent:-0.1in">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 4 March 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lord Justice Underhill :</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">INTRODUCTION</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal against a decision of Upper Tribunal Judge Church, sitting as a High Court Judge, dismissing a claim for judicial review arising out of the permanent exclusion of a 15-year old boy from his secondary school.  The child was of black Caribbean heritage and had special educational needs (&#8220;SEN&#8221;).  The claim is brought by his mother.  An anonymity order was made in the High Court in order to protect the identity of the child, and when Newey LJ gave permission to appeal he made an equivalent order as regards the proceedings in this Court.  Accordingly, the mother has been anonymised as &#8220;TZA&#8221; (though in this judgment I will call her &#8220;the Claimant&#8221;), the son as &#8220;TZB&#8221; and the Defendant as &#8220;the School&#8221;.  The Claimant has been represented before us by Ms Stephanie Harrison KC, Mr Ollie Persey and Ms Nadia O&#8217;Mara<span style="font-weight:bold"> </span>and the Defendant by Mr Tom Cross.  All four counsel also appeared before the Judge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The legislative provisions governing school exclusions are to be found in s<span style="font-family:'Times New Roman';color:#000000">ection 51A of the Education Act 2002 and in </span><span style="font-family:'Times New Roman'">the </span><span style="font-family:'Times New Roman';color:#000000">School Discipline (Pupil Exclusions) (England) Regulations 2012, which are made under that section: references below to particular regulations are to the 2012 Regulations.  The process is also the subject of statutory guidance issued by the Secretary of </span>State for Education, to which the relevant decision-makers were required by regulation 27 to have regard<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText" style="text-align:justify;margin-left:0.59in;text-indent:-0.59in"><span> </span><marker name="tab"/><span style="font-size:11pt">I say &#8220;were&#8221; because the</span><span style="font-size:11pt"> Regulations have been amended</span><span style="font-size:11pt">: </span><span style="font-size:11pt">the</span><span style="font-size:11pt"> relevant provision </span><span style="font-size:11pt">is now to be found in regulation 9.  </span></p>
+		</authorialNote>.  The guidance in force at the time of TZB&#8217;s exclusion was <span style="font-style:italic">Exclusion from maintained schools, academies and pupil referral units in England</span>, issued in September 2017 (&#8220;the Guidance&#8221;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The formal steps in TZB&#8217;s exclusion can be summarised for introductory purposes as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic">The exclusion decision.  </span>By letter dated 13 May 2021 (&#8220;the exclusion letter&#8221;) the Headteacher of the School notified the Claimant of her decision to exclude TZB permanently with immediate effect as a result of his involvement in two separate assaults on fellow students committed on 6 May<span style="font-family:'Times New Roman';color:#000000">.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic">The first GDC decision.  </span><span style="font-family:'Times New Roman';color:#000000">The effect of regulations 23-24 is that in the case of a permanent exclusion </span>the governors are required to consider whether the pupil should be reinstated.  At a meeting on 8 June 2021 the Disciplinary Committee of the Governors of the School (&#8220;the&#160;GDC&#8221;) decided that TZB should not be reinstated.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(3)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic">The independent review.  </span>Regulation 25 provides for the establishment of an independent review panel established by the local authority (&#8220;an IRP&#8221;), which may <span style="text-decoration-line:underline;text-decoration-style:solid">either</span> uphold a decision by the governors not to reinstate a permanently excluded pupil <span style="text-decoration-line:underline;text-decoration-style:solid">or</span> recommend that they reconsider it <span style="text-decoration-line:underline;text-decoration-style:solid">or</span> quash it and direct a reconsideration.  The Claimant applied for the GDC&#8217;s decision to be reviewed, and an IRP held a hearing <span style="color:#000000">over two days in January and March 2022.  By a decision dated 23 March it declined to quash the GDC&#8217;s decision but identified some concerns about its reasoning and recommended a reconsideration.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(4)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;color:#000000">The GDC&#8217;s reconsideration</span><span style="color:#000000">.  The </span>GDC <span style="color:#000000">reconvened on 11 July 2022 in order </span>to reconsider TZB&#8217;s exclusion in accordance with the IRP&#8217;s recommendation.  <span style="color:#000000">It decided to confirm its original decision.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in">The challenge in these proceedings is only to the GDC&#8217;s reconsideration decision, but the earlier stages in the process are evidently highly material.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In her claim form the Claimant challenged the lawfulness of the reconsideration decision on two grounds, which I can sufficiently summarise for present purposes as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(A)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic">Breach of the Public Sector Equality Duty</span>.  She<span style="color:#000000"> contended that the original exclusion decision was unlawful because the Headteacher had failed to comply with the public sector equality duty prescribed by section 149 (1) of the Equality Act 2010 (&#8220;the PSED&#8221;); and that the GDC&#8217;s reconsideration decision was wrong in failing to find such a failure and to reinstate the Claimant accordingly.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(B)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.89in"><span style="font-style:italic;color:#000000">Inadequate reasons.  </span><span style="color:#000000">The Claimant contended that the reconsideration decision was inadequately reasoned in that it did not properly address the matters of concern raised by the IRP.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The primary relief sought by the Claimant was the quashing of the exclusion decision.  She did not seek an order that TZB be reinstated, since he did not wish to return to the School; but she said that it was prejudicial to him to have a permanent exclusion on his record and it affected the way that he felt about himself.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge dismissed both grounds.  I will consider the Claimant&#8217;s challenges to his decision by reference to the two grounds separately.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_1">
+	    <num style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">(A)</num>
+	    <content>
+	      <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">THE PUBLIC SECTOR EQUALITY DUTY GROUND </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">THE STATUTE</span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The PSED is enacted by Part 11 of the 2010 Act (&#8220;Advancement of equality&#8221;).  So far as material for our purposes, section 149 reads:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">A public authority must, in the exercise of its functions, have due regard to the need to &#8211;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">eliminate discrimination, harassment, victimisation and any other conduct that is prohibited by or under this Act;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">foster good relations between persons who share a relevant protected characteristic and persons who do not share it.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#1E1E1E;background-color:#FFFFFF">A person who is not a public authority but who exercises public functions must, in the exercise of those functions, have due regard to the matters mentioned in subsection (1).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Having due regard to the need to advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it involves having due regard, in particular, to the need to &#8211;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">remove or minimise disadvantages suffered by persons who share a relevant protected characteristic that are connected to that characteristic;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">take steps to meet the needs of persons who share a relevant protected characteristic that are different from the needs of persons who do not share it;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">encourage persons who share a relevant protected characteristic to participate in public life or in any other activity in which participation by such persons is disproportionately low.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">The steps involved in meeting the needs of disabled persons that are different from the needs of persons who are not disabled include, in particular, steps to take account of disabled persons&#8217; disabilities.</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in"><span style="color:#000000">(5)-(6)  &#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(7)</num>
+		    <intro>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">The relevant protected characteristics are &#8211;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">&#8230;;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">disability;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">&#8230;;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">race;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in;margin-right:0.55in"><span style="color:#000000">&#8230;.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I will refer to the three &#8220;needs&#8221; identified at (a)-(c) under subsection (1) as &#8220;the specified considerations&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is common ground in these proceedings that both the Headteacher in exercising the power to exclude TZB and the GDC in deciding whether to reinstate him were subject to the duty in subsection (1).  In the case of the GDC, that is because the Governors are a public authority, and in the case of the Headteacher because in deciding to exclude TZB she was exercising a public function and accordingly falls within subsection (2).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Since we are in this case concerned with a decision affecting an individual pupil it is important to emphasise that we are not concerned with an allegation that that decision involved discrimination against TZB on the grounds of his race or any other protected characteristic.  The exclusion of a pupil on such a ground is unlawful by virtue of section 85 (2) (e) of the Act, which falls under Part 6 (&#8220;Education&#8221;), and could be challenged by proceedings in the County Court.  No such proceedings been brought by TZB.  The purpose of Part 11 is not to reproduce the obligations to individuals arising under the earlier Parts of the Act but to require public sector decision-makers to have regard to the specified considerations in their decision-making.  Though in principle it applies to all decisions, the natural focus of section 149 is on policy or other decisions of general application.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">THE GUIDANCE</span></heading>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I set out in the following paragraphs the parts of the Guidance relating to the PSED and to some other general matters.  In considering any such extracts it is important to bear in mind the drafting convention, explained in the glossary to the Guidance, that the word &#8220;must&#8221; is used to connote a legal obligation, whereas the word &#8220;should&#8221; connotes good practice.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Section 2</span></heading>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Section 2 of the Guidance contains a number of bulleted &#8220;Key points&#8221;.  I need only set out the following:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;&#8226;<marker name="tab"/>Good discipline in schools is essential to ensure that all pupils can benefit from the opportunities provided by education. The Government supports head teachers in using exclusion as a sanction where it is warranted. However, <span style="font-style:italic">permanent exclusion should only be used as a last resort, in response to a serious breach or persistent breaches of the school&#8217;s behaviour policy; and where allowing the pupil to remain in school would seriously harm the education or welfare of the pupil or others in the school</span> [emphasis supplied].</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="margin-left:0.98in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.12in">The decision to exclude a pupil must be lawful, reasonable and fair. Schools have a statutory duty not to discriminate against pupils on the basis of protected characteristics, such as disability or race. Schools should give particular consideration to the fair treatment of pupils from groups who are vulnerable to exclusion.  </p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8226; <marker name="tab"/>Disruptive behaviour can be an indication of unmet needs. Where a school has concerns about a pupil&#8217;s behaviour, it should try to identify whether there are any causal factors and intervene early in order to reduce the need for a subsequent exclusion. In this situation, schools should consider whether a multi-agency assessment that goes beyond the pupil&#8217;s educational needs is required.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Those bullets summarise points made more fully in the following sections.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Section 3</span></heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Section 3 of the Guidance is headed &#8220;The head teacher&#8217;s power to exclude&#8221;.  It divides into various subsidiary parts.  I need to refer to three of them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paras. 1-15 are headed &#8220;A guide to the law&#8221;.  Paras. 9-11 read:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;9.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="font-family:'Times New Roman'">Under the Equality Act 2010 (the Equality Act), schools must not discriminate against, harass or victimise pupils because of: sex; race; disability; religion or belief; sexual orientation; pregnancy/maternity; or gender reassignment. For disabled children, this includes a duty to make reasonable adjustments to policies and practices and the provision of auxiliary aids.  </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>10.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="font-family:'Times New Roman'">In carrying out their functions, the public sector equality duty means schools must also have due regard to the need to: </span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">&#8226; </span><marker name="tab"/><span style="font-family:'Times New Roman'">eliminate discrimination, harassment, victimisation, and other conduct that is prohibited by the Equality Act;  </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">&#8226; </span><marker name="tab"/><span style="font-family:'Times New Roman'">advance equality of opportunity between people who share a protected characteristic and people who do not; and </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in;text-indent:-0.39in"><span style="font-family:'Times New Roman'">&#8226; </span><marker name="tab"/><span style="font-family:'Times New Roman'">foster good relations between people who share a protected characteristic and people who do not share it.  </span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>11.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="font-family:'Times New Roman'">These duties need to be complied with when deciding whether to exclude a pupil. Schools must also ensure that their policies and practices do not discriminate against pupils by unfairly increasing their risk of exclusion. Provisions within the Equality Act allow schools to take positive action to deal with particular disadvantages, needs, or low participation affecting one group, where this can be shown to be a proportionate way of dealing with such issues.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paras. 9 and 10 identify separately the two duties which I have distinguished at para. 9 above: para. 9 refers to the duty of schools not to discriminate in individual exclusion decisions whereas para. 10 refers to the PSED.  The first sentence of para. 11 states that both duties need to be complied with when making a decision whether to exclude a pupil: this is not entirely straightforward, and I return to it at paras. 22-24 below.  The remainder of para. 11 is concerned with the separate question of avoiding or mitigating the risk of exclusion.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Para. 12, which also falls under this part, reads:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The head teacher and governing body must comply with their statutory duties in relation to SEN when administering the exclusion process. This includes having regard to the SEN Code of Practice.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The &#8220;statutory duties in relation to SEN&#8221; referred to in para. 12 do not (at least primarily) derive from the 2010 Act<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">As I understand it, </span><span style="font-size:11pt">the duties in question arise under Part 3 of the Children and Families Act 201</span><span style="font-size:11pt">4, although where the needs in </span><span style="font-size:11pt">question</span><span style="font-size:11pt"> are the result of a disability </span><span style="font-size:11pt">within the meaning of the 2010 Act Part 6 of that Act will also be engaged</span>.  </p>
+		</authorialNote> and we were not referred to the SEN Code of Practice.  But I mention para. 12 because, as we will see, at some points in the decision-making in this case there is a degree of elision between the PSED and the SEN duties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paras. 16-20 are headed &#8220;Statutory guidance on factors that a head teacher should take into account before taking the decision to exclude&#8221;.  I should quote three passages from it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">First, para. 16 reads:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;A decision to exclude a pupil permanently should only be taken: </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in;text-indent:-0.39in">&#8226; <marker name="tab"/>in response to a serious breach or persistent breaches of the school&#8217;s behaviour policy; and  </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in;text-indent:-0.39in">&#8226; <marker name="tab"/>where allowing the pupil to remain in school would seriously harm the education or welfare of the pupil or others in the school.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is commonly referred to as &#8220;the two-fold test&#8221;: as will be seen, it is incorporated in the words which I have italicised in the first of the &#8220;key points&#8221; in section 2 quoted above.  As a shorthand, I will refer to the first part of the test as requiring &#8220;serious misconduct&#8221; and the second as requiring &#8220;serious harm&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Second, para. 19 reads:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;Early intervention to address underlying causes of disruptive behaviour should include an assessment of whether appropriate provision is in place to support any SEN or disability that a pupil may have. The head teacher should also consider the use of a multi-agency assessment for a pupil who demonstrates persistent disruptive behaviour. Such assessments may pick up unidentified special educational needs but the scope of the assessment could go further, for example, by seeking to identify mental health or family problems.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Though this is obviously an important point, its positioning in this part of the Guidance is slightly awkward, since by the time that a headteacher is deciding whether to take a decision to exclude the time for &#8220;early intervention&#8221; will have passed: as to this, see again paras. 22-24 below.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Paras. 21-22 are headed &#8220;Statutory guidance to the head on the exclusion of pupils from groups with disproportionately high rates of exclusion&#8221;.  These read (so far as material):   </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;21.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The exclusion rates for certain groups of pupils are consistently higher than average. This includes: <span style="font-style:italic">pupils with SEN</span>; pupils eligible for free school meals; looked after children; and pupils from certain ethnic groups. The ethnic groups with the highest rates of exclusion are: Gypsy/Roma; Travellers of Irish Heritage; and <span style="font-style:italic">Caribbean pupils</span> [emphasis supplied].</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>22.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">In addition to the approaches on early intervention set out above, the head teacher should consider what extra support might be needed to identify and address the needs of pupils from these groups in order to reduce their risk of exclusion. &#8230;&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">THE RELEVANCE OF THE PSED IN THE PRESENT CASE</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The asserted significance of the PSED in the present case starts from the fact that there is, as appears from para. 21 of the Guidance, clear evidence that exclusion rates are disproportionately high for pupils of Caribbean ethnicity or who have SEN.  The statement in the Guidance was reinforced by evidence adduced by the Claimant in the present case.  The Judge said at para. 62 of his judgment:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The Claimant presented substantial and compelling statistical evidence relating to the over-representation, both nationally and locally, of those with protected characteristics such as TZB&#8217;s among those who are permanently excluded from school. Ms Harrison KC emphasised that issues of intersectionality, or layering of disadvantage, meant that the impact on those who, like TZB, had multiple protected characteristics, was further amplified. She drew my attention to evidence of the severity of the potential impact on a permanently excluded child in the form of a school to prison pipeline&#8217;, with the dire implications that such a path has for the life chances of such a child.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is the Claimant&#8217;s case that that means that opportunities for children with the characteristics in question (to whom I will refer as &#8220;high-risk&#8221;) are impaired compared with other children, and that there is accordingly a need to advance equality of opportunity for them by reducing or eliminating that disproportion, thus engaging section 149 (1) (b)<authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">Of course in principle article 149 (1) </span><span style="font-size:11pt">applies to every decision by a public authority; but what I mean by it being &#8220;engaged&#8221; </span><span style="font-size:11pt">in a particular situation is that </span><span style="font-size:11pt">the </span><span style="font-size:11pt">specified</span><span style="font-size:11pt"> </span><span style="font-size:11pt">considerations may in practice</span><span style="font-size:11pt"> affect the decisions taken.</span></p>
+		  <p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"/>
+		</authorialNote>.  <span style="color:#000000">Ms Harrison also referred to section 149 (1) (c): I am bound to say that I do not see how this consideration is engaged by disproportionate rates of school exclusion, but it is unnecessary to pursue the point.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The relevance of <span style="color:#000000">that case</span> to TZB as it relates to race is obvious because of his Caribbean ethnicity.  It is not quite so straightforward as regards disability because there was no evidence in this case either that the exclusion rate for disabled pupils is disproportionately high or that TZB suffers from a disability within the meaning of the 2010 Act.  But Ms Harrison contended that special educational needs will typically be the result of a mental health condition amounting to a disability, and that the disproportionate exclusion rates for pupils with SEN can be treated as implying a disproportionate rate also for pupils with a disability.  She told us that the case had proceeded below, without challenge, on the basis that TZB&#8217;s acknowledged special educational needs were the result of a mental health condition amounting to a disability and that that fact, as well as his Caribbean ethnicity, engaged section 149.  Mr Cross did not dispute that, so I will say no more about the point, which in any event does not affect the actual issues that we have to decide.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">There was some discussion in the course of the hearing about how much scope there really was for the PSED to affect individual (permanent) exclusion decisions.  It is one thing to say that, in the light of the disproportionate exclusion rates for high-risk pupils, section 149 (1) (b) requires schools to consider early intervention and other policies for such pupils which may reduce the risk of them behaving in a way which may lead to exclusion.  But the situation is different where such behaviour has in fact occurred, and the school is having to decide whether a pupil should be permanently excluded.</span><authorialNote class="footnote" marker="4">
+		  <p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">I refer to &#8220;the school&#8221; rather than &#8220;the headteacher&#8221; because </span><span style="font-size:11pt">the decision whether to exclude a student permanently is </span><span style="font-size:11pt">the result of</span><span style="font-size:11pt"> a process involving not only the hea</span><span style="font-size:11pt">d</span><span style="font-size:11pt">teacher but also the governors: see para. </span><span style="font-size:11pt">69</span><span style="font-size:11pt"> below.</span></p>
+		</authorialNote><span style="color:#000000">  That will, as the Guidance makes clear, only be being considered as a last resort, where the pupil has committed serious misconduct and where allowing them to remain in the school would cause serious harm.  </span>If those criteria are truly satisfied, it might be thought that the pupil would have to be excluded even if they come from a high-risk group and even if there were steps that the school had failed to take in the past which might have prevented the crisis point being reached.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I see some force in that point.  There will certainly be cases where the seriousness of the pupil&#8217;s conduct and/or the harm to the school of allowing them to remain will be such that it can make no difference that they belong to a high-risk group or that they may have received inadequate support in the past.  It may be, if schools truly treat permanent exclusion as a last resort, that those cases will be the great majority.  However, it would be wrong to treat the <span style="font-family:'Times New Roman'">two-fold test as entirely definitive or entirely hard-edged.  For one thing, it sets a minimum threshold for permanent exclusion: it does not say that in every case where it is met the pupil must be excluded.  For another, &#8220;serious&#8221; is an imprecise term requiring a judgment by the decision-maker which can properly involve considerations of proportionality and extenuating circumstances.  For a third, we are concerned with guidance rather than legislation.  There is therefore room in principle for schools to take into account the fact (if established) that a pupil has received inadequate support in the past, though the extent to which it can make a difference will depend on the circumstances of the case.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I would only add that, although the PSED may in that way be engaged in the taking of individual exclusion decisions, I am not sure how much it adds as a matter of substance to the considerations which a school would have to take into account in any event.  The high-risk groups identified in para. 21 of the Guidance do not consist only of pupils with protected characteristics within the meaning of the 2010 Act; and if in breach of para. 22 such a pupil has received inadequate support in the past that would in principle be a relevant factor in an exclusion decision irrespective of the PSED.  I say this not in order to downplay the importance of the PSED generally but because I am concerned that an undue focus on it may risk over-complicating, and over-legalising, the decision-making process in exclusion cases<span style="color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">THE CONSIDERATION OF THE PSED IN TZB&#8217;s CASE</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Exclusion Letter</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The central plank of the Claimant&#8217;s case is that the exclusion letter does not include any express reference to the PSED.  Although that is undisputed, I need nevertheless to summarise what the letter says.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should set out the opening paragraphs of the letter in full.  They read:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;I regret to inform you that I am permanently excluding [TZB] from [the] School from Thursday 14 May 2021 because of his wholly unacceptable behaviour.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">The behaviour for which [TZB] is being excluded is two acts of physical violence towards members of the school community during two separate incidents on Thursday 6 May.  I have no doubt that permanent exclusion is the right sanction given the seriousness of the breach of the school&#8217;s Behaviour Policy and that the risk to the welfare and education of others were I not to exclude permanently would not be acceptable.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">I give further details of the circumstances leading to this exclusion under &#8216;[TZB&#8217;s] Misconduct/Physical Assaults&#8217;. Under &#8216;Disciplinary Record and Background&#8217; I also detail [TZB&#8217;s] whole school record.  I do this for two reasons.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">Firstly, having concluded that a serious breach of discipline has occurred, before deciding to exclude, I am required to consider the risk to the education and welfare of others in allowing [TZB] to remain in the school.  Whilst I believe [TZB&#8217;s] behaviour in the incidents of Thursday 6 May are enough in themselves to justify my decision that his continued presence would present an unacceptable risk to the welfare and education of others, his poorer wider conduct, and the effect of previous sanctions employed by the school as a result of such behaviour are relevant considerations.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">Secondly, whilst I have no doubt that physically assaulting members of our community is in itself sufficiently serious to warrant permanent exclusion, should it be asserted that it is not, I would ask consideration be given to the totality of [TZB&#8217;s] school record as set out in this letter and the effect of previous sanctions.  Repeated acts of physical assault towards members of the school community justify permanent exclusion even if the events of Thursday 6 May do not on their own.&#8221;<authorialNote class="footnote" marker="5">
+			<p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">I have silently corrected </span><span style="font-size:11pt">one or two</span><span style="font-size:11pt"> </span><span style="font-size:11pt">minor obvious </span><span style="font-size:11pt">errors in the </span><span style="font-size:11pt">language and punctuation of the letter</span><span style="font-size:11pt">.</span></p>
+		      </authorialNote></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next section of the letter gives details of both assaults.  I should summarise the essentials.  The first assault occurred following a text interchange with the victim the previous day.  TZB arranged to meet him at lunchtime in the toilets and, with another student, punched him several times and then kicked him in the face while he was on the ground.  The second assault occurred just outside the school at the end of the day as students were leaving.  The victim was a student who had intervened to stop the earlier assault.  The principal assault was committed by an &#8220;outsider&#8221; whom TZB had engaged to attack the victim, but TZB was also directly involved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is right to record that the Claimant and TZB do not accept what the exclusion letter says about the two assaults.  They say that there were circumstances mitigating the culpability of the first assault and that the extent of TZB&#8217;s involvement is overstated; and that he had no involvement in the second assault.  But for the purpose of the issues in this case the Headteacher&#8217;s account has to be accepted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next section of the letter summarises TZB&#8217;s disciplinary record and behaviour.  Again, I need not set it out in full, but I note that he had been excluded on three previous occasions for specified periods (so-called &#8220;fixed-term exclusions&#8221;), two of them as a result of violent behaviour.  The most recent exclusion, for threatening behaviour and serious violence, had been on 29 March 2021, i.e. only six weeks previously.  He was excluded for five days and warned on his return that, as the letter put it, &#8220;any repeat of such behaviour placed him at imminent risk of permanent exclusion&#8221;.  There had already been four other disciplinary incidents in March 2021, the most recent of which had consisted of TZB using social media to incite revenge and violence, leading to a &#8220;physical altercation&#8221; with two other students.  Ms Harrison sensibly acknowledged that this record showed a deterioration in TZB&#8217;s behaviour in the weeks leading up to the exclusion.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The next section of the letter records the extensive educational and pastoral support that TZB had received since he joined the school in September 2016.  There is a very full summary of that support at para. 107 below and I need not give details here. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The final substantive section of the letter, headed &#8220;Conclusion&#8221;, reads (so far as relevant):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;In reaching my decision I have ensured that a full and thorough investigation has taken place.  I am satisfied that [TZB&#8217;s]<authorialNote class="footnote" marker="6">
+			<p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">The </span><span style="font-size:11pt">name actually used here and later in the same paragraph was that of another student</span><span style="font-size:11pt">.  That was careless</span><span style="font-size:11pt">,</span><span style="font-size:11pt"> but TZB&#8217;s correct name was used in the rest of </span><span style="font-size:11pt">the letter and </span><span style="font-size:11pt">the mistake </span><span style="font-size:11pt">is not a matter of any significance for our purposes.</span></p>
+			<p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"/>
+		      </authorialNote> actions represent serious breaches of the school&#8217;s Behaviour Policy and that allowing him to remain in school would harm the education and welfare of other members of the school community.  The nature of the exclusion reflects the seriousness of the incidents detailed above as well as [TZB&#8217;s] previous conduct.  &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There follows a section setting out the review procedure and other formal matters.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">The First GDC Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The role of the governors in considering whether to reinstate a pupil who has been permanently excluded is governed by regulation 24.  The effect of paragraphs (1) and (2) is that where the headteacher (referred to as &#8220;the principal&#8221;) has permanently excluded a pupil the governors (referred to as &#8220;the proprietor&#8221;) must decide whether or not the pupil should be reinstated.  Paragraph (3) sets out various specific requirements relating to that decision.  Sub-paragraph (a) requires them to &#8220;consider the interests and circumstances of the excluded pupil, including the circumstances in which the pupil was excluded, and have regard to the interests of other pupils and persons working at the Academy&#8221;.  Sub-paragraph (b) requires them to consider any representations about the exclusion made by or on behalf of the pupil&#8217;s parent or parents (described as &#8220;the relevant person&#8221;) or the headteacher.  Sub-paragraphs (c)-(e) requires them to convene a meeting at which the headteacher, the parents (accompanied if they wish by a representative) and (if the parents request) a representative of the local authority can attend and make representations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 6 of the Guidance covers the decision whether to reinstate.  I need only refer to para. 71, which reads:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;In reaching a decision on whether or not a pupil should be reinstated, the governing body should consider whether the decision to exclude the pupil was lawful, reasonable and procedurally fair, taking account of the head teacher&#8217;s legal duties and any evidence that was presented to the governing body in relation to the decision to exclude.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The meeting of the GDC to consider whether to reinstate TZB took place, as I have said, on 8 June 2021.  The Headteacher, the Deputy Head and the Assistant Head all attended, as did the Claimant and TZB (referred to in the contemporary documentation as &#8220;the family&#8221;) and a friend, to whom I will refer as &#8220;KM&#8221;, who acted as their representative<authorialNote class="footnote" marker="7">
+		<p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">KM </span><span style="font-size:11pt">was in fact a lawyer, though she was representing the family </span><span style="font-size:11pt">in a personal capacity.  She</span><span style="font-size:11pt"> </span><span style="font-size:11pt">had particular </span><span style="font-size:11pt">experience in</span><span style="font-size:11pt"> school exclusion </span><span style="font-size:11pt">cases because </span><span style="font-size:11pt">they </span><span style="font-size:11pt">fell</span><span style="font-size:11pt"> within her role as an employed lawyer </span><span style="font-size:11pt">with</span><span style="font-size:11pt"> a different local </span><span style="font-size:11pt">authority</span><span style="font-size:11pt">.</span><span> </span></p>
+	      </authorialNote>.  A representative of the local authority was also present.  The GDC had a pack of relevant materials.  At the start of the meeting the Chair identified its role as being &#8220;to determine whether the Head had carried out the correct procedures in relation to exclusion and to determine whether the permanent exclusion was justified on the balance of probabilities&#8221;.  The meeting was at times heated and, as the IRP subsequently noted, &#8220;the Chair had to work hard to retain a measured, calm hearing&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Full minutes of the meeting were kept.  For present purposes I need only refer to those parts that include references to the PSED or the 2010 Act.  These occur in four places.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">First</span>, section 2 of the minutes records the School&#8217;s case.  Para. 2.1 begins by the Headteacher stating that any decision permanently to exclude a student was taken with a heavy heart but that in this instance the School believed that it was in the interests of other pupils and the wider community.  It continues:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;[She] added that she had also considered the requirements of the Equality Act and was confident that [TZB] had not been treated any less favourably than any other student.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">That language is not as clear as it might be.  If the &#8220;and&#8221; is read literally, the Headteacher was saying (a) that she had considered the requirements of the 2010 Act, which would in principle include the PSED, and (b) that TZB had not been discriminated against, which would be a reference to Part 6 of the Act.  But it would be possible to read the part after the &#8220;and&#8221; as a gloss on the reference to the 2010 Act &#8211; i.e. as meaning that she had considered (only) whether TZB&#8217;s exclusion would constitute direct discrimination contrary to Part 6.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Second</span>, KM in presenting the case for the family emphasised that &#8220;it was important for the Governors to consider the Equality Act in their deliberations&#8221;: TZB had protected characteristics and &#8220;how these characteristics had been protected was not demonstrated in the decision letter&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Third</span>, section 6 of the minutes records the submissions of the local authority representative.  They include, at para. 6.6:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;She further commented that the Governors should take into account any extenuating circumstances such as family situation and whether [TZB] belonged to a group with disproportionately high levels of exclusion, such as Special Education Needs, Looked After Children, certain ethnic groups and Free School Meals.  It was noted that [TZB] was at Stage K School Support on the School&#8217;s SEN register at the time of the exclusion and was entitled to Free School Meals.  [TZB&#8217;s] ethnicity is stated as Black Caribbean which is both a group highlighted by the DfE as having above average levels of exclusion and a group which is over-represented in terms of exclusion from [schools within the local authority area].  Support provided by the School to [TZB] was outlined in the paperwork.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is not an explicit reference to the PSED, but it will be seen that it draws attention to the very considerations to which the Claimant says that the School was obliged by the PSED to have regard. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Fourth</span>, the GDC&#8217;s decision is recorded in section 10 of the minutes.  I should set this out in full, although only a small part relates to the PSED.  It reads:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;10.1</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The Governors discussed all issues in relation to this incident.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.2</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">It was agreed that the incident had been investigated thoroughly, and the statements taken following the incident were noted. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.3</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">It was agreed that the education and welfare of both staff and students in the School was paramount.  It was agreed that allowing [TZB] to return to school could harm the education or welfare of others in the School.  Staff and students had a right to come to the School and feel safe. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.4</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">It was agreed that on the balance of probabilities the incidents had happened as described by the School.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.5</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">Governors discussed if the incidents were severe enough to warrant a permanent exclusion.  It was agreed that the incidents constituted a serious breach of the School&#8217;s Behaviour Policy.  It was agreed that the sanction was a proportionate response to the incidents. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.6</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The Governors agreed that the exclusion met both parts of the two-fold test. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.7</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">Governors discussed the support provided by the School.  It was agreed that the School had followed the DfE guidelines and offered every support that it could reasonably be expected to provide.  The family had not been able to suggest any further support that the School could have provided.  [TZB&#8217;s] mental health was also discussed.  Mum had reported that [TZB] had attempted suicide.  [TZB] was a carer to his siblings and had dispensation to leave school early.  [TZB] had also been offered counselling.  It was also noted that the exclusion was for a one-off serious offence and details of the support provided was for background information only. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.8</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">Governors discussed the family&#8217;s extenuating circumstances.  It was agreed that the Family had not made the School aware of any extenuating circumstances. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.9</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">It was agreed that the School&#8217;s Policy on exclusions had been followed in full.  The Governors further agreed that they felt that the DfE&#8217;s guidance on permanent exclusions was met.  It was also agreed that the School needed to be consistent to all students in applying the Behaviour Policy. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.10</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">It was further agreed that the requirements of the Equality Act had been considered and [TZB] had not been treated any less favourably because of his SEN needs. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>10.11</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">It was agreed, by a majority decision, that [TZB] met the criteria for exclusion and that the Head&#8217;s decision was legal, reasonable and procedurally fair and that the exclusion was justified and agreed to decline to reinstate [TZB] to the School.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should note two points about section 10:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">The conclusion at para. 10.7 that the School &#8220;had &#8230; offered every support that it could reasonably be expected to provide&#8221; is evidently based on the very full account given by the Assistant Head, as recorded in paras. 2.7 and 2.8 of the minutes, of the support given to TSB since he joined the School in 2016.   I quote a substantial extract from those paragraphs at para. 106 below.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Para. 10.10 appears to pick up the Headteacher&#8217;s statement in para. 2.1 which I have quoted above, but it is slightly differently worded because it refers specifically to &#8220;his SEN needs&#8221;: Ms Harrison observes that that ignores TZB&#8217;s Caribbean ethnicity.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On the same day a letter was sent to the Claimant giving the GDC&#8217;s decision and reasons.  It does not add much to what appears from the minutes, but I should quote the following paragraphs:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The Committee also considered the support provided by the School to [TZB] for his SEN needs, these were detailed in the papers provided by the School and discussed in the meeting. The Committee considered that the School had provided considerable support to [TZB] during his time at the School. The Committee further noted that as the exclusion was for a serious breach this information had been provided for context only.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">The Committee also considered [TZB&#8217;s] background and whether there were any extenuating circumstances or special educational needs. He was entitled to Free School Meals and on the School&#8217;s SEN Register at Stage K-SEN Support at the time of the exclusion. [TZB&#8217;s] ethnicity is stated as Black Caribbean which is a group highlighted by the DfE as having above average levels of exclusion and is a group which at times has been over-represented in terms of exclusion from [schools in the local authority area]. The Committee agreed that [TZB] had access to, and engaged in, relevant support and interventions.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The IRP Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The hearing took place on 25 January and 11 March 2022.  The panel consisted of three people &#8211; a lay member (who took the chair), a headteacher member and a governor member.  It was assisted by a SEN expert appointed pursuant to regulation 25 (1) (b).  The Claimant was represented by Mr Persey of counsel (who, as noted above, appears before us), instructed by a solicitor at the charity Just for Kids Law (&#8220;JFKL&#8221;).  The School was represented by Mr Richard Wilkins, an employed barrister then with BLM LLP.  There was a substantial bundle, containing both the material which had been before the GDC and a number of further documents prepared for the IRP&#8217;s own hearing. The panel also heard oral evidence, including from the Headteacher and the Chair of the GDC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The IRP&#8217;s written Decision, dated 23 March 2022, runs to twelve pages, followed by four annexes.  Again, I focus on the points relevant to the PSED issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 4 of the Decision summarises the Claimant&#8217;s case.  Para. 4.1 records her submission that &#8220;the school had not provided a document which demonstrated that they had discharged their public sector equality duty (PSED) prior to the decision to permanently exclude [TZB]&#8221;, and that such evidence required to be &#8220;clearly documented&#8221;.  Later, at para. 8.9, the IRP observed that it was &#8220;very conscious that at the heart of the Appellant&#8217;s case was the school&#8217;s failure to discharge its public sector equality duty (paras 8.6, 9.3 &amp; 9.4).&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 7 summarises Mr Persey&#8217;s closing submissions.  Paras. 7.1-7.2 emphasise the absence of &#8220;any documented consideration of TZB&#8217;s protected characteristics, SEND and vulnerable groups&#8221; and the absence of any but the most perfunctory reference in the minutes of the GDC.  Para. 7.3 alleges a failure by the school to comply with the &#8220;early intervention&#8221; requirements of para. 19 of the Guidance in the case of a pupil with SEN such as TZB, in particular by conducting reviews after each of his previous fixed-term exclusions.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In section 8 of the Decision the IRP asked itself a number of questions.  In connection with the second question, it said, at para. 8.5:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The public sector equality duty is well defined in [Guidance] paras 9-12 and 19. It was exhaustively explored throughout the Panel and the Panel&#8217;s observations in more detail can be found in paragraph 9 below.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That paragraph starts by explicitly referring to the PSED, but the panel also refers to para. 19 of the Guidance, which, as we have seen, is concerned with the SEND Guidance.  It goes on to make various specific criticisms on that aspect, to which I return in a different context below.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The IRP&#8217;s decision was set out in section 9.  As regards the PSED, it noted at para. 9.3 that &#8220;the School&#8217;s failure to document that it had taken everything including PSED into consideration&#8221; was at the heart of the Claimant&#8217;s case.  At para. 9.4 it concluded that &#8220;this specific PSED statement is not a statutory requirement&#8221;; but there were nevertheless other reasons for it to recommend that the GDC reconsider its decision (I return to these later).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The GDC&#8217;s Reconsideration</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Regulation 26 governs reconsideration.  At the material time it read, so far as relevant, as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">Where the review panel&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in">recommends that the proprietor reconsiders a decision not to reinstate a pupil who has been permanently excluded; or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in">&#8230;,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1.38in;margin-right:0.55in;text-indent:-0.39in">the proprietor &#8230; must reconsider the exclusion.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">When the proprietor has reconsidered its decision it must inform the relevant person, the principal and the local authority of its reconsidered decision and the reasons for it without delay.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">&#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It will be seen that the regulation does not prescribe what form the reconsideration should take.  However, that is addressed in section 10 of the Guidance, which is headed &#8220;Statutory guidance on the governing body&#8217;s duty to reconsider reinstatement following a review&#8221;.  Para. 176 reads:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The reconsideration provides an opportunity for the governing body to look afresh at the question of reinstating the pupil, in light of the findings of the independent review panel. There is no requirement to seek further representations from other parties or to invite them to the reconsideration meeting. The governing body is not prevented from taking into account other matters that it considers relevant. It should, however, take care to ensure that any additional information does not make the decision unlawful. This could be the case, for example, where new evidence is presented or information is considered that is irrelevant to the decision at hand.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="color:#000000">In </span><span style="font-style:italic;color:#000000">R (a Parent) v Governing Body of XYZ School</span><span style="color:#000000"> [2022] EWHC 1146 (Admin) (&#8220;</span><span style="font-style:italic;color:#000000">XYZ</span><span style="color:#000000">&#8221;) one of the grounds of challenge was that a reconsideration had taken the form of a review of the earlier decision rather than considering &#8220;afresh&#8221; whether the pupil should be reinstated.   Lang J said, at para. 87:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;In my view, the form of reconsideration that the School Exclusion Guidance envisages and that the Claimant&#8217;s solicitors advocated, is for a governing body panel to review the material presented at the original hearing, and to consider whether or not its previous findings and decision should be changed or upheld. There is a residual discretion to consider new information, if relevant.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my view that is correct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As appears from para. 176 of the Guidance, the GDC was not obliged to seek any further representations from the family or the School.  In the event it permitted such representations, but I need to identify the basis on which it did so.  The Claimant believed that the parts of the IRP&#8217;s decision relating to the PSED were wrong in law, and JFKL wrote a pre-action protocol letter threatening proceedings on that basis, in which the IRP would be a defendant and the School would be an interested party.  In response the School made clear that it would have no objection to the GDC including the PSED issue in the reconsideration which it was obliged to carry out in any event in the light of the IRP&#8217;s other criticisms; and on that basis the Claimant decided not to proceed with its proposed claim.  Although we do not have full details, it appears that it was agreed, not only between the Claimant and the School but also with the GDC, that the GDC would entertain written submissions and also that Mr Persey and Mr Wilkins could attend its meeting in order to give it further assistance on the PSED question only.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The GDC met to reconsider its decision on 11 July 2022.  It had available to it the materials from the original meeting, together with the IRP&#8217;s decision and the four annexes.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s written submissions, drafted by JFKL, were confined to the PSED issue.  They begin:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.65in">&#8220;These brief submissions solely focus on the [GSD&#8217;s] failure to comply with the Public Sector Equality Duty &#8230; under section 149 Equality Act 2010.  As to the remainder of the issues to be determined at the reconsideration hearing, [the Claimant] adopts the submissions presented both orally and in writing to the Independent Review Panel &#8230; and the IRP&#8217;s other recommendations for reconsideration.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The essential submission was that the GDC should not have accepted that the Headteacher had had regard to the PSED.  At para. 27 the submissions say:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;[The Claimant&#8217;s] position on the PSED is simple: the headteacher does not have any records (comparable in substance if not in form to an Equality Impact Assessment) detailing compliance with the PSED at the material time. Despite repeated questions on this point at the IRP hearing the headteacher disclosed nothing that came close to discharging her duty. The burden was on the headteacher to demonstrate compliance and she failed to do so.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is possibly ambiguous whether the submission was that the absence of contemporary documentation was fatal or only that, in its absence, there was no other evidence capable of discharging the burden of proof; but it is unnecessary for our purposes to resolve that ambiguity.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The School&#8217;s submissions, drafted by Mr Wilkins, addressed both the PSED issue and the issues raised by the IRP.  I need not summarise them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minutes start by recording that the GDC met for just under an hour in private to discuss the reasons why the IRP had recommended reconsideration.  The GDC noted that, although &#8220;the family were concentrating on the requirements of the PSED&#8221;, this was not one of the matters on which the IRC had recommended reconsideration.  Nevertheless, the minutes include the following paragraph which appears to relate to the substantive issues which the Claimant says would have required consideration under the PSED:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;It was also agreed that they had taken notice of the Local Authority&#8217;s guidance on the student&#8217;s characteristics. It was also agreed that the Board of Trustees received regular updates on the School&#8217;s exclusion statistics and challenged them if any particular group was overrepresented in the exclusion data. [The Chair] further confirmed that in her capacity as Link Governor for Inclusion she had previously asked the School what support they and the LA provided for particular groups who were overrepresented in terms of exclusion statistics.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Following the private session the GDC heard submissions from Mr Persey and Mr Wilkins.  Mr Persey developed the submission made by JFKL.  The Chair pointed out to him the extensive materials that the GDP had in fact considered and that they had been specifically reminded &#8220;of their responsibility to consider any protected characteristics&#8221;.  She asked what further consideration having regard to the PSED requirements would have entailed.  His response was that the question was not what the GDC had considered but what the Headteacher had considered, about which there was no evidence at all.  Mr Wilkins submitted that: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The guidance was clear that the GDC should have regard to the evidence presented by the Head. There had been consideration of [TZB&#8217;s] special needs at every stage of the process, the Head&#8217;s position was clear that [TZB&#8217;s] race and special needs had been known to her but were not sufficient to cause her not to decide not to exclude him. She had considered all these factors in reaching her decision to exclude him.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minutes also record that the Chair commented that </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;&#8230; the minutes of [the first meeting] specifically stated that [the Headteacher] had considered the requirements of the Equality Act and that [the Headteacher] was confident that [TZB] had not been treated any less favourably than any other student. She had stated that she had considered these things at the time of the exclusion.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minutes conclude with the GDC&#8217;s decision as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;After discussion the Panel unanimously reconfirmed their original decision to decline to reinstate [TZB].</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">The Panel noted the submissions from the School and the family and in particular the reference to the PSED requirement. <span style="font-style:italic">The Panel were satisfied that there was written evidence that the requirements of the Equality Act had been considered by the Head prior to reaching her decision</span> [emphasis supplied] The Panel were also satisfied that [TZB&#8217;s] SEN needs had been considered and that the School had done everything it could to support [TZB]. The Panel also considered all the points raised by the IRP and, having thoroughly reviewed all the evidence submitted to them, they agreed to decline to reinstate [TZB].&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">(&#8220;The Panel&#8221; there of course refers to the GDC itself, not to the IRP.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Chair of the GDC emailed JFKL later the same day to inform the Claimant of its decision.  The email says that &#8220;a formal letter and detailed minutes&#8221; would follow.  We were told that in fact all that was sent was the minutes, without a &#8220;formal letter&#8221;: these must therefore be treated as the statement of the GDC&#8217;s reasons as required by regulation 26 (2).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">THE DECISION OF THE JUDGE</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As already noted, the <span style="color:#000000">Claimant&#8217;s case before the Judge was that the original exclusion decision was unlawful because the Headteacher had failed to comply with the PSED and that the GDC had failed to find that it was unlawful for that reason.  The Judge addressed that claim under four heads, which I take in turn.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">First</span><span style="color:#000000">, at paras. 41-47 of his judgment he considered Ms Harrison&#8217;s submission, repeating the case advanced by Mr Persey in the IRP and at the GDC reconsideration meeting, that &#8220;documentary evidence created prior to, or contemporaneously with, the Exclusion Decision was required to demonstrate that the Headteacher had given the PSED due regard in the course of her decision making&#8221;.  He held that there was no such requirement as a matter of law.  As he put it at paras. 45-47:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;45.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The legal requirement is simply that &#8216;due regard&#8217; is&#160;in fact&#160;paid to the PSED by the decision maker, and such due regard must (to state the obvious) precede the decision maker&#8217;s conclusion of the decision, as otherwise it would amount to justification for the decision rather than the reasons for it.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>46.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">As Lord Justice Aikens said in&#160;<span style="font-style:italic">R (Brown) v Secretary of State for Work and Pensions&#160;</span>[2008] EWHC 3156&#160;(Admin), &#8216;while there is no duty to make express reference to the regard paid to the relevant duty, reference to it and to the relevant criteria reduces the scope for argument&#8217; and &#8216;it is good practice for a decision maker to keep records demonstrating consideration of the duty&#8217;.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Second</span>, he considered at paras. 48-58 whether the GDC had been entitled as a matter of fact to find in its reconsideration that the Headteacher had considered the PSED prior to making the decide to exclude TZB decision &#8211; see the italicised words in the minute quoted at para. 57 above.  He noted at paras. 49-50 that the reference in the minute to &#8220;written evidence&#8221; suggested that the GDC thought (a) that contemporary documentary evidence of such consideration was required and (b) that that requirement was satisfied by the fact that Headteacher&#8217;s statement that she had done so was recorded in the minutes of the first meeting.  If so, the GDC was wrong on both counts; but that was immaterial because all that mattered was whether she had <span style="text-decoration-line:underline;text-decoration-style:solid">in fact</span> considered the PSED before she made the decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to that, the Judge found that the Headteacher&#8217;s statement as recorded in para. 2.1 of the minutes was a proper basis for the GDC&#8217;s finding.  Paras. 52-56 of the judgment read as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13.5pt">&#8220;52.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Ms Harrison KC submitted that this passage left open the possibility that the Headteacher had considered the Equality Act 2010 (and therefore the PSED) only post-exclusion, and possibly for the first time when giving evidence at the initial GDC meeting.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>53.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">However, the minutes are just minutes: they are not a verbatim transcript of what was said at the hearing. It is not appropriate to parse the minutes as if they are legislation. As is clear from the witness statement of the Chair of the GDC, and as is adequately clear from the minutes of the initial GDC meeting and the reconsideration meeting when read together and as a whole, the GDC understood the Headteacher&#8217;s evidence as being that she had complied with the Equality Act 2010. Since compliance can only be achieved by giving due consideration to the PSED duty prior to concluding the decision in question, the GDC was entitled to the interpretation that it put on her evidence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>54.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">While the authorities relating to exercise of the PSED rightly counsel caution in relation to evidence given after the event about how a decision maker reached their decision, that is not to say that it would be wrong in all circumstances to place weight on such evidence. The GDC had to assess the evidence before it and decide, in the light of the evidence as a whole, what evidence it could rely upon and what it could not.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>55.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">A school Governing Body carrying out its role of considering whether to reinstate a permanently excluded pupil is not in the same position as a court reviewing a public authority's decision: the members of a governors&#8217; disciplinary committee can be expected to have considerable experience of the Headteacher through their interactions as governors. That experience is likely to have put the members of the GDC in an excellent position to form a view of the Headteacher's credibility and to assess the reliability of her evidence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>56.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">In assessing whether the GDC was entitled to give the weight that it did to the Headteacher&#8217;s evidence on her decision making, I am entitled to consider all the evidence before me, including the witness statement of the chair of the GDC dated 11 January 2023 &#8230; .&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Third</span>, the Judge addressed at paras. 59-68 a submission by Ms Harrison that (in summary) the very general references in para. 2.1 of the minutes could not support a finding that the Headteacher had had &#8220;due regard&#8221; to the matters identified under section 149 (1) (b) and (c), particularly where, as in TZB&#8217;s case, more than one protected characteristic was engaged.  He said that it was clear from the authorities<authorialNote class="footnote" marker="8">
+		<p class="FootnoteText" style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span> </span><marker name="tab"/><span style="font-size:11pt">The particular authority to which he referred was </span><span style="font-style:italic;font-size:11pt">R (</span><span style="font-style:italic;font-size:11pt;color:#000000">KE) v Bristol City Council</span><span style="font-size:11pt;color:#000000"> [2018] EWHC 2103 (Admin) </span><span style="font-size:11pt;color:#000000">(per HH Judge Cotter QC at paras. 50-52)</span><span style="font-size:11pt;color:#000000">, but he had earlier in his judgment </span><span style="font-size:11pt;color:#000000">referred to </span><span style="font-style:italic;font-size:11pt;color:#000000">R (</span><span style="font-style:italic;font-size:11pt;color:#000000">AD</span><span style="font-style:italic;font-size:11pt;color:#000000">)</span><span style="font-style:italic;font-size:11pt;color:#000000"> v London Borough of Hackney</span><span style="font-size:11pt;color:#000000"> [2019] EWHC 943 (Admin)</span><span style="font-size:11pt;color:#000000">, </span><span style="font-size:11pt;color:#000000">[2019] PTSR 1947</span><span style="font-size:11pt;color:#000000"> (per Supperstone J </span><span style="font-size:11pt;color:#000000">at para. 83).  Both cases refer to a number of other authorities making the same point.</span></p>
+	      </authorialNote> that &#8220;what amounts to &#8216;due regard&#8217; is very much context dependent&#8221; and continued:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;60.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The context here is that the Exclusion Decision was an individual exclusion decision affecting a single pupil with known protected characteristics. The immediate practical impact of the exclusion on TZB was obvious, albeit that the full extent of the possible long term consequences for TZB&#8217;s life chances, as explained in the evidence submitted on behalf of the Claimant in these proceedings, were less obvious.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>61.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The Exclusion Decision was made by the Headteacher of a large, ethnically and culturally diverse urban secondary school of approximately 1500 pupils, approximately 3% of whom identified as Black Caribbean, nearly 25% of whom identified as Black, and approximately 27% of whom identified as White. The school population, as one would expect, includes pupils with a wide variety of aptitudes, abilities and disabilities, and the School has a dedicated Inclusion Faculty. It is clear (and would have been clear to the GDC at the time of making both of its decisions) that the Headteacher was well aware both of TZB&#8217;s ethnicity and of his special educational needs and the support that had been provided to him in this regard.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>62.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">[Already quoted at para. 19 above.]</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>63.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">The School didn&#8217;t dispute this evidence. Neither did it claim that the Headteacher read this particular research before making the Exclusion Decision. However, its case was that (as was demonstrated by her evidence in her witness statement) the Headteacher was very well informed not only about TZB&#8217;s own circumstances but also about the disproportionate representation of those sharing his protected characteristics among those permanently excluded from school, not only nationally but also locally (albeit that the School had a lower rate of overrepresentation than was the case in local schools generally).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>64.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">While not binding on the GDC, or indeed on me, I note that the advice given by the Secretary of State in relation to the implementation of the PSED in schools cases is that &#8216;the duty only needs to be implemented in a light-touch way, proportionate to the issue being considered&#8217; (see paragraph [5.7] of <span style="font-style:italic">Equality Act 2010 Advice for Schools</span>&#8217;). That is consistent with the approach taken in the authorities.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>65.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">What was required of the Headteacher in the circumstances of this case was simply to ensure that she brought the matters which were, as an experienced leader in a diverse urban secondary school, already within her knowledge in relation to TZB&#8217;s protected characteristics and the disadvantage experienced by those sharing those characteristics into her consideration of all relevant factors in the decision making process. In the circumstances, I am satisfied that the GDC was entitled to find that the Headteacher had complied with her duties under the Equality Act 2010 (including the PSED).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Fourth</span>, at paras. 69-78 he considered a submission based on the language of para. 10.10 of the minutes of the first GDC meeting.  As already noted, that language referred only to &#8220;less favourable treatment&#8221; and contained no express reference to heads (b) or (c) under section 149 (1) or to TZB&#8217;s ethnicity but only to &#8220;his SEN needs&#8221;.  (Similar points can in fact be made about para. 2.1.)  He rejected that criticism for three reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">He believed that the statement that &#8220;the requirements of the Equality Act had been considered&#8221; was most naturally read in accordance with its literal meaning &#8211; that is, that all the relevant requirements had been considered &#8211; see para. 73.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">In any event, what mattered was what the GDC understood at the time of the decision under challenge, being the reconsideration decision, and the language of the minute of that meeting clearly distinguished between &#8220;the requirements of the Equality Act&#8221; and TZB&#8217;s SEN needs &#8211; again, see para. 73.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">Further, it was clear that the GDC accepted the advice of the local authority about the need to have regard to TZB&#8217;s ethnicity and SEN status, which was set out fully in the minute of the initial meeting &#8211; see para. 74.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was for those reasons that the Judge dismissed the PSED challenge.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">THE ISSUES</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are three grounds of appeal as regards the Judge&#8217;s decision on the PSED ground.  They are pleaded fairly fully, but the headline grounds are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">&#8220;The Judge erred in treating the Governing Body&#8217;s reliance on the existence of &#8216;written evidence&#8217; as immaterial.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">&#8220;The Judge erred in law in finding that the Public Sector Equality Duty had been properly applied.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">&#8220;Impermissible reliance on evidence not before the Governors.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The School filed a Respondent&#8217;s Notice seeking to uphold the Judge&#8217;s decision on the PSED ground on two alternative bases:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">&#8220;It was sufficient to dispose of Ground 1 [that is, the PSED ground of challenge] that the GDC <span style="text-decoration-line:underline;text-decoration-style:solid">itself</span> discharged the PSED, and it did so.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">&#8220;Even if, when making the Reconsideration Decision, the GDC had been required to find that the Headteacher had breached the PSED when making the Exclusion Decision, relief fell to be refused under section 31 (2A) of the Senior Courts Act 1981&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For reasons which will appear, it makes sense to take the Respondent&#8217;s Notice first.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Respondent&#8217;s Notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first of the alternative bases relied on starts from the point that the foundation of this part of the Claimant&#8217;s case is that the Headteacher erred in law by failing to have regard to the PSED when taking the original exclusion decision: the challenge to the GDC&#8217;s decision is based on (and only on) its failure to find such an error and to reinstate TZB accordingly.  Mr Cross submits, however, that even if the Headteacher had made such an error it does not follow that the GDC was obliged to reinstate TZB.  He referred us to the judgment of Sedley LJ in <span style="font-style:italic">R v Governing Body </span><span style="font-style:italic;font-family:'Times New Roman'">of Dunraven School, ex p B </span>[2000] LGR 494.  One of the issues in that case was the role of the governors in considering whether to reinstate an excluded pupil: the relevant legislation pre-dated the 2002 Act but was to substantially the same effect.  At p. <span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">498 </span><span style="font-style:italic;font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">d-e </span><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">of his judgment, with which Morritt and Brooke LJJ agreed, Sedley LJ said:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;[T]<span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">he discipline committee of the governing body is not a tribunal of appeal from the head teacher but part of a single decision-making process within the school in which both play a role&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">He went on to say, at p. 498 </span><span style="font-style:italic;font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">a-c</span><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">,:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in"><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">&#8220;I would therefore reject [the] submission [of counsel for the school] that the governors&#8217; only duty was to decide whether the head teacher had acted reasonably. In our view it was their duty to establish to their own satisfaction what the primary facts were &#8211; as in fact they did. In doing so they were entitled to start from the head teacher's findings. For his part, the head teacher was entitled to reach what was in practice, and arguably too in law, a provisional decision in the way he did precisely because it had to be fully and fairly reviewed by the governors. It was the governing body which then had to afford a fair hearing.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';color:#1F1F1F;background-color:#FFFFFF">Mr Cross submitted that it followed that the GDC was not required, as such, to make a finding as to whether the Headteacher had breached the PSED.  No doubt it would need to review her findings and reasoning, but the only decision that it was obliged to make was its own decision, based on its own findings and reasoning, as to whether TZB should be reinstated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On that basis, Mr Cross <span style="color:initial;background-color:#FFFFFF">submitted that it was quite clear from the minutes that the GDC itself was aware of its duties under the PSED, and specifically of the over-representation issue, to which both KM and the local authority representative had drawn attention, and had had regard to them; and that since that was so it was immaterial if (which he did not accept) the Headteacher had not done so. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Harrison&#8217;s first submission in response was that the fact that the decisions of the Headteacher and the GDC were to be regarded in law as part of a single process did not mean that a legal error by the Headteacher at the first stage could be cured by proper consideration at the second.  Para. 71 of the Guidance requires the governors to consider &#8220;whether [the headteacher&#8217;s] decision to exclude the pupil was lawful, reasonable and procedurally fair&#8221;, and the GDC had indeed at the start of the first meeting identified that as the first question that it had to consider.  If it found that the Headteacher had acted unlawfully by failing to have regard to the PSED it was obliged to reinstate.  Any other approach would deprive the duty on the Headteacher of any real content and would be contrary to what Parliament intended.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept that submission.  The whole object of the procedure required by regulation 24 is to ensure that the governors are in a position to make for themselves the ultimate decision as to whether exclusion is required.  The provision for a meeting and for representations by all the interested parties, including the local authority, means that they will almost certainly be in a better position than the headteacher to assess the matters specified in sub-paragraph (3) (a).  The representations may cover matters of which the headteacher was unaware at the time of the original decision, and we were told that that is not uncommon.  It would make no sense if the fact that the governors detect an error in the headteacher&#8217;s decision-making (which will have been without the benefit of the material available to them) meant that their only option was to reinstate the pupil even if it was in fact clear that the exclusion was fully justified.  It is, as Sedley LJ says, wrong to regard the role of the GDC as being simply to review the decision of the headteacher for legality and rationality.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Para. 71 of the Guidance does not require a different conclusion.  In the first place, it is couched in terms of &#8220;should&#8221; and not &#8220;must&#8221;, guidance (see para. 10 above).  But in any event its effect is only to make clear that if the governors consider that the headteacher&#8217;s decision was lawful, reasonable and procedurally fair, taking account of the evidence that they have heard, they should uphold that decision.  It does not say anything about what they should do if they find that it was flawed.  No doubt if they find that it was unreasonable, or absolutely unlawful, they would have to reinstate.  But if they find that it was procedurally unfair, or unlawful only because of some error in the decision-making processes, nothing in the paragraph suggests that they cannot proceed to make their own decision, applying procedural fairness and on a correct legal basis; and regulation 24 (3) (a) requires that they should.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Harrison&#8217;s second submission was that even if the GDC could in principle have cured the Headteacher&#8217;s error of law by considering the PSED for itself it had failed to do so.  She relied on a criticism made by the IRP at para. 8.5 of its decision about the GDC&#8217;s consideration of the level of support received by TZB.    I shall have to return to that later in connection with ground (B) (see para. 104 below), but subject to that I can say that I see no basis for any conclusion that in taking its decision not to reinstate him or its later reconsideration of that decision (which is ultimately what matters), the GDC failed to take the PSED into account.  At the first meeting it had been reminded of it explicitly by both KM and the local authority and it had referred to it in terms in its own reasons (see para. 10.10 of the minutes).  At the reconsideration meeting it was the entire focus of the submissions of JFKL and Mr Persey and it was extensively referred to in the relevant minutes: see paras. 56-57 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I accordingly accept Mr Cross&#8217;s submission on ground 1 under the Respondent&#8217;s Notice.  That being so, I need not consider the School&#8217;s further alternative answer based on section 31 (2A) of the 1981 Act.  Nor, strictly, is it necessary that I address the grounds of appeal, but I will nevertheless briefly do so.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Ground 1 </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the ground as fully pleaded, the Claimant now accepts, and Ms Harrison confirmed before us, that there is no legal requirement that a decision-maker should make a contemporaneous written record of their consideration of the matters identified in section 149 (1) of the Act.  That is in truth very well established in the authorities, and it is rather surprising that the Claimant sought to persuade the IRP and the GDC otherwise.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The argument now advanced is that the absence of any such record remained a relevant evidential consideration in deciding whether as a matter of fact the Headteacher did have regard to those considerations, and that it is clear from the minute of the reconsideration meeting that the GDC wrongly proceeded on the basis that such a record existed when it did not.  But the Judge found that the reference in that minute to &#8220;written evidence&#8221; was to the minutes of the earlier meeting.  That being so, the GDC was aware that there was no contemporaneous written evidence of the kind that the Claimant was then contending was necessary: rather, it was relying on the record of what the Headteacher had told them at the meeting.  Her statement that she had in fact had regard to the requirements of the Act was evidence on which it was entitled to rely.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This ground essentially challenges the Judge&#8217;s reasoning at paras. 59-68 of his judgment (see para. 63 above).  Ms Harrison submitted that his approach in those paragraphs showed a failure to appreciate the rigorous nature of the duty imposed by section 149 (1).  She referred to the well-known summary of the approach required by the section in para. 26 of the judgment of McCombe LJ in <span style="font-style:italic">Bracking v Secretary of State for Work and Pensions </span>[2013] EWCA Civ 1345, and specifically to the passages emphasising that &#8220;due regard&#8221; requires a rigorous and conscientious focus on the specific considerations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not believe that the Judge fell into any such error.  His reasoning in the paragraphs which I have quoted correctly begins with the proposition that what section 149 (1) requires depends on the context.  He rightly emphasised that the decision in this case was an individual decision affecting a single pupil: cf my observations at paras. 22-24 above.  His point that the Headteacher was, and would have been known by the GDC to be, very familiar with the disproportionate exclusion rate for pupils with TZB&#8217;s characteristics, and the impact that exclusion would necessarily have on him, is important and apposite.  He considered that what she then needed to do was to consider whether, taking that factor into account, it was nevertheless right to exclude him in the light of the seriousness of the misconduct found and the harm that would be done by allowing him to remain as a pupil: if that was done the PSED would be satisfied.  That was in my view a sensible and correct approach.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Ground 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This ground is based entirely on the parenthesis in para. 63 of the judgment &#8220;(as was demonstrated by her evidence in her witness statement)&#8221;.  Ms Harrison contends that the Judge thereby wrongly took into consideration material that was not before the GDC and could not therefore justify it in concluding that the Headteacher had had due regard to the PSED.  There is nothing in this.  The Judge&#8217;s reference to the Headteacher&#8217;s witness statement is in parentheses precisely because it merely confirms the point already substantively made in paras. 60-61.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">CONCLUSION ON GROUND (A)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge was right to reject the PSED challenge, both for the reasons that he gave and for the further reason advanced in the Respondent&#8217;s Notice.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I wish to add that the nature of the arguments on this ground illustrates the point which I have made earlier that a focus on the requirements of the PSED in the context of an individual exclusion decision is liable to be distracting and unhelpful.  The proper focus for the decision-takers in this case, and thus also the focus of any challenge to their decision, was on an assessment of the individual circumstances of TZB&#8217;s case &#8211; what he had done, the risk of harm to others (and to him) if he remained at the School, and any other particular features of his case (which might in principle include the fact that he came from a group which was at disproportionate risk of exclusion and/or any failures in his past support &#8211; though as to this see paras. 22-24 above).  Packaging the necessary assessment as a compliance with the requirements of the PSED adds nothing of substance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_18">
+	  <num style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">(B)</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">THE INADEQUATE REASONS GROUND</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">INTRODUCTION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As we have seen, regulation 26 (2) required the GDC to notify the Claimant of its decision on the reconsideration &#8220;and the reasons for it&#8221;.  It was the Claimant&#8217;s case before the Judge that the GDP did not discharge that duty because the minutes, which is where its reasons are to be found, do not address the particular concerns identified by the IRP which caused it to recommend a reconsideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The IRP gives its reasons for recommending reconsideration at para. 9.5 of its Decision, where it says:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;In considering this protracted Appeal the Panel could not find any reason that was so compelling or of such magnitude that would merit quashing the permanent exclusion. However, there are sufficient reasons for the Governing Body to consider the reinstatement of [TZB] (see para 8).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although the IRP there says that its reasons for recommending reconsideration are to be found in &#8220;para 8&#8221; of its Decision, that section runs over two pages, comprising numerous paragraphs.  It contains various criticisms of the approach taken by the Headteacher and/or the GDC, but there is no definitive list.    That needs to be borne in mind in considering exactly what points the GDC should have been expected explicitly to address in its reconsideration.  But the Judge produced a helpful summary in para. 88 of his judgment, on which both counsel before us based their submissions.  This reads:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(i)</num>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.89in;margin-right:0.55in"><span style="color:#000000">the GDC failed to test whether the permanent exclusion was for a &#8216;serious&#8217; breach or for &#8216;persistent&#8217; breaches of the School&#8217;s behaviour policy (see paragraph [8.1]) of the IRP Decision);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.89in;margin-right:0.55in"><span style="color:#000000">the GDC did not test what [TZB&#8217;s] status was in the school prior to exclusion, contrary to paragraph [14] of the Department for Education&#8217;s guidance (see paragraph [8.2]) of the IRP Decision);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(iii)</num>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.89in;margin-right:0.55in"><span style="color:#000000">the GDC did not ascertain why the Headteacher had not given the family an opportunity to present their case before the decision to permanently exclude was made, contrary to paragraph [17] of the Department for Education&#8217;s guidance (see paragraph [8.2]) of the IRP Decision);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(iv)</num>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.89in;margin-right:0.55in"><span style="color:#000000">in relation to the second incident relied upon by the School, that the GDC had not noticed the reference in the family&#8217;s submission to the criminal case in respect of it having been dropped, and had not scrutinised it at the hearing or recorded it in the minutes was &#8216;unreasonable&#8217; (see paragraph [8.3]) of the IRP Decision);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(v)</num>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.89in;margin-right:0.55in"><span style="color:#000000">it was &#8216;unreasonable&#8217; for the GDC to fail to test whether a review was undertaken (in accordance with paragraph 19 of the Department for Education&#8217;s guidance) after each fixed term exclusion nor a formal assessment of TZB&#8217;s social, emotional and mental health, and whether more could be done&#8217; (see paragraph [8.5]) of the IRP Decision); and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(vi)</num>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.89in;margin-right:0.55in"><span style="color:#000000">the GDC failed to consider the fact that TZB was due to sit his GCSEs shortly after his permanent exclusion, which was relevant to the issue of proportionality, and which may have made a long fixed term exclusion more appropriate (see paragraph [8]) of the IRP Decision).&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.5in">The language of &#8220;unreasonableness&#8221; in connection with concerns (iv) and (v) reads rather oddly, but it reflects the fact that the question which the IRP was addressing in this part of section 8 was framed by it in terms of the <span style="font-style:italic">Wednesbury</span> test. </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">THE MINUTES</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As noted at para. 55 above, the first part of the reconsideration meeting consisted of a discussion between the members of the GDC of the reasons why the IRP had recommended reconsideration.  The minutes of that part of the meeting read as follows (I have added paragraph numbers for ease of reference):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;[1]  The Panel agreed the documents which had been circulated in advance of this meeting, they also discussed the reasons that the IRP had recommended that the Panel review their decision. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[2]  [The Chair] commented that the IRP had stated that the Panel had not considered whether [TZB] would miss examinations because of the exclusion.  She added that she believed that the Panel had considered this but it had not been recorded in the minutes, (panel members confirmed that this had been discussed at the original GDC meeting).  [The Chair] added this had slipped her mind at the time of the IRP as the GDC had been held eight months previously and due to the level of questioning aimed at her she had failed to recall the discussion.  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[3]  It was also commented that the IRP had stated that [one of the panel members] had abstained from voting because she felt that [TZB] should be given a second chance.  The reasons that [she] had abstained was because she had been concerned about his exams.  [She] confirmed that she had abstained due to concern about [TZB&#8217;s] mental health and the disclosure at the GDC of his suicide attempt, not the exam situation. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[4]  It was agreed that the family were concentrating on the requirements of the PSED, the IRP had not felt that the Panel should consider this issue further. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[5]  The Panel commented on the level of support provided to [TZB], he had been provided with support since the transition period in Year 6, this had been fully outlined in the pack submitted to the original GDC meeting.  It was also noted that the Pastoral Support Plan dated 20 November 2020 had stated that &#8216;both school and home have identified a marked change in his attitude this year as he is presenting increasingly more defiant&#8217;.  It also stated: &#8216;he had behaved dangerously putting others at risk and causing disruption.&#8217; </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[6]  The Panel agreed that they had considered the two-fold test in considering the recommendation for a permanent exclusion.   </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[7]  [Already quoted at para. 55 above]</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">[8]  The Panel also commented that they had asked the family and the School if there was anything further that could have been done to support [TZB] and nothing further was identified.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">(Again, the references to &#8220;the Panel&#8221; are to the GDC itself.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The minutes then cover the part of the meeting relating to the PSED, with which I have already dealt.  I have also set out the final conclusion (see para. 57 above), but I repeat the final two sentences:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The Panel were also satisfied that [TZB&#8217;s] SEN needs had been considered and that the School had done everything it could to support [TZB].  The Panel also considered all the points raised by the IRP and, having thoroughly reviewed all the evidence submitted to them, they agreed to decline to reinstate TZB.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It will be seen that although the GDC spent the best part of an hour discussing the IRP&#8217;s concerns the only one of those identified by the Judge which is specifically addressed in the minutes is that it had not considered the fact that TZB was about to sit his GCSEs (concern (vi)): see paras. [2]-[3] of the minutes.  Paras. [5] and [7]-[8] make some points that might be relevant to some of the IRP&#8217;s other concerns, but they do not directly address them.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">THE JUDGE&#8217;S REASONING</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge considered the reasons challenge at paras. 79-97 of his judgment.  He began, at paras. 77-83, by referring to a number of well-known authorities setting out the principles about the standard of reasons required from a decision-maker.  I need not reproduce the whole passage, but I should note that at para. 82 he refers to para. 36 of the speech of Lord Brown in <span style="font-style:italic">South Bucks District Council v Porter (no. 2)&#160;</span>[2004] UKHL 33,&#160;[2004] 1 WLR 1953, noting from it that</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in"><span style="color:#000000">&#8220;reasons &#8216;must enable the reader to understand why the matter was decided as it was and what conclusions were reached on the &#8220;principal important controversial issues&#8221;&#8217; and &#8216;can be stated briefly&#8217;, and &#8216;a reasons challenge will only succeed if the party aggrieved can satisfy the court that he has genuinely been substantially prejudiced by the failure to provide an adequately reasoned decision&#8217;.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At para. 84 he says, relying on that passage, that there was no need for the GDC to address every point raised before it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At para. 83 the Judge made the point, which was not challenged by Ms Harrison and which is plainly correct, that in order to ascertain the GDC&#8217;s reasons for deciding to maintain its original decision it was necessary to read the minutes of the reconsideration decision together with the minutes of the original decision and the letter of 8 June 2021.  He also said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in"><span style="color:#000000">&#8220;For these purposes its reasons cannot include what is said in the witness statements of the chair of the GDC or the Headteacher.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is important because one of Ms Harrison&#8217;s challenges to the Judge&#8217;s reasoning is that he illegitimately took into account reasons which only appear in those witness statements.  In the light of his explicit self-direction to the contrary, that is hard to sustain.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The core of the Judge&#8217;s reasoning as regards the GDC&#8217;s response to the IRP&#8217;s concerns appears in paras. 91-96, where he addresses the IRP&#8217;s six points as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;91.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Concern (i) is puzzling, since under the heading &#8216;Decision&#8217; in the minutes of the initial GDC meeting it is stated: &#8216;It was agreed that the incidents constituted a serious breach of the School&#8217;s Behaviour Policy&#8217;. In view of this clear statement, it wasn&#8217;t incumbent on the GDC to explain this any further.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>92.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Concern (ii) relates not to TZB&#8217;s permanent exclusion, but rather to the situation prior to that exclusion. As such it wasn&#8217;t necessary for the GDC to deal with that either.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>93.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Concern (iii) is based on a misunderstanding on the part of the IRP about what paragraph 17 of the guidance says: it refers to giving an opportunity to the pupil, not the family, to present their case, and the GDC was aware that the School had taken a statement from TZB as to his account of events. As such, the GDC didn&#8217;t need to address this specifically in its reasons.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>94.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Concern (iv) is raised in the context of the IRP having accepted the School&#8217;s finding that the second alleged incident did in fact occur. As such, the GDC was not required to address this concern specifically in its reasons.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>95.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">Concern (v) is adequately addressed by the GDC&#8217;s explanation of the consideration it gave to the support afforded to TZB in the opening paragraph of page 2 of the GDC reconsideration meeting &#8230;:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;margin-right:0.55in"><span style="color:#000000">&#8216;[5]  The Panel commented on the level of support provided to [TZB], he had been provided with support since the transition period in Year 6, this had been fully outlined in the pack submitted to the original GDC meeting. It was also noted that the Pastoral Support Plan dated 20 November 2020 had stated that &#8220;both school and home have identified a marked change in his attitude this year as he is presenting increasingly more defiant&#8221;. It also stated: &#8220;he had behaved dangerously putting others at risk and causing disruption&#8221;.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;margin-right:0.55in"><span style="color:#000000">&#8230;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;margin-right:0.55in"><span style="color:#000000">[8]  The Panel also commented that they had asked the family and the School if there was anything further that could have been done to support [TZB] and nothing further was identified.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>96.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in"><span style="color:#000000">In respect of concern (vi), the fourth paragraph after TZB&#8217;s name on the first page of the minutes of the GDC reconsideration meeting explains that the GDC had considered whether TZB would miss any examinations and was aware that arrangements had been made to allow TZB to take his exams.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">(I have inserted the square-bracketed paragraph numbers in the quoted passages in para. 95, to allow cross-reference to my para. 55.)</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_22">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">THE APPEAL</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Harrison did not challenge the Judge&#8217;s finding at para. 96 that the GDC had given reasons addressing concern (vi).  As regards the other concerns, it was her case that the exercise carried out by the Judge in paras. 91-94 of his judgment as regards concerns (i)-(iv) was illegitimate.  He was not identifying reasons actually given by the GDC for why the IRC&#8217;s concerns did not lead it to change its decision but reasons why in his opinion it was unnecessary for it to do so.  That could not repair the GDC&#8217;s failure to give its own reasons.  Given the role of the IRP as the independent monitor of school exclusion decisions, it was essential that a GDC undertaking a reconsideration in response to a IRP decision should give reasons for each and every point of concern raised.  As regards concern (v), the position was rather different since the Judge identified passages in the minutes which he said adequately addressed the IRP&#8217;s point; but she submitted that they did not in fact do so.  She referred us to the <span style="font-style:italic">XYZ</span> case (see para. 50 above) in order to show the degree of detail in which the governors in that case had given their reasons for maintaining their original decision.  She also referred to a decision of Mr Philip Mott QC in <span style="font-style:italic">R (AT and BT) v London Borough of Barnet</span> [2019] EWHC 3404 (Admin), in which he said that cogent reasons would be required for a local authority not following a recommendation of the First-tier Tribunal (Special Educational Needs and Disability).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not accept the submission that the GDC was required as a matter of law to address every specific point made by the IRP.  I can see that it might have been respectful to the IRP, and perhaps also a good discipline, for it to have done so; but I see no reason to depart from the usual approach summarised at para. 88 above.  If the concerns raised by the IRC were irrelevant, or of only marginal significance, to the decision whether TZB should be reinstated, a failure to address them specifically cannot invalidate the decision itself.  It is relevant in this connection that, as I have already noted, the IRP itself produced no definitive list of the concerns which it believed the GDC should address.  Section 8 includes a variety of critical observations about the previous process of varying degrees of significance, some of which are indeed too trivial to have been included in the agreed summary at all.  The GDC was obliged to give only such reasons as showed why the substance of the criticisms raised by the IRP had not caused it to alter its decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Neither of the authorities referred to by Ms Harrison is of assistance.  Looking at the reasons given in <span style="font-style:italic">XYZ</span> cannot assist on whether the reasons given in this case were adequate.  As for <span style="font-style:italic">AT</span>, the relationship between school governors and the IRP is not analogous to the relationship between a local authority and the First-tier Tribunal.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question as regards concerns (i)-(iv) is thus whether all or any of them were in fact of real significance.  Ms Harrison contended that they all were and that the Judge was accordingly wrong to say that they did not need to be individually addressed.  She did not particularise that contention in her oral submissions but referred us to paras. 73-95 of her skeleton argument.  The position about concern (v) is whether the way in which the GDC addressed it was adequate.  I take the concerns in turn.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_23">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Concern (i)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should set out para. 8.1 of the IRP&#8217;s Decision in full.  It reads:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;It is not clear in [the exclusion letter] if the decision to exclude [TZB] was in response to a serious breach or persistent breaches ([Guidance] para 16). Paragraph 4 of [the exclusion letter] starts that a serious breach has occurred yet refers to two incidents. Almost by way of bolstering the case paragraph five asks that repeated acts of physical assault be considered. The [Guidance] is clear: it is either a serious breach or persistent breaches, not both and that should be made very clear to the family as to the reason for permanent exclusion.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Like the Judge, I find that criticism puzzling, but for more reasons than the one he identifies.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the first place, the Headteacher&#8217;s position on the reason for the exclusion is clear from the first five paragraphs of the exclusion letter (see para. 26 above).  The second paragraph says that she relies on the two incidents on 6 May as a breach the &#8220;seriousness&#8221; of which satisfies the first part of the two-fold test: in other words, she is relying on &#8220;serious breach&#8221; under para. 16 of the Guidance.  (The IRP seems to treat it as inconsistent that two incidents are regarded as constituting &#8220;a serious breach&#8221;: if its point is that the letter should have said &#8220;two serious breaches&#8221; that is, with respect, pedantic in the extreme.)  She says in the fourth paragraph that on the basis of that conduct alone she judges that the second part of the test is justified because TZB&#8217;s continued presence would present an unacceptable risk to others.  It follows that it was not necessary to rely on his previous record.  <span style="text-decoration-line:underline;text-decoration-style:solid">However</span>, she explains that she intends to refer to that record for two reasons.  First, the fact that he has not responded to previous sanctions reinforces the case on risk of further harm (fourth paragraph).  Second, if she were wrong that the incidents of 6 May were sufficiently serious by themselves, if they are taken with the breaches in his past record there is a &#8220;persistent&#8221; pattern of non-serious breaches which appears from his disciplinary record (fifth paragraph).  Both points are thus by way of reinforcement to her primary reason which is that both parts of the two-fold test are satisfied by reference to the incidents of 6 May alone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I can see nothing wrong with that approach.  It is very common for a decision-maker to say &#8220;reason A is sufficient; but if necessary I rely also or alternatively on reason B&#8221;.  The IRP appeared to regard at least the second point as wrong because it believed that para. 16 of the Guidance means that a school has to rely either on serious breach or on persistent breach but &#8220;not both&#8221;.  That cannot be right.  In some cases a Headteacher will believe the pupil both has committed a serious breach (or breaches) and has a history of persistent (non-serious) breaches.  It would be artificial and misleading if they had to plump for one or the other as the justification for exclusion; and in a case where it is possible that the parent may argue that the breach(es) relied on did not meet the required level of seriousness, it is simple prudence, not illegitimate &#8220;bolstering&#8221;, to have a fallback position based on persistent breaches (if the facts justify it).  Ms Harrison submits that it is important that the Claimant knew what case she had to meet; but the letter does that by making it clear that the School is relying (if necessary) not only on the two incidents of 6 May but also on TZB&#8217;s past record. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In fact, when the GDC reached its decision not to reinstate it was prepared to proceed only on the basis that the two incidents on 6 May constituted a serious breach: see the first paragraph quoted from its letter of 8 June 2021 and para.10.5 of the minutes.  In other words, it upheld the exclusion simply by reference to the Headteacher&#8217;s primary case.  I can see nothing wrong in that or, like the Judge, anything that needed explaining.  In her skeleton argument Ms Harrison submits that the GDC &#8220;failed to test&#8221; the Headteacher&#8217;s reasoning.  Even if, contrary to what I believe, there were some lack of clarity about the that reasoning, the point would go nowhere for the reasons given at paras. 69-75 above.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In her skeleton argument Ms Harrison says that past conduct is not relevant if the basis for a permanent exclusion is a one-off &#8220;serious breach&#8221; of the school&#8217;s behaviour policy rather than &#8220;persistent breaches&#8221; over an extended period.  I regard that as over-simple.  Even in a case based on a single serious breach it may be relevant to consider the pupil&#8217;s past record in order to assess the risk of harm in the future, or in order to see if there are any extenuating circumstances or other features which would render permanent exclusion disproportionate: as noted at para. 23 above, the two-fold test is not necessarily exhaustive.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_24">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Concern (ii) </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This concerns arises from para. 14 of the Guidance, which says that &#8220;informal&#8221; or &#8220;unofficial&#8221; exclusions are unlawful.  The IRP was concerned that TZB may have been unofficially sent home in the interval between the incidents of 6 May and his exclusion a week later and observes that the GDC did not &#8220;test&#8221; this question.  I agree with the Judge that, even if this was a justified concern, it was not a matter which could in itself have affected the decision whether to reinstate TZB.  In her skeleton argument Ms Harrison asserts that &#8220;it was plainly relevant to the lawfulness of the Headteacher&#8217;s conduct vis-&#224;-vis TZB generally&#8221;; but that does not make it material to the exclusion decision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_25">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Concern (iii)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This concern, and the Judge&#8217;s explanation of why it was misconceived, are self-explanatory.  Ms Harrison in her skeleton argument says that the Judge&#8217;s reasoning was &#8220;erroneous&#8221; because what the IRP was saying was that the Claimant, as TZB&#8217;s &#8220;family&#8221;, as well as TZB himself (who had been given that opportunity), should have been given the chance to be heard.  But that ignores the very point that the Judge was (correctly) making, namely that para. 17 of the Guidance, on which the IRP&#8217;s concern was expressly based, recommends only that the headteacher should give <span style="text-decoration-line:underline;text-decoration-style:solid">the pupil</span> an opportunity to present their case.  I would add that the criticism could not in any event impugn the GDC&#8217;s decision to refuse reinstatement since, in accordance with the scheme of the Regulations, the family had a full opportunity to present TZB&#8217;s case at the GDC meeting.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_26">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Concern (iv)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The background to this point is that the GDC was told by the family that the police investigation in relation to the second incident had been dropped.  It was argued before the IRP that that meant that the School could not properly find that it had occurred, or in any event that TZB was involved.  The IRP rejected that argument (albeit, as it said, &#8220;just&#8221;) and thus accepted that the GDC had been entitled to make the finding that it did.  However, it went on to say:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;that the GDC had not noticed the reference to the case being dropped in the families submission ... nor scrutinised it at their hearing, nor have it recorded in the minutes is unreasonable&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This criticism is thus a rap over the knuckles for the GDC for a particular failing in its reasons, but it does not affect its conclusion that the GDC&#8217;s actual finding about the second incident was sustainable.  That being so, it goes nowhere.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Harrison in her skeleton argument seeks to get round that difficulty by saying that the fact that the police investigation had been dropped remained relevant to &#8220;the seriousness of the incident&#8221; and thus the proportionality of exclusion.  But, as explained above, that was not the context in which the IRP made its criticism, and there was no need for the GDP to address a point that had not been made. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_27">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Concern (v)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The full criticism summarised as concern (v) appears in para. 8.5 of the IRP&#8217;s decision.  I have quoted the opening words of that paragraph at para. 46 above, but the relevant part for our purposes is what follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;The EHAP [Early Help and Assessment Programme] for [TZB] was closed in October 2020 and there were three FTEs: 27th November 2019, 17th November 2020 and 26th March 2021. Mindful that the Clinical Psychologist&#8217;s letter is dated September 2018 &#8230; there is sparse record of any documented formal review of [TZB&#8217;s] SEND in relation to his behaviour. In particular, there is no evidence that after each FTE [Fixed-Term Exclusion] a review was undertaken as per [Guidance] para 19, nor a formal assessment of [TZB&#8217;s] Social, Emotional and Mental Health and whether more could be done ... Here the GDC did fail to test these relevant points and record that test and their deliberations in the minutes. This is unreasonable.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As we have seen, the Judge believed that this criticism was sufficiently addressed in paras. [5] and [8] of the minutes of the reconsideration meeting, which he quoted.  Ms Harrison challenges that conclusion because the paragraphs in question do not address the IRP&#8217;s specific points about the absence of any review following TZB&#8217;s previous exclusions nor a formal assessment of his social, emotional and mental health.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Harrison is clearly right that the passages relied on by the Judge do not refer explicitly to those two points.  Mr Cross&#8217;s principal response was that they did not need to.  What they show is that in its lengthy discussion of the &#8220;non-PSED&#8221; aspect of its decision the GDC went back over the whole question of the level of support provided to TZB, which it had been fully taken through at the first meeting by reference to the pack supplied to and concluded that he had received as much support as it could reasonably give.  In that connection he referred us to paras. 2.7 and 2.8 of the minutes of the first meeting.  These are extremely lengthy, but I quote the parts relating specifically to the support being received by TZB having regard to his special educational needs (I have inserted the letters [A]-[I] for ease of reading): </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in">&#8220;[The Assistant Head] outlined the extensive support given to [TZB]. &#8230; [A] An Education Plan had been developed for [TZB] each year.  &#8230; The Education Plan built on the curriculum that a student with learning difficulties or disabilities was following and set out the strategies being used to meet that student&#8217;s specific needs and inform the teacher and others working with the child of specific targets for him and how these will be reached. Additionally, it allowed the School and staff to plan for progression, monitor the effectiveness of teaching. monitor the provision for additional support needs within the School, collaborate with parents and other members of staff and help [TZB] become more involved in his own leaming and work towards specific targets. An Education Plan supported teaching and learning and set out actions for the teacher and student that are different from or additional to those that are in place for the rest of the class. It was reported that the Education Plan was no longer a legal requirement, &#8230; but as a school that believes in doing what is best for the students, having an education plan in place for each of our SEN students is a part of our best practice in school. The provision was monitored against the plan through termly SEND review meetings. [B] It was further reported that a Pastoral Support Plan was in place which was shared with all teaching staff. A Pastoral Support Plan was a school-based document which helps students to improve their social, emotional and behavioural skills. The PSP identified precise and specific targets for [TZB] to work towards. [C] &#8230; [TZB] attended the Behaviour for Leaming programme to improve his behaviour inside and outside the classroom, to therefore assist his learning and help build strong relationships with both peers and teachers. [D] [TZB] had challenges with self-confidence and had been placed on the Friends for Life. This was an intervention based on CBT (Cognitive Behavioural Therapy) designed to support students with maintaining positive relationships. The programme used CBT to address negative thought patterns about oneself to build self-esteem and teaches students healthy coping strategies, problem solving skills and assertiveness to better maintain positive relationships. </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>2.8</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.55in;text-indent:0.02in">[E] He had also attended the Boys with a Purpose programme. Boys were taught a bespoke scheme of work to develop their self-awareness and resilience. Lessons focused on enabling students to better understand themselves as learners and individuals and work to build healthy and positive relationships with others. The aim of the programme was to cultivate resilience, motivation and optimism for the future and to empower to view themselves and their worlds in positive terms. [F] He had access to the School's counselling service and attended 12 sessions. Sessions were run by an external agency to support [TZB] in a talking-based therapy. The counsellor was a trained, objective professional with whom [TZB] could build a healing and trusting relationship. Students engaged in this process of talking about and working through your personal problems. [G] He received 11 placements in the Inclusion Centre and received support on the Social and Emotional Aspects of learning. The placement is set up to allow bespoke specialist small group support tailored to individual needs, taught by specialist SEN and mainstream teachers with daily tracker sheets sent home to include parental support. [H] He had also been assessed by the Clinical Psychologist and had sessions with her. [I] The School had opened an Early Help Assessment Plan (EHAP) and made eight referrals to Social Services.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Cross referred to this passage not so that we could ourselves assess the adequacy of the support given to TZB, which is not the issue before us, but simply so that we could assess the context for the reasoning that appears in the minutes of the subsequent reconsideration meeting.  The substantive exercise required by what the IRP had said was for the GDC to go back over that support and decide (in the IRP&#8217;s own phrase) &#8220;whether more could be done<authorialNote class="footnote" marker="9">
+		<p class="FootnoteText"><span> </span><marker name="tab"/><span>   </span><span style="font-size:11pt">I think this </span><span style="font-size:11pt">includes also</span><span style="font-size:11pt"> whether mo</span><span style="font-size:11pt">re</span><span style="font-size:11pt"> could have been done.</span></p>
+	      </authorialNote>&#8221;.  Whether or not the particular steps referred to by the IRP had been taken was not of the essence: what mattered was whether there had been a failure of support of a kind which might have affected the decision whether to reinstate TZB.  Mr Cross pointed out that para. 19 of the Guidance does not in fact recommend, let alone require, a formal review after each fixed-term exclusion or a formal assessment of the pupil&#8217;s social, emotional and mental health a review was undertaken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On balance I am persuaded by that submission.  I am bound to say that it would have been better if the GDC had said in terms that the particular kinds of support identified by the IRP would not have been significant in the context of the support that TZB was already receiving, but I do not feel able to say that the failure to do so amounted to an error of law.  The duty to give reasons, important as it is, should not impose an unrealistic burden on governors undertaking a reconsideration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the light of that conclusion I need not consider two alternative submissions raised in the School&#8217;s Respondent&#8217;s Notice, namely (1) that it was legitimate to refer to the witness statement given by the Chair of the GDC in these proceedings, which elucidated what was said in the minutes (see the decision of Laws J in <span style="font-style:italic">W v Education Appeal Committee of Lancaster County Council</span> [1994] ELR 533); and (2) that (as in relation to Ground (A)) relief should be refused under section 31 (2A) of the 1981 Act.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_28">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CONCLUSION </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would for those reasons dismiss the Claimant&#8217;s appeal.  In conclusion, I would like to pay tribute to the clarity of the Judge&#8217;s comprehensive judgment and the care which evidently went into it.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_29">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">King LJ:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_30">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Warby LJ:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also agree.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1166 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2025/964"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2025/964"/>
+	  <FRBRdate date="2025-04-17" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-commercial"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="964"/>
+	  <FRBRname value="CC/Devas (Mauritius) Ltd &amp; Ors v Republic of India"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/964"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/964"/>
+	  <FRBRdate date="2025-04-17" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-commercial"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/964/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/964/data.xml"/>
+	  <FRBRdate date="2025-04-17T09:34:08" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-17" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-commercial" href="https://www.gov.uk/courts-tribunals/commercial-court" showAs="The Business and Property Courts (Commercial Court)" shortForm="The Commercial Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="cc/devas-mauritius-ltd" href="" showAs="CC/DEVAS (MAURITIUS) LTD."/>
+	<TLCPerson eId="devas-employees-mauritius-private-limited" href="" showAs="DEVAS EMPLOYEES MAURITIUS PRIVATE LIMITED"/>
+	<TLCPerson eId="telcom-devas-mauritius-limited" href="" showAs="TELCOM DEVAS MAURITIUS LIMITED"/>
+	<TLCPerson eId="ccdm-holdings-llc" href="" showAs="CCDM HOLDINGS LLC"/>
+	<TLCPerson eId="devas-employees-fund-us-llc" href="" showAs="DEVAS EMPLOYEES FUND US LLC"/>
+	<TLCPerson eId="telcom-devas-llc" href="" showAs="TELCOM DEVAS LLC"/>
+	<TLCPerson eId="the-republic-of-india" href="" showAs="THE REPUBLIC OF INDIA"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-sir-william-blair" href="/judge-sir-william-blair" showAs="Sir William Blair"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Commercial</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>964</uk:number>
+	<uk:cite>[2025] EWHC 964 (Comm)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>877c90e637de171efc4b76fe5ed54745bc726d34702dd85c7d4ffc0568e618d8</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .CourtRight { text-align: right; font-weight: bold; font-family: Tahoma; font-size: 10pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 9pt; }
+#judgment .4GCharChar { text-align: justify; vertical-align: super; font-size: 10pt; }
+#judgment .Paragraph1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .Paragraph2 { text-align: justify; margin-left: 1in; font-size: 12pt; }
+#judgment .Paragraph3 { text-align: justify; margin-left: 1.5in; font-size: 12pt; }
+#judgment .EndnoteText { font-size: 10pt; }
+#judgment .CourtRightChar { font-weight: bold; font-family: Tahoma; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .FootnoteTextChar { font-family: Arial; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .EndnoteTextChar { }
+#judgment .EndnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 964 (Comm)</neutralCitation></p>
+      <p class="CoverText"><docketNumber>CL-2021-000253</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-commercial">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-commercial" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-commercial" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">COMMERCIAL COURT (KBD)</courtType></p>
+      <p><docTitle style="font-weight:bold">IN THE MATTER OF THE STATE IMMUNITY ACT 1978</docTitle></p>
+      <p><span style="font-weight:bold">AND AN ARBITRATION BETWEEN:</span></p>
+      <p class="CoverText">Royal Courts of Justice,</p>
+      <p class="CoverText">Rolls Building, 7 Rolls Buildings</p>
+      <p class="CoverText">Fetter Lane, London, EC4A 1NL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-17" refersTo="#judgment">17 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-sir-william-blair">Sir William Blair</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="text-decoration-line:none">(Sitting as a Judge of the High Court) </span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <blockContainer>
+	<num style="font-weight:bold">(1)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#cc/devas-mauritius-ltd" as="#claimant" style="font-weight:bold">CC/DEVAS (MAURITIUS) LTD.</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold">(2)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#devas-employees-mauritius-private-limited" as="#claimant" style="font-weight:bold">DEVAS EMPLOYEES MAURITIUS PRIVATE LIMITED</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold">(3)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#telcom-devas-mauritius-limited" as="#claimant" style="font-weight:bold">TELCOM DEVAS MAURITIUS LIMITED</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold">(4)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#ccdm-holdings-llc" as="#claimant" style="font-weight:bold">CCDM HOLDINGS LLC</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold">(5)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#devas-employees-fund-us-llc" as="#claimant" style="font-weight:bold">DEVAS EMPLOYEES FUND US LLC</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold">(6)</num>
+	<p style="text-align:center;text-indent:0.5in"><party refersTo="#telcom-devas-llc" as="#claimant" style="font-weight:bold">TELCOM DEVAS LLC</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#claimant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Claimants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center"><party refersTo="#the-republic-of-india" as="#defendant" style="font-weight:bold">THE REPUBLIC OF INDIA </party></p>
+      <p style="text-align:right"><role refersTo="#defendant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Defendant</role></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Ricky Diwan KC, Tariq Baloch KC, Miriam Schmelzer </span>(instructed by <span style="font-weight:bold">Gibson, Dunn &amp; Crutcher LLP</span>)<span style="font-weight:bold"> </span>for the Claimants</p>
+      <p style="text-align:center"><span style="font-weight:bold">Sudhanshu Swaroop KC</span> (instructed by <span style="font-weight:bold">White &amp; Case LLP</span>) for the Defendant</p>
+      <p style="text-align:center">Hearing dates: 11, 12 March 2025</p>
+      <p style="text-align:center">Draft judgment circulated: 15 April 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center">This judgment was handed down at 10.30am on 17 April 2025 by circulation to the parties<br/>or their representatives by e-mail and by release to the National Archives.<br/>.............................<br/>SIR WILLIAM BLAIR</p>
+	    <p><span style="font-weight:bold">Sir William Blair:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This judgment concerns a question as to sovereign immunity as regards the enforcement of arbitration awards made in favour of the 1<span style="vertical-align:super;font-size:smaller">st</span> to 3<span style="vertical-align:super;font-size:smaller">rd</span> Claimants against the Defendant, the Republic of India, under the provisions of a Bilateral Investment Treaty (the BIT Awards). Only the 4<span style="vertical-align:super;font-size:smaller">th</span> to 6<span style="vertical-align:super;font-size:smaller">th</span> Claimants appeared before the Court on this matter. For the purposes of this judgment, it is however not necessary to distinguish between the Claimants, which term is used unless the context otherwise requires.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In short, the question for decision is whether India has submitted to the adjudicative jurisdiction of the English courts by its ratification of the Convention on the Recognition and Enforcement of Foreign Arbitral Awards (New York, 1958) (NYC).  By virtue of Article III of the NYC, this is said by the 4<span style="vertical-align:super;font-size:smaller">th</span> to 6<span style="vertical-align:super;font-size:smaller">th</span> Claimants claiming as assignees to constitute consent by &#8220;prior written agreement&#8221; to the court&#8217;s jurisdiction within the meaning of s.2(2) of the State Immunity Act 1978 (SIA), that being the relevant legislation under English law.  India denies that this constitutes consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The key provisions of the SIA (which applies throughout the UK) include:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Section 1 <span style="font-weight:bold">General immunity from jurisdiction.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A State is immune from the jurisdiction of the courts of the United Kingdom except as provided in the following provisions of this Part of this Act. &#8230;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Section 2 <span style="font-weight:bold">Submission to jurisdiction.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A State is not immune as respects proceedings in respect of which it has submitted to the jurisdiction of the courts of the United Kingdom.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A State may submit after the dispute giving rise to the proceedings has arisen or by a prior written agreement;  &#8230;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A further provision central to the Claimants&#8217; case is s. 17 SIA, which provides that in s. 2(2), &#8220;references to an agreement include references to a treaty, convention or other international agreement&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The key provision of the New York Convention is Article III which provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Article III</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Each Contracting State shall recognize arbitral awards as binding and enforce them in accordance with the rules of procedure of the territory where the award is relied upon, under the conditions laid down in the following articles.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case followed the normal process by which a foreign arbitration award is enforced in this jurisdiction.  On 29 June 2021, the 1<span style="vertical-align:super;font-size:smaller">st</span> to 3<span style="vertical-align:super;font-size:smaller">rd</span> Claimants obtained a &#8220;without notice&#8221; enforcement order in respect of their application to enforce the BIT Awards under s.101 of the Arbitration Act 1996.  By s.101, New York Convention awards may be enforced in the same manner as a judgment or order of the court to the same effect. However, such an order can be challenged by the defendant. On 5 May 2022, India applied to set aside the enforcement order on the basis that it is immune from the jurisdiction of the English Courts under s.1 SIA, and that s.9 SIA does not apply because India did not agree to submit the relevant disputes to arbitration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There are a considerable number of complexities which arise in this litigation partly because of concurrent litigation in the Netherlands.  The matter came on for a directions hearing before Sir Nigel Teare sitting as a Judge of the High Court. I pay respectful tribute to his judgment. The question (the &#8220;s.2 question&#8221;) was identified for preliminary resolution.  The s.2 question is set out in an order he made on 23 October 2024 as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Whether, for the purposes of enforcement of (i) the award on jurisdiction and merits dated 25 July 2016, and (ii) the award on quantum dated 13 October 2020 (&#8220;the Awards&#8221;), India has submitted to the adjudicative jurisdiction of the English Courts by prior written agreement within the meaning of s.2(2) of the State Immunity Act 1978, by its ratification of the New York Convention 1958 and thereby (on the Fourth to Sixth Claimants&#8217; case) its consent under Article III to the English Court recognising and enforcing the Awards.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is necessary to say a little more by way of explanation of the s.2 question.  It is referred to by the Claimants in their skeleton argument as being &#8220;whether India, by consenting under Article III of &#8230; the NYC to the Courts of the UK recognising and enforcing the Awards has thereby, by prior written agreement, submitted to the adjudicative jurisdiction of the English Courts for the purposes of s. 2(2) of the SIA&#8221;.  It is referred to by India as in its skeleton argument as being &#8220;whether India&#8217;s ratification of the &#8230; NYC is, <span style="text-decoration-line:underline;text-decoration-style:solid">on its own</span> and regardless of whether India agreed to arbitration, a submission by &#8220;prior written agreement&#8221; under s.2(2) SIA&#8221; (underlining in the original).  It is not suggested by either party that there is any substantive difference in their formulations. What is contemplated is ratification of the NYC, on its own, and regardless of whether India agreed to arbitration. It has been described to me as a pure point of law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I should make clear the practical limits of this question.  Normally, such a question does not arise in English law, because by s. 9 SIA, where a State has agreed in writing to submit a dispute to arbitration, the State is not immune as respects proceedings in the courts of the United Kingdom which relate to the arbitration.  There is no need to rely on a freestanding submission in Article III by reason of the state&#8217;s ratification of the NYC.  However, as is not unusual in these cases, India disputes the agreement to arbitrate. At my request, the parties agreed a statement as to their respective positions as regards s. 9:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;In addition to their case under s. 2, the Claimants also rely upon the exception to state immunity in s.9 of the SIA based on an alleged arbitration agreement said to be contained in the BIT.  India disputes the Claimants&#8217; reliance upon s.9 of the SIA, and contends that it did not agree to arbitrate the disputes. In this regard, India relies on various grounds, including the contention (that is opposed by the Claimants) that the legality requirements of the BIT were not met. In addition, in the context of the s.9 question, India has made an application for a stay of the proceedings based on the Court&#8217;s general case management powers, so far as applicable when resolving a question of state immunity, by reference to certain proceedings before the Dutch Courts, the courts of the seat. The Claimants oppose the stay application. &#8230; Sir Nigel Teare gave directions for the progression of Dutch and Indian law evidence, for the purposes of the s.9 question, including the stay application.  Those procedural steps remain in progress.  Accordingly, the s.9 question and India&#8217;s application for a case management stay remain outstanding and have not yet been determined. Neither the s.9 question, nor the stay application are for determination in this judgment.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In essence, the Claimants are pursuing the s. 2 question so as to bypass any further consideration of sovereign immunity, and so as to be able to proceed immediately to deal with India&#8217;s objections (which they contend have no merit and will be summarily dismissed) under the NYC.  This will save considerable time, and they have described in some detail the extraordinary delays in enforcement that have occurred elsewhere in the world, and will occur in England if issues related to state immunity require to be determined.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The last preliminary point concerns enforcement immunity.  The s. 2 question concerns submission to the court&#8217;s adjudicative jurisdiction, that is, its submission to the jurisdiction of the courts of the United Kingdom.  Submission as regards enforcement of arbitration awards against States is dealt with separately in s.13 of the SIA scheme, and raises different and discrete issues. By s. 13(2)(b), the property of a State is not subject to any process for the enforcement of an arbitration award, with an exception in respect of property which is used for commercial purposes (s. 13(4)).  Similarly to s. 2(2) in respect of jurisdiction, s. 13(3) lifts immunity with the written consent of the State concerned.  However, and importantly, it goes on to provide that &#8220;a provision merely submitting to the jurisdiction of the courts is not to be regarded as a consent &#8230;&#8221;. The enforcement issues have not been argued before me, and it is the position of both parties that submission to the court&#8217;s enforcement jurisdiction is also not a question arising for decision at this hearing. However, in their submissions, the Claimants assert that the use of the word &#8220;enforce&#8221; in Article III may well go beyond adjudicative jurisdiction, and constitute consent to enforcement under s.13(3).  This arose in the hearing as an issue, which I address further below.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The background facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In summary, the background facts are as follows. In 1998, an Agreement was entered into between the Government of the Republic of Mauritius and the Government of the Republic of India for the Promotion and Protection of Investments.  This bilateral investment treaty (the &#8220;Mauritius-India BIT&#8221;) came into force in 2000.  It was terminated on 22 March 2017.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The dispute arises out of a contract (the &#8220;Devas Contract&#8221;) dated 28 January 2005 concluded between a joint venture vehicle, Devas Multimedia Private Limited (&#8220;Devas&#8221;), and Antrix Corporation Limited (&#8220;Antrix&#8221;), both being Indian registered companies.  Antrix is an Indian registered entity wholly owned by the Government of India and acting under its directions.  It is described in the contract as a &#8220;Govt. of India Company under Department of Space&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Devas Contract was for the lease of a proportion of India&#8217;s S-Band spectrum on two Indian satellites to be operated by the Indian Space Research Organisation for the creation of a hybrid communications platform providing multimedia services across India. The &#8220;S-Band&#8221; is a portion of the electromagnetic spectrum that can be used to send and receive signals using small units, such as mobile phones and laptops, without requiring their antennas to be pointed directly at the satellite.  The Devas Contract contained an arbitration clause providing for arbitration in accordance with the rules and procedures of the ICC or UNCITRAL with a seat in New Delhi. There is no waiver of state immunity in the contract and presumably no need, since this was in substance a commercial contract between two Indian companies, albeit one is state owned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2011, India decided to terminate the Devas project and to annul the Devas Contract on account of what it considered was the need to preserve the S-Band spectrum for national purposes, rather than to lease to Antrix for commercial activities. This was publicly announced at the time. The annulment decision was taken by the Indian Cabinet Committee on Security (CCS).  This comprised of the Prime Minister, Minister of Home Affairs, Minister of External Affairs, Minister of Finance and the Minister of Defence; the Indian Space Commission; the Department of Space; the Indian Space Research Organisation; Antrix; and the Additional Solicitor-General, one of the law officers of India (<span style="font-style:italic">CCDM Holdings, LLC v Republic of India (No 3)</span> [2023] FCA 1266 at [11]). The decision was, in turn, relied upon by Antrix to terminate the Devas Contract on 25 February 2011.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2011 Devas brought an arbitration under the ICC Rules<br/>against Antrix.  This resulted in an award against Antrix dated 14 September 2015 (the &#8220;ICC Award&#8221;) in the sum of USD 562.5m on grounds of wrongful repudiation of the contract by Antrix. This case is not directly concerned with that award, though it does feature quite extensively in the Claimants&#8217; account of events.  As a matter of history, it was subsequently set aside in the Delhi High Court, reliance being placed on an earlier decision of the Supreme Court of India in proceedings for the liquidation of Devas.  It was recognised and enforced, however, by a decision of the Hague Court of Appeal on 17 December 2024, on grounds of absence of due process in the Indian proceedings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The present case is concerned with later arbitral proceedings brought in 2012 by the 1<span style="vertical-align:super;font-size:smaller">st</span> to 3<span style="vertical-align:super;font-size:smaller">rd</span> Claimants, which are Mauritian entities and shareholders in Devas, as investors.   The proceedings are brought pursuant to Article 3 of the UNCITRAL rules and Article 8 of the Mauritius-India BIT. The seat of the arbitration was The Hague, and the Permanent Court of Arbitration (PCA) was designated to act as registry and administer the arbitral proceedings.  The Tribunal consisted of the Hon. Marc Lalonde, PC, OC, QC, Mr. David Haigh QC, and the Hon. Shri Justice Anil Dev Singh.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India&#8217;s position was that the Tribunal lacked jurisdiction in that there was no qualifying &#8220;investment&#8221; within the meaning of the BIT, and that its decision to annul the Devas Contract was &#8220;directed to the protection of its essential security interests&#8221; &#8211; this is a carve-out from the jurisdiction provisions in the BIT.  An award on jurisdiction and merits was made dated 25 July 2016.  The Tribunal rejected India&#8217;s jurisdictional objection that the Devas Contract was not a qualifying &#8220;investment&#8221;.  However, it accepted that it lacked jurisdiction insofar as India&#8217;s decision to annul the Devas Contract was directed to the protection of its essential security interests, (though the Claimants&#8217; position is that the Tribunal did not treat the &#8220;ESI Issue&#8221; as being jurisdictional &#8211; I did not hear submissions on this point). It decided that this accounted for 60% of the annulment decision.  Though aspects of the award were by majority, the Tribunal unanimously decided that India breached its obligation to accord fair and equitable treatment to the 1<span style="vertical-align:super;font-size:smaller">st</span> to 3<span style="vertical-align:super;font-size:smaller">rd</span> Claimants.  An award on quantum followed dated 13 October 2020 (together the &#8220;BIT Awards&#8221;). I am told that the outstanding value of the awards stands in excess of EUR 195m (as at September 2024).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The BIT Awards (and the ICC Award) have given rise to labyrinthine proceedings in multiple jurisdictions on behalf of the investors to enforce the awards, and on behalf of India to prevent enforcement. Given that this case involves a point of law, it is not necessary to describe the background in detail.  Further information is set out in the judgment of Sir Nigel Teare of 18 October 2024 ([2024] EWHC 2618 (Comm)) in giving directions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A common feature of these proceedings is what are described in the Claimants&#8217; submissions as the &#8220;Illegality Allegations&#8221;. India&#8217;s case is that the &#8220;investment&#8221; under the BIT did not meet the legality requirements, so that India&#8217;s offer to arbitrate in Article 8 of the BIT did not apply and the Tribunal did not have jurisdiction to arbitrate the Claimants&#8217; claims. In the English proceedings, India&#8217;s state immunity challenge also pursues the argument that there was no qualifying &#8220;investment&#8221;.  However, the Claimants emphasise in argument that the Illegality Allegations were only raised after the awards.  They consist of allegations as to misrepresentations made as to Devas&#8217;s intention to use relevant technology, as to Devas&#8217;s ownership of intellectual property, as to an alleged fraudulent diversion of investment to the 1<span style="vertical-align:super;font-size:smaller">st</span> to 3<span style="vertical-align:super;font-size:smaller">rd</span> Claimants, and as to misrepresentations made to the Indian regulatory authority that the technology would be developed indigenously. The Claimants&#8217; case is that the Illegality Allegations are groundless and were deliberately not raised before the Tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants relate that criminal investigations have followed the Award in India, though charges have never been brought.  The Illegality Allegations were also used in liquidation proceedings brought by Antrix in respect of Devas.  After a provisional liquidation order was made in January 2021, it is said by the Claimants that the liquidator took steps to undermine Devas&#8217;s ability to enforce the ICC award by terminating the engagement of all of Devas&#8217;s lawyers across multiple jurisdictions where enforcement was sought.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The winding-up order was upheld by the Supreme Court of India in January 2022.  However, India&#8217;s claim for immunity has been rejected in one aspect or another in proceedings in some other countries &#8211; in Singapore (in the context of related enforcement proceedings brought by another investor in the Devas project, <span style="font-style:italic">Deutsche Telekom AG v. Republic of India</span> [2023] SGHC(I) 7), affirmed on somewhat different grounds in <span style="font-style:italic">Deutsche Telekom AG v. Republic of India</span> [2023] SGCA(I) 10), in the Netherlands (in various decisions at all levels of the Dutch courts in cases relating to the BIT Awards), and in Canada (most recently by a decision of the Court of Appeal of Quebec in <span style="font-style:italic">The Republic of India v CCDM Holdings, LLC &amp; Ors</span> [2024] QCCA 1620).  However, in January 2025, India&#8217;s case for immunity was upheld on appeal in the Federal Court of Australia (<span style="font-style:italic">Republic of India v CCDM Holdings, LLC</span> [2025] FCAFC 2).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants also draw attention to steps taken by India in Mauritius which they say are intended to prevent a second arbitration brought by the investors under the BIT in response to the obstacles placed in the way of enforcement.  The Claimants say that in anticipation, the 1<span style="vertical-align:super;font-size:smaller">st</span> to 3<span style="vertical-align:super;font-size:smaller">rd</span> Claimants assigned their rights to the 4<span style="vertical-align:super;font-size:smaller">th</span> to 6<span style="vertical-align:super;font-size:smaller">th</span> Claimants in December 2021.  The assignments are in dispute, 4<span style="vertical-align:super;font-size:smaller">th</span> to 6<span style="vertical-align:super;font-size:smaller">th</span> Claimants being joined to the proceedings without prejudice, inter alia, to any argument as to the validity and effect of the alleged assignments.  As noted above, only the 4<span style="vertical-align:super;font-size:smaller">th</span> to 6<span style="vertical-align:super;font-size:smaller">th</span> Claimants appeared before the Court on this matter. For the purposes of this judgment, it is however not necessary to distinguish between the Claimants, which term is used unless the context otherwise requires.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Claimants&#8217; case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants&#8217; case that is the s. 2 question should be answered in the affirmative because Article III of the NYC contains express consent from India that the UK Courts should recognise as binding and enforce arbitral awards falling within the scope of the NYC and necessarily therefore, consent to the UK Courts having adjudicative jurisdiction to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Infrastructure Services Luxembourg</span><span> </span><span style="font-style:italic">SARL v The Kingdom of Spain </span>1 Lloyd's Rep 66 under Article 54(1) it was held that consent under Article 54(1) of the ICSID Convention, which is similarly worded to Article III of the NYC, constituted a prior written agreement satisfying s. 2(2) SIA and constituting submission to the adjudicative jurisdiction of the UK court by prior written agreement. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case decided that for there to be an agreement in writing and therefore, an express submission to the jurisdiction under s.2(2) SIA, it is not necessary to use the term &#8220;waiver&#8221; or &#8220;submit&#8221; if the implication of waiver or submission is clear from the words expressly used. This is highly persuasive of the proper interpretation of Article III of the NYC, given the close similarity of language and no material difference with language of the ICSID Convention.  This is in accord with the rules of treaty interpretation in the Vienna Convention on the Law of Treaties (&#8220;VCLT&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Reliance is also placed on <span style="font-style:italic">General Dynamics United Kingdom Ltd v State of Libya</span> [2025] EWCA Civ 134 where a State party not being a party to the NYC agreed to an award being &#8220;<span style="font-style:italic">final, binding and wholly enforceable</span>&#8221;.  The State had also agreed to &#8220;<span style="font-style:italic">carry out</span>&#8221; the award &#8220;<span style="font-style:italic">without delay</span>&#8221; under the ICC Rules and the UNCITRAL Rules. It was held that the State had consented to the adjudicative jurisdiction and also to the enforcement jurisdiction of the UK Courts, and if there is enforcement jurisdiction, there is undoubtedly adjudicative jurisdiction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further support for this interpretation of s. 2(2) SIA is said to be derived from the presumption against adopting a construction that causes unjustifiable inconvenience in legal proceedings or anomalous results: <span style="font-style:italic">Bennion on Statutory Interpretation</span>, 8<span style="vertical-align:super;font-size:smaller">th</span> edn, [13.4]&#8211;[13.5].  Such has amply been demonstrated in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no exclusion in the NYC of awards against States. The only limitation on awards subject to Article III is that they must constitute &#8220;foreign&#8221; arbitral awards within the meaning of Article I of the NYC. Thus, all States consented to the recognition and enforcement in other States of all arbitral awards seated abroad including awards rendered against States, which are frequently enforced under the NYC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">State immunity is fundamentally inconsistent with the object and purpose of the NYC because it interferes with the effectiveness of arbitral awards and gives rise to the delays and inefficiencies.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no scope for relying upon the words &#8220;rules of procedure&#8221; in Article III NYC to impose an additional substantive condition on enforcement apart from the ordinary meaning to be given to those words. The words do not permit the inclusion of state immunity as a condition of enforcement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is no equivalent in the NYC to Article 55 of the ICSID Convention, which provides that nothing &#8220;&#8230; shall be construed as derogating from the law in force in any Contracting State relating to immunity of that State or of any foreign State from execution&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The declaration that India made when it ratified the NYC does not apply in the UK, and the decision of the Federal Court of Australia which supports the contrary view was wrongly decided.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Republic of India&#8217;s case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India&#8217;s case is that it has not submitted to the jurisdiction of the English Courts by prior written agreement within the meaning of s.2(2) of the SIA because:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Ratification of the NYC is not a &#8220;prior written agreement&#8221; to submit to the jurisdiction of the UK courts, given that: (a) any such agreement must be &#8220;express&#8221;, &#8220;unequivocal&#8221; and &#8220;unmistakeable&#8221;; (b) Article III of the NYC says nothing about waiver of immunity or submission to the jurisdiction by a State that is party to an award; and (c) Article III, by its own terms, preserves immunity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">India&#8217;s ratification of the NYC is not a &#8220;prior written agreement&#8221; to<br/>submit to the jurisdiction of the UK courts for the purposes of enforcement of the BIT Awards by reason of: (a) the limited scope of the NYC; and/or (b) the declaration that India made when it ratified the NYC.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In any event, on the Claimants&#8217; own case, the alleged &#8220;prior written agreement&#8221; was entered before the SIA came into force, and accordingly, by reason of s.23(3)(a) of the SIA, the immunity exception in s.2(2) cannot apply.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The nature of state immunity in international law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The nature of state immunity as one of the fundamental principles of the international legal order has been stated in a number of recent cases.  The courts in <span style="font-style:italic">Argentum Exploration Ltd v The Silver</span> [2024] 2 WLR 1259, and <span style="font-style:italic">Hulley Enterprises Ltd v The Russian Federation</span> [2025] EWCA Civ 108 cite the decision of the International Court of Justice in <span style="font-style:italic">Jurisdictional Immunities of the State (Germany v Italy</span><span> </span><span style="font-style:italic">: Greece intervening)</span> [2012] ICJ Rep 99, para 56, for the proposition that state immunity is a general rule of customary international law to which other states have an obligation to give effect (<span style="font-style:italic">Argentum</span> at [15], Lord Lloyd-Jones and Lord Hamblen JJSC), <span style="font-style:italic">Hulley</span> at [24], Males LJ).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the <span style="font-style:italic">Germany v Italy</span> case at para 57, the ICJ explains that &#8220;the rule of state immunity derives from the principle of the sovereign equality of states, one of the fundamental principles of the international legal order, so that exceptions to such immunity represent a departure from that principle. &#8230; The fact that states have an obligation to give effect to state immunity in accordance with international law does not identify the exceptions to that immunity which international law recognises. For that the English courts must look to sections 2 to 11 of the State Immunity Act 1978 &#8230;&#8221; (<span style="font-style:italic">Hulley</span> [25-26]).  In the present case, the issue is as to consent and the relevant exception is in s.2(2) SIA.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The case as argued at the hearing raises several issues, some of which interrelate:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Whether the decision of the Court of Appeal in <span style="font-style:italic">Infrastructure Services Luxembourg SARL v The Kingdom of Spain</span> [2025] 1 Lloyd's Rep 66 (a case under the ICSID Convention) is &#8220;highly persuasive&#8221; of the proper interpretation of Article III of the NYC in the present case, as the Claimants argue.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Whether ratification of Art III of the NYC is, on its own, an &#8220;express&#8221;, &#8220;unequivocal&#8221; and &#8220;unmistakeable&#8221; waiver of state immunity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Whether the reference to &#8220;rules of procedure&#8221; in Article III NYC preserves state immunity in its own terms.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Whether the NYC only applies to states in relation to private law disputes.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in"> Whether the dispute falls within India&#8217;s declaration when ratifying the NYC that it would &#8220;apply the Convention only to differences arising out of legal relationships, whether contractual or not, which are considered as commercial under the Law of India."</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">A timing point as to whether the NYC (which was entered into before the SIA) can fall within s 2.(2) SIA given the terms of s.23(3)(a) SIA.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Infrastructure Services case </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants contend that the decision of the Court of Appeal in <span style="font-style:italic">Infrastructure Services Luxembourg</span><span> </span><span style="font-style:italic">SARL v The Kingdom of Spain </span>[2025] 1 Lloyd's Rep 66 (the <span style="font-style:italic">Infrastructure Services</span> case) is &#8220;highly persuasive&#8221; of the proper interpretation of Article III of the NYC.  That case concerned awards made under the Convention on the Settlement of Investment Disputes between States and Nationals of Other States, 1965 (the ICSID Convention). As the Court explains, the ICSID Convention does not itself constitute an agreement to arbitrate but provides a framework for the resolution of disputes submitted to ICSID. A separate agreement to arbitrate is therefore required, as in a BIT between two states, together with the arbitral claimant&#8217;s acceptance of the offer to arbitrate which is deemed to be contained in the relevant treaty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Article 54(1) of the ICSID Convention provides that, &#8220;Each Contracting State shall recognize an award rendered pursuant to this Convention as binding and enforce the pecuniary obligations imposed by that award within its territories as if it were a final judgment of a court in that State &#8230;&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court of Appeal (upholding the decision of Fraser J at [2023] EWHC 1226 (Comm)) held that contracting states (of which Spain was one) had submitted to the jurisdiction for the purposes of s.2 of the SIA by virtue of Article 54(1) of the ICSID Convention. The ICSID Convention does not apply in the present case (and India is not a party to it). But the Claimants submit that the same result must follow under Article III of the NYC because the wording is materially the same.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This possibility was raised at first instance in <span style="font-style:italic">Border</span><span> </span><span style="font-style:italic">Timbers Ltd v Republic of Zimbabwe </span>[2024] 1 Lloyd&#8217;s Rep 427, Dias J, which came on for appeal conjoined to the <span style="font-style:italic">Infrastructures Services</span> case.  The judge held that Article 54 of the ICSID Convention was not a sufficiently clear and unequivocal submission to the jurisdiction for the purposes of s.2(2) of the SIA.  On this point the Court of Appeal differed. But in her reasoning at [20], she considered what the position would be in respect of Article III of the NYC, which is the issue in the present case:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;20.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; none of the English cases to date appears to have<br/>considered the ramifications of the claimants&#8217; arguments [<span style="font-style:italic">under the ICSID Convention</span>] for awards which fall to be enforced under the 1958 New York Convention. So far as I am aware, it has not hitherto been argued that a state is precluded from claiming sovereign immunity in relation to the recognition and enforcement of an award under the New York Convention. Yet if the claimants are right that state immunity is lost by virtue of the obligation in article 54 to recognise an ICSID award as binding and enforce it as if it were a final judgment of a national court, the same consequence must logically flow from the materially identical obligation in article III of the New York Convention to recognise an award as binding and enforce it in accordance with the rules of procedure of the relevant country. Indeed, this is precisely the consequence which has been held to follow in two recent decisions in Australia and the USA respectively.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>21.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This would represent a seismic development so far as non-ICSID awards are concerned, and I was not persuaded by Mr Harris&#8217; argument that New York Convention awards could be distinguished on the grounds that recognition and enforcement were subjected to the procedural laws of the enforcing state and that state immunity was to be regarded as a procedural matter. On the contrary, the blanket immunity provided for in section 1 of the State Immunity Act confirms that state immunity is very much more than a matter of mere procedure, being a substantive bar to proceedings where it applies. It is procedural only in the sense that the court must dismiss a claim in respect of which a state can claim immunity without adjudicating on the merits: see <span style="font-style:italic">Benkharbouche v Embassy of the Republic of Sudan</span> [2019] AC 777, para 18. I cannot therefore accept that the mere reference to procedural laws has the effect of preserving state immunity for the purposes of the New York Convention when it would otherwise have been lost. Nor can I accept that it makes any difference that the New York Convention permits wider grounds of challenge to an award than the ICSID Convention. The extent to which an award can be reviewed, if at all, has nothing whatsoever to do with state immunity.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The understanding of Dias J that the point had not arisen before was confirmed in this case. Mr Sudhanshu Swaroop KC for India identified seven cases (not including ICSID cases) in the English courts since 1978 when the SIA came into force where the State claimed immunity in relation to the enforcement of awards &#8211; it was not, he said, argued in any of them that a State submits under s. 2(2) SIA merely by becoming a party to the NYC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On appeal, the Court addressed the concerns raised by Dias J.  At [99] &#8211; [102], Phillips LJ who gave the Court&#8217;s judgment (with whom Sir Julian Flaux C and Newey LJ agreed) considered whether, if state immunity is lost by virtue of Article 54 in an ICSID Convention case, the same consequence must logically flow from the obligation in Article III of the New York Convention. He pointed out that there is no requirement in the VCLT that, in interpreting one treaty (i.e. the ICSID Convention), regard must be had to the effect of a potential read-across to a second treaty (here, the NYC) dealing with a different though related subject matter ([102]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He went on to identify a number of differences which led him to consider that &#8220;it is by no means clear that interpreting article 54 [<span style="font-style:italic">of the ICSID Convention</span>] as a submission to the jurisdiction for the purposes of section 2(2) of the SIA would necessarily result in article III [<span style="font-style:italic">of the NYC</span>] also being so interpreted&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">He made a number of points in this regard, the first being that &#8220;the two provisions are not worded identically, article III referring to the award being enforced &#8216;in accordance with the rules of procedure of the territory where the award is relied upon&#8217;. As state immunity is regarded as a procedural bar as a matter of international law, it may be that article III preserves state immunity on its own terms&#8221; ([102(i)]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Second, he pointed out that whereas the ICSID Convention is necessarily dealing with awards to which a Contracting State is party, that does not apply to the NYC: &#8220;The conclusion that article 54 contains an &#8220;unmistakeable&#8221; agreement by states that awards against them would be enforced may not be so obvious in respect of article III&#8221; ([102(i)]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Phillips LJ went on to question whether the consequences would be dramatic if Article III is also held to be a submission to the jurisdiction, because &#8220;&#8230; such would arise by virtue of section 9 of the SIA in any event if the award resulted from a valid agreement to arbitrate. Even if the state is deemed to have submitted to the jurisdiction by reason of article III, it may still contest the validity of the arbitration agreement (and hence the enforcement of the award) under section 103(2) of the 1996 Act&#8221;.  (This, I think, answers a point put on behalf of the Claimants that in view of s. 2(2) SIA, s. 9 is only &#8220;a sweep-up provision&#8221; in an outlier case like Libya which is not a party to the NYC &#8211; it is not, in my view.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If there is no valid agreement to arbitrate, there is no jurisdiction under s. 9, and unless there is a freestanding submission in Article III of the NYC, as the Claimants contend in the present case, s. 103(2) of the Arbitration Act 1996 would not apply (<span style="font-style:italic">Infrastructure Services</span>, at [105], Phillips LJ; <span style="font-style:italic">Dallah Real Estates &amp; Tourism Holding Co v Pakistan</span> [2011] 1 A.C. 763, [68], Lord Mance, referring to the &#8220;(&#8230; obviously fundamental) requirement that there should be a valid and existing arbitration agreement behind an award sought to be enforced or recognised.&#8221;; <span style="font-style:italic">Hulley Enterprises Ltd v Russian Federation </span>[2025] EWCA Civ 108 at [28]. Males LJ; Foxton et al, <span style="font-style:italic">Mustill &amp; Boyd, Commercial and Investor State Arbitration</span>, 3<span style="vertical-align:super;font-size:smaller">rd</span> edn, (2024), &#167;&#167;20.66, 20.67).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Article III NYC question did not arise for decision in <span style="font-style:italic">Infrastructure Services</span>, and the Court made it clear that it did not hear full argument on those issues and was not in a position to decide them.  But it did at least identify doubts as to whether the result would be the same as under the ICSID Convention.  I do not accept the Claimants&#8217; submission that the case is &#8220;highly persuasive of the proper interpretation of Article III of the NYC, given the close similarity of language with there being no material difference&#8221;.  The Court made clear the differences in language and their potential relevance, and contemplated, though did not decide, a different result.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The applicable test as to waiver of state immunity by treaty</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The applicable test in English law as to waiver of state immunity by treaty &#8211; which was the issue in the <span style="font-style:italic">Infrastructure Services</span> case and is the issue in the present case &#8211; was stated by the House of Lords in <span style="font-style:italic">R v Bow Street Metropolitan Stipendiary</span><span> </span><span style="font-style:italic">Magistrate, ex parte Pinochet Ugarte (No 3)</span> [2000] 1 AC 147 cited in the <span style="font-style:italic">Infrastructure Services</span> case at [84]. At page 215A, Lord Goff accepted the proposition that waiver of state immunity by treaty must always be express.  At page 268C, Lord Millett stated that state immunity &#8220;may be asserted or waived by the state, but where it is waived by treaty or convention the waiver must be express&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These passages from <span style="font-style:italic">Pinochet</span> were cited by the High Court of Australia in <span style="font-style:italic">Kingdom of Spain v Infrastructure Services Luxembourg S.&#224;.r.l.</span> [2023] HCA 11.  This was another iteration of the <span style="font-style:italic">Infrastructure Services</span> case against Spain decided by the Court of Appeal discussed above. It was submitted on behalf of India that the judgment of the HCA does not state the law as it applies in England so far as it might be taken to contemplate an implied agreement.  However, the analysis of the HCA was accepted by the Court of Appeal in the <span style="font-style:italic">Infrastructure Services</span> case by Phillips LJ at [77].  At [92], he says that the &#8220;HCA made it plain that it was applying the international law principle that waiver must be express, as recognised in <span style="font-style:italic">Pinochet</span>&#8221;. He also endorsed the HCA decision in his judgment in the subsequent case of <span style="font-style:italic">General Dynamics United Kingdom Limited v The State of Libya</span> [2025] EWCA Civ 134 at [33].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Of the passages from the HCA&#8217;s judgment that Phillips LJ cites in these cases, the following seem to capture the essence of the High Court of Australia&#8217;s approach:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;24.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; Even the words of the most carefully drafted international instrument are built upon a foundation of presuppositions and necessary implicatures and explicatures. The international authorities that insist upon express waiver of immunity in a treaty should not be understood as denying the ordinary and natural role of implications in elucidating the meaning of the express words of the treaty.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>26.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this sense, the insistence by international authority that a waiver of immunity in an international agreement must be "express" is an insistence that any inference of a waiver of immunity must be drawn with great care when interpreting the express words of that agreement in context. It does not deny that implications are almost invariably contained in any (expressed) words of a treaty. As senior counsel for Spain rightly put the point in oral submissions: "[T]here must be implications that surround every textual passage. The question is: what are those implications, and what level of clarity about the implication<br/>is required?" Accordingly, if an international agreement does not<br/>expressly use the word "waiver", the inference that an express term involves a waiver of immunity will only be drawn if the implication is clear from the words used and the context. In words quoted by Lord Goff in <span style="font-style:italic">Pinochet [No 3] </span>from the International Law Commission's commentary upon (what were then) the draft articles on jurisdictional immunities of States and their property, there is "no room" to recognise an implication of "consent of an unwilling state which has not expressed its consent in a clear and recognisable manner.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As it was put by the Court of Appeal in <span style="font-style:italic">Infrastructure Services</span> at [92], &#8220;If the express words used amount, on their proper construction, to an unequivocal agreement by the state to submit to the jurisdiction, that is sufficient to satisfy section 2(2) of the SIA, even if the words &#8220;submit&#8221; and &#8220;waiver&#8221; are not used&#8221;. Viewed in this way, the court treats the concept of implication in the context of a linguistic understanding of the meaning of the words of the treaty in question without diminishing the undoubted requirement in English law that a &#8220;prior written agreement&#8221; under s. 2(2) SIA must be express &#8211; as indeed is required under international law &#8211; see <span style="font-style:italic">Pinochet</span> at pp. 215 to 217.  This is consistent with the governing international law principles as to the interpretation of treaties, set out in the Vienna Convention on the Law of Treaties, 1969, Part III (VCLT), Section 3; <span style="font-style:italic">GPF GP Sarl v Poland</span> [2018] 1 Lloyd&#8217;s Rep 410 at [49]&#8211;[50], Bryan J.  The process of implication does not arise in a discrete sense, as it does in the case of implied contractual terms, since it is a question of construing the words relied on to determine whether the necessary threshold of express agreement is crossed.  I disagree with the submissions made on behalf of India that there is any inconsistency between these authorities.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decisions in other jurisdictions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The rules as to how State immunity takes effect are set out in national legislation. It is important to note that these rules (as those identified by counsel in the present case show) differ from jurisdiction to jurisdiction, and differ from the terms of the s. 2(2) of the UK SIA.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the U.S. courts, the waiver exception applies in any case &#8220;in which the foreign state has waived its immunity either explicitly or by implication.&#8221; 28 U.S.C. &#167; 1605(a)(1), Foreign Sovereign Immunities Act (FSIA). The words &#8220;by implication&#8221; clearly differ from those in s. 2(2) SIA.  The case law cited to me includes a decision of the Southern District of New York: see <span style="font-style:italic">Preble-Rish Haiti, S.A. v. Republic of Haiti</span>, 2023 U.S. Dist. LEXIS 112826 (S.D.N.Y., June 29, 2023) (Kevin Castel U.S.D.J.). I accept India&#8217;s submission that this, and other cases, show that in US practice a State does not waive immunity (or submit to the jurisdiction) merely by becoming party to the NYC. There has to be an agreement on the part of the State to arbitrate the dispute in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India cites a &#8220;Brief for the United States as Amicus Curiae&#8221; dated February 2024 in an appeal filed before the US Court of Appeals for the D.C. Circuit (<span style="font-style:italic">NextEra Energy Glob. Holdings B.V. v. Kingdom of Spain</span>).  This supports this analysis &#8211; see pp.19-25, 31.  It carries some weight as an expression of opinion on behalf of the United States, since a State has an interest in how its rules as to recognition and enforcement of arbitration awards against other states are applied.  India submits, and I accept, that the Amicus Brief makes clear that waiver under the US FSIA also requires, <span style="font-style:italic">inter alia</span>, that the foreign State has agreed to arbitrate the dispute.  As to the further case law which supports this view, among the cases that were cited by India was the decision of US Court of Appeals for the Second Circuit&#8217;s decision in <span style="font-style:italic">Seetransport Wiking</span><span> </span><span style="font-style:italic">Trader Schiffahrtsgesellschaft MBH &amp; Co., Kommanditgesellschaft v. Navimpex Centrala</span><span> </span><span style="font-style:italic">Navala </span>989 F.2d 572 (2d. Cir. 1993) at 578-579, 581-582.  This was applied by the SDNY in the <span style="font-style:italic">Preble-Rish Haiti</span> case at *18-24.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In response, it was contended on behalf of the Claimants that this conclusion is invalid because (as also stated in the Amicus Brief) under the US FSIA, the arbitration exception is the correct route to jurisdiction in such cases, not the waiver exception. This does not invalidate the conclusion in my view.  The same position in practice obtains under the UK statute in the form of s. 9 SIA, which (as explained above) is not pursued in this application because the existence of a valid arbitration agreement is in issue.  Hence, the Claimants&#8217; contention, and the issue for decision, is that Article III NYC is alone sufficient to waive immunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This was explicitly rejected in the recent decision of US District Court for the District of Columbia in <span style="font-style:italic">Glob. Voice Grp. SA v. Republic of Guinea, </span>No. 22-cv-2100, 2025 U.S. Dist. LEXIS 28564, (D.D.C. 2025) relied upon by India. The court observed that the D.C. Circuit &#8220;&#8230; has never held in a published decision that a foreign state waives its sovereign immunity from suits seeking to enforce awards under the New York Convention (or similar conventions) solely by ratifying that convention&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Court said, &#8220;To put it even more simply: no arbitration agreement, no waiver.&#8221; (at 42-46). That summarises precisely India&#8217;s overall position under the UK SIA in the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The words in s. 4(2)(a) of the English language version of Canada&#8217;s State Immunity Act 1985 are, &#8220;&#8230; explicitly submits to the jurisdiction &#8230; by written agreement or otherwise&#8221;.  A point of distinction with the UK statute is that there is no specific arbitration exception. The Claimants rely on a decision of the Court of Appeal of Quebec between the parties to the dispute in the present case which held that India had waived its immunity.  However, as India submitted, the Court&#8217;s judgment is not based merely on India&#8217;s ratification of the NYC, but on India&#8217;s agreement to submit to arbitration in the BIT (see paras 69, 80, 81, and 86).  India&#8217;s contention that such agreement had been vitiated by illegality was rejected in a previous decision of the Quebec courts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In Australia, s. 10(2) of the Foreign States Immunities Act provides that, &#8220;A foreign State may submit to the jurisdiction at any time, whether by agreement or otherwise &#8230;&#8221;.  Again, this is significantly different from the terms of the UK&#8217;s s. 2(2) of the SIA. In Australia, again between parties to the same dispute, it has been held by Jackman J at first instance that the text of Article III of the NYC supports the Applicants&#8217; argument as to submission by agreement by way of clear and unmistakable necessary implication (<span style="font-style:italic">CCDM Holdings, LLC v The Republic of India (No 3)</span> [2023] FCA 1266 at [31], [51] and [103]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge gave permission to appeal, and his decision was reversed on appeal on the basis that any waiver by India of its immunity under the NYC is limited by its reservation on ratifying the NYC that it was applicable only to &#8220;differences arising out of legal relationships, whether contractual or not, which are considered as commercial under the Law of India&#8221;.  The &#8220;differences&#8221; that were determined by the arbitral award were held not to be &#8220;commercial&#8221; in that sense. The same point is relied on by India in this case.  The Full Federal Court did however state that for the reasons he gave, there was &#8220;much to be said&#8221; in support of the judge&#8217;s conclusion that by ratifying the NYC, India waived immunity in respect of awards that are within India&#8217;s commercial reservation (<span style="font-style:italic">India v CCDM Holdings, LLC </span>[2025] FCAFC 2 at [72]). The Claimants rely upon the first instance decision, while India contends that it was wrongly decided.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The reference to &#8220;rules of procedure&#8221; in Article III NYC</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now come to consider the contentions of the parties as to whether or not by its ratification of the NYC, India submitted to the adjudicative jurisdiction of the English courts, as put in the s. 2 question directed by the judge to be tried. A number of points arise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India&#8217;s case is that Article III NYC preserves immunity by its own terms. That is because any obligation on any &#8220;Contracting State&#8221; is expressed to be only &#8220;in accordance with the rules of procedure of the territory where the award is relied upon.&#8221;  As regards the drafting history of the Convention, this wording appeared in the ICC Preliminary Draft Convention of 13 March 1953, and was maintained in the 28 March 1955 draft (as to which see below). Under international law (and under English law), India contends, the rules of state immunity are regarded as &#8220;procedural&#8221;. State immunity is immunity from jurisdiction, not immunity from liability.  India relies on the statement in the <span style="font-style:italic">Infrastructure Services</span> case set out above, that as state immunity is regarded as a procedural bar as a matter of international law, &#8220;it may be that article III preserves state immunity on its own terms&#8221; (at [102(i)]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There appears to be no doubt as to the principle.  The International Court of Justice in the <span style="font-style:italic">Germany v Italy</span> case (see above) stated at para 93 that, &#8220;The rules of State immunity are procedural in character and are confined to determining whether or not the courts of one State may exercise jurisdiction in respect of another. They do not bear upon the question of whether or not the conduct in respect of which the proceedings are brought was lawful or unlawful&#8221;.  In <span style="font-style:italic">Arrest Warrant of 1 April 2000 (Congo v Belgium) </span>[2002] I.C.J. Reports 3, para 60, the ICJ described jurisdictional immunity as &#8220;procedural in nature&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the English case law, in <span style="font-style:italic">Jones v Ministry of Interior of Saudi Arabia</span> [2007] 1 AC 270 the House of Lords approved and relied on the statement in Hazel Fox, <span style="font-style:italic">The Law of State Immunity</span>, (2002) that &#8220;State immunity is a procedural rule going to the jurisdiction of a national court. It does not go to substantive law&#8221; (see [24], Lord Bingham, and [44-49], Lord Hoffmann).  To the same effect, Fox and Webb, <span style="font-style:italic">The Law of State Immunity</span>, (2015), p.21.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants&#8217; response is that these principles do not apply to the reference to &#8220;rules of procedure&#8221; in Article III NYC.  This is confined, they contend, to questions as to the form of the request for recognition and enforcement and the competent authority, not conditions of enforcement.  In the UK, the relevant rules of procedure are those specified by CPR Part 62, Part III at [62.17]&#8211;[62.19]. Under Article III, the conditions of enforcement are exclusively those laid down under the NYC in Articles IV&#8211;VI. The NYC is a complete code from which an enforcing State cannot derogate (citing <span style="font-style:italic">IPCO (Nigeria) Ltd v Nigerian National Petroleum Corpn</span> [2017] 1 WLR 970 at [41]-[43]).  There is no scope for relying upon the words &#8220;rules of procedure&#8221; to impose an additional substantive condition on enforcement in the form of state immunity. The Claimants rely on the statement in <span style="font-style:italic">Benkharbouche v Embassy of the Republic of Sudan</span> [2019] AC 777 at [16], Lord Sumption, that the dichotomy between procedural and substantive rules is not always straightforward. The judgment states that state immunity is not procedural in the sense that the organisation and practices of the court are procedural, but in the sense that it requires the court to dismiss the claim without determining the merits, leaving intact the claimant&#8217;s legal rights and any relevant defences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my view, the judgment in <span style="font-style:italic">Benkharbouche </span>clearly analyses state immunity as a procedural rule contrasting it with substantive rules such as the foreign act of state doctrine ([16]).  It is consistent with earlier authority to that effect. The decisions of the International Court of Justice in the <span style="font-style:italic">Germany v Italy</span> and <span style="font-style:italic">Arrest Warrant of 1 April 2000</span> cases referred to above which also categorise state immunity as procedural are cited at [18]. So whilst it is correct that this distinction is drawn in the judgment, it is clear that there is no intention to depart from earlier authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants also rely on commentary in support of their contention restricting the reference to procedural rules in Article III (so far as England and Wales are concerned) to the Civil Procedure Rules (CPR) Part 62, Part III at [62.17]&#8211;[62.19]. Both Born, <span style="font-style:italic">International Commercial Arbitration</span>, 3rd Ed. (2021), at p. 3717, and Van den Berg, <span style="font-style:italic">The New York Arbitration Convention of 1958, Towards a Uniform Judicial Interpretation</span> (1981) at p. 239 support a narrow interpretation of the reference to &#8220;rules of procedure&#8221; in Art III NYC.  I agree with the commentary in this respect.  However, the discussion in Born is not specific to state immunity. As regards Van den Berg, in the context of explaining that an arbitration agreement and award to which a state is a party are not excluded from the Convention, he refers at p.280 to immunity from jurisdiction saying that the applicability of the Convention is applicable in this type of case as well.  As India submits, he does not suggest that ratification of Article III amounts on its own to a waiver &#8211; he draws attention, for example, to cases in which an agreement to arbitrate is held to constitute an implicit waiver of immunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India relies on the following commentary on the specific subject of the relationship between Article III NYC and state immunity.  In summary:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Prof. James Crawford: &#8220;Either the Convention is to be interpreted as not applying to arbitral awards to which a state is a party, or sovereign immunity is one of the &#8220;rules of procedure&#8221; under Art 3, conditioning local enforcement. The latter view may be the better one ...&#8221; (<span style="font-style:italic">A Foreign State Immunities Act for Australia?</span>&#8221; (1980) 8 Australian Year Book of International Law 71.  The quoted words appear in footnote 42 at p. 102).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Prof. George Bermann: &#8220;Article III preserves sovereign immunity as a jurisdictional defense under national law, to the extent it exists&#8221; (Chapter 4: <span style="font-style:italic">Procedures for the Enforcement of New York Convention Awards</span>&#8221;, in Franco Ferrari and Friedrich Rosenfeld (eds), <span style="font-style:italic">Autonomous Versus Domestic Concepts under the New York Convention</span> (Kluwer Law International, 2021) at pp.58, 74). Bermann cites the decision of the German Federal Court of Justice, in <span style="font-style:italic">SchiedsVZ  </span>[2006<span style="font-size:13pt">],</span> 44, which held, in relation to enforcement of a BIT award, that the NYC &#8220;does not waive immunity&#8221;, because immunity is included within the Article III reference &#8220;to the domestic procedural law&#8221; (&#167;&#167;21-28). The Federal Court of Justice is the highest court of civil and criminal jurisdiction in Germany, and is subject only to the German Constitutional Court.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Prof. Andrea Bjorklund: in relation to the &#8220;rules of procedure&#8221; wording of Article III, &#8220;municipal immunity laws have been treated as preliminary matters of procedure which claimants seeking to execute awards must overcome&#8221; (&#8220;<span style="font-style:italic">Sovereign Immunity as a Barrier to the Enforcement of Investor-State Arbitral Awards: The RePoliticisation of International Investment Disputes</span>&#8221; (2010) 21 American Review of International Arbitration<span style="font-style:italic"> </span>211 at 218-219). Further reference to Prof. Bjorklund&#8217;s views is made elsewhere in this judgment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Andreas B&#1255;rner: in the context of procedural rules, &#8220;&#8230; domestic law (including any applicable rules of international law) governs whether enforcement proceedings can be commenced against a foreign state or whether assets of a foreign state can be seized&#8221; (&#8220;<span style="font-style:italic">Article III</span>&#8221; in Herbert Kronke et al (eds), <span style="font-style:italic">Recognition and Enforcement of Foreign Arbitral Awards: A Global Commentary on the New York Convention</span> (Kluwer Law International, 2010) at pp. 120-121, 126).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Javier Olmedo: &#8220;The term &#8216;rules of procedure&#8217; [<span style="font-style:italic">in Article III</span>] has been considered as embracing general principles of public international law that are part of the relevant domestic law, including sovereign immunity&#8221; (Chapter 12: <span style="font-style:italic">Immunity Defences and the Enforcement of Awards in Investor-State Disputes</span>&#8221;, in Kiran Gore, Elijah Putilin<br/>et al (eds), <span style="font-style:italic">International Investment Law and Investor-State Disputes in Central Asia: Emerging Issues </span>(Kluwer Law International, 2022) at pp. 340-341.)</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Some of the same commentary was cited in Australia at first instance in <span style="font-style:italic">CCDM Holdings, LLC v The Republic of India (No 3)</span> (see above). The particular question the Federal Court was being asked to answer was whether there was &#8220;&#8230; any waiver by States pursuant to Art III of the New York Convention subject to local &#8216;rules of procedure&#8217;, including the forum&#8217;s laws of foreign State immunity?&#8221; (see the heading above [94]). It is not clear whether this is the precise question at issue in the present case. Further, under Australian law, unlike English law, sovereign immunity is regarded as substantive rather than procedural ([94]). In any case, the judge did not find it necessary to refer to the content of the commentary to answer the question as put to him (see [96]), and in the somewhat different legal framework this is not surprising. The contention in the present case is that the reference to &#8220;rules of procedure&#8221; in Article III negates the ratification of the Convention as consent under the UK statute &#8211; the relevance of the commentary is that it shows that the terms of Article III have not been understood internationally as on their own signifying a state&#8217;s consent to the jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants make a number of comments on the commentary, saying for example that Bermann is putting both sides, and that none of the commentary is decisive. However, overall, the commentary does in my view provide substantial support to India&#8217;s case.  It recognises that state immunity continues to be applicable in the NYC scheme, and does not suggest state immunity is waived by ratification of Article III NYC, which is the point which I have to decide. The Claimants did not cite commentary which clearly states the opposite.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants&#8217; contentions that a wider interpretation is justified because of issue estoppel and the ability to apply for security as a condition of any adjournment were not persuasive, because convenience cannot justify assuming jurisdiction if there is none.  It was further contended that in <span style="font-style:italic">Republic of Ecuador v Occidental Exploration and Production Co</span> [2006] QB 432, the English court has already spoken on the fact that BIT awards fall within the scope of the Arbitration Act 1996, the basis of the analysis being the agreement in writing to arbitrate contained in the BIT, which is analysed as a standing offer to potential investors. That same argument applies, it is submitted, to ss. 100-101 Arbitration Act 1996 which applies the New York Convention.  The Claimants are right to describe this as the seminal English law case on BITs, but the passage cited at [32] posits a valid agreement to arbitrate, which is at issue in this case.  The court points out that the application of the NYC depends on such an agreement, but it does not suggest the ratification of the NYC in itself provides it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, Mr Ricky Diwan KC did pertinently raise on behalf of the Claimants the possibility that if one is importing general procedural rules under the reference in Article III, there would be no limit to the importation of procedural rules, and the exclusive code of defences under Article V would be subverted. This is an important consideration, but there is nothing in the commentary cited to me that conveys any concern as to opening the floodgates.  More importantly, as the ICJ in the <span style="font-style:italic">Germany v Italy</span> case at para 57 stated, state immunity is one of the fundamental principles of the international legal order.  An outcome, at least so far as the UK legislation is concerned, by which Article III NYC does not &#8211; on its own &#8211; amount to consent under s.2(2) SIA, does not in any way contradict the narrow reading of the reference to &#8220;rules of procedure&#8221; in Article III which has the support of Born and Van den Berg, both of whom are leading commentators on the NYC.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusion as to ratification of Art III NYC being a waiver of state immunity</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I now express my conclusions on the point at issue as to ratification of Art III NYC being on its own a waiver of state immunity. The Claimants made a formidable case as to the extraordinary delays in enforcement that have occurred elsewhere in the world and will occur in England if issues related to state immunity require to be determined.  The BIT Awards were made by a respected tribunal, who appear to have sought a degree of compromise so as to treat both sides fairly. India&#8217;s efforts to avoid honouring the BIT Awards may perhaps be explained by the fact that it regards the issues as going to its vital national interests, but it is an aspect of the BIT that it entered into that there is no expectation on the part of the parties that a court will go behind the arbitration awards. Nevertheless, India is correct to submit (and the Claimants do not challenge) that the s.2 question raises a point of law the answer to which has to be made on legal principle and cannot depend on the history of these particular proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I begin with the <span style="font-style:italic">travaux</span><span> </span><span style="font-style:italic">pr&#233;paratoires</span> in respect of the NYC. I received submissions from India in particular as to this. Of some relevance, on 28 March 1955, a Committee established by the UN Economic and Social Council issued its Report on the Enforcement of International Arbitral Awards (UN Doc E/2704; E/AC.42/4/Rev.1). The 1955 Report said at p. 5 that &#8220;the Committee concluded that it would be desirable to establish a new convention which while going further than the Geneva Convention in facilitating the enforcement of foreign arbitral awards, would at the same time maintain generally recognized principles of justice and respect the sovereign rights of States&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Nothing is said expressly in the final version of the NYC, and Professor Bjorklund (see above at &#167;219) remarks on the &#8220;&#8230; Convention&#8217;s silence on the topic of state immunity&#8221;.  But she adds, &#8220;The success of the New York Convention is traced to the limited grounds on which a court may refuse enforcement of an award. State immunity is not one of them. It is clear, however, based on the negotiating history of the Convention, that the delegates did not intend to preclude an immunity-based argument in enforcement actions against states&#8221; (op. cit. at pp. 218-9). Nothing has been cited to me that suggests the contrary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By contrast, Article 55 of the ICSID Convention provides that, &#8220;Nothing in Article 54 [<span style="font-style:italic">which provides for the recognition and enforcement of awards rendered pursuant to the Convention</span>] shall be construed as derogating from the law in force in any Contracting State relating to immunity of that State or of any foreign State from execution.&#8221; The scheme of the Convention, therefore, envisages that states submit to adjudicative jurisdiction, as was held in the <span style="font-style:italic">Infrastructure Services</span> case.  The Claimants argue that this shows that Article III of the NYC goes further than the ICSID Convention to include enforcement. However, more plausibly, it shows that in distinction to cases under the ICSID Convention, there was (as the commentary suggests) no intention to exclude immunity-based arguments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, though it is not a question arising for decision, the Claimants argue that the use of the term &#8220;enforce&#8221; in Article III NYC may well go beyond adjudicative jurisdiction and constitute consent to enforcement under s.13(3) SIA since the necessary implication of consent to enforcement is to enable the award creditor to use the machinery of the court for enforcement purposes. This raises some considerable questions, given the clear distinction between adjudication and enforcement, and possible unintended consequences.  I raised with the parties the effect on s. 14(4) SIA 1978 by which the property of a state&#8217;s central bank or other monetary authority is not to be regarded as in use for commercial purposes, and so available for execution. The parties differed in argument as to whether on the Claimants&#8217; case this immunity would in fact be waived.  I do not express a view on this, beyond pointing out that the provision is a policy choice in the UK&#8217;s SIA, to protect reserves that foreign central banks choose to hold in the UK. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My conclusion is that Article III of the NYC preserves state immunity by its own terms, because the obligation on a &#8220;Contracting State&#8221; is expressed to be &#8220;in accordance with the rules of procedure of the territory where the award is relied upon.&#8221;  It is established in English law that &#8220;State immunity is a procedural rule going to the jurisdiction of a national court. It does not go to substantive law&#8221; (see <span style="font-style:italic">Jones v Saudi Arabia</span>, op. cit., at [24], Lord Bingham, and [44-49], Lord Hoffmann, and the other authorities cited above). I respectfully consider that the doubts as to the contrary view expressed by the Court of Appeal in the <span style="font-style:italic">Infrastructure Services</span> case at [102(i)] cited above are justified, whilst of course acknowledging that the Court was not stating a view because the matter had not been argued in that case. In any case, I regard the authorities to this effect as binding on me at first instance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also consider (whilst recognising that in the absence of authority this is also open to argument) that applying the test for waiver in English law, the ratification of Art III of the NYC is not, on its own, a waiver of state immunity by India.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the test, I refer to the authorities above.  A waiver of state immunity by treaty or convention must always be express, and expressed in a clear and recognisable manner, as by an unequivocal agreement.  The term &#8220;clear and unmistakable&#8221; has been applied under the Australian legislation, and also seems apposite under s 2(2) of the UK&#8217;s SIA 1978 (<span style="font-style:italic">ex parte Pinochet Ugarte (No 3)</span> [2000] 1 AC 147 at p, 215A, and 268C; <span style="font-style:italic">Kingdom of Spain v Infrastructure Services Luxembourg S.&#224;.r.l.</span> [2023] HCA 11 at [26]); <span style="font-style:italic">Infrastructure Services Luxembourg SARL v The Kingdom of Spain</span> [2025] 1 Lloyd's Rep 66 at [92]: <span style="font-style:italic">Republic of India v CCDM Holdings, LLC</span> [2025] FCAFC 2 at [2]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To put this into a broader commercial context, there are a vast number of commercial and financial transactions involving states and state-owned enterprises (SOEs) where waiver of state immunity is a matter of contract, not treaty.  In the sovereign debt market, for example, lending by institutions such as the IMF and World Bank is not supported by waivers, and not all states are prepared to give waivers &#8211; but most do. The extent of the waivers, whether comprehensive including as to enforcement, or limited in some way, is a matter of negotiation and relative bargaining power. Under English law, contractual waivers are construed in accordance with ordinary principles of contractual interpretation &#8211; a restrictive interpretation is not applied to waiver clauses where one of the parties is a State (<span style="font-style:italic">General Dynamics United Kingdom Limited v The State of Libya</span> [2025] EWCA Civ 134 at [11]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These principles take effect against a statutory regime which recognises the fact that SOEs and states themselves are heavily involved in commerce, providing (subject to contrary agreement) for the lifting of immunity in commercial transactions (enacted in the UK by s.3 SIA), and the general availability for enforcement of property in use for commercial purposes enacted by s.13(4) SIA. Similar principles are widely accepted in international commerce generally, though in China as recently as 2024. In the arbitration context, by s. 9 SIA, it is specifically provided that where the state has agreed in writing to submit a dispute to arbitration, it is not immune as respects proceedings in the UK courts which relate to the arbitration. Similarly, as noted above, the <span style="font-style:italic">Ecuador v Occidental Exploration </span>case shows that BIT awards fall within the scope of the UK&#8217;s Arbitration Act 1996, the basis of the analysis being the agreement in writing to arbitrate contained in the BIT, which is analysed as a standing offer to potential investors.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Against this supportive legal background, it may be thought that the market is capable of restricting state immunity where it may arise, and it is not clear why the ratification of the NYC alone should be treated as a waiver of adjudicative immunity particularly where there was no intent on the part of the drafters of the NYC to exclude immunity-based arguments in enforcement actions against states.  The balance between investors and states in investment disputes is a delicate and currently controversial one, and nothing seems to impel a conclusion that ratification of the NYC is in and of itself a waiver of immunity, where express waivers are a commercial commonplace. Such an outcome appears to give too little weight to the fact that &#8220;&#8230; state immunity occupies an important place in international law and international relations&#8221; (as per the ICJ&#8217;s decision in <span style="font-style:italic">Germany v Italy</span>, quoted in <span style="font-style:italic">Argentum</span>, op. cit. at [15], and never doubted).  This does not in any way contradict the enforcement friendly aspect of the NYC, which is its purpose, and the reason for its success, and which has been consistently upheld in English law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question the court is directed to determine is set out above, and is whether, for the purpose of enforcement of the Awards in favour of the Claimants, India has submitted to the adjudicative jurisdiction of the English Courts by prior written agreement within the meaning of s.2(2) SIA 1978 by its ratification of the NYC, and thereby its consent under Article III to the English court recognising and enforcing the Awards. What is contemplated is ratification of the NYC, on its own, and regardless of whether India agreed to arbitration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It will be recalled that the parties characterise the question as a &#8220;pure point of law&#8221;.  I would answer the question put as follows.  Section 2(2) of the UK&#8217;s State Immunity Act 1978 (SIA) provides that a state may submit to the jurisdiction of the UK courts by a prior written agreement.  I consider that by reason only of its ratification of the New York Convention 1958 (NYC), the Republic of India has not submitted to the jurisdiction, or to put it another way, ratification of the NYC by India does not in and of itself amount to consent by way of a &#8220;prior written agreement&#8221; by the state waiving its immunity.  This is because (1) there is no indication that it was the intention of the drafters of the NYC to preclude immunity-based arguments in enforcement actions against states, and overall the commentary is to the effect that immunity-based arguments are not precluded, (2) applying the established classification of state immunity in English and international law, the reference to &#8220;rules of procedure&#8221; in Article III NYC preserves state immunity in its own terms, and (3) applying the test for waiver in English law, the ratification of Art III of the NYC is not, on its own, a waiver of state immunity by India.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Among the practical considerations, in the context of arbitration, s.9 of the UK&#8217;s SIA specifically provides that where a state has agreed in writing to submit a dispute to arbitration it is not immune as respects proceedings which relate to the arbitration. In this case, India disputes the arbitration agreement, and there are proceedings in the Netherlands which is the seat of the arbitration. In principle, however, where there is an issue as to the effect or validity of the arbitration agreement, determination of the issue for state immunity purposes should be determinative for NYC purposes as well avoiding duplication. In any event, the conclusion I have reached is not intended to contradict in any way the enforcement friendly aspect of the NYC, which is its purpose, and the reason for its success, and which has been consistently upheld in the English courts. It simply recognises that international jurisprudence which holds that &#8220;&#8230; state immunity occupies an important place in international law and international relations&#8221;, also has to be taken into account in deciding the narrow, but important, issue of whether a state has by treaty given its consent to waive that immunity.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">India&#8217;s further points</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India has three further points which do not arise for decision given my conclusion as regards ratification of Article III NYC as a waiver of immunity.  These were not fully covered by the Claimants in their skeleton argument, not unreasonably given the terms of the s.2 question, though they were debated in oral argument.  In case it should be relevant, I have indicated my views.  I should say that I have taken into account all the arguments addressed to me, whilst not necessarily repeating their full complexity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India submits that its ratification of the NYC could not amount to a &#8220;prior written agreement&#8221; within the meaning of s.2(2) SIA 1978 given: (1) the scope of the NYC and/or (2) the declaration that India made when it ratified the NYC:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.78in;text-indent:-0.28in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.78in;text-indent:0.09in">As to the scope of the NYC, India&#8217;s contention is that Article I of the NYC provides that the NYC applies to awards &#8220;arising out of differences between persons, whether physical or legal&#8221;. On the proper interpretation of Article I, the term &#8220;person, whether physical or legal&#8221; only applies to states in relation to private law disputes. The text of Article I in relation to states is at least &#8220;ambiguous&#8221; in its application to states, and does not give any direct hint from which it would be possible to infer that states are also capable of being parties to an arbitral agreement and the subject of an arbitration award.  The travaux of the NYC show that the NYC was only intended to apply to states in relation to disputes under private law.  The detail is set out in an annex to India&#8217;s skeleton argument.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.78in;text-indent:-0.28in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.78in;text-indent:0.09in">As to the declaration, India&#8217;s contention is that it ratified the NYC subject to a declaration under Article I(3) stating (after dealing with reciprocity) &#8220;&#8230; the Government of India &#8230; declare that they will apply the Convention only to differences arising out of legal relationships, whether contractual or not, which are considered as commercial under the Laws of India.&#8221; India relies on the appellate decision in Australia in <span style="font-style:italic">India v CCDM Holdings, LLC</span> [2025] FCAFC 2, referred to a number of times in this judgment.  This held that India&#8217;s declaration is a &#8220;reservation&#8221; expressly authorised by Article I NYC the effect of which is to exclude or modify the provisions of the NYC, to the extent of India&#8217;s reservation, in India&#8217;s relations with all other State parties to the NYC, on a reciprocal basis. Accordingly, any submission by India could only have been for the enforcement of awards that &#8220;determine differences arising out of a legal relationship that is considered as commercial under the law of India&#8221;.  It is for the Claimants to establish this, and they have not advanced any case, or evidence as whether the BIT awards arise out of such a legal relationship.  For that reason alone, they have failed to discharge their burden of proving the &#8220;prior written agreement&#8221; under s.2(2) SIA. Alternatively, the Court should proceed on the basis of English law, either based on the &#8220;default rule&#8221;, or based on the &#8220;presumption of similarity&#8221;. On that basis, the Awards do not &#8220;determine differences arising out of a legal relationship that is considered as &#8220;commercial&#8221; because they arise under a BIT governed by international law principles, and the relevant &#8220;differences&#8221; were as to the annulment by the Indian Government, not as to the contract itself.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants respond that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.78in;text-indent:-0.28in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.78in;text-indent:0.09in">As to the first point, it is not in dispute that the term &#8220;person&#8221; in Article I(1) NYC includes states.  No reference to &#8220;private law disputes&#8221; is in the text, and the court should reject any gloss by supposed reference to the travaux. Sections 100-101 Arbitration Act 1996 (dealing with the NYC) have been authoritatively held to apply to BIT awards (see <span style="font-style:italic">Ecuador v Occidental Exploration</span>, op. cit.).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.78in;text-indent:-0.28in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.78in;text-indent:0.09in">As to the second point, the appellate decision of the Australian court finding in favour of India on this point is misconceived because: (i) The reservation in question is not a reciprocal reservation but a unilateral reservation whereby a Contracting State can reserve the applicability of the NYC to the enforcement of awards that, as a matter of its own national law, it considers to be commercial, but only in its own territory. The UK cannot apply the commercial reservation to the enforcement of awards in the UK, and India has consented to the UK enforcing foreign arbitral awards without a commercial reservation. The VCLT, a later treaty that the UK entered into subsequently (India is not a party to the VCLT, although that treaty simply reflects customary international law), cannot alter the terms of the multilateral NYC treaty to which India and the UK have subscribed. (ii) Article 21(1)(b) of the VCLT, which provides that &#8220;[a] reservation established with regard to another party in accordance with articles 19, 20 and 23 modifies those provisions to the same extent for that other party in its relations with the reserving State&#8221; is incapable of applying to India&#8217;s commercial reservation. India&#8217;s commercial reservation is territorial in nature, applying to the enforcement of awards in India; it is incapable of being applied on a reciprocal basis. (iii) In any event, an English court would treat an investment treaty award of the present kind as falling within India&#8217;s commercial reservation to the NYC, given the purpose of the BIT to promote investment and develop business, and the fact that arbitration may be subject to the UNCITRAL Rules designed for international commercial arbitration. (iv)  Reference is also made to the most favoured nation (MFN) clause at Article 11 of the BIT that permits the investor to take advantage of any international law obligation undertaken by India either at the time of entering into the BIT or subsequently. India has entered into a number of bilateral investment treaties in which it has made clear that a claim by an investor under the treaty arises under a commercial relationship for the purposes of Article I of the NYC (Belarus, the Kyrgyz Republic, and the UAE).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the first point, I can see that there is good sense in a conclusion that the references to private law disputes in the travaux of the NYC indicate that the use of arbitration in the settlement of such disputes was a matter of primary focus at the Conference, not that the Convention was intended to be limited only<span style="font-style:italic"> </span>to private law disputes.  That was the view taken at first instance by Jackman J in the Australian iteration of the present case referred to above: <span style="font-style:italic">CCDM Holdings, LLC v The Republic of India (No 3)</span> [2023] FCA 1266 at [85].  His view is supported by the commentary of Professors Van den Berg and Bjorklund (see at [92]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge at [93] cites research undertaken by the Claimants&#8217; legal representatives revealing 30 occasions when the NYC has been applied to investor-State arbitral awards, 20 of them involving bilateral investment treaties, and most of the others concerned with the Energy Charter Treaty. A leading textbook states that as &#8220;&#8230; provided in Article 31(3) of the VCLT, in interpreting a treaty under Article 31, account is to be taken of any subsequent practice in the application of the treaty which establishes the agreement of the parties regarding its interpretation (Foxton et al, <span style="font-style:italic">Mustill &amp; Boyd, Commercial and Investor State Arbitration</span>, 3<span style="vertical-align:super;font-size:smaller">rd</span> edn, (2024), &#167;17.4). In submissions in the present case, the Claimants referred to &#8220;the astonishing implication [of India&#8217;s contention] that investor&#8211;State awards cannot be enforced against India under the NYC by any Contracting State&#8221;. I do not think that a clear answer was advanced on behalf of India to these points of practice. Even if there are indications in the travaux that the original intention was that the NYC would apply to private law disputes, the Convention proved to be a runaway success in the scope of its application, and there is some authority supporting an evolutionary approach to applying the treaty interpretation provisions of the VCLT (see <span style="font-style:italic">Basfar v Wong</span> [2022] UKSC 20 at [64-67]). On this particular point, I consider that the decision at first instance in Australia is persuasive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the second point, essentially the Claimants&#8217; contention as presented in argument is that the decision of the Full Federal Court of Australia on appeal as to the applicability of the reservation was misconceived.  (I am told that an application for permission to appeal has not been ruled on yet by the High Court of Australia.) The decision is said to be misconceived (among other things) because India&#8217;s reservation was strictly territorial in nature and incapable of being applied on a reciprocal basis, and that the later provisions in the VCLT which entered into force in 1980 cannot alter the terms of the NYC.  The Claimants present the issue as a matter of the proper application of the relevant treaties, with other questions decided (where necessary) according to English law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the Claimants&#8217; point (iii), I agree that, standing back, it is not difficult to see as a matter of English law how this dispute could be considered as &#8220;commercial&#8221; &#8211; it arises out of a contract, with commercial arbitration under the UNCITRAL rules as an available option for the investor, and the fact that the termination of the agreement was by way of governmental action and there are also public international law features of the relationship should not on the face of it make a difference. Again, I can see the good sense of such a conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, the issue is whether it is commercial under the Laws of India, and I am not convinced that the Court should determine the issue in this way.  In my view, there is some force in India&#8217;s contention that the Claimants have not advanced any case, or evidence as to whether the BIT awards arise &#8220;out of a legal relationship that is considered as commercial under the law of India.&#8221; For that reason alone, it is submitted, they have failed to discharge their burden of proving the alleged &#8220;prior agreement&#8221; under s.2.2 SIA.  The Claimants respond that India has itself not pleaded whether the dispute could be considered &#8220;commercial&#8221; as a matter of Indian law or submitted any evidence to that effect, which it is India&#8217;s burden to discharge. English law, therefore, the Claimants submit, applies by default: see <span style="font-style:italic">Brownlie v FS Cairo (Nile Plaza) LLC</span> [2022] AC 995 which deals with the presumption of similarity. The Claimants also submit that India raised this point for the first time in this jurisdiction in its skeleton argument, and there was no time to adduce any Indian law evidence. This is they say is why no timetable was set by Sir Nigel Teare for Indian law evidence under the s.2 question which it is common ground is (as noted above) a pure point of law. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is not necessary at this point to decide between these two positions. The <span style="font-style:italic">Brownlie</span> case makes clear that because the application of the presumption of similarity is fact-specific, it is impossible to state any hard and fast rules as to when it may properly be employed (at [143], Lord Leggatt JSC, with whom the other members of the Supreme Court agreed on the foreign law issue). The decision of Foxton J in <span style="font-style:italic">The Czech Republic v Diag Human SE and Stava</span> [2024] EWHC 2102 (Comm) at [43] is instructive as to the granular approach that may be required in such a case, albeit as regards a different question in that case. I appreciate that the Australian court decided the issue without such evidence, but I am inclined to think that on an issue that is so closely tied to the law of India, it would not be right for this court to decide the matter simply on the basis that Indian law is the same as English law. The MFN argument did not seem to me to advance the Claimants&#8217; case much.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As already indicated, on appeal, the Full Federal Court of Australia has decided this issue in favour of India, which must carry considerable weight in this jurisdiction.  A decision is not required from me on this issue given my earlier conclusions, and I do not think I should render one.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">India&#8217;s timing point</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The third further point that India raises is a new timing point based on s.23(3)(a) SIA which provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; Parts I and II of this Act do not apply to proceedings in respect of matters that occurred before the date of the coming into force of this Act and, in particular&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">sections 2(2) and 13(3) do not apply to any prior agreement, &#8230;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">entered into before that date.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India argues that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The SIA came into force on 22 November 1978. However, on the Claimants&#8217; case, the &#8220;prior written agreement&#8221; is said to be India&#8217;s ratification of the NYC. India signed the NYC on 10 June 1958 and ratified it on 13 July 1960. Accordingly, under Article XII(2), the NYC entered into force for India &#8220;on the ninetieth day&#8221; thereafter, being 11 October 1960.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">If relevant, the UK acceded to the NYC on 24 September 1975. Accordingly, the NYC entered into force for the UK &#8220;on the ninetieth day&#8221; thereafter, being 23 December 1975.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Thus: (1) the alleged &#8220;prior written agreement&#8221; was entered before the SIA came into force in 1978; (2) s. 2(2) of the SIA cannot apply to the alleged &#8220;prior written agreement&#8221; (see s.23(3)(a) SIA); (3) India is immune under s.1 of the SIA, subject only to the ongoing dispute in relation to the s.9 exception.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">That is because Part I of the SIA &#8220;is a complete code&#8221;. There is nothing unfair about that result. Under the common law, prior to the SIA, it was not possible to waive immunity by a prior agreement.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This point again does not arise given my earlier conclusions.  But I note that a similar timing point was rejected by the Court of Appeal in the <span style="font-style:italic">Infrastructure Services</span> case (op. cit.) at [40-41], where it is said that the term &#8220;matters&#8221; in s.23(3) SIA cannot be stretched to refer to the Treaty at issue in that case, namely the ICSID Convention:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Apart from the fact that the term &#8220;matters&#8221; does not readily encompass treaties or legislation as a matter of language or usage, if the intention was to exclude a treaty or a statute from the ambit of the SIA, that could and would have been done expressly in section 16, which at section 16(3) excluded &#8220;proceedings to which section 17(6) of the Nuclear Installations Act 1965 applies.&#8221;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India responds that this is speaking of a case of investors trying to get out of the entire regime, and that it is not a s.2(2) case at all.  But were it to be relevant, I do not see why the principle should not apply by analogy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimants further submit that the &#8220;proceedings in respect of matters that occurred before the date of the coming into force of this Act&#8221; are the recognition and enforcement proceedings brought by the Claimants in respect of the particular Awards rendered.  They submit that India&#8217;s consent has been given on a standing and continuous basis under the framework of the NYC to recognise and enforce arbitration agreements and awards to be made in the future between parties which are unidentified at the time that they gave their original consent. It is wrong to characterise the relevant consent as being at the point in time of ratification or limited to the point in time of ratification.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">India contends that this may apply to a BIT, but the NYC is an agreement between states. It only concerns the obligations of states to enforce. It says nothing about the state in its capacity as a party to an award, and there is nothing in the NYC to suggest some kind of continuing offer or agreement with a non-state.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have rejected the Claimants&#8217; contention that the NYC constitutes consent, so the premise of their contention does not exist.  But were the issue to arise, my view would be that India&#8217;s contention gives too little weight to the purpose of s. 23(3) as regards &#8220;proceedings&#8221; in respect of matters that occurred before the date of the coming into force of this Act.  The proceedings the Claimants have brought to enforce the Awards came long after 1978.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Were it to be relevant, therefore, I would have rejected India&#8217;s timing point.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court is directed by order made on 23 October 2024 to answer the following question (the s.2(2) question), namely:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-style:italic">&#8220;Whether, for the purposes of enforcement of (i) the award on jurisdiction and merits dated 25 July 2016, and (ii) the award on quantum dated 13 October 2020 (&#8220;the Awards&#8221;), India has submitted to the adjudicative jurisdiction of the English Courts by prior written agreement within the meaning of s.2(2) of the State Immunity Act 1978, by its ratification of the New York Convention 1958 and thereby (on the Fourth to Sixth Claimants&#8217; case) its consent under Article III to the English Court recognising and enforcing the Awards.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I answer this question as follows.  Section 2(2) of the UK&#8217;s State Immunity Act 1978 (SIA) provides that a state may submit to the jurisdiction of the UK courts by a prior written agreement.  I consider that by reason only of its ratification of the New York Convention 1958 (NYC), the Republic of India has not submitted to the jurisdiction, or to put it another way, ratification of the NYC by India does not in and of itself, and absent a valid arbitration agreement, amount to consent by way of a &#8220;prior written agreement&#8221; by the state waiving its immunity.  This is because (1) there is no indication that it was the intention of the drafters of the NYC to preclude immunity-based arguments in enforcement actions against states, and overall the commentary is to the effect that immunity-based arguments are not precluded, (2) applying the established classification of state immunity in English and international law, the reference to &#8220;rules of procedure&#8221; in Article III NYC preserves state immunity in its own terms, and (3) applying the test for waiver in English law, the ratification of Art III of the NYC is not, on its own, a waiver of state immunity by India.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Among the practical considerations behind this conclusion, in the context of arbitration, s.9 of the UK&#8217;s SIA specifically provides that where a state has agreed in writing to submit a dispute to arbitration it is not immune as respects proceedings which relate to the arbitration. In this case, India disputes the arbitration agreement, and there are proceedings in the Netherlands which is the seat of the arbitration. In principle, however, where there is an issue as to the effect or validity of the arbitration agreement, determination of the issue for state immunity purposes should be determinative for NYC purposes as well as avoiding duplication. In any event, the conclusion I have reached is not intended to contradict in any way the enforcement friendly aspect of the NYC, which is its purpose, and the reason for its success, and which has been consistently upheld in the English courts. It simply recognises that international jurisprudence, which holds that &#8220;&#8230; state immunity occupies an important place in international law and international relations&#8221;, also has to be taken into account in deciding the narrow, but important, issue of whether a state has by treaty given its consent to waive that immunity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Three further points raised by India are dealt with in the body of this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am grateful to the parties and to counsel for their submissions on this case. I will deal with any matters consequential on this judgment once they have had a chance to consider it.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

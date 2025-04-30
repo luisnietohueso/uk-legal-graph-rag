@@ -1,0 +1,1729 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2025/86"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2025/86"/>
+	  <FRBRdate date="2025-03-11" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="86"/>
+	  <FRBRname value="SM v Disclosure and Barring Service"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/86"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/86"/>
+	  <FRBRdate date="2025-03-11" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/86/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/86/data.xml"/>
+	  <FRBRdate date="2025-03-24T16:50:12" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-11" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-aac" href="https://www.gov.uk/courts-tribunals/upper-tribunal-administrative-appeals-chamber" showAs="United Kingdom Upper Tribunal (Administrative Appeals Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="sm" href="" showAs="SM"/>
+	<TLCPerson eId="disclosure-and-barring-service" href="" showAs="DISCLOSURE AND BARRING SERVICE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-AAC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>86</uk:number>
+	<uk:cite>[2025] UKUT 86 (AAC)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>167a15782b83c00a327e578f30d27711389ec2b5b50becf3d365312522a4ccac</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Arial; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Heading1 { text-align: justify; font-weight: bold; font-size: 12pt; }
+#judgment .Heading2 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Heading3 { text-align: justify; margin-left: 0in; font-style: italic; font-family: Arial; font-size: 12pt; }
+#judgment .Heading4 { text-align: justify; font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Header { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .numbered0 { text-align: justify; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .Numbered { text-align: justify; margin-left: 0in; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .NormalNumber { text-align: justify; margin-left: 0.39in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyTextIndent2 { text-align: justify; margin-left: 1in; font-size: 11pt; }
+#judgment .ListParagraph { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.39in; font-size: 11pt; color: #404040; }
+#judgment .Sub-Heading { text-align: justify; margin-left: 0.39in; font-style: italic; font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .TOC1 { text-align: left; margin-left: 0.79in; font-weight: bold; font-size: 11pt; }
+#judgment .TOC2 { text-align: left; margin-left: 0.98in; font-size: 11pt; }
+#judgment .TOC3 { text-align: left; margin-left: 1.18in; font-style: italic; font-size: 11pt; }
+#judgment .TOC4 { text-align: left; margin-left: 0.5in; font-size: 10pt; }
+#judgment .TOC5 { text-align: left; margin-left: 0.67in; font-size: 10pt; }
+#judgment .TOC6 { text-align: left; margin-left: 0.83in; font-size: 10pt; }
+#judgment .TOC7 { text-align: left; margin-left: 1in; font-size: 10pt; }
+#judgment .TOC8 { text-align: left; margin-left: 1.17in; font-size: 10pt; }
+#judgment .TOC9 { text-align: left; margin-left: 1.33in; font-size: 10pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .legdslegrhslegp3text { }
+#judgment .normaltextrun { }
+#judgment .BodyTextIndent2Char { font-family: Arial; font-size: 11pt; }
+#judgment .legaddition5 { }
+#judgment .eop { }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .QuoteChar { font-family: Arial; font-size: 11pt; color: #404040; }
+#judgment .NumberedChar { font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Heading3Char { font-style: italic; font-family: Arial; font-size: 12pt; }
+#judgment .Sub-HeadingChar { font-style: italic; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 12pt; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header" style="text-align:center"><img src="image1.png" style="width:81.95pt;height:72pt"/></p>
+    </coverPage>
+    <header>
+      <p style="text-align:right"><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2025] UKUT 86 (AAC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Appeal No. UA-2021-000673-V</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Rule 14 Order: It is prohibited for any person to disclose or publish any matter likely to lead members of the public to identify the appellant in these proceedings, or any service user, member of a service user&#8217;s family or other staff member referred to in the hearing bundle.</span></p>
+      <p><span style="font-style:italic;font-family:Arial">Any breach of this order is liable to be treated as a contempt of court and may be punishable by imprisonment, fine or other sanctions under section 25 of the Tribunals, Courts and Enforcement Act 2007. The maximum punishment that may be imposed is a sentence of two years&#8217; imprisonment or an unlimited fine.</span></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-aac" style="font-weight:bold">IN THE UPPER TRIBUNAL </courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-aac" style="font-weight:bold">ADMINISTRATIVE APPEALS CHAMBER</courtType></p>
+      <p><span style="font-weight:bold">Between:</span></p>
+      <p style="text-align:center"><party refersTo="#sm" as="#appellant" style="font-weight:bold">SM</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">- v -</span></p>
+      <p style="text-align:center"><party refersTo="#disclosure-and-barring-service" as="#respondent" style="font-weight:bold">DISCLOSURE AND BARRING SERVICE</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondent</role></p>
+      <p><span style="font-weight:bold">Before: </span><marker name="tab"/><span style="font-weight:bold">Upper Tribunal Judge Stout</span></p>
+      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold">Tribunal Member Hutchinson</span></p>
+      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold">Tribunal Member Smith</span></p>
+      <p><span style="font-weight:bold">Hearing date(s): </span><marker name="tab"/>21 February 2025</p>
+      <p><span style="font-weight:bold">Mode of hearing: </span><marker name="tab"/>In person (Manchester)</p>
+      <p><span style="font-weight:bold">Representation:</span></p>
+      <p><span style="font-weight:bold">Appellant:</span><marker name="tab"/><marker name="tab"/>In person</p>
+      <p><span style="font-weight:bold">Respondent:</span><marker name="tab"/>Richard Hanstock (counsel)</p>
+      <p><span style="font-style:italic">On appeal from a decision of the Disclosure and Barring Service:</span></p>
+      <p>DBS Reference Number:<marker name="tab"/>00934588269</p>
+      <p>Date of decision letter:<marker name="tab"/>24 August 2021</p>
+      <p style="text-align:left"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY OF DECISION</span></p>
+      <p><span style="font-weight:bold">SAFEGUARDING VULNERABLE GROUPS (65) </span></p>
+      <p>The appellant was included by the Disclosure and Barring Service (DBS) on the children&#8217;s and adults&#8217; barred lists because DBS concluded that she had verbally, emotionally and physically abused a vulnerable adult for whom she was caring as a live-in carer. The Upper Tribunal allows her appeal and remits her case to DBS for a fresh decision because the decision was materially unfair as a result of DBS having failed to give her an effective opportunity to make representations on the decision. The Upper Tribunal decides that:</p>
+      <blockContainer>
+	<num>(i)</num>
+	<p style="margin-left:0.39in">An error of law must be a material error to constitute a mistake for the purposes of section 4(2) of the Safeguarding of Vulnerable Groups Act 2006 (SVGA 2006);</p>
+      </blockContainer>
+      <blockContainer>
+	<num>(ii)</num>
+	<p style="margin-left:0.39in;text-indent:0.11in">A procedural error will be a material error of law if it might make a material difference to the outcome or the fairness of the decision;</p>
+      </blockContainer>
+      <blockContainer>
+	<num>(iii)</num>
+	<p style="margin-left:0.39in;text-indent:0.23in">As a public authority decision-maker, DBS is required to act fairly. Fairness in a particular case may require DBS to do more than simply comply with the letter of the SVGA 2006. In particular, fairness requires that a person be given an effective opportunity to make representations, not just &#8220;the&#8221; opportunity as required by paragraph 16(1) of Schedule 3 to the SVGA 2006;</p>
+      </blockContainer>
+      <blockContainer>
+	<num>(iv)</num>
+	<p style="margin-left:0.39in;text-indent:0.11in">Paragraph 16(1) requires that the individual be given an opportunity to make representations on &#8220;all the information on which DBS intends to rely&#8221;. This is an obligation to provide access to information, which may be complied with by offering to make arrangements to view evidence (such as video evidence in this case). It is not an obligation to disclose documents, but in most cases (including this one) it will require DBS to provide all the documents it has received on the case, not just a summary of that information in a letter. Even if DBS is not itself &#8216;relying&#8217; on some of those documents, fairness may require that they be provided;</p>
+      </blockContainer>
+      <blockContainer>
+	<num>(v)</num>
+	<p style="margin-left:0.39in">A failure by DBS to give someone an effective opportunity to make representations will normally make a material difference to the fairness of the decision because: (a) the right to make representations is fundamental to natural justice; and (b) a failure to afford such opportunity deprives the individual of the opportunity of having DBS fairly consider whether it is appropriate for them to be included in a barred list &#8211; a question in respect of which no right of appeal lies to the Upper Tribunal (s 4(3) SVGA 2006); </p>
+      </blockContainer>
+      <blockContainer>
+	<num>(vi)</num>
+	<p style="margin-left:0.39in;text-indent:0.11in">A procedural failure may cease to be material if DBS considers late representations or carries out a review and issues a new decision, or if the individual is successful in an appeal to the Upper Tribunal on another ground (whether of law or fact);</p>
+      </blockContainer>
+      <blockContainer>
+	<num>(vii)</num>
+	<p style="margin-left:0.39in;text-indent:0.23in">DBS has discretion in all cases to extend the prescribed 8-week period for making representations where there is &#8220;good reason&#8221; to do so: regulation 2(6) of The Safeguarding Vulnerable Groups Act 2006 (Barring Procedure) Regulations 2008 (SI 2008/474) (the 2008 Regulations)). In this case, DBS had failed lawfully to exercise that discretion. The Upper Tribunal gives guidance on the factors relevant to the exercise of that discretion;</p>
+      </blockContainer>
+      <blockContainer>
+	<num>(viii)</num>
+	<p style="margin-left:0.39in;text-indent:0.36in">After a decision has been made, DBS has an open discretion to give permission for late representations to be made and considered under paragraph 17(2) of Schedule 3 to the SVGA. The requirements of natural justice, the Human Rights Act 1998 and public policy factors, mean that, in most cases, DBS should give permission for late representations to be made even where there is no reason why representations were not made earlier. In this case, DBS had failed lawfully to exercise its discretion.</p>
+      </blockContainer>
+      <p><span style="font-style:italic;font-weight:bold;font-size:10pt">Please note the Summary of Decision is included for the convenience of readers. It does not form part of the decision. The Decision and Reasons of the Tribunal follow.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">The decision of the Upper Tribunal is to allow the appeal. </span>The matter is remitted to DBS for a new decision. The appellant must remain on the list until DBS makes its new decision.</heading>
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">REASONS FOR DECISION</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Heading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant appeals under section 4 of the Safeguarding Vulnerable Groups Act 2006 (SVGA 2006) against the decision of the Disclosure and Barring Service (DBS) of 24 August 2021 including her in the children&#8217;s and adults&#8217; barred lists pursuant to paragraphs 3 and 9 of Schedule 3 to the SVGA 2006. The decision was based on evidence DBS had received from the appellant&#8217;s former employer, including CCTV evidence, that on 15 May 2020 the appellant had verbally, emotionally and physically abused a service user to whom she was providing care as a live-in carer. DBS&#8217;s decision was taken without the appellant having made representations, her applications for an extension of time to make representations in advance of the decision (or late) having been refused by DBS.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The structure of this decision is as follows:-</span></p>
+	      <toc>
+		<tocItem class="TOC1" style="margin-left:0.79in" level="0" href="#"><a href="#lvl_2"><span class="Hyperlink">Introduction</span><marker name="tab"/><inline name="page">3</inline></a></tocItem>
+		<tocItem class="TOC1" style="margin-left:0.79in" level="0" href="#"><a href="#lvl_3"><span class="Hyperlink">The proceedings before the Upper Tribunal</span><marker name="tab"/><inline name="page">4</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_4"><span class="Hyperlink">The grant of permission and the parties&#8217; responses/replies to that</span><marker name="tab"/><inline name="page">6</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_5"><span class="Hyperlink">This hearing</span><marker name="tab"/><inline name="page">11</inline></a></tocItem>
+		<tocItem class="TOC1" style="margin-left:0.79in" level="0" href="#"><a href="#lvl_6"><span class="Hyperlink">Factual background</span><marker name="tab"/><inline name="page">11</inline></a></tocItem>
+		<tocItem class="TOC1" style="margin-left:0.79in" level="0" href="#"><a href="#lvl_7"><span class="Hyperlink">Legal framework</span><marker name="tab"/><inline name="page">15</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_7"><span class="Hyperlink">Relevant legal framework for DBS&#8217;s decision</span><marker name="tab"/><inline name="page">15</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_8"><span class="Hyperlink">The Upper Tribunal&#8217;s jurisdiction on appeal</span><marker name="tab"/><inline name="page">18</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_9"><span class="Hyperlink">Whether a mistake on a point of law must be a material error of law</span><marker name="tab"/><inline name="page">19</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_10"><span class="Hyperlink">What is a material procedural error</span><marker name="tab"/><inline name="page">22</inline></a></tocItem>
+		<tocItem class="TOC1" style="margin-left:0.79in" level="0" href="#"><a href="#lvl_11"><span class="Hyperlink">The grounds of appeal</span><marker name="tab"/><inline name="page">24</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_11"><span class="Hyperlink">Ground 1: Failure to provide information</span><marker name="tab"/><inline name="page">24</inline></a></tocItem>
+		<tocItem class="TOC3" style="margin-left:1.18in" level="0" href="#"><a href="#lvl_11"><span class="Hyperlink">The parties&#8217; submissions</span><marker name="tab"/><inline name="page">24</inline></a></tocItem>
+		<tocItem class="TOC3" style="margin-left:1.18in" level="0" href="#"><a href="#lvl_12"><span class="Hyperlink">Our analysis and conclusions</span><marker name="tab"/><inline name="page">24</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_13"><span class="Hyperlink">Grounds 2 and 3: Failure to grant an extension of time for making representations, or to permit late representations</span><marker name="tab"/><inline name="page">28</inline></a></tocItem>
+		<tocItem class="TOC3" style="margin-left:1.18in" level="0" href="#"><a href="#lvl_13"><span class="Hyperlink">The parties&#8217; submissions</span><marker name="tab"/><inline name="page">28</inline></a></tocItem>
+		<tocItem class="TOC3" style="margin-left:1.18in" level="0" href="#"><a href="#lvl_14"><span class="Hyperlink">Our analysis and conclusions</span><marker name="tab"/><inline name="page">29</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_15"><span class="Hyperlink">Ground 5: Proportionality</span><marker name="tab"/><inline name="page">34</inline></a></tocItem>
+		<tocItem class="TOC2" style="margin-left:0.98in" level="0" href="#"><a href="#lvl_16"><span class="Hyperlink">Ground 7: Inclusion on the children&#8217;s barred list</span><marker name="tab"/><inline name="page">35</inline></a></tocItem>
+		<tocItem class="TOC1" style="margin-left:0.79in" level="0" href="#"><a href="#lvl_17"><span class="Hyperlink">Conclusion</span><marker name="tab"/><inline name="page">36</inline></a></tocItem>
+	      </toc>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Heading1">The proceedings before the Upper Tribunal</heading>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant filed her notice of appeal to the Upper Tribunal on 24 November 2021 (in time). It is unfortunate that it has taken so long for her appeal to be determined and we offer our apologies to her for the Upper Tribunal&#8217;s part in the delay. However, it is not just Upper Tribunal administration that has delayed the appellant&#8217;s appeal, and as the history of this appeal before the Upper Tribunal has some bearing on the decision we have ultimately reached in this case, we need to set it out here.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant&#8217;s case was first allocated to Judge Rowley who made directions on 10 February 2022 requiring DBS to provide the appellant with certain information, including the CCTV footage on which DBS had relied in making its decision. DBS refused in part and by letter of 9 May 2022 sought an order prohibiting the CCTV footage from being sent to the appellant because of concerns about the risks of such footage being copied and coming into the public domain. DBS suggested that the appellant should be provided with an opportunity to view the footage at the Upper Tribunal prior to any hearing. By directions of 14 June 2022, Judge Rowley indicated that it was her preliminary view that DBS should provide the CCTV footage to the appellant, subject to the usual requirements that the appellant use it only for the purposes of these proceedings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">By submissions of 30 August 2022, DBS maintained its position that the CCTV footage should be withheld from the appellant.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Judge Rowley then retired and the case was reallocated to Judge Jacobs who made an order authorised for issue on 29 September 2022. He required the CD of the CCTV footage to be sent to the appellant for viewing and for her then to return it to the Upper Tribunal after a month. He further directed that the appellant should have an opportunity to amend her grounds of appeal in the light of the CCTV evidence and other documentary evidence DBS had provided, if she wished.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Unfortunately, the appellant was unable to get the CD to work. By directions authorised for issue on 9 November 2022, Judge Jacobs accordingly directed that she would need to be given an opportunity to view the recording during a hearing, if there was one at the permission or substantive stages.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">By letter of 15 December 2022 DBS raised concerns about Judge Jacobs&#8217; directions of 9 November 2022 and suggested that its application 30 August 2022 for the CCTV footage to be withheld from the appellant had not been dealt with. By directions authorised for issue on 19 December 2022, but not issued until 2 February 2023, Judge Jacobs corrected that misapprehension.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">By directions authorised for issue on 27 April 2023, but not issued until 24 June 2023, Judge Jacobs noted that the appellant had not heard from the appellant (who had not provided amended grounds as permitted by his order of 29 September 2022). Judge Jacobs gave notice that he would make a decision on the appellant&#8217;s application for permission if he did not hear from the appellant within two weeks.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">By decision authorised for issue on 6 July 2023, but not issued until 9 August 2023, Judge Jacobs refused the appellant permission on the papers. Regarding the procedural complaints in the appellant&#8217;s application for permission to appeal, he observed:</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">SM has now seen all the evidence (apart from the CCTV footage) and will have a chance to make any points she wishes to challenge the decision to include her in the lists. But she must make a sufficient case to justify being given permission.</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant then emailed on 22 August 2023 applying to renew her application to an oral hearing. She stated that she had still not had an opportunity to view the CCTV and contended that she had not had an opportunity to challenge DBS&#8217;s findings of fact.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Directions were then given by Judge Perez for an oral hearing in person in Manchester on 22 February 2024. That hearing took place before Judge Stout, who was able at the hearing to show the appellant what the Upper Tribunal was able to see of the CCTV footage. Judge Stout&#8217;s decision granting permission records what happened in relation to the viewing of the CCTV footage as follows:-</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">43.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">I therefore showed her the four videos during the hearing, pausing them as necessary to point out key parts of them (as noted below). The videos are difficult to use (or, at least, they were for me) as the audio and video cuts out intermittently and (inexplicably) in a way that is slightly different each time the file is played. Nonetheless, I have been able to observe the following in the videos, as I shared with the appellant.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">44.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">What I have noted from the audio/video evidence provided by DBS, and shared with the appellant, is as follows. Again, I emphasise that these are merely my provisional notes for the purposes of this permission hearing and do not constitute findings of fact about the content of the videos:-</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">a.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">&#8220;Asking Cardigan&#8221; &#8211; 1:23 of footage from 4/7/2020 at 13:38, audio only up to 00:59. The television can be heard. VA is in the corner of the room in her wheelchair. She is saying &#8220;I&#8217;m cold&#8221; and asking for a grey something. I cannot make out the word &#8220;cardigan&#8221;.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">b.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">&#8220;Locked Again&#8221; &#8211; 1:31 of video footage, dated 11/7/2020, hallway. Shows another carer carefully reversing VA in her wheelchair. The door to her room is shut but it is not possible to see whether it is locked.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">c.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">&#8220;S Unlocks Door&#8221; &#8211; 03:02 of video footage of the hallway on 5/7/2020. The appellant is seen moving through the hallway a couple of times at an 01:04 comes and unlocks the door to the VA&#8217;s room. There is no audio.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">d.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">&#8220;Shouting&#8221; and &#8220;Shouting (2)&#8221; &#8211; the same 03:47 of audio and video footage on 15/05/2020. The appellant can be heard shouting &#8220;you don&#8217;t call me on my break&#8221;, &#8220;you are just being a pain&#8221; &#8220;I am gonna tell your family you don&#8217;t need a carer on my break&#8221; &#8220;I am getting fed up of you&#8221;. The video footage is intermittent. The appellant can be seen gesturing at VA and continuing to say that she is &#8220;a pain&#8221;, that she does not want her to call her, she repeatedly says &#8220;it will never happen&#8221;, putting her face in the vulnerable adult&#8217;s face and gesturing at her. I do not hear any reference to a continence pad. At 01:08 the appellant shoves the door into the VA&#8217;s wheelchair and then continues gesticulating at her. At 2:37 the appellant moves VA&#8217;s wheelchair quickly and takes her out of the room.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">45.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">After she had viewed the videos, I indicated to the appellant that I did not consider it was fair to her to expect her to respond on the spot to the content of the videos, and that there was no need to do so as none of her grounds of appeal turn on the content of the videos, which it seems to me she has probably never seen before in this complete form. I explained that if she wanted, now she had seen the videos, to set out her response to the videos in writing she could: </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">a.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">apply to DBS for a review under paragraph 18A of Schedule 3 and/or, </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">b.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">if she considers she has identified a mistake of fact in the DBS&#8217;s decision, make an application to the Upper Tribunal for permission to add a further ground to her appeal. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">46.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">I emphasised that these were just options that are open to her: it does not follow either that DBS will grant her a review or that the Upper Tribunal would grant her permission to add a further ground of appeal. Any application will be considered on its merits.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Heading2">The grant of permission and the parties&#8217; responses/replies to that</heading>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Judge Stout granted permission on the appellant&#8217;s numbered grounds 1, 2, 3, 5 and 7, explaining the reasons for the grant of permission and making certain observations about the grounds as follows:-</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">48.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In grounds 1 to 3 the appellant argues that DBS&#8217; decision was procedurally unfair because DBS did not allow her to make representations, or extend time for her to make representations or allow her to make late representations and did not provide her with the CCTV footage or the other documents on which it relied. (As already noted, the appellant was at the hearing unsure about what documents she had received from DBS with the Minded to Bar letter.)</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">49.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">For the following reasons, I consider it arguable that DBS erred in law in some or all of the respects identified by the appellant and I grant permission on grounds 1 to 3. As the appellant is unrepresented, I do not consider it appropriate to seek to limit the various inter-related arguments that she makes under these grounds in relation to procedural fairness, but the following points seem to me to be the clearly arguable errors of law that are raised by her in those grounds and on which DBS may wish to focus when responding to the appeal. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">50.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">First, by paragraph 3(2) and 9(2) of Schedule 3, DBS must give a person an opportunity to make representations before including them on the barred list. By paragraph 16(1) a person who is given the opportunity to make representations must have the opportunity to make representations in relation to &#8220;all&#8221; of the information on which DBS intends to rely in taking a decision under Schedule 3. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">51.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">If, as presently appears, DBS did not supply her with the CCTV footage, then it arguably failed to comply with those mandatory provisions of the Schedule and thus it is arguable that its power to include the appellant on the barred list had not arisen and/or that the decision was otherwise reached in error of law. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">52.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">If DBS did not supply the appellant with the other documentation on which it relied (which point will need to be confirmed by the appellant before DBS responds to the appeal in accordance with my directions below), the error would be compounded.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">53.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Secondly, it seems to me that when refusing the appellant&#8217;s request for an extension of time to make representations in its letter of 17 August 2021 DBS arguably erred in law by treating the fact that her written request for an extension of time arrived one day after the time that had been stipulated for making representations as determinative that an extension could not be granted. That may be how the statute works in relation to decisions made by DBS under paragraphs 2 and 8 of Schedule 3 by virtue of the apparently strict provision of paragraphs 2(5) and 8(5), but there is no similar provision in paragraphs 3 and 9. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">54.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Further, or alternatively, it is arguable that DBS erred in law in failing to exercise its discretion under paragraph 17(2) at that stage to decide whether to grant permission to make representations out of time.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">55.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">While I acknowledge that there is no right of appeal to this Tribunal against a refusal to extend time for the making of representations, it seems to me to be arguable that it is implicit in the legislation (and/or otherwise a requirement of procedural fairness) that DBS is required before including a person on a barred list to give them a reasonable opportunity to make representations. It is thus also arguable that a decision to include a person on a barred list without having given them a reasonable opportunity to make representations as required would be a decision reached in error of law as being materially unfair. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">56.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">If DBS has misunderstood its statutory powers in relation to extending time for representations and/or failed even to consider exercising its discretion to extent time and/or irrationally refused to extend time for making representations, I consider it arguable that this renders its decision to include the appellant on the barred list a decision made in error of law.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">57.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">I am conscious that UTJ Jacobs, when refusing permission on the papers, considered that defects of procedure such as these could be remedied through this appeal process, and he made orders intended to allow the appellant to view the CCTV evidence in order to refine her proposed grounds of appeal. However, normally, if there is an arguable error of law in a decision, permission would be granted unless the error was not arguably material. It may well be that any procedural error in this case is unlikely ultimately to make a difference to whether DBS decides to place the appellant on the barred list. However, the question of whether it is appropriate for the appellant to be included on the barred list is for the DBS, not this Tribunal, and at the permission stage (prior to a substantive response by DBS to the appeal) it does not seem to me to be right to assume what DBS&#8217;s approach will be to the appellant&#8217;s representations if, as and when she is permitted to make them and they are considered by DBS. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">58.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Further, if the procedural errors alleged by the appellant had not occurred, and she had made representations, there would at least have been this difference: DBS&#8217;s decision letter would have contained reasons explaining why the appellant&#8217;s representations had been rejected. Reasons are important in this context for individuals who may struggle to understand how a dismissal from one job can lead to barring from their whole field of work and chosen career. It is arguable in this context that permitting the appellant to make representations and then giving of reasons for rejecting them (if that is the DBS&#8217;s decision) would itself amount to a material difference in outcome for this appellant.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">59.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In any event, it seems to me that this is one of those cases where permission should be granted even if the procedural errors I have identified ultimately make no difference to this appellant. That is because there are potentially wider points of principle at stake, as I shall explain.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">60.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Procedural fairness is always important, but especially in this regime which (in pursuit of the important aim of protecting children and vulnerable adults) has such profound effects on the individual concerned. Given the legislative hurdles that an appellant who has been included on a list has to surmount in order to get removed from a list, it may be thought to be particularly important that procedural fairness is observed at the outset and before DBS has made its decision to include the individual on a list (which decision it is thereafter in the position of defending with all the implications that has for confirmation bias in decision-making processes). </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">61.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">I am concerned on the basis of what has happened in this case that DBS may be operating a more general practice of not properly considering requests for extensions of time to make representations and/or failing to provide individuals with the material required by paragraph 16(1). That concern arises from the following matters as they appear on the materials currently before me: </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">a.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the appellant&#8217;s account of the short shrift that she received on the telephone in response to her requests for an extension of time in which to make representations;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">b.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the minimal reasons given by DBS for refusing her requests for an extension of time/right to make late representations (in response to detailed letters on her part); and </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">c.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the fact that DBS resisted providing the appellant with the CCTV evidence on which it had relied even after she commenced this appeal. </p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">63.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Apart from the procedural fairness points already dealt with, Ground 5 argues (implicitly by reference to Article 8 mentioned in ground 4) that DBS&#8217;s decision to bar was disproportionate in the appellant&#8217;s case to the length of time that the appellant has worked without proven incident in the care sector, and her age because at 63 (as she was when she commenced this appeal), she feels there is no realistic prospect of her being able to re-train, gain experience and secure employment in another area of work before the end of her working life. The appellant&#8217;s age and its implications for her ability to secure alternative employment appear to me to be obviously relevant factors to take into account in assessing whether it is proportionate in a particular case, given the nature of the risk posed by the individual, to place an individual on a barred list. However, I have reviewed DBS&#8217;s decision letter and cannot find any reference to these matters. As such, I consider that it is arguable that DBS has erred in law by failing to take into account a relevant factor in its decision-making process and/or arguable that the decision to bar was in error of law as breaching DBS&#8217;s obligation as a public authority under s 6 of the Human Rights Act 1998 to act compatibly with the appellant&#8217;s Convention rights.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">65.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Ground 7 argues that DBS should not have included the appellant on the children&#8217;s barred list because the allegations against her concerned an adult, she has never had any allegations against her concerning children, has never worked with children and, at the age of 63, nearing the end of her working life and with neither the relevant training, skills or experience, it is very unlikely that she will ever work with children. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">66.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The effect of paragraph 4(1)(b) of Schedule 3 is that a person commits &#8216;relevant conduct&#8217; in relation to a child if conduct against a vulnerable adult has been found proved and, if repeated against a child, it would endanger a child. I cannot see any error of law in DBS&#8217;s reasoning in this part of the decision letter, which is not perverse. </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;color:#404040">67.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">However, under paragraph 3 of Schedule 3 DBS cannot include a person on the children&#8217;s barred list unless it also &#8220;has reason to believe that the person is or has been, or might in future be, engaged in regulated activity relating to children&#8221; (paragraph 3(3)(aa)). In this case, the only reasoning in DBS&#8217;s decision letter addressing that condition is &#8220;you have previously applied for the role of Child and Adult Workforce Healthcare Assistant with United Kingdom Home Care Association Ltd&#8221;. At this hearing, the appellant confirmed she had made that application. However, an application is not evidence that the appellant &#8220;is or has been&#8221; engaged in regulated activity with children. Nor is it, without more, evidence that the appellant &#8220;might in future be&#8221; engaged in such activity. DBS&#8217;s decision letter contains no reasons at all explaining why DBS concluded that the condition in paragraph 3(3)(a) was satisfied. As such, it is arguable that DBS erred in law either by concluding that condition was satisfied or in failing to give adequate reasons for this part of its decision.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">On 8 April 2024 the appellant filed a witness statement in response to directions Judge Stout had given in the grant of permission. This set out the appellant&#8217;s evidence regarding the alleged procedural errors in DBS&#8217;s decision-making, including her evidence as to what documents she had received from DBS at the time the decision was taken and her requests for extensions of time to make representations and/or to make late representations. She further stated: <span style="font-style:italic">&#8220;I do not wish to set out my response to the videos now as I am considering the options that are open to me&#8221;</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">DBS filed a reply to the appeal on 11 April 2024, resisting the appeal, but without having had sight of the appellant&#8217;s witness statement of 8 April 2024.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">On 29 April 2024, Judge Stout gave directions requiring the respondent to provide a supplementary response in the light of the appellant&#8217;s witness statement. DBS then provided a supplementary response on 10 May 2024.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">By directions sent to the parties on 1 July 2024, Judge Stout reminded the appellant that the Upper Tribunal has jurisdiction to deal with errors of fact and pointed out that DBS in response to the appeal was arguing that, even if her grounds of appeal were successful, and a procedural error of law established, her case should not be remitted to DBS because the error would not be material if she was not challenging any of the facts on which the decision was based. Judge Stout explained that, if DBS was right in its argument, then unless she put in a witness statement &#8220;setting out her factual challenges to DBS&#8217;s decision, her appeal may be unsuccessful&#8221;, but added &#8220;It is a matter for the appellant whether she wishes to take that risk or not&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The appellant then provided a witness statement dated 5 July 2024 in which she referred back to the letter she wrote to DBS in August 2021 requesting additional time to submit her representations (see below). She quoted what she had said there about evidence that she believed her former employer and colleagues had that bore on the incidents for which she was dismissed and included on the barred list. She also reiterated what she had said about having been subject to racial abuse by the VA. She complained that the CCTV evidence was &#8216;incomplete&#8217;. She stated that she intended to call her former colleagues as witnesses.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">By letter of 15 August 2024, DBS expressed concerns that it appeared that the appellant still did not understand &#8220;that she is able to challenge findings of fact through the Upper Tribunal process&#8221; and inviting the Upper Tribunal to make a specific order that the appellant set out all the challenges of fact that she wishes to make so that those challenges could be dealt with as part of this appeal rather than on remission to DBS.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">By directions sent to the parties on 18 September 2024, Judge Stout expressed the view that the appellant did appear to understand that she could challenge facts in this appeal as her witness statement included challenges to some of the facts on which the decision was based, and indicated her intention to call witnesses. Judge Stout reminded both parties of the needs for statements of other witnesses on whom they wished to rely to be sent to the Tribunal and the other party at least 21 days before the hearing. Judge Stout also explained the Upper Tribunal&#8217;s power to make witness orders if required and how to apply for such an order.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Heading2">This hearing</heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">It unfortunately took some time for a date to be identified for this hearing where a hearing venue was available in Manchester for an in-person hearing on a date that was convenient to the parties and Tribunal. This accounts for the further delay between the grant of permission and this final hearing. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">At this hearing, we received the aforementioned witness statements from the appellant, who gave oral evidence on oath and was questioned by counsel for DBS and the Tribunal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant did not file any additional witness statements or seek witness orders for any other witnesses.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Despite the invitation extended to DBS in the grant of permission to file evidence for this hearing, DBS elected to rely on the documents in the bundle and submissions.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">DBS filed a skeleton argument and made oral submissions. The appellant made submissions orally.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Heading1">Factual background</heading>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">This section includes the findings of fact that we have made in the light of the documentary and oral evidence we have received at this hearing. Our findings of fact are made on the balance of probabilities. If we do not mention a fact that was in evidence, it does not mean we have not taken it into account.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant is a 64-year-old woman who has worked in the care sector for over 18 years with no previous proven allegations against her prior to the matters that led the DBS to make the decision that she challenges in these proceedings. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In 2020 the appellant was working as a Live-In Carer, employed by an organisation we will refer to as FOH, providing care to an elderly person who has mild cognitive impairment and left side weakness due to a stroke. In the language of the SVGA 2006 the elderly person was a &#8220;vulnerable adult&#8221; and in this decision we refer to her as &#8220;VA&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In August 2020 the appellant was dismissed from her role with FOH for what was described in the dismissal letter as (</span><span style="font-style:italic;font-family:Arial">sic</span><span style="font-family:Arial">) &#8220;threatening and abuse language being used towards [VA] in your care of 05/07/2020&#8221; and &#8220;CCTV footage showing you being verbally aggressive to [VA]&#8221;. This decision was made following a disciplinary process which included the appellant being suspended from work, invited to an investigation meeting, providing a statement, attending an investigatory meeting and a disciplinary meeting. The documentation from FOH indicates that the appellant&#8217;s position during the disciplinary process was that she accepted she had behaved as alleged, but argued that she had been provoked by VA. We note that she did not offer this explanation in her statement of 27 July 2020, but in the subsequent investigation and disciplinary meetings she alleged that VA had subjected her to serious verbal racial abuse.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">There was CCTV footage of the incidents which the appellant was shown at least parts of as part of the disciplinary process and which Judge Stout was able to show her at the permission hearing in this case (see above). At this hearing, there were some difficulties in playing the CCTV files, but the appellant confirmed in oral evidence that Judge Stout&#8217;s description in the grant of permission to appeal (set out above) of what can be seen and heard on the CCTV footage was accurate.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Following the appellant&#8217;s dismissal, FOH referred her case to DBS.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">On 7 June 2021 DBS sent the appellant a &#8220;Minded to Bar&#8221; letter and gave her until 4 August 2021 to respond to the allegations. The Minded to Bar letter set out essentially the matters that later appeared in the final decision letter (see below). The letter stated that it enclosed in Annex A copies of all the information relied upon in reaching this stage of the decision-making process. Regarding the CCTV footage, it stated that as she had already seen this as part of the disciplinary process a copy had not been provided, but that if she wished to see a copy of the footage, arrangements could be made for her to view it, or an independent transcript could be sent. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Minded to Bar letter was sent to the appellant&#8217;s home address. According to the appellant, as she works as a live-in carer, she was not at home when it arrived. She says she only received the letter on 30 July 2021, when she returned home for the first time since May 2021, having been away for work in the interim. By that time, the deadline for response was four days away. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Although the DBS&#8217;s Barring Decision Process Document (the BDP) includes a note that &#8220;Royal Mail Track and Trace has &#8230; confirmed that the [Minded to Bar] Letter and bundle dated 7 June 2021 was signed for by SM on 9 June 2021&#8221;, DBS has produced no witness to speak to that evidence, nor any documentary record from Track and Trace itself, and counsel for DBS did not at the Upper Tribunal hearing challenge the appellant&#8217;s evidence in her witness statement that she only received the Minded to Bar letter on 30 July 2021. In those circumstances, we accept the appellant&#8217;s evidence of when the Minded to Bar letter came to her personal attention. In deciding to accept the appellant&#8217;s evidence in this respect, we took into account that, so far as concerns the matters on which she was questioned at this hearing, she proved to be a broadly reliable narrator (albeit one whose mode of speaking made following her evidence difficult at times). (See further below.)</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As noted, the Minded to Bar letter stated that it included Annex A. However, the appellant maintains that it did not. We return to this point below too.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant considered that in order to prepare her defence she needed to request documents and other evidence from FOH and obtain statements from her own witnesses. She felt that she needed to see the CCTV footage and other documents that DBS had relied on. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">She telephoned DBS on 30 July 2021 to request more time, explaining that she had been away from home and needed more time to respond. She says the DBS representative to whom she spoke on the phone said something like, </span><span style="font-style:italic;font-family:Arial">&#8220;No I&#8217;m sorry we can&#8217;t extend. Your representations have to be sent before the due date.&#8221; </span><span style="font-family:Arial">We accept her evidence to this effect, which has not been challenged by DBS.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">By letter dated 3 August 2021, the appellant repeated her request for an extension of time. This letter was drafted for her by someone with legal experience to whom she had gone for advice. In this letter, she argued that her rights under Article 6 and 8 of the ECHR were engaged by DBS&#8217;s processes. She repeated her explanation for why she needed more time and also informed DBS that it had not sent her the CCTV evidence and other documents relied on by DBS. She pointed out that the Minded to Bar letter had stated, &#8220;If you are unable to provide written representations, please contact us to discuss alternative options&#8221; such as making oral representations, but that this option had not been given to her when she called on 30 July 2021.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant was questioned at length at this hearing about whether or not and when she had received Annex A. Although the appellant at times appeared to become confused about the chronology (understandably so, given the passage of time), she seemed to us to have a firm recollection of not having the documents when she went to see the legal advisor, but having been sent them for the first time after she had asked for them in the letter of 3 August 2021. This was surprising to the panel because if she had been sent what was (so far as DBS is concerned) a &#8216;second&#8217; copy of Annex A, we would have expected to see that mentioned in the documents that were before us. As it was, neither the appellant or DBS had mentioned it before the hearing. As such, we as a panel had provisionally formed the view during her oral evidence that the appellant was just confused about when she received the documents, but in closing submissions counsel for DBS then said that in fact he had checked and it was accepted by DBS (contrary to the impression given by some of his questions to the appellant during oral evidence) that DBS </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">had</span><span style="font-family:Arial"> sent out a &#8216;second&#8217; copy of Annex A when the appellant asked for the documents. This led the panel to re-evaluate the appellant&#8217;s evidence on this point, which now appeared to be reliable. This, together with the documentary evidence of what the appellant wrote and said to DBS at the time, leads us to accept that (whether or not DBS sent Annex A with the Minded to Bar letter on 7 June 2021), the appellant herself did not knowingly receive either the letter or Annex A at that time, but saw the letter for the first time on 30 July 2021 and Annex A for the first time when it was sent by DBS sometime after her letter of 3 August 2021.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">DBS responded to the appellant&#8217;s letter of 3 August 2021 by letter of 17 August 2021. DBS&#8217;s letter states as follows:-</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in"><span style="font-weight:bold">Why we are writing to you</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">Thank you for your letter received 5 August 2021 asking us to extend the time limit to make representations. Unfortunately, we cannot agree to your request.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in"><span style="font-weight:bold">What happens next</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">As the date for submitting your representations (4 August 2021), has already passed we will now assess the information alongside all of the other information we have received and make a final decision.</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">On 24 August 2021 DBS issued a decision letter informing the appellant that it had decided to place her on both the children&#8217;s and adult&#8217;s barred lists. The letter explained that DBS was satisfied on the balance of probabilities that on 15 May 2020 the appellant verbally, emotionally and physically abused VA by:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">waving her hands close to VA&#8217;s face in frustration;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Shouting &#8220;You are just being a pain and controlling&#8221; at VA when she asked for a pad change;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Shouting at VA that she was going to tell her family that she does not need a Carer with her during her breaks and she can stay on her own;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Shouting at VA not to open the door as it will bang her chair, and demonstrating this by opening the door and banging VA&#8217;s wheelchair with the door;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Shouting at VA that she was &#8220;fed up&#8221; of her and that she &#8216;didn&#8217;t want to care for her anymore&#8217;;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Repeatedly refusing to change VA&#8217;s incontinence pad, shouting &#8220;it&#8217;s never going to happen&#8221;, despite VA&#8217;s repeated requested for a pad change;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">g.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Shouting at VA to &#8220;shut up&#8221;;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">h.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Forcefully and unexpectedly removing VA from the living room in her wheelchair; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">Locking VA&#8217;s bedroom when she was on a break so that Relief Carers cannot gain access to VA&#8217;s bedroom when VA wants to go in there.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The letter explained that DBS was satisfied that the appellant had engaged in relevant conduct in relation to vulnerable adults, specifically conduct which endangered a vulnerable adult or was likely to endanger a vulnerable adult. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">DBS explained that it was satisfied that if that conduct was repeated against or in relation to a child it would endanger that child or would be likely to endanger him or her. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">DBS stated that it was satisfied that the appellant had engaged in regulated activity with children and/or vulnerable adults because she worked as a Live In Carer with FOH and had previously applied for the role of Child and Adult Workforce Healthcare Assistant with United Kingdom Home Care Association Limited. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">DBS acknowledged that placing her on the adults&#8217; and children&#8217;s barred lists would prevent her from working in her chosen career and exercising her skills and that this was likely to have a significant impact on her financial circumstances and ability to earn an income and was a significant interference with her rights under Article 8 of the ECHR.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">However, DBS concluded that the appellant posed an unacceptable risk of future harm to vulnerable adults and children that could not sufficiently be safeguarded otherwise than by inclusion on the lists with effect from 23 August 2021. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">DBS explained that inclusion on the lists would last indefinitely, but that she could apply for a review in 10 years&#8217; time, i.e. from 23 August 2031.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">DBS explained her right to appeal to this Tribunal and also notified her that she could apply to make representations out of time. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The appellant then requested to make representations out of time, on 10 September 2021, attaching a copy of her 3 August 2021 letter and explaining again that she wished to have an opportunity to comment on the evidence relied on by DBS and to submit details of the racial abuse to which she was subjected by her &#8220;alleged victim&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">By letter of 29 September 2021 DBS refused the request stating:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:0.79in">We are unable to grant permission for this request as you had opportunity to submit representations at the time but did not do so.</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">By letter dated 7 October 2021, the appellant then made an application for a review of the decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">This application was acknowledged by DBS in a letter dated 2 November 2021, who provided her with a form to complete and information about the grounds on which a review may be sought.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The appellant did not make a review application.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Heading1">Legal framework</p>
+	    <p class="Heading2">Relevant legal framework for DBS&#8217;s decision</p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant in this case was included on the children&#8217;s barred list using DBS&#8217;s powers in paragraph 3 of Schedule 3 to the SVGA 2006 and on the adults&#8217; barred list using its powers in paragraph 9 of Schedule 3.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Under those paragraphs, subject to the right to make representations (as to which see further below), DBS must include a person on the relevant list if (in summary and in so far as relevant to the present appeal):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">The person has engaged in conduct which endangers or is likely to endanger a child or vulnerable adult (Sch 3, paragraph 3 and 4(1)(a) and paragraph 9 and 10(1)(a)) </span><span style="font-weight:bold;font-family:Arial">or </span><span style="font-family:Arial">has engaged in conduct which if repeated against a child or vulnerable adult would endanger or be likely to endanger them (paragraph 4(1)(b)/10(1)(b));</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">The person has been or might in future be engaged in regulated activity in relation to (respectively) adults or children; and,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:Arial">DBS is satisfied that it is appropriate to include them in the relevant list.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">&#8220;Endangers&#8221; means (in summary) that the conduct harms or might harm the child or vulnerable adult: see Schedule 3, paragraphs 4(4) and 10(4).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">By paragraph 3(2) and 9(2) of Schedule 3 DBS must give the person an opportunity to make representations before including them on the barred list.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Paragraphs 16 and 17 of Schedule 3 make further provision about the right to make representations as follows (so far as relevant):-</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">16</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A person who is, by virtue of any provision of this Schedule, given an opportunity to make representations must have the opportunity to make representations in relation to all of the information on which DBS intends to rely in taking a decision under this Schedule.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Any requirement of this Schedule to give a person an opportunity to make representations does not apply if DBS does not know and cannot reasonably ascertain the whereabouts of the person.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">17</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This paragraph applies to a person who is included in a barred list &#8230; if, before he was included in the list, DBS was unable to ascertain his whereabouts.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This paragraph also applies to such a person if&#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">he did not, before the end of any time prescribed for the purpose, make representations as to why he should not be</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">included in the list, and</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">DBS grants him permission to make such representations out of time.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">If a person to whom this paragraph applies makes such representations after the prescribed time&#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">DBS must consider the representations, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">if it thinks that it is not appropriate for the person to be included in the list concerned, it must remove him from the list.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">For the purposes of this paragraph, it is immaterial that any representations mentioned in sub-paragraph (3) relate to a time after the person was included in the list concerned.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p style="margin-left:0.39in">Paragraph 15 of Schedule 3 permits the Secretary of State by regulations to make provision as to the procedure to be followed for the purposes of any decision DBS is required or authorised to take under Schedule 3, including provision as to the time within which anything is to be done. The Safeguarding Vulnerable Groups Act 2006 (Barring Procedure) Regulations 2008 (SI 2008/474) (the 2008 Regulations) are made under that paragraph. Regulation 2 provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">2.&#8212;&#160;Representations</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This paragraph applies to any person to whom&#160;DBS&#160;must, in accordance with any provision of&#160;Schedule 3&#160;to the Act, give the opportunity to make representations as to his&#160;inclusion in, a barred list.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">DBS&#160;must give any person falling within paragraph (1) notice in writing that he may make such representations.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">DBS&#160;shall give any notice under paragraph (2) to the person in question by sending it to him by post.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Any notice sent in accordance with paragraph (3) shall be treated as having been received by the person in question 48 hours after the date on which it was sent unless the contrary is proved.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A person to whom notice is given in accordance with paragraph (3) may make representations as to his&#160;inclusion in, a barred list&#160;within the period of 8 weeks starting on the day on which he is treated as having received the notice.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Where&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">a person has not completed making his representations within the period provided for under paragraph (5), and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">DBS&#160;is satisfied that the person has good reason for not doing so,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">DBS&#160;may allow that person such further period to make his representations as&#160;DBS&#160;considers reasonable.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">It is also convenient to mention here that paragraphs 3 and 9 of Schedule 3 deal with only one type of barring decision that DBS may have to make. Paragraphs 1 and 7 contain provision for automatic barring in cases where certain offences have been committed, while paragraphs 2 and 8 contain a slightly different procedure for persons who are convicted or cautioned for certain other offences. Paragraphs 2 and 8 provide, in summary, that the person must be given the opportunity to make representations as to why they should not be included on the list(s). If the person &#8220;does not make representations before the end of any time prescribed for the purpose&#8221;, or their whereabouts are not known so that paragraph 16(2) (see above) so that they are not entitled to an opportunity to make representations, then paragraph 2(6) and 8(6) make it mandatory for DBS to include the person in the list. Such persons may then apply for permission to make representations under paragraph 17(2).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">A person included in a barred list may apply for a review of their inclusion after the prescribed minimum period of 10 years (paragraph 18). Alternatively, paragraph 18A permits DBS to review a person&#8217;s inclusion in a barred list at any time. On such a review, DBS may remove the person from the list &#8220;if, and only if, it is satisfied that, in the light of- (a) information which it did not have at the time of the person&#8217;s inclusion in the list, (b) any change of circumstances relating to the person concerned, or (c) any error by DBS, it is not appropriate for the person to be included in the list&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Heading2">The Upper Tribunal&#8217;s jurisdiction on appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">An appeal to the Upper Tribunal under section 4 of the SVGA 2006 lies only on grounds that DBS has, in deciding to include a person on a list or in refusing to remove a person from a list on review, made a mistake: (a) on any point of law; or (b) in any material finding of fact (cf section 4(2)). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">There is no right of appeal against DBS&#8217;s exercise of discretion as to whether it is appropriate to include an individual on a barred list (or to refuse to remove them), since the statute provides that the decision whether or not it is appropriate for an individual to be included in a barred list is not a question of law or fact: section 4(3). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">There is also no right of appeal to the Upper Tribunal against a failure by DBS to afford a person a right to make representations, or against any refusal by DBS to extend time for making representations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">If the Upper Tribunal finds that DBS has not made a mistake of law or fact in deciding to include a person on a barred list, or in deciding on a review not to remove a person from the barred list, it must confirm the decision: SVGA 2006, section 4(5). If the Upper Tribunal finds that DBS has made a mistake of law or fact, it must either direct DBS to remove the person from the list or remit the matter to DBS for a new decision: section 4(6). The Court of Appeal has held that unless the only lawful decision DBS could come to in a case, in the light of the Upper Tribunal&#8217;s decision, is removal, the Upper Tribunal must remit the case: </span><span style="font-style:italic;font-family:Arial">AB v DBS </span><span style="font-family:Arial">[2021] EWCA Civ 1575, [2022] 1 WLR 1002</span><span style="font-style:italic;font-family:Arial"> </span><span style="font-family:Arial">at [72]-[73] </span><span style="font-style:italic;font-family:Arial">per </span><span style="font-family:Arial">Lewis LJ. If the Upper Tribunal remits a matter to DBS then the Upper Tribunal may set out any findings of fact which it has made on which DBS must base its new decision and the person must be removed from the list until DBS makes its new decision, unless the Upper Tribunal directs otherwise: section 4(7). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Mistakes of law come in many forms. The classic list is to be found in [9] of Brooke LJ&#8217;s judgment in </span><span style="font-style:italic;font-family:Arial">R (Iran) v SSHD</span><span style="font-family:Arial"> [2005] EWCA Civ 982 as follows:-</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Making perverse or irrational findings on a matter or matters that were material to the outcome (&#8220;material matters&#8221;);</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Failing to give reasons or any adequate reasons for findings on material matters;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Failing to take into account and/or resolve conflicts of fact or opinion on material matters;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Giving weight to immaterial matters;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Making a material misdirection of law on any material matter;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">vi)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Committing or permitting a procedural or other irregularity capable of making a material difference to the outcome or the fairness of the proceedings;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">vii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Making a mistake as to a material fact which could be established by objective and uncontentious evidence, where the appellant and/or his advisers were not responsible for the mistake, and where unfairness resulted from the fact that a mistake was made.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">A mistake of law also includes making a decision to include a person on a barred list that is disproportionate or otherwise in breach of that individual&#8217;s rights under Article 8 of the European Convention on Human Rights (ECHR). Where proportionality is raised as a ground of appeal, it is for the Upper Tribunal to decide for itself, giving appropriate weight to DBS&#8217;s view as the primary decision-maker, whether the decision to bar is proportionate: see </span><span style="font-style:italic;font-family:Arial">KS v DBS </span><span style="font-family:Arial">[2025] UKUT 045 (AAC).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As will be noted from the list in </span><span style="font-style:italic;font-family:Arial">R (Iran) </span><span style="font-family:Arial">above, there are ways in which a mistake of fact may amount to an error of law, but in an appeal under section 4 of the SVGA 2006 the Upper Tribunal does not need to concern itself with where that sometimes slippery line is crossed because the statute gives the Tribunal jurisdiction over mistakes of fact whether or not they would amount to errors of law. Case law has established that a mistake of fact in this context is a finding of fact that is, on the balance of probabilities, wrong in the light of any evidence that was available to DBS or is put before the Upper Tribunal. A finding of fact is not wrong merely because the Upper Tribunal would have made different findings, but neither is the Upper Tribunal restricted to considering only whether DBS's findings of fact are reasonable. The Upper Tribunal is entitled to evaluate all the evidence itself to decide whether DBS has made a mistake. See generally </span><span style="font-style:italic;font-family:Arial">PF v DBS </span><span style="font-family:Arial">[2020] UKUT 256 (AAC), as subsequently approved in </span><span style="font-style:italic;font-family:Arial">DBS v JHB</span><span style="font-family:Arial"> [2023] EWCA Civ 982 at [71]-[89] per Laing LJ, giving the judgment of the Court and </span><span style="font-style:italic;font-family:Arial">DBS v RI</span><span style="font-family:Arial"> [2024] EWCA Civ 95, [2024] 1 WLR 4033 at [28]-[37] per Bean LJ and at [49]-[51]. A finding of fact may be made by inference (</span><span style="font-style:italic;font-family:Arial">JHB</span><span style="font-family:Arial">, ibid, [88]), but facts must be distinguished from "value judgments or evaluations of the relevance or weight to be given to the fact in assessing appropriateness [of including the person on the barred list]": </span><span style="font-style:italic;font-family:Arial">AB v DBS</span><span style="font-family:Arial"> [2021] EWCA Civ 1575, [2022] 1 WLR 1002 at [55] per Lewis LJ (giving the judgment of the court).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Heading2">Whether a mistake on a point of law must be a material error of law</p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Before we deal with the actual grounds of appeal in this case, we need to address some issues of principle that arise in this appeal in relation to the grounds concerning procedural errors in DBS&#8217;s decision-making process, and when such errors may amount to a &#8220;mistake on any point of law&#8221; within the meaning of section 4(2)(a) of the SVGA 2006.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">There is no dispute that a procedural error may amount to an error of law. That much is clear from the list of errors of law set out in <span style="font-style:italic">R (Iran) </span>above, which includes &#8220;committing or permitting a procedural or other irregularity capable of making a material difference to the outcome or the fairness of the proceedings&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">One issue that the parties were invited to address in these proceedings was whether a &#8220;mistake on any point of law&#8221; needs to be a &#8216;material&#8217; one or not, bearing in mind that the words &#8220;and on which the decision mentioned &#8230; was based&#8221; are not attached to the words &#8220;mistake of law&#8221; in section 4(2)(a) as they are to the words &#8220;mistake in any finding of fact&#8221; in section 4(2)(b). This may at first seem to be an issue of purely academic interest, but unfortunately the scheme of the SVGA 2006 gives it a practical importance because, under section 4(6), if the Upper Tribunal finds that DBS has a made &#8220;such a mistake&#8221; (i.e. a mistake of law or fact as identified in section 4(2)), it <span style="font-weight:bold">must</span> either direct DBS to remove the person from the list or remit the matter to DBS for a new decision. The Upper Tribunal does not have a general discretion as to remedy, which is the usual point at which &#8216;materiality&#8217; would be considered in a judicial review-type decision-making process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">DBS submits that an error of law, including a procedural error, must be a &#8216;material&#8217; one in order to fall within section 4(2)(a) and that this is inherent in the word &#8220;mistake&#8221; in that section. DBS submits that the use of the word &#8220;mistake&#8221; does the work that is done in judicial review proceedings by what are now the &#8220;no substantial difference&#8221; provisions in section 31(3C), (3D) and (2A) of the Senior Courts Act 1981 (and what was previously a &#8216;common law&#8217; discretion for the High Court to refuse relief in such cases). DBS refers in support of this submission to <span style="font-style:italic">KB v DBS </span>[2021] UKUT 325 (AAC) at [31], which refers in turn to [102] of Wyn Williams J&#8217;s decision in <span style="font-style:italic">R (Royal College of Nursing and ors) v Secretary of State for the Home Department </span>[2010] EWHC 2761 (Admin) (<span style="font-style:italic">RCN</span>). Those authorities make the point also made in <span style="font-style:italic">R (Iran) </span>at [10] <span style="font-style:italic">per </span>Brooke LJ that errors of law must be &#8216;material&#8217;. However, those authorities by themselves do not quite make good DBS&#8217;s submission because: (i) <span style="font-style:italic">KB </span>refers to &#8216;common law&#8217; requirements and does not focus on the question of the scope of the Upper Tribunal&#8217;s statutory jurisdiction under section 4(2); (ii)<span style="font-style:italic"> RCN</span> at [102], to which <span style="font-style:italic">KB </span>also refers, was dealing with mistakes of fact not law, in respect of which section 4(2)(b) contains an express &#8216;materiality&#8217; provision; and (iii) <span style="font-style:italic">R (Iran) </span>acknowledges that &#8216;materiality&#8217; is an additional requirement, separate to the concept of &#8216;error of law&#8217; itself since, as Brooke LJ puts it at [10]: <span style="font-style:italic">&#8220;Each of these grounds for detecting an error of law contain the word &#8216;material&#8217; (or &#8216;immaterial&#8217;). Errors of law of which it can be said that they would have made no difference to the outcome do not matter.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">DBS&#8217;s argument gains more support from <span style="font-style:italic">PF v DBS </span>[2020] UKUT 256 (AAC) where, at [38], the two-judge, one-member, panel of the Upper Tribunal observed (albeit also in relation to the &#8216;mistake of fact&#8217; jurisdiction) that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">38.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">&#8216;Mistake&#8217; is the word used and there is no reason to qualify it. The courts </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">operate a test of whether a decision was &#8216;wrong&#8217;. This has in the past been</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">qualified by words like &#8216;plainly&#8217;. Nowadays, that has to be understood in the way explained by the Supreme Court in <span style="font-style:italic">Henderson v Foxworth Investments Ltd</span> [2014] UKSC 41, [2014] 1 WLR 2600: </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">62.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.5in;text-indent:0.5in">Given that the Extra Division correctly identified that an appellate court can interfere where it is satisfied that the trial judge has gone &#8216;plainly wrong&#8217;, and considered that that criterion was met in the present case, there may be some value in considering the meaning of that phrase. There is a risk that it may be misunderstood. The adverb &#8216;plainly&#8217; does not refer to the degree of confidence felt by the appellate court that it would not have reached the same conclusion as the trial judge. It does not matter, with whatever degree of certainty, that the appellate court considers that it would have reached a different conclusion. </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">That draws attention to the need to identify an error or, in the language of section 4, a mistake. It is not enough that the Upper Tribunal would have made different findings. The word &#8216;plainly&#8217; has not yet taken root in the Upper </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">Tribunal&#8217;s cases. The phrase was used in <span style="font-style:italic">XY</span> at [53], but the tribunal was merely giving a general description of the tribunal&#8217;s jurisdiction on mistake of facts and not dealing with its interpretation. In order to avoid any doubt or confusion about what it means, it is better to use only the statutory language and avoid any qualifiers.</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Further, in <span style="font-style:italic">EB v DBS </span>[2023] UKUT 105 (AAC), a panel of the Upper Tribunal chaired by Judge Rowland held at [38], again focusing on the &#8216;mistake of fact&#8217; jurisdiction, but expressing their decision in terms that apply equally to &#8216;mistake of law&#8217;:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">28.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">&#8230; we agree that, if an appeal is to be allowed, it is necessary for a person appealing under section 4 to identify a &#8220;mistake&#8221; &#8211; or, in less adversarial language, that it is necessary that the Upper Tribunal be satisfied that there has been a &#8220;mistake&#8221; &#8211; but, in our judgment, both that requirement and the </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">meaning of &#8220;mistake&#8221; are to be derived from the language of section 4 itself, and not from any principle that might be derived from <span style="font-style:italic">Henderson</span>. <span style="font-weight:bold">That there is only a &#8220;mistake&#8221; if an error is material to the ultimate decision</span>, as Wyn Williams J held in the Royal College of Nursing case &#8230;, <span style="font-weight:bold">is the clear implication of that word being used in both subsection (5) and subsection (6) of section 4</span>.  It follows from the requirement that there must be a &#8220;mistake&#8221; in that sense that, as the Upper Tribunal held, &#8220;(i)t is not enough that the Upper Tribunal would have made different findings&#8221;. [emphasis added]</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As we understand what the Upper Tribunal in <span style="font-style:italic">EB </span>says in that paragraph, the Tribunal considered that, as a matter of statutory interpretation, the effect of sections 4(5) and (6) of the SVGA 2006 is such that the word &#8220;mistake&#8221; in section 4 has to be interpreted as including a &#8216;materiality&#8217; requirement for errors of law as well as errors of fact. This is because sections 4(5) and (6) give the Upper Tribunal such a limited discretion once a mistake of law or fact has been identified and require an appeal to be &#8216;allowed&#8217; at that point, with the matter either being remitted to DBS for a fresh decision or the person either being removed from the list (if that is the only decision DBS could have made: <span style="font-style:italic">DBS v AB </span>[2021] EWCA Civ 1575, [2022] 1 WLR 1002 at [73] <span style="font-style:italic">per </span>Lewis LJ). Sections 4(5) and (6) do not allow for the Upper Tribunal to exercise a discretion (such as the High Court has on judicial review) to refuse to remit a case to DBS on the basis that, even though an error of law has been established, it was not material to the decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Having considered the authorities, we agree with DBS that the use of the word &#8220;mistake&#8221; in section 4(2)(a), rather than &#8216;merely&#8217; &#8220;error&#8221; imports a requirement that the error (whether of law or fact) be a material one so that the decision can properly be said to be &#8216;wrong&#8217; as a result of the error. We are not troubled by the fact that that interpretation renders redundant the additional words included in section 4(2)(b) for mistakes of fact that the mistake must be in the facts &#8220;on which the decision mentioned in that sub-section was based&#8221;. Although, as a general rule, an interpretation that results in redundant wording is to be avoided, in this case we consider that general rule needs to give way because the drafting of the section of the whole points so strongly towards the drafter having regarded a mistake on a point of law as necessarily being a material error of law that should result in an appeal being &#8216;allowed&#8217;. The policy arguments all point in favour of that interpretation too as otherwise appeals would need to be &#8216;allowed&#8217; in order to enable DBS to deal with purely academic points, which would not appear to be in anyone&#8217;s interests.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="Heading2">What is a material procedural error</p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">DBS in this appeal initially took the position that no procedural error could be material unless the appellant was able to show that the outcome would or might have been different if the procedural error had not occurred. We observed that the consequence of that argument would appear to be that, unless the appellant could establish that there was some other error in the decision (eg as to fact or proportionality), a procedural error would never amount to a mistake of law for the purposes of section 4(2)(a). However, in the course of argument, counsel for DBS accepted that this was not necessarily the case and that there were some types of procedural error that would be materially unfair (and thus amount to mistakes of law) even if it could not be shown that the outcome would be in any different. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We observe that the position arrived at by counsel for DBS in the course of argument in fact accords with Brooke LJ&#8217;s list of errors of law in <span style="font-style:italic">R (Iran)</span>, which identifies procedural errors of law as follows: &#8220;committing or permitting a procedural or other irregularity capable of making a material difference to the outcome <span style="font-weight:bold">or</span> the fairness of the proceedings&#8221; (our emphasis). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In argument, counsel for DBS acknowledged that one type of procedural unfairness that would amount to a material error, whether or not it could be shown that the outcome would be different, would be bias or apparent bias on the part of the decision-maker. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We observe that bias is one of what are frequently articulated as being the two pillars of natural justice. As Dyson LJ put it in <span style="font-style:italic">AMEC Capital Projects Ltd v Whitefriars City Estates Ltd </span>[2005] 1 All ER 723 at [14]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">14.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The common law rules of natural justice or procedural fairness are twofold. First, the person<marker name="tab"/>affected has the right to prior notice and an effective opportunity to make representations before a decision is made. Second, the person affected has the right to an unbiased tribunal. These two requirements are conceptually distinct. It is quite possible to have a decision from an unbiased tribunal which is unfair because the losing party was denied an effective opportunity of making representations. Conversely, it is possible for a tribunal to allow the losing party an effective opportunity to make representations, but be biased. In either event, the decision will be in breach of natural justice&#8230;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We also drew to counsel&#8217;s attention at the hearing that, in the context of decisions of the Parole Board, the Supreme Court in <span style="font-style:italic">Re Reilly&#8217;s Application for Judicial Review </span>[2013] UKSC 61, [2014] AC 1115 emphasised that fairness may require an oral hearing even where there is no real prospect of the outcome being different in the case and that material unfairness may arise where a prisoner is denied the opportunity of participating in a decision &#8220;with important implications for him, where he has something useful to contribute&#8221;: see in particular [2(iv) and (v)] in the Supreme Court&#8217;s judgment in that case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In the context of the scheme under the SVGA 2006, the High Court in <span style="font-style:italic">RCN </span>confirmed at [103] that it was not necessary for the Independent Safeguarding Authority (DBS&#8217;s predecessor body) to hold an oral hearing in order for the scheme as a whole to comply with Article 6 of the European Convention on Human Rights. However, part of its reasoning for so concluding was (at [103]) that &#8220;the Upper Tribunal can put right any errors of law and any material errors of fact and, further, can do so at an oral hearing if that is necessary for the fair and just disposition of the appeal&#8221;. After being referred to this passage by counsel for DBS, we suggested that, in deciding whether a procedural error amounts to a mistake on a point of law for the purposes of section 4(2)(a), it might be relevant to consider whether the error was one that was capable of being remedied through the appeal process or not. Counsel for DBS accepted that this might be a relevant consideration, and we conclude that it is.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Counsel for DBS further accepted that we would need to bear in mind in this respect that an appeal to the Upper Tribunal is not <span style="font-style:italic">&#8220;a full merits based appeal&#8221; </span>(cf <span style="font-style:italic">RCN </span>at [104]) because the question of whether or not it is &#8220;appropriate&#8221; for someone to be included on a barred list is not a question of law or fact for the Upper Tribunal: SVGA 2006, section 4(3). We observe that the question of whether or not it is &#8220;appropriate&#8221; to bar someone will in many cases be a question that is susceptible of being rationally and lawfully answered either &#8220;yes&#8221; or &#8220;no&#8221; by DBS on the same facts. In other words, a different decision-maker at DBS might reach a different decision in a particular case without there being any error in the decision that could be successfully challenged as a mistake of law on appeal to the Upper Tribunal. Equally, relatively minor factual details, perhaps of context or presentation, of the sort that would be unlikely to be regarded as a mistake of fact on appeal may nonetheless lead a DBS decision-maker to make a different decision on whether it is appropriate to bar.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Accordingly, we consider that a procedural error is likely to make a material different to the fairness of the proceedings, and thus constitute a mistake on a point of law, if it results in the appellant being deprived of the opportunity to have DBS fairly consider whether or not it is appropriate for the appellant to be included in (or removed from) a barred list. Fairness in this context will normally mean a decision that complies with the two main pillars of natural justice, i.e. a decision that is, at least: (i) free from bias; and, (ii) taken after having given the appellant an effective opportunity to make representations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As regards the latter requirement, we note that DBS&#8217;s position in response to this appeal was to &#8216;not admit&#8217;, but &#8216;require the appellant to prove&#8217; that an individual should be given a &#8220;reasonable opportunity&#8221; to make representations in relation to decisions made under the SVGA 2006. For the avoidance of doubt, we are satisfied that the principles of natural justice do normally require an individual to be given a reasonable/effective opportunity to make representations and that, save where the statutory scheme under the SVGA 2006 dictates otherwise, or the interests of children or vulnerable adults require it, DBS must act in accordance with the normal principles of natural justice when making its decisions.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="Heading1">The grounds of appeal</p>
+	    <p class="Heading2">Ground 1: Failure to provide information</p>
+	    <p class="Heading3">The parties&#8217; submissions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The first ground of appeal is that the appellant says that DBS failed to provide with the Minded to Bar letter the documents (Annex A) and CCTV footage on which it was relying, so that she did not have an opportunity to make representations on those materials, or to obtain responsive evidence. In granting permission to appeal, Judge Stout observed that a failure to provide Annex A or the CCTV footage may also amount to a breach of the requirement on DBS under paragraph 16(1) of Schedule 3 to give a person the opportunity to make representations in relation to &#8220;all&#8221; of the information on which DBS intends to rely.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">DBS denies that there was any failure to provide the appellant with either the documents or access to the CCTV footage. DBS submits that, even if Annex A was not included with the Minded to Bar letter, the appellant had all the information she needed in the Minded to Bar letter itself. DBS submits that there was no failure to comply with paragraph 16(1) or, at least, that there was no material unfairness. DBS argues that paragraph 16(1) creates a procedural obligation to provide an opportunity to comment on information and that it does not create a disclosure obligation.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="Heading3">Our analysis and conclusions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We have found as facts, for the reasons set out in the Factual Background section above, that: (i) the Minded to Bar letter only came to the appellant&#8217;s personal attention on 30 July 2021, when she returned from a period of working away from home; and, (ii) even once the letter had come to her attention, Annex A did not. The appellant personally saw Annex A for the first time only after she had in her letter of 3 August 2021 complained about not having received the documents and DBS sent her a &#8216;second&#8217; copy.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We have not, however, made any findings of fact about whether DBS sent the appellant the Minded to Bar letter on 7 June 2021, or whether it included with that letter Annex A. We do not consider that we need to make findings on those points in order to resolve this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">That is because we are not concerned on this appeal with whether DBS was right to treat 4 August 2021 as the end of the 8 week period within which the appellant was permitted by regulation 2(5) of the 2008 Regulations to make representations in response to the notice (i.e. the Minded to Bar letter) that DBS sent to her in order to comply with regulation 2(2) of the 2008 Regulations. We proceed for the purposes of this appeal on the assumptions that: (i) DBS sent the Minded to Bar letter by post to the appellant on 7 June 2021 as required by regulation 2(2) and (3); (ii) it was deemed received by the appellant 48 hours later by virtue of regulation 2(4); and, (iii) the 8-week period for making representations under regulation 2(5) therefore really did expire on 4 August 2021. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In making those assumptions, we have not lost sight of the provisions of regulation 2(4) which provides that &#8220;Any notice sent in accordance with paragraph (3) shall be treated as having been received by the person in question 48 hours after the date on which it was sent unless the contrary is proved&#8221;. The appellant has not sought to argue on this appeal that she has &#8220;proved&#8221; that she did not &#8216;receive&#8217; the Minded to Bar letter within 48 hours of it being &#8220;sent&#8221; for the purposes of regulation 2. We consider it likely that what regulation 2(4) means by &#8216;proving&#8217; an alternative date of &#8216;receipt&#8217; means merely &#8216;proving&#8217; that the notice was actually received at the individual&#8217;s address on a different date. We doubt it is sufficient for someone to prove that that they personally did not open or read notice as such an interpretation could seriously undermine the scheme under the Act by allowing an individual to dictate when the prescribed 8-week period ends (and thus delaying the point at which DBS may make a decision in their case) by (for example) not collecting their post for a period. However, we do not need to decide this issue in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In this case, therefore, we proceed on the basis that the fact that we have found that the appellant personally did not see the Minded to Bar letter until 30 July 2021 or Annex A until sometime after 3 August 2021 does not mean that the period during which she was required to make representations did not expire on 4 August 2021 in accordance with regulation 2(4) of the 2008 Regulations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The issue that does arise for us in relation to this first ground of appeal is whether the appellant had the opportunity that she was required to have by virtue of paragraph 16(1) of Schedule 3, or whether she otherwise did not have the information fairly required to enable her to make representations, and, if not, what the consequences of that were.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We deal first with the scope of paragraph 16. By way of reminder, paragraph 16(1) provides:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:11pt;color:#404040">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">A person who is, by virtue of any provision of this Schedule, given an opportunity to make representations must have the opportunity to make representations in relation to all of the information on which DBS intends to rely in taking a decision under this Schedule.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">DBS submits that this is an obligation to provide information, not a disclosure obligation. We do not fully accept DBS&#8217;s submission. DBS is right that paragraph 16 deals with &#8220;information&#8221; not &#8220;documents&#8221; or &#8220;evidence&#8221;, and that it only requires &#8220;information&#8221; on which DBS &#8216;relies&#8217; to be provided so that information DBS has but is not relying on need not be provided pursuant to that paragraph. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">However, what paragraph 16(1) requires must in our judgment be construed by reference to the Act as a whole. Sections 30-40 of the SVGA 2006 and the regulations made thereunder (The Safeguarding Vulnerable Groups Act 2006 (Prescribed Information) Regulations 2008, SI 2008/3265) deal with the provision of &#8220;information&#8221; to DBS by various bodies. It is pursuant to these provisions that employers and other regulated activity providers are required to provide &#8220;information&#8221; to DBS to enable it to make barring decisions. What is meant by &#8220;information&#8221; in paragraph 16 therefore has to be understood in this context. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">While it might in principle be possible for DBS to comply with paragraph 16 by setting out in the Minded to Bar letter every piece of &#8220;information&#8221; that it has obtained from the regulated activity provider and on which it intends to rely in its decision, in most cases it seems to us that it will be difficult for DBS to comply with paragraph 16 by doing that. In practice, paragraph 16(1) will usually require DBS to provide the individual with an opportunity of making representations about &#8220;all&#8221; the &#8220;information&#8221; (in whatever form) that it has received from the regulated activity provider and on which it &#8220;relies&#8221; when setting out the reasons for its provisional decision in the Minded to Bar letter. This is because, generally speaking, the material that DBS includes in the Minded to Bar letter itself is in some sense a summary or otherwise incomplete representation of what is in the &#8220;information&#8221; provided to DBS by the regulated activity provider. For example, DBS may in the Minded to Bar letter describe what happened on a particular day. DBS&#8217;s account will be taken from a witness statement. DBS will in its decision in truth be relying on the whole of that statement, including the &#8220;information&#8221; the document contains about who wrote it, whether they typed it or wrote it by hand and how they expressed themselves. All of that will usually have contributed to DBS&#8217;s decision by making the evidence more or less plausible and will therefore form part of the information on which DBS is relying in making its decision, although not all of that contextual information will be captured in the Minded to Bar letter itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We observe that our interpretation in this respect is consistent with what is in our experience DBS&#8217;s usual practice of providing as an annex to the Minded to Bar letter all the documents it has received from the regulated activity provider (excluding, perhaps, any that DBS has considered to be irrelevant). It is also consistent with the approach that DBS took in this case of offering the appellant an opportunity to make arrangements to view the CCTV footage or receive an independent transcript thereof. Paragraph 16(1) only requires the individual to have an &#8220;opportunity&#8221; to make representations in relation to &#8220;all of the information&#8221;, which we accept can be achieved by the opportunity to make arrangements to view video or listen to audio evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">However, we further observe that paragraph 16 only takes us so far in terms of understanding what DBS needs to provide to a person whom it is minded to bar. That is because DBS is, like any public authority decision-maker, under a duty to act fairly. Fairness may require DBS in some cases to provide to an individual more than paragraph 16 requires. It may in some cases require DBS to provide information to an individual that it has in its possession but on which it is not &#8216;relying&#8217;. If that information is relevant to the case, fairness may require it to be disclosed in the same way that the duty of standard disclosure in the civil courts requires parties to disclose not only documents on which they rely, but also documents which adversely affect their case or the other party&#8217;s case or support the other party&#8217;s case. Likewise, on a similar basis, &#8220;unused material&#8221; will normally be disclosed to the defence in criminal proceedings, while in public law proceedings the duty of candour (or, simply, the overriding objective) may require a public body to provide disclosure of material other than the material on which it relies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We add also that, as noted when setting out the Legal Framework above, what fairness normally requires is that a person who may be affected by a decision should have not just &#8220;an&#8221; opportunity but a &#8220;reasonable&#8221; or &#8220;effective&#8221; opportunity of making representations about a decision that will affect them. In some cases, we accept, the right to make representations may need to be limited in some way in pursuit of another public interest, such as national security or protection of others. Under the SVGA 2006, paragraph 16(2) of Schedule 3 makes clear that DBS is not required before making a decision to give a person an opportunity to make representations if DBS does not know and cannot reasonably ascertain the whereabouts of the person. That is evidently because the protection of children and vulnerable adults is regarded by Parliament as more important than the individual&#8217;s procedural right to make representations before a decision is made. If DBS <span style="text-decoration-line:underline;text-decoration-style:solid">does</span> know where an individual is, however, then in our judgment paragraph 16(1) and ordinary procedural fairness together require that the individual be given a <span style="font-style:italic">reasonable</span> opportunity of making representations on the information on which DBS relies <span style="font-style:italic">before</span> DBS makes a decision on their case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We further observe that paragraph 16 is drafted in terms (consistent with the requirements of natural procedural justice) that the person actually &#8220;have&#8221; the opportunity. It is not enough, therefore, for DBS just to send the information and hope it reaches the person; there is no &#8216;deemed receipt&#8217; provision such as that in regulation 2 of the 2008 Regulations that we have considered above; if the information does not reach the individual, they will not have had the opportunity required by paragraph 16 (and natural justice) to make representations. That is where the discretion in regulation 2(5) of the 2008 Regulations to extend time for making representations where there is &#8220;good reason&#8221; to do so comes in; likewise, the discretion in paragraph 17(2)(b) for DBS to give permission to a person to make late representations. The fact that a person has not received information they require in order to have an effective opportunity to make representations is likely in most cases to constitute a &#8220;good reason&#8221; for DBS to extend time for making representations, or permit late representations. We return to this issue when dealing with appeal grounds 2 and 3.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In this case, so far as ground 1 is concerned, we conclude that paragraph 16 and natural justice required the appellant to be provided with not just the Minded to Bar letter but also Annex A and the opportunity to view the CCTV evidence. These were required in order for her to have an effective opportunity to make representations. In particular, the statements from VA&#8217;s daughter and the &#8220;whistleblower statement&#8221; in the bundle in our judgment contain the sort of contextual information that the appellant fairly required in order to have an effective opportunity to make representations. The appellant did not receive Annex A until after the expiry of the prescribed period for making representations on 4 August 2021, and only had four days from actual receipt of the Minded to Bar letter on 30 July 2021 to make arrangements to view the CCTV evidence, but no arrangements were offered by DBS despite the appellant contacting DBS by phone during that period to ask for more time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">There was, therefore, a failure to provide the appellant during the prescribed period with the information she fairly required in order to make representations. Whether or not this was a material failure depends, however, in our judgment on whether she was subsequently given an effective opportunity to make representations. That is the subject of grounds 2 and 3.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="Heading2">Grounds 2 and 3: Failure to grant an extension of time for making representations, or to permit late representations</p>
+	    <p class="Heading3">The parties&#8217; submissions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The appellant complains that DBS wrongly and unfairly refused to grant her requests for an extension of time: (i) in the telephone call on 30 July 2021; (ii) as requested in her letter of 3 August 2021; and, (iii) as requested in her letter of 10 September 2021. Her grounds of appeal argue that DBS thus made its decision without considering the full facts of her case and denied itself the opportunity of properly scrutinising not only the material that was in its possession but also the evidence that she would have been able to place before it. She also complains that her &#8216;legitimate expectations&#8217; were breached because the Minded to Bar letter stated, </span><span style="font-style:italic;font-family:Arial">&#8220;If you want more time to send representations, please talk to us as soon as possible&#8221;</span><span style="font-family:Arial">, yet when she did speak to DBS, they did not extend time. The Minded to Bar letter also stated, </span><span style="font-style:italic;font-family:Arial">&#8220;In the interests of fairness and equality, we can make arrangements to hear oral representations. If you are unable to provide written representations, please contact us to discuss alternative options&#8221;</span><span style="font-family:Arial">. She complains she was not offered this option either.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In the grant of permission to appeal (set out in full above), Judge Stout observed that, in the light of the matters raised by the appellant, it was arguable that DBS had misunderstood its powers in relation to extensions of time for making representations and/or that it had failed to consider exercising its discretion and/or exercised its discretion irrationally. Judge Stout also raised the concern that what happened in this case was indicative of a general practice by DBS.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">DBS in response denies that there is any general practice in relation to dealing with applications for extensions of time, but has not put in any evidence in response to the appeal. DBS maintains that it properly exercised its discretion in this case to refuse the appellant an extension of time, or the opportunity to make late representations, on the basis that she had had an opportunity to make representations during the prescribed period and had failed to do so. In its skeleton argument for this hearing, DBS argued that it did not have power to extend the prescribed period for making representations, but during the course of oral argument DBS recanted from this position, accepting that it did have discretion under regulation 2(6) of the 2008 Regulations. DBS further says that, although it did not give the appellant permission to make late representations, it did take into account in its final decision on 24 August 2021 the representations that the appellant made in her letter of 3 August 2021.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="Heading3">Our analysis and conclusions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_107">
+	  <num>107.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As already noted above, regulation 2(6) of the 2006 Regulations provides a discretion for DBS to extend the prescribed eight-week period for making representations where someone has not &#8216;completed&#8217; making representations within that period if there is &#8220;good reason&#8221; to do so. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num>108.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We see no reason in principle why that discretion cannot be exercised retrospectively if necessary, so that in principle time may be extended even if an application is made after the prescribed period has expired. There is nothing on the face of the legislation to suggest that the discretion is limited to applications made within the prescribed period, although the reference to an extension of time being available only where a person has &#8220;not completed&#8221; making his representations within the period provided for does suggest that the person needs at least to have &#8216;started&#8217; making representations within the period. In this case, however, there was (by the end of the hearing before us) no dispute that the discretion to extend time could in principle have applied in the appellant&#8217;s case, given that she telephoned DBS and wrote the letter of 3 August 2021 within the period (although it arrived after the expiry of the period).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num>109.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We recognise that the public interest in protecting children and vulnerable adults means that it is important that someone who should be on a list is placed on a list as soon as possible, and that, in general, DBS will need to take care to ensure that a person it is considering putting on a list does not unreasonably delay that process and thereby put children and vulnerable adults at risk. Indeed, in auto-barring with representations cases under paragraphs 2 and 8 of Schedule 3, as we have noted above, there is a mandatory duty on DBS to put someone on the list if they do not make representations within the prescribed period. Although the time prescribed for representations will include any extension of time granted under regulation 2(6), the existence of that mandatory duty in paragraphs 2 and 8 cases points towards it being less likely in such cases that an extension of time will be granted. In contrast, there is no such mandatory duty in paragraphs 3 and 9 cases such as the present. DBS retains a general discretion in such cases as to what it does when the prescribed period has ended.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num>110.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">However, in all cases at the stage before DBS has taken a decision a &#8220;good reason&#8221; for an extension of time will be required, and it is likely to be relevant for DBS to take into account in deciding whether to extend the time for representations before a decision is made such factors as: the importance of the right to make representations to natural justice and good decision-making; whether or not the person has in fact had a reasonable opportunity to make representations on the basis of all the relevant information; how much delay there has already been in dealing with the case and what difference a further period of delay might make; and the nature of the allegations against the person and the potential risk they pose.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num>111.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Once a decision has been taken to include a person on a list, paragraph 17 of Schedule 3 comes into play. Anyone who is included in a list without having had the chance to make representations because DBS was unable to ascertain their whereabouts is automatically entitled to have late representations considered (paragraph 17(1) and (3)). For everyone else who did not make representations before the decision was made, DBS has under paragraph 17(2) a discretion to permit them to make late representations. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num>112.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Paragraph 17(2) is not limited to cases where a person did not have an opportunity to make representations within the prescribed period, but applies where a person simply did not for any reason (or none) make representations within the prescribed period. Nor is there any threshold for the exercise of that discretion: DBS does not have to have a &#8220;good reason&#8221; to exercise its discretion to consider late representations. It is plain why that is: by this point, the person is on the list. The risk to children and vulnerable adults has been dealt with. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num>113.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Given the importance to natural justice of the right to make representations, we find it difficult to imagine a case in which it would not be appropriate for DBS to give permission to a person to make late representations. That is particularly so given: (i) the requirement that DBS comply with section 6 of the Human Rights Act 1998 by not breaching a person&#8217;s Convention rights, which it may unwittingly do if it refuses to consider the person&#8217;s representations; (ii) the public interest in DBS making the &#8216;right&#8217; decision in these cases and not unnecessarily preventing people from working with children and vulnerable adults; and, (iii) avoiding the delay, expense and prejudice to good public administration of unnecessary legal proceedings. If DBS considers a person&#8217;s representations (however late) and then either makes a &#8216;better&#8217; decision that the person no longer wishes to challenge by way of appeal, or in respect of which the Upper Tribunal is able to dismiss any appeal at the permission stage, that is in everybody&#8217;s interests. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num>114.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">A further reason why DBS should in general consider late representations is because, as set out above in the Legal Framework section of our decision, an appeal to the Upper Tribunal is not a full merits appeal.  </span>Accordingly, if on appeal the Upper Tribunal concludes that, by failing to consider a person&#8217;s late representations, DBS failed to give that individual an effective opportunity to make representations, the Upper Tribunal is likely to conclude that failure made a material difference to the fairness of the decision and was thus a mistake of law that must lead to the appeal being allowed and the case remitted to DBS for a fresh decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num>115.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In this case, we have found as facts that, when the appellant telephoned DBS on 30 July 2021 to ask for an extension of time, she explained that she had been away from home and needed more time to respond and the DBS representative she spoke to said something like, </span><span style="font-style:italic;font-family:Arial">&#8220;No I&#8217;m sorry we can&#8217;t extend. Your representations have to be sent before the due date.&#8221; </span><span style="font-family:Arial">In her subsequent letter of 3 August 2021, the appellant recounted the circumstances, referred to her previous telephone call and what had been said and pointed out that, in calling, she had done just what the letter said she should do in order to ask for more time.  She complained that she had not been provided with Annex A or the CCTV evidence. She complained that she had not been given an opportunity to make oral representations as the letter said could happen. DBS&#8217;s response of 17 August 2021 dealt with her request for an extension of time in two sentences as follows: </span><span style="font-style:italic;font-family:Arial">&#8220;Thank you for your letter received 5 August 2021 asking us to extend the time limit to make representations. Unfortunately, we cannot agree to your request.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num>116.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Putting those communications together, and noting that nowhere in these communications was any reference made to DBS having a discretion to extend time for making representations, let alone to the test laid down in regulation 2(6) which is whether there is &#8220;good reason&#8221; to extend time, we conclude that DBS misunderstood or misdirected itself as to the law in refusing to extend time for the appellant to make representations. We find that DBS failed to consider, properly or at all, whether to exercise its discretion under regulation 2(6). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num>117.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We would have reached this conclusion even if DBS had not made the error in its skeleton argument of arguing that as a matter of law it did not have a discretion to extend the prescribed period (although we observe that the fact that counsel&#8217;s skeleton argument was approved by DBS with that error in it does strengthen the impression given by the documents before us that DBS in this case at least failed to understand its statutory powers).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num>118.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As to the appellant&#8217;s request of 10 September 2021 to make late representations following receipt of the Final Decision letter dated 24 August 2021, this was responded to by DBS with the single sentence: &#8220;We are unable to grant permission for this request as you had the opportunity to submit representations at the time but did not do so.&#8221; In our judgment, this letter too shows that DBS misunderstood its statutory powers. The fact that someone had an opportunity to submit representations at the time does not render DBS &#8220;unable&#8221; to grant permission for late representations under paragraph 17(2). Indeed, as we have explained above, the circumstances in which it will be appropriate for DBS to refuse to consider late representations are likely to be very rare. Even if there is no reason why the person could not have made submissions during the prescribed period, if they did not do so, there are, as we have explained above, strong public policy reasons for DBS considering late representations. If DBS refuses to grant permission for late representations without considering any of those public policy factors we have identified, its refusal will generally be irrational and unlawful. In this case, it certainly was, because DBS did not take into account any factors at all other than its belief (largely mistaken on the facts that we have found them to be) that the appellant had had an opportunity to make representations during the prescribed period. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num>119.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Further, we observe that DBS in its letter of 24 August 2021 uses the language of paragraph 16(1) itself in saying that the appellant &#8216;had the opportunity&#8217; to make representations. As we have explained above, fairness requires not just that someone have &#8216;an&#8217; opportunity, but they have an effective opportunity. Had DBS asked itself that question then, on the facts as we have found them to be, it would have had to conclude that the appellant had not had an effective opportunity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num>120.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We should say at this point that we recognise from the notes in the Decision Making Process Document that the decision-maker(s) at DBS were probably acting on the basis that the appellant had received the Minded to Bar letter, with Annex A enclosed, on 8 June 2021, as reflected in the information DBS appears to have obtained from Royal Mail Track and Trace. For the reasons set out above in the Factual Background, we concluded that (whether or not the note about Track and Trace is correct), the Minded to Bar Letter and Annex A did not in fact come to the appellant&#8217;s personal attention at that point. We further observe, though, that if the DBS decision-maker(s) were relying on the information from Royal Mail Track and Trace to refuse the appellant&#8217;s applications for an extension of time, fairness required them to tell her. As it was, this point was not put to the appellant by DBS at any time, even at the hearing before us. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num>121.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In any event, even if the position was that the appellant had received the Minded to Bar letter and Annex A on 8 June 2021, we would still have concluded that it was irrational for DBS to refuse to consider her representations late given the public policy factors we have identified above (or, at least, that it would have been irrational for DBS to refuse to consider late representations without engaging with those public policy factors).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num>122.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">It follows from what we have said above about grounds 1, 2 and 3 that, at the time that DBS took its final decision on 24 August 2021, the appellant had not been provided with an effective opportunity of making representations as a result of the combination of the failure to provide her with information and the refusals of her applications for an extension of time to make representations. These failures involved errors of law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num>123.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">These errors would not have been material if DBS had permitted her to make late representations, but by its letter of 29 September 2021 DBS refused that application, and that decision involved errors of law too.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num>124.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">These errors would also have ceased to be material if the appellant had sought a paragraph 18A review of DBS&#8217;s decision, and DBS had undertaken such a review. If that had happened, this appeal would have become academic and any appeal would need to have been pursued against the fresh decision. However, that has not happened and given that DBS had twice refused to consider the appellant&#8217;s representations, we find it understandable that the appellant did not see any point in seeking a review, especially given that her letter of 7 October 2021 requesting a review was responded to with an information leaflet about how to request a review which (correctly, but perhaps somewhat forbiddingly for someone in the appellant&#8217;s position) presents the grounds for review as being limited to cases where &#8220;certain statutory conditions&#8221; are met.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num>125.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The errors we have identified may also have ceased to be material if the appellant had in this appeal identified some other mistake of law or fact in the decision that meant either that the appeal should be allowed and her name removed from the register, or her case remitted to DBS for a fresh decision. That has not happened either. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num>126.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">When granting permission to appeal, and in subsequent case management directions, Judge Stout explained to the appellant (as Judge Jacobs did at even earlier stages in these proceedings) that it was open to her to challenge DBS&#8217;s decision in this appeal on grounds of mistake of fact, and that she could apply to amend her appeal if she wished to do so. As she has not done so, DBS invites us to conclude that it would have made no difference in this case if DBS had given her an opportunity to make representations. We disagree for two reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num>127.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">First, because, as a matter of principle, for the reasons we have already set out above, it is not necessary for an appellant to be able to show that the substantive outcome in her case might have been different. Because the appeal to the Upper Tribunal is not a full merits-based appeal, the failure to allow someone an effective opportunity to make representations is the sort of procedural error that is capable of making a material difference to the fairness of the decision, and thus constituting a mistake of law, even if it cannot be shown that the substantive outcome would have been any different. In this case, we are satisfied that DBS&#8217;s decision was materially unfair in this way. Without any justification, it breached one of the fundamental principles of natural justice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num>128.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Secondly, we are also satisfied that in this particular case there is a chance that DBS might make a different decision if the appellant is given an effective opportunity to make representations. Having heard the appellant at this hearing, it seemed to us that she has not yet articulated in any document what her representations would have been if she had been permitted to make them. From the point that the Minded to Bar Letter first came to her attention on 30 July 2021, without the accompanying Annex A, she has focused on what we have now held to be the injustice of not being provided with Annex A, and on the injustice of having her applications to make representations refused, and also on the fact that she was not provided with the CCTV evidence (her impression that she had not been given access to this with the Minded to Bar letter being compounded by DBS having tried to prevent her being provided with the CCTV evidence as part of this appeal). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num>129.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">As a result, although the appellant has incidentally made some representations as part of this appeal about what might be characterised as potentially mitigating circumstances (her allegations that she was subject to racial abuse by VA), she has not at any point &#8216;begun at the beginning&#8217; and explained to DBS why she submits that her conduct on the CCTV footage should not be regarded as being as serious as DBS considers it is, or set out in any detail her personal circumstances, employment history, training, what insight she has into her behaviour or why she submits that a barring decision is not necessary to protect children and vulnerable adults or is otherwise disproportionate. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num>130.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">At this hearing, in the course of lengthy &#8216;closing submissions&#8217;, the appellant started to address these sorts of matters. We do not attempt to summarise here what she said, but there were certain points that we thought might make a difference to a decision on appropriateness (involving as it can do a nuanced assessment of context and nature/degree of risk), even if they may not have provided a basis for finding there was a mistake of law or fact in the decision. We have in mind, for example, what she said about the &#8216;Shouting&#8217; video showing her being interrupted on a break and called back down to help when the other carer (sitting on the sofa in the video) should have been helping, and also her acknowledgment that her conduct was inappropriate and what she said about the impact on her of the decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num>131.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In view of our conclusions on grounds 1 to 3, which mean that the case must be remitted to DBS for a fresh decision, we address grounds 5 and 7 only briefly. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="Heading2">Ground 5: Proportionality</p>
+	  </content>
+	</level>
+	<paragraph eId="para_132">
+	  <num>132.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appellant&#8217;s argument on ground 5 was that the decision was disproportionate to the suffering that she has endured as a result of having no income and in particular given the length of time that she has worked without proven incident in the care sector and the impact on her as an older person who may struggle to secure alternative employment at a late stage in her career. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num>133.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Applying the approach laid out in <span style="font-style:italic">KS v DBS</span> [2025] UKUT 045 (AAC), we have considered for ourselves, giving due weight to the views of DBS, whether the decision is disproportionate in the light of the evidence that we have before us. That evidence has in fact been limited in this case as a result of the appeal focusing on the procedural issues we have dealt with above. The particular factors as to the appellant&#8217;s age, employment history and career prospects that Judge Stout at the permission stage considered it arguable DBS had left out of account, we are now satisfied were not left out of account. These factors are dealt with in the Barring Decision Process Document, and we accept DBS&#8217;s submission that these matters were not left out of account. We recognise, also, that there was a limit to what DBS could take into account as regards these factors given that the appellant had not made substantive representations about the decision so that DBS had little to go on.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num>134.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">While we can see that it is possible that DBS may, having considered the appellant&#8217;s representations, conclude that barring is disproportionate in this case, we ourselves are satisfied that the decision as it stands does not constitute an unlawful interference with the appellant&#8217;s rights under Article 8 of the European Convention on Human Rights. Applying <span style="font-style:italic">KS</span>, we are satisfied that the objective of protecting children and vulnerable adults is sufficiently important to justify limiting the appellant&#8217;s fundamental rights, and that the barring decision in this case is rationally connected to the objective. We are satisfied that the appellant poses some risk to vulnerable adults and children, based on the appellant&#8217;s conduct on the &#8220;Shouting&#8221; video, which shows a loss of temper, and verbal and emotional abuse directed towards the VA, sustained over some minutes, coupled with some physical aggression in knocking the door into the chair. We respect DBS&#8217;s view that this conduct is sufficient to justify barring. We accept that there is no less intrusive measure that could have been used without unacceptably compromising achievement of the objective as no other measure would prevent the appellant from being employed in any context with children or vulnerable adults. We agree with DBS that, on the evidence as it stood at the date of DBS&#8217;s decision, her age, past employment history and impact on her of the decision are not sufficient to outweigh the public interest in the protection of vulnerable children and adults. The position may now be different, but on the basis of the circumstances as they were at the time of the decision, it was not unlawful.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="Heading2">Ground 7: Inclusion on the children&#8217;s barred list</p>
+	  </content>
+	</level>
+	<paragraph eId="para_135">
+	  <num>135.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Again, we take this briefly. The appellant&#8217;s ground 7 complained that she should not have been included on the children&#8217;s barred list because the allegations against her concerned an adult and she never had any allegations against her concerning children, had never worked with children and considered it unlikely she would work with children.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num>136.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">First, as Judge Stout indicated when granting permission, there is no question that DBS was entitled to conclude that the appellant had engaged in &#8220;relevant conduct&#8221; relating to children because, by virtue of paragraph 4(1)(b), conduct against an adult &#8220;which, if repeated against or in relation to a child, would endanger that child or would be likely to endanger him&#8221; constitutes relevant conduct in relation to a child. We are satisfied that DBS rightly concluded that the appellant&#8217;s conduct towards VA would, if repeated against a child, be likely to endanger him/her.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num>137.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Secondly, the point that Judge Stout considered arguable when granting permission was that it might have been irrational for DBS to conclude, for the purposes, of paragraph 3(1)(a)(ii) that the appellant &#8220;has been, or might in future be, engaged in regulated activity relating to children&#8221; merely because she had previously applied for a role of &#8220;Child and Adult Workforce Healthcare Assistant&#8221;. However, as a panel we are satisfied that this was not irrational. The legislation requires only that the appellant &#8220;might&#8221; in future work with children; that requires only a realistic possibility, not anything more than that. If somebody has applied for one role that included the word &#8220;Child&#8221; in the title, it is not irrational to conclude that they may in future apply for others and that accordingly they might in future work with children.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="Heading1">Conclusion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_138">
+	  <num>138.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">For the reasons set out above, we have concluded that DBS made a mistake on a point of law as a result of the procedural errors in this case. The nature of the mistake is such that we need to remit the matter to DBS for a new decision, as required by section 4(6)(b) of the SVGA 2006. We cannot direct that the appellant should be removed from the list under section 4(6)(b) because we are not able to say that the only lawful decision in this case is that the appellant should be removed from the lists. DBS may decide either that it remains appropriate for to be included on the barred lists or that it is appropriate to remove her from the barred lists.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_139">
+	  <num>139.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">We observe that DBS will on remission be considering the position as of the date on which it makes its new decision. Unlike the Upper Tribunal (see </span><span style="font-style:italic;font-family:Arial">SD v DBS </span><span style="font-family:Arial">[2024] UKUT 249 (AAC), especially at [22]-[27]), DBS is not confined to considering retrospectively whether its decision was correct at the time that it was made. That DBS needs to consider the circumstances by reference to the time at which it takes a decision is underscored by paragraph 17(4) of Schedule 3, which makes clear that late representations may relate to what has happened since the appellant was included in the lists. This may be important in this case because there has been a very substantial delay in the appellant&#8217;s case reaching a final hearing so that she has in fact now been on the barred lists for 4.5 years. DBS will need on remission to take into account her current circumstances and level of risk.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num>140.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Section 4(7)(b) of the SVGA 2006 provides that where the Upper Tribunal remits a matter to DBS under subsection (6)(b) the person must be removed from the list until DBS makes its new decision, unless the Tribunal directs otherwise. In this case, given the length of time that the appellant has been on the list, and acknowledging that this is a finely balanced case, we consider that the appropriate course is to maintain the current &#8216;status quo&#8217; pending DBS&#8217;s new decision, and thus that the appellant should remain on the lists. However, we reach this conclusion on the assumption that DBS will proceed swiftly to make a new decision. We would expect DBS to make a new decision within one month of the appellant sending her new representations to DBS. Both parties will need to be proactive to ensure that a new decision is made within a reasonable time period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num>141.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Finally, we express our dismay at what has happened in this case and the length of time it has taken to reach the point where DBS will now consider the appellant&#8217;s representations and make a fair decision. The denial of procedural fairness by DBS at the outset has been compounded by the case management issues that arose as a result of DBS initially refusing to allow the appellant access to the CCTV as part of these proceedings and the other delays that have occurred in bringing this case to a final hearing. We apologise again to the appellant for the Upper Tribunal&#8217;s part in the delays that have occurred. We trust that what we have said in this decision about the importance of DBS considering representations if they are made late will ensure that no other case takes the course that this case has taken. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:right"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">Holly Stout</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:right"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">Judge of the Upper Tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">John Hutchinson</span></p>
+	    <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Tribunal Member</span></p>
+	    <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Rachael Smith</span></p>
+	    <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Tribunal Member</span></p>
+	    <p style="text-align:right"><span style="font-family:Arial">Authorised by the Judge for issue on </span><docDate date="2025-03-11" refersTo="#decision" style="font-family:Arial">11 March 2025</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

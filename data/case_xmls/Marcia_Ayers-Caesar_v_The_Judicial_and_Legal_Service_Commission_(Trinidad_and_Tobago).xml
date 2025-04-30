@@ -1,0 +1,836 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukpc/2025/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukpc/2025/15"/>
+	  <FRBRdate date="2025-03-24" name="judgment"/>
+	  <FRBRauthor href="#ukpc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="15"/>
+	  <FRBRname value="Marcia Ayers-Caesar v The Judicial and Legal Service Commission (Trinidad and Tobago)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukpc/2025/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukpc/2025/15"/>
+	  <FRBRdate date="2025-03-24" name="judgment"/>
+	  <FRBRauthor href="#ukpc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukpc/2025/15/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukpc/2025/15/data.xml"/>
+	  <FRBRdate date="2025-03-24T11:48:50" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukpc" href="https://www.jcpc.uk/" showAs="The Judicial Committee of the Privy Council"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="marcia-ayers-caesar" href="" showAs="Marcia Ayers-Caesar"/>
+	<TLCPerson eId="the-judicial-and-legal-service-commission" href="" showAs="The Judicial and Legal Service Commission"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-reed" href="/judge-lord-reed" showAs="Lord Reed"/>
+	<TLCPerson eId="judge-lord-hodge" href="/judge-lord-hodge" showAs="Lord Hodge"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+	<TLCPerson eId="judge-lady-simler" href="/judge-lady-simler" showAs="Lady Simler"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKPC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>15</uk:number>
+	<uk:cite>[2025] UKPC 15</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>620086650399c20b171c7fb6dbc64d082d30b2b6e5740f33701e6da71d9d6ef4</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading1 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.87in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { text-align: justify; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:79.2pt;height:79.2pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Hilary Term</span><br/><neutralCitation>[2025] UKPC 15</neutralCitation><br/><span style="font-weight:bold">Privy Council Appeal No 0016 of 2024</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentTitle"><party refersTo="#marcia-ayers-caesar" as="#respondent">Marcia Ayers-Caesar</party> (<role refersTo="#respondent">Respondent</role>) <span style="font-style:italic">v</span><span> </span><party refersTo="#the-judicial-and-legal-service-commission" as="#appellant">The Judicial and Legal Service Commission</party> (<role refersTo="#appellant">Appellant</role>) (Trinidad and Tobago)</p>
+      <p class="JudgmentTitle">From the Court of Appeal of the Republic of Trinidad and Tobago</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed">Lord Reed</judge><br/><judge refersTo="#judge-lord-hodge">Lord Hodge</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge><br/><judge refersTo="#judge-lady-simler">Lady Simler</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2025-03-24" refersTo="#judgment">24 March 2025</docDate><br/><br/>Heard on 2 and 3 December 2024</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Ian L Benjamin SC <br/>Ian Roach<br/>Tamara Toolsie<br/>(Instructed by Charles Russell Speechlys LLP (London))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Peter Knox KC<br/>Ramesh Lawrence Maharaj SC<br/>Ronnie Bissessar SC<br/>Robert Strang<br/>Varin Gopaul-Gosine<br/>(Instructed by Broadfield Law UK LLP (London) (formerly BDB Pitmans LLP (London)))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord Reed:</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-style:italic;font-size:13pt">1.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Introduction</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <num style="font-size:13pt">1.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This is an appeal against an order dated 12 October 2023 made by the Court of Appeal of Trinidad and Tobago (Mendon&#231;a, Yorke-Soo Hon and Bereaux JJA) in proceedings brought by Marcia Ayers-Caesar (&#8220;the claimant&#8221;), who served as a judge of the High Court between 12 and 27 April 2017, against the Judicial and Legal Service Commission (&#8220;the Commission&#8221;). By its order the Court of Appeal set aside the orders made by Harris J in the High Court, with the exception of certain orders made in favour of the Attorney General, and granted declarations which can be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The decision made by the Commission on 27 April 2017 that (a) the claimant be given the option of withdrawing from the High Court bench and returning to the magistracy to discharge her professional responsibilities, and (b) in the event that she refused to withdraw, the Commission would consider instituting disciplinary action in accordance with section 137 of the Constitution, was ultra vires section 137(3) of the Constitution, and accordingly null and void.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The Commission&#8217;s decision of 27 April 2017 and the communication of that decision to the claimant amounted to illegal conduct by the Commission because it was intended to threaten, coerce and pressure her into resigning from office, contrary to the Commission&#8217;s powers under section 137(3) of the Constitution. The result of such conduct was that the claimant was coerced and pressured into resigning her office, a form of removal from office not permitted by the Constitution.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The claimant continued to hold the office of puisne judge of the Supreme Court (ie a High Court judge other than the Chief Justice) because her purported letter of resignation was procured by the illegal conduct of the Commission and was null, void and of no effect. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">By removing the claimant from office otherwise than in accordance with section 137(3) of the Constitution, the Commission denied her the protection of the law contrary to section 4(b) of the Constitution.</p>
+	    </content>
+	  </subparagraph>
+	  <wrapUp>
+	    <p class="ParaNoNumber">The Court of Appeal also ordered that compensation be assessed by a judge of the High Court for breach of the claimant&#8217;s rights under section 4(b) of the Constitution.</p>
+	  </wrapUp>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-style:italic;font-size:13pt">2.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">The relevant constitutional provisions</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under section 104(1) of the Constitution, judges other than the Chief Justice are appointed by the President acting in accordance with the advice of the Commission. Under section 106(1), a judge holds office in accordance with sections 136 and 137. Section 110 establishes the Commission and provides that the Chief Justice is to be its chairman. Section 136 lays down a mandatory judicial retirement age.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 137 is concerned with the removal of judges from office, and is at the centre of the arguments in this appeal. It provides:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A judge may be removed from office only for inability to perform the functions of his office (whether arising from infirmity of mind or body or any other cause) or for misbehaviour, and shall not be so removed except in accordance with the provisions of this section.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A judge shall be removed from office by the President where the question of removal of that judge has been referred by the President to the Judicial Committee [of the Privy Council] and the Judicial Committee has advised the President that the judge ought to be removed from office for such inability or for misbehaviour.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where the Prime Minister, in the case of the Chief Justice, or the Judicial and Legal Service Commission, in the case of a judge other than the Chief Justice, represents to the President that the question of removing a judge under this section ought to be investigated, then&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic"/>the President shall appoint a tribunal which shall consist of a chairman and not less than two other members, selected by the President acting in accordance with the advice of the Prime Minister in the case of the Chief Justice or the Prime Minister after consultation with the Judicial and Legal Service Commission in the case of a judge, from among persons who hold or have held office as a judge of a court having unlimited jurisdiction in civil and<span style="font-family:Times-Roman;font-size:12pt"> </span>criminal matters in some part of the Commonwealth or a court having jurisdiction in appeals from any such court;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic"/>the tribunal shall enquire into the matter and report on the facts thereof to the President and recommend to the President whether he should refer the question of removal of that judge from office to the Judicial Committee; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic"/>where the tribunal so recommends, the President shall refer the question accordingly.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where the question of removing a Judge from office has been referred to a tribunal under subsection (3), the President, acting in accordance with the advice of the Prime Minister in the case of the Chief Justice or the Chief Justice in the case of a Judge other than the Chief Justice, may suspend the Judge from performing the functions of his office, and any such suspension may at any time be revoked by the President, acting in accordance with the advice of the Prime Minister in the case of the Chief Justice or the Chief Justice in the case of a Judge other than the Chief Justice, and shall in any case cease to have effect&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic"/>where the tribunal recommends to the President that he should not refer the question of removal of the Judge from office to the Judicial Committee; or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic"/>where the Judicial Committee advises the President that the Judge ought not to be removed from office.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It follows from section 137(1) that a judge can be removed from office only on the grounds of inability or misbehaviour, and only in accordance with the provisions of that section. Sections 137(2) and (3) set out the procedure which must be followed. In the case of a judge other than the Chief Justice, the procedure begins when the Commission represents to the President that the question of removing the judge ought to be investigated. The President is then required to appoint a tribunal consisting of a chairman and at least two other members selected by the Prime Minister, after consulting the Commission, from persons who hold or have held office as judges of courts of unlimited civil and criminal jurisdiction in some part of the Commonwealth, or courts having appellate jurisdiction over such courts. The tribunal then has to enquire into the matter and report on the facts to the President, with a recommendation as to whether the President should refer the question of removal of the judge from office to the Judicial Committee. If the tribunal so recommends, the President must then refer the question of removal to the Judicial Committee. If, following such a reference, the Judicial Committee advises the President that the judge ought to be removed from office for inability or for misbehaviour, then the President must remove the judge from office. Under section 137(4), where a reference is made to a tribunal, the judge may be suspended from performing the functions of his or her office until either the tribunal recommends against a referral to the Judicial Committee or the Judicial Committee advises the President that the judge ought not to be removed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The limited grounds on which judges can be removed from office under section 137, and the nature of the procedure laid down in that section, reflect the Constitution&#8217;s recognition of the importance of protecting judicial independence from the executive, as a vital aspect of governance in accordance with the rule of law. In relation to the grounds for removal, section 137 addresses the risk that a judge may become unfit to perform his or her duties or may engage in serious misconduct, by enabling the judge to be removed for inability to perform the functions of his or her office, or for misbehaviour. In limiting the circumstances in which a judge can be removed from office to inability or misbehaviour, the Constitution conforms to article 18 of the United Nations Basic Principles on the Independence of the Judiciary (1985) (&#8220;Judges shall be subject to suspension or removal only for reasons of incapacity or behaviour that renders them unfit to discharge their duties&#8221;), and to Guideline VI.1(a)(i) of the Commonwealth (Latimer House) Principles (2003) (&#8220;Grounds for removal of a judge should be limited to: (A) inability to perform judicial duties and (B) serious misconduct&#8221;). The threshold for removal is high. As the Board said in <span style="font-style:italic">Hearing on the Report of the Chief Justice of Gibraltar </span>[2009] UKPC 43, para 31:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;While the highest standards are expected of a judge, failure to meet those standards will not of itself be enough to justify removal of a judge. So important is judicial independence that removal of a judge can only be justified where the shortcomings of the judge are so serious as to destroy confidence in the judge&#8217;s ability properly to perform the judicial function.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In relation to the procedure to be followed, section 137 addresses the need to protect the judiciary against the threat to judicial independence, and therefore to the impartial application of the law, which would arise if the removal process could be used by the executive to penalise or intimidate judges. It achieves that objective by ensuring that the critical decisions are taken by bodies which are independent of the executive. Under section 137(3), the initial examination of the charge or complaint against the judge, leading to the decision whether to initiate the procedure, is normally taken by the Commission: a body whose membership is designed to ensure its independence. If it decides to initiate the procedure, the investigation into the judge is then carried out by a judicial tribunal which is also independent of the executive. Following that investigation, the judge can be removed from office only if the tribunal recommends that the question of removal should be referred to the Judicial Committee, and the Judicial Committee then advises that the judge ought to be removed. In this regard, the Constitution is again in conformity with Guideline VI.1(a)(i) of the Latimer House Principles (&#8220;In cases where a judge is at risk of removal, the judge must have the right &#8230; to be judged by an independent and impartial tribunal&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is also necessary to note section 4 of the Constitution, which recognises a number of fundamental human rights and freedoms, including &#8220;(b) the right of the individual to equality before the law and the protection of the law&#8221;. One aspect of the protection of the law is an individual&#8217;s &#8220;right to a fair hearing in accordance with the principles of fundamental justice for the determination of his rights and obligations&#8221;, protected against legislative abrogation, abridgement or infringement by section 5(2)(e).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-style:italic;font-size:13pt">3.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">The background facts</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The material facts, as found by Harris J, can be summarised as follows. During 2016 the claimant, who was then the Chief Magistrate, responded to an advertisement giving notice that there were a number of vacancies on the High Court and inviting applications for appointment. She underwent assessment and interview in January 2017, and on 15 March 2017 was informed that her application had been successful. Arrangements were made for her to be sworn in on 12 April 2017. Some of the other successful candidates asked for their swearing-in to be postponed to enable them to complete outstanding professional commitments, but the claimant did not do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">When the claimant&#8217;s appointment was announced, there were some expressions of concern over the number and nature of the part-heard matters which she would leave behind in the Magistrates&#8217; Court. On 10 April the Chief Justice telephoned her and asked about this. Her explanation left the Chief Justice under the impression that, apart from a small number of short trials, the majority of her part-heard matters were &#8220;paper committals&#8221;, ie applications for the committal of defendants for trial, supported by witness statements, which could be re-listed before another magistrate without causing undue delay. The Chief Justice requested her to provide a list of all her part-heard matters with short explanations. On 11 April she sent the Chief Justice a list which had been prepared by a member of staff of the Magistrates&#8217; Court. It comprised 28 cases (some documents refer to the list as containing 23 cases, but nothing turns on the precise number). There was no indication that oral evidence had already been heard in any of the cases. The Chief Justice asked her if she would wish for more time to dispose of her part-heard matters, but she declined. On 12 April she was sworn in as a judge of the High Court. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 19 April 2017 the then Acting Chief Magistrate dealt with a high-profile prosecution with which the claimant had been dealing. The case had not been included in the list provided to the Chief Justice. According to reports which appeared in the press the following day, prosecuting counsel expressed concern that cases part-heard by the claimant and close to completion would have to start again before another magistrate, with the result that public money would be wasted and defendants would have to spend longer in custody awaiting trial. Other attorneys were also reported as expressing similar concerns.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 20 April 2017 the Chief Justice asked the Acting Chief Magistrate to ascertain the true state of the claimant&#8217;s part-heard matters. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 25 April 2017 the Chief Justice had a meeting with the claimant and the Acting Chief Magistrate, at which the claimant was informed that a list was being prepared. The list was completed later that day, and was provided to the Chief Justice and the claimant. It comprised 52 cases (some documents refer to the list as containing 53 cases, but again nothing turns on the exact number). Witnesses had been cross-examined in most of the cases. In some of them, the prosecution had closed its case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 26 April 2017 the Chief Justice had another meeting with the claimant and the Acting Chief Magistrate at which the situation was discussed. The meeting ended with the Chief Justice inviting the claimant to return the next day with suggestions as to how her unfinished business could be addressed. On the same day there was a fracas at a Magistrates&#8217; Court involving several accused in custody, when they protested about the adjournment of their cases, which had been part-heard by the claimant. Concern was also expressed by the Law Association of Trinidad and Tobago about the consequences of the claimant&#8217;s taking up appointment on the High Court without having completed her outstanding cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On the morning of 27 April 2017 the Chief Justice convened an emergency meeting of the Commission. The minute of the meeting, whose accuracy has not been questioned, records that it was called &#8220;to discuss the course of action that had to be taken with respect to Mrs Marcia Ayers-Caesar&#8217;s appointment&#8221;. The Chief Justice, as chairman, informed the other members of the Commission about the steps which he had previously taken, as summarised above, and of the disparity between the information which he had been given by the claimant, in the form of the initial list, and the state of affairs reported by the Acting Chief Magistrate. The minute records:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In this regard the chairman was of the view that Mrs Ayers-Caesar&#8217;s position had become untenable, however he wanted the Commission&#8217;s views as to the course of action that would be warranted.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The minute records that the Commission raised the following issues:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8226; the number of outstanding part-heard matters Mrs Ayers-Caesar had to complete as Chief Magistrate prior to taking up appointment as puisne judge;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; whether she had misled the Chief Justice and the Judicial and Legal Service Commission with respect to the number of outstanding matters that were before her in her capacity as Chief Magistrate;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; whether the officer had to resign as Chief Magistrate to take up an appointment as puisne judge, and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; Mrs Ayers-Caesar&#8217;s case management ability.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">As recorded in the minute, the Commission expressed its concerns about the number of part-heard matters that were being left behind, and the public outcry on 26 April 2017 about matters well over seven years old that would have to be re-started. The Commission also noted that other successful candidates in the High Court competition had requested deferment of their appointment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The minute continues:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Commission decided that the information before it triggered and met the threshold for disciplinary enquiry but considered also the need for the expediting of Mrs Ayers-Caesar&#8217;s outstanding part-heard matters.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">The Commission then decided that:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in">&#8226; Mrs Ayers-Caesar<span style="font-weight:bold"> </span>be given the option of withdrawing from the High Court bench and returning to the magistracy to discharge her professional responsibilities; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in">&#8226; in the event she refuses to withdraw, the Commission would consider instituting disciplinary action in accordance with section 137 of the Constitution of Trinidad and Tobago.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">During the afternoon of the same day the Chief Justice had a meeting with the claimant. What precisely was said at the meeting is a matter of dispute, but the resolution of the disputed matters is not critical to our decision, on the view that we take of the law. However, we will proceed on the basis of Harris J&#8217;s findings, which reflect the evidence given by the Chief Justice and the minute of the Commission&#8217;s meeting. At his meeting with the claimant, the Chief Justice told her that the Commission had met and considered the matter sufficiently serious to trigger a disciplinary enquiry but had made no decision in that regard. It had decided that she should be given the option of withdrawing from the High Court bench and returning to the magistracy to complete her part-heard matters. The meeting concluded with the claimant agreeing to resign from her office as a High Court judge, and agreeing to accompany the Chief Justice to a meeting with the President later that day, where she handed the President her letter of resignation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-style:italic;font-size:13pt">4.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">The issues arising</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Against that background, and in the light of the judgments below, the principal questions of law which the Board has to determine can be summarised as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">whether there was evidence of any conduct on the part of the claimant which was capable of falling within the scope of section 137 of the Constitution;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">whether the decision taken by the Commission at its meeting on 27 April 2017, &#8220;that the information before it triggered and met the threshold for disciplinary enquiry&#8221;, was unlawful by reason of procedural unfairness;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">whether the decision taken by the Commission at that meeting, &#8220;that Mrs Ayers-Caesar be given the option of withdrawing from the High Court bench and returning to the magistracy to discharge her professional responsibilities; and in the event she refuses to withdraw, the Commission would consider instituting disciplinary action in accordance with section 137&#8221;, was unlawful because it was inconsistent with the scheme laid down by section 137; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">whether the Commission brought about the claimant&#8217;s resignation. </p>
+	    </content>
+	  </subparagraph>
+	  <wrapUp>
+	    <p class="ParaNoNumber">The Board will consider each of those questions in turn.</p>
+	  </wrapUp>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-style:italic;font-size:13pt">5.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Was there evidence of any conduct on the part of the claimant which was capable of falling within the scope of section 137 of the Constitution?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A judge may be removed from office under section 137 only for inability to perform the functions of his or her office (whether arising from infirmity of mind or body or any other cause) or for misbehaviour. In the Court of Appeal, Yorke-Soo Hon JA stated that she was not persuaded that there was evidence before the Commission that the claimant had committed any act or acts falling within the section. There was no evidence that she lacked the ability or temperament to perform her functions as a judge. As to the question of misbehaviour, even if her large case load of part-heard matters raised an issue as to her ability in the area of case management, those matters were not connected to her work as a judge but as a magistrate. The allegations against her dealt with conduct which arose prior to her appointment as a judge and concerned matters related to her availability to take up her High Court appointment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Bereaux JA also considered that section 137 had no application, since any question of removal of the claimant would have to have been for &#8220;misbehaviour&#8221;, and &#8220;misbehaviour&#8221; falling within the scope of that provision could only be misbehaviour while holding the office of judge. In the present case, the purported misbehaviour would have been in regard to assurances given to the Chief Justice as to the number of part-heard matters the claimant had outstanding, or the fact of having so many part-heard matters outstanding and for so long. Since those were matters occurring before the claimant took office as a judge, they could not have triggered or met the section 137 threshold. Mendon&#231;a JA expressed no opinion on this question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As was explained at para 15 above, the Commission&#8217;s concerns focused on three distinct but related matters. The first was the claimant&#8217;s ability to manage her caseload, which it considered to be put in question by the accumulation of a substantial number of part-heard matters. The second was her conduct during the process leading up to her appointment to the High Court, in (1) possibly misleading the Commission by failing to disclose the backlog of part-heard matters, (2) possibly misleading the Chief Justice by giving him an account of her part-heard matters which understated the true position, and (3) taking up her appointment in circumstances which resulted in a substantial number of part-heard matters being left uncompleted, in contrast to other candidates who had deferred their appointment. The third matter was the effect of her conduct, in leaving cases uncompleted which would have to start again, on public confidence in the administration of justice. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons explained below, the Board is in no doubt that those matters, particularly when considered cumulatively, could reasonably be regarded as falling within the scope of section 137(1). That is not to say that the Commission&#8217;s concerns were established; or that they would, if established, be enough to justify the claimant&#8217;s removal from office: it is merely to say that they are not, as a matter of law, incapable of falling within the ambit of section 137(1). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The primary question raised by the judgments of Yorke-Soo Hon and Bereaux JJA is whether the fact that the conduct in question occurred before the judge&#8217;s appointment means that there can be no lawful basis for an investigation under section 137. In the Board&#8217;s view it does not: conduct occurring before the judge&#8217;s appointment can provide a lawful basis for such an investigation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It may be helpful to begin with some general observations about the purpose of a provision such as section 137, and the meaning to be given to the words &#8220;inability&#8221; and &#8220;misbehaviour&#8221; in that context, before considering specifically whether inability and misbehaviour can be demonstrated by conduct of the kind which concerned the Commission in this case, even if it occurred before the judge&#8217;s appointment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 137 protects two essential foundations of the due administration of justice. First, as the Board explained earlier, it protects judicial independence, by providing judges with security of tenure and thereby shielding the administration of justice from external influences. Secondly, it protects the administration of justice, and public confidence in the administration of justice, by enabling judges to be removed from office when they are unable to carry out the functions of their office, or when their remaining in office would otherwise bring the administration of justice into disrepute. Accordingly, section 137 sets out tests, and a procedure, enabling judicial conduct to be independently investigated, and judges removed from office, when that is necessary in the interests of the due administration of justice. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the interpretation and application of section 137, assistance can be gained from a considerable body of jurisprudence on the tests of &#8220;inability&#8221; and &#8220;misbehaviour&#8221; as they apply in the context of the removal from office of judges or other public officials. Authoritative guidance can be found, in particular, in two relatively recent cases: <span style="font-style:italic">Lawrence v Attorney General of Grenada </span>[2007] UKPC 18; [2007] 1 WLR 1474 and <span style="font-style:italic">Hearing on the Report of the Chief Justice of Gibraltar</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the former case, which concerned the removal of the Director of Audit of Grenada under a provision in virtually identical terms to section 137(1), Lord Scott of Foscote, giving the advice of the majority of the Board, remarked at para 23 that &#8220;misbehaviour&#8221; was a word which drew its meaning from the context in which it was used. He went on at para 25 to quote with approval para 85 of the judgment of Gray J in the Australian case of <span style="font-style:italic">Clark v Vanstone </span>[2004] FCA 1105, (2004) 81 ALD 21:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; in a case in which the term &#8216;misbehaviour&#8217; is used with reference to the holder of an office, the content of its meaning is to be determined by reference to the effect of the conduct on the capacity of the person to continue to hold the office. In turn, the capacity to continue to hold an office has two aspects. The conduct of the person concerned might be such that it affects directly the person&#8217;s ability to carry out the office. Alternatively, or in addition, it may affect the perceptions of others in relation to the office, so that any purported performance of the duties of the office will be perceived widely as corrupt, improper or inimical to the interests of the persons, or the organisation, for whose benefit the functions of the office are performed. In either case, the danger is that the office itself will be brought into disrepute as a result of the conduct of its holder. If that is likely to be the case, then the conduct is properly characterised as misbehaviour for the purposes of the relevant legislation.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the light of that passage, Lord Scott identified four questions that needed to be asked: first, whether the conduct directly affected the individual&#8217;s ability to carry out the duties and discharge the functions of her office; secondly, whether the conduct might affect the perceptions of others as to her ability to carry out those duties and discharge those functions; thirdly, whether to allow her to continue in office and continue to perform her duties would be perceived as inimical to the interests of good governance; and fourthly, whether the office would be brought into disrepute as a result of that conduct (para 26). On the facts, three of those four questions were answered adversely to the appellant. That conclusion was held to justify categorising her conduct as &#8220;misbehaviour&#8221; and validating the recommendation that she should be removed from office. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That approach was followed by the Board in <span style="font-style:italic">Hearing on the Report of the Chief Justice of Gibraltar</span>, a case in which it was performing an analogous function to that entrusted to it by section 137(2) of the Constitution of Trinidad and Tobago. The case was one concerned with &#8220;inability&#8221;, although the allegation against the Chief Justice was based on a combination of defects of character, misbehaviour, and the effects of his behaviour on how he and his office were perceived. As Lord Phillips, giving the advice of the majority of the Board, observed (para 201), there is a degree of overlap between &#8220;inability&#8221; and &#8220;misbehaviour&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Following Lord Scott&#8217;s analysis of &#8220;misbehaviour&#8221; in the earlier case, the majority of the Board addressed the question of &#8220;inability&#8221; by asking four questions (para 203): </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Has the Chief Justice&#8217;s conduct affected directly his ability to carry out the duties and discharge the functions of his office?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(ii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Has that conduct adversely affected the perception of others as to his ability to carry out those duties and discharge those functions?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Would it be perceived to be inimical to the due administration of justice in Gibraltar if the Chief Justice remains in office?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Has the office of Chief Justice been brought into disrepute by the Chief Justice&#8217;s conduct?&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">That approach reflected the view that there was good reason to give the word &#8220;inability&#8221; in this context the wide meaning that the word naturally bears (para 205):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;If for whatever reason a judge becomes unable properly to perform his judicial function it is desirable in the public interest that there should be power to remove him, provided always that the decision is taken by an appropriate and impartial tribunal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Phillips noted that the answer to the first question depended in part on perception, and therefore began by addressing the second question, relating to the perception of others as to the Chief Justice&#8217;s ability to perform his functions. In that regard, it was found that perceptions of bias substantially disabled the Chief Justice from performing his judicial functions. In relation to the third and fourth questions, the essential question was whether the behaviour of the Chief Justice had brought himself and his office into such disrepute that it would damage the image of the administration of justice in Gibraltar if he continued to serve as Chief Justice (para 222). It was found that it had. &#8220;Inability&#8221; was therefore found to be established.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The approach adopted in these cases is consistent with relevant international standards, such as the Bangalore Principles of Judicial Conduct (2002) and the Latimer House Principles. As the preamble to the Bangalore Principles states, &#8220;public confidence in the judicial system and in the moral authority and integrity of the judiciary is of the utmost importance in a modern democratic society&#8221;, and &#8220;it is essential that judges, individually and collectively, respect and honour judicial office as a public trust and strive to enhance and maintain confidence in the judicial system&#8221;. Those recitals are reflected in the emphasis placed in the Bangalore Principles on integrity (&#8220;Integrity is essential to the proper discharge of the judicial office&#8221;), propriety (&#8220;Propriety, and the appearance of propriety, are essential to the performance of all of the activities of a judge&#8221;), competence and diligence (&#8220;Competence and diligence are prerequisites to the due performance of judicial office&#8221;). The Bangalore Principles are reflected in the Guidelines for Judicial Conduct produced for the Judiciary of Trinidad and Tobago in 2017, which similarly emphasise the importance of public confidence in the integrity of judges, and of propriety, competence and diligence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The analysis of &#8220;inability&#8221; and &#8220;misbehaviour&#8221; adopted in the <span style="font-style:italic">Lawrence </span>and <span style="font-style:italic">Gibraltar </span>cases focuses on the effect of the conduct in question on the judge&#8217;s ability to perform his judicial function, whether the effect is immediate or results from the impact of the conduct on public perception. There is nothing in the analysis in those cases which would logically confine its ambit to conduct occurring during the term of office. Nor would the underlying aim of the power of removal for inability or misbehaviour, namely to protect the due administration of justice, require such a limitation on its ambit. On the contrary, it is not difficult to conceive of circumstances in which conduct occurring prior to a judge&#8217;s appointment could compel an adverse answer to the four questions posed by Lord Scott and Lord Phillips: for example, where it emerged that the judge had committed a serious criminal offence prior to his or her appointment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The argument that only conduct occurring after the judge&#8217;s appointment could be relevant was rejected by the Supreme Court of Canada in the case of <span style="font-style:italic">Therrien v Minister of Justice </span>[2001] 2 SCR 3, on the basis of reasoning which is consistent with the above analysis. As in the present case, there was an allegation that the judge had failed to disclose information that was prejudicial to him to the members of the judicial selection commission. Gonthier J, giving the judgment of the court, said that whether or not the actions were prior to the judge&#8217;s appointment was not relevant (para 54). He went on to point out that the committee of inquiry appointed to inquire into the complaint was responsible for preserving the integrity of the whole of the judiciary (para 58):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span class="QuoteChar" style="font-family:'Times New Roman'">&#8220;Accordingly, it must be able to examine the past conduct of a judge, if it is relevant to the assessment of his candidacy, having regard to his capacity to carry out his judicial functions, and to determine, based on that, whether it may reasonably undermine public confidence in the incumbent of the office. In this case, the appellant&#8217;s actions, though predating his appointment, were alleged to </span>have had that kind of impact on the performance of his functions.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">Gonthier J added (ibid) that the process of selecting persons for appointment as judges is so closely related to the exercise of the judicial function that it cannot be dissociated from it. The Board agrees. The due administration of justice would not be served if, for example, a person who obtained a judicial appointment by deceiving the selection commission was immune from removal from office on the ground of that deceit, notwithstanding that the four questions posed in the <span style="font-style:italic">Lawrence </span>and <span style="font-style:italic">Gibraltar </span>cases might all be answered adversely to the judge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Gonthier J went on to state (para 147), in a passage cited with approval in the <span style="font-style:italic">Gibraltar </span>case (paras 31 and 263), that the public&#8217;s confidence in its justice system was at the very heart of the case:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Thus, before making a recommendation that a judge be removed, the question to be asked is whether the conduct for which he or she is blamed is so manifestly and totally contrary to the impartiality, integrity and independence of the judiciary that the confidence of individuals appearing before the judge, or of the public in its justice system, would be undermined, rendering the judge incapable of performing the duties of his office.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">That test was satisfied on the facts of the case (para 150):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The appellant&#8217;s conduct has sufficiently undermined public confidence, rendering him incapable of performing the duties of his office.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Considering the present case in the light of this discussion, the Board concludes, in respectful disagreement with the majority of the Court of Appeal, that there was conduct on the part of the claimant which was capable of falling within the scope of section 137 of the Constitution. If the claimant deliberately or recklessly misled the Commission and the Chief Justice about her backlog of part-heard matters during the process leading up to her appointment, that was something which might affect her capacity to perform the duties of her office. The public outcry reinforced the grounds for concern about the impact of her conduct on public confidence in the administration of justice. Her behaviour in not seeking a deferment of her appointment in order to enable her to complete the part-heard matters, and the issue raised as to her case management ability, were also potentially relevant to the questions of &#8220;inability&#8221; and &#8220;misbehaviour&#8221;. The fact that the relevant conduct occurred prior to the claimant&#8217;s appointment did not take it outside the ambit of section 137. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-style:italic;font-size:13pt">6.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Was the Commission&#8217;s decision &#8220;that the information before it triggered and met the threshold for disciplinary enquiry&#8221; unlawful by reason of procedural unfairness?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Before the Commission decides under section 137(3) to represent to the President that the question of removing a judge ought to be investigated, it has to consider the complaint or allegation before it and consider whether the matter is sufficiently supported by evidence, and sufficiently serious, to warrant making a representation: a step which will necessarily result in the appointment of an investigatory tribunal under section 137(3), and possibly in the suspension of the judge under section 137(4), and will almost inevitably have serious reputational consequences for the judge. Accordingly, it is well established that the Commission must act fairly towards the judge. As was said in <span style="font-style:italic">Rees v Crane </span>[1994] 2 AC 173, 193:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Commission before it represents must &#8230; be satisfied that the complaint has prima facie sufficient basis in fact and must be sufficiently serious to warrant representation to the President, effectively the equivalent of impeachment proceedings. Both in deciding what material it needs in order to make such a decision and in deciding whether to represent to the President, the Commission must act fairly.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Acting fairly will normally require the Commission to give the judge notice of the allegations made against him or her, and an opportunity to answer them. This was also made clear in <span style="font-style:italic">Rees v Crane </span>(p 194):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Fairness, if it can be achieved without interference with the due administration of the courts, requires that the person complained of should know at an early stage what is alleged so that, if he has an answer, he can give it.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">This is a constitutional right, since the &#8220;protection of the law&#8221; to which section 4(b) of the Constitution refers includes the right to natural justice: <span style="font-style:italic">Rees v Crane </span>at p 188.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Fairness would certainly involve the requirements mentioned in <span style="font-style:italic">Rees v Crane </span>in the circumstances of the present case. The allegations made against the claimant might have been capable of rebuttal, in whole or in part, if she had been given an opportunity to respond. She might, for example, have been able to explain how it came about that she had so many part-heard matters, and whether it was the consequence of a lack of case management ability on her part; whether it would be necessary for the uncompleted cases to be started again before another magistrate unless she resigned from the High Court bench, or whether there were other possible solutions; why she had not sought a deferment of her appointment; how it came about that there was a discrepancy between the number of outstanding matters listed in the initial report and the number listed in the subsequent audit, and whether she bore personal responsibility for any inaccuracies; and whether she had knowingly misled either the Commission or the Chief Justice. She might have pointed out that she had informed the Chief Justice about 23 outstanding matters, but had not been told that that presented a problem necessitating the deferment of her appointment. She might have asked whether it should not have been obvious to the Commission that if the Chief Magistrate were to be made a High Court judge then consideration would have to be given to her part-heard cases and how they were to be dealt with. She might have pointed to mitigating circumstances, such as her long history of judicial service, including as Chief Magistrate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claimant was not given that opportunity. The Commission did not notify her that the question of removing her was being considered at its meeting on 27 April 2017. It did not give her notice of the allegations made against her, nor did it give her any opportunity to answer them, before it reached its decision that the information before it triggered and met the threshold for representing to the President that the question of removing her ought to be investigated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In answer to the submission that it acted unfairly, the Commission seeks to distinguish <span style="font-style:italic">Rees v Crane </span>on the basis that, in the present case, it had not reached the stage of deciding to make a representation to the President: it had merely decided that the threshold for making such a representation was met. It would have sufficed for it to have afforded the claimant a hearing at a later stage, before it acted on its decision that the threshold for making a representation was met by making the representation. The Board does not find this submission persuasive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the first place, the suggested distinction between a decision that the circumstances merit a representation to the President, and a decision to make a representation, appears to the Board to be artificial and unprincipled. If the Commission has concluded that the circumstances merit a representation, then it should make such a representation. It is difficult to see a basis on which it could properly decide to refrain from doing so. In particular, as explained below, the Commission&#8217;s reason for holding its hand in the present case, namely its decision to offer the judge the option of resigning, was not a proper basis for refraining from making a representation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Furthermore, to draw a distinction between the decision that the circumstances merit making a representation, and the decision to make the representation, and to hold that the duty of fairness applies only to the latter decision, would diminish the value of the claimant&#8217;s right to a fair hearing. She would, in effect, be allowed to address the Commission only after it had already considered the matter and reached a decision which merely remained to be acted on. She would then have to attempt to persuade it to change its mind: something which is liable to be more difficult than persuading it before a decision has been made. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Finally, the duty to act fairly was said in <span style="font-style:italic">Rees v Crane, </span>in the passage cited in para 37 above, to apply to the Commission not only in deciding whether to make a representation to the President, but also, prior to making that decision, &#8220;in deciding what material it needs in order to make such a decision&#8221;. In the present case, the Commission decided at the meeting that the material then before it was sufficient to enable it to decide whether to make a representation. On the authority of <span style="font-style:italic">Rees v Crane, </span>it was bound to act fairly before taking that decision at the meeting; and it did not do so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Accordingly, the Board concludes, in agreement with the Court of Appeal, that the Commission&#8217;s decision &#8220;that the information before it triggered and met the threshold for disciplinary enquiry&#8221; was unlawful by reason of procedural unfairness.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-style:italic;font-size:13pt">7.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Was the Commission&#8217;s decision &#8220;that Mrs Ayers-Caesar be given the option of withdrawing from the High Court bench and returning to the magistracy to discharge her professional responsibilities; and in the event she refuses to withdraw, the Commission would consider instituting disciplinary action in accordance with section 137&#8221;, unlawful because it was inconsistent with the scheme laid down by section 137?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As was explained in para 16 above, at its meeting the Commission decided that the information before it triggered and met the threshold for disciplinary enquiry, ie for representing to the President that the question of removing the claimant ought to be investigated. However, the Commission &#8220;considered also the need for the expediting of Mrs Ayers-Caesar&#8217;s outstanding part-heard matters&#8221;. It appears that the Commission considered that those matters could be expedited if the claimant were to return to the Magistrates&#8217; Court, so that she could resume her cases where she had left off. Accordingly:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Commission then decided that:</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in">&#8226; Mrs Ayers-Caesar<span style="font-weight:bold"> </span>be given the option of withdrawing from the High Court bench and returning to the magistracy to discharge her professional responsibilities; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in">&#8226; in the event she refuses to withdraw, the Commission would consider instituting disciplinary action in accordance with section 137 of the Constitution of Trinidad and Tobago.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Rees v Crane, </span>Lord Slynn of Hadley, giving the judgment of the Board, said in relation to the suspension and removal of judges in Trinidad and Tobago (pp 187-188):</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It is clear that section 137 of the Constitution provides a procedure and an exclusive procedure for such suspension and termination and, if judicial independence is to mean anything, a judge cannot be suspended nor can his appointment be terminated by others or in other ways.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Under section 137, the Commission has a vital but limited role: to decide whether to represent to the President that the question of removing a judge under that section ought to be investigated. It is no part of the Commission&#8217;s role, where it has found that there are circumstances justifying such a representation, to seek to procure the removal of the judge by other means, such as resignation. For the Commission to present the judge with the option of resigning, in those circumstances, is for it to place the judge under pressure to resign, because of the risk of reputational damage if he or she does not resign and disciplinary proceedings follow. In that regard, we note Bereaux JA&#8217;s observations at para 158 of the judgment of the Court of Appeal:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The reputational damage likely to be suffered from the initiation of the section 137 disciplinary process can be significant especially in a small country as Trinidad and Tobago. The mere contemplation of such damage is sufficient to persuade a judge to resign so as to avoid the oppression that disciplinary proceedings bring along with the odium likely to accompany the public revelation that such a process has been started. Thus, the mere threat of initiation of the section 137 procedure, is, by itself, sufficient to pressure a judge into resigning her office.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaNoNumber">Pressurising a judge to resign by holding out the threat of disciplinary proceedings, as the Commission did in the present case, circumvents the constitutional safeguards laid down in section 137 and undermines their purpose. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Board should make it clear that the Commission acted as it did out of an understandable desire to resolve the practical problem which it understood to exist as a result of the part-heard cases having to start again before another magistrate. The Board also accepts that, in a situation where a judge is liable to be the subject of an investigation under section 137, it is desirable that the judge should have access to advice and support from a senior member of the judiciary; and it is possible, in such a situation, that the judge may be advised that it would be in his or her best interests to consider resigning. If a fair procedure is followed by the Commission, so that the judge is given notice of the complaint or allegations in question and is allowed to respond, then the judge will normally have the opportunity to take advice, and to resign if he or she considers that appropriate, before formal disciplinary proceedings are begun. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, the provision of such advice is no part of the role of the Commission. Nor, in circumstances where the Commission is engaged in its functions under section 137, can it be part of the role of the Chief Justice. He is directly involved in the section 137 process as the chairman ex officio of the Commission (and, in this case, as the source of the complaints or allegations which the Commission considered); and, if the Commission decides to make a representation, he is also the person who will have to advise the President whether the judge should be suspended. The role which he might normally play in providing advice and support to the judge in question, as head of judicial administration in Trinidad and Tobago, must in those circumstances be delegated to another judge. In the present case it appears that the Chief Justice did not keep separate in his dealings with the Commission and with the claimant the three different roles in which he was concerned in the matter: his role as chair of the Commission, his role as Chief Justice responsible for the efficient operation of the court system, and his pastoral role as an experienced senior judge meeting a more junior colleague to address a difficult and potentially distressing situation that had arisen. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Accordingly, the Board concludes, in agreement with the Court of Appeal, that<span style="font-style:italic"> </span>the Commission&#8217;s decision that the claimant should be given the option of withdrawing from the High Court bench and returning to the magistracy was inconsistent with the scheme laid down by section 137, and therefore unlawful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-style:italic;font-size:13pt">8.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Did the Commission bring about the claimant&#8217;s resignation?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As explained at para 17 above, the Chief Justice had a meeting with the claimant, shortly after the Commission had met, at which he told her that the Commission had met and that it considered the matter in question sufficiently serious to trigger a disciplinary enquiry but had made no decision in that regard. It had decided that she should be given the option of withdrawing from the High Court bench and returning to the magistracy to complete her part-heard matters. The meeting concluded with the claimant agreeing to resign from her office as a High Court judge. She submitted her resignation to the President later the same day.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">What the Chief Justice told the claimant placed her under pressure to resign, as the implicit alternative of a disciplinary enquiry &#8211; &#8220;effectively the equivalent of impeachment proceedings&#8221;, as it was described in <span style="font-style:italic">Rees v Crane </span>at p 193 &#8211; would be damaging to her professional and personal reputation and to her standing among her colleagues. It is unsurprising that she responded by agreeing to resign. Nevertheless, it is argued on behalf of the Commission that it did not bring about the claimant&#8217;s resignation, and that its violation of her constitutional rights (in depriving her of a fair hearing) does not, therefore, render it liable for the loss flowing from her resignation. The argument is based principally on the contention that, when the Chief Justice told the claimant what the Commission had decided in relation to disciplinary proceedings, he was not acting on its behalf, but exceeded his authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This contention was accepted by Harris J, but rejected by the Court of Appeal, for reasons which the Board finds persuasive. At its meeting, the Commission decided, as recorded in its minute, that &#8220;the information before it triggered and met the threshold for disciplinary enquiry but considered also the need for the expediting of Mrs Ayers-Caesar&#8217;s outstanding part-heard matters&#8221;, that &#8220;Mrs Ayers-Caesar be given the option of withdrawing from the High Court bench&#8221;, and that &#8220;in the event she refuses to withdraw, the Commission would consider instituting disciplinary action in accordance with section 137&#8221;. In order for that decision to be implemented, someone had to communicate it to the claimant, so as to give her the option of resigning from the High Court before disciplinary action was instituted. The obvious person to do so was the Chief Justice, since he was the chairman of the Commission. The natural inference to be drawn from the minute is therefore that the Commission authorised the Chief Justice to communicate its decision to the claimant. That is what he did at his meeting with the claimant, as explained in para 52 above, and in doing so he was acting in his capacity as chairman of the Commission. The meeting concluded with her agreeing to resign, as the Commission had intended.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Harris J accepted that the Chief Justice was authorised to communicate the Commission&#8217;s decision that the claimant should be given the option to resign, but not, as he put it, the potential for the invocation of section 137. The Court of Appeal overturned that conclusion for a number of reasons, which the Board finds compelling. It will suffice to mention two. First, it is clear from the terms of the minute that the &#8220;option&#8221; of resignation was considered to be an alternative to disciplinary proceedings: an alternative which was preferable because it was thought that only the claimant&#8217;s return to the magistracy would enable her to complete her part-heard matters. It was inherent in the Commission&#8217;s decision that the alternative to resignation was disciplinary proceedings. Communication of the Commission&#8217;s decision therefore required some mention of that alternative to resignation. That was communicated by the Chief Justice&#8217;s telling the claimant that the Commission considered her conduct to meet the threshold for disciplinary proceedings. Secondly, although evidence was given by the Chief Justice, by another member of the Commission, and by its secretary, no-one gave evidence that the Chief Justice had exceeded his authority by telling the claimant about its decision in relation to disciplinary proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In addition to the argument based on authority, counsel for the Commission have also argued that the communication of the Commission&#8217;s decision was not the cause of the claimant&#8217;s resignation, notwithstanding that she agreed to resign almost immediately afterwards. This contention was accepted by Harris J, who concluded that the claimant resigned out of embarrassment. His finding was reversed by the Court of Appeal. The issue turns on an analysis of the evidence, which was dealt with fully by the Court of Appeal. We agree with their reasoning, and there is nothing we can usefully add.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In these circumstances, the Board concludes, in agreement with the Court of Appeal, that the Commission brought about the claimant&#8217;s resignation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-style:italic;font-size:13pt">9.</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Conclusion</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although the Board disagrees with the view of the majority of the Court of Appeal that the allegations against the claimant were incapable of falling within the ambit of section 137, that disagreement does not place in question any aspect of the order under appeal. In relation to the other issues raised in this appeal, the Board agrees with the Court of Appeal, for the reasons explained above. The Board concludes that the declarations as to the unlawfulness of the Commission&#8217;s conduct should stand. The appeal is accordingly dismissed.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

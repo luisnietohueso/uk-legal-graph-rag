@@ -1,0 +1,1619 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2025/88"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/2025/88"/>
+	  <FRBRdate date="2025-04-04" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="88"/>
+	  <FRBRname value="BR v BR"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2025/88"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2025/88"/>
+	  <FRBRdate date="2025-04-04" name="judgment"/>
+	  <FRBRauthor href="#ewfc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/2025/88/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/2025/88/data.xml"/>
+	  <FRBRdate date="2025-04-04T13:18:22" name="transform"/>
+	  <FRBRdate date="2025-04-04T15:35:34" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc" href="https://www.judiciary.uk/you-and-the-judiciary/going-to-court/family-law-courts/" showAs="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="br" href="" showAs="BR"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-peel" href="/judge-mr-justice-peel" showAs="MR JUSTICE PEEL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>88</uk:number>
+	<uk:cite>[2025] EWFC 88</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>3fd9bc85d5c63618eeaeafaf0d636b62405a5f360537e82607fcbb4aeac06b0a</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .judgment-bodynumber { }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p style="text-align:justify">This judgment was delivered in private.   The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the parties and their children must be strictly preserved.   All persons, including representatives of the media and legal bloggers, must ensure that this condition is strictly complied with.   Failure to do so may be a contempt of court. </p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWFC 88</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>1691493145115084</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewfc">IN THE FAMILY COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-04" refersTo="#judgment">4 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-peel">MR JUSTICE PEEL</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#applicant" refersTo="#br" style="font-weight:bold">BR</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#applicant">Applicant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#br" style="font-weight:bold">BR</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Richard Todd KC and Alexander Laing </span>(instructed by<span style="font-weight:bold"> Dawson Cornwell LLP</span>) for the <span style="font-weight:bold">Applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Harry Oliver KC and Charlotte Hartley</span> (instructed by <span style="font-weight:bold">Payne Hicks Beach LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 12, 13, 14, 18 and 21 February 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 4 April 2025 by circulation to the parties or their representatives by e-mail.</p>
+      <p style="text-align:center">.............................</p>
+      <p><span style="font-weight:bold">Mr Justice Peel :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In these financial remedy proceedings I shall refer to the wife as &#8220;W&#8221; and the husband as &#8220;H&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They started their life together with next to no assets. They do not appear to have been (by the standards of the resources available) extravagant in their expenditure. The focus has been on raising a family and building a business. During a long marriage of (including a period of cohabitation) nearly 30 years, and during which each party made a full contribution, assets of over &#163;260m have been built up, of which over &#163;200m constitutes business assets. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is common ground that each party&#8217;s needs will be more than provided for. This is what is termed colloquially a sharing case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The business interests which lie at the heart of this case are C Ltd, D Ltd and E Ltd, all of which are defined below and to which I shall collectively refer as &#8220;the contentious business interests&#8221;. There are a number of other companies of lesser value in which the parties hold shares. I shall refer to all interests (including the contentious business interests) in the round as &#8220;the business interests&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Prima facie this is a paradigm case for an equal division, as both parties in principle accept. The issues are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Whether the SJE valuation of the contentious business interests is understated, such that the overall assets are in fact higher than &#163;260m.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Whether there should be a Wells sharing arrangement (named after <span style="font-weight:bold">Wells v Wells <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/476" uk:canonical="[2002] EWCA Civ 476" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 476</ref></span>)<span style="font-weight:bold"/>in respect of any or all of the contentious business interests, whereby W will in due course receive a percentage of whatever net figure is realised upon a liquidity event. It is common ground that H should retain the other business interests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Alternatively, whether one or other party should retain some or all of the contentious business interests and buy out the other.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Whether, if one party retains some or all of the business assets and buys out the other, there should be a departure from overall equality (i.e. in respect of the total asset base) in their favour to reflect the balance of liquid/illiquid assets.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H seeks to buy out W such that the total split is 62%/38% in his favour; he says that the unequal division is justified by his retention of all the business interests, whereas W would exit with realisable cash and property. W seeks 50% of the total asset base. She proposes a 50% Wells sharing arrangement for C Ltd and E Ltd, so that her value is ultimately extracted upon realisation, and for H to buy her out in respect of D Ltd (although as a fallback option she suggests a 50% Wells sharing arrangement) and the other business interests. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">H&#8217;s costs are &#163;1,542,225 and W&#8217;s &#163;3,538,838, a total of over &#163;5m, which, even allowing for the wealth enjoyed by these parties, strikes me as excessive. The scale of W&#8217;s costs is at least in part a result of her employing corporate lawyers and accountants, as well as specialist financial remedies lawyers, in a quest to leave no stone unturned. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I heard evidence from both the parties and the SJE accountant. The bundle ran to over 1600 pages and I was, slightly startlingly, referred to no fewer than 26 authorities. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The parties as witnesses</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I found both parties to be pleasant and generally honest. It is a great shame that it has come to this, and they have been unable to resolve their finances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W struck me as somewhat rigid and inflexible in her approach. She has relied heavily on her corporate lawyers and shadow accountants, and has developed an accountancy driven approach to outcome, as well as scepticism about the SJE, whose valuations she regards as too low. At times, I felt she was looking at the case as a Companies Act petition, rather than a financial remedies upon divorce hearing. Although she expressed concern about how H has &#8220;kept her in the dark&#8221; about business matters both before and after separation, she struggled to give me a concrete example of something he has done to &#8220;do her down&#8221; as H&#8217;s counsel put it in cross examination.  She told me that she does not trust H and is highly suspicious of him; whether that is justified or not (and in my view it is not), it infects her view of the case. I did not develop any confidence that she and H (or she and other shareholders) would be able to work together cooperatively should there be a Wells sharing arrangement. There was a certain irony during W&#8217;s evidence. The more she emphasised her mistrust of H, the more difficult it became for me to see how they could be expected to cooperate efficiently, and economically, if they remain tied together in the businesses. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I found H to be generally fair. I do not think he has entertained any thoughts of in some way doing W down, as was repeatedly suggested to him. He told me that the business is his life&#8217;s work, he wants to continue in it for as long as he can, and he does not want to sell or transfer his shares if he can possibly avoid it. But he recognised that W is entitled to a fair division after what he said was an equal marital partnership. He is confident he can raise personal borrowing to buy W out (and has had positive indications from banks whom he has visited), but if unable to do so he accepts that shares would have to be sold. He told me he thinks the SJE valuation is &#8220;solid&#8221;, and comfortably within a reasonable range. He was unimpressed by W&#8217;s suggestion that she buy him out at a higher figure than the SJE valuation would suggest, describing it as &#8220;a ruse&#8221;. He told me that when they separated, his preference would have been to carry on under the terms of the Deeds of Gift (to which I shall return), but that was not acceptable to W. Thereafter he made a Wells sharing offer, but as the litigation progressed, it became clear to him that such an arrangement would be unworkable, and he pivoted to his most recent proposal that he should buy out W. He felt that W does not trust him, and he has lost faith in the possibility of cooperating under a Wells sharing arrangement, which would be &#8220;dirty, awful, a litigation nightmare&#8221;. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The assets in summary</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The non-business assets are about &#163;45m net, comprising mainly property (in the UK, and overseas), bank accounts, investments and funds extracted from a recent business restructure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The contentious business interests are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Over 55% in C Ltd, of which the majority is held personally by H and 5% by G Ltd, which in turn is held as to 100% by H. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Over 50% in D Ltd, held personally by H.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Over 10% in E Ltd, held by G Ltd. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The net values of the parties&#8217; contentious business interests have been stated by the SJE (after deduction of 3% costs of sale which I invited counsel to incorporate in the figures) to be:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">C Ltd (H): <marker name="tab"/>&#163;117,118,077</p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-family:'Times New Roman'">(G Ltd)</span><marker name="tab"/><marker name="tab"/><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">&#163;10,616,682</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ParaLevel2" style="margin-left:1.77in;text-indent:0.2in"><span style="font-weight:bold;font-family:'Times New Roman'">&#163;127,734,759</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">D Ltd: <marker name="tab"/><marker name="tab"/><span style="font-weight:bold">&#163;57,343,493</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">E Ltd:<marker name="tab"/><marker name="tab"/><span style="font-weight:bold">&#163;5,473,319</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Separately from the contentious business interests:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">G Ltd holds a variety of other interests, including:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">H Investment Portfolio.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">An interest in the J Fund.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Shares in, or commitments to, 10 other businesses.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">H holds interests in 6 other businesses. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.11in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W and H are both in their early 50s. W has suffered from certain health conditions, as set out in her Form E.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They have two children:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">X, who is a student. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Y, who is about to start university.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 1991, W moved to England. She met H in 1993; H was working at the time, W was attending a British university, reading History. They moved to a new city, Z, in 1994, where each took a PhD, in different fields. They are both highly intelligent people.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">They started cohabiting in Z.  In 1995 they became engaged and in September 1998, they married in Z. In November that year they moved to a new country to enable H to work in industry. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 1999, H and a school friend, WX, jointly founded (with W&#8217;s encouragement) a technology company called &#8220;C Ltd&#8221; based in the UK. H acquired a 25% interest to reflect his initial &#163;10,000 investment; WX acquired 60% and two other investors the balance. In the early years H&#8217;s involvement was part time as he continued to hold down his employment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2000, the parties bought their first house together in the UK. In January 2001, they returned to Z. H left his employment and concentrated on the software business. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W set up a retail business with a friend, which she gave up to work in a different field. This gave the parties, particularly in the early days, a level of financial security while H worked on growing C Ltd and, in due course, other businesses. W worked until 2018, and was the homemaker while H built the business. It appears that in the early years, before the children were born, W was a sounding board for H in the fledgling business, giving support and advice. Given that both parties agree this is a case of full and equal contribution in the <span style="font-weight:bold">White v White </span>sense (<span style="font-weight:bold">White v White <ref href="#" uk:canonical="[2001] 1 AC 596" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 AC 596</ref></span>), I do not consider it necessary to explore the precise roles each played in their marriage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">From 1999 onwards, C Ltd grew substantially and was used as the structure through which other businesses have been developed. Over time, it went through re-organisation, but its core focus remained in the same field of technology. H gradually increased his shareholdings through transactions with WX who withdrew money from the businesses. Unlike WX, H for the most part elected to retain wealth within the businesses to grow and develop them. It is clear to me that H worked tirelessly in the businesses and has been a critical figure in their growth as leader, entrepreneur, creative thinker and team builder. He remains on the board of many of the businesses. C Ltd now employs a large number of people across several offices around the globe, and has an international reputation. In my judgement, H has been directly instrumental in the success of the businesses, and continues to be at the heart of their activities. I doubt very much that he could be replaced on a like for like basis by a hired in employee, no matter how well qualified. I also doubt whether the businesses could continue seamlessly were he to leave. In short, he is a key driver in the success of these businesses, and his departure would likely be a significant blow to them. In my judgement, W considerably underestimates the pivotal role played by H.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By 2013, H had approximately 55% of the shares in C Ltd and WX had about 25%. In 2016, they  &#8220;spun out&#8221; other non-core companies. As a result, there were four principal business assets: (i) C Ltd, (ii) F Ltd, (iii) D Ltd, and (iv) C (Investments) Ltd, which owned E Ltd and other smaller investments. At this point, C Ltd was the only business with substantial value. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2018, H and W entered into a Deed of Gift and Shareholders&#8217; Agreement whereby H declared a bare trust under which he held one half of his personally held C Ltd shares for W. Although W was entitled to call for title (which she has not done), (i) there were restrictions on onward sale, transfer or disposal by W without H&#8217;s consent, (ii) H held voting rights for all of the shares and (iii) W was not entitled to block any sale by H of the shares unless it was for a value below twice the annual earnings figure. Thus, W acquired an economic benefit, but H retained control and W had no entitlement to a say in the business.  For the purposes of the asset schedule, I treat this holding (over 50% of C Ltd) as a jointly owned asset, although legal title remains in H&#8217;s name.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2021, a private equity firm, V (PE), acquired an interest in E Ltd for over $150m, as a result of which H was able to extract a significant sum. C (Investments) Ltd was rebranded C (Investments) Ltd, and G Ltd was created as the holding company for C (Investments) Ltd. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2022, U (GE), a growth equity investment firm, took a stake in D Ltd for over $50m, based on a valuation of the whole company at nearly double the current SJE valuation. The figure was described to me by H as a &#8220;top price&#8221; and based, inter alia, on projections which were subsequently &#8220;missed by a mile&#8221;.  He said this was an example of how values in the sector can change a lot in a short time. H did not participate in, or benefit from, the investment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2022, C Ltd started exploring the possibility of a liquidity event. H told me, and I accept, that this was principally intended to be for the benefit of management and employees, many of whom held options. H himself had no real interest in selling his shares. One possibility was an IPO, but after speaking to the London Stock Exchange it became clear that was not feasible because C Ltd was too small, and would not be able to achieve sufficient liquidity on the market. I also had the clear impression that H was somewhat lukewarm about the process. Other options have continued to be explored under the sobriquet &#8220;Project T&#8221; but H told me, and I accept, that it is largely in the long grass. There is a possibility of private equity involvement, but no active steps are being taken and he considers that any such investment would not be for a few years. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">WX continues to be involved, and owns 25% of C Ltd. H told me, and I accept, that they are best friends and neither would do anything to prejudice or jeopardise the other&#8217;s interests. WX (like H) has no current intention to exit the business. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In 2023, H and W entered into a Deed of Gift and Shareholders&#8217; Agreement whereby H gifted W 50% of the  G Ltd shares. Similar conditions applied as under the C Ltd Deed of Gift in respect of sale and voting rights such that H retained full control. Subsequent to separation, and before the October 2024 budget, the parties agreed (with the benefit of professional advice) to disassemble G Ltd for tax purposes. The consequence is that H holds 100% of the shares, and W is owed a loan in lieu of her share entitlement. As part of the arrangements, W received a substantial part of the H Investment Portfolio.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In June 2023 the parties separated, so that this was a period of cohabitation/marriage of some 29 years. They initially shared the use (alternating occupancy) of the former matrimonial homes at 2 S Road, Z and R Place, London. This proved unsatisfactory, and W rented a London property for a while. She has now completed on the purchase of Q Place, London, a sale of which she did not inform H until after the event. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s Form A was issued in August 2023. The proceedings have followed a relatively conventional path. Of note is that at the First Appointment on 17 January 2024, I made an order for a SJE report of the business interests by Kellie Gread of PwC. The parties had originally sought to instruct separate experts, but after judicial encouragement from me, they agreed to a SJE in the first instance. I gave a judgment which is reported as <span style="font-weight:bold">BR v BR <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2024/11" uk:canonical="[2024] EWFC 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWFC 11</ref>.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The parties&#8217; open proposals</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The open proposals demonstrate shifting approaches from each party during the course of the litigation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 2 July 2024, W proposed an equal division of the assets, with disputes over valuation and the appropriate extraction route(s) to be referred to arbitration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 24 July 2024, H:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Referred to the fragility of the valuation which by then was available.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Said that there was not &#8220;remotely sufficient cash or clear liquidity routes&#8221; for a buy-out.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Proposed a 50/50 split of the non-business assets. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Proposed a 55/45 Wells sharing arrangement of C Ltd and D Ltd, as well as the more minor F Ltd, to be organised with specialist advice. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Proposed that there be a liquidity event for C Ltd and F Ltd within 5 years, and D Ltd within 7 years. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 12 September 2024, W proposed in summary:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">50/50 split of all assets.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">C Ltd to be sold by 31 March 2026. Startlingly, the proposal was not for a sale of H&#8217;s/the parties&#8217; shares but of the entire company which would have involved a court order for third party interests to be sold. That, of course, is outwith the court&#8217;s powers which extend only to making orders in respect of the parties&#8217; assets. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">D Ltd and E Ltd to be subject to equal beneficial ownership. Upon sale or other liquidity event (with no date specified) the proceeds would be divided equally.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">A full suite of proposed safeguards to be put in place.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 10 January 2025, H changed tack and sought a 62%/38% split of all the assets on the basis of buying out W within 18 months. H intends to borrow the monies privately, and secure them over the C Ltd shares. The proposed split is, he says, justified because of his retention of the risky/less liquid assets, whereas W would exit with copper-bottomed realisable cash and real property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 3 February 2025, H reiterated his proposal of 10 January 2025, but updated the arithmetic.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 6 February 2025, W made a further proposal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">She asserted that she has &#8220;no doubt&#8221; that the PwC valuations are too low. She did not specify a valuation for C Ltd, but in closing her leading counsel said that she believes it is worth at least &#163;400m, as against the SJE figure of &#163;300m. In the written proposal, she said that she &#8220;believes, with the advice of her professional advisers&#8221; that D Ltd has a value of not less than &#163;240m, as against the SJE figure of &#163;175m, and E Ltd has a value of &#163;250m, as against the SJE figure of &#163;200m.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Her proposed options for C Ltd are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 1 (her preferred option): C Ltd be subject to Wells sharing on a 50/50 basis, she being entitled to sell her 50% as and when she chooses, provided she acts in compliance with Articles of Association. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 2: H buys her out for &#163;75m by 31 July 2026.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 3: W buys H out for &#163;75m by 31 July 2026.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Her proposed options for D Ltd are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 1 (her preferred option): H buys her out for &#163;35m by 31 July 2026.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 2: D Ltd be subject to Wells sharing under which, in May 2027, half the shares are transferred to W and her claims be adjourned. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Unlike C Ltd and E Ltd, she does not offer to buy H out.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Her proposed options for E Ltd are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 1 (her preferred option): E Ltd be subject to Wells sharing on a 50/50 basis, to be realised upon sale of both her and H&#8217;s shares as and when that occurs. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 2: H buys out W for &#163;7.6m.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">Option 3: W buys out H for &#163;7.6m.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of W&#8217;s most recent proposal, I note that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The proposed buyout figure for C Ltd (Options 2 or 3) is &#163;75m, whereas a strict 50% of the PwC valuation is &#163;127,734,759/2 = &#163;63,867,379.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The proposed buyout figure for D Ltd (Option 1) is &#163;35m whereas a strict 50% of the PwC valuation is &#163;57,343,493/2 = &#163;28,671,746.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The proposed buyout figure for E Ltd (Options 2 or 3) is &#163;7.6m whereas a strict 50% of the PwC valuation is &#163;5,473,319/2 = &#163;2,736,659.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman'">Thus, as a comparison, were one to adopt the buyout route at 50% on the PwC valuation of all three contentious business interests, the sum required would be &#163;95,275,784 whereas W&#8217;s proposed figure is &#163;117,600,000. The difference between the parties arithmetically on this potential structure is about &#163;22m, which by most standards is an enormous sum of money but in this case is less than 10% of the assets.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Allegations of mala fides against H </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W says that, at the point of separation, H threatened that he would manipulate any valuations and depreciate the value of the businesses. She specifically recalls H saying on 17 June 2023 that the accountant would hold his pen over the line and ask H what figure should be inserted, or words to that effect. H denies this allegation, saying it is a distortion of a letter which he wrote to W and the children immediately after W asked him for a divorce. Having heard both parties, I am satisfied that H did not use those words, and did not threaten W; on this I prefer H&#8217;s account to W&#8217;s. I suspect that H said something he perhaps should not have done in the heat of the moment, which W misinterpreted. The letter sets out fairly his concerns about the value of business assets being uncertain. I suspect that in their conversation, H said words to that effect, perhaps more forcefully, which W took as meaning she might get nothing. In any event, there is no evidence of any words or actions by H thereafter designed to manipulate the figures; indeed, as the SJE process shows, quite the contrary.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W says that H discussed the possibility of being a billionaire, which, she submits, is indicative that H considers the businesses to be worth far more than the ascribed value. H told me this was an optimistic, exuberant comment in 2021 made when E Ltd secured the private equity investment from V (PE) at what he considered to be an extraordinary valuation, uniquely obtained at the height of the market. H says that at other times he has thought (and said) the businesses would go bust. Any reference to &#8220;billionaire&#8221; seems to me to have been no more than a passing comment based on optimism and speculation, far removed from the values attributed by the SJE and, for that matter, far removed from W&#8217;s own assertions as to value.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also reject the suggestions that H has been guilty of systematic non-disclosure, whether to W, the court or the SJE, in respect of the business interests. He has not concealed matters from the SJE. On the contrary, on 4 June 2024, he/his advisers pointed out to the SJE a computational error in her report which understated the C Ltd overall valuation by &#163;50m. There was some debate about whether the SJE was in fact alerted to it by an earlier disclosure request made by W&#8217;s legal team, but the SJE told me that the disclosure request was in respect of another matter. I am satisfied that H/his advisers spotted the error and, entirely properly, raised it with the SJE. That is not indicative of a person trying to conceal matters from W and the SJE.  He has fully cooperated with PwC, and all of his meetings and telephone calls with PwC were attended and monitored by W&#8217;s team. As the SJE says in her report: &#8220;[H] and his management team have been responsive, have provided a significant amount of information and have made themselves available to me and my team on a frequent basis throughout the process to date&#8221;. I accept that H has provided, in broad terms, the disclosure sought, although some material has been more difficult to obtain because of third party interests, but I am satisfied that overall he has provided proper disclosure, and nothing meaningful has been omitted. Indeed, H was not cross examined about non-disclosure even though it had been a recurrent theme propounded by W in the proceedings and reiterated by her in the witness box.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The revenue budget for D Ltd for the financial year 2024 was originally &#163;40.1m, but then reduced to &#163;38m in March 2024. That had a downward effect on the valuation of H&#8217;s D Ltd shares by &#163;4.1m net. This is modest in the context of the case and, so far as I can tell, the only suggestion by W of direct manipulation by H of figures during the SJE process. W was suspicious, but I accept the adjustment was done in the ordinary course of the company&#8217;s activities as they reviewed the financials, was presented by the CFO to the board, which approved it (W was shown the minutes), and was not authored by H. There was nothing untoward about this, contrary to W&#8217;s unfounded speculation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W raised a number of concerns about H allegedly breaching the terms of the Deeds of Gift and/or in some other way acting contrary to W&#8217;s interests in the contentious businesses. The principal one raised was a dilution of shares in C Ltd in 2024 pursuant to new Articles of Association. I acquit H of any suggestion of wrongdoing. It seems that under the terms of the Deed of Gift H did not require W&#8217;s consent, and H took legal advice on the point, but in any event the aim of the change was to help management participate in any liquidity event; the abortive consideration of an IPO made the change more desirable. H told me (and nobody dissented) that he thought the dilution of shares affected H and W equally. The parties&#8217; counsel could not agree whether it had a detrimental financial effect on either or both of the parties. I could not myself discern any prejudice caused by something which was carried out as part of the overall business strategy. As with many other things in this case, W expressed to me in oral evidence her suspicion but could not explain how or why it has adversely affected her. Having read H&#8217;s second statement and heard his oral evidence, in my judgement he has convincingly dealt with the assertions, and is acquitted of any alleged wrongdoing.  This particular example demonstrated clearly to me how difficult it would be for H and W to cooperate together within a business context; a minor matter led to a great deal of controversy, differing interpretations and dissent, as well as, no doubt, costs. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W said to me in evidence that what she describes as the &#8220;source of the troubles&#8221; about the valuations was down to H, which I reject on two fronts: (i) there was no &#8220;trouble&#8221;, other than a couple of errors made by PwC which were corrected and (ii) H was not the &#8220;source&#8221; of any difficulties. On the contrary, in my judgment, H has been transparent and cooperative, and W, despite the sea of information provided to the SJE, and pored over by her accountants, was unable to demonstrate to my satisfaction any concrete example (as opposed to a general assertion) that H had in some way manipulated the valuation process. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The assets: non-business</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In accordance with the attached schedule, I find that the non-business assets (including pensions, excluding chattels and after deduction of personal liabilities) are &#163;45,166,328. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties agree that I should exclude H&#8217;s modest interest in a property in the north of England inherited from his mother and shared with his siblings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ES2 includes Q Place, London, bought by W post separation. The issue is whether the purchase costs should be added back on W&#8217;s side (which would arithmetically benefit H on a split of assets). It is clear from the correspondence that any purchase of a house by W was to be on account of her overall claims. It is less clear from the correspondence how costs of purchase (about &#163;1.5m) were to be treated. Given that H will (as I decide) retain the FMH in Z, as well as the family property in London, it is, in my judgement, unfair on the facts of this case to add back in costs of purchase which W had to incur to buy a new home, but H is not required to incur. I will therefore exclude the purchase costs. Following the same logic, I will allow notional costs of sale of W&#8217;s property to be reflected in the balance sheet.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">The SJE evidence</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SJE prepared a report dated 17 May 2024. She has provided formal replies to Part 25 questions and engaged by email with both parties. A data room was set up, accessible by the SJE and both parties. She met or spoke with H and/or his employees/advisers on a number of occasions, with members of W&#8217;s team present on every occasion. The thoroughness of her report can be gauged by her costs which exceed &#163;1m. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Gread was impressive. Despite the best endeavours of counsel for W to persuade her to change her view (assisted by W&#8217;s shadow accountancy team who were present during Ms Gread&#8217;s evidence), she gave clear and logical explanations for her valuations which I accept.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The valuation date is February 2024, which was agreed by the parties. Year end is December, and she had management accounts to February 2024, as well as forecasts for C Ltd. Given the complexity of the structure, the SJE was asked to adopt a pragmatic, materiality-based approach to the valuation exercise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SJE has applied the &#8220;market value&#8221; approach. She used different metrics to act as cross checks; discounted cash flow, comparables (hundreds in total) and Price of Recent Investment (&#8220;PORI&#8221;). In the end, as she told me, her conclusions are the product of experience and judgement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SJE says that many of the businesses are innovative technology companies operating in a relatively volatile and fast changing market. Some are early stage, pre revenue generating (here she refers to the non-core businesses). The value of the business interests is more volatile than would typically be the case in more stable markets.  Macro-economic factors also have an effect. As is the way with earnings valuations, she uses, in part, projections which may not necessarily prove to be correct. There is limited capital within the businesses which are essentially trading companies. The spread of values is high, reflecting volatility and fragility. C Ltd and D Ltd are fairly small companies by comparison with sector competitors (particularly in the USA), with low diversification, and other commercial factors which makes them vulnerable to, for example, imposition of trading arrangements. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SJE acknowledged the error in her report identified by H&#8217;s team, to which I have referred. In an email dated 6 June 2024 to the parties she said: &#8220;unfortunately the net working capital movement was incorrectly treated as a cash outflow rather than an inflow&#8221;. That led to her conclusions in respect of C Ltd&#8217;s overall enterprise value being increased from &#163;250m to &#163;300m.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, in the last few days the enterprise value of C Ltd at the top end of a range was changed by her due to a transposition slip at one end of the comparable transactions: 3x to 4.5x, not 3x to 4x. However, the SJE confirmed that notwithstanding that slip she considered &#163;300m to be the appropriate figure, rather than the impliedly higher figure of &#163;316m if that single metric were to be adjusted arithmetically; in other words, taking into account all the other metrics, her overall view did not change. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, these two mistakes do not call into question the entirety of her workings and report. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was not persuaded that W&#8217;s &#163;75m offer to buy H&#8217;s shares in C Ltd, a figure which thereby attributes a notional higher valuation than the SJE figure, is a true indicator of value as W and H are not independent parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She stood by her valuation of C Ltd. She was not aware that one comparable transaction had taken place at &#163;124m rather than the &#163;100m which she understood; the higher figure was registered on the relevant databases after her report. That would change a range of her multipliers. She told me that she remains confident in &#163;300m overall (i.e. no change) but she accepted, albeit with, it seemed, to me, a degree of reluctance, that &#163;315m-&#163;320m would be tenable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was suggested to her that the acquisition by U (GE) of its minority stake in D Ltd in 2022, when extrapolated, suggested a value of &#163;339m of the whole, rather than her figure of &#163;175m. However, she told me that (i) an extrapolation from a minority stake to overall value does not necessarily follow, (ii) the market for this sector is significantly lower than in 2022, which was at a high level because of Covid, and (iii) the projections for D Ltd&#8217;s performance proved to be wrong by a significant margin downwards.  Further, she looked at all the metrics, not just this PORI. She stood by her figure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was asked about a valuation of D Ltd in 2023 by KPMG which attributed a higher value than her own. She explained to me that (i) the KPMG valuation was for tax purposes, and might have been crafted to achieve a desired outcome, and (ii) it was based on U (GE)&#8217;s investment which she had already told me did not represent, in her view, an appropriate metric. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was asked about the budget projections for D Ltd for 2024 which were given to her in March 2024. It was suggested that if in fact the projections were higher at the end of 2024, the valuation would therefore be higher. However, she reasonably said that to revise figures would require looking at all the other factors which have fed into her valuations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of E Ltd, the PORI of V (PE)&#8217;s acquisition in 2021 (for a minority stake)  suggested an overall value of &#163;289m, as opposed to Ms Gread&#8217;s figure of &#163;200m. She made essentially the same points as with D Ltd. She stood by her figure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was asked about a report for E Ltd in March 2024 which was carried out in respect of a convertible loan transaction for V (PE) in order to complete an acquisition. She felt that this was for a small stake and was for a related party, so did not represent a good metric. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was challenged at length on the basket of comparables used by her for the businesses, but it seemed to me that counsel made little headway, and she was convincing in her responses. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Overall, she concluded for the contentious business interests as a whole: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The C Ltd range is &#163;176m-&#163;449m, and she adopts &#163;300m. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The D Ltd range is &#163;114m-&#163;261m, and she adopts &#163;175m. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The E Ltd range is &#163;123m-&#163;276m, and she adopts &#163;200m. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">These figures are then reduced pro rata to reflect the parties&#8217; shareholdings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Minority discounts are applied to the parties&#8217; shareholdings for lack of control and illiquidity of the contentious business assets as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">C Ltd: a 10% deduction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">D Ltd: a 20% deduction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">E Ltd: a 35% deduction.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Tax is then deducted to end at the final net figure for the parties&#8217; interests identified above (as modified by counsel, at my request, to incorporate 3% costs of sale).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A similar exercise is carried out for the other business interests.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Liquidity within the C Ltd business, according to the SJE, is &#163;13.41m net based on cash available, although banking law may restrict that figure. She considers that C Ltd could raise an additional &#163;5.18m net. There is no liquidity (in the sense of ability to extract monies other than by a sale) in the other businesses save for the H portfolio insofar as it has not been disassembled out of  G Ltd.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for sale of the parties&#8217; contentious business interests:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The parties hold a controlling shareholding in C Ltd (over 55% held personally and via  G Ltd), and D Ltd (over 50%), but not E Ltd (over 10%). This would enable H to &#8220;control or significantly influence an exit event&#8221; in C Ltd and, to a lesser extent, D Ltd, but not E Ltd. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no bar to sale of interests in C Ltd. There is potentially an active market in the short to medium term, which may provide liquidity options. However, ability to maximise value would depend in part on the attitude of other shareholders and management, who might be expected to work collaboratively, but not necessarily so. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The D Ltd shareholding is locked in until 2027, and cannot be sold before then without consent, because of the Shareholders&#8217; Agreement entered into with U (GE) as a result of their investment in 2022.<span style="font-style:italic"/>Thereafter, pre-emption rights apply, unless waived by U (GE).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">E Ltd is a highly restricted minority stake. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Costs of sale would likely be 3%. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The SJE was asked to comment on the impact of the following scenarios in respect of the contentious business interests:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">W sells 50% of the shareholding <span style="text-decoration-line:underline;text-decoration-style:solid">without</span> shareholder and/or management consent.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">W sells 50% of the shareholding <span style="text-decoration-line:underline;text-decoration-style:solid">with</span> shareholder and/or management consent.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">All of the parties&#8217; shares are sold <span style="text-decoration-line:underline;text-decoration-style:solid">without</span> shareholder and/or management consent.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">All of the parties&#8217; shares are sold <span style="text-decoration-line:underline;text-decoration-style:solid">with</span> shareholder and/or management consent.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Her view is that, in respect of C Ltd:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the first scenario, W&#8217;s shares would likely be discounted beyond the minority discount already factored in, by a further 15-25%, and H&#8217;s remaining shareholding would be discounted by a further 5 to 10%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the second scenario, W&#8217;s shares would likely be discounted beyond the minority discount already factored in, by a further 5 to 10%, and H&#8217;s remaining shareholding would be discounted by a further 5 to 10%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On the third scenario, the parties&#8217; shares would likely be discounted beyond the minority discount already factored in, by a further 0-5%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the fourth scenario, no impact.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of D Ltd:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the first scenario, W&#8217;s shares would likely be discounted beyond the minority discount already factored in, by a further 25-35%, and H&#8217;s remaining shareholding would be discounted by a further 5 to 10%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the second scenario, W&#8217;s shares would likely be discounted beyond the minority discount already factored in, by a further 5-10%, and H&#8217;s remaining shareholding would be discounted by a further 5 to 10%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On the third scenario, the parties&#8217; shares would likely be discounted beyond the minority discount already factored in, by a further  0-15%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the fourth scenario, no impact.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of E Ltd: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the first scenario, the total value of the shares would be discounted beyond the minority discount already factored in, by a further 7.5-12.5%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the second scenario, the total value of the shares would be discounted beyond the minority discount already factored in, by a further 2.5-7.5%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">On the third scenario, the total value of the shares would be discounted beyond the minority discount already factored in, by a further 5%.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">On the fourth scenario, no impact.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Accordingly, unless all shares are sold with consent, the value of the parties&#8217; shareholdings would be reduced, (i) in C Ltd&#8217;s case, by up to a further 35% on the worst case scenario, (ii) in D Ltd&#8217;s case by up to a further 45% on the worst case scenario and (iii) in E Ltd&#8217;s case by up to a further 12.5% on the worst case scenario. Arithmetically, that is about a &#163;44m net reduction on value to the parties&#8217; shareholdings in C Ltd, &#163;25m in D Ltd and about &#163;700,000 in E Ltd; a potential worst case scenario, overall, of about &#163;70m.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The best case scenario (no further discounting) only applies if all the shareholdings are sold with full consent. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.15in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Business valuations: conclusions </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There was a minor dispute about H&#8217;s personally held interest in K, valued at interest at &#163;44,241 net. The issue is whether it should be excluded because it represents, on H&#8217;s case, the product of post-separation endeavour. I will include it on the asset schedule at &#163;10,000 on the basis that he invested that sum from marital monies at the time of separation. The balance is, in my judgement, non-marital, and should be excluded. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I readily accept that valuations of private businesses are fragile. As Lewison LJ said in <span style="font-weight:bold">Versteegh v Versteegh <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/1050" uk:canonical="[2018] EWCA Civ 1050" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 1050</ref> </span>at para 185:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;The valuation of private companies is a matter of no little difficulty. In H v H <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2008/935" uk:canonical="[2008] EWHC 935 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWHC 935 (Fam)</ref>, <ref href="#" uk:canonical="[2008] 2 FLR 2092" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 2 FLR 2092</ref> Moylan J said at [5] that &#8220;valuations of shares in private companies are among the most fragile valuations which can be obtained.&#8221; The reasons for this are many. In the first place there is likely to be no obvious market for a private company. Second, even where valuers use the same method of valuation they are likely to produce widely differing results. Third, the profitability of private companies may be volatile, such that a snap shot valuation at a particular date may give an unfair picture. Fourth, the difference in quality between a value attributed to a private company on the basis of opinion evidence and a sum in hard cash is obvious. Fifth, the acid test of any valuation is exposure to the real market, which is simply not possible in the case of a private company where no one suggests that it should be sold. Moylan J is not a lone voice in this respect: see A v A <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2004/2818" uk:canonical="[2004] EWHC 2818 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWHC 2818 (Fam)</ref>, <ref href="#" uk:canonical="[2006] 2 FLR 115" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 2 FLR 115</ref> at [61] &#8211; [62]; D v D <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/278" uk:canonical="[2007] EWHC 278 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 278 (Fam)</ref> (both decisions of Charles J).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.02in"><span style="font-family:'Times New Roman'">I note in passing that the word &#8220;fragile&#8221; in respect of valuations, which has entered the lexicon of financial remedies law, caused the parties some difficulty in the witness box. Its meaning was not entirely clear to them. &#8220;Uncertain&#8221; was a more readily comprehensible concept. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In this case, the SJE recognised the uncertainties inherent in valuing these businesses but told me that she was comfortable with her conclusions. H himself has echoed the volatility and unpredictability. They operate in a fast moving sector. The market fluctuates. They have a minimal underlying asset base. They are dependent on third party platforms. The SJE was, in my view, reasonable to consider a wide range before alighting on a valuation. The final figures for the contentious business interests are products of experience, good sense, research, and data. Multiple reference points have been considered including revenue, comparables and PORI. Any valuation of companies such as these cannot be said to be certain. They are an evaluation of the sums which might be achievable on sale to a willing buyer. The fact that they are uncertain does not mean they cannot be relied upon. They do not have to be the product of purist&#8217;s accuracy to the last penny. They need to be sufficiently accurate to achieve a fair outcome under s25.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W challenges the SJE&#8217;s methodology and conclusions, but in my judgement, she did not succeed in making good that challenge. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Insofar as W attempted to refer to figures given to her by her own shadow accountant, I decline to attach any weight to that evidence. She said in her most recent open offer that she &#8220;believes, with the advice of her professional advisers&#8221; that the valuations are higher. I deprecate that attempt to introduce purported expert evidence through the back door of an unsigned open offer. It is elementary that expert evidence is only admissible if the court has granted permission under Part 25 of the FPR 2010 to a party to rely upon it. In the absence of permission, it cannot be admitted or relied upon. Quite apart from that basic proposition of principle, it seems to me to be unthinkable that I should attach any weight to what W says she has been told by her own purported expert (who is likely to be more partisan than a SJE) in circumstances where there is no letter of instruction, no clarity as to what the expert was given by way of information, no report, no articulated methodology and so on.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also deprecate the inclusion of some of the content in W&#8217;s s25 statement. Narrative statements should contain only evidence, and on no account should contain argument or other rhetoric. Para 11 of the 2016 High Court Efficiency Statement, and the President&#8217;s Memorandum on Witness Statements dated 10 November 2021, should be scrupulously adhered to. In this case, W&#8217;s statement inappropriately veered into argument, and regurgitated expert evidence from advisers behind the scenes.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was open to W to make a <span style="font-weight:bold">Daniels v Walker <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2000/508" uk:canonical="[2000] EWCA Civ 508" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] EWCA Civ 508</ref> </span>application at any time from receipt of the PwC report in May 2024. She did not do so. In mitigation, she points out that H, until January 2025, appeared to agree that a Wells sharing approach was called for, and therefore valuation evidence was arguably less necessary. But in a case of this magnitude, where vast sums have been spent on professional fees, it was, in my judgement, unwise of her to assume that a buyout would not be considered at trial, either because one or other party changed their open proposals (as they have both done in this case), or because the court decided to pursue that possibility. And in any event, her open offer received on the eve of trial suggests buy outs in respect of all three of the contentious business interests, and proffers that route as the preferred option in the case of D Ltd. In those circumstances, she must accept the consequences of not having made a <span style="font-weight:bold">Daniels v Walker </span>application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I reject the suggestion by W that because she offers &#163;75m for H&#8217;s notional half of the shares in C Ltd (and she would retain the other half) that by definition means that the market value of C Ltd is higher than the SJE&#8217;s value. First, in my view, this is in part a tactical proposal: I note it was suggested for the first time only three working days before the start of the trial. Second, it is not her primary position. Third, as the SJE said, it would be between related parties and therefore not reflective of an open market valuation; she was sceptical about it, a scepticism which I share. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have come to the conclusion that the figures put forward by the SJE are not unreasonable, and I propose to adopt them. In so doing, I acknowledge a degree of uncertainty, but, just because they are uncertain does not mean they are wrong or not sufficiently reliable to be used for the purpose of the s25 exercise. I do not consider this to be a &#8220;wild guess&#8221;, to adopt the words of Lewison LJ at para 195 of <span style="font-weight:bold">Versteegh (supra)</span>. I am satisfied that the figures are &#8220;solid&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The one adjustment I am minded to make is in the light of the corrected transaction figure for one comparable to which I have referred above: &#163;124m rather than &#163;100m. The SJE said that the overall figure for C Ltd might (but equally might not) justifiably be increased from her figure of &#163;300m to &#163;315m/&#163;320m. I will adopt a figure of &#163;310m. I am told that such a figure increases the parties&#8217; business interests by &#163;3,859,073 net which I will include as an additional line in the asset schedule. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I will incorporate a 3% reduction for notional costs of sale on the basis that a sum of that order would be payable on any liquidity events (rather like costs of sale on real property).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I therefore calculate the business assets, as per the attached asset schedule, at &#163;218,105,710.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Value of assets: conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I conclude that the assets are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Non-business:<marker name="tab"/>&#163;45,166,328</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in"><span style="text-decoration-line:underline;text-decoration-style:solid">Business:</span><marker name="tab"/><span style="text-decoration-line:underline;text-decoration-style:solid">&#163;218,105,710</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:0.98in"><span style="font-weight:bold">Total</span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">&#163;263,272,038</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Business assets: disposal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In practice the choices for the court, per Moylan LJ in&#160;<span style="font-weight:bold">Martin v Martin&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/2866" uk:canonical="[2018] EWCA Civ 2866" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 2866</ref> </span>at para 93, are: (i) to &#8220;fix&#8221; a value; (ii) to order the asset to be sold; and (<span class="judgment-bodynumber" style="font-family:'Times New Roman'">iii) to </span>divide the asset in specie. The latter option (to divide the aspect in specie) is commonly referred to as Wells sharing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num>93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In some cases, the court makes an order for the shareholder to sell the shares by a specified date, with undertakings or injunctive orders preventing him/her from disposing of the shares in the meantime or acting in such a way as to prejudice the value of the shares and his/her spouse. Other safeguards may be required but that is a conventional overarching structure following the second choice suggested by Moylan LJ in <span style="font-weight:bold">Martin (supra)</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num>94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That is not, however, sought by either party in this case. W does not agree that H should retain the shares, with an order for sale and equal division at some time in the future. She seeks a Wells sharing arrangement by transfer to her now of 50% of the parties&#8217; shareholdings in two businesses (C Ltd and E Ltd) specifically, as she told me, in order to exercise autonomous control over how and when she sells. She would have the benefit of advice and participation in the process from her corporate lawyers and accountants, and would have complete freedom (within the bounds of what is commercially permissible) to do with her half of the shares what she pleases. That is the third choice suggested by Moylan LJ in <span style="font-weight:bold">Martin (supra)</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num>95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Wells sharing should, in my judgement, be avoided where possible. As Mostyn J said in <span style="font-weight:bold">WM v HM <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2017/25" uk:canonical="[2017] EWFC 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWFC 25</ref></span> at para 24: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman'">&#8220;Generally a Wells sharing arrangement should be a matter of last resort, as it is antithetical to the clean break. It is strongly counterintuitive, in circumstances where one is dissolving the marital bond and severing as many financial ties as possible, that one should be thinking about inserting the wife as a shareholder into the husband's company. &#8230; However, Wells sharing is not so objectionable if it only applies to a minority element of the claimant's award.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num>96.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgement, in this case a buyout by H of W which encompasses all the assets is preferable to a Wells sharing arrangement for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">First, a clean break is desirable, achievable and in accordance with the statutory steer at <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s25</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18" uk:canonical="1973 c. 18" uk:origin="TNA" uk:type="legislation">Matrimonial Causes Act 1973</ref> (as amended). In this case, a buyout can achieve such an outcome fairly and more swiftly than a Wells sharing arrangement. It will avoid the need for ongoing commercial ties between H and W, and between W and the businesses. It will avoid what, I am satisfied, would likely be a significant period of time to unwind a Wells sharing arrangement. It will reduce personal conflict. It will likely be beneficial to W&#8217;s health. And it will, I am confident, avoid what is otherwise likely to be heavy expenditure on legal costs implementing a Wells sharing arrangement.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">There is no legal impediment under C Ltd&#8217;s shareholder documents to H transferring to W half of the shares held by him and by  G Ltd, and subsequent sale by W of her transferred shares. However:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">To do so would lead to H immediately losing his majority control which would, I consider, be highly undesirable as he is the co-founder and a long standing principal leadership figure. The board would need to be re-set. The character and personality of the company would likely change. A number of senior management have indicated they do not wish to work with W who would be a significant shareholder (equal with H). Customer contracts, share options, relationships with banks and the like would all need to be revisited. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The value of the combined shareholding would immediately be reduced by between 10% - 20% (as the SJE set out in her second option referred to above), even assuming any subsequent sale were to take place by consent, because each party would have a minority interest. Arithmetically that would be a reduction in value of the parties&#8217; shareholdings held privately and via G Ltd of between about &#163;13m - &#163;26m net. W&#8217;s leading counsel submitted that any such loss of value would be theoretical, not real, because they would both work together to maximise value, which seemed to me to be an unduly optimistic view of the likelihood of full cooperation, particularly as H does not wish to sell.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">c)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">I do not consider it remotely straightforward for W to sell her half of the shares thereafter. There is no guarantee that she would do so with the cooperation of the other shareholders (particularly WX). It is far more likely that they would be resistant, even if they would be unable to block it. It would become a &#8220;hostile&#8221; sale, which in turn would be likely to further depress the price she would be able to obtain; arithmetically, on the first scenario, by 20% - 35% which equates to &#163;26m - &#163;44m net. The degree of hostility would no doubt depend on to whom she intends to sell, and on what terms. Of course, H would be one of the other shareholders which creates an immediate risk of dispute. H told me, and I accept, that this is really only workable with agreement among the main shareholders and senior management, but such agreement would be unlikely. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">d)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">I suspect that W&#8217;s confidence that she would sell her half shares in C Ltd within 18 months is overly optimistic, particularly if she does not have the support of the other shareholders. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The D Ltd shareholders&#8217; agreement prevents transfer of shares to W and sale (without consent) before May 2027, after which pre-emption rights apply (absent consent that such rights be waived). No doubt these complications are why W seeks H to buy her out, but the Wells sharing arrangement is proposed as an alternative. Again, in my view, if at some point in the future shares were to be transferred to her and then sold, the same problems as with C Ltd would occur, and potentially more so because of the involvement of U (GE). The timescale for selling shares is likely to be many years: W does not state a proposed longstop. Were the shares to be split, and control lost, the reduction in value of the combined shareholding (scenario 2) would be 10% - 20% which is about &#163;6m - &#163;12m net, and under scenario 1 it would be 30% &#8211; 45% which is about &#163;17m - &#163;25m net.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The E Ltd shareholders&#8217; agreement prevents transfer of shares to W without consent. This is a minority shareholding. There is no guarantee that consent would be forthcoming to either a transfer to W, or subsequent sale by her. W cannot propose a longstop date because it is beyond the control of either H or W. The timescale for selling shares could be many years. Dividing the shares equally would cause a percentage drop of 2.5% - 7.5% (scenario 2) above which is about &#163;130,000 to &#163;400,000 net, and under scenario 1 by 7.5% - 12.5% which is &#163;400,000 - &#163;675,000 net. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">If follows that, in my judgement, there is a real possibility that the Wells sharing structure sought by W would destroy significant value in the parties&#8217; business interests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The business interests excluding the contentious business interests have a net value of about &#163;27m. On any view, they are far less liquid, being for the most part minority stakes in businesses which lack marketability and in some cases are startups. On both parties&#8217; cases, H will retain these interests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">W is heavily dependent upon her corporate and accountancy advisers. I am quite sure that Wells-type arrangement would engender very significant professional fees for her, and potentially for H and the businesses. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">In my judgement, there is a significant risk of ongoing conflict between H and W which would make a Wells arrangement all but unworkable. It is too optimistic of W to say she would leave everything to her professional advisers. Apart from the cost, she is, it seems to me, the sort of person who would want to take an active role. The level of mistrust expressed by her to me in her <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s25</ref> statement and oral evidence, the unfounded accusatory assertions about H&#8217;s approach to the litigation and breaches of the Deeds of Gift, her references to controlling behaviour and her overall high level of suspicion are likely to infect any attempts between her and H to agree commercial safeguards and/or terms of sale and/or ongoing involvement in the businesses. She did not tell H or his advisers in advance of the purchase of her property at Q Place, London which suggests to me that cooperation may be in short supply.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Further, it is likely that W&#8217;s suspicion of H would extend to other shareholders in C Ltd and D Ltd (whether external investors, management, or employees); there are over 50 shareholders in C Ltd alone, one of whom is WX who holds 25%. Some are seasoned professional investors, who may adopt an aggressive, protective stance. Although other shareholders&#8217; interests may be aligned in terms of the desirability of enhancing value, they may not be aligned in terms of strategy and management. H thinks they would be resistant to W&#8217;s involvement, and I tend to agree. He said that senior management do not want to work with, or for, W, some would likely leave, and any acquisition of shares by W would be destabilising. WX would be resistant to W being involved, not least because of the very close commercial and friendship ties between him and H. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The lengthy documents provided by W (or rather her corporate lawyers) with her most recent open proposal, listing a variety of protections and safeguards sought by her, seems to me to be susceptible to multiple points of dispute. For both C Ltd and D Ltd (the latter in the event that her buyout under option 1 is not pursued), she seeks a series of undertakings by H including in respect of management of the companies during the Wells sharing period which are fraught with difficulties, e.g. not to cause or permit the companies to cease to carry on all or a material part of the business, not to divert or redirect business or trading opportunities, not to change the scope of the nature of the business. These seem to me to be fraught with difficulties, appearing as they do to enable W to control, or be able to veto, operations. The documents contain indicative terms for sale of minority interests, and a series of &#8220;Consent matters&#8221; for the board in respect of any sale. I foresee lengthy disagreements about the documents and their implementation. In the event of dispute, the parties may need to approach the court (either the Business and Properties Court or the Family Court) for implementation. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In my judgement, the SJE valuation figures are robust and within a reasonable range of tolerance. This is not a case where they are so uncertain that a Wells sharing approach is the only viable option. Nor is it a case where (as in <span style="font-weight:bold">Versteegh</span>) multiple experts gave evidence, and the gap between them was vast. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There is, it seems to me, inconsistency in W&#8217;s approach. She seeks a Wells sharing arrangement in C Ltd and E Ltd. She does not seek it in respect of D Ltd (at any rate as her first option), nor in respect of any of the other, non-core companies. For D Ltd, she wants H to buy her out, but does not make an offer to buy him out. There is, in my judgement, a degree of cherry-picking by her.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xiii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">To my mind it is relevant that these businesses were founded by H over 25 years ago. They are his creation. To transfer large parts of the core companies to W would be very painful to him, as would a sale. He is still young and has a lot more to offer in the businesses. He has an emotional attachment to the businesses which he developed from scratch, and to the people within it. I accept that for him it is not just about the money. He wants to remain involved for many years in something which has been his life&#8217;s work and in respect of which he remains a pivotal figure. None of this downplays W&#8217;s role in the marriage which entitles her, in principle, to half of the matrimonial assets. But provided that W receives her fair share, I see no obvious reason why H should not be permitted to retain his business interests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xiv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">A buyout avoids the need to factor in H&#8217;s post-separation endeavour. Under a Wells sharing arrangement, H would continue to work in the business. The sale(s) of one or more of the three contentious business interests would be potentially several years ahead, long after separation. In those circumstances H would legitimately be able to argue that he should retain the fruit of that endeavour, and therefore have more than 50% of the sale values. I heard no detailed argument on this, let alone specific calculations, so to ascribe a particular value to post-separation work would be speculative. However, in my judgement at the very least it is a factor which militates against ongoing ties.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">W relies heavily on  <span style="font-weight:bold">P v P <ref href="#" uk:canonical="[2010] 1 FLR 1126" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 FLR 1126</ref> </span>where Moylan J (as he was) provided for a Wells sharing arrangement. Of course, each case is heavily dependent on the facts, and the facts of <span style="font-weight:bold">P v P </span>were very different from this case. The issue in <span style="font-weight:bold">P v P</span> was whether the so-called Barrell jurisdiction should be exercised to take into account a purchase offer made after judgment, but before the order was made. The offer to buy the business depended on events in the next 5-7 years and the judge was unable to alight upon a buyout figure. I do not think it is an exaggeration to say that in the great majority of cases (and certainly in my own experience), a buyout is far more common than Wells sharing.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num>97.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have focussed on a possible buyout by H of W. I have not lost sight of W&#8217;s proposal that in respect of C Ltd and E Ltd she should buy out H. However, I reject that suggestion:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">I tend to the view that it contains an element of tactical manoeuvring on her part.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">It is, in my judgement, unthinkable that she could or should take control of C Ltd, a business about which, in reality, she knows little, and which she has no experience of running. Such an outcome would be devastating for H, and likely to cause ructions within the business with management and other shareholders. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Overall, it is far more desirable, for the reasons already given, that H buys out W. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num>98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As to the appropriate figure for a buyout, in <span style="font-weight:bold">HO v TL <ref href="https://caselaw.nationalarchives.gov.uk/ewfc/2023/215" uk:canonical="[2023] EWFC 215" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWFC 215</ref></span> I drew a distinction at para 27 between an accountancy discount and a court discount. An accountancy discount is that which a valuer commonly (but not always) applies to reflect the fact of a shareholding being a minority interest. The resultant figure (if accepted by the court) features on the asset schedule and is therefore part of the computation stage. That has taken place in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num>99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">But in the right case the court may divide the net assets (i.e. after deduction of the accountancy discount) to a greater extent in favour of the party retaining the riskier, more illiquid shareholding than would otherwise be the case. This does not change the computation of assets, but is reflected in the division of those assets (the distribution stage). As Moylan LJ said at para 93 of <span style="font-weight:bold">Martin v Martin (supra)</span>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="color:#343338;background-color:#FFFFFF">&#8220;The court has to assess the weight which can be placed on the value even when using a fixed value for the purpose of determining the award to make. This applies both to the amount and to the structure of the award, issues which are interconnected, so that the overall allocation of the parties&#8217; assets by application of the sharing principle also effects a fair balance of risk and illiquidity between the parties. Again, I emphasise, this is not to mandate a particular structure but to draw attention to the need to address this issue when the court is deciding how to exercise its discretionary powers so as to achieve an outcome that is fair to both parties. I would also add that the assessment of the weight which can be placed on a valuation is not a mathematical exercise but a broad evaluative exercise to be undertaken by the judge&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num>100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is a well-trodden judicial path with many first instance examples. As Bodey J said in <span style="font-weight:bold">Chai v Peng <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2017/792" uk:canonical="[2017] EWHC 792 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 792 (Fam)</ref> </span>at para 140:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel2" style="margin-left:0.98in">&#8220;It is a familiar approach to depart from equality of outcome where one party&#8230;is to receive cash, while the other party&#8230;is to retain the illiquid business assets&#8230;&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num>101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I reject the submission that because W, as a spouse of decades standing, is entitled in principle to an equal share of assets, it is in some way discriminatory, or confiscatory, for her to receive less than half the assets by value. The function of the court is to achieve a fair outcome; fairness is not necessarily met by an equal share by value. The courts are alive to the type of asset, and the proposed structure. There are numerous reported cases where a discount from (say) 50% is justified by a carefully calibrated balancing exercise which reflects the different nature of certain categories of assets. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num>102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have come to the clear conclusion that (i) H should retain all the business interests and (ii) there should be an overall division of all the assets as to 55% to H and 45% to W. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num>103.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am satisfied that this is an appropriate split for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The business assets are in my judgement risky and uncertain. They are trading companies with modest asset bases. There is only modest liquidity within the businesses. They operate in a highly volatile sector. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Only the C Ltd shares are more readily saleable by H, and even then, the process would be likely to take some time. The D Ltd shares are unsaleable before May 2027 without the consent of the private equity investor and thereafter are subject to pre-emption rights. The reaction of other shareholders to any sale of shares in C Ltd/ D Ltd cannot be assured. The other shareholdings (whether held by H or via  G Ltd) are minority stakes, in some cases start-ups, and difficult to realise.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">I accept that H is electing to retain the business interests, because he wishes to do so rather than because it is being forced upon him. However, the reality is that these holdings, to a lesser or greater extent, carry risk. <span style="font-weight:bold">Myerson v Myerson <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/282" uk:canonical="[2009] EWCA Civ 282" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 282</ref> </span>remains a salutary reminder of the potential for catastrophic collapse in value of a risky asset. H will retain the great bulk of his wealth in such assets. W, by contrast, is insured against such risk through receiving cash and a spread of real property.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">As I have already stated, I am satisfied that the values which I ascribe to the business interests are sufficiently accurate to be fair for the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/18/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">s25</ref> exercise. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The minority discount attributed by the SJE in the computation stage does not fairly reflect the overall risk to H at the distribution stage. That is no criticism of her, for her task was to consider what I have termed the accountancy discount rather than the court discount.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num>104.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to achieve this division of assets, and by way of overall determination, I order the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">H shall retain 2 S Road, the family home in Z, as well as (as is agreed) R Place, London . He is based in Z whereas W is now based at her new home in London. I appreciate they will then own properties next door to each other (W owns 3 S Road which has historically been a rental property). That is not ideal, but it seems likely to me that W will in fact be mainly in London, or one of the other countries in which the parties had properties, and only rarely in Z.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">H shall retain R Place, London.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">W shall retain the European family home to which, she told me, she is as attached as 2 S Road.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">W shall retain all her other properties, including via a limited company, L Ltd.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Each party shall retain their own bank accounts, investments and pensions.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The joint bank accounts shall be divided equally.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The debt due to W from G Ltd in the sum of &#163;7,323,955 shall be novated to H.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">viii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">H shall retain all the business interests, save that W shall retain her M Ltd interest. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ix)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The necessary payment to achieve a 55/45 split of the business assets is &#163;86,002,117. This shall be paid as two non-variable lump sums as to:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">a)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">&#163;70,000,000 by 31 July 2026.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.49in">b)</num>
+	      <content>
+		<p class="ParaLevel3" style="margin-left:1.48in">The balance by 31 July 2027.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">x)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">H shall execute security over the C Ltd shares.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Interest shall not run on the lump sums before the due date, but shall run at judgment rate in the event of non-payment after the due date. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Should he fail to pay the sums due, H shall sell such portion of the C Ltd shares as is necessary to meet the outstanding amount. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xiii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Net dividends shall be shared equally between the parties until payment in full of the lump sums, and shall be pro-rated by payments towards the lump sums.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">xiv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Chattels shall be divided by agreement.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num>105.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The net effect on the parties is therefore:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Husband <marker name="tab"/>50% of joint assets<marker name="tab"/>&#163;7,404</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.97in">Own assets<marker name="tab"/><marker name="tab"/><marker name="tab"/>&#163;230,794,335</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.97in"><span style="text-decoration-line:underline;text-decoration-style:solid">Less lump sum</span><marker name="tab"/><marker name="tab"/><span style="text-decoration-line:underline;text-decoration-style:solid">-&#163;86,002,117</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.97in"><span style="font-weight:bold">Total</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">&#163;144,799,621 (55%)</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <intro>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Wife<marker name="tab"/><marker name="tab"/>50% of joint assets<marker name="tab"/>&#163;7,404</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.97in">Own assets<marker name="tab"/><marker name="tab"/><marker name="tab"/>&#163;32,462,896</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.97in"><span style="text-decoration-line:underline;text-decoration-style:solid">Lump sum</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="text-decoration-line:underline;text-decoration-style:solid">&#163;86,002,117</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel2" style="margin-left:1.97in"><span style="font-weight:bold">Total</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">&#163;118,472,417 (45%)</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Other</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num>106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">W&#8217;s disbursements for her corporate lawyers and shadow accountants are about &#163;1.9m, whereas H&#8217;s costs for his shadow experts are about &#163;309,000. It was reasonable for W to instruct shadow experts given that (i) W needed to probe and test the SJE report and (ii) unlike H, W has no knowledge of the inner workings of the businesses. But even allowing for that, the difference of about &#163;1.5m is very high, and the consequence, without any reconciliation, is that H meets one half of that difference, yet he had no say in, let alone control over, the instruction of the shadow team by W. There is a far less significant disparity in the costs of the financial remedy teams (W&#8217;s total is &#163;869,246, and H&#8217;s is &#163;562,002) which does not merit any reconciliation. But the disparity in the costs of the shadow teams is too great to be ignored, and I will order W to pay H &#163;375,000 (a little under 25% of the difference), such sum to be set off against the overall distribution. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

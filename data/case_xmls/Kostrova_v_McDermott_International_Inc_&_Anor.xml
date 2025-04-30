@@ -1,0 +1,510 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/35"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/35"/>
+	  <FRBRdate date="2025-03-13" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="35"/>
+	  <FRBRname value="Kostrova v McDermott International Inc &amp; Anor "/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/35"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/35"/>
+	  <FRBRdate date="2025-03-13" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/35/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/35/data.xml"/>
+	  <FRBRdate date="2025-03-18T11:28:49" name="transform"/>
+	  <FRBRdate date="2025-03-18T14:18:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ms-a-kostrova" href="" showAs="MS A KOSTROVA"/>
+	<TLCPerson eId="mcdermott-international-inc" href="" showAs="MCDERMOTT INTERNATIONAL INC"/>
+	<TLCPerson eId="cb&amp;i-uk-ltd" href="" showAs="CB&amp;I UK LTD"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>35</uk:number>
+	<uk:cite>[2025] EAT 35</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>bd68a21bd16446c22b4424d82fce5ee847aa93bb3ff1249f8b91fccaf63824a6</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Kostrova v McDermott International Inc &amp; CBI</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 35</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2021-000918-AT</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-13" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">13 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HON. LORD FAIRLEY, PRESIDENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#ms-a-kostrova"><span style="font-weight:bold;font-size:12pt">MS A KOSTROVA</span></party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#mcdermott-international-inc"><span style="font-weight:bold;font-size:12pt">MCDERMOTT INTERNATIONAL INC</span></party></p>
+      <p style="text-align:right"><role refersTo="#respondent"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">1</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:12pt">ST</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt"> Respondent</span></role></p>
+      <p><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><party as="#respondent" refersTo="#cb&amp;i-uk-ltd"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">CB&amp;I UK LTD</span></party></p>
+      <p style="text-align:right"><role refersTo="#respondent"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">2</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:12pt">nd</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt"> Respondent</span></role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Appellant</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">,</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">in person</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr John Platts&#8211;Mills, </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">of Counsel</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Pinsent Masons LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondents</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 13 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">SEX/AGE DISCRIMINATION; PRACTICE AND PROCEDURE; STRIKE OUT.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">A tribunal struck out complaints of sex and age discrimination on the basis that they had no reasonable prospect of success. </span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Held: The tribunal had </span><span style="font-size:12pt">(i) failed to recognise the extent of the appellant&#8217;s pleaded case in terms of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Cox v. Adecco</span><span style="font-size:12pt">; (ii) wrongly concluded that the material facts about her discrimination complaints were not disputed and (iii) failed to take her complaints at their highest by making an informal assessment of likelihood of the respondent&#8217;s evidence being preferred. These errors cumulatively led to its decision to strike out the discrimination complaints being wrong in law.</span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-size:12pt">The appeal was allowed and the case remitted to a different tribunal to hear the complaints on their merits.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HON. LORD FAIRLEY, PRESIDENT:</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The appellant carried out work for the second respondent as an agency worker. She did so between 27 May 2019 and her dismissal in October 2020 for the stated reason of conduct. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">On 23 November 2020, the appellant presented a claim form (ET1) to the Employment Tribunal. At section 8 of the claim form she ticked the boxes which indicated that she was making complaints of age and sex discrimination (including equal pay). At section 9 of the form, she also ticked a box which indicated that she was complaining of unfair dismissal. She did not, however, have the requisite period of qualifying service to make such a complaint.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In a Judgment dated 3 September 2021, Employment Judge S J Burns at the London Central Employment Tribunal upheld an application made by the respondents under rule 37 of the Employment Tribunals Rules of Procedure to strike out the appellant&#8217;s discrimination complaints on the basis that they had no reasonable prospect of success. This is an appeal against that judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Within paragraph 2 of his Judgment, the judge also recorded that the appellant&#8217;s complaint under the sex equality clause in section 66 of the </span><span style="font-weight:bold;font-size:12pt">Equality Act, 2010</span><span style="font-size:12pt"> was dismissed upon withdrawal. The judge&#8217;s reasons make no mention of the circumstances in which such withdrawal is said to have happened, but that issue does not feature anywhere in the grounds of appeal now before me.   </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">The form ET1  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Within a paper apart to her claim form, the appellant described, by way of factual background, certain difficulties with her manager, RG, from late 2019. Further, she averred that in March 2020 a younger person than her, NV, was employed at &#163;24.71 per hour to replace a colleague who had left in February 2020, and who, before leaving, had been paid &#163;12 per hour for the same work which NV was then employed to do. The appellant herself had taken on an additional role for which RG had refused her request for a salary increase. The ET1 records the respondents&#8217; explanation for this as being that NV was employed under Grade 5 while the appellant merely Grade 1. It seems from her averments that the whilst the appellant may agree that such grades were ascribed to her and NV respectively, she did not accept that there was any substantive difference between her work and that carried out by NV. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The appellant then recorded the reasons given by the respondents for dismissing her in October 2020. Those were allegations of rudeness and unprofessional conduct. The appellant set out &#8211; at considerable length &#8211; her reasons for disputing the veracity of those allegations. It is clear from this section of the paper apart to the ET1 that the appellant was not simply suggesting that she disputed the allegations themselves. She was also suggesting that the allegations were not the true (or only) reason for her dismissal. In particular, at page 4 of the paper apart, she stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.5in;margin-right:0.59in">&#8220;As I strongly believe the above allegations could not possibly the reasons (<span style="font-style:italic">sic</span>) for my abrupt dismissal, I would like to offer my understanding of such reasons.</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="margin-left:0.79in">1)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.25in">It appears that [RG] took an exceptionally strong and personal offence to my home working arrangement and it was the main reason for his decision to dismiss me as well as [RG]'s deep personal dislike of me.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:0.79in">2)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.25in">My nationality and cultural background might be another reason. I am Russian by birth with straightforward, strong minded, with a no nonsense attitude and certainly can hold my own.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:0.79in">3)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.25in">[RG]'s deep dislike of working females in general, which, I believe, reflects gender inequality issues the Company had experienced and, evidently, continues to experience&#8230;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:0.79in">4)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.25in">[RG]'s deep dislike of older, experienced females, in particular. A very experienced and efficient colleague described how rude [RG] was during their conversation, adding that she was never spoken to in that manner in her entire life. Another colleague was extremely upset after one of such conversations with [RG]. Both of them happened to be mature women.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p style="text-align:justify;margin-left:0.5in;margin-right:0.59in">I have all the reasons to believe that by firing me [RG] wanted to undermine my female colleagues as well &#8211; my workload is now shared between two men and my Line Manager, and an Accountant have to train them.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">On the final page of the paper apart to her ET1, the appellant drew together the component elements of her complaints, stating:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in">&#8220;I am seeking justice and I would like to know:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:1in">1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in">Why, as a 48-year-old woman with more knowledge, experience and excellent reputation, doing 2 full time jobs, I was paid 50% less than a 25-year-old man who struggled with just one job?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1in">2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in">Why was [RG] allowed to fire me under false pretences?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1in">3)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in">Why is my job now shared between two men who are each is (<span style="font-style:italic">sic</span>) paid more than I was?</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:1in">4)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in">Why did the company fail to protect me and investigate [RG] 's actions.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-size:12pt">The tribunal&#8217;s reasons</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At ET &#167; 6, the judge recorded that &#8220;basically the main facts of the case are not in dispute&#8221;. The judge then set out what were described as &#8220;basic facts&#8221;, and recorded that these represented the appellant&#8217;s case taken at its highest. No oral evidence was heard at the strike-out hearing and it appears, therefore, that what were described as &#8220;basic facts&#8221; were taken from a bundle of documents which the judge took to &#8220;reflect the relevant dealings between the parties&#8230;which would be determinative of the issues if this case proceeded to a full merits hearing&#8221; (ET &#167; 5). Those documents were supplemented by submissions from the parties. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The judge recorded his understanding of the undisputed facts very briefly at ET &#167; 7 to 14. He noted that that the second respondent, which is a subsidiary of the first respondent, provided work which the appellant carried out from 27 May 2019 as a Grade 1 administrator. (ET &#167; 7).  The appellant was apparently a hard worker and conscientious (ET &#167; 8). Part of her role was to ingather time-sheets from other employees, some of whom were slow in submitting them (ET &#167; 9). Concerns were expressed that the tone of the appellant&#8217;s communications when chasing up time sheets was peremptory and rude (ET &#167; 10). In particular, RG found the appellant&#8217;s style of communication to be unprofessional and raised this with her (ET &#167; 11 and 12). After months of &#8220;escalating difficulties of this kind&#8221; RG contacted human resources and said that he wanted to bring the appellant&#8217;s employment to an end because of her unprofessional conduct and lack of teamwork. The appellant was then summarily dismissed in October 2020 (ET &#167; 13). Thus far, the &#8220;basic facts&#8221; recorded by the judge largely reflect the respondent&#8217;s position as to its reason for dismissing the appellant as set out in paragraph 2.4 of its response form (ET3).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At ET &#167; 14, the judge summarised his understanding of the facts bearing upon the appellant&#8217;s discrimination cases in a single paragraph as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:12pt">&#8220;The Claimant complains that before her assignment was terminated, she was paid less than a man namely NV, who also worked as an agency worker for the Second Respondent. It is not in dispute that the Claimant and NV were at Grade 1 and Grade 5 respectively and that they had different job descriptions and that NV as a more highly graded worker, was paid on a higher pay scale.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Having summarised the relevant law on strike out, the judge concluded that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-size:12pt">The appellant had not shown a </span><span style="font-style:italic;font-size:12pt">prima facie</span><span style="font-size:12pt"> case of discrimination (ET &#167; 21);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-size:12pt">Her complaints of age and sex discrimination were &#8220;speculative&#8221; (ET &#167; 22);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-size:12pt">There was &#8220;no evidential basis&#8221; for her claims against the Respondents (ET &#167; 23);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-size:12pt">Even if a </span><span style="font-style:italic;font-size:12pt">prima facie</span><span style="font-size:12pt"> case of discrimination could be established, there was substantial </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-size:12pt">evidence to support the respondents&#8217; non-discriminatory explanations (ET &#167; 24);</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-size:12pt">(e)</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;text-indent:1in"><span style="font-size:12pt">It was inevitable that if the case proceeded to a full hearing a tribunal would accept the </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-size:12pt">respondents&#8217; non-discriminatory explanations for the matters complained of (ET &#167; 25);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(f)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-size:12pt">The complaints of age and sex discrimination had no reasonable prospect of success (ET &#167; 26); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(g)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-size:12pt">It would be futile and &#8220;not in the [appellant&#8217;s] own interests&#8221; for the complaints to proceed </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-size:12pt">further (ET &#167; 27).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Grounds of appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In spite of a Preliminary Hearing having been held in the appeal on 22 November 2024 at which the grounds of appeal were allowed to proceed to a full hearing, those grounds are not particularly clear or well-focussed. That is so notwithstanding an application to amend the grounds intimated on 15 December 2024 which was granted without objection at the full hearing of the appeal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">That lack of clarity in the grounds (even in their amended form) led to a dispute over precisely what issues were properly before me. Counsel for the respondents accepted that there was a complaint of bias, but submitted that there was nothing further on which an argument could be advanced that the judge had erred in law in striking out the appellant&#8217;s discrimination complaints. The appellant, for her part, submitted that paragraph 2 of her amended grounds is based on the general proposition that it was not appropriate for the judge to have struck out her discrimination complaints without inquiry into the facts. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">I have concluded that the appellant is correct in saying that paragraph 2 of the amended grounds does indeed raise an issue of whether it was an error of law to strike out her complaints under rule 37 without factual inquiry. The respondent&#8217;s skeleton argument fully addresses that point and the respondent was therefore able to deal with it at the full hearing, albeit as a fallback to the primary position that the issue was not before me. Ultimately, a large part of the oral submissions was devoted to that issue.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-size:12pt">The bias ground</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In relation to the issue of bias, the appellant has produced a statement dated 15 December 2024 which refers to certain comments she says were made by the judge during the hearing about her Russian background. She refers, in particular, to &#8220;an allusion&#8221; to Russian people being rude. The appellant also suggests that the judge made a remark (the detail and context of which is not specified) which the appellant maintains evinced a belief that female employees should not approach senior management. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The appellant has also produced a statement dated 5 February 2025 from a former colleague, Ms Jarvis, who witnessed the employment tribunal hearing on a live-stream. I will return to the terms of that statement below. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-size:12pt">Strike out </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In relation to the decision to strike out the discrimination complaints, the point which the appellant makes in paragraph 2 of the grounds is that there were disputed and material factual matters which made it inappropriate for her discrimination complaints to be struck out without further inquiry. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">On the face of the grounds of appeal, no issue was taken by the appellant with the judge&#8217;s  conclusion that the equal pay complaint had been withdrawn by her. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Summary of the respondents&#8217; submissions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The respondents submit that the factual basis for the bias ground comes nowhere near to meeting the well-known &#8220;fair-minded and informed observer&#8221; test of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Porter v. Magill</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2002] 2 AC 357" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 2 AC 357</ref> (at page 494, paragraph 103, per Lord Hope). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In relation to strike out, the respondents submit that the judge correctly identified the scope of the complaints as being of direct sex and age discrimination in relation to the appellant&#8217;s dismissal and direct sex discrimination in relation to the remuneration she received during her employment. The judge had correctly self-directed on the law relating to strike out and permissibly concluded that this was one of the exceptional class of cases envisaged in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ezsias v. North Glamorgan NHS Trust</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2007] ICR 1126" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] ICR 1126</ref> (at paragraph 29) where the prospects of success could be determined entirely on the basis of the contemporaneous documentation.    </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Relevant principles of law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The principle that discrimination cases should not be struck out except in the clearest of circumstances is well established (see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Anyanwu v. South Bank Students&#8217; Union</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2001] ICR 391" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] ICR 391</ref>; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ezsias v. North Glamorgan NHS Trust</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2007] ICR 1126" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] ICR 1126</ref>; and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Chandok v. Tirkey</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2015] ICR 527" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] ICR 527</ref>). </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Tayside Public Transport Company v. Reilly</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2012] IRLR 755" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] IRLR 755</ref> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Mechkarov v. Citibank</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2016] ICR 1121" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] ICR 1121</ref> each highlighted the inherent limitations of strike out procedure where there are disputes over material facts. It is not generally open to the tribunal which is considering an application for strike out to conduct an impromptu mini-trial. There may, of course, be cases where the central facts in the case are entirely undisputed or where it is instantly demonstrable that a claimant&#8217;s averments in the pleadings are untrue. There may also be cases where the claim is plainly irrelevant as a matter of law. </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Sivanandan v. Independent Police Complaints Commission</span><span style="font-size:12pt"> UKEAT/0436/14 is an example. Other than in such cases, however, it will usually be an error of law for a tribunal to pre-empt the determination of a full hearing by striking out a claim in which material disputed issues of fact arise.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In deciding whether the core facts of a case are in dispute, a tribunal must obviously first seek to identify with clarity the particular complaints advanced before then considering the extent of any dispute over the key facts upon which those complaints depend. In the case of a claimant in person, the complaints should not be ascertained only by requiring the claimant to explain them under the stress of a hearing. This is particularly so where the first language of the claimant in person is not English. Care should be taken to read the pleadings (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Cox v. Adecco</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2021] ICR 1307" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] ICR 1307</ref>; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Niedzielska v. Faccenda Foods Limited</span><span style="font-size:12pt"> EA-2019-001204, 26 August 2021).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Analysis and decision</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-size:12pt">Bias</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The appellant&#8217;s written statement suggests that the judge referred to her Russian background in a derogatory way which alluded to Russian people being rude. She also refers to another remark (the detail of which is not given) which caused her to form the view that the judge believed that female employees should not approach or bother senior management. The witness statement from Ms Jarvis who viewed the hearing on 2 September 2021 on a live-stream candidly acknowledges that she is not able to remember every detail of the hearing. That is not surprising given that the hearing was more than three years ago. She suggests, however, that at some point during the hearing, the judge said something like &#8220;I don&#8217;t know how things are done in Russia, but it&#8217;s not how they are done here&#8221;. No context is given. It is also suggested that the judge said something about the appellant contacting senior personnel which sounded to her like &#8220;know your place woman&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The judge has produced a response to the allegations dated 12 February 2025 in which he emphatically denies making any comments of the type alleged. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The inability of the appellant to specify precisely what she claims was said by the judge or the relevant context is not a strong starting point for this ground. As was noted by the Court of Appeal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Locabail (UK) Limited v. Bayfield Properties Limited</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2000] IRLR 96" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] IRLR 96</ref>, the application of the &#8220;fair minded observer&#8221; test requires a very close examination of the facts in which bias is said to have arisen. Allegations of apparent bias are, therefore, heavily dependent upon both detail and context and cannot be based simply upon impressions or imprecise assertions. On the materials provided to me, I am not satisfied that the appellant has been able to establish clearly and precisely what (if anything) was said by the judge, or what the context was for anything that may have been said. It follows that I cannot be satisfied that the test for apparent bias has been met, and the appeal on the basis of bias fails.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-size:12pt">Strike-out  </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At ET &#167; 2 and 25, the judge appears to have recognised that the discrimination claims related to the dismissal of the appellant in October 2021. In his summary at ET &#167; 14 of what he understood the key elements of the appellant&#8217;s case to be, however, he seems to have lost sight of that point. The summary at ET &#167; 14 is not a full and accurate reflection of what is recorded in the claim form (ET1). That is important, because the summary at ET &#167; 14 seems to have formed the basis of the judge&#8217;s view that this was a case where there was no dispute about material facts.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">It is sufficiently clear from the ET1 that the appellant was not simply complaining about a difference in pay between her and NV based upon sex as the tribunal seemed to conclude at ET &#167; 14. Rather, a fair reading of the ET1, making all due allowance for the fact that the appellant is a litigant in person whose first language is not English, is that she was advancing complaints of:</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-family:Symbol;font-size:12pt">&#8226;</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">a discriminatory dismissal which was, at least in part, because of her sex and / or age; and</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_13">
+	  <num style="font-family:Symbol;font-size:12pt">&#8226;</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">a discriminatory difference in pay between her and NV because of her age. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">It is also clear from the ET1 that the question of the true motivation or reason for her dismissal was a matter of material dispute. That is necessarily implicit in the suggestion that RG was allowed to dismiss her &#8220;under false pretences&#8221; and in the appellant&#8217;s references to how she claims RG treated women and, in particular, older women in the office. The judge seems to have failed to recognise that a disputed issue of fact was whether the appellant&#8217;s sex or age played any part in the decision to dismiss her. That was an issue that could not properly have been determined only on the papers. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Similarly, the validity of the respondent&#8217;s stated reason for paying the appellant less than her younger comparator, NV, is contested. Even after the equal pay complaint pursuant to section 66 </span><span style="font-weight:bold;font-size:12pt">EqA </span><span style="font-size:12pt">was withdrawn, the appellant could still potentially rely upon the protected characteristic of age in relation to a pay differential. It is clear from the ET1 that she sought to challenge the respondent&#8217;s reasons for submitting that NV was not a relevant comparator. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In short, taking the averments in the ET1 at their highest, there was sufficient to support </span><span style="font-style:italic;font-size:12pt">prima facie</span><span style="font-size:12pt"> cases of both sex and age discrimination. The tribunal&#8217;s conclusion to the contrary seems to have depended upon an informal assessment of the credibility and reliability of the respondent&#8217;s evidence in response, based only upon the documents it had before it. That was inconsistent with taking the appellant&#8217;s case at its highest, and was an error of law. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In summary, the tribunal failed to recognise the extent of the appellant&#8217;s pleaded case in terms of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Cox v. Adecco</span><span style="font-size:12pt">, wrongly concluded that the material facts about her discrimination complaints were not disputed, failed to take her complaints at their highest, and instead made an informal assessment of likelihood of the respondent&#8217;s evidence being preferred. These errors cumulatively led to its decision to strike out the discrimination complaints being wrong in law.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">No appeal was taken against the decision to dismiss her equal pay claim on withdrawal. Given the terms of section 70 of the Equality Act, 2010, the appellant will not, therefore, be able now to argue that any difference in pay between her and NV was on the ground of sex. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">I will, however, set aside paragraph 3 of the tribunal&#8217;s judgment of 3 September 2021 and remit the appellant&#8217;s remaining discrimination complaints to a different tribunal for consideration on their merits.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In the course of this appeal process, the appellant intimated her wish to amend the designation of one of the respondents and to add a new complaint of victimisation. Those are not matters for this tribunal. They are matters she will have to raise before the employment tribunal after the case is remitted. There may also be issues as to the basis on which each respondent is said to be responsible in law for the discriminatory conduct alleged that did not feature in this appeal. These are, again, matters which may require to be considered and resolved before the employment tribunal in due course. </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

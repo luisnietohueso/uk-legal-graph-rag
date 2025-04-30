@@ -1,0 +1,534 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/33"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/33"/>
+	  <FRBRdate date="2025-02-18" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="33"/>
+	  <FRBRname value="Equans Services Ltd v Cameron Bennett "/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/33"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/33"/>
+	  <FRBRdate date="2025-02-18" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/33/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/33/data.xml"/>
+	  <FRBRdate date="2025-04-16T13:55:54" name="transform"/>
+	  <FRBRdate date="2025-04-16T16:01:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="equans-services-ltd" href="" showAs="EQUANS SERVICES LTD"/>
+	<TLCPerson eId="cameron-bennett-debarred" href="" showAs="CAMERON BENNETT (Debarred)"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-her-honour-judge-russell" href="/judge-her-honour-judge-russell" showAs="HER HONOUR JUDGE RUSSELL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>33</uk:number>
+	<uk:cite>[2025] EAT 33</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>bfdf04e1a8a6eb575edb39cc51d93727c80d8601acc67cf3695c69ad87578345</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:8pt;color:#000000">Judgment approved by the court</span><span style="color:#000000"/><marker name="tab"/><span style="font-size:6pt">Equans Services Ltd v Bennett</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2025] EAT 33</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>EA-2024-000344-BA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p class="CoverText">Date: <docDate date="2025-02-18" refersTo="#judgment">18 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-her-honour-judge-russell">HER HONOUR JUDGE RUSSELL</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.45in 3.47in 1.42in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#equans-services-ltd" style="font-weight:bold">EQUANS SERVICES LTD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#cameron-bennett-debarred" style="font-weight:bold">CAMERON BENNETT (Debarred)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;color:#000000">MS SAFIA THAROO (C) </span><span style="color:#000000">for the </span><span style="font-weight:bold;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;color:#000000">THE RESPONDENT </span><span style="color:#000000">appeared</span><span style="font-weight:bold;color:#000000"> In Person</span></p>
+      <p style="text-align:center"><span style="color:#000000">Hearing date: 18 February 2025</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+      <p><span style="font-weight:bold">SUMMARY</span></p>
+      <p><span style="font-weight:bold">PRACTICE AND PROCEDURE</span></p>
+      <p style="text-align:justify">Consideration of the Tribunal&#8217;s discretion as to whether it is appropriate to extend time on a just and equitable basis where a discrimination claim has been brought out of time.  </p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify">The Tribunal failed to refer to, or apparently direct themselves to, the well-known authorities setting out relevant factors when consideration whether or not it was just and equitable to extend time.  The Tribunal failed properly or at all to consider the effect of delay and the forensic prejudice to the Respondent. In so doing erred in law and/or reached a decision which was perverse.</p>
+	    <p style="text-align:justify"><span style="font-weight:bold">HER HONOUR JUDGE RUSSELL:</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold">Introduction </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">This is an appeal against a Judgment given at a Preliminary Hearing on 22 August 2023 finding that a claim for age discrimination had been presented outside of the statutory time limit and that it was just and equitable to extend time.  I shall refer to the parties as &#8220;Claimant&#8221; and &#8220;Respondent&#8221; as they were in the Tribunal below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">At a rule 3(10) hearing permission was given for the appeal to proceed to a final hearing on two grounds.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">Firstly, that the Tribunal erred by failing to direct itself as to the principles applicable to its discretion under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/123/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(1)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>.  In particular:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num>(a)</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">it did not direct itself as to the need to consider the length of, and reasons for, the delay or the balance of prejudice to the parties; and </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num>(b)</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">it did not consider the prejudice to the Respondent of having to meet a claim which would otherwise be defeated by a limitation defence; and</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num>(c)</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">it failed to balance the relative prejudice to the parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">Secondly, the Tribunal erred in its finding that there is no prejudice to the Respondent simply because the alleged perpetrator of the discrimination was no longer employed by the Respondent.  This finding failed to take account of the fact that he was the sole or main alleged perpetrator of the discrimination and/or his consequent availability as a witness for the Respondent and the effect of the delay upon the quality of any evidence that he could give.  Alternatively, this finding was perverse.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading" style="text-align:justify"><span style="font-weight:bold">ET Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">The Claimant was employed by the Respondent as an administrator from 8 July 2014 until his resignation by letter dated 15 September 2021. The Claimant was absent from work due to stress from 23 March 2019. He returned to work on 14 July 2020. On 28 July 2020, the Claimant commenced a further period of sickness absence. He did not return to work before his resignation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">The Claimant presented his ET1 to the Tribunal on 20 December 2021 following a period of ACAS Early Conciliation.  The Claimant ticked the boxes for unfair dismissal, disability and age discrimination but the supporting particulars of claim made no reference to age discrimination.  In the particulars, he praised the support and empathy shown by his line manager, Mr Brown.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">The Respondent resisted the claim and sought further information of the age discrimination complaint.  In his response, the Claimant relied upon comments made by Mr Brown when he was required to go for a drug and alcohol test, having to ask permission of Mr Brown to go for his lunch break, comments made by Mr Brown about the length of time taken on toilet breaks and a lack of support for his wellbeing.  He named potential witnesses as Richard Pitt, Arthur O&#8217;Donnell, Louis Markov and Conway Crosson. The latter was a member of the HR team.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">The Respondent applied for the claims to be struck out as having no reasonable prospects of success, rule 37, or in the alternative for there to be a deposit order as the claims had little reasonable prospects of success, rule 39.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0in;text-indent:0.5in">At the Preliminary Hearing on 22 August 2023, Tribunal Judge Iqbal refused the application to strike out and/or make deposit orders. In her judgment sent on 21 September 2023, she held that the claims of direct discrimination were presented after expiry of the time limit in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/123/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(1)</ref>(a) but that it was just and equitable to extend time under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/123/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(1)</ref>(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The procedural history then becomes a little unusual.  Tribunal Judge Iqbal decided to reconsider the Judgment of her own motion. It appears that this was because she had omitted to record part of her Judgment given orally at the hearing. In her written reasons, sent to the parties on 13 February 2024, she cited a number of authorities relevant to strike out applications.  When addressing the jurisdictional time point, she cited <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> but did not refer to any of the well-known authorities on extension of time and the correct approach for a Tribunal considering whether it is just and equitable to extend time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At the Preliminary Hearing, the Respondent submitted that any act or omission occurring prior to 1 September 2021 was presented out of time.  The last possible date for any act of age discrimination was in the two weeks after the Claimant returned to work in July 2020, during which period Mr Brown was his line manager.  In other words, the claim was at least 14 months out of time. The Respondent submitted that it would be prejudiced if time were extended because the Claimant relied upon undocumented verbal comments by Mr Brown who had left the Respondent&#8217;s employ in November 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In his submissions, the Claimant asserted that the alleged acts of age discrimination happened during the period from January 2019 to December 2019.  His explanation for not acting sooner was that he was trying to return to work.  The Claimant appears to have relied upon ill-health more generally but it is not entirely clear from the reasons what this ill-health was nor how it affected his ability to present a claim sooner.  The Claimant accepted that a number of the acts relied upon as age discrimination were verbal comments not supported by any documentary evidence and which would need to be tested in oral evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In her written reasons dealing with the time point, Judge Iqbal found as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;32.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">In considering the age discrimination separately, the Claimant set out his better particular claims at page 59-62, that he was discriminated on the basis of his age during a period where Liam Brown was his manager. These are clearly out of time insofar as the current action is concerned, therefore the parties have raised whether it was just and equitable in all the circumstances to extend time. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">33.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">The Claimant stated that he had been with the company for seven years and these incidents between September 2018 through to January 2019, happened before he was off work and at the forefront of his mind was returning to work, which meant that he did not act to bring these matters any earlier.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">34.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">Whilst it is clear the matters are out of time, I have a wide discretion in considering these matters, including the potential strengths of the claims as well as whether acts occurring after that time limit have expired can still be included in the claim if they can be said to be part of "conduct extending over a period". </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">35.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">I have considered the matters complained of by the Claimant which include for example, comments made by his manager, Mr. Brown insofar as the issue of drugs testing, permission to take breaks as well as, walking around and talking to others during his lunch break. All of these the Claimant says occurred as a result of his age and that no one outside of his age bracket i.e., 20-26 would have been treated in a similar manner. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">36.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">The Respondent submitted that there was no good reason to extend time as the Claimant had not demonstrated he was unable to bring the claim without support any earlier due to ill health or any other reason. They further submitted there was prejudice to the Respondent as the Claimant relied on verbal comments made and that there was no documentary trail but additionally these matters related to alleged comments/behaviour of a former employees who had left late in 2020, i.e., the Claimant&#8217;s manager, Liam Brown. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">37.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">I have considered the totality of the matters presented against whether or not it would be just and equitable to extend time and also considering the balance of prejudice to the Respondent. I find I am satisfied, according the Claimant with the benefit of doubt that given the timeline of the Claimant&#8217;s time of work due to (his claimed) ill-health and the period in which he returned to work and eventually resigned may have caused him to delay bringing such a claim. In any case he had in his ET1 ticked age discrimination as a claim but simply not articulated. When I consider this against the fact he has clearly identified Liam Brown who was responsible for the incidents and the fact that there appear to be other individuals such as Conway Crosson who remain employed with the Defendant (</span><span style="font-style:italic;font-weight:bold;font-size:11pt">sic</span><span style="font-weight:bold;font-size:11pt">), who advised the Claimant on matters he complains of as discriminatory, then there is no prejudice to the Respondent, simply because Liam Brown has left the company. In all the circumstances I am satisfied that it is just and equitable that this claim is included and therefore time ought to be extended.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in">It can be seen that there is no clear finding as to the dates of the alleged acts of discrimination, although I have proceeded on the basis that Judge Iqbal accepted the Claimant&#8217;s evidence that it was between September 2018 and January 2019. Whilst there is a reference to acts occurring after expiry of the time limit which could be conduct extending over a period, there is then no finding that there was any such conduct. On this basis, the last date of any alleged discrimination was January 2019.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In deciding whether it was just and equitable to extend time, the factors considered were the prejudice to the Respondent and, giving him the benefit of the doubt, the Claimant&#8217;s ill-health and return to work until his resignation delayed bringing a claim.  Another factor was that the Claimant had brought his age discrimination claim by ticking the box on the ET1 and, when he provided the further information, he clearly identified Liam Brown.  The Tribunal found that because there were other current employees of the Respondent who advised the Claimant, there was no prejudice to the Respondent by reason of Mr Brown being no longer employed as other employees, such as Mr Crosson remained employed.  For these reasons, she decided that it was just and equitable to extend time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is important to note that there had been discussion at the Preliminary Hearing as to whether Mr Crosson remained employed or could give any direct relevant evidence at a hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There was a further Preliminary Hearing on 10 November 2023 where Employment Judge Park decided that the Claimant was not a disabled person within the definition of section 6 of the Equality Act.  There is therefore no appeal against those parts of Judge Iqbal&#8217;s Judgment dealing with disability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Separately to Tribunal Judge Iqbal&#8217;s reconsideration of her own initiative, the Respondent made a timeous application for reconsideration of the Judgment.  Part of that application was the fact that Mr Crosson had also left the Respondent&#8217;s employment. The written reasons were sent to the parties on 15 May 2024.  They are not part of the Judgment under appeal but they are a clarification of the reasons for the decision to extend time.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">These additional reasons make clear that the Judge accepted that the relevant date range for the alleged age discrimination was September 2018 to January 2019.  Again, she referred to the wide discretion afforded when considering whether to extend time.  She appears not to have taken the point that Mr Crosson too was no longer employed by the Respondent, referring only to Mr Brown as having left, although she does say that he was only an example of potential witnesses.  The Judge identifies no other employee who could give direct evidence in connection with the alleged acts of age discrimination. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1" style="text-align:left;margin-left:0.5in;text-indent:-0.6in"><span style="font-weight:bold">Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.49in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/123" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 123</ref> of the Equality Act provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in"><span style="font-weight:bold;font-size:11pt">&#8230;proceedings on a complaint within s.120 may not be brought after the end of:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in;text-indent:0.17in"><span style="font-weight:bold;font-size:11pt">the period of 3 months starting with the date of the act to which the complaint relates,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in;text-indent:0.17in"><span style="font-weight:bold;font-size:11pt">such other period as the employment tribunal thinks just and equitable.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in;text-indent:-0.2in"><span style="font-weight:bold;font-size:11pt">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in;text-indent:0.17in"><span style="font-weight:bold;font-size:11pt">For the purposes of this section-</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in;text-indent:0.17in"><span style="font-weight:bold;font-size:11pt">Conduct extending over a period is to be treated as done at the end of the period;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">(b)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in;margin-right:0.36in;text-indent:0.17in"><span style="font-weight:bold;font-size:11pt">Failure to do something is to be treated as occurring when the person in question decided on it.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:11pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bexley Community Centre trading as Leisurelink v Robertson</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/576" uk:canonical="[2003] EWCA Civ 576" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 576</ref>, Auld LJ considered the principles governing the tribunal&#8217;s discretion to extend time if it thinks it just and equitable: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;24.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">The Tribunal, when considering the exercise of its discretion, has a wide ambit within which to reach a decision. If authority is needed for that proposition, it is to be found in Daniel v Homerton Hospital Trust (unreported, 9th July 1999, CA) in the judgment of Gibson LJ at page 3, where he said:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in"><span style="font-weight:bold;font-size:11pt">"The discretion of the tribunal under section 68(6) is a wide one. This court will not interfere with the exercise of discretion unless we can see that the tribunal erred in principle or was otherwise plainly wrong."</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">25.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.36in;text-indent:0.41in"><span style="font-weight:bold;font-size:11pt">It is also of importance to note that the time limits are exercised strictly in employment and industrial cases. When tribunals consider their discretion to consider a claim out of time on just and equitable grounds there is no presumption that they should do so unless they can justify failure to exercise the discretion. Quite the reverse. A tribunal cannot hear a complaint unless the applicant convinces it that it is just and equitable to extend time. So, the exercise of discretion is the exception rather than the rule. It is of a piece with those general propositions that an Appeal Tribunal may not allow an appeal against a Tribunal's refusal to consider an application out of time in the exercise of its discretion merely because the Appeal Tribunal, if it were deciding the issue at first instance, would have formed a different view. As I have already indicated, such an appeal should only succeed where the Appeal Tribunal can identify an error of law or principle, making the decision of the Tribunal below plainly wrong in this respect.</span>&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:11pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Tribunal must take into account anything which it judges to be relevant and may form a fairly rough idea of whether the claim appears weak or strong.  It is generally more onerous for a respondent to be put to defending a late weak claim and less prejudicial for a claimant to be deprived of such a claim.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:11pt">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This is the exercise of a wide and general discretion. It is to be exercised &#8220;in all the circumstances of the case&#8221;, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Chief Constable of Lincolnshire Police v Caston</span> <ref href="#" uk:canonical="[2009] IRLR 327" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] IRLR 327</ref>).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:11pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There is no requirement to go through all of the matters listed in section 33(3) of the Limitation Act provided that no significant factor has been left out of account, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">London Borough of Southwark v Afolabi</span> <ref href="#" uk:canonical="[2003] ICR 800" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] ICR 800</ref>, CA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:11pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Abertawe Bro Morgannwg University Local Health Board v Morgan</span> <ref href="#" uk:canonical="[2018] ICR 1194" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] ICR 1194</ref> at paragraph 19:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;margin-right:0.36in"><span style="font-weight:bold;font-size:11pt">&#8220;Factors which are almost always relevant to consider when exercising any discretion whether to extend time are the length of and reasons for the delay and whether the delay has prejudiced the respondent&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:11pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There are two types of prejudice which a Respondent may suffer if the limitation period is extended. &#160;They are the obvious prejudice of having to meet a claim which would otherwise have been defeated by a limitation defence, and the forensic prejudice which a Respondent may suffer if the limitation period is extended by many months or years, which is caused by such things as fading memories, loss of documents, and losing touch with witnesses.  Forensic prejudice to a Respondent will be &#8220;crucially relevant&#8221; in the exercise of the discretion, telling against an extension of time. &#160;It may well be decisive, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Miller v Ministry of Justice</span> UKEAT/0003/15/LA.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.6in"><span style="font-weight:bold">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-size:11pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In her helpful skeleton argument, Ms Tharoo submitted that the Tribunal failed to take into account adequately or at all the extent of the delay, the forensic effect of such delay upon the availability of evidence and upon the quality of that evidence in circumstances where there were no contemporaneous documents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:11pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It can be seen from the reasons provided by the Judge, both in her initial reconsideration and the subsequent reconsideration, that there is no reference at all to the established case law set out above identifying relevant factors to be considered when considering all of the circumstances of the case.  Whilst the discretion is wide, it is not absolute and must be exercised in accordance with the established legal principles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:11pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The failure to refer to the relevant authorities and the principles set out therein would not, of itself, be sufficient to demonstrate an error of law.  If the Judge had clearly exercised her wide discretion by taking into account all relevant factors, it would not be for this appeal tribunal to interfere or to substitute its own decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:11pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">However, as can be seen from the passages quoted from the Judgment, there is no reference to the extreme length of the delay.  The last of the acts of alleged discrimination relied upon were in January 2019, yet the claim form was only presented in December 2021 and the information setting out the acts relied upon was provided even later than that.  A period of two years is an extensive delay in the presentation of an Employment Tribunal claim.  Even if the Claimant was unwell, and that is relevant to prejudice to him and the reasons for the delay, the Tribunal was nevertheless required as a matter of law to consider the effect of the length of the delay and the forensic prejudice to the Respondent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:11pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Tribunal was told and accepted that Mr Brown was no longer available to give evidence and that there was no contemporaneous documentation evidencing the alleged acts of discrimination.  The Tribunal found that because an HR officer who had advised the Claimant could give evidence, there was no prejudice to the Respondent.  This was based upon an assumption and not information discussed at the hearing.  Moreover, it was inaccurate as Mr Crosson was also no longer employed.  Even if he were available to be called as a witness, his evidence would at best have been hearsay &#8211; relaying what the Claimant may have told him at the time, some two years earlier.  Mr Crosson did not witness any of the verbal exchanges between Mr Brown and the Claimant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:11pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The information before the Tribunal clearly established significant forensic prejudice to the Respondent.  As in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Miller</span>, such prejudice should have been crucially relevant even if not necessarily decisive.  The Tribunal failed to take this into account at all when exercising its discretion.  Such a failure was an error of law.  More than that, the Tribunal did not have any cogent evidence about the Claimant&#8217;s ill health and its effect upon his ability to present a claim sooner.  The Tribunal only considered the Claimant&#8217;s ability to present a claim up to the point of his resignation and not thereafter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:11pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For all of these reasons, I am driven to the inexorable conclusion that the decision to extend time was perverse.  The Tribunal failed properly to balance the prejudice between the parties.  The relevant facts were that the Respondent had no prior warning of the complaints until the provision of the further information in 2022.  There was no contemporaneous documentary evidence. The only other participant in the verbal exchanges relied upon had left the Respondent&#8217;s in November 2020.  Mr Crosson could only give hearsay evidence years after the event and was also no longer employed.  Had it taken all of those matters into account the Tribunal, properly directing itself, would have reached the conclusion that it was not just and equitable to extend time. The decision to extend time was perverse as no reasonable Tribunal, properly directing itself on the law and applying it to the facts, could have decided that it was just and equitable to do so.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.6in"><span style="font-weight:bold">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:11pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I discussed with Ms Tharoo the appropriate method of disposal for this case.  I am satisfied that the EAT is able to assess for itself the decision that a Tribunal, properly directing itself, would have reached.  The evidence required is in the Judgment, it was simply not properly considered and balanced as required by the well-established case law.  Given the Tribunal&#8217;s findings of fact and the matters not in dispute, I am able to substitute a decision that it was not just and equitable to extend time such that the claims for age discrimination are dismissed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:11pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">A further Preliminary Hearing is due to take place in the Employment Tribunal, I understand in March 2025.  This will be case management for the final hearing which is listed for later this year.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

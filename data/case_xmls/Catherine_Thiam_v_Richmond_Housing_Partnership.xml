@@ -1,0 +1,701 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/933"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/933"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="933"/>
+	  <FRBRname value="Catherine Thiam v Richmond Housing Partnership"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/933"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/933"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/933/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/933/data.xml"/>
+	  <FRBRdate date="2025-04-16T13:27:04" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="catherine-thiam" href="" showAs="CATHERINE THIAM"/>
+	<TLCPerson eId="richmond-housing-partnership" href="" showAs="RICHMOND HOUSING PARTNERSHIP"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-swift" href="/judge-mr-justice-swift" showAs="MR JUSTICE SWIFT"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>933</uk:number>
+	<uk:cite>[2025] EWHC 933 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>d7d2efcc636c592d72e0d99b2f28ca3d1e19ed02dc20eca1cfd0e86a86f191c5</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 933 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>KA-2024-000053</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING&#8217;S BENCH DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-16" refersTo="#judgment">16/04/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-swift">MR JUSTICE SWIFT</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between </span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#catherine-thiam" as="#appellant" style="font-weight:bold">CATHERINE THIAM</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(a Protected Party, by her Litigation Friend, the Official Solicitor)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#richmond-housing-partnership" as="#respondent" style="font-weight:bold">RICHMOND HOUSING PARTNERSHIP</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Daniel Gr&#252;tters </span>(instructed by<span style="font-weight:bold"> Morrison Spowart Solicitors</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Simon Strelitz</span> (instructed by <span style="font-weight:bold">Capsticks LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 4 April 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Judgment Approved by the court<br/>for handing down<br/>(subject to editorial corrections)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">MR JUSTICE SWIFT</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <num style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">A.</num>
+	  <heading class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction </span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This is an appeal against an order made on 19 March 2024 by HHJ Luba KC at Central London County Court, granting an application made by Richmond Housing Partnership for possession of residential premises at 5 Chaucer Avenue, Richmond TW9.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The premises were occupied by Catherine Thiam pursuant to a tenancy agreement dated 26 March 2009. The tenancy was an assured tenancy subject to the provisions of the Housing Act 1988, such that an order for possession could only be made if one or more of the grounds set out in Schedule 2 to the 1988 Act were met.  Richmond Housing Partnership is a social landlord.  It is a subsidiary of a charitable benefits society registered under the Co-Operative and Community Benefits Societies Act 2014.  Community benefit societies are described in the 2014 Act as those whose business is conducted for the benefit of the community. In this judgment I shall refer to Richmond Housing Partnership as &#8220;RHP&#8221; and to Ms Thiam as &#8220;the tenant&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application for possession was made by RHP on 21 October 2020.  The application was heard by Judge Luba on various dates between December 2023 and 19 March 2024. The Judge set out the reasons for his decision in an admirably concise and focussed judgment, delivered <span style="font-style:italic">ex tempore</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The application for possession was made on a number of grounds.  The first was that rent that was due had not been paid.  That part of the application for possession rested on Ground 8 of the permitted grounds specified in Schedule 2 to the 1988 Act.  The Judge concluded that some &#163;18,000 was overdue and that this part of the application was made out.  Possession was also sought relying on Ground 14 of the Schedule 2 permitted grounds.  This relied on anti-social behaviour on the part of the tenant&#8217;s son who lived at the property.  The Judge referred to the evidence and stated that on the evidence before him he was &#8220;quite satisfied&#8221; that this part of the application was made out.  Thirdly, possession was sought in reliance on Ground 12 of Schedule 2, that an obligation under the tenancy agreement other than the obligation to pay rent had not been performed. The Judge concluded that the tenant had repeatedly, in breach of the tenancy agreement, failed to provide access to the premises to RHP and those who were to undertake maintenance work on RHP&#8217;s behalf.  That part of the application was therefore also made out.  Lastly, possession was sought relying on Ground 13 of the Schedule 2 permitted grounds, that the condition of the premises had deteriorate by acts of waste, neglect and default.  On this matter the Judge&#8217;s reasons were as follows.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;39.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Ground 13 of the statutory grounds in Schedule 2 is concerned with the condition of the property. The tenant is responsible for maintaining the property to the extent that it is not in a deleterious condition by dint of their own act or neglect.  This is a case in which Ground 13 is manifestly satisfied.  It was not necessary to conduct a site visit of the property or to turn to the detail of any inspection report.  One can readily see from the photographs and videos made available to the court that the property is in appalling condition, both internally and externally.  The front and rear gardens are full of not only overgrown and unkempt vegetation but also massive number of black bags and other discarded household items.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>40.</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:0.98in;text-indent:0.03in">Because of her delusion, the [tenant] believes that some or all of this material is important for the purposes of her business in reselling second-hand clothes.  Whatever the nature of the delusion, the simple fact of the matter is that the premises are grossly unsightly. They are, in the relevant weather conditions, smelly. They provide harbourage for vermin and they are grossly unsightly. One can hardly do better in terms of describing the way in which the premises are not managed by the tenant, both internally and externally, than by taking the words of the tenant&#8217;s son David.  A council homelessness officer sent an email to the claimant which reads as follows:</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:1.28in;margin-right:1.35in">&#8220;I had a telephone call with David Thaim who is a non-dependant of your tenant.  David states his mum is a hoarder and the property is so overpacked with things that you can&#8217;t move in the property.  David states his mum does car boot sales but does not get rid of anything.  He states the hallway and rooms downstairs are full of stuff. The property is a four-bedroomed and one bedroom you cannot get in because of her belongs. He states the other bedrooms are where he himself, his mum and his sisters sleep but, again, the rooms are crammed with junk.  He also said mum has 50 guinea pigs in the garden and the garden cannot be accessed because of the stuff outside. David also stated the family have a social worker who, in his opinion, is not helping the family.  Please let me know if this family are known to you as hoarders. If not, I will do a safeguarding referral to Social Services given the concerns around safety, possible neglect, and fire risk&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num>41.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">That was very apt description by David of the state of the premises. Of course, the state of the premises has fluctuated from time to time as, no doubt, the severity of the defendant&#8217;s condition has fluctuated from time to time but the up to date position is shown in two videos taken on recent visits by the newly assigned adult social worker.  This continues to show the property in an extremely poor condition externally. Black rubbish bags full of material is seen discarded all over and into the front garden and all along the side passageways.  Indeed, the bags, together with other obstructions in the side passageway, have made it entirely impossible for any visitor to the property to pass, as they should be able to, down the side passageway of the house from the front to the rear garden.  On that material taken as a whole, I have not the slightest hesitation in finding Ground 13 satisfied.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8230;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>43.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Ordinarily, it would be necessary to have descended to much greater details as to whether any or all of the grounds for possession had been made out, but that is not necessary in this case.  I do not need to deal with the matter in greater particularity because, on behalf of the Official Solicitor, Mr Gr&#252;tters has taken the sensible position of simply putting [RHP] to proof and such proof has been amply forthcoming. So, the grounds are proven.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge&#8217;s reference to the tenant&#8217;s &#8220;delusion&#8221; was a reference to the tenant&#8217;s mental health. In reliance on an expert report prepared by Dr Sajid Suleman dated 15 November 2022, the Judge accepted that the tenant was disabled within the definition at section 6 of and Schedule 1 to the Equality Act 2010 (&#8220;the 2010 Act&#8221;).  The Judge accepted the position as pleaded on behalf of the tenant at paragraph 34.2 of the Defence and Counterclaim. </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;34.2</num>
+		    <content>
+		      <p class="Quote" style="margin-left:0.98in;text-indent:0.03in">The [tenant] is disabled within the meaning of s.6 of the Equality Act 2010.  She meets the diagnostic criteria for simple schizophrenia and housing disorder.  Her symptoms have persisted for over twelve months and are long-standing.  She was diagnosed with delusional disorder in or around 2008 and has a history of systematised, persecutory, and grandiose delusions.  She minimises the extent of hoarding in her home, is unable to recognise the extent of it, or have insight into it.  She has aimlessness, is socially withdrawn, lacks initiative and motivation, and has delusional beliefs. The quality of her life declines without her understanding of it. Due to her lack of insight, she refuses help. She has a mental impairment. Her symptoms have a substantial effect on her ability to carry out normal day-to-day duties.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By reference to the report provided Dr Suleman the Judge further described the consequences of the tenant&#8217;s mental disorders at paragraph 52 of his judgment.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;52.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">She suffers from a wider range of delusional disorders associated with her schizophrenia and these explain other facets of the conduct which has led to her landlord&#8217;s claim for possession. For example, in relation to rent arrears, she believes, as one sees from the way in which her defence and counterclaim is pleaded, that she is, in some sense, a self-employed businesswoman engaged in transactions for the sale and resale of clothing and other items.  That is a complete delusion.  Anyone can see at a moment&#8217;s glance that she is hoarding junk and as her son graphically puts it, cannot even sell this junk at car boot fairs.  She has no insight.  Exactly the same can be said of the importance of the conduct of her son in behaving himself at the property and in relation to compliance with her obligations under the conditions of her tenancy. With the benefit of the advice of the assessor, having regard to the disabling conditions in this case, I have not the least hesitation in finding that there is the necessary causal link particularly for the purpose of s.15 of the Act.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">One further point to be made in this regard is that, notwithstanding the evidence I have referred to, prior to Dr Suleman&#8217;s report the tenant had nothing that could be considered to be any form of formal diagnosis that she suffered from any mental disorder.  The opinion formed in 2008 in respect of delusional disorder was an opinion formed by the local authority mental health team. That opinion is described as a &#8220;differential diagnosis&#8221;, that is to say an opinion arising from observation of the subject when what is observed suggests that the subject displays conditions or behaviours that could support a formal diagnosis.  Dr Suleman&#8217;s conclusion, having had the opportunity to meet the tenant, was that it was &#8220;likely&#8221; that she suffered from simple schizophrenia (a form of schizophrenia where delusions and hallucinations are poorly formed and not prominent), and that in consequence of the simple schizophrenia the tenant suffered from hoarding disorder. However, it remains the fact that the tenant&#8217;s schizophrenia has never been treated.  She has failed to engage with doctors or other professionals to permit her condition to be addressed by medication.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At the hearing before the Judge the tenant did not dispute that the grounds for possession that RHP relied on were made out.  At the time of that hearing (as at the hearing of this appeal) the tenant was represented by Mr Gr&#252;tters of counsel, instructed by the Official Solicitor who acted as the tenant&#8217;s litigation friend by Order of the court made on 24 January 2023. At the hearing before the Judge, Mr Gr&#252;tters did not substantively challenge the evidence that RHP relied on in support of its application for possession but, entirely appropriately, did put RHP to proof on all matters.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The point taken for the tenant before the Judge was by way of counterclaim and/or by way of engaging the court&#8217;s power under section 7(4) of the 1988 Act. It was contended that the decision to seek possession amounted to unlawful discrimination on the grounds of disability and that for that reason either the application for possession should be refused or, as a matter of discretion under section 7(4) of the 1988 Act, possession should not be granted. The discrimination case was that the decision to seek possession on Ground 13 of the Schedule 2 grounds (the ground concerning the condition of the premises) was, for the purposes of section 15 of the 2010 Act, unfavourable treatment because it comprised an act in consequence of the tenant&#8217;s disability that was not justified in the sense explained in section 15(1)(b) of the 2010 Act.  Section 15 of the 2010 Act provides as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">15 Discrimination arising from disability</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <intro>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">A person (A) discriminates against a disabled person (B) if&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">A treats B unfavourably because of something arising in consequence of B's disability, and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Quote" style="margin-left:1.28in;text-indent:0.22in">A cannot show that the treatment is a proportionate means of achieving a legitimate aim.</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subsection (1) does not apply if A shows that A did not know, and could not reasonably have been expected to know, that B had the disability.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge accepted that the consequences of the tenant&#8217;s mental illness were such that the failures that led to RHP&#8217;s reliance on Ground 13 of the Schedule 2 grounds for possession were matters that occurred in consequence of the tenant&#8217;s mental illness and therefore in consequence of a disability. The outcome of the application for possession therefore turned on the issue of justification. By section 15(1)(b) of the 2010 Act unfavourable treatment occurring because of something arising in consequence of a disability is justified if the defendant to the discrimination claim can show the unfavourable treatment, in this instance, the decision to seek possession of the premises at 5 Chaucer Avenue, was &#8220;a proportionate means of achieving a legitimate aim&#8221;.  So far as concerns the legitimate aim pursued by RHP the Judge said this at paragraph 54 of his judgment.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;54.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">There is no dispute in this case, certainly not any advanced by Mr<span style="font-weight:bold"> </span>Gr&#252;tters, with the proposition that this social landlord is pursuing a legitimate aim. It wishes to see premises that it owns maintained by its tenants in a condition which does not lead to them being an eyesore, being a harbourage for rodents, and generating smells causing nuisance and other unpleasantness to those in the locality.  It also, obviously is a legitimate aim to ensure that tenants pay their rent and comply with their condition of tenancy and no one has suggested the contrary.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <num style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">B.</num>
+	  <heading class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision </span></heading>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tenant pursues 3 grounds of appeal against the decision to make the possession order.  Each in its own way, comes to a submission that the Judge&#8217;s conclusion that RHP had acted proportionately in accordance with the requirement at Section 15(1)(b) of the 2010 Act, was wrong.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This appeal is, in the usual way, conducted as a review of the Judge&#8217;s decision. However, given that the issue raised by the grounds of appeal (the justification question) is one that rests on evaluation of facts and matters which at this stage are not the subject of any material dispute, I am as well-placed  as the Judge to form the view required on the section 15(1)(b) issue.  Thus, in the particular circumstances of the issues in this appeal the extent of any deference required to the conclusions reached by the Judge is small. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The first ground of appeal is formulated as follows.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;The learned Judge failed to provide adequate reasons to explain the contradiction &#8211; which was prima facie perverse &#8211; between the [RHP&#8217;s] rejection of his finding that the [tenant] was disabled in a way connected to the hoarding; that she lacked insight into her situation; and that [RHP] knew, but that it nevertheless sought the necessary specialist intervention &#8211; as pleaded by the [tenant] &#8211;  which required an acceptance of those findings.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The point of substance arising from this ground appears to be this.  When the decision was taken to seek possession RHP&#8217;s position was that there was no connection between the tenants hoarding and her mental illness. This is apparent it is said from a document dated 13 October 2020 headed &#8220;Justification Exercise&#8221;, which was prepared by Samantha Driver one of the housing advisers employed by RHP, to evidence the reasons for the decision to pursue the possession proceedings.  The submission made for the tenant is that it followed that the decision to commence possession proceedings was not proportionate and that this matter was not addressed by the Judge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">One response to this ground might be that in the circumstances of the hearing below, a reasons challenge is somewhat unfair. Because the Judge had been concerned to have all relevant material before him, no doubt so that he could be sure that such decision as he reached was consistent with the law, the hearings on the possession application spread out over three occasions between December 2023 and March 2024.  By the time of the final day of the hearing the Judge recognised that the parties needed a prompt ruling.  Thus, and notwithstanding the volume of material he had had to consider, the Judge provided an <span style="font-style:italic">ex tempore</span> judgment.  At paragraph 16 to 17 of that judgment he said this.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;16.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">This judgment is given <span style="font-style:italic">ex tempore</span> at the conclusion of the trial on its last day.  It is necessarily a shorter or truncated judgment than would be given had the judgment been reserved but I consider, in this case, it is important to all the parties and to those who have been assisting them to have the court&#8217;s decision at the first opportunity.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>17.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">There will be, therefore, perhaps fewer detailed references to the specific materials before the court and it will simply not be possible to deal with each and every dispute of fact.  Suffice it to record that I had all the relevant documents and materials well in mind and the benefit of both written and oral submissions of the highest quality to guide me in my task.  If at the end of this judgment I have failed to deal with any particular issue that I need to deal with, I would invite counsel to remind me in the usual way.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">By the look of things, having delivered his judgment, the Judge was not prompted by counsel to give further reasons on the point now pursued.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Be that as it may, on its own terms as a reasons challenge, this ground of appeal leads nowhere. The issue of substance is whether the Judge&#8217;s conclusion on the justification question is correct.  I will therefore consider the matter of substance raised in Ground 1 which concerns the significance for the purposes of the justification question, of the position adopted by RHP when the possession proceedings were commenced together with the points raised in the other 2 grounds of appeal.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Grounds 2 and 3 of the appeal are as follows.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Ground 2.  The Learned Judge failed to determine the [tenant&#8217;s] pleaded case that [RHP] had failed to seek and put in place specialist intervention.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;Ground 3.  The Learned Judge erred in law when he determined that [RHP] did not have the power or skill to apply to [the Court of Protection]&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For the purposes of Ground 2 it is accepted that RHP referred the tenant&#8217;s case to the local authority child and adult social services departments but, it is submitted, that did not amount to seeking &#8220;specialist intervention&#8221;. The case for the tenant is that RHP ought to have taken steps to involve organisations with special experience of working with hoarders to tackle situations such as the one that existed in this case. Mr Gr&#252;tters referred to an organisation called Clouds End.  It appears that that organisation is based in the West Midlands, but that is not to the point.  Such expertise would be available in west London and RHP, it is submitted, ought to have had resort to such expertise before deciding to start possession proceedings.  Ground 3 is directed to paragraph 67 of the Judge&#8217;s reasons which I shall refer to shortly.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <intro>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Taking the three grounds together the issue is whether notwithstanding that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.98in;text-indent:0.02in">RHP did not, when commencing the possession proceedings, recognise that the tenant&#8217;s hoarding was a symptom of her disability;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(b)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.98in;text-indent:0.02in">RHP had not put in place &#8220;specialist intervention&#8221;; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(c)</num>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.98in;text-indent:0.02in">RHP had not made an application to the Court of Protection,</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>the decision to seek possession of the premises was a proportionate decision for the purposes of the defence at section 15(1)(b) of the 2010 Act. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The question of proportionality under section 15(1)(b) of the 2010 Act is a question to be determined by the court, objectively.  To this extent the exercise is akin to the one undertaken by the court when it considers proportionality in the context of claims alleging breach of qualified Convention rights. The notion of whether unfavourable action can be &#8220;proportionate&#8221; is not the same as simply asking whether there was something more that the person concerned, in this case, RHP, could have done.  In every case it will often if not always be possible to say that one or more further steps could have been taken by the person who afforded the unfavourable treatment. The decision on proportionality requires a court to consider in the round, the nature of the unfavourable treatment, the nature of the claimant&#8217;s disability, and any acts or admissions of the alleged discriminator in the context of the circumstances that prevailed. Section 15(1)(b) of the 2010 Act concerns whether what the defendant did (the unfavourable treatment) was a proportionate response in the circumstances that prevailed, when account is taken of the claimant&#8217;s disability including, in the circumstances of this case, the contribution that disability made to the state of affairs that RHP sought to address. The proportionality inquiry that section 15(1)(b) requires must also take account of context.  In this instance some relevant context is provided by the contractual relationship between RHP and the tenant, framed by the terms of the tenancy agreement.  RHP has no relevant authority beyond this. It is not a local authority or a social services authority exercising statutory powers and having obligations to consider and promote the well-being of persons subject to illness or disability. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The Judge&#8217;s conclusions on the justification issue are set out between paragraphs 59 &#8211; 68 of his judgment.  The material parts are as follows.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;59.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">I accept, in contrast Mr Strelitz&#8217;s submission that the steps taken by the landlord in the course of these very proceedings, and particularly in the course of the trial, show that this social landlord has been leaning over backwards to seek to provide assistance and services, or to secure the assistance and services, that this defendant so sorely needs. The history speaks to an inadequate response from mental health services, from multi-agency task force and its meetings, from Children&#8217;s Services and from Adult Social Services.  All of them have failed because the defendant herself has failed to engage with them.  It is no surprise that the greatest engagement has come when faced with the prospect, perhaps, of the loss of the ability to live with her own youngest child.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>60.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The facts could have painted a picture of even greater efforts, potentially, by the landlord and Mr Gr&#252;tters has not failed to draw the courts attention to each and every opportunity that the landlord has in which it could perhaps have been a little more effective than it was.  I have no hesitation in concluding that the outcome would have been the same.  I have been treated on two occasions to hearing the evidence of the professionals presently deployed to assist the family through Adult and Children&#8217;s Social Services.  Their response to the seriousness of the situation could, at its highest, be described as lacklustre.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>61.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; The further response of these two professionals on being recalled again today simply demonstrated how dealing with the statutory agencies as like working with a blancmange whether from the perspective of the court, or the claimant, or anyone else.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>62.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">I am quite satisfied, having regard to the history as a whole, the evidence of Ms Driver, Ms Williams, and now the evidence of the two professional social workers, that this landlord has done everything sensibly and reasonably could to bring to give assistance and support to the defendant tenant.  Mr Gr&#252;tters&#8217;s best point in this respect, by some distance, as the proposition that the landlord could have done much more from late 2022 until the beginning of 2024 by securing the provision, from the defendant&#8217;s solicitor to the statutory agencies, of the report of Dr Suleman.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>63.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The submission, however, runs somewhat into the sand in two respects.  First, the task of obtaining the relevant report and putting it into the hands of the statutory agencies was delegated by a multi-agency working group to a particular social worker, the children&#8217;s social worker.  She candidly told me that although that was an action point for her, <span style="text-decoration-line:underline;text-decoration-style:solid">she</span> had never undertaken the action point. Secondly, the relevant documentation has been in the hands of the Official Solicitor&#8217;s solicitor since, at the latest, late 2022 or early 2023.  It appears, however, that the only interaction with statutory services, in the form of Children&#8217;s Services certainly, has come in the last week or two between that solicitor and that organisation. If the person who had commissioned and held the report, the Official Solicitor, did not think it right to share it directly with the statutory agencies, it is unsurprising that an agency which was simply the landlord of the defendant did not feel itself earlier able to share the terms of that particular document.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>64.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">I remind myself that it is not simply by these exercises of engagement, and attempting to trigger support, that the landlord has been trying to assist with tackling the difficulties this defendant tenant faces.  It had tried the lesser measure of the injunction route to see whether the situation could be changed by some steps facilitated or required by the court.  That exercise too has run into the ground.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>65.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Ultimately, answering for himself the rhetorical question, &#8220;What more could the landlord have done?&#8221;, Mr Gr&#252;tters identified a two-strand approach.  First, to seek to maximise, in every possible way, opportunities to support the tenant in her engagement with the statutory services and to secure the operation of the statutory services delivering assistance to her.  I am quite satisfied that this landlord has behaved responsibly and reasonably in doing all it could in that respect.  No doubt there are shades of suggestions of things that it could have done earlier, or could have been done more effectively.  The general picture portrayed and certainly the picture portrayed in the course of these possession proceedings, has been that no stone has been left unturned.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>66.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">The simple fact of the matter is that this particular way of dealing with the [tenant&#8217;s] circumstances was doomed to fail.  She suffers, as I have said already, with delusional difficulties which include the delusional proposition that there is nothing wrong with her and that she needs no treatment.  For so long as she holds to that view, however much encouragement and engagement is offered by the landlord and by the statutory services, nothing substantive is likely to change.  Had she given evidence herself, I am quite satisfied that she would have told me that there is nothing in relation to the condition of the property or the behaviour of her son to worry about, and that there was no need to do anything about the rent arears because she was well able to manage her own finances.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>67.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Anticipation that that might be the finding of the court, Mr Gr&#252;tters offered a second alternative.  It was that when faced with a person in these circumstances, what was really needed was an assessment of more general incapacity and then an application to the Court of Protection.  However, this claimant landlord does not have the skills or resources to produce such an assessment and make such an application. The statutory agencies do and the statutory agencies are now, at last and encouraged by the witness summons process which has brought them to this court, at least contemplating the possibility of such an application if a process of final attempts at engagement fail.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>68.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">I am satisfied, in those circumstances, that the taking of these possession proceedings was a proportionate response to the pursuit of these legitimate aims.  Accordingly, the counterclaim and defence based on s.15 of the Equality Act each fail.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have carefully considered the grounds of appeal and I have considered the circumstances of this case in the round, including all the matters referred to a by the Judge in his reasons.  However, I do not consider that any of the matters relied on in support of the appeal referred to in the grounds of appeal are such that the decision on justification, on the application of section 15(1)(b) of the 2010 Act in the circumstances of this case, was wrong.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_1">
+	    <num style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Ground of Appeal 1</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I accept that at the time RHP took its decision to issue possession proceedings it did not consider there was a link between the tenant&#8217;s actions and any disability. However, and for sake of completeness it is worth setting out the material part of the &#8220;Justification Exercise&#8221; document as it is clear from that, that the decision to seek possession was not taken without some regard to the tenant&#8217;s disability. That document, prepared by Ms Driver, identified the breaches of the tenancy agreement as: (a) failure to allow RHP access to the premises to carry out repairs (including servicing of mains gas equipment); (b) failure to remove &#8220;clutter&#8221; from the premises not withstanding an injunction RHP had obtained in 2019 which had, among other matters, required the tenant to clear the property of rubbish; and (c) abuse behaviour on behalf of the tenants children directed to RHP employees, local authority employees and the police.  The document then continued as follows.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;In brief [the tenant] in the time we have been working with her has failed to take steps to provide us access or reduce the items in front and back garden to a level considered acceptable. The risk of a fire has not been reduced and this remains a risk to herself, household member and others around her. The garden is extremely cluttered and the only part of the property we have been able to see recently apart from the kitchen. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[The tenant] and her family are open to the Local Authorities Achieving for Children Services and the family are under child protection due to the concerns raised.  RHP attend all child protection meetings and core group meetings.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">[The tenant] therefore could be considered vulnerable and I have therefore decided that it would be appropriate to treat her as though she was a person under a disability.  I do not consider that there is or maybe a link between any disability and the conduct described above. Following conversations with the tenant over the phone, I do not have any concerns about her capacity to understand our discussions and the implications of failing to give us access and clear and tidy her garden to comply with the injunction.  We are not aware that [the tenant] herself is being supported by the Mental Health Social Care Team and has not got an allocated Social Worker.   </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">In the circumstances however, [the tenant&#8217;s] conduct is having such an impact on the health and wellbeing of other residents and members of the public in and around the property and that RHP now has to take some form of action against [the tenant].  RHP cannot allow the health and safety of other residents to be compromised and we therefore feel possession is a proportionate means of achieving a legitimate aim, namely the protection of the health and safety of other residents.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">Despite carrying out numerous visits with supporting agencies, providing advice and support regarding the fire and health and safety risks, as there has been no significant improvement, RHP feels they have no alternative but to issue these proceedings as we feel we have exhausted every avenue and progressing to court is now the only option to enforce the terms of the tenancy agreement [the tenant] signed with RHP.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">I have had further due regard to the Aims and objectives set out in the Public Sector Equality Duty in Section 149 of the Equality Act 2010, including the need in appropriate circumstances to treat persons with a disability more favourably than persons who do not have a disability. I have however concluded that notwithstanding this, it is appropriate that the action outlined the independent paragraph above should be taken.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><marker name="tab"/>Thus, RHP accepted that the tenant was &#8220;vulnerable&#8221; and did consider whether it would be proportionate to seek possession.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The first ground of appeal fails because whether or not RHP considered the tenant to be disabled (within the definition of the 2010 Act) and whether or not RHP formed a view that there was or might be any connection between that disability and the conduct that caused RHP to decide to seek possession is not central to and cannot be determinative of the section 15(1)(b) proportionality issue. The proportionality issue is objective and in circumstances such as those in the present case must approached on the assumption that there was a connection between the claimant&#8217;s disability and the state of affairs the alleged discriminator is seeking to address. The steps taken (or not taken) by the alleged discriminator are to be assessed on their own terms. Whether at the time he acted (or failed to act) the alleged discriminator accepted the connection existed will not affect the assessment of what he did or what he failed to do since that is essentially a matter of process not substance and proportionality is concerned with substance. An alleged discriminator who recognised the connection ought not (for the purposes of the application of section 15(1)(b) of the 2010 Act) be better-placed than one who did not. To use the shorthand used in the section 15 itself, where the unfavourable treatment afforded by A to B is in response to things that B has done, A&#8217;s unfavourable treatment of B is capable of being a proportionate means of achieving a legitimate aim even if A does not consider that B&#8217;s actions were in consequence of a disability. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the present case, the proper approach to the application of section 15(1)(b) of the 2010 Act is to consider all circumstances. RHP&#8217;s state of mind as to whether the hoarding was a consequence of the tenant&#8217;s disability was not a point to which any real weight attached. It could not have been determinative.  When applying section 15(1)(b) of the 2010 Act to the facts of this case, it is more important to consider what RHP did and what RHP might have done further before deciding to seek possession. This was the approach taken by the Judge and I can see no error in that approach or in the conclusion that approach caused him to reach. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_2">
+	    <num style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Ground of Appeal 2.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tenant&#8217;s submission is that the decision to commence possession proceedings was not proportionate because RHP did not first engage specialists with expertise in assisting hoarders to help address the situation the tenant had created.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not accept this submission. In his judgment the Judge referred to and accepted the evidence of Ms Driver and Laura Williams, RHP&#8217;s Housing Manager.  At paragraphs 22 to 24 of his judgment the Judge stated as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;22.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">Both witnesses were concerned to give an account not only of the conduct and history, as far as it was understood by the landlord, of the tenant&#8217;s behaviour but also (under scrupulous cross-examination from Mr Gr&#252;tters) of [RHP&#8217;s] response to the circumstances it found itself in when dealing with a tenant with the difficulties I have already reproduced from her own pleading.  Mr Gr&#252;tters&#8217; questioning was designed to extract, from these two witnesses, the extent to which [RHP] had or had not engaged in facilitating support for the tenant to, in turn, engage with support available from Social Services and other statutory agencies.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>23.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">In response, for her part, Ms Driver explained to me that she accepted that the tenant&#8217;s conduct gave rise to serious concerns, that she was disabled, and that she had considerable vulnerabilities.  Ms Driver believed that she had made the relevant references of the tenant and her circumstances to the relevant agencies.  She told me, in the course of her oral evidence, that she had been in conduct with the Adult Social Services, with Children&#8217;s Social Services; with the home treatment team; with the police; and with multi-agency forums designed to bring those agencies together.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>24.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">By October 2020, she had personally accepted this as being a case of a person who was mentally unwell and her own concern had been for the tenant&#8217;s mental health.  Her approach had been, she told me, to seek to support the tenant and involve multiple agencies in supporting the tenant as much as she could.  She explained that she had raised the concerns that she had about the conduct and needs of the tenant with supporting agencies and I have already mentioned the Children&#8217;s Social Services, which goes locally by the label &#8220;Achieving for Children&#8221;, drug and rehabilitation agencies, and the Merlin multi-agency group (arranged through or with the police).&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This evidence, which was tested before the Judge but not undermined, shows the lengths that RHP went to when seeking to address the hoarding problem.  In the abstract, it will always be possible to say that something more could have been tried, but the section 15(1)(b) proportionality test must be applied in context.  The context here was that RHP was a landlord.  The extent of its powers of control over the tenant were set by the terms of the tenancy agreement. RHP could seek to persuade the tenant to address the problem.  I am satisfied that it did attempt to persuade the tenant. RHP could seek to involve others such as the local authority social services department who had wider powers to assist the tenant. RHP did that too. I do not consider that the obligation to act proportionally imposed by section 15(1)(b) of the 2010 Act required RHP itself to engage specialist help for the tenant.  Taking such a step would go well beyond anything ordinarily or, in the circumstances of this case, reasonably within the ambit of a landlord and tenant relationship.  It was entirely consistent with the section 15(1)(b) obligation for RHP to submit that interventions of that sort should be the responsibility of the social services department rather than the landlord.  Mr Strelitz, counsel for RHP, also pointed to the likely cost of such specialist services and the finite resources of a social landlord such as RHP.  That too is a material point.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Lastly in respect of this ground of appeal, the proportionality obligation did not require RHP to retain its specialist assistance because in all possibility that would have been futile. Such information as is available about the specialist services relied on for the purposes of this ground of appeal is to the effect that those who offer these services work with and require the consent of the person concerned.  Without that consent little or no progress can be made.  Dr Suleman&#8217;s evidence was that the hoarding was caused by the delusional disorder that was a consequence of the simple schizophrenia that afflicts the tenant.  That condition was untreated as the tenant did not wish to receive medical help.  Thus, there was a vicious circle.  For so long as the tenant declined to be treated for the disorder that affected her, she would suffer from the delusion that she was a businesswoman conducting a business; she was not hoarding, she was merely maintaining her stock.  Until such time as the tenant agreed to treatment, the conditions necessary for the specialist to have any hope of making progress could not exist.   For all the reasons the second ground of appeal fails.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_3">
+	    <num style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Ground of Appeal 3.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">This ground of appeal is directed to the Judge&#8217;s conclusion at paragraph 67 of his judgment, which is repeated here for sake of convenience:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="margin-left:1in">&#8220;&#8230; Mr Gr&#252;tters offered a second alternative.  It was that when faced with a person in these circumstances, what was really needed was an assessment of more general incapacity and then an application to the Court of Protection.  However, this claimant landlord does not have the skills or resources to produce such an assessment and make such an application.  The statutory agencies do and the statutory agencies are now, at last and encouraged by the witness summons process which has brought them to this court, at least contemplating the possibility of such an application if a process of final attempts at engagement fail.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In substance, the submission made in support of this ground is of a piece with the submission made in support of the second ground of appeal &#8211; that there was something else RHP ought to have tried before seeking possession proceedings.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The premise of this ground of appeal is that there was a readily available application RHP could have made to the Court of Protection for a readily available order that, when made, would have allowed RHP to remove the waste inside and outside the property.  This submission fails for two reasons. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">First, any such application to the Court of Protection would have been speculative. Any chance of success before the Court of Protective would be contingent on a conclusion that the tenant lacked capacity in a relevant respect. Such a conclusion would not have been close to a foregone conclusion.  Although in these proceedings the tenant has come (since January 2023) to be represented by the Official Solicitor, there were Family Court proceedings that took place in 2021 and in those proceedings there was no question that the tenant lacked capacity.  Even if the issue of capacity were overcome it is unclear what order might have been sought on an application to the Court of Protection made by RHP.   Mr Gr&#252;tters relied on the situation considered by the Court of Protection in<span style="font-style:italic"> A Local Authority v X</span> [2023] EWCOP 64 as a parallel, suggesting that RHP could do the same as the local authority did in that case.  I am not convinced that a parallel exists.  The situation before the Court in <span style="font-style:italic">X </span>can be seen in paragraph 79 of the judgment of Theis J.</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;79.</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1in;text-indent:0.5in">If the court considers X lacks the relevant capacity, Mr Harrop-Griffiths submits X&#8217;s best interests require the court to make the orders sought by the local authority given the risks posed to X&#8217;s safety and well-being by the severe extent of the hoarding. The evidence, he submits, demonstrates that this can only be done with X living elsewhere and not being able to return to the flat whilst that is done. The local authority seeks orders that X is taken to an appropriate supported living placement and for an order to be made depriving her of her liberty there to prevent her returning to her flat until the necessary work has been done. The local authority recognises that the order it seeks interferes with X&#8217;s Article 8 rights to respect for her private life and home but submit such orders are justified and proportionate bearing in mind the risks to X, such orders being necessary for the protection of her health and only for a temporary period.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There, the court was asked to make a choice on X&#8217;s behalf as to where she should live, albeit temporarily. In that case where X<span style="font-style:italic"> </span>should live was a means to an end:  if she lived in the supported living placement that would be in order to allow the local authority to remove her possessions from the premises X rented from the local authority.  However, that does not seem to me to show that RHP&#8217;s decision to start possession proceedings without first making an application to the Court of Protection was dis-proportionate. In the present case RHP&#8217;s notional application would not be premised on any choice between which of 2 places the tenant should live.  Rather it would be an application by a landlord for permission to enter premises and remove the tenant&#8217;s possessions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The nature of the application to the Court of Protection that would therefore have been necessary leads to the second reason why this ground of appeal fails.  The course now suggested as one required by section 15(1)(b) to the 2010 Act would have required RHP to incur significant expenditure on litigation (legal costs and no doubt also the costs of expert evidence) in pursuit of an exercise that was speculative. These were the matters averted to by the Judge at paragraph 67 of his judgment. That would go well beyond any step that could legitimately be expected of a landlord and well beyond anything that could reasonably be considered as a requirement of a proportionate approach on the facts of this case.  The third ground of appeal also fails.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <num style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">C.</num>
+	  <heading class="ParaLevel1" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Disposal </span></heading>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For these reasons the challenge to the Judge&#8217;s conclusion on the application of section 15(1)(b) of the 2010 Act in this case fails.  The appeal is dismissed.  It follows that the order for interim relief made by Sir Stephen Stewart at paragraph 1 of the Order sealed on 29 July 2024, preventing execution of the order for possession at paragraphs 1 and 2 of the Order of Judge Luba KC (made on 19 March 2024), falls to be discharged.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center;margin-left:0.5in;text-indent:-0.5in">________________________________________</p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

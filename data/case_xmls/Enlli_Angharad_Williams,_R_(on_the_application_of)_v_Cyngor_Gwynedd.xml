@@ -1,0 +1,572 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/437"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/437"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="437"/>
+	  <FRBRname value="Enlli Angharad Williams, R (on the application of) v Cyngor Gwynedd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/437"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/437"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-planning"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/437/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/437/data.xml"/>
+	  <FRBRdate date="2025-02-27T10:06:15" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-planning" href="https://www.gov.uk/courts-tribunals/planning-court" showAs="The Planning Court (King's Bench Division)" shortForm="The Planning Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="enlli-angharad-williams" href="" showAs="ENLLI ANGHARAD WILLIAMS"/>
+	<TLCPerson eId="cyngor-gwynedd" href="" showAs="CYNGOR GWYNEDD"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-pepperall" href="/judge-the-honourable-mr-justice-pepperall" showAs="THE HONOURABLE MR JUSTICE PEPPERALL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Planning</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>437</uk:number>
+	<uk:cite>[2025] EWHC 437 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>58c62ddd7a962f76d99fdd212f8f2141827c0faf1d6f538bfbe5fdb47fa14a3e</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">THE HONOURABLE MR JUSTICE PEPPERALL</span></p>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Approved Judgment</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Williams v Cyngor Gwynedd</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left"><span style="font-family:Garamond;font-size:11pt">Neutral Citation Number: </span><neutralCitation style="font-family:Garamond;font-size:11pt">[2025] EWHC 437 (Admin)</neutralCitation></p>
+      <p class="CoverText"><span style="font-family:Garamond;font-size:11pt">Case No: </span><docketNumber style="font-family:Garamond;font-size:11pt">AC-2024-CDF-000147</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-planning" style="font-family:Garamond;font-size:11pt">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">KING&#8217;S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-planning" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">PLANNING COURT</courtType></p>
+      <p class="CoverText"><span style="font-family:Garamond;font-size:11pt">Cardiff Civil &amp; Family Justice Centre</span></p>
+      <p class="CoverText"><span style="font-family:Garamond;font-size:11pt">2 Park Street, Cardiff CF10 1ET</span></p>
+      <p class="CoverText"><span style="font-family:Garamond;font-size:11pt">Date: </span><docDate date="2025-02-27" refersTo="#judgment" style="font-family:Garamond;font-size:11pt">27 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">Before</span><span style="font-family:Garamond;font-size:11pt"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-pepperall" style="font-family:Garamond;font-size:11pt">THE HONOURABLE MR JUSTICE PEPPERALL</judge></p>
+      <p style="text-align:center"><span style="font-family:Garamond;font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">THE KING</span></p>
+	    <p class="NormalWeb" style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">on the application of </span></p>
+	    <p class="NormalWeb" style="text-align:center"><party refersTo="#enlli-angharad-williams" as="#claimant" style="font-weight:bold;font-family:Garamond;font-size:11pt">ENLLI ANGHARAD WILLIAMS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant" style="font-family:Garamond;font-size:11pt">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#cyngor-gwynedd" as="#defendant" style="font-weight:bold;font-family:Garamond;font-size:11pt">CYNGOR GWYNEDD</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant" style="font-family:Garamond;font-size:11pt">Defendant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:Garamond;font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">Matthew Henderson </span><span style="font-family:Garamond;font-size:11pt">(instructed by</span><span style="font-weight:bold;font-family:Garamond;font-size:11pt"> Browne Jacobson</span><span style="font-family:Garamond;font-size:11pt">) for the </span><span style="font-weight:bold;font-family:Garamond;font-size:11pt">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Garamond;font-size:11pt">John Hunter </span><span style="font-family:Garamond;font-size:11pt">instructed by</span><span style="font-weight:bold;font-family:Garamond;font-size:11pt"> </span><span style="font-family:Garamond;font-size:11pt">and appearing for the </span><span style="font-weight:bold;font-family:Garamond;font-size:11pt">Defendant </span></p>
+      <p style="text-align:center"><span style="font-family:Garamond;font-size:11pt">Hearing dates: 17 December 2024</span></p>
+      <p style="text-align:center"><span style="font-family:Garamond;font-size:11pt">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc"><span style="font-family:Garamond;font-size:12pt">Approved Judgment</span></p>
+      <p class="CoverDesc"><span style="font-weight:normal;font-family:Garamond;font-size:11pt">This judgment was handed down remotely at 10am on 27 February 2025 </span></p>
+      <p class="CoverDesc"><span style="font-weight:normal;font-family:Garamond;font-size:11pt">by circulation to the parties by email and by release to the National Archives.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:Garamond;font-size:11pt">THE HONOURABLE MR JUSTICE PEPPERALL:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:Garamond;font-size:11pt">1.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By this claim for judicial review, Enlli Williams challenges the decision of Gwynedd Council taken on 16 July 2024 to confirm an earlier direction made pursuant to Article 4 of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Town &amp; Country Planning (General Permitted Development) Order 1995</span><span style="font-family:Garamond;font-size:11pt"> (the &#8220;GPDO&#8221;). By an order made on 7 November 2024, His Honour Judge Jarman KC refused permission to apply for judicial review. Ms Williams now renews her application for permission.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:Garamond;font-size:11pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Section 57 of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Town &amp; Country Planning Act 1990</span><span style="font-family:Garamond;font-size:11pt"> provides that planning permission is required for the carrying out of any &#8220;development&#8221; of land. As well as building operations, the term &#8220;development&#8221; is defined by s.55(1) of the Act to include &#8220;the making of any material change in the use of any buildings or other land&#8221;. Section 55(2) provides that a change to use buildings or other land for any other use of the same class does not constitute development.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:Garamond;font-size:11pt">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Different classes of use are specified by the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Town &amp; Country Planning (Use Classes) Order 1987</span><span style="font-family:Garamond;font-size:11pt"> (the &#8220;UCO&#8221;). The UCO was amended by the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Town &amp; Country Planning (Use Classes) (Amendment) (Wales) Order 2022</span><span style="font-family:Garamond;font-size:11pt"> to introduce two new classes, C5 and C6. Ignoring houses in multiple occupation (class C4), there are now three classes of use for dwellinghouses in Wales:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">3.1</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">class C3, being dwellinghouses used as a main residence and occupied for more than 183 days in a calendar year;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">3.2</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">class C5, being dwellinghouses used otherwise than as a sole or main residence and occupied for 183 or fewer days; and </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">3.3</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">class C6, being dwellinghouses that are commercially let for short terms not exceeding 31 days.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Put more colloquially, the amended UCO distinguishes between primary residences (C3); second homes (C5); and short-term holiday lets (C6).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:Garamond;font-size:11pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">At the same time, the GPDO was amended by the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Town &amp; Country Planning (General Permitted Development etc) (Amendment) (Wales) Order 2022</span><span style="font-family:Garamond;font-size:11pt"> to allow as generally permitted development a change of use between classes C3, C5, C6 and mixed use combining either C3 or C5 with C6.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:Garamond;font-size:11pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By Article 4 of the GPDO, if a local planning authority in Wales is satisfied that it is expedient that development in any class should not be carried out unless planning permission is granted on an application, the authority may give a direction that the generally permitted development otherwise granted by the GPDO shall not apply to any development of the class specified in the direction. The effect of a direction under Article 4 is not to prevent development that would otherwise be generally permitted but to require it to be subjected to planning control.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:Garamond;font-size:11pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">On 13 June 2023, the council&#8217;s cabinet decided to make a deferred Article 4 direction revoking the generally permitted development rights for changes of use from C3 to C5, C6 or a mixed use; from C5 to either C6 or a mixed use; from C6 to C5 or a mixed use of C5 and C6; from a mixed use of C3 and C6 to C5, C6 or a mixed use of C5 and C6; and from a mixed use of C5 and C6 to either C5 or C6.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:Garamond;font-size:11pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Put simply, the GPDO would still allow as generally permitted development material changes of use that led to the greater use of a house as a primary residence. Other proposed material changes of use that led to more second homes or more holiday lets would fall outside the GPDO and require planning application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:Garamond;font-size:11pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">After a period of public engagement, the direction was confirmed by a cabinet decision taken on 16 July 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:Garamond;font-size:11pt">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By this application, Ms Williams seeks to argue 5 grounds.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;text-indent:0.14in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">GROUND 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:Garamond;font-size:11pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By her first ground, Ms Williams argues that the council misunderstood the changes to the planning regime in 2022 and failed to take into account the potential for new holiday homes (whether class C5 or class C6) notwithstanding the direction. She argues that the council failed to appreciate that planning permission is only required for material changes of use and that, therefore, the direction would not have the effect of preventing all changes of use to classes C5 and C6.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:Garamond;font-size:11pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The council&#8217;s stated reasons for making and confirming the direction were to gain control of the unrestricted change of use between the new use classes. The council was concerned that the proportion of the housing stock that is not used as a main residence in some parts of Gwynedd is very high. It therefore concluded that it was expedient to make and confirm the direction in order to improve the provision of housing available to meet local need. Such reasons were consistent with the statutory purpose of the GPDO amendment order made in 2022 as explained at para. 4.4 of its explanatory memorandum.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:Garamond;font-size:11pt">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">In developing this ground, Matthew Henderson, who appears for Ms Williams, argues that the council misunderstood planning law and that the cabinet was misled by a number of key documents into believing that the direction would subject all such changes of use to a requirement that planning permission should be obtained:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">12.1</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span style="font-family:Garamond;font-size:11pt">First, he relies on the Officer&#8217;s Report that was put before the council&#8217;s cabinet meeting on 16 July 2024 and specifically the officer&#8217;s observation that the direction would provide an opportunity to assess &#8220;any proposal that involves changing the use of a residential home to holiday use, be that as a holiday let or a second home&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">12.2</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span style="font-family:Garamond;font-size:11pt">Secondly, Mr Henderson relies on the Public Engagement Report that was attached to the Officer&#8217;s Report as an appendix and which asserted that planning consent would be required for a change to use a house as a second home (C5) or to let it as short-term holiday accommodation (C6).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">12.3</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span style="font-family:Garamond;font-size:11pt">Thirdly, he relies on the Equality Impact Assessment which again suggested that planning permission would be required to change from class C3 to either C5 or C6.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Garamond;font-size:11pt;margin-left:0.79in;text-indent:-0.39in">12.4</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.11in"><span style="font-family:Garamond;font-size:11pt">Fourthly, he relies on the public notice of the earlier 2023 decision which asserted that the direction would revoke the right to change the use of a residential dwelling without planning permission.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:Garamond;font-size:11pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Mr Henderson asserts that these documents were inaccurate in that the effect of ss.55 and 57 of the 1990 Act is that planning permission is only required for a material change of use, and accordingly the direction could only affect material changes of use. This was, he submits, a material error of law. He argues that while a specialist planning committee might be expected to understand the true position, the same cannot be said where the decision was taken by the cabinet. Further, he argues that the council thereby failed to take into account a mandatory material consideration, namely that the direction could only control material changes of use.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:Garamond;font-size:11pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Mr Henderson argues that these errors went to the efficacy of the direction such that it cannot be said that the outcome would in any event have been the same. The misconceived ability to control changes of use was a critical part of the council&#8217;s reasoning.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:Garamond;font-size:11pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">John Hunter, who appears for the council, rightly reminds me that the court should be vigilant to guard against excessive legalism and submits that the Officer&#8217;s Report should not be subjected to minute legal dissection: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Mansell v. Tonbridge &amp; Malling Borough Council</span><span style="font-family:Garamond;font-size:11pt"> [2017] EWCA Civ 1314, [2019] P.T.S.R. 1452. He argues that such reports are addressed to council members who should be regarded as a knowledgeable readership.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:Garamond;font-size:11pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Mr Hunter submits that the Officer&#8217;s Report said in terms that the direction would not prevent &#8220;development&#8221; but it meant that planning permission would be required. That was correct, since a change of use would not amount to &#8220;development&#8221; within the meaning of the 1990 Act unless it was material.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:Garamond;font-size:11pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Mr Hunter submits that the cabinet would have been well aware of the basic principle that planning permission was only required for material changes of use and of the effect of the Court of Appeal&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Moore v. Secretary of State for Communities &amp; Local Government</span><span style="font-family:Garamond;font-size:11pt"> [2012] EWCA Civ 1202 since these matters had been the subject of an earlier paper in 2020. Further, he argues that in practice the courts have in the past been closely guided by use classes in determining whether a material change of use has occurred.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:Garamond;font-size:11pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">In any event, he argues that the main purpose of the 2022 legislation was to have greater control over changes of use of residential property and that new use classes radically altered the landscape. A change to use a primary residence as a second home or holiday home involves a change of use class and is no longer deemed by s.55(2) not to constitute development. Accordingly, it is inevitable that the direction will allow the council to control changes of use of the kind that it was previously unable to control. It is, Mr Hunter submits, unthinkable that the direction would not have been made in any event.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:Garamond;font-size:11pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">In my judgment, the direction cannot of itself require planning permission to be required for a change of use unless such change of use is material. While the Act excludes from the definition of development (and therefore the requirement to obtain planning permission) changes between uses within a single use class, the UCO does not operate so as to treat a change from one use class to another as a material change of use: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Ipswich Borough Council v. Fairview Hotels (Ipswich) Ltd</span><span style="font-family:Garamond;font-size:11pt"> [2022] EWHC 2868 (KB), at [70]-[71]; </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Rann v. Secretary of State for the Environment</span><span style="font-family:Garamond;font-size:11pt"> (1979) 40 P. &amp; C.R. 113.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:Garamond;font-size:11pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Further, even after the making of the direction, it is properly arguable that a change of use from residential to commercial letting as holiday accommodation would not automatically amount to a material change of use such that planning permission would always be required. In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Moore</span><span style="font-family:Garamond;font-size:11pt">, Sullivan LJ explained, at [27]:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">&#8220;Starting from first principles, without the assistance of any authority, whether the use of a dwellinghouse for commercial letting as holiday accommodation amounts to a material change of use will be a question of fact and degree in each case, and the answer will depend upon the particular characteristics of the use as holiday accommodation. Neither of the two extreme propositions - that using a dwellinghouse for commercial holiday lettings will always amount to a material change of use, or that use of a dwellinghouse for commercial holiday lettings can never amount to a change of use - is correct.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:Garamond;font-size:11pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Thus, the 2022 reforms might not completely control changes of use from C3 or C5 to C6 or to a mixed use. Since materiality is a matter of fact and degree, it may well be that many mixed-use cases will not be affected by the direction. Equally, in my judgment, it is impossible to say that a change of use from C3 to C5 will necessarily amount to a material change of use. Indeed, some such changes of use might involve no more than a very modest change in the number of days that the house is occupied as a home.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:Garamond;font-size:11pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">While one might expect a specialist planning committee to appreciate that only material changes of use between different classes require planning permission (see, for example, </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">R v. Selby District Council, ex parte Oxton Farms</span><span style="font-family:Garamond;font-size:11pt"> [2017] P.T.S.R. 1103, at 1110G) it is at least arguable that the same is not true of the broader cabinet. Further, it is arguable that the position is not saved by reliance on a report from December 2020 that was not put before the cabinet in July 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:Garamond;font-size:11pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Against that, the Officer&#8217;s Report to the cabinet expressly referred to changes to &#8220;generally permitted development&#8221; and to the control of &#8220;development proposals&#8221;. Properly understood by a well-informed readership, those were references to development that might &#8211; unless generally permitted &#8211; require planning permission. Nevertheless, it is properly arguable that the cabinet was misled as to the law and therefore as to the efficacy of the direction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:Garamond;font-size:11pt">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">It may be that at a full hearing the court might be persuaded that it is highly likely that any such error would have made no substantial difference. Given, however, that the arguable error in this case went to the very heart of the efficacy of the policy, I am just persuaded that I cannot reach such conclusion to the required standard at this permission stage. I therefore grant permission to apply for judicial review and leave further consideration of s.31 of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">Senior Courts Act 1981</span><span style="font-family:Garamond;font-size:11pt"> to the full hearing.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">GROUND 2</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:Garamond;font-size:11pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By her second ground, Ms Williams argues that the council was misdirected about or misunderstood the effect of the direction on the provision of affordable housing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:Garamond;font-size:11pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Mr Henderson relies on the statement in the Officer&#8217;s Report that the main objective of the policy was to overturn social inequality by seeking to ensure that &#8220;a provision of housing (including affordable housing) is available to meet local need&#8221;. He argues that the term &#8220;affordable housing&#8221; was being used as a term of art and therefore meant housing where there were secure mechanisms in place to ensure that it remains accessible in perpetuity to those who cannot afford market housing. Mr Henderson submits that the direction could not deliver affordable housing as so understood. Further, if contrary to his primary submission, the report could be construed as referring only to the possibility that housing might be made cheaper, he argues that such conclusion was not supported by the evidence before the cabinet.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:Garamond;font-size:11pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">In my judgment, there is no merit in this ground. There is a tension between grounds 1 and 2; whereas in ground 1 Ms Williams argues that the cabinet was misled since it was not advised of the basic planning principle that only material changes of use could be controlled by  the direction, here it is argued that the cabinet was misled because it can be assumed to have understood the term &#8220;affordable housing&#8221; in a technical sense. Properly read, the reports were not referring to the creation of additional housing stock that could be designated and secured as affordable housing in such technical sense. Rather, the point being made was far more straightforward. The direction would allow greater planning control of changes of use that would have the effect of preventing the depletion of the housing stock available for local need as principal residences, and might thereby contribute to making such housing more affordable. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:Garamond;font-size:11pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Mr Henderson is right to submit that the direction is not a mechanism which could secure affordable housing in the technical sense. It is, however, inconceivable that the cabinet were misled into thinking that the direction, which was simply concerned with a modification to generally permitted development rights, could have done so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:Garamond;font-size:11pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">As to the likely effect on house prices, the Justification Paper was cautious. It reported at para. 7.1:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">&#8220;As the implementation of the Article 4 Direction in this manner is unprecedented, it is not possible to predict or measure the implications that could arise from its implementation. Inevitably, it is likely that intervention by introducing an Article 4 Direction and, therefore controlling the use made of residential units, would have a (possibly minimal) effect on the value of the property on the open market. It was noted in part 5 that research carried out in Northumberland in relation to the implementation of a main place of residence condition on new houses, found that a property with a main place of residence condition on it, would be equivalent to 95% of its value on the open market. Therefore, it is inevitable that the Article 4 Direction would have a similar effect on house prices.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:Garamond;font-size:11pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Against that, the Public Engagement Report noted that average property prices in Gwynedd had increased since the Article 4 direction was first proposed, albeit on a lower volume of sales. Further, the report noted that a similar control mechanism in Edinburgh had not affected average property prices in the following year. The report concluded:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">&#8220;It is difficult to measure the true impact of introducing the proposed Article 4 Direction on property value, mainly because there are several factors that can influence value. Should a property&#8217;s value fall after implementing the Article 4 Direction, we consider that it would be difficult to conclude indisputably that this is attributed directly to the implementation of the Article 4 Direction.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:Garamond;font-size:11pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The Justification Report identified that the housing situation in Gwynedd was &#8220;critical&#8221; and that 65.5% of the local population had been priced out of the housing market.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:Garamond;font-size:11pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The Officer&#8217;s Report carefully directed attention to the Public Engagement Report and to the issue of the possible effect on house prices. At para. 3.2.19, the officer reported:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">&#8220;With regard to decreasing the value of properties, research has been conducted looking at how similar mechanisms have affected property value in other areas - the research concluded that there was no distinct pattern evident.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:Garamond;font-size:11pt">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Accordingly, the reports put before the cabinet properly accepted that there might be minimal effect on property values and that it was difficult to predict the impact. In my judgment, it is not properly arguable that the cabinet was misled into believing otherwise.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;text-indent:0.14in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">GROUND 3</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:Garamond;font-size:11pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By her third ground, Ms Williams argues that the council unlawfully failed to consider the relevant planning policy of promoting and supporting holiday accommodation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:Garamond;font-size:11pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The argument is that the council failed to consider the Joint Local Plan which provided:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">&#8220;Whilst ensuring compatibility with the local environment and communities and ensuring the protection of the natural, built and historic environment the Councils will support the development of a year-round local tourism industry &#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:Garamond;font-size:11pt">36.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">This ground is totally without merit. The policy document TWR2 provided that proposals for the conversion of existing buildings into holiday accommodation would be permitted provided, among other matters, the proposal would not result in a loss of permanent housing stock; the development was not sited within a primarily residential area and would not cause significant harm to the residential character of the area; and the development would not lead to an over-concentration of holiday accommodation. Far from being at odds with such policies, the direction allows the council to subject proposals for material changes of use to create more holiday lets to planning control which is the proper means by which policy TWR2 might be applied.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;text-indent:0.14in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">GROUND 4</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:Garamond;font-size:11pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">By her fourth ground, Ms Williams argues that the council failed to take into account evidence as to the existing use of the Welsh language.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:Garamond;font-size:11pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The Justification Paper noted a correlation between lower rates of Welsh speakers and high levels of holiday accommodation. The Public Engagement Report observed that protecting housing stock to ensure that there is adequate provision to meet local needs would ensure that there is a permanent population within local communities. It observed that it was &#8220;hoped&#8221; that sustaining local communities would contribute to the prevalence of the Welsh language. It added:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:Garamond;font-size:11pt">&#8220;Creating sustainable communities where the Welsh language is fully immersed within communities and providing and replicating the necessary social context for using the Welsh language as part of the normal fabric of society, is essential in order to protect and encourage the growth of the Welsh language. With the Welsh Government&#8217;s commitment to reach a million Welsh speakers by 2050, the ability to have better control of the housing stock and subsequently ensure that there is an adequate and affordable provision of housing for local people is a way of supporting this goal.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:Garamond;font-size:11pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The Equality Impact Assessment concluded that the direction would have a positive impact on the Welsh language.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:Garamond;font-size:11pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Against that, the Objectors&#8217; Report presented evidence that the direction was not necessary to protect the Welsh language. It pointed to a reduction of just 1% in Welsh-speaking local residents from 65.4% to 64.4% over the ten years to 2021, and observed that the rate of loss of Welsh speakers was lower in Gwynedd than nationally. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:Garamond;font-size:11pt">41.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">I agree with Judge Jarman that there is no merit in this ground. As he observed, this was not an exercise in precision and the council was entitled to conclude that the direction would assist in encouraging the growth, or at least in arresting the decline, in the use of the Welsh language and thereby of promoting the Welsh Government&#8217;s aim of achieving one million Welsh speakers. Any policy that might free up more of the housing stock for people who want to live and work in Gwynedd plainly might assist in protecting and encouraging the use of the Welsh language.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;text-indent:0.14in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">GROUND 5</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:Garamond;font-size:11pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">Finally, by her fifth ground, Ms Williams argues that the council misinterpreted national policy requiring exceptional circumstances to be demonstrated to justify the removal of generally permitted development rights.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:Garamond;font-size:11pt">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">The council recognised this requirement and concluded that there was a crisis in respect of the very substantial proportion of the housing stock that was neither available nor affordable for local people  to buy as their primary residences, and that such crisis amounted to exceptional circumstances. There was evidence before the council that in some parts of the council area more than one third and even as much as half of the housing stock was being used as holiday accommodation. It is not arguable that the council erred in regarding that to be an exceptional circumstance that justified the making of the direction.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in;text-indent:0.14in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Garamond;font-size:11pt">OUTCOME</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:Garamond;font-size:11pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:Garamond;font-size:11pt">I therefore grant permission to apply for judicial review on ground 1, but refuse permission on each of grounds 2-5.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

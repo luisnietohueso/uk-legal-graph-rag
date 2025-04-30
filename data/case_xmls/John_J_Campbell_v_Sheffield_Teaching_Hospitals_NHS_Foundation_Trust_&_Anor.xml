@@ -1,0 +1,431 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/42"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/42"/>
+	  <FRBRdate date="2025-03-27" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="42"/>
+	  <FRBRname value="John J Campbell v Sheffield Teaching Hospitals NHS Foundation Trust &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/42"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/42"/>
+	  <FRBRdate date="2025-03-27" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/42/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/42/data.xml"/>
+	  <FRBRdate date="2025-04-11T12:10:27" name="transform"/>
+	  <FRBRdate date="2025-04-11T12:31:51" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCPerson eId="mr-john-j-campbell" href="" showAs="MR JOHN J CAMPBELL"/>
+	<TLCPerson eId="sheffield-teaching-hospitals-nhs" href="" showAs="SHEFFIELD TEACHING HOSPITALS NHS"/>
+	<TLCPerson eId="foundation-trust" href="" showAs="FOUNDATION TRUST"/>
+	<TLCPerson eId="mr-wesley-hammond" href="" showAs="MR WESLEY HAMMOND"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>42</uk:number>
+	<uk:cite>[2025] EAT 42</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>1b992ca7d7fcdb49a06716d08d4d006826748d6448636773b6c430222942e656</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for a hand down</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Campbell v Sheffield Teaching North Hospital &amp; Hammond</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 42</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-001363-JOJ</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: 27 March 2025 (original Judgment)</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: 11 April 2025 (revised Judgment)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HON. LORD FAIRLEY, PRESIDENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#mr-john-j-campbell"><span style="font-weight:bold;font-size:12pt">MR JOHN J CAMPBELL</span></party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">1)</num>
+	<p style="text-indent:0.5in"><party as="#respondent" refersTo="#sheffield-teaching-hospitals-nhs" style="font-weight:bold;font-size:12pt">SHEFFIELD TEACHING HOSPITALS NHS</party></p>
+      </blockContainer>
+      <p style="text-align:center"><party as="#respondent" refersTo="#foundation-trust" style="font-weight:bold;font-size:12pt">FOUNDATION TRUST</party></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">2)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#respondent" refersTo="#mr-wesley-hammond" style="font-weight:bold;font-size:12pt">MR WESLEY HAMMOND</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondents</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Simon Cheetham K.C. </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Thompsons Solicitors LLP</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Sam Proffitt</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">,</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">of Counsel</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DAC Beachcroft</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">1</span><span style="font-weight:bold;vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">st</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 20 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">REVISED</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Race discrimination; conduct &#8220;in the course of&#8221; employment; employer&#8217;s defence of &#8220;all reasonable steps&#8221; to prevent discrimination</span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">The appellant was employed by the first respondent and worked on a full-time basis as Branch Secretary of a recognised union. The second respondent, who was also an employee of the first respondent, had been a member of the union but had decided that he wanted to leave. During a discussion between the appellant and the second respondent about ongoing deduction of union subscriptions from his wages, the second respondent became angry and made a remark to the appellant which was capable of amounting to racist abuse. The tribunal found that the remark had been made, but concluded on the evidence that it had not been made &#8220;in the course of&#8221; the second respondent&#8217;s employment in terms of section 109(1) of the </span><span style="font-weight:bold;font-size:12pt">Equality Act, 2010</span><span style="font-size:12pt">. It also found that, in terms of section 109(4), the first respondent had taken all reasonable steps to prevent the second respondent from making the remark or from doing anything of that description. </span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">The appellant submitted that the tribunal had erred in law (i) in its application of section 109(1) by focussing solely on what was said rather than looking at on the totality of the facts; and (ii) in its application of section 109(4) by failing to ask the second of the two questions referred to in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe v. East Riding of Yorkshire Council</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2000] IRLR 555" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] IRLR 555</ref>.</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Held, refusing the appeal:</span></heading>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-size:12pt">The tribunal had not reached its decision under section 109(1) solely on the basis of what was said. Rather, it had considered the whole context and balanced the factors for and against the argument that the comment was made &#8220;in the course of&#8221; the second respondent&#8217;s employment. The weight it attributed to those factors was pre-eminently a matter for the tribunal as an industrial jury.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-size:12pt">The tribunal had also correctly considered and applied the terms of the section 109(4) defence. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HON. LORD FAIRLEY, PRESIDENT:</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Introduction and procedural history</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">This is an appeal from a judgment dated 14 October 2022 of an employment tribunal (Employment Judge Cox sitting with two lay members) at Sheffield.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In a claim form presented on 18 March 2021, the appellant made a complaint that he had been racially abused (and thus harassed) by the second respondent on 20 October 2020. The appellant submitted that the first respondent was liable for that harassment in terms of section 109(1) of the </span><span style="font-weight:bold;font-size:12pt">Equality Act, 2010</span><span style="font-size:12pt">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Following a full hearing over three days between 6 and 8 September 2022, the tribunal dismissed the appellant&#8217;s complaints against both respondents. It did so because it concluded that although the comment in question had been made by the second respondent as described by the appellant, it was not made in the course of the second respondent&#8217;s employment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The appellant&#8217;s appeal against that decision was presented on 1 November 2023, and was allowed to proceed to a full hearing. The full hearing Orders required each respondent lodge and serve an Answer to the appeal within 28 days of 1 November 2023. The second respondent did not do so. By Order of the Registrar dated 1 August 2024, the second respondent was, therefore, debarred from taking any further part in this appeal. The first respondent has lodged an Answer and Grounds of Resistance to the appeal. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Relevant facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At the time to which the complaints related, the appellant was employed by the first respondent. He worked on a full-time basis as Branch Secretary of a recognised union, UNISON. The second respondent was also an employee of the first respondent. The appellant had an office in the same part of the first respondent&#8217;s premises as that in which the second respondent worked as a domestic assistant. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The second respondent was formerly a member of the union, but had decided that he wanted to leave. In spite of having intimated this to the union, membership subscriptions were still being deducted from his wages by check-off. He had spoken to the first respondent&#8217;s HR and payroll departments and had been told that he needed to speak to the union directly. Prior to 12 October 2020, the second respondent had spoken to the appellant on several occasions to complain about the ongoing deduction of subscriptions (ET &#167; 6).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">On 12 October 2020, the second respondent went to the appellant's office during a break from his work to discuss the subscription issue. He told the appellant that he wanted the subscriptions that had been deducted to be refunded. The appellant told him that he would not be reimbursed. The second respondent left the office but returned shortly afterwards to continue pressing the issue (ET &#167; 6 and 7). In the course of that second meeting, the second respondent became angry and repeatedly referred to the appellant as a &#8220;fucking muppet&#8221;.  As his frustration grew, he then referred to the appellant as a &#8220;fucking monkey&#8221; (ET &#167; 12-15). The potential significance of this, the tribunal noted, was that appellant is black and the second respondent is white.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The tribunal accepted (ET &#167; 8) that there were several connections between the incident and the fact that the second respondent was employed by the first respondent. It took place during the second respondent&#8217;s working day, albeit during a break. It happened in an office that was situated a few hundred metres from the ward on which the second respondent mainly worked. It related to the deduction of subscriptions for union membership that entitled the second respondent to the support of a union recognised by the first respondent and in which the appellant had an important role.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">The tribunal&#8217;s reasons</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Looking at the evidence as a whole, however, the tribunal concluded that the incident was not &#8220;in the course of&#8221; the second respondent&#8217;s employment. The tribunal noted that the second respondent did not have to be a union member to be employed by the first respondent. His membership was a matter of personal choice. The conversation in which the comment was made related to a personal dispute he had with the union about deduction of subscriptions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The core of the tribunal&#8217;s reasons on this issue is seen at ET &#167; 9 where it stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in">&#8220;The tribunal does not accept that the legislative intention was to hold an employer liable for abuse that might occur in a conversation between a union official and a union member about union membership matters, even if it did happen on the employer's premises and during working hours. The tribunal finds that, applying the ordinary, everyday meaning of the term &#8220;during the course of employment&#8221;, the interaction between Mr Hammond and Mr Campbell did not occur during the course of the Mr Hammond&#8217;s employment by the Trust.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In the alternative, the tribunal found that the first respondent had, in any event, taken all reasonable steps to prevent the comment being made. It listed the steps taken at ET &#167; 18. They were:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.51in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in"><span style="font-size:12pt">an induction session attended by the second respondent at which the issue of &#8220;acceptable behaviour at work&#8221; and the first respondent&#8217;s core values of &#8220;affording dignity, trust and respect to everyone&#8221; (referred to as &#8220;the PROUD values&#8221; were emphasised;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.51in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in"><span style="font-size:12pt">annual performance assessment of the second respondent which covered the issue of whether the second respondent was acting in accordance with PROUD values;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.51in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in"><span style="font-size:12pt">the display of the PROUD values on posters in areas where the second respondent worked; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.51in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in"><span style="font-size:12pt">mandatory training of the second respondent on equality and diversity issues every three years, most recently on 1 October 2020, when training was conducted in small groups and involved the second respondent going through a PowerPoint presentation. The presentation referred to the promotion of &#8220;a positive attitude towards equality and diversity by showing respect for others, valuing people's differences and treating people with dignity&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At ET &#167; 19 the tribunal stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in">&#8220;These findings are sufficient for the Tribunal to accept that the Trust took all reasonable steps to prevent Mr Hammond abusing his colleagues, including although not limited to, racially abusing them. If the Tribunal had accepted that Mr Hammond had made the monkey (<span style="font-style:italic">sic</span>) in the course of employment, it would have concluded that the Trust was not liable for it because it had taken all reasonable steps to prevent Mr Hammond committing acts of racial abuse.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Finally, at ET &#167; 20-25, the tribunal considered a further aspect of the appellant&#8217;s case related to the way in which the first respondent dealt with his grievance about the second respondent. The tribunal&#8217;s conclusions on that issue are not an issue in this appeal. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">The grounds of appeal and appellant&#8217;s submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The first of two grounds of appeal is that the tribunal, having correctly directed itself on the terms of section 109(1) of the </span><span style="font-weight:bold;font-size:12pt">Equality Act, 2010</span><span style="font-size:12pt">, erred in focussing solely on what was said rather than on the totality of the facts. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Senior counsel submitted that the tribunal had placed too much weight upon what it described as the &#8220;personal&#8221; content of the conversation. This, it was submitted, had led it to disregard important factors that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.98in;text-indent:-0.49in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-size:12pt">the incident occurred during working hours and in the workplace;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.98in;text-indent:-0.49in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-size:12pt">there was a </span><span style="font-style:italic;font-size:12pt">nexus </span><span style="font-size:12pt">between the second respondent&#8217;s employment and his trade union membership, in that the membership arose from his employment;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.98in;text-indent:-0.49in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-size:12pt">the subscription entitled the second respondent to support from the union, as a union recognised by the first respondent; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.98in;text-indent:-0.49in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in"><span style="font-size:12pt">the subscriptions were taken by &#8220;check-off&#8221; thereby linking them to his overall remuneration.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt"> It was accepted that the statutory test was not satisfied merely because, but for the employment relationship, the incident would not have occurred</span><span style="font-style:italic;font-size:12pt">.</span><span style="font-size:12pt"> The proscribed conduct had to be &#8220;in the course of&#8221; the employment. Senior counsel was clear, however, that this ground was not advanced as a perversity challenge. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The second ground of appeal relates to the tribunal&#8217;s conclusion that the first respondent took all reasonable steps to prevent the second respondent from abusing his colleagues. Specifically, the appellant submits that the tribunal did not follow the two-stage approach required by </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe v. East Riding of Yorkshire Council</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2000] IRLR 555" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] IRLR 555</ref>. It asked itself only what steps the employer had taken &#8211; the first </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe</span><span style="font-size:12pt"> question &#8211; but had then failed to ask itself whether there were any further preventative steps that the first respondent could have taken that were reasonably practicable. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Submissions for the first Respondent </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt"> Counsel for the respondent submitted that on a fair reading of the tribunal&#8217;s reasons as a whole, it had clearly taken account of all of the evidence, including the factors founded upon by the appellant. Applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Jones v. Tower Boot Company Limited</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1997] ICR 254" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] ICR 254</ref>, the question of whether or not the incident occurred in the course of the second respondent&#8217;s employment was a factual question for the tribunal as the industrial jury (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Jones</span><span style="font-size:12pt"> at page 265 C-D per Waite LJ).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Within ET &#167; 5 to 9, the tribunal had plainly considered and balanced all potentially relevant factors and had come to a factual conclusion that was open to it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">On the question of the statutory defence, it was clear from the tribunal&#8217;s reasons at ET &#167; 16 to 19 that the tribunal had indeed properly considered the whole of the statutory test and concluded that the first respondent had taken </span><span style="font-style:italic;font-size:12pt">all </span><span style="font-size:12pt">reasonable steps. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">It was important to recognise that </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe</span><span style="font-size:12pt"> was a case where the tribunal had concluded that the employer had taken </span><span style="font-style:italic;font-size:12pt">some </span><span style="font-size:12pt">steps, and that the steps taken were reasonable. That was clearly an error of law. The tribunal&#8217;s reasons in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe</span><span style="font-size:12pt"> were, however, materially different to the reasons given by this tribunal. In particular, at ET &#167; 16 and 17, the tribunal clearly and correctly identified the statutory defence under section 109(4) as &#8220;all reasonable steps&#8221;. It then listed the steps taken by the first respondent and accepted &#8220;that the Trust took all reasonable steps&#8221;. That was a legitimate conclusion, particularly where no further potential steps had been identified either in the evidence or in submissions.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Section 109(1) of the </span><span style="font-weight:bold;font-size:12pt">Equality Act, 2010 </span><span style="font-size:12pt">states:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.5in;margin-right:0.59in;text-indent:0.5in">&#8220;<span style="font-weight:bold">109 Liability of employers and principals</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:1.25in;text-indent:-0.25in">(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.25in;margin-right:0.59in;text-indent:0.12in">Anything done by a person (A) in the course of A&#8217;s employment must be treated as also done by the employer&#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify"><span style="font-size:12pt">Subsection (3) provides that it does not matter whether the thing was done with the employer&#8217;s knowledge or approval. Subsection (4), however, provides the employer with a defence if it can show that it took all reasonable steps to prevent A from doing the thing in question or anything of that description.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Jones v. Tower Boot Company Limited</span><span style="font-size:12pt"> , Waite LJ  (with whom Potter LJ agreed) stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in">&#8220;The tribunals are free, and are indeed bound, to interpret the ordinary, and readily understandable, words &#8220;in the course of his employment&#8221; in the sense in which every layman would understand them. This is not to say that when it comes to applying them to the infinite variety of circumstances which is liable to occur in particular instances &#8211; within or without the workplace, in or out of uniform, in or out of rest-breaks &#8211; all laymen would necessarily agree as to the result. That is what makes their application so well suited to decision by an industrial jury. The application of the phrase will be a question of fact for each industrial tribunal to resolve, in light of the circumstances presented to it, with a mind unclouded by any parallels sought to be drawn from the law of vicarious liability in tort.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe</span><span style="font-size:12pt"> the Employment Appeal Tribunal held that the correct approach to the section 109(4) defence was for the tribunal first to consider whether the respondent employer took any steps to prevent the employee from doing the act complained of in the course of his employment, and then to consider whether there were any further reasonable steps that could have been taken.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Analysis and decision</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-size:12pt">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The appellant has expressly disavowed any suggestion that the first ground of appeal is based upon an argument that, on the facts found by the tribunal, its conclusion was perverse. This ground rests instead upon a suggestion that the tribunal placed too much weight on what was said, and thus ignored (or minimised) the significance of certain other factors. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Given what was said by the tribunal at ET &#167; 8 and 9, I do not accept the submission that it ignored any of the factors relied upon by the appellant. It was clearly well aware of all of those matters. The tribunal balanced the factors for and against the argument that the comment was made in the course of the second respondent&#8217;s employment. The weight it attributed to those factors was pre-eminently a matter for the tribunal as an industrial jury. Correctly, it did not approach its task by asking simply whether the conduct was related to an employment relationship. Correctly, it focussed on the wording of section 109(1). The factors identified by it within ET &#167; 8 and 9 justified its decision. As was noted in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Jones</span><span style="font-size:12pt">, a different tribunal might equally properly have come to a different conclusion. I agree with the respondent&#8217;s submission that a challenge to the tribunal&#8217;s factual finding would have had to be based upon perversity. No such challenge is made, nor could it be. Inevitably, therefore, this ground must fail. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-size:12pt">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt"> Since the first ground does not succeed, the second is moot. For completeness, however, I did not find it persuasive. The tribunal made a factual finding that, only days before the incident, the first respondent provided the second respondent with mandatory equality and diversity training in a small group. Whilst the tribunal did not express itself in terms of the two-stages of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Canniffe</span><span style="font-size:12pt">, it is clear enough that it properly self-directed on the statutory defence of &#8220;all reasonable steps&#8221; and made a positive finding at ET &#167; 9 that the respondent had discharged the burden of proving that defence. That is an entirely understandable conclusion, particularly where no further steps that could have been taken were suggested either in the evidence or referred to in submissions to the tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-size:12pt">Conclusion </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">For these reasons, the appeal is refused.  </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

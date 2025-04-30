@@ -1,0 +1,954 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/919"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/919"/>
+	  <FRBRdate date="2025-04-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="919"/>
+	  <FRBRname value="Sheikh Mohammed Omar Kassem Alesayi v Bank Audi S.A.L."/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/919"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/919"/>
+	  <FRBRdate date="2025-04-15" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/919/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/919/data.xml"/>
+	  <FRBRdate date="2025-04-15T09:43:06" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sheikh-mohammed-omar-kassem" href="" showAs="SHEIKH MOHAMMED OMAR KASSEM"/>
+	<TLCPerson eId="alesayi" href="" showAs="ALESAYI"/>
+	<TLCPerson eId="bank-audi-sal" href="" showAs="BANK AUDI S.A.L."/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-mr-justice-dexter-dias" href="/judge-mr-justice-dexter-dias" showAs="Mr Justice Dexter Dias"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>919</uk:number>
+	<uk:cite>[2025] EWHC 919 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>cdc865a5671847a40d12b9cb0ff7acf5e9f0ce8189ffa9c44f65a125ece84bd5</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Garamond; font-size: 12pt; }
+#judgment .Normal { font-family: Garamond; font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: Garamond; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Garamond; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaHeading { font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: Garamond; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: Garamond; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-family: Garamond; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-family: Garamond; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-family: Garamond; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-family: Garamond; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Garamond; font-size: 12pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: Garamond; font-size: 12pt; color: #2F5496; }
+#judgment .TOCHeading { font-weight: bold; font-size: 14pt; color: #2F5496; }
+#judgment .TOC1 { font-weight: bold; text-transform: uppercase; font-size: 10pt; }
+#judgment .TOC2 { margin-left: 0.17in; font-variant: small-caps; font-size: 10pt; }
+#judgment .TOC3 { margin-left: 0.33in; font-style: italic; font-size: 10pt; }
+#judgment .TOC4 { margin-left: 0.5in; font-size: 9pt; }
+#judgment .TOC5 { margin-left: 0.67in; font-size: 9pt; }
+#judgment .TOC6 { margin-left: 0.83in; font-size: 9pt; }
+#judgment .TOC7 { margin-left: 1in; font-size: 9pt; }
+#judgment .TOC8 { margin-left: 1.17in; font-size: 9pt; }
+#judgment .TOC9 { margin-left: 1.33in; font-size: 9pt; }
+#judgment .BodyText { text-align: justify; margin-left: 0.03in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-family: Garamond; font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: Garamond; font-size: 12pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .ListParagraphChar { font-family: Garamond; font-size: 12pt; }
+#judgment .BodyTextChar { font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 919 (KB)</neutralCitation></p>
+      <p class="BodyText" style="text-align:right;margin-left:0.03in">Appeal Ref: KA-2024-000195</p>
+      <p class="BodyText" style="text-align:right;margin-left:0.03in">Case No. <docketNumber>KB-2023-001038</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">KING'S BENCH DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-15" refersTo="#judgment">15/04/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Before</span><span style="font-family:'Times New Roman'"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-mr-justice-dexter-dias" style="font-family:'Times New Roman'">Mr Justice Dexter Dias </judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#sheikh-mohammed-omar-kassem" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">SHEIKH MOHAMMED OMAR KASSEM</party></p>
+	    <p style="text-align:center"><party refersTo="#alesayi" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">ALESAYI</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Claimant/</role></p>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent </role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">- and &#8211;</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#bank-audi-sal" as="#appellant" style="font-weight:bold;font-family:'Times New Roman'">BANK AUDI S.A.L.</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Defendant/</role></p>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Bobby Friedman and Caspar Bartscherer </span><span style="font-family:'Times New Roman'">(instructed by</span><span style="font-weight:bold;font-family:'Times New Roman'"> Bryan Cave Leighton Paisner LLP</span><span style="font-family:'Times New Roman'">) for the </span><span style="font-weight:bold;font-family:'Times New Roman'">Claimant/Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Ian Wilson KC and Rebecca Zaman</span><span style="font-family:'Times New Roman'"> (instructed by </span><span style="font-weight:bold;font-family:'Times New Roman'">Dechert LLP</span><span style="font-family:'Times New Roman'">) for the </span><span style="font-weight:bold;font-family:'Times New Roman'">Defendant/Appellant</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Hearing dates: 4 March 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">(</span><span style="font-style:italic;font-family:'Times New Roman'">Judgment circulated in draft: 7 April 2025</span><span style="font-family:'Times New Roman'">)</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p class="CoverDesc"><span style="font-size:12pt">JUDGMENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Remote hand-down: this judgment was handed down remotely at 10.30 am on 15 April 2025 by circulation to the parties or their representatives by e-mail</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">and release to the National Archives.</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:10pt">THE HON. MR JUSTICE DEXTER DIAS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman'">Mr Justice Dexter Dias :</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman'">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">This is the judgment of the court on costs following the court&#8217;s substantive appeal judgment ([2025] EWHC 440 (KB) (the &#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">appeal judgment</span><span style="font-family:'Times New Roman'">&#8221;)). It must be read in conjunction with that judgment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman'">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">There the court reversed several orders made by Master McCloud (the </span><span style="font-weight:bold;font-family:'Times New Roman'">&#8220;McCloud order&#8221;</span><span style="font-family:'Times New Roman'">) when she granted disclosure of a wide range of material in a Part 11 jurisdiction challenge. The appealed orders were made under the Civil Procedure Rules 1998 ("</span><span style="font-weight:bold;font-family:'Times New Roman'">CPR</span><span style="font-family:'Times New Roman'">") Parts 31.12 and 31.14 on 29 July 2024 by Master McCloud. On 27 September 2024, Master Armstrong awarded the claimant costs in the disclosure hearing (the &#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">Armstrong order</span><span style="font-family:'Times New Roman'">&#8221;). The costs now incurred between the parties on appeal and below exceed &#163;1 million, a dismayingly vertiginous figure, when the clearest possible indication from the most senior courts emphasises repeatedly the high degree of need for a parsimonious approach to the determination of jurisdictional challenges.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman'">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">As before, the claimant in the main action and respondent in the appeal is a Saudi Arabian national who has become a British citizen having previously been granted indefinite leave to remain in the UK) the &#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">respondent</span><span style="font-family:'Times New Roman'">&#8221;). The appellant/defendant (the </span><span style="font-weight:bold;font-family:'Times New Roman'">&#8220;appellant</span><span style="font-family:'Times New Roman'">&#8221; or the </span><span style="font-weight:bold;font-family:'Times New Roman'">&#8220;Bank</span><span style="font-family:'Times New Roman'">&#8221;) is a joint stock company based in Beirut, Lebanon that provides banking services (&#8220;S.A.L.&#8221; denoting &#8220;Soci&#233;t&#233; Anonyme Libanaise&#8221;, a recognised Lebanese corporate structure). The appellant is represented by Mr Wilson KC and Ms Zaman of counsel; the respondent by Mr Friedman and Mr Bartscherer of counsel. The court remains grateful to all counsel for their invaluable assistance.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">I</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Brief background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman'">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The respondent holds ten accounts (both in US dollars (&#8220;USD&#8221;) and Lebanese pounds) with the defendant Lebanese bank. By a letter dated 22 August 2022, the respondent asked the Bank to transfer certain of his funds to bank accounts at his nomination in Switzerland. By a letter dated 5 September 2022, the Bank refused to comply with the transfer request. The respondent states that he is a consumer domiciled in the UK and has a consumer contract for banking services with the appellant. As such, and because, he maintains, the appellant directed banking services to the UK, he is entitled to serve the appellant out of the jurisdiction as of right. He seeks, as a matter of Lebanese law, a mandatory order (specific performance) from this court requiring the appellant to transfer the full USD balances from Lebanon to his nominated accounts in Geneva.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman'">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">For its part, the appellant disputes the jurisdiction of the English court. It filed a jurisdiction challenge under CPR Part 11 on 25 July 2023. The Bank challenges the court&#8217;s jurisdiction on the basis that the claimant&#8217;s banking contract is not a &#8220;consumer contract&#8221; within the meaning of section 15E(1) of the Civil Judgments and Jurisdiction Act 1982, with the result, it is submitted, that the claimant is not entitled to bring his claim against the Bank in England.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">II</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman'">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Nine costs issues arise for determination. They are listed below along with the rival submissions in summary form:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.84in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Costs below</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">1.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">The Armstrong order:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: remain in place;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: set aside.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">2.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Whether the claimant should repay the sum of &#163;143,000 the defendant paid on account of costs on 11 October 2024:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: no;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: Yes, and interest at 1 per cent above Bank of England base rate. </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.84in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Costs on appeal</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">3.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Which party substantially succeeded in the appeal:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: claimant;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: defendant. </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">4.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">What percentage of the receiving party&#8217;s costs should the paying party pay:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: defendant to pay 50 per cent of claimant&#8217;s costs;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: claimant to pay 70 per cent of defendant&#8217;s costs.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">5.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">The costs incurred by the defendant in carrying out disclosure orders set aside. Agreed to be subject to detailed assessment on the standard basis. (Dispute remaining about whether the adjective &#8220;wasted&#8221; should be used.)</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">6.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">How the claimant should meet sums, if any, owed by him to the defendant:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<intro>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Times New Roman';margin-left:2.34in;text-indent:-0.12in">i.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:2.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Reduction in his account(s) with the defendant;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-family:'Times New Roman';margin-left:2.34in;text-indent:-0.12in">ii.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:2.34in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Alternatively, payment from one of the claimant&#8217;s accounts with the defendant to a bank in Lebanon nominated by the defendant;</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-family:'Times New Roman';margin-left:2.34in;text-indent:-0.12in">iii.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:2.34in;margin-right:1.15in;text-indent:0.25in"><span style="font-family:'Times New Roman'">Further in the alternative, payment into the client account of Bryan Cave Leighton Paisner LLP to be held in escrow and retained until the end of any detailed assessment;</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: claimant to pay the balance owed directly to the defendant in the United Kingdom and not from an order for payment from the claimant&#8217;s accounts with the defendant in Lebanon and not to be held in escrow.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">7.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Level of payment on account of costs awarded, should the defendant be awarded appellate costs:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: No payment on account or only in a &#8220;small amount&#8221;;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: 75 per cent of costs awarded in the appeal.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">8.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Costs of further extension of time application by defendant:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: claimant to be awarded the costs of the application, to be summarily assessed;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: to be costs in the jurisdiction application.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';margin-left:1.34in;text-indent:-0.25in">9.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.34in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Costs of the consequentials hearing.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">a.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Claimant: to be determined contingent on the outcome of the hearing (ultimately concurring that costs should be costs in the jurisdiction hearing);</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Times New Roman';margin-left:1.84in;text-indent:-0.25in">b.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.84in;margin-right:1.15in"><span style="font-family:'Times New Roman'">Defendant: costs should follow the event, given that the consequentials hearing has become chiefly about costs.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">III</span></p>
+	    <p style="text-align:center"><span style="font-style:italic;font-family:'Times New Roman'">Principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman'">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The principles governing the award of costs are settled and not controversial. They are to be primarily found in CPR Part 44.  They can (non-exhaustively) be briefly stated as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">The court has a discretion about whether costs are payable, the amount of the costs, and when they are to be paid: CPR 44.2(1);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">The general rule is that the unsuccessful party will be ordered to pay the costs of the successful party, but the court may make a different order: CPR 44.2(2);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">In deciding what order to make, the court will have regard to all the circumstances, including whether a party has succeeded on part of its case even if that party has not been wholly successful: CPR 44.2(4)(b);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">The court will further have regard to the conduct of the parties, including whether it was reasonable for a party to raise, pursue or contest a particular allegation or issue, and the manner in which a party has done so: CPR 44.2(5)(a)-(c);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">The court in its discretion may direct that a party must pay a proportion of another party&#8217;s costs, and should take this approach where practicable over an issues-based costs order: CPR 44.2(6)(a), CPR 44.2(7);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">Where the court makes a costs order, it will order the paying party to pay a reasonable sum on account of costs, unless there is good reason not to do so: CPR 44.2(8).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman'">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Therefore, the correct approach is that endorsed by the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Straker v Tudor Rose (a firm)</span><span style="font-family:'Times New Roman'"> [2007] EWCA Civ 368, where Waller LJ noted that there should not be a conflating between deciding which party succeeded and reasons to depart from the general rule, but a staged analysis (see further: </span><span style="font-style:italic;font-family:'Times New Roman'">Cook on Costs 2025 </span><span style="font-family:'Times New Roman'">(&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Cook</span><span style="font-family:'Times New Roman'">&#8221;), para 22.16 et seq.).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">IV</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 1: costs order below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman'">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">In the appeal judgment, the court concluded that the defendant was substantially successful on the appeal and the preponderance of the disclosure orders made below have been overturned on appeal. The question is how, if at all, that should affect the costs award below. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman'">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The defendant submits that the Armstrong order must be set aside as a logical consequence of the Bank&#8217;s success overall. If the court is with the defendant on the disproportionate nature of the claimant&#8217;s disclosure applications, then &#8220;it follows&#8221; that the Armstrong order &#8220;must be set aside&#8221;. The defendant concedes that there should a 30 per cent reduction in the defendant&#8217;s costs to reflect that &#8220;the Bank did not succeed in setting aside every disclosure order, or on every issue in the case, and that it is therefore appropriate in principle to apply a percentage reduction to the costs order&#8221; (consequentials skeleton argument, para 12). The 30 per cent reduction applies both above and below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman'">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The claimant submits that the costs order below should remain in intact, or at the most be subject to &#8220;a small reduction&#8221;.  He submits that the Bank fought &#8220;tooth and nail&#8221; against any disclosure and lost at both first instance and on appeal.  That was the prime question below: whether any disclosure at all should be made. In that the claimant succeeded and continues to be vindicated.  The fact that the certain granted orders have been overturned necessitates no more than a modest reduction.  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">Conclusion: Issue 1  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman'">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The proper approach is to look at the substance. The White Book states at 44.2.13 that identification of the successful party in requires consideration of &#8220;who as a matter of substance and reality has won&#8221;. These factors, of course, echo what Lightman J said in </span><span style="font-style:italic;font-family:'Times New Roman'">BCCI SA v Ali (No. 3)</span><span style="font-family:'Times New Roman'"> [1999] NLJ 1734 Vol 149 as cited with approval by the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Day v Day</span><span style="font-family:'Times New Roman'"> [2006] EWCA Civ 415 (per Ward LJ).  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman'">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The court notes the oral submission on behalf of the defendant that the court has the same powers on appeal as at first instance and could properly reach &#8220;different decisions above and below&#8221;. This is correct. The decision on appeal cannot necessarily determine that below.  It might be different if the court had concluded that the whole basis of the disclosure orders granted below is fundamentally flawed. It has not reached that conclusion.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman'">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">A useful way to examine this issue is to identify the point of origin and the end point. Here the point of origin was the defendant&#8217;s fundamental denial that there should be any disclosure because the case lacked &#8220;exceptionality&#8221; as the defendant submitted was required by the Supreme Court.  This has been characterised vividly by the claimant as the defendant&#8217;s fighting &#8220;tooth and nail&#8221; approach. Unhappily, the contestation between the parties occupied several days below. But this was contributed to by the extent of the disclosure sought by the claimant, now significantly refused. Nevertheless, once the court applied the correct </span><span style="font-style:italic;font-family:'Times New Roman'">Rome</span><span style="font-family:'Times New Roman'"> necessity test applicable to CPR 31.12 to avoid unjust disposal, substantial disclosure still fell to be made, as decided in the appeal judgment (</span><span style="font-style:italic;font-family:'Times New Roman'">Rome and another v Punjab National Bank </span><span style="font-family:'Times New Roman'">[1989] 2 All ER 136, analysed in the appeal judgment in light of the necessary examination of subsequent authority).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman'">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">While Master Armstrong awarded costs on the basis of the McCloud order, that is not the end point for this court&#8217;s costs reassessment. The end point is the disclosure orders as they now stand, a materially and importantly different matter. If one asks the simple question which party succeeded overall at first instance once one considers the appeal-adjusted order, the only plausible answer is the claimant. That is because there was intense and intensive disputation about the principle of disclosure. The claimant prevailed. But if Master Armstrong had assessed the degree of success on the basis of the corrected order, there must be a reduction from what he determined. I do not regard the appropriate level of reduction as being &#8220;small&#8221;.  That is an overly optimistic submission by the claimant. The Master would have considered that to a substantial extent the disclosure orders sought had been refused or reversed. Nevertheless, a restricted but important residue remains. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman'">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The defendant&#8217;s counsel submitted that the exercise for the court was &#8220;impressionistic&#8221;. While understanding the thrust of the submission, I have strived to avoid impression and approach the matter rationally to the extent possible.  Part 44 envisions justifiable departures from the general rule where the succeeding party has not succeeded on everything. The claimant recognises this, inevitably, given the terms of CPR 44.2(4)(b). It is a matter of the court&#8217;s discretion, permitting the award of &#8220;a proportion&#8221; of the costs under CPR 44.2(6).  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman'">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">It seems to me that the critical factors in the exercise of this discretion are that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1.25in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.25in;margin-right:1.15in;text-indent:0.12in"><span style="font-family:'Times New Roman'">The claimant succeeded below in defeating the root and branch &#8220;no disclosure&#8221; stance of the defendant;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:1.15in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He succeeded in obtaining disclosure in two of the most significant areas of dispute: Crossbridge Capital and the London Desk (&#8220;which have always been the battlefield&#8221; as the claimant correctly submits);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:1.15in;text-indent:0.5in"><span style="font-family:'Times New Roman'">However, the Crossbridge disclosure has been narrowed substantially compared to what was sought and a similar situation subsists in respect of the London Desk disclosure;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:1.15in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Overall, the claimant failed in most of the 14 areas in which he sought disclosure or only succeeded in part;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman'">(5)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in;margin-right:1.15in;text-indent:0.5in"><span style="font-family:'Times New Roman'">No disclosure statement has now been ordered.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman'">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Consequently, I reject the claimant&#8217;s submission that &#8220;a proportionate order would undermine the general rule&#8221;. The scheme of Part 44 is precisely that there may be departures from the general rule depending on the granularity of the case. That is the position here.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman'">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">For its part, the defendant places great emphasis on the observation of Lord Briggs in </span><span style="font-style:italic;font-family:'Times New Roman'">Lungowe v Vedanta Resources plc </span><span style="font-family:'Times New Roman'">[2020] AC 1045 at para 14 that &#8220;condign costs consequences&#8221; should follow when misconceived applications are made. However, while there has been overreach by the claimant in scope, he was correct to persist in his application for disclosure faced with the implacability of the defendant who &#8220;refused to give any disclosure&#8221; (as the claimant puts it). The defendant contended that disclosure would constitute &#8220;a dangerous precedent&#8221; (skeleton argument below, para 1). Indeed, the defendant asserted that disclosure should be &#8220;a matter for the Rules Committee&#8221; (ibid., para 17) and not the court. That was plainly wrong. Moreover, the defendant in correspondence stated in forceful terms that the disclosure application was &#8220;ill-advised and [it] would seek indemnity costs&#8221;. The significance of Crossbridge and London Bridge, it should be repeated, is that potentially these heads of disclosure may (I emphasise may) cast light on the central &#8220;directing activities&#8221; issue at the heart of the jurisdiction dispute.  The claimant was correct to term these areas as &#8220;two particularly important issues&#8221;. The claimant also succeeded in search-based order (&#8220;in obtaining the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">type</span><span style="font-family:'Times New Roman'"> of orders that the Bank said were impermissible&#8221;, as the claimant puts it (original emphasis)). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman'">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">On that basis, I assess that the claimant should be awarded 70 per cent of the costs awarded in the Armstrong order. Taking everything into account, there should therefore be a 30 per cent reduction.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">V</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 2: defendant&#8217;s payment on account</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman'">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The Armstrong order has not been set aside entirely but varied. The impact on the defendant&#8217;s payment on account must be evaluated in light of the reduction to 70 per cent now ordered.  Interest on any applicable sums should be at 1 per cent above base rate (</span><span style="font-style:italic;font-family:'Times New Roman'">Reed Executive Plc v Reed Business Information Ltd </span><span style="font-family:'Times New Roman'">[2004] 4 Costs LR 662 at para 7). The court leaves it to the parties to reach proper agreement about the balance due following a 30 per cent reduction. It is hoped that a sensible consensus can be reached. If not, short written submissions should be made within 7 days of this judgment being circulated to the parties in draft and the court will rule further. I emphasise that this should be avoided unless impossible and the court will require explanation for why agreement has failed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">VI</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 3: successful party on appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman'">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Both the parties claim to be the successful party in the appeal.  The claimant maintains that while he succeeded, there should be a 50 per cent reduction of his costs &#8220;in fair recognition of the outcome&#8221;. The defendant similarly claims appellate success, and proposes a 30 per cent reduction in its costs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman'">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">To identify the successful party where the outcome is who pays whom money often presents little difficulty (</span><span style="font-style:italic;font-family:'Times New Roman'">A L Barnes Ltd v Time Talk (UK) Ltd</span><span style="font-family:'Times New Roman'"> [2003] EWCA Civ 402, per Longmore LJ at para 28). The instant appeal, being about challenges to disclosure orders, provides no such ready solution. The answer lies in the same application of common sense and sense of reality and an approach that resists being artificially technical, instead being attentive to the substance of the matter.  Master McCloud made a large number of disclosure orders, most of which have been reversed wholly or in part. Only two of the orders that were disputed before me remain completely intact. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman'">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Success on appeal is a materially different question to that about success below, but the end point is the same: the disclosure orders as they now stand.  However, the point of origin in assessing who succeeded in the appeal is different. The point of origin is how matters stood following proceedings below, in other words, the McCloud order.  The question is who has succeeded when comparing the McCloud order to the granted disclosure as it now stands.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman'">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">On these facts, it would be absurd to maintain that as to the substance of the appeal &#8211; the extent to which the disclosure orders below survive &#8211; anyone but the defendant succeeded. This is a clear case of different decisions at first instance and on appeal.  There were two possible routes to the overturning of the McCloud disclosure orders. While the defendant placed emphasis on the exceptionality route that was rejected by the court, by the proper application of the </span><span style="font-style:italic;font-family:'Times New Roman'">Rome</span><span style="font-family:'Times New Roman'"> route, most of the disclosure orders were reversed. Further, I previously found that the Master&#8217;s erroneous orders reflected the extravagant and unjustified breadth of disclosure sought by the claimant that was contrary to the approach to Part 11 jurisdiction disclosure. Therefore, I am satisfied, and have no difficulty in concluding, that the defendant substantially succeeded in the appeal.  The next question is whether, and to what extent if so, there should be a departure from the general rule that the defendant should be awarded its costs.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman'">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The defendant realistically recognised that although issue-based costs awards are generally to be avoided, there are exceptions, including where a particular issue has taken up a substantial amount of time in proceedings. This is because what the appeal had to consider, should the principle of disclosure be determined in the claimant&#8217;s favour by the court, was which disclosure orders were valid and what consequent disclosure needed to be made. On that, the defendant without doubt substantially succeeded.  One can interrogate that question in various ways, as Ms Zaman creatively did in the annex to the draft order supplied for the purposes of the consequential hearing, and the conclusion is unavoidable. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman'">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">I therefore accept the defendant&#8217;s submission that it has succeeded on the &#8220;crux&#8221; of its challenge to the disclosure orders made below. On appeal, I have no doubt that the defendant is the successful party. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">VII</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 4: award percentage</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman'">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The court must evaluate the reasonableness of the conduct of the parties in arriving at the just figure of the award.  Indicators about the court&#8217;s view on this are to be found in the substantive appeal judgment.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman'">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The defendant having substantially succeeded on appeal, seeks 70 per cent of its costs. It reaches that reduced figure for two principal reasons. First, to reflect that it did not succeed in setting aside all the disclosure orders. Second, because it did not succeed &#8220;on every issue in the case&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman'">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">As said in the appeal judgment:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">&#8220;171.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.95in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where the appellate test has been met, it has generally been because the Judge lost sight of the reasonable necessity test by placing undue emphasis on her &#8220;level playing field&#8221; and &#8220;information asymmetry&#8221; criteria. I can agree with her that informational asymmetry is a relevant factor, but the quest for a perfectly mirroring evidential equality should not obscure the need for proper restraint, parsimony and proportionality in disclosure. It is likely that the departure from proportionate  disclosure  stems  from  the  breadth  of information sought by the claimant. It was put by Mr Shear of his solicitors (B1474) in this way:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in;margin-right:1.35in"><span style="font-family:'Times New Roman'">&#8220;the Claimant seeks an order that the Defendant provide specific disclosure of documents that are highly relevant to the issues on the  Jurisdiction  Application,  which  are  required  to  fully understand and interrogate the Defendant&#8217;s position, and which are required for the fair resolution of the Jurisdiction application.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">172.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.95in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This theme was taken up by the claimant&#8217;s counsel at the hearing below in their skeleton (para 22):</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in;margin-right:1.35in"><span style="font-family:'Times New Roman'">&#8220;However,  in  order  for  Sheikh Alesayi  to  be  able  to interrogate fully the Bank&#8217;s blanket denials, he needs to be provided with the documents that go to those issues. It is for this reason that disclosure is required under CPR 31.12.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">173.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.95in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I accept the appellant&#8217;s submission that this approach went too far and the Judge in part acceded to it erroneously. To restate: at the next turn lies a jurisdiction challenge hearing, not a &#8220;mini-trial&#8221; (in </span><span style="font-style:italic;font-family:'Times New Roman'">VTB Capital </span><span style="font-family:'Times New Roman'">terms), let alone a full one (if happens at all, about which I also refrain from commenting on). That hearing will be determined using a modestly low threshold, as the Judge recognised. But words are insufficient. The acid test is the disclosure she ordered. I judge that she failed at times to give sufficient weight to the legally confined nature of the issue that had to be decided. The &#8220;equal footing&#8221; factor in the overriding objective is not unqualified. It is vitally tempered by the words &#8220;as far as is practicable&#8221;. It must be given effect to in the context of the need to deal with the matter at &#8220;proportionate cost&#8221; and in light of the &#8220;complexity of the issues&#8221; (CPR Part 1). I am bound to say that from everything I have seen, the gateway jurisdiction question is unlikely to be complex. It is important not to overcomplicate it.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">174.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1in;margin-right:0.95in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Yet I am informed by the appellant&#8217;s counsel that the &#8220;combined costs&#8221; of the disclosure proceedings  alone  already  approach &#163;750,000. While the defendant bank challenges jurisdiction as is its right, it is in no one&#8217;s interests to be mired in protracted Byzantine interlocutory skirmishes. I remind myself of the salutary words of Lord Neuberger in </span><span style="font-style:italic;font-family:'Times New Roman'">VTB Capital </span><span style="font-family:'Times New Roman'">that it is &#8220;simply disproportionate&#8221; for parties to incur costs &#8220;running  to hundreds  of thousands of pounds each, and to spend many days in court, on such a hearing.&#8221; This was the Supreme Court&#8217;s cautionary statement about the substantive jurisdiction hearing. The deprecated level of costs has now been reached on just the disclosure proceedings ancillary to such a hearing. It is of note that the Judge ordered a &#8220;disclosure statement&#8221;. The parties were unable to find a single decided case where the court had ordered a disclosure statement in such circumstances. As the appellant submits, it indicates that &#8220;something has gone wrong&#8221;. In similar vein, the Judge spoke of costs budgets for the process, once more a step that appears unprecedented. These innovations are suggestive of a loss of tight control on what should be a circumspect and controlled process.  Lord Neuberger&#8217;s speech in </span><span style="font-style:italic;font-family:'Times New Roman'">VTB Capital </span><span style="font-family:'Times New Roman'">was cited by Lord Briggs in </span><span style="font-style:italic;font-family:'Times New Roman'">Vedanta </span><span style="font-family:'Times New Roman'">(para 7). Lord Briggs went on (para 8) to cite Waller LJ&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Cherney v Deripaska (No 2) </span><span style="font-family:'Times New Roman'">[2010] 2 All ER (Comm) 456. Waller LJ said at para 7 that it</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in;margin-right:1.35in"><span style="font-family:'Times New Roman'">&#8220;would have been better for both parties and better use of court time if they had expended their money and their energy on fighting the merits of the claim.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman'">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The effect of the claimant&#8217;s disclosure applications, if successful, would be to turn the Part 11 hearing into exactly the type of trial in miniature that the authorities have deprecated. Fourteen areas of disclosure were sought. As indicated in the appeal judgment, this was disproportionate. The defendant was able to submit without contradiction that there exists &#8220;no reported case of which the Bank is aware in which such wide-ranging disclosure has been ordered by the Court in the context of a jurisdiction application.&#8221;</span><span style="font-style:italic;font-family:'Times New Roman'"> </span><span style="font-family:'Times New Roman'">It seems to me clear that the claimant is responsible in significant part for what has gone wrong.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman'">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">That said, I am not persuaded that the claimant&#8217;s costs claim of 50 per cent is a nakedly tactical device, to &#8220;spread out&#8221; (widen), as the defendant styles it, the gap between the rival contentions of the parties in an attempt to induce the court to find a compromise &#8220;somewhere in the middle&#8221;.  The claimant is legitimately entitled to argue that he succeeded overall. The question is whether that argument is correct. As I have indicated, it is not. The claimant was the successful party at first instance; the Bank is the successful party on appeal.  On these facts, the one does not mandate the other. The court must remain alive to nuance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman'">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Here, and to my mind unquestionably, the issue of the proper CPR 31.12 test for the making of disclosure orders in Part 11 jurisdiction cases occupied the court for a substantial part of the appeal. The significance was obvious: if the defendant&#8217;s analysis were correct, none of the orders should have been made because the case lacked the necessary hallmarks of &#8220;exceptionality&#8221;.  However, as explained in detail in Part One of my previous judgment, that submission was incorrect. However, it was not an irrational or unreasonable submission to make. It was not bound to fail.  It required careful legal analysis tracing the dominant themes in disparate authorities across years, indeed decades, to arrive at the correct answer.  The defendant relied on comments from Lord Briggs in the Supreme Court. That was not an unreasonable thing to do.  However, those comments were obiter.  Furthermore, I judge that the Master&#8217;s legal analysis at first instance, although ultimately expressing the correct legal test, did not sufficiently engage with the essence of the legal dispute between the parties on this important topic. It can be readily seen why the defendant sought to relitigate the point on appeal, although it failed in the end on the applicable test. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman'">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Therefore, arguing for an exceptionality test was not to my mind unreasonable conduct by the defendant, despite having failed. Nevertheless, as the defendant realistically recognises, it is not only vexatious or unreasonable conduct that may result in a departure from the general rule. The defendant concedes that there should be some reduction for the fact that it did not succeed on all issues, including the question of governing law.  The question is the appropriate level of reduction.  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">Conclusion: Issue 4  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman'">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">There is an ostensibly attractive submission made by the defendant that very nearly 70 per cent of the costs it incurred (69.8 per cent) were incurred on work required to comply with the overturned order about disclosure of customer files (&#8220;the work done and costs incurred on the orders which have been set aside amount to c.70% of the total work and costs of the Disclosure Review&#8221;, consequentials skeleton argument, para 5.2). There were in excess of 100 customers and 1695 documents extending to around 6000 pages of documentation. This exercise was properly undertaken by the defendant because the claimant refused to agree a stay pending appeal. This seems accepted by the claimant (see skeleton argument for consequentials below at para 34). This is undoubtedly a matter for the court to take into account, but one cannot simply read across from that figure and arrive at 70 per cent as the appropriate award, and the defendant certainly does not invite so simplistic an analysis.  I judge it as fair to the claimant to reduce the defendant&#8217;s award to reflect that he succeeded on the legal test, which was a central and time-consuming area of contestation.  However, his success on that issue did not prevent the defendant from very significantly narrowing the scope of disclosure and wiping away most of the individual disclosure orders made below.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman'">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Doing the best the court can, it seems to me that a 30 per cent reduction is insufficient to reflect the fact that a significant period of the hearing was taken up with the proper legal test question. However, this was one route to challenging the disclosure orders made, albeit the comprehensive solution sought by the defendant.  The other route resulted in significant appellate success for the defendant while not eradicating disclosure altogether.  Exercising the court&#8217;s wide discretion, I judge that the correct figure for costs to be awarded to the defendant is 65 per cent of its appeal costs.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">VIII</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 5: defendant&#8217;s incurred compliance</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman'">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">This is agreed in principle and agreed to be subject to detailed assessment on the standard basis. The adjective &#8220;wasted&#8221;, as proposed in the claimant&#8217;s draft order is an unnecessary complication. It should not be included in the order pursuant to this judgment.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">IX</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 6: mode of repayment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman'">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">This jurisdiction dispute concerns the authority this court has to make orders about treatment of the claimant&#8217;s funds in the defendant&#8217;s bank in Lebanon. To direct that there should be deduction from these accounts seems to me to prejudge the outcome of the substantive decision and go behind the essence of the dispute.  It is at this point wrong in principle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman'">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">This costs award is about pre-jurisdiction hearing matters.  It falls within the recognised category of interim/interlocutory issues that can properly be subject to a &#8220;pay-as-you-go&#8221; award.  In </span><span style="font-style:italic;font-family:'Times New Roman'">Sullivan v Ross </span><span style="font-family:'Times New Roman'">[2020] EWHC 2200 (Comm) this court stated at para 29:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-family:'Times New Roman'">&#8220;It is well established as a matter of principle that costs orders should be made on a &#8216;pay as you go&#8217; basis, as between the parties in relation to interim and interlocutory applications.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman'">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The claimant submits that &#8220;it may prove impossible&#8221; for the claimant to recover any overpayment to the Bank.  There &#8220;is a risk of capital controls&#8221; be imposed so it is &#8220;fairer&#8221; for the funds to be held in escrow. However, I find no good reason for the payment on account not to be paid to the defendant directly in the usual fashion. These are proceedings in the United Kingdom. It is not appropriate to make orders affecting the balances of the subject accounts in Lebanon (alternatives 1 and 2), nor for their payment into an escrow account (alternative 3). The simple point about the risk of capital controls is that beyond assertion, there is no reliable or authoritative evidence of impending capital controls. Further, the Bank has paid the interim order granted in the Armstrong order. Presently, there is no evidence to credibly suggest it would not do so again in future.  In such circumstances, having the sums held in escrow is, to my mind, certainly not &#8220;fairer&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">X</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 7: payment on account of appeal costs</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman'">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">There is a degree of overlap with the previous issue. The claimant submits that there should be no payment on account of any costs awarded to the defendant. Citing the well-known observations of the court in </span><span style="font-style:italic;font-family:'Times New Roman'">Excalibur Ventures LLC v Texas Keystone Inc </span><span style="font-family:'Times New Roman'">[2015] EWHC 566 (Comm) (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Excalibur</span><span style="font-family:'Times New Roman'">&#8221;), the claimant submits that either there should not be any payment on account or only &#8220;in a small amount&#8221;.  The factors the claimant relies on are (1) the defendant has not provided the details of the costs incurred in the disclosure exercise; (2) any &#8220;wasted&#8221; costs incurred are likely to be minimal; (3) there is a &#8220;significant likelihood&#8221; that the claimant would not be able to recover any overpayment with the &#8220;realistic prospect&#8221; it might be &#8220;illegal&#8221; for the Bank to make a repayment (overlapping submission); (4) the claimant is a wealthy person with substantial assets in the United Kingdom entailing that the defendant has no appreciable risk of non-payment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman'">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Against this, the defendant submits that almost 70 per cent of costs of the disclosure exercise are attributable to the analysis of customer files, now reversed.  The object of interim payment is to provide immediate payment of sums due to the receiving party before the inevitable delay of detailed assessment. The defendant seeks 75 per cent of the costs awarded.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman'">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The key point about this dispute lies in express words and emphasis of CPR 44.2(8):</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Times New Roman'">&#8220;(8)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:1.15in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">Where the court orders a party to pay costs subject to detailed assessment, it will order that party to pay a reasonable sum on account of costs, unless there is good reason not to do so.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman'">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">As Christopher Clarke LJ said in </span><span style="font-style:italic;font-family:'Times New Roman'">Excalibur</span><span style="font-family:'Times New Roman'"> at para 14, the rule now provides &#8220;a presumption&#8221; that there will be a payment on account unless there is a sufficient exception (&#8220;good reason&#8221;). I find no good reason why the claimant should not pay a reasonable sum on account of the costs awarded under the judgment to the defendant. There is no evidence that it is presently illegal for the Bank to make payments. There is no solid or convincing evidence about imminent or likely capital controls in Lebanon. Indeed, as noted, the Bank complied with the payment on account under the Armstrong order. The real question is what is the appropriate percentage to reflect the reasonable sum payable on account. In </span><span style="font-style:italic;font-family:'Times New Roman'">Excalibur</span><span style="font-family:'Times New Roman'"> at para 23, the court said that this would</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-family:'Times New Roman'">&#8220;often be one that was an estimate of the likely level of recovery subject &#8230; to an appropriate  margin to allow for error in the estimation.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman'">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">Of the sums due to the defendant in the appeal (ruled by the court here to be 65 per cent of its costs), there should be payment on account of 70 per cent of the total.  This takes into account an element of the unknown and unknowable that attends this litigation which affects the margin of error, but certainly does not disentitle the defendant to a payment on account at all or only in a &#8220;small amount&#8221;. As </span><span style="font-style:italic;font-family:'Times New Roman'">Cook</span><span style="font-family:'Times New Roman'"> notes at para 25.1, while CPR 44.2(8) may have heralded a reduction in payment on account disputes, it has not resulted, as evidenced here, in a &#8220;cessation&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">XI</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 8: extension of time</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman'">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The defendant&#8217;s extension of time application dated 14 February 2025 seems to me to be a procedural eventuality that does not necessitate a separate costs award at this point. Critically, the application did not undermine the listing of the substantive jurisdiction hearing which will proceed in any event on 8 April 2025. While I acknowledge that it is the second extension of time sought by the defendant, in all the circumstances I am not persuaded that the costs incurred should be anything other than costs in the impending jurisdiction application.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">XII</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Issue 9: consequentials hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman'">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The defendant submits that since the issues in the consequentials hearing have narrowed, the hearing has largely &#8220;devolved&#8221; into a dispute about costs. Accordingly, it submits that should the court rule in its favour on these matters, the costs of the hearing should follow the event. However, the decisions given above make plain that the picture is mixed. Accordingly, in my judgment the appropriate course is for costs to be in the jurisdiction application.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">XIII</span></p>
+	    <p style="text-align:center;margin-right:0.56in"><span style="font-style:italic;font-family:'Times New Roman'">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman'">48.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">In short order, the court&#8217;s conclusions on the disputes are:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;margin-right:0.56in"><span style="font-weight:bold;font-family:'Times New Roman'">     Costs below</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 1</span><span style="font-family:'Times New Roman'">: Armstrong order varied to 70 per cent of the claimant&#8217;s costs below.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 2</span><span style="font-family:'Times New Roman'">: Repayment, if any, of sums paid by defendant on account of the Armstrong order to be contingent on the balance following the Issue 1 variation (at base +1 per cent).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">     Costs on appeal</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 3</span><span style="font-family:'Times New Roman'">: The defendant is the successful party in the appeal.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 4</span><span style="font-family:'Times New Roman'">: The defendant as receiving party should be awarded 65 per cent of its appeal costs, subject to detailed assessment, if not agreed, on the standard basis.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 5</span><span style="font-family:'Times New Roman'">: Agreed between the parties. The adjective &#8220;wasted&#8221; not to be included in the order.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 6</span><span style="font-family:'Times New Roman'">: Sums to be paid directly to the defendant and not placed in escrow or from an adjustment of balances in the subject Lebanese accounts.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 7</span><span style="font-family:'Times New Roman'">: The claimant to make a payment on account of the defendant&#8217;s costs in the appeal of 70 per cent of the costs awarded (per Issue 4 above).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 8</span><span style="font-family:'Times New Roman'">: costs of defendant&#8217;s second extension of time application to be costs in the jurisdiction application.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:1.15in"><span style="font-weight:bold;font-family:'Times New Roman'">Issue 9</span><span style="font-family:'Times New Roman'">: costs of the consequentials hearing to be costs in the jurisdiction application.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman'">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.56in"><span style="font-family:'Times New Roman'">The court directs that the parties finalise the mathematics and file a draft order including agreed resulting sums to reflect the terms of this judgment.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

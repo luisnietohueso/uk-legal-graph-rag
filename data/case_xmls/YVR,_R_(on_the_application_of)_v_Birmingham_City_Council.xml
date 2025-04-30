@@ -1,0 +1,1022 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/393"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/393"/>
+	  <FRBRdate date="2025-04-08" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="393"/>
+	  <FRBRname value="YVR, R (on the application of) v Birmingham City Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/393"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/393"/>
+	  <FRBRdate date="2025-04-08" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/393/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/393/data.xml"/>
+	  <FRBRdate date="2025-04-08T09:33:53" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="yvr" href="" showAs="YVR"/>
+	<TLCPerson eId="birmingham-city-council" href="" showAs="BIRMINGHAM CITY COUNCIL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lady-justice-king" href="/judge-lady-justice-king" showAs="LADY JUSTICE KING"/>
+	<TLCPerson eId="judge-lady-justice-whipple" href="/judge-lady-justice-whipple" showAs="LADY JUSTICE WHIPPLE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>393</uk:number>
+	<uk:cite>[2025] EWCA Civ 393</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>8be6c05fd0ede24c18e5e9a13f00913fb5cc8280cbb7030f62e1a11070a83ca2</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading4 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Heading4Char { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation style="font-weight:bold;font-family:Arial;font-size:9.5pt;color:#000000">[2025] EWCA Civ 393</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2024-000971</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM HIGH COURT OF JUSTICE</p>
+      <p class="CoverMain">KING&#8217;S BENCH DIVISION</p>
+      <p class="CoverMain">BIRMINGHAM DISTRICT REGISTRY</p>
+      <p class="CoverMain">ADMINISTRATIVE COURT</p>
+      <p class="CoverMain">Mrs Justice Collins Rice</p>
+      <p class="CoverMain"><neutralCitation>[2024] EWHC 701 (Admin)</neutralCitation></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-08" refersTo="#judgment">08/04/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-king">LADY JUSTICE KING</judge></p>
+      <p class="CoverMain" style="text-align:center">LORD JUSTICE MALES<br/><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-whipple">LADY JUSTICE WHIPPLE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">THE KING</span></p>
+	    <p style="text-align:center"><party refersTo="#yvr" as="#appellant" style="font-weight:bold">ON THE APPLICATION OF YVR </party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(a protected party, by his litigation friend YUL)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Appellant/</role></p>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#birmingham-city-council" as="#respondent" style="font-weight:bold">BIRMINGHAM CITY COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"/>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent/Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Dan Squires KC &amp; Aidan Wills</span> (instructed by the <span style="font-weight:bold">Central England Law Centre</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Joanne Clement KC &amp; Zoe Gannon </span>(instructed by<span style="font-weight:bold"> Birmingham City Council Legal &amp; Governance Department</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 25 &amp; 26 March 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on Tuesday 8 April 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">LORD JUSTICE MALES:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant in this appeal is a severely disabled young man who will never be able to work and who is dependent on state benefits. His eligible social care needs have been assessed and are met by Birmingham City Council, which charges him for the provision of those services, as it is entitled but not obliged to do by the applicable legislation. The issue on this appeal is whether the Council&#8217;s charging policy was adopted in breach of the public sector equality duty (&#8216;the PSED&#8217;) on the ground that the Council failed to have due regard to the need to eliminate discrimination and to advance equality of opportunity for severely disabled persons such as the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge, Mrs Justice Collins Rice, held that there was no breach of the PSED. The appellant appeals from that decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although this appeal is concerned with the relatively narrow question whether the Council complied with the PSED, it is necessary to put that question into context by describing the circumstances in which the claim arose. I can do so by borrowing extensively from the judge&#8217;s account.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The appellant</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant is a severely disabled young man. He lives at home with his parents (his mother acts as his litigation friend) and siblings. He is profoundly autistic and has epilepsy, severe learning disabilities and other mental ill-health diagnoses. He is non-verbal, and can exhibit what are described as challenging behaviours, although that term does not do justice to the behaviour with which his family, and in particular his mother, have to cope. As the judge observed, his mother&#8217;s evidence is eloquent testimony to her long labour of love in providing the happiest life and best opportunities she can for her son. Her own personal care for him is a crucial part of the support on which he relies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Because of his disability, the appellant has never worked and will never be able to do so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Local authorities have a duty, under section 18 of the Care Act 2014, to meet an adult&#8217;s needs for care and support &#8211; except where they are already being met by a carer &#8211; if those needs meet certain &#8216;eligibility criteria&#8217;. These &#8216;eligibility criteria&#8217; are explained in section 13 of the Act, and in regulations made under it. They relate to a person&#8217;s assessed physical or mental impairment, and inability, by reason of that impairment, to achieve certain &#8216;outcomes&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The assessment of an individual&#8217;s needs is kept under review. In what was at the date of the hearing in the court below the appellant&#8217;s most recent assessment (September 2023), he was assessed as being unable, by reason of his disabilities, to achieve any of the following outcomes: (a) managing his own daily nutrition, (b) maintaining personal hygiene, (c) managing toileting, (d) dressing himself, (e) &#8216;making use of his home safely&#8217; &#8211; he cannot be left alone and unattended anywhere at home, and (f) maintaining a habitable home environment. These are his &#8216;eligible needs&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To the extent that these needs are not met by his mother and family, they must be, and are, met by the appellant&#8217;s local authority, Birmingham City Council. The appellant attends a Council day centre all day on weekdays, where he receives one-to-one support. He is provided with one-to-one support from a Council carer at home for a set number of additional hours per week (increased at his last review from 10 to 30, as his mother was herself starting to struggle to keep up with his needs). As well as meeting his eligible needs, the day centre and the appellant&#8217;s personal carer enable him to keep calm, to maintain a routine, and to stay fully occupied, all of which are important for his wellbeing and help to manage his behaviour. They also enable the appellant to enjoy physical and social activities which contribute to his quality of life. They enable him to communicate, to go to the park, to enjoy walking and swimming, to negotiate roads and shops, and to eat out on a weekend day at a favourite caf&#233; where he and the staff know each other. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The appellant&#8217;s benefits</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant is unable to earn any income of his own. His only income consists of state benefits. He has no other independent means. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">His ordinary, basic living needs are provided for by the Universal Credit standard allowance, which is means-tested. This is intended to pay for his food and clothes and his everyday personal expenses. He is also entitled to the Universal Credit &#8216;limited capability for work-related activity&#8217; allowance (&#8216;LCWRA&#8217;). This is paid to individuals like the appellant who, by reason of their disability, are likely to have higher living costs than others (for example, in his case needing a frequent supply of fresh clothes), but who cannot supplement their benefits income by earning. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant is also entitled to the Personal Independence Payment (&#8216;PIP&#8217;). This is a non-means-tested benefit. There are two parts to it. The daily living part is intended to provide for the cost of getting help with everyday activities if an individual needs that help. Activities under this heading include preparing food, personal hygiene, dressing, reading, communicating, and socialising. The mobility part is intended to provide for the cost of getting help with physically moving around, leaving the home, following a route and travelling. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The level of these benefits is set nationally and is assessed by the relevant Government agency. As can be seen, the LCWRA and the PIP are directed to the cost of meeting some of the appellant&#8217;s particular needs arising from his disability, including some of those which the Council is required to meet. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The power to charge for the provision of adult social care in the community</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 14 of the Care Act 2014 gives a local authority the power to charge an adult for meeting their &#8216;eligible needs&#8217; &#8211; and most authorities, if not all, do so. (Some services &#8211; such as the provision of disability aids and adaptations &#8211; must be provided free of charge: section 3 of the Act.) If an authority proposes to make a charge, it must make an assessment of the individual&#8217;s financial resources (section 17). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By section 14(7) of the Act, the authority may not make a charge if the income of the individual would, after deduction of the amount of the charge, fall below an amount to be specified in regulations. In other words, an authority cannot charge at all unless an individual&#8217;s income is over a certain amount, and that amount is then protected from being taken in charges. This is known as the &#8216;minimum income guaranteed amount&#8217; (&#8216;MIG&#8217;). The way the MIG is worked out is set out in Regulation 7 of the Care and Support (Charging and Assessment of Resources) Regulations 2014. It is a relatively complex mechanism. It varies from individual to individual, and depends on factors relating to age and family circumstances. It also factors in disability at two levels, depending on severity of disability: at each level, a disabled individual is allocated an enhanced MIG. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Regulations also make provision about how an individual&#8217;s income is to be assessed. In particular, they specify certain income that cannot be taken into account for these purposes &#8211; which, in the language of the Regulations, must be &#8216;disregarded&#8217;. For example: </p>
+	  </intro>
+	  <subparagraph>
+	    <num>(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Earnings derived from employment cannot be taken into account (Regulation 14). This reflects a general legislative policy to protect earned income and to maximise the incentive to work where possible, not least because of the contribution it can make to an individual&#8217;s wellbeing. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">By paragraph 4(1) of Schedule 1 to the Regulations, &#8216;where a local authority takes into account in the calculation of income any disability benefits the adult receives, any disability-related expenditure incurred by the adult&#8217; is deducted from the income calculation. Disability benefits are defined to include the PIP. Paragraph 4 is known as the &#8216;disability-related expenditure&#8217;, or DRE, disregard. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(iii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">The mobility component of the PIP cannot be taken into account (paragraph 8 of Schedule 1). </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Council&#8217;s charging policy</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although section 14 of the Care Act gives the Council the power to charge for the cost of meeting adult social care needs, it is not obliged to do so. Nor is it obliged, if it chooses to charge, to charge the maximum permitted by the Regulations. On the contrary, in calculating an individual&#8217;s income for the purposes of the financial assessment it must make before making a charge, a local authority may &#8216;disregard such other sums the adult may receive as the authority considers appropriate&#8217; (Regulation 15(2)). Thus the Council can charge less, but not more, than the statutory scheme sets out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In exercising these powers, a local authority must &#8216;act under the general guidance&#8217; of the Secretary of State (section 78 of the 2014 Act). The guidance in force at the date of the hearing was published on 5<span style="vertical-align:super;font-size:smaller">th</span> October 2023 (a more recent version is dated18th February 2025). It provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;The overarching principle is that people should only be required to pay what they can afford. People will be entitled to financial support based on a means-test and some will be entitled to free care. The framework is therefore based on the following principles that local authorities should take into account when making decisions on charging. The principles are that the approach to charging for care and support needs should: </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; ensure that people are not charged more than it is reasonably practicable for them to pay </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; be comprehensive, to reduce variation in the way people are assessed and charged </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; be clear and transparent, so people know what they will be charged </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; promote wellbeing, social inclusion, and support the vision of personalisation, independence, choice and control </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; support carers to look after their own health and wellbeing and to care effectively and safely </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; be person-focused, reflecting the variety of care and caring journeys and the variety of options available to meet their needs </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; apply the charging rules equally so those with similar needs or services are treated the same and minimise anomalies between different care settings </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; encourage and enable those who wish to stay in or take up employment, education or training or plan for the future costs of meeting their needs to do so </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8226; be sustainable for local authorities in the long term. </p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Further, local authorities should not use their discretion in a way which would lead to two people &#8216;with similar needs, and receiving similar types of care and support&#8217; being charged differently. They should consider how to protect a person&#8217;s income and should not assume, without further consideration, that all of a person&#8217;s income above the minimum income guarantee (MIG) is available to be taken in charges. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The guidance acknowledges that local authorities may take most of the benefits people receive into account. But they must ensure that in addition to the MIG, people retain enough of their benefits to pay for things to meet those needs not being met by the local authority. In particular, where disability-related benefits are taken into account, the local authority should allow the person to keep enough benefit to pay for &#8216;necessary disability-related expenditure to meet any needs which are not being met by the local authority&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Birmingham City Council issued a &#8216;Charging for care and support policy document&#8217; on 1<span style="vertical-align:super;font-size:smaller">st</span> April 2016. Contemporary documents indicate that it was adopted on the basis of a consultation exercise, policy recommendations, and a public sector equality duty impact assessment (although that assessment has not been tracked down in the Council&#8217;s records). The documents also confirm that adoption of the policy was intended to produce an increase in the Council&#8217;s revenue from these charges, but that all the revenue raised in this way was being applied to pay for adult social care (or at any rate to reduce the gap between the cost of that care to the taxpayer and the amount the Council was raising in charges). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Council&#8217;s up-to-date policy document sets out the statutory framework and the principles from the Government&#8217;s guidance. Under a heading of &#8216;income&#8217;, it states that its approach is to consider as income all the benefits an individual receives except to the extent excluded by the statutory scheme. But it also states that it will ensure that, in addition to the MIG and to the benefits excluded, an individual retains enough to pay (on receipt of proof) for certain specified outgoings. These include &#8216;disability-related expenditure&#8217;, which in turn is defined to include &#8216;costs of any specialist items needed to meet the person&#8217;s disability needs&#8217;. These include:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Day or night care which is not being arranged by the local authority.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Specialist washing powders or laundry.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(iii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Additional costs of special dietary needs due to illness or disability.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(iv)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Special clothing or footwear, for example where this needs to be specially made; or additional wear and tear to clothing and footwear caused by disability.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(v)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Additional costs of bedding, for example, because of incontinence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(vi)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Any heating costs, or metered costs of water, above the average levels for the area and housing type.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(vii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Reasonable costs of basic garden maintenance, cleaning or domestic help, if necessitated by the individual&#8217;s disability and not met by social services.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(viii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Purchase, maintenance and repair of disability-related equipment; reasonable hire costs of equipment may be included, if due to waiting for supply of equipment from the local council.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(ix)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Personal assistance costs, including any household or other necessary costs arising for the person by the individual&#8217;s disability and not met by social services.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(x)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Internet access in some circumstances for example for blind and partially sighted people.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(xi)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Other transport costs necessitated by illness or disability, including costs of transport to day centres, over and above the mobility component of the PIP in some circumstances.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(xii)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">Any other reasonable items or expenditure which are needed because of the person&#8217;s illness or disability. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the appellant&#8217;s case, the Council has charged the maximum amount envisaged by the statutory scheme. It has taken all of his benefits except those excluded by the scheme or protected by his personal MIG. As at the date of the hearing below, the appellant&#8217;s total weekly income was &#163;347.85 of which, after taking account of his MIG, &#163;44.73 (or 12.86%) was paid to the council in charges. These figures (including the percentage of income taken in charges) would be different for other disabled adults, and could vary considerably dependent on their MIG and the amount of any DRE disregard. Needless to say, the cost to the Council of meeting the appellant&#8217;s needs &#8211; including providing the day centre activities and the one-to-one carer hours &#8211; vastly exceeds the amount of his unprotected income available to be recovered in charges.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The </span><span style="font-style:italic;font-weight:bold">Norfolk</span><span style="font-weight:bold"> case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 18<span style="vertical-align:super;font-size:smaller">th</span> December 2020, judgment was handed down by the High Court in the case of <span style="font-style:italic">R (SH) v Norfolk County Council</span> [2020] EWHC 3436 (Admin), [2021] PTSR 969. In that case, a local authority had made a change to its adult social care charging policy, as it applied to severely disabled people. It had previously been using its discretion to set a MIG well above what had been required by the statutory scheme, and to exclude the whole of the PIP in its calculation of income &#8211; in other words, to charge considerably less than the Regulations would have permitted. But it changed its policy so as to charge the maximum permitted by the Regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Norfolk&#8217;s policy was challenged by a young woman with severe learning difficulties and physical disabilities caused by Down&#8217;s syndrome, who was in receipt of care and unable to work. Mr Justice Griffiths held that the new policy discriminated unlawfully against her because it resulted in a higher proportion of her income being taken in charges than was taken from recipients of social care who were less severely disabled and were able to earn money by working which was not available to be taken in charges.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mrs Justice Collins Rice recorded that she had been told by Ms Joanne Clement KC, acting for the Council, that the <span style="font-style:italic">Norfolk</span> judgment had caused consternation among local authorities, not only because of its potential financial impact, but also because local authorities were said to be at a loss to understand how, consistently with the statutory scheme, they could eliminate the objectionable discriminatory effect identified in <span style="font-style:italic">Norfolk</span>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Birmingham&#8217;s review of its charging policy</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Birmingham decided to review its charging policy in the light of the <span style="font-style:italic">Norfolk</span> decision. It did so by way of a process including three decision points over a period between 2021 and the beginning of 2023. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This post-<span style="font-style:italic">Norfolk</span> review process identified a limited number of options available to the Council to increase the proportion of income a severely disabled individual unable to work could be enabled to keep. It could increase the MIG above the statutory minimum. It could disregard more of the PIP. It could, in other words, adopt a policy rather like the one Norfolk County Council had previously been pursuing. But either or both of these measures would add millions of pounds to the social care budget, without necessarily eliminating the discrimination criticised in <span style="font-style:italic">Norfolk</span>. A third option &#8211; not to charge at all &#8211; was not easy to reconcile with the clear, detailed statutory power to do so, and with the Council&#8217;s wider financial duties. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the event the Council decided to make only minor changes to its charging policy and did not attempt to eliminate the discrimination identified in the <span style="font-style:italic">Norfolk</span> case by somehow putting severely disabled people who were unable to work in the same financial position as disabled people who were able to do so and whose earnings were required to be disregarded, or taking any steps to narrow the gap between those groups. The version of its policy which the Council published on its website on 27<span style="vertical-align:super;font-size:smaller">th</span> January 2023 includes something more than previous versions in the way of explanation and transparency, but essentially the policy of charging severely disabled people the maximum amount permitted by the statutory scheme remains unchanged from the initial 2016 version of the policy.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Council&#8217;s financial crisis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The backdrop to the policy review was the Council&#8217;s descent into unprecedented financial crisis. The Council, like other local authorities, is required by law to set a balanced budget. The financial plan it published in January 2023, setting out its proposed 2023/24 budget, included a very bleak prognosis as to its likely ability to do so. It identified a likely budget gap at that point of around &#163;80 million. The causes it identified were various. There was a significant impact from historic equal pay claims totalling more than &#163;1 billion. National government measures and wider economic circumstances were blamed to a degree. But the relentless rise in demand for adult social care was identified as a major unfunded pressure. Spend on adult social care was the Council&#8217;s largest single area of net expenditure, at around 43%. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 5<span style="vertical-align:super;font-size:smaller">th</span> September 2023, the Council issued a notice under section 114 of the Local Government Finance Act 1988, saying that the expenditure incurred by the Council in the financial year was likely to exceed the resources (including sums borrowed) available to it to meet that expenditure. This was the equivalent of a declaration of bankruptcy. The Council&#8217;s projected deficit now stood at &#163;87 million.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At this point central government intervened, sending in commissioners to oversee the Council. The commissioners reported on 27<span style="vertical-align:super;font-size:smaller">th</span> February 2024 (as it happened, the day before the hearing in the court below) to the effect that the Council was &#8216;in an extremely serious financial position as a result of the past decisions it has taken&#8230;&#8217;. It stated that &#8216;while this situation was brought about initially due to the scale of the potential Equal Pay liabilities the Council faces, this budget highlights wider and significant financial pressures and a fundamental structural collapse of the 2023/24 General Fund budget&#8217;. It confirmed that the Council had been provided with &#163;1.255 billion in exceptional financial support &#8211; a loan from central government to be paid back through asset sales. Radical spending controls were imposed and all non-essential expenditure ceased. The commissioners&#8217; report identified what was described as a &#8216;narrow path&#8217; to financial sustainability dependent on making revenue savings of &#163;293 million over the following two financial years. The power to increase council tax charges, at the same time as reducing services, was confirmed. The Council was instructed to pursue that two-year plan. The report concluded that &#8216;There are no other choices available.&#8217; </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The claim for judicial review</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By a claim form dated 26<span style="vertical-align:super;font-size:smaller">th</span> April 2023, the appellant applied for judicial review. The decision challenged was the Council&#8217;s &#8216;decision to introduce the 2023 Charging Policy without removing or revising the aspects of the policy which give rise to discrimination&#8217;. This decision was said to be dated 27<span style="vertical-align:super;font-size:smaller">th</span> January 2023, that is to say the date of publication on the Council&#8217;s website of the latest version of its charging policy which continued to charge severely disabled people the maximum amount permitted by the statutory scheme, without attempting to remove the difference in treatment between those disabled people who were and those who were not able to work which had been identified as discriminatory in the <span style="font-style:italic">Norfolk</span> case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Permission to bring this claim on three grounds was granted by Mrs Justice Lang on 1<span style="vertical-align:super;font-size:smaller">st</span> August 2023. They were as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The Council&#8217;s charging policy contravenes Article 14 of the European Convention on Human Rights, taken with Article 1 of Protocol 1 to the Convention, because it discriminates against those who are severely disabled and cannot work by reason of their disability, as compared to disabled people who are able to work. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The charging policy indirectly discriminates contrary to the Equality Act 2010. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">In formulating and maintaining the charging policy, the Council has breached the PSED set out in section 149 of the Equality Act. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The judge&#8217;s decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The main focus of the submissions in the court below, and of the judge&#8217;s judgment, was the discrimination issues raised by the first two of these grounds of challenge. Relatively little attention was given to the PSED issue, which was treated as little more than a postscript to the discrimination issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge concluded, in summary, that &#8216;persons unable to work by reason of severe disability&#8217; was a category qualifying as an &#8216;other status&#8217; for the purpose of Article 14 ECHR; and that the Council&#8217;s charging policy did discriminate against such persons; but that the policy was justified in view of the catastrophic financial position which the Council faced. The judge noted that, despite the charging policy, the appellant&#8217;s eligible social care needs, including his disability-related needs for routine, social stimulation and interaction, and a high level of activity, were in fact being met and that much of his income was protected from charges in ways which were tailored to his situation. In those circumstances, including what she described as the &#8216;immediate imperative of delivering the radical spending cuts, asset sales and service restrictions in a way which is as fair as possible to <span style="font-style:italic">all</span> of the Council&#8217;s taxpayers and service users&#8217;, the judge held that the charging policy was &#8216;not manifestly without reasonable foundation&#8217;, applying the test in <span style="font-style:italic">R (SC) v Secretary of State for Work and Pensions</span> [2021] UK 26, [2022] AC 223 at [158].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The judge dealt briefly with the PSED issue. She noted the submission made by Mr Dan Squires KC on behalf of the appellant that the applicable decision, in effect &#8216;a <span style="font-style:italic">failure</span> to take any decision, because the operative decision remained that of the original 2016 policy&#8217;, was taken at the wrong level in the Council because it was a decision by officers which was not referred to the Council Cabinet, but regarded the &#8216;key point&#8217; as being that the decision itself formed one part of the overall budgetary decision, which was made at full Cabinet level, about the Council&#8217;s strategy for financial recovery over the next two years. She held that there was compliance with the PSED because the duty was to have regard to the equality issues and these were at the heart of the post-<span style="font-style:italic">Norfolk</span> review process which had led to the decision. There had been, she said, &#8216;a more than usually intense and comprehensive enquiry into exactly the issue of which the Claimant complains &#8230; The Council considered the substantive aspects of the PSED relevant to this challenge with real focus and anxiety&#8217;. She added at [102] that &#8216;if ever there were a case for accepting an argument that no further degree of procedural rigour would in any event have produced a different outcome it is surely the present one&#8217;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Permission to appeal has been granted on five grounds, which I can summarise as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">As a non-delegable duty, the PSED must be discharged by the relevant decision maker, which in this case was the Council&#8217;s Cabinet, the only body with the power to formulate or make substantive changes to the Council&#8217;s charging policy, but the Cabinet never considered the matters which section 149 of the Equality Act 2010 required it to consider.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Alternatively, in the event that the relevant decision maker was the officer(s) who decided not to make changes to the existing policy, there was a failure to gather evidence of the potentially negative impact of the charging policy on the most severely disabled or to assess that impact, as required by the PSED.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">If, as the judge had suggested when refusing permission to appeal, the true effect of her judgment was to hold that the PSED did not apply when the decision was made to publish the January 2023 version of the charging policy, that was an error of law as the PSED is a continuing duty.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">If the judge had intended to hold, pursuant to section 31(2A) of the Senior Courts Act 1981 that it was &#8216;highly likely&#8217; that the outcome would have been the same absent any legal error, she had not applied the correct legal test.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">Finally, if (as argued in ground 1), the relevant decision maker had not considered the impact of the charging policy on the severely disabled or how it could be formulated in alternative ways to reduce that impact, that undermined the foundation for her decision that the discrimination caused by the charging policy was justified.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As is apparent from this summary, only ground 5 raises any issue as to the supposedly unlawful discriminatory effect of the charging policy, and ground 5 arises only if the appeal succeeds on ground 1. As I have concluded that ground 1 must fail, it will not be necessary to consider ground 5. It follows that this appeal does not provide an opportunity to consider whether the <span style="font-style:italic">Norfolk </span>case was correctly decided. That case was distinguished by the judge and we have heard no argument about it. However, I would like to make clear that I would not, without hearing full argument, wish to be taken as endorsing the decision in that case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The PSED</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The PSED is contained in section 149 of the Equality Act 2010, which provides, so far as relevant, as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;<span style="font-weight:bold">Public sector equality duty</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A public authority must, in the exercise of its functions, have due regard to the need to&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">eliminate discrimination, harassment, victimisation and any other conduct that is prohibited by or under this Act;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">foster good relations between persons who share a relevant protected characteristic and persons who do not share it.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num>(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Having due regard to the need to advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it involves having due regard, in particular, to the need to&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">remove or minimise disadvantages suffered by persons who share a relevant protected characteristic that are connected to that characteristic;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">take steps to meet the needs of persons who share a relevant protected characteristic that are different from the needs of persons who do not share it;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">encourage persons who share a relevant protected characteristic to participate in public life or in any other activity in which participation by such persons is disproportionately low.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The steps involved in meeting the needs of disabled persons that are different from the needs of persons who are not disabled include, in particular, steps to take account of disabled persons&#180; disabilities.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Having due regard to the need to foster good relations between persons who share a relevant protected characteristic and persons who do not share it involves having due regard, in particular, to the need to&#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">tackle prejudice, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">promote understanding.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Compliance with the duties in this section may involve treating some persons more favourably than others; but that is not to be taken as permitting conduct that would otherwise be prohibited by or under this Act.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The relevant protected characteristics are&#8211;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in">disability; &#8230;&#8217;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The duty does not require the public authority to achieve any particular outcome (see, for example, <span style="font-style:italic">R (Sheakh) v Lambeth London Borough Council</span> [2022] EWCA Civ 457, [2022] PTSR 1315 at [10]). It is a duty to have due regard to the specified needs. Provided that this is done, the duty is complied with. This means that, if this appeal were to succeed, the matter would have to be remitted to the Council to take a new decision as to its charging policy, having regard to the needs identified in section 149.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 3 &#8211; did the PSED apply?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is convenient to begin with ground 3 because, if the PSED did not apply, all the other grounds fall away. The judge did not suggest in her judgment that the PSED did not apply when the Council decided to issue the January 2023 version of its charging policy. On the contrary, she held that the Council had complied with that duty. However, when she gave her reasons for refusing permission to appeal, she suggested that &#8216;strictly speaking&#8217; the duty did not apply at that stage. Hence this ground of appeal, advanced by Mr Squires on a contingent basis in case that is the true interpretation of the judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have no doubt that the judgment proceeded on the basis that the PSED did apply to the January 2023 decision, and that it was correct to do so, as Ms Clement acknowledged. Indeed, Ms Clement had never argued otherwise. The decision to reissue the charging policy without seeking to eliminate the discrimination identified by the <span style="font-style:italic">Norfolk</span> decision was an exercise of the Council&#8217;s functions. Therefore the PSED applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is irrelevant that the judge may have suggested otherwise when the time came for her to consider the question of permission to appeal. While it may be thought that a judge knows best what she intended to decide, what she actually decided must appear from the judgment, which must speak for itself.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 1 &#8211; the relevant decision maker</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although Mr Squires&#8217; submission that the Council Cabinet was the relevant decision maker (because only the Cabinet had the power under the Council&#8217;s constitution to revise the policy) now occupies the centre of the stage, it appears to have sidled into these proceedings in a somewhat oblique way. There was no hint in the appellant&#8217;s pleadings, or in his skeleton argument for the hearing in the court below, of any point that the decision ought to have been taken by the Council&#8217;s Cabinet and that the Cabinet had never considered the PSED. The point arose for the first time in Mr Squires&#8217; oral submissions in the court below. That left Ms Clement to deal with it as best she could, whereupon in reply Mr Squires handed up the Council&#8217;s constitution which sets out the extent to which officers had decision-making powers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This was not a satisfactory procedure and could have caused a real injustice. In the event, however, Ms Clement was able to deal with the point, both in the court below and in this court, and addressed it on its merits without objection.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Squires advanced five propositions on this appeal in support of this ground:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The PSED applied to the formulation and maintenance of the Council&#8217;s charging policy.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The PSED required consideration of the impact on the severely disabled of the decision to maintain the policy to take the maximum amount allowed by the Regulations in charges.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in"> The duty is non-delegable which means that the relevant decision maker must consider these matters itself.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">The relevant decision maker was the Council&#8217;s Cabinet because it was only the Cabinet which had the power to amend the charging policy.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in;text-indent:0.12in">There is no evidence that the Cabinet ever considered the impact of the decision on the severely disabled.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In fact it is only the fourth of these propositions which is controversial. As already indicated, there is no dispute that the PSED applied to the January 2023 decision and that it required consideration of the impact of the Council&#8217;s charging policy on severely disabled persons such as the appellant. Nor is there any dispute that the duty is non-delegable, so that it is the decision maker personally who must have regard to the needs identified in section 149 (see <span style="font-style:italic">Sheakh</span> at [12]; <span style="font-style:italic">R (Hunt) v North Somerset Council</span> [2013] EWCA Civ 1320, [2014] LGR 1 provides an illustration of that point in the local authority context). Equally, Ms Clement did not suggest that the decision to issue the charging policy in its January 2023 form was ever considered by the Council&#8217;s Cabinet. The decision was in fact taken by Professor Graeme Betts CBE and Mr John Williams. Professor Betts was the Council&#8217;s Strategic Director Adult Social Care and Mr Williams was the Council&#8217;s Director for Community and Operational Services (Adult Social Care).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is unnecessary to consider in detail the Council&#8217;s constitutional documents because the position which emerges from them is common ground. Certain decisions, described as &#8216;key&#8217; decisions, are reserved to the Cabinet, while others may be taken by Council officers such as Professor Betts and Mr Williams. A decision which involves &#8216;entering into new commitments and/or making new savings at the value of, or in excess of, &#163;500,000 (gross value)&#8217; is a key decision which can only be taken by the Cabinet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Council estimated that a decision to change the existing charging policy for adult social care so as not to take the maximum amount allowed by the Regulations and to eliminate the discrimination identified in the <span style="font-style:italic">Norfolk</span> case would have cost it of the order of &#163;1.7 million annually. Such a decision would therefore have involved the Council entering into a new commitment with a value in excess of &#163;500,000, which means that only the Cabinet could make such a change. But a decision <span style="font-style:italic">not</span> to change the existing policy would not involve entering into any new commitments at all, and could therefore be taken by officers. Mr Squires expressly accepted that the January 2023 decision not to change the existing policy was a decision which Professor Betts and Mr Williams were entitled to take under the Council&#8217;s constitution without reference to the Cabinet, but he submitted that the position was different for the purpose of the PSED because Professor Betts and Mr Williams were not the <span style="font-style:italic">relevant</span> decision maker for that purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thus Mr Squires&#8217; submissions depend heavily on this concept of &#8216;the relevant decision maker&#8217;, but as Ms Clement pointed out, the concept does not appear in section 149. That section requires a &#8216;public authority&#8217; to comply with the PSED when it exercises its functions, but says nothing about how it should comply or who the decision-maker has to be. Parliament can be taken to have understood that in the case of a local authority some decisions will be taken by a council&#8217;s full Cabinet, while others will be delegated to officers in accordance with the authority&#8217;s constitutional documents. The natural meaning of section 149 is that it is the person who actually takes the decision in accordance with the authority&#8217;s constitution who must comply with the PSED by having due regard to the needs identified in the section. In this case, that was the officers, Professor Betts and Mr Williams.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is nothing in section 149 to require that someone who does not in fact take the decision, and is not required to do so under the authority&#8217;s constitution, must be treated as the &#8216;relevant&#8217; decision maker for the purpose of the section. The fact that Professor Betts and Mr Williams would not have had authority to take a different decision, i.e. to reduce or eliminate charges at an annual cost to the Council in excess of &#163;500,000, is irrelevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As I suggested to Mr Squires in argument, his submission amounts to saying that an officer who had authority to decide not to change the existing policy, and who did so decide, after properly considering the equality implications of that decision, nevertheless failed to discharge the PSED because, if he had wanted to make a different decision, he would not have had authority to do so. Although Mr Squires did not welcome that way of formulating his case, in my judgment that is what it amounts to. It would mean, in effect, that practically every time an officer with delegated authority carried out a review of an existing policy and decided, after proper consideration of the PSED, that no change was necessary, that decision would have to be brought to Cabinet and the Cabinet members themselves would have to consider personally the equality implications of deciding not to change the existing policy. That would be detrimental to good administration and is not required by section 149.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr Squires relied on the fact that the PSED is non-delegable. But that means that the decision maker cannot delegate the duty. Identification of the decision maker is a prior question which involves asking, as a question of fact, who made the decision. Once the actual decision maker is identified, there may be an issue whether the decision was <span style="font-style:italic">ultra vires</span> if that person had no authority to make the decision, but no such issue arises in this case. It is only when the decision maker has been identified that the relevance of the PSED being non-delegable arises. Thus, if the decision maker is the Council&#8217;s Cabinet, discharge of the PSED cannot be delegated to officers (cf. <span style="font-style:italic">Hunt</span>). But if the actual decision maker under an authority&#8217;s constitution is an officer, as in this case, it is that officer who must personally discharge the duty and cannot delegate it. But there is no case advanced that Professor Betts and Mr Williams did delegate the duty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For these reasons I would reject ground 1 of this appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 2 &#8211; failure to gather evidence of the impact</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As an alternative to ground 1, Mr Squires submitted that even if Professor Betts and Mr Williams were the decision-makers, they failed to gather evidence of the impact on severely disabled people of their decision not to change the existing policy. He submitted that the existing policy had the capacity to have a major impact on those who could not work; that in some cases (albeit not the appellant&#8217;s) the policy might result in as much as 30% to 40% of a person&#8217;s benefits being taken in charges, depending on the amount of their MIG and their disability-related expenditure or DRE; that the Council could not discharge the PSED without gathering evidence to show how many of the more than 8,800 adults in receipt of non-residential social care would be impacted in this way; and that no such evidence gathering exercise was undertaken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would reject this submission. As the judge said:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8216;100. What is very apparent, however, in relation to the post-<span style="font-style:italic">Norfolk</span> review process, is that it was wholly and expressly focused on precisely the equality/discrimination issues raised by that judgment &#8211; and by the present litigation. The judgment itself was at the heart of the review. It was addressed by reference to legal, policy and financial analysis of that judgment. It was, in other words, a more than usually intense and comprehensive inquiry into exactly the issue of which the Claimant complains.&#8217;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was obvious, and well understood, that to retain the existing charging policy would mean that adults in receipt of social care might find that a considerable percentage of their benefits was taken in charges, and that this impact would operate more severely on those unable to work because the earnings of disabled people who could work were protected. An evidence gathering exercise of the nature contended for by Mr Squires was unnecessary. As explained, for example, in <span style="font-style:italic">Sheakh</span> at [15], &#8216;The decision maker is concerned with the obvious impacts on equality, and not with the detail of every conceivable impact&#8217;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 4 &#8211; section 31(2A)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 31(2A) of the Senior Courts Act 1981 provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in">&#8216;The High Court&#8212;</p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">must refuse to grant relief on an application for judicial review, and </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.18in;text-indent:0.32in">may not make an award under subsection (4) on such an application, </p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:1in">if it appears to the court to be highly likely that the outcome for the applicant would not have been substantially different if the conduct complained of had not occurred.&#8217;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Because the judge concluded that there was no breach of the PSED, she did not need to consider this section. However, section 31(2A) was argued before her and she concluded her judgment by saying that &#8216;if ever there were a case for accepting an argument that no further degree of procedural rigour would in any event have produced a different outcome it is surely the present one&#8217;. Although, as Mr Squires pointed out, this brief sentence does not expressly mention section 31(2A), to my mind it is a clear statement that even if there had been a breach of the PSED, it is (at least) highly likely that the outcome would have been the same if the breach had not occurred &#8211; that is to say, even if the officers&#8217; decision had been referred to the Cabinet, and the Cabinet had considered for itself the needs identified in section 149, it is highly likely that the Cabinet would have made the same decision as the officers in fact made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgment the judge was entitled to reach this conclusion. In view of the Council&#8217;s dire financial situation, it is not only highly likely but almost inevitable that the same decision would have been made. Although Mr Squires pointed out that the Council&#8217;s section 114 notice was not issued until September 2023, some eight months after the January 2023 decision which is under challenge, that notice did not come out of the blue. By January 2023 the Council&#8217;s finances were already in crisis, with a predicted budget shortfall of &#163;80 million, in circumstances where the relentless rise in demand for adult social care was identified as a major unfunded pressure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">So if ground 4 had arisen, and notwithstanding the caution which is sometimes said to be necessary in considering section 31(2A) (cf. <span style="font-style:italic">R (Plan B Earth Ltd) v Secretary of State for Transport</span> [2020] EWCA Civ 214, [2020] PTSR 1446 at [273] and <span style="font-style:italic">Gathercole v Suffolk County Council</span> [2020] EWCA Civ 1179 at [38]), I would have rejected it.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Ground 5 &#8211; justification for discrimination</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As already noted, Mr Squires accepted that ground 5 would only arise if the appeal succeeded on ground 1, which it has not. He accepted also that there would be no relief available to the appellant in the event of success on ground 5 which would add to the relief in the event of success on ground 1 because, in both cases, there would need to be a remission to the Council to take a fresh decision. It is therefore unnecessary to say anything further about this ground of appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I would dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although the appeal has failed, I would not wish to end this judgment without expressing my admiration for the way in which the appellant&#8217;s mother has provided devoted care for him over many years in the most difficult circumstances and has fought hard to promote and protect his interests.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LADY JUSTICE WHIPPLE:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I agree.   Specifically, I note and agree with Lord Justice Males&#8217; reservations at para 38 above about the <span style="font-style:italic">Norfolk </span>case.  Mrs Justice Collins Rice distinguished that case and, save by the sidewind of ground 5 (which we have dismissed), her conclusions on that issue are not challenged on appeal.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">LADY JUSTICE KING:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I also agree and would endorse the reservations expressed by Lord Justice Males at paragraph 38 in relation to the <span style="font-style:italic">Norfolk </span>case whilst conscious that we have not heard focused argument in respect of the same.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

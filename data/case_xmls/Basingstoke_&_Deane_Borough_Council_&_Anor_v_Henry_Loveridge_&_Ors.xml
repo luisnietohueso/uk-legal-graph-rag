@@ -1,0 +1,1132 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/738"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/738"/>
+	  <FRBRdate date="2025-03-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="738"/>
+	  <FRBRname value="Basingstoke &amp; Deane Borough Council &amp; Anor v Henry Loveridge &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/738"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/738"/>
+	  <FRBRdate date="2025-03-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/738/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/738/data.xml"/>
+	  <FRBRdate date="2025-03-28T14:03:41" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="basingstoke-&amp;-deane-borough-council" href="" showAs="BASINGSTOKE &amp; DEANE BOROUGH COUNCIL"/>
+	<TLCPerson eId="hampshire-county-council" href="" showAs="HAMPSHIRE COUNTY COUNCIL"/>
+	<TLCPerson eId="henry-loveridge" href="" showAs="HENRY LOVERIDGE"/>
+	<TLCPerson eId="-115-other-named-defendants" href="" showAs="-(115) OTHER NAMED DEFENDANTS"/>
+	<TLCPerson eId="persons-unknown-who-are-forming-unauthorised-encampments-in-the-borough-of-basingstoke-and-deane" href="" showAs="PERSONS UNKNOWN WHO ARE FORMING UNAUTHORISED ENCAMPMENTS IN THE BOROUGH OF BASINGSTOKE AND DEANE"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCPerson eId="judge-kirsty-brimelow-kc" href="/judge-kirsty-brimelow-kc" showAs="KIRSTY BRIMELOW KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>738</uk:number>
+	<uk:cite>[2025] EWHC 738 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>e04a693582d76be2090702328f13d0903bf1ce246f5c60d3950c24227ea60f75</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { }
+#judgment .apple-converted-space { }
+#judgment .coitalic { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 738 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>QB-2018-003748</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-28" refersTo="#judgment">28/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-kirsty-brimelow-kc">KIRSTY BRIMELOW KC</judge> sitting as a Deputy Judge</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party refersTo="#basingstoke-&amp;-deane-borough-council" as="#claimant" style="font-weight:bold">BASINGSTOKE &amp; DEANE BOROUGH COUNCIL</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party refersTo="#hampshire-county-council" as="#claimant" style="font-weight:bold">HAMPSHIRE COUNTY COUNCIL</party></p>
+	    </blockContainer>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p class="ListParagraph" style="text-align:center;margin-left:0.5in"><party refersTo="#henry-loveridge" as="#defendant" style="font-weight:bold">(1)  HENRY LOVERIDGE</party></p>
+	    <p class="ListParagraph" style="text-align:center;margin-left:0.5in"><party refersTo="#-115-other-named-defendants" as="#defendant" style="font-weight:bold">(2)-(115) OTHER NAMED DEFENDANTS</party></p>
+	    <p class="ListParagraph" style="text-align:center;margin-left:0.5in"><party refersTo="#persons-unknown-who-are-forming-unauthorised-encampments-in-the-borough-of-basingstoke-and-deane" as="#defendant" style="font-weight:bold">(116)  PERSONS UNKNOWN WHO ARE FORMING UNAUTHORISED ENCAMPMENTS IN THE BOROUGH OF BASINGSTOKE AND DEANE</party></p>
+	    <p class="ListParagraph" style="margin-left:0.5in"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendants</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Natalie Pratt </span>for the <span style="font-weight:bold">Claimants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Defendants </span>did not appear and were not represented</p>
+      <p style="text-align:center">Hearing date: 20 March 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">DHCJ Brimelow KC :</span></p>
+	    <p class="ParaLevel1"><span style="font-weight:bold">INTRODUCTION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">This is an application by Basingstoke and Deane Borough Council and Hampshire County Council (the Claimants) for the renewal of an injunction (the Injunction) against the 116<span style="vertical-align:super;font-size:smaller">th</span> Persons Unknown. The Injunction is due to expire at 00:00 hrs on 4 April 2025 and the Claimants seek a continuation for a further 12 months.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">There is no longer an Order against any Named Defendant in these proceedings, it having expired on 3 April 2024 and the Claimants not having sought renewal of the same. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Injunction, referred to as a Traveller Injunction (and now as a new Traveller Injunction against newcomer Persons Unknown) prohibits unauthorised encampments and the depositing of waste. The Injunction covers just over 10% of the land comprised in the borough of Basingstoke and Deane, an area of 26 miles square (the Injunction Area).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The original injunction was made on 4 April 2019 by HHJ Dight CBE, sitting as a Deputy Judge of the High Court. It was an injunction which was then characterised as a final injunction and was granted against 85 named Defendants and Persons Unknown for a period of five years. That injunction prohibited the forming of unauthorised encampments and the depositing of controlled waste and applied to the same area of just over 10% of the Borough. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The injunction was then sought in response to the Borough, and the Injunction Area specifically, experiencing a high volume of unauthorised encampments and resulting harm. According to the evidence of Chris Williams (Mr. Williams), Environmental Health Team Leader (Housing Standards) in the period between April 2016 and 14 June 2018 (up until the granting of the interim injunction), the Borough experienced 158 encampments, 141 of which were formed within the Injunction Area. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">These proceedings were then described by the Claimants as having been caught within the <span style="font-style:italic">Barking &amp; Dagenham </span>litigation from October 2020 onwards, and so the Claimants became successful respondents in the appeal to the Supreme Court in <span style="font-style:italic">Wolverhampton City Council and others v The London Gypsies and Travellers and others</span> [2023] UKSC 47; [2024] 2WLR 45<span style="font-style:italic;font-weight:bold"> (</span><span style="font-style:italic">Wolverhampton).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The original injunction was due to expire on 3 April 2024 and the Claimants sought to continue injunctive relief against Persons Unknown for a further period of one year. That continuation was granted by Freedman J for a further one-year period from its original date of expiration: <span style="font-style:italic">Basingstoke and Deane Borough Council and Hampshire County Council v Loveridge and others</span><span> </span><span style="font-weight:bold">[</span>2024] EWHC 1828 (KB). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> Freedman J considered and applied the case of <span style="font-style:italic">Wolverhampton. </span>On the evidence, between April 2019 to January 2024, there had been 35 unauthorised encampments in the Borough, 18 of which were within the injunction area. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The current position is that in the period February to December 2024, there have been a total of 17 unauthorised encampments within the Borough, only one of which was formed in the Injunction Area (Chris Williams para 29). That encampment remained for less than a day. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold">The Claimants</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Claimants sought the injunctive relief in the discharge of their public functions pursuant to s187B of the Town and Country Planning Act 1990 and s222 of the Local Government Act 1972 to restrain breaches of planning control, and to promote or protect the interests of the inhabitants of their administrative areas (including to restrain acts of trespass). The First Claimant is the local planning authority for Basingstoke and Deane Borough Council (the Borough of Basingstoke and Deane) such that it has the administrative function of enforcing planning control within the Borough. The Second Claimant is the local highway authority, in whom the adopted highways are vested.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold">The Defendants</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-weight:bold"> </span>The defendants are the 116th Persons Unknown who are forming unauthorised encampments in the borough of Basingstoke and Deane.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.55in"> There no longer is an application against a named person, the injunction made between 2019 &#8211; 2024 having served its purpose. It is a category of application for a Traveller injunction against newcomer Persons Unknown, as considered in <span style="font-style:italic">Wolverhampton.</span> The court is satisfied that procedural service requirements have been fulfilled. Service is considered later in the judgment under procedural protections.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span> </span><span style="font-weight:bold">The Injunction Area</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in"> Mr. Williams identified the land in the Injunction area as needing the specific protection of an injunction for the following reasons: see paragraph 23:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-style:italic;margin-left:0.5in;text-indent:-0.25in">i.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.5in"><span style="font-style:italic">historically, the injunction area has suffered a disproportionate number of encampments as compared to the rest of the Borough. To that end, the injunction area, which covers just over 10% of the Borough, experienced 89% of all encampments in the Borough between April 2016 and 14 June 2018 (pre injunction). Further, in the period April 2019 to January 2024, the injunction area experienced 51% of the of all encampments in the Borough. As such, the inhabitants of the injunction area have suffered disproportionately the negative impacts of the encampments (which impacts I shall discuss further below); relatedly</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-style:italic;margin-left:0.5in;text-indent:-0.25in">ii.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.5in"><span style="font-style:italic">encampments have been concentrated in a very small area, such that the negative impacts of the encampments (which I shall discuss further below) are often magnified and exacerbated;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-style:italic;margin-left:0.5in;text-indent:-0.25in">iii.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.12in"><span style="font-style:italic">the nature of the land that falls within the injunction area means that greater harm is often suffered when encampments are formed there. For example, the urbanised area covered by the Injunction includes sites such as schools, public car parks, local businesses (such as supermarkets and other shops), sports facilities and public parks. When sites of that nature are targeted by encampments, the inhabitants of the area (and the Borough generally) suffer, as they often cannot use or access those sites, which have a high public amenity value. Further the sites on which encampments are formed are sometimes damaged (I shall discuss further below the impact that encampments have on the Borough and the sites on which they are formed), again affecting the use of the sites by the public and their amenity value. As such, the sites within the injunction area are generally not appropriate sites on which an encampment should form. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">He describes the harm caused by unlawful encampments in the Injunction Area as including risks to public health due to the deposit of untreated human faeces which can result in disease and water contamination, threats and intimidation to the inhabitants of the Borough, various nuisances, including smoke and noise and financial harm to the Claimants in seeking to deter, enforce against and clean up after encampments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">Of relevance is that this harm is largely historic. Since the granting of the Injunction by Freedman J there have been no incidents of intimidation or anti-social behaviour, although clean-up and eviction costs have been incurred by private landowners. Eviction costs also have been incurred by the First Claimant outside of the Injunction Area<span style="font-family:Garamond">. </span>Enforcement has reduced to zero with nuisance such as burning also eliminated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.55in">Mr. Williams emphasises that the injunctive relief sought is not trying to prevent the Gypsy and Traveller community encampments in the Brough altogether or generally and they are able to stop and encamp on the remaining 90% of land in the Borough. Rather, he says, it is focussed only on a small area where encampments are especially harmful and inappropriate or where it may be especially harmful. The land is a mix of private, charity and Borough land with the majority belonging to the Borough.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.55in">He summarises the Claimant&#8217;s application as being a fear that without the Injunction there will be an increase in unauthorised encampments in the Injunction Area and also that &#8220;<span style="font-style:italic">the Council reasonably apprehends that, if the Injunction was not continued, and the injunction area were to lose its protection, encampments may migrate from neighbouring administrative areas (especially Reading), and once again start forming with an increased frequency in the injunction area.&#8221;</span> This was firmed up in submissions to being a likelihood that such migration will take place. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.55in">Whilst the harm has been outlined above as detailed in Mr. Williams&#8217;s evidence, the Borough acknowledges in its Negotiated Stopping Policy and Agreement that the anti-social behaviour is not representative of the Gypsy and Traveller community generally and that to the extent that those individuals who engage in this activity identify as Gypsy or Traveller, they are a small and non-representative minority within those groups.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="NormalWeb"><span style="font-weight:bold">Relevant Legal Principles</span></p>
+	    <p><span style="font-weight:bold">Review or </span><span style="font-style:italic;font-weight:bold">De Novo</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Claimants argued that the court should approach this case as a review and so the court needs only consider if there has been a material change in circumstances. They relied upon <span style="font-style:italic">Wolverhampton </span>at paragraph 225, which expressed that the temporal limitation <span style="color:#000000">and periodic review of newcomer injunctions:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">give</span><span style="color:#000000">[s] </span><span style="font-style:italic;color:#000000">all parties an opportunity to make full and complete disclosure to the court, supported by appropriate evidence, as to how effective the order has been; whether any reasons or grounds for its discharge have emerged; whether there is any proper justification for its continuance; and whether and on what basis a further order ought to be made. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">They also relied upon <span style="font-style:italic;color:#000000">High Speed Two (HS2) Ltd v Persons Unknown </span><span style="color:#000000">[2024] EWHC 1277</span><span style="font-weight:bold;color:#000000"> </span><span style="color:#000000">(KB)</span><span style="font-weight:bold;color:#000000"> </span><span style="color:#000000">and </span><span style="font-style:italic;color:#000000">Transport for London v Persons Unknown &amp; Ors </span><span style="color:#000000">[2025] EWHC 55 (KB) as applied and approved in </span><span style="font-style:italic;color:#000000">Valero Energy Ltd v Persons Unknown </span><span style="color:#000000">[2025] EWHC 207.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">Due to this being an application without notice, the Claimants have complied with full and frank disclosure and raised the competing arguments that in both </span><span style="font-style:italic;font-weight:bold;color:#000000">TfL </span><span style="color:#000000">and </span><span style="font-style:italic;font-weight:bold;color:#000000">Valero, </span><span style="color:#000000">the court was dealing with orders that had been made for a period of 5 years, subject to an annual review. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">In the current application, the order was granted for a year and will expire by effluxion of time at the end of that year, absent application for renewal. The Claimants accepted that it therefore could be argued that, in those circumstances, the court </span><span style="font-style:italic;color:#000000">should</span><span style="color:#000000"> start de novo and perform a full assessment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">Further, when granting the Injunction, Freedman J expressly considered the purpose of the review hearing in light of </span><span style="font-style:italic;color:#000000">Wolverhampton &#8211; </span><span style="color:#000000">where he warned of a tick-box exercise- as well as in these specific proceedings ([2024] EWHC 1828 (KB</span><span style="font-weight:bold;color:#000000"> </span><span style="color:#000000">at paragraphs 55-59). He rejected the meaning within &#8220;a review&#8221; in this case and said that &#8220;a more careful evaluation is required in relation to the matter going further.&#8221; Freedman J also raised the need for the future court to scrutinise &#8220;very carefully&#8221; that the local authority actions in implementing a formal, negotiated stopping policy. Finally, Freedman J expressly said that it would be better not to refer to a future application for a renewal as a review and that it is a &#8220;renewal application rather than some type of review&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000"> This is not a case where I would be undertaking a potential undermining of the judgment of Freedman J but rather following his requirement that there is close scrutiny of whether there remained a compelling need for the granting of a further injunction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">In these circumstances, I consider the case should be heard </span><span style="font-style:italic;color:#000000">de novo</span><span style="color:#000000"> and so invited submissions in line with it being a </span><span style="font-style:italic;color:#000000">de novo</span><span style="color:#000000"> hearing. In addition, the Claimants had produced a very helpful and detailed skeleton argument addressing law and evidence as for a </span><span style="font-style:italic;color:#000000">de novo </span><span style="color:#000000">hearing.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-weight:bold">Power to Grant Injunction</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The court&#8217;s power to grant injunctions is wide-ranging, and is derived from the Senior Courts Act 1981, s37, which provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.13in"><span style="font-style:italic">The High Court may by order (whether interlocutory or final) grant an injunction or appoint a receiver in all cases in which it appears to the court to be just and convenient to do so. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> However, as observed in <span style="font-style:italic">Wolverhampton </span>at paragraph 145, section 37 is of limited assistance as a stand-alone power due to its lack of particularity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Injunction is sought pursuant to the Local Government Act 1972, s222 and the Town and Country Planning Act 1990, s187B.  The Town and Country Planning Act 1990, s187B provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;color:#000000">Where a local planning authority consider it necessary or expedient for any actual or apprehended breach of planning control to be restrained by injunction, they may apply to court for an injunction, whether or not they have exercised or are proposing to exercise any of their powers under this Part.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;color:#000000">On an application under subsection (1) the court may grant such an injunction as the court thinks appropriate for the purpose of restraining the breach.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:0.75in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;color:#000000">Rules of court may provide for such an injunction to be issued against a person whose identity is unknown.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;margin-left:0.75in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;color:#000000">In this section &#8220;the court&#8221; means the High Court or the county court. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">The underlying cause of action in a claim brought under s187B</span><span style="font-weight:bold;color:#000000"> </span><span style="color:#000000">is a breach of planning control.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">The Town and Country Planning Act 1990 at section 55(1) defines development as:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">&#8220;&#8230;</span><span style="font-style:italic;color:#000000">the carrying out of building, engineering, mining or other operations in, on, over or under land, or the making of any material change in the use of any buildings or other land.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000"> Section 55(3) of the Town and Country Planning Act 1990 provides:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">&#8220;For the avoidance of doubt it is hereby declared that for the purposes of this section&#8212; </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic">(b)</num>
+		  <content>
+		    <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the deposit of refuse or waste materials on land involves a material change in its use, notwithstanding that the land is comprised in a site already used for that purpose, if&#8212; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-style:italic">(i)</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-indent:1in"><span style="font-style:italic">the superficial area of the deposit is extended, or </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic">(ii)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">the height of the deposit is extended and exceeds the level of the land adjoining the site.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">Planning permission is required by the Town and Country Planning Act 1990 s57(1)), for the carrying out of any development of land, as defined as set out above in the Town and Country Planning Act 1990 s55(1) and s55(3)(b). Planning permission may be obtained by way of express grant, or by way of deemed grant through permitted development rights. Carrying out development without the required planning permission constitutes a breach of planning control (Town and country Planning Act 1990 s171A (1)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">The breaches of planning control complained of by the Claimants are primarily the material change in the use of the relevant land to a temporary Traveller site, and by the depositing of refuse or waste materials, without the requisite planning permission.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">The cause of action that underlies a claim brought further to the Town and Country Planning Act 1990 s187B is not one upon which the court can adjudicate; the court is not entitled to reach its own independent view on the planning merits of the case. The House of Lords in </span><span style="font-style:italic;color:#000000">South Buckinghamshire District Council v Porter &amp; Anr </span><span style="color:#000000">[2003] UKHL 26;</span><span style="font-style:italic;color:#000000"> </span><span style="color:#000000">[2003] 2 AC 558 (&#8216;</span><span style="font-style:italic;color:#000000">Porter</span><span style="color:#000000">&#8217;) at paragraphs 11, 20, 29 and 30 confirmed that the decision as to whether something is or is not a breach of planning control is a matter for the local planning authority, or the Secretary of State on appeal, and not the court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000"> However, the court&#8217;s power to grant an injunction under the Town and Country Planning Act 1990 s187B is discretionary, albeit that discretion must be exercised judicially. In</span><span style="font-style:italic;color:#000000"> Porter</span><span style="color:#000000"> at paragraph 29 and relevant to this context, Lord Bingham said as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">&#8220;&#8230;that the power must be exercised with due regard to the purpose for which it was conferred: to restrain actual and threatened breaches of planning control. The power exists above all to permit abuses to be curbed and urgent solutions provided where these are called for.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">A local authority also is given powers to step into the shoes of local landowners and bring proceedings, by the Local Government Act 1972 s.222:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic">&#8220;(1)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:1.12in"><span style="font-style:italic;color:#000000">Where a local authority consider it expedient for the promotion or protection of the interests of the inhabitants of their area &#8211; </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;margin-left:1.38in;text-indent:-0.25in">a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in"><span style="font-style:italic;color:#000000">they may prosecute or defend or appear in any legal proceedings and, in the case of civil proceedings, may institute them in their own name, and </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;margin-left:1.38in;text-indent:-0.25in">b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in"><span style="font-style:italic;color:#000000">they may, in their own name, make representations in the interests of the inhabitants at any public inquiry held by or on behalf of any Minister or public body under any enactment.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">This power to enforce obedience with public law does not require the involvement of the Attorney General as established in </span><span style="font-style:italic;color:#000000">Stoke-on-Trent City Council v B&amp;Q (Retail) Ltd </span><span style="color:#000000">[1984] AC 754.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="color:#000000">The fundamental principles to be followed by the court in exercising its discretion under the Local Government Act 1972 s222 are set out in </span><span style="font-style:italic;color:#000000">City of London Corporation v Bovis Construction Ltd</span><span style="color:#000000"> [1992] 3 All ER 697 at 714 per Bingham LJ and include:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;color:#000000">&#8220;&#8230;the essential foundation for the exercise of the court&#8217;s discretion to grant an injunction is not that the offender is deliberately and flagrantly flouting the law but the need to draw the inference that the defendant&#8217;s unlawful operations will continue unless and until effectively restrained by the law and that nothing short of an injunction will be effective to restrain them: see Wychavon DC v Midland Enterprises (Special Events) Ltd (1986) 86 LGR 83 at 89.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> The court has power to attach a power of arrest to an injunction is granted under the Local Government Act s222, utilising its power under the Police and Justice Act 2006, s27<span style="color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">The </span><span style="font-style:italic;font-weight:bold">Wolverhampton</span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"> </span><span style="font-weight:bold">case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The<span style="font-style:italic"> Wolverhampton</span> case is considered by Freedman J at paragraphs 22 &#8211; 26 of <span style="font-style:italic">Basingstoke and</span><span> </span><span style="font-style:italic">Deane Borough Council and</span><span> </span><span style="font-style:italic">Hampshire County Council v Loveridge and Ors</span> [2024] EWHC 1828 (KB).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> Throughout the judgment, the court examined whether this was a new type of injunction and analysed newcomer injunctions initially outside the context of proceedings against Travellers, with the earliest in time being <span style="font-style:italic">Venables</span> [2001] Fam 430. This was possibly the first <span style="font-style:italic">contra mundum/against the world</span> equitable injunction granted in recent times; see paragraphs 108 &#8211; 125 of <span style="font-style:italic">Wolverhampton.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Importantly, the Supreme Court considered so-called Traveller Injunctions against newcomer persons unknown. The Court ruled that final injunctive relief can be granted against newcomer persons unknown, albeit that it held that such an injunction is neither interim nor final in substance and is instead a form of without notice relief; see paragraph 139. In essence, the Court considered the reasoning that since an interim injunction is designed only to hold the ring, pending trial between the served parties, its use against newcomers for any other purpose would fall outside the principles that regulate the granting of interim injunctions. It then considered the <span style="font-style:italic">South Cambridgeshire District Council v Gammell</span> [2005] EWCA Civ 1429 (<span style="font-style:italic">Gammell) </span>solution that a newcomer becomes a defendant by acting in breach of the interim injunction and the tidy solution to both issues as it makes the newcomer a party and at that point justifies the interim injunction against newcomers as- as put by the Supreme Court &#8211; a way of smoking them out before trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In its consideration of this issue, the Supreme Court said that the focus on the duality of interim and final injunctions was unhelpful as a means of providing a remedy to the risk of a right being breached.  The Supreme Court considered that the injunction against newcomers is a without notice injunction or &#8211;in old language- an <span style="font-style:italic">ex parte</span> injunction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">  The Supreme Court considered that the evaluation of potential injustice inherent in the process of granting injunctions against newcomers is more likely to be reliable if there is no assumption that the newcomer affected is a person who &#8220;is so regardless of the law&#8221; that they will commit a breach of the injunction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> From recognition that injunctions against newcomers are always a form of without notice injunction, whether in interim or final form, the starting point is whether they should be made at all and if so by reference to what principles and subject to what safeguards.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Firstly, to determine whether the injunction sought falls into an established class of injunction or is &#8220;a legitimate extension of the court&#8217;s practice&#8221;, the distinguishing features of the sought after injunction require scrutiny (see paragraph 143). The features left the court in no doubt that the injunction against newcomers is a new type of injunction, pithily described as having &#8220;<span style="font-style:italic">no very closely related ancestor from which it might be described as evolutionary offspring, although analogies can be drawn</span>&#8221; (paragraph 144).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">  There is no argument that the Injunction is an injunction against newcomers. The principles of when such relief can and should be granted were then considered by the Supreme Court, particularly at paragraph 167, where the court set out its reservation, its caution and its guiding principles: </p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in">" <span style="font-style:italic">These considerations lead us to the conclusion that, although the attempts thus far to justify them are in many respects unsatisfactory, there is no immoveable obstacle in the way of granting injunctions against newcomer Travellers, on an essentially without notice basis, regardless of whether in form interim or final, either in terms of jurisdiction or principle. But this by no means leads straight to the conclusion that they ought to be granted, either generally or on the facts of any particular case. They are only likely to be justified as a novel exercise of an equitable discretionary power if: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:1in;text-indent:-0.25in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic">There is a compelling need, sufficiently demonstrated by the evidence, for the protection of civil rights (or, as the case may be, the enforcement of planning control, the prevention of anti-social behaviour, or such other statutory objective as may be relied upon) in the locality which is not adequately met by any other measures available to the applicant local authorities (including the making of byelaws). This is a condition which would need to be met on the particular facts about unlawful Traveller activity within the applicant local authority&#8217;s boundaries.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:1in;text-indent:-0.25in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic">There is procedural protection for the rights (including Convention rights) of the affected newcomers, sufficient to overcome the strong prima facie objection of subjecting them to a without notice injunction otherwise than as an emergency measure to hold the ring. This will need to include an obligation to take all reasonable steps to draw the application and any order made to the attention of all those likely to be affected by it (see paras 226-231 below); and the most generous provision for liberty (i.e. permission) to apply to have the injunction varied or set aside, and on terms that the grant of the injunction in the meantime does not foreclose any objection of law, practice, justice or convenience which the newcomer so applying might wish to raise. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:1in;text-indent:-0.25in">iii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-style:italic">Applicant local authorities can be seen and trusted to comply with the most stringent form of disclosure duty on making an application, so as both to research for and then present to the court everything that might have been said by the targeted newcomers against the grant of injunctive relief. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:1in;text-indent:-0.25in">iv.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic">The injunctions are constrained by both territorial and temporal limitations so as to ensure, as far as practicable, that they neither outflank nor outlast the compelling circumstances relied upon. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:1in;text-indent:-0.25in">v.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic">It is, on the particular facts, just and convenient that such an injunction be granted. It might well not for example be just to grant an injunction restraining Travellers from using some sites as short-term transit camps if the applicant local authority has failed to exercise its power or, as the case may be, discharge its duty to provide authorised sites for that purpose within its boundaries. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">The practical application of these principles affecting an application for a newcomer injunction against Gypsies and Travellers and the safeguards were considered by the Supreme Court in its judgment at paragraphs 188 to 237. The court states that these principles and safeguards will evolve as cases come before the courts. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">I now will turn to the matters that have to be considered in order for the Claimants to justify their application for such an injunction, as referred to in paragraph 167 and in the subsequent paragraphs of the judgment in <span style="font-style:italic">Wolverhampton</span>. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-weight:bold">Compelling justification for the remedy </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">50.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.55in">The guidance at paragraph 167(i) requires there to be a compelling need, sufficiently demonstrated by the evidence, for the remedy that is sought, which is not adequately met by other measures available to the claimants. The compelling need is described at paragraph188 as the <span style="font-style:italic">"</span>overarching principle that must guide the court at all stages of its consideration". At paragraph 218, it was also held that there must be a strong probability that a tort or breach of planning control or other aspect of public law is to be committed and that this "will cause real harm". At paragraph 189, there were identified three preliminary questions: </p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in">whether the local authority has complied with its obligations to consider and provide lawful stopping places for gypsies and travellers;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in">whether the local authority has exhausted all reasonable alternatives, including whether it has engaged in dialogue with the gypsy and traveller community to try and find a way to accommodate their way of life by giving them time and assistance to find alternative or transit sites or permanent accommodation;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in">whether the local authority has taken steps to control or prohibit unauthorised encampments and related activities by using other measures and powers at its disposal. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Evidence of wrongful conduct requiring a remedy</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Claimants rely on a number of statements, including Mr. Williams&#8217; fourth witness statement, the first witness statement of Inspector Charles Ilderton and the fourth witness statement of Nicholas Waite, the Gypsy liaison officer of the Second Claimant. The first two witnesses give detailed evidence of wrongful conduct requiring of a remedy. It is summarised above under the consideration of the &#8220;Injunction Area&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">52.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In addition to above, from the Council&#8217;s internal case management system, Mr. Williams details:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">After the injunction: in the period of April 2019 to January 2024, there were a total of 35 unauthorised encampments, 18 of which were within the injunction area and 17 of which were outside. That equates to 51% of encampments being in the injunction area. Of those 18 encampments in the injunction area, 17 were removed with the assistance of the injunction granted by HHJ Dight CBE (sitting as a Judge of the High Court). One encampment left voluntarily on the same day as it arrived (7 June 2021) without the need for intervention. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">In the period February to December 2024<span style="font-weight:bold"> </span>there were a total of 17 unauthorised<span style="font-weight:bold"> </span>encampments, of which one was within the injunction area. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">the number of unauthorised encampments in the Borough generally and the injunction area specifically have reduced significantly;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">the duration of stay of an unauthorised encampment in the injunction area has reduced significantly;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">the duration of stay of an unauthorised encampment in the injunction area is significantly lower than it is for encampments outside of the injunction area;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">there are two encampments which are formed by those travelling through the Borough, there has been an equal division of encampments within in and outside of the injunction area in 2024.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">If the injunction is not made there is a likelihood that those forming unauthorised encampments in neighbouring Boroughs will migrate to the Injunction area and the harms suffered prior to the granting of injunctive relief will resume.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">There also is evidence of Nicolas Waite pointing to the statistically backed downward trend that is not reflected in other boroughs in the County of Hampshire, rather those other borough trends are upwards. The notable exception is Test Valley where, since 2020, there has also been a significant downward trend. However, in 2020, Test Valley also obtained injunctive relief to prohibit encampments in some urban areas, with that relief first being granted in 2020. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">It is of note that of the 17 unauthorised encampments, there appear to be only two that were not part of one family (the family). Mr. Williams addresses the family in his witness statement and states that they have a good history of complying with the injunction and so the Claimants do not seek an injunction against the family as a named party. Further the family is on the First Claimant&#8217;s housing list and is seeking permanent accommodation, described as &#8220;bricks and mortar&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold">The three preliminary questions: (1) the obligation to consider and provide lawful stopping places</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The relevant guidance in <span style="font-style:italic">Wolverhampton</span> is at paragraphs 190-202.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Mr Williams addresses the negotiated stopping policy and states that, in compliance with the First Claimant&#8217;s undertaking, it put a negotiated stopping policy and agreement before its cabinet on 10 September 2024, and it was adopted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The negotiated stopping policy and agreement at paragraph 9 sets out considerations that the Council must take into account when dealing with an application. It is published on the Council&#8217;s website. If permission is granted, the expected duration of the encampment is 24-72 hours with 14 days maximum duration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">I was informed by Ms. Pratt that there had not been any engagement with the negotiated stopping policy by the Gypsy and Traveller community until the week prior to this hearing on 20 March 2025. This engagement is from the family, and I was informed that they have instructed lawyers. However, this is in the early stages.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Further, the First Claimant places much reliance on their practice of toleration of temporary encampments on a case-by-case basis, including checks on welfare of those forming unauthorised encampments. The witnesses urge that one advantage of a specific and individual consideration of each encampment is that the encampment can be closer to facilities or amenities, such as a hospital. I was told that there is no evidence that the case-by-case approach has been the subject of complaints. I pay particular regard to the evidence of Mr. Williams that this informal approach has worked in achieving a balance between the interests of Gypsy and Traveller groups and local inhabitants. In his second witness statement, he gave six examples of this toleration in action. There are no specific examples given for the last year but the Council&#8217;s flexible approach of assessing need and welfare is said by Mr. Williams to be of greater benefit to the Gypsy and Traveller community than setting up a transit pitch in an inconvenient location relative to sought out facilities. An absence of sufficient transit sites in an area (or information as to where available sites may be found) may itself be a sufficient reason for refusing a newcomer injunction (paragraph 202 <span style="font-style:italic">Wolverhampton</span>).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Considerations for the court are beyond transit site provision and the court must look at the local authority&#8217;s provision for the Gypsy and Traveller community more generally when exercising their operation as a local planning authority. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The evidence from Sally Boxall, the principal technical planning officer of the Council sets out that the current Gypsy and Traveller Needs Assessment is for 17 pitches between 2024 and 2029. As of 1 April 2025, 8 pitches are considered deliverable up to 2029. The reason for the increased need is due to the expansion of definition of Gypsies and Travellers, in December 2024, to include all other persons with a cultural tradition of nomadism or of living in a caravan. An updated Gypsy and Traveller and Travelling Show People Accommodation Assessment is being compiled.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Currently, therefore the need of Gypsy and Travellers is not being met by the Borough. In addition, no need has been identified by the First Claimant for a transit pitch.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Council is updating its local plan, and this includes a call for sites for Gypsies and Travellers. Historically, these calls have not been successful. At the hearing, the Council were not able to provide the court with any update. However, they pointed to these sites relating to permanent or semi-permanent pitches rather than transit pitches. Further, there was the same assessment at the time of the granting of the Injunction that there was no assessed need for a transit pitch. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In his fourth witness statement, Nicolas Waite the Second Claimant&#8217;s Gypsy liaison officer states that currently there is no statutory duty for Hampshire County Council to provide any form of permanent or transit site for the Gypsy and Traveller community. It was on this basis that Hampshire County Council has been able to dispose of three of its stock of permanent residential sites by transferring them into the ownership of a company belonging to a member of the Travelling community. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">There is one permanent site under the management of the Second Claimant, with 19 pitches. It is full, with five names on a waiting list.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In considering all the evidence of the Claimants actions to properly address where Travellers and Gypsies could stop when passing through the Borough, I take into account Mr. Williams emphasis that there remains 90% of the Borough. Also, I am helped by Mr. Williams&#8217; local informed knowledge, and he states:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NormalWeb" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Historically, encampments were not forming in the injunction area because there was nowhere else for them to go, or because they would not be tolerated in appropriate circumstances on appropriate sites, but because the convenience of the injunction area was attractive, and often because it enabled members of the Travelling community to run their commercial enterprises most efficiently. The same is clear from the scale and nature of the fly-tipping that was associated with some encampments (which included commercial and green waste); these people were not simply passing through the Borough and in need of a place of a temporary place of rest.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;font-weight:bold">The three preliminary questions: (2) exhaustion of all reasonable alternatives</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Mr. Williams has provided detailed evidence as to how the Injunction is managed and he points to constructive dialogue whereby its content is explained to those who may be about to breach the Injunction and there has not been a requirement to move to enforcement. The Council operates a Memorandum of Understanding with the Hampshire Constabulary which includes operational guidance on the management of encampments within the Injunction Area. There will be some circumstances where, as both the Council and Hampshire Constabulary acknowledge, there will be tolerance even within the Injunction Area.  In other words, it is emphasised to the court that the Injunction is not blind to compelling welfare needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In relation to the family, there has been and is ongoing interactions over their housing requirements with the offer of previous properties. These previous offers have been rejected by the family as unsuitable. Mr. Williams&#8217; evidence shows that the Injunction has been cost saving in that the one unlawful encampment since the Injunction did not result in costs of clean up as the Injunction was used to move the encampment in a matter of hours.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;font-weight:bold">The three preliminary questions: (3) steps to control or prohibit unauthorised encampments by other measures and powers</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In particular, the First Claimant has relied on the alternative powers contained within the Criminal Justice and Public Order Act 1994 (&#8216;CJPO 1994&#8217;), ss77-78. However, they have not been effective, and enforcement is costly. In the period 2016 to 2018, the First Claimant exercised its s77 powers on 10 occasions (with 7 occasions requiring an order to be sought under s78), at a cost of &#163;4649. Following the grant of injunctive relief, the powers were not exercised at all between April 2019 and January 2024. In the period February to December 2024, the powers were exercised once at a cost of &#163;1053.50.  It also was submitted that it can be easy for an encampment to thwart enforcement attempts under s.77 &#8211; s.78 by the encampment waiting to be served with a direction to leave the land and then move to another section of land nearby, necessitating the process to restart. It appears a neutral argument that harm is minimised if removal of the encampment is swift, as has been the result of the injunction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Mr. Williams described that public space protection orders (PSPOs) and byelaws are not helpful in addressing unauthorised encampments as they are slow to enact, and the enforcement is ineffective. The PSPOs and breach of a byelaw would result in fixed penalty notices and subsequent summons to court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Mr. Williams states that the Council does not seek to punish Travellers for their way of life but simply restrict the areas of the Borough in which they can exercise their way of life by 10%. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">I questioned the Claimants about the requirement for a power of arrest and they point to it being needed to give the injunction teeth. Mr. Williams paints the teeth as smiling in practice as the Injunction has been used to educate those in breach by providing advice. He underlines that the power of arrest is a last resort and has never yet been used. As a result, every occasion where the Injunction (and its predecessor Order) has been breached has resulted in the occupants moving on voluntarily once provided with advice by a Council officer. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Procedural protections</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> Following the requirement in <span style="font-style:italic">Wolverhampton</span>, at paragraph 167 (ii) and 226 to 232 for there to be procedural protections for the rights of newcomers to overcome the strong prima facie objection of subjecting them to a without notice injunction, the Order continuing the Injunction must include a generous liberty to apply provisions and an obligation to take all reasonable steps to bring the application and any order to the attention of those who may be affected by any order made. The draft order includes posting selected documents on the land and a notice directing persons unknown to a website on which all evidence in support of this claim has been uploaded.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">74.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> The court was provided with documents evidencing the service of this application, on 17 and 18 February 2025, whereby notices, the application and draft order have been attached to various lampposts, footpath bridges, telegraph poles and signs. Many documents are tightly wrapped around the poles and so are difficult to read. The Order of Freedman J are clearly displayed as it is affixed in a manner that does not require folding.  There also is an email address utilised by the London Gypsy and Travellers group. The Application notice was sent to this email. On 20 March 2025, during the hearing, there was an email requesting a link to the evidence.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-weight:bold">Territorial and temporal limits</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Claimants point to their application being for an injunction with a temporal limit of one year and so it would be a two-year period of a Traveller Injunction against Persons Unknown, including newcomers. The court must consider whether this is a proportionate response to the unlawful activity at which it is directed. In<span style="font-style:italic"> Wolverhampton </span>at paragraph 167 (iv) the Supreme Court refers to the requirement of restraint of newcomer injunctions to ensure as far as practicable they neither &#8220;outflank nor outlast the compelling circumstances relied upon.&#8221; This is expanded in paragraph 225 where the Supreme Court emphasises the exceptional nature of this type of injunction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The evidence demonstrates that the Injunction has been effective. This creates the circular question and answer as to whether its requirement is therefore redundant. However, there is evidence that the threat or risk or mischief at which the Injunction is directed have not dissipated. Mr. Williams provided evidence that he contacted the neighbouring local authorities, and they provided figures of unlawful encampments in public areas, with all being in an urban area, which is the attraction of the Injunction area. By far the largest number of unauthorised encampments is in Reading, numbering 59 according to the witness statement of Acting Inspector Beasley of Thames Valley Police. Reading is an urban area. The cessation of the Injunction, the police and council urge, will likely lead to a movement of some of these encampments to the Injunction area.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">77.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In relation to the territorial limits of the injunctions, it covers just over ten per cent of the borough and includes the urban areas of Basingstoke Town and outlying areas of Bramley, Sherbourne, St. John and Silchester as well as an area of land at Stratfield Turgis. During the hearing the First Claimant pointed to the rural areas not covered by the Injunction also including towns as well as villages with amenities. However, the unauthorised encampments in these areas do not have the same impact on local inhabitants as they did within the Injunction Area which includes public parks, schools, sports facilities and shops and local businesses. Further detail is addressed in Mr. Williams statement and is summarised above under consideration of the Injunction Area. The First Claimant points to the risk that these unauthorised encampments will move to the Injunction Area.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"><span style="font-weight:bold">Is it just and convenient to grant the injunctive relief sought?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">Paragraph 167 of <span style="font-style:italic">Wolverhampton </span>underlines the novel equitable discretionary power of an injunction against newcomer Travellers and that they are only likely to be justified if a number of factors are satisfied, as set out above, including that the granting of the Injunction is just and convenient on the particular facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">79.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in"> The Claimants make points relying on paragraphs 188 to 237 of <span style="font-style:italic">Wolverhampton:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">that the intended respondents to an application must be defined as precisely as possible, identified and enjoined where possible and, if the order is sought against newcomers, the possibility of defining the class of persons by reference to conduct and/or intention should be explored and adopted if possible; paragraph 221<span style="font-family:Garamond"> </span>of <span style="font-style:italic">Wolverhampton.</span> This was addressed by Freedman J and so the 116<span style="vertical-align:super;font-size:smaller">th</span> Defendant is more precisely defined as &#8220;persons unknown who are forming unauthorised encampments in the Borough of Basingstoke and Deane&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">ii.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">the injunction should be clear and precise, and use everyday terms, when setting out the acts that it prohibits. The prohibited acts must correspond as closely as possible to the actual or threatened unlawful conduct and extend no further than the minimum necessary to achieve the purpose for which it was granted; paragraphs 222 to 224 of Wolverhampton. Again, this was considered by Freedman J, and the proposed Order reflects the previous wording. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">iii.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in">the order is not an interim order, in the sense that it is holding the ring until the final determination of the merits at trial. However, it is appropriate that there be consideration of whether there should be a cross-undertaking in damages: see paragraph 234 of <span style="font-style:italic">Wolverhampton. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-weight:bold">Cross-undertaking as to Damages</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in"><span style="font-weight:bold"> </span>This was considered by Freedman J at paragraph 48 of his judgment. I don&#8217;t repeat his analysis save to highlight the potential engagement of the 116<span style="vertical-align:super;font-size:smaller">th</span> Defendant&#8217;s rights pursuant to Article 8 ECHR in respect of a right to a private and family life following a nomadic lifestyle. It is a qualified right and must be balanced against competing rights and such engagement would usually occur when an unknown person becomes a known person. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">In the circumstances of this cases there is no reason to depart from the ordinary position summarised by Freedman J. The Claimants are not required to give an undertaking in damages.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Full and frank disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The court has been assisted by the Claimants&#8217; full and frank disclosure and detailed skeleton argument and the court is alerted to the fact that the First Claimant can no longer meet its five-year supply need for Gypsy and Traveller pitches.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The </span><span style="font-style:italic;font-weight:bold">Vastint </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">multifactorial test</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">The Claimants seek precautionary relief. The principles in respect of precautionary relief are set out by Marcus Smith J in <span style="font-style:italic;color:#000000">Vastint Leeds BV v Persons Unknown</span><span style="color:#000000"> [2019] 4 WLR 2 (&#8216;</span><span style="font-style:italic;color:#000000">Vastint</span><span style="color:#000000">&#8217;), as approved by Vos MR in </span><span style="font-style:italic;color:#000000">London Borough of Barking and Dagenham &amp; Ors v Persons Unknown &amp; Ors </span><span style="color:#000000">[2022] EWCA Civ 13; [2023] QB 295. The extent to which these guidelines and multifactorial test should be considered in light of </span><span style="font-style:italic;color:#000000">Wolverhampton </span><span style="color:#000000">is unclear. They have not been disapproved.  The court had paid careful regard to them, in particular paragraph 31 as set out in the judgment of Freedman J.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p><span style="font-weight:bold">Gypsy and Traveller Communities and granting of this Application for an Injunction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">I find on the evidence and information provided to the Court that the multifactorial test in<span style="font-style:italic"> Vastint</span> and the guidelines in<span style="font-style:italic"> Wolverhampton</span> are satisfied. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">The Injunction sought is constrained by temporal and geographical limitations to ensure, as far as practicable, that they neither outflank nor outlast the compelling circumstances relied upon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">86.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.55in">In considering whether there is a compelling need for an injunction and it is, on the facts, just and convenient to grant one, I find that it is clearly evidenced that the injunctive relief has been an effective way of dealing with the formation of unauthorised encampments in the Injunction Area and the harm caused by those encampments, whether by preventing the formation of encampments, or in assisting with moving encampments on in a timely and cost-efficient manner once they have been formed. I consider that there is a strong possibility (applying <span style="font-style:italic;color:#000000">Vastint)</span> that unless restrained by an injunction, Persons Unknown will breach the Claimant&#8217;s rights. The resulting harm from the breach could be of a type that could not be adequately compensated for by damages. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.55in"><span style="font-weight:bold">Concluding Remarks</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">A nomadic lifestyle is part of the tradition and culture of Gypsy and Traveller communities. It is part of their identity and the importance of this lifestyle to Travellers and Gypsies is recognised by the European Court of Human Rights in a number of judgments, including <span style="font-style:italic">Chapman v United Kingdom</span> (2001) 33 ECHR 18. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">Gypsies and Traveller people have been present in England since at least the 16<span style="vertical-align:super;font-size:smaller">th</span> century. Historically, they have been persecuted across Europe and the United Kingdom. In the twenty first century, The Equality and Human Rights Commission has published a number of reports showing that Gypsy and Traveller people have unequal and poor outcomes in health, education and economy. They suffer the worst outcomes of any group, across a wide range of social indicators, with their life chances being in decline.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">Meeting the accommodation needs of Gypsies and Travellers, which includes transit stopping, is important to protecting their way of life. In practical terms, it is necessary to help improve the life chances of their families.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">The Claimants will be aware of qualitive research in 2022 by the Office of National Statistics into the lived experiences of this community in England and Wales. One finding is that instability and apprehension about being moved on leads to increased anxiety amongst those who wish to maintain a nomadic or partially nomadic lifestyle. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">In granting this injunction, the court takes into account the conduct of the Claimants that they take a collaborative approach when Gypsies and Travellers require a place to stop, and that enforcement always is a last resort.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:Garamond;margin-left:0.55in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">However, the Claimants are expected to reflect further on their reasons for not pursuing byelaws. This type of injunction must remain as exceptional and it will be in place, in near identical terms, for a second year. It should never be a solution looking for a problem.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in"> If there is a further application to renew, it should not be listed as a review and should be considered again with real care and scrutiny. The onus is on the Claimants to ensure that this information is communication to the court. Any application to renew should be considered again, <span style="font-style:italic">de novo,</span> with real care and scrutiny. This type of application must not dilute into a routine, or a &#8220;tick box&#8221; exercise as described by Freedman J in his judgment at paragraph 55.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">Currently the Borough is not meeting the needs of the Gypsy and Traveller community. The decision not to create a transit site is justified on a hypothetical basis that it might not be in as convenient a place as would be served by informal and formalised stopping processes. However, a transit site would satisfy anxiety of Gypsies and Travellers that they might be moved from whenever they stop in the Borough. The court expects that a transit site is reconsidered by the Claimants and consultation is carried out with the Traveller and Gypsy community.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">If the Claimants decide to make a further application to renew this injunction, they need to be prepared to address considerations into reducing the size of the area as well as produce evidence of satisfying the needs of the Gypsy and Traveller community where those needs currently are not being met. In addition, the need for a power of arrest will require review. Although there is a memorandum of understanding with Hampshire police, informal understandings amongst council officers and police can cease to work when personnel change. Intention can be harder to safeguard the longer that there is for time to pass. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">96.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.55in">In any future application, the Claimants must ensure that evidence relied upon is accessible to the persons who may be affected, including the London Gypsy and Travellers group. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.55in"><span style="font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="margin-left:0.55in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.55in">Subject to my concluding remarks, the Claimants have demonstrated a compelling need for the promotion and protection of the interests of the inhabitants of the Borough.  Applying the strictures of <span style="font-style:italic">Wolverhampton </span>as required when considering precautionary relief, the court is satisfied that (a) the Claimants have exhausted all reasonable alternatives before seeking renewal of the injunction, (b) there is no other realistic or proportionate alternative to injunctive relief, (c) the statutory requirements for a power of arrest have been satisfied and (d) the Claimants have taken proportionate steps to control encampments and the depositing of waste. There is a real risk that that the offending acts will continue and will return without the restraint of an injunction. Exceptionally, the injunction is required against newcomer Persons Unknown. The court orders the injunction in the terms of the draft Order.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

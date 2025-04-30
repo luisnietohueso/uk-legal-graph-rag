@@ -1,0 +1,591 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/462"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/462"/>
+	  <FRBRdate date="2025-03-05" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="462"/>
+	  <FRBRname value="Daisy Simpson, R (on the application of) v Brentwood Borough Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/462"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/462"/>
+	  <FRBRdate date="2025-03-05" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/462/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/462/data.xml"/>
+	  <FRBRdate date="2025-03-05T12:20:12" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-05" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)" shortForm="The Administrative Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="daisy-simpson" href="" showAs="DAISY SIMPSON"/>
+	<TLCPerson eId="brentwood-borough-council" href="" showAs="BRENTWOOD BOROUGH COUNCIL"/>
+	<TLCPerson eId="essex-county-council" href="" showAs="ESSEX COUNTY COUNCIL"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+	<TLCPerson eId="judge-mr-justice-macdonald" href="/judge-mr-justice-macdonald" showAs="MR JUSTICE MACDONALD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>462</uk:number>
+	<uk:cite>[2025] EWHC 462 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>6ac803beffbb66c2b8b9760e3c880d1e2fde70a076ca0856e6ae954940f66832</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 462 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-LON-001127</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-05" refersTo="#judgment">05/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-macdonald">MR JUSTICE MACDONALD</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#daisy-simpson" as="#claimant" style="font-weight:bold">THE KING (on the application of DAISY SIMPSON)</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#brentwood-borough-council" as="#defendant" style="font-weight:bold">BRENTWOOD BOROUGH COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#essex-county-council" as="#interested-party" style="font-weight:bold">ESSEX COUNTY COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#interested-party">Interested Party</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Timothy Baldwin </span>(instructed by<span style="font-weight:bold"> Hodge Jones and Allen</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Nicholas Grundy KC</span> (instructed by <span style="font-weight:bold">Birketts LLP</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Lindsay Johnson </span>(instructed by<span style="font-weight:bold"> Essex County Council) </span>for the <span style="font-weight:bold">Interested Party</span></p>
+      <p style="text-align:center">Hearing dates: 4 February 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 5 March 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE MACDONALD</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice MacDonald:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in">INTRODUCTION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is an oral renewal hearing of an application for permission to apply for judicial review by the Claimant, Daisy Simpson, with respect to a decision of the Defendant, Brentwood Borough Council, on 4 January 2024 to offer to the Claimant a property called Rowan Green East as accommodation suitable for occupation by the Claimant. The accommodation is on an assisted living estate.  The question in this case centres, on the Claimant&#8217;s case, on the performance of the Defendant&#8217;s duties under the Housing Act 1996 (hereafter &#8220;the 1996 Act&#8221;) Part VI concerning &#8216;Allocation of Housing Accommodation&#8221; and, on the Defendant&#8217;s case, its duties under Part VII of the 1996 Act concerning &#8216;Homelessness&#8217;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Essex County Council has been joined as an interested party, represented by Mr Lindsay Johnson of counsel. At this renewal hearing the Interested Party contended that it should be discharged in circumstances where its involvement has been limited to the discharge of statutory functions that are not challenged by the Claimant&#8217;s claim and that it cannot assist the court with respect to any of the Claimant&#8217;s grounds of review in circumstances where it has no housing functions.  I was satisfied that the Interested Party should be discharged and made an order accordingly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In determining the application for permission to apply for judicial review, I have had the benefit of written and oral submissions from Mr Timothy Baldwin of counsel on behalf of the Claimant and Mr Nicholas Grundy of King&#8217;s Counsel on behalf of the Defendant.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1">BACKGROUND</p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant is disabled and has complex medical needs.  Within this context, the Claimant is receiving palliative care and Continuing Health Care (hereafter &#8220;CHC&#8221;) from the NHS funded by direct payments under a Personal Health Budget.  Her current CHC provides for care at her present one-bedroom property at Railway Square, in respect of which the Defendant is the landlord and the Claimant has a secure tenancy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s CHC was the subject of a separate claim for judicial review dismissed on 6 December 2024 by Fordham J (see <span style="font-style:italic">R (on the application of Simpson) v NHS Mid and South Essex Integrated Care Board</span> [2024] EWHC 3063). The judgment of Fordham J contains the following summary of the Claimant&#8217;s medical condition and the treatment she requires consequent upon it:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;The summary which I set out below was commended to me by Mr Burton KC and Mr Baldwin. It originates from a review which the Defendant conducted in September 2023. It was included within the Defendant's care plan dated 12.4.24 ("the Plan"). A "portacath" is a small piece of medical equipment that can make receiving frequent doses of intravenous (IV) therapy over a long period easier for healthcare professionals and more comfortable for patients. BIPAP is a form of non-invasive ventilation.</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">&#8216;Daisy is a 35-year-old lady that lives alone in a one bedroomed flat in Brentwood. She is currently in receipt of a personal health budget with which she employs carers over a 24-hour period. Daisy has a long history of mental health disorders diagnosed at the age of 17 and numerous physical health conditions including Diabetes, Gastro issues, Gynae issues, Chronic Lung Condition, Moya Moya disease, Recurrent Trans Ischemic Attacks (TIAs) and Sleep Apnoea.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">Daisy has multiple interventions to support her breathing including BIPAP, Nebulisers six times daily, a four weekly intravenous infusion, a flutter device (a type of cough assist) and oral medications. Her fluctuating physical abilities mean that she often struggles to manage these interventions without support from her carer. Her carer also prepares all meals for Daisy and when she is present will also serve them to her. Daisy reports that she experiences intermittent swallowing problems especially following a TIA. Currently Daisy can access the toilet to pass urine and open her bowels however, she suffers from both incomplete emptying, requiring intermittent self-catheterisation at least once daily, and bowel dysmotility causing her issues with constipation that did require self-administration of enemas, however, this now appears to be managed with administration of Bisacodyl oral tablets. Daisy is at risk of skin deterioration due to her reduced mobility and as a side effect of oral steroids. She requires assistance from her carer to maintain her skin integrity. She has pro shield barrier cream applied at least twice daily. Daisy has a history of having suffered a stroke leaving her with left sided weakness. She is, however, still able to weight bear using pivot transfers although she stated that this is becoming more difficult each time, she has a further TIA. Currently Daisy requires the assistance of one to two people to assist her with the transfers. No falls have been recorded. Daisy has an electric wheelchair which she can drive herself once she has been assisted into position. Currently this is only used for outside purposes as her home is reported to be too small for wheelchair use.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">Daisy can verbally communicate clearly and articulately although she can intermittently suffer with mumbled speech especially after a TIA. Currently Daisy is orientated to time, place and person and has good insight into her impairments however, her memory is reported to have been worsening of late to the extent that she now requires prompting with all day-to-day activities. Daisy denies any challenging behaviour and states that she will only say no to something if she feels that she is being put at risk.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">Daisy has a complex medication regime which she currently manages herself with assistance from her carer although she stated that she is finding this more difficult. She has purchased an Insulin Pump and a constant glucose monitor to manage her diabetes. She requires assistance from her carer to fill and set up the pump and from her carer to enter carbohydrate amounts and blood sugar readings into the pump for it to calculate bolus doses. Daisy is prescribed Codeine to manage her pain however, she reports that this is ineffective, and she suffers constant pain. Oramorph is prescribed for breakthrough pain relief and Daisy can request this from her carer when needed. Daisy has also recently been diagnosed with Endometriosis which causes her to have heavy bleeding from her vagina. She requires assistance from her carer to manage this at times. Daisy is extremely difficult to cannulate and has now had a portacath inserted for easy vein access.</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.59in">Daisy suffered a stroke in 2021 and has been diagnosed with Moya Moya disease which limits the flow of blood to her brain and puts her at risk of further strokes. Daisy stated that currently she is having TIAs daily which temporarily affect her speech, mobility, and cognition. Daisy has multiple conditions affecting her daily life &#8230;: Moya Moya disease (under the Bristol, awaiting cerebral vascular bypass operation); Admissions to Queens with stroke and sub-arachnoid haemorrhage; Brittle asthma (under Brompton Hospital); Obstructive sleep apnoea (BIPAP) (under the Brompton); Diabetes Mellitus (presumed type 1, insulin treated, supported by the diabetic nurses); Recurrent episodes of elevated lactate levels (uncertain cause); Schizoaffective disorder; Migraines; Cushing's syndrome from previous long term steroid use. Presumed adrenal suppression due to long term high dose oral therapeutic steroid use; Progressive multiple fatty lumps; Emotional Unstable Personality Disorder. Daisy is known to multiple services including: Neurosurgeon; Respiratory physician; Gynaecologist; Ophthalmologist; Consultant neurologist - Dr De Silva; Dermatology; Diabetes and Endocrinology - Basildon and Thurrock Hospital; Occupational Therapy for support and equipment.&#8217;&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendant accepts that the Claimant is severely disabled and that her condition is degenerative. The Defendant further accepts that the Claimant&#8217;s mobility is severely impaired and that she requires a wheelchair and physical assistance inside any premises for transfers to her bed and to sanitary facilities.  Finally, the Defendant accepts that the Claimant&#8217;s medical and social needs have an impact on her housing needs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant currently has 2:1 care in order to provide assistance to the Claimant with mobility and transfers.  There is no hoist at Railway Square and nor can one be installed at that property.  The Claimant is, accordingly, subject to manual handling at her current property.  On 16 August 2021, Adult Social Care provided a Housing Needs Report in circumstances where her accommodation at Railway Square was becoming unsuitable on account of her medical conditions.  The report identified the Claimant as needing to be rehoused on an urgent basis into an adapted property.   On 28 August 2021, the Claimant applied to the Defendant for a transfer.  That application was supported by an Occupational Therapist report of Ms Bharma that recommended that (a) the Claimant be rehoused in a two bedroom fully accessible ground floor flat or bungalow and (b) that bathroom adaptations would need to be considered once the Claimant had been rehoused. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendant initially identified Fairfield Road as a suitable property on 19 September 2022 and stated on 31 October 2022 that it would engage contractors to carry out the adaptations identified by the Occupational Therapist as being required to make Fairfield Road suitable for the Claimant, subject to confirmation by surveyors and the Occupational Therapist that the property was suitable for adaptation. The property required significant adaptation to be suitable for the Claimant, including the construction of an extension.  The Defendant confirmed that it would fund the works and a secure tenancy agreement was signed between the Defendant and the Claimant on 1 November 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 19 July 2023, the Claimant received a letter stating that the costs of the work on Fairfield Road required consideration at committee stage before the tender could be awarded in September 2023.  On 30 August 2023, the Defendant sent a letter to the Claimant withdrawing the offer of Fairfield Road. The reason given for the withdrawal was that Fairfield Road was not suitable for meeting the Claimant&#8217;s needs as it could not be made habitable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">An alternative property was identified by the Defendant and the details of that property provided to the Claimant in the form of Rowan Green East, the accommodation on an assisted living estate, which had been surveyed and deemed suitable for adaptation.  It was said that it could be adapted quickly and was significantly larger than Fairfield Close.  By a letter dated 5 October 2023, the Defendant offered the Claimant Rowan Green East as permanent accommodation with a secure tenancy as part of its Allocation Scheme under Part VI of the 1996 Act. The Defendant invited the Claimant to view the property in October 2023 but the Claimant stated that she would only do so if no one from the Defendant was present.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Subsequently, the Claimant&#8217;s health further deteriorated.  Within this context, on 4 January 2024 the Defendant made a further offer of Rowan Green East to the Claimant as temporary suitable accommodation.  The Defendant contends that this offer was made pursuant to its duties under Part VII of the 1996 Act.  The Claimant accepts that this further offer of Rowan Green East was neither an offer of a secure tenancy nor an introductory tenancy.  The offer expressly stated that the accommodation was offered as temporary accommodation.  The offer of 4 January 2024 is the decision that the Claimant now seeks to challenge by way of her application for permission to apply for judicial review.  The letter setting out the Defendant&#8217;s decision of 4 January 2024 states as follows:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;I am writing directly to you because the Council remains extremely concerned regarding your accommodation and regardless of where you make your permanent home, we do not think staying at Railway Square is a realistic option. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">In October of last year our solicitors suggested to yours that you might be rehoused, immediately, at Rowan Green on a temporary basis. They said, and I quote, that, &#8220;&#8230; our client will offer an immediate licence to occupy Rowan Green as temporary occupation and it is very much hoped that if, as everyone believes, Ms Simpson settles in, then this will be upgraded to a secure tenancy with immediate effect.&#8221;  </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">That is lawyers&#8217; language to describe the legal mechanism we use to grant temporary accommodation, and I do not know whether this offer was passed onto you. However, we do think you need to move out of Railway Square, immediately, and this letter is a formal offer of Rowan Green to you as temporary accommodation. We think that this would be best for you and the move would be with the assistance that is usually provided under the terms of the Council&#8217;s decant policy.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">The offer of Rowan Green as temporary accommodation is for the period whilst it is established whether it is suitable for you or not. If it is determined that Rowan Green is not suitable the Council will look for other accommodation. If it is determined that Rowan Green is suitable for you the Council, will offer you a secure tenancy of that property. For the avoidance of doubt the determination of whether Rowan Green is suitable will be based on the medical and expert evidence. The purpose of the temporary offer of the Rowan Green property is so that you can move as soon as possible from Railway Square, which is certainly not suitable for you and in respect of which the Rowan Green property is, on any view, an improvement.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A period followed in which the Defendant again sought to secure the Claimant&#8217;s inspection of the property.  The Defendant again invited the Claimant to inspect Rowan Green East in June 2024 but the Claimant proposed viewing by carers only.  On 28 January 2025, the Defendant wrote to the Claimant&#8217;s solicitors setting out the following circumstances:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Since the Claimant made her transfer application on 28 August 2021 her health had further deteriorated.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant had been made aware of the Claimant&#8217;s deteriorating medical condition as most recently set out in the third statement dated 31 October 2024 in the judicial review claim against the NHS Mid and South Essex Integrated Care Board.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">In the circumstances, the Defendant had come to the conclusion that the Claimant was homeless for the purposes of s.175 of the Housing Act 1996 and that Railway Square was no longer accommodation that it was reasonable for the Claimant to continue to occupy.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Notwithstanding that the Claimant had not made a formal homeless application, the Defendant was under a duty to consider whether or not the Claimant was someone to whom the Defendant owed a duty under Part VII of the 1996 Act and, if so, which duty, in line with the decision in <span style="font-style:italic">Bury MBC v Gibbons</span> [2010] EWCA Civ 327.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">v)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant found Railway Square was no longer accommodation that it was reasonable for the Claimant to continue to occupy, that the Claimant was eligible for assistance, that the Claimant had a priority need for accommodation for the purposes of s.189(1) of the 1996 Act as a person who was vulnerable by reason of a physical disability, that the Claimant was not intentionally homeless and that the Claimant had a local connection with the Defendant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vi)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant owed the Claimant a duty to secure her accommodation under s.193(2) of the 1996 Act as amended, which required the Defendant to continue to perform that duty by securing suitable temporary accommodation was available for the Claimant until the duty came to an end.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">vii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">To meet its duty under s.193(2) of the 1996 Act the Defendant offered the Claimant temporary accommodation in the form of a non-secure tenancy of Rowan Green East.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The letter of 28 January 2025 made clear that the Defendant considered that its prior offer of temporary accommodation dated 4 January 2024 was made under Part VII of the 1996 Act as temporary accommodation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The procedural history of this claim is somewhat involved.  A total of three pre-action protocol letters were sent on behalf of the Claimant.  In the absence of a response to the third pre-action letter before 4 April 2024, the Claimant issued her claim to protect her position with respect to the limitation date and did so on 4 April 2024.  On 11 April 2024 the Claimant filed an application for a stay to 3 May 2024 and an application for permission to amend her grounds, which applications were consented to by the Defendant.  The stay was ultimately extended by a series of orders to 28 June 2024.  On 27 June 2024, pursuant to an order of the court dated 12 June 2024, the Claimant filed her Amended Statement of Facts and Grounds, which set out the grounds of challenge as they are now constituted:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant has erred in law and is in breach of s.166A(14) and Part VI of the 1996 Act by reason of its determination that Rowan Green East is suitable.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The decision of the Defendant that Rowan Green East is suitable accommodation is in breach of the <span style="font-style:italic">Tameside </span>Duty and the Public Sector Equality Duty.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">The Defendant is in breach of Art 3, Art 8 and Art 8 read with Art 14 of the European Convention on Human Rights having accepted to re-house the Claimant on an urgent basis.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Defendant filed and served its Acknowledgment of Service and Summary Grounds of Opposition on 15 July 2024.  The Defendant contends as follows with respect to the grounds set out in the Claimant&#8217;s Amended Statement of Facts and Grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">The Defendant&#8217;s offer of Rowan Green East on 4 January 2024 was as temporary accommodation and, as such, not an allocation and outside Part VI of the 1996 Act and the Defendant&#8217;s Allocation Scheme but an offer made under Part VII of that Act, that the Claimant&#8217;s assertion that the Defendant cannot owe her a duty under Part VII in the absence of a homelessness application is wrong in law, that Rowan Green has been suitable accommodation for the Claimant throughout but there is in any event a statutory right to request a review of suitability of the accommodation offered under Part VII and a further right of statutory appeal on a point of law.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">In any event, the Defendant has made sufficient enquiries to satisfy the <span style="font-style:italic">Tameside</span> Duty having invited the Claimant to engage with the Defendant and the Claimant not having done so.  The Defendant has complied with the Public Sector Equality Duty and has been assiduous in determining whether Rowan Green East is suitable for the Claimant having regard to her disabilities on the basis of the information provided to the Defendant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">There has been no unlawful delay in re-housing the Claimant.  The delay that has occurred has been caused by the Claimant refusing to accept the offer made by the Defendant as temporary accommodation without good reason.  In any event, as an order made under Part VII of the 1996 Act the Defendant&#8217;s duty is subject to a reasonable period to identify and secure suitable accommodation.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant filed and served her reply to the Defendant&#8217;s Summary Grounds on 24 July 2024.  The Claimant&#8217;s covering email requested that the court refrain from making a decision as to permission in circumstances where the Claimant was seeking to arrange to inspect the property at Rowan Green East.  Further correspondence and a number of interlocutory applications followed, culminating in an application on 1 November 2024 seeking, <span style="font-style:italic">inter alia</span>, determination of permission within 7 days and an order for expedited directions for trial.  On 8 November 2024, an order was made by Deputy High Court Judge David Pievsky KC adjourning the application for permission to apply for judicial review for hearing on notice as soon as possible after the handing down of judgment in case AC-2024-LON-000800.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ahead of this hearing, on 28 December 2024 the Claimant applied to further amend her Statement of Facts and Grounds by reason of the alleged need to respond the Defendant&#8217;s case that its decision was not, and could not have been as a matter of law, an allocation for the purposes of Part VI of the 1996 Act.  The Claimant contended she should have an opportunity to respond to that assertion.  Mr Baldwin did not seek to make any substantive oral submissions on the Claimant&#8217;s application to further amend the Statement of Facts and Grounds.  In any event, I was satisfied that that application to amend should be refused.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his statement in support of the application, the solicitor for the Claimant accepts that the Defendant had previously made clear to the Claimant, prior to the lodging of the Defendant&#8217;s Skeleton Argument and its further offer of 28 January 2025, that its case was that its decision of 4 January 2024 could not, as a matter of law, be an allocation under Part VI of the 1996 Act.  The Defendant&#8217;s case was also made clear in the Defendant&#8217;s Summary Grounds of Opposition dated 15 July 2024 at paragraphs 9.1 to 9.2 as well as being apparent in subsequent exchanges between the parties.  In circumstances where the Claimant had known with clarity the Defendant&#8217;s case since at least July 2024, I was satisfied that the application to amend made one day prior to the oral permission hearing was made far too late to be permitted.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1">LEGAL FRAMEWORK</p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Part VI of the 1996 Act creates a statutory regime that must be followed by Local Housing Authorities (hereafter &#8220;LHA&#8221;) when allocating social housing tenancies.  Part VI deals with allocation of long-term tenancies. Under Section 166A(14) of the 1996 Act the Defendant is required to have a Housing Allocation Scheme and must allocate housing in accordance with its Allocation Scheme.   By ss. 159(2)(a) and (d) of the 1996 Act, where accommodation is owned by the LHA, <span style="font-style:italic">only</span> the grant of a secure or introductory tenancy is an &#8216;Allocation&#8217; for the purposes of Part VI.  There is nothing in Part VI that requires the LHA to make an offer within a specified time.  With one exception, Part VI of the 1996 Act does not contain any definition of &#8216;suitability&#8217; of accommodation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Part VII of the 1996 Act deals with the relief of homelessness.  Pursuant to s.184(1) of the Act, a duty of inquiry arises under Part VII when the LHA has reason to believe that an applicant may be homeless or threatened with homelessness.  In such circumstances, the LHA must make such inquiries as are necessary to satisfy whether the applicant is eligible for assistance and, if so, whether and what duty is owed under Part VII.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Homelessness and threatened homelessness are defined in s.175 of the 1996 Act.  Section 175(3) provides that &#8220;A person shall not be treated as having accommodation unless it is accommodation which it would be reasonable for him to continue to occupy&#8221; and s.175(4) provides that &#8220;A person is threatened with homelessness if it is likely that he will become homeless within 56 days&#8221;.  Pursuant to s.188(1) an LHA has a duty to house any homeless applicant if it has reason to believe that they may be homeless and have a priority need until that LHA makes a decision as to what substantive duty, if any, it owes the applicant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Paragraphs 18.5 and 18.6 of the Homeless Code of Guidance issued by the Secretary of State, to which LHAs must have regard pursuant to s.182 of the 1996 Act, state that it is not necessary for an LHA to have received a formal application for the duty to make inquiries to arise and receipt of a Part VI application indicating that a person may be threatened with homelessness triggers the duty under Part VII (see <span style="font-style:italic">Bury MBC v Gibbons</span> [2010] EWCA Civ 327 [31] to [32]).  Paragraph 18.6 of the Guidance provides that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num>&#8220;18.6</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Housing authorities should take particular attention to identify instances where information on an inquiry about a social housing allocation scheme, or an application for an allocation of housing under Part 6, provides reason to believe that the applicant might be homeless or threatened with homelessness. This should be regarded as an application for homelessness assistance.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Part VII <span style="font-style:italic">does</span> have a suitability requirement. Pursuant to the 1996 Act, s. 206(1), any accommodation used by an LHA to discharge any housing function under Part VII must be suitable for the applicant to whom it is made available.  Under Part VII of the 1996 Act, pursuant to s.188(1), if the LHA has reason to believe that an applicant may be homeless, eligible for assistance, and have a priority need, it must secure that accommodation is available for the applicant.  Pursuant to s.193(2) where, following inquiries, an LHA finds that an applicant who is not intentionally homeless and has a priority need, the LHA is under a duty to secure that suitable temporary accommodation is available for the applicant unless and until the duty ceases. Any accommodation that an LHA provided to an applicant under Part VII cannot be a secure or introductory tenancy (see Housing Act 1985, Schedule 1, para. 4).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">A challenge to an LHA&#8217;s decision that accommodation offered in performance of its duty is suitable is by way of a request for a review under s.202 of the 1996 Act and thereafter by a statutory appeal under s.204 of that Act on a point of law.  These procedures apply to both an offer of interim accommodation under s.188(1) and an offer of accommodation in performance of the duty under s.193(2).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1">DISCUSSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the Claimant to succeed in obtaining permission for judicial review, the court must be satisfied that there is an arguable ground for judicial review having a realistic prospect of success and that there is no discretionary or other bar to bringing the claim (see&#160;<span style="font-style:italic">Sharma v Brown-Antoine</span><span>&#160;</span><span style="font-size:13.5pt">[2006] UKPC 57</span>,&#160;<span style="font-size:13.5pt">[2007] 1 WLR 780</span>). Having considered carefully the evidence and detailed submissions in this case, I am satisfied that the Claimant has <span style="font-style:italic">not</span> met the threshold for permission.  Accordingly, permission must be refused.  I am further satisfied that the application is totally without merit. My reasons for so deciding are as follows.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By Ground 1 the Claimant contends that the Defendant has erred in law and is in breach of s.166A(14) and Part VI of the 1996 Act by reason of its determination that Rowan Green East is suitable.  By Ground 1 the Claimant contends that the Defendant has not lawfully allocated to the Claimant suitable adapted accommodation in accordance with its Allocation Scheme on awarding discretionary priority and adapted accommodation and thus is in breach of statutory duty under s 166A(14). This is not an arguable ground for judicial review having a realistic prospect of success.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is essential to Ground 1 of the Claimant&#8217;s claim that the decision to offer the Claimant Rowan Green East was an &#8220;allocation&#8221; pursuant Part VI of the 1996 Act and the Defendant&#8217;s Allocation Scheme.  However, the offer of Rowan Green East was neither an offer of a secure tenancy nor an introductory tenancy.  The offer <span style="font-style:italic">expressly</span> stated that the accommodation was offered as temporary accommodation.  As such, the decision under challenge could not, as a matter of law, have been an allocation under Part VI of the 1996 Act and the Defendant&#8217;s Allocation Scheme.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Claimant&#8217;s assertion, expanded on by Mr Baldwin in his oral submissions, that the Defendant cannot owe her a duty under Part VII in the absence of a homelessness application or in the absence of the Claimant wishing to be treated as homeless likewise has no realistic prospect of success.  In <span style="font-style:italic">Bury MBC v Gibbons </span>[2010] EWCA Civ 327, [2010] HLR 33 at [31], the Court of Appeal made clear that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.39in">&#8220;When the Council received that application form, the Council clearly had reason to believe that Mr Gibbons and his daughter were threatened with homelessness. That, in my view, is sufficient to trigger the obligations of the Council under Part 7 of the 1996 Act. See the reasoning of Mr Roger Toulson QC in <span style="font-style:italic">R v Northavon District Council, ex parte Palmer</span> (1994) 26 HLR 572. (This case subsequently went on appeal on other grounds which are not relevant for present purposes: see <span style="font-style:italic">R v Northavon District Council, ex Parte Palmer </span>(1995) 27 HLR 576.) Accordingly, in the present case, the Council's duties under section 183 and 184 of the 1996 Act were triggered on 10th September, that being the date of the receipt stamp on the application form.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In so far as Mr Baldwin sought to advance during his oral submissions the matters contained in the amended Statement of Facts and Grounds contended for by way of the Claimant&#8217;s application to amend, namely that the Defendant could not proceed under Part VII of the 1996 Act in circumstances where the Claimant did not wish the Defendant to do so, this argument likewise has no realistic prospect of success.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The decision of <span style="font-style:italic">R (EL) v Kensington &amp; Chelsea RLBC</span> [2022] EWHC 3185 (Admin), [2023] HLR 24 is not authority for the proposition that an LHA acts irrationally if it treats an application for re-housing as an application under Part VII rather than Part VI in circumstances where <span style="font-style:italic">Bury MBC v Gibbons </span>and   Paragraphs 18.5 and 18.6 of the Homeless Code of Guidance<span style="font-style:italic"> </span>expressly recognises such a scenario, which in any event is consistent with the terms of the duty under s.184 of the 1996 Act.  The decision of <span style="font-style:italic">R (Edwards and Ors) v Birmingham CC</span> [2016] EWHC 173 is likewise of no assistance to the Claimant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By Ground 2 the Claimant contends that the decision of the Defendant that Rowan Green East is suitable accommodation is in breach of the <span style="font-style:italic">Tameside</span> Duty and the Public Sector Equality Duty.  In the context of the court&#8217;s conclusion in respect of Ground 1, it follows that Ground 2 is not an arguable ground for judicial review having a realistic prospect of success. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is a statutory right under s.202 of the 1996 Act to request a review of suitability of the accommodation offered under Part VII of the 1996 Act 1996 and a further right of statutory appeal on a point of law under s.204.  A challenge to an LHA&#8217;s decision that accommodation offered in performance of its duty is suitable is therefore by way of a request for a review under s.202 of the 1996 Act and thereafter by a statutory appeal under s. 204 of that Act.  No such review has been requested or appeal pursued and determined.  It would not be appropriate to grant the Claimant permission to pursue Ground 2 by way of judicial review.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-style:italic">Ground 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By Ground 3 the Claimant contends that the Defendant is in breach of Art 3, Art 8 and Art 8 read with Art 14 of the European Convention on Human Rights having accepted to re-house the Claimant on an urgent basis. In the context of the court&#8217;s conclusion in respect of Ground 1, it follows that Ground 3 is not an arguable ground for judicial review having a realistic prospect of success.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Finally, and in any event, the Claimant&#8217;s claim has been superseded by the Defendant&#8217;s decision under s.184 of the 1996 Act made on 28 January 2025 and is now academic.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1">CONCLUSION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the foregoing circumstances, I am satisfied that none of the Claimant&#8217;s grounds constitute arguable grounds for judicial review having a realistic prospect of success so as to meet the threshold for permission.  Accordingly, I refuse permission to apply for judicial review. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I am further satisfied that the Claimant&#8217;s application should be certified as being totally without merit.   The statutory regime is clear.  The terms of the decision made on 4 January 2024 were likewise plain and clearly did not fall within Part VI of the 1996 Act.  That position was made clear by the Defendant repeatedly from at least July 2024.  In the circumstances, I am satisfied that the Claimant&#8217;s claim is totally without merit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I will invite counsel to draw an order accordingly, to include provision that the Claimant will pay the Defendant&#8217;s costs subject to the usual protection for publicly funded litigants for those periods during which the Claimant has been in receipt of public funding.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

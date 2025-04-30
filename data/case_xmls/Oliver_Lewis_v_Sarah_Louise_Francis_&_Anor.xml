@@ -1,0 +1,502 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/238"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/238"/>
+	  <FRBRdate date="2025-02-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="238"/>
+	  <FRBRname value="Oliver Lewis v Sarah Louise Francis &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/238"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/238"/>
+	  <FRBRdate date="2025-02-06" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/238/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/238/data.xml"/>
+	  <FRBRdate date="2025-02-06T10:28:52" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)" shortForm="The Administrative Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="oliver-lewis" href="" showAs="OLIVER LEWIS"/>
+	<TLCPerson eId="sarah-louise-francis" href="" showAs="SARAH LOUISE FRANCIS"/>
+	<TLCPerson eId="stephane-borie" href="" showAs="STEPHANE BORIE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-kerr" href="/judge-mr-justice-kerr" showAs="MR JUSTICE KERR"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>238</uk:number>
+	<uk:cite>[2025] EWHC 238 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>dfbb2b99d97b6e36fc80e18b7c13981a973e3a5773912dbc24ee7e871358b009</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="3.25in 3in">
+	<tr>
+	  <td>
+	    <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Judgment (2) (Costs) Approved by the court for handing down.</span></p>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right"><span style="font-family:'Times New Roman';font-size:8pt">Lewis v. Francis and Borie</span></p>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 238 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-CDF-000121</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CARDIFF DISTRICT REGISTRY SITTING IN BRISTOL</span></p>
+      <p class="CoverText">Bristol Civil Justice Centre</p>
+      <p class="CoverText">2 Redcliff Street, Redcliffe</p>
+      <p class="CoverText">Bristol, BS1 6GR</p>
+      <p class="CoverText">Date: <docDate date="2025-02-06" refersTo="#judgment">06/02/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-kerr">MR JUSTICE KERR</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#oliver-lewis" as="#appellant" style="font-weight:bold">OLIVER LEWIS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#sarah-louise-francis" as="#respondent" style="font-weight:bold">(1) SARAH LOUISE FRANCIS</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party refersTo="#stephane-borie" as="#respondent" style="font-weight:bold">(2) STEPHANE BORIE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Robert McCracken KC </span>(instructed by direct access) for<span style="font-weight:bold"> </span>the <span style="font-weight:bold">Appellant)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Sarah Salmon</span> (instructed by <span style="font-weight:bold">Hanratty &amp; Co</span>) for the <span style="font-weight:bold">Respondents</span></p>
+      <p style="text-align:center">Hearing date: 29 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment (2) on Costs of the Appeal</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10.30am on 6 February 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE KERR</p>
+      <p style="text-align:justify"><span style="font-weight:bold">Mr Justice Kerr :</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This is my second judgment in this appeal.  My main judgment, allowing the appeal by case stated, is on the National Archives under the citation [2025] EWHC 17 (Admin).  This supplemental judgment relates to the costs of the appeal and should be read together with the main judgment.  The appellant applies for assessed costs of the appeal, calculated at &#163;8,449.90.  The respondent resists the application and argues that the court should make no order as to the costs of the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the appeal by case stated, the appellant secured the overturning of an order made in the North East Wales Magistrates&#8217; Court on 16 January 2024 under section 19(1) of the Prosecution of Offences Act 1985 that the appellant must pay the respondents&#8217; costs of unsuccessful statutory nuisance proceedings brought by the appellant against the respondents and heard in November 2023.  Those costs were assessed at &#163;10,123.20.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons given in my main judgment, by my order made on 9 January 2025, I set aside the judge&#8217;s costs order.  I held that it was &#8220;wrong in law&#8221; within the meaning of section 111(1) of the Magistrates&#8217; Court Act 1980 and &#8220;wrong&#8221; within the meaning of CPR rule 52.21(3).  Under CPR rule 52.20(1) and (2), I directed instead that, with one exception, the respondents&#8217; costs of the proceedings below be paid out of central funds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The exception was that I disallowed the costs of evidence from a veterinary expert about the behaviour of the two dogs that were the subject of the unsuccessful statutory nuisance claim.  In my main judgment, I explained why such expert evidence is of very limited value in a statutory nuisance claim such as in this case.  I did not think it right for the state to have to pay for obtaining that evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was agreed that after deduction of the disallowed costs of the expert veterinary evidence, &#163;8,863.20 was the amount payable to the respondents out of central funds (under section 16 of the Prosecution of Offences Act 1985).  The outcome of the appeal is therefore (in rounded figures) that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">-</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in">the appellant is spared having to pay the respondents &#163;10,123;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">-</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in">the respondent will instead receive &#163;8,863 from central funds; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.75in;text-indent:-0.25in">-</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.75in">the respondent cannot recover the difference, which is &#163;1,260.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">To bring about this result, the appellant incurred what he claims are reasonably incurred costs of &#163;8,449.90.  He seeks to recover that sum.  The respondents have incurred legal costs in the appeal but do not seek to recover them, having failed to secure the upholding of the costs order below.  It is common ground that the court has no power to order costs of the appeal from central funds.  Any recovery must be <span style="font-style:italic">inter partes</span>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Relevant law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The parties&#8217; helpful written submissions drew my attention to the relevant statute and case law.  By section 51(1) of the Senior Courts Act 1981 (<span style="font-weight:bold">the 1981 Act</span>), costs in the High Court are, subject to &#8220;the provisions of this or any other enactment &#8230; in the discretion of the court&#8221;.  By section 51(5), &#8220;[n]othing in subsection (1) shall alter the practice in any criminal cause &#8230;&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 28A of the 1981 Act applies to appeals on a case stated by a magistrates&#8217; court or Crown Court.  By section 28A(3) the High Court must determine the question arising on the case, may reverse, affirm or amend the determination below and &#8220;may make such other order &#8230; (including as to costs) as it thinks fit&#8221;.  The High Court&#8217;s decision is final, subject only to an appeal to the Supreme Court (section 28A(4)).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"> In <span style="font-style:italic">Murphy v. Media Protection Services Ltd</span> [2013] 1 Costs LR 16, Stanley Burnton LJ held at [15] that &#8220;save in exceptional cases, prosecutions and appeals in criminal cases should be and will be subject to the criminal costs regime&#8221;.  In <span style="font-style:italic">Hull and Holderness Magistrates&#8217; Court v. Darroch</span> [2014] EWHC 4184 (Admin), the Divisional Court (Carr J, as she then was, and Foskett J) accepted the exceptionality test derived from <span style="font-style:italic">Murphy</span> but decided that it was not met on the facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Carr J&#8217;s judgment of the court gave <span style="font-style:italic">obiter</span> reasons for accepting that the court had jurisdiction to apply the civil costs regime to costs incurred in a criminal case in the magistrates&#8217; court, following a successful appeal to quash convictions for summary offences.  At [53], she explained that if the court had had to decide whether it had jurisdiction to make the costs order sought (against a third party), the court would have been willing to follow <span style="font-style:italic">Murphy</span> and &#8220;we would not have regarded the acceptance of the applicability of the civil costs regime in this context as wrong&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On appeal from that decision, in <span style="font-style:italic">Darroch v. Football Association Premier League Ltd</span> [2017] 4 WLR 6, the unanimous Court of Appeal decided it lacked jurisdiction to hear the appeal because the decision was a criminal cause or matter in which the only route of appeal is to the Supreme Court.  Burnett LJ (as he then was), <span style="font-style:italic">obiter</span>, disapproved of the proposition in <span style="font-style:italic">Murphy</span> (and the concession on which it was based) that there was an &#8220;exceptionality test&#8221; enabling the court to apply the civil costs regime.  He said at [26]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:11pt">&#8220;section 51 of the 1981 Act does not empower the High Court, on an appeal by way of case stated, or a claim for judicial review that seeks to quash convictions, to make a civil costs order in respect of costs incurred in the underlying criminal proceedings in the Crown Court or magistrates&#8217; court.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Lord Howard of Lympne v. Director of Public Prosecutions</span> [2018] EWHC 100 (Admin), the successful appellant had his conviction in the magistrates&#8217; court for a motoring related offence quashed on appeal by case stated.  He sought his costs incurred in the appeal (not having incurred costs below).  The Divisional Court (Whipple J, as she then was, giving the lead judgment and Simon LJ agreeing) at [28] accepted the exceptionality test derived from <span style="font-style:italic">Murphy</span> and approved by the Divisional Court in <span style="font-style:italic">Hull and Holderness</span>, but found that the test was not met on the facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">R (Bahbahani) v. Ealing Magistrates&#8217; Court</span> [2020] QB 478, DC, the Divisional Court (Holroyde LJ and Dove J) in a judicial review claim seeking an order quashing a conviction, considered (at [87]ff in the judgment of the court) the issue of costs of the judicial review claim.  Costs in the magistrates&#8217; court proceedings were not sought.  Holroyde LJ and Dove J reviewed the cases and noted at [96] that the Court of Appeal&#8217;s decision in <span style="font-style:italic">Darroch</span> did not appear to have been cited in <span style="font-style:italic">Lord Howard</span>&#8217;s case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court in <span style="font-style:italic">Bahbahani</span> concluded at [100]:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.89in"><span style="font-size:11pt">&#8220;We are not persuaded &#8230; that the principle set out in </span><span style="font-style:italic;font-size:11pt">Murphy</span><span style="font-size:11pt"> is wrong or that we should not follow it. This is a claim for judicial review in a criminal cause or matter, and the criminal costs scheme should apply unless there are exceptional reasons to take a different course.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The court decided that there were no such exceptional reasons and refused costs, applying the criminal regime; adding, for good measure, that it would also have refused costs if the civil regime had applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The last case I need to mention is <span style="font-style:italic">R (AB) v. Uxbridge Youth Court</span> [2023] Costs LR 1731.  A judicial review claim challenging a decision to prosecute the claimant was withdrawn, on the Director of Public Prosecutions agreeing to reconsider the question of whether to prosecute.  It was agreed that the judicial review was a criminal cause or matter.  The claimant sought his costs of the judicial review.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Linden J dismissed the application for costs, holding that the criminal regime applied.  The claim for judicial review had involved a routine prosecution.  There was no unnecessary or improper conduct.  At [34] and [35], Linden J commented:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220; &#8230; it would only be in exceptional circumstances that a court would use its powers under s 51(1) of the Senior Courts Act 1981 to make an award of costs in a criminal case which would not be available under the provisions applicable to criminal cases.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8230;. The reasons for applying the civil costs regime must take the case out of the run of criminal cases and they must be compelling.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Summary of parties&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant pointed out that, while he was unrepresented below, the respondent was represented below by a solicitor and chose to make the costs application based on unnecessary or improper conduct, which generated the error by the District Judge.  The appellant could not, said Mr McCracken KC, have secured the variation to the costs order, wrongly made below, without incurring the costs he has incurred in the appeal, which are reasonable.  The arguments in the appeal were complex and difficult.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mr McCracken&#8217;s other main points were as follows.  The respondent did not, even in the alternative, apply to the District Judge for the respondents&#8217; costs from central funds under section 16 of the POA 1985.  They chose to rely exclusively on section 19.  During the appeal process, they were warned in open email correspondence about their risk of costs in the appeal, having told the appellant his appeal was &#8220;misconceived&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The appellant, said Mr McCracken, had offered to withdraw the appeal with each side bearing its own costs of the appeal, if the respondents would agree not to enforce the costs order made by the District Judge.  The respondents had a draft of the appellant&#8217;s skeleton argument at that stage and did not respond to the offer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The civil costs regime should apply, Mr McCracken submitted.  Under that regime, costs of the appeal should follow the event in the normal way.  The circumstances here are truly exceptional.  The appeal is against an order made below in respect of costs, not as to the substance of the proceedings below.  Unless the civil regime applies, the appellant cannot recover any costs of the appeal.  He cannot recover any costs under the criminal regime because the proceedings below did not lead to a conviction.  Had there been a conviction and had he been represented below, the appellant would have recovered costs as of right under section 82(12) of the EPA 1990.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">None of the cases is factually similar to this one, said Mr McCracken.  The decision in <span style="font-style:italic">Lord Howard</span>&#8217;s case flowed from a deliberate decision of parliament in legislation to deprive a successful defendant of his legal costs on appeal.  The present case is different; it involves an unsuccessful prosecution below, visited with a wrong adverse costs order below; which, if not challengeable on appeal without incurring irrecoverable costs on appeal, is not effectively challengeable on appeal at all.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Not surprisingly, Mr McCracken warned about article 6 implications.  Not to apply the civil regime would be a serious obstacle to access to justice.  He referred to Strasbourg decisions cited in <span style="font-style:italic">Coventry v UK</span> (6016/16) at [59]; which, he submitted, &#8220;demonstrate that financial burdens on successful parties at the conclusion of proceedings may deprive people of their rights under ECHR A6 to a fair trial with equality of arms.&#8221;  If necessary, a question should be formulated for the Supreme Court, questioning the correctness of the <span style="font-style:italic">Lord Howard</span> line of authorities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the respondents, Ms Sarah Salmon submitted that there was nothing exceptional about this case.  The criminal costs regime should apply in the normal way and the POA 1985 afforded no basis for any order as to costs.  The appellant cannot and does not dispute that the appeal is a criminal cause or matter.  The Court of Appeal so held on appeal in <span style="font-style:italic">Darroch</span>, at [21]-[22].  The reasons for applying the civil regime instead would have to be &#8220;compelling&#8221; (Linden J at [35] in the <span style="font-style:italic">Uxbridge Youth Court</span> case).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">What amounts to an exceptional case is likely to be fact specific, Ms Salmon submitted.  The present appeal bears no resemblance to the facts in <span style="font-style:italic">Murphy</span>, where a process akin to substantial civil litigation had been followed.  That was, Ms Salmon submitted, &#8220;more akin to civil proceedings&#8221;.  This appeal is not.  The appeal arises from a process intended to be simple and speedy and accessible to litigants without any requirement for legal representation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 82(12) of the EPA 1990 did not assist because there was no conviction here, said Ms Salmon.  It is not for the court to fill any lacuna in the legislation.  The court&#8217;s task is to apply the rules as they are.  It is true that the situation in the current appeal is not covered expressly in the legislative scheme.  That means the default rules of the criminal regime apply, as they did in <span style="font-style:italic">Lord Howard</span>, where the appellant had to live with his sense of injustice because parliament had made a deliberate decision on the issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Alternatively, if the court were persuaded to apply the civil regime, Ms Salmon submitted that the respondents could not be criticised for the error of the District Judge below.  The respondents did not make the impugned decision; the District Judge did.  The offer to settle, if it could be properly accepted at all, was on terms less favourable than the outcome of the appeal for the respondents: they had preserved most of their costs award, albeit from a different source, i.e. central funds rather than the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If the civil regime applied, Ms Salmon submitted that the court should refuse under section 28A(3) to make any order in the appellant&#8217;s favour, considering all the circumstances of the case.  The respondents reasonably participated in the appeal to protect their interests, with a large measure of success.  They were entitled to rely on the District Judge&#8217;s decision and to defend it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Salmon submitted that there was no arguable issue as to article 6 of the European Convention.  The human rights claim in <span style="font-style:italic">Coventry v. UK</span> was about prohibitively expensive civil proceedings; the court had to consider conditional fee agreements and after the event insurance premiums.  The excessive financial burden fell on an unsuccessful uninsured defendant who was found liable to pay costs in the High Court and Court of Appeal running to over &#163;800,000.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Salmon submitted, in the alternative, that the quantum of the costs claimed should be reduced.  The higher costs incurred by the respondents are irrelevant.  The issue arose because the appellant chose to bring a case so weak that the respondents did not have to answer it.  The case stated was not of the respondents&#8217; making.  The respondents had partially succeeded in the appeal.  They queried whether the appeal needed a silk; they should not have to pay for pre-trial work, in particular, preparing the initial case stated and any threat of judicial review of the magistrates&#8217; court&#8217;s decision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Reasoning and Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The <span style="font-style:italic">Murphy</span> exception remains good law and has survived the disagreement with it expressed by the Court of Appeal, <span style="font-style:italic">obiter</span>, in <span style="font-style:italic">Darroch</span>.  The issue of exceptionality is, as Ms Salmon rightly accepts, fact sensitive.  The situation here is unlike that in any of the other cases cited to me.  What is exceptional here is a combination of features which, taken together, mean the appellant&#8217;s right of appeal in this very case would be devoid of any value and useless if the criminal costs regime were applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Those features are, as the parties have pointed out (i) the appeal is against an order relating to costs only (ii) there was no conviction below (iii) the appeal is brought by the prosecutor not the defendants (iv) the appeal raised complex issues and (v) the appeal could not be effectively argued without expert legal representation.  Those features together produce the result that the appellant must, if he is to appeal, fund the appeal, with a sum roughly equivalent to the amount of costs in issue in the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is obvious, therefore, that an appellant embarking on this appeal without any possibility of costs recovery in the event of success, would in practice be throwing good money after bad.  At most, he could achieve a Pyrrhic victory or a victory of principle.  That is not enough to ease the conscience of the court.  It is a set of circumstances <span style="font-style:italic">par excellence</span> suitable for application of the <span style="font-style:italic">Murphy</span> exception.  I do not agree with Ms Salmon that the exception cannot be used to fill a lacuna.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This reasoning is not at odds with the statutory scheme.  Section 51 of the 1981 Act is a generic provision dealing with costs in the civil courts generally.  Section 51(5) makes clear that section 51(1) shall not alter the &#8220;practice&#8221; in any &#8220;criminal cause&#8221;.  The &#8220;practice&#8221; refers to the criminal costs regime in the POA 1985 and elsewhere and in case law.  But section 51(1) conferring general discretion on matters of costs is subject to section 28A, which specifically addresses costs in appeals by case stated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Section 28A applies to appeals by case stated from a magistrates&#8217; court or from the Crown Court.  It applies to this appeal.  Apart from determining the substantive issues in the appeal, the court is empowered by section 28A(3) to &#8220;make such other order &#8230; (including as to costs) as it thinks fit&#8221;.  I can exercise that power by applying the <span style="font-style:italic">Murphy</span> exception if the circumstances justify me doing so.  I am not violating section 51(5) by doing so.  The &#8220;practice&#8221; as to costs in a criminal cause does not include cases where the court, exceptionally, applies the civil regime instead.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">If an appellant succeeds on appeal in getting an adverse costs order overturned, but can only do so by incurring irrecoverable costs of the same order as the adverse costs order he wishes to overturn, reasonable people might think the law is an ass.  Fortunately, it is not because the <span style="font-style:italic">Murphy</span> exception comes to the rescue and this case demonstrates its value and utility.  For the reasons I have given, I apply the civil costs regime.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There is, therefore, no need to consider certifying a question for the Supreme Court, nor whether article 6 of the European Convention is arguably engaged.  The discretion is the familiar one exercised in accordance with rule 44 of the CPR.  There is no doubt who is, in substance, the successful party.  The respondents did preserve most of their costs but the appellant is the successful party because he was absolved from having to pay any of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, I attach minimal weight to the offer of settlement of the appeal, not accepted by the respondents.  I accept Ms Salmon&#8217;s submission that the respondents achieved a better outcome in the appeal than was offered.  If they had accepted the offer, they would have received no money from central funds.  Having contested the appeal, they lost entitlement to only a small proportion of their costs below and preserved their entitlement to the rest, albeit coming from a different source.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I consider the discretion as to costs, in the usual way, through the lens of CPR rule 44.2.  The costs of the appeal were incurred mainly in consequence of two actions.  The first was the appellant bringing the prosecution for statutory nuisance.  That led to the acquittal of the respondents when their submission of no case was upheld.  There was no legal error or impropriety in that process, as I have decided in the main judgment.  An acquittal or acceptance of a submission of no case does not entail legal error.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The second action was the respondents applying for costs on the ground of an unnecessary act, bringing the proceedings.  They were legally represented.  They chose to apply under section 19 of the POA 1985 and did not, as an alternative, apply for costs from central funds under section 16.  I can find no evidence that the District Judge was invited to consider or did consider making an award from central funds; although, as I said in the main judgment, I do not doubt that he was aware of the power to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was the bringing of that application and its success that was the more direct cause of this appeal being brought.  The respondents could have sought below, but did not seek below, what they have achieved (veterinary fees apart) in this appeal.  Moreover, as legally represented parties, their solicitors were under the usual duties to their unrepresented opponent: to alert the court to authority adverse to their case and not to take unfair advantage of the opponent&#8217;s lack of representation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondents had some responsibility to educate the court as to the correct approach to exercise of the &#8220;unnecessary or improper act or omission&#8221; jurisdiction under section 19 of the POA 1985.  The District Judge was referred to no case law.  It would have been sufficient for the respondents to have taken him to the six propositions of Coulson J (as he then was) in <span style="font-style:italic">Cornish</span>, cited in my main judgment at [52].  Had that been done, the obligation would have been discharged and the error might not have been made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Balancing those factors, I think responsibility for the District Judge&#8217;s error lies more directly with and to a greater extent with the respondents than with the appellant.  In my judgment, the respondents should pay a substantial proportion, but not all, of the appellant&#8217;s reasonable costs.  In my judgment, the amount payable should be 65 per cent of the appellant&#8217;s reasonably incurred costs.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I do not order the respondents to pay the other 35 per cent because I recognise that they had the misfortune to be accused of criminal conduct of which they have been found not guilty.  That would not have happened but for the appellant&#8217;s decision to prosecute, albeit that was a decision not tainted by any wrongdoing or misconduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for quantum, I think the amount claimed is reasonable, modest even.  Nothing turns on the point that Mr McCracken is a silk.  It would probably have been more expensive to retain solicitors and junior counsel than a silk by direct access.  I reject the submission that the amount claimed should be reduced (except by the percentage) and I will order that the respondents pay summarily assessed costs in the sum of &#163;5,492.44, which is 65 per cent of &#163;8,449.90, the amount claimed.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

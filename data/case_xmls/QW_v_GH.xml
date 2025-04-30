@@ -1,0 +1,827 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/19"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/19"/>
+	  <FRBRdate date="2025-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewfc-b"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="19"/>
+	  <FRBRname value="QW v GH"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/19"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/19"/>
+	  <FRBRdate date="2025-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewfc-b"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/19/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewfc/b/2025/19/data.xml"/>
+	  <FRBRdate date="2025-02-06T16:25:54" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <references source="#tna">
+	<TLCOrganization eId="ewfc-b" href="" showAs="The Family Court (B cases)" shortForm="The Family Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCPerson eId="qw" href="" showAs="QW"/>
+	<TLCPerson eId="gh" href="" showAs="GH"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-district-judge-worthley" href="/judge-district-judge-worthley" showAs="DISTRICT JUDGE WORTHLEY"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWFC-B</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>19</uk:number>
+	<uk:cite>[2025] EWFC 19 (B)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>e01d9e351e9bae8ece7966390f943f305a24ad7bb2e865ebfe0f8608021bda96</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Garamond; font-size: 12pt; }
+#judgment .Heading1 { font-size: 16pt; color: #2F5496; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .Heading1Char { font-size: 16pt; color: #2F5496; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <table uk:widths="5.81in">
+	<tr>
+	  <td style="border:0.75pt solid #000000;background-color:initial">
+	    <p style="text-align:center;border-style:none"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:9pt;color:#C00000">IMPORTANT NOTICE</span><span style="font-family:'Times New Roman';font-size:9pt;color:#C00000">&#160;</span></p>
+	    <p style="text-align:justify;border-style:none"><span style="font-weight:bold;font-family:'Times New Roman';font-size:9pt;color:#000000">This judgment was delivered in private. The judge has given leave for this version of the judgment to be published on condition that (irrespective of what is contained in the judgment) in any published version of the judgment the anonymity of the children and members of their family must be strictly preserved. All persons, including representatives of the media, must ensure that this condition is strictly complied with. Failure to do so will be a contempt of court.</span></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman';font-size:11pt">Neutral Citation Number: </span><neutralCitation style="font-weight:bold;font-family:'Times New Roman';font-size:11pt">[2025] EWFC 19 (B)</neutralCitation></p>
+      <p style="text-align:right;margin-left:4in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:11pt">Case No. </span><docketNumber style="font-weight:bold;font-family:'Times New Roman';font-size:11pt">1700-6531-9459-4385</docketNumber></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">IN THE FAMILY COURT SITTING AT </span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">WORTHING</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">The Law Courts</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">Worthing</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">Christchurch Road</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">Worthing BN11 1JD</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-district-judge-worthley" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">DISTRICT JUDGE WORTHLEY</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">------------------------------------</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman'">BETWEEN:</span></p>
+      <p style="text-align:center"><party refersTo="#qw" as="#applicant" style="font-weight:bold;font-family:'Times New Roman'">QW</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">-and-</span></p>
+      <p style="text-align:center"><party refersTo="#gh" as="#respondent" style="font-weight:bold;font-family:'Times New Roman'">GH</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">------------------------------------</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Ahmed Malik (direct access counsel) appeared for the applicant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">George Harley (instructed by </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">stevensdrake</span><span style="font-weight:bold;font-family:'Times New Roman'"> solicitors) appeared for the respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">Hearing date 27 January 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman'">An ex-tempore judgment was given orally on 27 January 2025 and later assembled and anonymised and circulated to the parties&#8217; legal representatives by email.</span></p>
+      <p style="text-align:center"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:16pt">____ </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p style="text-align:center"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:16pt">____ </span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_1" class="Hyperlink" style="font-family:'Times New Roman'">Introduction and Background</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_10" class="Hyperlink" style="font-family:'Times New Roman'">Agreed Facts and Issues</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_11" class="Hyperlink" style="font-family:'Times New Roman'">Evidence</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_12" class="Hyperlink" style="font-family:'Times New Roman'">Submissions</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_13" class="Hyperlink" style="font-family:'Times New Roman'">The Law</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_14" class="Hyperlink" style="font-family:'Times New Roman'">Analysis</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><a href="#lvl_15" class="Hyperlink" style="font-family:'Times New Roman'">Judgment and Order</a></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"/>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction and Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_2">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">This is the concise summary of an </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">ex tempore </span><span style="font-family:'Times New Roman';color:#000000">oral judgment given in the final hearing of a financial remedies claim brought by QW (&#8220;who I shall refer to as &#8220;the Wife&#8221;) against her ex-husband GH (who I shall refer to as &#8220;the Husband&#8221;). I use the terms Husband and Wife for ease of reference and to aide understanding to the neutral reader. No disrespect to the (long divorced) parties is meant by my use of the same.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">No transcript has been obtained of this judgment. It has been assembled and edited post-hearing for placing on the National Archive at the request of counsel due to the slightly unusual nature of the case. All names have been anonymised with the consent of the parties. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Wife is 48 and the Husband is 52. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The parties were married in 1993 and separated in February 2015. Soon after the separation, the Wife left the former matrimonial home (&#8220;the FMH&#8221;) and petitioned for divorce on 1 June 2015. She made no standalone claim for a financial order at the time of the divorce by way of Form A. However, she did pray for a financial order in her petition, including a claim for a property adjustment order. The parties divorced later that year, with Decree Absolute/Final divorce order being pronounced on 18 December 2015, making it a 22-year marriage. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Wife commenced a new relationship shortly after the separation and swiftly remarried in 2016. She now has an 8-year old son from that relationship. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">There are four children of the marriage; three of whom are now independent adults, and the youngest child Noah (a pseudonym) who is aged 15. Noah lives with the Husband and spends time with the Wife although he does not enjoy staying contact with her.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Husband remained in the FMH following the separation and lives there to this day, having exclusively met all mortgage payments and outgoings on the property since February 2015. All the children remained living with him following the separation, and no direct financial support for their benefit was received from the Wife prior to 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">It was not until 22 November 2023, more than 8 years after separation, that the Wife issued a Form A to commence these proceedings. A First Appointment took place in the absence of the Husband on 20 March 2024, with the Wife attending in person. Standard procedural directions were given to FDR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">An FDR took place on 12 September 2024 with both parties appearing in person. There it was agreed and recited that the FMH should be sold and the net proceeds be divided between the parties, but that any sale should not take place until Noah had completed his GCSE exams in Summer 2025. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Effectively, the sole point of remaining dispute was as to what the division of the net proceeds of sale of the FMH should be. Accordingly, this final hearing was listed for a one-day hearing today on 27 January 2025.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Prior to the hearing commencing, I invited counsel Mr Malik for the Wife and Mr Harley for the Husband to consider whether it would be necessary to hear oral evidence from the parties. Both took instructions and agreed that the least acrimonious and most proportionate way to proceed was on a submissions-only basis. Although it was acknowledged that there remained multiple points of peripheral factual dispute, it was not considered necessary to cross-examine either party on those points, given the key points of agreement and the simple issue requiring court consideration.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The court also encountered what is an increasingly common practical difficulty in the County Court and Family Court alike: no hearing bundle had been provided for the use of witnesses; either physical or digital. Thankfully, the pragmatic agreement between the parties avoiding the need for a witness bundle meant that this frustration did not prevent an effective hearing proceeding.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">As an aside, I would observe that on a weekly &#8211; if not daily &#8211; basis, the District Bench is now confronted with managing the prosaic yet pressing administrative concern relating to provision of bundles. The convenience and readiness of digital communication brings with it many benefits, but the failure to lodge bundles with the court (or a device from which witnesses can access them) is not one of them. Even when there are express judicial directions for the preparation of a bundle for use at the final hearing &#8211; as was the case here &#8211; the court routinely finds itself facing non-compliance with the same. As a basic point of practice and professional courtesy, steps must always be taken to ensure that the court is provided with a bundle for witnesses. If a digital bundle is to be used, a suitable neutral laptop or tablet, loaded with the digital bundle, must be provided for the witness box.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <heading class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Agreed Facts and Issues</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Preliminary Issue</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">During my pre-reading for this case last week, it was unclear to me whether there had been any judicial consideration of the Wife&#8217;s standing to bring this claim due to her remarriage. Given the absence of legal representation until a very late stage, this was perhaps unsurprising.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Section 28(3) of the Matrimonial Causes Act 1973 provides that &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">If after the grant or making of a decree or order dissolving or annulling a marriage either party to that marriage remarries whether at any time before or after the commencement of this Act or forms a civil partnership, that party shall not be entitled to apply, by reference to the grant or making of that decree or order, for a financial provision order in his or her favour, or for a property adjustment order, against the other party to that marriage</span><span style="font-family:'Times New Roman';color:#000000">.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Given that the wife remarried before bringing this claim, the court would have no jurisdiction to entertain this case unless she had prayed for a financial order in her petition for divorce. This is commonly referred to as the &#8220;remarriage trap&#8221;. As such, I needed sight of that petition. Having exhaustively searched every document uploaded to the online portal under this case number, I was unable to locate the same.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Claims for Financial Remedy are now given a unique 16-digit case number separate to the case number of the originating divorce. The consequence in a case such as this, is that the original paper divorce file under an old 2015 10-digit case number does not form part of the case file available to me through the online portal. Previously claims for Financial Remedies would helpfully proceed using the same case number as the originating divorce. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">This new system of creating two separate case numbers is ordinarily simply an administrative inconvenience meaning litigants in person and occasionally lawyers will unfortunately and unwittingly cite the divorce number instead of their financial remedy number. In this case however, it marked a more fundamental concern because I required sight of the Wife&#8217;s petition from 2015 to see if she had prayed for a Financial Order at Part 10 or not. Without sight of the same there was no way of telling whether I had any &#8216;straw&#8217; with which to &#8216;make bricks&#8217; (</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">E v E</span><span style="font-family:'Times New Roman';color:#000000">&#160;[2008] 1 FLR 220, Singer J, &#167;17).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">This preliminary issue was also flagged in the helpful position statement of Mr Harley. He was lately instructed and attended today&#8217;s hearing without sight of the Petition and therefore without knowledge as to whether there was </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">any </span><span style="font-family:'Times New Roman';color:#000000">viable case for the Wife or not. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Thankfully, with assistance from court staff present at this building and at another premises where the archived file was eventually located, I was in receipt of a scanned copy of the petition by 9.22am. This confirmed that the Wife </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">had</span><span style="font-family:'Times New Roman';color:#000000"> indeed made the relevant prayer in her petition and so was not s.28(3) barred. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I make these somewhat prosaic observations as part of this judgment to highlight the increasing administrative and sometimes investigatory burden placed upon the District Bench to try and secure even basic key documents that are not always now available in one comprehensive repository, be that paper or virtual. Without the timely assistance of incredibly diligent court staff, the lack of access to this one key document would have likely necessitated the adjournment of today&#8217;s hearing.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Agreed Issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">That preliminary point having been clarified, this effectively proceeds as a single issue case concerning the FMH. For today&#8217;s purposes its agreed valuation stands at &#163;341,667, that being the average of three recently obtained informal estate agent appraisals. It is subject to a mortgage of c.&#163;59,000. Factoring in rough costs of sale, an agreed working figure for net equity stands at &#163;272,466 (&#8220;the Equity&#8221;). There are no other matrimonial assets. Both parties also have modest non-matrimonial debts; the Husband of c.&#163;13,000 and the Wife of c.&#163;17,000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">It is agreed that the Husband has exclusively made all capital and interest payments against the mortgage since 2015, and that the current repayments stand at c.&#163;1161pcm. It is unfortunate that there are neither current nor historic mortgage and/or bank statements on file. Absent the same, there is no forensic basis upon which to determine the total sums paid by the Husband since 2015, and neither is there any objective basis upon which to determine how that was applied against capital and interest. As an open position, the Husband invites me to conclude that there has been c,&#163;130,000 paid against the capital during that period, based on a crude multiplication of the current rate across the whole period. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The parties are in agreement that the FMH should be sold in July 2025 once Noah has completed his GCSEs. The only dispute is how the proceeds should be divided. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">It is also agreed that the Wife is the joint equitable owner of her current matrimonial home in Crawley with her now husband purchased in August 2018. That property is worth c.&#163;390,000 with net equity of at least &#163;157,000 on a conservative estimate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Throughout this case and at the outset of today&#8217;s hearing, the Wife contended for an equal division of the Equity. The Husband&#8217;s open position today is for a 70%/30% division in his favour.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I have had regard to the slim 213-page digital bundle provided and in particular the s.25 statements from both parties. There remain a number of contested factual issues, not least; (a) where the Husband plans to live in the future, (b) whether the Wife is currently seeking to end her current marriage, and (c) whether the Wife is continuing to work in her job or has recently handed in her resignation. However, it was agreed that cross examination as to the same would be more inflammatory than it would be illuminating. Both counsel were in firm agreement that neither party sought cross examination of the other and were content to proceed effectively on the basis that each parties&#8217; evidence was accepted at its highest on material disputed points. I therefore will not make any findings as to the disputed issues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Husband cannot say with any certitude what his historic payments against the mortgage have been for the entire relevant period, but confidently asserts that they have always been in the region of &#163;1,000 for that time.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">For the Husband, Mr Harley of counsel made helpful oral submissions along with provision of a detailed position statement which focused on the impact of delay on bringing a claim for a financial remedy in justifying a departure from equality. In the absence of there being </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">any </span><span style="font-family:'Times New Roman';color:#000000">current or historic bank statements or mortgage statements, he invited me to factor the Husband&#8217;s current monthly mortgage instalment payments of &#163;1,161 as being indicative of what he has been paying since February 2015. On that basis, he submits that the court should consider that there have been c.120 payments of &#163;1,161, a sum of &#163;139,320. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I am invited to effectively treat this as an increase in the value of the Equity which should be considered post-separation accrual, and therefore excluded from the matrimonial pot. On that basis, he submits that an offer of 70/30 of the Equity is a generous one. This is particularly true in circumstances where he invites the court to find that the Wife&#8217;s housing needs are met by her current matrimonial home from her current marriage, a property which is worth &#163;390,000 with equity of at least &#163;157,000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">For the Wife, counsel Mr Malik provides a concise position statement along with oral submissions that advance factual matters which are predominantly more forensic than legal. In his closing oral submissions he also for the first time puts forward a modified position that the Wife will accept a reduced share of the Equity. On that footing he submits a final revised offer of 55/45 in the Husband&#8217;s favour. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">At the time of my deliberation therefore, the difference between the parties has narrowed to 70/30 v 55/45.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The law to be applied within a Financial Remedy claim was helpfully set out by Peel J in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">WC v HC</span><span style="font-family:'Times New Roman';color:#000000"> [2022] EWFC 22 at &#167;21, and I can do no better than set it out in here as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220; i) As a matter of practice, the court will usually embark on a two-stage exercise, (i) computation and (ii) distribution;&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Charman v Charman</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#160;[</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">2007] EWCA Civ 503.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">ii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The objective of the court is to achieve an outcome which ought to be "as fair as possible in all the circumstances"; per Lord Nicholls at 983H in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">White v White&#160;[2000] 2 FLR 981</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">iii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">There is no place for discrimination between husband and wife and their respective roles;&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">White v White</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#160;at 989C.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">iv)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">In an evaluation of fairness, the court is required to have regard to the s25 criteria, first consideration being given to any child of the family.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">v)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">S25A is a powerful encouragement towards a clean break, as explained by Baroness Hale at [133] of&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Miller v Miller; McFarlane v McFarlane&#160;[2006] 1 FLR 1186.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">vi)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The three essential principles at play are needs, compensation and sharing;&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Miller; McFarlane</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">vii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">In practice, compensation is a very rare creature indeed. Since&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Miller; McFarlane&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">it has only been applied in one first instance reported case at a final hearing of financial remedies, a decision of Moor J in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">RC v JC&#160;[2020] EWHC 466&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">(although there are one or two examples of its use on variation applications).</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">viii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Where the result suggested by the needs principle is an award greater than the result suggested by the sharing principle, the former shall in principle prevail;&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Charman v Charman.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">ix)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">In the vast majority of cases the enquiry will begin and end with the parties' needs. It is only in those cases where there is a surplus of assets over needs that the sharing principle is engaged.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">x)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Pursuant to the sharing principle, (i) the parties ordinarily are entitled to an equal division of the marital assets and (ii) non-marital assets are ordinarily to be retained by the party to whom they belong absent good reason to the contrary;&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Scatliffe v Scatliffe&#160;[2017] 2 FLR 933&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">at [25]. In practice, needs will generally be the only justification for a spouse pursuing a claim against non-marital assets. As was famously pointed out by Wilson LJ in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">K v L&#160;[2011] 2 FLR 980&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">at [22] there was at that time no reported case in which the applicant had secured an award against non-matrimonial assets in excess of her needs. As far as I am aware, that holds true to this day.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">xi)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The evaluation by the court of the demarcation between marital and non-martial assets is not always easy. It must be carried out with the degree of particularity or generality appropriate in each case;&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Hart v Hart&#160;[2018] 1 FLR 1283</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">. Usually, non-marital wealth has one or more of 3 origins, namely (i) property brought into the marriage by one or other party, (ii) property generated by one or other party after separation (for example by significant earnings) and/or (iii) inheritances or gifts received by one or other party. Difficult questions can arise as to whether and to what extent property which starts out as non-marital acquires a marital character requiring it to be divided under the sharing principle. It will all depend on the circumstances, and the court will look at when the property was acquired, how it has been used, whether it has been mingled with the family finances and what the parties intended.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">xii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Needs are an elastic concept. They cannot be looked at in isolation. In&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Charman (supra)&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">at [70] the court said:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">"The principle of need requires consideration of the financial needs, obligations and responsibilities of the parties (s.25(2)(b); of the standard of living enjoyed by the family before the breakdown of the marriage (s.25(2)(c); of the age of each party (half of s.25(2)(d); and of any physical or mental disability of either of them (s.25(2)(e)".</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">xiii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">The Family Justice Council in its Guidance on Financial Needs has stated that:</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;In an appropriate case, typically a long marriage, and subject to sufficient financial resources being available, courts have taken the view that the lifestyle (i.e. &#8220;standard of living&#8221;) the couple had together should be reflected, as far as possible, in the sort of level of income and housing each should have as a single person afterwards. So too it is generally accepted that it is not appropriate for the divorce to entail a sudden and dramatic disparity in the parties&#8217; lifestyle.&#8221;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">xiv)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">In&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Miller/McFarlane&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Baroness Hale referred to setting needs &#8220;at a level as close as possible to the standard of living which they enjoyed during the marriage&#8221;. A number of other cases have endorsed the utility of setting the standard of living as a benchmark which is relevant to the assessment of needs: for example,&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">G v G [2012] 2 FLR 48&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">and&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">BD v FD [2017] 1 FLR 1420.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">xv)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">That said, standard of living is not an immutable guide. Each case is fact-specific. As Mostyn J said in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">FF v KF&#160;[2017] EWHC 1093</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#160;at [18];</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">"The main drivers in the discretionary exercise are the scale of the payer's wealth, the length of the marriage, the applicant's age and health, and the standard of living, although the latter factor cannot be allowed to dominate the exercise".</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Times New Roman'">xvi)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">I would add that the source of the wealth is also relevant to needs. If it is substantially non-marital, then in my judgment it would be unfair not to weigh that factor in the balance. Mostyn J made a similar observation in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">N v F&#160;[2011] 2 FLR 533&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">at [17-19].</span><span style="font-family:'Times New Roman';color:#000000">&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">In cases such as this that concern delay in bringing a claim, I remind myself that an application for financial remedies may be made upon the granting of a Decree of divorce, &#8220;or at any time thereafter&#8221; (MCA 1973, s.23(1) and 24(1)). However, in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Vince v Wyatt </span><span style="font-family:'Times New Roman';color:#000000">[2015] UKSC 14 (at &#167;32)  it was observed that</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;...there is a prominent strain of public policy hostile to forensic delay. The court will look critically at explanations for it; and, even irrespective of its effect upon the respondent, will be likely, by reason of it and subject to the potency of other factors, to reduce or even to eliminate its provision for the applicant. Nevertheless it remains important to address its effect upon the respondent. In some cases, albeit not in the present, a respondent can show that he has assumed financial obligations or otherwise arranged his financial affairs in the belief that the applicant would make no claim against him and that he has done so in a way which, even if it were possible, it would not be reasonable for him to put into reverse&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The court has recognised and applied this public policy for some time. In </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Chambers v Chambers</span><span style="font-family:'Times New Roman';color:#000000">, [1980] 1 FLR 10, Wood J (at &#167;13) described it in the following terms: </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;...it is now the policy of the matrimonial legislation that on the breakdown of a marriage there should, if possible, be a clean break financially. By inference this indicates that the financial issues should be decided within a reasonably short time of the break-down...after a certain lapse of time a party to a marriage is, in my judgment, entitled to take the view that there will be no revival or initiation of financial claims against him or her. The longer the lapse of time the more secure should he or she feel in the re-arrangement of financial affairs, and the less should any such claim be encouraged or entertained. Whether this notion is based upon some form of estoppel or upon public policy, it matters not. Where a marriage is irretrievably broken down, the parties are to be encouraged to deal with all outstanding issues as reasonably expeditiously and succinctly as possible.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">So too in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Rossi v Rossi</span><span style="font-family:'Times New Roman';color:#000000"> [2006] EWHC 1482 (Fam), in which Nicholas Mostyn QC (as he then was) stated (at &#167;32): </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;While of course no rigid rule can be expressed for the infinite variety of facts that arise in ancillary relief cases, I would have thought, generally speaking, that it would be very difficult for a party to be allowed successfully to prosecute an ancillary relief claim initiated more than 6 years after the date of the petition for divorce, unless there was a very good reason for the delay. I agree whole-heartedly with the statement of Wood J in Chambers, at 13&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">A more recent example of its application is to be found in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Briers v Briers</span><span style="font-family:'Times New Roman';color:#000000"> [2017] EWCA Civ 15 where</span><span style="font-family:'Times New Roman';color:#000000;background-color:#FFFFFF"> </span><span style="font-family:'Times New Roman';color:#000000">Sir Ernest Ryder, Senior President, found that: </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;The judge's ultimate exercise of judgment in a case where needs were conceded to be provided for was to discount the wife's share in an equality of division of the assets because of her responsibility for delay. The wife received between 27% and 30% of the overall assets.&#8221;&#160;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Both counsel have also made some brief reference to occupation rent in submissions. However, this is not one of those rare matrimonial cases such as </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Derhalli v Derhalli</span><span style="font-family:'Times New Roman';color:#000000">&#160;[2021] 2 FLR 1097 where the issue is a live one.</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000"> </span><span style="font-family:'Times New Roman';color:#000000">For reasons that will become plain in my judgment below, I do not consider that there is any need to address the law in this area which would more commonly fall to be addressed in a claim under The Trusts of Land and Appointment of Trustees Act 1996.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Any findings that do need to be made I make on the civil balance of probabilities.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I embark now on the two-stage process of computation and division.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Computation</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Computation is relatively straight forward in this case. The working figure for the Equity is agreed at &#163;272,466.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">However, the degree to what amount - if any - of that sum falls to be considered as a non-matrimonial element is not agreed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The Husband&#8217;s assertion that c.&#163;130,000 can be removed from the equation is an unattractive one. It presumes that </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">all</span><span style="font-family:'Times New Roman';color:#000000"> mortgage repayments post-marriage have been paid against capital rather than significantly against the interest, or indeed, at all. This is unrealistic. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I take judicial notice that Bank of England base rate has been below 1% for the majority of the period in question until it began to rise to its current 4.75% during 2022. I also take judicial notice that, were the Husband to have had a fixed-rate mortgage product at a relatively low interest rate, the proportion of any monthly payment would have been applied more significantly against the capital, whereas a higher interest rate may well have resulted in a higher application against interest. By way of illustration, I take judicial notice that historic products during this period have varied widely whereby borrowing at 1% might have seen 14% of a monthly repayment sum being applied against interest, whereas borrowing at 5% could see interest payments counting for more thank half of a monthly instalment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Using those parameters as a rough guide, and with the consent of the parties and counsel to my effectively making a rough &#8216;guestimate&#8217; of the historic payments, I assess the Husband to have made c.119 post-separation payments in the region of &#163;119,000, of which 71% is taken to have been by way of capital repayment and 29% interest payments. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">That realises a computation sum of c.&#163;85,000 as having been paid against the capital which will be treated as non-matrimonial and deducted from the Equity of &#163;272,466. Because it is common ground that the Wife left the FMH and was in a new cohabiting marital relationship soon thereafter, this is not a case that realistically falls to consider her as being excluded from the FMH for purposes of an occupation rent liability, at least from the point of her remarriage.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">The amount of the Equity that falls to be divided between the parties as a matrimonial asset is therefore &#163;187,466. Were that to be divided equally it would realise &#163;93,733 for each party.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Division</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">As to the second stage of division, I apply the statutory s.25 factors as follows:</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the income, earning capacity, property and other financial resources which each of the parties to the marriage has or is likely to have in the foreseeable future, including in the case of earning capacity any increase in that capacity which it would in the opinion of the court be reasonable to expect a party to the marriage to take steps to acquire</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The Wife has a modest but proven and demonstrable earning capacity earning c.&#163;17,638 p.a.. This realises her a mortgage capacity of up to &#163;100,000 on her own evidence. If I accept her evidence at its highest that she is currently off work with stress and is in fact serving the notice period from a voluntary resignation, there is nothing to indicate that she will not return to the same level of work in the near future.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">Although it is non-matrimonial, it is hugely significant that the Wife has the benefit of additional property resource, namely her current home in which she lives and of which she is a joint beneficial owner. This is a home that has met her housing needs since August 2018 and continues to meet her needs now. It also meets the needs of her son.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">Even if I take the Wife&#8217;s evidence at its highest that she has in recent weeks ended her relationship with her husband, her evidence is that they continue to peaceably cohabit as at today. I cannot forecast what may happen in the event of any potential divorce and financial remedy proceedings in that marriage. However, on her case that she is the primary carer for her 8-year old son from that relationship, it is conceivable that her housing need would be weighed heavily in such proceedings. Even if the property fell to be sold and divided in equal shares in a separate case, this would generate her at least an additional &#163;79,150 lump sum. There would also conceivably be a case for spousal maintenance in her favour.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">I accept that the Husband has modest self-employed income as a delivery driver amounting to &#163;16,234 on his current zero hours contract. However, I am also satisfied that his earning capacity is greater than this and he has previously earned significantly more.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The Husband has provided evidence of an uncertain mortgage capacity, which is not completely ruled out by the email dated 10 January 2025 from a &#8216;Mortgage and Protection Adviser.&#8221; That email states, &#8220;we would struggle to obtain a mortgage for you at this time.&#8221; This is somewhat unhelpfully caveated with the follow up, &#8220;The above information is given without prejudice and is for information purposes only. It is not to be used for any legal purposes or matrimonial disputes.&#8221; On the balance of probabilities however, I find that the  Husband would be able to obtain a very modest mortgage with proper efforts, demonstrated by his unbroken history of meeting his current mortgage which is after-all in his name.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the financial needs, obligations and responsibilities which each of the parties to the marriage has or is likely to have in the foreseeable future</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The Husband has full-time responsibility and care for Noah, and has done since the separation. Historically he has received no financial support from the Wife, and has only recently started to received minimal CMS payments.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The Wife also has obligations and responsibilities to her 8-year-old child by her current marriage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">On the evidence of both parties at their highest, both require two-bedroom properties in the Crawley area. For the Husband to house him and Noah, and for the Wife to house her and her child. Evidence has been provided of suitable properties costing in the region of &#163;190,000 - &#163;230,000. I cannot be satisfied on the balance of probabilities that either will be relocating any time soon.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the standard of living enjoyed by the family before the breakdown of the marriage</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The parties enjoyed a reasonable standard of living which both have been able to broadly sustain in the decade following their separation.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the age of each party to the marriage and the duration of the marriage</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The husband is four years older than the Wife and has a decreasing period of time in which to generate a mortgage raising capacity.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">This was a long marriage during which the parties raised four children. That length of marriage weighs heavily in the balance.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">any physical or mental disability of either of the parties to the marriage</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">There is no such disability in this case. Although the Wife complains of stress and ill-health during the currency of this litigation, no evidence has been proffered that she is subject to any disability or that her earning capacity is permanently inhibited in any way.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the contributions which each of the parties has made or is likely in the foreseeable future to make to the welfare of the family, including any contribution by looking after the home or caring for the family</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">Both parties made significant and equal contributions to the welfare of the family during the marriage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The Husband&#8217;s post-marriage contributions have significantly increased the value of the FMH per my above analysis. He has also made significant contributions to the children&#8217;s welfare by their sole care without financial support in the decade following separation.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">the conduct of each of the parties, if that conduct is such that it would in the opinion of the court be inequitable to disregard it</span><span style="font-family:'Times New Roman';color:#000000">;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">Neither party advances a conduct case against the other.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Times New Roman';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">The Wife makes reference to allegations of historic domestic abuse in the lead up to the parties&#8217; separation, but does not invite me to make any findings on the same, and so these do not factor into my deliberations.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="Heading1"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Judgment and Order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">I weigh the s.25 considerations detailed above and consider the yardstick of equality. This was a long marriage with four children. Both parties effectively have non-matrimonial assets which they have accrued in the decade post-separation which can equally be factored in to meet their needs so as to not prejudice consideration of the other assets. The Husband&#8217;s post-marital acquisition has been computed at c.&#163;85,000, and the Wife&#8217;s interest in her current matrimonial home at c.&#163;79,150.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">On that basis I see no reason to depart from equality in dividing the core Equity that is a matrimonial resource. The FMH falls to be marketed for sale at the start of July 2025 and the proceeds to be divided in equal shares once the Husband&#8217;s &#163;85,000 interest has been factored in.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">In the alternative, were my computation analysis to be flawed, using as it did an unorthodox albeit agreed degree of discretion, I would also be satisfied in any event that a departure from equality of division of the global Equity was justifiable because of the Wife&#8217;s responsibility for the delay, per </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Briers</span><span style="font-family:'Times New Roman';color:#000000">. I am satisfied that the Husband has assumed financial obligations or otherwise arranged his financial affairs in the belief that the Wife was making no claim against him (by her having remarried, started a new family and not made any financial contribution to the family) and that he has done so in a way which, even if it were possible, it would not be reasonable for him to put into reverse. His needs as primary carer for Noah would further justify such a division.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">When expressed in percentage terms this amounts to a division of the &#163;272,466 net equity of c.65.5% (&#163;178,733) to the Husband and c.34.5% (&#163;93,733) to the Wife</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">If the Wife were to consolidate her 34.5% share with her notional &#163;79,150 from her current home, it would leave her with lump sum capital of &#163;172,883. It would be up to her how much of her &#163;100,000 mortgage ability she would then wish to use to rehouse in a property worth up to c.&#163;272,883.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">Likewise, the Husband would be very close to being able to buy outright at the bottom end of the available housing resource with his &#163;178,733. Or he could choose to utilise his modest mortgage capacity to purchase properties in excess of &#163;200,000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Times New Roman';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';color:#000000">My order will be expressed on that consolidated percentage basis; the net equity to be divided in percentage shares of 65.5% to the Husband and 34.5% to the Wife. I would ask counsel to agree the wording of that order on a clean break basis (subject to checking and agreeing my calculations) to and file it with me for approval before uploading to the portal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">District Judge Worthley</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman'">31 January 2025</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

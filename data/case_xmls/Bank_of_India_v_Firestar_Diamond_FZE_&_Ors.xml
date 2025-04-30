@@ -1,0 +1,490 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2025/466"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2025/466"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-commercial-circuit"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="466"/>
+	  <FRBRname value="Bank of India v Firestar Diamond FZE &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/466"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/466"/>
+	  <FRBRdate date="2025-02-27" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-commercial-circuit"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/466/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2025/466/data.xml"/>
+	  <FRBRdate date="2025-02-28T15:24:51" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-commercial-circuit" href="https://www.gov.uk/courts-tribunals/commercial-circuit-court" showAs="The Business and Property Courts (Circuit Commercial Court)" shortForm="The Circuit Commercial Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="bank-of-india" href="" showAs="BANK OF INDIA"/>
+	<TLCPerson eId="firestar-diamond-fze" href="" showAs="FIRESTAR DIAMOND FZE"/>
+	<TLCPerson eId="firestar-international-private-limited" href="" showAs="FIRESTAR INTERNATIONAL PRIVATE LIMITED"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Commercial-Circuit</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>466</uk:number>
+	<uk:cite>[2025] EWHC 466 (Comm)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>5cdedca3b8b8d726ceed12e4bd3c315ce098bcdf62b88c18515bdc0d28fd7c91</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; font-family: 'Times New Roman'; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Times New Roman'; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: 'Times New Roman'; color: #0F4761; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; }
+#judgment .Footer { }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .FooterChar { }
+#judgment .PageNumber { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverMain" style="text-align:right">Case No. <docketNumber>LM-2018-000088</docketNumber></p>
+      <p class="CoverMain"><neutralCitation>[2025] EWHC 466 (Comm)</neutralCitation></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-commercial-circuit">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-commercial-circuit">BUSINESS AND PROPERTY COURTS OF ENGLAND AND WALES</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-commercial-circuit" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">LONDON CIRCUIT COMMERCIAL COURT (KBD)</courtType></p>
+      <p class="CoverText">Royal Courts of Justice, Rolls Building</p>
+      <p class="CoverText">Fetter Lane, London, EC4A 1NL</p>
+      <p style="text-align:right"><docDate date="2025-02-27" refersTo="#judgment">27 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">B e f o r e :</span></p>
+      <p class="CoverMain" style="text-align:center">DAVID BAILEY KC </p>
+      <p class="CoverMain" style="text-align:center">(sitting as a Deputy High Court Judge)</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <p style="text-align:center"><party refersTo="#bank-of-india" as="#claimant">BANK OF INDIA</party></p>
+      <p style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+      <p style="text-align:center">-and-</p>
+      <p style="text-align:center"><party refersTo="#firestar-diamond-fze" as="#defendant">FIRESTAR DIAMOND FZE</party></p>
+      <p style="text-align:right"><role refersTo="#defendant">First Defendant</role></p>
+      <p style="text-align:center">-and-</p>
+      <p style="text-align:center"><party refersTo="#firestar-international-private-limited" as="#defendant">FIRESTAR INTERNATIONAL PRIVATE LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#defendant">Second Defendant</role></p>
+      <p style="text-align:center">-and-</p>
+      <p style="text-align:center">NIRAV DEEPAK MODI</p>
+      <p style="text-align:right">Third Defendant</p>
+      <table uk:widths="2.39in">
+	<tr>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="vertical-align:middle">
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td style="vertical-align:middle">
+	    <p/>
+	  </td>
+	</tr>
+      </table>
+      <p class="NormalWeb" style="text-align:center"><span style="color:#000000">_______________</span></p>
+      <p class="NormalWeb"><span style="font-weight:bold;color:#000000">Mr Tom Beasley (Instructed by RWK Goodman LLP) for the Claimant</span></p>
+      <p class="NormalWeb"><span style="font-weight:bold;color:#000000">The Third Defendant appeared in person via video link from HMP Thameside</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Hearing date: 29 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">APPROVED JUDGMENT</p>
+      <p style="text-align:justify;text-indent:0.25in"><span style="font-weight:bold">David Bailey KC (sitting as a Deputy High Court Judge):</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">These proceedings concern a claim by the Claimant bank against the Third Defendant under a personal guarantee. The Claimant has already obtained summary judgment against the First Defendant, the borrower, in the sum of US$8,475,272.95 and it seeks to recover this sum, together with further interest and costs, from the Third Defendant. The Second Defendant, so far as I am aware, has played no part in these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The trial of the Claimant&#8217;s claim against the Third Defendant has been fixed to take place between 19<span style="vertical-align:super;font-size:smaller">th</span> and 28<span style="vertical-align:super;font-size:smaller">th</span> January 2026. Pleadings and Initial Disclosure were exchanged between 2018 and 2019 and, after a hiatus of several years, at a Costs and Case Management Conference held on 18<span style="vertical-align:super;font-size:smaller">th</span> October 2024 (the &#8220;CCMC&#8221;) HHJ Pelling KC gave directions and laid down a pre-trial timetable. Those directions include provision for a pre-trial review (&#8220;the PTR&#8221;) to take place in the week commencing 29<span style="vertical-align:super;font-size:smaller">th</span> September 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Third Defendant is Mr Nirav Deepak Modi. Mr Modi is an Indian born Belgian businessman who, prior to 2018, owned a wholesale diamond business and a luxury jewellery retail business eponymously named NIRAV MODI. The business was headquartered in Mumbai, India and at its height had several retail stores around the world. The story of the rise and fall of Mr Modi&#8217;s business empire is the subject of a Netflix documentary entitled: &#8216;Bad Boy Billionaires: India Diamonds Aren&#8217;t Forever&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Modi is presently in custody at HMP Thameside pending his extradition to India, where he faces three sets of criminal proceedings. The first<span style="color:#000000"> brought by the Central Bureau of Investigation (&#8220;the CBI&#8221;) relates to an alleged fraud on the Punjab National Bank, which caused losses in the order of US$1 billion. The second, brought by the Enforcement Directorate, relates to the alleged laundering of the proceeds of that fraud and the third relates to additional offences involving the alleged interference with evidence and witnesses in the CBI proceedings. Mr Modi was initially arrested in London in 2019 and, although his appeals against extradition have been unsuccessful, he remains on remand in the United Kingdom pending the outcome of what have been described as &#8220;confidential proceedings&#8221;. I understand that those proceedings are ongoing and are unlikely to conclude until late 2026. Over the last six years, Mr Modi has made several unsuccessful applications for bail, the last of which took place on 7</span><span style="vertical-align:super;font-size:smaller;color:#000000">th</span><span style="color:#000000"> May 2024. For present purposes, therefore, it is overwhelmingly likely that Mr Modi will remain in prison for the period up to and including the trial of this claim scheduled to take place in January next year. I should add that Mr Modi denies the criminal allegations that have been made against him and emphasises the fact that, as matters stand, he has not been convicted of any offence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">There are two applications before the Court. The first is an application by Mr Modi for a stay of the present proceedings on the grounds that his incarceration in prison means that he will be unable to obtain a fair trial contrary to Article 6 of the European Convention on Human Rights and/or because any attempt by him to obtain documents or secure witness statements would expose him to the risk of further criminal allegations of witness tampering and intimidation and prejudice any future application for bail. The second is an application by Mr Modi for an order for inspection of three core contractual documents which are referred to in the Claimant&#8217;s Statement of Case and were included in its Initial Disclosure. Mr Modi has made a witness statement in support of both applications.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Modi is unrepresented and appeared before me as a litigant in person via video link from HMP Thameside. In addition to Mr Modi&#8217;s witness statement and oral submissions, I have also had the benefit of a short skeleton argument that had been prepared for Mr Modi by solicitors who had previously been instructed on his behalf. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Claimant is one of India&#8217;s major public sector banks and is represented in these proceedings by the well-known top 100 law firm of RWK Goodman LLP and by Mr Tom Beasley of Counsel who prepared a skeleton argument and made oral submissions at the hearing of Mr Modi&#8217;s applications. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">The Application for a Stay</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">It is common ground between the parties that the Court has jurisdiction to stay proceedings as part of its general case management powers (see: CPR Part 3.1(g) and section 49(3) of the Senior Courts Act 1981). The power to stay proceedings is discretionary and is to be exercised in accordance with the Overriding Objective. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">There is no general principle that a party in prison is entitled to an adjournment or stay of civil proceedings because of the practical constraints which incarceration imposes upon them, see: <span style="font-style:italic">Wright &amp; Ors v Chappell &amp; Ors</span> [2023] EWHC 2873 at [49] per Leech J. Each case must be assessed by reference to the nature and scope of the claim and its own individual circumstances. Mr Modi did not suggest otherwise. Rather, he submitted that because he has no access to the internet or to a laptop in prison there is no reasonable prospect of him being able effectively to conduct his defence of this claim as a litigant in person. He contends that his lack of access to IT facilities whilst in prison means that there is an &#8216;inequality or arms&#8217; which undermines his right to a fair trial under Article 6 of the European Convention on Human Rights. As Mr Modi figuratively put it during his oral submissions: &#8216;The bank has tanks and missiles, but I only have wooden sticks&#8217;. He maintains that the only way in which his Article 6 rights to a fair hearing can be protected by the Court is for there to be a stay of the proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Modi further contends that he is at risk of substantial injustice (including further criminal charges in India and/or the denial of any future bail applications) should he take any steps to obtain documentary evidence or interview prospective witnesses for the purposes of defending these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">At this stage, Mr Modi seeks a stay of these proceedings until January 2026 which, if granted, would inevitably lead to the existing trial date being lost.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Claimant opposes the application for a stay. Mr Beasley submits that there is no example in the authorities of proceedings being stayed because of unequal footing issues and no justification for a stay on the particular facts of this case. He points out that, notwithstanding the lack of access to a laptop and internet facilities, Mr Modi has been supplied with hard copy bundles and has been able to correspond with the Claimant&#8217;s solicitors and participate effectively in both the CCMC and the hearing of these applications. He also relies on the fact that Mr Modi has been able to conduct other proceedings such as his bail applications, US bankruptcy proceedings, Trust proceedings in the Chancery Division (in which Mr Modi is a Claimant and has been provided with 7-8 bundles of documents) and also the ongoing &#8220;confidential proceedings&#8221;. Mr Beasley also submits that, despite his claim of impecuniosity, Mr Modi appears able to call upon resources when it suits him to do so. By way of example, the Claimant relied on the fact that Mr Modi was able to secure a loan of &#163;20,000 to enable him to instruct solicitors to prepare the current applications and a skeleton argument, he was able to arrange for a business colleague to offer the Court &#163;500,000 by way of security in support of his latest bail application and that he has been able to engage the services of English lawyers to represent him in the Trust proceedings as well as lawyers in India. Insofar as there is any inequality of arms between the parties, Mr Beasley submitted that this did not prejudice the possibility of a fair trial and could be satisfactorily addressed by appropriate case management directions and variations to the pre-trial timetable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">So far as the risk of injustice (in terms of further criminal charges or prejudice to any future bail application as a result of Mr Modi seeking to obtain documents or contact prospective witnesses) was concerned, Mr Beasley submitted that these were wholly speculative and unevidenced assertions.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic">Discussion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Article 6 of the European Convention on Human Rights provides that: &#8220;In the determination of his civil rights and obligations&#8230; everyone is entitled to a fair and public hearing&#8230;&#8221; I was directed to various decisions of the European Court of Human Rights on the meaning and effect of Article 6 but, for present purposes, it suffices to refer to the decision in <span style="font-style:italic">Dombo Beheer BV v Netherlands (A/274-A)</span> (1994) 18 EHRR 213 where [at 33] the Strasbourg Court stated: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;&#8230; it is clear that the requirement of &#8216;equality of arms&#8217; in the sense of a &#8216;fair balance&#8217; between the parties, applies in principle to [civil] cases as well as to criminal cases&#8230; &#8216;equality of arms&#8217; implies that each party must be afforded a reasonable opportunity to present his case - including his evidence - under conditions that do not place him at a substantial disadvantage vis-a-vis his opponent.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">This principle is reflected in the Overriding Objective which requires the Court to manage cases in a way which &#8220;so far as is practicable&#8221; ensures that parties are on &#8220;an equal footing and can participate fully in proceedings&#8221; (CPR Part 1.1(2)(a)). However, I remind myself that &#8216;equality of arms&#8217; does not mean &#8216;equality of resources&#8217; but is concerned with ensuring equality of opportunity in the adversarial process, see: <span style="font-style:italic">Brake &amp; Ors v Chedington Court Estate Ltd</span> [2021] EWHC 2700 at [13]. The focus is on the need for procedural fairness. In other words, it is not a matter of restraining Goliath but ensuring that David has a reasonable opportunity to cast his stone. It must also be borne in mind that the Claimant has an equal right under Article 6 to a fair trial &#8220;within a reasonable time&#8221; which right could be undermined in the event that the Court stays proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">It seems to me, therefore, that it would only be appropriate to stay the present proceedings if the Court was satisfied that, despite its best efforts to place the parties on an equal footing, the constraints to which Mr Modi is subjected to while in prison will necessarily deprive him of a reasonable opportunity to present his defence at the trial scheduled to take place in January next year.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I accept Mr Modi&#8217;s evidence that he has no access to the internet while in prison. Given the security risks posed by internet access, the National Security Framework and IT Security Policy severely restrain prisoners&#8217; access to the internet whilst in custody. That undoubtedly places Mr Modi at a disadvantage compared to ordinary litigants in person. It means he cannot conduct any legal research (via searchable internet databases such as bailii.org or the national archives) should he wish to do so. It also means he cannot access the many online resources that support litigants in person (such as Advocate at weareadvocate.org.uk or the &#8216;Handbook for Litigants in Person&#8217; available on the judiciary website). Most significantly and the point on which Mr Modi specifically relies, it also means he cannot access or search the Civil Procedure Rules (&#8220;the CPR&#8221;) which are freely available online.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In <span style="font-style:italic">Barton v Wright Hassall LLP</span> [2018] 1 W.L.R. 1119 the Supreme Court held that the CPR apply as much to litigants in person as they do to represented parties and that, unless particularly inaccessible or obscure, a litigant in person is required to familiarise themselves with the relevant rules. Significantly, in the present context, in answer to the submission that the rules were inaccessible and obscure, Lord Sumption said [at 19]: &#8220;I do not accept this. They are accessible on the internet.&#8221; That is, of course, true but assumes that all litigants in person have access to the internet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Similarly, on 6<span style="vertical-align:super;font-size:smaller">th</span> May last year, Mr Modi wrote to the Claimant&#8217;s solicitors explaining that he had asked the staff at the prison library for a copy of the CPR but they were unavailable, and requested the Claimant to provide him with copies of the relevant court guides and the CPR or to direct him as to how he might obtain them. The Claimant&#8217;s solicitors replied on 23<span style="vertical-align:super;font-size:smaller">rd</span> May 2024 enclosing printed copies of the Commercial Court Guide, the Circuit Commercial Court Guide and limited extracts from the CPR. As to the CPR as a whole, the Claimant&#8217;s solicitors directed Mr Modi to the link on the justice.gov.uk website. This was undoubtedly intended to be helpful but is of no assistance to Mr Modi given that he has no access to the internet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In my judgment, the principle of &#8216;equality of arms&#8217; requires Mr Modi to have access to a copy of the CPR. Absent the opportunity to familiarise himself with the relevant procedural rules Mr Modi&#8217;s ability to present his defence is likely to be unfairly prejudiced so as to deprive him of his right to a fair trial in accordance with Article 6.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Modi is supplied by the prison with a telephone in his cell but he has no access to a laptop on which he can view or search documents or type notes and correspondence. According to his witness statement, he does have limited access to a computer for the purpose of completing an Open University course and that, for approximately 15 minutes twice a month, his tutor allows him to use the computer to write correspondence but that is the extent of his access to IT facilities. Mr Modi can dictate text on the telephone to a part time assistant which can then be typed up and sent on and he has access to pen and paper. There is no suggestion in the evidence that Mr Modi is unable to correspond or prepare documents in manuscript.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I am prepared to accept, as a general proposition, that the inability to access word-processing facilities could undermine an imprisoned litigant in person&#8217;s right to a fair trial. Indeed, as long ago as 2002 when the use of technology in the administration of justice was in its infancy compared with today, Clarke LJ (as he then was) said at [74-75]: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;<span style="color:#000000">While I would not go so far as to hold that we have advanced to a stage where access to IT facilities is a precondition of having unimpeded access to the courts, it does seem to me that there are likely to be a significant number of prisoners in respect&#160;of whom it can properly be said that without such facilities they are at a sufficient disadvantage vis a vis the other party to litigation such that there is inequality of arms between them. It struck me during the course of the argument that there is much to be said for the proposition that a prisoner&#160;suing a public authority&#160;represented, say, by the Treasury Solicitor, is seriously disadvantaged if he can only use a pencil, biro or pen while his opponent is equipped with a battery of word processors. All will no doubt depend upon the circumstances&#8221;: </span><span style="font-style:italic;color:#000000">R (Ponting) v Governor of HMP Whitemore</span><span style="color:#000000"> [2002] EWCA Civ 224. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">In the same case, at [31], Schiemann LJ said: &#8220;For my part, I am prepared to proceed on the basis that circumstances can exist in which to deprive a prisoner of access to a computer can amount to an interference with his right of access to the Court and a breach of his rights under Article 6.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I am also prepared to accept that, depending on the circumstances of the case, the inability to view and search through documents and evidence provided in electronic format could create an &#8216;inequality of arms&#8217; which would breach an imprisoned litigant in person&#8217;s rights to a fair trial. See, for example, <span style="font-style:italic">R (Jackley) v Secretary of State for Justice</span> [2014] EWHC 407 at [11] where Andrews J (as she then was) observed: &#8220;&#8230; if there is a case which is very document heavy and the opposing side has provided thousands of pages of documentation, it may well be that fairness requires that a computer which has a search facility should be made available in order to enable the prisoner representing himself to search through the documents and access information that is pertinent to the points that he wishes to put.&#8221;  I emphasise, however, that there is no general rule to this effect and that each case will depend on its own special facts as emphasised by Hickinbottom J in <span style="font-style:italic">R (Kenyon) v Governor of HMP Wakefield</span> [2012] EWHC 1259 and Kerr J in<span style="font-style:italic"> R (Wood) v Governor of HMP Wandsworth</span> [2015] EWHC 2761.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">So far as the present case is concerned, having carefully reflected on the matter I have come to the conclusion that it is too early to tell whether or not Mr Modi&#8217;s lack of access to a laptop and the internet breach his rights under Article 6 and will prevent a fair trial from taking place in January of next year. In my judgment, the appropriate course is to adjourn Mr Modi&#8217;s application for a stay to the PTR when I consider the Court will be better placed to assess whether or not a fair trial can take place and what further directions may be necessary to achieve that outcome. I have reached that conclusion for three main reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">First, Mr Modi has made an application to be supplied by the prison authorities with a laptop pursuant to the Access to Digital Evidence (A2DE) Policy Framework. According to Mr Modi&#8217;s witness statement, that application is still outstanding and has yet to be determined. The primary purpose of the policy is to ensure that defendants to criminal proceedings are able to view electronic disclosure given by the Crown. However, paragraph 3.2 of the Policy Framework further provides: </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;Whilst this Policy Framework is directed at criminal matters that attract the protections of Article 6 of the ECHR and Article 6 of the Human Rights Act 1998, we recognise that there may be exceptional circumstances outside of the Policy Framework where a civil matter may also attract Article 6 rights. Any application on these matters will need to be considered on a case-by-case basis, against the criteria assigned in this Policy Framework for criminal matters such as the nature of the material to be viewed and the volume of documents. Applications will need to be sent to the National A2DE Team at HMP Belmarsh who will then seek further advice from procedures and legal, as necessary. Where possible, prisons should first consider alternative methods for viewing civil case material.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I have reviewed a copy of Mr Modi&#8217;s application for a laptop. As presently formulated, it only refers to the Trust proceedings and to the US Bankruptcy proceedings. Mr Modi should therefore augment his application to also refer to the existence of the present proceedings and to the fact that the hearing bundle for these applications alone exceeded 1000 pages in length and that the bundles for the trial next January are likely to be considerably more voluminous. I also direct Mr Modi to supply a copy of this judgment (once it is available in hard copy) to the National A2DE Team at HMP Belmarsh (via the relevant officer at HMP Thameside) so they can consider its contents when determining his application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">It is not for me to pre-judge that application and the National A2DE Team will no doubt wish to undertake a thorough security assessment before deciding whether Mr Modi should be granted access to a laptop and, if so, whether that device will facilitate word-processing or be limited to search and view only functions. However, I hope that the application will have been resolved one way or another by the time of the PTR in September of this year. Needless to say, if the application succeeds then that will serve to rectify the &#8216;inequality of arms&#8217; caused by the lack of a laptop of which Mr Modi complains.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Secondly, by the time of the PTR disclosure will have been completed, witness statements and expert reports will have been exchanged and the Judge hearing the PTR will be well placed to gauge the likely length of the trial bundles. Armed with that insight and depending on the outcome of Mr Modi&#8217;s A2DE application, the Judge hearing the PTR will be best placed to assess whether or not a fair trial can take place in January 2026 notwithstanding (if it be the case) Mr Modi&#8217;s continuing lack of access to IT facilities while in prison. On any view, if Mr Modi remains without access to a laptop the existing directions laid down by HHJ Pelling KC at the CCMC (that provide for him to only be supplied with the trial bundles in electronic format) will need to be revisited. While I appreciate that Article 6 does not ordinarily entitle an impecunious litigant in person to be supplied with a hard copy of the trial bundles at the Claimant&#8217;s expense (see: <span style="font-style:italic">Axnoller Events Ltd v Brake</span> [2021] EWHC 1706 at [30]), that assumes the litigant in person has access to technology on which to view an electronic version of the bundles. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Thirdly, in the circumstances of this case, I consider that the Court can give further case management directions at this stage which are designed, so far as is practicable, to put the parties on an even footing and thereby preserve Mr Modi&#8217;s Article 6 rights pending the hearing of the PTR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I will set out those directions in due course but, at this juncture, I must add that I am not satisfied that Mr Modi faces a real risk of serious injustice (either in the context of the Indian criminal proceedings or any future bail application) if the present proceedings are allowed to continue to trial.  Section 503 of the Indian Penal Code, to which Mr Modi has referred, does not prevent him from seeking to obtain documentary evidence or from contacting potential witnesses for the purpose of obtaining witness statements for use in these proceedings. I accept Mr Beasley&#8217;s submission that the risk of such conduct giving rise to further criminal charges of witness intimidation or evidence tampering against Mr Modi is pure speculation. Furthermore, the fact that certain potential witnesses may be unwilling to engage with Mr Modi or refuse to provide a witness statement are common problems for litigants and do not justify a stay of these proceedings (see: <span style="font-style:italic">Bankas Snoras v Antonov</span> [2013] EWHC 131 at [41] per Gloster J).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">Conclusion on the Application for a Stay</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">For the reasons I have already given I propose to adjourn the stay application to the forthcoming PTR. In addition, I will make the following further case management directions for the purpose of placing the parties, so far as is practicable, on an equal footing pending the hearing of the PTR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">First, I direct the Claimant to provide Mr Modi with a hard copy of the Handbook for Litigants in Person and a hard copy of the Individual Application Form for <span style="font-style:italic">pro bono</span> legal support which can be downloaded from the Advocate website. I appreciate that these steps will put the Claimant to some inconvenience and expense but, given the sums at stake in this litigation and the Claimant&#8217;s overall costs budget, the additional expense is likely to be <span style="font-style:italic">de minimis</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Secondly, while disclosure in the Business and Property Courts is ordinarily given in electronic form, I direct the Claimant to provide Mr Modi with hard copies of its disclosure, its witness statements and any expert reports.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Thirdly, Mr Modi should be provided with access to a copy of the CPR. A hard copy of the current edition of the &#8216;White Book&#8217; costs in excess of &#163;1000. While I take on board Mr Beasley&#8217;s observation that Mr Modi appears able to deploy resources whenever it suits him to do so, I cannot be satisfied on the evidence before me that Mr Modi has the means to acquire a hard copy of the CPR while in prison. In the circumstances, subject to an appropriate undertaking from Mr Modi to take reasonable care of the same and to return it to the Claimant&#8217;s solicitors at the conclusion of these proceedings, I propose to direct that the Claimant supplies Mr Modi with a hard copy of the latest edition of the White Book. Assuming these undertakings are complied with the net cost to the Claimant of doing so should be minimal in the context of the overall costs of these proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Finally, I am conscious of the fact that in the absence of access to the internet Mr Modi is unable to conduct any legal research should he wish to do so. This is not a matter on which Mr Modi has specifically relied. That is perhaps not surprising given that his Defence in these proceedings has already been settled by very experienced commercial law counsel. Nonetheless, to ensure that both the Court and Mr Modi has access to all of the legal authorities relevant to the issues raised in Mr Modi&#8217;s Defence, I direct the Claimant&#8217;s counsel to produce a draft list of authorities for consideration by the Court at the PTR. In that regard, as Mr Beasley will be aware, paragraph gC5 of the BSB Handbook provides that counsel&#8217;s duty &#8220;&#8230; includes drawing to the attention of the court any decision or provision which may be adverse to the interest of [his or her] client. It is particularly important when you are appearing against a litigant who is not legally represented.&#8221;</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">The Application for Inspection</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Modi&#8217;s second application is for an order requiring the Claimant bank to produce the originals of three contractual documents for inspection. The three documents concerned are (a) the Letter of Acceptance of the 2017 Facility; (b) the Personal Guarantee dated 3 July 2012 and (c) the Personal Guarantee dated 3 August 2013 all of which appear from the copies so far produced to bear Mr Modi&#8217;s signature. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Modi says, in his witness statement, that he has no recollection of ever signing these documents and points to an oddity concerning the Letter of Acceptance of the 2017 Facility which is the fact that the document is not dated and his name is not printed on it. He therefore wants the original documents to be inspected by Ms Ellen Radley (who is a forensic document expert) to enable her to opine on whether or not the signatures are authentic. Mr Modi recognises that he will need permission to withdraw an admission and amend his Defence in the event that he intends to allege that the documents are forgeries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Beasley accepts that the Court has power to order the inspection of original documents if it is reasonable and proportionate to do so. He submits, correctly in my view, that this power should be exercised by reference to the Overriding Objective and the seven criteria set out at CPR PD57A paragraph 6.4.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Claimant bank opposes inspection on various grounds. Mr Beasley&#8217;s main point in his oral submissions was that it would be costly and disruptive and that the purpose of the application was to derail the proceedings. He also points out that the application is being made 5 years after the original Defence was served and submits that any application by Mr Modi to withdraw the admission and amend the Defence to plead a case of forgery would have no realistic prospect of success. Mr Beasley also notes that it is unclear how Mr Modi will be able to pay for Ms Radley to carry out her expert assessment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">These points have force but, on balance, I have concluded that it is both reasonable and proportionate to order the production of the three original documents for inspection. My reasons for doing so are as follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">First, the number of documents involved is small. The Claimant has the originals of all three documents readily available and at least two of them are of central significance to the claim against Mr Modi.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Secondly, I do not agree that it would be unduly disruptive to order production. The case can continue uninterrupted while the three original documents are in Ms Radley&#8217;s possession. The cost to the Claimant of providing the originals to Ms Radley is minimal in the context of the case as a whole.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Thirdly, having looked at the copies of the documents concerned myself it seems to me to be highly likely that the trial Judge and Mr Modi will wish to be taken to the original documents during the course of the trial. If an initial layman&#8217;s inspection of the documents were to suggest anything untoward at that stage, there would be a far greater risk of disruption to these proceedings than that posed by Ms Radley inspecting the originals now.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Fourthly, while I accept that the application is made 5 years after the original Defence was served that ignores the fact that there was a hiatus in these proceedings before the Claimant revived them after securing summary judgment against the First Defendant in March last year. The application was made by Mr Modi before the first CCMC. Furthermore, if an application to withdraw the admission and to amend the Defence were supported by a credible and coherent report from a forensic document expert such as Ms Radley then, in my judgment, it would have at least a realistic prospect of being successful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Fifthly, if the inspection establishes that Mr Modi&#8217;s signatures on the documents are authentic then that may serve to encourage Mr Modi to settle or otherwise resolve the claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Finally, I agree with Mr Beasley that it is unclear from the evidence whether or not Ms Radley has already been placed in funds to perform her examination of the documents and produce a report. In the circumstances, it seems to me that the proffered undertaking from Ms Radley (concerning the care and return of the original documents) should be amended to include a declaration that she has been placed in funds by or on behalf of Mr Modi as a condition to production. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">Overall Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">For the reasons I have sought to explain, the stay application is adjourned to the PTR and the application for inspection of the three original documents succeeds. I will now hear the parties on any consequential matters (including costs) and any residual issues of case management. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

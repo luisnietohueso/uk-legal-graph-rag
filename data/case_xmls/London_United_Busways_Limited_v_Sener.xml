@@ -1,0 +1,915 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/37"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/37"/>
+	  <FRBRdate date="2025-03-20" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="37"/>
+	  <FRBRname value="London United Busways Limited v Sener"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/37"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/37"/>
+	  <FRBRdate date="2025-03-20" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/37/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/37/data.xml"/>
+	  <FRBRdate date="2025-03-20T10:40:51" name="transform"/>
+	  <FRBRdate date="2025-03-20T12:28:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-20" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="london-united-busways-limited" href="" showAs="LONDON UNITED BUSWAYS LIMITED"/>
+	<TLCPerson eId="mr-o-sener" href="" showAs="MR O SENER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>37</uk:number>
+	<uk:cite>[2025] EAT 37</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>67682e6a606cdfd6bc75ed1bb07765bcfa74be657df394e746445e1605bec2ec</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">United Busways Ltd v Sener</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 37</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-000363-JOJ</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-20" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">20 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#london-united-busways-limited" style="font-weight:bold;font-size:12pt">LONDON UNITED BUSWAYS LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#mr-o-sener" style="font-weight:bold;font-size:12pt">MR O SENER</party></p>
+      <p style="text-align:right;margin-left:0.5in"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Edward Nuttman </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(of Ward Hadaway) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">in person</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 29 January 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant was employed as a bus driver.  The employment tribunal upheld a complaint of harassment concerning communications on a number of occasions related to his disability.  That was on the basis not of a malign purpose, but of his reasonable perception of the effect of those communications, which he found embarrassing and upsetting.  The respondent appealed.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The appeal was partially upheld.  The conduct covered by the successful complaint included treatment by managers at certain meetings, and by controllers, who were responsible for monitoring the claimant&#8217;s bus on its route.  The tribunal&#8217;s conclusions in relation to the claimant&#8217;s perception of the conduct of managers at two of the meetings in question being reasonable, were, in all the circumstances, not sufficiently explained.  In relation to a third meeting with a manager, the tribunal had itself found that on that occasion there was no reference made at all to anything connected with the claimant&#8217;s disability.  The judge acknowledged that error in a reconsideration decision, but it had not been corrected by the tribunal.  It should have been, as it affected the scope of the judgment.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">However, findings of harassment by other communications involving the controllers of the claimant&#8217;s bus route were properly reached and explained.  Because those findings survived the appeal, the tribunal had not erred by failing to dismiss the overall complaint as being entirely out of time.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I will refer to the parties as they were in the employment tribunal.  Following a hearing at London South in January 2023 the tribunal (EJ K Andrews, Mr K Murphy and Mr C Wilby), in a reserved decision, upheld a complaint by the claimant of disability-related harassment, but dismissed his various other complaints.  This is the respondent&#8217;s appeal against the decision upholding the harassment complaint.  Applications by both parties for reconsideration of parts of the overall decision were refused by the judge on preliminary consideration in a further decision on paper.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Arising from a rule 3(10) hearing I had permitted five grounds of appeal to proceed.  As he did before the employment tribunal, and at the rule 3(10) hearing, Mr Nuttman, a solicitor, appeared for the respondent.  The claimant has been a litigant in person throughout.  He had been debarred by the Registrar from taking any further part in this appeal, as he had filed his Answer late and did not formally apply for an extension.  However, he attended the hearing of this appeal and asked to be heard.  Mr Nuttman did not object, and I permitted the claimant to be heard.  He confirmed that he was able to participate in English, without an interpreter.  We took comfort breaks as required.  The claimant had been sent the bundles and Mr Nuttman&#8217;s skeleton argument, but had not brought his hard copies with him.  He was provided with hard copies before argument began.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I take the following facts from the tribunal&#8217;s decision and from documents in the bundles.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was employed by the respondent as a bus driver, based at the Hounslow bus garage in London.  The standard shift for drivers was 7.36 hours with overtime paid only when a controller authorised it on the basis of unavoidable delay, by signing a docket submitted by the driver.  Driving is normally done in two blocks with one 40-minute unpaid meal break in between.  In each block the driver will drive back and forth on their assigned route.  Once it has been completed in one direction there is time allowed to check the bus for lost property, change signage and take a toilet break, and then the route is started again in the other direction.  At [41] the tribunal said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;Drivers are line managed by a staff manager (in the claimant's case Ms S Mitchell) but are monitored operationally by controllers who are based either in the ibus (or control) room or are mobile i.e. at the garage, on routes and/or at stops. Each route has a certain frequency and a headway i.e. the timetabled gap between each bus. If a controller sees that a bus is delayed they will radio the driver to establish the cause of the delay and whether any adjustments need to be made to the route and preceding/following buses. Drivers are not expected to talk to a controller whilst they are driving but to contact them when they are next stationary at a stop. If a bus is running late it can get further delayed by the fact that there will be more passengers waiting at a stop than usual which increases loading time and, as there are more passengers on the bus it is more likely to stop frequently. Ultimately a controller may decide to curtail a bus i.e. terminate it earlier than scheduled or instruct a driver to wait at a stop to increase the gap between them and another bus or to overtake a bus in front.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In 2017 the claimant asked to change his assigned route for medical reasons.  His line manager, Ms Mitchell, asked for a medical letter in support.  A GP&#8217;s letter dated 4 December 2017 was then provided, indicating that he was suffering from lower urinary tract symptoms.  The letter advised that he was unable to manage his symptoms on long routes, but could manage them very well on short ones, and therefore it was advisable that he be kept on short routes.  At some point thereafter he was allocated to route H37, which has toilet facilities at both ends of the route, as well as part way along, at Hounslow garage.  The tribunal said at [44]: &#8220;In normal conditions it would take 30 to 35 minutes to complete.  Its headway was 6 &#8211; 8 minutes &#8211; a high frequency route.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following a &#8220;Code Red&#8221; incident on 3 May 2018, when the claimant left his vehicle and called an ambulance (for himself), he went off sick with stress the next day.  He was then invited to a welfare meeting with Ms Mitchell.  He raised a grievance about that invitation and a manager, Mr Harris, responded to this explaining the purpose of the welfare meeting.  The welfare meeting with Ms Mitchell then went ahead, it appears on or around 14 May.  The tribunal said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;49.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">During that welfare meeting although the claimant referred to delay on the route due to his need to use toilet facilities and Ms Mitchell asked him about that, he did not specifically refer to his urinary condition. He did however say that he had called the ambulance because he felt dizzy, was sweating and had a headache. He also referred to Mr Etheridge asking him to 'please watch your headway'. In that meeting he also referred to controllers not answering calls or responding to texts but he confirmed that this was not just in respect of him but other drivers as well. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">50.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The claimant also referred to a conversation between him and Mr Fojtik, a controller, in which he said he told Mr Fojtik he was going to the toilet, that he would come back and then depart to which Mr Fojtik asked if he had to go to the toilet at each end of the route. The claimant confirmed that he did and Mr Fojtik said 'okay, when you come back depart straightaway'. He also complained that on the same occasion another controller Mr Pearce had asked him to come and see him at lunchtime and that for the past three days he had been calling and watching him regarding his headways. When Ms Mitchell said that checking headways were part of his job, the claimant said 'okay forget about headways'. At the conclusion of the meeting Ms Mitchell asked if there was anything else going on that she needed to be aware of and the claimant said no.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I interpose that Mr Etheridge was the respondent&#8217;s Performance Manager.  There was then a further long-term sickness meeting on 21 May 2018 at which the claimant complained of stress and sleep problems, but did not refer to his urinary-tract condition.  The tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;52.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">On 29 May 2018 the claimant was assessed by the respondent's occupational health (OH) service during which he referred to his need to go to the toilet during the working day and that this could be a problem. The report noted that on the day of the code red incident the claimant's perception was that 'an Assistant Supervisor was going to chase him as he was going to the toilet' and he felt that it could not be fair and that being asked to go and see that supervisor in his lunchtime break made him feel extra stress. He also said that he had a past history of problems with urinary tract infections and had medication to help with that 'which he now takes intermittently'. He also referred to the letter from his GP from December 2017 and the need to avoid long routes. OH confirmed that the claimant was fit to return to work and that no other recommendations or modifications were needed subject to him being able to pass urine at work. The report stated that it was likely that his condition would 'come under' the Equality Act due to its duration. It did not specifically say what that condition was but it is apparent from the other contents of the report that it is more than likely that this was a reference to the claimant's urinary tract condition. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">53.The code red incident led to an investigation by Mr Etheridge. He interviewed the claimant on 5 June 2018 in the course of which there was a discussion about the claimant's use of the toilet facilities. He again reported that he believed Mr Pearce had been checking on him on that occasion and that after the ambulance had been called Mr Pearce and another controller came down to look after him. Mr Etheridge also interviewed controllers including Mr Fojtik and Mr Pearce. Mr Fotjik confirmed that he and Mr Pearce had gone down to check on the claimant 'as he frequently used the toilet facilities' and 'we wanted to make sure if he was okay and if there was something wrong after having to use the toilet facilities that many time within short trips'. Mr Pearce confirmed that he had been alerted by Mr Fojtik that the claimant was frequently using the toilet facilities and as there were delays they needed to manage departures. He later said 'the driver was constantly using the toilet at either end and as we had a duty of care we wanted to make sure he was okay' and that he had asked the claimant to see him on his return for his break. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">54.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Mr Etheridge also interviewed another driver who confirmed that the claimant was using the toilet facilities at every end but also that he believed the claimant was 'wasting time' as he was driving very slowly.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Etheridge&#8217;s investigation led to the claimant being invited to a disciplinary hearing to consider charges, arising from the incident on 3 May, of leaving his vehicle unattended and delaying the service.  However, the disciplinary hearing on 18 July 2018 was abandoned when the claimant became stressed.  He was then signed off with stress for a month and raised a grievance, which was unsuccessful.  He also raised further grievances relating to various matters on 27 September and 5 October.  This included a grievance that he was being given insufficient time to complete his route without speeding, which caused him to run late, and that controllers had refused to pay overtime.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;63.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Mr Fojtik's ibus report for 8 October 2018 recorded that the claimant's overtime docket for that day was not signed. He also noted that the claimant had taken 6 toilet breaks on the first half of his route and the route was being worked around him. He also said 'just to put this in the picture' that every other bus on the route was running on time or early whereas the claimant's was 18 minutes late. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">64.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Mr Fojtik's ibus report for 9 October 2018 again recorded that the claimant was running late when every other bus on the route was on time. He said that the claimant had sent a message that he was delayed for a toilet break and after he had been instructed to depart as soon as possible took another three minutes to leave the stand and continued to lose time over that trip 'showing no effort at all'. Mr Fojtik referred to a later message from the claimant saying he had been delayed for a toilet break and that he departed 13 minutes late but arrived at the end of the route 32 minutes late. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">65.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Mr Fojtik's further ibus report for 9 October 2018, after dealing with the code red incident, also noted that after being delayed for a toilet break, the claimant departed seven minutes late but made no effort and the following bus went around him and ran four minutes early to close the gap. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">66.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">On 9 October 2018 the claimant raised a grievance with HR in relation to overtime and the action of the controller (likely to be Mr Mundy) who had challenged him about being late and told the claimant that he was 'digging his own grave'. Also, that he asked if there were any special reasons the service was delayed or he had any personal conditions. It is clear that this upset the claimant. He was later told that it was inappropriate to involve HR as it was the subject of an ongoing process. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">67.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">In a separate 'occurrence report' for 9 October 2018 the claimant recorded that he had been seriously harassed by the controllers - he again referred to being told he was digging his own grave - and that his overtime had not been signed. This document does not refer expressly to toilet breaks.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">During the course of October 2018 the claimant submitted a number of further grievances.  A grievance relating to sick pay was answered by Ms Mitchell; and an appeal was considered by the Operations Manager, Mr Britto.  Other grievances regarding the alleged incident involving Mr Mundy, other alleged harassment by controllers, and overtime documents not being signed, were investigated by Mr Etheridge, who did not uphold them.  The claimant appealed.  The findings of fact deal with events relating to that appeal somewhat out of order.  At [87] the tribunal said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;The claimant submitted a first appeal against Mr Etheridge's decision followed by a more detailed version on 16 November 2018 where he stated that he had been picked up on his performance because the controllers thought he was deliberately driving slowly in order to get an overtime payment. He said this was humiliating and an offensive environment to work in. This document does not refer expressly to toilet breaks.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That appeal was also considered by Mr Britto, who met with the claimant and his representative and interviewed Mr Etheridge, Mr Pearce and Mr Mundy.  At [83] the tribunal said;</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;83.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">An outcome letter sent to the claimants by Mr Britto on 20 December 2018 in which, although he did not allow the appeal, Mr Britto noted that: </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">'I have investigated this matter fully and have been unable to find any evidence to support your allegations I therefore find this portion unfounded. I did however ascertain that you currently suffer from a medical condition that might cause you to delay departure at each end. This information was in your file but the service control team were not aware. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">I have therefore recommended that the staff manager send you to Occupational health services to investigate this issue and to see what other factors and or controls we can put in place to assist you in the work place. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">I am in no doubt that your own perception of this matter is that you have been harassed and that is a concern. It is on this basis that the wider recommendations that I am going to take forward from this grievance are. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">1.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">A more in depth and regular analysis of the curtailment audits will take place weekly by senior management. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Instigating training and reforms on Ibus radio etiquette. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">3.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">A Daily audit of Ibus Logs </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">4.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Better communication amongst departments on relevant information. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">5.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">A full audit of notified medical conditions and reasonable adjustments to ensure all relevant people are aware of all relevant information.'&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal made the following findings about subsequent events, relevant to this appeal.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;95.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">On 18 December 2018 Ms Mitchell referred the claimant to OH. She cross referred to the GP letter from December 2017, the urinary tract condition and asked for recommendations/guidance on sufficient periods between toilet breaks and how much time should be allowed for the use of facilities. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">96.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">OH assessed the claimant on 4 January 2019. They confirmed that his condition had not changed since he was diagnosed and the current medication controlled his symptoms to a degree but he still needed to use the toilet often. The claimant had told them that he felt targeted by controllers over his toilet breaks. The OH opinion and recommendation was that his condition was stable but that he did need to use the toilet roughly every half an hour and that this would usually take on average 8 to 10 minutes. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">97.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">At a long-term sickness interview on 8 January 2019 with Ms Mitchell the claimant again confirmed that his medical condition was workplace stress. The contents of the OH report with regard to toilet breaks were apparently not discussed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In January 2019 further appeals by the claimant in respect of his various grievances were considered and rejected.  By February 2019 the claimant had been absent from work for a lengthy period.  He was dismissed on account of his absence.  However, he successfully appealed and was reinstated.  That followed a further OH report regarding the impact of his condition and his need for frequent breaks.  He returned to work on 8 March 2019.  In the meantime, however, he had put in his first employment tribunal claim on 13 February 2019.  Further claims followed later in 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In March 2019 there were further internal grievances by the claimant, including alleging that one of the controllers, Mr Fojtik, had aggressively challenged him about delays.  These were considered, and rejected, by Mr Etheridge.  The claimant unsuccessfully appealed.  In April 2019, following the delayed disciplinary hearing, the charge of leaving the bus unattended and delaying the service without due cause on 3 May 2018 was upheld and the claimant received an oral warning.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [119] the tribunal made findings about a further iBus report:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;An ibus report completed by a controller whose name is illegible on 29 April 2019 shows that the claimant informed him that he needs to use the toilet at both ends of the journey and the controller agreed for him to carry on.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was a further welfare meeting with Ms Mitchell on 27 September 2019 [122]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;&#8230; in which they discussed an issue when the claimant soiled himself on 24 September 2019, they also discussed the claimant's medical condition and specifically when he used toilet facilities on that day. In the course of that conversation the claimant confirmed that he had not called control during the journey, which he said had been severely delayed by heavy traffic as there was nowhere that he could stop to use toilet facilities en route. He informed ibus of the situation when he finished. Ms Mitchell asked the claimant about the treatment of his condition and how often he needs to use toilet facilities to which he answered minimum 30 minutes maximum 15 minutes. She asked for confirmation that he has to use toilet facilities more frequently which the claimant confirmed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following this Ms Mitchell made a further referral to OH.  The tribunal went on to set out the advice given in that report and a further letter from the claimant&#8217;s GP.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [126] the tribunal said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;An ibus daily log by an unidentifiable controller on 22 November 2019 recorded that the claimant had taken a toilet break, missed his departure time and the curtailment was placed to put him back on time although he then took extra time leaving the garage and was observed stopping at a bus stop shortly after departure where he prepared the bus for service.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is not necessary for the purposes of this appeal to refer to further events covered in the tribunal&#8217;s decision, leading up to the claimant resigning his employment in December 2020.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Tribunal&#8217;s Decision </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The list of issues before the tribunal set out alleged conduct said to amount to harassment related to disability or race.  A specific allegation of race-related abuse by way of something allegedly said by a particular controller, Mr Mundy, was found not to be factually made out.  The other alleged harassing conduct was described as being &#8220;harassing [the claimant] for driving too slow taking long breaks&#8221; and &#8220;questioning him about going to the toilet&#8221;.  Before coming to the tribunal&#8217;s conclusions on those complaints, I need to set out some of the tribunal&#8217;s other findings and conclusions about matters to do with knowledge, and about certain other legal complaints (which did not succeed), as the respondent relied upon these other findings in support of this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal identified that the respondent acknowledged that the claimant had an impairment by way of a urinary-tract condition.  The tribunal found that the condition had the requisite long-term adverse impact, and so the claimant was at all relevant times disabled.  However, it also found that the respondent did not acquire knowledge of his disabled status from the GP&#8217;s letter of December 2017, because it said nothing about the long-term nature of the condition.  But the tribunal found that the respondent did acquire such knowledge upon receipt of the OH report of 29 May 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There were complaints of discrimination arising from disability (section 15 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">) by the controller, Mr Mundy, bullying the claimant not to use the toilet, and not signing overtime dockets, resulting in wages being deducted in respect of toilet breaks.  The tribunal accepted that the claimant&#8217;s frequent need to use the toilet arose in consequence of his disability.  It continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;146.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">As to the alleged unfavourable treatment, there was no evidence of Mr Mundy bullying the claimant into not using the toilet. To the contrary there was evidence on multiple occasions of controllers generally noting that the claimant was using the toilet during and at the ends of his route and no efforts to prevent him doing so. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">147.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">As for the alleged failure to sign the claimant's overtime dockets as a result of him having used the toilet, there was no evidence of Mr Mundy specifically failing so to sign. There was evidence of other controllers failing to sign overtime dockets but this was because they were not persuaded that there had been a valid reason for him to work beyond the end of his shift in comparison to other drivers who had faced the same traffic conditions on the route but not finished late e.g. Mr Fojtik's reports of 8 &amp; 9 October 2018 and the claimant's own appeal of 16 November 2018.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was also an unsuccessful complaint of failure to comply with the duty of reasonable adjustment.  The tribunal&#8217;s findings were as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;150.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The PCP alleged by the claimant is first that he was not allowed to take toilet breaks. There is no evidence to support this allegation. To the contrary there was significant evidence that the claimant routinely notified the controllers that he needed and was taking a toilet break. The only time that the claimant soiled himself because he could not take a break in time, he had not informed the control room of the situation. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">151.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The second part of the alleged PCP is that the claimant was not paid for toilet breaks. This is in effect a reformulation of the 'arising from' claim above. Because of the way the respondent's drivers' shifts work, they are paid for the shift which is performed in two blocks with an unpaid break in the middle and only if they run late at the end of the shift for an unavoidable reason, they are paid overtime. The evidence shows that when the claimant was not paid overtime this was not because he had taken toilet breaks but because he had run late for other, avoidable, reasons as referred to above in the 'arising from' conclusion.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal set out its conclusions in relation to the relevant complaints of harassment related to disability in the following passage:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;154.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">It is apparent that at various times, the claimant's need to take frequent toilet breaks was addressed with him by different managers and controllers as well as the length of time he was taking to drive his route and on breaks. These conversations/discussions had started no later than Ms Mitchell's welfare meeting with the claimant in May 2018 and continued throughout 2018 (various occasions involving Mr Fojtik and Mr Pearce as well as the investigatory interview with Mr Etheridge in June and an ibus report in October). Ms Mitchell referred to it again in the long term sick interview in January 2019 and the claimant told OH in the same month that he felt targeted in this regard. (Although technically out of scope for a claim submitted in February 2019, further ibus reports referred to the issue in March , April and November 2019 as well as a further welfare meeting with Ms Mitchell in September 2019.) </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">155.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">This conduct was unwanted by the claimant as is evidenced by his complaints at the time (for example, the one to HR on 9 October 2018and his comments to OH in January 2019). </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">156.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Insofar as that conduct related to the length of his breaks and generally about going to the toilet, it related to his disability. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">157.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">We find that that conduct did not have the purpose of violating the claimant's dignity etc but it did have that effect. Indeed Mr Britto acknowledged that in his letter to the claimant dated 20 December 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">158.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">As to whether it was reasonable for the conduct to have that effect on the claimant, we conclude that it was. Although the claimant is someone who seems to be quick to take offence and to complain, the respondent had been put on notice at the latest in May 2018 of his need for frequent toilet breaks and the medical reasons for this. Despite this, his controllers did regularly comment on/ask about his need to go to the toilet and Mr Britto's letter of 20 December 2018 implicitly acknowledged that the relevant information had not been properly communicated by recommending 'better communication amongst departments' and 'a full audit of notified medical conditions and reasonable adjustments to ensure all relevant people are aware of all relevant information'. Despite this such questions continued into 2019 (for example, by Ms Mitchell in the welfare meeting in September) and even though this did lead on occasion to adjustments to the claimant's departure time, this does not counteract the impact on the claimant. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">159.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Accordingly the claim of disability related harassment insofar as it relates to being questioned about going to the toilet and resulting long breaks succeeds. That claim relates to a course of continuing conduct from May 2018 through to January 2019 and is therefore in time.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Overview of the Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There were five live grounds of appeal.  Grounds 1 &#8211; 4 all contend that aspects of the tribunal&#8217;s findings or conclusions failed to take into account relevant circumstances or conflicted with findings made elsewhere in the decision (the grounds use the word &#8220;perverse&#8221; to describe challenges of that type) and/or were not </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">-compliant &#8211; that is, that the reasons did not sufficiently explain them.  Ground 5 contends that if grounds 3 and 4 both succeed, then this invalidates the tribunal&#8217;s conclusion that there was a continuing course of conduct such that the meritorious complaint was in time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Sections 26(1) and (4) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> provide as follows.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">A person (A) harasses another (B) if&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">A engages in unwanted conduct related to a relevant protected characteristic, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(b)</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">the conduct has the purpose or effect of&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold;color:#010302">(i)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.79in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">violating B's dignity, or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;color:#010302">(ii)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.79in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">creating an intimidating, hostile, degrading, humiliating or offensive environment for B.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(4)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">In deciding whether conduct has the effect referred to in subsection (1)(b), each of the following must be taken into account&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">the perception of B;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">the other circumstances of the case;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">whether it is reasonable for the conduct to have that effect.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Section 26(5) provides that the relevant protected characteristics include disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have set out, at paragraph [154] the tribunal described the conduct which, at [159], it found was, taken together, a course of continuing conduct amounting to unlawful harassment.  There is no live challenge to the findings at [155] that the conduct was unwanted and at [156] that it related to the disability.  At [157] the tribunal found that it did not have what I will call for shorthand a proscribed purpose &#8211; that is, one referred to in section 26(1)(b).  So the appeal focusses on the tribunal&#8217;s conclusion at [158] that it had a proscribed </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">effect</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> referred to in that provision, and in particular that, applying section 26(4), it was reasonable for the claimant to perceive it as doing so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Nuttman relied in particular on the provision in section 26(4)(b) that, in considering whether the proscribed effect is made out, the tribunal must take into account &#8220;the other circumstances of the case&#8221;.  He cited the Equality and Human Rights Commission&#8217;s </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Employment Code of Practice 2015</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, which gives examples of circumstances that &#8220;may be relevant&#8221; including &#8220;the environment in which the conduct takes place.&#8221;  Section 15 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2006/3" uk:canonical="2006 c. 3" uk:origin="TNA" uk:type="legislation">Equality Act 2006</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> requires a tribunal to take into account a provision of the Code in any case in which it appears to the tribunal to be relevant.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Nuttman also stressed the importance of context, citing </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pemberton v Inwood</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/564" uk:canonical="[2018] EWCA Civ 564" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 564</ref>; <ref href="#" uk:canonical="[2018] ICR 1291" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] ICR 1291</ref>.  He referred also to Underhill LJ&#8217;s observation in that case at [89], that the application by an institution of known and lawful rules is not a cause for reasonable offence.  Broadly, he submitted that the relevant context in the present case included that Ms Mitchell, for her part, was attempting throughout to support the claimant&#8217;s welfare, including ascertaining what adjustments might need to be made on account of his condition; and that the controllers, for their parts, had a duty to ensure the smooth running of the service, and, where they could see from their monitoring that a bus was running late, to investigate why, and take action to address the situation.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Specific Grounds of Appeal &#8211; Discussion and Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I will start by saying something about the submissions of the claimant, who is, I note again, a litigant in person.  He raised some issues about bundles and the documents that were or were not before the tribunal.  Mr Nuttman responded.  I am not in a position to adjudicate on the detail of these matters.  But I note that at [10] the tribunal indicated that the claimant had been given the respondent&#8217;s bundle and it permitted him also to work from his own bundle.  At [11] it also referred to the claimant seeking to introduce a further document on day 3, and a further document on day 4, which it did not permit for reasons that it gave orally.  I note also that the tribunal was not required in its decision to refer to every aspect of the evidence on which the parties relied, or which it took into account.  The claimant also emphasised aspects of his case, particularly that he felt embarrassed and distressed at having to refer to his condition and its effects following his having provided a GP report in relation to it; and the issue he had with what he said were the unattainable times allowed to complete the route.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I turn to the specific grounds of appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1 relates to the reference within paragraph [154] to the welfare meeting with Ms Mitchell in mid-May 2018.  It contends that the tribunal&#8217;s conclusion that this was an occasion of harassment was perverse or not </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">-compliant, given that (a) the claimant was on sickness absence due to stress at the time, and the tribunal found that he did not refer to his urinary-tract condition at that particular meeting; and (b) the meeting took place prior to the OH report dated 29 May 2018, and the tribunal found that the respondent did not acquire knowledge of the claimant&#8217;s disabled status from the December 2017 GP letter but only from that later OH report of 29 May 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to (a) Mr Nuttman submitted that it was relevant context, which the tribunal ought to have considered, that this was a welfare meeting, following the claimant having called an ambulance for himself whilst out on his route, and then gone off sick with stress; and that the purpose of the meeting had been explained to him beforehand.  That was highly relevant to whether the claimant could reasonably regard merely discussing his health at the meeting, as such, as having the proscribed effect.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to (b) I raised with Mr Nuttman that the respondent had been told, by the GP&#8217;s report the previous December, of a medical condition causing the claimant to need to use the toilet more frequently; and that it might be said that it was possible for the tribunal to find that there had been harassment at the mid-May meeting </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">related to</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the condition (which, it found, was a disability) even if the respondent did not appreciate at the time that it had all the features that amounted to a disability in law.  Mr Nuttman accepted that, but maintained that it was still a relevant circumstance that the GP report the previous December had not indicated that this was a long-term condition.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further, submitted Mr Nuttman, as the tribunal found at [49], it was the claimant who had himself, at this meeting, raised his frequent need to use toilet facilities, and this should have been regarded as relevant to whether he was reasonably distressed by Ms Mitchell then responding by merely asking him more about that.  It was also the claimant who, in that meeting, raised his complaints about the alleged conduct of his controllers in relation to his toilet use.  It was also relevant, submitted Mr Nuttman, that, as found at the end of [50], Ms Mitchell had asked the claimant if there was anything else going on that she needed to be aware of, and the claimant had replied &#8220;no&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">My conclusions on this ground are as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, I agree with Mr Nuttman that it was important context that, as the tribunal found, this was a welfare meeting, set up following the incident in which the claimant had called an ambulance, and then gone off sick the next day, and that the fact that it was a welfare meeting had specifically been explained to him.  The tribunal therefore needed to consider whether it was reasonable for the claimant to view Ms Mitchell&#8217;s conduct as having the proscribed effect, in that context.  Nevertheless, it was the claimant&#8217;s case that, as the respondent had already been told of his condition, and provided with the GP&#8217;s report, in December 2017, it should not have been necessary further to discuss his condition or its effects at that meeting, at all, which he found unnecessary and upsetting.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, the tribunal had found that Ms Mitchell had not hitherto appreciated that the condition was long-term.  Further, importantly, at [49] the tribunal found that, although the claimant referred to his need to use toilet facilities &#8220;and Ms Mitchell asked him about that&#8221;, in reply &#8220;he did not specifically refer to his urinary condition&#8221;, and gave </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">other</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> health-related reasons for calling the ambulance.  Similarly, the main content of paragraph [50] related to the claimant having complained </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">to Ms Mitchell</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> about </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Fojtik</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8217;s treatment of him in relation to toilet breaks.  There are no findings, for example, to the effect that Ms Mitchell replied to him in an insensitive way.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There is, in short, no finding that Ms Mitchell said or did anything, which might have supported the conclusion that the claimant reasonably perceived the discussion itself to have had the proscribed effect.  In the overall context that I have described, it seems to me that, if the tribunal did take the view that her conduct at this meeting was reasonably considered by the claimant to have the proscribed effect, it needed to explain to the reader at least the gist of what it was about what she said or did that led it to that conclusion.  It did not do so.  I therefore uphold ground 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2 challenges the tribunal&#8217;s reliance on the June 2018 meeting with Mr Etheridge, as a further occasion of harassment.  The decision is said to be perverse and/or not </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">-compliant in this regard, given that (a) Mr Etheridge was investigating an incident on 3 May when the claimant had left his bus (and passengers) unattended, and the respondent&#8217;s concern that it needed to investigate the incident, as such, was plainly legitimate; (b) as of 3 May the respondent had not been on notice of the claimant&#8217;s disabled status; (c) it was the claimant who, at that meeting, raised the fact that he had gone to the toilet; and (d) the investigation resulted in the claimant being charged with a conduct offence, and, when the delayed disciplinary process proceeded and concluded some months later, issued with a warning; and the tribunal made no adverse finding about the issuing of the warning.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In Mr Nuttman&#8217;s skeleton argument, a further feature is raised, being that the tribunal made no factual finding that Mr Etheridge asked any inappropriate questions in response to the claimant having told him that, on the occasion in question, he had gone to use the toilet.  My reasons arising from the rule 3(10) hearing identified that it was this specific point that I considered to be arguable in relation to this particular meeting.  It appears to have been oversight that it was not then included in the amended grounds subsequently prepared and submitted by Mr Nuttman and which I then approved.  Given that it was raised at the rule 3(10) hearing, and referred to in my reasons arising for permitting this ground to proceed, I am prepared to consider it as within the scope of this ground.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">My conclusions on this ground are as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, I do not see how the fact that the respondent did not know, as of the date of the incident itself on 3 May 2018, that the claimant&#8217;s condition amounted to a disability, would preclude the tribunal finding that there was conduct by Mr Etheridge at their meeting in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">June</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, related to the condition, which was reasonably perceived by the claimant as having the proscribed effect.  Nor do I see the relevance of the fact that, after a delayed disciplinary hearing, the claimant was sanctioned for his conduct on 3 May 2018.  Mr Nuttman submitted that it was relevant that the tribunal did not remark adversely on that warning being imposed; but there does not appear to have been a complaint before the tribunal about the imposition of the warning </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">itself</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, and the tribunal does not appear to have made any findings </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">of its own</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> about the claimant&#8217;s conduct on 3 May 2018 itself, or the reasons for it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, once again I see force in the point about the context, being that the interview had come about because Mr Etheridge was investigating a &#8220;Code Red&#8221; incident, in which the claimant had abandoned his vehicle and signalled an emergency.  I agree with Mr Nuttman that this should have been regarded as relevant context, having regard to which, it could not properly have been found that it was reasonable for the claimant to regard the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">fact</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of the interview taking place, as such, as having the proscribed effect.  I agree that, once again, therefore, the focus needed to be on whether Mr Etheridge had said or done anything </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">during the course of the meeting</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, related to the claimant&#8217;s condition, which the claimant reasonably perceived had the proscribed effect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In paragraph [53] there is a finding that during the course of the interview there was a discussion about the claimant&#8217;s use of toilet facilities, but also that the claimant reported that he believed that a controller (Mr Pearce) had been checking up on him.  That suggests that the tribunal found that it was the claimant who first introduced the topic, as part of his explanation for the incident (just as, as the tribunal also found, he had done in his conversation with Ms Mitchell about it).  I note that there is also no finding by the tribunal that, in the course of the discussion of the subject, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Etheridge</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> said anything particular about the claimant&#8217;s condition.  There is also a finding that, following that meeting, Mr Etheridge followed up on the concerns that the claimant had raised about the alleged conduct of controllers, by interviewing controllers, including Mr Fojtik and Mr Pearce.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">All of that being so, it appears to me, once again, that if the tribunal considered that there was something that Mr Etheridge said or did during the course of the meeting that supported the claimant&#8217;s reasonable belief that his conduct had the proscribed effect, the tribunal needed at least to explain to the reader the gist of what it was.  It did not do so.  This ground therefore also succeeds.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is convenient to take ground 4 next.  This relates to the inclusion in paragraph [154] of &#8220;an iBus report in October&#8221;.  That is said to be perverse or not </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">-compliant, given that: (a) iBus reports are internal documents, and were not given to the claimant at the time; (b) controllers do not line-manage drivers, but are required to regulate routes, including investigating the causes of delays on the route and managing the consequences; (c) the reports evidence the claimant telling the controllers that he was taking one or more toilet breaks, but </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> his being questioned about that; and (d) at [146] &#8211; [147] the tribunal had found that, when the claimant said he was delayed because he had been using the toilet, that was simply noted, and controllers made no effort to stop him doing so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have already set out, at [63] &#8211; [65] of the liability decision the tribunal had referred to three iBus reports written by Mr Fojtik relating to 8 and 9 October 2018.  I note that, at [154] the tribunal referred to &#8220;an iBus report&#8221; (singular) in October 2018, although in her reconsideration decision, the judge referred to &#8220;iBus reports&#8221; (plural).  In that decision the judge said at [8]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">It was the repeated references/queries by controllers (and the line manger when requesting an OH report) to the claimant&#8217;s need for toilet breaks despite the respondent having already been notified of his medical condition that formed the basis of the harassment finding.  The iBus reports were referred to [by the tribunal] not as acts of harassment in themselves but as evidence of conversations about toilet breaks having taken place.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">She also said at [9] of the reconsideration decision that: &#8220;there were several ibus reports in October 2018 that indicated conversations had taken place with the claimant about toilet breaks.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Standing back, I infer that, at [154], the tribunal had in mind at least one of those three reports, but I cannot be sure which one; and perhaps it meant to refer to all of them.  The tribunal summarised them at [63] &#8211; [65] and Mr Nuttman had also included copies of them in my bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The broad thrust of why the tribunal considered that there had been harassment, in the legal sense, on the occasions to which these reports related, is that it concluded that the claimant was unnecessarily questioned by the controller(s) about why his bus was delayed, and/or his medical condition was unnecessarily or inappropriately discussed, given that his managers had already been made aware of his condition and its effects.  The sense of this can also be seen in the tribunal&#8217;s highlighting, in the course of [158] of the original decision, that Mr Britto had himself subsequently acknowledged the need to instigate &#8220;training and reforms on iBus radio etiquette&#8221; and for better communication among departments of relevant information and for &#8220;full audit of notified medical conditions and reasonable adjustments&#8221; to ensure that all relevant people were made aware.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Nuttman, however, made the following points.  First, it was the controllers&#8217; job, when they could see that a bus was delayed starting the next iteration of the route, or running slow, to find out what the problem was, so that it could be addressed.  Given that context, he submitted, it could not have been properly regarded as reasonable to perceive the mere fact of the controllers, when they could see such problems occurring in respect of the claimant&#8217;s bus, making enquiries as to why this was happening, as having the proscribed effect.  Once, again, he argued, the tribunal&#8217;s focus should therefore have been on what, if anything, the controllers said or did during the course of such communications, which the claimant might have reasonably perceived in that way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, as to that, Mr Nuttman relied upon the findings at [146] and [147] (see above).  These included that there were multiple occasions of controllers noting the claimant&#8217;s using the toilet during and at the ends of his route </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">and making no efforts to prevent him doing so</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">; and that when controllers had not signed his overtime docket it was because they were not persuaded that there had been a valid reason for him to work beyond the end of his shift.  The tribunal had given Mr Fojtik&#8217;s reports of 8 and 9 October 2018 as examples of that.  That, submitted Mr Nuttman, was also reinforced by the findings at [150], that there was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">no evidence</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> that the claimant was not allowed to take toilet breaks; and at [151], that when the claimant was not paid overtime it was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">because he had taken toilet breaks, but because he had run late for what were considered other avoidable reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further, submitted Mr Nuttman, the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">only </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">evidence which the tribunal relied upon to support its conclusion that the controller(s) gratuitously raised the claimant&#8217;s condition in the October communications was the iBus reports.  But none of these written reports actually recorded anything said by the controller to the claimant specifically about his condition.  The first referred to the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">fact</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> that the claimant was using the toilet at each end of the route, and the route was being worked around him to maintain the service; the second recorded that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">the claimant</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> had twice messaged the controller that he was delayed for a toilet break, and that the controller&#8217;s concern was that he had </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">thereafter</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> spent more time on the stand </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">and made no effort to catch up</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">; and the third was to similar effect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">My conclusions on this ground follow.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, is it is important to remember that, as the tribunal recorded at [20], there were two strands to the complaints of harassment related to disability: questioning the claimant specifically about his condition or frequent use of the toilet, and harassing him for driving too slow or taking too long breaks &#8211; which was also said to be related to his disability.  Unlike in relation to the claimant&#8217;s meetings with the managers &#8211; Ms Mitchell and Mr Etheridge &#8211; </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">both</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of these strands were potentially relevant to the complaints regarding his alleged treatment by controllers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, the fact that the controllers had a duty to regulate the route, and to make enquiries when they could see that problems were occurring, was, I agree with Mr Nuttman, relevant context.  But the tribunal was plainly perfectly aware of that context; and it did not, as such, preclude a finding that a controller had said or done things during the course of a communication, related to the claimant&#8217;s condition, which the claimant reasonably perceived had the proscribed effect.  Thirdly, the tribunal had evidence, from the iBus reports, that the fact of the claimant taking a toilet break or breaks, did form part of the subject matter of the communications on these occasions.  It also found (at [53]) that Mr Fojtik had confirmed that he and Mr Pearce had at one point gone to check on the claimant, as he frequently used the toilet, although they said that they did so to make sure he was OK.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It also bears repeating that the tribunal did not find the controllers to have had a proscribed </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">purpose</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">; and that the thrust of the claimant&#8217;s case was that he found communications on the subject embarrassing and upsetting, and considered that they should have been unnecessary, once his managers had been put in the loop about his condition.  It was also clearly part of the claimant&#8217;s case that he was being unduly pressurised to drive faster than was properly achievable, having regard to speed limits, and that this could not be entirely separated out from the impact of his need for frequent toilet breaks on the overall time it took him to complete an iteration of his route.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was, it seems to me, open to the tribunal to conclude that, without any malign purpose or intent, controllers engaged in communications and treatment, which the claimant reasonably felt violated his dignity, because it arose from a failure by managers to make the controllers aware of his condition (about which he had provided management with medical evidence) and the allowances which the controllers needed to make for it.  That, it appears to me, is indeed the clear thrust of the conclusion reached at [158], where the tribunal specifically highlighted Mr Britto&#8217;s own acknowledgment that there had been a failure of internal communication in this regard.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Nuttman submitted that all that Mr Britto had done was acknowledge how the claimant </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">felt</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, which was not evidence that his perception was reasonable.  But the evidence of the report was that Mr Britto, arising out of his investigation, also made recommendations for substantive changes and action, as set out at his points 1 &#8211; 5.  These included measures in relation to &#8220;training on iBus etiquette&#8221; and daily audit of iBus logs, as well as in relation to communications among departments and a &#8220;full audit of reasonable adjustments to ensure that all relevant people are aware of all relevant information.&#8221;  The tribunal was entitled to treat that as evidence tending to support the conclusion that it was reasonable for the claimant to feel that the communications in question had not gone the way that they should have, and had been harassing in effect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I am not, therefore, in relation to this aspect of the harassment complaints, relating to interactions with controllers as opposed to managers, persuaded by Mr Nuttman&#8217;s submission that the tribunal erred because it failed to make sufficient findings about the content of the specific communications on one or more of the occasions to which the October 2018 iBus reports related.  In respect of this aspect, the tribunal&#8217;s conclusions are sufficiently explained by it at [158], drawing upon the various overall findings of fact in the decision which I have set out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">What that leaves, in respect of this ground, and the October 2018 communications, is the question of whether the tribunal erred because its findings in relation to this aspect of the harassment complaint contradicted its findings and conclusions at [146] to [147] and [150] to [151].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [146] the tribunal was considering whether Mr Mundy bullied the claimant into &#8220;not using the toilet&#8221;, and it referred to the evidence relating to other controllers making no efforts to prevent the claimant doing so.  But I do not see that a finding, in the context of that particular complaint, that other controllers did not attempt to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">prevent </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the claimant from</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">using</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the toilet, would preclude the tribunal finding that communications on the subject of his toilet use, and the reasons for it, were reasonably perceived by him as having the proscribed effect, for the reasons he relied upon, that I have discussed.  The complaints about harassment by the other controllers were not to the effect that they had harassed him by </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">preventing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> him from using the toilet.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The finding at [147] that controllers, including Mr Fotjik, had not signed overtime dockets because they were not persuaded that there had been a valid reason for the claimant to work beyond the end of his shift in comparison with other drivers facing the same traffic conditions, would not seem to me to preclude the tribunal making the findings that it did, about the claimant&#8217;s reasonable </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">perception</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of those communications.  Indeed, it could be said that what was found at [147] was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">consistent </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">with a situation in which controllers approached these communications differently than they would have, had they been briefed by management about the claimant&#8217;s condition and its impact.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal&#8217;s conclusion at [150], that it was not the case that the claimant was not allowed to take breaks, did not, it seems to me, preclude the conclusions that it reached about the communications in question, and the effect which he reasonably perceived they had.  The finding at [151] about not being paid overtime, as the tribunal noted, covered the same substantive ground as the section 15 complaint.  Even if the tribunal meant to say not merely that the controllers considered that there were other reasons for the claimant running late, but that the tribunal itself agreed, that still would not preclude a finding of the kind that it made, in the context of these harassment complaints, which were about how communications about his condition more generally were perceived.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For all of these reasons I do not uphold ground 4.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3 relates to the inclusion in the summary of harassing conduct given in paragraph [154], of the welfare meeting with Ms Mitchell in January 2019.  That is said to have been perverse because the tribunal made a finding of fact at [97] that, at that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">particular</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> meeting, toilet breaks were </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> discussed.  In the reconsideration decision the judge addressed this at [9].  It reads in full:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;The respondent is correct that the Tribunal found that there was no reference to toilet breaks at the interview on 8 January 2019 (para 97) yet it was referred to as part of the chronology of harassment (para 154).  That was an error.  However, given that only acts prior to 22 September 2018 were potentially out of time (para 2) and there were several ibus reports in October 2018 that indicated conversations had taken place with the claimant about toilet breaks which, taken together with the claimant telling OH in January 2019 that he felt targeted about toilet breaks and Mr Britto&#8217;s acknowledgment in his letter dated 20 December 2018 that the claimant felt harassed, that error would not significantly impact the conclusions reached by the Tribunal.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Nuttman made a number of additional points.  Even if the tribunal had properly found that there was harassment in October 2018, it would not follow that the erroneous finding about January 2019 would &#8220;not significantly impact&#8221; its conclusions.  The fact that the claimant told OH in January 2019 that he felt targeted was no more than evidence of his perception, as such.  It was not sufficient that the judge had acknowledged that there had been an error in the original decision on this point.  That should have led to the substantive decision of the full tribunal being corrected in this regard.  Further, he submitted, had the judge and members considered the matter together, this could also have affected their view of other aspects raised by the reconsideration application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I agree that the finding about the meeting in January 2019 formed a significant part of the conclusions about the extent of occasions on which unlawful harassment had occurred.  It affected the scope of the judgment, which had effectively upheld the complaint in respect of all of the matters set out at [154].  Given that, as the judge acknowledged, the tribunal had simply erred, because it had failed to take on board its own finding at [97] about what was discussed at that meeting, this error should have been corrected by the tribunal issuing a corrected decision removing it from the scope of the judgment upholding the harassment complaint.  For these reasons, I uphold ground 3.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, I do not see that the error acknowledged by the judge, relating specifically to the meeting with Ms Mitchell in January 2019, has any wider implications than that.  In particular I do not consider that it renders unsafe the tribunal&#8217;s discrete conclusions in relation to communications with the controllers, in particular in October 2018.  The remaining aspect however, is whether there is any knock-on effect for the position regarding time limits.  That is the subject of ground 5.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 5 contends that if both grounds 3 and 4 succeed, then this in turn affects the tribunal&#8217;s conclusion (affirmed by the judge in her reconsideration decision) that there had, by the various incidents viewed together, been an overall course of harassing conduct such that the complaint was in time.  That is because the list of issues identified that, having regard to the dates of ACAS EC and of presentation of the first claim form, any complaint about something that happened before 22 September 2018 would (unless part of conduct continuing after that date) be out of time.  However, while I have upheld ground 3, relating to the meeting with Ms Mitchell in January 2019, I have not upheld ground 4, relating to the controller communications in October 2018.  As those occurred after 22 September 2018, the conclusion that, so far as meritorious, the complaint was in time, holds good.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I therefore do not uphold ground 5.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I should note a further aspect that was discussed in submissions.  This concerns the fact that at [154] the tribunal also referred to further iBus reports referring to the issue in March, April and November 2019 as well as the further welfare meeting with Ms Mitchell in September 2019.  The tribunal noted in doing so that these were &#8220;technically out of scope&#8221; for a claim submitted in February 2019, but it did nevertheless mention them, and at the end of [158] it did refer again to the welfare meeting in September 2019.  Reading [154] and [158] alone might therefore leave the reader uncertain as to whether the tribunal had or had not treated Ms Mitchell&#8217;s conduct at that further meeting as part of the complaint which it upheld.  However, ultimately, at the end of [159], it described the upheld complaint as relating to a course of conduct &#8220;from May 2018 to January 2019.&#8221;  I therefore do not need to prolong this decision by considering Mr Nuttman&#8217;s submissions as to why, in any event, the tribunal could not properly have relied on those later matters in 2019, had it sought to do so.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As grounds 4 and 5 have not been upheld, the tribunal was not wrong not to find the harassment complaint to be out of time.  The strand relating to the conduct of controllers, at least, survives, on its merits and as being in time.  As to the strands relating to the conduct of managers, for reasons I have explained, in light of its findings of fact, the tribunal ought, on reconsideration, to have removed the January 2019 meeting with Ms Mitchell from the scope of the complaint that it upheld.  That aspect therefore does not need to be remitted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to the meetings which were the subject of grounds 1 and 2 &#8211; with Ms Mitchell in May 2018 and Mr Etheridge in June 2018 &#8211; I cannot go quite so far as to say that the tribunal could not have had a proper &#8211; but unarticulated &#8211; basis, for concluding, in the case of each of those meetings, that there was some conduct on the part of the manager concerned, which, even taking on board the context and nature of the meeting, and that this was not their purpose, the claimant reasonably perceived as having the proscribed effect.  The matter must therefore be remitted to the tribunal to give further consideration to those two particular strands of the complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have explained, as a minimum the tribunal&#8217;s decision regarding harassment by the controllers referred to at [154] survives this appeal, and, as a minimum, the claimant remains entitled to a remedy in that regard.  The matter now returns to the tribunal, if not otherwise resolved, to give further consideration to the harassment complaint as it relates to the May and June 2018 meetings.  The tribunal&#8217;s existing underlying findings of fact will be a given, and should not be revisited; but further fact-finding may be required.  In all the circumstances the most proportionate course would be for these matters to be remitted to the same tribunal, so far as they are available.  They can be trusted to reach a conscientious further decision, guided by my present decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> I say &#8220;if not otherwise resolved&#8221; because I am conscious that this matter has now been running for many years.  I was told that the tribunal has already had a further hearing at which it has made a remedy award based on its original decision.  I would encourage the parties to consider whether they may be able to reach some agreement about a basis on which this matter could now be finally concluded without the need for yet another tribunal hearing.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

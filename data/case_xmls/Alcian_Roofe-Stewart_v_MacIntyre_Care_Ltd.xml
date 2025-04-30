@@ -1,0 +1,654 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/24"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/24"/>
+	  <FRBRdate date="2025-02-26" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="24"/>
+	  <FRBRname value="Alcian Roofe-Stewart v MacIntyre Care Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/24"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/24"/>
+	  <FRBRdate date="2025-02-26" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/24/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/24/data.xml"/>
+	  <FRBRdate date="2025-03-18T13:26:01" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mrs-alcian-roofe-stewart" href="" showAs="MRS ALCIAN ROOFE-STEWART"/>
+	<TLCPerson eId="macintyre-care-ltd" href="" showAs="MACINTYRE CARE LTD"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>24</uk:number>
+	<uk:cite>[2025] EAT 24</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>95c7d9f91389e0fdf6ea192a036a992da2d03ce435458b0026fa831e902ca194</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .legclearfix { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Revision { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .legds { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for a hand down</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Roofe-Stewart v MacIntyre Care Ltd</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 24</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-001401-AS</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-02-26" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">26 February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH </judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party refersTo="#mrs-alcian-roofe-stewart" as="#appellant" style="font-weight:bold;font-size:12pt">MRS ALCIAN ROOFE-STEWART</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><party refersTo="#macintyre-care-ltd" as="#respondent" style="font-weight:bold;font-size:12pt">MACINTYRE CARE LTD</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr S Swanson </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(consultant, Justice Law Consultants) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Jamie Jenkins </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Anthony Collins Solicitors LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 23 January 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant in the employment tribunal complained of unfair dismissal and disability discrimination in respect of her dismissal, following a disciplinary process, in 2021.  At a preliminary hearing the tribunal determined that she was not a disabled person at the relevant time and dismissed the disability discrimination claim.  The claimant appealed.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant had been diagnosed with Mixed Connective Tissue Disease (MCTD) in 2010.  This is a chronic condition and the respondent accepted that it was an impairment which the claimant still had at the time of the dismissal.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal found that in 2021 the claimant&#8217;s condition was, and had been for some years, quiescent, and that during that period it did not have a substantial adverse effect on her ability to carry-out normal day-to-day activities.  Bearing in mind the high threshold for a perversity challenge, that conclusion was not, as such, perverse.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">However, schedule 1 paragraph 2(2) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Equality Act 2010</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> provides that if an impairment ceases to have a substantial adverse effect on a person&#8217;s ability to carry out normal day-to-day activities, it is to be treated as continuing to have that effect if that effect is likely to recur.  The tribunal&#8217;s conclusion that this provision did not apply at the relevant time was not properly reached and/or explained, having regard to the low threshold in law for this paragraph to be satisfied, and the evidence which the tribunal had about the particular nature of the claimant&#8217;s condition.  The definition of &#8220;substantial&#8221; in section 212 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">2010 Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">SCA Packaging Limited v Boyle</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2009] UKHL 37; [2009] ICR 1056;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Swift v Chief Constable of Wiltshire Constabulary</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2004] ICR 909</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> considered.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The conclusion that this aspect of the tribunal&#8217;s decision was unsafe was reinforced by the fact that in this case there had been no case-management hearing, and there appeared to have been no judicial consideration given prior to the preliminary hearing, as to whether a medical report specifically directed to the &#8220;likely to recur&#8221; issue might be warranted in this case.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent in the employment tribunal provides learning, support and care for children, young people and adults with learning disabilities and/or autism.  The claimant was employed by it as a Support Worker Practitioner from 2009 until she was dismissed in June 2021 for the given reason that she had refused to participate in the respondent&#8217;s Covid-19 testing procedures.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant presented a claim form claiming unfair dismissal and disability discrimination.  She gave a short narrative account of events.  She referred to having been shielding and furloughed, and, when ready to return, having been told that testing was mandatory for all staff.  She gave her account of events that followed, leading ultimately to her dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Solicitors for the respondent put in a response defending the claims.  It accepted that the claimant had been notified by the Government that she was advised to shield during the Covid-19 pandemic, and that she had existing health conditions.  But it said that she had failed to identify the impairment that she relied upon as a disability for the purposes of the proceedings.  It requested that she provide medical evidence and an impact statement to enable it to consider its position on disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In summary the respondent&#8217;s factual case was that, following Government advice on shielding having been paused from April 2021, meaning that the claimant could return to work, it notified her that it had implemented regular lateral-flow and PCR testing for Covid-19.  The claimant refused such tests, which led to a disciplinary process, in which her concerns were ventilated, investigated, and responded to, and to her dismissal. It maintained that she was fairly dismissed for conduct.  It did not admit disabled status.  In any event it disputed disability discrimination, and contended that the claimant had failed to particularise her disability-discrimination complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The matter came to a preliminary hearing before EJ S Moore at Watford (by CVP) in September 2022, </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">at which the claimant appeared in person and Mr Jenkins of counsel appeared for the respondent.  That </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">gave rise to a judgment that the claimant did not have a disability within the meaning of section 6 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Equality Act 2010</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> at the relevant time; and so the tribunal dismissed her disability-discrimination claim.  This is the claimant&#8217;s appeal against that decision.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Tribunal&#8217;s Reasons</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal identified that the claimant had been directed to provide details of the nature of her physical and/or mental impairments relied upon, as well as copies of the relevant parts of her GP notes and other medical records.  She subsequently provided three impact statements.  She referred to having being diagnosed with Mixed Connective Tissue Disease (MCTD) in </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">2010.  The tribunal summarised what she had written, in particular about the effects and impacts of the condition on her activities.  That included stating that she had problems with walking, due to pain in her knees, standing to prepare a meal, normal household work and carrying shopping.  However, the tribunal also referred to her having in cross-examination &#8220;rowed back somewhat from her impact statement&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to refer to the contents of each of three Occupational Health reports that were before it.  Features of these reports that it noted included the following.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The first report, by Dr Sarangi, from November 2015, described the claimant&#8217;s symptoms as &#8220;fluctuant on a day to day basis, including pain, stiffness and swelling&#8221;.  He recorded her description of what bad days were like.  He stated that she tended to manage at work as best she could, but when her pain was particularly prominent she was unable to attend work. He stated that the claimant was &#8220;likely to fall under the remit of the Equality Act 2010 in relation to disability.&#8221;  The second report, by Dr Brown, from April 2017, indicated that the claimant had been without treatment for the condition since 2015.  He considered that her physical disability &#8220;does seem to be minimal&#8221; and that, when not experiencing a flare up, it had &#8220;minimal effects on function&#8221;.  He considered her fit to carry out various physical tasks associated with her work.  He suggested however that further details might be requested from her rheumatology specialist.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">That led to a further report from Dr Gupta, in August 2017.  He had received information from the Rheumatology Department at Milton Keynes Hospital.  At [9] the tribunal said of this report:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">&#8220;On 17 August 2017 Dr Raj Gupta also of Merigold Health states that following the Claimant&#8217;s consultation with Dr Jackson Brown further medical information was requested from the Claimant&#8217;s treating doctors, and that a report had been received from the Rheumatology Department of Milton Keynes hospital. From those records Dr Gupta noted that in fact &#8220;the Claimant has been without any treatment for mixed connection tissue disorder since 2015. From her clinical letters over that period of time, the disease appears to be stable without reporting any flare ups.&#8221; Dr Gupta further stated, &#8216;The most recent time that [the Claimant] was seen at the Rheumatology Clinic was in January 2017 by the Specialist Rheumatology Nurse. [The Claimant&#8217;s] disease was stable and quiescent and she was not on any treatment. She also had a pulmonary function test and a heart ultrasound, which were both reported to be normal.&#8217; &#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At [10] the tribunal referred to a letter from the Rheumatology Department of 14 May 2020, which read as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">&#8220;I arranged for a telephone consultation with [the Claimant] today. The patient mentioned that she is doing really well regarding her disease. The patient mentioned that in January she visited Jamaica and in February she experienced swelling of her knee which lasted for a week and she dealt with this with Paracetamol. The patient is experiencing clicking knees and ankle pain when she is standing for a long period of time, so for these reasons she is having a short rest during the day. Otherwise, she is feeling very well and we both agreed to reschedule her appointment in six months&#8217; time. If Ms Roofe has any queries she can contact our helpline with the numbers at the top of this letter.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to say this:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">&#8220;12.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">In submission Mr Jenkins accepted that MCTD is a physical impairment and that before 2015 it had a substantial adverse effect on the Claimant&#8217;s ability to carry out normal day to day activities. However, the Claimant has to prove that as at April and June 2021 these effects were likely to recur. In this respect the Claimant&#8217;s evidence in the form of her impact statements was clearly inconsistent with the documentary evidence. Further the Specialist Rheumatology Nurse (referred to in Dr Gupta&#8217;s letter) described the disease as being quiescent in January 2017 - which means dormant - and there was no evidence that during the period relevant to the Claimant&#8217;s dismissal from April to June 2021 this was likely to change. Indeed the Claimant did not appear to have had any meaningful contact with the Rheumatology Department for more than two years after her telephone consultation on 14 May 2020. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">13.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The Claimant submitted that only she knew the impact of her disease and that further medical information should be sought, particularly from her Rheumatologist. During the Covid Pandemic she had received notification from the Government that she had been identified as clinically extremely vulnerable (&#8220;CEV&#8221;) and should shield, which indicated she was a disabled person. She further submitted she should be regarded in the same way as someone who had cancer, who remained covered under the Equality Act 2010. Although she wasn&#8217;t taking prescribed medication she took herbal remedies.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal set out the text of section 6(1) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Equality Act 2010</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="legclearfix" style="margin-left:0.59in;margin-right:0.59in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">&#8220;A person (P) has a disability if&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;color:#1E1E1E">(a)</num>
+		  <content>
+		    <p class="legclearfix" style="margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">P has a physical or mental impairment, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds" style="font-weight:bold;color:#1E1E1E">(b)</num>
+		  <content>
+		    <p class="legclearfix" style="margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span class="legds" style="font-weight:bold;font-size:11pt;color:#1E1E1E">the impairment has a substantial and long-term adverse effect on P's ability to carry out normal day-to-day activities.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It also set out the text of schedule 1 paragraphs 2(1) and (2):</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The effect of an impairment is long-term if&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.82in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">it has lasted for at least 12 months,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.82in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">it is likely to last for at least 12 months, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.82in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">it is likely to last for the rest of the life of the person affected.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">If an impairment ceases to have a substantial adverse effect on a person's ability to carry out normal day-to-day activities, it is to be treated as continuing to have that effect if that effect is likely to recur.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal continued and concluded as follows.</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;16.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The Respondent accepts the Claimant has MCTD and that before 2015 this had a substantial adverse effect on her ability to carry out normal day to day activities. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">17.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The question is whether by the period April-June 2021 the MCTD had ceased to have a substantial adverse effect on the Claimant&#8217;s ability to carry out normal day to day activities and, if so, whether at some point it was likely to recur. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">18.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Despite the Tribunal&#8217;s order of 14 March 2022 Claimant has not provided any medical evidence to support her claim to be disabled other than the letter from the Rheumatology Department of 14 May 2020, and I can only make a decision on the basis of the evidence in front of me. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">19.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In this respect the Occupational Health Report of 10 April 2017 refers to the Claimant&#8217;s physical disability as &#8216;seem[ing] to be minimal&#8221;. Dr Jackson Brown was of the opinion, that when not experiencing a flare up, the Claimant&#8217;s CTD &#8220;has minimal effects on function&#8221;. Further, Dr Gupta, who did see some medical evidence, stated in his letter of 17 August 2017 that there had been no reported flare ups in the Claimant&#8217;s disease since 2015 and that in January 2017 the Specialist Rheumatology Nurse had described the Claimant&#8217;s MCTD as stable and quiescent. It is also clear from the letter from the Rheumatology Department of Milton Keynes that as at 14 May 2020 the Claimant&#8217;s MCTD was not having a substantial adverse effect on her ability to carry out normal day-to-day activities. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">20.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">On this basis of this evidence, I find that the Claimant&#8217;s MCTD ceased to have a substantial adverse effect on her ability to carry out normal day-today activities at some point between 2015 and 2017. Further I am not satisfied that as at the period April to June 2021 that substantial adverse effect was likely to recur. By that time the disease had been dormant for a number of years and there is no medical evidence before me to suggest it was likely to recur. The Claimant&#8217;s situation is different from somebody who has cancer; cancer is specifically stated to be a disability under paragraph 6(1) of schedule 1 to the Equality At 2010 whereas it is incumbent on the Claimant to prove that her MCTD amounted to a disability for the purposes of the Act and for the reasons given I am not satisfied she has done. I would add that in this respect, the fact the Claimant received a letter from the Government requiring her to shield during the Covid-19 pandemic is not evidence she satisfies (or satisfied at the relevant time) the requirements of the Equality Act as regards disability.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">21.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Since the Claimant did not have a disability in the period April to June 2021 within the meaning of s. 6 Equality Act 2010 it follows the Tribunal has no jurisdiction to hear her complaint of disability discrimination and it is struck out.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">An application for reconsideration was refused at the stage of preliminary consideration.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The grounds which accompanied the claimant&#8217;s notice of appeal were lengthy, but the main thrust of them was that the tribunal had erred by not accepting her evidence as to the impact which her condition continued to have on her ability to carry out normal day-to-day activities, and/or by failing to conclude that schedule 1 paragraph 2(2) applied.  At a rule 3(10) hearing at which Mr Swanson, a consultant, appeared for the claimant, HH Judge Katherine Tucker permitted three amended grounds to proceed, which the judge set out in her order and reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At the hearing of the appeal Mr Swanson appeared for the claimant.  Mr Jenkins of counsel, who appeared before the tribunal, appeared again for the respondent.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Grounds 1 and 2 &#8211; Discussion and Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Grounds 1 and 2 form a pair.  They rely upon section 6(4), which provides as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">&#8220;This Act (except Part 12 and section 190) applies in relation to a person who has had a disability as it applies in relation to a person who has the disability; accordingly (except in that Part and that section)&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">a reference (however expressed) to a person who has a disability includes a reference to a person who has had the disability, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">a reference (however expressed) to a person who does not have a disability includes a reference to a person who has not had the disability.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Taken together these grounds contend that the tribunal erred by not considering, or raising, whether the claimant was disabled by reason of a </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">past</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> disability and/or by not putting the correct legal label on the facts asserted by the claimant in advancing the claim.  The ground refers in particular to the evidence the tribunal had, that the claimant had been diagnosed with MCTD in 2010, and that its effects had been more severe in the period from 2010 through to some time between 2015 and 2017.  It refers also to the fact that the claimant was a litigant in person, to the fact that the particulars sought from her by the tribunal did not raise the concept of past disability, and to the overriding objective including the need to ensure that, so far as practicable, the parties are on an equal footing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This is well-trodden territory in the authorities.  It is well-established that a tribunal should not step in to the arena to assist a litigant in person to argue, or develop, their case, in a distinct way that they have not done themselves, or to raise a complaint that they have not chosen to raise.  However, as I suggested in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">McLeary v One Housing Group Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, UKEAT/0124/18, where it shouts out from the factual allegations that are being advanced by a litigant in person, that a particular legal analysis would apply if those facts were shown, but they have not expressly advanced that legal complaint, the tribunal should at least raise and clarify with them how they are putting their case.  The relevant authorities which should guide the tribunal in this area were considered more recently by the Court of Appeal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Mervyn v BW Controls Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> [2020] EWCA Civ 393; [2020] ICR 1364.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the present case, the facts asserted by the claimant, and indeed admitted by the respondent and found by the tribunal, did plainly point to the conclusion that, whether or not she was, at the relevant time, currently a disabled person, she was, at that time, a person who had a past disability.  She was, therefore, in principle someone who fell within scope of section 6 in that way. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In his skeleton argument Mr Jenkins noted that the tribunal specifically referred in its decision to the fact that the respondent accepted that the claimant had, and has, MCTD, that it is a physical impairment and that it had the requisite substantial adverse effect before 2015.  The tribunal also referred to the OH report in 2015, which considered that the claimant was likely to meet the definition; and it found that the claimant&#8217;s MCTD ceased to have the requisite effect at some point between 2015 and 2017.  In so far as the grounds of appeal contended that the tribunal failed to consider whether the claimant was, at the relevant time, someone who (at least) had a past disability, he submitted that the tribunal therefore plainly </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">did</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> consider that, and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">did</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> accept that she had been disabled in the past, at least up to 2015.  I agree that, in so far as the challenge is put that way, it does not get home.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">However, I raised with the representatives whether it might be said that the, at least implicit, point of this ground was that the tribunal erred by not considering whether the factual complaint advanced by the claimant extended in substance to a complaint that she been discriminated against </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">because of</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> a past disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I note in this regard that, prior to the PH giving rise to the decision that is the subject of the present appeal, written case management orders of 14 March 2022 required the claimant to provide an impact statement, including information about the impairment relied upon, and supporting medical evidence.  Then, following the provision by her of three impact statements, a further letter from the tribunal of 10 August 2022 asked whether she had any medical evidence to support her claim.  The notice of PH indicated that the issue for consideration at that hearing would be whether her disability discrimination claim should be dismissed because she did not have a disability.  What there was not in this case was any case-management hearing at which the claims and issues might have been considered and discussed with the parties.  I have therefore considered whether it might be said that it should have been apparent from the materials presented to the PH judge, that a complaint of discrimination by reference to past disability was being advanced.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I start by noting that the mere assertion that a complainant has in the past been disabled would not necessarily be enough to convey that they were seeking to bring a recognisable complaint </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">by reference to</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> that past status.  There would need to be at least some indication that a particular complaint was in fact being advanced </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">by reference to</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> past disability, as opposed to (or in addition to) current disability.  For example, an employee might claim to have been refused a promotion because of a prejudiced view the decision-maker had, of a disability that they knew that the employee had had in the past.  That might, in substance, amount to a complaint of direct discrimination because of past disability.  I turn, therefore, to consider the factual nature of the complaints advanced in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In her claim form, in the narrative section, the claimant referred to having been on furlough and shielding, and then, when she was due to return, receiving a text informing her that testing was mandatory for all staff.  She referred to a return-to-work meeting on 30 March 2021 at which &#8220;I expressed my concerns around being tested and vaccinated&#8221;.  Further on she referred to correspondence that ensued, concerning whether she would agree to testing.  She wrote: &#8220;I would like to make it clear that I did not &#8216;refuse&#8217; to have the test offered or any vacc; I declined both on the basis that I have not seen any evidence that either would be beneficial to my health or wellbeing.&#8221;  In the conclusion, referring to the decision to dismiss her, she wrote: &#8220;I strongly disagree with this as when I signed my contract I did not consent to having any medical treatment.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The natural meaning of this material is certainly that the claimant considered it to be </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">unfair</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> for the respondent to have dismissed her for declining to take a test that she had not consented to, and which she did not consider to have any benefit.  As to disability discrimination, however</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, although the claimant ticked the box for that, she did not refer at all in her claim to her MCTD, or expand upon this aspect in any other way.  There was a reference to shielding, but, at most, that, together with the tick for &#8220;disability discrimination&#8221;, might suggest that the claimant was relying in some way upon a </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">current</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> disability, although she did not explain how.  There was certainly nothing in the claim form to indicate that she might be complaining of treatment by reference to having had a past disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">By the time of the PH before EJ Moore, the claimant had, of course, tabled her impact statements, which made it clear that she relied upon her MCTD as amounting to a disability.  But the overall thrust of those statements was that she relied upon it as a chronic condition, and as being a current and continuing disability at the time when she was disciplined and dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In her first impact statement the claimant gave a more detailed account of events.  She wrote: &#8220;I explained that I was not happy to have an invasive test. I explained that I was prone to infection.&#8221;  She referred to requesting a saliva test which would be non-invasive.  She advanced her case that she could not be forced to take an &#8220;experimental therapy&#8221;, and that the test, as well as the vaccine, was an &#8220;experimental drug&#8221; and the respondent did not know enough about the likelihood of it causing a flare up of her MCTD.  In one of her later statements she referred to the duty of reasonable adjustment and said that &#8220;exposure to viruses or chemicals could lead to flare ups&#8221; of her MCTD.  The respondent for its part referred in its grounds of resistance to her having raised concerns about the sterilisation agent ethylene oxide used on test swabs.  Its response was that it had looked into this and provided her with information that had been obtained regarding its safe use; and that the MHRA and PHE were unable to confirm whether sputum tests were suitable for its working environment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Standing back, what all of that material conveyed to the tribunal, it seems to me, was that the claimant was advancing, in substance, a complaint of failure to comply with the duty of reasonable adjustment, and/or perhaps of discrimination arising from disability (section 15), by reference to her MCTD amounting to a current disability </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">at the time of the disciplinary process and her dismissal</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">; and the respondent&#8217;s position in response was that she was not a disabled person </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">at that time</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">; or alternatively that the claim was in any event defended on its merits.  But I do not think it can be said that the material before the tribunal should have signalled to it that the claimant was, in addition, or in the alternative, advancing a complaint by reference to her having been disabled on account of her MCTD in the past.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">  This was not a case where the facts asserted potentially put forward all the necessary elements of a legal complaint, which the tribunal had nevertheless failed to consider.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I conclude that, the tribunal did not err by failing to consider whether the claimant, whether or not currently disabled, had a past disability; nor did it err by failing to consider whether she might, in substance, be advancing a complaint by reference to a past disability, or by failing to apply the appropriate legal label to her complaints, by reference to past disability.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Grounds 1 and 2 therefore fail.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The headline of ground 3 is that the judge erred in her approach to whether the impairment had the relevant substantial adverse effect.  Under that general umbrella a number of contentions are advanced.  It is said that the judge had </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">insufficient regard to the fluctuating nature of the adverse effects of the impairment and whether these were likely to recur.  It is also said that the judge paid insufficient regard to what the claimant could not do, or could only do by modifying her behaviour.  The judge is also said to have paid too much regard to the OH reports, which only provided a snapshot at the times when they were written, as opposed to the claimant&#8217;s own evidence about the current ongoing impact of her condition.  The judge is also said to have failed to take account of what is said to have been a highly relevant factor, being that the claimant had been required to shield during the pandemic, and that at the time medical appointments were generally avoided.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The underlying context for this ground is that MCTD is a chronic condition, and it was accepted that, at the relevant time, the claimant still had it.  Boiling it down, this ground contends that the judge erred with respect to (a) whether, at the time of the treatment complained of, the impairment was in fact still continuing to have an adverse effect on the ability to carry out normal day-to-day activities (which, if so, would have lasted for more than 12 months); or (b) alternatively if, during that period, it had ceased to have such an effect, that effect was, during that time, likely to recur, so that, in accordance with schedule 1 paragraph 2(2) the effect fell to be treated as continuing (and would have done so over a period lasting more than 12 months).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Taking (a) first, it appears to me that the tribunal did consider </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the totality of the evidence it had as to what, if any, adverse effects the claimant&#8217;s condition had on her, in the time period during which she was disciplined and dismissed.  Although the tribunal did not refer to the specific guidance to the effect that the focus should be on what an individual cannot do, or can only do with difficulty, it appears to me that it did consider what the evidence was as to that, during the relevant period.  It also did not confine itself to considering the medical evidence, but also considered, and evaluated, the claimant&#8217;s own evidence, having heard her cross-examined, as part of the overall picture.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">While the most recent of the OH reports dated from 2017, the tribunal was entitled to regard them as painting a picture of the claimant&#8217;s condition having become quiescent, with no reported flare-ups for some time.  It was also entitled to place weight on the Department of Rheumatology letter from May 2020 in this regard.  The tribunal noted at [5] that the claimant had been taken off immuno-suppressant drugs in 2015 because of adverse side effects, and had since</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> relied upon herbal remedies.  I</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">t was not suggested as part of her appeal that it had been her evidence that her symptoms had worsened during the period of the pandemic, and that she would, for that reason, have consulted or sought support from her GP, but could not, even by telephone, because of the pandemic.  Mr Swanson also acknowledged that it was not contended that the tribunal had erred by failing to discount the effects of something said to amount to medical treatment, pursuant to schedule 1 paragraph 5.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Nor do I think that, in assessing the current impact of the impairment, the tribunal erred with respect to the fact that, following the onset of the pandemic, the claimant had been advised to shield.  The tribunal specifically considered this at [20], and properly concluded that this did not as such amount to evidence that the impairment that she relied upon satisfied the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Equality Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> definition at the relevant time.  I note that the evidence referred to another, undisclosed, condition, on which the claimant did not rely in her tribunal claim.  But even if she was advised to shield specifically because she had MCTD, that advice would not, as such, demonstrate that it was having the requisite substantial adverse impact at the relevant time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Bearing in mind the high bar for a perversity challenge, I cannot say that the tribunal&#8217;s conclusion that the overall evidence did not show the requisite current substantial adverse effect on the ability to carry out normal day-to-day activities, at the relevant time, was perverse.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I turn then to limb (b) of the challenge mounted by this ground, focussing on paragraph 2(2) of schedule 1 and the tribunal&#8217;s approach to whether the requisite substantial adverse effect, even if not current at the time, was &#8220;likely to recur.&#8221;  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal, as I have noted, did cite schedule 1 paragraph 2(2) and it did consider at [17] and [20] the issue of whether, at the relevant time, the requisite substantial adverse effect was &#8220;likely to recur&#8221;.  It concluded that this was not shown to be the case, because the evidence indicated that the condition had been quiescent since around 2017, and there was no medical evidence produced to it that during the relevant period in 2021 that situation of quiescence was likely to change.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, there are a number of difficulties with this reasoning and conclusion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to the law, for a combination of reasons, the legal bar set by the test of &#8220;likely to recur&#8221; is a very low one.  First, the thing that must be likely to recur is the requisite substantial adverse effect, and &#8220;substantial&#8221; is defined in section 212 as meaning &#8220;more than minor or trivial&#8221;.  Secondly, &#8220;likely&#8221;, in this context, means &#8220;could well happen&#8221; (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">SCA Packaging Limited v Boyle</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2009] UKHL 37; [2009] ICR 1056).  Thirdly, if the requisite substantial adverse effect, is, at a given time, in that sense, likely to recur, then the impairment is </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">deemed</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> at that time, to be </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">currently</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> having that effect.  There is no additional requirement that the impact, were it to recur, would be likely then to last for 12 months (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Swift v Chief Constable of Wiltshire Constabulary</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2004] ICR 909 at [31]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case, the claimant plainly had had the condition for more than a year, and while it was said to be quiescent, it was not suggested that the condition itself had gone away, or was expected to do so.  It would therefore have been sufficient if, during the period of quiescence or dormancy, it was the case that it &#8220;could well happen&#8221; that a &#8220;more than minor or trivial&#8221; adverse impact on the claimant&#8217;s normal day-to-day activities would recur in the future.  That could, for example, be by way of a further flare up which would not need, itself, to be likely to last 12 months.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant&#8217;s central point and theme, which she argued at the original hearing, again in her reconsideration application, and now advanced again through this ground of appeal, is that MCTD is a chronic auto-immune rheumatic condition, with features overlapping with other conditions such as lupus; and that it is an inherent or characteristic feature of this condition that, even though it may be quiescent for a significant period, the risk of recurrence of flare-ups or symptoms remains present.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As to that, in response to the claimant&#8217;s suggested analogy with cancer, the tribunal made the point at [20] that MCTD is not, like cancer, one of the conditions designated by schedule 1 paragraph 6 as a deemed disability.  </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That is, of course, correct.  But what it did know was that the claimant had a diagnosis of this specific condition, which she had had since 2010, and that, while it was quiescent, it was still present.  The medical evidence that it did have also indicated that the effect of the condition on the claimant may fluctuate, and express themselves in &#8220;flare-ups&#8221;.  While the tribunal was entitled to conclude, in the light of the OH reports, that, when </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> giving rise to a flare-up, the condition did not have the requisite substantial adverse effect, the medical evidence plainly suggested that, were a flare-up to recur, it very likely, if not certainly, would have such an effect, while it lasted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Some conditions may be cured, or simply get better.  Others are incurable, progressive, stable, remitting or recurring.  What the tribunal needed to consider, drawing on such evidence as it had, was, in the case of this </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">particular</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> condition, as it affected this </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">particular </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">individual, what the fact that there had been a period of quiescence of some years, meant for the question of whether a substantial adverse impact (in the requisite sense) could well happen in the future.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In this case, I am not confident, reading the decision as a whole, that the tribunal sufficiently applied its mind to this question, applying the appropriate legal standard.  While the judge referred to the &#8220;likely to recur&#8221; test in paragraph 2(2), she did not specifically refer to the further features of the law that together combine to set that bar very low.  She stated that there was a lack of medical evidence specifically on this point, in terms of how matters stood in 2021; but does not appear to have considered what light the medical evidence that she </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">did </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">have before her might cast on this question.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do keep in mind that the section 212 definition, and the case of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Boyle</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, are well-known features of the landscape of this area of the law, though the point made in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Swift</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is perhaps less so.  But this part of the tribunal&#8217;s reasoning is very summary, and I cannot be confident that the judge did apply her mind to the nuances of the law on this point, and critically assess whether such evidence as she did have was sufficient to take the claimant&#8217;s case over the line by reference to paragraph 2(2).  The decision is on this point is unsafe, because, if she did not do that, then she substantively erred in law, or if she did, then she did not sufficiently explain her reasoning on this aspect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The foregoing reasons lead me to the conclusion that ground 3, and therefore the appeal, should be allowed.  However, I note also that in this case an additional concern arises in relation to the case-management of the matter prior to the PH giving rise to the decision on disabled status.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have noted, the respondent&#8217;s initial stance was that disabled status was not admitted, and clarification of the disability relied upon was sought.  At the direction of a judge the tribunal then wrote to the claimant on 14 March 2022 directing her to produce an impact statement.  The letter set out the headline definition of disability in section 6(1) and contained a link to further guidance.  It gave examples of day-to-day activities and set out a series of questions to which the claimant was required to respond in her statement.  These included a number of questions designed to elicit evidence from her on topics which reflected various of the more detailed aspects of the legal definition set out in schedule 1, including whether the condition relied upon by her had fluctuating effects.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The directions in this letter also required the claimant to send to the respondent copies of her relevant GP or other medical records, anything else that &#8220;they have in writing&#8221; that might help to show that they have the relevant disability, or its effect on them, such as a letter from a doctor or received following a hospital appointment or &#8220;any other evidence relevant to whether they had the disability at the time.&#8221;  After the claimant provided her impact statements, but not, it would appear, at that point, any medical evidence, a follow-up letter, directed by a judge, of 10 August 2022, asked whether she had any medical evidence, such as GP notes, correspondence from a treating physician or OH reports.  What these letters were plainly seeking to do, therefore, is elicit disclosure of any relevant </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">existing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> medical evidence that the claimant might have, or have access to.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">What is required by way of case-management, whether on paper or at a hearing, in the given case, is, of course, highly case-specific, and a matter for the judge overseeing or considering the particular claim as it progresses and unfolds.  The directions set out in the 14 March 2022 letter, plainly based upon a standard template, were well thought-out, clearly expressed in a manner designed to be accessible to a lay person, and designed to elicit relevant information and disclosure.  They might have proved to be all that was needed.  In particular, it is the common experience of tribunals that, where disability is not initially admitted, once an impact statement, and existing medical evidence, have been provided, this may be sufficient to persuade a respondent to admit disabled status as such.  In many cases, even where a dispute remains, the tribunal may conclude that no useful purpose would be served by seeking further bespoke medical or expert evidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, in some types of case there may be particular issues, whether going to disabled status or other issues in the case, such as in relation to adjustments, which existing medical evidence, dealing with matters of diagnosis and treatment, may not naturally address, but which a treating clinician or independent expert could illuminate, if asked specifically to address that question.  In such cases, particularly involving litigants in person, proactive judicial management may be needed to tease out the issues, examine whether further evidence might be reasonably required to assist the tribunal to determine them, and consider the options for obtaining such evidence, having regard to cost and other practicalities.  Such an exercise could, potentially, be carried out on paper, but will usually be most effectively and efficiently conducted at a case-management hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The present case is one, it seems to me, in which there should at least have been proactive judicial consideration given to whether some further specific direction could or should be given, directing or permitting bespoke specialist evidence to be adduced, specifically directed to the question of whether, at the relevant time in 2021, given that the claimant had the condition of MCTD, her previous history, and the period of quiescence or stability that she had experienced, it &#8220;could well happen&#8221; that substantial adverse effects would recur at some point in the future.  A case-management hearing would have provided an opportunity for this to be explored, and for the tribunal to consider, for example, whether a bespoke report should be requested from the claimant&#8217;s rheumatologist, or an independent expert or experts, and what the practical possibilities might be.  However, that did not happen, nor were any further paper directions along such lines given, at any point prior to the PH.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the course of argument Mr Jenkins submitted that the claimant could still, on her own initiative, have obtained, and sought to introduce, bespoke evidence, and that it would have been inappropriate for the tribunal positively to encourage her to do that.  However, I do not think it realistic to suppose that she could, as a litigant in person, be expected to spot the possible need for, or utility of, such bespoke evidence on a point of law of this type.   Nor do I consider that a judge would, by proactively raising or exploring this possibility, be inappropriately stepping in to the arena.  The purpose would be simply to ensure that a party had a fair opportunity to present evidence that might be relevant, and reasonably required to resolve the issues, and/or to ensure that, so far as practicable, the tribunal had the relevant evidence before it that might be necessary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">All of this of course concerns the case management of this particular matter prior to the PH.  The judge at that PH had to deal with the matter as she came to it.  But I note that the claimant was clearly advancing a case that it was inherent in the nature of her condition that adverse effects were likely to recur, and the judge recorded at [13] that she submitted that &#8220;further medical information should be sought, particularly from her Rheumatologist&#8221;.  Further, at [18] the judge observed that &#8220;[d]espite the Tribunal&#8217;s order of 14 March 2022&#8221; the claimant had not provided any medical evidence to support her claim to be disabled other than the letter from the Rheumatology Department of 14 May 2020.  But if this was a gap, it &#8211; potentially &#8211; might have been filled, had there more been more proactive judicial consideration of the particular issues arising in this case, and the kinds of medical evidence that might be relevant and reasonably required to determine them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Consideration of this aspect therefore reinforces my conclusion that, in this particular case, the tribunal&#8217;s decision on this particular point is unsafe.  I have also addressed it, because it as an aspect which the tribunal will need to consider when the matter returns to it upon remission.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For the foregoing reasons, the tribunal did not err in failing to treat the claim as raising, or including, a complaint by reference to past disability.  It was also entitled to conclude that the claimant&#8217;s impairment did not, at the time of the discipline and dismissal, in fact have the requisite substantial adverse effect on the claimant&#8217;s ability to carry out normal day-to-day activities.  But its conclusion that schedule 1 paragraph 2(2) was not satisfied, was not properly reached and/or sufficiently explained.  The decision that the claimant was not, in law, disabled, and hence the decision to dismiss her disability discrimination complaint, must therefore be quashed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The matter must be remitted to the tribunal to decide the schedule 1 paragraph 2(2) issue afresh, and hence whether the claimant&#8217;s condition fell to be treated as having had, during the period of quiescence, and as still having, at the time of the conduct complained of, a deemed adverse effect on her ability to carry out normal day-to-day activities, which would, if so, also have been long-term.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In light of all I have said, it appears to me that, as a first step upon remission, the tribunal will need to consider whether further medical or expert evidence directed to that question should be permitted or directed; and that this, and any other directions for a further hearing on this point, would be best considered at a case-management preliminary hearing.  While I do not doubt that, if it came back to her, EJ S Moore would consider the matter conscientiously, it would appear to me that there is no particular advantage in this issue, which is a narrow one, going back to her; and it would benefit from being considered by a fresh pair of eyes.  I will direct accordingly.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

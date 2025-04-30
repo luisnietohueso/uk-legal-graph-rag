@@ -1,0 +1,414 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/471"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/471"/>
+	  <FRBRdate date="2025-02-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="471"/>
+	  <FRBRname value="Notting Hill Genesis v Omed Kakpur"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/471"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/471"/>
+	  <FRBRdate date="2025-02-28" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/471/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/471/data.xml"/>
+	  <FRBRdate date="2025-03-20T16:12:40" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="notting-hill-genesis" href="" showAs="NOTTING HILL GENESIS"/>
+	<TLCPerson eId="omed-kakpur" href="" showAs="OMED KAKPUR"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>471</uk:number>
+	<uk:cite>[2025] EWHC 471 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>f2e2ed1aa1b23cdec6edef3ea305405b0141479fad842a3be638b3efdeccc09f</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { text-align: left; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { text-align: left; font-family: Univers; font-size: 12pt; }
+#judgment .Footer { text-align: left; font-family: Univers; font-size: 12pt; }
+#judgment .ListParagraph { text-align: left; margin-left: 0.5in; font-size: 12pt; }
+#judgment .BalloonText { text-align: left; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.4pt;height:75.75pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 471 (KB)</neutralCitation><span> </span></p>
+      <p class="CoverText">Case No: <docketNumber>KB-2025-000140</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MEDIA AND COMMUNICATIONS LIST</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText"><docDate date="2025-02-28" refersTo="#judgment">Friday, 28<span style="vertical-align:super;font-size:smaller">th</span> February 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"> FORDHAM J </p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.23in 3.86in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#notting-hill-genesis" as="#claimant" style="font-weight:bold;font-family:Arial">NOTTING HILL GENESIS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#omed-kakpur" as="#defendant" style="font-weight:bold">OMED KAKPUR</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Tara O&#8217;Leary</span> (instructed by Winckworth Sherwood LLP) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center">The <span style="font-weight:bold">Defendant</span> did not appear and was not represented</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">Hearing date: 28.2.25</p>
+      <p style="text-align:center">Judgment as delivered in open court at the hearing</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center"><img src="image2.png" style="width:83.33pt;height:51.12pt"/></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">FORDHAM J</p>
+      <p style="text-align:center"><span style="font-size:11pt;color:#000000">Note: This judgment was produced and approved by the Judge, after authorising the use by the Court of voice-recognition software during an ex tempore judgment.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">FORDHAM J:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Summary</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I am starting this judgment with a straightforward summary, to explain the position:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.79in">There is a court order. It remains in place. It means that Mr Kakpur <span style="text-decoration-line:underline;text-decoration-style:solid">cannot</span> be at his landlord&#8217;s offices. He <span style="text-decoration-line:underline;text-decoration-style:solid">can</span> contact his landlord by post or by email to Mr Coils using an email address which begins &#8220;neil.coils&#8221; or by ringing a phone number beginning in 020 and ending in 0000. He <span style="text-decoration-line:underline;text-decoration-style:solid">cannot</span> contact the landlord&#8217;s CEO (Mr Franco) or anyone else who works for the landlord. That includes emails and texts, letters and phone calls. He <span style="text-decoration-line:underline;text-decoration-style:solid">cannot</span> threaten intimidate abuse or cause nuisance or annoyance to anyone who works for the landlord, including Mr Franco.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.79in">All of this is important. Breaching the order can be a contempt of court. It can lead to a fine or prison. The police have the power of arrest if they reasonably suspect that Mr Kakpur has breached the order.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.79in;text-indent:0.11in">Mr Kakpur has important rights. He has the right to ask a legal aid lawyer to represent him. The landlord thinks it is likely that he will qualify for legal aid; they have told me they are going to provide for him a list of legal aid law firms with contact details. He can send this judgment to any lawyer, when he asks for their help. He has the right to ask a court to bring this injunction order to an end; or to change it. He can put his points into writing if he wishes. Or he can speak in court if he wishes and feels able to do that. Or a lawyer could write submissions on his behalf, and speak on his behalf.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.79in">This case will be looked at again by a judge. That will be in 3-4 months&#8217; time. But it could be much earlier than that, if Mr Kakpur or his lawyer wants to ask the Court to look again at the order, at an earlier hearing. That is under a mechanism which lawyers call &#8220;liberty to apply&#8221;. If Mr Kakpur feels that he agrees with the order he can say that in writing; or his lawyer can say for him. If he feels that he disagrees, then he can say so; or his lawyer can explain.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">That is my straightforward summary. I am going to be explaining the position in the rest of this judgment, with a lengthier description and using some legal language.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Dr Goodyear&#8217;s Help</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I have been helped by some communications from Dr Goodyear who regularly meets Mr Kakpur as his GP. She has helped him. She has also helped me to understand his position. She has also offered to help further. One way I hope she will be able to help is by using my straightforward summary.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Terms of the Order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">It is important to say this. My straightforward summary was intended to explain the key points. But the parties need to understand that what matters most is the Court Order itself. It is a detailed, formal document. The terms of the Order are what govern the position.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Judge&#8217;s Order</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">On 30 January 2025 DHCJ Richard Spearman KC (&#8220;the Judge&#8221;) made an interim injunction order in this case. That was pursuant to s.7 of the Anti-Social Behaviour, Crime and Policing Act 2014. The Claimant is a housing provider under s.5(1)(b) of the 2014 Act. I have so far been calling them the &#8220;landlord&#8221;. The Defendant (who I have so far been calling &#8220;Mr Kakpur&#8221;) occupies his flat at Sinclair House under a March 2019 tenancy agreement with the Claimant. The Claimant&#8217;s Counsel Ms O&#8217;Leary produced a clear eight-page note of the Judge&#8217;s ex tempore judgment on 30 January 2025. The Judge set out, clearly and comprehensively, his reasons: as to why he had decided to proceed on a without notice basis; as to why he was making the interim order (lapsing next Monday unless continued by me today); and as to why he was including within the interim order a power of arrest  (see s.4 of the 2014 Act) in relation to all of the provisions of the injunction.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Service</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I am satisfied on the evidence that the Defendant has been served with the proceedings and with all the court documents including in particular the court order made by DHCJ Spearman KC. This is a case where the court is considering whether to grant relief which might affect the exercise of the Defendant&#8217;s Convention rights to freedom of expression. The Defendant is neither present nor represented today. But I am satisfied that the Claimant has taken &#8220;all practicable steps&#8221; to notify him. That is important: see s.12(1)(2)(a) of the Human Rights Act 1998. I mention in the context of s.12 that I have needed to have particular regard to the importance of that Convention right (s.12(4)), and I have done so.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Continuing Today</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Order made by the Judge gave a return date hearing of today. It also provided that it would expire at 6pm on 3 March 2025 (ie. Monday evening). That means there will only be an injunction under s.1 of the 2014 Act from Monday onwards if I make such an order today. My options today are to make no order; to make an interim order (s.7) or to make a final order. I decided that it could not be right to adjourn today&#8217;s hearing. Court time has been allocated for this case. The scheduled date was specified a month ago within the terms of the Judge&#8217;s Order. The Defendant was well aware of the nature of the order and has been complying with it. He was and is also aware of today&#8217;s hearing date. Dr Goodyear&#8217;s helpful latest communications confirm that. There are significant concerns about the Defendant&#8217;s position. These were very properly drawn to the Court&#8217;s attention by Dr Goodyear, and by the Claimant and its lawyers in their written and oral representations for today. But none of those concerns can, in my judgment, justify either allowing the order to lapse on Monday; or trying to reschedule another hearing to take place on Monday. I record that there was no request for an adjournment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Information from Dr Goodyear</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The concerns about the Defendant&#8217;s position, to which I have referred, are significant. A report which was provided by Dr Goodyear to the Claimant&#8217;s solicitors on 11 February 2025 was written in December 2024. Dr Goodyear told the claimant&#8217;s solicitors in her email of 11 February 2025 that the Defendant had asked her to email to them a copy of that December report. As she said in the email, the report summarises the Defendant&#8217;s history of trauma, and system issues he has come up against, providing explanations and possible mitigations for his presentation at times, and containing her recommendations for managing the situation going forward. The report itself describes how the Defendant came to the UK back in 2001. It describes circumstances relating to that. I do not need to go into what those were. The report describes the impact on the Defendant of those and other events. It sets out in clear terms his position and his feelings about the way he has been treated including at the current time, and including relating to his housing position and to the Claimant. It confirms what the Court had been told about his desire to move and his reasons. It explains &#8211; with reasons &#8211; why he can often present as being angry and agitated; and the effect of situations that he may perceive as not meeting his needs. The report later explains why direct communication with the Defendant about housing. It recommends a particular approach to communications. There is other relevant content but it is not necessary for the purposes of this judgment today to say more. I have read and considered carefully that and all the other evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The most recent email from Dr Goodyear dated 25 February 2025 provides a helpful update. It evidences that the relationship and communication between the Defendant and Dr Goodyear continue. It says that the Defendant had not read the court documents, and gives a reason for that related to the content of Dr Goodyear&#8217;s December report. It also says that the Defendant does not understand the legal language. That is why I started with my straightforward summary. The email confirms that the Defendant was aware of the hearing today and that had no legal representation arranged. It reflects an understanding of the injunction and the power of arrest and the two-year final injunction being sought at today&#8217;s hearing. It refers again to his history. It explains the present position including an escalation of impact on him. It states Dr Goodyear&#8217;s opinion that the Defendant is &#8220;in no way medically fit to attend court&#8221; today. It explains that the Defendant had asked Dr Goodyear to communicate three things. (1) His sincere apologies to anyone for his outbursts of shouting and swearing. (2) That he does not wish ever to be in contact with anyone from housing ever again. (3) That he wishes to have a resolution to his housing requests urgently.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Interim Only</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">All of this information about the Defendant&#8217;s position is important. It helps to put the Court in an informed position. It has materially assisted me in coming to the conclusion that it would not be appropriate today to proceed to a &#8220;final&#8221; order. I was tempted by the prospect of making a &#8220;final&#8221; order, relying on the in-built protection of &#8220;liberty to apply&#8221;. That would mean that the Defendant would be able to bring the matter back before a court, for consideration afresh, if he wished to do so. It was also mean that the Claimant would not be put to any further legal expense in relation to this matter, if the Defendant decided not to do so. However, I have concluded that the appropriate course in all the circumstances is to treat today as a hearing about the continuation of the Judge&#8217;s &#8220;interim&#8221; order. Ms O&#8217;Leary for the Claimant very sensibly and very fairly did not press any resistance to my taking that course.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I am satisfied that there is no injustice or unfairness to the Defendant in the Court proceeding to consider today, on the basis of the materials before the Court, the question of continuation of the Judge&#8217;s &#8220;interim&#8221; order. I have done so afresh. I have done so fully aware of what is said about the Defendant&#8217;s position. I have assumed in his favour that he would wish to have attended today, had he been well enough to do so. I have assumed in his favour that he would have wished to have been legally represented, had he appreciated that he could get legal aid. I have asked myself what points I can identify which could be made on his behalf, based on the materials. I have had close regard to the restrictive nature of the order; and its potential coercive consequences should it be breached.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">In proceeding, I have had close regard to what Dr Goodyear has been saying about the underlying origins, from the Defendant&#8217;s perspective, relevant to this interactions with the Claimant as his landlord. I have also considered the Equality Act 2010 and its protections, which were rightly specifically drawn to my attention by Ms O&#8217;Leary. I have proceeded today on the assumption that the Defendant has a &#8220;disability&#8221; for the purposes of those protections. I also considered the question of capacity, but there is no evidence before the Court of a lack of capacity on the part of the Defendant. It is right to record that on several occasions during the sequence of events in this case, including recently, the Claimant has made referrals to relevant local authority and other agencies. It is also right to record that I have been satisfied that this claim has properly been brought in the High Court (s.1(8)(b) of the 2014 Act). I considered the possibility of making a transfer to the county court. But I have concluded that, in all the circumstances, it is appropriate that this case should continue in the High Court.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Legal Aid</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">So far as legal aid is concerned, the Civil Procedure Rules by r.65.43(2)(d) require that any claim for an anti-social behaviour injunctions under the 2014 Act must include a particular statement. The Claimant&#8217;s application dated 13 January 2025, which was within the court papers served on the Defendant with the Judge&#8217;s order, was drafted to include that statement. It says: &#8220;the Defendant is entitled to a reasonable opportunity to obtain legal representation and to apply for legal aid which may be available without any means test&#8221;. The Judge in making the order, adopting the drafting which had been provided by the Claimant&#8217;s lawyers, spelled out the position by repeating the same statement: &#8220;you are entitled to a reasonable opportunity to obtain legal representation and to apply for legal aid which may be available without any means test&#8221;. Later in the Judge&#8217;s order it is also said in bold and capitals: &#8220;it is strongly recommended that the Defendant seeks independent legal advice as a matter of urgency&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">There is some reason to doubt whether the legal aid position has been understood by the Defendant. I have explained within my summary that the Claimant&#8217;s representatives consider that legal aid should in principle be available to the Defendant. Neither they nor I am in control of that. And so of course it remains to be seen what the position will be. It is possible &#8211; I do not know &#8211; that the Defendant has already attempted to get a legal aid lawyer. Dr Goodyear&#8217;s email to the Claimant&#8217;s solicitors on 11 February 2025 said that she had reiterated with the Defendant the importance of him presenting to the Citizens Advice Bureau to seek legal representation for this hearing. It may be that there was a missed opportunity, in the response at that stage, to reiterate the position regarding legal aid. But it certainly would not be right, in my judgment, to direct any blame at anyone for the fact that the Defendant does not currently have a legal aid lawyer. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Substance of the Case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">As Ms O&#8217;Leary put it at the end of her skeleton argument for today this injunction order is a proportionate means of achieving its legitimate aim of preventing the Defendant from harassing, threatening or causing harm to the Claimant&#8217;s staff on the one hand; while on the other allowing him to continue occupying his current home and searching for an alternative residence; to which I would add while also allowing him a clear and identifiable avenue for communication with the Claimant as his landlord.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">The Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The evidence before the Court describes in clear terms the communications between the defendant and the claimant&#8217;s employees, over an extended period. It also describes the apparent cycle: where warnings and restrictions imposed on him by the Claimant (accompanied by unexercised rights of appeal) have led to an abatement in his conduct. Pausing there, that abatement reinforces the view that the Defendant is able to understand restrictions and comply with them. But the evidence explains how the cycle continues: the Defendant&#8217;s previous conduct then returns in the longer term. It also explains the clear escalation from October 2024 when the Defendant turned his attention, from other employees of the Claimant, to its CEO (Mr Franco). I have full and clear witness statement evidence from Mr Franco and from the assistant director of operations Mr Coils.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The Defendant&#8217;s abusive communications evidenced in the materials include, in order just to give their flavour: reference to the Claimant&#8217;s employees as &#8220;bastards&#8221;, &#8220;rapists&#8221;, and an &#8220;animal fucking arsehole&#8221;. These are just a few illustrations. There are also in evidence threatening communications from the Defendant including the following: &#8220;die please&#8221;; and &#8220;I will fuck you up&#8221;. There is his spitting at windows at the Claimant&#8217;s offices. There is his twice threatening to &#8220;spit&#8221; in the &#8220;face&#8221; of an employee of the Claimant. Then there are his communications stating &#8220;you are going to be dead&#8221;; &#8220;I wish you a fucking heart attack&#8221;; reference to &#8220;death like a devil&#8221;; and a communication including &#8220;if I kill you&#8221;. These range over an extended period. Some of the examples are back in September 2021. One threat to spit in the face of an individual was in May 2022. The communication to the CEO which included &#8220;if I kill you&#8221; was after October 2024. The evidence describes a very large number of calls and voicemails as well as text messages and conversations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">The serious impacts and implications for the Claimant&#8217;s staff are described in the two witness statements. Those statements explain that these court proceedings have been very much as a last resort after the failure of the Claimant&#8217;s informal attempts and in light of the most recent escalation. Mr Coils describes being deeply troubled by the Defendant&#8217;s behaviour and its possible consequences if allowed to continue. Mr Coils tells me he is genuinely concerned that if action is not taken by the Court the Defendant is likely physically to assault or harm him (Mr Coils) or his colleagues at some near point in the future. He also explains that the emotional toll of the Defendant&#8217;s behaviour on the Claimant&#8217;s employees has been severe and that he is aware of colleagues feeling intimidated and fearful of being harmed. Mr Franco&#8217;s witness statement recognises, rightly, that there must be a way for the Defendant to be able to contact the Claimant, but that the Defendant should do so in a non-threatening and non-intimidating manner, using identified points of contact. Mr Franco explains that he has taken from his conversations and messages from the Defendant that the Defendant has &#8220;threatened to kill me&#8221;, has &#8220;wished for my death&#8221; and has also &#8220;mentioned my family members&#8221;. Mr Franco describes his concern for his own safety but also the safety of colleagues as well as other local residents. He explains that the Defendant&#8217;s behaviour has had an impact on his (Mr Franco&#8217;s) ability to carry out normal day-to-day activities, including in his personal life. It has left him feeling unable to answer any phone calls from &#8220;unknown&#8221; numbers &#8211; in circumstances where the Defendant&#8217;s habit when calling is to withhold his number &#8211; because of his fears that it could be the Defendant &#8220;who will then subject me to further threatening behaviour&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">This description is sufficient, in my judgment, to seek to encapsulate the nature of the Claimant&#8217;s evidence that is before this Court in this case today.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I am satisfied that all the relevant legal criteria for continuing the s.7 interim order, including the s.4 power of arrest, are satisfied on this evidence. I have had regard to the 2014 Act provisions and the s.19 Statutory Guidance. I am satisfied (s.1(2)) on the evidence before me that the Defendant has engaged in anti-social behaviour (s.2). He has (s.2(1)(a)) engaged in conduct that has caused &#8211; and was likely to cause &#8211; harassment, and alarm, and distress. I am also satisfied (s.1(2)) that there is a very real threat that the Defendant would continue to engage in such behaviour, notwithstanding his apology, unless the interim order is continued. I am satisfied (s.2(1)(c)) that the Defendant has engaged in conduct capable of causing housing-related nuisance or annoyance as defined by the statute (s.2(3)) by reference to the housing management functions of a housing provider. On that point, my attention was invited to authorities cited in the <span style="text-decoration-line:underline;text-decoration-style:solid">Encyclopaedia of Housing Law and Practice</span> &#167;I-002, that sending abusive letters to a landlord&#8217;s offices and threatening behaviour can each constitute nuisance or annoyance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I am satisfied (s.1(3)) that it is just and convenient to grant the injunction. I have applied the balance of convenience and justice. In light of the human rights considerations, and the concerns relating to the defendant&#8217;s position, I have also applied a strict test of necessity as well as proportionality. In my judgment it is necessary to continue the order in its present terms. The necessity extends, moreover, to the entirety of the injunction order. It applies to the Claimant&#8217;s offices and to communications. But it also protects the Claimant&#8217;s employees and officers should they be in any other location, for example on a visit to Sinclair House where the Defendant&#8217;s flat is. I have reminded myself that the order is structured to ensure that the Defendant is permitted, and means are facilitated, to communicate with the Claimant; involving clarity as to the avenues of communication that he must use for that purpose. The restrictions in the order are tailored. They balance the relevant and legitimate interests, reconciling all of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">So far as the s.4 power of arrest is concerned I have considered releasing this, or alternatively tailoring it to part only of the order. But I am satisfied that it is justified that the power of arrest should continue to apply, to the whole injunction. I have for the purposes of today&#8217;s hearing, and in the light of the defendants absence and his circumstances, considered it appropriate to follow the approach identified in the without-notice context in <span style="text-decoration-line:underline;text-decoration-style:solid">Moat Housing Group South Ltd v Harris</span> [2005] EWCA Civ 287 [2006] QB 606 at &#167;81, and treat the &#8220;and/or&#8221; limbs of s.4(1)(a) and (b) as being &#8220;both/and&#8221; limbs. In my judgment, on the evidence before the Court today, both of those limbs are satisfied. There is antisocial behaviour in which the defendant has engaged which includes the threatened use of violence against other persons (s.4(1)(a)); and there is a significant risk of &#8220;harm&#8221; (s.20(1)) to other persons (s.4(1)(b)). I add that there is in my judgment no basis for the power of arrest to be specified to run for a shorter period than the continuing interim order (s.4(2)).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I will continue the order for a period of 4 months from today, as an interim order, on all of the terms as they currently stand. There is no basis for varying them.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Return Date</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">I will not specify at this stage a particular return date for the next hearing. I will say that this should be the first date reasonably convenient date after 3 months for today. Given that the Order would expire in 4 months&#8217; time, that will allow a full one month window for Court listing. All of this will also allow plenty of time for the Defendant to take steps should he wish to do so to enlist legal assistance. It will allow him to gather together material and put before the Court should he wish to do so. Alternatively it will allow him to communicate his agreement to the order continuing and being made final, should that be his position. It will all take the short-term pressure off him, and everyone else.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Liberty to Apply</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">But importantly there will also be the &#8220;liberty to apply&#8221; provision within the Order. The reason why that is important is because it allows the Defendant to take the initiative and make an application, to accelerate the case coming back before the Court. If he does make an application to vary or discharge the order he will need to notify the Claimant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1"><span style="text-decoration-line:underline;text-decoration-style:solid">Materials for Future Hearings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.39in">By whatever means the next hearing in this case takes place, there will need to be materials provided for the Court by both parties, in good time. Ms O&#8217;Leary has invited the Court to consider laying down a possible timetable for materials from the Claimant which would provide clarity and reassurance. I am grateful for that invitation but I prefer to take the course of explaining clearly in this judgment &#8211; and to both parties &#8211; that the Court will need materials, in good time, ahead of any further hearing. I would commend to the Claimant&#8217;s representatives that they take the course of setting out, in a letter to the Defendant, an indicative timetable that for their part they would propose to follow. That will assist everyone. I am not going to lay down a specific timetable within the Order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_17">
+	  <num>28.2.25</num>
+	  <content>
+	    <p class="ParaLevel1" style="text-indent:0.5in"/>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

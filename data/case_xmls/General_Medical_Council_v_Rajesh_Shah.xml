@@ -1,0 +1,1189 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/899"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/899"/>
+	  <FRBRdate date="2025-04-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="899"/>
+	  <FRBRname value="General Medical Council v Rajesh Shah"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/899"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/899"/>
+	  <FRBRdate date="2025-04-11" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/899/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/899/data.xml"/>
+	  <FRBRdate date="2025-04-11T09:00:52" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" showAs="The Administrative Court (King's Bench Division)" shortForm="The Administrative Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="general-medical-council" href="" showAs="GENERAL MEDICAL COUNCIL"/>
+	<TLCPerson eId="mr-rajesh-shah" href="" showAs="MR RAJESH SHAH"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-mr-justice-kerr" href="/judge-mr-justice-kerr" showAs="MR JUSTICE KERR"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>899</uk:number>
+	<uk:cite>[2025] EWHC 899 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>cbca7f3379104ecaa6dcef6769a26dda9636c706f7515494e02f976e31178141</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .xmsonormal { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .normaltextrun { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 899 (Admin)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2024-MAN-000350</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText"><span style="text-decoration-line:none;font-family:'Times New Roman'">Royal Courts of Justice</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">Manchester Civil Justice Centre</span></p>
+      <p style="text-align:right"><span style="font-family:'Times New Roman'">1 Bridge Street West</span></p>
+      <p class="xmsonormal" style="text-align:right"><span style="font-family:'Times New Roman';font-size:12pt">Manchester, M60 9DJ</span></p>
+      <p class="CoverText">Date: <docDate date="2025-04-11" refersTo="#judgment">11/04/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mr-justice-kerr">MR JUSTICE KERR</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#general-medical-council" as="#appellant" style="font-weight:bold">GENERAL MEDICAL COUNCIL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#mr-rajesh-shah" as="#respondent" style="font-weight:bold">MR RAJESH SHAH</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms Eleanor Grey  KC </span>(instructed by<span style="font-weight:bold"> General Medical Council</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Stephen Brassington</span> (instructed by <span style="font-weight:bold">Medical and Dental Defence Union of Scotland</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 30 January 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10am on 11 April 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MR JUSTICE KERR</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Mr Justice Kerr :</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appellant (<span style="font-weight:bold">the GMC</span>) is responsible for the conduct of doctors in this country and for bringing disciplinary proceedings against them in the event of alleged misconduct.  Allegations of wrongdoing go before a tribunal of the Medical Practice Tribunal Service (<span style="font-weight:bold">the MPTS</span>; <span style="font-weight:bold">the tribunal</span>).  The respondent (<span style="font-weight:bold">Mr Shah</span><authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"> I was told by counsel for Mr Shah that &#8220;Mr&#8221; rather than &#8220;Dr&#8221; is the correct title because he is a surgeon.</p>
+		</authorialNote>) is a doctor and a thoracic surgeon.  He qualified as a doctor at Bombay University, India, in 1988.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal decided on 29 August 2024 to uphold in part certain allegations of misconduct, including sexual misconduct, against Mr Shah; and to suspend him from medical practice for 12 months, with a review at the end of that period.  The GMC regards that sanction as insufficient for the protection of the public and appeals under section 40A of the Medical Act 1983 against the decision to impose that sanction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC does not challenge the tribunal&#8217;s findings of fact but asserts that the tribunal made errors of principle and in its analysis of the evidence when addressing the issue of &#8220;impairment&#8221;, i.e. whether Mr Shah&#8217;s fitness to practise is impaired by reason of misconduct; and at the &#8220;sanction&#8221; stage, i.e. in determining that the appropriate sanction was suspension for 12 months with a review at the end of the suspension period.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC contends in this appeal that the appropriate sanction is erasure, i.e. that Mr Shah&#8217;s name be erased from the medical register so he can no longer practise.  The GMC invites me to substitute that sanction for the 12 month suspension imposed by the tribunal.  Alternatively, the GMC invites me to set aside the tribunal&#8217;s determination and remit the matter to a tribunal of the MPTS with appropriate directions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Shah supports the tribunal&#8217;s decision, submitting as follows.  He was of good character for four decades.  He has developing insight into his conduct.  The tribunal&#8217;s analysis was sound; it was entitled to find no risk of repetition of the misconduct.  The tribunal rightly observed, Mr Shah submitted, that there is a spectrum of seriousness for sexual misconduct and that erasure is not automatic in sexual misconduct cases.  The sanction of suspension includes a review at the end of the period of suspension.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Facts</span></heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In 2022, after a disciplinary investigation, Mr Shah was summarily dismissed from his position as a consultant thoracic surgeon at Wythenshawe Hospital, Manchester.  He was questioned by police but no criminal proceedings were brought.  The matter was investigated by the GMC.  It brought disciplinary charges against him.  A disciplinary hearing was convened.  The hearing before the tribunal lasted from 12 to 29 August 2024.  Both sides were represented by counsel.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The allegations covered the period from 2005 and 2021 when Mr Shah was working as consultant thoracic surgeon at Wythenshawe Hospital. He was charged with behaving inappropriately towards female &#8220;Colleague A&#8221; and &#8220;Colleague B&#8221;.  His conduct towards them was said to be sexual harassment and sexually motivated.  He was also charged with asking or allowing Colleague A and &#8220;Colleague C&#8221;, a medical secretary called Ms Kirsty Larkin, to complete elements of his mandatory training [2]-[8]<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span> </span>Figures in square brackets denote paragraph numbers in the written decision, comprising 190 paragraphs.</p>
+		</authorialNote>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The first group of allegations concerned Colleague A, a medical secretary.  The detailed allegations were of treating her in a derogatory manner from 2005 to 2012, including tapping her cheeks when asking her to do something; clicking his fingers to gain her attention; calling her a &#8220;good girl&#8221;; and calling one or more other female colleagues &#8220;bird&#8221; (not to their face, but to Colleague A).  Mr Shah denied all those matters, except that he admitted to calling Colleague A a &#8220;good girl&#8221; and using the word &#8220;bird&#8221; to her.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He was also charged with inappropriate touching of Colleague A without her consent, between 2011 and 2021, including, at the most serious, putting his hands up her skirt, touching her genitals over her underwear, rubbing his penis up and down her legs, attempting to touch her legs, thighs and breasts and masturbating within his trousers in her presence.  Mr Shah denied those charges, asserting in his defence that the sexual touching was consensual.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">All those matters were said to amount to sexual harassment within the meaning of section 26 of the Equality Act 2010.  Mr Shah admitted that the conduct alleged in the charges he denied, had occurred, but did not accept that it was without Colleague A&#8217;s consent.  He therefore admitted, unusually, that his conduct was &#8220;sexually motivated&#8221; but not that it constituted sexual harassment because it was not unwanted.  Colleague A&#8217;s credibility and that of Mr Shah were therefore central to this group of allegations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The next two allegations concerned Colleague B, a recovery nurse.  It was alleged that on 11 October 2014, he put his arm round her, steered her towards and into a coffee room, then leaned into her to hug her and squeezed both cheeks of her bottom.  It was further alleged that nearly five years later, on 2 October 2019, he brushed his body against her breasts, put both arms round her, put his left arm on her right hip and right buttock and squeezed her right buttock.  This was alleged to be sexual harassment as defined in section 26 of the Equality Act 2010.  Mr Shah denied these charges.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A separate charge was brought of asking or allowing Colleague A and Ms Larkin, between 2017 and 2021, &#8220;to complete one or more of the non-practical elements of your mandatory training for you&#8221; [6].  Mr Shah admitted this charge.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, all the conduct alleged was said to be &#8220;an abuse of your professional position&#8221; in that Mr Shah was in a more senior position than the three female colleagues; and Colleagues A and B felt unable to prevent, challenge or report his actions [7].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal recorded ([11]-[14]) that it received written, oral and documentary evidence.  The GMC&#8217;s witnesses were Colleagues A and B; Ms Larkin; Ms Claire Stepsys, a medical secretary; and Mr Richard Montague, a consultant urologist.  Mr Shah&#8217;s witnesses were himself; Professor Richard Booton, a consultant respiratory physician who was Mr Shah&#8217;s clinical director; and Mr Mark Jones, a consultant thoracic surgeon.  Mr Shah also relied on written testimonials from others.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal directed itself about how to approach the evidence, partly by analogy with principles applicable in criminal proceedings and discrimination claims [25]-[35].  This aspect of the decision is not controversial and was not criticised in the grounds of appeal.  The tribunal then went on at [36]-[79] to state its analysis of the evidence and its findings of fact.  The results were mixed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to Colleague A, Mr Shah said consensual incidental touching evolved into consensual sexual touching over years.  Colleague A said the touching was non-consensual and that she made this clear to Mr Shah.  She denied doing any of his mandatory training for him, while he admitted that allegation.  She said he was disrespectful to her.  He had referred to as &#8220;bird&#8221; a female colleague whose name Colleague A said she could not recall.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal discussed the unusual nature of this conflict of evidence.  They concluded that on the balance of probabilities, the allegations about Colleague A were only proved to the extent that Mr Shah admitted his conduct towards Colleague A, i.e. that he had called her a &#8220;good girl&#8221; and referred to another female colleague as &#8220;bird&#8221;.  The tribunal noted Mr Shah&#8217;s admissions and the contrition he expressed about those admitted matters.  Having regard to the imbalance of power, they had the effect of creating a demeaning and intimidating, humiliating or offensive environment for Colleague A.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There is no challenge in this appeal to the findings of fact about Colleague A and the rejection by the tribunal of her evidence except where it was admitted by Mr Shah.  The sexual touching had occurred, the tribunal found, and was (as Mr Shah admitted and asserted) sexually motivated, but the GMC had not proved that it was unwanted and it was therefore not sexual harassment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for Colleague B, the tribunal accepted that the two incidents of sexual misconduct, in October 2014 and October 2019, had occurred.  After the first incident, she had emailed her manager to place it on record, though not taking it further at the time.  She did report the second incident and made a formal complaint.  She then received what the tribunal called a &#8220;qualified letter of apology&#8221; for (in Mr Shah&#8217;s words in the letter) &#8220;making you feel uncomfortable&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">His evidence was that he is tactile by nature; there may have been social touching but it was not inappropriate and he did not touch her buttocks.  He knew nothing of the complaint dating from 2014 until five years later.  However, the tribunal accepted that the incidents had occurred and that Colleague B had found it difficult to confront Mr Shah about them.  In his letter of apology in October 2019 Mr Shah had also said:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220;I understand that I hurt you by compromising your personal space and by touching you in a way which you felt was inappropriate.  For this I am truly sorry.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal found all but one of the allegations in respect of Colleague B proved and found that the conduct was unwanted and sexually motivated and was sexual harassment within section 26 of the Equality Act 2010.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal found proved the admitted allegation that Mr Shah had asked or allowed Colleague A (despite her denial) and Ms Larkin to complete elements of his mandatory training.  The tribunal found not proved the allegation that Colleagues A and B did not feel able to challenge, prevent or report Mr Shah&#8217;s actions.  The reasoning was that since they had in fact done those things, they must have felt able to do them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal went on to consider, in the usual way, whether on the basis of the facts found proved, Mr Shah&#8217;s fitness to practise was impaired by reason of misconduct [80]-[130].  The GMC&#8217;s then counsel, Ms Rosalind Emsley-Smith, submitted that the two instances of unwanted sexual contact with Colleague B were &#8220;at the serious end of the spectrum as regards sexual harassment&#8221; [86].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for Colleague A, despite the finding of consensual touching, she submitted to the tribunal that using the term &#8220;bird&#8221; very often about female colleagues &#8220;demonstrated a disrespect towards women&#8221;; while not all women felt the term was disrespectful, the tribunal had found the conduct had the effect of violating Colleague A&#8217;s dignity, creating a hostile, degrading, humiliating or offensive environment for her [87].  This violated obligations to maintain good relations with colleagues and should be regarded as &#8220;serious misconduct&#8221; [90].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The exposure of junior colleagues to disciplinary action for completing Mr Shah&#8217;s mandatory training was an abuse of trust and power which gave a poor example, Ms Emsley-Smith submitted.  It was also &#8220;serious misconduct&#8221;, she submitted [92].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">She argued that Mr Shah&#8217;s fitness to practise was impaired because he had brought and was liable in future to bring the profession into disrepute; and because he had breached and was liable in future to breach one of the fundamental tenets of the medical profession [93].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Shah had been entitled to deny the allegation concerning Colleague B, but in &#8220;categorising [her] as a liar he demonstrated little or no appreciation of the full impact of his conduct&#8221; [94].  As for the harassment relating to sex, he had not appreciated &#8220;the full impact of his comments&#8221;, even though he admitted making the comments and expressed regret about making them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He &#8220;is at the start of his journey as regards insight&#8221;, Ms Emsley-Smith said [95].  She submitted that he had a &#8220;blind spot&#8221; in his ability to appreciate the effect of his actions on others, as shown by the mandatory training issue.  In relation to Colleague B, &#8220;current impairment should be found&#8221; [95].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Brassington submitted ([96]-[103]) that as to the allegations relating to Colleague B, he did not contest the issue of impairment, though it was not permitted to admit it formally; if he could do so, he would concede the issue in relation to Colleague B only.  He did not accept that there was a risk of repetition of the kind of offending behaviour Mr Shah had displayed towards Colleague B.  He acknowledged that the public interest &#8220;must demand a finding of current impairment in relation to both incidents&#8221; [96].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the other conduct found proved, Mr Brassington questioned whether fellow members of the profession and the wider public would find it deplorable.  The word &#8220;bird&#8221; was not said to the person referred to, only to Colleague A.  Some of the women referred to had said in evidence they did not find it derogatory [98].  Mr Shah accepted that it was inappropriate and had apologised [99].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Not every breach of the Equality Act 2010 warranted disciplinary proceedings, Mr Brassington submitted.  The Act applied to employment, not the regulatory process.  The Act did not provide that every breach of it is a disciplinary matter; that is not the law.  Mr Shah had already embarked on acts of remediation and the risk of repetition was &#8220;vanishingly small&#8221; (as the tribunal recorded his submission at [100]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the mandatory training issue, no clinical training was completed by administrative staff.  Ms Larkin&#8217;s evidence was that she did not feel it was wrong or unusual and did not feel pressured into doing it.  Mr Brassington drew attention to Mr Shah&#8217;s written reflections accepting that it was inappropriate to ask junior colleagues to do this task, irrespective of whether they knew they should not do it ([101]-[102]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Other than in the case of Colleague B, there should be no finding of current impairment, Mr Brassington submitted.  He did not accept that Mr Shah had not properly reflected on his conduct and that, as was suggested by the GMC, he was &#8220;only at the beginning of his remediation journey&#8221; [103].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal directed itself on the law relating to impairment ([104]-[113]) and gave its determination on 28 August 2024, at [114]-[131].  In relation to Colleague A, the term &#8220;bird&#8221; had been used when Mr Shah could not remember someone&#8217;s name.  The words &#8220;good girl&#8221; were intended to praise or thank.  Nevertheless, both expressions were inappropriate and contrary to section 26 of the Equality Act 2010.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That did not mean the conduct was necessarily serious misconduct.  The tribunal was not satisfied that colleagues or members of the public would find the behaviour so reprehensible as to be deplorable.  The comments were not sufficiently serious misconduct to found a determination of current impairment [115]-[118].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal reached the same conclusion on the issue of the mandatory training [119]-[121].  They inferred that it was of a generic and basic type; no contrary evidence was presented.  While the GMC had suggested there was coercion of Colleague A (though she was their witness and denied doing it) and Ms Larkin, Professor Booton had given evidence that Colleague A had completed some of his training without being asked to do so and against his wishes.  Colleague A clearly thought it &#8220;standard practice&#8221; [120].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The position was different in the case of the allegations relating to Colleague B [121]-[132].  Unwanted sexual touching of a junior colleague could only be serious misconduct.  It was of &#8220;limited relevance&#8221; that the conduct was also a breach of section 26(2) of the 2010 Act [124].  The conduct was &#8220;deplorable&#8221; and &#8220;consequently constituted serious misconduct&#8221;  [125].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal accepted the GMC&#8217;s case on bringing the profession into disrepute and promoting and maintaining proper professional standards and conduct.  There was no concern about interaction with patients.  As for junior colleagues, in addressing the risk of repetition, he had an excellent reputation and the impressive testimonials included those of some junior female colleagues who had worked with him for years, had experienced no inappropriate behaviour and felt comfortable in his presence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There had been no repetition of the kind of conduct used in relation to Colleague B since 2019, the tribunal noted.  The tribunal then said at [129]-[130]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;129.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">&#8230; The Tribunal had regard to Dr Shah&#8217;s awareness of the grave impact of these findings on his professional reputation and the impact of these findings on his legacy.  The Tribunal also had regard to the evidence which demonstrates that Dr Shah has made some efforts to remediate, including attending a two-day Professional Boundaries course and that he had subsequently created a reflective statement. On balance the Tribunal did not find there was sufficient evidence to be satisfied that there was a risk of repetition of the misconduct.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">130.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">The Tribunal has no doubt Dr Shah&#8217;s misconduct brings the medical profession into disrepute and that he has breached fundamental tenets of the medical profession, in particular, the requirement to respect colleagues. It is of the view that the misconduct is of such a serious nature that irrespective of any personal insight and remediation a finding of current impairment would still be necessary to maintain public confidence in the profession and to promote and maintain proper professional standards and conduct for members of the profession.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal dealt with the issue of sanction the next day, 29 August 2024 [132]-[180].  The GMC&#8217;s submissions were provided in writing only, with permission of the tribunal.  Ms Emsley-Smith&#8217;s written submissions appear not to have been read into the record and the GMC has not produced them.  It is reasonable to infer that what she submitted is correctly reflected in the tribunal&#8217;s decision on sanction.  Mr Brassington made his submissions orally and they are in the transcript.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">According to the tribunal&#8217;s decision on sanction delivered on 29 August 2024, Ms Emsley-Smith submitted that &#8220;a serious sanction was mandatory&#8221; [134] and that &#8220;it was GMC&#8217;s position that the appropriate sanction was erasure&#8221;; suspension &#8220;would not adequately mark the seriousness of the misconduct and the message which is required as a response to it&#8221; [136].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ms Emsley-Smith did not go as far as to submit that erasure was mandatory, i.e. the only penalty the tribunal could properly and rationally impose; no doubt respecting the autonomy of the tribunal and that the fact that most of the allegations about Colleague A had been found unproved.  She did submit, referring to paragraphs 92 and 93 of the Sanctions Guidance, that the conduct found proved was by itself &#8220;fundamentally incompatible with continued registration&#8221; [137].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">She then submitted, by reference to paragraphs 107, 108 and 109 of the Sanctions Guidance, that Mr Shah&#8217;s actions (borrowing some of the words in the Sanctions Guidance) displayed [138]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220;a blatant disregard for the expectation that a doctor must maintain the high standards of the medical profession. She stated that the misconduct found proved showed a disregard for the principles set out in Good Medical Practice. She said that Dr Shah must have known at the time that squeezing Colleague B&#8217;s bottom was grossly inappropriate conduct and breached GMP in an egregious manner.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">She then referred the tribunal [139] to paragraph 138(b) of the Sanctions Guidance.  That provides under the heading &#8220;[f]ailure to work collaboratively with colleagues&#8221;, that &#8220;[m]ore serious outcomes are likely to be appropriate if there are serious findings that involve &#8230; sexual harassment &#8230; [or] unlawful discrimination (see paragraphs 139-141)&#8221;.  Those paragraphs then address various forms of discrimination other than by means of sexual harassment, referring to but not limiting the content to discrimination for &#8220;characteristics covered by the equalities legislation&#8221; (paragraph 140).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, Ms Emsley-Smith sought [140] to limit any positive impact of the many testimonials in favour of Mr Shah.  They predated the adverse findings against Mr Shah.  Professor Booton&#8217;s testimonial was compromised, she argued, because he had taken Mr Shah&#8217;s denial of misconduct towards Colleague B at face value.  Further, &#8220;being an excellent surgeon cannot  mitigate sexually inappropriate conduct to junior colleagues&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For Mr Shah, Mr Brassington argued for suspension [141]-[151].  It is unnecessary to set his submissions out at length because the tribunal largely accepted them.  He submitted that the gravity of the conduct found proved was &#8220;not in any way sufficient on its own to justify erasure from the medical register&#8221;.  He said the GMC&#8217;s submission was &#8220;utterly disproportionate and lacking in judgment&#8221;.  The tribunal recorded that he &#8220;accepted that Dr Shah&#8217;s conduct was entirely inappropriate and should never have happened, but stated that it was not such that it meant erasure must inevitably follow.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal then stated its determination on sanction [152]-[180].  At [153] they said they had regard to &#8220;the current version of the SG [Sanctions Guidance]&#8221;.  It is common ground that this was the up to date version from which both counsel quoted in their submissions.  The tribunal directed itself on the law, uncontroversially [154]-[158].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal identified three aggravating factors: the repetition of sexual touching of Colleague B; that the misconduct occurred in a work environment and was perpetrated on a colleague; and the imbalance in seniority displaying a breach of trust and failure of responsibility.  The tribunal then identified three mitigating factors: the expression of regret and remorse and his apology to Colleague B, the GMC and the public in a reflective statement; his good character attested to in testimonials; and attendance on courses by way of remediation, with reflections on his learning [159]-[161].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal then considered possible sanctions in ascending order of severity.  The only two realistic options were suspension or erasure.  From [167] onwards, the tribunal considered suspension, but also erasure because the issue was which of the two alternatives was appropriate.  The tribunal referred to paragraphs 91, 92, 93 and part of paragraph 97 of the Sanctions Guidance.  Suspension is (by paragraph 92):</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220;&#8230; an appropriate response to misconduct that is so serious that action must be taken to protect members of the public and maintain public confidence in the profession. A period of suspension will be appropriate for conduct that is serious but falls short of being fundamentally incompatible with continued registration (ie for which erasure is more likely to be the appropriate sanction &#8230; .&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal then quoted [170] paragraphs 149 and 150 of the Sanctions Guidance, dealing with sexual misconduct.  They then [171] noted that the sexual misconduct was a serious breach of &#8220;Good Medical Practice&#8221; (<span style="font-weight:bold">GMP</span>) with serious consequences for Colleague B and the reputation of the profession and &#8220;noted that such conduct made the sanction of erasure more likely, but not inevitable&#8221;.  The tribunal:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220;considered carefully the nature of the misconduct as proved and determined that although it did involve unwanted sexual touching, it was not of such a nature that it was at the highest end of the spectrum as regards sexual misconduct. The Tribunal then considered whether the conduct, serious as it was, fell short of conduct that was incompatible with continued registration.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">At [172], the tribunal quoted from paragraph 109(a), (d) and (f) of the Sanctions Guidance.  I interject that the GMC complains of misquotation of (a).  The version in force at the time reads: &#8220;[a] particularly serious departure from the principles set out in Good medical practice where the behaviour is difficult to remediate&#8221;.  The tribunal&#8217;s quote is from a previous version where instead of &#8220;difficult to remediate&#8221;, the concluding words are &#8220;fundamentally incompatible with being a doctor&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The latter words echo the words &#8220;fundamentally incompatible with continued registration&#8221;, used in paragraph 92 dealing with suspension.  Those words were picked up in Ms Emsley-Smith&#8217;s submissions [137].  She was saying that suspension was unsuitable because Mr Shah&#8217;s conduct was fundamentally incompatible with him continuing to practise as a doctor.  I do not know whether she quoted the words &#8220;difficult to remediate&#8221; in her written submissions, which are not before the court.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In the next paragraph, the tribunal said they &#8220;were of the view that the conduct was potentially remediable, and that it had evidence that Dr Shah had commenced that remediation&#8221; [173].  I set out in full the remaining part of the decision on sanction:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220;&#8230; There had been a breach of trust, in that Dr Shah was much more senior to Colleague B. However, the Tribunal did not find that his seniority had been a significant contributor to the misconduct which had been largely opportunistic in nature. The Tribunal recognised that any unwanted sexual touching, particularly within a work environment, must be viewed as significant and serious. However, as stated above, it did not find the actions of Dr Shah to be at the most serious end of the scale of such misconduct. The Tribunal also reminded itself that it must not assume that all sexual misconduct must lead to automatic imposition of the sanction of erasure, but that it was for the Tribunal to exercise its own discretion taking into account all the circumstances.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt">174.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">The Tribunal reminded itself that it had found that there was no risk of the behaviour being repeated. For those reasons the consideration of insight and remediation was of less importance, but the Tribunal was satisfied that Dr Shah displayed a developing level of insight, as demonstrated by the remedial work he has undertaken. Dr Shah had attended courses and produced detailed written statements demonstrating his understanding and awareness of how his conduct impacts on others. It noted that it could not be expected that there would be evidence of full remediation and insight so soon after Dr Shah had maintained his denial of the offending behaviour.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">175.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">For these reasons the Tribunal determined that the misconduct found fell short of being fundamentally incompatible with continued registration.  The Tribunal therefore decided that a sanction of suspension would uphold the overarching objective in the circumstances of this case. The Tribunal was satisfied that a period of suspension would maintain public confidence and uphold professional standards and conduct. The Tribunal did consider that it was in the public interest to retain a valuable doctor on the register, but this was not a significant factor in its determination. The Tribunal accepted the submission of the GMC, as did Mr Brassington on behalf of the Doctor, that &#8216;being an excellent surgeon cannot mitigate sexually inappropriate conduct to junior colleagues&#8217;.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">176.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">The Tribunal determined that a period of suspension would be sufficient to uphold the overarching objective and would send a clear message to the profession and the wider public that conduct of this nature was unacceptable. Further, it considered that a period of suspension was the appropriate and proportionate sanction in this case.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">177.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">The Tribunal determined that Dr Shah&#8217;s registration should be suspended for a period of twelve months. The Tribunal considered that this was an appropriate period in order to reflect the seriousness of the misconduct found proven and to afford the doctor a sufficient period of time to reflect and continue on his journey of insight and remediation.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">178.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">The Tribunal determined to direct a review of Dr Shah&#8217;s case. A review hearing will convene shortly before the end of the period of suspension, unless an early review is sought.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">179.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">The Tribunal wished to clarify that at the review hearing, the onus will be on Dr Shah to demonstrate how he has remediated and developed full insight into his misconduct. It therefore may assist the reviewing Tribunal if Dr Shah provides that Tribunal with: x Evidence of reflection which focuses on his misconduct;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:Symbol;font-size:11pt;margin-left:1.04in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.04in"><span style="font-size:11pt">Up-to-date testimonials;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:Symbol;font-size:11pt;margin-left:1.04in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.04in"><span style="font-size:11pt">Evidence of how Dr Shah has kept his clinical knowledge up to date;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:Symbol;font-size:11pt;margin-left:1.04in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.04in"><span style="font-size:11pt">Any other evidence which Dr Shah may wish to submit. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">180.</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in;text-indent:0.21in"><span style="font-size:11pt">Dr Shah will also be able to provide any other information that he considers might assist in demonstrating that his fitness to practise is no longer impaired.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal then made an &#8220;immediate order&#8221;, meaning that the 12 month suspension (the maximum period of suspension the tribunal can impose) would commence the same day, on 29 August 2024.  The review would therefore be expected to take place in or about late August 2025, at the end of the suspension period.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Law</span></heading>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC can appeal if it considers the tribunal&#8217;s decision &#8220;is not sufficient (whether as to a finding or a penalty or both) for the protection of the public&#8221; (section 40A(3)); i.e. not sufficient to protect the health, safety and well-being of the public, to maintain public confidence in the medical profession and to maintain proper professional standards and conduct for members of that profession (section 40A(4)(a)-(c)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ms Eleanor Grey KC reminded me that CPR Part 52 applies to this appeal and therefore that I should allow the appeal if the decision below is &#8220;wrong&#8221; or &#8220;unjust because of a serious procedural or other irregularity in the proceedings below&#8221; (CPR rule 52.21(3)(a) and (b)).  Ms Grey referred me to the usual case law and in particular the decision of the Divisional Court in <span style="font-style:italic">GMC v. Jagjivan</span> [2017] 1 WLR 4438 and the summary in the judgment of the court given by Sharp LJ (as she then was) in eight propositions at [40].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ms Grey relied in particular on the fourth proposition that the court may draw any inferences of fact which it considers justified on the evidence (CPR rule 52.21(4)); and the sixth proposition that in cases not engaging the tribunal&#8217;s professional expertise in clinical matters, such as sexual misconduct cases, the court may feel it can assess what is needed to protect the public or maintain the reputation of the profession more easily for itself and thus attach less weight to the expertise of the tribunal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A sanction for misconduct is (<span style="font-style:italic">Bawa-Garba v. General Medical Council</span> [2019] 1 WLR 1929, judgment of the court (Lord Burnett CJ presiding) at [61]):</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:0.79in"><span style="font-size:11pt">&#8220;an evaluative decision based on many factors, a type of decision sometimes referred to as &#8216;a multi-factorial decision&#8217;  This type of decision, a mixture of fact and law, has been described as &#8216;a kind of jury question&#8217; about which reasonable people may reasonably disagree &#8230; .&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">An appellate court should only interfere with an evaluative decision if there was an error of principle in carrying out the evaluation or for any other reason it was wrong, i.e. outside the bounds of what the adjudicative body could properly and reasonably decide: <span style="font-style:italic">Bawa-Garba v. General Medical Council</span>, judgment of the court at [67].  The same approach should be followed in section 40A appeals (<span style="font-style:italic">Haris v. General Medical Council</span> [2021] Med LR 498, per Andrews LJ at [11]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">A failure to provide adequate reasons for a decision may be a serious procedural irregularity causing the decision to be unjust (Sharp LJ&#8217;s eighth and last proposition in <span style="font-style:italic">Jagjivan</span>, [40]).  The degree of deference to the tribunal below is more limited, or absent, where there is a serious procedural irregularity such as a failure to give reasons (<span style="font-style:italic">Professional Standards Authority for Health and Social Care v. General Medical Council and Lingam</span> [2023] EWHC 967 (Admin), per Foster J at [17]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Failure to give proper consideration to relevant provisions in the applicable Sanctions Guidance can justify overturning a finding made in relation to sanction; per Jay J in <span style="font-style:italic">General Medical Council v. Stone</span> [2017] 4 WLR 207, at [53].  Departure from what Collins Rice J called a &#8220;steer&#8221; in the Sanctions Guidance that erasure is appropriate must bring with it a duty to &#8220;state clear reasons for departure&#8221; from the steer (<span style="font-style:italic">General Medical Council v. Bramhall</span> [2021] EWHC 2109 (Admin) at [36]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There was some discussion in oral argument about the change of statutory wording from &#8220;serious professional misconduct&#8221; in the 1983 Act as first enacted, to plain &#8220;misconduct&#8221; in the current incarnation.  I was taken to Yip J&#8217;s absorbing account in <span style="font-style:italic">Benn v. General Medical Council</span> [2025] EWHC 87 (Admin) at [67]-[82], where she traced the wording back to the now quixotic sounding &#8220;infamous conduct in a professional respect&#8221; in the Medical Act 1858.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not think any issue in this appeal turns on the disappearance from the 1983 Act, during the legislative history, of the adjective &#8220;serious&#8221; before the noun &#8220;misconduct&#8221;.  It was not disputed that the tribunal correctly found that Mr Shah had committed misconduct and that it was serious.  How serious it was is relevant to the issues of impairment and sanction.  It is the tribunal&#8217;s determination of those issues and its reasoning that are the subject of the GMC&#8217;s criticisms in this appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Stephen Brassington, for Mr Shah, cautioned against an over-technical approach to tribunal decisions.  They should not be subjected to detailed forensic textual analysis and should be interpreted with greater generosity than court judgments: <span style="font-style:italic">Bedesha v. National College for Teaching and Leadership</span> [2014] EWHC 1531 (Admin) per Charles J at [7]; <span style="font-style:italic">Professional Standards Authority for Health and Social Care v. General Medical Council and Uppal</span> [2015] EWHC 1304 (Admin) per Lang J at [44]; <span style="font-style:italic">Byrne v General Medical Council</span> [2021] EWHC 2237 (Admin) per Morris J at [27].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Byrne</span>, Morris J said that for an appeal court to allow an appeal on the basis of inadequate reasons, it must be &#8220;not possible for the appeal court to understand why the judge below had reached the decision it did reach&#8221;, even with knowledge of the evidence and submissions made below, which he called the &#8220;underlying material&#8221;.  In <span style="font-style:italic">Uppal</span>, Lang J said that the panel did not need to record every point to show it has been taken into account and this is &#8220;particularly so in fitness to practise hearings where the parties and the appeal court has [sic] a full transcript of the hearing.&#8221;</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issues, Reasoning and Conclusions</span></heading>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The four grounds of appeal are that the tribunal &#8220;erred in concluding, at the impairment stage, that the conduct towards Colleague A / the language used to describe other female colleagues did not amount to serious misconduct&#8221;; &#8220;erred in its analysis and assessment of risk, insight and remediation at the impairment stage&#8221;; erred in two specific respects when applying paragraph 109 of the Sanctions Guidance; and that its &#8220;consideration of insight, remediation and risk of repetition at the sanction stage was wholly inadequate&#8221;.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="ParaLevel1"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">First ground of appeal: error in concluding that conduct towards Colleague A and language used to describe other female colleagues was not serious misconduct</span></heading>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC&#8217;s skeleton argument was prepared by Ms Jenni Richards KC, like Ms Grey a regular in the regulatory and disciplinary jurisdictions.  It was submitted that the tribunal was bound to find that the conduct towards Colleague A, whom Mr Shah called a &#8220;good girl&#8221; and using the word &#8220;bird&#8221; to describe other female colleagues when talking to Colleague A, was serious misconduct and not just misconduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC relied on &#8220;the significant power imbalance&#8221; and the finding that the conduct was harassment related to sex.  It was not good enough merely to say the tribunal was not satisfied colleagues of Mr Shah or members of the public would find the behaviour so reprehensible as to be deplorable.  The tribunal failed to appreciate the seriousness of the finding of breach of the Equality Act 2010 and the importance of eliminating sexual harassment from the workplace.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC submitted, further, that the tribunal failed to link the language used to Colleague A about her (i.e. calling her a &#8220;good girl&#8221; or the like) and to Colleague A about other female colleagues (i.e. referring to them as &#8220;bird&#8221;) with the proven sexual misconduct towards Colleague B; and failed to consider &#8220;whether this might indicate that he had problematic attitudinal issues in relation to respect for women&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Ms Grey developed those points in oral argument, submitting that the tribunal failed to give proper weight to its own finding of breach of the Equality Act section 26, which was important because it had expressly been included in the charges relating to treatment of Colleague A; and because it sets a standard for workplace behaviour, breach of which &#8211; in this case &#8211; could not be fairly characterised as other than serious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For Mr Shah, Mr Brassington submitted that the GMC&#8217;s critique did not do justice to the tribunal, which had approached the seriousness of the misconduct in relation to Colleague A with care.  It identified [115]-[116] four sections of GMP that had been breached; it identified the breach of the Equality Act 2010; and it noted the &#8220;significant imbalance of power&#8221; [116].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The reasoning, said Mr Brassington, included the point that Colleague A had felt able to challenge Mr Shah&#8217;s language; that the word &#8220;bird&#8221; was used when he did not recall someone&#8217;s name; and that &#8220;good girl&#8221; was intended to praise or thank, albeit it was accepted with hindsight it was inappropriate [116].  He relied on the point that the context in which inappropriate language is used is relevant to how serious its use is, a point missing from the GMC&#8217;s critique.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for &#8220;attitudinal&#8221; issues, Mr Brassington pointed out that there was no allegation that the words used when talking to Colleague A were sexually motivated.  Mr Shah did not mean to demean anyone but the language used to Colleague A, objectively viewed, was harassment &#8220;irrespective of his intention&#8221;.  The tribunal did consider the issue of attitude, Mr Brassington argued: it made findings about the intention to convey praise and the forgetting of female colleagues&#8217; names.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal was right, he submitted, to observe that not every breach of the Equality Act requires a regulatory hearing, just as not every breach of GMP requires one.  The tribunal did not condone or downplay or trivialise workplace harassment; it merely assessed in a measured way how serious it was on the particular facts here.  The tribunal heard the evidence and could observe the witnesses and their demeanour.  It is not for the High Court to substitute its view for the tribunal&#8217;s evaluation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Turning to my reasoning and conclusions on this ground of appeal, I start with the decision at [25]-[35] where the tribunal directed itself as the law and how to approach the evidence.  Those directions included setting out section 26 of the Equality Act 2010, the approach to sexual motivation in the regulatory context.  Sexual motivation requires a specific intent and is not the same as carelessness, recklessness or negligence [28].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal appreciated the need to draw inferences from facts when considering motivation.  The tribunal was well aware of the concepts of cross-admissibility of evidence and evidence of propensity, borrowed from the criminal law [32]-[35].  There is no criticism of any of these directions of law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal&#8217;s findings of primary fact are not criticised.  There is no challenge to them.  The findings were, in my judgment, nuanced, careful and detailed.  The GMC did not contend otherwise.  That includes the finding that its witness, Colleague A, was an unreliable one.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Where a tribunal has sat for 13 days, considered hundreds of pages of documents, heard detailed oral evidence, heard erudite submissions and makes no error either when directing itself on the law or in finding the facts, it is doing its job rightly, so far.  That does not, of course, exclude errors of principle or approach or the drawing of unreasonable inferences or failure to draw necessary inferences, but it is a good start.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I cannot find any reason to accept the GMC&#8217;s submission that the tribunal was bound to find that reasonable colleagues or members of the wider public would find Mr Shah&#8217;s proven conduct towards Colleague A deplorable.  That is no doubt the GMC&#8217;s view, but it was for the tribunal to form its own view, within the bounds of reasonableness, about the quality of the conduct and whether it merited the epithet &#8220;deplorable&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The question was one of those described by Lord Burnett CJ in <span style="font-style:italic">Bawa-Garba</span> at [61] (based on earlier authority) as &#8220;a kind of jury question&#8221;, about which people may reasonably disagree.  The GMC&#8217;s contention must therefore be that only people being unreasonable could find the proven conduct towards Colleague A other than deplorable and that reasonable people could only find it deplorable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I reject that.  As Mr Brassington and the tribunal pointed out, the use of the phrase &#8220;good girl&#8221;, though accepted as inappropriate with hindsight, was intended to thank or praise.  Many would find it patronising but it does very much depend on the context.  As for use of the word &#8220;bird&#8221;, it was not used as a mode of address to a person but as a word denoting a person whose name Mr Shah could not remember.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Once it is recognised that there are degrees of misconduct, including conduct amounting to sexual harassment, it has to be accepted that there is a spectrum and there must within that spectrum be some room for conduct that is not serious, even if it is sexual harassment.  That may be a difficult and embarrassing thing to say or for the GMC to accept, rightly concerned as it is to protect the dignity of its female workforce.  It is, however, what the tribunal found in this case.  I do not see any flaw in that finding.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is obvious that there are degrees of seriousness where sexual harassment is committed.  The example of Colleague B may test this: supposing that Mr Shah had harassed her by unwanted sexual touching ten times in five years rather than twice in five years.  His sexual harassment of her would have been more serious than it was.  It is obvious that sexual harassment may vary: from annoying unwanted verbal sexual innuendo at one end of the spectrum to serious sexual assault at the other.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The reasoning in the decision at [116]-[118] is sound.  I note the observation that Mr Shah&#8217;s use of language towards Colleague A was harassment under section 26(1) of the Equality Act 2010.  The tribunal then said at [117] that it &#8220;did not accept that to make this finding meant that it was bound to find serious misconduct&#8221;.  That was not a misdirection of law and I did not understand the GMC to contend that it was.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I agree with Mr Brassington that not every breach of the Equality Act 2010 necessarily requires a disciplinary process.  The Act does not apply directly to disciplinary proceedings, though it has relevance as part of the guidance and as a measure of the standards expected of doctors dealing with female staff or other staff with protected characteristics.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal&#8217;s reasoning as set out in the decision demonstrates to my satisfaction that it took into account the matters the GMC relies on in this appeal: the significant power imbalance, the fact that the use of language was harassment related to sex (albeit not sexually motivated) and the importance of eliminating sexual harassment from the workplace.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num>87.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is worth saying a little more about the status and relevance of the 2010 Act in disciplinary proceedings such as these.  Breaches of section 26 were included in the charges against Mr Shah.  Ms Emsley-Smith properly referred the tribunal [139] to paragraph 138(b) of the Sanctions Guidance, which states that &#8220;[m]ore serious outcomes are likely to be appropriate if there are serious findings that involve &#8230; sexual harassment &#8230; [or] unlawful discrimination (see paragraphs 139-141)&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num>88.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The 2010 Act is clearly of relevance because it appears in guidance and gives a good indication of what the legislature expects and therefore, probably, the public would or should regard as acceptable or unacceptable in the workplace.  That is not controversial.  But one must be careful not to overstate the relevance of the 2010 Act.  It is not a trump card leading to an automatic finding of serious misconduct, still less automatic erasure.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num>89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The provisions of the 2010 Act create statutory causes of action in tort.  The conduct of a doctor in a particular case could be just as much deplorable sexual harassment if the causes of action in tort had never been enacted.  The fact that a legal label fits the doctor&#8217;s conduct does not change what the doctor did and did not do.  Many wrongs in our society contravene more than one law.  The appetite for adding to the list of legal labels to describe wrongs is very strong but it is still the same conduct being judged.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num>90.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I should add that the GMC did not take any point arising from the wording or direct application of the Equality Act 2010.  Rightly, it was not included in the bundle of authorities.  The tribunal does not apply the wording of section 26 of the Act to determine the issue of impairment or the appropriate sanction.  The doctor&#8217;s conduct is judged according to the regime laid down in the Medical Act 1983, the relevant Fitness to Practise Rules (which were not in the authorities bundle) and the Sanctions Guidance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num>91.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the submission that the tribunal failed to consider whether Mr Shah&#8217;s treatment of Colleague B might indicate, with regard to his treatment of Colleague A, that he had &#8220;problematic attitudinal issues in relation to respect for women&#8221;, this seems to me a way of expressing disagreement with the tribunal&#8217;s answer to the jury question whether the treatment of Colleague A was serious misconduct or just misconduct.  The tribunal was well aware of the law on propensity and cross-admissibility.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num>92.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not think the tribunal was bound to find that Mr Shah&#8217;s treatment of Colleague A was aggravated by his treatment of Colleague B.  Indeed, Ms Emsley-Smith did not so submit before the tribunal.  What she was submitting (on day 7, as shown in the transcript) was that there was similar fact evidence as between the treatment of Colleague A and Colleague B.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num>93.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The problem was that the tribunal rejected that because it did not find Colleague A a credible witness.  So the similar fact evidence was not made out.  It is true that Ms Emsley-Smith did also submit that Mr Shah&#8217;s admissions in relation to Colleague A provide &#8220;something of a window&#8221; into Mr Shah&#8217;s &#8220;attitudes&#8221;; but she disavowed any suggestion that &#8220;such attitudes are a gateway to sexual harassment&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num>94.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For those reasons, I do not think the first ground of appeal is well founded and I dismiss it.  The tribunal&#8217;s decision was one which, as Lord Burnett CJ in <span style="font-style:italic">Bawa-Garba</span> at [67], &#8220;an evaluative decision&#8221; but not one that &#8220;fell outside the bounds of what the adjudicative body could properly and reasonably decide&#8221;.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="ParaLevel1"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Second and fourth grounds of appeal: error in analysis and assessment of risk, insight and remediation at impairment stage; inadequate consideration of insight, remediation and risk of repetition at sanction stage</span></heading>
+	  <paragraph eId="para_95">
+	    <num>95.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">These two grounds may be taken together because in both it is said there were errors in addressing the issues of risk, insight and remediation; first, at the impairment stage and second, at the sanction stage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num>96.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">First, the GMC seeks to impugn the tribunal&#8217;s finding that there was &#8220;not sufficient evidence to be satisfied there was a risk of repetition of the misconduct&#8221; [129].  Mr Shah had denied the misconduct.  The tribunal, it was said, failed to explore his insight, or lack of it, into his behaviour.  Having denied sexually touching Colleague B without her consent, Mr Shah could not explain why he did it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num>97.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Very properly, Ms Grey referred me to the cases in which, she submitted, a rejected defence can sometimes be used as evidence of lack of insight without violating the unqualified constitutional right of self-defence.  Those cases are discussed in detail in Collins Rice J&#8217;s judgment in <span style="font-style:italic">Sawati v. General Medical Council</span> [2022] EWHC 283 (Admin) (a case where the allegations included dishonesty) at [75]-[110].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num>98.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Further, said Ms Grey, the fact that the two incidents were five years apart &#8211; with no misconduct against Colleague B during the five year gap &#8211; should have been held <span style="font-style:italic">against</span> Mr Shah because it suggested (as it was put in the skeleton) this was &#8220;a longstanding conduct issue rather than something one-off&#8221;, which should undermine the tribunal&#8217;s point that Mr Shah had not repeated any misconduct since October 2019.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num>99.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC complained that too much weight had been given to the testimonials submitted in support of Mr Shah, which the tribunal described as &#8220;extremely impressive&#8221; [129].  These testimonials predated the adverse findings of fact, as Ms Emsley-Smith had pointed out [140.1].  The evidence of remediation was limited and was given too much weight, the GMC submitted.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num>100.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC contended that the tribunal was wrong to have regard to Mr Shah&#8217;s &#8220;awareness of the grave impact of these findings on his professional reputation and the impact of these findings on his legacy&#8221; [129].  Ms Grey was especially critical of the language used in the last sentence of [129] where the tribunal found &#8220;not enough evidence to be satisfied&#8221; there was a risk of repetition of the misconduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num>101.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Those errors, said Ms Grey, contributed to the wrong finding that suspension and not erasure was the appropriate sanction.  This was the subject of the fourth ground.  The tribunal&#8217;s consideration at the sanction stage of insight, remediation and risk of repetition, said Ms Richards in her skeleton, was &#8220;wholly inadequate&#8221;.  She discerned a difference between finding &#8220;no risk&#8221; of repetition and finding insufficient evidence to find a risk of repetition, which was the language used at the impairment stage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num>102.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal&#8217;s reasoning was criticised as &#8220;circular&#8221; because it said at [174] that consideration of insight and remediation was &#8220;of less importance&#8221; where there is no risk of repetition; whereas they should have assessed the level of insight and remediation in order to determine whether the risk of repetition existed and if so the level of risk.  In oral argument, Ms Grey referred me to paragraph 31ff of the current Sanctions Guidance, explaining what remediation is and how some failings are &#8220;difficult to remediate&#8221; because of the nature and seriousness of the misconduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num>103.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal, in any case, failed to address the extent of Mr Shah&#8217;s insight, the impact of his denial of misconduct, or &#8220;what worrying underlying attitudes the misconduct might reveal&#8221; (as it was put in the GMC&#8217;s skeleton).  The tribunal simply accepted that he had attended courses and written detailed statements &#8220;demonstrating his understanding and awareness of how his conduct impacts on others&#8221; [174].  The tribunal were too ready to accept his word that he would not transgress again.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num>104.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Brassington defended the tribunal&#8217;s decision and reasoning vigorously and in detail, in written and oral argument.  I can summarise his main points as follows.  First, the tribunal was far better placed than I am to assess the issues of risk, insight and remediation.  The tribunal&#8217;s analysis was detailed and careful.  Its decisions were &#8220;multifactorial&#8221;, as Mr Brassington put it.  There was no error of law and it cannot possibly be said that the decisions and reasoning lay outside reasonable bounds.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num>105.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal was aware of the <span style="font-style:italic">Sawati</span> line of authority, to which Ms Emsley-Smith obliquely referred at the impairment stage.  The tribunal directed itself on the point twice ([113] and [157]), in much more detail than Ms Emsley-Smith had given in her submissions.  The GMC has not sought to criticise the tribunal&#8217;s directions.  At [174] they commented, perfectly reasonably said Mr Brassington, that there would not be evidence of &#8220;full remediation and insight so soon after Dr Shah had maintained his denial of the offending behaviour&#8221;.  His insight was &#8220;developing&#8221;, they said.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num>106.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal were entitled to note that Mr Shah had attended a professional boundaries course and made efforts to remediate.  There is no good reason to condemn as unsound the tribunal&#8217;s observation that his attendance on courses and written reflections showed he was &#8220;demonstrating his understanding and awareness of how his conduct impacts on others&#8221;.  The GMC does not explain why that reasoning is wrong.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num>107.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The criticism of the reference to Mr Shah&#8217;s &#8220;reputation&#8221; and &#8220;legacy&#8221; [129] is misplaced, said Mr Brassington.  The words were used in testimonials saying what an excellent doctor Mr Shah is.  Furthermore, the testimonials included statements from female colleagues saying they felt comfortable in Mr Shah&#8217;s presence and that he behaved professionally towards them.  The GMC may not like the testimonials but the tribunal was right not to dismiss them as irrelevant, Mr Brassington argued.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num>108.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Moreover, the context was that Mr Shah had faced disciplinary proceedings leading to summary dismissal, as well as questioning by police.  His fall from grace had been spectacular, as Mr Brassington put it.  The improbability that he would want to put himself and his family through such an experience again was of obvious relevance.  It was proper to take into account that he would be unlikely to throw away his career by repeating any misconduct.  That factor pointed against a risk of repetition.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num>109.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to the fact that there were two instances of unwanted touching, not one, the tribunal took account of &#8220;the fact of the repetition&#8221; [124].  The GMC therefore cannot say the point was overlooked.  It was, indeed, treated as an aggravating factor at the sanction stage.  There were two instances of unwanted sexual touching of junior staff in 10 years and, on the other side, positive evidence of proper professional behaviour towards other junior female staff, with evidence of developing insight.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num>110.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The fact that the testimonials predated the adverse findings was pointed out to the tribunal.  That is nearly always so, because the impairment and sanction stages follow hot on the heels of the adverse findings of fact, with no chance to gather further evidence before those latter stages.  The tribunal recorded Ms Emsley-Smith&#8217;s submission at  [140.1] that the testimonials predated the adverse findings and was not bound to address in terms &#8220;this satellite issue&#8221;, as Mr Brassington characterised it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num>111.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">There was nothing in the complaint that the tribunal had formed a view on risk before considering insight, he said.  At the sanction stage, the tribunal &#8220;reminded itself that it had found that there was no risk of the behaviour being repeated&#8221; and &#8220;[f]or those reasons the consideration of insight and remediation was of less importance&#8221; [174].  But the tribunal had already clearly considered insight and remediation at the impairment stage, as part of its assessment of the risk of repetition ([129]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_112">
+	    <num>112.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It is possible, Mr Brassington pointed out, to have developing and less than full insight but yet for the risk of repetition to be wholly absent.  Less than full insight was to be expected because Mr Shah had denied the charges relating to Colleague B.  It was relevant context that the tribunal had noted at [169] the guidance at paragraph 97(g) of the Sanctions Guidance that suspension may be appropriate where &#8220;the doctor has insight and does not pose a significant risk of repeating behaviour&#8221;.  Insight and risk of repetition often overlap on the facts but they are separate concepts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_113">
+	    <num>113.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, Mr Brassington pointed out that the 12 month suspension would be followed by, as the tribunal was acutely aware, a review of Mr Shah&#8217;s position including how his insight had developed during the period of suspension.  He would be expected to produce evidence about this at the review stage, as the tribunal noted ([178]-[179]) and &#8220;the onus will be on Dr Shah to demonstrate how he has remediated and developed full insight into his misconduct&#8221;.  The tribunal then presented a list of the kinds of evidence he would be expected to produce for the review.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_114">
+	    <num>114.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I have considered these competing arguments.  The tribunal&#8217;s findings start with the finding that the misconduct occurred and that, in relation to Colleague B and therefore overall, it was serious.  There is no complaint about that starting point from either side.  It is obviously right.  Nor is there any complaint about the finding that the treatment of Colleagues A and B was sexual harassment, contrary to section 26 of the 2010 Act and, in the latter case, sexually motivated.  Those decisions too are obviously right.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_115">
+	    <num>115.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In relation to the behaviour towards Colleague B, the tribunal had found &#8220;current impairment&#8221;.  Mr Brassington did not argue against that proposition either before the tribunal or in this appeal.  That finding too is not criticised by either side and is clearly justified.  It was in the context of those unchallenged findings that issues of risk of repetition, remediation and insight had to be addressed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_116">
+	    <num>116.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Shah had apologised to Colleague B in writing in October 2019, shortly after the second incident and her complaint about it.  By the time of the 13 day disciplinary hearing, he had attended a professional boundaries course.  These factors enabled Mr Brassington to submit to the tribunal that he had already embarked on acts of remediation and that the risk of repetition was &#8220;vanishingly small&#8221; [100].  The tribunal was duty bound to consider whether it agreed with that or not.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_117">
+	    <num>117.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">It was relevant to the assessment of risk that some junior female colleagues had attested to feeling comfortable in his presence and to him behaving professionally towards them.  It was also relevant, despite the GMC&#8217;s attempt to play down the point, that he had not committed any act of sexual harassment or other misconduct since 2019.  The GMC grudgingly accepted this while also saying the five year gap between the two incidents indicated was &#8220;a longstanding conduct issue rather than something one-off&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_118">
+	    <num>118.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I think that is an unkind forensic attempt to turn mitigation into aggravation.  What would the GMC have submitted if there had been sustained incidents several times each year?  I do not find the reasoning convincing.  But it is not, primarily, my view that matters.  The tribunal identified and assessed three aggravating and three mitigating factors [159]-[161].  The GMC does not criticise this exercise.  It does not reproach the tribunal with omitting aggravating factors or wrongly including mitigating factors.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_119">
+	    <num>119.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The tribunal went on to state that it was &#8220;of the view that the conduct was potentially remediable, and that it had evidence that Dr Shah had commenced that remediation&#8221; [173].  For my part, I cannot see any flaw in that reasoning and I do not see why the tribunal was not entitled to reach that view and act on it.  The evaluation of risk, remediation and insight is a matter for the tribunal, not the GMC, not the doctor and not this court unless there is an error in the tribunal&#8217;s treatment of the issue.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_120">
+	    <num>120.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I reject the dogmatic proposition that the assessment of risk must always come last in the chain of reasoning and that remediation then insight (or insight then remediation?) must come before the assessment of risk.  They are, as Mr Brassington said, separate concepts but they often, indeed usually, overlap on the facts.  It is up to the tribunal to apply the Sanctions Guidance and the GMC did not point to provisions in it mandating any particular methodology or order of play, provided the facts are found before impairment is considered and impairment is considered before sanction is considered.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_121">
+	    <num>121.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The complaint that the finding of absence of risk was at one point stated in the form of an insufficiency of evidence of risk provides no support for the contention that the tribunal erred in principle in its assessment of the risk of repetition.  It is the kind of textual forensic point that should be deprecated, as Charles J pointed out in <span style="font-style:italic">Bedesha</span>.  It is clear why the tribunal found an absence of risk and it should not be taken to task on the merely linguistic ground that it used the phrase &#8220;not enough evidence&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_122">
+	    <num>122.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nor am I impressed with the argument that the tribunal should not have referred to Mr Shah&#8217;s &#8220;legacy&#8221;, as it did at [129].  The word was used in testimonials, and in submission below, to point up the contrast between what his legacy <span style="font-style:italic">should</span> have been and what it will be in the light of his conduct.  Thus, Mr Brassington submitted below (as recorded at [103]), that Mr Shah &#8220;accepts there will be a finding of current impairment in respect of his conduct relating to Colleague B, and is aware of the impact this will have on what would otherwise have been an exemplary career and legacy.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_123">
+	    <num>123.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the timing of  developing insight, the GMC correctly referred to the <span style="font-style:italic">Sawati</span> line of cases on the unqualified right of self-defence.  The tribunal was right not to expect a Damascene overnight revelation of full insight the day after the findings of fact.  Ms Grey did not explain what was wrong with the way the tribunal addressed that issue.  To describe the doctor&#8217;s insight as developing and subject to examination at the review stage was not wrong or unfair on anyone.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_124">
+	    <num>124.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Nor was it wrong for the tribunal to measure risk of repetition by, alongside other relevant considerations, the improbability that Mr Shah would throw away his career or expose himself and his family to shame and ignominy.  An absence of risk of repetition does not have to be driven wholly by remorse, shame or self-loathing about past conduct; just as offenders leaving prison may think twice about reoffending not just out of sympathy for their possible future victims.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_125">
+	    <num>125.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I reject any implied suggestion that the tribunal ought to have regarded Mr Shah&#8217;s reflective statements with world-weary cynicism, as self-serving and insincere.  There is no point in reflective statements if they cannot, at least sometimes, be accepted at face value.  If they are to be rejected as insincere (or even used <span style="font-style:italic">against</span> a person as in <span style="font-style:italic">Lusinga v. Nursing and Midwifery Council</span> [2017] EHWC 1458 (Admin), [50]-[51], [57], [81] and [91]-[92]), the tribunal would have to explain why.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_126">
+	    <num>126.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">For those reasons, which closely resemble the reasons put forward in Mr Brassington&#8217;s submissions, I find &#8211; both at the impairment stage and at the sanction stage &#8211; that the tribunal made evaluative decisions on risk of repetition, remediation and insight that were well within the bounds of what a reasonable adjudicative body could decide.  Accordingly, I reject the second and fourth grounds of appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Third ground of appeal: errors in considering and applying paragraph 109 of the Sanctions Guidance</span></heading>
+	  <paragraph eId="para_127">
+	    <num>127.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">First, the GMC says the tribunal overlooked paragraph 109(b) stating that erasure may be appropriate where there is &#8220;[a] deliberate or reckless disregard for the principles set out in <span style="font-style:italic">Good medical practice</span> and/or patient safety&#8221;.  Secondly, the wrong wording of paragraph 109(a) was applied: that erasure may be appropriate where the behaviour is &#8220;fundamentally incompatible with being a doctor&#8221; instead of &#8220;difficult to remediate&#8221;.  The latter error affected the reasoning and sanction (grounds of appeal paragraph 9).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_128">
+	    <num>128.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to the first point, the GMC submitted in written argument that paragraph 109 is a &#8220;key part&#8221; of the Sanctions Guidance and that non-consensual sexual touching and harassment was &#8220;undoubtedly&#8221; a &#8220;deliberate or reckless disregard for the principles set out in <span style="font-style:italic">Good medical practice</span> &#8230; .&#8221;  The tribunal overlooked this point and thereby erred in its consideration and application of the Sanctions Guidance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_129">
+	    <num>129.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As to the second point, the GMC submitted that the version of the Sanctions Guidance from which the tribunal quoted did not apply to hearings starting on or after 5 February 2024.  It was the start date of the hearing, not the date of any misconduct, that determined which version of the Guidance applied.  The parties had referred the tribunal to the up to date version, which substitutes &#8220;difficult to remediate&#8221; for &#8220;fundamentally incompatible with being a doctor&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_130">
+	    <num>130.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC submitted that &#8220;[t]his error is highly likely to have impacted upon the Tribunal&#8217;s reasoning and its consideration of the appropriate sanction&#8221;.  The two errors together meant that the tribunal had &#8220;failed to follow the steer of the guidance, or to give sufficiently clear, substantial and specific reasons for [<span style="font-style:italic">not?</span>] doing so.&#8221;  Ms Grey accepted that the tribunal had gone on to say [173] that &#8220;the conduct was potentially remediable&#8221;, but that conclusion was impugned in the fourth ground of appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_131">
+	    <num>131.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Mr Brassington accepted that the tribunal had quoted from the old version of paragraph 109 of the Sanctions Guidance and that the wording had changed as stated by the GMC.  He submitted that the tribunal&#8217;s omission of paragraph 109(b) does not assist the GMC: it found that Mr Shah&#8217;s conduct was &#8220;a particularly serious departure&#8221; from the principles set out in GMP (paragraph 109(a)) and an &#8220;abuse of position / trust&#8221; (paragraph 109(d)), as well as an &#8220;[o]ffence&#8230; of a sexual nature&#8221; (paragraph 109(f)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_132">
+	    <num>132.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">He submitted that the tribunal recognised three factors pointing in the direction of erasure and it is difficult to see how adding a fourth, &#8220;deliberate or reckless disregard&#8221;, would have altered the tribunal&#8217;s overall analysis, which was that this was very serious misconduct which in the circumstances fell just short of warranting erasure.  It is obvious that the tribunal fully appreciated the seriousness of the misconduct.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_133">
+	    <num>133.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">As for the changed wording from &#8220;fundamentally incompatible with being a doctor&#8221; to &#8220;difficult to remediate&#8221;, Mr Brassington submitted that the older form of words quoted by the tribunal is actually harsher on Mr Shah and &#8220;indicates a dimmer view of his conduct&#8221;, as he put it in his skeleton argument.  He submitted that it is difficult to see how the error could be said to have led to imposition of the wrong sanction.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_134">
+	    <num>134.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I come to my reasoning and conclusions.  The only words of substance missing from the tribunal&#8217;s consideration of paragraph 109 of the Sanctions Guidance are, as the GMC would have it, the adjectives &#8220;deliberate or reckless&#8221; to describe the quality of the doctor&#8217;s &#8220;disregard&#8221; of principles of GMP.  This omission may have been because the tribunal overlooked 109(b) or it may have been because it did not consider that (b) applied on the facts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_135">
+	    <num>135.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">If it was the latter, I do not think it was an error of principle not to explain why it did not think Mr Shah&#8217;s disregard for GMP was deliberate or reckless.  It is the disregard of GMP that must be deliberate or reckless, not the misconduct.  The tribunal analysed Mr Shah&#8217;s conduct carefully and in detail in its decision.  If it was the former, which I think unlikely since the tribunal had paragraph 109 well in mind, I accept the submission of Mr Brassington that the omission would not have made any difference to the analysis or the conclusion and does not vitiate the decision to suspend not erase.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_136">
+	    <num>136.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The facts are far removed from those that confronted Jay J in <span style="font-style:italic">General Medical Council v. Stone</span>.  There, a GP had entered into a sexual relationship with a patient over two years and nine months, while continuing to act as her GP; the patient had suffered from depression and tried to take her own life.  The tribunal found dishonesty as well, when the matter came to light.  It is not surprising that the judge found a 12 month suspension inadequate to protect the public and maintain confidence in the profession.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_137">
+	    <num>137.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">General Medical Council v. Bramhall</span>, a surgeon had been convicted of assault after marking his initials on the livers of patients on whom he had operated.  Collins Rice J held that it was an error to have omitted to explain what was a clear departure from the &#8220;steer&#8221; of &#8220;erasure indicators&#8221; in paragraph 109.  In <span style="font-style:italic">Bramhall</span>, these were that the doctor had taken advantage of vulnerable patients and abused his power and their trust in him.  The determination appealed against did not address these indicators.  There was &#8220;an important part of the picture missing&#8221; (see the judgment at [35]-[36]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_138">
+	    <num>138.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">That is not so here.  I do not think &#8220;reckless disregard&#8221; of GMP fits well with the tribunal&#8217;s assessment of Mr Shah&#8217;s conduct.  In relation to Colleague A, the misconduct was not found to be serious, albeit it was sexual harassment.  In relation to Colleague B, the misconduct was serious but there were two episodes five years apart.  I cannot view this case, as the GMC does, as one where there is a gap in the tribunal&#8217;s reasoning and an unexplained departure from an authoritative steer in the Sanctions Guidance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_139">
+	    <num>139.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">When referring the tribunal to the Sanctions Guidance including paragraph 109, Ms Emsley-Smith had submitted [138] that there was a &#8220;blatant disregard for the expectation that a doctor must maintain the high standards of the medical profession&#8221;.  This is not a case where the tribunal failed to address that proposition.  She submitted [137] that his conduct was &#8220;fundamentally incompatible with continued registration&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_140">
+	    <num>140.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Indeed, the tribunal found [170]-[171] by reference to paragraphs 149 and 150 of the Sanctions Guidance that the misconduct was a &#8220;serious breach of [GMP]&#8221; and that made the sanction of erasure likely, albeit not inevitable.  The tribunal was well aware the GMC was submitting that the misconduct was fundamentally incompatible with continued registration.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_141">
+	    <num>141.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">I do not think the phrase &#8220;deliberate or reckless disregard of [GMP]&#8221; would have added anything significant to the tribunal&#8217;s assessment of those arguments.  I reject the submission that it is highly likely the error, if there was one which is not clearly shown, tipped the scales away from erasure and towards a 12 month suspension followed by a review at the end of the suspension period.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_142">
+	    <num>142.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">Finally, it is said that the decision was vitiated by the tribunal&#8217;s consideration of whether the behaviour was &#8220;fundamentally incompatible with being a doctor&#8221; instead of whether the behaviour was &#8220;difficult to remediate&#8221; (paragraph 109(a)).  However, difficulty in remediating is, as Ms Grey accepts, considered in the next paragraph of the tribunal&#8217;s decision [173] where the conclusion is that &#8220;the conduct was potentially remediable, and &#8230; it had evidence that Dr Shah had commenced that remediation&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_143">
+	    <num>143.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The GMC sought to impugn that finding in the fourth ground, but I have rejected that challenge.  The point about the error in the wording of paragraph 109(a) therefore has no traction and I reject it.  The reasoning of the tribunal is adequate and (echoing Morris J&#8217;s words in <span style="font-style:italic">Byrne v. General Medical Council</span>) the GMC knows why the tribunal made the decision it made and can understand the reasoning without difficulty.  For those reasons, I therefore reject the third ground of appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="ParaLevel1"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Overall Conclusion and Disposal</span></heading>
+	  <paragraph eId="para_144">
+	    <num>144.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The decision was, in my judgment, not wrong or marred by any procedural or other irregularity.  The tribunal examined the facts and the evidence in detail over 13 days They directed themselves correctly on the law.  They heard and assessed the arguments properly.  They asked themselves the right questions and their answers were well within the bounds of reasonableness.  The GMC&#8217;s criticisms are without force.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_145">
+	    <num>145.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in">The appeal is therefore dismissed.  I am grateful for counsel&#8217;s cogent submissions.  The parties are asked to submit a draft order in agreed form, if that is possible.  Any consequential matters that are not agreed can be dealt with by brief submissions in writing which will be addressed in the order of the court dismissing the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

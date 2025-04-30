@@ -1,0 +1,1028 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/754"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/754"/>
+	  <FRBRdate date="2025-04-01" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="754"/>
+	  <FRBRname value="Wales &amp; West Utilities Limited v Competition and Markets Authority"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/754"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/754"/>
+	  <FRBRdate date="2025-04-01" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd-admin"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/754/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/admin/2025/754/data.xml"/>
+	  <FRBRdate date="2025-04-01T09:36:00" name="transform"/>
+	  <FRBRdate date="2025-04-01T11:03:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-01" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd-admin" href="https://www.gov.uk/courts-tribunals/administrative-court" shortForm="The Administrative Court" showAs="The Administrative Court (King's Bench Division)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="wales-&amp;-west-utilities-limited" href="" showAs="Wales &amp; West Utilities Limited"/>
+	<TLCPerson eId="competition-and-markets-authority" href="" showAs="Competition and Markets Authority"/>
+	<TLCPerson eId="gas-and-electricity-markets-authority" href="" showAs="Gas and Electricity Markets Authority"/>
+	<TLCPerson eId="cadent-gas-limited" href="" showAs="Cadent Gas Limited"/>
+	<TLCPerson eId="national-grid-electricity-transmission-plc" href="" showAs="National Grid Electricity Transmission PLC"/>
+	<TLCPerson eId="national-gas-transmission-plc" href="" showAs="National Gas Transmission PLC"/>
+	<TLCPerson eId="northern-gas-networks-limited" href="" showAs="Northern Gas Networks Limited"/>
+	<TLCPerson eId="scottish-hydro-electric-transmission-plc" href="" showAs="Scottish Hydro Electric Transmission PLC"/>
+	<TLCPerson eId="southern-gas-networks-plc" href="" showAs="Southern Gas Networks PLC"/>
+	<TLCPerson eId="scotland-gas-networks-plc" href="" showAs="Scotland Gas Networks PLC"/>
+	<TLCPerson eId="sp-transmission-plc" href="" showAs="SP Transmission PLC"/>
+	<TLCPerson eId="british-gas-trading-limited" href="" showAs="British Gas Trading Limited"/>
+	<TLCPerson eId="citizens-advice" href="" showAs="Citizens Advice"/>
+	<TLCPerson eId="water-services-regulation-authority" href="" showAs="Water Services Regulation Authority"/>
+	<TLCPerson eId="electricity-north-west-limited" href="" showAs="Electricity North West Limited"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="interested-party" href="" showAs="Interested Party"/>
+	<TLCPerson eId="judge-mrs-justice-ellenbogen-dbe" href="/judge-mrs-justice-ellenbogen-dbe" showAs="MRS JUSTICE ELLENBOGEN DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD-Admin</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>754</uk:number>
+	<uk:cite>[2025] EWHC 754 (Admin)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>f0daf18e39d0bb57d711d2ad4ade786cae9f76d72c56dfa029bb25cc82725ada</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-size: 16pt; color: #2F5496; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="CoverText" style="text-align:left"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 754 (Admin)</neutralCitation><span/></p>
+      <p class="CoverText">Case No: <docketNumber>AC-2022-LON-001117</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd-admin">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd-admin" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ADMINISTRATIVE COURT</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-04-01" refersTo="#judgment">1 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-ellenbogen-dbe">MRS JUSTICE ELLENBOGEN DBE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.25in 3.92in 1.25in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#wales-&amp;-west-utilities-limited" style="font-weight:bold">Wales &amp; West Utilities Limited </party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#competition-and-markets-authority" style="font-weight:bold">Competition and Markets Authority </party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#gas-and-electricity-markets-authority" style="font-weight:bold">Gas and Electricity Markets Authority</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#cadent-gas-limited" style="font-weight:bold">Cadent Gas Limited</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#national-grid-electricity-transmission-plc" style="font-weight:bold">National Grid Electricity Transmission PLC</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(4)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#national-gas-transmission-plc" style="font-weight:bold">National Gas Transmission PLC</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(5)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#northern-gas-networks-limited" style="font-weight:bold">Northern Gas Networks Limited</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(6)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#scottish-hydro-electric-transmission-plc" style="font-weight:bold">Scottish Hydro Electric Transmission PLC</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(7)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#southern-gas-networks-plc" style="font-weight:bold">Southern Gas Networks PLC</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(8)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#scotland-gas-networks-plc" style="font-weight:bold">Scotland Gas Networks PLC</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(9)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#interested-party" refersTo="#sp-transmission-plc" style="font-weight:bold">SP Transmission PLC</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(10)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.25in"><party as="#interested-party" refersTo="#british-gas-trading-limited" style="font-weight:bold"> British Gas Trading Limited</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(11)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.25in"><party as="#interested-party" refersTo="#citizens-advice" style="font-weight:bold"> Citizens Advice</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(12)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.25in"><party as="#interested-party" refersTo="#water-services-regulation-authority" style="font-weight:bold">Water Services Regulation Authority</party></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(13)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.25in"><party as="#interested-party" refersTo="#electricity-north-west-limited" style="font-weight:bold">Electricity North West Limited</party></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#interested-party">Interested Parties</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Rhodri Thompson KC and Florence Iveson </span>(instructed by<span style="font-weight:bold"> Gowling WLG (UK) LLP</span>) for the <span style="font-weight:bold">Claimant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Rob Williams KC and Christopher Brown </span>(instructed by <span style="font-weight:bold">CMA Legal Service) </span>for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Daniel Cashman and Natasha Simonsen (</span>instructed by <span style="font-weight:bold">GEMA Legal</span>) for the <span style="font-weight:bold">1</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> Interested Party</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Monica Carss-Frisk KC and Sean Butler</span> (instructed by <span style="font-weight:bold">Freshfields LLP</span>) for the <span style="font-weight:bold">6</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> Interested Party</span></p>
+      <p style="text-align:center">The<span style="font-weight:bold"> 2</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">nd</span><span style="font-weight:bold">, 3</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">rd</span><span style="font-weight:bold">, 4</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 5</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 7</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 8</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 9</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 10</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 11</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, 12</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold">, and 13</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> Interested Parties </span>did not appear and were not represented.</p>
+      <p style="text-align:center">Hearing date: 20 November 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">APPROVED JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-indent:0.39in"><span style="font-weight:bold">Mrs Justice Ellenbogen DBE: </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">On 22 March 2023, Green LJ granted permission to the Claimant to apply for judicial review of the Defendant&#8217;s decision dated 28 October 2021, on all then extant grounds, an application which is yet to be listed. By order of Ritchie J, made on 2 September 2024 and later amended under the slip rule, three applications are before me, as follows: (1) the Defendant&#8217;s application dated 26 May 2023, for an order that the Sixth Interested Party (Scottish Hydro Electric Transmission Plc &#8211; &#8216;SSEN-T&#8217;) is not an interested party and striking out its detailed grounds in support of the Claimant&#8217;s claim, alternatively striking out specified parts of its detailed grounds and/or refusing permission for judicial review on the ground of &#8216;Cost of Equity&#8217;; (2) SSEN-T&#8217;s application, dated 13 June 2023, to intervene in the proceedings, under CPR 54.17, contingent upon the grant of the Defendant&#8217;s application; and (3) the Claimant&#8217;s application for directions, dated 8 June 2023. As will be apparent from the dates of those orders and applications, regrettably this matter was overlooked by the court office following the order made by Green LJ.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The nature of the first and second applications requires some consideration of the facts and matters which have given rise to the claim. The Claimant owns and operates the regional gas distribution network (&#8216;GDN&#8217;) in Wales and the South-West of England, one of eight regional GDNs across Great Britain. It holds a gas transporter licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/7/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">Gas Act 1986</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>&#8217;). The Defendant is a non-ministerial Government department amongst the functions of which is to act as an appellate body in relation to disputes between companies and regulators in several economically regulated sectors, including energy; water; aviation; and communications. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>B to 23G of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>, the Claimant appealed to the Defendant against the &#8216;RIIO<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"><span style="font-family:'Times New Roman'"> &#8216;Revenue = Incentives + Innovation + Outputs&#8217;</span></p>
+	      </authorialNote>-2&#8217; price control decision taken by the First Interested Party, the Gas and Electricity Markets Authority (&#8216;GEMA&#8217;) on 8 December 2020 &#8212; by which GEMA had determined price controls for the operation of gas distribution and electricity and gas transmission networks for the period spanning 1 April 2021 to 31 March 2026 &#8212; and the associated licence modifications, published on 3 February 2021. GEMA is itself a non-ministerial Government department and the regulator for the electricity and downstream natural gas markets in the UK. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Second to Ninth Interested Parties in these proceedings had also appealed from GEMA&#8217;s decision, under either <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> or the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">Electricity Act 1989</ref> (&#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>&#8217;), the appeal provisions of which are in materially identical terms. The Tenth and Eleventh Interested Parties (being, respectively, British Gas Trading Limited and Citizens Advice) were given permission to intervene in the appeals by the Defendant. Each of the Twelfth and Thirteenth Interested Parties (respectively, the Water Services Regulation Authority and Electricity North West Limited) was denied the status of intervener, but was permitted to submit evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">On 31 March 2021, the Defendant granted permission to each appellant to advance all of its grounds of appeal. Amongst the grounds of appeal advanced by every appellant was the so-called &#8216;Cost of Equity&#8217; ground, by which it was asserted that the cost of equity selected by GEMA had been too low and, thus, wrong. Each grant of permission was made conditional upon common grounds of appeal being considered together. The Cost of Equity ground was designated &#8216;Joined Ground A&#8217;. On 11 August 2021, the Defendant issued its provisional determination of the appeals (&#8216;the Provisional Determination&#8217;). It was not persuaded that GEMA had erred in its approach to, or estimate of, the cost of equity. On 3 September 2021, SSEN-T made detailed written submissions which included its contention that the Provisional Determination contained material errors of law in relation to the cost of equity ground of appeal, through application of the wrong legal test. Together with all other appellants, SSEN&#8211;T also submitted a joint response on Cost of Equity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Defendant issued its final determination in relation to the appeals brought by the Claimant and all other appellants on 28 October 2021 (&#8216;the Final Determination&#8217;). By order of the same date (&#8216;the Order&#8217;) it allowed the  appeals in part, dismissing the remainder. The Final Determination maintained the position adopted provisionally. It included certain additional passages directed at explaining the Defendant&#8217;s conclusions on Cost of Equity, though SSEN&#8211;T contends it to be evident that the Defendant had not revisited the issues in substance, and had been seeking simply to defend the provisional conclusions which it had reached. The Order formally dismissed the appellants&#8217; appeals in respect of Joined Ground A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">By these proceedings, the Claimant seeks judicial review of the Final Determination and the Order. The thirteen named Interested Parties were joined from the outset. In broad summary, and so far as now pursued, the Claimant contends that the Defendant:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">(<span style="font-weight:bold">Ground One</span>) erred in the standard which it applied when determining the appeal, and, in particular, failed properly to construe or apply <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>D(2) and 23D(4)(a) and (b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>. It is said that, contrary to the approach which the Defendant had adopted, it was Parliament&#8217;s intention that the Defendant have regard to the matters set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>, to the same extent required of GEMA, and that it determine the appeals on the basis of its own assessment of the factors to which both it and GEMA are required to have regard by <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(2);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">(<span style="font-weight:bold">Ground Two</span>) misdirected itself in respect of the financing duty in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA(2)(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>. Contrary to the approach adopted by GEMA and followed by the Defendant, it is said, on the proper construction of the statute, the financing duty is one of the matters to which both GEMA and the Defendant must have regard as an intrinsic part of their principal objective, rather than having a subordinate status, and is a duty requiring an outcome to be achieved rather than a mere duty of process. Moreover, both GEMA and the Defendant are said to be required to assess the &#8216;financeability&#8217; of individual companies, including, in particular, in respect of the cost of debt, rather than adopting a &#8216;one size fits all&#8217; approach, arrived at by sector averaging, for the &#8216;notional&#8217; company;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">(<span style="font-weight:bold">Ground Three</span>) erred in its approach to the Claimant&#8217;s Cost of Debt appeal. The Defendant had concluded, in error, that GEMA's reliance on a cost of debt index, based upon a notional &#8216;average&#8217; company and without a suitable adjustment to reflect the Claimant&#8217;s individual characteristics, had not unlawfully discriminated against the Claimant. Further, it is said, the Defendant had held, in error, that GEMA had not erred by not having taken account of derivatives on an individualised basis when assessing the Claimant&#8217;s cost of debt; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">(<span style="font-weight:bold">Ground Four</span>) erred in its approach to the Claimant&#8217;s tax clawback appeal. Given its finding that GEMA had not erred by not having taken account of derivatives when assessing the Claimant&#8217;s cost of debt, the Defendant is said to have misdirected itself as to the law in its approach to the Claimant&#8217;s appeal on the tax clawback ground by finding that GEMA had not erred in having taken account of costs associated with the Claimant&#8217;s derivatives within the measure of interest used to calculate the level of tax clawback. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Claimant observes that, hitherto, the Administrative Court has not considered the approach to appeals required by <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. The setting of a price control is said to be of importance to gas and electricity network operators in dictating the majority of the revenue stream which those companies are able to earn over the period to which the control relates. It is also of significance to consumers, reflected in the right of appeal afforded to Citizens Advice under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>B(2)(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> against the modification of a condition of a licence. Accordingly, it is said, there is a conspicuous wider public interest in ensuring that the Defendant carries out its statutory role lawfully. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Claimant&#8217;s Grounds of Review are pleaded at paragraph 39ff of its 36-page Statement of Facts and Grounds, dated 28 January 2022. Ground One is pleaded as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in"><span style="font-style:italic;font-size:10pt">&#8216;</span><span style="font-style:italic;font-weight:bold;font-size:10pt">(a) Ground one: the CMA erred in the standard it applied in determining the appeal, and in particular failed to properly construe or apply <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>D(2) and 4(a) and (b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref> </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-size:10pt">The proper approach to appeals under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>B, including to the margin of appreciation, is set out at paragraphs 40-48 below. The CMA misdirected itself by failing to apply the correct approach for the reasons given at paragraphs 49-61. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">The correct approach to an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>B of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref>, including the application of a margin of appreciation </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-size:10pt">The proper approach that the CMA must take in determining an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>B requires analysis of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>D(2) and (4). The following are the key features of the statutory language. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-weight:bold;font-size:10pt">Firstly,</span><span style="font-size:10pt"> the CMA may allow an appeal where it is satisfied that the decision appealed against was </span><span style="font-style:italic;font-size:10pt">"wrong" </span><span style="font-size:10pt">on the prescribed grounds: <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref>. The provision does not import a judicial review standard (for example, irrationality or within the range of reasonable responses), but requires a determination of whether a decision is </span><span style="font-style:italic;font-size:10pt">"wrong". </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-weight:bold;font-size:10pt">Secondly</span><span style="font-size:10pt">, when determining an appeal, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(2), the CMA </span><span style="font-style:italic;font-size:10pt">"must have regard, to the same extent as is required of the Authority" </span><span style="font-size:10pt">to a range of matters, including those set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 24</ref>D(2) and (4)(a) and (b) require the CMA to consider these matters on an appeal independently, given that those matters are binding on the CMA just as they are on GEMA. In other words, the CMA must put itself in GEMA's shoes in these respects, having regard to all the matters GEMA was required to have regard to for the purposes of compliance with those duties, </span><span style="font-style:italic;font-size:10pt">"to the same extent as was required of [GEMA]". </span><span style="font-size:10pt">That necessarily implies that the CMA must reach its own view of those matters. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-weight:bold;font-size:10pt">Thirdly, </span><span style="font-size:10pt">an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4)(a) </span><span style="font-weight:bold;font-size:10pt">("ground A appeal")</span><span style="font-size:10pt"> requires the CMA to determine whether GEMA </span><span style="font-style:italic;font-size:10pt">"failed </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">properly</span><span style="font-style:italic;font-size:10pt"> to have regard to any matter mentioned in subsection (2)" </span><span style="font-size:10pt">(emphasis in underline added). An appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4)(b) </span><span style="font-weight:bold;font-size:10pt">("ground B appeal"</span><span style="font-size:10pt">) requires the CMA to consider whether GEMA </span><span style="font-style:italic;font-size:10pt">"failed to give the </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">appropriate</span><span style="font-style:italic;font-size:10pt"> weight to any matter mentioned in subsection (2)" </span><span style="font-size:10pt">(emphasis in underline added). This requires a two-stage process: </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.38in;text-indent:-0.3in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:0.08in"><span style="font-size:10pt">The CMA must itself consider the issues raised on the appeal in detail, having regard to all of the matters to which GEMA was required to have regard when acting in compliance with its statutory duties. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.38in;text-indent:-0.3in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:0.2in"><span style="font-size:10pt">In the light of that detailed consideration, the CMA must evaluate whether, when GEMA made those aspects of the decision that are under appeal, it had </span><span style="font-style:italic;font-size:10pt">"proper" </span><span style="font-size:10pt">regard and/or gave </span><span style="font-style:italic;font-size:10pt">"appropriate weight" </span><span style="font-size:10pt">to all of those matters. Because under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(2) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the Act</ref> the CMA itself must have regard to the same relevant matters and statutory duties as GEMA was required to take into account, the CMA must determine the issues raised on appeal based on (a) its own view of what the statutory scheme in the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref> requires and (b) its own assessment of the relevant factual and economic evidence by reference to that statutory scheme. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-size:10pt">This does not preclude the potential for the CMA to reach a conclusion that, in some cases, a regulator which had proper regard and gave appropriate weight to all relevant matters may have been able to reach more than one conclusion on an issue relevant to an appeal. It therefore does not render the appeal a full re-determination of such issues in which the CMA merely substitutes its own preference for that of GEMA. However, it does require full and detailed scrutiny of the issues raised on the appeal by the CMA, and imposes on the CMA a legal obligation to exercise its own judgment as to whether GEMA made a properly balanced decision on such issues in the light of its <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA statutory duties. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-weight:bold;font-size:10pt">Fourthly,</span><span style="font-size:10pt"> that this is the proper approach also follows from a comparison between the requirements of appeals under grounds A or B, and the remaining grounds of appeal in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4). The latter require an objective assessment of GEMA's decision against the legally or factually accurate position: (i) </span><span style="font-style:italic;font-size:10pt">"that the decision was based, wholly or partly, on an error of fact"</span><span style="font-size:10pt"> (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4)(c)), </span><span style="font-weight:bold;font-size:10pt">"ground C appeal"</span><span style="font-size:10pt">); (ii) that the licence modifications </span><span style="font-style:italic;font-size:10pt">"fail to achieve, in whole or in part, the effect stated by the Authority"</span><span style="font-size:10pt"> (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4)(d), </span><span style="font-weight:bold;font-size:10pt">"ground D appeal"</span><span style="font-size:10pt">); and (iii) </span><span style="font-style:italic;font-size:10pt">"that the decision was wrong in law"</span><span style="font-size:10pt"> (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4)(e), </span><span style="font-weight:bold;font-size:10pt">"ground E appeal"</span><span style="font-size:10pt">). The ground E appeal allows an appellant to advance the full range of arguments that would be open to a claimant on an application for judicial review (with provision for a ground C appeal also allowing a challenge on the basis of factual error). If the CMA's role in determining a ground A or ground B appeal were confined to a supervisory approach, this would render these other grounds otiose: confined in this way, both grounds A and B would be encompassed by a ground C or ground E appeal. Given the specific wording of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24</ref>D(2) and (4)(a) and (b), that would be clearly contrary to the statutory intention. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-size:10pt">Further, the ordinary and natural reading of the legislation set out above is also confirmed by the other features of the legislative scheme, which can be contrasted with the ordinary approach taken in an application for judicial review: (i) the expert composition of the CMA, reflecting its role as the general economic regulator for the UK; (ii) the CMA's power to hear oral evidence; (iii) the CMA's power to commission expert advice; (iv) the CMA's power to hear fresh evidence, not available to GEMA; and (v) that the CMA has the power on allowing an appeal to substitute its own decision for that of GEMA.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-size:10pt">Further still, and as explained above at paragraphs 17-21, the analysis finds support in the material published by the government prior to the promulgation of the Regulations. It is apparent, in particular, from the Impact Assessment that the government designed the appeal regime so that the intensity of the review was proportionate to the financial impact of the decisions under challenge. That is consistent with the analysis set out above as to the approach the CMA must take when determining an appeal. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.08in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.56in;text-indent:0.42in"><span style="font-size:10pt">Finally, the proper interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref> informs how the CMA should approach the issue of whether a margin of appreciation should be applied to GEMA's decision on specific issues challenged on appeal. WWU accepts that the CMA may allow a margin of appreciation to GEMA where the CMA concludes that there is more than one price control decision that could have validly been made by GEMA on such an issue: where the CMA concludes that </span><span style="font-style:italic;font-size:10pt">"proper" </span><span style="font-size:10pt">regard and </span><span style="font-style:italic;font-size:10pt">"appropriate" </span><span style="font-size:10pt">weight has been given to all relevant matters for the purposes of complying with the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA duties (for the purposes of grounds A and B), and also finds that there has been no failure of the kind specified in grounds C-E, the CMA can find that GEMA was entitled to choose between options without the CMA imposing its preference (or finding that GEMA was </span><span style="font-style:italic;font-size:10pt">"wrong" </span><span style="font-size:10pt">to make such a choice).' That was not, however, the approach taken by the CMA as explained below.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">At paragraphs 49 to 62, the Claimant went on to plead the ways in which, so it contended, the Defendant had misdirected itself, both as to the legal framework and as to the margin of appreciation to be afforded to GEMA as an expert regulator. Having pleaded its contention as to the ways in which the Defendant had misdirected itself as to the standard of review to be applied on appeal, at paragraph 54 it pleaded: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:-0.3in"><span style="font-size:10pt">&#8216;54.</span><marker name="tab"/><span style="font-size:10pt">The CMA applied this misdirection when considering the grounds of appeal. This is particularly apparent in the approach taken by the CMA to [the Claimant&#8217;s] appeal in respect of the licence modification process (referred to in the Determination as </span><span style="font-style:italic;font-size:10pt">"Joined Ground D"). </span><span style="font-size:10pt">The CMA must, however, be taken to have directed itself in this manner in respect of each of the grounds of appeal and it follows that the error infects the entire [Final] Determination.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Following all grounds of review, the relief sought was pleaded at paragraph 111, in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.45in"><span style="font-size:10pt">&#8216;111.</span><marker name="tab"/><span style="font-size:10pt">WWU seeks the following relief:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:10pt;margin-left:1.87in;text-indent:-0.3in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.87in;margin-right:0.45in;text-indent:0.08in"><span style="font-size:10pt">A declaration that the [Final] Determination and the Order are unlawful;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:10pt;margin-left:1.87in;text-indent:-0.3in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.87in;margin-right:0.45in;text-indent:0.2in"><span style="font-size:10pt">A declaration that the CMA is required to determine appeals pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>A-E of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">GA 1986</ref>: (a) applying the approach to the standard of review, the margin of appreciation and <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>D(2), (4) and 23E of the GA 1986 specified in paragraph 40 to 48 above; (b) applying the approach to the financing duty specified in paragraph 65 above; (c) applying an approach to the calculation of WWU&#8217;s cost of debt allowance which does not involve the unlawfulness described in paragraphs 74-81 above; (d) taking derivatives into account when calculating the cost of debt allowance, contrary to the unlawful decision not to do so, as set out in paragraphs 82&#8211;87 above (or, alternatively, excluding them from the tax clawback calculation as set out in paragraph 91 above); and (e) applying the approach to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>B(7) specified in paragraphs 97-107 above.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:10pt;margin-left:1.87in;text-indent:-0.3in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.87in;margin-right:0.45in;text-indent:0.33in"><span style="font-size:10pt">An Order quashing the [Final] Determination and the Order in so far as the CMA dismissed WWU&#8217;s appeal on an unlawful basis.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:10pt;margin-left:1.87in;text-indent:-0.3in">(iv)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.87in;margin-right:0.45in;text-indent:0.2in"><span style="font-size:10pt">An Order remitting any part of WWU&#8217;s appeal that is quashed to the CMA for redetermination.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:10pt;margin-left:1.87in;text-indent:-0.3in">(v)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.87in;margin-right:0.45in;text-indent:0.08in"><span style="font-size:10pt">An Order that the CMA and/or GEMA shall pay the costs incurred by WWU in bringing this application.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:10pt;margin-left:1.87in;text-indent:-0.3in">(vi)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.87in;margin-right:0.45in;text-indent:0.2in"><span style="font-size:10pt">Such further or other relief as the Court considers appropriate.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Defendant filed its Acknowledgement of Service and Summary Grounds of Resistance on 24 February 2022, addressing Ground One at paragraphs 10 to 13. In summary, it contended that the approach for which the Claimant contended would transform the Defendant&#8217;s role from that of appellate body into that of primary decision-maker. The ground was said to be academic and unarguable. At paragraph 11, the Defendant pleaded:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:-0.3in"><span style="font-size:10pt">&#8216;11.</span><marker name="tab"/><span style="font-size:10pt">[The Claimant] asserts that, if upheld, this ground </span><span style="font-style:italic;font-size:10pt">"infects the entire [Final] Determination" </span><span style="font-size:10pt">made by the [Defendant] across all of its appeal (and, logically, those of other licensees): SFG &#167;54.</span><span style="font-weight:bold;font-size:10pt"/><span style="font-size:10pt">However, in order to justify an order quashing the Decision, [the Claimant] would need to establish that an error in approach was </span><span style="font-style:italic;font-size:10pt">material </span><span style="font-size:10pt">to a point decided by [the Defendant]. [The Claimant] has not identified or pleaded </span><span style="font-style:italic;font-size:10pt">any </span><span style="font-size:10pt">such material impact. The high point of its claim is a bare assertion without explanation that Ground 1 is relevant to the issue addressed by Ground 5: SFG &#167;&#167;54, 110.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">By its Acknowledgement of Service, also filed on 24 February 2022, SSEN-T stated that it did not intend to contest the Claimant&#8217;s claim and supported its contention that the Final Determination and the Order ought to be quashed. &#8216;In particular&#8217;, it said, it supported Grounds One and Five (the latter ground asserting an error in the Defendant&#8217;s approach to &#8216;Joined Ground D&#8217;, relating to the licence modification process, and since abandoned by the Claimant). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Defendant&#8217;s Detailed Grounds of Defence were filed on 10 May 2023. Ground One was addressed at paragraphs 5 to 30. In summary, they repeated its earlier assertions; stated that, in section 3 of the Final Determination, the Defendant had given detailed consideration to the standard of review (setting out its conclusions on that issue); pleaded that there was no justification in the caselaw for the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(2) of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> for which the Claimant contended, said to involve a misreading of the statutory scheme; observed that it was common ground that an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D provided for a right of appeal on the merits, which was not synonymous with a requirement that the Defendant stand in the shoes of the primary decision-maker; asserted that the Claimant&#8217;s position that the Defendant had wrongly confined itself to a public law challenge was misplaced &#8212; a right of appeal on the merits did not mean that each of the specified grounds of challenge had to assume a different meaning from a public law ground of review and the five permissible grounds of appeal for which <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(4) provided differed in their respective scope and reach, some allowing for a more intrusive level of review than would be permissible in public law; and contended that the Claimant&#8217;s case had mischaracterised the Defendant&#8217;s position as to the margin of appreciation to be accorded to GEMA and, in any event, failed to grapple with the fundamental point that, although an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D involved a review on the merits, it did not provide for a re-hearing before the Defendant, instead providing for an appellate regime under which the Defendant could intervene only where GEMA&#8217;s decision was found to have been &#8216;<span style="font-style:italic">wrong</span>&#8217;, an approach which did not dilute the standard of review required by statute but applied the framework of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D to the relevant subject matter. It was said that, for all such reasons, Ground One lacked merit. Furthermore, it was said to be academic because the Claimant had appealed only one aspect of the Final Decision on Ground A and none under Ground B. The former aspect had formed part of Ground Five, now abandoned. Ground One, it was said, had no relevance to Grounds Two to Four, the first of which going to a point of statutory construction and the others constituting irrationality challenges. Accordingly, if there were any merit in Ground One, it could have no bearing upon the outcome of this judicial review. At paragraph 28, the Defendant pleaded:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:-0.3in"><span style="font-size:10pt">&#8216;28.</span><marker name="tab"/><span style="font-size:10pt">[The Claimant] makes the vague assertion that, if upheld, this ground &#8220;</span><span style="font-style:italic;font-size:10pt">infects the entire [Final] Determination</span><span style="font-size:10pt">&#8221; made by the CMA as regards all of WWU&#8217;s appeal (and, logically, those of other licensees): SFG &#167;54. However, in order to prevail, [the Claimant] would need to establish that an error in approach not only was present but was also </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">material</span><span style="font-size:10pt"> to a point decided by the CMA. [The Claimant] has not identified or pleaded </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">any</span><span style="font-size:10pt"> such material impact beyond the assertion that ground 1 is relevant to the issue addressed by the now-abandoned ground 5</span><span style="font-weight:bold;font-size:10pt">: </span><span style="font-size:10pt">SFG &#167;&#167;54, 110.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Having been served with the order of Green LJ on 5 April 2023, on 10 May 2023, pursuant to CPR 54.14, SSEN-T served Detailed Grounds for Supporting the Claim, running to 26 pages and expressly restricted to Ground One. By way of introduction, it noted that the separate statutory frameworks for gas and electricity were, in all material respects, identical and that the appeals had been considered and determined together by the Defendant, which had produced a composite Final Determination. By paragraphs 4 and 5, it pleaded:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.48in;margin-right:0.56in;text-indent:-0.3in"><span style="font-size:10pt">&#8216;4. </span><marker name="tab"/><span style="font-size:10pt">&#8230;the [Defendant] failed to apply the appropriate merits review that it was required by the statutory scheme to apply when assessing whether GEMA&#8217;s decisions were &#8220;wrong&#8221; in various respects. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt;margin-left:1.48in;text-indent:-0.3in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.48in;margin-right:0.56in"><span style="font-size:10pt">As set out below, this is illustrated both by the [Defendant&#8217;s] statements of legal principle and also by the [Defendant&#8217;s] approach to the various individual Cost of Equity issues raised in the appeals. Whilst [the Claimant&#8217;s] Statement of Facts and Grounds (&#8220;</span><span style="font-weight:bold;font-size:10pt">SFG</span><span style="font-size:10pt">&#8221;) does not specifically focus on the [Defendant&#8217;s] determination of the Cost of Equity ground of appeal, [the Claimant] makes clear that the [Defendant&#8217;s] error of approach to its appellate functions was material to all of the [Defendant&#8217;s] decision making in respect of the appeals and hence infects the entire [Final] Determination (see for example SFG </span><span style="font-weight:bold;font-size:10pt">&#167;54</span><span style="font-size:10pt">). SSEN-T agrees and seeks to illustrate the point by reference to the way in which the [Defendant] approached the Cost of Equity ground.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Having set out the background to the statutory appeals framework, at paragraph 33ff, SSEN&#8211;T set out the errors of law which it asserted the Defendant to have made in its overall approach, respectively, to its Provisional and Final Determinations. It did so expressly <span style="font-style:italic">&#8216;before addressing specific cost of equity issues below&#8217;</span>. The errors for which it contended were identified by reference to the Cost of Equity issue, which, by paragraph 37, was said to provide<span style="font-style:italic"> &#8216;the clearest illustration of the [Defendant&#8217;s] erroneous approach to its statutory function of determining the appeals brought by the various CMA Appellants&#8217;</span>. SSEN&#8211;T then mounted an attack on the Defendant&#8217;s approach to the <span style="font-style:italic">&#8216;different parameters of the cost of equity analysis&#8217;</span>, also referred to as the <span style="font-style:italic">&#8216;key building blocks by reference to which GEMA had set the cost of equity&#8217;</span>, asserting that the Defendant had offered no explanation as to how its own conclusions had been consistent with its statutory duties under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> and/or <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, obliging it to have regard to the same extent as is required of GEMA to the matters to which GEMA is obliged to have regard in carrying out its principal objective and in performing its core duties. At paragraphs 84 and 85, SSEN-T pleaded:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:-0.3in"><span style="font-size:10pt">&#8216;84. </span><marker name="tab"/><span style="font-size:10pt">&#8230;The [Final Determination] contains no reasoning to demonstrate that the [Defendant] has addressed these important statutory duties and has made its own assessment of, for example, what action is required to protect the interests of existing and future consumers or to secure that licence holders are able to finance their activities, rather than simply deferring to GEMA&#8217;s assessment. SSEN-T submits that in reaching its conclusions on Cost of Equity the [Defendant] failed to discharge these important statutory duties. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;font-size:10pt">VI. CONCLUSION </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt">85.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.56in"><span style="font-size:10pt">For the reasons set out above, SSEN-T submits that [the Claimant&#8217;s] claim should succeed in relation to Ground 1, concerning the standard applied by the [Defendant] in determining the appeals. SSEN-T seeks a ruling that the correct analysis in law is as set out above.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:-0.48in"><span style="font-weight:bold">The Defendant&#8217;s application</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Defendant&#8217;s application is advanced on the basis that SSEN&#8211;T is not, in law, an interested party within the meaning of CPR 54.1(2)(f) because it is not &#8216;directly affected by the claim&#8217;, as that term is explained in <span style="font-style:italic">R v Rent Officer Service, ex p Muldoon </span><ref href="#" uk:canonical="[1996] 3 All ER 498" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 3 All ER 498</ref>, HL, and the relief sought by the Claimant would not directly affect SSEN-T&#8217;s own licence conditions, which will remain in force unless and until modified by GEMA. The quashing and remittal relief sought by the Claimant in its claim form is said to relate exclusively to the disposal of the Claimant&#8217;s own appeal and to require a declaration in abstract terms as to the approach to the standard of review which the Defendant should follow in appeals under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>, as set out in the Claimant&#8217;s Statement of Facts and Grounds. At most, so the Defendant submits, the present claim could have some indirect effect on a future price control to which SSEN-T was subject, as, effectively, it had  recognised at paragraph 7 of its detailed grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:-0.3in"><span style="font-size:10pt">&#8216;7. </span><marker name="tab"/><span style="font-size:10pt">The EA 89 and GA 86 appeals framework has not previously been considered by the High Court and its proper interpretation and application is a matter of considerable public importance. The [Defendant&#8217;s] failure to intervene in respect of GEMA&#8217;s unduly low Cost of Equity figure has deprived SSEN-T and other licensees of many millions of pounds of revenue over the next five years. This is particularly problematic in circumstances where considerable investment needs to be made by licensees in order even to be on the minimum pathway to achieve mandatory legislated &#8220;Net Zero&#8221; targets. Moreover, if left uncorrected by the High Court, the [Defendant&#8217;s] failure properly to carry out its statutory role stands to have a distorting effect on future price controls, as GEMA will feel emboldened to proceed as it wishes without the prospect of the type of robust merits review by the [Defendant] which Parliament intended.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Whilst taking no point on whether it is a tribunal, for the purposes of paragraph 4.6 of PD 54A, the Defendant further submits that SSEN-T is not a party to the proceedings to which the claim for judicial review relates, for the purposes of that paragraph; each statutory appeal having constituted a separate set of proceedings.  Accordingly, it contends, SSEN-T cannot be an interested party on that basis either, a conclusion said to be sound as a matter of principle because there is no claim for relief, beyond declaratory relief, which affects the proceedings to which SSEN-T was a party below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Alternatively, it is said that SSEN-T should not be permitted to raise the Cost of Equity issue because it falls outside the scope of the Claimant&#8217;s claim and gives rise to no claim for relief. It is submitted that, by its detailed grounds, SSEN&#8211;T seeks substantially to expand the scope of the issues to be considered in these proceedings to encompass detailed, technical and complex issues which would require a response of granular detail; add a further day to the duration of the hearing, and associated additional reading and judgment-writing time; and generate additional cost. The question of principle as to the standard of review to be applied in appeals under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> is said to be distinct from the way in which the Defendant went on to apply the standard of review when dealing with particular aspects of SSEN-T&#8217;s own appeal, being a prior question of statutory construction. Furthermore, it is said, SSEN-T&#8217;s grounds go further in asserting that the Defendant misapplied its own erroneous interpretation of the standard of review when determining the Cost of Equity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Defendant seeks:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.18in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in">an order that SSEN-T is not an interested party to the present claim and striking out its detailed grounds; alternatively,</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.18in;text-indent:-0.39in">b.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in">an order that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.2in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.48in">paragraphs 5; 12; 13.5; and 33 to 84 of SSEN-T&#8217;s Detailed Grounds be struck out (and the preceding paragraphs read accordingly), alternatively,</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.48in;text-indent:-0.2in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.48in;text-indent:0.05in">the Cost of Equity issue, and those same paragraphs, be excluded from consideration. That is said to form an exercise of the Court&#8217;s case management powers under CPR 3.1(2)(k)<authorialNote class="footnote" marker="2">
+		    <p class="FootnoteText"><span style="font-family:'Times New Roman'"> It would seem that the intended reference was to CPR 3.1(2)(l).</span></p>
+		  </authorialNote>; and/or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.38in;text-indent:-0.1in">iii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;text-indent:0.28in">SSEN-T be refused permission for judicial review in so far as its proposed grounds address the Cost of Equity, per <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> and <span style="font-style:italic">R (McVey) v SoS for Health (No. 2) </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2010/1255" uk:canonical="[2010] EWHC 1255 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWHC 1255 (Admin)</ref> at [15]. (It is said that, whilst, on its face, CPR 54.14 appears to entitle SSEN-T to advance additional grounds, a Claimant who wishes to advance a new ground requires permission to do so: CPR 54.15. An interested party cannot be in a better position and permission has not been sought. In any event, it is contended, as any such claim would be academic and/or would not lead to the grant of any relief, and ought to have been pursued by way of SSEN-T&#8217;s own claim for judicial review, SSEN-T should not now be permitted to initiate such a claim outside the applicable time limit); and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.38in;text-indent:-0.1in">iv.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;text-indent:0.15in">SSEN-T&#8217;s participation in the claim be limited (both in written and oral submissions) to addressing the issue of principle addressed at paragraphs 40 to 48 of the Claimant&#8217;s Statement of Facts and Grounds, as to the correct standard of review in appeals to the Defendant under the relevant provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, without reference to specific alleged errors relating to the allowable cost of equity.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In summary, the Defendant contends that the various appeals made to it were legally distinct, albeit overlapping in content, and, thus, dealt with in a single decision. The only appellant to have challenged the Final Determination by way of judicial review had been the Claimant, SSEN-T having chosen not to bring a claim. The Defendant submits that none of the Claimant&#8217;s grounds of review concerns the Cost of Equity and that, prior to the grant of permission by Green LJ, the Claimant had confirmed its abandonment of its former Ground Five. It is submitted that: SSEN-T has sought impermissibly to use the Claimant&#8217;s claim as a means of advancing new and additional complaints about the Defendant&#8217;s decision as it relates to the Cost of Equity, which fall outside the scope of the Claimant&#8217;s claim; consideration of those issues will not affect the outcome of the claim, or lead to any relief which affects SSEN-T&#8217;s legal position, nor will it affect the Court&#8217;s determination of the legal issue engaged by Ground One; and that SSEN-T&#8217;s grounds will substantially increase the cost and complexity of proceedings. Whilst the Court would need to have regard to examples of the asserted percolation of the alleged errors throughout the entire Final Determination, and it is not contended that illustration could form no part of that argument, the Claimant has not itself advanced an illustration and SSEN-T&#8217;s pleaded case extends far beyond the latter and seeks to shore up a deficiency in the Claimant&#8217;s case; a matter of relevance to proportionality.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic">GEMA&#8217;s position</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Defendant&#8217;s application is supported by GEMA, for the reasons advanced by the Defendant, and for the following additional reasons. It is said that SSEN-T is seeking to hijack the present proceedings to relitigate the substantive issue of the allowance for cost of equity which was rejected by the Defendant on appeal, in circumstances in which it would not and could not be entitled to any relief in these proceedings affecting its own position. That is said to be both impermissible and abusive. GEMA expresses its concern that the extensive statutory scrutiny and appeal process is being misused. SSEN-T is said opportunistically to be seeking to re-open a substantive issue, accompanied by a bundle exceeding 1,000 pages. Albeit characterised as an illustration of the error asserted by Ground One, it is, in substance, a new and distinct ground of challenge and it is noted that the Claimant has not once mentioned the cost of equity within Ground One. Possible implications for a prospective interested party in putative future litigation arising from future energy licence modification appeals are said not to constitute a &#8216;sufficient interest&#8217; in this claim: <span style="font-style:italic">R (Megarry) v Legal Aid Board </span>[1994] COD 468; and <span style="font-style:italic">R (Mencap) v Parliamentary Health Service Ombudsman </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/875" uk:canonical="[2010] EWCA Civ 875" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 875</ref>, at [23]-[24].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">There is said to be a parallel regime under CPR Part 54 for a party who is not directly affected by the relief sought in a claim to be heard, by way of intervention. CPR 54.17(1) permits any person to apply for permission to file evidence, or make representations, at the hearing of the judicial review, and PD 54A provides, at  paragraph 13.6, that the Court may grant such permission on conditions and give case management directions. PD54A further provides, at paragraph 13.2, that the Court is unlikely to accede to an application to intervene if it would have the consequence of delaying the hearing. In this way, the CPR are said to strike an appropriate balance between affording third parties an opportunity to be heard &#8212; in such circumstances and subject to such conditions as the Court considers appropriate &#8212; without prejudicing the parties and the interests of justice by delaying the proceedings. SSEN-T&#8217;s submissions, as set out in its detailed Grounds, would substantially de-rail the hearing of the claim, causing significant additional delay. Any such application to intervene on the terms there set out would, no doubt, be refused. SSEN-T could have made an application for permission to intervene, but cannot avoid the need to obtain the Court&#8217;s permission by re-badging its intervention as being that of an interested party. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In the alternative, were the Court to consider that SSEN-T is properly an interested party, SSEN-T cannot advance that which is in substance a new ground of challenge (that is to the Defendant&#8217;s decision on Cost of Equity) without permission from the Court: <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> is framed in mandatory terms such that any application for judicial review requires the leave of the High Court. Further, the Court in<span style="font-style:italic"> McVey </span>had held that &#8216;<span style="font-style:italic">any independent and discrete claim by any party in a judicial review application requires permission&#8217; </span>[15]; and, in <span style="font-style:italic">R (Talpada) v SSHD </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/841" uk:canonical="[2018] EWCA Civ 841" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 841</ref>, it had been held that <span style="font-style:italic">&#8216;Courts should be prepared to take robust decisions and not permit grounds to be advanced ... where permission has not been granted to raise them. Otherwise there is a risk that there will be unfairness, not only to the other party to the case, but potentially to the wider public interest&#8217; </span>[69]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Although CPR 54.14(1) does not expressly address the permission stage where an interested party seeks to advance new and additional grounds of claim, it is inconceivable &#8212; and contrary to the statutory scheme for judicial review &#8212; that interested parties should have a &#8216;blank cheque&#8217; to raise additional claims without leave of the Court. The permission stage is an important filter in judicial review, preventing unarguable grounds from wasting valuable Court time and resources. In the absence of that filter, as applied to additional claims by interested parties, judicial review claims would risk derailment by such parties, occasioning significant cost and delay to the main proceedings. If SSEN-T were permitted to bring this new ground of review within the existing proceedings, it is said, the Defendant and GEMA would require the opportunity to file new detailed grounds of resistance, addressing the new substantive arguments raised by SSEN-T. CPR Part 54 does not put defendants and interested parties to the trouble of responding to a claim without the Court first having accepted that it has been brought within time and is arguable. SSEN-T ought not to be able to circumvent those important procedural protections in the manner here attempted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.74in">Furthermore, GEMA submits, the Court has case management powers to ensure that, consistent with the Overriding Objective, interested parties do not prevent a claim for which permission has been given from being resolved proportionately, expeditiously, fairly, and in a manner compliant with the Court&#8217;s rules. SSEN-T&#8217;s Detailed Grounds would necessitate a further round of pleadings, would materially lengthen the time for any hearing, and would therefore likely cause further delay to the Claimant&#8217;s grounds being determined by the Court. Any intervention by SSEN-T ought therefore to be limited to the making of submissions in support of the legal argument pleaded at paragraphs 40-48 of the Claimant&#8217;s Statement of Facts and Grounds.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.49in"><span style="font-style:italic">SSEN-T&#8217;s position</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.74in">SSEN-T submits that its detailed grounds address both the general errors in the Defendant&#8217;s approach to its appellate function, and, by way of illustration, the way in which those errors had affected the Defendant&#8217;s determination of the appeal which had been pursued by all of the appellants (including the Claimant) against GEMA&#8217;s determination of the Cost of Equity under its RIIO-2 framework. Those grounds are said to identify a number of concrete examples of the Defendant&#8217;s failure to have determined for itself the merits of issues raised before it in the appeals, and justification of that failure by reference to its incorrect conclusions on the standard of review which it was required statutorily to apply.  SSEN-T contends that it, together with all other appellants, has been properly identified as an interested party since service of the claim form and cannot be removed simply because the Defendant does not wish to engage with its grounds. Not only is it directly affected by the claim but it is required to be joined as an interested party by paragraph 4.6(2) of CPR PD 54, as a party to proceedings before a &#8216;tribunal&#8217; (an undefined term). In any event, it is said, the application comes far too late in the day. SSEN-T further contends that its submissions <span style="font-style:italic">&#8216;simply work through the implications of [the Claimant&#8217;s] claim for the Cost of Equity aspect of the Final Determination: they are not freestanding grounds of review. Even if they were, Interested Parties are expressly permitted to support a claim on &#8220;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">additional</span><span style="font-style:italic"> grounds&#8221;: CPR 54.14(1). Were that not so, participation by Interested Parties in judicial review proceedings would be pointless.&#8217; </span>It is further denied that SSEN-T&#8217;s submissions support an academic challenge, or that there is any requirement to seek permission to bring separate proceedings.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic">The Claimant&#8217;s position</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Claimant adopts SSEN-T&#8217;s submissions. It further submits the context and timing of the Defendant&#8217;s application to be significant. The Defendant had first been put on notice that SSEN-T was considered by the Claimant to be an interested party in pre-action correspondence dated 10 January 2022. On 24 January 2022, the Defendant had agreed that SSEN-T was an interested party in its pre-action response and confirmed as much in its Acknowledgement of Service. Eighteen months later, despite SSEN-T having made clear, in its own Acknowledgement of Service, filed on 24 February 2022, that it supported Grounds One and Five of the claim, and having put the Defendant on notice that it intended to file detailed grounds, the Defendant had contended (i) for the first time, that SSEN-T was not an interested party at all and/or (ii) that the important and relevant issues which it had raised were academic; and (iii) that SSEN-T&#8217;s Detailed Grounds for Supporting the Claim ought to be struck out and/or its participation limited. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Claimant submits the reality of the situation to be that the Defendant is seeking to suppress valid points raised by SSEN-T which strengthen the Claimant&#8217;s case and undermine the Defendant&#8217;s defence. It says that its claim is a challenge to the Final Determination and Order as defined in the Claim Form and that the appeal which it had brought to the Defendant had had six heads, including Cost of Debt (designated letter &#8216;A&#8217;) and Cost of Equity (designated letter &#8216;B&#8217;). The grounds set out in the notice of appeal for both such heads had shared a key common theme; that GEMA had &#8216;erred in law&#8217; in the way in which it had approached its statutory duties. That had been expanded upon in relation to Cost of Debt and Cost of Equity. In respect of the latter, the Claimant had submitted that, <span style="font-style:italic">&#8216;OFGEM&#8217;s misinterpretation of its statutory duties...must be assumed to have infected OFGEM&#8217;s thinking, methodology and decisions in relation to the cost of equity in the same manner as it did in relation to the cost of debt.&#8217;</span> In its reply to GEMA&#8217;s response to the appeal, the Claimant had raised a number of <span style="font-style:italic">&#8216;cross cutting issues&#8217;</span>, one of which had been <span style="font-style:italic">&#8216;OFGEM&#8217;s approach to this appeal as a matter of law&#8217;</span>. Its summary of its position in relation to all of its grounds of appeal had been that, <span style="font-style:italic">&#8216;OFGEM&#8217;s approach to the appeal as a whole appears to be to suggest that, so long as it has followed due process and exercised its discretion, there is no basis for the CMA to interfere with its decisions&#8217;</span>. In relation to GEMA&#8217;s interpretation of its statutory duties, the Claimant had confirmed that, as well as being relevant to Cost of Debt, it <span style="font-style:italic">&#8216;in particular &#8230; form[ed] an integral part of [the Claimant&#8217;s] case in relation to the cost of equity and outperformance heads of appeal&#8217;</span>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Cost of Equity had been addressed as a Joint Ground, as had been the ground of appeal relating to Licence Modifications (former Ground Five in these proceedings). Where a ground of appeal had been unique to a particular appellant, the Defendant had dealt with it separately. Sitting above its Provisional Determination on both the Joint Grounds and the Individual Grounds had been the Defendant&#8217;s overall interpretation of its role as the statutory appellate body, with which SSEN-T had taken issue. The Final Determination had adopted the same structure as had the Provisional Determination: the Defendant&#8217;s general findings on its statutory appellate role had been contained in the first volume of the Final Determination (&#8216;Introductory Chapters&#8217;) and had been relevant to all grounds of appeal, Joint and Individual. That general approach had then been applied in relation to all grounds of appeal (as would be expected), including Cost of Equity and Cost of Debt. The Order had dismissed the Claimant&#8217;s appeal, both in respect of Joint Grounds (save, in limited respects, in relation to Joint Grounds B and C) and Individual Grounds. The Order had been a single regulatory decision, issued to all relevant parties, referring to a single Final Determination (rather than to separate determinations of separate appeals). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Claimant observes that it had originally brought five grounds of judicial review against the Final Determination and the Order, and now pursued four with the permission of Green LJ, who had found them to have raised issues which were both properly arguable and of general importance. The scope of Ground One had been pleaded as being material to the entire Final Determination. Specifically, the Claimant contends that the relevant misdirection had been applied when <span style="font-style:italic">&#8216;considering the grounds of appeal&#8217;</span> and that, although that had been particularly apparent in the approach taken to the licence modification process (former Ground Five, whereby the Defendant was said to have made a clear and specific error in respect of the correct interpretation of the first statutory ground of appeal), the Defendant was to be <span style="font-style:italic">&#8216;taken to have directed itself in this manner in respect of each of the grounds of appeal and it follows that it infects the entire Determination&#8217;</span>, a point repeated in the Claimant&#8217;s Reply.  The Claimant had also raised the Cost of Equity as an example of the statutory misdirection in Ground Two: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.26in"><span style="font-size:11pt">&#8216;The issue of the proper construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA(2) arose primarily in the context of WWU&#8217;s cost of debt </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">and cost of equity heads of appeal</span><span style="font-size:11pt">. However, since the CMA upheld GEMA&#8217;s erroneous construction of the section in respect of those heads of appeal, it must be taken to have adopted and applied the same erroneous construction itself </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">to all the grounds of appeal</span><span style="font-size:11pt">, since it was necessary </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">for each element of the appeal</span><span style="font-size:11pt"> for the CMA itself to have regard to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>AA(2) (and to do so to the same extent as GEMA) by virtue of its duty at <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>D(2)(a)&#8221; (emphasis added) and &#8216;in addition, the two heads of appeal [those two heads being Cost of Debt and Cost of Equity] are closely linked in commercial terms, in that any error in respect of either the cost of debt </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">or the cost of equity</span><span style="font-size:11pt"> will in practice affect the relevant undertaking&#8217;s overall financeability&#8217; (emphasis added). </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The relief claimed had been set out in the Claim Form and Statement of Facts and Grounds. In respect of Ground One, it had included: (i) a declaration that the Final Determination and Order were unlawful; (ii) a declaration that the Defendant is required to determine appeals pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>A-E of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>, applying the approach to the standard of review; the margin of appreciation; and <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 23</ref>D(2), (4) and 23E of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> specified in paragraphs 40 &#8211; 48 of the Statement of Facts and Grounds; and (iii) an order quashing the Final Determination and the Order in so far as the Defendant had dismissed the Claimant&#8217;s appeal on an unlawful basis. In its Defence to the claim &#8211; at both Summary and Detailed Grounds stages &#8211; the Defendant had contended Ground One to have been &#8216;academic&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Green LJ had granted permission to proceed with judicial review on 22 March 2023,<span style="font-size:8pt"/>with brief reasons identifying two points of direct relevance to Ground One. First, he had noted that the application raised a number of issues of general importance which should be ventilated in full at a judicial review hearing. Secondly, he had noted that, <span style="font-style:italic">&#8216;Parliament has set up a system whereby the CMA, also an expert regulator, is given a relatively broad appellate jurisdiction. I do not think that it is necessarily correct to conclude that GEMA is given a &#8216;very wide discretion&#8217; or that the statutory regime or oversight by the CMA entails a &#8216;benignity of a review of a discretionary decision&#8217;</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The significance of the context upon which the Claimant relies is said to be as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">When the Defendant exercises its appellate jurisdiction, it acts as a &#8216;Tribunal&#8217; for the purposes of paragraph 4.6 of PD 54A. That is indicated by its statutory powers and the procedural rules in accordance with which it operates; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">Particularly in light of Green LJ&#8217;s conclusions as to the general importance of the issues raised by the claim, and the common features of the appellate regime under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, the distinction which the Defendant seeks to draw between the Claimant&#8217;s &#8216;own&#8217; appeal and the interests of SSEN-T is unjustified. The Claimant&#8217;s appeal (and Ground One of its claim for judicial review) incorporated both the Joint Grounds (of which Cost of Equity was one) and the Individual Grounds. The definition of &#8216;Order&#8217; and &#8216;[Final] Determination&#8217; followed from that.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">The Defendant&#8217;s own approach, in both the Provisional Determination and the Final Determination, had been to treat the interpretation of its appellate role as being an issue of general application to all appellants and all grounds of appeal, whether Joint or Individual. Any relief which declared the Final Determination or Order unlawful, or which quashed the Final Determination or Order on the basis of Ground One, would be applicable to the Joint Grounds, including Cost of Equity, unless the Court were to specify to the contrary. The Claimant had pleaded that the misdirection had infected the entirety of the Final Determination: the proper interpretation of the Defendant&#8217;s statutory role was squarely in issue and the nature of any remedy which might be appropriate if the challenge were to succeed could not be determined summarily at an interlocutory stage;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">Were the Claimant to succeed in that contention, the interests of SSEN-T (and other appellants) would also be affected &#8212; indeed, the Defendant  appeared to acknowledge as much by paragraph 28 of its Detailed Grounds of Defence. Its argument now was that, if, contrary to the pleaded position, relief were to be limited to a declaration, that would not be a remedy which directly affected SSEN-T. That was incorrect, for at least two reasons: a declaration as to the correct interpretation of the Defendant&#8217;s statutory role would apply to the Joint Grounds, and, thus, to the Order and Final Determination by which both the Claimant&#8217;s and SSEN-T&#8217;s appeal on those grounds had been dismissed; and, as a matter of principle, it was wrong to suggest that a declaration is an empty remedy.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The Claimant submits that it is unfair for the Defendant to assert that Ground One is &#8216;academic&#8217; whilst seeking to prevent SSEN-T, as a properly served interested party, from providing concrete illustrations of the way in which the Defendant&#8217;s approach had affected one of the joint grounds of appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Paragraph 4.6(2) of PD 54A is said to be dispositive of the Defendant&#8217;s application to remove SSEN-T as an interested party. Its underlying rationale is submitted to be obvious &#8212; where (as here) an appellate tribunal has the power to make a determination which affects the rights of the parties before it, any judicial review which disturbs or otherwise rules on that determination will have a direct effect on the persons who were parties to the decision, as is the case here. In any event, it is submitted, SSEN-T satisfies the test in <span style="font-style:italic">Muldoon</span> &#8212; taking the Claimant&#8217;s case at its highest, the relief sought includes a declaration that the Final Determination is vitiated by an error of law which relates to both the Joint and the Individual Grounds. Declaring any part of the Order or Final Determination to be unlawful, and/or quashing that part of the Order or Final Determination which relates to one or more of the grounds of appeal relied upon by SSEN-T (and, in particular, the Joint Grounds), would have a direct impact on SSEN-T. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Furthermore, so the Claimant submits, the proper interpretation of the nature of the Defendant&#8217;s jurisdiction has a direct effect on other gas and electricity licence holders. The outcome of the judicial review directly affects the nature of the statutory right of appeal afforded to such licensees. A submission to similar effect, on behalf of a mobile network operator which had sought to be joined as an interested party, had been accepted in <span style="font-style:italic">R (Telefonica O2 Europe Plc and ors) v Secretary of State for Business Enterprise and Regulatory Reform</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2007/3018" uk:canonical="[2007] EWHC 3018 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 3018 (Admin)</ref> [2]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In any event, it is said, the time for the Defendant to contend that SSEN-T was not directly affected by the outcome of this litigation has long passed. Having been served with the claim form, SSEN-T was entitled to support the claim on additional grounds and was not advancing a novel ground of claim, rather exemplifying the practical effect of the Defendant&#8217;s error of law, and in relation to a joint ground of appeal which had affected the Claimant as well as SSEN-T.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In so far as the Defendant sought to pray in aid the Overriding Objective, it was to be borne in mind that this case represented the first occasion on which the Administrative Court has been called upon to determine the remit and significance of the Defendant&#8217;s statutory appellate function under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. Not only would its outcome be of considerable importance to the Claimant and to SSEN-T, but it also raised issues of significant complexity and public interest, as had been recognised by Green LJ.  The price controls which flow from final determinations and orders (and the regulatory decisions to which they relate) are said to be the most important regulatory decisions in determining a licensee&#8217;s financial position for a long fixed-term period, in both gas and electricity distribution sectors. A lack of predictability in the legal regime applicable to licence holders would have an adverse impact on investment incentives, which are said to be critical to the success of companies such as the Claimant. There is submitted to be a marked divergence of approach between the Final Determination and the Defendant&#8217;s determinations regarding comparable water price controls, as pleaded by SSEN-T, itself being the only interested party which had sought to participate in the substantive hearing, and it is said that it would run contrary to the Overriding Objective to preclude SSEN-T from advancing its pleaded case, subject to appropriate case management, and given the availability of appropriate costs orders. For essentially the same reasons, the Claimant supports SSEN-T&#8217;s contingent application to be joined as an intervener. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="NormalWeb" style="text-indent:0.49in"><span style="font-weight:bold">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NormalWeb" style="margin-left:0.74in">All limbs of the Defendant&#8217;s application fail, for the reasons which follow. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify;text-indent:0.49in"><span style="font-style:italic">Is SSEN-T an interested party?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_8">
+	  <num style="font-style:italic;margin-left:0.59in;text-indent:-0.1in">A.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;text-indent:0.03in"><span style="font-style:italic">Was SSEN-T a party to the proceedings to which this claim relates, before the Defendant tribunal?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Paragraph 4.6 of PD 54A provides: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="font-size:10pt">&#8216;</span><span style="font-weight:bold;font-size:10pt">Interested parties</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">4.6</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.56in;text-indent:0.32in"><span style="font-size:10pt">(1) Any person who is an interested party (see rule 54.1(2)(f)) must be named in the Claim Form as such (see&#160;rule 54.6(1)(a)),&#160;and served with the Claim Form (see&#160;rule 54.7(b)).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.56in;text-indent:0.32in"><span style="font-size:10pt">Where the claim for judicial review relates to proceedings in a court or tribunal, any other party to those proceedings will be an interested party in the judicial review proceedings. For example, if the defendant in a criminal case in the Magistrates or Crown Court applies for judicial review of a decision in that case, the prosecution must always be named as an interested party in the judicial review claim.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Rightly, the Defendant does not suggest that it was not a tribunal for the purposes of paragraph 4.6 of PD 54A. Parliament has established a system whereby the Defendant, an expert regulator, is given a relatively broad appellate jurisdiction, as Green LJ observed when granting permission to the Claimant to apply for judicial review. Its statutory powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> include those to: (a) grant or refuse permission to appeal (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>B(3)-(4));  (b) quash, remit, and substitute the decision (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>E); (c) direct GEMA to determine matters in accordance with the Defendant&#8217;s directions (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>E(5)); (d) suspend GEMA&#8217;s decision pending determination of the appeal (paragraph 2, Schedule 4A); (e) issue notices requiring the production of documents (paragraph 6, Schedule 4A); and (f) convene an oral hearing and receive evidence on oath (paragraph 7, Schedule 4A). It is obliged to embody its determination in an order, setting out its reasons (<ref href="http://www.legislation.gov.uk/id/ukpga/1986/44/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref>G). Equivalent provision is made by sections 11C; 11D; 11F; and 11H of, and Schedule 5A to, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. Appeals are governed by a set of procedural rules modelled on the CPR, operating to supplement the statutory provisions &#8212; <span style="font-style:italic">The Energy Licence Modification Appeals: Competition and Markets Authority Rules </span>(&#8216;the CMA Rules&#8217;).  In short, the Defendant has been endowed, by statute, with all of the powers to be expected of an appellate tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">I reject the Defendant&#8217;s submission, adopted by GEMA, that SSEN-T was not a party to the proceedings to which the claim relates, which arises from the spurious distinction said to exist between appeals which are formally consolidated, and those which (as is said to be the case here) are jointly managed. As Ms Carss-Frisk KC submitted on behalf of SSEN-T, neither the CMA Rules nor Schedule 4A to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref>/Schedule 5A to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/29" uk:canonical="1989 c. 29" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, makes any such distinction. Indeed, rule 14.2(b) of the CMA Rules and footnote 14 thereto treat the two circumstances as synonymous, as does the <span style="font-style:italic">Energy Licence Modification Appeals: Competition And Markets Authority Guide</span>, applicable to appeals, at paragraph 4.25:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.18in;margin-right:0.56in"><span style="font-style:italic;font-size:10pt">The CMA Rules</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="font-size:10pt">&#8216;14.2 </span><marker name="tab"/><span style="font-size:10pt">The CMA may at any time on application or of its own motion give such directions as it considers necessary for the conduct of any appeal, including but not limited to any of the following matters:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;margin-right:0.56in;text-indent:0.39in"><span style="font-size:10pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in;text-indent:0.32in"><span style="font-size:10pt">where there are two or more appeals pending in respect of the same decision, or in respect of decisions which in the view of the CMA are closely related, that the appeals in whole or part should be consolidated and heard together;</span><span style="vertical-align:super;font-size:8pt">14 </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="font-size:10pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="vertical-align:super;font-size:8pt">14 </span><span style="font-size:8pt">Paragraph 1(11) of [whichever statutory schedule is relevant to the particular appeal] provides that the CMA may grant permission to bring an appeal subject to conditions, which may include conditions requiring that the appeal be considered together with other appeals (including appeals relating to different matters or decisions and appeals brought by different persons). See paragraph 9 of [the relevant statutory schedule].&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="font-style:italic;font-size:10pt">The Guide</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="font-size:10pt">&#8216;</span><span style="font-weight:bold;font-size:10pt">Consolidation of appeals</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:10pt">4.25</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in;margin-right:0.56in"><span style="font-size:10pt"><ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">The Act</ref>s provide that the CMA may grant permission to bring an appeal subject to conditions which may include conditions requiring that the appeal may be considered together with other appeals. The Rules include provision for directions being made by the CMA relating to consolidation of appeals.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Prior to the grant of permission, the Defendant had written to all appellants and GEMA, on 12 March 2021, setting out its proposal to join common grounds of appeal, inviting representations on its proposal to join the Cost of Equity; Outperformance Wedge; and Ongoing Efficiency grounds of appeal (and, potentially, those relating to the licence modification process), and the appointment of two groups to share the decision-making. The Defendant&#8217;s grant of permission to appeal to the Claimant, dated 31 March 2021, expressly was conditional upon its joint consideration with specified grounds of appeal (including Cost of Equity) raised in other appeals. Permission in the other appeals was granted on the same basis. At paragraph 55, in the concluding section of the Defendant&#8217;s note to all parties on the appeal process, dated 7 April 2021, the Appeal Director observed (with emphasis now added), <span style="font-style:italic">&#8216;The Group considers that the approach outlined above will enable the CMA to meet its overriding objective, while providing appropriate opportunities for </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">all parties to the appeal</span><span style="font-style:italic"> to put their arguments to the Group and being mindful of practicalities of dealing with multiple appellants.&#8217; </span>Each of the Provisional and Final Determinations was communicated in a single decision, the latter resulting in a single order &#8212; the Order, relating to all joined and individual grounds of appeal.  In its final determination on costs, dated 22 June 2023, at paragraph 6.60, the Defendant stated that it had treated the appellants as <span style="font-style:italic">&#8216;one litigant body&#8217;</span> in assessing the appropriate inter partes costs order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In those circumstances, I regard the Defendant&#8217;s submission that SSEN-T was not a party to the relevant proceedings before it (as tribunal) because it was not a party to the particular appeal brought by the Claimant as specious. There is no principled distinction (advanced or apparent) between the various appeals being heard together &#8212; as a condition on which permission to appeal was granted &#8212; and a formal order for their consolidation, born of the same circumstances. I address, later in this judgment, the Defendant&#8217;s separate contention that there is no claim for relief, beyond declaratory relief, which affects proceedings to which SSEN-T was a party.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">It follows from the above analysis that SSEN-T is an interested party in these proceedings, pursuant to paragraph 4.6(2) of PD54A, and had to be named as such in, and served with, the claim form, pursuant to paragraph 4.6(1) of that practice direction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-style:italic;margin-left:0.79in;text-indent:-0.3in">B.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic">Is SSEN-T directly affected by the claim?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In any event, as a party to one of the overlapping conjoined appeals affected by the legal framework in accordance with which all appeals were determined, SSEN-T is plainly a party &#8216;directly affected&#8217; by the claim, for the purposes of CPR 54.1(2)(f), for which further reason, no doubt, it and all other appellants were identified by the Defendant in the schedule of those entities which it considered ought to be added as interested parties attached to its Acknowledgement of Service. In now contending to the contrary, the Defendant relies upon <span style="font-style:italic">Muldoon</span>. In that case, which had been concerned with the materially identical requirement of RSC Order 53 rule 5(3), two applicants had sought judicial review of the refusal or failure of the Rent Officer Service and a local authority to determine their respective claims to housing benefit. The Secretary of State for Social Security, who had been required, by primary and secondary legislation, to reimburse up to 95% of a local authority&#8217;s housing benefit qualifying expenditure, had applied to be joined as a respondent to both applications, as a person &#8216;directly affected&#8217; by the decision. That application was dismissed by the High Court, a decision upheld by the Court of Appeal. Dismissing the Secretary of State&#8217;s further appeal, the House of Lords held that, on its true construction, the relevant rule required a notice of motion or summons to be served on someone who would be affected by the judicial review decision without the intervention of any intermediate agency and that, where a local authority was required, pursuant to a decision in judicial review proceedings, to pay housing benefit to an applicant, the Secretary of State's collateral obligation to increase the authority&#8217;s annual housing benefit subsidy accordingly did not amount to an obligation to pay housing benefit to the applicant, either directly or through the agency of the local authority &#8212; whilst he would certainly be affected by the decision, and it might be said that he would inevitably or necessarily be affected, he would only be indirectly affected, by reason of his obligation to pay a subsidy to the local authority.  Accordingly, he could not be joined as a party. A similar approach had been taken by a majority of the Court of Appeal in <span style="font-style:italic">In re Salmon; Priest v Uppleby </span>(1889) <ref href="#" uk:canonical="42 ChD 351" uk:isNeutral="false" uk:origin="TNA" uk:type="case">42 ChD 351</ref>, in which an issue had arisen as to whether the appellant plaintiff ought to have served certain third parties with the notice of appeal, as being parties &#8216;directly affected&#8217; by it. The Court held that the third parties were only indirectly affected by the plaintiff&#8217;s appeal, by reason of the defendant&#8217;s rights against them through the intervention of the right of indemnity (albeit, I note, going on to hold that the Court ought not to hear the appeal in the absence of the third parties and granting leave to the defendant to serve them with the notice of appeal).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The position in this case is not analogous; each appellant to the joined grounds of appeal is directly affected by the proper interpretation of the legal framework in accordance with which those grounds have been determined, both now and in any future appeal, having regard to the rolling price controls to which licensees are subject. That is to be contrasted with the position in <span style="font-style:italic">Megarry</span>, on which the Defendant and GEMA also rely, in which Turner J dismissed an application under RSC Order 53, made by certain tobacco companies which had sought to be joined to an application for judicial review of the Legal Aid Board&#8217;s decision to refuse the prospective plaintiffs legal aid to pursue claims for personal injury against them. Observing that the statutory regime did not permit those who might become defendants in any proceedings brought as a consequence of the grant of legal aid to make representations at the stage at which the Board decided whether to grant or refuse it, let alone at the stage at which an appeal against its refusal was being considered, Turner J held that there were many possible eventualities before the tobacco companies might become affected by the application for judicial review and that their situation was analogous to that of a third party who might be affected by an appeal to the Court of Appeal, as in <span style="font-style:italic">In re Salmon</span>. Once again, that is not this case, in which the legal framework directly affects SSEN-T&#8217;s own position in the licensing appeal and does not relate to a preliminary stage which might or might not result in its becoming a party to proceedings and at which there is no statutory mechanism through which it may be heard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">I also consider the Defendant&#8217;s and GEMA&#8217;s reliance upon <span style="font-style:italic">Mencap</span> to be misplaced. In that case, Mencap had challenged reports &#8212; comprising an overview report, together with a separate report relating to each case &#8212; on the outcome of an investigation into complaints by the relatives of six people with learning disabilities who had died following their receipt of allegedly sub-standard care. As originally drafted, the claim had sought relief in the form of an order quashing the reports. Upon the claimant&#8217;s renewed application for permission to apply for judicial review, Pitchford J held that, whilst the report was undoubtedly the vehicle for the claim, the ultimate target of the latter was the treating GPs, albeit that none had been named in the report; and that, should the claim proceed to a hearing, those with the most profound interest in its outcome would be the medical practitioners. As they had not been served as interested parties, and nine months had elapsed since the reports had been published, he refused Mencap permission to apply for judicial review (on that and other grounds). By the time of its appeal from that decision, Mencap had limited the relief sought to a declaration as to the correct approach towards the issue which had given rise to the claim. The Court of Appeal held (at [23] and [24]) that the limited nature of the relief by then sought had cast matters in a different light. There was no longer any attempt to quash the report; rather the claim was being pursued on the basis that it had exposed a legal issue the resolution of which would determine the way in which the ombudsman would approach similar cases in the future, but would not affect the findings in the report itself, which would stand irrespective of the outcome of the claim for judicial review. Any declaration ultimately granted, were the claim to succeed, could be tailored accordingly. In those circumstances, the individual doctors were not interested parties and the issue lay between Mencap and the ombudsman. Others could apply to intervene (indeed, the Equality and Human Rights Commission had applied to do so), but there had been no requirement to identify or serve documents. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The analogy here is said to lie in SSEN-T&#8217;s acknowledgement that, in the event that the instant claim were to succeed, it would not result in the re-opening of the individual appeal to which it was a party; rather, and at best, it would dictate the Defendant&#8217;s approach to any future appeals. But that is to misconstrue the position, in which, amongst the relief sought by the Claimant, is declaratory relief to the effect that: (a) the Final Determination and associated Order are unlawful; and (b) the Defendant is required to determine appeals adopting the approach variously asserted by the claim. The first of those, at least, is a declaration by which SSEN-T is directly affected in the current proceedings. In any event, I consider the fact that it would also affect the Defendant&#8217;s approach to future statutory appeals, in which SSEN-T would have an interest, to be a relevant consideration here &#8212; as was held to have been the position in <span style="font-style:italic">Telefonica </span>[2] &#8212; and, unlike the position in <span style="font-style:italic">Mencap</span>, that is a matter of ongoing significance to SSEN-T and to the other named interested parties in these proceedings, by which they will be directly affected. By contrast, the medical practitioners&#8217; interest in the ombudsman&#8217;s report in <span style="font-style:italic">Mencap </span>had related specifically to the cases the subject of that report. I do not read the judgment of the Court of Appeal as indicating that, in circumstances such as the present, in which a party will be affected on an ongoing basis by the correct approach to statutory appeals from licence modifications arising from price control decisions, it can never be directly affected by a claim which establishes the correct approach to those decisions, absent a prayer for a relevant quashing order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">That is consistent with the decision of Silber J in <span style="font-style:italic">McVey</span>. In that case, the Government had established a trust to compensate those who had been affected by variant CJD, of which the Secretary of State was the settlor. At a later stage, a High Court judge had proposed a radical amendment to the operation of the trust, which the Secretary of State had rejected, having taken expert advice, instead making more moderate amendments. The claimants, who were relatives of people suffering from variant CJD, had challenged the failure to have adopted the radical amendment, an application which had been dismissed at an earlier stage. Two interested parties, who suffered from variant CJD and had been treated with a particular drug, sought various declarations as to the conduct or inaction of the defendant, including to the effect that the delay in revising the compensation scheme had been unreasonable; that it had been unreasonable not to have revised it so as to allow for compensation for the cost of gratuitous care by the families of patients who had survived and were receiving experimental treatment; and that it had been irrational to assert that responsibility for compensation for such care should lie with the trust, when it was known that the trustees had no power to offer such compensation. The question was whether the Court had jurisdiction to deal with that claim in light of the fact that it was so removed from the main issue raised in the proceedings. The Court held that there was no jurisdiction, there being no overlap between the remedies sought by the claimants at the main hearing and the relief sought by the interested parties, which did not arise out of the claim since it did not depend upon the claimants&#8217; contention that the radical proposals to amend the trust (which proposals had not included the contention made by the interested parties) ought to have been adopted, but from an asserted free-standing obligation to make the compensation arrangements sought. An interested party was limited to making submissions on the main claim to the extent that he or she was directly affected and would cease to have that status were the claim to be amended such that s/he was no longer directly affected. That is not this case, in which (see below) SSEN-T supports the claim made by the Claimant, in relation to a matter by which it is directly affected, and does not seek to expand the relief claimed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Nor, in my judgement, is <span style="font-style:italic">R (Lamot) v Secretary of State for Justice </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2016/2564" uk:canonical="[2016] EWHC 2564 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 2564 (Admin)</ref>, on which the Defendant and GEMA rely, an apposite example of a contrary position being adopted in analogous circumstances. In that case, Simler J (as she then was) acceded to the defendant&#8217;s application to strike out the claims on the bases that: they were academic because damages were not being sought; declaratory relief would serve no useful purpose where the claimant had, in effect, achieved the relief sought; there would be little or no utility in the Court making findings as to the lawfulness of policies which had since been rescinded, there being no evidence of how many, if any, others had been affected by the issues raised, and nothing to prevent any such individuals from bringing their own challenges; and the claims not being far advanced, procedurally, having been stayed for substantial periods since their issue, being inevitably fact specific, and being publicly funded. Once again, that is not this case, in which: the Claimant has yet to achieve the relief sought; in a claim relating to an issue of ongoing significance which Green LJ identified to be of general importance and public interest, being the nature of the Defendant&#8217;s statutory appellate role &#8212; an issue known to affect all those having a statutory right of  appeal, and, in particular, who were parties to the joined appeals the subject of these proceedings; for which declaratory relief and, potentially, a quashing order would be of real importance and utility; and the participation of which in these proceedings is privately funded. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Furthermore, were the Court ultimately to quash the Final Determination, having accepted the Claimant&#8217;s contention that the Defendant had approached its task in an unlawful way, and one by which all statutory appellants had been adversely affected, it would be open to it to remit the matter to the Defendant on a broader basis, potentially as part of the relief sought by paragraph 111(iii) of the Statement of Facts and Grounds, but, in any event, under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, directing that the Defendant reconsider the matter and reach a decision in accordance with the findings of the High Court. At this stage in the proceedings, it is neither possible nor appropriate for the Court to proceed on the assumption that the scope of any appropriate relief would be circumscribed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">It is also of relevance that the Defendant&#8217;s application does not extend to the other interested parties named in these proceedings, which application would inevitably follow, as a matter of logic, if the Defendant&#8217;s application had merit. Indeed, as it seems to me, it would be wrong in principle to exclude SSEN-T as an interested party in such circumstances, particularly at this late stage, whilst the other parties to the joined appeals remain as interested parties. Mr Williams KC informed me that a pragmatic decision had been taken to limit the application to SSEN-T as being the only party which had sought to participate and advance additional grounds. First, I do not accept that SSEN-T has done the latter (see below), but, in any event, it is not appropriate to seek to exclude a party on that basis; rather it marks a cynical attempt by the Defendant, supported by GEMA, to restrict the submissions to be made in support of the claim. Furthermore, and as Mr Williams acknowledged in discussion, there would be nothing to prevent the Claimant from adopting the contentions made by SSEN-T in support of its claim, so far as they illustrate the error of principle asserted by Ground One. Following his oral submission of which my note is as follows: <span style="font-style:italic">&#8216;[The Defendant]&#8217;s position is not that the approach taken would not have made a difference but that [the Claimant] has not identified any respect in which it would have made a difference. The SSEN-T example might be one example where a different approach would result in a different outcome. That is why SSEN-T is materially expanding the scope of the claim&#8217;, </span>Mr Williams put the matter in this way, &#8216;<span style="font-style:italic">If [the Claimant] had pleaded the illustration and now applied to amend its pleaded case to adopt that pleaded by SSEN-T, I could not have had a practical objection to that.&#8217;</span> That is to construct an inappropriate artifice, lacking any basis in principle, or practical utility.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">It follows that it was right that SSEN-T be joined as an interested party to proceedings and there is no basis upon which it ought now to be excluded as such. I, therefore, need not address its contingent application to be joined, instead, as an intervener.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic">The Defendant&#8217;s alternative application to strike out parts of SSEN-T&#8217;s detailed grounds</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">The essence of this application is that the offending parts are allegedly expansive of the Claimant&#8217;s grounds, when SSEN-T has not sought, or been granted, permission to advance any additional ground, and that they are, at best, an unnecessary diversion from the way in which the case for which the Claimant has been granted permission is put, and, at worst, a specific and different granular challenge to the particular conclusions reached by the Defendant in relation to Cost of Equity, in which SSEN-T has no interest because there is no claim in these proceedings for remission of its own appeal.  I reject all such contentions, for the reasons which follow and having explained, above, why it would be wrong to proceed on the assumption that the scope of any appropriate relief would be circumscribed, were the Claimant to succeed in its claim. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">I have recorded earlier in this judgment the content of paragraph 11 of the Defendant&#8217;s Summary Grounds of Resistance, directed towards Ground One, on which basis, it is said, the Court is being invited to address an abstract academic issue. The point was restated, at paragraph 28 of the Defendant&#8217;s detailed Grounds of Defence (also set out above), following the grant of permission by Green LJ. The same point was pleaded by GEMA at paragraphs 7.1; 13; and 14 of its Detailed Grounds of Resistance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In accordance with CPR 54.8(1), as a person wishing to take part in the judicial review, SSEN-T filed and served an Acknowledgement of Service in the approved form, stating that it did not intend to contest the claim. Following the grant of permission to the Claimant, it filed and served detailed grounds for supporting the claim, expressly restricted to Ground One, <span style="font-style:italic">&#8216;concerning the standard applied by the CMA in determining the appeals&#8217;</span>. As set out earlier in this judgment, by paragraph 5 it pleaded that it sought to illustrate the Claimant&#8217;s contention (with which it agreed) that the Defendant&#8217;s approach had infected the entire Final Determination, by reference to the way in which the Defendant had approached the Cost of Equity ground of appeal. Having pleaded the errors of principle which it contended the Defendant to have made in its Provisional and Final Determinations, from paragraph 37 onwards it set out its reliance upon the Defendant&#8217;s decision concerning the Cost of Equity <span style="font-style:italic">&#8216;as providing the clearest illustration of the CMA&#8217;s erroneous approach to its statutory function of determining the appeals brought by the various CMA Appellants&#8217;. </span>It was served with the Claimant&#8217;s Reply to the Defendant&#8217;s Acknowledgement of Service, in accordance with CPR 54.8A(2)(b)(ii). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In accordance with CPR 54.14(1), SSEN-T filed and served detailed grounds for supporting the claim on additional grounds; and written evidence. Unlike the immediately following rule, that rule imposes no requirement that an interested party obtain permission to advance additional grounds. The straightforward answer to the Defendant&#8217;s submission that, nevertheless, permission is required is that no such requirement is imposed by the CPR and there is no other source of the asserted obligation, including <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/31/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref>, which provides that no <span style="font-style:italic">application for judicial review</span> shall be made unless the leave of the High Court has been obtained <span style="font-style:italic">in accordance with rules of court </span>(emphasis added), and, thus, advances matters no further. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">Furthermore, the submission seems to me to be wrong, both by reference to the structure of Part 54 and as a matter of principle. CPR 54.14 provides for the filing of detailed grounds 35 days after the grant of permission to the claimant. By definition, additional grounds are those for which permission has not previously been granted, or they would not be additional and would serve no useful function. A further permission stage (on paper and/or at an oral hearing) would operate to delay proceedings. Numerous examples can be found of cases in which, as it appears from the law reports, additional grounds have been advanced by an interested party, and/or where such a party has made the running on the relevant issue, without any need for the prior grant of permission: <span style="font-style:italic">R (British Bankers Association) v FSA</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2011/999" uk:canonical="[2011] EWHC 999 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 999 (Admin)</ref>, at [11]; <span style="font-style:italic">R (MM (Lebanon)) v SSHD </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/10" uk:canonical="[2017] UKSC 10" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 10</ref>, <ref href="#" uk:canonical="[2017] 1 WLR 771" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 771</ref>, at 775F; and <span style="font-style:italic">R (Hampshire County Council) v Environment Secretary </span><ref href="#" uk:canonical="[2021] QB 89" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] QB 89</ref>, at [13], in which the interested party&#8217;s submissions were said to have <span style="font-style:italic">&#8216;raised broader, rather more fundamental questions&#8217;</span> than had those of the claimant. True it is that, in <span style="font-style:italic">McVey </span>[15], Silber J held that <span style="font-style:italic">&#8216;any independent and discrete claim by any party in a judicial review application requires permission&#8217;, </span>but it would appear from his judgment that he had not been referred to CPR 54.14(1). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">More recently, in <span style="font-style:italic">R (Clydesdale Financial Services Limited) v Financial Ombudsman Service Limited</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2024/3237" uk:canonical="[2024] EWHC 3237 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWHC 3237 (Admin)</ref><authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"><span style="font-family:'Times New Roman'"> in which permission to appeal has been granted, though the ambit of the appeal is unclear.</span></p>
+	      </authorialNote>, Kerr J accepted (at [124] to [131]) the Defendant&#8217;s submission that CPR 54 uses the term &#8216;grounds&#8217; in two different senses; one connoting a pleaded ground of challenge, as in CPR 54.5(1)(b) and paragraph 4.2(1)(b) of PD 54A, and the other the <span style="font-style:italic">&#8216;&#8220;narrow&#8221; sense of reasons for contesting a claim or supporting a defendant&#8217;s resistance to it (as in CPR 54.8(4)(a)(i) and 54.14(1))&#8217;</span>, holding that an interested party required the Court&#8217;s permission to raise a completely new ground, which permission could be given outside CPR Part 54, under the Court&#8217;s CPR Part 3 case management powers. With respect to Kerr J, I do not share his view that the term &#8216;grounds&#8217; in CPR Part 54 is used in two different senses, which appears to me to identify a distinction without a difference, particularly in circumstances in which an interested party seeks to support a claim, and given the juxtaposition of rules CPR 54.14 and 54.15. Furthermore, there is, to my mind, an intrinsic difficulty with adopting different definitions of a recurring term within a suite of rules in the same Part of the CPR and its associated Practice Directions. It may be for that reason that no similar submission was advanced before me. As Ms Carss-Frisk acknowledged, it is necessary to ensure fairness to all parties, including an opportunity for the party or parties affected by additional material to plead (or otherwise respond) to it and to file and serve any associated necessary evidence, but that is a matter for proper case management and is to be distinguished from a requirement for permission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">But, in any event, consistent with its pleaded case and as emphasised by Ms Carss-Frisk in submissions, in my judgement SSEN-T does not seek to pursue any free-standing additional ground of review, or additional or different relief. Instead, it seeks to illustrate a practical implication of the error asserted by Ground One, following the gauntlet thrown down by the Defendant and GEMA to the effect that the challenge which the Claimant raises is academic (a challenge, I note, which is at odds with Mr Williams&#8217; oral submission, <span style="font-style:italic">&#8216;We simply do not think that the Court will decide whether or not to grant relief based on examples.&#8217;</span>) In so finding, I do not lose sight of the fact that, within its pleaded criticism of the Defendant&#8217;s approach to Cost of Equity, SSEN-T sets out that which it contends the Defendant ought to have concluded in relation to various aspects of that ground of appeal, had it adopted the correct approach in law, and asserts that the issues identified pervaded both the Provisional and the Final Determination. It may well be that, at the substantive hearing of this claim, the judge will consider it inappropriate and/or unnecessary to reach a concluded view on some or all of those matters, or the underlying detail thereof, in order to determine Ground One. Nevertheless, I do not consider it appropriate, at a preliminary stage, to shut SSEN-T out from advancing its case by way of illustration of the asserted practical effect of the error alleged by Ground One by reference to a ground of appeal which was common to all appeals which were determined by the Defendant, including that brought by the Claimant. To the Defendant&#8217;s and GEMA&#8217;s objection that that is to permit a disproportionate exercise, the answer is straightforward. First, at its highest, it is said that the additional material would add one day (and, on Ms Carss-Frisk&#8217;s estimate, half a day) to a substantive hearing which Green LJ considered to raise issues of general importance and public interest. That does not afford a powerful basis for objection, including when considered in conjunction with any associated additional preparation and steps in this litigation. Secondly, the judge to whom the substantive hearing is assigned will be in a position to impose a strict timetable, at or shortly prior to its outset. Thirdly, if and to the extent that, in the event, that judge considers such time and associated preparatory work to have been disproportionately exhausted by the matters on which SSEN-T relies and/or that those matters have not assisted him or her in determining Ground One, that can be reflected in appropriate costs orders. Of course, if the Defendant and/or GEMA remain of the view that it is unnecessary, in Mr Williams&#8217; language, to <span style="font-style:italic">&#8216;get into the weeds&#8217;</span>, that will, no doubt, be reflected in the detail with which they consider it necessary and appropriate to respond to SSEN-T&#8217;s Detailed Grounds for Supporting the Claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">In short, once it is acknowledged that SSEN-T was properly joined as, and remains, an interested party, and that it would not have required permission to advance additional grounds (had that been the exercise in which it had engaged), the only basis upon which any part of its pleaded case could be struck out would be as an appropriate exercise of the Court&#8217;s case management powers, and, at this stage, in particular given the Defendant&#8217;s and GEMA&#8217;s pleaded contention that Ground One raises an academic issue, I am not satisfied that a proper foundation for taking that Draconian step is made out.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold">Overarching conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.74in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.74in">It follows that the Defendant&#8217;s application is refused in its entirety; SSEN-T&#8217;s contingent application does not arise for consideration; and I shall invite submissions from all parties as to the directions which ought now to be given leading to the substantive hearing, and other consequential matters.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

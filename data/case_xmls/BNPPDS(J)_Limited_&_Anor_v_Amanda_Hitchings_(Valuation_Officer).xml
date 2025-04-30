@@ -1,0 +1,903 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/104"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/104"/>
+	  <FRBRdate date="2025-03-26" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="104"/>
+	  <FRBRname value="BNPPDS(J) Limited &amp; Anor v Amanda Hitchings (Valuation Officer)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/104"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/104"/>
+	  <FRBRdate date="2025-03-26" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/104/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/104/data.xml"/>
+	  <FRBRdate date="2025-03-26T16:19:17" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-26" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="bnppdsj-limited-and-bci-limited" href="" showAs="BNPPDS(J) LIMITED and BCI LIMITED"/>
+	<TLCPerson eId="as-trustees-of-the-blackrock-industrial-trust" href="" showAs="(as Trustees of the Blackrock Industrial Trust)"/>
+	<TLCPerson eId="amanda-hitchings" href="" showAs="AMANDA HITCHINGS"/>
+	<TLCPerson eId="valuation-officer" href="" showAs="(VALUATION OFFICER)"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>104</uk:number>
+	<uk:cite>[2025] UKUT 104 (LC)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>077f1ee24cb61d54e27ea2cbb35847e632c5e23ddcb24ef4d09b0f8e3a00e0d0</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Paranumbering { margin-left: 0in; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; font-size: 11pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cofootnotenode { }
+#judgment .ParanumberingChar { font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.jpg" style="width:108.61pt;height:88.41pt"/></p>
+      <p><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2025] UKUT 104 (LC)</neutralCitation><span style="font-weight:bold">  </span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Case No: LC-2024-414</span></p>
+      <p><courtType refersTo="#ukut-lc" style="font-weight:bold">IN THE UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p><span style="font-weight:bold">AN APPEAL AGAINST A DECISION OF THE VALUATION TRIBUNAL FOR ENGLAND</span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Royal Courts of Justice, Strand, </span></p>
+      <p style="text-align:right"><span style="font-weight:bold">London WC2A 2LL</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">26 March 2025</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p><span style="font-style:italic;font-weight:bold">RATING &#8211; HEREDITAMENT &#8211; 2017 List &#8211; warehouse &#8211; works carried out following termination of lease and prior to opening as a delivery kitchen &#8211; whether property incapable of beneficial occupation &#8211; whether state of reasonable repair to be assumed &#8211; Local Government Finance Act 1988, Sch 6, para 2(1)(b) &#8211; appeal allowed &#8211; assessment reduced to rateable value &#163;1</span></p>
+      <p><span style="font-weight:bold">BETWEEN:</span></p>
+      <p style="text-align:center"><party refersTo="#bnppdsj-limited-and-bci-limited" as="#appellant" style="font-weight:bold">   BNPPDS(J) LIMITED and BCI LIMITED</party></p>
+      <p style="text-align:center"><party refersTo="#as-trustees-of-the-blackrock-industrial-trust" as="#appellant" style="font-weight:bold">(as Trustees of the Blackrock Industrial Trust)</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellants</role></p>
+      <p><span style="font-weight:bold">                                                                           -and-</span></p>
+      <p style="text-align:center;margin-left:0.88in;text-indent:-0.88in"><party refersTo="#amanda-hitchings" as="#respondent" style="font-weight:bold;text-transform:uppercase">     AMANDA HITCHINGS </party></p>
+      <p style="text-align:center;margin-left:0.88in;text-indent:-0.88in"><party refersTo="#valuation-officer" as="#respondent" style="font-weight:bold;text-transform:uppercase">     (VALUATION OFFICER)</party></p>
+      <p style="text-align:right;margin-left:0.88in;text-indent:-0.88in"><role refersTo="#respondent" style="font-weight:bold">                                                                                                                                         Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">15 Brough Park Way,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Newcastle-upon-Tyne NE6 2YF</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">   Martin Rodger KC, Deputy Chamber President and Mr Mark Higgin FRICS FIRRV</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">19 February 2025</span></p>
+      <p><span style="font-style:italic">Mr Luke Wilcox, </span>instructed by Altus Group, for the appellants</p>
+      <p><span style="font-style:italic">Mr Matthew Donmall</span>, instructed by HMRC Solicitors, for the respondent</p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2025</span></p>
+      <p>The following cases are referred to in this decision:</p>
+      <p><span style="font-style:italic">AVIVA Investors Property Developments Ltd and PPG Southern Limited v Whitby (VO) </span>[2013] RA 61</p>
+      <p><span style="font-style:italic">Dawkins v Ash </span>[1969] 2 AC 366</p>
+      <p><span style="font-style:italic">De Silva v Davis (VO) </span>[1983] 1 EGLR 211</p>
+      <p><span style="font-style:italic">Jackson (VO) v Canary Wharf Limited&#160;</span>[2019] UKUT 0136 (LC)</p>
+      <p><span style="font-style:italic">Newbigin (VO) v Monk</span> [2017] 1 WLR 851</p>
+      <p><span style="font-style:italic">Porter (VO) v Trustees of Gladman SIPPS </span>[2011] UKUT 204 (LC)</p>
+      <p><span style="font-style:italic">Williams (VO) v Scottish &amp; Newcastle Retail Ltd </span>[2001] EWCA Civ 185</p>
+      <p><span style="font-style:italic">Scottish &amp; Newcastle Retail Ltd v Williams (VO)</span> [2001] 1 EGLR 157</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="margin-left:0.39in;text-indent:-0.39in"><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Should the rating list entry for a building undergoing a scheme of refurbishment be reduced to &#163;1 for the duration of the works?  This question arises from a 2017 rating list decision of the Valuation Tribunal for England (&#8216;VTE&#8217;) in which it rejected the appellant&#8217;s case for a reduction of the entry to a nominal sum and dismissed their appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">This appeal from the VTE&#8217;s decision relates to a warehouse in Newcastle upon Tyne (&#8216;the Property&#8217;) which was subject to works by its owners for a period starting on 28 November 2022 and culminating in practical completion on 24 March 2023.  The purpose of the works was to put the Property into a state suitable for a new tenant to undertake works necessary for their own occupation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Following the completion of the works the Property was occupied by McDonald&#8217;s Restaurants who fitted it out as a kitchen supplying items solely for delivery, commonly known as a &#8216;dark kitchen&#8217;.    In view of the extent of the changes made to the Property and the nature of the issues, the Tribunal has not carried out an inspection, but we have been provided with detailed plans, specifications, photographs and a comprehensive schedule of works.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The appellant was represented at the hearing of the appeal by Mr Luke Wilcox and the respondent Valuation Officer (&#8216;VO&#8217;) by Mr Matthew Donmall.  We are grateful to them both.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">The facts</span></heading>
+	  <level eId="lvl_2_1">
+	    <content>
+	      <p style="text-indent:0.39in"><span style="font-style:italic">The Property</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The Property is part of a terrace of 8 similar warehouse units at Brough Park, a small industrial estate in Byker, about 2 miles east of Newcastle city centre, just off the A187 Fossway which links the city centre to Wallsend and North Shields.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The Property dates from 1977 and is of steel portal framed construction with external walls of fair faced brickwork to a height of about 2 metres and box profile insulated metal cladding above.   The roof covering is corrugated sheets interspersed with double skinned translucent roof lights.  It has an eaves height of approximately 7 metres and is equipped with a 4 metre roller shutter door.  At the front of the Property is a concrete apron which can accommodate 4 vehicles.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Internally, the ground floor warehouse was originally laid out as clear space, but the previous tenant had installed a timber mezzanine floor supported on a steel framework with stanchions bolted to the floor slab. This was still in place prior to the commencement of the works.   The ground floor also contained a reception/entrance room, kitchen, and toilets.   The first floor above this ancillary space was arranged as open plan offices.  The ground floor gross internal area is 680.4m<span style="vertical-align:super;font-size:smaller">2</span> and the first floor is 62.1m<span style="vertical-align:super;font-size:smaller">2</span>.  The mezzanine floor extended to 510.8m<span style="vertical-align:super;font-size:smaller">2</span>, which is equivalent to about 83% of the warehouse space on the ground floor.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The property is entered in the rating list as a warehouse and premises with an assessment of rateable value &#163;31,250.  When that assessment was made the VO was unaware that a mezzanine floor had been installed and any value attributable to it was not included.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">The tenancy granted to McDonald&#8217;s commenced on 24 March 2023, the same day that practical completion of the landlord&#8217;s works was achieved.     We understand that the kitchen opened for trading during April 2024, although we have not been supplied with the precise date.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-style:italic">The proposal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The VO&#8217;s challenge decision shows that a &#8216;check&#8217; was submitted on 10 January 2023 and completed on 23 February 2023.   The &#8216;challenge&#8217; was submitted on 21 March 2023 and the VO issued her decision on 7 September 2023.   We have not seen a copy of the &#8216;challenge&#8217; form itself, but the supporting statement provided by the appellant&#8217;s agent, Altus Group, was submitted in evidence.   The grounds of the challenge were that, from 15th December 2022 the hereditament was undergoing a major programme of refurbishment which rendered it incapable of beneficial occupation as a matter of fact.  Reliance was placed on the decision of the Supreme Court in <span style="font-style:italic">Newbigin (VO) v Monk</span> [2017] 1 WLR 851 (&#8216;<span style="font-style:italic">Monk&#8217;</span>) and it was proposed that the Property should be valued at RV &#163;1 for the duration of the scheme and the resultant period of incapability.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In her response the VO disagreed and considered that the Property should not be deleted from the rating list as the works undertaken were no more than standard dilapidations works that would be undertaken at the end of a lease.  The assessment should therefore remain in the rating list at rateable value &#163;31,250. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">We will return to the parties&#8217; detailed arguments after we have looked into the works themselves, the timeline of events and the statutory background.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-style:italic">The programme of works and timeline</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">The programme of works began on 28 November 2022 and by 15 December 2022 the following had been completed:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.01in">The services had been capped and the contractors had removed the roof hung strip lighting from the warehouse both above and below the mezzanine, including cabling and switches.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.23in">ii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">Temporary, works lighting had been installed in the warehouse to provide light for the contractors.  Lighting had been removed from the office accommodation including the wiring and switches.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.23in">iii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.27in">Perimeter small power to the warehouse (including that serving the warehouse heating system) had been removed, including all sockets, wiring and conduits.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in">New windows and doors (including roller shutter doors) were also being manufactured.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">During January 2023 scaffolding was erected to facilitate further works. Contractors then completed the following:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.01in">             Removal of existing gas heater and purge of heating system.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">ii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Removal of all asbestos and flues to the roof.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">iii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.26in">             Replacement of the exterior security lighting.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">iv)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Replacement of the external rooflights and cleaning of internal rooflights.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">v)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.01in">             Replacement of 24 damaged roof panels.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">vi)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Replacement of 8 external wall panels.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">vii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.26in">             Exterior redecoration.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">viii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.39in">Cleaning and making good of guttering.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">ix)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Repointing of brickwork to a corner of the warehouse.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">x)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.01in">             Replacement of windows to the offices.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xi)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Replacement of a fire door and pedestrian access door.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.26in">             Replacement of the roller shutter door with an electric equivalent.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xiii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.39in">Renewal of toilet and kitchen facilities.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xiv)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.26in">Installation of lighting and small power to the warehouse.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xv)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Dismantling and removal of the mezzanine floor.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xvi)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.26in">Installation of lighting and small power to the offices.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xvii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.39in">Making good of the warehouse floor.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xviii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.51in">Flushing out of the drains.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xix)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.26in">Cleaning and decorating prior to new tenant taking the building.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.24in">xx)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in;text-indent:0.14in">             Installation of an external vehicle charging point.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The whole project was originally scheduled to take 10 weeks, but it was concluded in the week commencing 20 March 2023 with a practical completion date of 24 March 2023.   At the hearing the delay was said to have been caused by the Christmas break and delays in sourcing some building materials.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The works were costed at &#163;171,916.46 which can be broken down as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.5in;text-indent:-0.5in">i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in">Building envelope              &#163;143,548.50</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.5in;text-indent:-0.5in">ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in">Internals<marker name="tab"/>                   &#163;  20,509.21</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.5in;text-indent:-0.5in">iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in">Mechanical and electrical  &#163;    3,796.25</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.5in;text-indent:-0.5in">iv)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in">Charging point<marker name="tab"/><marker name="tab"/>      &#163;    4,062.50</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Neither party submitted evidence about the works carried out by McDonald&#8217;s to convert the Property from a warehouse to a delivery kitchen.  The Property was inspected on behalf of the VO by Mr Oliver Ridley MRICS on 26 April 2024.  He observed that McDonald&#8217;s had installed an &#8216;integral food preparation area&#8217; in the warehouse as well as meeting rooms and break out areas.  The manager of the kitchen informed him that McDonald&#8217;s had opened for business approximately a year earlier which suggests that they had completed their fitting out works at the end of April or the beginning of May 2023.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">We infer from the fact that McDonald&#8217;s lease began on the date of practical completion and only four or five weeks then elapsed until they opened the new kitchen for business, that McDonald&#8217;s must have agreed to take a lease of the Property well before the end of March 2023.  The use of the Property as a kitchen would, in planning terms, be &#8216;<span style="font-style:italic">sui generis</span>&#8217; which would have required a change of use application to the planning authority.  McDonald&#8217;s would have needed time to plan the layout of the kitchen, book the contractors to do the work and source the materials and appliances to complete the scheme.   They may have needed Building Regulations approval.   The landlord would be unlikely to have removed the mezzanine floor unless they were sure it would not be required by an incoming tenant.  Otherwise, the opportunity to charge rent for it on a future letting might be passed up.  It is reasonable to conclude therefore that McDonald&#8217;s must have been secured as a tenant either before, or very soon after, the works undertaken by the landlord began and that the two schemes were undertaken one immediately after the other or with only a very short break between them.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold">The statutory background</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Section 41 of the Local Government Finance Act 1988 (&#8216;the 1988 Act&#8217;) requires the VO for a billing authority to compile and maintain a local non-domestic rating list for the authority&#8217;s area.  By section 42 the rating list must show each relevant non-domestic hereditament.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"> The expression &#8220;hereditament&#8221; is defined by section 64(1) of the 1988 Act by reference to its meaning under section 115(1) of the General Rate Act 1967, as follows:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;Hereditament means property which is or may be liable to a rate, being a unit of property which is, or would fall to be, shown as a separate item in the valuation list.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p style="margin-left:0.38in">The question of whether a property falls to be shown as a separate item in the valuation list can be answered by applying principles developed by judges through case law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">Rateable value is defined in paragraph 2(1) of Schedule 6 of the Local Government Finance Act 1988, as amended by the Rating (Valuation) Act 1999, as: </p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">"&#8230; an amount equal to the rent at which it is estimated the hereditament might reasonably be expected to let from year to year on these three assumptions:</p>
+	      </intro>
+	      <subparagraph>
+		<num>a)</num>
+		<content>
+		  <p style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">the first assumption is that the tenancy begins on the day by reference to which the determination is to be made;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>b)</num>
+		<content>
+		  <p style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">the second assumption is that immediately before the tenancy begins the hereditament is in a state of reasonable repair, but excluding from this assumption any repairs which a reasonable landlord would consider uneconomic;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>c)</num>
+		<content>
+		  <p style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">the third assumption is that the tenant undertakes to pay all the usual tenant&#8217;s rates and taxes and bear the cost of the repairs and insurance and the other expenses (if any) necessary to maintain the hereditament in a state fit to command the rent mentioned above.&#8221;</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p style="margin-left:0.39in">Statute requires that the appeal property be valued reflecting certain matters as they existed on the material day, and by reference to values pertaining at an antecedent valuation date (&#8220;AVD&#8221;) which is 1 April 2015. It is agreed that for the purpose of this appeal the material day was 15th December 2022. The matters which must be taken to have been as they were at the material day are set out in paragraph 2(7) of Schedule 6 to the 1988 Act. The matters relevant to the appeal are:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(a)</num>
+		    <content>
+		      <p style="margin-left:1.18in;margin-right:0.39in">matters affecting the physical state or physical enjoyment of the hereditament;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="margin-left:1.18in;margin-right:0.39in">the mode or category of occupation of the hereditament;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="margin-left:1.18in;margin-right:0.39in">... </p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(d)</num>
+		    <content>
+		      <p style="margin-left:1.18in;margin-right:0.39in">matters affecting the physical state of the locality in which the hereditament is situated or which, though not affecting the physical state of the locality, are nonetheless physically manifest there;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(e)</num>
+		    <content>
+		      <p style="margin-left:1.18in;margin-right:0.39in">the use or occupation of other premises situated in the locality of the hereditament.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold">The rating of property incapable of beneficial occupation</span></heading>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In <span style="font-style:italic">Monk </span>the Supreme Court addressed the question which arises again in this appeal of whether a commercial building which is in the course of redevelopment should be valued for rating purposes as if it were still usable in the manner for which it was constructed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-style:italic">Monk </span>concerned an office building in Sunderland undergoing refurbishment prior to reletting.  As Lord Hodge JSC recorded, at [4], at the material day:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;&#8230;. the premises were vacant. Contractors had removed the majority of the ceiling tiles and the suspended ceiling grid and light fittings and also 50% of the raised floor. They had also removed the cooling system and the sanitary fittings, demolished the block walls of the lavatories and stripped out the electrical wiring. The contractors had erected and plastered plasterboard partitions to form the outline of the proposed communal lavatories and had erected and plastered a partition across the floor at the east side of the premises. They had completed first fix electrical installations to the lavatory area and had altered the drainage to accommodate the new location of the lavatories.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The contractors had entered into the refurbishment contract almost two years before the material day and between those two dates had proceeded with the required works.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Lord Hodge noted, at [12], that prior to the enactment of Schedule 6 of the 1988 Act:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;&#8230;it was an established principle of rating law that a hereditament is to be valued as it in fact existed at the material day. This principle, which in the past was described by the Latin phrase, rebus sic stantibus (ie as things stand), [&#8230;] is often referred to as &#8220;the principle of reality&#8221; or &#8220;the reality principle&#8221; [&#8230;.].&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The reality principle has two limbs, namely the physical state of the property and its use, as Lord Hodge noted, at [14]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;In <span style="font-style:italic">Scottish &amp; Newcastle Retail Ltd v Williams (VO)</span> [2001] 1 EGLR 157 the Court of Appeal upheld the decision of the Lands Tribunal that the reality principle meant that it was assumed that a hereditament was in the same physical state as upon the material day, save for minor alterations, and could be occupied only for a purpose within the same mode or category of purpose as that for which it was occupied on the material day.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Before the 1988 Act the terms of the notional letting by reference to which the annual value of a hereditament (and hence its rateable value) was determined was specified by statute to include that the landlord would bear the cost of repairs.  Case law directed that it should also be assumed that the landlord had first put the property into repair.  In applying that assumption, as Lord Hodge explained, at [17], &#8220;[c]ase law distinguished between a mere lack of repair, which did not affect rateable value because of the hypothetical landlord&#8217;s obligation to repair, and redevelopment works which made a building uninhabitable.&#8221; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">As originally enacted, the 1988 Act reversed the former assumption about the terms of the hypothetical tenancy and the tenant was now taken to assume responsibility for repairs, but it did not disturb the reality principle so far as it concerned the condition of the property or its mode of occupation.  This change had unforeseen consequences which the repair assumption introduced by the 1999 Act was intended to address.  In <span style="font-style:italic">Jackson (VO) v Canary Wharf Limited&#160;</span>[2019] UKUT 136 (LC), at [22], this Tribunal (the Deputy President and Mr P.D. McCrea FRICS) summarised Lord Hodge&#8217;s account of why the 1999 Act was introduced: </p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;In the Supreme Court Lord Hodge pointed out that the repair assumption had been introduced by the Rating (Valuation) Act 1999 to reinstate the law as it had been understood to be before the decision of the Lands Tribunal in <span style="font-style:italic">Benjamin v Anston Properties </span>[1998] 2 EGLR 147. Before the 1988 Act the statutory hypothesis had been that the landlord was assumed to bear the cost of repairs under the notional tenancy of the hereditament. In a series of decisions of the Court of Appeal this had been held to require an assumption that defects which were present in reality would be put right at the notional landlord&#8217;s expense, and so would not reduce the rateable value of the subject. In <span style="font-style:italic">Benjamin</span> the Lands Tribunal held that, by placing responsibility for repairs under the hypothetical tenancy on the tenant, the new valuation hypothesis (as originally enacted), did not permit an assumption that the hereditament was in repair if, in reality, it was not. The promoter of the Bill which became the 1999 Act had explained to Parliament that the purpose of the change was to address this conclusion, and to reverse its effect so that an old principle governing rating valuation should merely be restated&#8221; (<span style="font-style:italic">Monk</span>, at [21]).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Lord Hodge explained the purpose of the 1999 Act, at [20]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;The 1999 Act, by introducing the assumption of reasonable repair at the outset of the hypothetical tenancy ("the repair assumption"), is not addressing the question of whether the premises were capable of beneficial occupation, which, in the context of a building undergoing redevelopment, is a logically prior question. Thus the repair assumption (para 2(1)(b)) applies to matters affecting the physical state of the hereditament (para 2(7)(a)) but not to the mode or category of occupation of the hereditament (para 2(7)(b)).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">Lord Hodge then turned his attention to the practicalities of how the repairing assumption should be utilised in the circumstances of a building undergoing refurbishment.  He endorsed a three stage approach submitted in an intervention by the Rating Surveyors&#8217; Association and the British Property Federation: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.89in">to determine whether a property is capable of rateable occupation at all and thus whether it is a hereditament;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.5in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.89in">if the property is a hereditament, to determine the mode or category of occupation and then;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.89in;text-indent:-0.5in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.89in;text-indent:0.12in">to consider whether the property is in a state of reasonable repair for use consistent with that mode or category.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.39in">The first two stages of that analysis involve the application of the reality principle. At the third stage the assumption in paragraph 2(1)(b) is applied, if the reality is otherwise.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The final part of Lord Hodge&#8217;s analysis concerned how to differentiate between premises undergoing reconstruction and those which are simply in a state of disrepair.  He concluded that the subjective intentions of the owner are irrelevant; what is required is an objective assessment of the physical state of the property on the material day, which can have regard to the programme of works which is being undertaken on the property.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In <span style="font-style:italic">Canary Wharf </span>the Tribunal rejected a submission that the Supreme Court&#8217;s analysis in <span style="font-style:italic">Monk</span> represented a narrow &#8220;building in the course of redevelopment&#8221; exception to the repair assumption.  At [36] the Tribunal instead emphasised that:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;If premises are not capable of beneficial occupation they are not a hereditament.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p style="margin-left:0.39in">The VO&#8217;s acceptance in <span style="font-style:italic">Canary Wharf </span>that office premises which had been stripped back to shell condition were not capable of beneficial occupation was therefore &#8220;the beginning and end of the appeal.&#8221;</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold">The parties&#8217; cases in outline</span></heading>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The appellant&#8217;s case, in summary, is that the Property was incapable of beneficial occupation on the material day, therefore it was not a hereditament and should not be shown in the rating list.  That incapability was due to a scheme which amounted to a scheme of redevelopment in the sense used by the Supreme Court in <span style="font-style:italic">Monk</span>.  The substantial nature of the scheme was evident from its cost, which was more than five times the rateable value of the Property, and from the extent of the works which included the removal of a sizable mezzanine floor.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In support of this case, Mr Wilcox submitted that the works should not be characterised as repairs and to treat them as such would contradict assurances given to Parliament when changes were made to the statutory repairing assumption in 1999.    As Lord Hodge had observed in <span style="font-style:italic">Monk</span>, at [21], the speech of Baroness Farrington &#8220;negatives a suggestion that the 1999 Act was addressing any mischief caused by the established distinction between works to correct a lack of repair on the one hand and what she called &#8220;renewal, refurbishment or improvement&#8221; on the other.&#8221;  As Mr Wilcox put it, there should be no eliding of refurbishment and disrepair.   The valuation assumption that the hereditament is in a state of reasonable repair is engaged only if a hereditament is found to exist and has no part to play in deciding whether or not a property is a hereditament.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Wilcox observed that in <span style="font-style:italic">Monk</span> the Supreme Court had compared buildings undergoing refurbishment with buildings under construction and he suggested that case law relating to the inclusion of new buildings in the rating list was a useful point of reference.  In <span style="font-style:italic">Porter (VO) v Trustees of Gladman SIPPS</span> [2011] UKUT 204 (LC) the Tribunal (George Bartlett QC, President and N J Rose FRICS) confirmed that, where no completion notice has been served, a building under construction became a hereditament when it became capable of beneficial occupation for its intended use.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">At [66] the Tribunal summarised its conclusions:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;The authorities, in our judgment, establish the following.&#160; A building is only a hereditament if it is ready for occupation, and whether it is ready for occupation is to be assessed in the light of the purpose for which it is designed to be occupied.&#160; If the building lacks features which will have to be provided before it can be occupied for that purpose and when provided will form part of the occupied hereditament and form the basis of its valuation it does not constitute a hereditament and so does not fall to be shown in the rating list.&#160; There is in consequence no scope for including in the list a building which is nearly, even very nearly, ready for occupation unless the completion notice procedure has been followed.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-style:italic">Porter</span> was followed in <span style="font-style:italic">AVIVA Investors Property Developments Ltd and PPG Southern Ltd v Whitby</span> (VO) [2013] RA 61.  Four newly erected warehouses as yet had no small power distribution and no lighting, and only limited lighting in the warehouse areas.  Additionally, the office space had not yet been partitioned and one unit was not connected to a gas supply.  The warehouses had been entered in the rating list but the Tribunal (the Deputy President and N J Rose FRICS) ordered their deletion, saying this:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;We are satisfied that the absence of electric lighting and small power in all four warehouse areas, and of a gas connection to provide hot water in the w.c.s in Unit 11, mean that they all lacked features which would have had to be provided before they could be occupied as modern warehouses or workshops and ancillary office purposes.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Wilcox pointed out that in coming to its decision the Tribunal had not regarded the buildings as capable of beneficial occupation notwithstanding that they had reached the point in their construction where they could be used for basic storage purposes.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Wilcox relied finally on what he called the &#8216;fundamental principal of equality&#8217; identified by Lord Wilberforce in <span style="font-style:italic">Dawkins v Ash</span> [1969] 2 AC 366:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;a decision in favour of one ratepayer necessarily affects others, and it is important that the law of rating should be both uniform in its application and rational in principle.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Wilcox&#8217;s argument was that where two buildings are identical the taxation consequences of owning them should be the same.  The test of capability of beneficial occupation should be applied in the same way to a new building as to one undergoing redevelopment.  He submitted that the ability to occupy must be assessed on the material day having regard to the nature of the building and what the occupier requires of it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The respondent VO&#8217;s case on the facts was that the Property was capable of beneficial occupation on the material day.  At the material day it was not undergoing a programme of radical alteration such as in <span style="font-style:italic">Monk</span>. The only works that had been completed were the removal of lights and small power to the warehouse and the removal of lighting in the offices.  Replacing those items would have involved only minor works which could be assumed to have been completed prior to the start of the hypothetical tenancy.  Further, and in principle, the mere fact that a hereditament is incapable of beneficial occupation does not mean that it is no longer a hereditament.  If the incapability is the result of disrepair, the repair assumption applies and requires that it be valued as if it was in a reasonable state of repair.     </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In support of the proposition that the restoration of lighting and small power to the building should be assumed to have been completed prior to the grant of a hypothetical tenancy, Mr Donmall referred to <span style="font-style:italic">Scottish &amp; Newcastle Retail Ltd v Williams </span>where, at [74], Robert<span style="font-style:italic"> </span>Walker LJ observed:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;[T]he Lands Tribunal was clearly right, following <span style="font-style:italic">Fir Mill</span>, to allow for the possibility of minor alterations in the hereditament on the occasion of its hypothetical letting. The absurdity of any other view appears vividly from the circumstances of these appeals, with numerous very well-known retail chains seeking to establish their identities and brand loyalties by distinctive fascias and fittings installed in uniform, featureless units.  The first limb cannot be applied so rigidly as to prevent (for instance) Burger King being considered as a possible bidder in competition with McDonald&#8217;s (which occupies a large unit just opposite the City Fayre/City Duck).&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Donmall regarded as absurd, the notion that the property was incapable of beneficial occupation simply because it lacked some light fittings.  The reality principle, he said, was not intended to apply in such absolute terms.   He also rejected Mr Wilcox&#8217;s reliance on <span style="font-style:italic">Porter </span>and his attempt to draw an analogy between buildings entered in the list which are undergoing works, and new buildings which are subject to a separate regime to determine whether they are ready to be included.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Donmall resisted the suggestion that incapability of beneficial occupation alone determined whether a hereditament should be deleted from the rating list.  He drew attention to Lord Hodge&#8217;s comments in <span style="font-style:italic">Monk</span>, at [20]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.39in">&#8220;In my view the Court of Appeal goes too far in interpreting the 1999 Act as completely displacing the reality principle in relation to both the physical state and the mode of occupation of a hereditament which is undergoing redevelopment&#8230; the repair assumption (para 2(1)(b)) applies to matters affecting the physical state of the hereditament (para 2(7)(a)) but<marker name="tab"/>not to the mode or category of occupation of the hereditament (para 2(7)(b)&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ListParagraph" style="margin-left:0.35in">And at [23]:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.39in">&#8220;If the works are objectively assessed as involving such redevelopment, there is no basis for applying the assumption in para 2(1)(b) to override the reality principle and to create a hypothetical tenancy of the previously existing premises in a reasonable state of repair.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Donmall suggested that there was an implicit corollary in these statements: if works did not involve redevelopment, but were instead repair, then the repairing assumption applied.  He considered the need to distinguish between repair and redevelopment to be the decisive point and one recognised by the Supreme Court in their analysis.  He also noted the Supreme Court&#8217;s reference to <span style="font-style:italic">De Silva v Davis (VO)</span> [1983] 1 EGLR 211 a case in which, at the relevant date, the hereditament (a maisonette) was incapable of beneficial occupation, but the Lands Tribunal (W H Rees FRICS) found the work needed to make it capable of occupation involved the renewal or replacement of defective parts and dismissed the appeal which sought an assessment of rateable value &#163;1.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold">Discussion</span></heading>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">We agree with Mr Donmall that, following <span style="font-style:italic">Monk</span>, the distinction between works to remedy a lack of repair and redevelopment works is critical in cases like this. The distinction is one of fact, which must be assessed objectively, taking account of the condition of the building and the works which are being undertaken to it.  Mr Donmall asserted that an end of tenancy refurbishment did not come close to justifying deletion because it did not involve reconstruction or redevelopment, which were the activities considered by Lord Hodge in <span style="font-style:italic">Monk</span>.   But redevelopment, in the sense that a surveyor might deploy the word, generally refers to the construction of new buildings after clearing a site of whatever occupied it before.  There is no doubt that such buildings would not be rateable until they were complete and capable of occupation (or deemed to be).  Similarly, reconstruction is not a word of precise meaning and might involve different degrees of rebuilding, repairing or restoring a building or property. Rather than debating semantics we consider it is necessary to focus on the known facts about the condition of the building.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">There is no real doubt that, having regard to the circumstances on the ground at the material day and the programme of works, the Property could not have been beneficially occupied as a warehouse.  Mr Donmall&#8217;s submissions recognised that beneficial occupation would have required at least the reinstallation of electrical fittings which had just been removed.  There is certainly evidence that, in some respects, the Property was in disrepair, with some damaged cladding panels and broken roof lights.  But the preparation of the internal parts of the building in readiness for McDonald&#8217;s phase of the works was not work of repair, it involved the removal of items which were not replaced and significant remodelling of the interior parts, akin to the works envisaged in <span style="font-style:italic">Monk</span> and <span style="font-style:italic">Canary Wharf</span>.  Considered in the round, the facts show that the Property was not simply being subjected to a programme of end of tenancy repairs, it was being repurposed from a warehouse to a delivery kitchen.  This involved a material change of use in planning terms (and perhaps also a change in the mode or category of occupation for rating purposes, although we have insufficient evidence about the &#8216;dark kitchen&#8217; operation being conducted from the Property to form a view on that and we do not base our decision on it).  What is indisputable is that the substantial programme of works which had been embarked on was not simply remedying defects but would additionally include the provision of new services and a substantial reduction in the useable floor area.  In our judgment, although the landlord undertook the initial works to prepare the building for McDonald&#8217;s to fit out to their own specification, the object and timing of the two projects means that they should be viewed as a single scheme.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="margin-left:0.35in;text-indent:-0.39in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.35in">In <span style="font-style:italic">Carey Group Ltd v Ricketts (VO)</span> [2024] UKUT 356 LC, we said that <span style="font-style:italic">Monk </span>had involved a building &#8216;being radically altered by extensive works.&#8217;  That description applies equally in this case.  An objective assessment of the works leads us to the conclusion that at the material day, a programme had been embarked on such that the Property had become a building undergoing redevelopment.   The Property had no heat or light and with the mezzanine platform still in place it would have been too dark to occupy safely.  The full programme of works extended over a period of some five months and went far beyond the minor fitting works and corporate rebranding envisaged in <span style="font-style:italic">Scottish &amp; Newcastle</span>.  It would therefore be contrary to reality to consider the works which had already been completed by the material day out of context<span style="font-style:italic"> </span>as if they could easily be reversed.  That would be to ignore the fact that they were the initial stages of a much larger programme.  This is not a case, like <span style="font-style:italic">De Silva</span>,<span style="font-style:italic"> </span>where works can be judged to have been repairs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">We see some force in Mr Wilcox&#8217;s reliance on the principle of equality of treatment between the owners of properties in a similar condition.  The fact that the completion notice regime enables buildings to be brought into the list on a deemed basis, whether or not they are in fact capable of beneficial occupation, does not undermine the point.   The Tribunal&#8217;s decisions in <span style="font-style:italic">Porter</span> and <span style="font-style:italic">Aviva</span> were not concerned with completion notices.  They support the proposition that a building which, for reasons other than disrepair, lacks attributes and features that are a prerequisite for beneficial occupation is not a hereditament.  We do not see why a building which has never been in the list should be treated more favourably than one which has, when both are in substantially the same condition.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Determining whether a building is capable of beneficial occupation or not requires an exercise of judgment about the facts of each case.  Our conclusion that the assessment of the Property should be reduced to a nominal level (in the absence of a proposal to remove it altogether), is based on the facts of this case and neither establishes nor illustrates any new principle.   </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold">Determination</span></heading>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">For these reasons the appeal is allowed and the assessment shall be reduced to rateable value &#163;1 with effect from 28 November 2022.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">We heard submissions about the alteration of the assessment following the completion of the works, but we have heard no evidence about the appropriate level of value.   Since the works were completed in April 2023, the VO has the ability to make a list alteration on the 2023 rating list and there appears to be no need for us to use our powers under regulation 38(7) of the Valuation Tribunal for England (Council Tax and Rating Appeals) (Procedure) Regulations 2009.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading>           Mr Mark Higgin FRICS FIRRV                        <marker name="tab"/><marker name="tab"/><marker name="tab"/>Martin Rodger KC, </heading>
+	  <level eId="lvl_8_1">
+	    <content>
+	      <p style="text-align:right">Deputy Chamber President             </p>
+	    </content>
+	  </level>
+	  <level eId="lvl_8_2">
+	    <content>
+	      <p style="text-align:right"><docDate date="2025-03-26" refersTo="#decision">26 March 2025</docDate></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold">Right of appeal&#160; </span></p>
+	    <p style="text-align:justify">Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

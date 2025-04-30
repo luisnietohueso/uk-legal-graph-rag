@@ -1,0 +1,823 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/31"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/31"/>
+	  <FRBRdate date="2025-03-11" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="31"/>
+	  <FRBRname value="David Fong v David Montgomery &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/31"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/31"/>
+	  <FRBRdate date="2025-03-11" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/31/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/31/data.xml"/>
+	  <FRBRdate date="2025-03-11T15:53:27" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-11" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-david-fong" href="" showAs="MR DAVID FONG"/>
+	<TLCPerson eId="david-montgomery-michael-cordiner-and-eunice-low-t/a-raemoir-trout-fishery" href="" showAs="DAVID MONTGOMERY, MICHAEL CORDINER AND EUNICE LOW (T/A RAEMOIR TROUT FISHERY)"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>31</uk:number>
+	<uk:cite>[2025] EAT 31</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>47d0f369660392841acbcea5d0db80e59064a45cf64ae4d3fba95e2a86671a48</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .Heading2 { font-size: 16pt; color: #365F91; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .NormalWeb { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .paragraph { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .LegalDrafting { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.59in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ng-star-inserted { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .text { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .c01pointnumerotealtn { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Revision { }
+#judgment .lltsoc { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .tg2kqf { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ssparanum { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .ssit { }
+#judgment .ssbf { }
+#judgment .sssmcaps { }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .tabchar { }
+#judgment .FootnoteTextChar { font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .sslistlabel { }
+#judgment .sslistitemcontent { }
+#judgment .LegalDraftingChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar1 { font-style: italic; color: #404040; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #800080; }
+#judgment .Heading2Char { font-size: 16pt; color: #365F91; }
+#judgment .uv3um { }
+#judgment .gxzfx { }
+#judgment .clox1e { }
+#judgment .Emphasis { font-style: italic; }
+#judgment .ListParagraphChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the Court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';color:#010302">          </span><span style="font-family:'Times New Roman';font-size:6pt">Fong v Montgomery, Cordiner and Low T/A Raemoir Trout Fishery</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 31</neutralCitation></p>
+      <p style="text-align:center"><marker name="tab"/><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: EA-2023-SCO-000004-DT</span></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">52 Melville Street, Edinburgh EH3 7HF</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-03-11" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">11 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE BARRY CLARKE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p style="text-align:center"><party refersTo="#mr-david-fong" as="#appellant" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR DAVID FONG</party></p>
+      <p style="text-align:right;margin-left:5in;text-indent:0.5in"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party refersTo="#david-montgomery-michael-cordiner-and-eunice-low-t/a-raemoir-trout-fishery" as="#respondent"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DAVID MONTGOMERY, MICHAEL CORDINER AND EUNICE LOW</span><br/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">(T/A RAEMOIR TROUT FISHERY)</span></party></p>
+      <p style="text-align:right;margin-left:5in;text-indent:0.5in"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Mr Terence Merck </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Falconers Law)</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Alisdair Hardman </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Shepherd &amp; Wedderburn LLP) for</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 14 November 2024</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#000000">Judge Clarke</span><span style="font-weight:bold;font-size:12pt;color:#000000">:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Proceedings are still ongoing in the Employment Tribunal between the claimant and the respondents in this case, as I shall continue to refer to them. The claimant is the appellant. The only issue in the appeal is whether the tribunal (Employment Judge Hendry sitting without non-legal members) erred in refusing him permission to amend his claim to include a contention that his dismissal by the respondents was automatically unfair because he had asserted a statutory right and/or made a protected disclosure. This decision was made at a preliminary hearing for case management purposes held in Aberdeen on 2 December 2022.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">Applications to amend</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Before looking at the case before the tribunal I will consider the relevant legal principles. They are as initially drawn from </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cocking v Sandhurst (Stationers) Ltd</span><span style="font-size:12pt;color:#010302"> [1974] ICR 650 NIRC and most famously expounded in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Selkent Bus Co Ltd v Moore</span><span style="font-size:12pt;color:#010302"> [1996] ICR 836 EAT. Those principles, and the proper approach of the EAT to appeals involving such matters, have been summarised in two recent cases: </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Vaughan v Modality Partnership</span><span style="font-size:12pt;color:#010302"> [2021] IRLR 97 EAT, paragraphs 4-28 (HHJ Tayler) and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox v Adecco UK Ltd &amp; others</span><span style="font-size:12pt;color:#010302"> [2023] EAT 105, paragraphs 6-16 (Eady P). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">As has been emphasised in cases such as </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Vaughan</span><span style="font-size:12pt;color:#010302">, the crucial exercise the tribunal must undertake, when exercising its discretion in respect of a proposed amendment, is to weigh in the balance the injustice or hardship of allowing or refusing it. The tribunal should do so having regard to all the circumstances. The &#8220;Selkent factors&#8221;, as they are sometimes called, are not a checklist to follow, but a non-exhaustive list of some of the circumstances that may be relevant to the balancing exercise. They are: the nature of the amendment; the applicability of time limits; and the timing and manner of the application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The Employment Tribunal has a wide discretion when it comes to allowing or refusing an amendment. That decision takes the form of a case management order for the purposes of what was, at the relevant time, rule 29 of the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Employment Tribunals Rules of Procedure 2013</span><span style="font-size:12pt;color:#010302">, and which is exercised having regard to the overriding objective as previously set out in rule 2. The EAT will not interfere too readily with the tribunal&#8217;s exercise of that discretion; an appellant must show that the tribunal has erred in legal principle in exercising it, or failed to take relevant considerations into account (or taken irrelevant factors into account), or that no reasonable tribunal, properly directing itself, could have refused the amendment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Central to this appeal is the first of the relevant circumstances in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Selkent</span><span style="font-size:12pt;color:#010302">, namely the nature of the amendment, in which regard Mummery J (as he then was) said the following:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;Applications to amend are of many different kinds, ranging, on the one hand, from the correction of clerical and typing errors, the additions of factual details to existing allegations and the addition or substitution of other labels for facts already pleaded, to, on the other hand, the making of entirely new factual allegations which change the basis of the existing claim. The tribunal have to decide whether the amendment sought is one of the minor matters or is a substantial alteration pleading a new cause of action.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is common for a tribunal to be required to categorise the amendment application before it. This is because the parties often struggle to agree what kind it is; much rides on the distinction. Adopting the examples given in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Selkent</span><span style="font-size:12pt;color:#010302">, the application may simply be an attempt to add factual details to existing allegations, or it may be an attempt to add or substitute other labels for facts already pleaded (usually described as &#8220;re-labelling&#8221;), or it may be an attempt to bring an entirely new complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Typically, a claimant will say that a proposed amendment is the provision of further particulars or a mere re-labelling exercise, whereas a respondent may say that it is an attempt to add a new complaint. The boundaries between these different categories can be difficult to draw. But they matter: they influence whether the tribunal must consider the applicability of a time limit that has usually expired by reason of the passage of time during the litigation. Time limit issues do not arise in respect of mere re-labelling; see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Reuters Limited v Cole</span><span style="font-size:12pt;color:#010302"> UKEAT/0258/17/BA (at paragraphs 12 to 15) and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Foxtons Ltd v Ruwiel</span><span style="font-size:12pt;color:#010302"> UKEAT/0056/08/DA (at paragraph 13). The fact a time limit has expired does not mean the amendment cannot be allowed (see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Transport and General Workers Union v Safeway Stores Ltd</span><span style="font-size:12pt;color:#010302"> UKEAT/0092/07), but it has been observed in many EAT cases that an amendment by way of re-labelling will more readily be permitted (see, for example, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> [2023] at paragraph 11 and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">MacFarlane v Commissioner of Police for the Metropolis</span><span style="font-size:12pt;color:#010302"> [2024] IRLR 34 at paragraph 52). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In seeking to categorise the type of amendment application made by a claimant, the tribunal must look at the ET1 form as a whole; see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Ali v Office of National Statistics</span><span style="font-size:12pt;color:#010302"> [2005] IRLR 201 EWCA, paragraph 39. The tribunal must consider, as a matter of construction, whether there is a causative link between the facts described in the ET1 and the proposed amendment (see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Housing Corporation v Bryant</span><span style="font-size:12pt;color:#010302"> [1999] ICR 123 EWCA at pages 130B-F, discussed further at paragraphs 23 and 24 of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Evershed v New Star Asset Management</span><span style="font-size:12pt;color:#010302"> UKEAT/0249/09 and affirmed on appeal at [2010] EWCA Civ 870).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">When carrying out this exercise, the ET1 form must be given a fair reading (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">McLeary v One Housing Group Ltd </span><span style="font-size:12pt;color:#010302">UKEAT/0124/18/LA at paragraph 98). It sets out the claimant&#8217;s essential case; it is not &#8220;something just to set the ball rolling, as an initial document necessary to comply with time limits but which is otherwise free to be augmented by whatever the parties choose to add or subtract merely on their say so&#8221; (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chandhok v Tirkey</span><span style="font-size:12pt;color:#010302"> [2015] ICR 527 EAT, paragraph 16). Yet, at the same time, the &#8220;essential case&#8221; is not meant to possess the quality of a formal pleading in the senior courts. Putting forward the essence of a case in an ET1 form does not require a party to set out every fact and evidential matter in support of their case (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Veizi v Glasgow City Council</span><span style="font-size:12pt;color:#010302"> [2022] EAT 182, paragraph 61). Tribunals should look for the substance of a complaint, not its form; they should eschew approaching the issue in a technical, narrow or legalistic manner (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Sougrin v Haringey Health Authority</span><span style="font-size:12pt;color:#010302"> [1992] IRLR 416, paragraphs 9 and 32).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The fact that a claimant is professionally represented at the time they complete the ET1 form may provide relevant context to the tribunal&#8217;s balancing exercise, not least in terms of the increased expectation for a clearer pleading in the first place and/or a clearly written proposed amendment. The converse is also true: the fact a claimant is without legal representation, or indeed may be vulnerable, also provides relevant context. In this regard, see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Chaudhry v Cerberus Security and Monitoring Services Ltd</span><span style="font-size:12pt;color:#010302"> [2022] EAT 197 at paragraph 19 and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox v Adecco &amp; others</span><span style="font-size:12pt;color:#010302"> [2021] ICR 1307 at paragraph 27. Furthermore, the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Equal Treatment Bench Book</span><span style="font-size:12pt;color:#010302"> should be borne in mind; as it has made clear throughout its recent iterations, litigants in person may make &#8220;basic errors&#8221; including &#8220;describing their case clearly in non-legal terms but failing to apply the correct legal label, or any legal label at all&#8221; (see paragraph 31 of Chapter 1 of the current edition).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Although the point was not disputed before me, I should add that I agree with the conclusions of the EAT in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Arian v Spitalfields</span><span style="font-size:12pt;color:#010302"> [2022] EAT 67 and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">MacFarlane</span><span style="font-size:12pt;color:#010302"> in preference to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Pruzhanskaya v International Trade and Exhibitors (JV) Ltd</span><span style="font-size:12pt;color:#010302"> UKEAT/0046/18/LA. That is to this effect: in this context, a complaint of &#8220;automatic&#8221; unfair dismissal (that is, dismissal for a prescribed reason) is a separate type of complaint to one of &#8220;ordinary&#8221; unfair dismissal and it may therefore &#8211; subject to the appropriate categorisation as discussed above &#8211; give rise to time limit considerations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Finally, it is material to note the Court of Appeal&#8217;s judgment in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Trustees of the William Jones&#8217;s Schools Foundation v Parry</span><span style="font-size:12pt;color:#010302"> [2018] ICR 1807. That case concerned whether a contention of unfair dismissal within an ET1 form with no accompanying particulars was in a form that could sensibly be responded to. In the leading judgment, Bean LJ decided it could sensibly be responded to because the employer knew the relevant background, and he added at paragraph 31 that tribunals &#8220;should do their best not to place artificial barriers in the way of genuine claims&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">The amendments advanced</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The relevant statutory provisions for the complaints advanced by the amendment application are found at sections 103A and 104 of the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Employment Rights Act 1996</span><span style="font-size:12pt;color:#010302"> (&#8220;</span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302">&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">By section 103A </span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302">, an employee is regarded as unfairly dismissed if the reason (or, if more than one, the principal reason) for the dismissal is that he or she made a protected disclosure. By section 43A </span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302">, a protected disclosure is a qualifying disclosure (as defined by section 43B) made by a worker in accordance with any of sections 43C-43H </span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302">. Section 43B sets out the requirements for a qualifying disclosure; it must be a &#8220;disclosure of information&#8221; that, in the reasonable belief of the worker concerned, is made in the public interest and tends to show one or more of the relevant failures contained in the list at section 43B(1)(a)-(f) </span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302">. This list includes, at 43B(1)(b), that a person has failed, is failing or is likely to fail to comply with any legal obligation to which he is subject (for example, the obligation to pay the national minimum wage to its workers).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It has been held that a &#8220;disclosure of information&#8221; requires the conveying of facts, not a mere allegation or statement of opinion (see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cavendish Munro Professional Risk Management Ltd v Geduld</span><span style="font-weight:bold;font-size:12pt;color:#010302"> </span><span style="font-size:12pt;color:#010302">[2010] ICR 325, paragraph 24). However, as an allegation and a disclosure of information can be intertwined, the communication must be assessed in light of the context in which it was made (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Kilraine v London Borough of Wandsworth</span><span style="font-size:12pt;color:#010302"> [2018] EWCA Civ 1436, paragraphs 32-36).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">By section 104(1)(b) </span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302">, an employee is regarded as unfairly dismissed if the reason (or, if more than one, the principal reason) for the dismissal is that he or she alleged that the employer had infringed a right of his or hers which is a relevant statutory right. It is immaterial whether the employee has that right, or whether or not it has been infringed so long as both the claim to the right and the assertion of its infringement are made in good faith; see section 104(2).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is sufficient for this purpose for the employee, without specifying the right, to make it &#8220;reasonably clear&#8221; to the employer what the right claimed to have been infringed was; see section 104(3). Finally, by section 104(4)(a), the list of relevant statutory rights includes any right conferred by the </span><span style="font-weight:bold;font-size:12pt;color:#010302">ERA</span><span style="font-size:12pt;color:#010302"> for which the remedy for its infringement is a complaint to a tribunal; this would include an underpayment of wages (as defined by section 27), with the right itself contained at section 13 and the ability to complain to a tribunal bestowed by section 23(1).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">Unrepresented parties</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is appropriate to bear in mind the guidance given in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> [2021] by HHJ Tayler. At paragraph 28(7) of that case, he said:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;In the case of a litigant in person, the claim should not be ascertained only by requiring the claimant to explain it while under the stresses of a hearing; reasonable care must be taken to read the pleadings (including additional information) and any key documents in which the claimant sets out the case. When pushed by a judge to explain the claim, a litigant in person may become like a rabbit in the headlights and fail to explain the case they have set out in writing &#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">He then continued at paragraphs 29-32:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;&#8230; A common scenario is that at a preliminary hearing for case management it proves difficult to identify the claims and issues within the relatively limited time available; the claimant is ordered to provide additional information and a preliminary hearing is fixed at which another employment judge will, amongst other things, have to consider whether to strike out the claim, or make a deposit order. The litigant in person, who struggled to plead the claim initially, unsurprisingly, struggles to provide the additional information and, in trying to produce what has been requested, under increasing pressure, produces a document that makes up for in quantity what it lacks in clarity. The employment judge at the preliminary hearing is now faced with determining strike out in a claim that is even less clear than it was before. This is a real problem ...</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8230; In some cases, a proper analysis of the pleadings, and any core documents in which the claimant seeks to identify the claims, may show that there really is no claim, and there are no issues to be identified; but more often there will be a claim if one reads the documents carefully, even if it might require an amendment. Strike out is not a way of avoiding rolling up one&#8217;s sleeves and identifying, in reasonable detail, the claims and issues; doing so is a prerequisite of considering whether the claim has reasonable prospects of success. Often it is argued that a claim is bound to fail because there is one issue that is hopeless. For example, in the protected disclosure context, it might be argued that the claimant will not be able to establish a reasonable belief in wrongdoing; however, it is generally not possible to analyse the issue of wrongdoing without considering what information the claimant contends has been disclosed and what type of wrongdoing the claimant contends the information tended to show.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">Respondents seeking strike out should not see it as a way of avoiding having to get to grips with the claim. They need to assist the employment tribunal in identifying what, on a fair reading of the pleadings and other key documents in which the claimant sets out the case, the claims and issues are. Respondents, particularly if legally represented, in accordance with their duties to assist the tribunal to comply with the overriding objective and not to take procedural advantage of litigants in person, should assist the tribunal to identify the documents, and key passages of the documents, in which the claim appears to be set out, even if it may not be explicitly pleaded in a manner that would be expected of a lawyer, and take particular care if a litigant in person has applied the wrong legal label to a factual claim that, if properly pleaded, would be arguable &#8230; </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">This does not mean that litigants in person have no responsibilities. So far as they can, they should seek to explain their claims clearly even though they may not know the correct legal terms. They should focus on their core claims rather than trying to argue every conceivable point. The more prolix and convoluted the claim is, the less a litigant in person can criticise an employment tribunal for failing to get to grips with all the possible claims and issues. Litigants in person should appreciate that, usually, when a tribunal requires additional information it is with the aim of clarifying, and where possible simplifying, the claim, so that the focus is on the core contentions. The overriding objective also applies to litigants in person, who should do all they can to help the employment tribunal clarify the claim. The employment tribunal can only be expected to take reasonable steps to identify the claims and issues. But respondents, and tribunals, should remember that repeatedly asking for additional information and particularisation rarely assists a litigant in person to clarify the claim. Requests for additional information should be as limited and clearly focussed as possible.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I now turn to the proceedings that have led to this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">The initial pleadings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimant presented his ET1 claim form on 19 July 2021. He was representing himself. Those who complete section 8.1 of that form are asked to &#8220;indicate the type of claim&#8221; they are making. The claimant did so by referring to unfair dismissal, discrimination on grounds of disability and religion/belief, and being owed &#8220;other payments&#8221;. I will next set out the some of the written information about his claim that the claimant provided in section 8.2 of that form. The added emphasis is mine.</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;I have 25 years of history in mental health.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">worked for employer voluntarily since 2018</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">accepted payed position starting september 2020</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">in november 2020 employer started assault on my mental stability and beliefs in which i consulted my medical professional in december, after being cleared by my psychiatrist the assault did not stop and </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">when discussing the abuse i was receiving with my employer who was also the abuser, he threatened me with dismissal and instantly dismissed me publicly</span><span style="font-size:12pt">.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">i had also been receiving financial abuse from my employer over the entire payed work</span><span style="font-size:12pt">.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">i have also witnessed my employer carrying out illegal activities such as tax evasion, non minimum wage payment of employees</span><span style="font-size:12pt">, non recorded trading&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">There is a further section 15 of the ET1 claim form where additional information about a claim can be provided. Again, the added emphasis is mine. The claimant wrote this:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;payment for work was messed up by employer 3 months in a row.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">was never offered payment in money for first month.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">was not then entitled to furlough.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">pays under minimum wage to all employees.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">in November 2020 Mr Cordiner along with others made an assault on my mental stability by trying to convince me i was ill ...</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">his assault continued into march 2021.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">when i tried to discuss his abuse, Mr Cordiner threatened me with dismissal and then instantly dismissed me publicly</span><span style="font-size:12pt">.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">There are other contents of the ET1 which I have not quoted. They are florid and poorly expressed; taken as a whole, the document strongly indicates that the claimant is a vulnerable individual.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Section 10 of the ET1 claim form applies to claims that consist of, or include, a contention that a person has made a protected disclosure, which it describes as a &#8220;whistleblowing&#8221; claim. It provides claimants with an option to request that information from the ET1 claim form is forwarded to a relevant regulator. The claimant ticked this box.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The respondents resisted the claim. In their ET3 response form, among other matters, they contended that the claimant had variously been a volunteer and worker, but never an employee. They referred to what was described as his &#8220;out of character behaviour&#8221;, including in respect of a heated interaction with a customer. The respondents said that they terminated the claimant&#8217;s engagement as a worker as a result of that inappropriate conduct.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">Further particulars of claim</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The matter came before the Employment Tribunal for a preliminary hearing, for case management purposes, on 15 September 2021. The hearing was conducted by telephone. The claimant represented himself, and the respondents were represented by a solicitor. The claimant withdrew his complaint about &#8220;other payments&#8221;, and the judge dismissed it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The judge made several orders following that hearing, most notably an extensive requirement for the claimant to particularise his claim more fully. Insofar as relevant to this appeal, the judge required the claimant to particularise whether or not he was &#8220;insisting upon a claim of unfair dismissal&#8221; and, if so, to identify the grounds on which he contended that the tribunal had jurisdiction to deal with it. This did not accord with the approach recommended by HHJ Tayler in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> [2021], where he urged tribunals to &#8220;roll up their sleeves&#8221; in case management rather than sending away party litigants to produce further particulars. I hesitate to criticise the judge for doing so, since he clearly had in mind the intention of the claimant, as recorded during that hearing, to take professional advice. In hindsight, however, and for reasons that will become clear, the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> approach would have been preferable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">On 27 October 2021, the claimant supplied two documents to the tribunal. The first document was described as &#8220;better and further particulars&#8221;, and comprised 78 closely typed paragraphs over ten pages. The bulk of the document addressed the complaints of discrimination. However, it also mentioned occasions on which the claimant said he had challenged Mr Cordiner over various matters. It made plain the claimant&#8217;s view that the reason given by the respondents for terminating his employment was a &#8220;fabrication&#8221;, and that the real reason was &#8220;a result of his asserting a statutory right/protected act and/or a continued manipulation of events and ongoing assault on his mental health view&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">When narrating the circumstances of his dismissal, the claimant wrote this (extracted from paragraphs 61-67 of that document, and with my added emphasis): </span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Claimant sought to raise again the unresolved issues of financial abuse (non-payment for hours worked, payment in vouchers) and &#8220;gaslighting&#8221; behaviour</span><span style="font-size:12pt">. Mr Cordiner was not prepared to listen to the Claimant or act on these issues.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">Mr Cordiner did admit the non-payment from September and his offer to make payment in kind &#8230; </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">As far as Mr Cordiner was concerned the Claimant who suspected he was being paid less than minimum wage was the best paid one there. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Clamant was concerned that other employees were also being paid below minimum wage</span><span style="font-size:12pt">. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">Instead of offering support to the Claimant Mr Cordiner took the part of those he had involved in the intervention and expressing his concerns about the Claimant&#8217;s mental health &#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">When the Claimant attempted a further discussion of the financial abuse and gaslighting with Mr Cordiner with a witness in attendance, Mr Cordiner threatened the Claimant with dismissal</span><span style="font-size:12pt"> if he persisted. The Claimant was determined to allow Mr Cordiner an opportunity to address matters internally &#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.36in"><span style="font-family:'Times New Roman';font-size:12pt">&#8230; </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Mr Cordiner then blamed me for his own words and dismissed the Claimant</span><span style="font-family:'Times New Roman';font-size:12pt">.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The second document, described as the claimant&#8217;s &#8220;response to orders&#8221;, said this:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;Whether an employee or worker the Claimant had rights to receive the National Minimum Wage, to discrimination protection (disability, religion or belief), not to suffer detriment for an inadmissible reason, paid holidays, whistleblowing protection</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Claimant disputes the reason given for termination. It is for the tribunal to investigate the factual background and determine the real reason for dismissal. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Claimant made repeated representations about repeated shortfalls in payment and the Respondents failure to pay Minimum Wage  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Claimant raised the matter with Mr Cordiner as set out in the better and further particulars. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Claimant raised the difficulties arising out of non-payment of wages, failure to pay wages on time that may be regarded as breach of contract or unlawful deductions from wages and that the apparent failure to pay minimum wage applied to himself and other employees.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The claimant contends that the Respondents conduct &#8230; amounts to detriment for assertion of a statutory right &#8211; whether under unlawful deductions or / NMWA </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Claimant contends that if the ET determine that the Claimant was dismissed for asserting one of more of the statutory rights: protection against unlawful deductions in pay; Minimum Wage or making a public interest disclosure that he has suffered a detriment for an inadmissible reason, there is no qualifying period and his dismissal was automatically unfair  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Claimant contends that if the ET determine that his dismissal was in response to representations on his belief in the failure to pay Minimum Wage (NMWA 1998) to himself and others his dismissal amounts to detriment for making a protected disclosure. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">If the tribunal is unable to make any finding listed above in relation to the reason for dismissal the Claimant will contend separately that the Mr Cordiner&#8217;s conduct in relation the payment of wages, Minimum Wage and payments due was an attempt to take advantage of a perceived mental health weakness and amounts to discrimination.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">On 19 November 2021, the respondents&#8217; solicitors emailed the tribunal. Included in this email was the following:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;The Claimant has confirmed in the Response that he does not have the requisite qualifying period of two years&#8217; continuous service to pursue a claim of unfair dismissal against the Respondent. Accordingly, this claim should be dismissed.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">The Respondent understands that the Claimant now wishes to pursue a claim of automatic unfair dismissal against the Respondent. This is an entirely new claim and was not advanced by the Claimant in his ET1. The Respondent objects to the Claimant now raising this claim and submits that should the Claimant wish to pursue such a claim, the Claimant should make a formal application to amend his claim to the Tribunal, which the Respondent shall oppose &#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">In any event, the Respondent denies that the reason (or principal reason) for the Claimant&#8217;s dismissal was either (i) that the Claimant had alleged that the Respondent had infringed a relevant statutory right of his (which the Claimant contends was the right not to suffer unauthorised deductions from wages) or (ii) that any action was taken, or was proposed to be taken, by or on behalf of the Claimant with a view to enforcing, or otherwise securing the benefit, of a national minimum wage (&#8220;NMW&#8221;) right of the Claimant &#8230; The sole reason for the Claimant&#8217;s dismissal related to the Claimant&#8217;s conduct, as previously set out in the ET3 response. The Respondent submits that it is clear from the Claimant&#8217;s own pleaded case that his behaviour towards Mr Cordiner was aggressive, intimidating and entirely inappropriate.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The attempt at clarifying the issues plainly did not succeed, revealing in hindsight the wisdom of the approach urged by HHJ Tayler in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> [2021]. Indeed, the parties continued to email the tribunal and each other during the following months, as they sought both to explain and understand the complaints the claimant was attempting to bring.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">They were eventually called in for a further case management preliminary hearing on 18 March 2022 to discuss outstanding matters. On that occasion, however, a different judge considered that the allocated hour was insufficient. He therefore adjourned the matter for a one-day hearing; this was to be on 24 August 2022. The judge listed the matters to be considered. They included clarification of the issues, the claimant&#8217;s employment status, and whether any of the complaints should be struck out and/or made subject to requirement to pay a deposit. The parties were also directed jointly to prepare a statement of agreed facts.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.54in"><span style="font-weight:bold;font-size:12pt;color:#000000">Preliminary hearing on employment status</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The preliminary hearing on 24 August 2022 came before Employment Judge Hendry. According to the note subsequently produced by the judge, it immediately became clear to him that the time allocated was still insufficient. Consequently, following discussion with the parties, the judge agreed to limit his determination to the question of the claimant&#8217;s employment status. Even then, the matter needed more tribunal time and a further day &#8211; 1 September 2022 &#8211; was added. In hindsight, it may have been a better use of time to clarify what the claimant was claiming.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">In his subsequent judgment, Judge Hendry noted the claimant&#8217;s history of mental illness which had necessitated time in hospital. The judge also noted that, during the hearing, the claimant was &#8220;very anxious&#8221;, &#8220;stressed&#8221;, &#8220;excitable&#8221; and found it &#8220;difficult to focus&#8221; (paragraphs 8, 9 and 28). The judge concluded that the claimant was a worker during an earlier period between October 2018 and August 2020, and an employee from 1 September 2020 until his dismissal on 5 March 2021. The consequence was that he did not have sufficient service for a complaint of ordinary unfair dismissal, but that was immaterial for the purposes of any complaint of automatic unfair dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">As for the outstanding matters, including identifying the substantive issues for the tribunal to decide, the parties were no further forward. Consequently, further orders were issued; once again, the claimant was instructed to set out the legal and factual basis for each of his claims.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">Further particulars of claim (again)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimant did as directed on 8 September 2022. His document comprised 15 pages. In respect of protected disclosures, he again referred to the respondent&#8217;s alleged &#8220;gaslighting&#8221; behaviour and &#8220;financial abuse&#8221; in respect of non-payment for hours worked and payment in vouchers, in respect of himself and others (two of whom he named). He said the response to raising his concerns was to &#8220;ridicule&#8221; him in front of others and &#8220;shut him down and then to dismiss&#8221;. He then set out a chronology of the dates on which he said he had raised concerns about his pay. There were further references, which are not relevant to this appeal, to his claims under the </span><span style="font-weight:bold;font-size:12pt;color:#010302">Equality Act 2010</span><span style="font-size:12pt;color:#010302">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The respondents&#8217; solicitors replied with a 20-page legal submission which prompted a seven-page reply from the claimant, which included the following:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8220;For reasons given the Claimant is struggling to cope with 20 pages of legal submissions within a short period. There has not been sufficient time to address all points, never mind in detail. The Claimant does not have a lawyer on tap. The Claimant struggles with being told off for giving too much information and then criticized for failure to supply sufficient detail.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8230; The actual reason for dismissal is in dispute, the reason given by the Respondents remains in dispute: Qualifying Service is not required for Automatic Unfair Dismissal. Automatically unfair reasons for dismissal include Discrimination, as well as pay and working hours, including the Working Time Regulations, annual leave and the National Minimum Wage, and whistleblowing.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">&#8230; The bare bones of the claims were raised in time. The Claimant has sought to expand on these when asked. The Claimant was largely content to let the Tribunal apply the legal labels. The Claimant was aware that he should not suffer unlawful deduction of wages, he was aware of the illegality of having not received payment or minimum wage, he was concerned for other workers at the fishery hence reporting it to NMW then following the process via ACAS and the Tribunal &#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.5in"><span style="font-size:12pt">Inasmuch as without specifying the right, the Claimant attempted to make it clear to [the respondents] what the rights he claimed to have been infringed was (application of stigma, perceived abuse, or taking the piss, the intervention, financial abuse whether under greed or the perception that they could take advantage of someone with a history of mental health issues) if the reason (or, if more than one, the principal reason) for, the dismissal relates to one of these the Claimant will have complied with ERA sections 104 assertion of statutory right deductions from pay and 104A The national minimum wage.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">The decision under appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Judge Hendry conducted the case management hearing on 2 December 2022. The following points can be noted from his decision (and paragraph numbers refer to numbers in that decision):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.1</num>
+	    <content>
+	      <p style="margin-left:0.89in"><span style="font-size:12pt">He approached the matter of amendment by reference to the claimant&#8217;s new document setting out further particulars (paragraph 1). He gave it the date of 8 September 2021, but it is clear he meant 8 September 2022.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.2</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">He agreed with the respondents that the document of 8 September 2022 was the first indication given by the claimant that he was contending that he had been automatically unfairly dismissed for asserting a statutory right in respect of underpaid wages relying on section 104(1)(b) </span><span style="font-weight:bold;font-size:12pt">ERA</span><span style="font-size:12pt"> (paragraph 7).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.3</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">He considered whether the document dated 8 September 2022 amounted to an amendment or further particularisation, and he decided it was an amendment. Although the judge had heard no evidence from the claimant, he made a factual finding at paragraph 10 (my added emphasis):</span></p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.5in"><span style="font-size:12pt">&#8220;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The claimant did not appear to have in mind a claim under section 104(1)(b) when he completed the ET1</span><span style="font-size:12pt">. This is not a criticism of him. He is not a lawyer. It appears, however, that </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">he had in mind that he could get round the two year qualification period for unfair dismissal in some way using the Equality Act &#8230; at this point the claimant seems to be that the dismissal was unfair because of reasons associated with the Equality Act</span><span style="font-size:12pt"> &#8230; rather than because of disclosure/assertions made about wrongdoing particularly the non-payment of the Minimum Wage.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.4</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">The judge accepted at paragraph 11 that the claimant had mentioned at an earlier stage his wish to complain of unfair dismissal &#8220;based on assertion of a statutory right and/or section 104(a) of the ERA&#8221;. This appears to be a reference to the particulars provided on 27 October 2021, as there is a mention in the preceding paragraph of the preliminary hearing on 15 September 2021. There is no section 104(a) </span><span style="font-weight:bold;font-size:12pt">ERA</span><span style="font-size:12pt">, an error repeated in the subsequent paragraphs, so it is not clear whether the judge is referring to section 104(1)(b) or 103A </span><span style="font-weight:bold;font-size:12pt">ERA</span><span style="font-size:12pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.5</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">The judge was referred to, and mentioned, the case of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Selkent</span><span style="font-size:12pt"> (paragraph 13).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.6</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">It appears, although there is no direct conclusion to this effect, that the judge rejected the claimant&#8217;s contention that this was simply an exercise in re-labelling. He asked himself whether the ET1 form included facts that supported a complaint of automatic unfair dismissal, and noted that the claimant had referred to his payments being &#8220;messed up&#8221; and that he was threatened with dismissal when he tried to discuss this &#8220;abuse&#8221;. Nonetheless, the judge concluded, there was &#8220;nothing to clearly suggest the dismissal was related in some way to the two matters now being suggested as reasons for dismissal&#8221; (paragraph 22) &#8211; those two matters being because he had asserted a statutory right to receive the national minimum wage (that is, not to receive a lesser amount of wages) and/or because he had made a protected disclosure that others did not receive the national minimum wage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.7</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">The judge said he would have refused the amendment on the sole basis that it could not sensibly be responded to, because the particulars were unclear on &#8220;what [the claimant] says happened. What was said? By whom? What was said about the Minimum Wage?&#8221; (paragraph 23).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.8</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">Although not an &#8220;insuperable difficulty&#8221;, the fact that this was a new head of claim meant that it was out of time, which had to be weighed in the balance (paragraph 24).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.9</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">The judge accepted that the refusal of the amendment would mean that the claimant lost an avenue of claim, but he said that this was outweighed by the respondents having to &#8220;respond to claims that are not properly articulated and the expense and delay that this would incur&#8221; (paragraph 24).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">39.10</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">The judge appeared to have regard to the merits of the claimant&#8217;s complaint that he had been dismissed for making a protected disclosure (paragraph 25), on the basis that the disclosure &#8220;would fail the public interest test because of [the claimant&#8217;s] self-interest&#8221; in being paid the minimum wage.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Lady Haldane allowed this matter to proceed to a full hearing on that basis that it was reasonably arguable that the judge&#8217;s refusal to permit the amendment was perverse. The single revised ground of appeal asserted, in terms, that it was an error of law for the judge to characterise this as anything other than a mere re-labelling exercise.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">At the hearing, in support of the appeal, Mr Merck carefully took me through the history of the litigation and the extracts from the documentation I have referred to above, but he stuck resolutely to the contention that the judge erred in law by declining to categorise this as a re-labelling exercise that would favour allowing the amendment. In reply, Mr Hardman reminded me of the high hurdle that must be overcome in showing perversity, and contended that the judge&#8217;s conclusion was reasonably open to him. I do not wish to do either of them a disservice by summarising their helpful submissions so briefly, but their respective contentions were simple and straightforward.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-size:12pt;color:#000000">Discussion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Although I have reminded myself of the reticence with which the EAT should approach appeals against case management decisions, Mr Merck has persuaded me that the judge erred in law by reaching a perverse decision on the claimant&#8217;s application to amend. The word &#8220;perversity&#8221; is perhaps overly blunt; the position, more fully, is that no reasonable tribunal, properly directing itself, would have concluded in this case that the claimant was raising an entirely new complaint, and this error fundamentally tainted the balancing exercise required.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">I agree with Mr Merck that the judge in this case did not give the ET1 form a fair reading or properly construe its content. The claimant&#8217;s case was that his employer had subjected him to what he called &#8220;abuse&#8221;. I am mindful that the merits of the case have yet to be determined, but from the wording I have quoted from his ET1 form (at paragraphs 21 and 22 above) it was clear that, by &#8220;abuse&#8221;, the claimant was referring both to an allegation of not being paid properly and the so-called &#8220;assault&#8221; concerning his mental ill health. He also made clear his concerns that other employees were not being paid the national minimum wage, although it is much less clear that he asserted telling the respondents of his concerns in this regard prior to his dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The substance of the case he put forward in his ET1 form was that he was dismissed when he tried to discuss this &#8220;abuse&#8221; with one of the three owners of the business. There was therefore a clear assertion of a causative link between the contentions he had made to one of the individual respondents and the subsequent decision to dismiss him: the claimant was plainly contending, at least in part, that the respondents reacted to his allegations of &#8220;financial abuse&#8221; by dismissing him.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">All this assertion needed was for the proper label (or labels) to be applied to it. No reasonable tribunal could have concluded, as this tribunal concluded, that there was &#8220;nothing&#8221; in the ET1 form to suggest that the claimant believed he had been dismissed for asserting his right to receive the national minimum wage and/or for disclosing that others did not receive it. In my judgment, this was a paradigm re-labelling case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">The claimant sought to particularise that contention, as best he could, by a document sent to the respondents&#8217; solicitors and the tribunal on 27 October 2021 (not, as the judge appears to have concluded, on 8 September 2022). Admittedly the claimant&#8217;s contentions were at risk of being obscured by other (rather florid) allegations made in his ET1 form but, as </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> [2021] emphasises, it is the job of the tribunal to roll up its sleeves and clarify the issues to be determined. By way of a further idiom, the tribunal must try to sort the wheat from the chaff. If there had been any doubt as to whether the claimant&#8217;s use of the word &#8220;abuse&#8221; in the ET1 form encompassed allegations of financial abuse in the form of failing to pay him and other employees the national minimum wage, and that he was dismissed when he persisted in raising these concerns, it was removed by the document he provided on 27 October 2021. That document made clear, by way of further particulars, his contention that he had &#8220;made repeated representations about repeated shortfalls in payment&#8221;, the &#8220;failure to pay minimum wage&#8221;, and he described his dismissal as being &#8220;for assertion of a statutory right &#8211; whether under unlawful deductions or/NMWA&#8221; and &#8220;making a public interest disclosure&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">It is a pity that the claimant was sent away on multiple occasions to improve his particulars; having regard to his self-represented status, his poor expression and his vulnerability, the case called for proactive case management to identify the issues and apply the proper labels to his claims. To that extent, this case exemplifies the difficulties described by HHJ Tayler in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Cox</span><span style="font-size:12pt;color:#010302"> [2021]. The claimant&#8217;s repeated contention that he had been dismissed, at least in part, for raising concerns about &#8220;financial abuse&#8221; was instead lost in wave after wave of correspondence and a decision to deal first with the question of his employment status. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Because of the error of law in failing to categorise this as a re-labelling case, the tribunal considered matters that were not relevant, such as the application of the time limits. Further, it was wrong of the judge to decide against the claimant on the basis that his contention could not properly be responded to; the concerns raised by the judge (what was said, by whom, about the minimum wage) could be addressed by particularisation, but they did not make this claim incapable of a sensible response. It was a further error of law (in the form of a procedural irregularity) for the judge to make a finding of fact about what the claimant had, or had not, had in mind when he completed the ET1 form in circumstances where he had heard no evidence from him. In such circumstances I further conclude that the balancing exercise carried out by the judge took into account irrelevant factors.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">None of what I have said above should be taken to imply that the claimant&#8217;s claims are meritorious. This case has not yet been tried on its facts. But at this stage we are only looking at what the claimant has claimed. In that regard, my conclusion is that this was a clear re-labelling case and that it was an error of law for the tribunal to consider that the claimant had raised entirely new complaints. This error meant that the balancing exercise required by </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Selkent</span><span style="font-size:12pt;color:#010302"> was flawed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-size:12pt;color:#010302">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">When this judgment was sent in draft to the parties in the usual way, I invited submissions from them on the form of disposal; specifically, I asked them to consider whether they could agree the terms of the claimant&#8217;s amendment. This was with a view, having regard to the overriding objective, to the matter being resolved expeditiously and saving expense. Regrettably, despite the passage of over a month including two extensions of time, the parties have been unable (so far) to reach agreement. I have decided to call time on their efforts, at least insofar as proceedings before the EAT are concerned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">Accordingly, I direct that the claimant&#8217;s application to amend be remitted to the tribunal to be considered afresh, but, when weighing in the balance</span><span> </span><span style="font-size:12pt;color:#010302">the injustice or hardship of allowing or refusing the amendment, to characterise it as a re-labelling. While it is for the tribunal to manage the case, it is likely to be helpful for the application to amend to be determined as part of a case management hearing where the issues in the case are properly clarified. The parties should continue their endeavours to reach agreement on the matter. Applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt;color:#010302">Sinclair Roche &amp; Temperley v Heard</span><span style="font-size:12pt;color:#010302"> [2004] IRLR 763 EAT, and while not doubting the professionalism of the judge, I consider that the matter should be remitted to a different tribunal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

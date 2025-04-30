@@ -1,0 +1,792 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/11"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/11"/>
+	  <FRBRdate date="2025-03-26" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="11"/>
+	  <FRBRname value="R (on the application of The Spitalfields Historic Building Trust) v London Borough of Tower Hamlets and another"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/11"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/11"/>
+	  <FRBRdate date="2025-03-26" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/11/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/11/data.xml"/>
+	  <FRBRdate date="2025-03-26T10:52:49" name="transform"/>
+	  <FRBRdate date="2025-03-26T11:14:42" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="r" href="" showAs="R"/>
+	<TLCPerson eId="london-borough-of-tower-hamlets-and-another" href="" showAs="London Borough of Tower Hamlets and another"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>11</uk:number>
+	<uk:cite>[2025] UKSC 11</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>1e5fb60ec4a5a90b487fa522e1b4400145defd684eae190c07e67e24e7067634</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 13pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Footer { font-family: Univers; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaHeading1 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.87in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { text-align: justify; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 13pt; }
+#judgment .Bulletpara { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: TimesNewRomanPSMT; font-size: 10pt; color: #000000; }
+#judgment .fontstyle21 { font-style: normal; font-weight: normal; font-family: TimesNewRomanPSMT; font-size: 10pt; color: #000000; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman'">Hilary Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2025] UKSC 11</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/917" style="font-style:italic;font-family:'Times New Roman'" uk:canonical="[2023] EWCA Civ 917" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2023] EWCA Civ 917</ref></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#r" style="font-family:'Times New Roman';font-size:20pt">R</party><span style="font-family:'Times New Roman';font-size:20pt"> (on the application of The Spitalfields Historic Building Trust) (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#respondent" refersTo="#london-borough-of-tower-hamlets-and-another" style="font-family:'Times New Roman';font-size:20pt">London Borough of Tower Hamlets and another</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondents</role><span style="font-family:'Times New Roman';font-size:20pt">)</span><br/><br/><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-reed-president" style="font-family:'Times New Roman'">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-sales" style="font-family:'Times New Roman'">Lord Sales</judge><br/><judge refersTo="#judge-lord-hamblen" style="font-family:'Times New Roman'">Lord Hamblen</judge><br/><judge refersTo="#judge-lady-rose" style="font-family:'Times New Roman'">Lady Rose</judge><br/><judge refersTo="#judge-lord-richards" style="font-family:'Times New Roman'">Lord Richards</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2025-03-26" refersTo="#judgment" style="font-family:'Times New Roman'">26 March 2025</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 25 July 2024</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Appellant</span><br/><span style="font-family:'Times New Roman'">Richard Harwood OBE KC</span><br/><span style="font-family:'Times New Roman'">Daniel Kozelko</span><br/><span style="font-family:'Times New Roman'">(Instructed by Goodenough Ring Solicitors)</span></p>
+      <p style="text-align:center"><span style="font-style:italic">1</span><span style="font-style:italic;vertical-align:super;font-size:smaller">st</span><span style="font-style:italic"> Respondent</span><br/><span style="font-size:12pt">Hereward Phillpot KC</span></p>
+      <p style="text-align:center"><span style="font-size:12pt">Isabella Tafur</span><br/>(Instructed by London Borough of Tower Hamlets Legal Services)</p>
+      <p style="text-align:center"><span style="font-style:italic">2</span><span style="font-style:italic;vertical-align:super;font-size:smaller">nd</span><span style="font-style:italic"> Respondent</span><br/><span style="font-size:12pt">Timothy Corner KC</span><br/><span style="font-size:12pt">Yaaser Vanderman</span><br/>(Instructed by CMS Cameron McKenna Nabarro Olswang LLP (London))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord Sales <span style="text-transform:none">(with whom Lord Reed, Lord Hamblen, Lady Rose and Lord Richards agree)</span>: </p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This case is concerned with the way in which a local authority&#8217;s decision-making structures operate in relation to an application for planning permission. Such an application may be considered at a series of meetings of the local authority or its planning committee before a final decision is made on it. The issue is whether a provision in a local authority&#8217;s constitution, in the form of standing orders adopted by it, which restricts voting by members at the final meeting to decide the application to those who had been present at the meeting or meetings at which the application had previously been considered, is lawful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In this case, objectors to an application for permission to develop property known as the Old Truman Brewery (&#8220;the Property&#8221;) in Spitalfields in the area of Tower Hamlets London Borough Council (&#8220;the Council&#8221;) say that, but for the operation of this restrictive voting rule in the Council&#8217;s standing orders, the application would or might have been refused. The operation of the restrictive voting rule, however, had the result that at the final meeting of the Council&#8217;s planning committee at which the decision was taken there was a majority in favour of granting the application. The objectors contend that the restrictive voting rule in the standing orders was adopted by the Council unlawfully, with the consequence that the decision on the planning application has been taken unlawfully and the outcome of that application remains to be determined.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Paraheading2">The legislative framework</p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A local authority is a corporate body made up of its elected members. The principal statute which governs how a local authority in England takes decisions is the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>&#8221;). Para 1(2) of Schedule 2 to the LGA 1972 provides that a London borough council operating executive arrangements, as the Council does, is a corporation which consists of the mayor and councillors. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/101/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 101(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> provides in relevant part that &#8220;[s]ubject to any express provision contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref> or any Act passed after <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>, a local authority may arrange for the discharge of any of their functions by a committee, a sub-committee or an officer of the authority&#8221;. Section 106 makes provision for adoption of standing orders, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">&#8220;Standing orders may be made as respects any committee of a local authority by that authority or as respects a joint committee of two or more local authorities, whether appointed or established under this Part of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref> or any other enactment, by those authorities with respect to the quorum, proceedings and place of meeting of the committee or joint committee (including any sub-committee) but, subject to any such standing orders, the quorum, proceedings and place of meeting shall be such as the committee, joint committee or sub-committee may determine.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Schedule 12 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> (&#8220;Schedule 12&#8221;) is headed &#8220;Meetings and Proceedings of Local Authorities&#8221;. Paragraph 39 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to the provisions of any enactments (including any enactment in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>) all questions coming or arising before a local authority shall be decided by a majority of the members of the authority present and voting thereon at a meeting of the authority.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to those provisions in the case of an equality of votes, the person presiding at the meeting shall have a second or casting vote.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Paragraph 42 of Schedule 12 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">&#8220;Subject to the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>, a local authority may make standing orders for the regulation of their proceedings and business and may vary or revoke any such orders.</span>&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Paragraph 44 of Schedule 12 provides that paras 39 and 42 of Schedule 12 also apply, with appropriate modifications, to a committee of a local authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/15/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 15(1)</ref>-(2) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">Local Government and Housing Act 1989</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>&#8221;) requires a local authority &#8220;to review the representation of different political groups&#8221; on relevant bodies, including its committees exercising what are demarcated as non-executive functions. This includes the Committee, since the determination of planning applications is a non-executive function: see Schedule 1 to the Local Authorities (Functions and Responsibilities) (England) Regulations 2000. As soon as practicable after a review, the authority is under a duty &#8220;to determine the allocation to the different political groups into which the members of the authority are divided of all the seats which fall to be filled by appointments made from time to time &#8230;&#8221;: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/15/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. In performing that duty and &#8220;in exercising their power, at times not mentioned in subsection (3) &#8230;, to determine the allocation to different political groups of seats on [various specified bodies, including its committees]&#8221;, the authority is under a duty &#8220;to make only such determinations as give effect, so far as reasonably practicable, to the principles specified in subsection (5) &#8230;&#8221;: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/15/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(4)</ref>. Subsection (5)(c) provides that, subject to certain constraints, the principle should be &#8220;that the <span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt">number of seats on the ordinary committees of a relevant authority which are allocated to each political group bears the same proportion to the total of all the seats on the ordinary committees of that authority as is borne by the number of members of that group to the membership of the authority&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Schedule 1 to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> is entitled &#8220;Political Balance on Local Authority Committees Etc&#8221;. Para 4(1) of Schedule 1 sets out various definitions. It provides in relevant part that &#8220;seat&#8221;, in relation to a body to which <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> applies, &#8220;means such a position as a member of that body as &#8230; entitles the person holding the position to vote at meetings of the body on any question which falls to be decided at such a meeting&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A local authority and its committees are under a duty to give effect to the wishes of political groups regarding appointment to the seats allocated to them: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/16/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. They may not terminate the appointment except in accordance with the wishes of the relevant party group: <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/16/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16(2)</ref>. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Paraheading2">The Council&#8217;s Constitution</p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council has adopted a series of standing orders gathered together with certain codes of practice in a document entitled its &#8220;Constitution&#8221; to set out how it operates, how decisions are made and the procedures which are followed &#8220;to ensure that these are efficient, transparent and accountable to local people &#8230; [as] required by the law&#8221; (Part A, para 1 of the Constitution). The relevant version of the Constitution was adopted in 2021. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Constitution explains that the Council has established various committees to carry out its functions. These include the Development Committee to deal with certain planning matters (&#8220;the Committee&#8221;). The membership of the Committee is specified as &#8220;7 Councillors (each political group may appoint up to 3 substitutes)&#8221;. Its quorum is three members of the Committee.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Part D of the Constitution includes detailed procedure rules for the Committee which are part of the Council&#8217;s standing orders (&#8220;the Procedure Rules&#8221;). The Procedure Rules deal with various matters, including (in sections 2 and 3) the preparation of reports and recommendations by Council officers and (in section 6) the procedure for public speaking by Council members, supporters and objectors at a Committee meeting held to determine a planning application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 5 of the Procedure Rules specifies the order of proceedings. Para 5.4 states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The Chair shall have discretion to vary the procedure for hearing an application, following consultation with officers, should that be necessary in specific circumstances. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">In order to [be] able to vote upon an item, a Councillor must be present throughout the whole of the Committee&#8217;s consideration including the officer introduction to the matter.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 11 deals with the topic of &#8220;Deferrals&#8221; (that is, where consideration of a planning application is deferred from one meeting of the Committee to a later meeting), as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;11.1</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where it is necessary to defer the determination of an application, the matter will be placed on the list of &#8216;Deferred, Adjourned and Outstanding Items&#8217; in the agenda to enable further consideration as soon as possible. Generally where the reason for deferral does not involve any substantive new information being brought before the Committee (for example, following deferral for a site meeting or clarification of an issue) the Committee will be updated by means of the addendum update report and can usually proceed to determine the application at the next meeting. In such circumstances at the re-convened consideration there will be no further public speaking pursuant to Rule 6. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.2</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where deferral is for a more substantive reason (such as renegotiating part of the proposal) then it would generally be appropriate for a fresh report to be presented to the Committee in the &#8216;Planning Applications for Decision&#8217; part of the agenda in order to ensure that the Committee is apprised of all material considerations. Where a new full report is presented to Committee, public speaking pursuant to Rule 6 is permitted. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.3</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Such applications will be placed on the list of deferred items at the beginning of the agenda so that the Committee has a record of all applications that stand deferred.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>11.4</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Where an application is deferred and its consideration recommences at a subsequent meeting only Members who were present at the previous meeting will be able to vote. If this renders the Committee inquorate then the item will have to be reconsidered afresh. This would include public speaking rights being triggered again.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is the restrictive voting rule contained in the second part of para 5.4 and in para 11.4 of the Procedure Rules which the appellant contends is unlawful. I refer to these provisions of the Procedure Rules as &#8220;the relevant standing orders&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council has promulgated a Planning Code of Conduct to regulate the performance of its planning functions and provide guidance to members. This is included in Part C of the Constitution, albeit it is common ground that the Planning Code of Conduct is not a standing order. It deals with matters such as the obligation of a member to withdraw from consideration of a planning application if they are biased or have a personal interest in the outcome or have predetermined the matter so as not to be open to considering the arguments being presented. Section 13 is entitled &#8220;Decision Making&#8221;. Para 13.3 states, &#8220;Councillors should only come to their decision after due consideration of all of the relevant information reasonably required upon which to base a decision &#8230;&#8221;. Para 13.4 states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Councillors must not take part in the meeting&#8217;s discussion on a proposal unless they have been present to hear the entire debate, including the officers&#8217; introduction to the matter. If an application has previously been deferred then the same Councillors will be asked to reconsider the application when it is returned to Committee.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The relevant standing orders and this provision in the Planning Code of Conduct are intended to regulate the position where consideration of a matter by the Committee is deferred to a later meeting of the Committee. In such a case, the decision-making process is inchoate and incomplete at the end of the first meeting and continues at the later meeting. As it was put in the Court of Appeal (at para 84), the later meeting at which the decision is made &#8220;is effectively a continuation of the proceedings at the original meeting&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Paraheading2">Factual background</p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Property, a disused brewery, has come to be used by a wide range of small and medium sized businesses. In May 2020 a developer, the second respondent, Old Truman Brewery Ltd, lodged an application for planning permission to develop the Property for mixed use development as offices, with retail and restaurant units at ground level. Two rounds of public consultation took place. The appellant, the Spitalfields Historic Building Trust, is opposed to the development.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Council officers prepared a report </span>in which they recommended the grant of planning permission. This was considered at a meeting of the Committee held by virtual means on 27 April 2021, attended by five members of the Committee: Councillors Abdul Mukit MBE (Chair), Sufia Alam, Kahar Chowdh<span style="font-family:'Times New Roman'">ury, Leema Qureshi and Kevin Brady (as a substitute for Councillor John Pierce). Two other councillors attended the meeting: Councillors Shad Chowdhury and Puru Miah. In the public speaking phase of the meeting the Committee was addressed by opponents of the scheme, including a representative of the appellant, and then by a representative of the second respondent and a number of others who supported the development. The Committee pressed the developer to extend the assurances it was prepared to give in a section 106 agreement regarding provision of affordable workspaces for local traders. The Committee resolved to defer the determination of the application to a later meeting, to allow time for Council officers to negotiate extended terms for the proposed section 106 agreement.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At a full meeting of the Council held on 19 May 2021 the Council reviewed the proportionality requirement for the allocation of places on its various committees for the following year, as required by <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>. The Labour group was allocated six of the seven places on the Committee, which were filled by Councillors Abdul Mukit MBE, Asma Islam, John Pierce, Kahar Chowdhury, Kyrsten Perry and Leema Qureshi, with Councillor Kevin Brady again named as one of the substitutes. On 6 September 2021 Councillor Brady was made a full member of the Committee, taking the place of Councillor Pierce, who had died.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A new section 106 agreement was negotiated. Council officers prepared a further report to update the Committee which again recommended the grant of planning permission. The planning application was brought back to a meeting of the Committee on 14 September 2021, held in person, attended by Councillors Abdul Mukit MBE (Chair), Kahar Chowdhury and Kevin Brady, who had all been present at the meeting on 27 April 2021. The planning application was the only substantive business on the agenda for the meeting. The Council officers presented their report. Public speaking was not permitted at this meeting. By a vote of two to one (Councillors Chowdhury and Brady against Councillor Abdul Mukit MBE), the Committee resolved to grant planning permission for the development. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At the outset of the meeting on 14 September the Chair explained that only councillors who had been present at the meeting on 27 April 2021 could vote on the application, but since the meeting was only attended by councillors who had been so present the Chair&#8217;s statement itself did not have any effect. More significantly, it is likely that the members of the Committee would have been aware of the restrictive voting rule in the relevant standing orders and as a result those members who had not attended the meeting on 27 April may have thought there was little point in them attending the meeting on 14 September, as they would not be able to vote on the application. The parties are agreed that if the relevant standing orders were unlawful and invalid, it cannot be assumed that other members of the Committee would have chosen not to attend the meeting on 14 September and it cannot be assumed that the outcome of a vote on the application would have been the same. It should be noted that had the votes been equal, the Chair, who in fact voted against the application, would have had the casting vote. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The formal grant of planning permission was issued on 10 November 2021. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Paraheading2">The course of the legal proceedings</p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 22 December 2021 the appellant commenced its judicial review claim to quash the grant of planning permission, relying on three grounds: (1) councillors were unlawfully excluded from voting by the relevant standing orders; (2) there was an unlawful prohibition on public speaking at the Committee meeting on 14 September 2021; and (3) there was a failure to have regard to relevant policies in the draft neighbourhood plan. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It has been accepted by the appellant throughout these proceedings, including on the appeal to this court, that if the restrictive voting rule set out in the relevant standing orders was within the scope of the power in para 42 of Schedule 12, upon the proper construction of that provision, there is no other public law ground on which they could be challenged. If the power exists, it is accepted that its exercise by the Council in making those standing orders was rational and for a proper purpose and that they were lawfully made. Therefore, the appellant&#8217;s case on ground (1) turns on a narrow point of statutory interpretation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council&#8217;s primary case in answer to ground (1), supported by the second respondent developer, was that the restrictive voting rule set out in the relevant standing orders was within the scope of the order-making power in para 42 of Schedule 12 and so was lawfully made. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council and the second respondent also raised two alternative defences: (i) that in providing that only members who were present at the first meeting can vote on a deferred application, the relevant standing orders redefined the membership of the Committee so that it comprised only those members (and not others who are purportedly disqualified by the restrictive voting rule), with the result that no member of the Committee was excluded from voting (&#8220;the Committee reconstitution argument&#8221;); and (ii) that when consideration of a deferred application recommences at a later meeting, the effect of the Constitution is that the Committee sub-delegates the power to determine the application to a sub-committee comprising only those members who were present at the first meeting (and not others who are purportedly disqualified by the restrictive voting rule), with the result that no member of the relevant decision-making body (the sub-committee) was excluded from voting (&#8220;the sub-delegation argument&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By a judgment dated 31 August 2022, Morris J dismissed the claim on all three grounds: <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2022/2262" uk:canonical="[2022] EWHC 2262 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWHC 2262 (Admin)</ref>; <ref href="#" uk:canonical="[2023] PTSR 31" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] PTSR 31</ref>. In relation to ground (1), the judge upheld the Council&#8217;s primary argument, but he dismissed its two alternative arguments, finding them to be artificial and divorced from reality. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Warby LJ granted permission to appeal to the Court of Appeal, limited to ground (1). As a result, the only point which was live in the appeal to the Court of Appeal was ground (1), including the Committee reconstitution argument and the sub-delegation argument which were raised by the second respondent by way of a respondent&#8217;s notice. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By a judgment dated 28 July 2023, the Court of Appeal (Bean LJ, Sir Keith Lindblom, the Senior President of Tribunals, and Coulson LJ) dismissed the appeal: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/917" uk:canonical="[2023] EWCA Civ 917" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 917</ref>; <ref href="#" uk:canonical="[2024] PTSR 40" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] PTSR 40</ref>. Sir Keith Lindblom gave the lead judgment; Coulson LJ gave a short concurring judgment; Bean LJ agreed with both judgments. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal, in agreement with Morris J, held that para 42 of Schedule 12, interpreted according to its ordinary and natural meaning, conferred power on the Council to make the relevant standing orders which set out the restrictive voting rule; and they rejected &#8220;a more extreme argument&#8221; (as Coulson LJ described it) by Mr Richard Harwood KC for the appellant to the effect that since the right of committee members to vote was implicit in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> and was fundamental to that statute, it could only be restricted or removed by express statutory provision, and not by the making of a standing order pursuant to para 42 of Schedule 12. In the light of their conclusion, the Court of Appeal did not find it necessary to consider the Committee reconstitution argument and the sub-delegation argument.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant now appeals to this court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Council, as first respondent, maintains that the Court of Appeal were correct, for the reasons they gave: the restrictive voting rule in the relevant standing orders was lawfully made in exercise of the power in para 42 of Schedule 12. The Council also relies on the power to make standing orders contained in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. The second respondent developer makes the same submission and, in the alternative, again seeks to rely on the Committee reconstitution argument and the sub-delegation argument.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Paraheading2">The appellant&#8217;s submissions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood, for the appellant, submits that councillors who are members of a local authority committee are entitled to vote on matters before the committee if present at the meeting unless prohibited by statute from doing so. The power in para 42 of Schedule 12 for a local authority to make standing orders &#8220;for the regulation of their proceedings and business&#8221;, and the power in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> to make standing orders, supplement rights and restrictions in the legislation governing the operation of local authorities and do not include the power to prohibit councillors who are committee members from voting, since their right to do so is itself a feature of that legislation. He contends that this interpretation is supported by provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref>, which affirm the importance of the right of a councillor who is a member of a local authority committee to be able to vote on matters to be decided by that committee in order to maintain proportional representation of political groups with respect to &#8220;seats&#8221; on that committee; and by the definition of a &#8220;seat&#8221; in para 4(1) of Schedule 1 to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> (para 9 above) which shows that a person who holds it is to be entitled to vote at meetings of the committee on any question which falls to be decided at such a meeting. Alternatively, <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> regime imposes a distinct set of statutory obligations regarding the rights of members of a committee to vote on matters before the committee which restrict the powers in the LGA 1972 to make standing orders and override any standing orders which purport to limit those rights. Consequently, the Council had no power to make the relevant standing orders containing the restrictive voting rule. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood contends that councillors have a right to vote which is implicit in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. He points out that an important feature of the context for the LGA 1972 is that the members of a local authority are elected by their constituents to represent them in carrying on the affairs of the authority, which they do by voting on matters which come before the authority or any committee of the authority on which they serve. It would be a strong thing for an elected councillor to be disenfranchised by being prevented from voting and thereby disabled from fulfilling the representative role to which they have been elected and appointed, since that would constitute a form of indirect disenfranchisement of the constituents whom they are in place to represent. The general language used in para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the LGA 1972 to confer power on a local authority to make standing orders cannot be taken to include the power to achieve such a result. Clearer and more specific language would be required to give a local authority a power to make a standing order which had that effect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood contends that this contextual argument is reinforced by two particular features of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. First, para 39 of Schedule 12 (para 5 above), as applied to local authority committees by para 44, states in positive terms that, &#8220;[s]ubject to the provision of any enactments (including any enactment in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>)&#8221;, all questions coming before a committee &#8220;shall be decided by a majority of the members [of the committee] present and voting thereon at a meeting [of the committee]&#8221;. This shows that a committee member&#8217;s right to vote on matters coming before the committee is a fundamental feature of the legislation, which means that it could only be restricted or removed by a statutory provision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In support of this, Mr Harwood relies on the judgment of Scoffield J in the Northern Ireland High Court in <span style="font-style:italic">In re Hartlands (NI) Ltd&#8217;s application for judicial review </span>[2021] NIQB 94 (&#8220;<span style="font-style:italic">Hartlands</span>&#8221;), a case concerning section 30 of the Planning Act (Northern Ireland) 2011 (&#8220;the 2011 Northern Ireland Act&#8221;). The basic statutory regime governing decision-making by local authorities in Northern Ireland set out in the Local Government Act (Northern Ireland) 2014 (&#8220;the 2014 Northern Ireland Act&#8221;) is equivalent to that in England under the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, and the 2011 Northern Ireland Act supplements that regime. Mr Harwood says that section 30 of the 2011 Northern Ireland Act is similar to para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the LGA 1972 and that the judgment shows that a councillor&#8217;s right to participate in council business cannot be abrogated by a standing order adopted by a local authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, there were statutory provisions contained in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> which expressly removed the right of a councillor to vote, as there also were in legislation which preceded <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> and in legislation passed after it. By section 94 of the LGA 1972, councillors who were aware of having a disclosable pecuniary interest in a matter were prohibited from voting on it. That prohibition has been re-enacted in <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/31/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">Localism Act 2011</ref>. Councillors who have an outstanding liability to pay council tax are prohibited from voting on budgetary matters: <ref href="http://www.legislation.gov.uk/id/ukpga/1992/20/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the Local Government <ref href="http://www.legislation.gov.uk/id/ukpga/1992/20" uk:canonical="1992 c. 20" uk:origin="TNA" uk:type="legislation">Finance Act 1992</ref>. County councillors were prohibited from voting on a matter concerning expenditure for which their county district was not liable to be charged: <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/23-24/51/section/75" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 75</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/23-24/51" uk:canonical="1933 (23 &amp; 24 Geo. 5) c. 51" uk:origin="TNA" uk:type="legislation">Local Government Act 1933</ref>. Members of the Greater London Council were prohibited from voting on financial matters which did not affect their area: <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/93" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 93</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood says that this pattern of statutory provisions reflects legislative recognition of the fundamental importance of a councillor&#8217;s right to vote. If the right to vote is to be restricted or removed, nothing less than primary legislation will do.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Paraheading2">Analysis</p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I do not accept these submissions. In my view, the provisions in paras 39 and 42 of Schedule 12 and in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> should be read according to the natural and ordinary meaning of the language used in them, as the judge and the Court of Appeal interpreted them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is true that a councillor&#8217;s ability to vote is a central feature of their role in representing their constituents and the public who reside in the local authority&#8217;s area and as participants in the conduct of the business of the local authority of which they are a member. However, it falls to be located in the wider context of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, the provisions of which enable the authority or its committees to take effective and lawful action. A local authority&#8217;s ability to take effective and lawful action is in the interests of all the people in its area and is the mechanism whereby all councillors are enabled to represent the interests of their constituents and the public residing in the authority&#8217;s area, subject to well-recognised limits.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Quite apart from any statutory restrictions on the ability of councillors to vote on particular matters, there is a set of rules which originated in principles of impartiality and fair-dealing identified by the courts and which are so fundamental that they are implicitly reflected in legislative provisions such as para 39 of Schedule 12. A councillor may not vote upon a matter if, for example, they are biased or give an appearance of bias, or have a predetermined view, or have a pecuniary or other personal interest in the outcome: see, eg, <span style="font-style:italic">R v Secretary of State for the Environment, ex p Kirkstall Valley Campaign Ltd </span><ref href="#" uk:canonical="[1996] 3 All ER 304" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 3 All ER 304</ref>, 321; <span style="font-style:italic">Bovis Homes Ltd v New Forest District Council </span><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2002/483" uk:canonical="[2002] EWHC 483 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWHC 483 (Admin)</ref>, paras 111-112. These general disqualifying rules extend significantly beyond the specific statutory disqualifications from voting contained in primary legislation referred to in para 39 above. The legal consequence if a councillor does vote in the circumstances where the general rules apply (at any rate, where that has a material bearing on the outcome) is that the decision taken by the local authority is unlawful and liable to be set aside. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The existence of these rules shows that the right of a councillor to vote cannot be regarded as absolute or fundamental in the sense proposed by Mr Harwood: it is always possible that, by reason of specific circumstances affecting a particular councillor, they may be disabled from voting on a matter. Further, if a vote takes place involving that councillor where such circumstances exist, with the effect that the decision is rendered unlawful, the outcome will be that the local authority or the committee has been disabled from making an effective lawful decision, which would be contrary to the intended scheme of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. Where that is the result, all the residents in the local authority&#8217;s area are in practice indirectly disenfranchised, in that they are disabled from being represented by the authority by its taking a valid decision for their benefit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood submitted that in that situation the law simply leaves it to the judgment and conscience of the individual councillor as to whether to participate in the decision or to decline to vote, and if they fail to stand down from participating in the decision an objector could apply to the court to have the resulting decision set aside. But this would not solve the problem that the collective body would have been disabled by the stance of the individual member from taking a legally valid and effective decision as Parliament intended it should be able to do. Parliament cannot be taken to have intended to let the principle of effective action by the local authority, to which the decision-making structures in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> are directed, to be dependent on the good conduct of an individual councillor in this way. Rather, as explained below, the chair of the meeting is entitled to call for a vote of those members who are not in fact disentitled by the relevant general background rules from participating in the decision. The chair is thereby able to uphold the effectiveness and lawfulness of the collective decision-making process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">R v Flintshire County Council, ex p Armstrong-Braun </span><ref href="#" uk:canonical="[2001] LGR 344" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] LGR 344</ref> (&#8220;<span style="font-style:italic">Armstrong-Braun</span>&#8221;), the leading decision on para 42 of Schedule 12, Sedley LJ explained (para 54) that the participation of councillors in the business of a local authority was not apt to be analysed in terms of &#8220;councillors&#8217; rights&#8221;, since &#8220;[i]f there are rights involved, they are those of the people of the county&#8221;. Sedley LJ correctly pointed out that what is at stake in this context is not a right conferred on an individual councillor in the full sense of that term, as something intended to be completely protected from any type of interference; nor an individual right of a fundamental character such as could justify the application of the principle of legality in construing that provision. Rather, if the language of rights is to be used, the rights are those of everyone in the local authority&#8217;s area who look to the authority to take effective and lawful action for their benefit according to appropriate procedures for its collective decision-making. As it is put in <span style="font-style:italic">Hart&#8217;s Introduction to the Law of Local Government and Administration</span>, 9<span style="vertical-align:super;font-size:smaller">th</span> ed, 1973, p 131, elected members of local authorities &#8220;do not act as individuals but as members of the council to which they have been elected. Their capacity for action as members is corporate and not separate and personal&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This is, indeed, clear from the decision-making structures set out in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. Where a local authority&#8217;s business is conducted by a committee, rather than by the full council, individual councillors who are not appointed to the committee will not have a vote on the local authority&#8217;s business conducted by the committee; but overall that business is conducted more efficiently and in an appropriate manner as a result of the use of committees. In <span style="font-style:italic">Armstrong-Braun</span>, which I consider in detail<span style="font-style:italic"/>below, the Court of Appeal agreed that there could be good reasons for a local authority to adopt a standing order which limited the ability of a councillor to place a matter on an agenda for consideration, thereby limiting his or her ability to vote on it, for example if that was in the interest of enhancing the efficiency or effectiveness of the local authority&#8217;s dispatch of the full range of business it had to get through.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The effect of the statutory provisions dealing with meetings and voting, such as para 39 of Schedule 12, must be considered in the context of the general background rules regarding the entitlement of a councillor to vote and in the context of the underlying purpose of the provision, which is to enable a local authority to take lawful decisions. The applicability of the general background rules is obvious. They are taken as read by Parliament: see, eg, <span style="font-style:italic">R v Secretary of State for the Home Department, ex p Pierson</span> <ref href="#" uk:canonical="[1998] AC 539" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] AC 539</ref>, 573 per Lord Browne-Wilkinson (&#8220;Parliament does not legislate in a vacuum: statutes are drafted on the basis that the ordinary rules and principles of the common law will apply to the express statutory provisions&#8230;&#8221;) and 587-588 per Lord Steyn. That is particularly so in relation to the duty of public officials to act fairly and where important established rules regarding proper conduct in a public office are concerned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The purpose of para 39 of Schedule 12 is to stipulate the majority required for a resolution to be carried. An ordinary majority is required rather than unanimity or a special majority, such as is stipulated elsewhere in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> for certain resolutions: see, eg, sections 74, 245 and 249. Para 39 also provides for the chair of the meeting to have a casting vote. In both respects its original statutory predecessor was section 69 of the Municipal Corporations Act 1835, an Act introduced to rationalise the system of government of urban corporations which had previously been governed under individual charters (see Rosemary Sweet, <span style="font-style:italic">The English Town, 1680-1840: Government, Society and Culture</span>, 2014, p 153). Neither the 1835 Act nor any of the statutes which followed it, including the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, state that a member has an entitlement to vote. The legislation assumes that they do, just as the common law had previously recognised such an entitlement. Hence it is right to say that such an entitlement is implicit in the LGA 1972. It is not created, nor conferred by, para 39 of Schedule 12. This was not disputed in the courts below. As Morris J said (para 111), the general entitlement for members to vote is assumed by the legislation creating local authorities. In the Court of Appeal, Sir Keith Lindblom said (para 53) it was not controversial that the statutory regime for local government assumes a general entitlement for members to vote.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Elected members of a local authority hold office and section 69 of the 1835 Act and para 39 of Schedule 12 assume that they have an entitlement to vote by virtue of that office. This was a feature of the common law of corporations prior to 1835, which was also the origin for the rule of decision-making by majority which is codified in statute in those provisions: <span style="font-style:italic">Grindley v Barker </span>(1798) 1 Bos &amp; P 229, 236; 126 ER 875 (cited in <span style="font-style:italic">Shackleton on the Law and Practice of Meetings </span>16th ed, 2023, para 7-30); <span style="font-style:italic">R (Tagoe-Thompson) v Central and North West London Mental Health NHS Trust </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/330" uk:canonical="[2003] EWCA Civ 330" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 330</ref>; <ref href="#" uk:canonical="[2003] 1 WLR 1272" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 WLR 1272</ref>, para 29 (Laws LJ). It was necessary for statute to provide for a casting vote because the common law provided no procedure for resolution where equal votes were cast: <span style="font-style:italic">Nell v Longbottom </span><ref href="#" uk:canonical="[1894] 1 QB 767" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1894">[1894] 1 QB 767</ref>, 771 (Cave J, referring to section 69 of the 1835 Act, among other provisions). It has always been recognised that common law principles provide the background setting for the operation of local government legislation (see, eg, A Crew, <span style="font-style:italic">The Law and Practice Relating to Meetings of Local Authorities</span>, 1922, p iii: &#8220;[w]here statutes or standing orders do not make sufficient provision for the conduct and procedure of such meetings, common law principles should be applied &#8230;&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The meaning and effect of para 39 of Schedule 12 fall to be assessed in the light of this common law background. In so far as Mr Harwood submitted that the entitlement of a member to vote was conferred by para 39(1) of Schedule 12, so that any restriction on that entitlement was required to be imposed by &#8220;an enactment&#8221; (rather than a standing order), this involves a misreading of the purpose and effect of that provision. Para 39(1) codifies the rule that decisions are taken by a majority of the members attending who may validly cast a vote, but does not otherwise limit the power of a local authority to regulate the conduct of meetings by means of standing orders. Power to do that is conferred by para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Two points should be emphasised about para 42 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, the exercise of the power to make standing orders is not unrestricted, but is subject to usual public law constraints. In particular, the exercise of the power has to be rational and for a proper purpose within the contemplation of the legislation. The importance of the democratic principle that a councillor should be able to represent their constituents and the public in the local authority&#8217;s area by voting on matters affecting them means that the ambit of a local authority&#8217;s discretion, in terms of what may count as rational or as a proper purpose in this context, is limited to a significant degree so that a form of heightened scrutiny would be appropriate in relation to judicial review of a standing order which limited a councillor&#8217;s ability to vote.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The requirement that a public authority should act rationally when exercising a discretionary power is a general rule of public law. But it applies in many different contexts and the ambit of what qualifies as rational may require to be adjusted in the light of what the law recognises as particularly weighty factors which fall to be considered in a particular context. This has long been identified as the position where an individual&#8217;s human rights are in issue, where anxious scrutiny of a decision which interferes with those rights may be called for: see <span style="font-style:italic">R v Secretary of State for the Home Department, ex p Bugdaycay </span><ref href="#" uk:canonical="[1987] AC 514" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] AC 514</ref>, 531 (Lord Bridge of Harwich); <span style="font-style:italic">R v Secretary of State for the Home Department, ex p Brind </span><ref href="#" uk:canonical="[1991] 1 AC 696" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 1 AC 696</ref>, 748-749 (Lord Bridge) and 751 (Lord Templeman); <span style="font-style:italic">R v Ministry of Defence, ex p Smith </span><ref href="#" uk:canonical="[1996] QB 517" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] QB 517</ref>, 554-556 (Sir Thomas Bingham MR). The more substantial the interference with human rights, the more the court will require by way of justification before it will be satisfied that the decision falls within the range of decisions which are rationally open to the public authority within the parameters of its discretion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In certain contexts other values may be recognised in law as being of similar significance and weight so as to lead to a similar approach to the application of the rationality rule and a corresponding narrowing of the lawful parameters of the relevant discretionary power. That is the position in relation to the democratic principle referred to above, which is central to the scheme of local authority decision-making established by the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. In the present context, therefore, an exercise of the powers in para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the LGA 1972 would have to respect that principle and the scope of the local authority&#8217;s discretion to modify its application will be narrowed accordingly. The exercise of the powers would also have to be for a proper purpose which accords with the objectives of the statute.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The significance of this as regards the issue in the present appeal is that the applicability of these constraints supports the inference that Parliament intended that the entitlement of members to vote should be subject to valid standing orders made under para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref>. There is no policy reason by reference to which one could infer that Parliament intended by implication to limit the meaning of the broad language used in para 42 of Schedule 12 and in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> to confer power to make standing orders so as to prevent a local authority from being able to make standing orders which rationally serve to promote a proper and relevant public interest.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is conceded that the relevant standing orders complied with those public law requirements. Sir Keith Lindblom said (para 47) that it is &#8220;perfectly logical and sensible&#8221; that the standing orders should arrange for continuity of decision-making as they do. I agree. It is worth considering why.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The standing orders operate to protect the integrity of the decision-making process, to uphold the importance of listening to representations and to promote public confidence in the planning process. At an early meeting of a planning committee an application may be explained in detail orally by officers and then members of the public may be given the opportunity to speak in favour or against. The point of allowing oral representations in this way is to enhance the quality of the decision-making process in relation to substantial planning applications by assisting committee members to gain a thorough understanding of the issues and to gauge the strength of public feeling about them. It also enhances the legitimacy in the eyes of the public of any decision taken at the end of the day if it is felt that all sides in the debate have had a fair opportunity to put forward their respective cases and that their views have been listened to and taken fully into account by the people making the decision. Enhancement of the decision-making procedure would not be achieved to the degree desired if the final decision on the application could be taken at a later meeting by committee members who had not participated in the earlier meeting and had not themselves heard the explanations by officers and the representations by members of the public. The Council could legitimately take the view that although an absent member might be able to read the notes of the earlier meeting or listen to a recording of it, that would not be a sufficient substitute for being present to listen in person to the representations made at the meeting.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Further, the possibility that a decision could be taken by Committee members who did not attend the earlier meeting to hear the explanation by Council officers and the representations by members of the public might lead people to think that the hearing of such an explanation and such representations was something of a hollow charade, rather than an important and significant part of the decision-making process. That would tend to undermine public confidence in, and the acceptability of, the ultimate decision. (I say this to emphasise the legitimacy of a local authority adopting such a restrictive voting rule as is in issue in this case, not to suggest that it would be mandatory to do so: it is possible that there might be sufficiently weighty practical reasons to justify not adopting such a rule.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As Sir Keith Lindblom summarised the position at para 84, the restrictive voting rule set out in the relevant standing orders &#8220;obviates a risk that councillors voting at the second meeting may not have had the benefit of the discussion of the proposal that took place at the first. It gives weight to the continuity of proceedings, and to the value of ensuring that in these circumstances the entitlement to vote is kept to those councillors who have been present throughout the committee&#8217;s deliberations on the application for planning permission&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, the entitlement of members to vote which is implicit in the statutory regime for local authorities applies subject to general rules intended to enhance the quality of decision-making by local authorities (and their committees) and public confidence in the decisions made, which operate by disabling councillors from participating in decisions in certain circumstances: see the general background rules discussed at para 43 above and the statutory rules referred to at para 39 above. It does not seem untoward or surprising that the provision should be read as accommodating a similar measure introduced by way of standing order promulgated by a local authority for similar reasons. A local authority is expected to be especially well-attuned to local sensibilities and public concerns in its area, and therefore is well-placed to determine whether a measure like the restrictive voting rule in the relevant standing orders is desirable and justified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This latter point is not undermined by the fact that Parliament has enacted a series of statutory provisions as part of the general law to restrict the entitlement of councillors to vote: see para 39 above. Parliament clearly considered that the matters addressed by those provisions were of sufficient concern as to justify legislative intervention whatever the view of any individual local authority. It does not follow that Parliament considered that those were the only matters of sufficient concern in terms of detracting from the quality and legitimacy of local authority decision-making as to be capable of justifying restrictions on voting. On the contrary, the point of conferring a power on a local authority under para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> to make standing orders to regulate its affairs is to recognise that in certain situations a local authority may be better placed than Parliament to decide what is justified by local circumstances and to give effect to a principle of self-government and local democracy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This takes one to the wording which Parliament has chosen in para 42 of Schedule 12 (para 6 above) to confer on a local authority the power to make standing orders. The language - &#8220;may make standing orders for the regulation of their proceedings and business&#8221; - is entirely general. The business of a local authority includes making decisions on planning applications. The proceeding by which a local authority takes such decisions is by a vote of councillors in a meeting (whether of the whole authority or of a duly constituted committee of the authority). In my view, it is clear that the relevant standing orders have been made for the regulation both of the Council&#8217;s &#8220;proceedings&#8221; and of its &#8220;business&#8221;. The words chosen by Parliament, read according to their ordinary and natural sense, are the primary indication of what it meant by legislating as it did: see <span style="font-style:italic">R (O) v Secretary of State for the Home Department </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2022/3" uk:canonical="[2022] UKSC 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKSC 3</ref>; <ref href="#" uk:canonical="[2023] AC 255" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] AC 255</ref>, paras 28-30 (Lord Hodge).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The power in para 42 of Schedule 12 is qualified by the opening words, &#8220;[s]ubject to the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8221;. But there is nothing in the other provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> which affects the ambit of the power in this respect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> (para 4 above) also conferred power on the Council to make the relevant standing orders in relation to the Committee, since on a similarly straightforward interpretation of that provision they are standing orders &#8220;with respect to the &#8230; proceedings &#8230; of the committee&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The net effect of this analysis is that the words in para 42 of Schedule 12 should be given their ordinary meaning. There is no good reason why they should be read down or given a more limited meaning as proposed by Mr Harwood. The words in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> should also be given their ordinary meaning. In my view, the wording of para 42 of Schedule 12 and of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> is clear. As a matter of ordinary language, the power for a local authority to make standing orders to regulate their &#8220;proceedings&#8221; or the &#8220;proceedings&#8221; of their committees includes the power to regulate the circumstances in which a member will be treated as qualified and entitled to vote.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That interpretation is also supported by the fact that Part V of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> as originally enacted had the heading &#8220;General Provisions as to Members and Proceedings of Local Authorities&#8221; and contained, at <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/93" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 93</ref>, a provision which disqualified a member of an authority from voting in certain circumstances. That was not a provision governing membership of the authority (which was the subject matter of other provisions in Part V, such as section 80 headed &#8220;Disqualifications for election and holding office as member of local authority&#8221;) and must instead have related to the &#8220;proceedings&#8221; of the authority. This indicates that, as already seems clear as a matter of ordinary language, in the LGA 1972 Parliament used the term &#8220;proceedings&#8221; to include matters relating to entitlement to vote in council or committee meetings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Relying on para 42 of Schedule 12, this was the analysis rightly adopted by the judge and by the Court of Appeal. In an attempt to answer it, Mr Harwood was driven to advance the &#8220;extreme argument&#8221; referred to by Coulson LJ, namely to contend that in the scheme of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> a councillor&#8217;s right to vote is fundamental so that the general and clear wording in para 42 of Schedule 12 and in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> has to be read down by interpolating an unexpressed limitation so as not to permit the making of standing orders removing or limiting such a right. In my view, there is no good basis for such a construction of these provisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">One way in which general and clear wording of a statutory provision might be read down is by reference to the principle of legality, that where there is an established or fundamental right recognised in law then Parliament, by its use of general language in the particular context, is taken to have legislated in a way which is not intended to abrogate that right: see, eg, <span style="font-style:italic">R v Secretary of State for the Home Department, ex p Simms </span><ref href="#" uk:canonical="[2000] 2 AC 115" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 2 AC 115</ref>, 131 (Lord Hoffmann). Mr Harwood sought to rely on this principle and cited <span style="font-style:italic">Bennion on Statutory Interpretation </span>(8<span style="vertical-align:super;font-size:smaller">th</span> ed, Diggory Bailey and Luke Norbury), section 25.1, and <span style="font-style:italic">R (Ingenious Media Holdings plc) v Revenue and Customs Comrs </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/54" uk:canonical="[2016] UKSC 54" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 54</ref>; <ref href="#" uk:canonical="[2016] 1 WLR 4164" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 4164</ref>, as an illustration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, no such principle of interpretation is engaged in the present context. The right of councillors to vote on business of the local authority is not an established right recognised by the common law outside the statutory regime of which it forms part. On the contrary, the general entitlement to vote is assumed by the legislation and is implicit in it. As Morris J said (para 111), it arises from the legislation creating local authorities. The <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> includes the powers in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> and para 42 of Schedule 12 for local authorities to make standing orders to regulate the conduct of their affairs pursuant to that legislation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">An apt analogy is provided by <span style="font-style:italic">Moohan v Lord Advocate</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2014/67" uk:canonical="[2014] UKSC 67" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKSC 67</ref>; <ref href="#" uk:canonical="[2015] AC 901" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] AC 901</ref>. In that case it was argued, among other things, that an Act of the Scottish Parliament which set the franchise for voting in the referendum on Scottish independence had unlawfully excluded persons serving prison sentences, on the footing that the right to vote was a basic or constitutional right which could not be abrogated by a generally worded statutory provision. However, this court held that the right to vote was derived from statute and it was not appropriate for the courts to develop the common law in order to supplement or override the statutory rules which determined the democratic franchise: see para 34, in the lead judgment given by Lord Hodge. Therefore the principle of legality had no application and it was not appropriate to read down the general statutory provision in the manner proposed. The present case is even more remote from the application of the principle of legality, as the right of councillors to vote in relation to the business of a local authority has never been treated as fundamental and incapable of abrogation other than by express statutory wording, but has always been qualified by various rules designed to support and enhance the decision-making process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For good reason, the principle of legality has a narrow application and is not applicable as an approach to statutory construction in the absence of a relevant established fundamental right or legal principle: see, eg, <span style="font-style:italic">R v Secretary of State for the Home Department, ex p Stafford </span><ref href="#" uk:canonical="[1999] 2 AC 38" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 2 AC 38</ref>, 49 per Lord Steyn (the principle of legality had no application, and the relevant wide discretionary power conferred on the Secretary of State could not be read down, because there was &#8220;no relevant and applicable principle which could be said to have been the assumption upon which Parliament entrusted the discretion&#8221; to him); and <span style="font-style:italic">R (O) v Secretary of State for the Home Department</span>, above, paras 33, 36 and 43 in the lead judgment of Lord Hodge. At para 43, Lord Hodge cited with approval the judgment of Laws J in <span style="font-style:italic">R v Lord Chancellor, ex p Lightfoot </span><ref href="#" uk:canonical="[2000] QB 597" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] QB 597</ref>, 609, where he warned that &#8220;[i]f the courts were to hold that more marginal claims of right should enjoy the protection of a rigorous rule of statutory construction not applied in contexts save that of the protection of fundamental rights and freedoms, they would impermissibly confine the powers of the elected legislature&#8221;. There is no such fundamental right or principle which could justify the application of this approach in the present case. As pointed out above, whilst the democratic principle which underlies the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> is important, it is already accommodated by the scheme of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> on a straightforward reading of the relevant provisions and by the relevant principles of public law. It cannot justify the radical interpretive surgery proposed by Mr Harwood.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood also sought to rely on <span style="font-style:italic">R (Al-Enein) v Secretary of State for the Home Department </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/2024" uk:canonical="[2019] EWCA Civ 2024" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 2024</ref>; <ref href="#" uk:canonical="[2020] 1 WLR 1349" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 1349</ref>, in which Singh LJ explained (para 28) that subordinate legislation promulgated pursuant to a general discretionary power would be unlawful if it conflicted with statutory rights created by primary legislation, including rights conferred by the same primary legislation under which the subordinate legislation is made. However, this does not assist the appellant, because the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>, under which the right for councillors to vote implicitly arises, itself includes the powers to make standing orders set out in para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref>. The LGA 1972 sets out a legal regime which is directed to allowing appropriate decision-making by local authorities and their committees as multi-member bodies. Regulation by standing orders of the kind at issue in this case does not offend against this legal regime; it gives effect to it. There is no reason to read down the ordinary meaning of the words used by Parliament in para 42 of Schedule 12 and in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the LGA 1972.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Armstrong-Braun</span> a local authority promulgated a standing order preventing a single member from putting a motion on the agenda for a council meeting without being seconded by another member. In the view of the Court of Appeal the standing order fell within the ambit of the power in para 42 of Schedule 12 as being made &#8220;for the regulation of [the authority&#8217;s] proceedings and business&#8221;: paras 17-18 per Schiemann LJ; paras 49-50 per Sedley LJ; para 63 per Blackburne J. Also, such a standing order was not contrary in principle and in all cases to the policy and objects of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>: paras 23-36 per Schiemann LJ; paras 51-58 per Sedley LJ; para 63 per Blackburne J. However, the standing order at issue was quashed because inadequate consideration had been given to the potential damage it might cause to local democracy to exclude a member from raising agenda items in this way: paras 38-48 per Schiemann LJ; paras 58-59 per Sedley LJ; paras 64-68 per Blackburne J. It should be noted that a standing order to prevent items being placed on the agenda for a vote to be taken has at least as great an impact on the ability of a councillor to represent his constituents by voting as the relevant standing orders in the present case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As Schiemann LJ put it (para 37), the possibility that local democracy might be impeded rather than promoted by adoption of the standing order indicated that before its adoption &#8220;the matter should be given most anxious consideration&#8221;; on the particular facts, that had not been the case. To similar effect, Sedley LJ found (para 58) that the standing order had simply been treated by the local authority as a matter of administrative convenience, but there was far more than that at issue and no one took into account &#8220;the potential damage to local democracy&#8221;; serious and careful scrutiny should have been, but was not, given to the legal and constitutional implications of the standing order (paras 59-60).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The analysis in <span style="font-style:italic">Armstrong-Braun</span> is the same as that which I have set out above. The court interpreted para 42 of Schedule 12 according to the natural meaning of the words used, which included regulation of proceedings and business by way of limiting when and in what circumstances a councillor could cast his or her vote. This meant that the local authority had the power, in principle, to promulgate the standing order in issue. However, because of the importance of local representative democracy, according to which a councillor is elected as the representative of a local constituency and the public in the authority&#8217;s area, the ambit of the discretionary element in the power conferred is comparatively narrow. It is a discretionary power which ought to be exercised by giving anxious scrutiny to the potential damage to the democratic principle inherent in the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> and weighing that against any reasons in favour of its exercise; and a court will apply a correspondingly heightened standard of review in reviewing whether the power has been exercised properly. As always, the question for the court is whether the exercise of the power is lawful; but the standard of review can be described as heightened because, as a matter of legal substance, by reason of the importance of the issues at stake in this context the parameters of the discretion afforded to the decision-maker are more constrained than would generally be the case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Armstrong-Braun</span> the Court of Appeal quashed the standing order because it found that there was an absence on the part of the local authority of the anxious scrutiny which was required, so the decision did not satisfy the comparatively demanding standard of rationality applicable in this context. In the present case, by contrast, it is conceded that the relevant standing orders do satisfy that standard. The same underlying legal analysis therefore leads to the conclusion in this case that the relevant standing orders are lawful and valid. The Council had power to make the relevant standing orders and it acted rationally and lawfully in doing so. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Harwood&#8217;s reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> is misplaced. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">The 1989 Act</ref> does not change the interpretation of paras 39 and 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> nor change their operation according to the ordinary meaning of each of those provisions. On the contrary, the relevant provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> are grafted onto the decision-making regime set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">the 1972 Act</ref> and presuppose that it applies in the usual way. <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">The 1989 Act</ref> overlays a specific set of requirements designed to ensure that the ordinary operation of that regime at committee level will respect the principle of proportionate party participation. The provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> also do not affect the due application of ordinary rules regarding participation by councillors in votes by a local authority or its committees: see paras 39 and 43 above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The definition of &#8220;seat&#8221; in the definition provision in para 4(1) of Schedule 1 to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> (para 9 above), on which Mr Harwood particularly relied, does not assist him. As a matter of ordinary usage in a statute, a definition does not confer rights or make a substantive change in the law; and this particular definition certainly does not confer an absolute right on a councillor to vote at meetings of a committee on all and any matters arising for its consideration. It does not, for example, override the ordinary disqualifications from voting which apply to all committee members. Nor does it confer a right for a councillor&#8217;s vote to be counted when they are not present at the relevant meeting as required by para 39 of Schedule 12. The definition simply identifies the positions in relation to which the proportionate party representation obligations laid down in the substantive provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> are to apply. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It may happen that for particular reasons a councillor is disqualified from participating in a vote by the full council, which could affect the balance of voting on the council on that issue, but that does not prevent the council from proceeding to make a decision. This is simply a feature which is inherent in the due functioning of local democracy. There is no good reason to infer that by enacting the relevant provisions in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/42" uk:canonical="1989 c. 42" uk:origin="TNA" uk:type="legislation">the 1989 Act</ref> Parliament intended that any different approach should apply at committee level. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Finally, I refer to <span style="font-style:italic">Hartlands</span>, the authority which Mr Harwood put at the forefront of his submissions. The case concerned, among other matters, the procedure adopted at a pre-determination hearing held by a local authority in relation to a planning application, at which representations could be made to the authority by interested parties, pursuant to section 30 of the 2011 Northern Ireland Act. Section 30(2) provided that &#8220;[t]he procedures in accordance with which any such hearing is arranged and conducted &#8230; and any other procedures consequent upon the hearing are to be such as the council considers appropriate&#8221;. The local authority adopted a rule that non-attendance by a councillor at a pre-determination meeting meant that they could not vote on the planning application. This meant that several members of the local authority&#8217;s planning committee were not able to vote on the planning application, which was refused. The developer contended that the exclusion of those members from voting on the application was unlawful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Considering the 2014 Northern Ireland Act, which sets out the basic decision-making structures for local authorities in Northern Ireland in a manner equivalent to the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> in England, Scoffield J said (para 111) it is a basic premise of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">the Act</ref> that councillors are entitled to vote in council or in committees to which they have been appointed &#8220;and that the question of whether or not they should vote is, at least in general, a matter for their own individual judgment (subject always to sanction for breach of the Code of Conduct and, ultimately, to electoral accountability for their actions)&#8221;. In the light of that premise, although the question was &#8220;not entirely clear cut&#8221;, he held (para 112) that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/30/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 30(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the 2011 Act</ref> did not provide adequate statutory authority for a council to deprive an elected member of their vote and upheld the developer&#8217;s challenge to the refusal decision. The judge said that &#8220;[r]eading <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/30" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 30</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20" uk:canonical="2011 c. 20" uk:origin="TNA" uk:type="legislation">the 2011 Act</ref> as a whole, it appears to me that the word &#8216;procedures&#8217; is referring to the practical arrangements for a pre-determination hearing and the conduct of the hearing &#8230; rather than the substantive decision-making process which the council (or committee) will ultimately have to undertake&#8221;. In his view, in this context the right to vote was not a matter of procedure. At para 123 he said, &#8220;[g]enerally, &#8230; where a councillor is to be disabled from voting on a particular issue, one would expect this to be clearly spelt out in statute, as, for example, in section 28(1)(a) of the Local Government Act (Northern Ireland) 1972 (where the member has a pecuniary interest in the matter being considered)&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my view, <span style="font-style:italic">Hartlands</span> does not support the appellant&#8217;s case in this appeal. Two points may be made. First, the judge was considering a provision (<ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/30/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 30(2)</ref> of the 2011 Northern Ireland Act) drafted in materially different terms from para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. The latter provisions refer in direct and unambiguous terms to regulation of a local authority&#8217;s own &#8220;proceedings&#8221;, which necessarily includes the conduct of voting where that is the proceeding by which the authority carries out its functions. <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/30/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 30(2)</ref>, by contrast, refers to &#8220;procedures&#8221; adopted for a pre-determination hearing on a planning application and &#8220;procedures&#8221; consequent upon such a hearing. In context, the word &#8220;procedures&#8221; is not directed to the internal decision-making processes of the authority, but to the way in which it makes arrangements to fulfil a statutory obligation to involve external third parties in the decision-making process. Since that is the meaning of the word &#8220;procedures&#8221; when first used in <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/30/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 30(2)</ref>, it is natural to give it the same meaning when it is used the second time in that provision. Therefore, the judge may well have been correct in his conclusion that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/20/section/30/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 30(2)</ref> did not create a power to make the rule in question. It should be observed that the local authority did not purport to make a standing order by using the different power contained in section 37 of the 2014 Northern Ireland Act, which is drafted using equivalent wording to that used in para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the LGA 1972 (&#8220;A council must make standing orders for the regulation of the proceedings and business of the council&#8221;). The appropriate analysis if the authority had sought to use that power would have been materially different.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, I would not endorse the wider statements by the judge at para 123 regarding the radical interpretive implications to be derived from the importance of the principle of local democracy. As I have explained, the position is more nuanced than he suggested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Drawing on <span style="font-style:italic">Hartlands</span>, Mr Harwood submitted that a councillor always has a right to vote on a matter which is before the full council or a committee of which he or she is a member, even if they are disqualified from doing so (for example, by the rules derived from common law or the statutory provisions referred to at para 39 above) and their participation would make its decision unlawful. It is a matter for his or her conscience whether to withdraw or to insist on exercising that right. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This is not correct. It elevates the legal force of the asserted right of a councillor to vote to an unsustainable degree and disregards the context of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref>. If the law says that a councillor is not entitled to vote, that means he or she is not entitled to vote. In that case, the chair of the meeting would be entitled to call a vote of members present other than the disentitled member, and that vote would be valid and effective. The chair does not have a discretion to determine who is entitled to vote in a way which does not correspond to the true legal position, but if in fact a member is not entitled to vote the chair can call for a vote of members who are entitled to do so, excluding that member. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If there were any doubt about whether a member was entitled to vote their entitlement could be tested in court proceedings. If they insisted that their vote be counted in circumstances where the Council considered that they had no entitlement, the matter can be determined by the court which if necessary could ultimately grant an injunction or prohibitory order to prevent them from doing so; in this way they could be compelled to comply with their responsibilities as a public official. A court can issue prohibitory relief against a local authority which proposes to take a decision which is tainted by illegitimate bias or pre-determination: see, eg, <span style="font-style:italic">R v Amber Valley District Council, ex p Jackson </span><ref href="#" uk:canonical="[1985] 1 WLR 298" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] 1 WLR 298</ref>, in which Woolf J observed (p 307) that a court has a right to intervene to prevent consideration of a planning application by a local authority in an unfair manner. That principle also covers the position where the local authority (or its committee) wishes to proceed to consider the application in a fair and unbiased way, but that would be prevented by the participation of a biased member or one who has pre-determined the matter in an illegitimate way. The recalcitrant member can be excluded, if necessary by order of the court, so as to allow the local authority (or committee) to proceed to take a lawful decision. Or, more simply, the chair of the meeting could be directed not to count the vote of the disentitled member. A local authority is authorised by the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> to conduct the business before it and it is inherent in <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> that it should be entitled to do so in a way which is lawful and capable of being defended against legal challenge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A local authority has power under para 42 of Schedule 12 and <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">LGA 1972</ref> to make standing orders which are properly directed to reducing the risk of any impression of bias, pre-determination or other unlawfulness in the decision-making processes of the authority, thereby minimising the scope for possible legal challenges and promoting the legitimacy of planning decisions in the eyes of the public. The relevant standing orders in this case can be seen in this light and impose lawful constraints. As Mr Hereward Phillpot KC for the Council submitted, they promote consistent, fair and legally robust decision-making. They obviate arguments regarding pre-determination, bias and so forth which could arise if a councillor voted on a planning application without having heard all the representations in relation to it. If a Committee member proposed to cast their vote in circumstances where the standing orders disqualified them from doing so, the same analysis as in para 87 above would apply. The chair of the meeting could properly disregard their vote so that the relevant decision of the Committee was taken according to the votes of those members who are entitled to cast them. If necessary, the issue could be resolved by the court making an order to achieve that effect. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Paraheading2">The second respondent&#8217;s cross-appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The judge dismissed the alternative cases presented by the Council and the second respondent. The Court of Appeal did not find it necessary to deal with them. On the appeal to this court the Council does not pursue those submissions, but the second respondent does. Since I would uphold the decisions of the judge and the Court of Appeal on the issue of statutory interpretation which is the subject of the appellant&#8217;s appeal, it is not necessary to deal with these alternative arguments. However, we heard full submissions on them and I think it is appropriate to address them. That can be done very shortly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num>90.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I consider that the judge was right to dismiss both arguments, for the reasons he gave. The arguments are completely divorced from reality. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num>91.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As to the first, the Committee reconstitution argument (para 28 above), the relevant standing orders did not purport to reconstitute the Committee as a committee of three persons. They did not touch on the membership of the Committee at all; they set out rules defining the circumstances in which a member of the Committee would be entitled to vote. As to the second alternative argument, the sub-delegation argument (para 28 above), the Committee did not purport to establish a sub-committee to determine the planning application. It purported to determine the application itself, but on the basis of the restrictive voting rule set out in the relevant standing orders. The validity of the decision taken must therefore depend on whether that was a lawful course for the Committee to take. As explained above, it was. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Paraheading2">Conclusion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_92">
+	  <num>92.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons given above, I would dismiss this appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

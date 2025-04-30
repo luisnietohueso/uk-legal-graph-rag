@@ -1,0 +1,915 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/186"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/186"/>
+	  <FRBRdate date="2025-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="186"/>
+	  <FRBRname value="Sandra Bailey &amp; Ors v Glaxosmithkline UK Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/186"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/186"/>
+	  <FRBRdate date="2025-01-31" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/186/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/186/data.xml"/>
+	  <FRBRdate date="2025-01-31T10:03:21" name="transform"/>
+	  <FRBRdate date="2025-01-31T11:01:34" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-01-31" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" shortForm="The King's Bench Division" showAs="The King's Bench Division of the High Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sandra-bailey-and-others" href="" showAs="SANDRA BAILEY AND OTHERS"/>
+	<TLCPerson eId="glaxosmithkline-uk-limited" href="" showAs="GLAXOSMITHKLINE UK LIMITED"/>
+	<TLCPerson eId="brit-uw-limited" href="" showAs="BRIT UW LIMITED"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-bourne" href="/judge-the-honourable-mr-justice-bourne" showAs="THE HONOURABLE MR JUSTICE BOURNE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>186</uk:number>
+	<uk:cite>[2025] EWHC 186 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>845d4b35f2c0fd7498ea13512724866f214a868fed3044cc3b715b4159b758b7</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Constantia; font-size: 12pt; }
+#judgment .FootnoteText { font-family: Constantia; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .FootnoteTextChar { font-family: Constantia; }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation style="color:#000000;background-color:#F8F8F8">[2025] EWHC 186 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>KB-2007-000013</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-01-31" refersTo="#judgment">31 January 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-bourne">THE HONOURABLE MR JUSTICE BOURNE</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#claimant" refersTo="#sandra-bailey-and-others" style="font-weight:bold">SANDRA BAILEY AND OTHERS</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#claimant">Claimants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#defendant" refersTo="#glaxosmithkline-uk-limited" style="font-weight:bold">GLAXOSMITHKLINE UK LIMITED</party></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#brit-uw-limited" style="font-weight:bold">BRIT UW LIMITED</party></p>
+	    <p style="text-align:center"><span style="font-weight:bold">(the corporate capital provider of Lloyd&#8217;s Syndicate 2987 for the 2015 year of account)</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#defendant">Defendant</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">John Lockey KC and Stephen Innes</span> (instructed by <span style="font-weight:bold">Addleshaw Goddard LLP</span>) for the <span style="font-weight:bold">Defendant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Jason Robinson </span>(instructed by<span style="font-weight:bold"> CMS</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 15<span style="vertical-align:super;font-size:smaller"/>January 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 10am on 31 January 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">HON. MR JUSTICE BOURNE</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">The Hon. Mr Justice Bourne:</span></p>
+	    <p>Introduction</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">This is an application by the Defendant for an extension of the time ordered by Lambert J on 3 July 2020 within which an application could be made for a non-party costs order (&#8220;NPCO&#8221;), and/or for relief from sanction for its non-compliance with that order. The proposed costs application would be made against Brit UW Ltd (&#8220;Brit&#8221;), which has been joined as an additional party for these purposes. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">An NPCO can be made under <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54/section/51/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 51(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1981/54" uk:canonical="1981 c. 54" uk:origin="TNA" uk:type="legislation">Senior Courts Act 1981</ref> which provides: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">"Subject to the provisions of this or any other Act and to rules of court, the costs of and incidental to all proceedings in the civil division of the Court of Appeal and in the High Court, including the administration of estates and trusts, shall be in the discretion of the court, and the court shall have full power to determine by whom and to what extent the costs are to be paid";</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By way of background:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">By a Claim Form served on 30 April 2004, several hundred publicly funded Claimants claimed that the Defendant&#8217;s anti-depressant medication Seroxat was defective and had caused them harm. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">A Group Litigation Order was made on 9 July 2007. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">A number of generic issues were listed for a trial commencing on 1 February 2011. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">However, on 29 November 2010, the Legal Services Commission decided to discharge the Claimants&#8217; public funding certificate after considering an advice on the merits from their then leading counsel. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">That led to 369 Claimants discontinuing their claims, while the remaining 124 challenged the LSC&#8217;s decision. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 29 January 2015 a review panel rejected that challenge and discharged the public funding certificate. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 22 July 2015, a notice of change of legal representative was served by Fortitude Law, referring to its acceptance of instructions following &#8220;discussions with funders and insurers&#8221;. It represented 102 Claimants, whilst one more continued as a litigant in person. An adjourned CMC was listed for hearing on 28 October 2015. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Solicitors&#8217; correspondence between August and October 2015 addressed, among other things, the adequacy of the proposed funding arrangements including any &#8220;after the event&#8221; (&#8220;ATE&#8221;) insurance cover for costs liabilities. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">In letters dated 14 August and 16 October 2015, Fortitude Law stated that ATE insurance had been obtained for the remaining Claimants in respect of adverse costs orders relating to the generic case and represented that there was an adequate initial level of indemnity, with a facility to obtain further cover if required. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">The Defendant&#8217;s solicitors questioned those assertions. At the CMC on 28 October 2015, Foskett J required the Claimants to provide further information including a detailed explanation of the contention that there was adequate cover. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">k.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 19 November 2015, Brit issued an ATE legal expenses policy to the Claimants. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">l.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 26 November 2015, in a witness statement by Mr Hanison in response to Foskett J&#8217;s order, it was stated that (1) litigation funding had been provided by Managed Legal Solutions Ltd (&#8220;MLS&#8221;) which exceeded the remaining &#163;500,000 which had previously been available under the public funding certificate and (2) the ATE insurance with Brit would, if necessary, reimburse the Defendant&#8217;s reasonable costs up to &#163;750,000. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">m.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 4 February 2016, Foskett J gave a judgment following the adjourned CMC in which he allowed the proceedings to continue, noting that the ATE insurance meant &#8220;that there is the prospect of recovery of at least some of its reasonable recoverable costs by the Defendant if the claims fail or are discontinued&#8221;. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">n.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 16 June 2017 the Defendant applied for security for costs. On 3 August 2017 MLS&#8217;s head of investment in a witness statement expressed the view that the ATE policy provided the Defendant with sufficient comfort in respect of the first &#163;750,000 of its costs.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">o.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 8 December 2017, Foskett J ordered the Claimants to provide security for costs in the sum of &#163;1.75 million, that sum being half of the Defendant&#8217;s anticipated recoverable costs up to the start of a trial, less two thirds of the ATE cover, the remaining third being disregarded to reflect the &#8220;more than minimal risk&#8221; that the insurance policy might be avoided. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">p.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">The trial commenced on 29 April 2019 before Lambert J. An issue as to the Claimants&#8217; case on defect arose during opening and was decided in the Defendant&#8217;s favour on day 3 of the trial, for reasons given in a judgment on 9 May 2019. Permission to appeal was refused by the Court of Appeal on 4 December 2019 and by the Supreme Court on 24 January 2020. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">q.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 7 May 2020, the Claimants by their counsel submitted to judgment dismissing the claims, subject only to arguments as to costs. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">r.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 3 July 2020 Lambert J ordered that judgment be entered. She also ordered the Claimants to pay costs to the Defendant on the indemnity basis up to 21 June 2018 and on the standard basis thereafter. Each claimant was liable for his/her individual costs and his/her share of the common costs. The judge ordered a payment on account of &#163;4.5 million but the question of time for that payment was adjourned generally with liberty to restore. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">s.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Paragraph 5 of that order contained the deadline which the Defendant now seeks to extend:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.5in"><span style="font-family:'Times New Roman'">&#8220;The Defendant shall make any application for a third party costs order (including but not limited to any application for the payment out, to the Defendant, of monies currently standing in Court as security for the Defendant&#8217;s costs), if so advised, no later than 4pm on 31 July 2020. Any such application shall include the Defendant&#8217;s proposed directions and timetable, and shall be placed before Lambert J for directions for the filing of any evidence by the parties to that application and for the hearing of that application. Such application may include an application to restore the question of when the payment ordered in paragraph 4 should be made. For the avoidance of all doubt, any such application should be served on the Claimants&#8217; solicitors.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">t.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">In September 2020 MLS and its owner, a Mr Hunt, agreed to pay &#163;5 million, including the money paid into court as security for costs, to the Defendant in settlement of their liability for costs.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The further events leading to the Defendant&#8217;s application for a non-party costs order against Brit were the following:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">In addition to the monies recovered from MLS and its owner, the Defendant had incurred an estimated &#163;4,381,029 in costs between 1 October 2015 and 3 July 2020. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 29 July 2020 its solicitors wrote to Fortitude Law asking whether the Claimants had made a claim under the policy and, if so, the status of the claim.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 13 November 2020 Fortitude Law confirmed that the Claimants had made a claim, and on 9 December 2020 they indicated that an update was being chased via the insurance broker.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 5 January 2021 the Defendant&#8217;s solicitors sent a chasing email to Fortitude Law but received no response. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 6 August 2021 and again on 2 September 2021 the Defendant&#8217;s solicitors wrote directly to Brit, asking it to confirm the Claimants&#8217; insurance cover and the status of their claim under the policy.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">On 7 September 2021, CMS Cameron McKenna Nabarro Olswang LLP ("CMS") acknowledged receipt of those letters and stated that CMS was advising Brit in relation to the Seroxat Group Litigation. In a telephone call on that date, CMS would not confirm the position that Brit was taking in relation to the Claimants&#8217; insurance claim, or the status of that claim, but said that CMS were investigating the case and advising Brit and had been trying without success to contact Fortitude Law, and asked the Defendant to co-operate by sharing any relevant information. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">The Defendant&#8217;s solicitors sent chasing letters or emails to CMS on 26 October 2021 (providing documents containing information requested by Brit), 12 January 2022, 20 April 2023 and 16 May 2023. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">A substantive response was received on 25 May 2023, stating that Brit to the best of its knowledge had not received any claim from the insured Claimants and &#8220;has not confirmed insurance cover under the ATE policy in the absence of any claim by the insured Claimants&#8221;. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The application notice was issued on 16 August 2023. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">There have since been some regrettable delays in its handling by the Court, for which the parties are not responsible. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">For the purpose of today&#8217;s hearing, it is not disputed that the Defendant has a properly arguable application against Brit for a non-party costs order. The possibility of seeking a direct costs order against an insurer which had voluntarily taken on an obligation to indemnify the unsuccessful party against a liability for adverse costs was recognised by the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Murphy v Young &amp; Co.&#8217;s Brewery</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1997] 1 WLR 1591" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 1 WLR 1591</ref>, 1601. In the present case, the ATE policy was a relevant factor when the Court decided whether the proceedings could continue in 2015, and when the Court decided the amount of the security which MLS would be required to provide. Although the merits of the NPCO application are or will be disputed, no further consideration of the merits is appropriate at this preliminary stage.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The applications raise the following principal issues:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Is this a case where relief from sanction must be sought under CPR 3.9, or is it just a request for an extension which will be decided by applying the overriding objective under CPR 1.1?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Whichever of those tests is applied, should the Defendant be granted relief from sanction or the desired extension as the case may be, or not?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The relevant parts of the CPR provide:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.1</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"/>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">These Rules are a procedural code with the overriding objective of enabling the court to deal with cases justly and at proportionate cost.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">Dealing with a case justly and at proportionate cost includes, so far as is practicable &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">ensuring that the parties are on an equal footing and can participate fully in proceedings, and that parties and witnesses can give their best evidence;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">saving expense;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">dealing with the case in ways which are proportionate &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(i)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">to the amount of money involved;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(ii)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">to the importance of the case;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(iii)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">to the complexity of the issues; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(iv)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">to the financial position of each party;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">ensuring that it is dealt with expeditiously and fairly;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(e)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">allotting to it an appropriate share of the court&#8217;s resources, while taking into account the need to allot resources to other cases;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>f)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">promoting or using alternative dispute resolution; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(g)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">enforcing compliance with rules, practice directions and orders.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">3.9</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"/>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">On an application for relief from any sanction imposed for a failure to comply with any rule, practice direction or court order, the court will consider all the circumstances of the case, so as to enable it to deal justly with the application, including the need &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">for litigation to be conducted efficiently and at proportionate cost; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">to enforce compliance with rules, practice directions and orders.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman'">An application for relief must be supported by evidence.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p>The parties&#8217; submissions</p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Defendant was represented before me by John Lockey KC, leading Stephen Innes of counsel. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lockey contends that relief from sanction under CPR 3.9 is not required, and this is an ordinary case management application which must be determined by application of the overriding objective of enabling the court to deal with cases justly and at proportionate cost under CPR 1.1. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">That is on the basis that paragraph 5 of the order of 3 July 2020 did not carry any sanction for non-compliance. As Birss LJ said in </span><span style="font-style:italic;font-family:'Times New Roman'">Yesss (A) Electrical Limited v Warren</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/14" uk:canonical="[2024] EWCA Civ 14" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 14</ref> at [33], rule 3.9 applies only where there has been a breach of a rule, practice direction or order and a sanction for such a breach, express or implied, can be identified. It is common ground that it did not impose an express sanction and, Mr Lockey submits, there was no implied sanction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In particular, he submits that the setting of a deadline for an application does not impose an implied sanction merely because the relevant application cannot be made after the deadline without permission. He compares </span><span style="font-style:italic;font-family:'Times New Roman'">Viegas and others v Estate of Jos&#233; Luis Cutrale</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/1122" uk:canonical="[2024] EWCA Civ 1122" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 1122</ref>, where the Court, applying </span><span style="font-style:italic;font-family:'Times New Roman'">Yesss</span><span style="font-family:'Times New Roman'">, decided that no implied sanction attaches to CPR 17.2(2). That rule provides that, where a party amends its statement of case in circumstances where permission for the amendment is not required, another party may apply for an order disallowing the amendment within 14 days of service of the amended statement of case. The conclusion of Newey LJ at [58] was that the question of whether a party will be permitted to make such an application after expiry of that deadline &#8220;must be determined by reference to the overriding objective&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">That being so, Mr Lockey submits that no assistance is provided by older cases, pre-dating </span><span style="font-style:italic;font-family:'Times New Roman'">Yesss </span><span style="font-family:'Times New Roman'">and </span><span style="font-style:italic;font-family:'Times New Roman'">Viegas</span><span style="font-family:'Times New Roman'">, in which implied sanctions were found in other circumstances and on which Mr Robinson relies. The only instances recognised in </span><span style="font-style:italic;font-family:'Times New Roman'">Yesss </span><span style="font-family:'Times New Roman'">(and in </span><span style="font-style:italic;font-family:'Times New Roman'">FXF v English Karate Federation Ltd &amp; Anor</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2024] 1 WLR 1097" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] 1 WLR 1097</ref> which was decided at the same time, also by a constitution including Birss LJ) were the provisions setting deadlines for notices of appeal and respondent&#8217;s notices (see </span><span style="font-style:italic;font-family:'Times New Roman'">Sayers v Clarke Walker</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/645" uk:canonical="[2002] EWCA Civ 645" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 645</ref> and </span><span style="font-style:italic;font-family:'Times New Roman'">Salford Estates v Altomart</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2015] 1 WLR 1825" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 1825</ref>). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lockey therefore submits that the Defendant&#8217;s application must be tested by application of the factors referred to in CPR 1.1(2). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">He submits that permitting the application would not materially affect the need to put the parties on an equal footing or the need to save expense. It would be proportionate, bearing in mind the amount at stake of &#163;750,000 plus interest. It would not consume an inappropriate share of the Court&#8217;s resources. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A more controversial factor is the need to ensure that cases are dealt with expeditiously and fairly. Mr Lockey submits that fairness supports allowing the Defendant to air its properly arguable claim for &#163;750,000. As to expedition, he places strong reliance on the fact that the event insured under the ATE policy, namely the Claimants&#8217; liability for costs, did not arise before 3 July 2020. The Defendant was then told by the Claimants&#8217; solicitors on 13 November 2020 that an insurance claim had been made, which indicated that no direct claim against the insurer was likely to be needed. Although the Defendant made inquiries of Brit on 6 August 2021, Brit&#8217;s position was not articulated by CMS until 25 May 2023. Until then, the Defendant had no need to contemplate a NPCO application or an extension of time and any such application would have been premature. Thereafter, he submits that the application was made within a reasonable time. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The other more controversial factor is the need to enforce compliance with orders. Mr Lockey submits that there was nothing &#8220;contemptuous&#8221; about the Defendant not applying for a NPCO in July 2020 at a time when there was no apparent need to do so. There was no decision by the Defendant not to comply with Lambert J&#8217;s order. Rather, the question of any NPCO against Brit simply was not in anyone&#8217;s contemplation because neither the parties nor the court had any reason to suspect that any insurance policy would not be honoured.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Paragraph 5 of the order, he submits, was made primarily with the position of MLS in mind. In support of that submission Mr Lockey draws my attention to paragraph 34 of the judgment of Lambert J on 3 July 2020:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">&#8220;I need mention three preliminary points. First, the Qualified One Way Costs regime does not apply to this claim as it started well before that regime came into effect in 2013. Second, the costs in issue relate principally to the costs incurred by the Defendant following the resurrection of the action in 2015. Although there is an outstanding costs liability dating back to the period when the Claimants had the benefit of public funding, the Defendant accepts that it will be unlikely to be able to enforce that liability. The Defendant&#8217;s Schedule of Costs for the purpose of an interim payment therefore relates only to costs incurred since 31 July 2015. That said, the costs figure is very high, running to just under &#163;9.33 million. Third, the Defendant seeks an order for costs against the Claimants not to be enforced without the further order of the Court. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">I am informed that a further application may be made against the third party litigation funders MLS who have already been required to provide a security for the Defendant&#8217;s costs</span><span style="font-family:'Times New Roman'"> under CPR 25.14(1) by making a payment into court in the sum of &#163;1,750,000 pursuant to the Order of Foskett J of 11 December 2017. This sum was increased by &#163;750,000 by a consent order dated 11 October 2018.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="text-align:right;margin-left:0.5in"><span style="font-family:'Times New Roman'">(emphasis added)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">A seventh factor, the promotion or use of ADR, was added to rule 1.1(2) by amendment in October 2024 but is not relevant in the present case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Lockey therefore invites the conclusion that the relevant factors favour the grant of the extension sought. The unpalatable alternative would be either that his client will lose the chance of seeking the NPCO, or that it would be left with the impractical and unrealistic course of pursuing claims for costs against each of 102 Claimants and then bankrupting any who do not or cannot pay, so as then to make a claim under the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/10" uk:canonical="2010 c. 10" uk:origin="TNA" uk:type="legislation">Third Parties (Rights against Insurers) Act 2010</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By way of fall-back position, Mr Lockey submits that if relief is needed, then it should be granted, applying the 3-stage test under </span><span style="font-style:italic;font-family:'Times New Roman'">Denton v T H White Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2014] 1 WLR 3926" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 3926</ref>. He agrees that a delay from the deadline of 30 July 2020 until August 2023 was serious or significant, but submits that the Defendant had a good reason for non-compliance, namely that until the letter of 25 May 2023 from CMS, it had no reason to believe that an NPCO application would be needed. As to the third stage, he submits that it would be just to grant the extension because no Court timetable has been affected, no other Court users have been affected, there was no intention not to comply with an order, the delay has not caused any prejudice to Brit and the Defendant would be seriously prejudiced if it could not seek the order for its costs of &#163;750,000 plus interest. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Brit was represented by Jason Robinson of counsel. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Robinson first emphasises that, whether the case strictly turns on the </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">test or on the application of the overriding objective, the outcome is likely to be the same and the relevant factors are essentially the same. In </span><span style="font-style:italic;font-family:'Times New Roman'">Viegas and others </span><span style="font-family:'Times New Roman'">(above), where CPR 3.9 did not apply, Newey LJ said at [58]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">&#8220;&#8230; the question whether a defendant should be permitted to make an application under CPR 17.2(2) after the period specified in it has expired must be determined by reference to the overriding objective. It may still be relevant to consider the matters reflected in the </span><span style="font-style:italic;font-family:'Times New Roman'">Denton</span><span style="font-family:'Times New Roman'"> three-stage test (seriousness and significance of the delay, the reasons for it and other relevant circumstances), but, unlike an application for relief from sanction, the matter should not be approached on the basis that the &#8216;starting point&#8217; is that &#8216;the sanction has been properly imposed and complies with the overriding objective&#8217; &#8230;&#8221;.</span><authorialNote class="footnote" marker="1">
+			<p class="FootnoteText"><span style="font-family:'Times New Roman'"> The quotation is from </span><span style="font-style:italic;font-family:'Times New Roman'">Mitchell v News Group Newspapers Ltd (Practice Note)</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1537" uk:canonical="[2013] EWCA Civ 1537" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1537</ref>, <ref href="#" uk:canonical="[2014] 1 WLR 795" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 795</ref> per Lord Dyson MR at [45]. </span></p>
+		      </authorialNote></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Nevertheless, Mr Robinson contends that this is a case where the order carried an implied sanction, namely that no NPCO application could be made without permission, and therefore </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">applies. In support of that submission he points to the recognition in the recent cases that the categories of implied sanction are not closed, and also to older cases namely </span><span style="font-style:italic;font-family:'Times New Roman'">Talos Capital Ltd &amp; Ors v JCS Investments Holdings XIV Limited &amp; Ors</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2014/3977" uk:canonical="[2014] EWHC 3977 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 3977 (Comm)</ref>, where the deadline for filing an acknowledgment of service was held to carry the implied sanction that a defendant will not be permitted to mount a challenge to the Court&#8217;s jurisdiction, </span><span style="font-style:italic;font-family:'Times New Roman'">Cunico Marketing FZE v Daskalakis</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2019] 1 WLR 2881" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 2881</ref> where again a late filing of acknowledgement of service required relief from sanction, and </span><span style="font-style:italic;font-family:'Times New Roman'">A Khan Design Ltd v Horsley</span><span style="font-family:'Times New Roman'"> [2014] EWHC 3019, where relief from sanction was refused following an applicant&#8217;s non-compliance with a requirement to elect for damages or an account of profits within 21 days of receiving affidavit evidence from his opponent (though there was no discussion of the implied sanction issue in that case). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On the assumption that the </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">test is to be applied, Mr Robinson also reminds me of its stringency. Particular weight is to be given to the need to observe time limits, even where the party&#8217;s underlying case has obvious merit (</span><span style="font-style:italic;font-family:'Times New Roman'">Little Lever Working Mens Club v The Commissioners for His Majesty&#8217;s Revenue and Customs </span><span style="font-family:'Times New Roman'">[2023] UKFTT 00714, [26-27]). Relief may be refused even where non-compliance is not deliberate (</span><span style="font-style:italic;font-family:'Times New Roman'">Excotek Limited v City Air Express Ltd (In Liquidation) </span><span style="font-family:'Times New Roman'">[2021] EWHC 2615, [74]). The effect of delay on the litigation is not a decisive factor (</span><span style="font-style:italic;font-family:'Times New Roman'">Diriye v Bojaj </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1400" uk:canonical="[2020] EWCA Civ 1400" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1400</ref> at [59]). The applicant for relief should not blame the other party for resisting the application save where it was obvious that relief was appropriate: (ibid, [69]. An applicant for relief must act speedily, which is a necessary but not necessarily a sufficient ground for its grant (</span><span style="font-style:italic;font-family:'Times New Roman'">Caliendo v Mishcon de Reya</span><span style="font-family:'Times New Roman'"> [2014] EWHC 3414 at para 55(1)). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Robinson submits that there was no good reason for the breach of the order, and urges me to reject the submission that the Defendant for a long time had no reason to believe that a NPCO application would be needed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">He points out first that Lambert J&#8217;s order itself contemplated such an application and required the Defendant to give thought to the deadline which it imposed. The Defendant knew that Brit had issued an ATE policy. There was no reason for the Defendant not to make a protective application by the deadline, or at least to seek a protective extension of the deadline. Moreover, the Defendant did not even contact the Claimants to ask whether an insurance claim had been made until 29 July 2020, just before the application deadline. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">By September 2020 the Defendant knew that it had a substantial costs shortfall, net of its recovery from MLS. Nevertheless, it did not chase Fortitude Law until 10 November 2020, more than 4 months after Lambert J&#8217;s order. And, although on 13 November 2020 Fortitude Law stated that the Claimants had made a claim under the policy, that did not guarantee that Brit would pay out. The Defendant, Mr Robinson submits, chose to run the risk of not making an application for an NPCO or an extension while it waited to see what would happen.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The Defendant did not write to Brit until 6 August 2021, over a year after the deadline. It was also about 7 months after the last contact with Fortitude Law, by which time it had or should have given up hope of any assistance from that quarter. Mr Robinson submits that there is no good excuse for that delay. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">On 7 September 2021 there were the important communications between CMS and the Defendant&#8217;s solicitors. It must have been apparent that Brit was not up-to-date with what had happened in the litigation and was not in a position simply to confirm that it was in receipt of any insurance claim under the ATE policy. The Defendant&#8217;s solicitors, Mr Robinson submits, then acted very slowly, in particular with an unexplained gap between chasers on 12 January 2022 and 20 April 2023, by which time CMS had closed its file. And, although Brit&#8217;s position was made clear on 25 May 2023, the NPCO application still was not made until nearly 3 months later. Until then, there was also no application for any extension of time. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In these circumstances, Mr Robinson submits that the passage of time cannot be laid at Brit&#8217;s door, and any failure by Brit to engage is not the reason why the very long extension of time is now sought. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Turning to stage 3 of the </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">test, Mr Robinson submits that the longer a delay is, the stronger the justification for it must be (see </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">at [35]). In this case the delay must be seen in context of Lambert J&#8217;s order which was designed to ensure an expeditious disposal of any residual costs issues. And, although Brit is not required to show prejudice in order to defeat the application, it is prejudiced by having to deal with this matter after a time when it reasonably believed it to be over. Also its 2015 year of account (in which the policy was underwritten) was closed on 31 December 2017 and re-opening it would involve extra work, management time and cost. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Mr Robinson&#8217;s fallback position is that the same conclusion would follow by applying the overriding objective rather than the </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">test. The factors either are neutral or lean in Brit&#8217;s favour, and the factors of expedition and enforcing compliance with orders are critical and weigh heavily in Brit&#8217;s favour. This, he submits, is a case of a deliberate or conscious breach of a Court-ordered deadline over a period of years, and should not be tolerated. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p>Discussion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Yesss (A) Electrical Ltd v Martin Warren</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/14" uk:canonical="[2024] EWCA Civ 14" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 14</ref>, Birss LJ noted at [26] that &#8220;certain classes of implied sanction&#8221; have been identified. He referred to </span><span style="font-style:italic;font-family:'Times New Roman'">Sayers v Clarke Walker</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/645" uk:canonical="[2002] EWCA Civ 645" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 645</ref> where it was held that a failure to lodge a notice of appeal in time carries the implied sanction that the appeal cannot be pursued, and </span><span style="font-style:italic;font-family:'Times New Roman'">Salford Estates v Altomart</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2015] 1 WLR 1825" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 1825</ref> where it was held that a failure to file a respondent&#8217;s notice under in time carries the implied sanction that grounds for upholding a judgment that were not before the Court below cannot be raised on the appeal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Without referring to the other cases cited here by Mr Robinson, Birss LJ continued at [31]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">&#8220;Bearing in mind the importance of clarity in the procedural framework to be followed by court users, the hurdle for identifying something as an unexpressed but implicit sanction must be a high one. It has been identified in the two circumstances mentioned in the cases above. I prefer to say that the scope for identifying any further implied sanctions over and above these two must be very narrow. Bearing in mind that the Denton &#8216;ethos&#8217; may apply even when r3.9 is not engaged, the need for further extensions of this concept is likely to be very limited.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Birss LJ was also part of the Court which, at the same time, decided </span><span style="font-style:italic;font-family:'Times New Roman'">FXF v English Karate Federation Ltd &amp; Anor</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2024] 1 WLR 1097" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] 1 WLR 1097</ref>, where Sir Geoffrey Vos MR said at [59]-[60]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:'Times New Roman'">&#8220; &#8230; there are really three categories of case: (i) cases where the rule or order expressly provides for the sanction that will apply on non-compliance (eg failure to file witness statements on time, (ii) cases where the rule does not expressly state the sanction which applies for non-compliance, but permission of the court is needed to proceed (eg failure to file a notice of appeal on time), and (iii) cases where a further step is taken in consequence of the non-compliance, such as the entry of a default judgment (as in this case) or the striking out of a claim for non-attendance at trial &#8230;&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">That passage was approved by Birss LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">Yesss </span><span style="font-family:'Times New Roman'">at [27]. Reading the cases together, it seems to me that although the door is left very narrowly open for recognising new categories of implied sanction, the position is not that there is an implied sanction in every case where, if a step is not taken in accordance with an order or rule or practice direction, permission will then be required to take it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">That can be seen from the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Viegas </span><span style="font-family:'Times New Roman'">(cited above). I see no significant distinction between </span><span style="font-style:italic;font-family:'Times New Roman'">Viegas </span><span style="font-family:'Times New Roman'">and the present case. In each, the relevant provision (a rule in </span><span style="font-style:italic;font-family:'Times New Roman'">Viegas </span><span style="font-family:'Times New Roman'">and an order in the present case) set a deadline, with the consequence that proceeding after expiry of the deadline would require permission. That consequence did not amount to an &#8220;implied sanction&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">For that reason, if I needed to decide the point my conclusion would be that the relevant paragraph of the order of Lambert J did not carry an implied sanction and therefore that rule 3.9 is not in play. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">However, I also accept the submission of Mr Robinson that that does not change the outcome of this application. Whichever test applies, it is for the Defendant to persuade the Court that there should be a very lengthy extension to the deadline, having regard to all of the relevant factors including the fact that the deadline was imposed in the first place and including the effects on the parties of granting or refusing the extension as the case may be. The topics which are covered in a </span><span style="font-style:italic;font-family:'Times New Roman'">Denton </span><span style="font-family:'Times New Roman'">exercise remain relevant. In particular, the Court will attach particular importance to the parties&#8217; compliance with rules and orders and to the need to avoid delay, and a long extension of time requires cogent justification. But the main difference is that in the application of the overriding objective rather than rule 3.9, there is no presumption or starting point that the sanction or consequence (an inability to make the NPCO application) was correct. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In my judgment, having regard to the overriding objective, the Defendant has not shown that the extension should be granted. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I begin with the context in which the order of Lambert J was made. The Seroxat litigation had come to an end after 16 years, effectively being conceded at the start of the trial, 5&#189; years after public funding had been withdrawn because the claim lacked merit. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In those circumstances it is not surprising that the Court made an order with the aim of tying up any loose ends as expeditiously as possible, and that order applied to all parties equally, notwithstanding that it was the Defendant that had incurred very substantial costs in defending a claim which never even reached the end of a trial. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I also consider that the meaning of paragraph 5 of the order was entirely clear, and it plainly applied to any future NPCO application, whoever it was directed against. I accept that the parties and the Court only anticipated such an application against MLS, but it was nevertheless clear that the order was framed in general terms. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The real questions in the present case are: when should the Defendant have realised that a NPCO application against Brit might be needed, and what should it have done about that possibility.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In my judgment, the Defendant was very slow both to realise that the application might be needed and to act on that realisation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">The fact that an ATE insurer was likely to be involved in any costs recovery was known from 2015 onwards. The adequacy of the cover was explored in the proceedings leading to Foskett J&#8217;s judgment of 4 February 2016. The risk that the insurers might not pay out was recognised in Foskett J&#8217;s judgment of 8 December 2017. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">That being so, although nobody turned their mind to the possibility of a NPCO against Brit at the time of Lambert J&#8217;s order of 3 July 2020, that possibility could have been thought about. Lambert J could, for example, have been asked to apply the 31 July deadline to any application against MLS and to make some other provision for any application against a different party. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">That can be seen from the fact that on 29 July 2020, 2 days before the NPCO application deadline, the Defendant&#8217;s solicitors wanted to know whether the Claimants had made any claim on their insurance. On that date (or earlier, and longer before the deadline), it would have been reasonable for them to ask themselves what the consequence of Lambert J&#8217;s order would be if there was no insurance recovery in the usual way. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In those circumstances it seems to me that when the 30 July 2020 deadline was allowed to pass without the question of any future application being put before the Court, the Defendant was running the risk that the Court would not allow the indulgence of an extension at a later date. I would characterise this not as a deliberate decision to disobey an order, but rather as an omission to think through the implications of the order. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Thereafter, with the knowledge that that deadline had expired, the Defendant proceeded very slowly indeed, there being no communication with Brit until 6 August 2021. The slowness of its progress is the principal reason why the Defendant came to need such a long extension two years later, in August 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I take into account, in the Defendant's favour, that it was misled by Fortitude Law&#8217;s letter of 13 November 2020 and that subsequent chasing letters were not responded to. But the question is, what should the Defendant have done in that situation. In my judgment, it was open to the Defendant at all times to bring the question of a NPCO against Brit and an extension of time before the Court, even if there remained a prospect that the application might not ultimately be needed. As time passed, the need to raise this question with the Court became ever more pressing. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Once contact had been made with CMS acting on Brit&#8217;s behalf on 7 September 2021, progress was even slower. Whilst it is unattractive for Brit to hide behind its omission to respond substantively between that date and 25 May 2023, the fact is that time was running against the Defendant for any application to extend the long-expired deadline for a NPCO application. No explanation whatsoever has been advanced for the delay between the chasing letters of 12 January 2022 and 20 April 2023. It seems that the matter simply went to sleep. Brit is not free of any blame for that gap in communications, and its lack of response during that time was unhelpful and unedifying but, in the absence of any proceedings against Brit (or even the threat of such proceedings), this was not a breach of any duty falling on Brit. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">When Brit on 25 May 2023 announced that it had not received any claim under the policy, the time had long since passed when an application should have been made to extend the expired deadline. But even then, another 12 weeks were allowed to pass. That delay too has no satisfactory explanation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">In those circumstances, the grant of the desired extension would not be in accordance with the overriding objective. By reference to the factors specified in CPR 1.1(2):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">There is no issue in this case about equality of arms or access to court. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Saving expense is not directly relevant, as the TPCO application would have occasioned expense whenever it was made. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">As to proportionality, I bear in mind in the Defendant&#8217;s favour that a significant sum of &#163;750,000 is involved, though that should be seen in the context of the recovery of a much larger sum in costs from MLS. Neither party has prayed in aid anything specific about its own financial position.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Logically, the need to deal with cases fairly will tend to favour permitting a party to have an issue decided. This is not a case where allowing an extension would cause significant prejudice to Brit, over and above the prejudice of having to deal with litigation which at one stage appeared to have fallen dormant. But the need to deal with cases expeditiously carries greater weight in the present circumstances. I have explained why the Defendant has at all times failed to act in a way which merits the Court&#8217;s indulgence in granting a long extension of time. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">Allotting an appropriate share of the Court&#8217;s resources is not a decisive factor in this case, because the proposed application would have consumed resources whenever it was made. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Times New Roman'">The other factor of critical importance in the present case is the need to enforce compliance with the Court&#8217;s orders. The Defendant does not appear to have considered the workability of the deadline when the order of 3 July 2020 was made. At no time thereafter did the Defendant appear to appreciate that it would need a substantial extension of the time within which Lambert J had sought to have the residual issues in this litigation dealt with, and it never showed any sense of urgency in pursuing the question, even after it had told Brit that it would be making its applications. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p>Conclusion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">Considering the circumstances as a whole, and despite the fact that the Defendant is seriously out of pocket, I have concluded that it would not be just or proportionate to allow the proposed application to proceed, having regard to the passage of more than 3 years between the deadline and the application and the lack of a sufficient explanation for that delay. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">I should add that the passage of yet more time since this application was made has not been held against the Defendant. As I have said, there were regrettable delays within the Court for which the Defendant is not responsible. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">For the reasons which I have set out, the Defendant&#8217;s application will be dismissed. </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

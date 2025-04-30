@@ -1,0 +1,1098 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/719"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/719"/>
+	  <FRBRdate date="2025-03-25" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="719"/>
+	  <FRBRname value="R&amp;B Plastering Limited v UK Insurance Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/719"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/719"/>
+	  <FRBRdate date="2025-03-25" name="judgment"/>
+	  <FRBRauthor href="#ewhc-kbd"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/719/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/719/data.xml"/>
+	  <FRBRdate date="2025-03-25T15:58:56" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-25" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewhc-kbd" href="https://www.gov.uk/courts-tribunals/queens-bench-division-of-the-high-court" showAs="The King's Bench Division of the High Court" shortForm="The King's Bench Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="r&amp;b-plastering-limited" href="" showAs="R&amp;B PLASTERING LIMITED"/>
+	<TLCPerson eId="uk-insurance-limited" href="" showAs="UK INSURANCE LIMITED"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-mrs-justice-foster" href="/judge-mrs-justice-foster" showAs="MRS JUSTICE FOSTER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWHC-KBD</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>719</uk:number>
+	<uk:cite>[2025] EWHC 719 (KB)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>4572c1c9fe45e77bd6062d0f4ead8daf277671b736a69b7e694ca839b86ccb5a</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { text-align: justify; margin-left: 0.2in; font-weight: bold; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { text-align: justify; margin-left: 0.2in; font-style: italic; font-size: 14pt; color: #2F5496; }
+#judgment .Heading5 { text-align: justify; margin-left: 0.2in; font-size: 14pt; color: #2F5496; }
+#judgment .Heading6 { text-align: justify; margin-left: 0.2in; font-style: italic; font-size: 14pt; color: #595959; }
+#judgment .Heading7 { text-align: justify; margin-left: 0.2in; font-size: 14pt; color: #595959; }
+#judgment .Heading8 { text-align: justify; margin-left: 0.2in; font-style: italic; font-size: 14pt; color: #272727; }
+#judgment .Heading9 { text-align: justify; margin-left: 0.2in; font-size: 14pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Subtitle { text-align: justify; margin-left: 0.2in; font-size: 14pt; color: #595959; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: 'Baskerville Old Face'; font-size: 14pt; color: #2F5496; }
+#judgment .NoSpacing { text-align: justify; margin-left: 0.2in; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .Heading2Char { font-weight: bold; font-family: 'Baskerville Old Face'; font-size: 14pt; }
+#judgment .Heading4Char { font-style: italic; font-size: 14pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 14pt; color: #2F5496; }
+#judgment .Heading6Char { font-style: italic; font-size: 14pt; color: #595959; }
+#judgment .Heading7Char { font-size: 14pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 14pt; color: #272727; }
+#judgment .Heading9Char { font-size: 14pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #2F5496; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: 'Baskerville Old Face'; font-size: 14pt; color: #2F5496; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #2F5496; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .legds { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.3pt;height:75.6pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWHC 719 (KB)</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>KA-2023-000154</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewhc-kbd">IN THE HIGH COURT OF JUSTICE</courtType></p>
+      <p><courtType refersTo="#ewhc-kbd" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">KING'S BENCH DIVISION</courtType></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ROYAL COURTS OF JUSTICE (APPEAL CENTRE)</span></p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-25" refersTo="#judgment">25/03/2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span> :</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-mrs-justice-foster">MRS JUSTICE FOSTER</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between :</span></p>
+      <table uk:widths="1.23in 3.87in 1.24in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#r&amp;b-plastering-limited" as="#respondent" style="font-weight:bold">R&amp;B PLASTERING LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#uk-insurance-limited" as="#appellant" style="font-weight:bold">UK INSURANCE LIMITED</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Oliver Rudd </span>(instructed by<span style="font-weight:bold"> Kennedys Law LLP</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Andrew McLaughlin </span>(who did not appear below) (instructed by <span style="font-weight:bold">Clyde &amp; Co Claims LLP</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center">Hearing date: 15<span style="vertical-align:super;font-size:smaller">th</span> May 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 2:00pm on 25 March 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+      <p style="text-align:center">MRS JUSTICE FOSTER</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold"> :</span></heading>
+	  <paragraph>
+	    <intro>
+	      <p class="Heading2" style="margin-left:0.2in">INTRODUCTION </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">This is an appeal with permission against an order of HHJ Maloney KC, judgment handed down on 12 July 2023, concerning a contribution claim which arose from an accident at work.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">The claim of R &amp; B, Claimants below arose from the settlement of a personal injury action brought against them by Brian Eckford in relation to his injuries suffered on 27 July 2017 whilst working with plaster boarding on a building site.   The Defendant against whom contribution was sought was the public liability insurer for a building firm called Robert Norman Construction Ltd (&#8220;RNC&#8221;), which had entered into voluntary liquidation on or about 17 February 2020. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">RNC was the main contractor on the site, sub-contracting certain works to R&amp;B. Brian Eckford was engaged by R&amp;B as a labour only subcontractor to perform certain tasks including fixing plasterboard to the walls known as &#8220;tacking.&#8221; He fell through a hole between the first and second floor sustaining serious injury.  R&amp;B said the hole was made with the agreement of RNC by its carpenter, following discussions about the best method of moving materials to the second floor. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">4.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">On 24 July 2020 Brian Eckford accepted a Part 36 offer from R&amp;B  in settlement of his claim. They in turn claimed a contribution from RNC&#8217;s insurers under the Civil Liability (Contribution Act 1978).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">5.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">The judge made an Order that reflected his findings that Brian Eckford was contributorily negligent as to 20%, and that RNC were liable as to 50% each of the remaining portion.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">6.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">I take a more detailed description of  the participants and general circumstances with gratitude from  the judgment below:</p>
+		<block name="embeddedStructure">
+                  <embeddedStructure>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">&#8220;2.1</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">&#8230;  RNC was a building company based in Woodbridge, Suffolk. Its contract manager was Mark Leeks and its site foreman (in effect site manager) for the project in question was Thomas Hayes (TH). The project was the complete refurbishment of a three-story detached house, &#8220;Samphire,&#8221; in Aldeburgh, Suffolk. RNC was the main contractor, and as is usual practice it engaged specialist sub-contractors as required. Specifically, the plastering contract was put out by RNC to tender, and on 13 July 2017 it was awarded to R&amp;B.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">2.2</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">R&amp;B was (and remains) a well-established family-owned plastering company based in Bury St Edmunds. This sub-contract was handled by a senior employee, Philip Cooper (PC), whose main responsibility is to act as a surveyor pricing contracts, but who also carries out many other duties such as ordering materials and arranging labour, and even lending a hand on site.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">2.3</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">The Samphire sub-contract had two main phases, to be carried out by different trades:</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">a.</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">Tacking, that is putting a studwork frame in place against the internal walls and attaching plasterboard panels to it;</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">b.</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">Plastering, that is the actual application of the plaster to the plasterboards. </span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">2.4</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">In this case the &#8220;tacker&#8221; was BE </span>[Brian Eckford],<span style="font-style:italic"> a man of 70 with long experience in that trade. The accident occurred before he had completed his work, so plastering had not started. However, it was first necessary to bring his materials, specifically the plasterboard panels, on to the site. In doing that he was assisted by PC and by two other R&amp;B men, John Foulger (JF) and David Clayton (DC), whose trade is plastering but who were simply acting as labourers on the day in question.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">2.5</num>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.63in;text-indent:0.37in"><span style="font-style:italic">Each of these three men, and in particular BE, would describe himself as a self-employed person, free to do work for any contractor, but who at the time and for years before had done a large proportion of his work for R&amp;B.&#8221;</span></p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure>
+                </block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">7.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in">The hole measured about 550 mm x 1400 mm, and was cut between the joists of the floor. The plasterboard sheets were passed up through the hole. The flooring was chipboard and when not in use the hole was covered by a number of battens - 2 by 4s across the narrow breadth of the aperture with pieces of chipboard on top. The battens were 200 mm longer than the width of the hole, but importantly, the covering was not fastened in place. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-weight:bold">The Trial</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">As the judge at first instance said, his task in the contribution hearing  in summary was to conduct a virtual trial of a hypothetical claim by Brian Eckford against both R&amp;B and RNC. It will be necessary to traverse the facts of the case more than usual in this appeal given the nature of the challenge made to the judge&#8217;s findings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">His task was difficult. Many of the core background facts were in dispute. Such photographs as had been taken after the event raised questions about the nature of the covering to the hole, what if anything had been in place, and how it had failed - if in place- and thus, about the causation of the accident. Two key witnesses did not give oral evidence at trial:  Brian Eckford himself, and Gary Buck, an RNC employee who claimed (in an unsworn statement not made in the proceedings, but which was before the court), to have gone upstairs and spoken with Brian Eckford before the accident &#8211; something which was strongly denied by Brian Eckford as recorded in other written evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The parties were in dispute as to who had planned or carried out this method of covering: it was still in use on the morning of the 27<span style="vertical-align:super;font-size:smaller">th</span> although actual uploading of materials was complete at that time. There were disputes about who had discussed access issues and when, and the extent of those discussions including a dispute as to whether and if so when replacement of the floor once the plaster boards had been pushed up through the hole, had been discussed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">It was agreed that by about 10 AM on 26 July, the hole had been cut and it appears the boards were pushed through it one by one, and were stacked up in the attic for use around the hole by lunchtime, and when the moving was complete, the covering was put in place. On the morning of the 27<span style="vertical-align:super;font-size:smaller">th</span>  when Brian Eckford began his job of tacking, three R&amp;B personnel who had been around there were no longer working in that area of the site: Brian Eckford was on his own. There was a further dispute as to whether or not the need for replacement of the floor had ever been mentioned either by Brian Eckford or Philip Cooper to Thomas Hayes, the site Foreman.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">What happened on the morning of 27 July when Brian Eckford went up to the attic to begin work was not agreed. As stated, Gary Buck an RNC man, had told the HSE that he had gone up to the attic before the accident and spoken with Brian Eckford who had said to him &#8220;be careful there is a hole there.&#8221;  Buck said at that time the hole was covered, which had not been said by anyone else.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">It was agreed the accident happened at about 8.30 in the morning when the noise of a fall, and possibly a cracking sound, was heard. Brian Eckford had landed on his back on the first floor, and suffered serious injuries. At about 10 o&#8217;clock the police came and took photographs of the site. The photographs were the subject of discussion between the judge and counsel at the beginning of the trial, and were put to the witnesses. What they showed was also not agreed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The photographs of the floor onto which the victim fell appear to show that whilst there are at least two pieces of chipboard, (i.e. the boards forming the top of the covering) shown in the pictures, there are no battens or wood pieces scattered below as would be expected had they been in place over the hole at the time of the fall. Above, looking up through the hole, and on the floor nearby, is a stack of wood, possibly the planks or battens, under which another piece -possibly - of flooring chipboard may be seen. There was an issue at trial as to when the stack of wood seen had been placed there. It was an issue as to what was the implication &#8211; did this mean Brian Eckford or another person had uncovered the hole before he fell?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge isolated the core issues before him as:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in">whether and to what extent RNC would have been directly liable to Brian Eckford taking into account any question of his contributory negligence and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">ii.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.12in">in those circumstances, what if any contribution should RNC make under the 1978 act towards the sums actually paid by R&amp;B to Brian Eckford. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Questions of quantum were not in issue, save as to a technical point regarding the Rehabilitation Code 2015.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Before trial there had been an HSE investigation and prosecution. R&amp;B pleaded guilty to one offence on a basis of plea. RNC, in liquidation, played no part in the proceedings but was convicted in absentia of two offences. R&amp;B was fined &#163;26,700 and RNC &#163;140,000.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">In the pleadings RNC denied liability comprehensively, saying that a method of loading materials was agreed on site between R&amp;B, Brian Eckford and Thomas Hayes of RNC, and that Brian Eckford had asked for the hole to be cut. Further that in any event he had been contracted by R&amp;B who had a duty to warn him of risks, had carried out a risk assessment and Gary Buck had been told by Brian Eckford &#8220;be careful, there is a hole there&#8221; and that the hole was covered up in the morning before the accident. The chipboard covering had fallen with him and was found next to him on his fall. The case for the insurers in essence was that it was more likely than not that Brian Eckford had tampered with the slats and chipboard covering, otherwise it was safe at all material times, and R&amp;B could not prove anything different.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Heading2" style="margin-left:0.2in">THE FINDINGS of the JUDGE</p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge had to reach conclusions on what had happened without contemporaneous witnesses to the fall and without live evidence from the victim or the man who claimed he was at the locus a short time before it happened.   He acknowledged he had to make findings on the balance of probabilities as to what had happened doing the best he could on the evidence before him, to make common sense deductions and draw inferences which did not stray into speculation. He correctly set out the nature of this task, and his approach to the law or his task was not criticised before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge&#8217;s findings of fact were set out in the form of a chronology of events dating from shortly before the subcontract was given to R&amp;B. He referred in detail to the evidence both before and at trial of the main players, in particular of Thomas Hayes the site foreman employed by RNC, and with Philip Cooper, employed by R&amp;B, who handled the subcontract and arranged labour. It was between the two of them that any problems of access to the upper floors had been discussed. Philip Cooper said he had also discussed it on that particular occasion with Thomas Hayes, Hayes had no recollection of that last discussion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge noted that Brian Eckford who was the only person present at the time of the accident had an impaired memory of immediate events as a result of the accident but that certain written statements made by him after the accident were before him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge noted the provisions of the Occupiers Liability Act 1957 setting out the general responsibility under Regulation 13(1) of the 2015 Construction (Design and Management) Regulations that falls upon a principal contractor to plan, manage and monitor the construction phase of works to ensure so far as is reasonably practicable construction work is carried out without risks to health or safety. He recited the relevant parts of the regulatory framework covering working at heights and risk assessment, imposing duties on employers and self-employed workers. As he stated, in broad terms the relationships were familiar on any building site and reflected that RNC had emphasised that it was not Brian Eckford&#8217;s employer and that R &amp;B stood between them as either de facto employer or, at least, in control of Brian Eckford&#8217;s work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">In a section on Risk Assessments and Method Statements (&#8220;RAMS&#8221;), the judge recorded that both RNC and R&amp;B had procedures emphasising the need for RAMS ahead of all operations, especially dangerous ones and that R&amp;B failed to provide a RAMS well in advance of starting work and RNC failed to require them to do so &#8211; nor did it carry out a RAMS of its own. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge held in terms that it was an archetypal example of a case in which preparing and considering a written RAMS well in advance &#8220;<span style="font-style:italic">would very likely have made a material difference to the outcome</span>.&#8221; (Paragraph 5.4 (d)). Aside from the use of better cover materials et cetera, he held it was likely that the temporary cover would have been replaced with reinstated floor <span style="font-style:italic">before</span> Brian Eckford began tacking, on his own, in the room above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">This was not a case, he held, in which a &#8220;<span style="font-style:italic">spontaneous non-verbal assessment</span>&#8221; as described by Mr Hayes could have been carried out, given the nature of the work namely a novel job, and at height. He had been told by Mr Hayes that this is what happened and the RAMS was produced afterward, that is after the accident.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"> He held that the proposal to solve the problem of access to the attic, and the cutting of the aperture, had been devised by Philip Cooper of R&amp;B early on the day before the accident, in a meeting between Brian Eckford, Philip Cooper and Thomas Hayes of RNC. Thomas Hayes was surprised by this unusual idea and tried to see if there was a better alternative. There was not. Therefore, Thomas Hayes instructed his carpenter to cut the hole. RNC, as the judge found,  did not take specific steps about covering the hole when  not in use;  he held on the balance of probabilities,  that R&amp;B&#8217;s workmen improvised the covering with battens and chipboard from materials to hand. The judge noted that Thomas Hayes saw the covering in place more than once on the day before, that is on 26 July, and took no action in respect of it.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Baskerville Old Face'">CORE FINDINGS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Thereafter (paragraph 5.2 c) the judge found that during the loading of the panels when &#8220;<span style="font-style:italic">all four R&amp;B workmen were jointly engaged and looking out for each other</span>,&#8221; the procedure was &#8220;<span style="font-style:italic">reasonably safe and practicable.</span>&#8221; Even during intervals in loading when the cover was in place but unsecured, he accepted that it may have represented a reasonable compromise. He then made this important finding:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in">&#8220;<span style="font-style:italic">but as soon as the loading was completed, the need for the temporary cover, and indeed the hole itself ceased, and it became a dangerous and unjustifiable potential trap.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">In other words, there was a limited and distinct period of time in which the hole could be considered as safe: that is, until the transporting of the panels was complete, and also whilst a group of workmen were all in the same vicinity. It was not, importantly, safe once the work for which it was cut was complete, and not when a man was working in the space alone.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">RNC had argued that the more likely factual scenario was that Brian Eckford himself was the sole cause of the accident: that he had dismantled the coverings, and removed the battens, in other words changed what was a safe, covered hole himself, and then fallen through it. The judge was entirely alive to the difficulty of it being shown more likely than not that one particular scenario or another had taken place. The photographs taken by the police seemed to suggest that there had not been any battens in place at all, and the evidence did not point to it being Brian Eckford who removed them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The only evidence from a person who saw or heard anything was from another witness who was also not called, a John Sanderson, who said he saw Brian Eckford in midair as he fell, and also saw some chipboard falling with him. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">RNC argued that the method of covering the hole was an appropriate means of preventing someone falling through it, furthermore it was only temporary. They emphasised that Brian Eckford could not remember the exact circumstances but had known the hole was there, and was temporarily covered. RNC relied on the unsworn written statement of Gary Buck which said he&#8217;d gone upstairs and cleared up and was checking around and saw Brian Eckford plaster - boarding the end gable who had then said to him be careful of the hole and at that time (before the accident)  the hole had been covered up with timber slats and the piece of chipboard were on top. No more precise timing was given. RNC&#8217;s case was that Mr Eckford was the author of his own misfortune which submission they supported by reference to the photographs saying he must have interfered with the covering himself. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">RNC submitted that a RAMS would have had no bearing on Brian Eckford&#8217;s actions which must have included removing the chipboard and wooden planks. Brian Eckford had not asked Tom Hayes to make good the hole, as Brian Eckford&#8217;s statement had suggested. In summary they submitted to the judge it was not possible for R&amp;B to discharge the burden of proof that any breach on RNC&#8217;s part had caused or contributed to the accident &#8211;that Brian Eckford himself was the sole cause.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge did not accept that case. He determined that RNC owed Brian Eckford a duty of care as occupiers of the site.  They were in breach of it by failing to take reasonable care with respect to the covering of the hole in that they gave no thought to it or to the ability of R &amp;B (who actually made the cover) to do so.  Similarly, they owed a duty to him to reinstate the floor <span style="font-style:italic">before</span> the accident happened. That breach caused or contributed to the same damage as that for which R&amp;B settled Brian Eckford&#8217;s claim. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.75in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in">The judge also held there was a negligence duty in these circumstances because of the special features of the joint nature of the decision to give access by cutting the hole, and RNC&#8217;s active participation was &#8220;indispensable&#8221;. Further, only RNC was in a position to make Brian Eckford safe by promptly reinstating the floor: he himself had met with Thomas Hayes, and it was clearly foreseeable that he particularly was the person at most risk; (paragraph [6]). For this reason he found little difference between RNC and R&amp;B&#8217;s proximity and control. He concluded that both R&amp;B and RNC owed Brian Eckford a duty of care during their &#8220;<span style="font-style:italic">ill-considered joint activity</span>&#8221; which had exposed him to unacceptable risks.  The breaches were a failure to carry out a proper RAMS, failing to ensure that the temporary covering was safe and robust, and failing to reinstate the floor as soon as practicable &#8211; which time was before the accident.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The observations and factual findings of the judge below included materially:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Baskerville Old Face';font-size:14pt">&#8220;5.5</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.12in">The accident itself</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.12in"><span style="font-style:italic">As mentioned at 3.11 above, there are unexplained features surrounding the precise circumstances of this accident. RNC submits that in this situation it is not possible for R&amp;B to discharge its burden of proving that any breach on RNC&#8217;s part caused or contributed to the fall and injury, and that indeed it is more likely that BE himself was the sole cause. But in the absence of direct witness evidence (a frequent occurrence in such cases) the Court is fully entitled to reach a conclusion on the balance of probability by relying on the circumstantial and indirect evidence, provided it avoids mere speculation.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.12in"><span style="font-style:italic">It does appear probable from the photographs that at the time of the accident the hole was covered by the chipboard flooring (which fell with BE) but that the chipboard was not then supported by the battens (which were not found downstairs, and may have been stacked in the attic). In such a case, if stepped on, the unsupported chipboard is likely to have cracked (along a line previously glued, the photographs suggest) and collapsed, taking BE with it.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">c.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.12in"><span style="font-style:italic">How precisely this arrangement came about cannot now be explained to the civil standard. It may have been done by BE himself, though it is difficult to see why, or by R&amp;B&#8217;s men before leaving the previous night, or by RNC&#8217;s men the next morning. To go further would be speculation.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	    <p style="margin-left:0.7in;text-indent:0.3in"><span style="font-family:'Baskerville Old Face';font-size:14pt">Importantly in this appeal, the judge concluded this passage as follows:</span></p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">&#8220;d.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic">But even without this information, </span><span style="font-style:italic;font-weight:bold">it may be possible, depending on the Court&#8217;s conclusions as to the existence and extent of RNC&#8217;s duty to BE, to determine whether such a situation should have been prevented from arising at all.</span><span style="font-style:italic"> And as to contributory negligence, the burden of proving which is on the party alleging it, there may be some conclusions properly to be drawn about whether BE could and should have taken steps to protect himself in this situation, given that the absence of the battens would have been visible on inspection.&#8221; </span>[Emphasis added].</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge concluded in other words, that the correct framework for considering the case was to examine the duties owed by the contractor and whether they encompassed preventing the circumstances immediately surrounding the accident in the first place: namely, that a worker could be continuing with his trade, quite alone, working on the second floor after all loading had been completed, but with the temporary cut aperture still in place. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge under the heading &#8220;Conclusions on RNC&#8217;s Liability&#8221; at paragraph 6.1 k said the following:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.63in"><span style="font-style:italic">&#8220;It has been said that occupiers&#8217; liability is more concerned with the &#8220;occupancy duties&#8221; of an occupier, i.e. the static condition of the site, and negligence more with the conduct of activities on the site.  (Munkman, op. cit. at 7.33). In this case there is something of an overlap, because the dangerous  condition of the premises was specifically created as part of a joint decision in order to facilitate the  temporary conduct of an activity. However, as indicated at 5.3 above</span><span style="font-style:italic;font-weight:bold">, the crucial omission in this case, but for which the accident would not have occurred, was the failure to reinstate the flooring sooner, (or at least to prevent BE from working in that room until the reinstatement had been completed).</span><span style="font-style:italic"> </span><span style="font-style:italic;font-weight:bold">As  between RNC and R&amp;B, RNC was the only party either entitled to effect changes to the structure of the building or in a practical position to do so; and this was because for these purposes it was in effective occupation as the main contractor. I have also found that its responsible site foreman, TH, was or ought  to have been well aware at all material times of the urgent need to reinstate the floor</span><span style="font-weight:bold">.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ListParagraph" style="margin-left:0.75in"><marker name="tab"/><marker name="tab"/>[Emphasis added].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Thus he found that the circumstances but for which the accident would not have happened was failing to reinstate the floor earlier &#8211; RNC, in charge of the site, could have discharged its duty by preventing Brian Eckford from working in the room until that had happened. RNC was the only party entitled to effect structural changes and Thomas Hayes of RNC was aware or ought to have been, of the urgent need to put back the floor. The hole had been created by R&amp;B but since RNC gave no consideration to it or to R&amp;B&#8217;s ability to make it,  RNC&#8217;s duty of reasonable care had not been discharged &#8211; this was aside from their responsibility for reinstating the floor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">He determined liability of RNC as 50% of the claim remaining after any deduction for contributory negligence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Contributory negligence was found, again as a matter of deduction absent other direct contemporaneous evidence tested in court, by reason of Brian Eckford&#8217;s participation in the decision to use the cut aperture at his awareness of it and its features, his knowledge of how insecure the covering was and his decision to begin alone the task of tacking whilst the floor had not yet been reinstated. Further it appeared that at the time of the accident the covering was not resting on the battens which ought to have been apparent to Brian Eckford. The photographs did not contain pictures of battens but there was a piece of board which was broken suggesting that it may have been across the hole alone. Other deductions invited by the parties were rejected as speculation and inherently improbable. A contribution as to a 20% was assessed. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Heading2" style="margin-left:0.2in">THE CHALLENGE</p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.64in"> The grounds upon which permission was granted are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-weight:bold">Contributory negligence</span> - insufficient weight was given to the statement of Gary Buck which suggested Brian Eckford  had  interfered with the measures in place to protect the hole before he fell through it. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">ii.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.12in"><span style="font-weight:bold">The breach of duty conclusion</span> of the judge below was wrong  - a proper assessment of the facts would have concluded that the procedure <span style="font-style:italic">was</span> reasonably safe and practicable at all times and did not constitute a trap at any point, because Mr Eckford knew the hole was there, at the material times it <span style="font-style:italic">was </span>covered with wooden batons and chipboard,  and it was not unreasonable of RNC not to have permanently reinstated the floor at that point.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">iii.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.25in">The failure to have proper regard to the <span style="font-weight:bold">evidence of Mr Buck</span> meant that the judge&#8217;s finding that RNC failed to carry out permanent reinstatement and this caused or contributed to the fall was wrong in fact and law</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">iv.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.12in">The factual <span style="font-weight:bold">finding that Brian Eckford had tripped</span> and it was<span style="font-style:italic"> un</span>likely he had moved the battens or interfered with the cover was appealably wrong </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.75in;text-indent:-0.12in">v.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in">It was wrong in law to allow the <span style="font-weight:bold">recoverability of certain rehabilitation payments made by the insurers of R&amp;B</span> plastering to Brian Eckford because they were not in bona fide settlement or compromise of any claim.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge himself granted permission on the issue of contributory negligence, on the basis that it was arguable he had not attached sufficient weight to the written evidence of Gary Buck, in the judge&#8217;s words &#8220;<span style="font-style:italic">suggesting the victim&#8217;s own conduct was graver than I found</span>.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">A further five grounds were raised and permission was granted on four of them by Sir Stephen Stewart on the basis that the evidence of Mr Buck was of relevance to them also. The remaining ground as to apportionment was renewed at the hearing before me. I granted permission to argue it, given the attack on the judgment attacked the findings of fact and it was as a result of a fact-based judgement of the judge below that the 50/50 apportionment was made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">In this appeal the Appellants do not challenge the judge&#8217;s expression of the law whether as to contribution, which he also set out, nor his findings as to the admissibility of certain elements of evidence nor his exposition of the duties arising under statute and at common law. The attack is on the basis of the <span style="font-style:italic">facts found</span> by the judge and the deductions he makes and inferences he draws.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Heading2" style="margin-left:0.2in">APPROACH OF THE COURT</p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">It is trite law that a court on appeal will be slow to interfere with fact findings and inferences drawn of the first instance judge.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"> Lewison LJ in <span style="font-style:italic">Fage UK Limited and another v Chabani Limited  and another</span> [2014] EWCA Civ 5 said at paragraph 114:  </p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.64in">&#8220;<span style="font-style:italic">Appellate courts have been repeatedly warned by recent cases at the  highest level not to interfere with findings of fact by trial judges,  unless compelled to do so. This applies not only to findings of primary  fact, but also to the evaluation of those facts and to inferences to be  drawn from them&#8230; the trial is not a  dress rehearsal. It is the first and last night of the show.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Lord Reed in <span style="font-style:italic">Henderson v Foxworth Investments Limited</span> [2014] UKSC 41 gave examples of the limited circumstances when such interference by an appellate court was justified, namely where a critical finding of fact had no basis in the evidence, or was based on a demonstrable misunderstanding of, or failure to consider, relevant evidence.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"> As was explained by Coulson LJ in <span style="font-style:italic">Farrar v Rylatt</span> [2019] EWCA 1894, having cited Lewison LJ:</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="margin-left:0.39in">&#8220;&#8230;</p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_8">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">In addition, there is a body of case law which emphasises the difficulty of  appealing against findings of fact made in a specialist court like the TCC. The  relevant authorities were gathered together for convenience at paragraphs 12-16  of my judgment in Wheeldon Brothers Waste Limited v Millennium Insurance  Company Limited [2018] EWCA Civ 2403.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">Accordingly, for all practical purposes, in order to appeal successfully against  the findings of fact made by a judge at first instance, an appellant has to show  that there was no evidence to support the findings made, or there was a  demonstrable misunderstanding of, or failure to consider, relevant evidence. If  all the relevant evidence was considered by the judge then, even if the appellate  court might have come to a different conclusion, an appeal against the trial   judge&#8217;s findings of fact will fail. That is why an appeal against a trial judge&#8217;s  findings of fact is such a high hurdle for an appellant to overcome.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Whilst not in this case an appeal from a specialist court, the judge below is nonetheless recognised as having the ring-side seat at &#8220;<span style="font-style:italic">the first and last night of the show</span>&#8221; and that I must look for an error in the nature of a demonstrable misunderstanding of or failure to consider relevant evidence. This is a high hurdle in any civil case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="Heading2" style="margin-left:0.2in">CONSIDERATION</p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">50.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.64in">The appeal before me was put in terms that</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.25in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in">the written evidence of Gary Buck was inadequately dealt with by the judge who failed to attach any  or any sufficient weight to it. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:1.25in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in">It was, effectively, perverse of the judge to find that once the loading of panels was complete, the temporary cover and the hole became a dangerous system of work, that Tom Hayes of RNC knew the hole was in need of reinstatement, and that the failure to reinstate the floor sooner or prevent Brian Eckford from working until it was reinstated, constituted a breach of duty under the Occupiers Liability Act 1957 and/or in negligence.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">In effect the challenge is based upon the judge&#8217;s failure to accept the written evidence of Gary Buck that at 7.30 in the morning the battens were in place with the chipboard on top before the accident. It is suggested had the judge appreciated that in fact the temporary cover was in situ, and only the claimant was working on that floor, it would not have been possible to find he was exposed to a dangerous and unjustifiable trap.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The conclusion that Brian Eckford was no longer reasonably safe once all the plasterboard uploaded is said to be &#8220;fanciful.&#8221; It is said to be the only reasonable finding open to the judge, that the hole was still reasonably safe on Thursday, 27 July at the time of the accident. Further it was wrong to say that RNC were in breach of duty in failing to reinstate permanently before the accident. The submissions are all premised upon a different finding of fact: namely that the hole was in fact covered immediately before the accident.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">As to the state of the hole before the accident &#8211; a finding that it had no battens in place, is described as &#8220;little more than speculation&#8221; by the Appellant. The conclusion that it is more likely than not that the hole was covered by unsupported chipboard is also called &#8220;speculation.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The Appellants&#8217; case at trial, namely that Brian Eckford must have interfered in some way with the cover was repeated to me on appeal. The intervening act of Brian Eckford is argued to have been the far likelier scenario. This alternative scenario was the case put at trial. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">In my judgement the judge&#8217;s findings are entirely sustainable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge did not ignore the evidence of Gary Buck. He recorded that he was one of RNC&#8217;s labourers, his statement was made to the HSE, not in proceedings, he did not appear at trial. His evidence was that the &#8220;hole was covered,&#8221; but the central finding of the judge was that the improvised covering with slats, battens, and chipboard was, <span style="font-style:italic">even in place</span>, not safe once the need for it was at an end and whilst a man was working near it alone. It was in the judge&#8217;s words &#8220;<span style="font-style:italic">a dangerous and unjustifiable potential trap</span>.&#8221; There was no dispute but that it was an unsecured covering, even when the battens were in place. It was the temporary cover over the hole that was held by the judge to be a dangerous and unjustifiable potential trap (see paragraph 5 c).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">I have read the whole of the transcript of the hearing carefully. The evidence of Mr Hayes, I have considered particularly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">A number of points fall to be made about the case as it was argued before the judge</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">a.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"> the judge himself asked to see the photographs at the opening of the trial and was taken through them, and was alive to the point concerning battens, and whether the planks stacked were planks or were battens and therefore potentially moved from their role in the cover to the hole. It was not suggested at the beginning that the photographs were wholly inadequate to assist, but was acknowledged by both sides they did not know when the photographs had been taken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">b.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The evidence was that if the covering to the hole was not secured, then it could slide and move (in other words even if it were covered, it could still present a problem). Regulation required a secured system of covering in these circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_13">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">c.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The hole was considered to be suitably covered &#8220;temporarily maybe, at best;&#8221; some of those on site did not think the planks shown in the pictures were the 4 x 2 bearers.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_14">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">d.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Evidence from an R&amp;B employee suggested that there were two chipboard pieces over the hole, one was 800 mm square and another 800 x 1200 mm. The longer bit was two pieces that had been glued together for the floor and were from the cut-out hole. Bearers were needed to stop the pieces falling through. (In other words the pieces seen on the floor below that appeared to have been glued, probably were the pieces from the hole).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_15">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">e.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Thomas Hayes RNC&#8217;s site Foreman accepted he owed duties under the Regulations, that what was being done was working at height and there were RAMS requirements before the commencement of works. He agreed there was no method statement signed off - it was a &#8220;verbal method statement,&#8221; the RAMS was promised for the next day. He accepted it was his responsibility for safety and agreed he did not check the platform/cover was properly erected. He never checked whether it could bear the weight of a person and he only &#8220;visually&#8221; checked it was safe once or twice, when it was being used.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_16">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">f.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The hole was between stacks of plasterboard and it could not be seen directly from the doorway, walking around at the end of the day he could not see it, it was basically round the corner behind the boards, and he did not walk round to see it. There was not much space on site particularly where the plasterboard was stacked and the hole was.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_17">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">g.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Thomas Hayes admitted he did not consider the risks of the time i.e. the risk that it would not be covered properly because it used pieces of the floor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_18">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">h.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">He also admitted the hole should have been covered before Brian Eckford started work on 27 August, the covering was sufficient if temporary but agreed he should have given the order to cover up the hole and it should have been reinstated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_19">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">i.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Mr Hayes did not recall Mr Buck had been there as the statement suggested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_20">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">j.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Mr Hayes accepted that RNC had failed to provide a safe system of work to address the hazard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">I also note that it was RNC&#8217;s case at trial that Brian Eckford caused his own injuries, regardless of any faults there may have been in the supervision of others. It was also submitted (and not opposed) that a benign approach should be taken to evidence from a claimant who is impaired by reason of the accident in question. In this case Brian Eckford&#8217;s memory was said to be unreliable following the accident, however he had said (as recorded in his solicitor&#8217;s Attendance Note) that the evidence of Mr Buck that he had seen the hole covered 20 minutes before the accident occurred was entirely wrong, indeed it was a fabrication.  He was clear he was up there on his own that morning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge found that:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in">&#8220;<span style="font-style:italic">during the loading period, when all four R &amp; B men were jointly engaged and looking out for each other, the procedure was reasonably safe and practicable. Even during the intervals between loadings, when the cover was in place but unsecured by fixing its components in place, that may have been a reasonable compromise. But as soon as the loading was completed, the need for the temporary cover, and indeed the hole itself, ceased, and it became a dangerous and unjustifiable potential trap.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Thus the judge did <span style="font-style:italic">not</span> find that the hole was uncovered, indeed he pointed to photographic evidence and the aural evidence from the accident. The photographs appeared to show the cover broken in two, but there was curiously, no sign of the battens. The judge was in the circumstances of this case fully entitled to refer to the photographs for his conclusion that it was more likely than not the battens were not in place when Brian Eckford fell. As the Respondent to this appeal submits, it is notable that Gary Buck did not make any statement in the proceedings, was not called to give evidence and reliance was placed only on his very short unsworn statement to the HSE on behalf of his employers, whose case it supported, and which could not be tested in cross-examination. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The Respondent also submitted that the burden of the appeal centred around the significance of the Buck statement and the submission that the judge did not properly take it into account. Yet, nothing was said at the hand down of the judgment to invite the judge (as per the case of  <span style="font-style:italic">English v Emery Reimbold &amp; Strick Ltd</span> [2002] EWCA Civ 605 and the other cases cited in the White Book in the notes to CPR 54.3.6.) to consider this point of reasoning in the correct manner, giving him an opportunity to deal with the point before an application to appeal was made. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">There is force in these observations, but, in any event, I do not accept that the arguments concerning Gary Buck support an appeal. Brian Eckford said nothing was secured, he also said, there were just some bearers and a little piece of wood that had been cut out to cover it.  The judge however, approached the case at the level of breach of duty. He analysed the position in law (entirely correctly in my judgement), of the two concerned contractors, concluding the environment created by them constituted an unsafe system of work for a lone worker such as Brian Eckford in the particular conditions as  he reasonably found them to be, of the site at the time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge did not speculate, he made deductions from the circumstantial evidence which led him to his conclusions as to what was probable. He found it was probable from the photographs that the hole was covered with the chipboard (HSE witnesses had seen chipboard falling) and the photographs show it.  But the battens which were not found downstairs he held &#8220;<span style="font-style:italic">may have been stacked in the attic</span>.&#8221; He held that the unsupported chipboard was likely to have cracked along a previously glued line (as seen in the photographs) and Brian Eckford fell with it. But, he held, it could not be explained exactly how that position came about. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">There was no evidence of interference by Brian Eckford, nor was any motive propounded as to any moving or &#8220;interfering&#8221; as it was put, with the covering. Indeed in paragraph 7.3 the judge held it was inherently improbable that Brian Eckford, a man of 70 and many years experience, would have moved the battens himself or deliberately walked on the covering. It was more likely that he had tripped or inadvertently mis-stepped.  Given the  nature of the working space and the state of the unsecured covering to the hole, that was sufficient to have precipitated the fall. These deductions were, on the evidence, entirely sustainable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">It was emphasised to me orally by RNC that the judge had just ignored the implications of the statement of Mr Buck, that the photographs were inadequate as a basis for his findings, and that the judge had realised his conclusions were unsupportable and for that reason gave leave to appeal by reference to Mr Buck.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">I reject these arguments. The judge was faced, as I have said, with two important witnesses providing evidence only on paper: from Gary Buck a handwritten piece of paper apparently signed by him on 27 July 2017,<span style="font-weight:bold;font-size:13.5pt;color:#000000"> </span><span style="font-size:13.5pt;color:#000000">saying  </span>&#8220;Board was over hole-flooring material used timber was underneath flooring material&#8221; and another a few days later,  more formal but unsworn, to the HSE, whilst from Mr Eckford there was a statement recorded by his solicitor, in response to the point. The judge concluded, as he was fully entitled on the evidence to do, that the temporary covering of the hole, was as submitted by R&amp;B, acceptable as a very short-term temporary measure whilst the operation of moving the plaster boards was in train, thereafter, the balance changed and it became a dangerous trap. Having read the evidence of the small space, the numerous plaster boards, the fact the hole could not be seen from various parts including from the door, the conclusions of the judge are completely understandable. It is trite that a judge is not obliged to rehearse the whole of the evidence: the judgement provides clear sustainable reasoning and his conclusions are similarly logically sustainable, as well, it might be said,  as a matter of common sense.  It is not irrelevant that in the HSE prosecution the parties pleaded to the allegations of breaches of duty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">As to the suggestion that the system was in fact safe, and there was no breach of duty it was entirely open to the judge to analyse these facts as he did. Given the scope of the arguments, and the tenor of the exchanges between Counsel and the judge, his decision is far from surprising. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Baskerville Old Face'">CONTRIBUTION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">It was further argued in the Appellant&#8217;s skeleton argument that there was a material distinction between the culpability of RNC and R&amp;B. R&amp;B directed and controlled Brian Eckford&#8217;s work and they had a duty to devise a safe system of work. They should have notified RNC that there was an urgent need to reinstate. The omissions that were attributed to RNC were &#8220;nowhere near as significant&#8221; as those of the other firm. I reject this analysis, for the reasons given by the judge, including that the only people with the right to alter the site were RNC who were in charge of it. The finding of equality of blame is described as &#8220;entirely erroneous&#8221; and a figure of that 75% ought to fall upon R&amp;B. I disagree. The idea that some particularly risky manoeuvre had been carried out by Brian Eckford was mere speculation. The contributory negligence factor he held should be 20%. I have no basis for interfering with that attribution. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">Against the evidential background, I can find no reason for interfering with the judge&#8217;s assessment.  I see no error of principle nor failure of logic that suggests I should interfere with what is a matter of judgement and assessment by the trial judge who heard the evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The judge carefully analysed the facts, but he also went further. He had regard to the part 36 settlement and the Opinion of Brian Eckford&#8217;s counsel in the context of that offer. It had been in terms of one third contributory negligence and Counsel&#8217;s preliminary view had been at he would be found at least 15% and possibly was at risk of 25% at contributory negligence. R&amp;B&#8217;s solicitor had come to the figure of 20%, similarly. Such calculations as had been carried out before negotiating the settlement were consonant with the judge&#8217;s view, on the basis of the same body of evidence. There is no reason to disturb the judge&#8217;s calculation. It is important to remember the central finding of his judgment was that the situation ought never to have been allowed to come about and the fact that it had, represented a breach of duty on the part of both R &amp;B and RNC. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_22">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Baskerville Old Face'">Rehabilitation Claim</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The last point argued regarding the claim in respect of rehabilitation was argued very shortly at trial. The judge put to Mr Rudd appearing for R&amp;B that payments under the Rehabilitation Code 2015 were a species of mitigation, rather like providing a hire car. I agree with that analogy. He found them to be recoverable. That conclusion is challenged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">The quantum claimed was expressed thus in the Claim against RNC for contribution:</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.75in;margin-right:0.95in"><span style="font-family:'Trebuchet MS';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Trebuchet MS';color:#000000">Following an admission of liability on or around 9 November 2018, on 24  July 2020, the matter was settled as between Mr Eckford and the  Claimant. The settlement was by way of a Part 36 offer dated 3 July  2020. Damages were agreed in the sum of &#163;100,000. Mr Eckford&#8217;s costs  were thereafter agreed in the sum of &#163;31,000. The Claimant was further  required by statute to pay NHS charges in the sum of &#163;15,199. Copies of  the relevant agreements and the NHS charges certificate are attached  hereto. The Claimant further funded Mr Eckford&#8217;s rehabilitation in the  sum of &#163;14,987.15. The Claimant&#8217;s own costs of defending the main  action were &#163;6,185.30</span><span style="font-family:'Trebuchet MS';color:#000000">.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"> It is contested by RNC that the sum of &#163;14,987.15<span style="font-style:italic">  </span>described in the Claim as rehabilitation funded by R&amp;B, is properly within the compass of the Civil Liability Contribution Act 1978. The Act  provides materially:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_1">
+	  <num class="legds" style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;font-weight:bold">1.</num>
+	  <intro>
+	    <p class="Heading3" style="text-indent:0.5in"><span class="legds" style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#000000">Entitlement to contribution.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.96in;text-indent:0.04in"><span class="legds" style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(1)Subject to the following provisions of this section, any person liable in respect of any damage suffered by another person may recover contribution from any other person liable in respect of the same damage (whether jointly with him or otherwise).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.96in"><span class="legds" style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(2)A person shall be entitled to recover contribution by virtue of subsection (1) above notwithstanding that he has ceased to be liable in respect of the damage in question since the time when the damage occurred, provided that he was so liable immediately before he made or was ordered or agreed to make the payment in respect of which the contribution is sought.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.86in"><span class="legds" style="font-family:'Baskerville Old Face';color:#1E1E1E"> &#8230;.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="legclearfix" style="text-align:justify;margin-left:1in"><span class="legds" style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(4)A person who has made or agreed to make any payment in bona fide settlement or compromise of any claim made against him in respect of any damage (including a payment into court which has been accepted) shall be entitled to recover contribution in accordance with this section without regard to whether or not he himself is or ever was liable in respect of the damage, provided, however, that he would have been liable assuming that the factual basis of the claim against him could be established.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="legclearfix" style="text-align:justify;margin-left:1in"><span class="legds" style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num class="legds" style="font-style:italic;font-weight:bold;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">2.</num>
+	  <intro>
+	    <p class="legclearfix" style="text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">Assessment of contribution.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(1)Subject to subsection (3) below, in any proceedings for contribution under section 1 above the amount of the contribution recoverable from any person shall be such as may be found by the court to be just and equitable having regard to the extent of that person&#8217;s responsibility for the damage in question.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(2)Subject to subsection (3) below, the court shall have power in any such proceedings to exempt any person from liability to make contribution, or to direct that the contribution to be recovered from any person shall amount to a complete indemnity.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(3)Where the amount of the damages which have or might have been awarded in respect of the damage in question in any action brought in England and Wales by or on behalf of the person who suffered it against the person from whom the contribution is sought was or would have been subject to&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(a)any limit imposed by or under any enactment or by any agreement made before the damage occurred;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(b)any reduction by virtue of section 1 of the Law Reform (Contributory Negligence) Act 1945 or section 5 of the&#160;Fatal Accidents Act 1976; or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">(c)any corresponding limit or reduction under the law of a country outside England and Wales;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="margin-left:1in"><span style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt;color:#1E1E1E">the person from whom the contribution is sought shall not by virtue of any contribution awarded under section 1 above be required to pay in respect of the damage a greater amount than the amount of those damages as so limited or reduced.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in">The judge&#8217;s findings were succinctly set out thus:</p>
+	      <block name="embeddedStructure">
+                <embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">&#8220;9.3</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.64in;text-indent:0.36in"><span style="font-style:italic">Rehabilitation costs have always been a familiar head of personal injury damages, and if paid out by or on behalf of the claimant would generally be recoverable as expenditure by way of treatment and indeed in mitigation of future damages. They may also be the subject of agreed interim payments.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">9.4</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.64in;text-indent:0.36in"><span style="font-style:italic">Somewhat ironically given that it is itself an insurer, the present Defendant argues that it should not have to contribute towards this amount, because it is not &#8220;damages&#8221; properly so called.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">9.5</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.64in;text-indent:0.36in"><span style="font-style:italic">In the absence of any specific guidance on this point, I approach it from first principles. The 1978 Act does not expressly state that the contribution shall be a proportion of any &#8220;damages&#8221; paid. Rather, its starting point is that the contributor shall be a person &#8220;liable in respect of the same damage&#8221;, and that (in this case) a person who has &#8220;made or agreed to make any payment in bona fide settlement or compromise of any claim made against him in respect of any damage&#8230;shall be entitled to recover contribution in accordance with this section&#8230;&#8221;. If this or the other preconditions in s.1 are met the right to contribution arises. The amount of contribution is as provided by s.2; it is &#8220;such as may be found to be just and equitable having regard to the extent of that person&#8217;s responsibility for the damage in question.&#8221; This would include, but not be limited to, damages strictly so called; it would or might include a contribution to costs, for example.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Baskerville Old Face';font-size:14pt">9.6</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.64in;text-indent:0.36in"><span style="font-style:italic">The sums in question have been paid to the original claimant from one defendant&#8217;s side, to defray expenses consequent upon the injuries sustained in the accident, and with a view to mitigating his future losses (for which both the present parties were, on my finding, equally responsible). In my view, it is a proper exercise of the jurisdiction under s.2 for me to conclude that it is just and equitable for the present Defendant insurer to share those expenses equally with the present Claimant&#8217;s insurer by way of contribution. Any other approach would have a regrettable tendency to discourage participation in this valuable scheme, and to encourage insurers to game the system in the hope of leaving the expense with another insurer.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure>
+              </block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in"> I entirely agree that the entitlement to a contribution arises if the conditions of section 1 are met. Those conditions include that the potential contributor is liable for the same damage in respect of which [in this case] a settlement was entered. The condition is met in this case. It is not that the contribution is required to be a proportion of any &#8220;damages&#8221; as such that is paid.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in">It was argued before me as it was before the judge, that the rehabilitation amount is not &#8220;damages&#8221; properly understood and for that reason it does not come within the description of a payment &#8220;<span style="font-style:italic">in bona fide settlement or compromise of any claim made&#8230;</span>&#8221; so there was no entitlement to recover contribution under the Act. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in">That argument misunderstands the basis of entitlement to a contribution, as distinct from the amount of the contribution, determined by exercise of the judgement exercised under section 2 namely a sum &#8220;<span style="font-style:italic">such as may be found to be just and equitable having regard to the extent that persons responsibility for the damage in question&#8221;</span>. The sum is not required to be described itself as damages under the Act.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in">The judge observed, in my view correctly, that the description comprehends matters not limited strictly to damages so-called but extends for example to a contribution to costs. That such items may properly be included in costs is clear - see recently the case of<span style="font-weight:bold"> </span><span style="font-style:italic">Hadley v Przybylo </span>[2024] EWCA Civ 250 and especially [55]-[59].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in">The judge&#8217;s conclusion on this issue was correct.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_23">
+	  <content>
+	    <p class="Heading1"><span style="font-family:'Baskerville Old Face'">CONCLUSION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in"> This appeal must be rejected in its entirety. I agree with the conclusions of the judge and the submissions of the Respondents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Baskerville Old Face';font-size:14pt;margin-left:0.64in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.64in">It was stated in the Skeleton Argument of the Respondents that</p>
+	    <block name="embeddedStructure">
+              <embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.64in">&#8220;<span style="font-style:italic">The learned judge&#8217;s written judgment should be commended. It is a model of clarity. It is clear, balanced and legally and factually sound. It does an admirable job in dealing  with extensive and conflicting evidence and its conclusions should not be disturbed.</span>&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure>
+            </block>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><span style="font-family:'Baskerville Old Face';font-size:14pt">I respectfully agree.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

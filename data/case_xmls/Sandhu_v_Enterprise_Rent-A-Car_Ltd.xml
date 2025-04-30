@@ -1,0 +1,1066 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/190"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/190"/>
+	  <FRBRdate date="2025-03-03" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="190"/>
+	  <FRBRname value="Sandhu v Enterprise Rent-A-Car Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/190"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/190"/>
+	  <FRBRdate date="2025-03-03" name="judgment"/>
+	  <FRBRauthor href="#ewca-civil"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/190/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ewca/civ/2025/190/data.xml"/>
+	  <FRBRdate date="2025-03-03T11:05:43" name="transform"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-03" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ewca-civil" href="https://www.gov.uk/courts-tribunals/court-of-appeal-civil-division" showAs="The Court of Appeal of England and Wales (Civil Division)" shortForm="Court of Appeal Criminal Division"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="sandhu" href="" showAs="SANDHU"/>
+	<TLCPerson eId="enterprise-rent-a-car-ltd" href="" showAs="ENTERPRISE RENT-A-CAR Ltd"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lady-justice-nicola-davies" href="/judge-lady-justice-nicola-davies" showAs="LADY JUSTICE NICOLA DAVIES"/>
+	<TLCPerson eId="judge-lord-justice-nugee" href="/judge-lord-justice-nugee" showAs="LORD JUSTICE NUGEE"/>
+	<TLCPerson eId="judge-lady-justice-elisabeth-laing" href="/judge-lady-justice-elisabeth-laing" showAs="LADY JUSTICE ELISABETH LAING"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EWCA-Civil</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>190</uk:number>
+	<uk:cite>[2025] EWCA Civ 190</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>4364d548267cc701197a25411f998a895b0a138b83930e324b45f9503f020f8b</uk:hash>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-family: 'Aptos Display'; font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-family: Aptos; font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; font-family: Aptos; font-size: 12pt; color: #0F4761; }
+#judgment .Heading5 { font-family: Aptos; font-size: 12pt; color: #0F4761; }
+#judgment .Heading6 { font-style: italic; font-family: Aptos; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-family: Aptos; font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-family: Aptos; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-family: Aptos; font-size: 12pt; color: #272727; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .Subtitle { font-family: Aptos; font-size: 14pt; color: #595959; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: Aptos; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: Aptos; font-size: 12pt; color: #0F4761; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Heading2Char { font-family: 'Aptos Display'; font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-family: Aptos; font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; font-family: Aptos; font-size: 12pt; color: #0F4761; }
+#judgment .Heading5Char { font-family: Aptos; font-size: 12pt; color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; font-family: Aptos; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-family: Aptos; font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-family: Aptos; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-family: Aptos; font-size: 12pt; color: #272727; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .TitleChar { font-weight: bold; }
+#judgment .SubtitleChar { font-family: Aptos; font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: Aptos; font-size: 12pt; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:76.5pt;height:75.5pt"/></p>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2025] EWCA Civ 190</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>CA-2023-002199</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#ewca-civil">IN THE COURT OF APPEAL (CIVIL DIVISION)</courtType></p>
+      <p class="CoverMain">ON APPEAL FROM THE EMPLOYMENT APPEAL TRIBUNAL</p>
+      <p class="CoverMain">His Honour Judge James Tayler</p>
+      <p class="CoverMain">EA-2022-001179-OO</p>
+      <p class="CoverText">Royal Courts of Justice</p>
+      <p class="CoverText">Strand, London, WC2A 2LL</p>
+      <p class="CoverText">Date: <docDate date="2025-03-03" refersTo="#judgment">3 March 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-nicola-davies">LADY JUSTICE NICOLA DAVIES</judge></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lord-justice-nugee">LORD JUSTICE NUGEE</judge></p>
+      <p class="CoverMain" style="text-align:center"><span style="font-weight:normal;text-decoration-line:none">and</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-lady-justice-elisabeth-laing">LADY JUSTICE ELISABETH LAING</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="0.91in 4.31in 1in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#sandhu" as="#appellant" style="font-weight:bold">SANDHU</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#appellant"><span style="text-decoration-line:none">   </span>Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party refersTo="#enterprise-rent-a-car-ltd" as="#respondent" style="font-weight:bold">ENTERPRISE RENT-A-CAR Ltd</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:center"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span> </span><span style="font-weight:bold">Tom Perry </span>(instructed by <span style="font-weight:bold">Astute Law Limited</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Hannah Slarks </span>(instructed by <span style="font-weight:bold">Taylor Wessing</span>) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 6 February 2025</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">Approved Judgment</p>
+      <p style="text-align:center">This judgment was handed down remotely at 11.00 am on 3 March 2025 by circulation to the parties or their representatives by e-mail and by release to the National Archives.</p>
+      <p style="text-align:center">.............................</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p><span style="font-weight:bold">Lady Justice Elisabeth Laing:</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify;margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The Appellant, Ms Sandhu, brought claims for discrimination, harassment and unfair dismissal in the Employment Tribunal (&#8216;the ET&#8217;). The hearing of those claims by an Employment Judge and two lay members lasted four days in June and July 2022. She and the Respondent were represented by counsel. In a detailed reserved judgment sent to the parties on 4 October 2022 (&#8216;the Judgment&#8217;), the ET dismissed Ms Sandhu&#8217;s claims. She then appealed to the Employment Appeal Tribunal (&#8216;the EAT&#8217;). The EAT dismissed her appeal. She now appeals, on a point of law, from the EAT&#8217;s order, with the permission of Singh LJ. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">On this appeal Ms Sandhu was represented by Mr Perry. Ms Slarks represented the Respondent. I thank counsel for their oral and written submissions. For the reasons given in this judgment, I would dismiss her appeal. As I will explain, the ET did not err in law in its approach to her harassment claim and gave legally adequate reasons for its decision that she had not been unfairly dismissed.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-style:italic">The Judgment</span></heading>
+	  <paragraph eId="para_3">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The title page of the Judgment records the hearing dates and that the ET deliberated in chambers for a day after those dates. The judgment is the outcome, therefore, not only of a hearing of four days of evidence and submissions, but of a further day&#8217;s discussion of Ms Sandhu&#8217;s case by a legally qualified Employment Judge (&#8216;EJ&#8217;) and two lay members. It is relatively unusual for lay members to sit in the ET these days. In my experience they tend to sit mostly on discrimination claims. This point is significant. Ms Sandhu&#8217;s claims were considered and decided by the &#8216;industrial jury&#8217; which is so often referred to in the old cases, when industrial tribunals always consisted of a legally qualified </span><span style="font-style:italic;font-family:'Times New Roman'">chairman</span><span style="font-family:'Times New Roman'"> and two lay members. The &#8216;industrial jury&#8217;, as long as it does not err in law, is particularly well-suited to making the broad evaluative judgments which section 98 of the Employment Rights Act 1996 (&#8216;the ERA&#8217;) requires it to make (see further, paragraphs 53, and 71-80, below).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">I accept Ms Slarks&#8217;s submission that the structure of the judgment is important. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-style:italic">The issues</span></heading>
+	  <paragraph eId="para_5">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraphs 2-9, the ET listed the issues which it had to decide. On 11 June 2019, Ms Sandhu&#8217;s draft list of issues was sent to the ET and to the Respondent. In December 2019 the ET had decided that the list accurately reflected the issues in the claim, and produced a text for that list. In paragraph 6 of the Judgment the ET said that that text &#8216;very closely replicated that in the 11 June 2019 list of issues&#8217;. The ET struck out one issue, which had later been withdrawn by Ms Sandhu (paragraph 5.3.6 of the list). With that exception, the issues considered by the ET in the judgment were therefore closely aligned with Ms Sandhu&#8217;s analysis of the issues.  The issues were listed in two groups.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">6.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The first group of issues concerned Ms Sandhu&#8217;s unfair dismissal claim. They included two broad issues (and associated sub-issues) which are relevant to this appeal.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">What was the reason for Ms Sandhu&#8217;s dismissal? The Respondent said that it was capability, after three years of alleged poor performance, and &#8216;potentially some other substantial reason for refusing to accept change within her department and a new reporting structure&#8217;. She said that the real reason for her dismissal was her father&#8217;s illness.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">2.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">If &#8216;it was accepted that the permitted reason was capability, did the Respondent carry out a fair capability procedure?&#8217; Ms Sandhu&#8217;s complaints about that procedure included that</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:3in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:3in"><span style="font-family:'Times New Roman'">she was not given a chance to improve after an oral warning in February 2008;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:3in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:3in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the Respondent did not warn her that she would be dismissed if her performance did not improve;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:3in;text-indent:-0.12in">iii.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:3in;text-indent:0.25in"><span style="font-family:'Times New Roman'">the hearing was not postponed to enable her to find a representative;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:3in;text-indent:-0.12in">iv.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:3in;text-indent:0.12in"><span style="font-family:'Times New Roman'">the Respondent did not consider sanctions short of dismissal; and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:3in;text-indent:-0.12in">v.</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:3in"><span style="font-family:'Times New Roman'">the dismissal was outside the range of reasonable responses; the Respondent did not follow incremental disciplinary sanctions.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The second group of issues concerned Ms Sandhu&#8217;s discrimination and harassment claims. The ET had earlier decided (see paragraph 4.3 of the Judgment) that Ms Sandhu&#8217;s claims did not include claims based on her own disability. They were, instead, only claims based on her father&#8217;s disability. Such claims are known as claims of &#8216;associative discrimination&#8217;. Ms Sandhu relied on eight separate incidents (which were listed). She claimed that they were incidents of direct discrimination and/or of harassment related to her father&#8217;s disability. It is not necessary to list the incidents at this stage.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-style:italic">The hearing and the evidence</span></heading>
+	  <paragraph eId="para_8">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraphs 10-16, the ET described the hearing and the evidence. There were 611 pages of documents. Ms Sandhu relied on two witness statements she had made and on the statements of seven other witnesses. The Respondent relied on four witness statements. The Respondent did not cross-examine any witnesses other than Ms Sandhu. She would have liked to cross-examine Mr Astill, who no longer worked for the Respondent. The Respondent had not called him or made any application for a witness summons. The ET read his statement but gave it &#8216;very little weight&#8217; (paragraph 14). There was a dispute about whether the Respondent had complied with its disclosure obligations. The ET heard evidence and cross-examination about this. It was not persuaded that the Respondent had deliberately breached any orders, or that &#8216;there was anything implausible about the explanation for why some appraisal records were missing, even though some earlier ones were still available&#8217;. The ET did not draw any adverse inferences &#8216;from the disclosure exercise&#8217; (paragraph 16).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-style:italic">The findings of fact</span></heading>
+	  <paragraph eId="para_9">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET made its findings of fact between paragraphs 17 and 120, which take up some 20 pages of text. The Respondent is a car rental company. It operates throughout the United Kingdom. Ms Sandhu started work for the Respondent in 1999 as an accounting assistant. At that stage, the Billing Department consisted of one accountant and four or five assistants. The Respondent had about 100 employees then (paragraph 21). The ET described Ms Sandhu&#8217;s duties in paragraph 18. She was given more responsibilities over time (paragraph 19). After about two years, she became a payroll accounting assistant. The ET described her new duties. Her appraisals were good and she was given pay rises (paragraph 20).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">By 2009, the Respondent had between 1000-1200 employees. Her duties changed again (paragraph 21). She worked hard and met her deadlines. In about 2010 she was promoted to payroll supervisor. She thought that she was expected to do all her original duties and to supervise another employee. The ET accepted the evidence of Mr Young that he genuinely believed that a supervisor was not required to do everything herself, but rather to manage the teams, including allocating work to them, so as to ensure that the work was done (paragraph 22).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Sandhu&#8217;s line manager from 2010 was Ms Miles, whose manager was Mr Young. Mr Young was then a financial controller. He later became a senior financial controller. Ms Sandhu began to report directly to Mr Young when Ms Miles was on maternity leave. That continued when Ms Miles came back. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">As payroll supervisor, Ms Sandhu had several performance reviews. She gave examples in her witness statement. The ET set out the Respondent&#8217;s grading system in paragraph 25. There are five grades, from &#8216;unsatisfactory&#8217; - (1) - to &#8216;outstanding&#8217; - (5). An outstanding employee &#8216;consistently and significantly surpasses job requirements. Role model for others&#8217;. An unsatisfactory employee &#8216;is unable to perform job requirements. Immediate improvement required&#8217;. The ET described the review form which the Respondent used in detail. Several questions were asked, and a tick was put in one of the five boxes. There were nine headings on the form, reflecting various qualities, such as &#8216;personal characteristics&#8217;, &#8216;initiative and application&#8217;, &#8216;problem analysis and decision-making&#8217;, &#8216;quantity&#8217; and &#8216;quality&#8217; of work, and &#8216;leadership&#8217;. There were six or so questions under each heading, and a space for the reviewer&#8217;s comments. The final heading was &#8216;overall performance&#8217; for the relevant period. There was a space for the reviewer&#8217;s conclusion and a section headed &#8216;goals to be accomplished&#8217; with, &#8216;(in many cases) specific &#8220;expected completion dates&#8221;&#8217;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET explained in paragraph 30 that Ms Sandhu&#8217;s case was that the positive reviews she referred to in her witness statement were not necessarily the best examples she could have given, because not all her earlier reviews were available. The ET rejected any suggestion that the Respondent had deliberately suppressed more favourable reviews. That did not mean that the ET was bound to hold that none of the missing reviews was better than those it had seen.  Neither side had shown, either, that there were better, or worse reviews. The Respondent had not, in any event, argued that there were worse reviews (paragraph 31).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET described the process. Ms Sandhu was given an electronic version so that she could comment (paragraph 32). Her comments in her witness statements about her two reviews in 2014 put too favourable a gloss on their contents, as the ET explained in paragraph 33. Both sets of overall comments did praise her, but that was balanced by more negative remarks, which the ET quoted in detail. The second review recorded that there had been significant progress in those areas. The ET recorded the individual scores in each of the reviews in paragraphs 33.4 and 33.5. These two reviews did not persuade the ET that Ms Sandhu &#8216;had had unceasingly positive appraisal outcomes&#8217; before the &#8216;requires improvement items&#8217; which the ET went on to consider later in the Judgment (paragraph 34).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In about January 2016, the Respondent appointed a new payroll manager who was subordinate to Mr Young. The Respondent suggested to Ms Sandhu that she should report to him. She objected, because she had had &#8216;bad experiences&#8217; reporting to Ms Miles. She wanted to continue to report to Mr Young. That manager left after a few months, and Ms Sandhu continued to report to Mr Young. In about July 2016, the Respondent appointed a new payroll manager, Mr Astill. Ms Sandhu told Mr Young that she did not want to report to Mr Astill. He told her that &#8216;temporarily&#8217; she could continue to report to him, but that the longer-term plan was that she should report to the payroll manager (paragraph 36).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Young did a regular performance review in July 2016. The overall rating was &#8216;requires improvement&#8217;. Under the scheme (see paragraph 12, above) that was the worst rating but one, one step above &#8216;unsatisfactory&#8217;. It meant that Ms Sandhu &#8216;often fail[ed] to meet job requirements&#8217;, and that &#8216;[i]mprovement&#8217; was &#8216;needed&#8217;. The ET found that this rating represented Mr Young&#8217;s genuine opinion. The ET also held that, based on the evidence recorded in the review, that that was &#8216;not unreasonable&#8217; as a rating (paragraphs 37 and 38). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET quoted a long extract from that review as an example of his clear exposition of his concerns, and of what Ms Sandhu was being told she needed to do better (paragraph 39). The extract is detailed and cogent. It is also balanced, pointing out what Ms Sandhu was doing well. He said that the Respondent was now &#8216;far bigger and must operate like a professional large business&#8217;. If the department missed deadlines, there were many consequences elsewhere. The team had to understand that they had to meet their targets, which could only be achieved through Ms Sandhu&#8217;s leadership and organisation. The department had to do things without being constantly chased for action or replies. Mr Young praised her attitude. He had faith in her, but &#8216;we need to make changes to how we do things in FY17&#8217;. He then thanked her.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET noted the positive comments in the extract, and elsewhere in the review, but did not accept that Ms Sandhu was &#8216;misled into thinking her performance was acceptable&#8217;. She was expressly told that she needed to improve, and understood that that was what Mr Young was saying (paragraph 40). Her response was that she would address the criticisms. In effect she acknowledged that her team did not meet all expectations. She signed the review, with her comments, in about November 2016. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 42 the ET summarised George Porter&#8217;s &#8216;exit questionnaire&#8217; (March 2017). In short, it seemed as though Ms Sandhu&#8217;s management might have been his main, or a significant, reason for leaving. Mr Porter accepted that he had not raised these problems at the time. The ET accepted that Mr Young&#8217;s notes of the exit interview were accurate, and noted that Mr Young, who had known her longer, had a higher opinion of Ms Sandhu&#8217;s attitude to her work than did Mr Porter.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Sandhu had an annual review in May 2017. The form was broadly similar to earlier forms but with fewer questions. The overall score, again, was &#8216;requires improvement&#8217;. The ET listed the individual scores in paragraph 44. Again, Mr Young made &#8216;very detailed typed comments&#8217;. There were praise and criticism, including in relation to the previous year&#8217;s goals. In paragraph 45 the ET quoted his negative comments about &#8216;email management&#8217;. The position was &#8216;unacceptable&#8217;. The next worst area was &#8216;customer service&#8217;. He made negative remarks under other headings (paragraphs 47 and 48). All the comments in the review expressed his genuine opinions. Ms Sandhu was given &#8216;clear and specific information&#8217; and, whether or not she agreed with his views, the ET was &#8216;satisfied that she knew that he was telling her that improvement was still required&#8217; (paragraph 49).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Sandhu had a further review in September 2017. The outcome, again, was &#8216;requires improvement&#8217;. The ET set out the scores in paragraph 50. The ET referred to Mr Young&#8217;s &#8216;lengthy and detailed comments&#8217; in paragraph 51. They were like his earlier comments. Among other things, he said that there were &#8216;some clear areas that require immediate improvement&#8217;. He was happy to help her make a plan. He added a sentence, &#8216;</span><span style="font-weight:bold;font-family:'Times New Roman'">I have not seen enough change since the last review or the review before which is disappointing</span><span style="font-family:'Times New Roman'">&#8217;. The ET put this sentence in bold type, no doubt reflecting its importance to the ET&#8217;s reasoning. Mr Young added, in effect, that she needed to &#8216;walk the walk&#8217; in her performance rather than &#8216;talking the talk&#8217; when discussing her performance; and rather than over-talking and not listening at all. Ms Sandhu added her comments. She did not &#8216;entirely agree&#8217; with the review, but agreed, nevertheless, to &#8216;take the necessary [sic] to improve and ensure that no late entries are processed during statement and payroll&#8217;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 53, the ET said that both reviews highlighted the same six areas for improvement, and gave details. The ET accepted that Ms Sandhu genuinely believed that the criticisms were not justified, that not enough allowances had been made, and that there was too much stress on negative points at the expense of the positive (paragraph 54). The ET nevertheless found that Mr Young genuinely believed the comments he had made. He gave examples in the documents and in his evidence to the ET. &#8216;He had reasonable grounds upon which to form these beliefs, albeit (as he knew at the time) [Ms Sandhu] did not necessarily agree with him&#8217; (paragraph 55). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">It was clear to Mr Young that the working relationship between Ms Sandhu and Mr Astill was &#8216;not a good one&#8217;. Each accused the other of making mistakes and overlooking tasks. Mr Young accepted that there was at least one example of Mr Astill being in the wrong. He had been slow to approve Ms Sandhu&#8217;s request for leave. Mr Young dealt with that by approving the requirement and speaking to Mr Astill (paragraph 56).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In about November or December 2017 Ms Sandhu found out that her father was ill. She told Mr Young &#8216;by no later than December&#8217;. In January 2018, she found out that he had Stage IV cancer. She told Mr Young soon after that and asked him not to tell anyone else &#8216;and he did not do so&#8217;. She only told two other employees (who were in her own team), and asked them not to tell anyone else (paragraph 57). In paragraph 58, the ET listed three other relevant employees whom neither she nor Mr Young told. The ET was not persuaded that anyone told those three &#8216;(so soon after the diagnosis)&#8217;. On the evidence it seemed that her team had not told anyone. Her recollection is that she told other employees about her father&#8217;s diagnosis after he broke his femur. He broke his leg on 22 March 2018. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">One of the relevant employees was Ms Johal. The ET accepted her evidence that she did not know until after Ms Sandhu&#8217;s dismissal (paragraph 59). The second was Mr Astill. He said in his statement that he did not know Ms Sandhu&#8217;s father was ill until after she &#8216;left the business&#8217;. The ET had given his statement little weight, but it had not otherwise been proved that he did know about any disability of her father&#8217;s. Ms Sandhu had not provided any evidence that she, or anyone else, told Mr Astill. The ET rejected the argument that they should infer that he knew from the fact that he had not been called by the Respondent (paragraph 60). The third employee was Ms Keely. The ET had no statement from her. But Ms Sandhu did not tell her, and had not provided any other evidence to satisfy the ET that she knew (paragraph 61).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Sandhu supported her father in various ways from around November to December 2017. On about 29 January 2018 she was asked to a formal hearing on 6 February with Mr Young, to discuss, among other things, her three recent reviews which had said that she required improvement, and a clear definition of the requirements to improve. The ET explained that the invitation letter, in accordance with the Respondent&#8217;s standard practice, was headed &#8216;Formal Disciplinary Hearing&#8217;. The letter made it clear that her performance was to be discussed, rather than misconduct. The ET expressly noted that the letter said nothing about reporting lines, or any requirement to report to Mr Astill (paragraph 64).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Young and Mr Taylor from HR were at the meeting. Ms Sandhu was accompanied by a colleague. The handwritten notes were not verbatim, but were reasonably accurate. Mr Young said he wanted to discuss the two most recent reviews as they related to the last six to seven months. Ms Sandhu raised her earlier complaint about Mr Astill (see paragraph 23, above). She compared this treatment with her treatment by &#8216;Mr Davies&#8217; (this might be a reference to the otherwise unnamed payroll manager referred to in paragraph 35 of the judgment (see paragraph 15, above). She was working long hours and found it difficult to leave on time. Mr Young told her that Mr Astill&#8217;s delay in approving her request had been &#8216;unacceptable&#8217;. The ET noted that that request was for a trip abroad and had nothing to do with the illness of Ms Sandhu&#8217;s father (paragraph 66).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Young showed her email chains which he thought were &#8216;problematic&#8217; in various ways. He explained what he wanted her to do instead, and that she was to provide a plan for her team. He had asked her to do that before. She said she could do that by &#8216;Friday&#8217;; that is, by 9 February 2018. He said that a plan would help her to leave on time. He was willing to guarantee that her requests for leave would be approved within 48 hours (paragraph 67). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">29.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The meeting lasted about 75 minutes. She did not refer to her father&#8217;s cancer or say that she needed time off to help him. The ET was satisfied that she could have raised any points she wanted to. She was, when talking about her interactions with Mr Astill and others, asked to focus on the matters in hand, but that did not prevent her from seeking to &#8216;bring up issues connected with her father&#8217; (paragraph 68). The outcome of the meeting was a &#8216;verbal warning&#8217;, as defined in the Respondent&#8217;s procedure. It was communicated to Ms Sandhu in a letter dated 8 February 2018. That letter set out Mr Young&#8217;s genuine views about the justification for the warning. Eight bullet points summarised what Ms Sandhu needed to do. Mr Young repeated that she had to produce the plan (paragraph 69). The letter said that she could appeal, and that the warning would otherwise be active until 6 August 2018, unless she failed to &#8216;continue to perform as expected during the next 6 months&#8217;. The ET did not consider that the letter meant that there would be no further action against Ms Sandhu for six months and that there would be another review in six months&#8217; time (and not before that). The message was that the Respondent was looking for a &#8216;prompt improvement in performance, which she was then required to sustain&#8217; (paragraph 70).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The meeting reconvened on 14 February 2018. Ms Sandhu was given a copy of the letter and it was explained to her. She said she was working on the plan which had been discussed in the meeting on 6 February. She did not appeal against the warning. The EAT quoted from the Respondent&#8217;s procedure in paragraph 72. The Respondent reserved the right to skip one or more stages of the procedure. The types of conduct which might lead to &#8216;disciplinary action up to and including dismissal&#8217; included &#8216;failure to perform satisfactory work&#8217;, &#8216;insubordination&#8217; and &#8216;failure to follow proper instructions&#8217;. The ET also quoted the text about formal oral warnings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Daryl Scales was Mr Young&#8217;s line manager. He emailed Mr Young and Mr Taylor on 6 February 2018. Electronic records incorrectly showed payroll supervisors reporting to Mr Young. They should be corrected to show them reporting to the payroll manager, in accordance with the operational structure. The ET inferred from Mr Young&#8217;s reply that Mr Scales already knew that Ms Sandhu was &#8216;going through a formal process&#8217;. In their replies, Mr Young and Mr Taylor both said that the temporary arrangement for Ms Sandhu to report to Mr Young had been correctly approved in the past. It was suggested that this was a temporary arrangement and that from 1 April she would be reporting to Mr Astill. The ET said &#8216;We have not seen any contemporaneous written documents which specify that this specific date was given to [Ms Sandhu] or when&#8217; (paragraph 73).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">32.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 74, the ET found that there was no evidence that Mr Astill or Ms Keely had not replied to Ms Sandhu&#8217;s emails or hidden information from her. Nor was there any evidence that she had suffered any adverse consequences as a result of any such failures. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET found that Mr Astill did not prevent Ms Sandhu from leaving work on 8 February 2018. For the reasons given in paragraph 75, the ET was satisfied that if she had asked him to leave work early to go to the hospital to be at her father&#8217;s appointment, Mr Astill would have helped to arrange that. The ET added, &#8216;We are satisfied that [Ms Sandhu] did not tell him that he had asked her to do work which could not &#8211; in her opinion &#8211; be completed in time for her to make the appointment&#8217;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">On a day in March 2018, Ms Sandhu had been to a hospital appointment with her father and had arrived late for work. In paragraph 76, the ET considered the allegation that Ms Johal had made a sarcastic comment such as &#8216;Good afternoon&#8217; when Ms Sandhu arrived. The ET accepted that Ms Johal&#8217;s evidence (that she could not remember making such a remark) was truthful. The ET nevertheless accepted that the remark was made. Mr Young remembered speaking to Ms Johal and telling her that the remark was inappropriate. Ms Johal did not know that Ms Sandhu had been to the hospital or that her father had cancer. Ms Sandhu suggested that Ms Johal had asked her team where Ms Sandhu was. In that regard, Ms Sandhu was relaying, not what she had heard herself, but what she had been told by her team. Even if the suggestion was true, it did not support an inference that someone had told Ms Johal about her father&#8217;s illness.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 77, the ET considered what had happened on 27 March 2018. Ms Sandhu had been giving her father some medicine. She should have given Mr Astill the end-of-month information by 11 am. She could not hand it over that morning, because she was not in the office. She had, however, told the Respondent that the information was ready the day before, but no-one had collected it then. Mr Astill got the information about ten minutes late on 27 March. He reported that to Mr Young. There was no evidence that Mr Astill knew what Ms Sandhu had been doing that morning, or why she had not handed the information to him that morning. The ET repeated that it was not satisfied that Mr Astill knew about her father&#8217;s illness. Other than Mr Astill&#8217;s report to Mr Young, &#8216;there were no specific adverse consequences for&#8217; Ms Sandhu.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">36.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Sandhu also relied on an extension of the deadline which had been given to Ms Keely, another payroll supervisor, until the following day. In her statement, Ms Keely said she did not know what deadline Ms Sandhu was talking about. The ET was not satisfied on the evidence that the deadline was for the provision of the same kind of information. Even though the ET had given Mr Astill&#8217;s statement little weight, he made the &#8216;obviously true&#8217; point that some deadlines are easier to move than others. On her own account, Ms Sandhu did not ask for an extension of time, nor was any such request refused. The suggestion, rather, was that Mr Astill was unreasonable, and motivated by her father&#8217;s disability, when he failed to co-operate with her on 26 March by not taking the information from her then, and unreasonable then to report her to Mr Young when she had told him that the information was available the day before. It had not been suggested that Ms Keely was subject to any performance management in March 2018 (paragraph 78). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Young considered that the problems with Ms Sandhu&#8217;s performance continued (paragraph 79). He chased the performance plan, initially promised for 9 February (see paragraph 28, above), by an email dated 16 February 2018. The ET summarised the ensuing email chain in paragraph 80. He also chased a list of the team&#8217;s responsibilities and a detailed plan of their work. She emailed him a one-page plan and a list of 13 &#8216;brief items&#8217; at 20.42 on 22 February 2018. His view was that these were not the detailed operational plan which, also in his view, he had clearly told Ms Sandhu that he wanted (paragraph 81). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">There was a discussion on 28 March 2018. The Respondent&#8217;s case was that it was protected by privilege and it did not waive that privilege. The discussion was covered to some extent by the evidence, and featured in the list of issues. In paragraph 83, the ET listed the material over which the Respondent did not claim privilege. In paragraph 84, the ET quoted what Mr Young said in paragraphs 68 and 69 of his witness statement. By March 2018, he thought that it was &#8216;likely to be impossible&#8217; to resolve Ms Sandhu&#8217;s refusal to change her reporting line and her performance issues. He had not taken &#8216;a settled decision&#8217; that she needed to be dismissed but considered it was worth exploring whether she would agree to leave. In short, she was offered a settlement agreement. She was not forced to take it, nor was she told that she would be dismissed if she did not. She was offered some time off to think about it. According to Mr Young, she returned to work on 3 May 2018. The ET preferred Ms Sandhu&#8217;s evidence that she did not do so (see paragraph 40, below).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET set out paragraphs 66-68 of her witness statement in paragraph 85. In paragraph 87, the ET largely accepted her account, but rejected her evidence that Mr Young and Mr Taylor had said that if she did not accept the terms they would be &#8216;very brutal&#8217; with her, or &#8216;put her on endless disciplinaries which she would not be able to handle&#8217;. Her view was that this was discrimination and harassment and that she was &#8216;literally being hounded out of [her] job solely because of [her] father&#8217;s illness&#8217;. She was asked for her keys, was escorted to the car park and humiliated. She was not given a fair opportunity to address &#8216;my so-called failings/poor performance despite having worked&#8217; for the Respondent for nearly 20 years. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET repeated in paragraph 86 that it had seen no documents from the period January to March 2018 &#8216;indicating that [Ms Sandhu] had been told that she would report to Mr Astill from 1 April 2018, or that she had refused to do so&#8217;. There was (inevitably, perhaps) no evidence that that subject had been discussed in the without prejudice conversation. Ms Sandhu then left work, with the Respondent&#8217;s permission, and did not return to her duties before she was dismissed (paragraph 87). The ET listed its other findings about the conversation in paragraph 87. It accepted that she had been told not to discuss the fact, or details, of the settlement proposal with her colleagues, or why she was absent. It did not accept that she was told not speak to them at all. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET made no findings about what was discussed. It found that no agreement was made and that both sides eventually realised that they were not going to reach an agreement (paragraph 88). The ET preferred her evidence that she was not told that the period of absence would end on 3 May 2018 (paragraph 89).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">On 3 May 2018 she was at a family gathering. Her uncle had just died. Mr Taylor rang her. She told him where she was and why. He told her that he was inviting her to a formal disciplinary meeting. She received a letter later that day, confirming that invitation. The meeting was at 9am on 8 May 2018. The purpose of the meeting was to consider whether disciplinary action should be taken. That action could include various steps up to and including dismissal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">There were two headings in the letter: &#8216;insubordination&#8217; and &#8216;capability&#8217;. Under the first, there were allegations that she had refused to report to two payroll managers since 2016, that there had been a breakdown of trust between her and Mr Young, including requests to report to his managers rather than to him, a breakdown of relationships between her and her team&#8217;s internal clients, that she had been unwilling to work with a new management structure, and was responsible for high staff turnover (including Mr Porter&#8217;s departure). Under the second heading, there were lists of various deficiencies in her performance.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The letter, signed by Mr Young, acknowledged that, since the warning letter, she had &#8216;had to take time out of the business for matters outside of your control&#8217; but expressed great disappointment that there had been no improvement in the areas in which she could have made an &#8216;immediate impact or change&#8217;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">There was a bank holiday that weekend, so she had only one and a bit working days to arrange for someone to accompany her to the meeting. The ET was satisfied that, from his conversation with her, Mr Taylor knew that she could not immediately start to find a companion for the meeting (paragraph 93). There was an exchange of emails in which she asked for the meeting to be delayed. Mr Taylor refused. She eventually said that she was content for the meeting to go ahead and that she would be alone. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The meeting went ahead. The ET considered that the handwritten notes of the meeting were reasonably accurate. It lasted 105 minutes. She was asked at the start whether she was happy to continue alone. She said that she was. She did not specifically say that her recent performance had been affected by her father&#8217;s illness, or by the time she had spent looking after him. She referred to an incident between her and Mr Astill on the day of her father&#8217;s fall. The context was a statement that &#8216;I don&#8217;t respect Mark and I don&#8217;t like Mark&#8217; (paragraph 101).  She said that the delays in providing the plan and its updates had been during what she referred to as &#8216;a tough time because of personal issues&#8217;. The ET&#8217;s comment was that this might have been an indirect reference to her father&#8217;s illness, but &#8216;she did not expressly say so&#8217; (paragraph 102). She suggested that her performance had been &#8216;reasonable&#8217;. Her explanation for at least some of the problems Mr Young described was that they were created by Mr Astill. She accepted that she had been unwilling to have him as her line manager. She repeated that the reason was her poor experience of being managed by Ms Miles. She was told that she should be informed about the outcome within five working days.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The outcome letter, dated 15 May 2018, dismissed her with immediate effect. The ET accepted that it contained Mr Young&#8217;s genuine opinions and beliefs. The second and fourth paragraphs &#8216;as explicitly discussed in the hearing&#8217; said that &#8216;the primary reasons&#8217; were her refusal to report to the level III payroll manager &#8216;dating back to January 2016, covering two separate Payroll Managers and the breakdown in trust and relations between us and also your payroll business partners&#8217;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The letter said that the latest date for reporting to Mr Astill had been set as April, and that, at the hearing, she had said that she could not do that immediately because she needed to go on a course to help her come to terms with that. The letter further noted that she had started the external course, but had not been able to complete it on two previous occasions, and that she could not remember the name of the course. Mr Young did not think, either, that she was giving a definite date for finishing the course, or saying that she was sure she would be able to report to Mr Astill once she had done it. The letter explained why Mr Young thought that she was not yet prepared to report to Mr Astill. His reasons included her conduct since the warning. He acknowledged that she had not been present for much of that time &#8216;through personal issues&#8217;. The ET took that to be an acknowledgement that he knew that she had been helping her father, even though she had not said so at the meeting. He did not expressly say that she had been absent since 28 March or why (paragraph 110). The letter as a whole was clear that while performance issues were taken into account, the &#8216;main issue, according to Mr Young, was&#8217; her refusal to accept what he said were the reporting structures established in 2016; that is that, rather than reporting to Mr Young directly, she should report to the payroll manager.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">She was given 12 weeks&#8217; pay in lieu of notice. She was told that she could appeal, and she did so. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Her appeal was heard by Mr Marwen Bateh, whose appointment was consistent with the Respondent&#8217;s procedures. At Ms Sandhu&#8217;s request the hearing date was postponed twice. At the appeal he asked her some questions, and gave her an opportunity to explain her case. He then asked Mr Taylor to make some further inquiries. In paragraph 118, the ET found that the appeal outcome letter contained his genuine opinions. He approached the appeal with an open mind and considered whether it was appropriate to reinstate Ms Sandhu. His view was that Ms Sandhu &#8216;showed no indication that [she] would accept reporting to a payroll manager without continuing issues and poor performance&#8217;. He was not convinced that she could work harmoniously in the existing structure. That would only cause &#8216;further unrest and turmoil&#8217; for her and for the Respondent. He considered that the performance issues she raised at the appeal were caused not only by her &#8216;unwillingness to accept the reporting line&#8217; but also by her poor communication, leadership and time management. Those had been the focus of her three recent reviews and the disciplinary hearings on 6 February and 8 May 2018. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">He rejected her argument that she had been dismissed because of her father&#8217;s diagnosis. His inquiries satisfied him that the Respondent had been &#8216;extremely flexible&#8217; with her working time. He also rejected her argument that her willingness to go to mediation meetings with Mr Astill meant that it was wrong for the Respondent to decide that she was refusing to work with him or was unwilling or unable to work harmoniously with him. He dismissed her appeal.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-style:italic">The law</span></heading>
+	  <paragraph eId="para_52">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET&#8217;s summary of the law was succinct, accurate, and focused (paragraphs 121-151). It quoted section 98(1), (2) and (4) of ERA in full. It directed itself correctly about what a reason for dismissal is and how an employer shows what it is. Its various findings of fact (see above) about the beliefs of Mr Taylor and Mr Bateh at various times were part of its inquiry into the reason or reasons for dismissal, as the language of paragraphs 123-125 shows. The ET concentrated on capability and &#8216;some other substantial reason&#8217;, which it abbreviated to &#8216;SOSR&#8217; (&#8216;while not ignoring the full text&#8217;) (paragraph 127). The ET had &#8216;clearly and precisely&#8217; to &#8216;identify the factual reason for the dismissal before seeking to categorise within section 98&#8217; (paragraph 129). Subtle as the distinctions between the statutory reasons might be on particular facts, the ET&#8217;s job was to find what the reason for dismissal was (paragraph 129.3).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">53.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">If the employer persuaded the ET of the reason for the dismissal and that it was capability or SOSR, the dismissal was &#8216;potentially fair&#8217;. The ET then had to consider &#8216;the general reasonableness of the dismissal&#8217; under section 98(4). The ET made several points about that inquiry in paragraphs 131-138. They included that the ET should consider</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">whether the Respondent had a reasonable basis for believing the factual basis of the dismissal;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">whether the process was reasonable;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">&#8216;In terms of the sanction of dismissal itself, we must consider whether or not this particular respondent&#8217;s decision to dismiss [Ms Sandhu] fell within the band of reasonable responses in all the circumstances&#8217;;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">4.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">the band of reasonable responses applied to the decision to dismiss and the procedure;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">5.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">it was not the ET&#8217;s role to decide whether it would have dismissed Ms Sandhu; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">6.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">in some circumstances unfairness at an earlier stage may be cured by an appeal; but</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:2in;text-indent:-0.25in">7.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">sometimes fairness at an earlier stage cannot be cured by an appeal.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 139 it reminded itself that it must take into account the ACAS Code of Practice on Disciplinary and Grievance Procedures &#8216;if it is relevant to a question arising during the proceedings (see section 207(2) of the Trade Union and Labour Relations (Consolidation) Act 1992)&#8217;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">It quoted and analysed the relevant provisions of the Equality Act 2010 (&#8216;the 2010 Act&#8217;) in paragraphs 140-151. It quoted section 136 (paragraph 140). When considering burden of proof, it explained that there is a two-stage approach. At the first stage, &#8216;it would not be sufficient for [Ms Sandhu] simply to prove that what she alleges happened, did, in fact, happen. There has to be some evidential basis upon which [the ET] could reasonably infer that the proven facts did amount to a contravention. That being said, [the ET] can look at all the relevant facts and circumstances and make reasonable inferences where appropriate&#8217; (paragraph 141.1). If Ms Sandhu succeeded at the first stage, the burden of proof shifted to the Respondent and &#8216;the claim must be upheld unless the respondent proves that the contravention did not occur&#8217; (paragraph 141.2). If the ET did not find, on the balance of probabilities (taking into account evidence from both sides and drawing inferences where appropriate) that a particular alleged incident did happen then complaints based on that alleged incident would fail. Section 136 does not require the Respondent to prove that alleged incidents did not happen (paragraph 142) (and see paragraph &#8216;45&#8217;: the numbering of the paragraphs temporarily drops an initial &#8216;1&#8217; at paragraph &#8216;43&#8217;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET quoted part of section 26 of the 2010 Act in paragraph 144. The numbering of the paragraphs resumes at paragraph 143 after paragraphs &#8216;43&#8217;-&#8216;48&#8217;. The ET referred to the effect described in section 26(1)(b)(i)-(iii) as &#8216;the prohibited effect&#8217;, adding that it had not ignored &#8216;that either purpose or effect is sufficient (it does not have to be both)&#8217; (paragraph 145). A claimant has to prove on the balance of probabilities that the conduct was unwanted and that it had the prohibited effect. That is not enough, as &#8216;the unwanted conduct also has to relate to disability&#8217;. The effect of section 136 is that the claimant did not need to prove on the balance of probabilities that the conduct was related to disability in order to shift the burden of proof. &#8216;We would need to be persuaded that there are proven facts from which we might infer that the conduct should be so related&#8217; (paragraph 147).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Section 26 can apply to conduct related to the disability of another person: in this case, the allegation was that the conduct related to the disability of Ms Sandhu&#8217;s father (paragraphs 148-149). In paragraph 150, the EAT said that it &#8216;must not cheapen the effects of the words in section 26(1)(b), and the mere fact alone that a claimant was, to some extent, upset by what was said or done is not necessarily enough to meet the definition&#8217;. The ET referred to </span><span style="font-style:italic;font-family:'Times New Roman'">HM Land Registry v Grant </span><span style="font-family:'Times New Roman'">[2011] EWCA Civ 769; [2011] ICR 1390. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Paragraph 151 is significant, as Ms Slarks pointed out in her submissions. The ET said that when it was considering a series of alleged incidents of harassment, &#8216;it is important not to carve up the allegations and </span><span style="font-style:italic;font-family:'Times New Roman'">only </span><span style="font-family:'Times New Roman'">consider them one by one. Considering allegations one by one on their own merits is an important part of the analysis but it is important to also stand back and have regard to the entirety of the conduct which is found to have occurred (see </span><span style="font-style:italic;font-family:'Times New Roman'">Qureshi v University of Manchester</span><span style="font-family:'Times New Roman'"> EAT/484/95). This is particularly important when considering whether it would be reasonable to regard the conduct as having the prohibited effect and whether to draw inferences that the conduct related to the protected characteristic&#8217; (paragraph 151, original emphasis). </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-style:italic">The ET&#8217;s conclusions</span></heading>
+	  <paragraph eId="para_59">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET considered the allegations under the 2010 Act first, &#8216;in accordance with the list of issues&#8217; (paragraph 152-185). It recalled, in paragraph 153, that it had accepted that, in about December 2017, Ms Sandhu told Mr Young that her father was ill, and that he found out that the condition was cancer in about January 2018. The ET accepted that Mr Young had not told anyone else. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Harassment</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic">8 February 2018</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET&#8217;s findings of fact were that Mr Young had not deliberately given Ms Sandhu things to do to stop her going to the hospital appointment. He did not know that she would not be able to go to the hospital appointment that day. Ms Sandhu did not tell him.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">&#8216;There are no facts from which we could conclude that they would have allocated different tasks to her that day if her father did not have cancer. There are no facts from which we could conclude that the workload allocation that day was related to her father&#8217;s cancer&#8217;. On the contrary, the ET had found that Mr Young would have helped her if she had asked (paragraph 155). That allegation of harassment failed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">&#8216;18&#8217; February 2018</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">On 18 February 2018, Ms Sandhu was the subject of disciplinary proceedings and a formal warning. Mr Taylor sent the 29 January 2018 letter after he knew about the diagnosis and after Ms Sandhu had started to give him help. But &#8216;the letter was not sent for a sham reason&#8217;, for the reasons given in paragraph 157. There was a meeting and, then, an outcome letter. Nevertheless, &#8216;There are no facts from which we might conclude that he would have reached a different decision than to send his 29 January letter if [Ms Sandhu&#8217;s] father was not disabled&#8217; (paragraph 159). There had been no discussion of Ms Sandhu&#8217;s father&#8217;s illness or about her taking time off at the 6 February meeting. Instead, she had raised old matters, &#8216;including suggesting that Mr Astill was potentially to blame for delays and confusion&#8217; (paragraph 160). The warning was consistent with the Respondent&#8217;s policies. The letter of 8 February represented Mr Young&#8217;s genuine opinions. He believed that she was performing badly and that a verbal warning was appropriate (paragraph 162).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">There were &#8216;no facts from which we could conclude that Mr Young would have made a different decision &#8230;if her father did not have cancer&#8217; (paragraph 163). The ET accepted that it was unwanted conduct, but &#8216;There are no facts from which we could conclude that the decision related to her father&#8217;s cancer&#8217; (paragraph 164). That allegation of discrimination failed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Did Mr Astill and Ms Keeley hide information and not reply to Ms Sandhu&#8217;s emails?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 166, the ET rejected, &#8216;on the facts&#8217; the assertion that any information was hidden from Ms Sandhu. It was possible that some of her emails did not get replies; but the ET was not satisfied that there was a particular email which should have received a reply and did not get one (paragraph 166). &#8216;On the facts&#8217;, neither Mr Astill nor Ms Keeley knew that Ms Sandhu&#8217;s father had cancer (paragraph 167). Again, &#8216;There are no facts from which we could conclude that any failures by Mr Astill or Ms Keeley to provide any information, or respond to any email, was related to the fact that [Ms Sandhu&#8217;s] father had cancer&#8217; (paragraph 168).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">On 27 March 2018 Mr Astill extended Ms Keeley&#8217;s deadline but did not extend Ms Sandhu&#8217;s</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 170 the ET described three possible interpretations of the relevant events, which I will refer to as &#8216;the Astill incident&#8217;. There could have been a misunderstanding, or Mr Astill disliked Ms Sandhu and &#8216;seized on an opportunity to report her&#8217;, or, knowing that she had received a warning for poor performance, he saw it as his duty to report her. In any event, Mr Astill did not know that her father had cancer, and that did not motivate him to report her to Mr Young (paragraph 171). The report to Mr Young was unwanted conduct. The ET said that, in &#8216;a &#8220;but-for&#8221; sense, there was some connection between [Ms Sandhu&#8217;s] father&#8217;s disability, in that, but for her attending to her father, she would have been at work&#8230;&#8217; and but for that, Mr Astill would not have reported her to Mr Young. &#8216;However, even assuming, for the sake of discussion that this was sufficient to justify a decision that the conduct was related to [Ms Sandhu&#8217;s] father&#8217;s disability, we do not think it would be reasonable for the conduct to be treated as&#8217; having the proscribed effect. &#8216;The matter was reported to Mr Young, but there was no action taken by him&#8217;. She could, if she had chosen to, have explained the circumstances to him. &#8216;It would be cheapening the meaning of the words in section 26 to treat the factually accurate report of Mr Astill to Mr Young as amounting to harassment&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 173 the ET explained that Ms Keeley was not an appropriate comparator, because she had asked for, and had been given, an extension of time, whereas Ms Sandhu had not asked for one.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Ms Johal&#8217;s rudeness to Ms Sandhu</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET had found that Ms Johal had made a remark to Ms Sandhu &#8216;regardless of whether Ms Johal intended to be rude or funny&#8217;. I will refer to this as &#8216;the Johal incident&#8217;. But Ms Johal had not known why Ms Sandhu had arrived late. Her father&#8217;s cancer &#8216;did not motivate Ms Johal to make the remark&#8217;. The remark was unwanted conduct. &#8216;In a &#8220;but-for&#8221; sense, there was some connection between [Ms Sandhu&#8217;s] father&#8217;s disability, in that but for her attending to her father she would have been at work earlier, and there would have been no reason for Ms Johal to comment&#8217; (paragraph 177). The ET continued that, &#8216;even assuming for the sake of discussion, that this was sufficient to justify a decision that the unwanted conduct was &#8220;related to&#8221; [Ms Sandhu&#8217;s] father&#8217;s disability, we do not think it would be reasonable for the conduct to be treated as having&#8217; the prohibited effect. &#8216;It would be cheapening the meaning of the words in section 26 to treat a one off remark of &#8220;good afternoon&#8221; in these circumstances as amounting to harassment; whether it might have been different if Ms Johal had been aware of the true facts is a matter we do not have to address, because she was not aware of the true facts&#8217; (paragraph 178). That allegation of harassment failed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">On 28 March Ms Sandhu was offered a termination agreement, she was asked &#8216;Why don&#8217;t you take time off with your Dad&#8217; and from 28 March was excluded from the workplace and told not to speak to her colleagues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">It was not factually accurate that Ms Sandhu had been told not to speak to her colleagues. She was encouraged to go home. The Respondent did take her keys, told her that for work-related inquiries, people would be told that she was not available and that Mr Young would deal with the matter. &#8216;In that sense, she was excluded from the premises&#8217; (paragraph 181). In principle, that situation was supposed to end once Ms Sandhu made clear that she had rejected the offer. &#8216;In practice, the Respondent invited her to a formal meeting and she was dismissed&#8217; (paragraph 182).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 183, the ET said that &#8216;There are no facts from which we could conclude that&#8217; Ms Sandhu had been treated less favourably than an actual or hypothetical comparator. In paragraph 184, the ET accepted that this was unwanted conduct. The comment that she was told to go home to her family was &#8216;not a fact from which we could conclude that the actions themselves were related to her father&#8217;s disability. There are no facts from which we could conclude that the offer itself, or the fact that she was told to leave work and remain away, pending a decision, related to her father&#8217;s disability&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Unfair Dismissal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET considered Ms Sandhu&#8217;s dismissal in paragraphs 186-207. Its conclusion was that that complaint failed. I have somewhat re-ordered the ET&#8217;s reasons so as to identify six broad themes.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The reasons for Ms Sandhu&#8217;s dismissal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET found that the reasons for Ms Sandhu&#8217;s dismissal were as stated in the dismissal letter. Despite the references in the letter to &#8216;insubordination&#8217;, the ET found that Mr Young saw the position about reporting as &#8216;falling into the &#8220;some other substantial reason&#8221; category, rather than &#8220;misconduct&#8221;&#8217; (paragraph 194). The principal reason for the dismissal was that she was not willing to change and to work with a Payroll Manager or adapt to new processes. &#8216;There was a close connection between the latter, and the performance process which had been ongoing&#8217;. Some of the evidence for the latter was that, in the Respondent&#8217;s view, she had failed to adopt changes which, in her performance reviews, and in the 6 February meeting, she had clearly been told to adopt (paragraph 195).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Young&#8217;s opinion was that, regardless of the reasons why she was not changing her working practices, or accepting the 2016 reporting structure, &#8216;the state of affairs &#8230;was such that the Respondent could no longer accept that situation that [Ms Sandhu] carried on not doing these things. That was his dismissal reason and we accept that it is a potentially fair dismissal reason: ie it is potentially a substantial reason of a kind such as to justify the dismissal of a Payroll Supervisor&#8217; (paragraph 196).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The failure to warn Ms Sandhu</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 192, the ET said that it had not been &#8216;shown any evidence of [Ms Sandhu] having been formally warned prior to the 3 May letter, that the Respondent was contemplating dismissing her if she did not agree to report to the Payroll Manager (Mr Astill at the time). As discussed in the findings of fact, Mr Young informed Mr Scales that she had been told she had to do it by 1 April 2018, but she was away from her work from 28 March 2018 onwards&#8217;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET added, in paragraph 193, that the lack of any such evidence was &#8216;significant&#8217; because of the prominence of this issue in the reasons for dismissal and the short time which Ms Sandhu had to prepare for the hearing. On the other hand, it was not a reason which Ms Sandhu gave for wanting a postponement &#8216;and she did have a full opportunity&#8217; to make her case to Mr Young and to Mr Bateh. &#8216;Her argument was not that the Respondent&#8217;s position was a surprise to her, but rather that there were good reasons why she should not have to report to (a) any Payroll Manager and/or (b) Mr Astill&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In its conclusions in paragraph 206, the ET had taken &#8216;into account that the Respondent seems to have changed tack to some extent, and rather than continuing down the pure performance management path, it changed to a process in which the issue that Payroll Supervisors were supposed to report to the Payroll Manager became the main focus of attention. That being said, it was not a brand new factor. The requirement for her to do this had been discussed with [Ms Sandhu] previously (albeit not, as far as we know, in the bald terms &#8220;we will dismiss you otherwise&#8221;&#8217;) (paragraph 206).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The refusal to postpone the hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">It was not unreasonable of Mr Taylor to refuse Ms Sandhu&#8217;s request to postpone the hearing while she checked whether she was a member of a union, for the reasons given in paragraph 189. One clear working day was &#8216;fairly short notice&#8217; but was not inconsistent with the Respondent&#8217;s written policy. But it was not reasonable to refuse to postpone the hearing of 8 May, for the reasons given in paragraph 200. Nevertheless taking into account the fact that Ms Sandhu did not press the request, that she said she was ready to go ahead, and the thorough and fair appeal, the ET decided that that defect in procedure did not make the dismissal as a whole unfair (paragraph 204).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The appeal outcome letter expressed Mr Bateh&#8217;s honest opinion. The appeal process was fair: it gave Ms Sandhu a hearing by the decision-maker (paragraph 197). He did not have a closed mind. He was willing to listen to Ms Sandhu. His focus was the reasons for the dismissal and he wanted to see if she could satisfy him that he should overturn Mr Young&#8217;s decision. He addressed the principal points in the appeal outcome letter (paragraph 198). He dismissed the appeal because he agreed with Mr Young. The reason for the dismissal did not change. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The band of reasonable responses</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The actual dismissal reason was not outside the band of reasonable responses. The question was not whether the ET panel would have dismissed Ms Sandhu, or whether all employers would have, but &#8216;whether we consider that no reasonable employer would have dismissed&#8217;. The ET&#8217;s view was that &#8216;some reasonable employers would have dismissed for these reasons in these circumstances, including that [Ms Sandhu] was making clear that she would not be willing to start reporting to Mr Astill in the immediate future if she came back to work (paragraph 201). She had been given various opportunities to improve her performance issues (paragraph 202).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Did the Respondent have an open mind?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 203, the ET concluded on the evidence that neither Mr Young nor Mr Bateh had &#8216;a fixed opinion&#8217; that Ms Sandhu should be dismissed regardless of what she said in the meetings. They listened to what she had to say and addressed her comments in the outcome letters. The severance offer did not persuade the ET otherwise (paragraph 203).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Associative disability discrimination</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In paragraph 206, the ET held that there were &#8216;no facts from which we could conclude that the dismissal was because of her father&#8217;s disability, or related to it&#8217;. The performance issues &#8216;long predated&#8217; the disability. It added, in relation to the Respondent&#8217;s change of emphasis (in effect, from capability to some other substantial reason) the passage I have quoted in the last sentence of paragraph 75, above.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_22">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">81.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">There are two grounds of appeal.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:2in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">The ET directed itself correctly at paragraph 151 (see paragraph 58, above). It nevertheless erred in law because it considered individual acts of alleged unwanted conduct in isolation rather than considering whether, taken together, they amounted to harassment. Ms Sandhu relied, in this context, on what were said to be two, or three, &#8216;borderline&#8217; decisions about alleged harassment in paragraphs 172, 178 and (perhaps) 184. Paragraphs 172 and 178 are said to be &#8216;borderline&#8217; conclusions because the ET referred to the threshold below which an act cannot have the prohibited effect.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:2in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-family:'Times New Roman'">The ET identified the issues in the case but failed to make findings of fact about them. The ET failed in paragraph 201, or elsewhere, to consider two of the listed issues (1) whether the Respondent had thought about sanctions less than dismissal, and (2) the effect of a failure to follow incremental disciplinary sanctions. These were as relevant to some other substantial reason as a reason for dismissal as they were to conduct. Ms Sandhu does not know why these failures did not make the dismissal unfair.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_23">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Perry accepted that the ET directed itself correctly in paragraph 151 (see paragraph 58, above). The ET had nevertheless misapplied the law. He submitted that the &#8216;borderline&#8217; decisions were especially significant because the threshold is low &#8216;and can be triggered by a single event&#8217;. The &#8216;tentative&#8217; remarks about causation showed that the EAT had not ruled out a link with disability. He accepted that different people were involved in the allegations. It &#8216;came down to the acts of two unconnected individuals neither of whom knew about the disability&#8217;. It became clear in his oral submissions that, contrary to the impression given by his grounds of appeal and skeleton argument, he was only relying on paragraphs 172 and 178 of the ET&#8217;s judgment. There was less to be gained, he said, from considering paragraph 174, as the ET had found that there was no discriminatory motive for that conduct; &#8216;possibly not very much at all&#8217;. It was not clear from the ET&#8217;s findings of fact which incident came first, but whichever was the second incident was capable of reinforcing the effect of the first.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">He nevertheless saw &#8216;the force&#8217; of Nugee LJ&#8217;s observation that if the ET had held that both incidents fell below the relevant threshold, it was hard to see how they could be aggregated. He also acknowledged the force of Nugee LJ&#8217;s observation that whether or not the threshold was met was a value judgment for the ET. He did not know whether or not &#8216;but-for&#8217; causation would establish that conduct was &#8216;related to&#8217; a disability. Nugee LJ suggested that there was a real doubt whether either incident could be &#8216;related to&#8217; disability when neither Ms Johal nor Mr Astill knew about the disability. Mr Perry candidly accepted that that was &#8216;a valid point&#8217;. He nevertheless submitted that this needed to be clarified by the ET. The ET would need to make &#8216;a clearer finding than &#8220;but-for&#8221;&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">There was no separate &#8216;catch-all&#8217; analysis of all the allegations. Each incident was considered on its own. He also submitted that the EAT&#8217;s approach to this criticism was too lax. The EAT had &#8216;unreasonably sought to identify signs of missing elements of a patently deficient decision&#8217; (cf paragraph 26 of </span><span style="font-style:italic;font-family:'Times New Roman'">Anya v University of Oxford</span><span style="font-family:'Times New Roman'"> [2001] EWCA Civ 405; [2005] ICR 847). The EAT also erred in holding that there was a little which an overall analysis could have added in this case. If the ET had stood back and looked at both together, it might have reached a different conclusion. Mr Perry accepted that this point could only affect the second of the two incidents (whichever it was). That was as &#8216;highly&#8217; as he could put it.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_24">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Mr Perry quoted rule 62.5 of the Employment Tribunal Rules of Procedure. Rule 62.5 requires the ET &#8216;in the case of a judgment&#8217; to identify the issues which it has decided, to state what findings it has made in relation to those issues, concisely identify the relevant law and state how the law has been applied to the findings in order to decide the issues. He relied on </span><span style="font-style:italic;font-family:'Times New Roman'">English v Emery Reimbold and Strick Limited </span><span style="font-family:'Times New Roman'">[2002] EWCA Civ 605; [2002] 1 WLR 2409 as the leading authority on the duty to give reasons. In the context of ETs, however, the authority which is usually cited is </span><span style="font-style:italic;font-family:'Times New Roman'">Meek v City of Birmingham District Council</span><span style="font-family:'Times New Roman'"> [1987] IRLR 250.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">He submitted that the ET had not in paragraph 201 (see paragraph 78, above), or elsewhere, considered whether sanctions less than dismissal were considered by the Respondent or the effect of the failure to follow incremental disciplinary sanctions on the fairness of the dismissal. Contrary to the reasoning of the EAT, Ms Sandhu does not accept that the fact that she had previously said that she was not happy about the reporting structure does not mean that she should be deprived of the protection of formal warnings before any dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">He acknowledged that the two points on which he relied were closely linked. An opportunity to improve performance is not the same as a warning of dismissal for a refusal to acknowledge the Respondent&#8217;s reporting line. Neither of the relevant paragraphs explained whether the Respondent had considered sanctions less than dismissal or explained why the dismissal was fair. The issue about lesser sanctions was so important that it could not be wrapped up in a conclusion about the band of reasonable responses.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In his oral submissions he accepted in answer to a question from Nugee LJ that there had been some discussion of a change in Ms Sandhu&#8217;s reporting line in 2016 and that while she had not been required to change in the short term, it had been made clear that it was a temporary arrangement and that in due course it would have to change. Her reluctance to change her reporting line had been discussed in early May 2018, as had the need to go on an external course.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In his oral submissions he abandoned an argument about the ACAS Code.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Slarks started by pointing out that Mr Perry was no longer taking the point that when considering a list of allegations of harassment, the ET must consider a further implied issue, that is whether even if none individually amounted to harassment, they might nevertheless amount to harassment taken together. In this case the submission now was that when deciding each allegation, the ET must consider whether inferences could be drawn about the reason for the conduct and whether the threshold for harassment had been met.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">She relied on five EAT decisions to show us that the EAT does not regard this as a &#8216;tick-box exercise&#8217; but is only concerned if there is a substantive error in the ET&#8217;s analysis. She submitted that the language used by the ET in this case, that is, &#8216;There are no facts from which we can conclude&#8230;&#8217; was enough to show that the ET had looked outside the facts of the specific allegation. That language showed that the ET had considered the whole context before reaching its conclusion. I will refer to those words as &#8216;the inference phrase&#8217;. The two cases which she showed us in which the EAT intervened were cases in which, either, the ET had failed to consider the significance of some adverse findings to other allegations and/or in which the ET had abdicated its duty to find facts. There was, she submitted, no need for &#8216;big signposts&#8217; if the ET&#8217;s substantive analysis was satisfactory. In this case, the only allegations in respect of which the ET had not used the inference phrase were the two allegations in respect of which the ET had found that the threshold was not met.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The court asked Ms Slarks whether an act could be &#8216;related to&#8217; a protected characteristic if the actor does not know about the protected characteristic. She declined to take a point on which she had not previously relied. She nevertheless helpfully drew our attention to </span><span style="font-style:italic;font-family:'Times New Roman'">Unite the Union v Nailard </span><span style="font-family:'Times New Roman'">[2018] EWCA Civ 1203; [2019] ICR 28 in which this court explained how the phrase &#8216;related to&#8217; came to feature in section 26 of the 2010 Act, rather than the phrase &#8216;because of&#8217;, which is used in section 13 (the definition of direct discrimination).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET&#8217;s direction about harassment was not simply copied and pasted from </span><span style="font-style:italic;font-family:'Times New Roman'">Qureshi</span><span style="font-family:'Times New Roman'">. It incorporated elements from two other decisions. As Ms Slarks showed us, this passage is a synthesis of parts of the reasoning in </span><span style="font-style:italic;font-family:'Times New Roman'">Qureshi</span><span style="font-family:'Times New Roman'"> [2001] ICR 863 (Mummery J), </span><span style="font-style:italic;font-family:'Times New Roman'">Reed v Steadman </span><span style="font-family:'Times New Roman'">[1999] IRLR 299 (Morison P) and </span><span style="font-style:italic;font-family:'Times New Roman'">Rihal v London Borough of Ealing </span><span style="font-family:'Times New Roman'">[2004] EWCA Civ 623; [2004] IRLR 642. The direction, she submitted, showed a high level of engagement with the authorities and was adapted to the case in hand. It was to be presumed, unless there was clear evidence to the contrary, that the ET had followed that careful direction. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The ET had not erred in law in not using the inference phrase in relation to either of these two allegations as they were so obviously not capable of being acts of harassment that that phrase was unnecessary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">In its conclusions on the unfair dismissal claim, the ET had identified the two issues on which Ms Sandhu now relied. It had to be assumed that the ET was, therefore aware of those two issues, and had factored them into its conclusions. There was evidence about them in the witness statements of Mr Young and Mr Bateh. They were addressed in the closing skeleton arguments before the ET, which quoted from the witness statements. The Respondent&#8217;s procedure did not oblige it to give any more warnings. The ET had been specifically addressed on why a warning in relation to the management line had not been necessary. Ms Sandhu had repeatedly not answered when asked &#8216;Can you work with Mark?&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">Ms Slarks (who had represented the Respondent at the ET hearing), told us that the case was all about whether it was fair to dismiss Ms Sandhu when the Respondent had focused on her performance for some time, but had only really raised the issue of her reporting line &#8216;in a documented way&#8217; in 2018. Most of the hearing had, in one way or another, been taken up with that question.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_25">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_97">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">I have summarised the ET&#8217;s judgment and the parties&#8217; arguments at some length. My reasons for dismissing this appeal are therefore relatively short. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'"> At the hearing, Mr Perry wisely narrowed the scope of his argument about Ms Sandhu&#8217;s harassment claim. The narrow argument was that the ET erred in law in not expressly asking itself, in relation to whichever of the Johal and the Astill incidents came second, whether, when added to the other incident, it amounted (in short) to harassment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Times New Roman'">The parties were not ready to argue whether, for an act to be &#8216;related&#8217; to a protected characteristic, the actor must know about that characteristic. It would therefore be unwise for me to decide this point, particularly as it is not necessary for this court to decide this point in this case. All I would say is that, whatever the position may be when the allegation of harassment relates to the disability of the person who alleges that she has been harassed, I find it very difficult to see, how, in a case in which the allegation is based on the disability of a third person, an act can be said to be &#8216;related&#8217; to the disability of that third person if the person who is alleged to have harassed the claimant does not know about the disability of that third person. I am reinforced in that view by the factual approach of the ET to the majority of the allegations of harassment (see the next paragraph).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">What I have called &#8216;the inference phrase&#8217; is an echo, which must be deliberate, of section 136(2) of the 2010 Act, which the ET quoted in paragraph 140, and analysed in paragraph 141 (see paragraph 55, above) (see also paragraph 147, paragraph 56, above). With the exception of the Johal and the Astill incidents, the ET expressly found, therefore, that none the allegations of harassment, individually, or collectively, shifted the burden of proof to the Respondent. The reason why the ET held that the burden of proof did not shift is also significant.  It did not shift because there were no facts, in short, from which the ET could infer that the impugned conduct related to the disability of Ms Sandhu&#8217;s father. The ET&#8217;s failure to use the inference phrase in relation to those two incidents must, in the light of the careful structure of the judgment, and the ET&#8217;s careful self-directions, have been deliberate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">In this context, paragraph 13 of the judgment of Elias LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">HM Land Registry v Grant</span><span style="font-family:'Times New Roman'"> helps the reader to understand this part of the ET&#8217;s reasons. He started by making a point about the speaker&#8217;s intention, which is indirectly relevant to the issues in this case. He said that, in a harassment case, the intention of a speaker can be relevant, not only where purpose is at issue, but also when the effect of a remark is assessed. The context is always &#8216;highly material&#8217;. A joke between friends &#8216;may have a very different effect than exactly the same words spoken vindictively by a hostile speaker&#8217;. Intent will also be relevant in deciding whether &#8216;the response of the alleged victim is reasonable&#8217; (and see the last sentence of paragraph 43). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">102.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">He then made a wider point. He enjoined tribunals not to &#8216;cheapen the significance of&#8217; the words which are now in section 26(1). He added, &#8216;They are an important control to prevent trivial acts causing minor upsets being caught by the concept of harassment&#8217; (paragraph 47). He cautioned against &#8216;a distortion of language which brings discrimination law into disrepute&#8217;. He added that he did not think that a tribunal &#8216;is entitled to equate an uncomfortable reaction to humiliation&#8217; (paragraph 51). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">103.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">The ET cited </span><span style="font-style:italic;font-family:'Times New Roman'">Grant</span><span style="font-family:'Times New Roman'">, and took the word &#8216;cheapen&#8217; from the judgment of Elias LJ. I consider that the ET&#8217;s findings and conclusions about the Astill incident and the Johal incidents are clear. The ET held, in short, that neither incident could satisfy the statutory definition of harassment. As Mr Perry rightly accepted in the course of the argument, answering a question from Nugee LJ, whether that definition is met is quintessentially an evaluative assessment for the ET. As a matter of objective fact, as the ET expressly found, neither Ms Johal nor Mr Astill knew about Ms Sandhu&#8217;s father&#8217;s disability. As the ET acknowledged in paragraph 178 (see paragraph 67, above) matters might have been quite different if the ET had found that Ms Johal did know about Ms Sandhu&#8217;s father&#8217;s disability. That contextual factor, added to the utterly trivial nature of both incidents, plainly entitled the ET to conclude that neither incident could be, or was, an incident of harassment. The inference phrase was not, therefore, necessary in relation to either incident. On different facts, of course, two apparently trivial incidents might, when taken together, amount to harassment. But the position in this case was different, because the trivial conduct was conduct by two different people, neither of whom knew about the disability. The ET&#8217;s reasoning about &#8216;but-for&#8217; causation, far from indicating the conduct might be &#8216;related&#8217; to disability, serves, in my judgment, to emphasise the very tenuous and abstract nature of any link between the conduct of Ms Johal and Mr Astill and that disability. It is also unnecessary to the ET&#8217;s conclusions, and, indeed, if it suggests that the burden of proof could shift in relation to either incident, inconsistent with the reasons why the ET held that it did not shift in relation to other incidents. I would dismiss ground 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">104.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">The ET&#8217;s approach to the unfair dismissal claim was equally careful and nuanced. It must be taken to have been aware of the issues in the list of issues. Two related points are material to the ET&#8217;s analysis. None of the issues in that list was directed to the primary reason for dismissal, as the ET found it to be. The change of emphasis in the Respondent&#8217;s case meant that the issues which emerged at the hearing were not accurately identified in the list of issues. Second, a dismissal for not unreservedly accepting Mr Astill&#8217;s role - at any stage of the employer&#8217;s procedure, or of the ET hearing - raises different substantive and procedural questions from a dismissal for capability. I therefore reject Mr Perry&#8217;s bald submission that the issues on which he relied were, in the light of the actual reason for dismissal, as significant to the fairness of the dismissal as they would have been in a capability case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">105.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">The ET&#8217;s meticulous analysis of the fairness of the dismissal focussed on six broad themes (see paragraphs 71-80, above). Those themes identified the areas which, in its expert judgment, really mattered to the fairness of the dismissal, on its careful findings of fact. The most significant finding for this purpose was that the primary reason for the dismissal was some other substantial reason (and not capability). It is true that the ET did not mechanically tick off all the issues in the (now inapposite) list of issues. I do not, however, accept that the ET erred in law, or failed to explain its conclusions adequately, because it did explain them sufficiently.  In my judgment, objectively, Ms Sandhu does know why she lost her claim for unfair dismissal. The ET was not required, in addition, to spell out that the issues in the list of issues were no longer central to the fairness of the dismissal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">106.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">In any event, as Nugee LJ pointed out in the course of the argument, there is a significant overlap between the issues in the list of issues and those themes. The question whether Ms Sandhu had been warned that she could be dismissed if she did not accept Mr Astill&#8217;s role is linked with the question of incremental sanctions, the question of incremental sanctions is linked with the question whether dismissal (or a lesser sanction) was an appropriate, and all are linked to the question whether dismissal fell within the band of reasonable responses on these facts. I consider that the ET&#8217;s reasons were amply sufficient. I would therefore dismiss ground 2.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_26">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_107">
+	  <num style="margin-left:0.64in;text-indent:-0.35in">107.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">For those reasons, I would dismiss the appeal. I mean no discourtesy to HHJ Tayler by not referring to his judgment in the EAT. This was an appeal which wholly turned on the findings and analysis of the ET. I need say no more than that the EAT was right to dismiss Ms Sandhu&#8217;s appeal for the reasons which it gave.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold">Lord Justice Nugee</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_27">
+	  <paragraph eId="para_108">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">108.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">I agree.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_28">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Lady Justice Nicola Davies</span></heading>
+	  <paragraph eId="para_109">
+	    <num style="margin-left:0.64in;text-indent:-0.35in">109.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.03in"><span style="font-family:'Times New Roman'">I also agree.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
