@@ -2,12 +2,12 @@ import re
 import streamlit as st
 from neo4j import GraphDatabase
 
-# === Neo4j Connection Setup ===
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "Guciooo2020"  # Replace with the actual password
+uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+user = os.getenv("NEO4J_USER", "neo4j")
+password = os.getenv("NEO4J_PASSWORD", "test")
 
-driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+driver = GraphDatabase.driver(uri, auth=(user, password))
+# === Streamlit UI ===
 
 # === Streamlit UI ===
 st.set_page_config(page_title="Equality Act Graph Viewer", layout="wide")
