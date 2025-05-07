@@ -54,27 +54,27 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Load embedding model
-    print(f"🔍 Loading embedding model ({EMBEDDING_MODEL})...")
+    print(f" Loading embedding model ({EMBEDDING_MODEL})...")
     model = SentenceTransformer(EMBEDDING_MODEL)
 
     # Load FAISS + metadata
-    print("📦 Loading FAISS index and metadata...")
+    print(" Loading FAISS index and metadata...")
     index = faiss.read_index(FAISS_INDEX_PATH)
     with open(METADATA_PATH, "r", encoding="utf-8") as f:
         metadata = json.load(f)
 
     # Embed query and retrieve
-    print(f"📨 Sending prompt to Mistral via Ollama...\n")
+    print(f" Sending prompt to Mistral via Ollama...\n")
     query_vector = embed_query(args.question, model)
     top_paragraphs = retrieve_top_k(query_vector, index, metadata, top_k=args.top_k)
     context = format_context(top_paragraphs)
 
     # Generate answer
     answer = ask_llm(context, args.question)
-    print("\n📜 Answer:\n")
+    print("\n Answer:\n")
     print(answer)
 
-    print("\n🔎 Sources:")
+    print("\n Sources:")
     for i, para in enumerate(top_paragraphs, start=1):
         label = para.get("Label") or para.get("Paragraph Label") or f"#{i}"
         location = f"{para.get('Part', '')}.{para.get('Chapter', '')}.{para.get('Section', '')}".replace("..", ".")

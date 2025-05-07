@@ -127,9 +127,9 @@ def save_to_csv(data, filename):
 def save_to_html(data, filename):
     html = "<html><body>"
     for part in data:
-        html += f"<h1>{part['part']}: {part['heading']}</h1>"
+        html += f"<h1>{part['section']}: {part['heading']}</h1>"
         for chapter in part["chapters"]:
-            html += f"<h2>{chapter['chapter']}: {chapter['heading']}</h2>"
+            html += f"<h2>{chapter['section']}: {chapter['heading']}</h2>"
             for section in chapter["sections"]:
                 html += f"<h3>{section['section']}: {section['heading']}</h3>"
                 for para in section["paragraphs"]:
@@ -147,8 +147,11 @@ html_out = "data/equality_act_nested1.html"
 
 root = load_local_xml(xml_path)
 structured_data = parse_nested_structure_with_index(root)
+
+# Save only the structured "tree" part for CSV/HTML
 save_to_json(structured_data, json_out)
-save_to_csv(structured_data, csv_out)
-save_to_html(structured_data, html_out)
+save_to_csv(structured_data["tree"], csv_out)
+save_to_html(structured_data["tree"], html_out)
+
 
 json_out, csv_out, html_out

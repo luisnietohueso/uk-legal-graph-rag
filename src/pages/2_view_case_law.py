@@ -17,10 +17,10 @@ with open(DATA_PATH, "r", encoding="utf-8") as f:
 
 # === Streamlit UI ===
 st.set_page_config(page_title="Find Case Law Viewer", layout="wide")
-st.title("⚖️ Recent UK Case Law Viewer")
+st.title(" Recent UK Case Law Viewer")
 
 # === Search and Filters ===
-search_query = st.text_input("🔎 Search cases by keywords (title or summary):", "")
+search_query = st.text_input(" Search cases by keywords (title or summary):", "")
 
 filtered_cases = []
 
@@ -43,8 +43,8 @@ if filtered_cases:
         st.markdown(f"**Updated:** {case['updated']}")
         if case.get("summary"):
             st.markdown(f"**Summary:** {case['summary']}")
-        st.markdown(f"[📄 View PDF]({case['link_pdf']})")
-        st.markdown(f"[🧾 View XML]({case['link_xml']})")
+        st.markdown(f"[ View PDF]({case['link_pdf']})")
+        st.markdown(f"[ View XML]({case['link_xml']})")
         st.markdown("---")
 else:
     st.info("No matching cases found.")

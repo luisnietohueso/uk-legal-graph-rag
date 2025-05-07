@@ -43,7 +43,7 @@ Only return the list. No explanation.
         order = eval(text.strip())  # Returns a list like [3,1,5,...]
         return [candidates[i - 1] for i in order if 1 <= i <= len(candidates)]
     except Exception as e:
-        print("⚠️ Rerank failed, using original order")
+        print(" Rerank failed, using original order")
         return candidates
 
 # === Load Embedding Model ===
@@ -62,7 +62,7 @@ with open("data/faiss_metadata_cases.json", "r", encoding="utf-8") as f:
 # === Read User Query ===
 query = " ".join(sys.argv[1:])
 if not query:
-    print("❌ No query provided.")
+    print(" No query provided.")
     sys.exit(1)
 
 query_embedding = model.encode([query])[0]
@@ -124,7 +124,7 @@ Question: {query}
 Answer:
 """
 
-print("📨 Sending prompt to Mistral via Ollama...\n")
+print(" Sending prompt to Mistral via Ollama...\n")
 
 # === LLM Call ===
 response = ollama.chat(
@@ -132,10 +132,10 @@ response = ollama.chat(
     messages=[{"role": "user", "content": prompt}]
 )
 
-print("📜 Answer:\n")
+print(" Answer:\n")
 print(response["message"]["content"])
 
 # === Print Sources ===
-print("\n🔎 Sources:")
+print("\n Sources:")
 for i, c in enumerate(top_chunks):
     print(f"[{i+1}] {c['ref']}")

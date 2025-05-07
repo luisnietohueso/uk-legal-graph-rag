@@ -1,0 +1,33 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore data-heavy files that aren't needed in the image
+data/*.xml
+data/*.pdf
+data/*.idx
+data/*.json
+data/*.csv
+data/*.html
+
+# Ignore system/IDE files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.DS_Store
+*.idea/
+*.vscode/
+
+# Ignore git metadata
+.git/
+.gitignore
+
+# Ignore local Docker and Compose files
+docker-compose.yml
+Dockerfile
+
+# Ignore OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini

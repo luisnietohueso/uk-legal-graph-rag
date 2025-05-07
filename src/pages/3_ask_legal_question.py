@@ -55,7 +55,7 @@ Only return the list. No explanation.
         order = eval(text.strip())
         return [candidates[i - 1] for i in order if 1 <= i <= len(candidates)]
     except Exception as e:
-        st.warning("⚠️ LLM reranking failed, using original order")
+        st.warning(" LLM reranking failed, using original order")
         return candidates
 
 # === Load Embedding Model ===
@@ -142,9 +142,9 @@ def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
 # === UI ===
-st.title("🤖 Ask a Legal Question")
+st.title(" Ask a Legal Question")
 
-question = st.text_input("🔍 Enter your legal question:", "")
+question = st.text_input(" Enter your legal question:", "")
 
 if st.button("Ask"):
     if not question.strip():
@@ -212,7 +212,7 @@ Question: {question}
 Answer:
 """
 
-        st.info("📨 Sending to Mistral model via Ollama...")
+        st.info(" Sending to Mistral model via Ollama...")
 
         response = ollama.chat(
             model="mistral",
@@ -221,20 +221,20 @@ Answer:
 
         answer = response["message"]["content"]
 
-        st.subheader("📜 Answer")
+        st.subheader(" Answer")
         # Detect [1], [2], etc. and bold them
         answer_with_links = re.sub(r"\[(\d+)\]", r"[\1](#ref\1)", answer)
         st.markdown(answer_with_links)
 
-        st.subheader("🔎 Sources")
+        st.subheader(" Sources")
         for i, c in enumerate(top_chunks):
             st.markdown(f"<a name='ref{i+1}'></a>", unsafe_allow_html=True)
             with st.expander(f"[{i+1}] {c['ref']}"):
                 st.markdown(c["text"])
-        st.subheader("📄 Download Answer")
+        st.subheader(" Download Answer")
         pdf_data = generate_pdf(answer, top_chunks)
         st.download_button(
-            label="📥 Download PDF",
+            label=" Download PDF",
             data=pdf_data,
             file_name="legal_answer.pdf",
             mime="application/pdf"

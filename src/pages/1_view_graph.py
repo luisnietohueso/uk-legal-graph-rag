@@ -1,14 +1,16 @@
 import re
 import streamlit as st
 from neo4j import GraphDatabase
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-user = os.getenv("NEO4J_USER", "neo4j")
-password = os.getenv("NEO4J_PASSWORD", "test")
+NEO4J_URI = os.getenv("NEO4J_URI")
+NEO4J_USER = os.getenv("NEO4J_USER")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 
-driver = GraphDatabase.driver(uri, auth=(user, password))
-# === Streamlit UI ===
 
+driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 # === Streamlit UI ===
 st.set_page_config(page_title="Equality Act Graph Viewer", layout="wide")
 st.title("📘 UK Equality Act - Graph Viewer")
