@@ -1,7 +1,30 @@
+#  UK Legal Graph RAG Assistant 
+Legal Graph RAG: UK Equality Act and Case Law Assistant
 
-# Legal Graph RAG: UK Equality Act and Case Law Assistant
+A smart legal assistant that integrates UK legislation and case law into a unified, explainable AI system using Retrieval-Augmented Generation (RAG) and a Neo4j knowledge graph.
 
-## Project Overview
+---
+
+##  Project Summary & Motivation
+
+Navigating UK law—particularly Acts like the Equality Act 2010—can be overwhelming for students, legal researchers, and the general public. Most legal assistants lack fine-grained citations or the ability to cross-reference real case law.
+
+**Problem:** 
+- Legal documents are lengthy, unstructured, and hard to search.
+- Traditional search returns irrelevant or overly broad results.
+- Case law is disconnected from the legislation it interprets.
+
+**Solution:**  
+This project builds a RAG-based legal assistant that:
+- Understands legal structure (Part, Section, Paragraph)
+- Retrieves relevant statute and case law chunks
+- Cites precise legal references
+- Visualizes the law as a navigable graph
+
+---
+
+
+## An Outline of the Project
 
 This project builds a **Retrieval-Augmented Generation (RAG) system** for UK law, combining:
 - The **Equality Act 2010** (full legislation)
