@@ -24,7 +24,7 @@ This project builds a RAG-based legal assistant that:
 ---
 System Architecture
 
-![System Diagram](./docs/architecture_diagram.png)
+![System Diagram](![May 9, 2025, 10_34_14 PM](https://github.com/user-attachments/assets/5d828791-931c-4de9-996f-d8f0aa04ce82)
 
 This diagram illustrates the full pipeline: from parsing and embedding legal data to retrieving relevant content via RAG and generating cited answers with a local LLM.
 
