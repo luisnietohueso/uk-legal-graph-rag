@@ -1,3 +1,6 @@
+![dc610b18-6f2f-4e5b-875d-1cbaf2dd4d72](https://github.com/user-attachments/assets/2c140694-6b6e-4fa8-9484-d78b3af45057)
+
+
 #  UK Legal Graph RAG Assistant 
 Legal Graph RAG: UK Equality Act and Case Law Assistant
 
