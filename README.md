@@ -50,16 +50,22 @@ Built using **Streamlit**, **FAISS**, **Neo4j**, **Ollama**, and **Sentence Tran
 
 ## Features
 
-- Structured parsing of the Equality Act 2010 into![May 9, 2025, 10_34_12 PM](https://github.com/user-attachments/assets/6d2b9121-733d-462c-befb-a441b2a9e396)
-![May 9, 2025, 10_34_12 PM](https://github.com/user-attachments/assets/bb0c1610-b73b-4e6b-a6b4-ff03418a2a8b)
+- Structured parsing of the Equality Act 2010 into
  Parts, Chapters, Sections, and Paragraphs
+![Screenshot 2025-05-09 210635](https://github.com/user-attachments/assets/4297cc30-9138-44dc-a26c-a6797142755f)
+
 - Chunking and semantic embedding using `all-MiniLM-L6-v2`
 - Dual FAISS vector retrieval: legislation + case law
 - Local RAG pipeline with Mistral or Gemma models (via Ollama)
+  ![Screenshot 2025-05-09 214237](https://github.com/user-attachments/assets/93e89acc-31d0-4138-b6bc-71f3558303e0)
+
 - Graph database structure with Neo4j for visual exploration
 - Streamlit-based web app for easy search and interaction
+  ![Screenshot 2025-05-09 215256](https://github.com/user-attachments/assets/b0f6d861-2862-4d30-9129-f90636020252)
+
 - Clean citations and source referencing
 - Ready for further deployment with Docker
+![Screenshot 2025-05-09 220118](https://github.com/user-attachments/assets/6e7f7b5b-cfdf-4b65-ae86-467599cacad7)
 
 ---
 
