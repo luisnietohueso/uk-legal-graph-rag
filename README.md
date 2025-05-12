@@ -24,7 +24,8 @@ This project builds a RAG-based legal assistant that:
 ---
 System Architecture
 
-![System Diagram](![May 9, 2025, 10_34_14 PM](https://github.com/user-attachments/assets/5d828791-931c-4de9-996f-d8f0aa04ce82)
+
+![May 9, 2025, 10_34_12 PM](https://github.com/user-attachments/assets/fc691c41-03e4-40fa-97ba-61fe539b9f12)
 
 This diagram illustrates the full pipeline: from parsing and embedding legal data to retrieving relevant content via RAG and generating cited answers with a local LLM.
 
@@ -49,7 +50,9 @@ Built using **Streamlit**, **FAISS**, **Neo4j**, **Ollama**, and **Sentence Tran
 
 ## Features
 
-- Structured parsing of the Equality Act 2010 into Parts, Chapters, Sections, and Paragraphs
+- Structured parsing of the Equality Act 2010 into![May 9, 2025, 10_34_12 PM](https://github.com/user-attachments/assets/6d2b9121-733d-462c-befb-a441b2a9e396)
+![May 9, 2025, 10_34_12 PM](https://github.com/user-attachments/assets/bb0c1610-b73b-4e6b-a6b4-ff03418a2a8b)
+ Parts, Chapters, Sections, and Paragraphs
 - Chunking and semantic embedding using `all-MiniLM-L6-v2`
 - Dual FAISS vector retrieval: legislation + case law
 - Local RAG pipeline with Mistral or Gemma models (via Ollama)
