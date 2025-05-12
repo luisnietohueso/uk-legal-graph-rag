@@ -22,6 +22,11 @@ This project builds a RAG-based legal assistant that:
 - Visualizes the law as a navigable graph
 
 ---
+System Architecture
+
+![System Diagram](./docs/architecture_diagram.png)
+
+This diagram illustrates the full pipeline: from parsing and embedding legal data to retrieving relevant content via RAG and generating cited answers with a local LLM.
 
 
 ## An Outline of the Project
